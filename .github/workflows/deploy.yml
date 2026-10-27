@@ -66,7 +66,7 @@ jobs:
         run: pnpm check
       - name: test
         run: pnpm test
-      - name: smoke (real data only: it uses real ids such as sk_hello and ge_method)
+      - name: smoke (real data only, since it uses real ids such as sk_hello and ge_method)
         if: env.HAS_DATA == 'true'
         run: pnpm exec playwright install --with-deps chromium && pnpm smoke
 
