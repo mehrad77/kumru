@@ -1,0 +1,711 @@
+{
+  "arc": {
+    "en": "What time is it?",
+    "fa": "ساعت چند است؟",
+    "id": "s1w05",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Saat kaç?"
+  },
+  "cast": [
+    "nima",
+    "kirlangic",
+    "zafer",
+    "parvaneh"
+  ],
+  "extras": [
+    "yusuf",
+    "alex",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Look: 10:15. What time is it? In Turkish, please!",
+      "fa": "ببینید: ۱۰:۱۵. ساعت چنده؟ به ترکی، لطفاً!",
+      "to": "nima",
+      "tr": "Bakın: 10:15. Saat kaç? Türkçe, lütfen!",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_onu_ceyrek",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "It's a quarter past ten.",
+            "fa": "ساعت ده و ربعه.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very good! So, what time is it in Tehran?",
+                "fa": "خیلی خوب! خب، توی تهران ساعت چنده؟",
+                "tr": "Çok güzel! Peki, Tahran'da saat kaç?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Saat onu çeyrek geçiyor."
+          },
+          {
+            "en": "It's half past ten.",
+            "fa": "ساعت ده و نیمه.",
+            "react": {
+              "zafer": "confused"
+            },
+            "reply": [
+              {
+                "en": "Not half past: a quarter past ten. So, what time is it in Tehran?",
+                "fa": "نیم نیست: ده و ربعه. خب، توی تهران ساعت چنده؟",
+                "tr": "Buçuk değil: onu çeyrek geçiyor. Peki, Tahran'da saat kaç?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Saat on buçuk."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "In Tehran… it's a quarter to eleven!",
+      "fa": "توی تهران… یه ربع به یازده!",
+      "to": "zafer",
+      "tr": "Tahran'da… saat on bire çeyrek var!",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! The time difference: thirty minutes.",
+      "fa": "آره! اختلافِ ساعت: سی دقیقه.",
+      "to": "nima",
+      "tr": "Evet! Saat farkı: otuz dakika.",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "hocam": [
+      "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
+      "my teacher (how students address a teacher)"
+    ],
+    "ikiye": [
+      "به دو؛ «on ikiye kadar» یعنی تا دوازده",
+      "to two; “on ikiye kadar”: until twelve"
+    ],
+    "kaldım": [
+      "ماندم؛ «geç kaldım» یعنی دیر کردم",
+      "I stayed; “geç kaldım”: I'm late"
+    ],
+    "kırlangıç": [
+      "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "Kırlangıç (a name; the word means swallow)"
+    ],
+    "onu": [
+      "ده را (در گفتنِ ساعت: onu çeyrek geçiyor)؛ همچنین: او را",
+      "ten, with -u (telling the time: onu çeyrek geçiyor); also: him, her, it"
+    ],
+    "programı": [
+      "برنامه‌اش",
+      "his/her/its programme, schedule"
+    ],
+    "tahran": [
+      "تهران",
+      "Tehran"
+    ],
+    "tam": [
+      "درست، دقیقاً",
+      "exactly, sharp"
+    ],
+    "zafer": [
+      "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
+      "Zafer (a name; the word means victory)"
+    ]
+  },
+  "id": "s1e25",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_saatler",
+    "g_a1_5_dan_a_kadar",
+    "g_a1_5_gecmis"
+  ],
+  "level": "A1",
+  "place": "flat_nima_room",
+  "props": {
+    "ariza": {
+      "at": {
+        "metro_osmanbey_street": {
+          "x": 1.7,
+          "y": 0,
+          "z": -1.95
+        }
+      },
+      "kit": "sign_board",
+      "label": "ARIZA",
+      "sub": "KAPALI",
+      "terms": [
+        "b1-w-ariza",
+        "a1-w-kapali"
+      ],
+      "variant": "post"
+    },
+    "kol_saati": {
+      "at": {
+        "flat_nima_room": {
+          "x": -0.35,
+          "y": 0.52,
+          "z": -1.55
+        }
+      },
+      "kit": "watch",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "8:30"
+    },
+    "orgu": {
+      "at": {
+        "bus": {
+          "x": -1.35,
+          "y": 0.47,
+          "z": -0.85
+        }
+      },
+      "color": "#8E6A9A",
+      "kit": "yarn",
+      "terms": [
+        "a2-w-orgu"
+      ],
+      "variant": "knitting"
+    },
+    "saat_kagidi": {
+      "at": {
+        "class504": {
+          "x": -1.45,
+          "y": 1.35,
+          "z": -3.04
+        }
+      },
+      "kit": "paper",
+      "terms": [],
+      "time": "9:15",
+      "variant": "clock_face"
+    },
+    "telefon": {
+      "at": {
+        "bus": {
+          "x": -1.85,
+          "y": 0.47,
+          "z": -0.9
+        }
+      },
+      "kit": "phone",
+      "screen": "09:00",
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Nima's watch: which time is it on?",
+      "fa": "ساعتِ نیما: به وقتِ کجاست؟",
+      "kind": "comp",
+      "options": [
+        "Tahran saati",
+        "İstanbul saati",
+        "Otobüs saati"
+      ],
+      "q": "Nima'nın saati: hangi saat?",
+      "why": "Kırlangıç: “Senin saatin… Tahran saati!”"
+    },
+    {
+      "a": 0,
+      "en": "“Saat dokuzu çeyrek geçiyor.” How many minutes is a çeyrek?",
+      "fa": "«Saat dokuzu çeyrek geçiyor.» یک çeyrek چند دقیقه است؟",
+      "kind": "word",
+      "options": [
+        "On beş dakika",
+        "Otuz dakika",
+        "Kırk beş dakika"
+      ],
+      "q": "“Saat dokuzu çeyrek geçiyor.” Çeyrek kaç dakika?",
+      "why": "Kerim: “Saat dokuzu çeyrek geçiyor.”: 9:15. Bir çeyrek: on beş dakika."
+    },
+    {
+      "a": 0,
+      "en": "Nima reaches the classroom. What time is it?",
+      "fa": "نیما به کلاس می‌رسد. ساعت چند است؟",
+      "kind": "comp",
+      "options": [
+        "Dokuzu yirmi geçiyor",
+        "Sekiz buçuk",
+        "Dokuza çeyrek var"
+      ],
+      "q": "Nima sınıfta. Saat kaç?",
+      "why": "Zafer Hoca: “Saat dokuzu yirmi geçiyor. Buyurun!”"
+    }
+  ],
+  "ref": "A1_5",
+  "releaseDate": "2026-10-05",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "bed"
+      },
+      "kerim": "sill",
+      "scene": "flat_nima_room",
+      "time": "dawn"
+    },
+    {
+      "at": "obj:kol_saati",
+      "cam": "obj",
+      "en": "Good morning! It's eight o'clock. But Nima's watch says… half past eight!",
+      "fa": "صبح بخیر! ساعت هشته. ولی ساعتِ نیما… هشت و نیمه!",
+      "link": {
+        "saati": "obj:kol_saati"
+      },
+      "narr": true,
+      "sfx": {
+        "id": "beak_tap",
+        "word": "tık tık"
+      },
+      "tr": "Günaydın! Saat sekiz. Ama Nima'nın saati… sekiz buçuk!",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:kol_saati",
+      "do": "hold_up",
+      "emo": "nervous",
+      "en": "Half past eight! I'm late!",
+      "fa": "هشت و نیم! دیرم شد!",
+      "link": {
+        "buçuk": "obj:kol_saati"
+      },
+      "obj": [
+        {
+          "id": "kol_saati",
+          "op": "take"
+        }
+      ],
+      "tr": "Sekiz buçuk! Geç kaldım!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "exit",
+          "to": "door",
+          "who": "nima"
+        },
+        "sfx": {
+          "id": "door_close",
+          "word": "küt!"
+        }
+      }
+    },
+    {
+      "at": {
+        "nima": "walk_r"
+      },
+      "kerim": "canopy",
+      "scene": "metro_osmanbey_street",
+      "state": "closed",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "at": "obj:ariza",
+        "cam": "obj",
+        "do": "look",
+        "emo": "surprised",
+        "move": {
+          "how": "run",
+          "to": "street",
+          "who": "nima"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "emo": "nervous",
+        "move": {
+          "how": "run",
+          "to": "walk_l",
+          "who": "nima"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "at": {
+        "kirlangic": "seat_l",
+        "nima": "pole"
+      },
+      "scene": "bus",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "do": "knit",
+        "loop": true,
+        "sfx": {
+          "id": "knitting_clicks",
+          "word": "tık tık tık"
+        },
+        "who": "kirlangic"
+      }
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Good morning, Nima! Where are you off to?",
+      "fa": "صبح بخیر، نیما! کجا می‌ری؟",
+      "move": {
+        "how": "walk",
+        "to": "seat_r",
+        "who": "nima"
+      },
+      "obj": [
+        {
+          "id": "kol_saati",
+          "op": "set",
+          "set": {
+            "time": "9:30"
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Günaydın, Nima! Nereye?",
+      "who": "kirlangic"
+    },
+    {
+      "emo": "nervous",
+      "en": "To school! I'm late!",
+      "fa": "مدرسه! دیرم شده!",
+      "to": "kirlangic",
+      "tr": "Okula! Geç kaldım!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:telefon",
+      "do": "hold_up",
+      "emo": "curious",
+      "en": "Late? What time is it?",
+      "fa": "دیر؟ ساعت چنده؟",
+      "link": {
+        "saat": "obj:telefon"
+      },
+      "obj": [
+        {
+          "id": "telefon",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Geç mi? Saat kaç?",
+      "who": "kirlangic"
+    },
+    {
+      "choice": {
+        "id": "saat_kac",
+        "kind": "meaning",
+        "options": [
+          {
+            "at": "obj:telefon",
+            "do": "look",
+            "en": "It's nine o'clock.",
+            "fa": "ساعت نهه.",
+            "ok": true,
+            "react": {
+              "kirlangic": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "nod",
+                "emo": "happy",
+                "en": "Yes, nine! And your watch?",
+                "fa": "آره، ساعت نه! ساعتِ تو چی؟",
+                "tr": "Evet, dokuz! Peki senin saatin?",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Saat dokuz."
+          },
+          {
+            "at": "obj:kol_saati",
+            "do": "look",
+            "en": "Half past nine.",
+            "fa": "نه و نیم.",
+            "link": {
+              "buçuk": "obj:kol_saati"
+            },
+            "react": {
+              "kirlangic": "confused"
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "confused",
+                "en": "No, look: nine!",
+                "fa": "نه، ببین: ساعت نهه!",
+                "tr": "Hayır, bak: dokuz!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Dokuz buçuk."
+          },
+          {
+            "emo": "curious",
+            "en": "It's a quarter to nine.",
+            "fa": "یه ربع به نه.",
+            "react": {
+              "kirlangic": "laugh"
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "No quarter… nine on the dot!",
+                "fa": "ربع نداره… درست ساعت نهه!",
+                "tr": "Çeyrek yok… tam dokuz!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Dokuza çeyrek var."
+          }
+        ],
+        "to": "kirlangic"
+      }
+    },
+    {
+      "at": "obj:kol_saati",
+      "do": "point",
+      "emo": "laugh",
+      "en": "Your watch… it's on Tehran time! The time difference: thirty minutes.",
+      "fa": "ساعتِ تو… به وقتِ تهرانه! اختلافِ ساعت: سی دقیقه.",
+      "link": {
+        "saatin": "obj:kol_saati"
+      },
+      "react": {
+        "nima": "laugh"
+      },
+      "to": "nima",
+      "tr": "Senin saatin… Tahran saati! Saat farkı: otuz dakika.",
+      "who": "kirlangic"
+    },
+    {
+      "cam": "wide",
+      "en": "It's a quarter past nine. Nima's schedule: class, from nine to twelve. But the bus… isn't moving!",
+      "env": [
+        "stop",
+        "state:stuck"
+      ],
+      "fa": "ساعت نه و ربعه. برنامه‌ی نیما: کلاس، از نه تا دوازده. ولی اتوبوس… تکون نمی‌خوره!",
+      "narr": true,
+      "obj": [
+        {
+          "id": "telefon",
+          "op": "set",
+          "set": {
+            "screen": "09:15"
+          }
+        },
+        {
+          "id": "kol_saati",
+          "op": "set",
+          "set": {
+            "time": "9:45"
+          }
+        }
+      ],
+      "sfx": {
+        "id": "traffic",
+        "word": "düüt düüt"
+      },
+      "tr": "Saat dokuzu çeyrek geçiyor. Nima'nın programı: ders, dokuzdan on ikiye kadar. Ama otobüs… gitmiyor!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "door",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          },
+          {
+            "id": "kol_saati",
+            "op": "set",
+            "set": {
+              "time": "9:50"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "do": "bow_head",
+      "emo": "shy",
+      "en": "I'm sorry, teacher, I'm late.",
+      "fa": "ببخشید استاد، دیر کردم.",
+      "to": "zafer",
+      "tr": "Özür dilerim, hocam, geç kaldım.",
+      "who": "nima"
+    },
+    {
+      "at": "mark:seat_1",
+      "do": "point",
+      "emo": "happy",
+      "en": "It's twenty past nine. Come in!",
+      "fa": "ساعت نه و بیست دقیقه‌ست. بفرمایید!",
+      "move": {
+        "how": "walk",
+        "to": "seat_1",
+        "via": [
+          "board"
+        ],
+        "who": "nima"
+      },
+      "to": "nima",
+      "tr": "Saat dokuzu yirmi geçiyor. Buyurun!",
+      "who": "zafer"
+    },
+    {
+      "emo": "curious",
+      "en": "Nima, what time is it?",
+      "fa": "نیما، ساعت چنده؟",
+      "to": "nima",
+      "tr": "Nima, saat kaç?",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kol_saati",
+      "do": "look",
+      "emo": "confused",
+      "en": "It's… ten?",
+      "fa": "ساعت… ده؟",
+      "link": {
+        "saat": "obj:kol_saati"
+      },
+      "obj": [
+        {
+          "id": "kol_saati",
+          "op": "set",
+          "set": {
+            "time": "10:00"
+          }
+        }
+      ],
+      "react": {
+        "parvaneh": "laugh"
+      },
+      "to": "zafer",
+      "tr": "Saat… on?",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "Tehran time!",
+      "fa": "وقتِ تهران!",
+      "react": {
+        "nima": "shy"
+      },
+      "to": "nima",
+      "tr": "Tahran saati!",
+      "who": "parvaneh"
+    },
+    {
+      "at": "obj:saat_kagidi",
+      "do": "point",
+      "emo": "happy",
+      "en": "No: it's half past nine.",
+      "fa": "نخیر: ساعت نه و نیمه.",
+      "link": {
+        "saat": "obj:saat_kagidi"
+      },
+      "obj": [
+        {
+          "id": "saat_kagidi",
+          "op": "set",
+          "set": {
+            "time": "9:30"
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Hayır: saat dokuz buçuk.",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kol_saati",
+      "do": "hold_up",
+      "emo": "moved",
+      "en": "This watch… is on Tehran time. I don't want to change it.",
+      "fa": "این ساعت… وقتِ تهرانه. نمی‌خوام عوضش کنم.",
+      "link": {
+        "saat": "obj:kol_saati"
+      },
+      "react": {
+        "zafer": {
+          "do": "nod",
+          "emo": "moved"
+        }
+      },
+      "to": "zafer",
+      "tr": "Bu saat… Tahran saati. Değiştirmek istemiyorum.",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "at": "obj:kol_saati",
+        "en": "Telling the time. Saat sekiz: 8:00. Sekiz buçuk: 8:30 (buçuk = half). Dokuzu çeyrek geçiyor: 9:15, a quarter past nine (the hour takes -(y)I). Dokuza çeyrek var: 8:45, a quarter to nine (the hour takes -(y)A). So Zafer Hoca's “Saat dokuzu yirmi geçiyor” is 9:20. And Nima's watch? İstanbul'da dokuz buçuk, Tahran'da on: saat farkı otuz dakika.",
+        "ex": "Saat dokuzu yirmi geçiyor.",
+        "fa": "گفتنِ ساعت. Saat sekiz یعنی ساعت هشت. Sekiz buçuk یعنی هشت و نیم (buçuk = نیم). Dokuzu çeyrek geçiyor یعنی نه و ربع: ساعت پسوندِ -(y)I می‌گیرد. Dokuza çeyrek var یعنی یک ربع به نه: ساعت پسوندِ -(y)A می‌گیرد، درست مثلِ «به» در فارسی. پس «Saat dokuzu yirmi geçiyor» یعنی نه و بیست دقیقه. ساعتِ نیما چه؟ در استانبول نه و نیم است، در تهران ده: اختلافِ ساعت سی دقیقه است.",
+        "lesson": "g_a1_5_saatler",
+        "show": "clock"
+      }
+    }
+  ],
+  "summary": "Nima's old watch still runs on Tehran time, half an hour ahead. The metro is closed, Nima and Kırlangıç get stuck in traffic on the bus, and in class the clock game gets a laugh.",
+  "summaryFa": "ساعتِ قدیمیِ نیما هنوز به وقتِ تهران است، نیم ساعت جلوتر. مترو بسته است، نیما و پرستو با اتوبوس در ترافیک گیر می‌کنند و در کلاس، بازیِ ساعت همه را می‌خنداند.",
+  "title": "Tahran saati",
+  "titleEn": "Tehran time",
+  "titleFa": "ساعتِ تهران",
+  "words": [
+    "a1-w-bucuk",
+    "a1-w-ceyrek",
+    "a1-w-saat-farki",
+    "a1-w-program",
+    "a1-w-degistirmek",
+    "a1-w-dakika"
+  ]
+}

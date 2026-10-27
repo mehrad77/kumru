@@ -1,0 +1,70 @@
+/* The Friends tab: my link and code, the "Add a friend" box, the inbox, the leaderboard and a learner's sheet. The person rows and
+   board list it shares with Classes are ui/people.css. */
+@layer features {
+.fr-shell{display:grid;gap:16px;max-width:640px;margin:0 auto}
+.fr-slot:empty{display:none}
+.fr-title{margin:4px 0 0;font:400 32px/1.15 var(--sans);letter-spacing:-.02em}
+.fr-h{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+/* header: me and my code */
+.fr-head{background:var(--grad-card-sage)}
+.fr-me{display:flex;align-items:center;gap:14px}
+.fr-name{margin:2px 0 0;font:400 26px/1.15 var(--sans);letter-spacing:-.01em}
+.fr-code-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.fr-code{font:500 34px/1 var(--sans);letter-spacing:.18em;font-variant-numeric:tabular-nums;color:var(--ink);background:var(--surface);border-radius:var(--radius-md);padding:10px 14px 10px 18px;box-shadow:var(--shadow-float);user-select:all}
+.fr-head .hint{margin:0}
+.fr-note{color:var(--warm)}
+/* add a friend */
+.fr-results{display:grid;gap:4px}
+.fr-results .hint{margin:4px 2px}
+/* person rows (search, inbox, following) */
+.fr-fa{font-family:var(--fa)}
+.fr-pill{background:var(--sunken);color:var(--muted)}
+.fr-pill.ok{background:var(--good-soft);color:var(--good)}
+.fr-pill.you{background:var(--act);color:var(--act-text);align-self:flex-start}
+.fr-pill.new{background:var(--ochre-soft);color:var(--bark)}
+/* leaderboard */
+.fr-flame{flex:none;display:inline-flex;align-items:center;gap:3px;min-width:42px;justify-content:flex-end;font-weight:500;font-variant-numeric:tabular-nums}
+.fr-fi{display:inline-flex;width:16px;height:16px;color:var(--warm)}
+.fr-fi svg{width:100%;height:100%}
+.fr-empty{margin:0;padding:20px 16px;font-size:14px}
+/* friend sheet */
+.fr-sh-top{display:grid;justify-items:center;gap:6px;text-align:center}
+.fr-sh-top h2{margin:6px 0 0;font:400 28px/1.15 var(--sans);letter-spacing:-.02em}
+.fr-sh-top .hint{margin:0}
+.fr-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.fr-stat{background:var(--sunken);border-radius:var(--radius-md);padding:12px 6px;display:grid;justify-items:center;gap:2px;text-align:center}
+.fr-stat b{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.fr-stat small{font-size:12px;color:var(--muted)}
+.fr-units{margin:6px 0 0;padding:0;list-style:none;display:grid;gap:6px;font-size:14px}
+.fr-units b{font-weight:500}
+.fr-cheers{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fr-cheer{flex-direction:column;gap:0;min-height:64px;border-radius:var(--radius-lg);background:var(--grad-card-sand)}
+.fr-cheer b{font-size:18px;font-weight:600}
+.fr-cheer small{font-family:var(--fa);font-size:13px;color:var(--muted)}
+.fr-wait{margin:-4px 0 0;text-align:center}
+@media (max-width:420px){.fr-stats{grid-template-columns:1fr 1fr}.fr-code{font-size:28px}}
+.fr-scope{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));width:100%;margin-top:12px}
+.fr-scope button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;font-size:15px}
+.fr-scope button small{font-size:12px;padding:1px 8px;border-radius:999px;background:var(--sunken);color:var(--muted)}
+.fr-scope button[aria-pressed="true"] small{background:var(--sage-100,var(--sunken));color:var(--ink)}
+.fr-sub{display:flex;align-items:center;justify-content:space-between;gap:8px 12px;flex-wrap:wrap;margin:12px 0 4px}
+.fr-sub .hint,.fr-glob{margin:0}
+.fr-glob{margin-bottom:4px}
+.fr-link{font-weight:600;overflow-wrap:anywhere;flex:1 1 100%}
+/* friend sheet: icons and cues */
+.fr-ic{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--surface);color:var(--muted);box-shadow:var(--shadow-float);flex:none}
+.fr-ic svg{width:16px;height:16px}
+.fr-stat .fr-ic{margin-bottom:4px}
+.fr-stat.hot .fr-ic{background:#FBE7D3;color:#C8571F}
+.fr-stat .fr-ic.hot{box-shadow:none}
+.fr-rel{display:inline-flex;align-items:center;gap:6px;padding:4px 12px 4px 6px;font-weight:500}
+.fr-rel .fr-ic{width:22px;height:22px;box-shadow:none}.fr-rel .fr-ic svg{width:13px;height:13px}
+.fr-rel.friends{background:var(--accent-soft);color:var(--ink)}.fr-rel.friends .fr-ic{background:var(--act);color:var(--act-text)}
+.fr-rel.follower .fr-ic svg{transform:scaleX(-1)}
+.fr-un{margin:0;color:var(--muted);font-size:14px}
+.fr-meta{display:flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap}
+.fr-lv{background:var(--accent-soft);color:var(--ink);font-weight:600;padding:2px 10px}
+.fr-ch-ic{margin-bottom:2px;background:rgba(255,255,255,.7);box-shadow:none;width:26px;height:26px}
+.fr-cheer{min-height:84px;padding-block:10px}
+.fr-empty p{margin:0}
+}

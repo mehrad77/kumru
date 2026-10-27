@@ -1,0 +1,536 @@
+{
+  "arc": {
+    "en": "Before the exam",
+    "fa": "پیش از امتحان",
+    "id": "s1w07",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Sınavdan önce"
+  },
+  "cast": [
+    "maria",
+    "nima"
+  ],
+  "extras": [
+    "usta"
+  ],
+  "followUp": [
+    {
+      "en": "Now you tell me: what did you do on the first day?",
+      "fa": "حالا شما تعریف کنید: روزِ اول چی‌کار کردید؟",
+      "to": "nima",
+      "tr": "Şimdi siz anlatın: ilk gün ne yaptınız?",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "fu_ilk_gun",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I came to Istanbul. Then I walked a lot.",
+            "fa": "اومدم استانبول. بعد خیلی پیاده‌روی کردم.",
+            "ok": true,
+            "react": {
+              "maria": "happy"
+            },
+            "reply": [
+              {
+                "en": "You told that very well! First you came, then you walked.",
+                "fa": "خیلی خوب تعریف کردید! اول اومدید، بعد پیاده‌روی کردید.",
+                "to": "nima",
+                "tr": "Çok güzel anlattınız! Önce geldiniz, sonra yürüdünüz.",
+                "who": "maria"
+              }
+            ],
+            "tone": "warm",
+            "tr": "İstanbul'a geldim. Sonra çok yürüdüm."
+          },
+          {
+            "en": "The first day… I slept a lot!",
+            "fa": "روزِ اول… خیلی خوابیدم!",
+            "react": {
+              "maria": "laugh"
+            },
+            "reply": [
+              {
+                "en": "You slept? Me too!",
+                "fa": "خوابیدید؟ من هم همین‌طور!",
+                "to": "nima",
+                "tr": "Uyudunuz mu? Ben de!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "İlk gün… çok uyudum!"
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "en": "Who did you see on the first day?",
+      "fa": "روزِ اول کی رو دیدید؟",
+      "to": "nima",
+      "tr": "İlk gün kimi gördünüz?",
+      "who": "maria"
+    },
+    {
+      "en": "I saw a bird… Kerim!",
+      "fa": "یه پرنده دیدم… کریم رو!",
+      "to": "maria",
+      "tr": "Bir kuş gördüm… Kerim'i!",
+      "who": "nima"
+    },
+    {
+      "en": "Kerim? I see her every morning too!",
+      "fa": "کریم رو؟ من هم هر صبح می‌بینمش!",
+      "to": "nima",
+      "tr": "Kerim'i mi? Ben de her sabah görüyorum!",
+      "who": "maria"
+    }
+  ],
+  "gl": {
+    "afiyet": [
+      "نوشِ جان",
+      "afiyet olsun: enjoy (your food or drink)"
+    ],
+    "belki": [
+      "شاید",
+      "maybe"
+    ],
+    "beri": [
+      "تا حالا، از… به این طرف",
+      "since (-dan beri: for, since)"
+    ],
+    "damlaya": [
+      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a district of Şişli)"
+    ],
+    "haftadan": [
+      "از… هفته",
+      "from … weeks (hafta + -dan)"
+    ],
+    "hangisiydi": [
+      "کدام بود؟",
+      "which one was it?"
+    ],
+    "hikâye": [
+      "قصه، داستان",
+      "story"
+    ],
+    "metroda": [
+      "توی مترو",
+      "on the metro"
+    ],
+    "nihayet": [
+      "بالاخره",
+      "at last"
+    ],
+    "noter": [
+      "دفترخانه، محضر",
+      "notary"
+    ],
+    "onaylı": [
+      "تأییدشده، مهرخورده",
+      "approved, stamped"
+    ],
+    "rehber": [
+      "راهنما",
+      "guide"
+    ],
+    "sözleşmeyi": [
+      "قرارداد را",
+      "the contract (as object)"
+    ],
+    "tolga": [
+      "تولگا (اسم)",
+      "Tolga (a name)"
+    ],
+    "usta": [
+      "تعمیرکار، اوستا",
+      "repairman"
+    ],
+    "zordu": [
+      "سخت بود",
+      "was hard"
+    ]
+  },
+  "id": "s1e41",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_gecmis",
+    "g_a1_5_once_sonra",
+    "g_a1_5_dan_beri"
+  ],
+  "level": "A1",
+  "looks": {
+    "maria": "home"
+  },
+  "place": "flat_nima_street",
+  "props": {
+    "kol_saati": {
+      "at": {
+        "flat_maria": {
+          "x": 0.95,
+          "y": 0.6,
+          "z": -1.15
+        }
+      },
+      "kit": "watch",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "4:45"
+    },
+    "toolbox": {
+      "at": {
+        "flat_nima_street": "steps"
+      },
+      "kit": "tool",
+      "shown": false,
+      "terms": [],
+      "variant": "toolbox"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Who came this morning?",
+      "fa": "امروز صبح چه کسی آمد؟",
+      "kind": "comp",
+      "options": [
+        "Usta",
+        "Serkan",
+        "Kerim"
+      ],
+      "q": "Bu sabah kim geldi?",
+      "why": "Nima: “Ve bu sabah usta geldi!”"
+    },
+    {
+      "a": 0,
+      "en": "Maria Teyze: “Go on, tell me! … what happened on the first day?”",
+      "fa": "خاله ماریا: «خب، تعریف کنید! … روزِ اول چه شد؟»",
+      "kind": "word",
+      "options": [
+        "Önce",
+        "Hiç",
+        "Belki"
+      ],
+      "q": "Maria Teyze: “Anlatın bakalım! … ilk gün ne oldu?”",
+      "why": "Maria Teyze: “Önce… ilk gün ne oldu?”"
+    },
+    {
+      "a": 0,
+      "en": "How many weeks has Nima been here?",
+      "fa": "نیما چند هفته است این‌جاست؟",
+      "kind": "comp",
+      "options": [
+        "Yedi haftadan beri",
+        "Altı haftadan beri",
+        "Sekiz haftadan beri"
+      ],
+      "q": "Nima kaç haftadan beri burada?",
+      "why": "Nima: “Yedi haftadan beri buradayım.”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-23",
+  "season": 1,
+  "steps": [
+    {
+      "at": {},
+      "kerim": "cornice",
+      "scene": "flat_nima_street",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "enter",
+          "to": "steps",
+          "who": "usta"
+        },
+        "obj": [
+          {
+            "id": "toolbox",
+            "op": "show"
+          },
+          {
+            "id": "toolbox",
+            "op": "take"
+          }
+        ],
+        "who": "usta"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Friday. Tea. And… a story.",
+      "fa": "جمعه. چای. و… یه قصه.",
+      "move": {
+        "how": "walk",
+        "to": "walk_r",
+        "who": "usta"
+      },
+      "narr": true,
+      "tr": "Cuma. Çay. Ve… bir hikâye.",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "maria": "maria_chair",
+        "nima": "guest"
+      },
+      "kerim": "geraniums",
+      "scene": "flat_maria",
+      "time": "golden"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "Go on, tell me! First… what happened on the first day?",
+      "fa": "خب، تعریف کنید ببینم! اول… روزِ اول چی شد؟",
+      "to": "nima",
+      "tr": "Anlatın bakalım! Önce… ilk gün ne oldu?",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "I came to Istanbul on the seventh of September. I looked for a flat and found one in Feriköy.",
+      "fa": "هفتمِ سپتامبر اومدم استانبول. دنبالِ خونه گشتم، توی فری‌کؤی پیدا کردم.",
+      "frame": "past_inset",
+      "of": {
+        "step": 5,
+        "story": "s1e01"
+      },
+      "to": "maria",
+      "tr": "Yedi Eylül'de İstanbul'a geldim. Bir ev aradım, Feriköy'de buldum.",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "And then?",
+      "fa": "بعد؟",
+      "to": "nima",
+      "tr": "Sonra?",
+      "who": "maria"
+    },
+    {
+      "do": "you",
+      "emo": "laugh",
+      "en": "I moved in… and I saw you on the metro!",
+      "fa": "اسباب‌کشی کردم… و توی مترو شما رو دیدم!",
+      "frame": "past_inset",
+      "of": {
+        "step": 16,
+        "story": "s1e14"
+      },
+      "to": "maria",
+      "tr": "Taşındım… ve metroda sizi gördüm!",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "I remember! And after that?",
+      "fa": "یادمه! بعدش؟",
+      "to": "nima",
+      "tr": "Hatırlıyorum! Ve sonra?",
+      "who": "maria"
+    },
+    {
+      "emo": "proud",
+      "en": "Last week we wrote a guide. And this morning the repairman came! And Tolga Bey brought the contract: stamped by the notary!",
+      "fa": "هفتهٔ پیش یه راهنما نوشتیم. و امروز صبح تعمیرکار اومد! آقای تولگا هم قرارداد رو آورد: مهرِ محضر خورده!",
+      "frame": "past_inset",
+      "of": {
+        "step": 3,
+        "story": "s1e36"
+      },
+      "to": "maria",
+      "tr": "Geçen hafta bir rehber yazdık. Ve bu sabah usta geldi! Tolga Bey de sözleşmeyi getirdi: noter onaylı!",
+      "who": "nima"
+    },
+    {
+      "do": "clap",
+      "emo": "happy",
+      "en": "At last! So… have you had tea on the Bosphorus?",
+      "fa": "بالاخره! خب… کنارِ بسفر چای خوردید؟",
+      "link": {
+        "çay": "obj:tea_glass"
+      },
+      "to": "nima",
+      "tr": "Nihayet! Peki… Boğaz'da çay içtiniz mi?",
+      "who": "maria"
+    },
+    {
+      "do": "shake_head",
+      "emo": "sad",
+      "en": "No… not yet. It's always another day!",
+      "fa": "نه… هنوز نخوردم. همیشه یه روزِ دیگه!",
+      "to": "maria",
+      "tr": "Hayır… daha içmedim. Hep başka bir gün!",
+      "who": "nima"
+    },
+    {
+      "do": "shrug",
+      "emo": "happy",
+      "en": "Thursday is a holiday. Maybe…",
+      "fa": "پنجشنبه تعطیله. شاید…",
+      "to": "nima",
+      "tr": "Perşembe bayram. Belki…",
+      "who": "maria"
+    },
+    {
+      "beat": {
+        "cam": "close",
+        "obj": [
+          {
+            "id": "kol_saati",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "at": "obj:kol_saati",
+        "cam": "obj",
+        "obj": [
+          {
+            "id": "kol_saati",
+            "op": "set",
+            "set": {
+              "time": "4:15"
+            }
+          }
+        ],
+        "wait": 900,
+        "who": "nima"
+      }
+    },
+    {
+      "emo": "moved",
+      "en": "I've been here for seven weeks.",
+      "fa": "هفت هفته‌ست که این‌جام.",
+      "to": "maria",
+      "tr": "Yedi haftadan beri buradayım.",
+      "who": "nima"
+    },
+    {
+      "do": "explain",
+      "emo": "moved",
+      "en": "Drop by drop, a lake forms. So… which day was the hardest?",
+      "fa": "قطره قطره جمع گردد، وانگهی دریا شود. خب… سخت‌ترین روز کدوم بود؟",
+      "to": "nima",
+      "tr": "Damlaya damlaya göl olur. Peki… en zor gün hangisiydi?",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "zor_gun",
+        "kind": "polite",
+        "options": [
+          {
+            "emo": "moved",
+            "en": "The first week was hard. But then friends came.",
+            "fa": "هفتهٔ اول سخت بود. ولی بعدش دوست‌ها پیدا شدن.",
+            "ok": true,
+            "react": {
+              "maria": {
+                "at": "ch:nima",
+                "do": "touch",
+                "emo": "moved"
+              }
+            },
+            "tone": "warm",
+            "tr": "İlk hafta zordu. Ama sonra arkadaşlar geldi."
+          },
+          {
+            "emo": "proud",
+            "en": "It wasn't hard at all!",
+            "fa": "اصلاً سخت نبود!",
+            "react": {
+              "maria": "surprised"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Not at all?",
+                "fa": "اصلاً؟",
+                "to": "nima",
+                "tr": "Hiç mi?",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Hiç zor değildi!"
+          },
+          {
+            "emo": "shy",
+            "en": "The tea's lovely!",
+            "fa": "چای خیلی خوبه!",
+            "link": {
+              "çay": "obj:tea_glass"
+            },
+            "react": {
+              "maria": "happy"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Enjoy it!",
+                "fa": "نوشِ جان!",
+                "to": "nima",
+                "tr": "Afiyet olsun!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Çay çok güzel!"
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "spot": {
+        "en": "The season in three tools. -DI tells what happened: geldim, aradım, buldum, taşındım, yazdık. önce / sonra put it in order: “Önce… ilk gün ne oldu?”, “Sonra?”. And -DAn beri says how long, up to now: “Yedi haftadan beri buradayım.”",
+        "ex": "İstanbul'a geldim",
+        "fa": "این هفت هفته در سه ابزار: ‎-DI‎ می‌گوید چه شد: geldim (آمدم)، aradım (گشتم)، buldum (پیدا کردم)، taşındım (اسباب‌کشی کردم)، yazdık (نوشتیم). önce / sonra ترتیب را می‌گویند: «Önce… ilk gün ne oldu?»، «Sonra?». و ‎-DAn beri‎ می‌گوید از کی تا حالا: «Yedi haftadan beri buradayım.» (هفت هفته است که این‌جا هستم).",
+        "lesson": "g_a1_5_gecmis",
+        "show": "aspect"
+      }
+    },
+    {
+      "emo": "moved",
+      "en": "Seven weeks… have become a lake.",
+      "fa": "هفت هفته… قطره‌قطره دریا شد.",
+      "narr": true,
+      "tr": "Yedi hafta… bir göl oldu.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "No class on Friday. Over tea, Maria Teyze makes Nima tell the story so far, in order, as speaking practice. This morning the repairman came, and the contract is stamped at last; Nima sets the watch to Istanbul time.",
+  "summaryFa": "جمعه کلاس نیست. خاله ماریا سرِ چای از نیما می‌خواهد ماجرای این هفت هفته را به ترتیب تعریف کند، برای تمرینِ مکالمه. امروز صبح تعمیرکار آمد و قرارداد بالاخره مهر خورد؛ نیما ساعتش را با وقتِ استانبول تنظیم می‌کند.",
+  "title": "Yedi hafta",
+  "titleEn": "Seven weeks",
+  "titleFa": "هفت هفته",
+  "words": [
+    "seed-w09",
+    "a1-w-once",
+    "a1-w-sonra",
+    "a1-w-hatirlamak",
+    "a1-w-ilk",
+    "a1-w-gecen",
+    "a1-w-tasinmak"
+  ]
+}

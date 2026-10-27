@@ -1,0 +1,509 @@
+{
+  "arc": {
+    "en": "The exam and the holiday",
+    "fa": "امتحان و جشن",
+    "id": "s1w08",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud",
+      "unlocks"
+    ],
+    "tr": "Sınav ve bayram"
+  },
+  "cast": [
+    "omer",
+    "nima",
+    "elif"
+  ],
+  "extras": [
+    "maria",
+    "pisi"
+  ],
+  "followUp": [
+    {
+      "en": "Now you! Sing a song!",
+      "fa": "حالا تو! یه آهنگ بخون!",
+      "to": "nima",
+      "tr": "Şimdi sen! Bir şarkı söyle!",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "fu_sarki",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Red and white… today's a holiday!",
+            "fa": "قرمز و سفید… امروز جشنه!",
+            "ok": true,
+            "react": {
+              "omer": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "proud",
+                "en": "My song! Let's sing it together!",
+                "fa": "آهنگِ من! با هم می‌خونیم!",
+                "tr": "Benim şarkım! Beraber söylüyoruz!",
+                "who": "omer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Kırmızı, beyaz… bugün bayram!"
+          },
+          {
+            "en": "My mum sings a song every evening!",
+            "fa": "مامانم هر شب یه آهنگ می‌خونه!",
+            "react": {
+              "omer": {
+                "emo": "curious"
+              }
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "Me too! Every evening… ten times!",
+                "fa": "منم! هر شب… ده بار!",
+                "tr": "Ben de! Her akşam… on kere!",
+                "who": "omer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Annem her akşam bir şarkı söylüyor!"
+          }
+        ],
+        "to": "omer"
+      }
+    }
+  ],
+  "gl": {
+    "gülme": [
+      "نخند",
+      "don't laugh (gülmek: to laugh)"
+    ],
+    "ha": [
+      "ها (صدای خنده)",
+      "ha (laughter)"
+    ],
+    "kere": [
+      "بار، دفعه",
+      "times (on kere: ten times)"
+    ],
+    "musun": [
+      "آیا… تو؟ (mu + -sun، سؤال)",
+      "question particle mu + -sun (you)"
+    ],
+    "yatma": [
+      "خوابیدن (yatma saati: وقتِ خواب)",
+      "going to bed (yatma saati: bedtime)"
+    ],
+    "şarkım": [
+      "آهنگِ من",
+      "my song"
+    ]
+  },
+  "id": "s1e43",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_1_soru",
+    "g_a1_3_simdiki",
+    "g_a1_6_belirtili_tamlama"
+  ],
+  "level": "A1",
+  "place": "flat_nima_stairs",
+  "props": {
+    "bayrak": {
+      "at": {
+        "x": -1.6,
+        "y": 2.88,
+        "z": -1.0
+      },
+      "kit": "flag",
+      "n": 1,
+      "terms": [
+        "a1-w-bayrak"
+      ],
+      "variant": "hand"
+    },
+    "dosya": {
+      "at": {
+        "x": -4.6,
+        "y": 1.44,
+        "z": -1.0
+      },
+      "kit": "book",
+      "terms": [
+        "a1-w-dosya"
+      ],
+      "variant": "folder"
+    },
+    "kartlar": {
+      "at": {
+        "x": -4.25,
+        "y": 1.44,
+        "z": -1.0
+      },
+      "kit": "paper",
+      "n": 5,
+      "terms": [
+        "b1-w-kelime-karti"
+      ],
+      "variant": "flash_card"
+    },
+    "tac": {
+      "at": {
+        "x": -1.15,
+        "y": 2.88,
+        "z": -1.0
+      },
+      "kit": "paper",
+      "terms": [],
+      "variant": "crown"
+    }
+  },
+  "quiz": [
+    {
+      "a": 1,
+      "en": "When is Ömer's show?",
+      "fa": "نمایشِ عمر کِی است؟",
+      "kind": "comp",
+      "options": [
+        "Cuma",
+        "Perşembe",
+        "Pazartesi"
+      ],
+      "q": "Ömer'in gösterisi ne zaman?",
+      "why": "“Ama bu binada… Ömer'in gösterisi perşembe!”"
+    },
+    {
+      "a": 0,
+      "en": "What does Ömer sing on Thursday?",
+      "fa": "عمر پنج‌شنبه چه می‌خواند؟",
+      "kind": "word",
+      "options": [
+        "Bir şarkı",
+        "Bir kitap",
+        "Bir sınav"
+      ],
+      "q": "Perşembe Ömer ne söylüyor?",
+      "why": "“Sınav cuma… ama perşembe, en önemli şarkı!”"
+    },
+    {
+      "a": 2,
+      "en": "When is Nima's exam?",
+      "fa": "امتحانِ نیما کِی است؟",
+      "kind": "comp",
+      "options": [
+        "Perşembe",
+        "Pazartesi",
+        "Cuma"
+      ],
+      "q": "Nima'nın sınavı ne zaman?",
+      "why": "“Pazartesi. Nima'nın sınavı cuma.”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-26",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "landing_1",
+        "omer": "landing_2",
+        "pisi": "step_cat"
+      },
+      "kerim": "window",
+      "scene": "flat_nima_stairs",
+      "time": "night"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "tac",
+            "op": "take"
+          },
+          {
+            "id": "bayrak",
+            "op": "take"
+          }
+        ],
+        "who": "omer"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kartlar",
+            "op": "take"
+          },
+          {
+            "id": "dosya",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "en": "Monday. Nima's exam is on Friday. But in this building… Ömer's show is on Thursday!",
+      "env": "state:flags:fade",
+      "fa": "دوشنبه. امتحانِ نیما جمعه‌ست. ولی توی این ساختمون… نمایشِ عمر پنج‌شنبه‌ست!",
+      "narr": true,
+      "tr": "Pazartesi. Nima'nın sınavı cuma. Ama bu binada… Ömer'in gösterisi perşembe!",
+      "who": "kerim"
+    },
+    {
+      "do": "cheer",
+      "emo": "happy",
+      "en": "Red and white… today's a holiday, today's a holiday!",
+      "fa": "قرمز و سفید… امروز جشنه، امروز جشنه!",
+      "move": {
+        "how": "walk",
+        "to": "flight_up",
+        "via": [
+          "landing_2"
+        ],
+        "who": "nima"
+      },
+      "react": {
+        "nima": {
+          "at": "ch:omer",
+          "do": "look",
+          "emo": "happy"
+        }
+      },
+      "tr": "Kırmızı, beyaz… bugün bayram, bugün bayram!",
+      "who": "omer"
+    },
+    {
+      "emo": "curious",
+      "en": "Are you listening? Is it good?",
+      "fa": "گوش می‌دی؟ قشنگه؟",
+      "to": "nima",
+      "tr": "Dinliyor musun? Güzel mi?",
+      "who": "omer"
+    },
+    {
+      "do": "thumb_up",
+      "emo": "happy",
+      "en": "It's really good! Once more!",
+      "fa": "خیلی قشنگه! یه بار دیگه!",
+      "tr": "Çok güzel! Bir daha!",
+      "who": "nima"
+    },
+    {
+      "do": "cheer",
+      "emo": "proud",
+      "en": "Red and white… today's a holiday, today's a holiday!",
+      "fa": "قرمز و سفید… امروز جشنه، امروز جشنه!",
+      "move": {
+        "from": "door_maria",
+        "how": "enter",
+        "to": "maria_door",
+        "who": "maria"
+      },
+      "react": {
+        "maria": "happy"
+      },
+      "tempo": 1.2,
+      "tr": "Kırmızı, beyaz… bugün bayram, bugün bayram!",
+      "who": "omer"
+    },
+    {
+      "at": "ch:nima",
+      "cam": "close",
+      "do": "look",
+      "emo": "nervous",
+      "en": "And now… now… I forgot!",
+      "fa": "حالا… حالا… یادم رفت!",
+      "tr": "Şimdi… şimdi… unuttum!",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "song",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Red… white…",
+            "fa": "قرمز… سفید…",
+            "ok": true,
+            "react": {
+              "omer": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "cheer",
+                "emo": "proud",
+                "en": "Red and white… flags everywhere!",
+                "fa": "قرمز و سفید… همه‌جا پرچمه!",
+                "tr": "Kırmızı, beyaz… bayraklar her yerde!",
+                "who": "omer"
+              }
+            ],
+            "sets": "s1e43_song",
+            "tone": "warm",
+            "tr": "Kırmızı… beyaz…",
+            "voice": "whisper"
+          },
+          {
+            "emo": "happy",
+            "en": "Red and white… flags everywhere!",
+            "fa": "قرمز و سفید… همه‌جا پرچمه!",
+            "react": {
+              "omer": {
+                "emo": "sad"
+              }
+            },
+            "reply": [
+              {
+                "emo": "sad",
+                "en": "My song…",
+                "fa": "آهنگِ من…",
+                "tr": "Benim şarkım…",
+                "who": "omer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Kırmızı, beyaz… bayraklar her yerde!"
+          },
+          {
+            "emo": "laugh",
+            "en": "Ha ha ha! You forgot!",
+            "fa": "ها ها ها! یادت رفت!",
+            "react": {
+              "omer": {
+                "emo": "shy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "sad",
+                "en": "Don't laugh!",
+                "fa": "نخند!",
+                "tr": "Gülme!",
+                "who": "omer"
+              }
+            ],
+            "tone": "rude",
+            "tr": "Ha ha ha! Unuttun!"
+          }
+        ],
+        "to": "omer"
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "Nima! How did the appointment go?",
+      "env": "state:elif_door_open",
+      "fa": "نیما! نوبتت چطور بود؟",
+      "move": {
+        "from": "door_elif",
+        "how": "enter",
+        "to": "elif_door",
+        "who": "elif"
+      },
+      "to": "nima",
+      "tr": "Nima! Randevu nasıl geçti?",
+      "who": "elif"
+    },
+    {
+      "at": "obj:dosya",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "My file is complete! Now… we wait.",
+      "fa": "پرونده‌م کامله! حالا… منتظریم.",
+      "tr": "Dosyam tamam! Şimdi… bekliyoruz.",
+      "who": "nima"
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Wonderful! …Ömer, come here! It's eight o'clock! Bedtime!",
+      "fa": "چه خوب! …عمر، بیا! ساعت هشته! وقتِ خوابه!",
+      "to": "omer",
+      "tr": "Çok güzel! …Ömer, gel! Saat sekiz! Yatma saati!",
+      "who": "elif"
+    },
+    {
+      "do": "cheer",
+      "emo": "happy",
+      "en": "Once more!",
+      "fa": "یه بار دیگه!",
+      "to": "elif",
+      "tr": "Bir daha!",
+      "who": "omer"
+    },
+    {
+      "emo": "tired",
+      "en": "Every evening… he sings it ten times!",
+      "fa": "هر شب… ده بار می‌خونه!",
+      "to": "nima",
+      "tr": "Her akşam… on kere söylüyor!",
+      "who": "elif"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Thursday… I'm coming too!",
+      "fa": "پنج‌شنبه… منم میام!",
+      "to": "omer",
+      "tr": "Perşembe… ben de geliyorum!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:bayrak",
+      "do": "hold_up",
+      "emo": "surprised",
+      "en": "You're coming too?! Bring a flag!",
+      "fa": "تو هم میای؟! یه پرچم بیار!",
+      "link": {
+        "bayrak": "obj:bayrak"
+      },
+      "react": {
+        "elif": "laugh"
+      },
+      "to": "nima",
+      "tr": "Sen de mi geliyorsun?! Bir bayrak getir!",
+      "who": "omer"
+    },
+    {
+      "spot": {
+        "en": "Tonight's Turkish has a little of all of A1. Questions with mI: “Güzel mi?”, “Dinliyor musun?”, “Sen de mi geliyorsun?”. The mi follows the vowels (mi, mı, mu, mü) and comes after the word you ask about: “Sen de mi…?” asks about you. And the rest: bu binada (in this building, -DA), saat sekiz (eight o'clock), and Ömer'in gösterisi (Ömer's show, -(n)In … -(s)I).",
+        "ex": "Dinliyor musun? Güzel mi?",
+        "fa": "ترکیِ امشب از همه‌ی A1 کمی دارد. سؤال با mI: «Güzel mi?»، «Dinliyor musun?»، «Sen de mi geliyorsun?». این mi با حرف‌های صدادار هماهنگ می‌شود (mi، mı، mu، mü) و بعد از کلمه‌ای می‌آید که درباره‌اش می‌پرسی: «Sen de mi…?» یعنی «تو هم…؟». بقیه‌اش هم: bu binada («در این ساختمان»، با -DA)، saat sekiz («ساعت هشت»)، و Ömer'in gösterisi («نمایشِ عمر»، با -(n)In … -(s)I).",
+        "lesson": "g_a1_1_soru"
+      }
+    },
+    {
+      "en": "The exam is on Friday… but on Thursday, the most important song!",
+      "fa": "امتحان جمعه‌ست… ولی پنج‌شنبه، مهم‌ترین آهنگ!",
+      "narr": true,
+      "tr": "Sınav cuma… ama perşembe, en önemli şarkı!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Exam week begins, but the big event in the building is Ömer's song for Republic Day, 29 October. He rehearses it on the stairs, forgets the second verse, and looks at Nima.",
+  "summaryFa": "هفته‌ی امتحان شروع شده، ولی اتفاقِ بزرگِ ساختمان آهنگِ عمر برای جشنِ ۲۹ اکتبر است. او روی پله‌ها تمرین می‌کند، بندِ دوم یادش می‌رود و به نیما نگاه می‌کند.",
+  "title": "Prova",
+  "titleEn": "Rehearsal",
+  "titleFa": "تمرین",
+  "words": [
+    "a1-w-sarki",
+    "a1-w-soylemek",
+    "a1-w-dinlemek",
+    "a1-w-bayrak",
+    "a1-w-bayram",
+    "a1-w-kirmizi",
+    "a1-w-beyaz",
+    "a1-w-persembe"
+  ]
+}

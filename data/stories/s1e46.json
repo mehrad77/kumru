@@ -1,0 +1,809 @@
+{
+  "arc": {
+    "en": "The exam and the holiday",
+    "fa": "امتحان و جشن",
+    "id": "s1w08",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud",
+      "unlocks"
+    ],
+    "tr": "Sınav ve bayram"
+  },
+  "cast": [
+    "nima",
+    "omer",
+    "serkan",
+    "maria"
+  ],
+  "extras": [
+    "elif",
+    "kirlangic",
+    "teacher_kindergarten",
+    "child_1",
+    "child_2",
+    "child_3",
+    "cayci_ortakoy"
+  ],
+  "followUp": [
+    {
+      "en": "What holidays are there in Tehran?",
+      "fa": "توی تهران چه جشن‌هایی هست؟",
+      "to": "nima",
+      "tr": "Tahran'da hangi bayramlar var?",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "fu_bayram",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "We have holidays too. The new year… it's lovely!",
+            "fa": "ما هم جشن داریم. سالِ نو… خیلی قشنگه!",
+            "ok": true,
+            "react": {
+              "omer": "happy"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "The new year! I love it too!",
+                "fa": "سالِ نو! منم دوستش دارم!",
+                "tr": "Yeni yıl! Ben de seviyorum!",
+                "who": "omer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Bizde de bayramlar var. Yeni yıl… çok güzel!"
+          },
+          {
+            "en": "Lots of holidays! And every holiday… food!",
+            "fa": "کلی جشن هست! و توی هر جشن… غذا!",
+            "react": {
+              "omer": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "Food! Great!",
+                "fa": "غذا! خیلی خوبه!",
+                "tr": "Yemek! Çok güzel!",
+                "who": "omer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Çok bayram var! Ve her bayramda… yemek!"
+          }
+        ],
+        "to": "omer"
+      }
+    }
+  ],
+  "gl": {
+    "boğaz": [
+      "بسفر (تنگه‌ی استانبول)",
+      "the Bosphorus"
+    ],
+    "buraya": [
+      "به این‌جا",
+      "(to) here"
+    ],
+    "cumhuriyet": [
+      "جمهوری (Cumhuriyet Bayramı: جشنِ جمهوری، ۲۹ اکتبر)",
+      "republic (Cumhuriyet Bayramı: Republic Day, 29 October)"
+    ],
+    "damlaya": [
+      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    ],
+    "kutlu": [
+      "مبارک (Bayramınız kutlu olsun: جشنتان مبارک)",
+      "happy, blessed (Bayramınız kutlu olsun: happy holiday)"
+    ],
+    "muyuz": [
+      "آیا… ما؟ (mu + -yuz، سؤال)",
+      "question particle mu + -yuz (we)"
+    ],
+    "nihayet": [
+      "بالاخره",
+      "at last"
+    ],
+    "üçüncü": [
+      "سوم",
+      "third"
+    ],
+    "şarkıyı": [
+      "آهنگ را",
+      "the song (object)"
+    ]
+  },
+  "id": "s1e46",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_6_en",
+    "g_a1_6_daha",
+    "g_a1_5_gecmis"
+  ],
+  "level": "A1",
+  "place": "ferikoy",
+  "props": {
+    "bardak": {
+      "at": {
+        "ortakoy": {
+          "x": -1.3,
+          "y": 1.0,
+          "z": -2.3
+        }
+      },
+      "hot": true,
+      "kit": "tea",
+      "n": 1,
+      "shown": false,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    },
+    "bayrakcik": {
+      "at": {
+        "park_ferikoy": {
+          "x": -2.0,
+          "y": 0,
+          "z": -0.75
+        }
+      },
+      "kit": "flag",
+      "n": 1,
+      "terms": [
+        "a1-w-bayrak"
+      ],
+      "variant": "hand"
+    },
+    "elif_telefon": {
+      "at": {
+        "park_ferikoy": {
+          "x": -1.3,
+          "y": 0,
+          "z": -0.75
+        }
+      },
+      "kit": "phone",
+      "terms": [
+        "a1-w-telefon"
+      ]
+    },
+    "nima_telefon": {
+      "at": {
+        "ortakoy": {
+          "x": -1.7,
+          "y": 1.0,
+          "z": -2.3
+        }
+      },
+      "kit": "phone",
+      "shown": false,
+      "terms": [
+        "a1-w-telefon",
+        "a1-w-fotograf"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 1,
+      "en": "Where is Ömer in the row?",
+      "fa": "عمر نفرِ چندمِ ردیف است؟",
+      "kind": "comp",
+      "options": [
+        "Birinci sırada",
+        "Üçüncü sırada",
+        "İkinci sırada"
+      ],
+      "q": "Ömer kaçıncı sırada?",
+      "why": "“Ömer üçüncü sırada!”"
+    },
+    {
+      "a": 0,
+      "en": "Ömer: “Red and white… … everywhere!”",
+      "fa": "عمر: «قرمز و سفید… همه‌جا …!»",
+      "kind": "word",
+      "options": [
+        "bayraklar",
+        "çaylar",
+        "kuşlar"
+      ],
+      "q": "Ömer: “Kırmızı, beyaz… … her yerde!”",
+      "why": "“Kırmızı, beyaz… bayraklar her yerde!”"
+    },
+    {
+      "a": 1,
+      "en": "Where does Nima drink tea at last?",
+      "fa": "نیما بالاخره کجا چای می‌خورد؟",
+      "kind": "comp",
+      "options": [
+        "Parkta",
+        "Boğaz'da",
+        "Kafede"
+      ],
+      "q": "Nima nihayet nerede çay içiyor?",
+      "why": "“Boğaz'da çay içiyoruz!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-29",
+  "season": 1,
+  "steps": [
+    {
+      "at": {},
+      "kerim": "over",
+      "scene": "ferikoy",
+      "state": "flags",
+      "time": "day"
+    },
+    {
+      "cam": "follow",
+      "en": "Today is the 29th of October. Republic Day. The whole city is red and white!",
+      "fa": "امروز ۲۹ اکتبره. جشنِ جمهوری. کلِ شهر قرمز و سفیده!",
+      "move": {
+        "how": "fly",
+        "to": "rooftops",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Bugün 29 Ekim. Cumhuriyet Bayramı. Bütün şehir kırmızı ve beyaz!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "child_1": "stage_1",
+        "child_2": "stage_2",
+        "child_3": "stage_4",
+        "elif": "seat_elif",
+        "kirlangic": "back",
+        "maria": "seat_maria",
+        "nima": "seat_nima",
+        "omer": "stage_3",
+        "serkan": "seat_serkan",
+        "teacher_kindergarten": "stage_side"
+      },
+      "kerim": "tree",
+      "scene": "park_ferikoy",
+      "state": "flags",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "bayrakcik",
+            "op": "take"
+          }
+        ],
+        "who": "maria"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "elif_telefon",
+            "op": "take"
+          }
+        ],
+        "who": "elif"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Happy holiday to you!",
+      "fa": "جشنتون مبارک!",
+      "to": "nima",
+      "tr": "Bayramınız kutlu olsun!",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "And to you! Happy holiday!",
+      "fa": "شما هم همین‌طور! جشنتون مبارک!",
+      "to": "maria",
+      "tr": "Sizin de! Bayramınız kutlu olsun!",
+      "who": "nima"
+    },
+    {
+      "at": "ch:omer",
+      "do": "point",
+      "emo": "proud",
+      "en": "Ömer's third in the row!",
+      "fa": "عمر نفرِ سومِ ردیفه!",
+      "react": {
+        "nima": {
+          "at": "ch:omer",
+          "do": "look"
+        }
+      },
+      "to": "nima",
+      "tr": "Ömer üçüncü sırada!",
+      "voice": "whisper",
+      "who": "serkan"
+    },
+    {
+      "do": "cheer",
+      "emo": "happy",
+      "en": "Red and white… today's a holiday, today's a holiday!",
+      "fa": "قرمز و سفید… امروز جشنه، امروز جشنه!",
+      "react": {
+        "elif": {
+          "at": "ch:omer",
+          "do": "photo"
+        },
+        "maria": "happy"
+      },
+      "sfx": {
+        "id": "children_singing",
+        "word": "la la la"
+      },
+      "to": "all",
+      "tr": "Kırmızı, beyaz… bugün bayram, bugün bayram!",
+      "who": "omer"
+    },
+    {
+      "beat": {
+        "cam": "close",
+        "emo": "nervous",
+        "who": "omer"
+      }
+    },
+    {
+      "beat": {
+        "at": "ch:nima",
+        "do": "look",
+        "emo": "nervous",
+        "who": "omer"
+      },
+      "if": "s1e43_song"
+    },
+    {
+      "beat": {
+        "at": "ch:serkan",
+        "do": "look",
+        "emo": "nervous",
+        "who": "omer"
+      },
+      "unless": "s1e43_song"
+    },
+    {
+      "emo": "happy",
+      "en": "Red… white…",
+      "fa": "قرمز… سفید…",
+      "react": {
+        "omer": {
+          "at": "ch:nima",
+          "do": "look",
+          "emo": "surprised"
+        }
+      },
+      "to": "omer",
+      "tr": "Kırmızı… beyaz…",
+      "voice": "mouthing",
+      "who": "nima"
+    },
+    {
+      "do": "cheer",
+      "emo": "proud",
+      "en": "Red and white… flags everywhere!",
+      "fa": "قرمز و سفید… همه‌جا پرچمه!",
+      "sfx": {
+        "id": "children_singing",
+        "word": "la la la"
+      },
+      "tempo": 1.2,
+      "to": "all",
+      "tr": "Kırmızı, beyaz… bayraklar her yerde!",
+      "who": "omer"
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "exit",
+            "to": "gate",
+            "who": "child_1"
+          },
+          {
+            "how": "exit",
+            "to": "gate",
+            "who": "child_2"
+          },
+          {
+            "how": "exit",
+            "to": "gate",
+            "who": "child_3"
+          },
+          {
+            "how": "exit",
+            "to": "gate",
+            "who": "teacher_kindergarten"
+          }
+        ],
+        "sfx": {
+          "id": "applause",
+          "word": "şak şak"
+        }
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "How was it? How was it?",
+      "fa": "چطور بود؟ چطور بود؟",
+      "move": {
+        "how": "run",
+        "to": "stage_side",
+        "who": "omer"
+      },
+      "to": "nima",
+      "tr": "Nasıl geçti? Nasıl geçti?",
+      "who": "omer"
+    },
+    {
+      "do": "thumb_up",
+      "emo": "happy",
+      "en": "You sang the best song!",
+      "fa": "تو قشنگ‌ترین آهنگو خوندی!",
+      "to": "omer",
+      "tr": "Sen en güzel şarkıyı söyledin!",
+      "who": "nima"
+    },
+    {
+      "emo": "proud",
+      "en": "I know!",
+      "fa": "می‌دونم!",
+      "react": {
+        "serkan": "laugh"
+      },
+      "to": "nima",
+      "tr": "Biliyorum!",
+      "who": "omer"
+    },
+    {
+      "emo": "happy",
+      "en": "Shall we go to the Bosphorus this evening? All of us!",
+      "fa": "امشب بریم بسفر؟ همه‌مون!",
+      "react": {
+        "maria": {
+          "emo": "moved"
+        },
+        "serkan": {
+          "emo": "happy"
+        }
+      },
+      "to": "all",
+      "tr": "Bu akşam Boğaz'a gidiyor muyuz? Hepimiz!",
+      "who": "nima"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Leave the taxi to me!",
+      "fa": "تاکسی با من!",
+      "sfx": {
+        "id": "keys_jingle",
+        "word": "şıngır şıngır"
+      },
+      "to": "nima",
+      "tr": "Taksi benim!",
+      "who": "serkan"
+    },
+    {
+      "at": {
+        "elif": "back_r",
+        "maria": "front",
+        "nima": "back_l",
+        "omer": "back_m",
+        "serkan": "driver"
+      },
+      "kerim": "outside",
+      "scene": "taxi",
+      "state": "flags",
+      "time": "night"
+    },
+    {
+      "beat": {
+        "at": "mark:outside",
+        "do": "look",
+        "emo": "happy",
+        "wait": 1200,
+        "who": "omer"
+      }
+    },
+    {
+      "at": {
+        "cayci_ortakoy": "cayci",
+        "elif": "arrive",
+        "maria": "shore_3",
+        "nima": "shore_1",
+        "omer": "shore_2",
+        "serkan": "shore_4"
+      },
+      "kerim": "railing",
+      "scene": "ortakoy",
+      "state": [
+        "bridge_red_white",
+        "flags"
+      ],
+      "time": "night"
+    },
+    {
+      "at": "ch:nima",
+      "do": "you",
+      "emo": "happy",
+      "en": "How many teas, Nima? You tell him!",
+      "fa": "چند تا چای، نیما؟ تو بگو!",
+      "to": "nima",
+      "tr": "Kaç çay, Nima? Sen söyle!",
+      "who": "serkan"
+    },
+    {
+      "choice": {
+        "id": "cay",
+        "kind": "meaning",
+        "options": [
+          {
+            "do": "count",
+            "emo": "happy",
+            "en": "Five teas, please!",
+            "fa": "پنج تا چای، لطفاً!",
+            "n": 5,
+            "ok": true,
+            "react": {
+              "omer": "clap",
+              "serkan": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "sfx": {
+                    "id": "tea_glass",
+                    "word": "çın"
+                  },
+                  "who": "cayci_ortakoy"
+                }
+              }
+            ],
+            "to": "cayci_ortakoy",
+            "tone": "polite",
+            "tr": "Beş çay, lütfen!"
+          },
+          {
+            "do": "count",
+            "emo": "happy",
+            "en": "One tea, please.",
+            "fa": "یه چای، لطفاً.",
+            "n": 1,
+            "react": {
+              "omer": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "sad",
+                "en": "What about me?!",
+                "fa": "پس من چی؟!",
+                "to": "nima",
+                "tr": "Ben?!",
+                "who": "omer"
+              },
+              {
+                "do": "count",
+                "emo": "laugh",
+                "en": "No, no! Five teas!",
+                "fa": "نه، نه! پنج تا چای!",
+                "n": 5,
+                "to": "cayci_ortakoy",
+                "tr": "Hayır, hayır! Beş çay!",
+                "who": "serkan"
+              }
+            ],
+            "to": "cayci_ortakoy",
+            "tone": "casual",
+            "tr": "Bir çay, lütfen."
+          },
+          {
+            "do": "count",
+            "emo": "happy",
+            "en": "Four teas.",
+            "fa": "چهار تا چای.",
+            "n": 4,
+            "react": {
+              "maria": {
+                "emo": "curious"
+              }
+            },
+            "reply": [
+              {
+                "do": "count",
+                "emo": "happy",
+                "en": "One, two, three, four… and you? Five!",
+                "fa": "یک، دو، سه، چهار… پس خودتون چی؟ پنج تا!",
+                "n": 5,
+                "to": "nima",
+                "tr": "Bir, iki, üç, dört… ve siz? Beş!",
+                "who": "maria"
+              }
+            ],
+            "to": "cayci_ortakoy",
+            "tone": "casual",
+            "tr": "Dört çay."
+          }
+        ],
+        "to": "serkan"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "bardak",
+            "op": "show"
+          },
+          {
+            "id": "bardak",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": "obj:bardak",
+      "cam": "close",
+      "do": "hold_up",
+      "emo": "moved",
+      "en": "We're drinking tea on the Bosphorus!",
+      "fa": "داریم کنارِ بسفر چای می‌خوریم!",
+      "link": {
+        "çay": "obj:bardak"
+      },
+      "to": "all",
+      "tr": "Boğaz'da çay içiyoruz!",
+      "who": "nima"
+    },
+    {
+      "emo": "moved",
+      "en": "Drop by drop…",
+      "fa": "قطره‌قطره جمع گردد…",
+      "to": "nima",
+      "tr": "Damlaya damlaya…",
+      "who": "maria"
+    },
+    {
+      "emo": "proud",
+      "en": "…a lake forms!",
+      "fa": "…وانگهی دریا شود!",
+      "react": {
+        "maria": "laugh"
+      },
+      "to": "maria",
+      "tr": "…göl olur!",
+      "who": "omer"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "nima_telefon",
+            "op": "show"
+          },
+          {
+            "id": "nima_telefon",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "A photo! For my mum. Everyone over here!",
+      "fa": "یه عکس! برای مامانم. همه بیاین این‌جا!",
+      "to": "all",
+      "tr": "Bir fotoğraf! Annem için. Herkes buraya!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "cam": "photo",
+        "sfx": {
+          "id": "camera_shutter",
+          "word": "çıt"
+        }
+      }
+    },
+    {
+      "beat": {
+        "at": "obj:nima_telefon",
+        "cam": "obj",
+        "obj": [
+          {
+            "id": "nima_telefon",
+            "op": "set",
+            "set": {
+              "screen": "❤"
+            }
+          }
+        ],
+        "sfx": {
+          "id": "message",
+          "word": "dıt"
+        }
+      }
+    },
+    {
+      "at": "mark:high",
+      "do": "point_far",
+      "emo": "surprised",
+      "en": "Look! Look! The bridge is red and white too!",
+      "env": "state:fireworks",
+      "fa": "ببین! ببین! پل هم قرمز و سفیده!",
+      "sfx": {
+        "id": "fireworks",
+        "word": "bum"
+      },
+      "to": "all",
+      "tr": "Bak! Bak! Köprü de kırmızı beyaz!",
+      "who": "omer"
+    },
+    {
+      "emo": "moved",
+      "en": "Eighty years… I'm here every 29th of October.",
+      "fa": "هشتاد سال… هر ۲۹ اکتبر این‌جام.",
+      "to": "nima",
+      "tr": "Seksen yıl… her 29 Ekim'de buradayım.",
+      "who": "maria"
+    },
+    {
+      "spot": {
+        "en": "Kerim compares the day and the night: “Gündüz bayraklar, gece ışıklar. Gece daha güzel mi?” daha is “more”. en is “the most”: “Sen en güzel şarkıyı söyledin!” (You sang the most beautiful song!). “Ömer'in şarkısı… en güzel! Ve Nima'nın çayı… en sıcak!”",
+        "ex": "Sen en güzel şarkıyı söyledin!",
+        "fa": "کریم روز و شب را مقایسه می‌کند: «Gündüz bayraklar, gece ışıklar. Gece daha güzel mi?» یعنی «روز پرچم‌ها، شب چراغ‌ها. شب قشنگ‌تر است؟» daha یعنی «بیشتر، ‌تر». en یعنی «از همه، ‌ترین»: «Sen en güzel şarkıyı söyledin!» (تو قشنگ‌ترین آهنگ را خواندی!). «Ömer'in şarkısı… en güzel! Ve Nima'nın çayı… en sıcak!»: آهنگِ عمر قشنگ‌ترین است، و چایِ نیما داغ‌ترین!",
+        "lesson": "g_a1_6_en",
+        "show": "compare"
+      }
+    },
+    {
+      "cam": "follow",
+      "en": "Tomorrow… the exam! But tonight… tea on the Bosphorus. At last.",
+      "fa": "فردا… امتحان! ولی امشب… چای کنارِ بسفر. بالاخره.",
+      "move": {
+        "how": "fly",
+        "to": "high",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Yarın… sınav! Ama bu akşam… Boğaz'da çay. Nihayet.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "29 October. Ömer's kindergarten sings at the celebration in Feriköy Park, and Ömer gets stuck on the second verse. At night Serkan drives everyone to Ortaköy, where Nima drinks tea by the Bosphorus at last.",
+  "summaryFa": "۲۹ اکتبر. مهدکودکِ عمر در جشنِ پارکِ فری‌کؤی آواز می‌خواند و عمر در بندِ دوم گیر می‌کند. شب، سرکان همه را با تاکسی به اورتاکوی می‌برد و نیما بالاخره کنارِ بسفر چای می‌خورد.",
+  "title": "Cumhuriyet Bayramı",
+  "titleEn": "Republic Day",
+  "titleFa": "جشنِ جمهوری",
+  "words": [
+    "a1-w-bayram",
+    "a1-w-bayrak",
+    "a1-w-sarki",
+    "a1-w-soylemek",
+    "a1-w-cay",
+    "seed-w22",
+    "a1-w-bes",
+    "a1-w-en"
+  ]
+}

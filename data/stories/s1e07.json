@@ -1,0 +1,551 @@
+{
+  "arc": {
+    "en": "Where's home?",
+    "fa": "خانه کجاست؟",
+    "id": "s1w02",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Ev nerede?"
+  },
+  "cast": [
+    "zafer",
+    "yusuf",
+    "alex",
+    "nima"
+  ],
+  "extras": [
+    "parvaneh",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, where's the pen?",
+      "fa": "نیما، خودکار کجاست؟",
+      "to": "nima",
+      "tr": "Nima, kalem nerede?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_kalem",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "On the desk.",
+            "fa": "روی میزه.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Yes! The pen is on the desk.",
+                "fa": "آره! خودکار روی میزه.",
+                "tr": "Evet! Kalem masada.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Masada."
+          },
+          {
+            "en": "Desk.",
+            "fa": "میز.",
+            "react": {
+              "zafer": "curious"
+            },
+            "reply": [
+              {
+                "en": "Desk… -da! The pen is on the desk.",
+                "fa": "میز… -da! خودکار روی میزه.",
+                "tr": "Masa… da! Kalem masada.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Masa."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "Where's the dictionary?",
+      "fa": "دیکشنری کجاست؟",
+      "to": "nima",
+      "tr": "Sözlük nerede?",
+      "who": "zafer"
+    },
+    {
+      "en": "In the bag.",
+      "fa": "توی کیفه.",
+      "to": "zafer",
+      "tr": "Çantada.",
+      "who": "nima"
+    },
+    {
+      "en": "Very good!",
+      "fa": "خیلی خوبه!",
+      "to": "nima",
+      "tr": "Çok güzel!",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a neighbourhood of Şişli)"
+    ],
+    "hocam": [
+      "استاد (خطابِ شاگرد به معلم)",
+      "Hocam: “my teacher”, how students address a teacher"
+    ],
+    "kiralık": [
+      "اجاره‌ای (روی آگهی‌ها)",
+      "for rent (on the ads)"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "masada": [
+      "روی میز",
+      "on the desk, on the table"
+    ],
+    "pano": [
+      "تابلوی اعلانات",
+      "notice board"
+    ],
+    "pencereler": [
+      "پنجره‌ها",
+      "windows"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name; the word means “victory”)"
+    ]
+  },
+  "id": "s1e07",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_2_bulunma",
+    "g_a1_2_var_yok",
+    "g_a1_2_degil"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "canta": {
+      "at": {
+        "x": 1.6,
+        "y": 0,
+        "z": -2.55
+      },
+      "kit": "bag",
+      "terms": [
+        "a1-w-canta"
+      ],
+      "variant": "shoulder"
+    },
+    "kalem": {
+      "at": {
+        "x": -2.3,
+        "y": 0.76,
+        "z": -1.5
+      },
+      "kit": "pen",
+      "terms": [
+        "a1-w-kalem"
+      ]
+    },
+    "sozluk": {
+      "at": {
+        "x": 1.6,
+        "y": 0.3,
+        "z": -2.55
+      },
+      "kit": "book",
+      "shown": false,
+      "terms": [
+        "a1-w-sozluk"
+      ],
+      "variant": "dictionary"
+    },
+    "telefon": {
+      "at": {
+        "tomer_corridor": {
+          "x": -0.6,
+          "y": 0,
+          "z": -1.3
+        }
+      },
+      "kit": "phone",
+      "screen": "Feriköy · 20.000 TL",
+      "shown": false,
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Where is the clock?",
+      "fa": "ساعت کجاست؟",
+      "kind": "comp",
+      "options": [
+        "Duvarda",
+        "Masada",
+        "Çantada"
+      ],
+      "q": "Saat nerede?",
+      "why": "Zafer Hoca: “Duvarda. Saat duvarda!”"
+    },
+    {
+      "a": 0,
+      "en": "Is there a TV in the classroom?",
+      "fa": "در کلاس تلویزیون هست؟",
+      "kind": "word",
+      "options": [
+        "Yok",
+        "Var",
+        "Duvarda"
+      ],
+      "q": "Sınıfta televizyon var mı?",
+      "why": "Zafer Hoca: “Tahta var, bilgisayar var… televizyon yok!”"
+    },
+    {
+      "a": 0,
+      "en": "How much is the rent in Şişli?",
+      "fa": "اجاره در شیشلی چند لیر است؟",
+      "kind": "comp",
+      "options": [
+        "Yirmi beş bin lira",
+        "Yirmi bin lira",
+        "Beş yüz dört lira"
+      ],
+      "q": "Şişli'de kira kaç lira?",
+      "why": "Alex: “Şişli'de ev var. Kira… yirmi beş bin lira.”"
+    }
+  ],
+  "ref": "A1_2",
+  "releaseDate": "2026-09-14",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Good morning! This is the school. And this classroom… is five hundred and four!",
+      "fa": "صبح بخیر! این‌جا مدرسه‌ست. این کلاس… پونصد و چهاره!",
+      "narr": true,
+      "tr": "Günaydın! Burası okul. Bu sınıf… beş yüz dört!",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:kalem",
+      "do": "point",
+      "emo": "happy",
+      "en": "Where's the pen? Where's the dictionary?",
+      "fa": "خودکار کجاست؟ دیکشنری کجاست؟",
+      "to": "all",
+      "tr": "Kalem nerede? Sözlük nerede?",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kalem",
+      "do": "look",
+      "emo": "happy",
+      "en": "On the desk!",
+      "fa": "روی میزه!",
+      "to": "zafer",
+      "tr": "Masada!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:canta",
+      "do": "point",
+      "emo": "happy",
+      "en": "In the bag!",
+      "fa": "توی کیفه!",
+      "link": {
+        "çantada": "obj:canta"
+      },
+      "tr": "Çantada!",
+      "who": "yusuf"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes! Where's the clock? Alex?",
+      "fa": "آره! ساعت کجاست؟ الکس؟",
+      "to": "alex",
+      "tr": "Evet! Saat nerede? Alex?",
+      "who": "zafer"
+    },
+    {
+      "do": "think",
+      "emo": "confused",
+      "en": "The clock… wall.",
+      "fa": "ساعت… دیوار.",
+      "mistake": {
+        "fix": "Duvarda"
+      },
+      "tempo": 0.8,
+      "tr": "Saat… duvar.",
+      "who": "alex"
+    },
+    {
+      "at": "mark:wall",
+      "do": "point",
+      "emo": "happy",
+      "en": "On the wall. The clock is on the wall! What's in the classroom?",
+      "fa": "روی دیوار. ساعت روی دیواره! توی کلاس چی هست؟",
+      "react": {
+        "alex": {
+          "do": "nod",
+          "emo": "happy"
+        }
+      },
+      "to": "alex",
+      "tr": "Duvarda. Saat duvarda! Sınıfta ne var?",
+      "who": "zafer"
+    },
+    {
+      "at": "mark:window_out",
+      "do": "point",
+      "emo": "proud",
+      "en": "There are windows!",
+      "fa": "پنجره هست!",
+      "to": "zafer",
+      "tr": "Pencereler var!",
+      "who": "nima"
+    },
+    {
+      "do": "shrug",
+      "emo": "happy",
+      "en": "Yes! There's a board, there's a computer… there's no TV! Nima, do you have a dictionary?",
+      "fa": "آره! تخته هست، کامپیوتر هست… تلویزیون نیست! نیما، دیکشنری دارید؟",
+      "on": "yok",
+      "to": "nima",
+      "tr": "Evet! Tahta var, bilgisayar var… televizyon yok! Nima, sözlük var mı?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "sozluk",
+        "kind": "meaning",
+        "options": [
+          {
+            "do": "shake_head",
+            "en": "I don't have one, Hocam.",
+            "fa": "ندارم، استاد.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "All right. Yusuf, do you have a dictionary?",
+                "fa": "باشه. یوسف، دیکشنری دارید؟",
+                "to": "yusuf",
+                "tr": "Tamam. Yusuf, sözlük var mı?",
+                "who": "zafer"
+              },
+              {
+                "emo": "proud",
+                "en": "I do, I do!",
+                "fa": "دارم، دارم!",
+                "obj": [
+                  {
+                    "id": "sozluk",
+                    "op": "show"
+                  },
+                  {
+                    "id": "sozluk",
+                    "op": "take"
+                  }
+                ],
+                "to": "zafer",
+                "tr": "Var, var!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Yok, hocam."
+          },
+          {
+            "emo": "nervous",
+            "en": "It isn't, Hocam.",
+            "fa": "نیست، استاد.",
+            "react": {
+              "zafer": {
+                "emo": "curious"
+              }
+            },
+            "reply": [
+              {
+                "do": "me",
+                "emo": "happy",
+                "en": "“Değil”? No: sözlük yok, there's no dictionary. “Değil” is for… “I am not a teacher!”",
+                "fa": "«değil»؟ نه: «sözlük yok»، یعنی دیکشنری نیست. «değil» مالِ این‌جور جمله‌هاست: «من معلم نیستم!»",
+                "react": {
+                  "yusuf": "laugh"
+                },
+                "to": "nima",
+                "tr": "“Değil”? Hayır: sözlük yok. “Değil”… “Ben öğretmen değilim!”",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Değil, hocam."
+          },
+          {
+            "do": "cik",
+            "en": "Nope!",
+            "fa": "ندارم!",
+            "react": {
+              "zafer": {
+                "emo": "surprised"
+              }
+            },
+            "tone": "blunt",
+            "tr": "Yok!"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "at": {
+        "alex": "board",
+        "nima": "board_r",
+        "yusuf": "board_l"
+      },
+      "kerim": "window",
+      "scene": "tomer_corridor",
+      "time": "day"
+    },
+    {
+      "at": "obj:ilanlar",
+      "do": "read",
+      "en": "There's a flat in Şişli. The rent… twenty-five thousand lira.",
+      "fa": "توی شیشلی خونه هست. اجاره… بیست و پنج هزار لیر.",
+      "obj": [
+        {
+          "id": "ilanlar",
+          "op": "set",
+          "set": {
+            "labels": [
+              "Kiralık ev · Şişli · 25.000 TL",
+              "Kiralık · Feriköy · 4. kat · 20.000 TL"
+            ]
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Şişli'de ev var. Kira… yirmi beş bin lira.",
+      "who": "alex"
+    },
+    {
+      "emo": "surprised",
+      "en": "Twenty-five thousand?! Is there a cheap flat?",
+      "fa": "بیست و پنج هزار؟! خونه‌ی ارزون هست؟",
+      "to": "alex",
+      "tr": "Yirmi beş bin?! Ucuz ev var mı?",
+      "who": "nima"
+    },
+    {
+      "emo": "neutral",
+      "en": "That's Istanbul! The canteen is cheap… flats are expensive.",
+      "fa": "استانبوله دیگه! بوفه ارزونه… خونه گرونه.",
+      "to": "nima",
+      "tr": "İstanbul! Kantin ucuz… ev pahalı.",
+      "who": "yusuf"
+    },
+    {
+      "at": "obj:ilanlar",
+      "do": "point",
+      "emo": "happy",
+      "en": "This one… is in Feriköy. Twenty thousand! But no furniture.",
+      "fa": "این یکی… توی فری‌کؤیه. بیست هزار! ولی اثاث نداره.",
+      "to": "nima",
+      "tr": "Bu ev… Feriköy'de. Yirmi bin! Ama eşya yok.",
+      "who": "alex"
+    },
+    {
+      "beat": {
+        "at": "obj:ilanlar",
+        "do": "type",
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "show"
+          },
+          {
+            "id": "telefon",
+            "op": "take"
+          }
+        ],
+        "sfx": {
+          "id": "ui_tap",
+          "word": "tık tık"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "spot": {
+        "en": "-DA says where something is: masada (on the desk), çantada (in the bag), duvarda (on the wall), Şişli'de (in Şişli). After f, s, t, k, ç, ş, h or p it becomes -ta / -te: sınıfta (in the classroom). And vowel harmony picks -da or -de.",
+        "ex": "Saat duvarda!",
+        "fa": "پسوندِ -DA می‌گوید چیزی کجاست: masada (روی میز)، çantada (توی کیف)، duvarda (روی دیوار)، Şişli'de (در شیشلی). بعد از f، s، t، k، ç، ş، h و p می‌شود -ta / -te: sınıfta (در کلاس). هماهنگیِ واکه‌ها هم -da یا -de را انتخاب می‌کند. فارسی «در» و «روی» را پیش از اسم می‌گذارد؛ ترکی آن را به آخرِ اسم می‌چسباند.",
+        "lesson": "g_a1_2_bulunma",
+        "show": "case_path"
+      }
+    },
+    {
+      "cam": "wide",
+      "en": "Nima… a new home? Where? Coo-coo-coo… slowly, slowly.",
+      "fa": "نیما… یه خونه‌ی جدید؟ کجا؟ کو-کو-کو… یواش‌یواش.",
+      "narr": true,
+      "tr": "Nima… yeni bir ev? Nerede? Ku-ku-ku… yavaş yavaş.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Week two starts with Zafer Hoca's game: where is it, and what is there? At the break, Nima, Yusuf and Alex read the flat ads on the notice board: the rents are a shock, but one small ad in Feriköy is cheaper.",
+  "summaryFa": "هفته‌ی دوم با بازیِ استاد ظفر شروع می‌شود: چه چیزی کجاست و چه چیزی هست؟ در زنگ تفریح، نیما و یوسف و الکس آگهی‌های خانه را روی تابلوی اعلانات می‌خوانند: اجاره‌ها شوکه‌کننده‌اند، ولی یک آگهیِ کوچک در فری‌کؤی ارزان‌تر است.",
+  "title": "Saat nerede?",
+  "titleEn": "Where's the clock?",
+  "titleFa": "ساعت کجاست؟",
+  "words": [
+    "a1-w-sinif",
+    "a1-w-okul",
+    "a1-w-nerede",
+    "a1-w-var",
+    "a1-w-yok",
+    "a1-w-duvar",
+    "a1-w-kantin",
+    "a1-w-esya"
+  ]
+}

@@ -1,0 +1,24 @@
+Kumru
+Copyright (c) 2026 Mehrad Rousta
+
+The source code of this repository is licensed under the MIT License (LICENSE).
+
+The following are NOT licensed under the MIT License or any other license.
+All rights are reserved:
+
+  - the stories: data/stories/ and everything in them (text, translations,
+    glosses, staging and quizzes);
+  - the characters: data/characters/, their names, looks, voices, biographies
+    and personalities, including Kerim the kumru as a character;
+  - the places as written for the stories: data/places/ and data/needs.json;
+  - the story thumbnails: data/thumbs/;
+  - the story series documents: docs/stories/.
+
+All characters are fictional.
+
+The course data (word cards, grammar lessons, the path and the syllabus) is
+not part of this repository. data-sample/ is original sample content written
+for this repository; it is covered by the MIT License.
+
+Sahne, the stage engine and kit in the sahne/ submodule, has its own licenses
+(sahne/LICENSE and sahne/LICENSE-ART).

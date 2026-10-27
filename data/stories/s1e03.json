@@ -1,0 +1,593 @@
+{
+  "arc": {
+    "en": "Welcome!",
+    "fa": "خوش آمدی!",
+    "id": "s1w01",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Hoş geldin!"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "parvaneh",
+    "dilnoza"
+  ],
+  "extras": [
+    "yusuf",
+    "alex"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, what's this?",
+      "fa": "نیما، این چیه؟",
+      "to": "nima",
+      "tr": "Nima, bu ne?",
+      "who": "zafer"
+    },
+    {
+      "en": "This is a dictionary.",
+      "fa": "این فرهنگ لغته.",
+      "to": "zafer",
+      "tr": "Bu sözlük.",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! And what are these?",
+      "fa": "آره! اینا چیه؟",
+      "to": "nima",
+      "tr": "Evet! Bunlar ne?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_masalar",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Desks.",
+            "fa": "میزها.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very good! Desks, doors, boards.",
+                "fa": "خیلی خوبه! میزها، درها، تخته‌ها.",
+                "to": "nima",
+                "tr": "Çok güzel! Masalar, kapılar, tahtalar.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Masalar."
+          },
+          {
+            "en": "Desk.",
+            "fa": "میز.",
+            "react": {
+              "zafer": "curious"
+            },
+            "reply": [
+              {
+                "en": "One, two, three… desks!",
+                "fa": "یک، دو، سه… میزها!",
+                "to": "nima",
+                "tr": "Bir, iki, üç… masalar!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Masa."
+          },
+          {
+            "en": "Desks. (with -ler)",
+            "fa": "میزها. (با -ler)",
+            "react": {
+              "zafer": "surprised"
+            },
+            "reply": [
+              {
+                "en": "With a, a! Masalar.",
+                "fa": "با a، a! Masalar.",
+                "to": "nima",
+                "tr": "A, a! Masalar.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Masaler."
+          }
+        ],
+        "to": "zafer"
+      }
+    }
+  ],
+  "gl": {
+    "a": [
+      "حرفِ a",
+      "the letter a"
+    ],
+    "e": [
+      "حرفِ e",
+      "the letter e"
+    ],
+    "hocam": [
+      "استاد (خطاب به معلم)",
+      "(to a teacher) sir, miss; literally “my teacher”"
+    ],
+    "isfahanlıyım": [
+      "اهلِ اصفهانم",
+      "I'm from Isfahan"
+    ],
+    "kalemlar": [
+      "اشتباهِ دلنوزا؛ درستش: kalemler",
+      "Dilnoza's slip; the right form is kalemler"
+    ],
+    "kapılar": [
+      "درها",
+      "doors"
+    ],
+    "masalar": [
+      "میزها",
+      "tables, desks"
+    ],
+    "masaler": [
+      "اشتباه؛ درستش: masalar",
+      "a slip; the right form is masalar"
+    ],
+    "pencerelar": [
+      "اشتباه؛ درستش: pencereler",
+      "a slip; the right form is pencereler"
+    ],
+    "pencereler": [
+      "پنجره‌ها",
+      "windows"
+    ],
+    "tahtalar": [
+      "تخته‌ها",
+      "boards"
+    ]
+  },
+  "id": "s1e03",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_1_cogul",
+    "g_a1_1_unlu_uyumu",
+    "g_a1_1_bu_su_o"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "kalem": {
+      "at": {
+        "x": -2.2,
+        "y": 0.76,
+        "z": -1.75
+      },
+      "kit": "pen",
+      "n": 1,
+      "terms": [
+        "a1-w-kalem"
+      ]
+    },
+    "sozluk_hoca": {
+      "at": {
+        "x": -2.85,
+        "y": 0.76,
+        "z": -1.7
+      },
+      "kit": "book",
+      "terms": [
+        "a1-w-sozluk"
+      ],
+      "title": "SÖZLÜK",
+      "variant": "dictionary"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "“Kalemlar!” Who says it?",
+      "fa": "«Kalemlar!» را چه کسی می‌گوید؟",
+      "kind": "comp",
+      "options": [
+        "Dilnoza",
+        "Parvane",
+        "Nima"
+      ],
+      "q": "“Kalemlar!” Kim?",
+      "why": "Dilnoza: “Kalemlar!”"
+    },
+    {
+      "a": 0,
+      "en": "Zafer Hoca points at the windows: “Nima, what are these?” Nima: “…”",
+      "fa": "استاد ظفر پنجره‌ها را نشان می‌دهد: «Nima, bunlar ne?» نیما: «…»",
+      "kind": "word",
+      "options": [
+        "Pencereler.",
+        "Kalemler.",
+        "Defterler."
+      ],
+      "q": "Zafer Hoca: “Nima, bunlar ne?” Nima: “…”",
+      "why": "Zafer Hoca: “Nima, bunlar ne?” Nima: “Pencereler.”"
+    },
+    {
+      "a": 0,
+      "en": "It's nine o'clock, and Nima is at the door: “…”",
+      "fa": "ساعت نُه است و نیما دمِ در است: «…»",
+      "kind": "comp",
+      "options": [
+        "Günaydın hocam, özür dilerim!",
+        "İyi akşamlar!",
+        "Hoş geldin!"
+      ],
+      "q": "Saat dokuz. Nima: “…”",
+      "why": "Nima: “Günaydın hocam, özür dilerim!”"
+    }
+  ],
+  "ref": "A1_1",
+  "releaseDate": "2026-09-09",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "en": "Good morning! Who's this? It's Nima! And it's… nine o'clock!",
+      "fa": "صبح بخیر! این کیه؟ نیماست! ساعت… نُه!",
+      "move": {
+        "how": "enter",
+        "to": "door",
+        "who": "nima"
+      },
+      "narr": true,
+      "sfx": {
+        "id": "knock"
+      },
+      "tr": "Günaydın! Bu kim? Bu Nima! Saat… dokuz!",
+      "who": "kerim"
+    },
+    {
+      "do": "bow_head",
+      "emo": "nervous",
+      "en": "Good morning, sir. I'm sorry!",
+      "fa": "صبح بخیر استاد، ببخشید!",
+      "on": "özür",
+      "to": "zafer",
+      "tr": "Günaydın hocam, özür dilerim!",
+      "who": "nima"
+    },
+    {
+      "at": "mark:seat_1",
+      "do": "point",
+      "emo": "happy",
+      "en": "Good morning! Come in… that desk, that chair.",
+      "fa": "صبح بخیر! بفرمایید… اون میز، اون صندلی.",
+      "move": {
+        "how": "walk",
+        "to": "seat_1",
+        "who": "nima"
+      },
+      "on": "şu",
+      "to": "nima",
+      "tr": "Günaydın! Buyurun… şu masa, şu sandalye.",
+      "who": "zafer"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Hi! My name is Parvaneh. I'm from Isfahan!",
+      "fa": "سلام! اسمم پروانه‌ست. اهلِ اصفهانم!",
+      "react": {
+        "dilnoza": {
+          "at": "ch:nima",
+          "do": "wave"
+        }
+      },
+      "to": "nima",
+      "tr": "Merhaba! Benim adım Parvane. İsfahanlıyım!",
+      "voice": "whisper",
+      "who": "parvaneh"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kalem",
+            "op": "take"
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "at": "obj:kalem",
+      "do": "hold_up",
+      "emo": "curious",
+      "en": "What's this?",
+      "fa": "این چیه؟",
+      "to": "all",
+      "tr": "Bu ne?",
+      "who": "zafer"
+    },
+    {
+      "emo": "proud",
+      "en": "A pen!",
+      "fa": "خودکار!",
+      "link": {
+        "kalem": "obj:kalem"
+      },
+      "to": "zafer",
+      "tr": "Kalem!",
+      "who": "parvaneh"
+    },
+    {
+      "at": "obj:kalem",
+      "do": "hold_up",
+      "emo": "curious",
+      "en": "And what are these?",
+      "fa": "اینا چیه؟",
+      "obj": [
+        {
+          "id": "kalem",
+          "n": 2,
+          "op": "add"
+        }
+      ],
+      "to": "all",
+      "tr": "Bunlar ne?",
+      "who": "zafer"
+    },
+    {
+      "emo": "proud",
+      "en": "Pens! (Dilnoza says “kalemlar”)",
+      "fa": "خودکارها! (دلنوزا می‌گوید «kalemlar»)",
+      "mistake": {
+        "fix": "Kalemler"
+      },
+      "to": "zafer",
+      "tr": "Kalemlar!",
+      "who": "dilnoza"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "Kalemler. With e, e! Once more, please.",
+      "fa": "Kalemler. با e، e! یه بار دیگه، لطفاً.",
+      "link": {
+        "kalemler": "obj:kalem"
+      },
+      "to": "dilnoza",
+      "tr": "Kalemler. E, e! Bir daha, lütfen.",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:defterler",
+      "do": "point",
+      "emo": "proud",
+      "en": "Kalemler! And these… notebooks!",
+      "fa": "Kalemler! اینا هم… دفترها!",
+      "link": {
+        "defterler": "obj:defterler"
+      },
+      "on": "bunlar",
+      "react": {
+        "parvaneh": "clap",
+        "zafer": {
+          "do": "nod",
+          "emo": "happy"
+        }
+      },
+      "to": "zafer",
+      "tr": "Kalemler! Ve bunlar… defterler!",
+      "who": "dilnoza"
+    },
+    {
+      "at": "mark:desk_parvaneh",
+      "do": "point",
+      "emo": "proud",
+      "en": "And these… desk… desks!",
+      "fa": "اینا هم… میز… میزها!",
+      "on": "bunlar",
+      "react": {
+        "dilnoza": "laugh",
+        "zafer": {
+          "do": "thumb_up",
+          "emo": "happy"
+        }
+      },
+      "to": "zafer",
+      "tr": "Ve bunlar… masa… masalar!",
+      "who": "parvaneh"
+    },
+    {
+      "at": "mark:window_out",
+      "do": "point",
+      "emo": "curious",
+      "en": "Nima, what are these?",
+      "fa": "نیما، اینا چیه؟",
+      "move": {
+        "how": "walk",
+        "to": "desk_alex",
+        "who": "zafer"
+      },
+      "on": "bunlar",
+      "to": "nima",
+      "tr": "Nima, bunlar ne?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "pencereler",
+        "kind": "meaning",
+        "options": [
+          {
+            "emo": "proud",
+            "en": "Windows.",
+            "fa": "پنجره‌ها.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "thumb_up",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "thumb_up",
+                "emo": "happy",
+                "en": "Yes! Very good.",
+                "fa": "آره! خیلی خوبه.",
+                "to": "nima",
+                "tr": "Evet! Çok güzel.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Pencereler."
+          },
+          {
+            "emo": "neutral",
+            "en": "Window.",
+            "fa": "پنجره.",
+            "react": {
+              "zafer": {
+                "emo": "curious"
+              }
+            },
+            "reply": [
+              {
+                "at": "mark:window_out",
+                "do": "count",
+                "emo": "happy",
+                "en": "One, two, three… windows!",
+                "fa": "یک، دو، سه… پنجره‌ها!",
+                "n": 3,
+                "to": "nima",
+                "tr": "Bir, iki, üç… pencereler!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Pencere."
+          },
+          {
+            "emo": "proud",
+            "en": "Windows. (with -lar)",
+            "fa": "پنجره‌ها. (با -lar)",
+            "react": {
+              "dilnoza": {
+                "at": "ch:nima",
+                "do": "look",
+                "emo": "laugh"
+              },
+              "zafer": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "do": "explain",
+                "emo": "happy",
+                "en": "With e, e! Pencereler.",
+                "fa": "با e، e! Pencereler.",
+                "to": "nima",
+                "tr": "E, e! Pencereler.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Pencerelar."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "spot": {
+        "en": "More than one: add -ler or -lar. If the last vowel of the word is e, i, ö or ü, it is -ler: kalem → kalemler, defter → defterler, pencere → pencereler. If it is a, ı, o or u, it is -lar: masa → masalar, kapı → kapılar. “Kalemlar”? No: kalemler!",
+        "ex": "Kalemler.",
+        "fa": "برای جمع، به آخرِ کلمه -ler یا -lar اضافه می‌کنیم، مثلِ «ها» در فارسی. اگر آخرین حرفِ صدادارِ کلمه e یا i یا ö یا ü باشد، -ler می‌آید: kalem ← kalemler، defter ← defterler، pencere ← pencereler. اگر a یا ı یا o یا u باشد، -lar می‌آید: masa ← masalar، kapı ← kapılar. «Kalemlar»؟ نه: kalemler!",
+        "lesson": "g_a1_1_cogul"
+      }
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point_far",
+      "emo": "curious",
+      "en": "And what's that?",
+      "fa": "اون چیه؟",
+      "move": {
+        "how": "walk",
+        "to": "teacher",
+        "who": "zafer"
+      },
+      "react": {
+        "nima": {
+          "at": "ch:kerim",
+          "do": "look"
+        },
+        "parvaneh": {
+          "at": "ch:kerim",
+          "do": "look"
+        }
+      },
+      "to": "all",
+      "tr": "O ne?",
+      "who": "zafer"
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point",
+      "emo": "happy",
+      "en": "A bird!",
+      "fa": "یه پرنده!",
+      "link": {
+        "kuş": "ch:kerim"
+      },
+      "to": "zafer",
+      "tr": "Bir kuş!",
+      "who": "parvaneh"
+    },
+    {
+      "cam": "close",
+      "emo": "happy",
+      "en": "A bird… yes!",
+      "fa": "پرنده… آره!",
+      "narr": true,
+      "tr": "Kuş… evet!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Nima is late for the first real lesson. Zafer Hoca plays a game with the things on his desk, Dilnoza says “kalemlar”, and Nima names the windows.",
+  "summaryFa": "نیما برای اولین درسِ واقعی دیر می‌رسد. استاد ظفر با وسایلِ روی میزش یک بازی راه می‌اندازد، دلنوزا می‌گوید «kalemlar» و نیما اسمِ پنجره‌ها را می‌گوید.",
+  "title": "Bunlar ne?",
+  "titleEn": "What are these?",
+  "titleFa": "این‌ها چیست؟",
+  "words": [
+    "a1-w-kalem",
+    "a1-w-defter",
+    "a1-w-masa",
+    "a1-w-kapi",
+    "a1-w-sandalye",
+    "seed-w02",
+    "a1-w-tahta",
+    "a1-w-sozluk"
+  ]
+}

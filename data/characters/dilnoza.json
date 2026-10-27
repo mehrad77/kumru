@@ -1,0 +1,158 @@
+{
+  "address": {
+    "alex": "sen",
+    "nima": "sen",
+    "parvaneh": "sen",
+    "yusuf": "sen",
+    "zafer": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima and me: the guide!",
+        "fa": "من و نیما: راهنما!",
+        "photo": {
+          "step": 8,
+          "story": "s1e31"
+        },
+        "tr": "Nima ve ben: rehber!"
+      },
+      "family": {
+        "en": "Nima… my best friend.",
+        "fa": "نیما… بهترین دوستمه.",
+        "photo": {
+          "step": 19,
+          "story": "s1e39"
+        },
+        "tr": "Nima… benim en iyi arkadaşım."
+      },
+      "met": {
+        "en": "Nima: number seven.",
+        "fa": "نیما: شماره‌ی هفت.",
+        "photo": {
+          "step": 11,
+          "story": "s1e02"
+        },
+        "tr": "Nima: yedi numara."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.4,
+      "shape": "slim"
+    },
+    "face": {
+      "brows": "thin",
+      "eyeColor": "eye_dark",
+      "eyes": "round",
+      "mouth": "bowed",
+      "nose": "small",
+      "shape": "round"
+    },
+    "hair": {
+      "color": "hair_01",
+      "style": "hair_long"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_04"
+        ],
+        "id": "bottom_skirt_long"
+      },
+      "outer": {
+        "colors": [
+          "fab_38"
+        ],
+        "id": "outer_coat_long"
+      },
+      "shoes": {
+        "colors": [
+          "fab_20",
+          "fab_22",
+          "met_gunmetal"
+        ],
+        "id": "shoes_boots_ankle"
+      },
+      "top": {
+        "colors": [
+          "fab_02"
+        ],
+        "id": "top_blouse"
+      }
+    },
+    "skin": "skin_15",
+    "v": 1,
+    "wear": {
+      "head": {
+        "colors": [
+          "fab_05",
+          "met_silver"
+        ],
+        "id": "headscarf_pinned"
+      }
+    }
+  },
+  "bio": "19, from Samarkand, Uzbekistan; speaks Uzbek and some Tajik. Wants to study economics; her visa came late. Precise, with a great memory, and laughs easily, but too shy to speak first.",
+  "bioFa": "نوزده ساله، اهل سمرقندِ ازبکستان؛ ازبکی و کمی تاجیکی حرف می‌زند. می‌خواهد اقتصاد بخواند؛ ویزایش دیر رسید. دقیق، با حافظه‌ای عالی، و زود می‌خندد، ولی آن‌قدر خجالتی است که اول حرف نمی‌زند.",
+  "catch": {
+    "en": "It's the same where I'm from!",
+    "fa": "پیش ما هم همین‌طور است!",
+    "tr": "Bizde de aynı!"
+  },
+  "circle": "tomer",
+  "color": "#2BB4B0",
+  "id": "dilnoza",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "low",
+    "signature": [
+      "nod",
+      "write"
+    ],
+    "tempo": 0.9
+  },
+  "name": "Dilnoza",
+  "nameFa": "دلنوزا",
+  "order": 17,
+  "outfits": {
+    "indoor": {
+      "outfit": {
+        "outer": null,
+        "shoes": {
+          "colors": [
+            "fab_20"
+          ],
+          "id": "shoes_flats"
+        }
+      }
+    },
+    "winter": {
+      "outfit": {
+        "shoes": {
+          "colors": [
+            "fab_22",
+            "fab_22",
+            "met_silver"
+          ],
+          "id": "shoes_boots_knee"
+        }
+      }
+    }
+  },
+  "places": [
+    "class504",
+    "metro_osmanbey",
+    "ferikoy"
+  ],
+  "role": "A classmate from Samarkand",
+  "roleFa": "هم‌کلاسی‌ای از سمرقند",
+  "voice": {
+    "pitch": 1.15,
+    "rate": 0.9
+  }
+}

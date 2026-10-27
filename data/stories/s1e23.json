@@ -1,0 +1,711 @@
+{
+  "arc": {
+    "en": "A new family",
+    "fa": "یک خانواده‌ی تازه",
+    "id": "s1w04",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Yeni bir aile"
+  },
+  "cast": [
+    "nima",
+    "maria",
+    "omer",
+    "serkan"
+  ],
+  "followUp": [
+    {
+      "en": "Whose milk is this?",
+      "fa": "این شیر مالِ کیه؟",
+      "to": "nima",
+      "tr": "Bu süt kimin?",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "fu_sut",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "It's your milk!",
+            "fa": "شیرِ توئه!",
+            "ok": true,
+            "react": {
+              "omer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Yes! My milk! Pamuk loves milk.",
+                "fa": "آره! شیرِ من! پاموک شیر دوست داره.",
+                "to": "nima",
+                "tr": "Evet! Benim sütüm! Pamuk süt seviyor.",
+                "who": "omer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Senin sütün!"
+          },
+          {
+            "en": "It's my milk!",
+            "fa": "شیرِ منه!",
+            "react": {
+              "omer": "confused"
+            },
+            "reply": [
+              {
+                "en": "No! It's my milk!",
+                "fa": "نه! شیرِ منه!",
+                "to": "nima",
+                "tr": "Hayır! Benim sütüm!",
+                "who": "omer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Benim sütüm!"
+          }
+        ],
+        "to": "omer"
+      }
+    },
+    {
+      "en": "And whose cat is this?",
+      "fa": "و این گربه مالِ کیه؟",
+      "to": "nima",
+      "tr": "Ve bu kedi kimin?",
+      "who": "omer"
+    },
+    {
+      "en": "Our cat!",
+      "fa": "گربه‌ی ما!",
+      "to": "omer",
+      "tr": "Bizim kedimiz!",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! Ours!",
+      "fa": "آره! مالِ ما!",
+      "to": "nima",
+      "tr": "Evet! Bizim!",
+      "who": "omer"
+    }
+  ],
+  "gl": {
+    "adını": [
+      "اسمش را",
+      "its name (as the object)"
+    ],
+    "boğaz": [
+      "بُسفر",
+      "the Bosphorus"
+    ],
+    "kara": [
+      "سیاه",
+      "black"
+    ],
+    "kartal": [
+      "عقاب",
+      "eagle (Kara Kartal, the Black Eagle: Beşiktaş's nickname)"
+    ],
+    "kedimiz": [
+      "گربه‌مان",
+      "our cat"
+    ],
+    "kediniz": [
+      "گربه‌تان",
+      "your cat (siz)"
+    ],
+    "kiki": [
+      "کیکی (اسمِ گربه)",
+      "Kiki (a cat's name)"
+    ],
+    "kiki'yi": [
+      "کیکی را",
+      "Kiki (as the object)"
+    ],
+    "onu": [
+      "او را؛ آن را",
+      "him, her or it (as the object)"
+    ],
+    "oğlum": [
+      "پسرم (با محبت)",
+      "my boy (said fondly)"
+    ],
+    "pamuk": [
+      "پاموک: «پنبه» (اسمِ گربه)",
+      "Pamuk: “cotton” (a cat's name)"
+    ],
+    "pişi": [
+      "پیشی (گربه را این‌طور صدا می‌کنند)",
+      "Pişi: a way to call a cat (Persian پیشی)"
+    ],
+    "tahran": [
+      "تهران",
+      "Tehran"
+    ],
+    "yavrum": [
+      "عزیزم",
+      "my dear (to someone younger)"
+    ]
+  },
+  "id": "s1e23",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_4_belirtme",
+    "g_a1_4_iyelik",
+    "g_a1_4_kendi_hep"
+  ],
+  "level": "A1",
+  "place": "flat_nima_street",
+  "props": {
+    "balik": {
+      "at": {
+        "x": 1.9,
+        "y": 0.0,
+        "z": -1.45
+      },
+      "kit": "food",
+      "n": 1,
+      "shown": false,
+      "terms": [
+        "a1-w-balik"
+      ],
+      "variant": "fish"
+    },
+    "kaplar": {
+      "at": {
+        "x": -1.15,
+        "y": 0.0,
+        "z": -2.85
+      },
+      "food": "dry",
+      "kit": "bowl",
+      "n": 1,
+      "shown": false,
+      "terms": [
+        "a2-w-kap"
+      ]
+    },
+    "sut": {
+      "at": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": -1.25
+      },
+      "kit": "milk",
+      "n": 1,
+      "shown": false,
+      "terms": [
+        "a1-w-sut"
+      ]
+    },
+    "termos": {
+      "at": {
+        "x": 0.7,
+        "y": 0.0,
+        "z": -3.25
+      },
+      "kit": "tea",
+      "shown": false,
+      "terms": [
+        "a1-w-cay"
+      ],
+      "variant": "thermos"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What does Serkan bring?",
+      "fa": "سرکان چه می‌آورد؟",
+      "kind": "comp",
+      "options": [
+        "Balık",
+        "Süt",
+        "Çay"
+      ],
+      "q": "Serkan ne getiriyor?",
+      "why": "Serkan: “Kara Kartal! Gel oğlum! Balık veriyorum!”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “I have a cat in Tehran. I … it.”",
+      "fa": "نیما: «توی تهران گربه دارم. …»",
+      "kind": "word",
+      "options": [
+        "özlüyorum",
+        "veriyorum",
+        "korkuyorum"
+      ],
+      "q": "Nima: “Tahran'da benim kedim var. Onu …”",
+      "why": "Nima: “Tahran'da benim kedim var. Onu özlüyorum.”"
+    },
+    {
+      "a": 0,
+      "en": "In the end, whose cat is it?",
+      "fa": "آخرش گربه مالِ کیست؟",
+      "kind": "comp",
+      "options": [
+        "Bizim",
+        "Benim",
+        "Sizin"
+      ],
+      "q": "Sonunda kedi kimin?",
+      "why": "Ömer: “Bizim kedimiz! Adı ne?”"
+    }
+  ],
+  "ref": "A1_4",
+  "releaseDate": "2026-10-02",
+  "season": 1,
+  "steps": [
+    {
+      "at": {},
+      "kerim": "ledge_low",
+      "scene": "flat_nima_street",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "cat",
+            "op": "set",
+            "set": {
+              "coat": "black",
+              "pose": "sit",
+              "react": false
+            }
+          }
+        ],
+        "sfx": {
+          "id": "meow"
+        }
+      }
+    },
+    {
+      "emo": "nervous",
+      "en": "Good morning… A cat! There's a cat here! Kerim doesn't like the cat… Kerim is scared!",
+      "fa": "صبح بخیر… گربه! گربه این‌جاست! کریم گربه رو دوست نداره… کریم می‌ترسه!",
+      "link": {
+        "kedi": "obj:cat"
+      },
+      "move": {
+        "how": "fly",
+        "to": "ledge_mid",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Günaydın… Kedi! Kedi burada! Kerim kediyi sevmiyor… Kerim korkuyor!",
+      "who": "kerim"
+    },
+    {
+      "emo": "happy",
+      "en": "Today… the Bosphorus! I've got tea!",
+      "fa": "امروز… بسفر! چای دارم!",
+      "link": {
+        "çay": "obj:termos"
+      },
+      "move": {
+        "how": "enter",
+        "to": "steps",
+        "who": "nima"
+      },
+      "obj": [
+        {
+          "id": "termos",
+          "op": "show"
+        },
+        {
+          "id": "termos",
+          "op": "take"
+        }
+      ],
+      "to": "viewer",
+      "tr": "Bugün… Boğaz! Çay var!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Kiki! Come, come! …I'm looking for Kiki.",
+      "fa": "کیکی! بیا، بیا! …دنبالِ کیکی می‌گردم.",
+      "move": {
+        "how": "enter",
+        "to": "walk_l",
+        "who": "maria"
+      },
+      "obj": [
+        {
+          "id": "kaplar",
+          "op": "show"
+        },
+        {
+          "id": "cat",
+          "op": "set",
+          "set": {
+            "dir": -1,
+            "pose": "walk"
+          }
+        },
+        {
+          "id": "cat",
+          "op": "go",
+          "to": "cat"
+        }
+      ],
+      "to": "nima",
+      "tr": "Kiki! Gel, gel! …Kiki'yi arıyorum.",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "Pişi, pişi! …I love you, Pişi.",
+      "fa": "پیشی، پیشی! …دوستت دارم، پیشی.",
+      "obj": [
+        {
+          "at": "step",
+          "id": "termos",
+          "op": "place"
+        },
+        {
+          "id": "kaplar",
+          "n": 1,
+          "op": "add"
+        },
+        {
+          "id": "cat",
+          "op": "set",
+          "set": {
+            "dir": 1,
+            "pose": "sit"
+          }
+        }
+      ],
+      "to": "viewer",
+      "tr": "Pişi, pişi! …Seni seviyorum, Pişi.",
+      "voice": "whisper",
+      "who": "nima"
+    },
+    {
+      "at": "obj:cat",
+      "do": "point",
+      "emo": "proud",
+      "en": "This is Kiki. My cat.",
+      "fa": "این کیکیه. گربه‌ی منه.",
+      "link": {
+        "kedim": "obj:cat"
+      },
+      "to": "nima",
+      "tr": "Bu Kiki. Benim kedim.",
+      "who": "maria"
+    },
+    {
+      "at": "obj:cat",
+      "do": "point",
+      "emo": "surprised",
+      "en": "No… this is Pişi! My cat!",
+      "fa": "نه… این پیشیه! گربه‌ی منه!",
+      "link": {
+        "kedim": "obj:cat"
+      },
+      "to": "maria",
+      "tr": "Hayır… bu Pişi! Benim kedim!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Pamuk! That's my cat!",
+      "fa": "پاموک! اون گربه‌ی منه!",
+      "move": [
+        {
+          "how": "enter",
+          "to": "kerb",
+          "who": "omer"
+        },
+        {
+          "how": "fly",
+          "to": "ledge_high",
+          "who": "kerim"
+        }
+      ],
+      "obj": [
+        {
+          "id": "sut",
+          "op": "show"
+        },
+        {
+          "id": "sut",
+          "op": "take"
+        },
+        {
+          "id": "kaplar",
+          "n": 1,
+          "op": "add"
+        }
+      ],
+      "to": "all",
+      "tr": "Pamuk! O benim kedim!",
+      "who": "omer"
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Kara Kartal! Come here, boy! I've got fish for you!",
+      "fa": "کارا کارتال! بیا پسرم! بهت ماهی می‌دم!",
+      "link": {
+        "balık": "obj:balik"
+      },
+      "move": {
+        "how": "enter",
+        "to": "walk_r",
+        "who": "serkan"
+      },
+      "obj": [
+        {
+          "id": "balik",
+          "op": "show"
+        },
+        {
+          "id": "balik",
+          "op": "take"
+        },
+        {
+          "id": "kaplar",
+          "n": 1,
+          "op": "add"
+        }
+      ],
+      "to": "all",
+      "tr": "Kara Kartal! Gel oğlum! Balık veriyorum!",
+      "who": "serkan"
+    },
+    {
+      "at": "obj:cat",
+      "do": "point",
+      "emo": "proud",
+      "en": "Whose cat is that? Mine!",
+      "fa": "اون گربه مالِ کیه؟ مالِ من!",
+      "link": {
+        "kedi": "obj:cat"
+      },
+      "react": {
+        "maria": {
+          "emo": "annoyed"
+        },
+        "omer": {
+          "emo": "annoyed"
+        }
+      },
+      "to": "all",
+      "tr": "Şu kedi kimin? Benim!",
+      "who": "serkan"
+    },
+    {
+      "choice": {
+        "id": "kimin",
+        "kind": "meaning",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Ours!",
+            "fa": "مالِ ما!",
+            "ok": true,
+            "react": {
+              "maria": {
+                "emo": "moved"
+              },
+              "omer": {
+                "do": "cheer",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "moved",
+                "en": "Yes… our cat.",
+                "fa": "آره… گربه‌ی ما.",
+                "to": "nima",
+                "tr": "Evet… bizim kedimiz.",
+                "who": "maria"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Bizim!"
+          },
+          {
+            "emo": "annoyed",
+            "en": "Mine! My cat!",
+            "fa": "مالِ من! گربه‌ی منه!",
+            "react": {
+              "omer": {
+                "emo": "sad"
+              },
+              "serkan": {
+                "at": "obj:balik",
+                "do": "hold_up"
+              }
+            },
+            "reply": [
+              {
+                "emo": "proud",
+                "en": "No! Mine!",
+                "fa": "نه! مالِ من!",
+                "to": "nima",
+                "tr": "Hayır! Benim!",
+                "who": "serkan"
+              },
+              {
+                "beat": {
+                  "obj": [
+                    {
+                      "id": "cat",
+                      "op": "set",
+                      "set": {
+                        "dir": 1,
+                        "pose": "walk"
+                      }
+                    },
+                    {
+                      "id": "cat",
+                      "op": "go",
+                      "to": "door"
+                    }
+                  ]
+                }
+              },
+              {
+                "emo": "sad",
+                "en": "…The cat is leaving.",
+                "fa": "…گربه داره می‌ره.",
+                "obj": [
+                  {
+                    "id": "cat",
+                    "op": "set",
+                    "set": {
+                      "pose": "sit"
+                    }
+                  }
+                ],
+                "to": "all",
+                "tr": "…Kedi gidiyor.",
+                "who": "maria"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Benim! Benim kedim!"
+          },
+          {
+            "emo": "shy",
+            "en": "Yours.",
+            "fa": "مالِ شما.",
+            "react": {
+              "maria": {
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "emo": "moved",
+                "en": "No, dear… yours too!",
+                "fa": "نه، عزیزم… مالِ شما هم هست!",
+                "to": "nima",
+                "tr": "Hayır, yavrum… sizin de!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Sizin."
+          }
+        ],
+        "to": "omer"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Our cat! What's its name?",
+      "fa": "گربه‌ی ما! اسمش چیه؟",
+      "to": "all",
+      "tr": "Bizim kedimiz! Adı ne?",
+      "who": "omer"
+    },
+    {
+      "emo": "laugh",
+      "en": "Kiki… Pamuk… Pişi… Kartal! Everyone says a different name!",
+      "fa": "کیکی… پاموک… پیشی… کارتال! هر کی یه اسمِ دیگه می‌گه!",
+      "obj": [
+        {
+          "id": "cat",
+          "op": "set",
+          "set": {
+            "pose": "loaf"
+          }
+        }
+      ],
+      "react": {
+        "omer": "laugh",
+        "serkan": "laugh"
+      },
+      "to": "all",
+      "tr": "Kiki… Pamuk… Pişi… Kartal! Herkes başka bir ad söylüyor!",
+      "who": "maria"
+    },
+    {
+      "emo": "sad",
+      "en": "I have a cat in Tehran. I miss it.",
+      "fa": "توی تهران گربه دارم. دلم براش تنگ شده.",
+      "to": "maria",
+      "tr": "Tahran'da benim kedim var. Onu özlüyorum.",
+      "who": "nima"
+    },
+    {
+      "emo": "moved",
+      "en": "Now… you have a cat here too.",
+      "fa": "حالا… این‌جا هم یه گربه دارید.",
+      "to": "nima",
+      "tr": "Şimdi… burada da bir kediniz var.",
+      "who": "maria"
+    },
+    {
+      "spot": {
+        "en": "With sevmek, özlemek and aramak, the one you mean takes -(y)I: kediyi sevmiyor (doesn't like the cat), seni seviyorum (I love you), onu özlüyorum (I miss it), Kiki'yi arıyorum (I'm looking for Kiki). And one cat for everyone: bizim kedimiz, our cat.",
+        "ex": "Onu özlüyorum.",
+        "fa": "با sevmek، özlemek و aramak، کسی یا چیزی که منظورمان است ‎-(y)I می‌گیرد، مثلِ «را» در فارسی: kediyi sevmiyor (گربه را دوست ندارد)، seni seviyorum (دوستت دارم)، onu özlüyorum (دلم برایش تنگ شده)، Kiki'yi arıyorum (دنبالِ کیکی می‌گردم). و یک گربه برای همه: bizim kedimiz، گربه‌ی ما.",
+        "lesson": "g_a1_4_belirtme",
+        "show": "owner"
+      }
+    },
+    {
+      "beat": {
+        "at": "obj:termos",
+        "cam": "obj"
+      }
+    },
+    {
+      "emo": "annoyed",
+      "en": "Does Kerim like the cat? …A little. And the Bosphorus? …Another day.",
+      "fa": "کریم گربه رو دوست داره؟ …یه کم. و بسفر؟ …یه روزِ دیگه.",
+      "link": {
+        "kediyi": "obj:cat"
+      },
+      "narr": true,
+      "tr": "Kerim kediyi seviyor mu? …Biraz. Ve Boğaz? …Başka bir gün.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Friday, no class: Nima comes down with a thermos for the Bosphorus and finds the street cat at the door. Maria Teyze calls it Kiki, Ömer Pamuk, Serkan Kara Kartal and Nima Pişi: one cat, four names, everyone's cat.",
+  "summaryFa": "جمعه است و کلاس نیست. نیما با فلاسکِ چای پایین می‌آید که برود کنارِ بسفر، اما دمِ در گربه‌ی کوچه را می‌بیند. خاله ماریا صدایش می‌کند کیکی، عمر پاموک، سرکان کارا کارتال و نیما پیشی: یک گربه، چهار اسم، گربه‌ی همه.",
+  "title": "Bizim kedimiz",
+  "titleEn": "Our cat",
+  "titleFa": "گربه‌ی ما",
+  "words": [
+    "a1-w-ozlemek",
+    "a1-w-sevmek",
+    "a1-w-vermek",
+    "a1-w-korkmak",
+    "a1-w-aramak",
+    "a1-w-ad"
+  ]
+}

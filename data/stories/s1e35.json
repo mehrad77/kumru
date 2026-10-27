@@ -1,0 +1,847 @@
+{
+  "arc": {
+    "en": "The best of Feriköy",
+    "fa": "بهترین جاهای فری‌کؤی",
+    "id": "s1w06",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Feriköy'ün en iyi yerleri"
+  },
+  "cast": [
+    "reza",
+    "nima",
+    "dilnoza"
+  ],
+  "extras": [
+    "clerk_goc"
+  ],
+  "followUp": [
+    {
+      "en": "Tell me! What's on the left?",
+      "fa": "تعریف کن! سمتِ چپ چی هست؟",
+      "to": "nima",
+      "tr": "Anlat! Solda ne var?",
+      "via": "video",
+      "who": "dilnoza"
+    },
+    {
+      "choice": {
+        "id": "fu_sol",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "On the left there's the sun.",
+            "fa": "سمتِ چپ خورشید هست.",
+            "ok": true,
+            "react": {
+              "dilnoza": "happy"
+            },
+            "reply": [
+              {
+                "en": "And on the right?",
+                "fa": "سمتِ راست چی؟",
+                "tr": "Ve sağda?",
+                "via": "video",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Solda güneş var."
+          },
+          {
+            "en": "On the left there's the bridge.",
+            "fa": "سمتِ چپ پل هست.",
+            "react": {
+              "dilnoza": "confused"
+            },
+            "reply": [
+              {
+                "en": "The bridge on the left? No, on the right!",
+                "fa": "پل سمتِ چپه؟ نه، سمتِ راسته!",
+                "tr": "Köprü solda mı? Hayır, sağda!",
+                "via": "video",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Solda köprü var."
+          }
+        ],
+        "to": "dilnoza"
+      }
+    },
+    {
+      "en": "On the right there's the bridge. Down below are the streets, the bakery and our building.",
+      "fa": "سمتِ راست پل هست. اون پایین کوچه‌ها، نونوایی و ساختمونِ ما هست.",
+      "tr": "Sağda köprü var. Aşağıda sokaklar, fırın ve bizim bina var.",
+      "who": "nima"
+    }
+  ],
+  "gl": {
+    "belgeleriniz": [
+      "مدارکتان",
+      "your documents"
+    ],
+    "belgem": [
+      "مدرکم، گواهی‌ام",
+      "my certificate (document)"
+    ],
+    "belki": [
+      "شاید",
+      "maybe"
+    ],
+    "boğaz": [
+      "بسفر",
+      "the Bosphorus"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a neighbourhood of Şişli)"
+    ],
+    "feriköy'ün": [
+      "ـِ فری‌کؤی",
+      "Feriköy's"
+    ],
+    "fotoğraflarım": [
+      "عکس‌هایم",
+      "my photos"
+    ],
+    "haliç": [
+      "شاخ طلایی (خلیجِ استانبول)",
+      "the Golden Horn"
+    ],
+    "herkesin": [
+      "همه (… دارند)",
+      "everyone's; everyone (has)"
+    ],
+    "hikâyesi": [
+      "داستانِ…",
+      "a story (of …)"
+    ],
+    "ikamet": [
+      "اقامت",
+      "residence (permit)"
+    ],
+    "imza": [
+      "امضا",
+      "signature"
+    ],
+    "manzarası": [
+      "منظرهٔ…",
+      "the view (of …)"
+    ],
+    "mühür": [
+      "مهر",
+      "stamp, seal"
+    ],
+    "noter": [
+      "محضر، دفترخانهٔ اسناد رسمی",
+      "notary"
+    ],
+    "onayı": [
+      "تأییدِ…",
+      "the approval (of …)"
+    ],
+    "randevusu": [
+      "نوبتِ…، وقتِ…",
+      "the appointment (for …)"
+    ],
+    "rehbere": [
+      "به راهنما، در راهنما",
+      "into the guide"
+    ],
+    "rehberin": [
+      "ـِ راهنما",
+      "the guide's"
+    ],
+    "sorun": [
+      "مشکل",
+      "problem"
+    ],
+    "sözleşmede": [
+      "در قرارداد",
+      "on the contract"
+    ],
+    "sözleşmem": [
+      "قراردادم",
+      "my contract"
+    ],
+    "sır": [
+      "راز",
+      "secret"
+    ],
+    "sırrı": [
+      "رازِ…",
+      "the secret (of …)"
+    ],
+    "tank": [
+      "منبعِ آب",
+      "(water) tank"
+    ],
+    "tanka": [
+      "به منبعِ آب",
+      "to the (water) tank"
+    ],
+    "tankın": [
+      "ـِ منبعِ آب",
+      "of the (water) tank"
+    ],
+    "tolga": [
+      "تولگا (مشاورِ املاک)",
+      "Tolga (the estate agent)"
+    ],
+    "vay": [
+      "وای!",
+      "wow!"
+    ],
+    "üstünde": [
+      "بالای…، روی…",
+      "on top of…; over…"
+    ],
+    "üstündeki": [
+      "(آنِ) روی…",
+      "the one on top of…"
+    ]
+  },
+  "id": "s1e35",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_6_yer_yon",
+    "g_a1_6_belirtisiz_tamlama",
+    "g_a1_6_en"
+  ],
+  "level": "A1",
+  "place": "goc_outside",
+  "props": {
+    "anahtar": {
+      "at": {
+        "flat_nima_room": {
+          "x": 0.85,
+          "y": 0.77,
+          "z": -1.85
+        }
+      },
+      "kit": "key",
+      "terms": [
+        "a1-w-anahtar"
+      ]
+    },
+    "belge": {
+      "at": {
+        "goc_inside": {
+          "x": 2.5,
+          "y": 0.9,
+          "z": -2.85
+        }
+      },
+      "kit": "paper",
+      "shown": false,
+      "terms": [],
+      "variant": "document"
+    },
+    "dosya": {
+      "at": {
+        "goc_inside": {
+          "x": 1.4,
+          "y": 0.9,
+          "z": -2.85
+        }
+      },
+      "kit": "book",
+      "terms": [
+        "a1-w-dosya"
+      ],
+      "variant": "folder"
+    },
+    "evrak": {
+      "at": {
+        "flat_nima_room": {
+          "x": 1.25,
+          "y": 0.77,
+          "z": -2.0
+        }
+      },
+      "kit": "book",
+      "terms": [
+        "a1-w-dosya"
+      ],
+      "variant": "folder"
+    },
+    "fotograflar": {
+      "at": {
+        "goc_inside": {
+          "x": 2.25,
+          "y": 0.9,
+          "z": -2.85
+        }
+      },
+      "kit": "photo",
+      "n": 2,
+      "shown": false,
+      "terms": [
+        "a1-w-fotograf"
+      ]
+    },
+    "pasaport": {
+      "at": {
+        "goc_inside": {
+          "x": 2.0,
+          "y": 0.9,
+          "z": -2.85
+        }
+      },
+      "kit": "book",
+      "shown": false,
+      "terms": [
+        "a2-w-pasaport"
+      ],
+      "variant": "passport"
+    },
+    "randevu_kagidi": {
+      "at": {
+        "goc_inside": {
+          "x": 2.2,
+          "y": 0.9,
+          "z": -3.1
+        }
+      },
+      "kit": "paper",
+      "label": "İkamet randevusu: 26 Ekim, 10:00",
+      "shown": false,
+      "terms": [
+        "a1-w-randevu"
+      ],
+      "variant": "slip"
+    },
+    "sozlesme": {
+      "at": {
+        "goc_inside": {
+          "x": 2.75,
+          "y": 0.9,
+          "z": -2.85
+        }
+      },
+      "kit": "paper",
+      "shown": false,
+      "signed": true,
+      "stamped": false,
+      "terms": [
+        "a1-w-sozlesme",
+        "a1-w-kira"
+      ],
+      "variant": "contract"
+    },
+    "telefon": {
+      "at": {
+        "rooftop": {
+          "x": 3.0,
+          "y": 0.9,
+          "z": -2.1
+        }
+      },
+      "kit": "phone",
+      "screen": "Dilnoza",
+      "shown": false,
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What is missing on the contract?",
+      "fa": "قرارداد چه چیزی ندارد؟",
+      "kind": "comp",
+      "options": [
+        "Noter onayı",
+        "Fotoğraf",
+        "Pasaport"
+      ],
+      "q": "Sözleşmede ne yok?",
+      "why": "Reza Bey: “Sözleşme… noter onayı yok.”"
+    },
+    {
+      "a": 0,
+      "en": "Dilnoza: “Wow! This … where is it?”",
+      "fa": "دلنوزا: «وای! این … کجاست؟»",
+      "kind": "word",
+      "options": [
+        "manzara",
+        "köprü",
+        "sayfa"
+      ],
+      "q": "Dilnoza: “Vay! Bu … nerede?”",
+      "why": "Dilnoza: “Vay! Bu manzara… nerede?”"
+    },
+    {
+      "a": 0,
+      "en": "Who leads Nima to the water tank?",
+      "fa": "چه کسی نیما را تا منبعِ آب می‌برد؟",
+      "kind": "comp",
+      "options": [
+        "Kerim",
+        "Reza Bey",
+        "Dilnoza"
+      ],
+      "q": "Nima'yı tanka kim götürüyor?",
+      "why": "Kerim: “Kerim'in yeri, Kerim'in sırrı. Ve şimdi… Nima'nın da sırrı.”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-16",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "street"
+      },
+      "kerim": "over",
+      "scene": "goc_outside",
+      "time": "day"
+    },
+    {
+      "en": "Friday. Ten o'clock. Nima's residence-permit appointment!",
+      "fa": "جمعه. ساعت ده. نوبتِ اقامتِ نیما!",
+      "move": {
+        "how": "walk",
+        "to": "steps",
+        "who": "nima"
+      },
+      "narr": true,
+      "tr": "Cuma. Saat on. Nima'nın ikamet randevusu!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "clerk_goc": "clerk",
+        "nima": "counter_customer",
+        "reza": "counter_customer_2"
+      },
+      "kerim": "window_out",
+      "scene": "goc_inside",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "dosya",
+            "op": "take"
+          }
+        ],
+        "sfx": {
+          "id": "number_call",
+          "word": "dıng!"
+        },
+        "who": "reza"
+      }
+    },
+    {
+      "at": "obj:dosya",
+      "do": "hold_up",
+      "emo": "neutral",
+      "en": "Good morning! Are your documents ready?",
+      "fa": "صبح بخیر! مدارکتون آماده‌ست؟",
+      "link": {
+        "belgeleriniz": "obj:dosya"
+      },
+      "to": "nima",
+      "tr": "Günaydın! Belgeleriniz hazır mı?",
+      "who": "reza"
+    },
+    {
+      "do": "nod",
+      "emo": "proud",
+      "en": "Yes! My passport, my photos, my student certificate, my rental contract.",
+      "fa": "بله! پاسپورتم، عکس‌هام، گواهیِ دانشجوییم، قراردادِ اجاره‌م.",
+      "link": {
+        "belgem": "obj:belge",
+        "fotoğraflarım": "obj:fotograflar",
+        "pasaportum": "obj:pasaport",
+        "sözleşmem": "obj:sozlesme"
+      },
+      "obj": [
+        {
+          "id": "pasaport",
+          "op": "show"
+        },
+        {
+          "id": "fotograflar",
+          "op": "show"
+        },
+        {
+          "id": "belge",
+          "op": "show"
+        },
+        {
+          "id": "sozlesme",
+          "op": "show"
+        }
+      ],
+      "to": "reza",
+      "tr": "Evet! Pasaportum, fotoğraflarım, öğrenci belgem, kira sözleşmem.",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "at": "obj:sozlesme",
+        "cam": "close",
+        "do": "touch",
+        "who": "clerk_goc"
+      }
+    },
+    {
+      "beat": {
+        "do": "shake_head",
+        "who": "clerk_goc"
+      }
+    },
+    {
+      "at": "obj:sozlesme",
+      "do": "point",
+      "emo": "sorry",
+      "en": "The contract… it has no notary stamp.",
+      "fa": "قرارداد… تأییدِ محضر نداره.",
+      "link": {
+        "sözleşme": "obj:sozlesme"
+      },
+      "to": "nima",
+      "tr": "Sözleşme… noter onayı yok.",
+      "who": "reza"
+    },
+    {
+      "emo": "confused",
+      "en": "Notary… what does that mean?",
+      "fa": "نوتر… یعنی چی؟",
+      "to": "reza",
+      "tr": "Noter… ne demek?",
+      "who": "nima"
+    },
+    {
+      "emo": "sorry",
+      "en": "A signature, a stamp: that's Tolga Bey's job. I'm sorry… a new appointment. In ten days, on Monday.",
+      "fa": "یه امضا، یه مهر: کارِ آقای تولگاست. متأسفانه… یه نوبتِ جدید. ده روز دیگه، دوشنبه.",
+      "link": {
+        "randevu": "obj:randevu_kagidi"
+      },
+      "obj": [
+        {
+          "id": "randevu_kagidi",
+          "op": "show"
+        },
+        {
+          "id": "randevu_kagidi",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Bir imza, bir mühür: Tolga Bey'in işi. Maalesef… yeni bir randevu. On gün sonra, pazartesi.",
+      "who": "reza"
+    },
+    {
+      "emo": "sad",
+      "en": "OK… thank you, Reza Bey.",
+      "fa": "باشه… ممنونم، آقای رضا.",
+      "to": "reza",
+      "tr": "Tamam… teşekkür ederim, Reza Bey.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "No problem. In Istanbul everyone has a notary story!",
+      "fa": "اشکالی نداره. توی استانبول همه با محضر یه ماجرایی دارن!",
+      "to": "nima",
+      "tr": "Sorun değil. İstanbul'da herkesin bir noter hikâyesi var!",
+      "who": "reza"
+    },
+    {
+      "at": {
+        "nima": "desk"
+      },
+      "kerim": "sill",
+      "scene": "flat_nima_room",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "cam": "wide",
+        "emo": "sad",
+        "sfx": {
+          "id": "beak_tap",
+          "word": "tık tık"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "fly",
+          "to": "sill_up",
+          "who": "kerim"
+        },
+        "sfx": {
+          "id": "beak_tap",
+          "word": "tık tık tık"
+        }
+      }
+    },
+    {
+      "beat": {
+        "emo": "curious",
+        "move": {
+          "how": "exit",
+          "to": "door",
+          "who": "nima"
+        },
+        "obj": [
+          {
+            "id": "anahtar",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": {
+        "nima": "landing_4"
+      },
+      "kerim": "stair_window",
+      "scene": "flat_nima_stairs",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "cam": "follow",
+        "move": {
+          "from": "roof_door",
+          "how": "exit",
+          "to": "roof_door",
+          "via": [
+            "stairs_4_5",
+            "landing_5"
+          ],
+          "who": "nima"
+        }
+      }
+    },
+    {
+      "at": {},
+      "kerim": "tank",
+      "scene": "rooftop",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "move": {
+          "from": "roof_door",
+          "how": "enter",
+          "to": "ladder",
+          "who": "nima"
+        },
+        "sfx": {
+          "id": "wind",
+          "word": "vuuu"
+        }
+      }
+    },
+    {
+      "cam": "wide",
+      "en": "On the left, the sun, over the Golden Horn. On the right, between the buildings: the Bosphorus and the bridge! Down below… the streets of Feriköy.",
+      "fa": "سمتِ چپ، خورشید، بالای شاخ طلایی. سمتِ راست، لای ساختمون‌ها: بسفر و پل! اون پایین… کوچه‌های فری‌کؤی.",
+      "narr": true,
+      "tr": "Solda güneş, Haliç'in üstünde. Sağda, binaların arasında: Boğaz ve köprü! Aşağıda… Feriköy'ün sokakları.",
+      "who": "kerim"
+    },
+    {
+      "at": "mark:sky",
+      "do": "point_far",
+      "emo": "moved",
+      "en": "The Bosphorus… it's there! Very far… but there.",
+      "fa": "بسفر… اون‌جاست! خیلی دوره… ولی اون‌جاست.",
+      "to": "kerim",
+      "tr": "Boğaz… orada! Çok uzak… ama orada.",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "show"
+          },
+          {
+            "id": "telefon",
+            "op": "take"
+          }
+        ],
+        "sfx": {
+          "id": "phone_ring",
+          "word": "dırrr dırrr"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "cam": "split",
+      "emo": "curious",
+      "en": "Where are you? How did the appointment go?",
+      "fa": "کجایی؟ نوبتِ اقامت چطور بود؟",
+      "to": "nima",
+      "tr": "Neredesin? Randevu nasıl geçti?",
+      "via": "video",
+      "who": "dilnoza"
+    },
+    {
+      "at": "mark:sky",
+      "do": "photo",
+      "emo": "shy",
+      "en": "Badly… but now I'm here. This is the most beautiful place in Feriköy!",
+      "fa": "بد بود… ولی الان این‌جام. این‌جا قشنگ‌ترین جای فری‌کؤیه!",
+      "to": "dilnoza",
+      "tr": "Kötü… ama şimdi buradayım. Burası Feriköy'ün en güzel yeri!",
+      "who": "nima"
+    },
+    {
+      "cam": "split",
+      "emo": "surprised",
+      "en": "Wow! This view… where is it? The guide's last page is empty!",
+      "fa": "وای! این منظره… کجاست؟ صفحهٔ آخرِ راهنما خالیه!",
+      "to": "nima",
+      "tr": "Vay! Bu manzara… nerede? Rehberin son sayfası boş!",
+      "via": "video",
+      "who": "dilnoza"
+    },
+    {
+      "choice": {
+        "id": "sir",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "shy",
+            "en": "It's a secret… but I'll tell you: our roof!",
+            "fa": "این یه رازه… ولی به تو می‌گم: پشت‌بومِ خودمون!",
+            "ok": true,
+            "react": {
+              "kerim": {
+                "emo": "proud"
+              }
+            },
+            "reply": [
+              {
+                "cam": "split",
+                "emo": "happy",
+                "en": "OK. A secret. The last page: “A secret: the most beautiful view in Feriköy.”",
+                "fa": "باشه. راز. صفحهٔ آخر: «یه راز: قشنگ‌ترین منظرهٔ فری‌کؤی.»",
+                "to": "nima",
+                "tr": "Tamam. Sır. Son sayfa: “Bir sır: Feriköy'ün en güzel manzarası.”",
+                "via": "video",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Bu bir sır… ama sana söylüyorum: bizim çatı!"
+          },
+          {
+            "emo": "happy",
+            "en": "I'm putting it in the guide: everyone should come!",
+            "fa": "تو راهنما می‌نویسمش: همه بیان!",
+            "react": {
+              "kerim": {
+                "emo": "nervous"
+              }
+            },
+            "reply": [
+              {
+                "en": "Everyone?! Tourists… on the tank?!",
+                "fa": "همه؟! روی منبع… توریست؟!",
+                "narr": true,
+                "tr": "Herkes?! Tankta… turistler?!",
+                "who": "kerim"
+              },
+              {
+                "cam": "split",
+                "emo": "laugh",
+                "en": "Maybe… just friends?",
+                "fa": "شاید… فقط دوستا؟",
+                "to": "nima",
+                "tr": "Belki… sadece arkadaşlar?",
+                "via": "video",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Rehbere yazıyorum: herkes gelsin!",
+            "warm": {
+              "kerim": -1
+            }
+          },
+          {
+            "emo": "nervous",
+            "en": "I don't know.",
+            "fa": "نمی‌دونم.",
+            "react": {
+              "kerim": {
+                "emo": "curious"
+              }
+            },
+            "reply": [
+              {
+                "cam": "split",
+                "emo": "curious",
+                "en": "…That's your roof, isn't it?",
+                "fa": "…این پشت‌بومِ خودته، نه؟",
+                "to": "nima",
+                "tr": "…Bu senin çatın, değil mi?",
+                "via": "video",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Bilmiyorum."
+          }
+        ],
+        "to": "kerim"
+      }
+    },
+    {
+      "spot": {
+        "en": "The whole of Ünite 6 in one view. Where: solda (on the left), sağda (on the right), aşağıda (down below), Haliç'in üstünde (over the Golden Horn), binaların arasında (between the buildings). Two nouns as one name: ikamet randevusu, öğrenci belgesi, kira sözleşmesi, noter onayı. Whose: Feriköy'ün sokakları, Tolga Bey'in işi. Which one: tankın üstündeki kuş. The most: Feriköy'ün en güzel yeri.",
+        "ex": "Solda güneş, Haliç'in üstünde.",
+        "fa": "همهٔ درسِ ۶ در یک منظره. کجا: solda (سمتِ چپ)، sağda (سمتِ راست)، aşağıda (آن پایین)، Haliç'in üstünde (بالای شاخ طلایی)، binaların arasında (لای ساختمان‌ها). دو اسم با هم یک اسم: ikamet randevusu (نوبتِ اقامت)، öğrenci belgesi (گواهیِ دانشجویی)، kira sözleşmesi (قراردادِ اجاره)، noter onayı (تأییدِ محضر). مالِ کی: Feriköy'ün sokakları، Tolga Bey'in işi. کدام: tankın üstündeki kuş (پرندهٔ روی منبع). ـترین: Feriköy'ün en güzel yeri.",
+        "lesson": "g_a1_6_yer_yon",
+        "show": "case_path"
+      }
+    },
+    {
+      "cam": "wide",
+      "en": "The bird on the tank… Kerim. Kerim's place, Kerim's secret. And now… Nima's secret too.",
+      "env": "time:dusk:20000",
+      "fa": "پرندهٔ روی منبع… کریم. جای کریم، رازِ کریم. و حالا… رازِ نیما هم هست.",
+      "narr": true,
+      "tr": "Tankın üstündeki kuş… Kerim. Kerim'in yeri, Kerim'in sırrı. Ve şimdi… Nima'nın da sırrı.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "At the residence-permit appointment the rental contract has no notary stamp, and Nima gets a new date. That evening Kerim leads Nima up to the old water tank on the roof, Kerim's secret place, where the Bosphorus shows between the buildings.",
+  "summaryFa": "سرِ نوبتِ اقامت معلوم می‌شود قراردادِ اجاره مهرِ محضر ندارد و نیما نوبتِ تازه‌ای می‌گیرد. عصر، کریم نیما را تا منبعِ آبِ قدیمیِ پشت‌بام می‌برد، جای مخفیِ خودش، جایی که بسفر از لای ساختمان‌ها پیداست.",
+  "title": "En güzel manzara",
+  "titleEn": "The most beautiful view",
+  "titleFa": "زیباترین منظره",
+  "words": [
+    "a1-w-manzara",
+    "seed-w22",
+    "a1-w-sag",
+    "a1-w-sol",
+    "a1-w-asagi",
+    "a1-w-sayfa",
+    "a1-w-randevu"
+  ]
+}

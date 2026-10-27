@@ -1,0 +1,298 @@
+/* Shared component rules (rings, tiles, panels, cards, sheets, account and friends bits). Layer order is declared in index.html: reset, base, components, features. */
+@layer components {
+/* from 20-screens.css */
+/* ---------- home ---------- */
+.ring{width:84px;height:84px;flex:none}
+.ring .track{stroke:var(--sunken)}
+.ring .val{stroke:var(--sage);transition:stroke-dashoffset var(--dur-slower) var(--ease-soft)}
+.ring.met .val{stroke:var(--accent)}
+.ring .ck{stroke:var(--accent)}
+.ring text{font:400 19px var(--sans);fill:var(--ink)}
+.streak{display:inline-flex;align-items:center;gap:6px;font-weight:500;color:var(--bark)}
+.streak svg{width:18px;height:18px}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:12px}
+@media (max-width:760px){
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.tile{padding:16px;display:grid;gap:4px;align-content:start}
+.tile .k,.ipanel .k{font-size:12px;color:var(--muted)}
+.tile .v{font:400 30px/1 var(--sans);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.tile .s{font-size:12px;color:var(--faint)}
+.ipanel{padding:18px;display:grid;gap:10px;align-content:start;min-width:0}
+.ipanel.wide{grid-column:1/-1}
+.ipanel h3{margin:0;font-size:16px;font-weight:500}
+.ihead{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.tr-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2px 10px;font-size:14px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.tr-row:last-child{border-bottom:0}
+.tr-row .w{font-weight:600}
+.tr-row .f{text-align:right}
+.tr-row .meta{grid-column:1/-1;font-size:12px;color:var(--muted)}
+/* ---------- session (SUI quiz anatomy: QuizHeader, prompt, answer options, CheckBar) ---------- */
+.session{max-width:640px;margin:0 auto;display:flex;flex-direction:column;min-height:100dvh}
+.s-close{border:0;background:var(--surface);box-shadow:var(--shadow-float);width:44px;height:44px;border-radius:var(--radius-md);display:grid;place-items:center;color:var(--ink);flex:none;transition:transform var(--dur-base) var(--ease-spring)}
+.s-close:active{transform:scale(.94)}
+.s-close svg{width:18px;height:18px}
+.q-kind{font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.q-title{font:400 22px/1.3 var(--sans);letter-spacing:-.01em;margin:0}
+.q-prompt{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.q-word{font:400 clamp(36px,10vw,52px)/1.1 var(--sans);letter-spacing:-.02em;overflow-wrap:anywhere}
+.q-word[lang=fa]{font:500 clamp(28px,7vw,40px)/1.5 var(--fa);letter-spacing:0}
+.q-sub{color:var(--muted);font-size:16px}
+.q-sub[lang=fa]{font-size:18px}
+.choices{display:grid;gap:10px}
+.choice{border:0;background:var(--surface);box-shadow:var(--shadow-float);border-radius:var(--radius-lg);padding:10px 16px 10px 10px;text-align:start;font-size:18px;min-height:64px;display:flex;align-items:center;gap:14px;color:var(--ink);transition:background var(--dur-base) var(--ease-soft),box-shadow var(--dur-base) var(--ease-soft),transform var(--dur-base) var(--ease-spring),color var(--dur-base)}
+.choice .opt-t{display:flex;flex-direction:column;gap:2px;min-width:0}
+.choice .opt-sub{font-size:13px;font-weight:400;color:var(--faint);line-height:1.25}
+.choice .n{width:40px;height:40px;border-radius:var(--radius-sm);border:0;background:var(--sunken);display:grid;place-items:center;font-size:14px;font-weight:500;color:var(--muted);flex:none}
+.choice[lang=fa]{font-family:var(--fa)}
+.choice:hover:not(:disabled){transform:translateY(-2px);box-shadow:var(--shadow-card)}
+.choice:active:not(:disabled){transform:scale(.98)}
+.choice.right{background:var(--act);color:var(--act-text);box-shadow:var(--shadow-ink)}
+.choice.right .n{background:rgba(255,255,255,.16);color:inherit}
+.choice.wrong{background:var(--bad-soft);color:var(--bad);box-shadow:inset 0 0 0 2px var(--bad)}
+@media (prefers-reduced-motion:no-preference){
+  .choice.right{animation:sui-celebrate var(--dur-slow) var(--ease-spring)}
+  .choice.wrong{animation:sui-shake 420ms var(--ease-soft)}
+}
+.choice:disabled{cursor:default}
+.choice:disabled:not(.right):not(.wrong){opacity:.6}
+.kbd{display:flex;gap:6px;flex-wrap:wrap}
+.kbd button{border:0;background:var(--surface);box-shadow:var(--shadow-float);border-radius:var(--radius-sm);min-width:44px;height:44px;font-size:18px;font-weight:500;transition:transform var(--dur-base) var(--ease-spring)}
+.kbd button:active{transform:scale(.94)}
+.pairs .col{display:grid;gap:10px;align-content:start}
+.q-mean .gw{font:inherit;color:inherit;padding:0;border:0;background:none;cursor:pointer}
+.why{margin:4px 0 0;padding-inline-start:18px;display:grid;gap:3px;font-size:14px;color:var(--muted)}
+.foot-row{display:flex;gap:10px}
+.foot-row .btn{flex:1;min-height:56px;font-size:16px}
+/* ---------- sheet ---------- */
+.sheet-back{position:fixed;inset:0;z-index:95;background:rgba(30,28,18,.38);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);display:flex;align-items:flex-end;justify-content:center}
+.sheet{position:relative;background:var(--surface);width:100%;max-width:520px;border-radius:var(--radius-xl) var(--radius-xl) 0 0;padding:26px 20px calc(24px + env(safe-area-inset-bottom,0px));display:grid;gap:14px;max-height:88dvh;overflow:auto;box-shadow:var(--shadow-lift)}
+.sheet::before{content:"";position:absolute;top:10px;left:50%;width:40px;height:5px;margin-left:-20px;border-radius:999px;background:var(--line)}
+@media (min-width:761px){
+  .sheet-back{align-items:center}
+  .sheet{border-radius:var(--radius-xl);padding-top:24px}
+  .sheet::before{display:none}
+}
+@media (prefers-reduced-motion:no-preference){
+  .sheet{animation:sui-sheet-in var(--dur-slow) var(--ease-out-quart) backwards}
+}
+.sheet-h{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sheet-h h2{margin:0;font:400 28px/1.15 var(--sans);letter-spacing:-.02em}
+.sheet .s-close{background:var(--sunken);box-shadow:none;width:40px;height:40px}
+.sheet .btn.primary{min-height:56px;font-size:16px}
+body.sheet-open{overflow:hidden}
+/* ---------- path (home): the page hides while a session runs (the Path's own styles are app/features/path/path.css) ---------- */
+body.in-session .wrap{display:none}
+@media (max-width:760px){
+  nav.tabs button.admin-tab{display:none}
+}
+/* sheets: the review options (also the Lab's sheets) and the sheet title's Kerim */
+.rv-opts{display:grid;gap:8px}
+.rv-o{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:12px;align-items:center;border:0;background:var(--surface);box-shadow:var(--shadow-float);border-radius:var(--radius-lg);padding:10px 12px;text-align:start;color:var(--ink);min-height:64px;transition:transform var(--dur-base) var(--ease-soft),box-shadow var(--dur-base)}
+.rv-o:hover:not(:disabled){transform:translateY(-1px);box-shadow:var(--shadow-card)}
+.rv-o:disabled{opacity:.5}
+.rv-o .ico{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;color:var(--c,var(--accent));background:color-mix(in srgb,var(--c,var(--accent)) 14%,var(--surface))}
+.rv-o .ico svg{width:22px;height:22px}
+.rv-t{display:grid;gap:1px}
+.rv-t .hint{font-size:13px}
+.rv-h{display:flex;align-items:center;gap:8px}
+/* the answer line is always one row: its tiles share the width (up to 40px each) and shrink with the word, so a long word never wraps and the page never scrolls */
+/* new-word card: an outlined "I already know this" button inside the card, away from the footer */
+.toast.has-undo{display:flex;width:max-content;align-items:center;gap:14px;padding:8px 8px 8px 20px}
+.toast .toast-msg{display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap}
+.toast .ans-conf{color:inherit;margin:0;--cu:color-mix(in srgb,var(--good) 45%,currentColor);--cd:color-mix(in srgb,var(--bad) 55%,currentColor)}
+.toast .ans-conf .dots span{background:color-mix(in srgb,currentColor 22%,transparent)}
+.toast .ans-conf .dots span.on{background:currentColor}
+.toast .ans-conf .dots span.up{background:var(--cu)}
+.toast .ans-conf .dots span.dn{background:var(--cd)}
+.toast .ans-conf.up b{color:var(--cu)}
+.toast .ans-conf.dn b{color:var(--cd)}
+.toast .undo{background:var(--surface);color:var(--ink);border:0;border-radius:999px;padding:8px 16px;font:inherit;font-weight:600;cursor:pointer}
+/* from 30-content.css */
+/* ---------- library (words, sentences, notes) ---------- */
+.list{display:grid;gap:8px}
+.i-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+/* ---------- grammar ---------- */
+details.lesson{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);scroll-margin-top:80px}
+details.lesson[open]{border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
+details.lesson>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:32px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px}
+details.lesson>summary::-webkit-details-marker{display:none}
+.num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;border:1.5px solid var(--line);color:var(--muted);font-variant-numeric:tabular-nums}
+details.lesson[open] .num{border-color:var(--accent);color:var(--accent)}
+details.lesson.done .num{background:var(--good);border-color:var(--good);color:var(--surface)}
+.lt{display:grid;gap:2px;min-width:0}
+.ttl{font-weight:700;font-size:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.lt .pchip{justify-self:start;margin-top:3px}
+.state{font-size:12px;color:var(--good);font-weight:700}
+.lfa{margin:0;font-size:15px;line-height:1.8;color:var(--muted)}
+.w-word{font-size:18px;font-weight:500;overflow-wrap:anywhere}
+.w-fa{font-size:17px}
+.w-en{color:var(--muted);font-size:14px}
+.tip{background:var(--accent-soft);border-radius:10px;padding:10px 12px;display:grid;gap:4px;font-size:14px}
+.tip.mem{background:var(--shared-soft)}
+.qz-q{font-size:20px;line-height:1.6}
+.qz-gap{display:inline-block;min-width:2.4em;padding:0 6px;margin:0 1px;border-radius:6px;border-bottom:2px solid var(--accent);background:var(--accent-soft);color:var(--accent);text-align:center;font-weight:700}
+.qz-gap.filled{border-bottom-color:var(--good);background:var(--good-soft);color:var(--good)}
+.ex-list{display:grid;gap:10px}
+.exi{display:grid;gap:2px;padding-inline-start:12px;border-inline-start:2px solid var(--line)}
+@media (prefers-reduced-motion:no-preference){
+  .btn,.choice,.tilebtn,.word-tile{transition:background .12s,border-color .12s,transform .08s}
+  .choice:active,.tilebtn:active,.word-tile:active,.btn:active{transform:translateY(1px)}
+}
+/* ---------- stories ---------- */
+.scene{position:absolute;inset:0;overflow:hidden}
+.scene svg{width:100%;height:100%;display:block}
+:root[data-theme="dark"] .scene svg{filter:brightness(.82) saturate(.9)}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .scene svg{filter:brightness(.82) saturate(.9)}
+}
+.stars{display:inline-flex;gap:1px;color:var(--line);font-size:17px;letter-spacing:1px}
+.stars .on{color:var(--ochre)}
+.cx{display:inline-flex;gap:3px}
+.cx i{width:7px;height:7px;border-radius:50%;background:var(--line)}
+.cx i.on{background:var(--accent)}
+/* character sheet */
+/* reader */
+.seg.sm button{padding:5px 9px;font-size:13px;min-height:32px}
+.fx{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+@keyframes fx-fly{0%{left:-15%;transform:translateY(0)}50%{transform:translateY(24px) rotate(6deg)}100%{left:110%;transform:translateY(-10px)}}
+@media (prefers-reduced-motion:reduce){
+  .fx{display:none}
+}
+@keyframes ln-in{from{opacity:0;transform:translateY(8px)}}
+.gw{background:none;border:0;padding:0;font:inherit;color:inherit;border-bottom:1.5px dotted color-mix(in srgb,var(--ink) 35%,transparent);cursor:help;border-radius:0}
+.gw.known{border-bottom-color:var(--accent)}
+.gw:hover,.gw.on{background:var(--accent-soft);border-radius:4px}
+.gpop{position:fixed;z-index:80;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;box-shadow:0 12px 30px -10px rgba(0,0,0,.35);display:grid;gap:4px;animation:ln-in .15s}
+.gp-h{display:flex;justify-content:space-between;align-items:center;font-size:18px}
+.gpop .fa{font-family:var(--fa);font-size:15px}
+.gp-card{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:2px}
+.spot{display:grid;grid-template-columns:54px 1fr;gap:10px;align-items:start;animation:ln-in .3s}
+.ask{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;padding:8px 12px;border-radius:14px;background:color-mix(in srgb,var(--c) 10%,var(--surface));border:1px dashed var(--c);animation:ln-in .3s}
+.ask b{font-size:17px}
+.opts{display:grid;gap:8px}
+.opt{display:grid;gap:1px;text-align:start;background:var(--surface);border:1.5px solid var(--line);border-bottom-width:4px;border-radius:14px;padding:10px 14px;color:var(--ink);font-size:17px;transition:transform .1s}
+.opt:hover{border-color:var(--accent)}
+.opt:active{transform:translateY(2px)}
+.opt.right{border-color:var(--good);background:color-mix(in srgb,var(--good) 12%,var(--surface))}
+.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 10%,var(--surface))}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+/* home: story line */
+.gp-card .pill{background:var(--accent-soft);color:var(--accent)}
+/* ---------- practice tiles ---------- */
+/* custom practice page */
+/* voice input */
+.type-row{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:stretch}
+.mic-btn{width:56px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface);color:var(--accent);display:grid;place-items:center}
+.mic-btn svg{width:24px;height:24px}
+.mic-btn.on{background:var(--bad);border-color:var(--bad);color:#fff;animation:mic-pulse 1s ease-in-out infinite}
+@keyframes mic-pulse{50%{box-shadow:0 0 0 8px color-mix(in srgb,var(--bad) 25%,transparent)}}
+/* ---------- lesson page ---------- */
+body.lesson-open{overflow:hidden}
+.lesson-page{position:fixed;inset:0;z-index:70;background:var(--bg-page) fixed,var(--bg);overflow-y:auto;display:grid;grid-template-rows:auto 1fr auto;animation:lp-in .22s ease-out}
+@keyframes lp-in{from{transform:translateX(24px);opacity:.4}}
+@media (prefers-reduced-motion:reduce){
+  .lesson-page{animation:none}
+}
+.lp-bar{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:10px 16px;background:var(--glass);-webkit-backdrop-filter:var(--blur-glass);backdrop-filter:var(--blur-glass);border-bottom:0}
+.lp-back{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);display:grid;place-items:center}
+.lp-back svg{width:20px;height:20px}
+.lp-crumb{display:grid;gap:5px;min-width:0}
+.lp-crumb span{font-size:12px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* a card that opens a page (Profile's Stats and My notes): an icon, a title with a one-line summary, a chevron */
+.link-card{display:flex;align-items:center;gap:14px;width:100%;padding:16px 18px;text-align:start;color:var(--ink);border:0;font:inherit}
+.link-ico{width:40px;height:40px;flex:none;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)}.link-ico svg{width:22px;height:22px}
+.link-t{display:grid;gap:2px;flex:1;min-width:0}.link-t b{font:500 17px var(--sans)}.link-t .hint{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lp-wrap{width:100%;max-width:760px;margin:0 auto;padding:22px 16px 24px;display:grid;gap:16px;align-content:start}
+/* ---------- settings ---------- */
+.set-card{padding:16px;display:grid;gap:10px}
+.set-card h2{margin:0;font:400 24px/1.2 var(--sans);display:flex;align-items:center;gap:8px}
+[hidden]{display:none!important}
+.set-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 14px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.set-row>div:first-child{flex:1 1 190px;min-width:0}
+.set-card h2+div>.set-row:first-child,.set-card h2+.set-row{border-top:0}
+.set-row b{display:block;font-weight:600}
+.set-row .hint{display:block;font-size:12.5px}
+.set-ctl{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.set-seg button{padding:6px 10px;font-size:13px}
+.switch{width:46px;height:28px;border-radius:999px;border:0;background:var(--line);position:relative;padding:0;flex:none;transition:background .15s}
+.switch span{position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transition:transform .15s}
+.switch.on{background:var(--good)}
+.switch.on span{transform:translateX(18px)}
+.ai-pill{background:color-mix(in srgb,var(--bark) 16%,transparent);color:var(--warm);font-size:10.5px}
+.hint.soon{font-style:italic}
+/* the "Try it" box and the tutor lab live in app/features/tutor/tutor.css; the writing box is shared with onboarding */
+.try-in{width:100%;resize:vertical;min-height:56px;font:inherit;font-size:17px;padding:10px 12px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink)}
+.try-in:focus{border-color:var(--accent);outline:none}
+@media (min-width:761px){
+  nav.tabs [data-tab="settings"]{padding-inline:10px}
+}
+/* ---------- conversations ---------- */
+/* fix my mistakes */
+/* journal */
+/* phase 4 polish */
+.tw-col{display:grid;gap:6px;flex:1;max-width:260px}
+.think-bar{height:4px;border-radius:2px;background:var(--line);overflow:hidden;position:relative}
+.think-bar span{position:absolute;inset:0 auto 0 0;width:35%;border-radius:2px;background:var(--accent);animation:tb 1.4s ease-in-out infinite}
+@keyframes tb{0%{left:-35%}100%{left:100%}}
+@media (prefers-reduced-motion:reduce){
+  .think-bar span{animation:none}
+}
+/* profile: icon badges on setting cards, stat tiles and the header */
+.set-ic{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:12px;background:var(--accent-soft);color:var(--ink);flex:none}
+.set-ic svg{width:18px;height:18px}
+.pchip.hot{background:#FBE7D3;color:#9A4310}
+.pchip.hot svg{color:#C8571F}
+.acc-form textarea{background:var(--sunken);border:0;border-radius:14px;padding:12px 14px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;resize:vertical;min-height:84px}
+/* from 40-friends.css */
+/* ---------- the Friends tab's badge (the tab bar is the shell's; the Friends screens are app/features/friends/friends.css) ---------- */
+.fr-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* unread badge on the Friends tab */
+#tabs [data-tab="friends"]{position:relative}
+.fr-badge{position:absolute;top:6px;right:calc(50% - 18px);width:10px;height:10px;border-radius:50%;background:var(--bad);box-shadow:0 0 0 2px var(--surface)}
+@media (min-width:761px){
+  .fr-badge{top:4px;right:6px}
+}
+/* from 45-account.css */
+/* ---------- the sheet forms and rows the account feature shares with Notebook flow, classes, owner and confirmSheet
+   (the account screens' own rules are app/features/account/account.css) ---------- */
+.acc-form{display:grid;gap:10px;padding:4px 2px 8px}
+.acc-form label{display:grid;gap:4px;font-size:13px;color:var(--ink-2,var(--ink))}
+.acc-form input{background:var(--sunken);border:0;border-radius:14px;padding:12px 14px;font-size:16px;min-height:44px;color:var(--ink);width:100%;box-sizing:border-box}
+.acc-form input:focus-visible{outline:2px solid var(--sage,var(--accent));outline-offset:1px}
+.acc-form .acc-err{color:var(--bad);font-size:13px;min-height:1em;margin:0}
+.acc-form .acc-err:empty{display:none}
+.acc-loading{display:flex;align-items:center;gap:12px;padding:18px 4px;color:var(--ink-2)}
+/* a busy button and a loading row share one spinner; with reduced motion it is a still ring */
+.spin,.btn.busy::before{width:18px;height:18px;border-radius:50%;border:2.5px solid color-mix(in srgb,currentColor 28%,transparent);border-top-color:currentColor;flex:none}
+.btn.busy::before{content:""}
+.btn.busy{cursor:progress;opacity:.85}
+@media (prefers-reduced-motion:no-preference){
+  .spin,.btn.busy::before{animation:acc-spin .8s linear infinite}
+}
+@keyframes acc-spin{to{transform:rotate(360deg)}}
+.acc-form .btn{justify-self:stretch}
+.acc-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.acc-dev{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line,rgba(0,0,0,.08))}
+.acc-dev:last-child{border-bottom:0}
+.acc-danger{color:var(--bad)}
+.ow-fold>summary{display:flex;align-items:baseline;justify-content:space-between;gap:12px;cursor:pointer;list-style:none}
+.ow-fold>summary::-webkit-details-marker{display:none}
+.ow-fold>summary h2{margin:0}
+.ow-fold>summary::after{content:"Show";font-size:13px;color:var(--accent,var(--ink));margin-inline-start:auto;order:3}
+.ow-fold[open]>summary::after{content:"Hide"}
+.ow-fold[open]>summary{margin-bottom:12px}
+.gate-ctx{display:flex;gap:12px;align-items:flex-start;text-align:start;width:100%;box-sizing:border-box;padding:12px 14px;border-radius:var(--radius-md,18px);background:var(--accent-soft);color:var(--ink)}
+.gate-ctx-b{display:grid;gap:6px;min-width:0}
+.gate-ctx-t{margin:0;font-size:14px;line-height:1.4}
+.gate-ctx-t.acc-err{color:var(--bad)}
+.gate-ctx-back{font-size:14px;font-weight:500;color:var(--ink);text-decoration:underline;text-underline-offset:3px;justify-self:start;padding:6px 0}
+.cf-body{margin:0}
+.btn.ghost.bad{background:var(--bad-soft);color:var(--bad)}
+/* the toast sits above the gate (z 50) and every sheet (z 60); with a sheet or the gate up it drops from the top so it never covers their buttons */
+.toast{z-index:80}
+body.sheet-open .toast,body.gated .toast{bottom:auto;top:calc(14px + env(safe-area-inset-top,0px))}
+.toast:empty{visibility:hidden}
+.sheet:focus{outline:none}
+}

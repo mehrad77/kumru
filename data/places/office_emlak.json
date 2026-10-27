@@ -1,0 +1,404 @@
+{
+  "v": 1,
+  "id": "office_emlak",
+  "name": {
+    "tr": "Tolga Bey'in emlak ofisi",
+    "en": "Tolga Bey's estate agency",
+    "fa": "بنگاهِ املاکِ آقای تولگا"
+  },
+  "district": "Şişli",
+  "size": {
+    "w": 9,
+    "d": 4.2
+  },
+  "camera": {
+    "wide": {
+      "w": 8.8,
+      "x": 0,
+      "z": -1.9,
+      "y0": 0,
+      "y1": 3.7
+    }
+  },
+  "times": [
+    "day",
+    "golden"
+  ],
+  "perch": "sign",
+  "ambience": [
+    "traffic",
+    "street_far"
+  ],
+  "motif": "street",
+  "surface": "stone",
+  "marks": {
+    "door": {
+      "door": "door",
+      "out": {
+        "x": 2.75,
+        "z": -1.0
+      },
+      "x": 2.75,
+      "z": -2.45
+    },
+    "desk": {
+      "seat": 0.45,
+      "x": 0.85,
+      "z": -3.45
+    },
+    "front_l": {
+      "facing": "r",
+      "x": 0.15,
+      "z": -2.5
+    },
+    "front_r": {
+      "facing": "l",
+      "x": 1.6,
+      "z": -2.5
+    },
+    "counter": {
+      "x": -1.55,
+      "z": -3.3
+    },
+    "customer": {
+      "facing": "l",
+      "x": -0.6,
+      "z": -2.55
+    },
+    "wait": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -3.3,
+      "z": -2.9
+    },
+    "street_l": {
+      "facing": "r",
+      "x": -0.9,
+      "z": -0.6
+    },
+    "street_r": {
+      "facing": "l",
+      "x": 0.4,
+      "z": -0.6
+    },
+    "sign": {
+      "x": 0.2,
+      "y": 3.45,
+      "z": -1.7
+    },
+    "glass": {
+      "air": true,
+      "x": -0.5,
+      "y": 1.7,
+      "z": -1.45
+    }
+  },
+  "pieces": [
+    {
+      "kit": "skyline",
+      "variant": "sisli",
+      "w": 5000,
+      "h": 800,
+      "x": 0,
+      "z": -40
+    },
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 2400,
+      "x": 0,
+      "z": -14
+    },
+    {
+      "kit": "wall",
+      "color": "#E9E4D8",
+      "h": 330,
+      "w": 1000,
+      "tiles": 0,
+      "x": 0,
+      "z": -3.9
+    },
+    {
+      "kit": "floor",
+      "a": "#CFC7B9",
+      "b": "#C3BAAA",
+      "tile": 50,
+      "w": 1000,
+      "d": 220,
+      "x": 0,
+      "z": -3.95
+    },
+    {
+      "kit": "floor",
+      "a": "#B9B1A3",
+      "b": "#ADA597",
+      "tile": 60,
+      "w": 1400,
+      "d": 600,
+      "x": 0,
+      "z": -1.75
+    },
+    {
+      "kit": "shelf",
+      "variant": "books",
+      "w": 160,
+      "h": 200,
+      "x": -3.1,
+      "z": -3.8
+    },
+    {
+      "kit": "board",
+      "variant": "map",
+      "style": "city",
+      "title": "Şişli",
+      "w": 110,
+      "h": 75,
+      "x": -0.2,
+      "y": 1.45,
+      "z": -3.87
+    },
+    {
+      "kit": "clock",
+      "time": "17:20",
+      "x": 0.85,
+      "y": 2.45,
+      "z": -3.87
+    },
+    {
+      "kit": "plant",
+      "h": 140,
+      "x": 3.8,
+      "z": -3.6
+    },
+    {
+      "kit": "desk",
+      "id": "masa",
+      "variant": "office",
+      "terms": [
+        "a1-w-masa",
+        "a1-w-bilgisayar"
+      ],
+      "w": 170,
+      "x": 0.85,
+      "z": -3.05
+    },
+    {
+      "kit": "chair",
+      "variant": "office",
+      "x": 0.85,
+      "z": -3.5
+    },
+    {
+      "kit": "counter",
+      "id": "counter",
+      "variant": "office",
+      "label": "EMLAK",
+      "w": 200,
+      "h": 100,
+      "x": -1.55,
+      "z": -2.85
+    },
+    {
+      "kit": "lamp",
+      "x": -0.4,
+      "y": 2.85,
+      "z": -2.9
+    },
+    {
+      "kit": "wall",
+      "variant": "glass",
+      "w": 900,
+      "h": 300,
+      "x": 0,
+      "z": -1.8,
+      "openings": [
+        {
+          "x": 275,
+          "y": 0,
+          "w": 110,
+          "h": 240
+        }
+      ],
+      "frost": false
+    },
+    {
+      "kit": "door",
+      "id": "door",
+      "variant": "glass",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "w": 110,
+      "h": 240,
+      "x": 2.75,
+      "z": -1.79
+    },
+    {
+      "kit": "wall",
+      "color": "#E2D2B4",
+      "h": 220,
+      "w": 920,
+      "tiles": 0,
+      "x": 0,
+      "y": 3.0,
+      "z": -1.78
+    },
+    {
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": -4.0,
+      "z": -1.35
+    },
+    {
+      "kit": "street_kit",
+      "variant": "bollard",
+      "n": 2,
+      "x": 3.9,
+      "z": 0.7
+    },
+    {
+      "kit": "tree",
+      "h": 420,
+      "x": 4.15,
+      "z": -1.5
+    },
+    {
+      "kit": "machine",
+      "variant": "air_con",
+      "x": -2.7,
+      "y": 3.3,
+      "z": -1.74
+    }
+  ],
+  "props": {
+    "levha": {
+      "kit": "sign_board",
+      "variant": "plate",
+      "label": "EMLAK",
+      "sub": "Satılık · Kiralık",
+      "w": 220,
+      "h": 48,
+      "terms": [
+        "b1-w-emlak"
+      ],
+      "at": {
+        "x": 0.2,
+        "y": 3.15,
+        "z": -1.72
+      }
+    },
+    "ilanlar": {
+      "kit": "paper",
+      "variant": "flat_ad",
+      "n": 6,
+      "terms": [
+        "a2-w-ilan",
+        "b1-w-kiralik",
+        "a1-w-kira"
+      ],
+      "at": {
+        "x": -2.4,
+        "y": 1.1,
+        "z": -1.83
+      }
+    },
+    "telefon": {
+      "kit": "device",
+      "variant": "desk_phone",
+      "terms": [
+        "a1-w-telefon"
+      ],
+      "at": {
+        "x": 1.4,
+        "y": 0.75,
+        "z": -3.0
+      }
+    },
+    "phones": {
+      "kit": "phone",
+      "n": 2,
+      "terms": [
+        "a1-w-telefon"
+      ],
+      "at": {
+        "x": -1.2,
+        "y": 1.0,
+        "z": -2.85
+      }
+    },
+    "keys": {
+      "kit": "key",
+      "variant": "ring",
+      "terms": [
+        "a1-w-anahtar"
+      ],
+      "at": {
+        "x": -2.1,
+        "y": 1.0,
+        "z": -2.85
+      }
+    },
+    "chair": {
+      "kit": "chair",
+      "variant": "office",
+      "facing": "r",
+      "terms": [
+        "a1-w-sandalye"
+      ],
+      "at": {
+        "x": -3.3,
+        "y": 0,
+        "z": -2.95
+      }
+    },
+    "dosyalar": {
+      "kit": "book",
+      "variant": "folder",
+      "n": 3,
+      "terms": [
+        "a1-w-dosya"
+      ],
+      "at": {
+        "x": 0.35,
+        "y": 0.75,
+        "z": -3.0
+      }
+    },
+    "kalemlik": {
+      "kit": "stationery",
+      "variant": "pen_cup",
+      "decor": true,
+      "at": {
+        "x": 0.6,
+        "y": 0.75,
+        "z": -3.05
+      }
+    },
+    "cay": {
+      "kit": "tea",
+      "variant": "glass",
+      "terms": [
+        "a1-w-cay"
+      ],
+      "at": {
+        "x": 1.15,
+        "y": 0.75,
+        "z": -2.95
+      }
+    },
+    "motor": {
+      "kit": "street_kit",
+      "variant": "scooter",
+      "terms": [
+        "a1-w-sokak"
+      ],
+      "at": {
+        "x": -3.0,
+        "y": 0,
+        "z": -1.1
+      }
+    }
+  }
+}

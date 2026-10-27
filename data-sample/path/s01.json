@@ -1,0 +1,41 @@
+{
+  "en": "A small sample section",
+  "fa": "بخش نمونه",
+  "level": "A1",
+  "order": 1,
+  "skills": [
+    {
+      "en": "Hello and goodbye",
+      "fa": "سلام و خداحافظی",
+      "icon": "wave",
+      "id": "sk_sample_hello",
+      "kind": "words",
+      "lessons": [],
+      "title": "Merhaba!",
+      "words": [
+        "sample-w-merhaba",
+        "sample-w-gule-gule"
+      ]
+    },
+    {
+      "en": "Animals, food and the sea",
+      "fa": "حیوان، غذا و دریا",
+      "icon": "chat",
+      "id": "sk_sample_things",
+      "kind": "mixed",
+      "lessons": [
+        "g_a1_1_sample_mi"
+      ],
+      "title": "Kumru ve kedi",
+      "words": [
+        "sample-w-kumru",
+        "sample-w-kedi",
+        "sample-w-cay",
+        "sample-w-simit",
+        "sample-w-deniz",
+        "sample-w-vapur"
+      ]
+    }
+  ],
+  "title": "Sample"
+}

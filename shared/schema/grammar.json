@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kumru grammar document (SPECS_SCHEMA.md 4.1)",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "en": {
+      "type": "string"
+    },
+    "fa": {
+      "type": "string"
+    },
+    "level": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1"
+      ]
+    },
+    "ref": {
+      "type": "string",
+      "pattern": "^((A1|A2|B1)_[1-6])?$"
+    },
+    "section": {
+      "type": "string"
+    },
+    "sectionNo": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "blocks": {
+      "type": "array"
+    },
+    "ex": {
+      "type": "array"
+    },
+    "practice": {
+      "type": [
+        "array",
+        "object"
+      ]
+    },
+    "lite": {
+      "type": [
+        "array",
+        "object"
+      ]
+    },
+    "tip": {
+      "type": [
+        "string",
+        "object",
+        "array"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "en",
+    "fa",
+    "level",
+    "ref",
+    "order",
+    "blocks"
+  ],
+  "additionalProperties": false
+}

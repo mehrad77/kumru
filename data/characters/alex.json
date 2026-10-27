@@ -1,0 +1,144 @@
+{
+  "address": {
+    "dilnoza": "sen",
+    "nima": "sen",
+    "parvaneh": "sen",
+    "yusuf": "sen",
+    "zafer": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima, come to Kadıköy!",
+        "fa": "نیما، بیا کادیکوی!",
+        "photo": {
+          "step": 17,
+          "story": "s1e45"
+        },
+        "tr": "Nima, Kadıköy'e gel!"
+      },
+      "family": {
+        "en": "Nima is my best friend.",
+        "fa": "نیما بهترین دوستمه.",
+        "photo": {
+          "step": 28,
+          "story": "s1e48"
+        },
+        "tr": "Nima benim en iyi arkadaşım."
+      },
+      "met": {
+        "en": "Nima… I'm sleepy.",
+        "fa": "نیما… خوابم میاد.",
+        "photo": {
+          "step": 22,
+          "story": "s1e26"
+        },
+        "tr": "Nima… uykum var."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.68,
+      "shape": "slim"
+    },
+    "face": {
+      "brows": "thin",
+      "eyeColor": "eye_grey",
+      "eyes": "sleepy",
+      "mouth": "small",
+      "nose": "small",
+      "shape": "long"
+    },
+    "hair": {
+      "color": "hair_06",
+      "style": "hair_short"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_29"
+        ],
+        "id": "bottom_cargo"
+      },
+      "outer": {
+        "colors": [
+          "fab_35",
+          "fab_18"
+        ],
+        "id": "outer_coat_parka"
+      },
+      "shoes": {
+        "colors": [
+          "fab_31",
+          "fab_20",
+          "fab_22"
+        ],
+        "id": "shoes_boots_work"
+      },
+      "top": {
+        "colors": [
+          "fab_21"
+        ],
+        "id": "top_tee"
+      }
+    },
+    "skin": "skin_01",
+    "v": 1
+  },
+  "bio": "In his 20s, from St Petersburg, Russia; wants to study architecture. Works nights at a hostel in Kadıköy and comes to class by ferry. Careful, with a dry humour, but slow to answer.",
+  "bioFa": "بیست‌وچند ساله، اهل سن‌پترزبورگِ روسیه؛ می‌خواهد معماری بخواند. شب‌ها در هاستلی در کادیکوی کار می‌کند و با کشتی به کلاس می‌آید. دقیق و با شوخ‌طبعیِ خشک، ولی دیر جواب می‌دهد.",
+  "catch": {
+    "en": "One minute… I'm thinking.",
+    "fa": "یک دقیقه… دارم فکر می‌کنم.",
+    "tr": "Bir dakika… düşünüyorum."
+  },
+  "circle": "tomer",
+  "color": "#6F8FAF",
+  "id": "alex",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "low",
+    "signature": [
+      "think",
+      "read",
+      "shrug"
+    ],
+    "tempo": 0.9
+  },
+  "name": "Alex",
+  "nameFa": "الکس",
+  "order": 16,
+  "outfits": {
+    "indoor": {
+      "outfit": {
+        "outer": null
+      }
+    },
+    "winter": {
+      "outfit": {
+        "shoes": {
+          "colors": [
+            "fab_20",
+            "fab_22",
+            "fab_02"
+          ],
+          "id": "shoes_boots_winter"
+        }
+      }
+    }
+  },
+  "places": [
+    "class504",
+    "kadikoy"
+  ],
+  "role": "A classmate from St Petersburg",
+  "roleFa": "هم‌کلاسی‌ای از سن‌پترزبورگ",
+  "voice": {
+    "pitch": 0.9,
+    "rate": 0.85
+  }
+}

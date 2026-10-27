@@ -1,0 +1,739 @@
+{
+  "arc": {
+    "en": "The best of Feriköy",
+    "fa": "بهترین جاهای فری‌کؤی",
+    "id": "s1w06",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Feriköy'ün en iyi yerleri"
+  },
+  "cast": [
+    "nima",
+    "parvaneh",
+    "yusuf",
+    "ismail"
+  ],
+  "extras": [
+    "zafer",
+    "alex",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "What's this? Kerim's head or Kerim's foot?",
+      "fa": "این چیه؟ سرِ کریم یا پای کریم؟",
+      "narr": true,
+      "tr": "Bu ne? Kerim'in başı mı, ayağı mı?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_bas",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Kerim's head!",
+            "fa": "سرِ کریم!",
+            "ok": true,
+            "react": {
+              "kerim": "happy"
+            },
+            "reply": [
+              {
+                "en": "Yes! The head. And two eyes!",
+                "fa": "آره! سر. و دو تا چشم!",
+                "narr": true,
+                "tr": "Evet! Baş. Ve iki göz!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Kerim'in başı!"
+          },
+          {
+            "en": "Kerim's foot!",
+            "fa": "پای کریم!",
+            "react": {
+              "kerim": "curious"
+            },
+            "reply": [
+              {
+                "en": "No, the foot is down there! This is the head.",
+                "fa": "نه، پا پایینه! این سره.",
+                "narr": true,
+                "tr": "Hayır, ayak aşağıda! Bu baş.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Kerim'in ayağı!"
+          }
+        ],
+        "to": "kerim"
+      }
+    },
+    {
+      "en": "Kerim is ill… What hurts?",
+      "fa": "کریم مریضه… چی درد می‌کنه؟",
+      "narr": true,
+      "tr": "Kerim hasta… Ne ağrıyor?",
+      "who": "kerim"
+    },
+    {
+      "en": "Kerim's head hurts. Get well soon, Kerim!",
+      "fa": "سرِ کریم درد می‌کنه. خدا بد نده، کریم!",
+      "tr": "Kerim'in başı ağrıyor. Geçmiş olsun, Kerim!",
+      "who": "nima"
+    }
+  ],
+  "gl": {
+    "ayağı": [
+      "پایش",
+      "its/his/her foot"
+    ],
+    "b2": [
+      "سطحِ B2 (متوسطِ بالا)",
+      "B2 (upper-intermediate level)"
+    ],
+    "ballı": [
+      "عسل‌دار، با عسل",
+      "with honey"
+    ],
+    "boğazınız": [
+      "گلویتان",
+      "your throat"
+    ],
+    "buyrun": [
+      "بفرمایید",
+      "here you are; please (buyurun, said quickly)"
+    ],
+    "eczaneden": [
+      "از داروخانه",
+      "from the pharmacy"
+    ],
+    "fırından": [
+      "از نانوایی",
+      "from the bakery"
+    ],
+    "gürültülü": [
+      "پرسروصدا، شلوغ",
+      "noisy"
+    ],
+    "hocamın": [
+      "ـِ استادم",
+      "my teacher's"
+    ],
+    "nedir": [
+      "چیست",
+      "what is (it)"
+    ],
+    "rize": [
+      "ریزه (شهری در دریای سیاه، معروف به چای)",
+      "Rize (a Black Sea town famous for its tea)"
+    ],
+    "ses": [
+      "صدا",
+      "voice; sound"
+    ],
+    "sesi": [
+      "صدایش",
+      "his/her voice"
+    ],
+    "sessizlik": [
+      "سکوت",
+      "silence"
+    ]
+  },
+  "id": "s1e34",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_4_iyelik",
+    "g_a1_6_belirtili_tamlama",
+    "g_a1_6_en"
+  ],
+  "level": "A1",
+  "looks": {
+    "zafer": {
+      "wear": {
+        "neck": "scarf_wool"
+      }
+    }
+  },
+  "place": "class504",
+  "props": {
+    "balli_cay": {
+      "at": {
+        "class504": {
+          "x": -1.85,
+          "y": 0.76,
+          "z": -1.55
+        }
+      },
+      "hot": true,
+      "kit": "tea",
+      "shown": false,
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bal"
+      ],
+      "variant": "glass"
+    },
+    "marker": {
+      "at": {
+        "class504": {
+          "x": -1.2,
+          "y": 0.76,
+          "z": -1.55
+        }
+      },
+      "kit": "pen",
+      "terms": [
+        "a1-w-kalem"
+      ],
+      "variant": "marker"
+    },
+    "paket": {
+      "at": {
+        "bakkal": {
+          "x": 0.35,
+          "y": 0.9,
+          "z": -0.45
+        }
+      },
+      "kit": "bag",
+      "terms": [
+        "a1-w-bal",
+        "a1-w-cay"
+      ],
+      "variant": "paper"
+    },
+    "yazi": {
+      "at": {
+        "class504": {
+          "x": -1.48,
+          "y": 1.05,
+          "z": -3.06
+        }
+      },
+      "h": 80,
+      "kit": "board",
+      "lines": [],
+      "shown": false,
+      "terms": [
+        "a1-w-tahta"
+      ],
+      "variant": "white",
+      "w": 105
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What does Zafer Hoca write on the board first?",
+      "fa": "استاد ظفر اول روی تخته چه می‌نویسد؟",
+      "kind": "comp",
+      "options": [
+        "Sesim yok",
+        "Çay + bal",
+        "Teşekkürler"
+      ],
+      "q": "Zafer Hoca tahtaya ilk ne yazıyor?",
+      "why": "Kerim: “Zafer Hoca geliyor… ama… sesi yok!”"
+    },
+    {
+      "a": 0,
+      "en": "Yusuf: “Your throat …”",
+      "fa": "یوسف: «گلوتان …»",
+      "kind": "word",
+      "options": [
+        "ağrıyor",
+        "yok",
+        "güzel"
+      ],
+      "q": "Yusuf: “Boğazınız …”",
+      "why": "Yusuf: “Boğazınız ağrıyor.”"
+    },
+    {
+      "a": 0,
+      "en": "Where does Nima buy the honey?",
+      "fa": "نیما عسل را از کجا می‌خرد؟",
+      "kind": "comp",
+      "options": [
+        "İsmail'in bakkalından",
+        "Fırından",
+        "Eczaneden"
+      ],
+      "q": "Nima balı nereden alıyor?",
+      "why": "İsmail: “Geçmiş olsun! Buyrun: bal ve Rize çayı. Hoca için!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-15",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Good morning! Zafer Hoca is coming… but… he has no voice!",
+      "fa": "صبح بخیر! استاد ظفر داره میاد… ولی… صداش درنمیاد!",
+      "move": {
+        "how": "enter",
+        "to": "teacher",
+        "who": "zafer"
+      },
+      "narr": true,
+      "tr": "Günaydın! Zafer Hoca geliyor… ama… sesi yok!",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "at": "ch:zafer.head",
+        "do": "point",
+        "emo": "sorry",
+        "who": "zafer"
+      }
+    },
+    {
+      "beat": {
+        "do": "shake_head",
+        "emo": "sorry",
+        "obj": [
+          {
+            "id": "yazi",
+            "op": "show"
+          },
+          {
+            "id": "yazi",
+            "op": "set",
+            "set": {
+              "lines": [
+                "SESİM YOK."
+              ]
+            }
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "choice": {
+        "id": "gecmis",
+        "kind": "polite",
+        "options": [
+          {
+            "emo": "sorry",
+            "en": "Get well soon, Hocam!",
+            "fa": "خدا بد نده، استاد!",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "hand_heart",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "do": "nod",
+                  "emo": "happy",
+                  "who": "zafer"
+                }
+              }
+            ],
+            "tone": "polite",
+            "tr": "Geçmiş olsun, hocam!"
+          },
+          {
+            "emo": "happy",
+            "en": "Enjoy your meal!",
+            "fa": "نوش جان!",
+            "react": {
+              "parvaneh": "laugh",
+              "zafer": {
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "There's no food! Get well soon!",
+                "fa": "غذا که نیست! خدا بد نده!",
+                "to": "nima",
+                "tr": "Yemek yok! Geçmiş olsun!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Afiyet olsun!"
+          },
+          {
+            "emo": "happy",
+            "en": "Hope the work goes easy!",
+            "fa": "خسته نباشین!",
+            "react": {
+              "yusuf": {
+                "emo": "curious"
+              },
+              "zafer": {
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "emo": "neutral",
+                "en": "He's ill! Get well soon!",
+                "fa": "مریضه! خدا بد نده!",
+                "to": "nima",
+                "tr": "Hasta! Geçmiş olsun!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Kolay gelsin!"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "do": "think",
+      "emo": "neutral",
+      "en": "What seems to be the problem?",
+      "fa": "چه مشکلی دارین؟",
+      "move": {
+        "how": "walk",
+        "to": "teacher_desk",
+        "who": "yusuf"
+      },
+      "react": {
+        "zafer": {
+          "at": "ch:zafer.head",
+          "do": "point"
+        }
+      },
+      "to": "zafer",
+      "tr": "Şikâyetiniz nedir?",
+      "who": "yusuf"
+    },
+    {
+      "do": "explain",
+      "emo": "proud",
+      "en": "Your throat hurts. The medicine: tea, honey… and silence!",
+      "fa": "گلوتون درد می‌کنه. دارو: چای، عسل… و سکوت!",
+      "react": {
+        "zafer": {
+          "do": "nod"
+        }
+      },
+      "to": "zafer",
+      "tr": "Boğazınız ağrıyor. İlaç: çay, bal… ve sessizlik!",
+      "who": "yusuf"
+    },
+    {
+      "do": "me",
+      "emo": "shy",
+      "en": "I want to be a doctor… but first, B2!",
+      "fa": "من می‌خوام دکتر بشم… ولی اول B2!",
+      "to": "nima",
+      "tr": "Ben doktor olmak istiyorum… ama önce B2!",
+      "who": "yusuf"
+    },
+    {
+      "at": "ch:zafer.head",
+      "do": "point",
+      "emo": "proud",
+      "en": "Today I'm the teacher! What's this?",
+      "fa": "امروز معلم منم! این چیه؟",
+      "move": {
+        "how": "walk",
+        "to": "board",
+        "who": "parvaneh"
+      },
+      "obj": [
+        {
+          "id": "marker",
+          "op": "take"
+        }
+      ],
+      "react": {
+        "zafer": {
+          "at": "ch:zafer.head",
+          "do": "point"
+        }
+      },
+      "to": "all",
+      "tr": "Bugün öğretmen benim! Bu ne?",
+      "who": "parvaneh"
+    },
+    {
+      "at": "ch:zafer.head",
+      "do": "point",
+      "emo": "happy",
+      "en": "Nose!",
+      "fa": "دماغ!",
+      "link": {
+        "burun": "ch:zafer.head"
+      },
+      "to": "parvaneh",
+      "tr": "Burun!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Head! Ear! Arm! Leg!",
+      "fa": "سر! گوش! دست! پا!",
+      "link": {
+        "bacak": "ch:zafer.leg",
+        "baş": "ch:zafer.head",
+        "kol": "ch:zafer.arm",
+        "kulak": "ch:zafer.head"
+      },
+      "react": {
+        "zafer": {
+          "at": "ch:zafer.leg",
+          "do": "point"
+        }
+      },
+      "to": "parvaneh",
+      "tr": "Baş! Kulak! Kol! Bacak!",
+      "who": "yusuf"
+    },
+    {
+      "emo": "happy",
+      "en": "Eye!",
+      "fa": "چشم!",
+      "link": {
+        "göz": "ch:zafer.head"
+      },
+      "to": "parvaneh",
+      "tr": "Göz!",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "And this? …Sleep!",
+      "fa": "و این؟ …خواب!",
+      "react": {
+        "alex": "tired",
+        "zafer": {
+          "at": "ch:alex",
+          "do": "point"
+        }
+      },
+      "to": "all",
+      "tr": "Ve bu? …Uyku!",
+      "who": "parvaneh"
+    },
+    {
+      "beat": {
+        "at": "obj:yazi",
+        "do": "write",
+        "emo": "laugh",
+        "obj": [
+          {
+            "id": "yazi",
+            "op": "set",
+            "set": {
+              "lines": [
+                "SESİM YOK.",
+                "ÇAY + BAL?"
+              ]
+            }
+          }
+        ],
+        "react": {
+          "nima": "laugh",
+          "yusuf": "laugh"
+        },
+        "who": "zafer"
+      }
+    },
+    {
+      "at": {
+        "ismail": "counter",
+        "nima": "customer"
+      },
+      "kerim": "awning",
+      "scene": "bakkal",
+      "time": "day"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Welcome! What would you like?",
+      "fa": "خوش اومدین! چی می‌خواین؟",
+      "sfx": {
+        "id": "doorbell",
+        "word": "dın dın"
+      },
+      "to": "nima",
+      "tr": "Hoş geldiniz! Ne istiyorsunuz?",
+      "who": "ismail"
+    },
+    {
+      "emo": "nervous",
+      "en": "Honey, please. My teacher has no voice!",
+      "fa": "عسل، لطفاً. صدای استادم درنمیاد!",
+      "link": {
+        "bal": "obj:paket"
+      },
+      "to": "ismail",
+      "tr": "Bal, lütfen. Hocamın sesi yok!",
+      "who": "nima"
+    },
+    {
+      "at": "ch:nima",
+      "do": "give",
+      "emo": "sorry",
+      "en": "I hope he gets well soon! Here you are: honey and Rize tea. For the teacher!",
+      "fa": "خدا بد نده! بفرمایین: عسل و چای ریزه. برای استاد!",
+      "link": {
+        "bal": "obj:paket"
+      },
+      "obj": [
+        {
+          "id": "paket",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Geçmiş olsun! Buyrun: bal ve Rize çayı. Hoca için!",
+      "who": "ismail"
+    },
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "teacher_desk",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "paket",
+            "op": "give",
+            "to": "zafer"
+          },
+          {
+            "id": "balli_cay",
+            "op": "show"
+          },
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "at": "obj:balli_cay",
+        "do": "drink",
+        "emo": "happy",
+        "obj": [
+          {
+            "id": "balli_cay",
+            "op": "take"
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "at": "obj:balli_cay",
+      "do": "point",
+      "emo": "proud",
+      "en": "The best medicine: İsmail's tea with honey!",
+      "fa": "بهترین دارو: چای و عسلِ اسماعیل!",
+      "link": {
+        "çayı": "obj:balli_cay"
+      },
+      "react": {
+        "zafer": {
+          "do": "hand_heart",
+          "emo": "moved"
+        }
+      },
+      "to": "all",
+      "tr": "En iyi ilaç: İsmail'in ballı çayı!",
+      "who": "parvaneh"
+    },
+    {
+      "spot": {
+        "en": "Whose head, whose throat? The possessive ending on the body part says who it hurts for: başım ağrıyor (my head hurts), başınız ağrıyor (your head hurts), boğazım / boğazınız (my / your throat), hocamın sesi (my teacher's voice). The same ending asks: Ateşiniz var mı? (Do you have a fever?)",
+        "ex": "Boğazınız ağrıyor.",
+        "fa": "سرِ کی، گلوی کی؟ پسوندِ ملکی روی عضوِ بدن می‌گوید درد مالِ کیست: başım ağrıyor (سرم درد می‌کند)، başınız ağrıyor (سرتان درد می‌کند)، boğazım / boğazınız (گلویم / گلویتان)، hocamın sesi (صدای استادم). مثل «سرم درد می‌کند» در فارسی، فعل همان ağrıyor می‌ماند. سؤال هم همین‌طور: Ateşiniz var mı? (تب دارید؟)",
+        "lesson": "g_a1_4_iyelik",
+        "show": "owner"
+      }
+    },
+    {
+      "en": "A silent lesson… but a very noisy one!",
+      "fa": "یه درسِ بی‌صدا… ولی خیلی پرسروصدا!",
+      "narr": true,
+      "obj": [
+        {
+          "id": "yazi",
+          "op": "set",
+          "set": {
+            "lines": [
+              "TEŞEKKÜRLER.",
+              "YARIN… SESİM VAR (BELKİ)."
+            ]
+          }
+        }
+      ],
+      "tr": "Sessiz bir ders… ama çok gürültülü!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Zafer Hoca comes to class with no voice, so the class runs the lesson: Yusuf plays the doctor, Parvaneh takes the marker for the body game, and at the break Nima runs to İsmail's bakkal for honey and Rize tea.",
+  "summaryFa": "استاد ظفر بی‌صدا به کلاس می‌آید و بچه‌ها خودشان کلاس را اداره می‌کنند: یوسف دکتر می‌شود، پروانه ماژیک را برمی‌دارد و بازیِ اعضای بدن را راه می‌اندازد، و نیما در زنگِ تفریح به بقالیِ اسماعیل می‌دود تا عسل و چای ریزه بخرد.",
+  "title": "Hocanın sesi yok!",
+  "titleEn": "The teacher has no voice!",
+  "titleFa": "صدای استاد درنمی‌آید!",
+  "words": [
+    "a1-w-bas",
+    "a1-w-kulak",
+    "a1-w-kol",
+    "a1-w-bacak",
+    "a1-w-burun",
+    "a1-w-agrimak",
+    "a1-w-sikayet",
+    "a1-w-ilac"
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "ambience": [
+    "street_far",
+    "echo_room"
+  ],
+  "camera": {
+    "wide": {
+      "w": 22.2,
+      "x": 0.25,
+      "y0": 0,
+      "y1": 11.2,
+      "z": -1.6
+    }
+  },
+  "district": "Feriköy, Şişli",
+  "id": "flat_nima_stairs",
+  "marks": {
+    "door_4": {
+      "door": "door_nima",
+      "out": {
+        "x": 4.76,
+        "z": -2.4
+      },
+      "x": 4.76,
+      "y": 5.76,
+      "z": -1.3
+    },
+    "door_elif": {
+      "door": "door_elif",
+      "out": {
+        "x": -1.36,
+        "z": -2.4
+      },
+      "x": -1.36,
+      "y": 2.88,
+      "z": -1.3
+    },
+    "door_maria": {
+      "door": "door_maria",
+      "out": {
+        "x": 7.82,
+        "z": -2.4
+      },
+      "x": 7.82,
+      "y": 7.2,
+      "z": -1.3
+    },
+    "door_nima": {
+      "door": "door_nima",
+      "out": {
+        "x": 4.76,
+        "z": -2.4
+      },
+      "x": 4.76,
+      "y": 5.76,
+      "z": -1.3
+    },
+    "elif_door": {
+      "door": "door_elif",
+      "out": {
+        "x": -1.36,
+        "z": -2.4
+      },
+      "x": -1.36,
+      "y": 2.88,
+      "z": -1.3
+    },
+    "flight_up": {
+      "facing": "l",
+      "x": -0.11,
+      "y": 3.42,
+      "z": -1.05
+    },
+    "foot": {
+      "facing": "r",
+      "x": -7.48,
+      "z": -1.05
+    },
+    "landing_1": {
+      "x": -4.42,
+      "y": 1.44,
+      "z": -1.0
+    },
+    "landing_2": {
+      "x": -1.36,
+      "y": 2.88,
+      "z": -1.0
+    },
+    "landing_3": {
+      "x": 1.7,
+      "y": 4.32,
+      "z": -1.0
+    },
+    "landing_4": {
+      "x": 4.76,
+      "y": 5.76,
+      "z": -1.0
+    },
+    "landing_5": {
+      "x": 7.82,
+      "y": 7.2,
+      "z": -1.0
+    },
+    "maria_door": {
+      "door": "door_maria",
+      "out": {
+        "x": 7.82,
+        "z": -2.4
+      },
+      "x": 7.82,
+      "y": 7.2,
+      "z": -1.3
+    },
+    "nima_door": {
+      "door": "door_nima",
+      "out": {
+        "x": 4.76,
+        "z": -2.4
+      },
+      "x": 4.76,
+      "y": 5.76,
+      "z": -1.3
+    },
+    "rail": {
+      "x": -2.89,
+      "y": 3.21,
+      "z": -0.75
+    },
+    "roof_door": {
+      "door": "cati_kapisi",
+      "out": {
+        "x": 10.88,
+        "z": -2.4
+      },
+      "x": 10.88,
+      "y": 8.64,
+      "z": -1.3
+    },
+    "stair_window": {
+      "x": 0.17,
+      "y": 4.86,
+      "z": -1.5
+    },
+    "stairs_4_5": {
+      "facing": "r",
+      "x": 6.29,
+      "y": 6.48,
+      "z": -1.05
+    },
+    "stairs_low": {
+      "facing": "r",
+      "x": -7.07,
+      "z": -1.05
+    },
+    "stairs_mid": {
+      "facing": "r",
+      "x": 3.23,
+      "y": 5.04,
+      "z": -1.05
+    },
+    "step_cat": {
+      "x": -6.51,
+      "y": 0.36,
+      "z": -1.15
+    },
+    "street": {
+      "door": "sokak_kapisi",
+      "out": {
+        "x": -7.93,
+        "z": -2.4
+      },
+      "x": -7.93,
+      "z": -0.95
+    },
+    "window": {
+      "x": 0.17,
+      "y": 4.86,
+      "z": -1.5
+    }
+  },
+  "motif": "home",
+  "name": {
+    "en": "The stairs of Nima's building",
+    "fa": "راه‌پله‌ی ساختمانِ نیما",
+    "tr": "Nima'nın apartmanının merdiveni"
+  },
+  "perch": "rail",
+  "pieces": [
+    {
+      "bays": 10,
+      "color": "rose",
+      "flagState": "flags",
+      "flags": 1,
+      "floors": 5,
+      "kit": "facade",
+      "variant": "apartment",
+      "w": 1500,
+      "x": 1.5,
+      "z": -6.5
+    },
+    {
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "variant": "bunting",
+      "w": 700,
+      "x": 0.2,
+      "y": 5.6,
+      "z": -6.2
+    },
+    {
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "variant": "pole",
+      "x": 1.3,
+      "y": 3.2,
+      "z": -6.3
+    },
+    {
+      "a": "#CFC6B6",
+      "b": "#BDB6A8",
+      "d": 420,
+      "kit": "floor",
+      "tile": 40,
+      "w": 2400,
+      "x": 0,
+      "z": -1.7
+    },
+    {
+      "color": "#D7E3CF",
+      "dado": "#6F8A72",
+      "flights": 6,
+      "hall": 520,
+      "head": 360,
+      "id": "merdiven",
+      "kit": "stairwell",
+      "n": 8,
+      "openings": [
+        {
+          "h": 290,
+          "w": 132,
+          "x": -100,
+          "y": 0
+        },
+        {
+          "h": 104,
+          "w": 84,
+          "x": 710,
+          "y": 485
+        },
+        {
+          "h": 212,
+          "w": 104,
+          "x": 557,
+          "y": 0
+        },
+        {
+          "h": 104,
+          "w": 84,
+          "x": 1340,
+          "y": 260
+        },
+        {
+          "h": 212,
+          "w": 104,
+          "x": 251,
+          "y": 144
+        },
+        {
+          "h": 212,
+          "w": 104,
+          "x": 557,
+          "y": 288
+        },
+        {
+          "h": 212,
+          "w": 104,
+          "x": 863,
+          "y": 432
+        },
+        {
+          "h": 212,
+          "w": 104,
+          "x": 1169,
+          "y": 576
+        },
+        {
+          "h": 212,
+          "w": 104,
+          "x": 1475,
+          "y": 720
+        },
+        {
+          "h": 202,
+          "w": 94,
+          "x": 1781,
+          "y": 864
+        }
+      ],
+      "perFloor": 1,
+      "railZ": 45,
+      "stone": "#CFC6B6",
+      "terms": [
+        "a1-w-merdiven"
+      ],
+      "x": -6.93,
+      "z": -1.2
+    },
+    {
+      "beyond": "#B9B2A6",
+      "h": 220,
+      "id": "sokak_kapisi",
+      "kit": "door",
+      "number": "12",
+      "style": "iron",
+      "variant": "street",
+      "w": 96,
+      "x": -7.93,
+      "z": -1.58
+    },
+    {
+      "id": "flat_doors",
+      "kit": "door",
+      "number": "2",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": -4.42,
+      "y": 1.44,
+      "z": -1.58
+    },
+    {
+      "color": "#6B4A35",
+      "id": "door_elif",
+      "kit": "door",
+      "number": "4",
+      "openState": "elif_door_open",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": -1.36,
+      "y": 2.88,
+      "z": -1.58
+    },
+    {
+      "id": "kapi_3",
+      "kit": "door",
+      "number": "6",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": 1.7,
+      "y": 4.32,
+      "z": -1.58
+    },
+    {
+      "color": "#5B6770",
+      "id": "door_nima",
+      "kit": "door",
+      "number": "8",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": 4.76,
+      "y": 5.76,
+      "z": -1.58
+    },
+    {
+      "color": "#7A5034",
+      "id": "door_maria",
+      "kit": "door",
+      "number": "10",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": 7.82,
+      "y": 7.2,
+      "z": -1.58
+    },
+    {
+      "hut": false,
+      "id": "cati_kapisi",
+      "kit": "door",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "roof",
+      "x": 10.88,
+      "y": 8.64,
+      "z": -1.58
+    },
+    {
+      "h": 104,
+      "id": "stair_window",
+      "kit": "window",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 84,
+      "x": 0.17,
+      "y": 4.85,
+      "z": -1.58
+    },
+    {
+      "id": "stair_light",
+      "kit": "lamp",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "variant": "wall",
+      "x": -2.89,
+      "y": 4.45,
+      "z": -1.57
+    },
+    {
+      "kit": "door",
+      "number": "1",
+      "variant": "flat",
+      "x": -1.36,
+      "z": -1.58
+    },
+    {
+      "h": 104,
+      "kit": "window",
+      "w": 84,
+      "x": 6.47,
+      "y": 2.6,
+      "z": -1.58
+    },
+    {
+      "in": [
+        "elif_door_open"
+      ],
+      "kit": "lamp",
+      "variant": "standing",
+      "x": -1.11,
+      "y": 2.88,
+      "z": -2.5
+    },
+    {
+      "h": 140,
+      "kit": "plant",
+      "x": -10.4,
+      "z": 0.7
+    },
+    {
+      "color": "#D7E3CF",
+      "h": 1300,
+      "kit": "wall",
+      "tiles": 0,
+      "w": 140,
+      "x": 12.1,
+      "z": -1.62
+    }
+  ],
+  "props": {
+    "asansor_yok": {
+      "at": {
+        "x": -9.93,
+        "y": 0,
+        "z": -1.57
+      },
+      "kit": "door",
+      "shown": false,
+      "terms": [
+        "a2-w-asansor"
+      ],
+      "variant": "lift"
+    },
+    "atki": {
+      "at": {
+        "x": -7.17,
+        "y": 1.0,
+        "z": -0.75
+      },
+      "decor": true,
+      "in": [
+        "cold"
+      ],
+      "kit": "cloth",
+      "variant": "scarf"
+    },
+    "botlar": {
+      "at": {
+        "x": 5.18,
+        "y": 5.76,
+        "z": -1.4
+      },
+      "in": [
+        "cold"
+      ],
+      "kit": "footwear",
+      "terms": [
+        "a1-w-ayakkabi"
+      ],
+      "variant": "boots"
+    },
+    "cicek": {
+      "at": {
+        "x": 1.28,
+        "y": 4.32,
+        "z": -1.4
+      },
+      "kit": "potted",
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "money_plant"
+    },
+    "cocuk_ayakkabi": {
+      "at": {
+        "x": -1.71,
+        "y": 2.88,
+        "z": -1.2
+      },
+      "in": [
+        "elif_door_open"
+      ],
+      "kit": "footwear",
+      "terms": [
+        "a1-w-ayakkabi"
+      ],
+      "variant": "child_shoes"
+    },
+    "floor_numbers": {
+      "at": {
+        "x": 4.06,
+        "y": 7.26,
+        "z": -1.57
+      },
+      "h": 16,
+      "kit": "sign_board",
+      "label": "4",
+      "terms": [
+        "a1-w-numara"
+      ],
+      "variant": "plate",
+      "w": 22
+    }
+  },
+  "site": "flat_nima",
+  "size": {
+    "d": 4,
+    "w": 23
+  },
+  "states": {
+    "cold": {
+      "group": "warmth"
+    },
+    "elif_door_open": {
+      "group": "elif_door"
+    },
+    "flags": {
+      "group": "festive"
+    }
+  },
+  "surface": "stone",
+  "times": [
+    "day",
+    "golden",
+    "dusk",
+    "dawn",
+    "night"
+  ],
+  "v": 1
+}

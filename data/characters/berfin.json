@@ -1,0 +1,139 @@
+{
+  "address": {
+    "nima": "siz",
+    "serkan": "sen"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima… says “sen” to me!",
+        "fa": "نیما… به من «تو» می‌گه!",
+        "photo": {
+          "step": 14,
+          "story": "s1e36"
+        },
+        "tr": "Nima… bana “sen” diyor!"
+      },
+      "family": {
+        "en": "Nima's tea is on me. Always.",
+        "fa": "چایِ نیما با من. همیشه.",
+        "photo": {
+          "step": 28,
+          "story": "s1e42"
+        },
+        "tr": "Nima'nın çayı benden. Her zaman."
+      },
+      "met": {
+        "en": "Nima: the writer of the guide.",
+        "fa": "نیما: نویسنده‌ی راهنما.",
+        "photo": {
+          "step": 14,
+          "story": "s1e31"
+        },
+        "tr": "Nima: rehberin yazarı."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.45,
+      "shape": "slim"
+    },
+    "face": {
+      "brows": "thick",
+      "eyeColor": "eye_dark",
+      "eyes": "almond",
+      "marks": [
+        "dimples"
+      ],
+      "mouth": "full",
+      "nose": "aquiline",
+      "shape": "heart"
+    },
+    "hair": {
+      "color": "hair_01",
+      "style": "hair_bun_curly"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_04"
+        ],
+        "id": "bottom_jeans_skinny"
+      },
+      "shoes": {
+        "colors": [
+          "fab_02",
+          "fab_01",
+          "fab_01"
+        ],
+        "id": "shoes_canvas"
+      },
+      "top": {
+        "colors": [
+          "fab_53"
+        ],
+        "id": "top_shirt_rolled"
+      }
+    },
+    "skin": "skin_21",
+    "v": 1,
+    "wear": {
+      "ears": {
+        "colors": [
+          "met_silver"
+        ],
+        "id": "ear_drop"
+      },
+      "waist": {
+        "colors": [
+          "fab_28",
+          "fab_02"
+        ],
+        "id": "apron_cafe"
+      }
+    }
+  },
+  "bio": "In her 20s, Kurdish, from Diyarbakır; runs a tiny café in Feriköy, between the bakery and the pharmacy, and plays the bağlama. Quick and funny, knows every shortcut; impatient.",
+  "bioFa": "بیست و چند ساله، کُرد، اهلِ دیاربکر؛ کافهٔ کوچکی در فری‌کؤی، میانِ نانوایی و داروخانه، را می‌گرداند و باغلاما می‌نوازد. زرنگ و بامزه است و همهٔ میان‌برها را بلد است؛ کم‌حوصله است.",
+  "catch": {
+    "en": "One more tea?",
+    "fa": "یک چای دیگر؟",
+    "tr": "Bir çay daha?"
+  },
+  "circle": "neighbourhood",
+  "color": "#9A2D62",
+  "id": "berfin",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "high",
+    "signature": [
+      "wave",
+      "explain",
+      "give"
+    ],
+    "tempo": 1.2
+  },
+  "name": "Berfin",
+  "nameFa": "برفین",
+  "order": 7,
+  "outfits": {
+    "music": {
+      "carry": {
+        "id": "case_baglama"
+      }
+    }
+  },
+  "places": [
+    "cafe_berfin"
+  ],
+  "role": "Runs a tiny café in Feriköy",
+  "roleFa": "کافهٔ کوچکی در فری‌کؤی را می‌گرداند",
+  "voice": {
+    "pitch": 1.2,
+    "rate": 1.1
+  }
+}

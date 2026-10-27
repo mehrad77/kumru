@@ -1,0 +1,17 @@
+/* The words feature: the Profile notes list, the card sheet's rows and the tap-to-translate popup's contents. (The popup box, the
+   dotted words that open it and the shared sheet rows are in app/styles/components.css.) */
+@layer features {
+#pf-notes{margin-bottom:12px}
+#pf-notes h2{margin:0;font:400 24px var(--sans)}
+.item{padding:14px 16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px}
+.item .main{min-width:0;display:grid;gap:3px}
+.item .tr{font-weight:600;font-size:17px}
+.item .tr.big{font:400 28px/1.15 var(--sans)}
+.item .fa{font-size:17px}
+.item .en{color:var(--muted)}
+.item .detail{font-size:14px;color:var(--muted);white-space:pre-wrap}
+.item .ex{font-size:14px;border-inline-start:2px solid var(--line);padding-inline-start:10px;margin-top:4px;display:grid;gap:2px}
+.item .ex .fa{font-size:14px;color:var(--muted)}
+.item .meta{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--faint);margin-top:6px;flex-wrap:wrap}
+.more{justify-self:center;margin-top:6px}
+}

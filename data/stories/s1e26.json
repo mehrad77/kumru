@@ -1,0 +1,632 @@
+{
+  "arc": {
+    "en": "What time is it?",
+    "fa": "ساعت چند است؟",
+    "id": "s1w05",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Saat kaç?"
+  },
+  "cast": [
+    "nima",
+    "zafer",
+    "parvaneh",
+    "alex"
+  ],
+  "extras": [
+    "yusuf",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Now you tell me: what time do you get up?",
+      "fa": "حالا شما بگید: ساعتِ چند بیدار می‌شید؟",
+      "to": "nima",
+      "tr": "Şimdi siz söyleyin: saat kaçta kalkıyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_kalkmak",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I get up at seven.",
+            "fa": "ساعتِ هفت بیدار می‌شم.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very good! And what time do you go to bed?",
+                "fa": "خیلی خوب! ساعتِ چند می‌خوابید؟",
+                "tr": "Çok güzel! Saat kaçta yatıyorsunuz?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Saat yedide kalkıyorum."
+          },
+          {
+            "en": "I get up seven o'clock.",
+            "fa": "ساعت هفت بیدار می‌شم.",
+            "react": {
+              "zafer": "curious"
+            },
+            "reply": [
+              {
+                "en": "Not yedi: yedide (at seven)! And what time do you go to bed?",
+                "fa": "yedi نه: yedide (ساعتِ هفت)! ساعتِ چند می‌خوابید؟",
+                "tr": "Yedi değil: yedide! Saat kaçta yatıyorsunuz?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Saat yedi kalkıyorum."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "I go to bed at eleven. Sometimes I study until midnight!",
+      "fa": "ساعتِ یازده می‌خوابم. بعضی وقت‌ها تا نصفه‌شب درس می‌خونم!",
+      "to": "zafer",
+      "tr": "On birde yatıyorum. Bazen gece yarısına kadar ders çalışıyorum!",
+      "who": "nima"
+    },
+    {
+      "en": "Me too! But go to bed early, please.",
+      "fa": "من هم همین‌طور! ولی لطفاً زود بخوابید.",
+      "to": "nima",
+      "tr": "Ben de! Ama erken yatın, lütfen.",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "ediyorum": [
+      "می‌کنم (از etmek)؛ «kahvaltı ediyorum» یعنی صبحانه می‌خورم",
+      "I do (from etmek); “kahvaltı ediyorum”: I have breakfast"
+    ],
+    "hocam": [
+      "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
+      "my teacher (how students address a teacher)"
+    ],
+    "hostelde": [
+      "در یک هاستل (مسافرخانه‌ی ارزان)",
+      "at a hostel"
+    ],
+    "ikide": [
+      "در دو؛ «saat on ikide» یعنی ساعتِ دوازده",
+      "at two; “saat on ikide”: at twelve"
+    ],
+    "ikiye": [
+      "به دو؛ «on ikiye kadar» یعنی تا دوازده",
+      "to two; “on ikiye kadar”: until twelve"
+    ],
+    "kadıköy": [
+      "کادیکوی (محله‌ای در بخشِ آسیاییِ استانبول)",
+      "Kadıköy (a district on the Asian side)"
+    ],
+    "musunuz": [
+      "آیا (شما)…؟ (پرسش)",
+      "question word (you, polite)"
+    ],
+    "pratiği": [
+      "تمرین؛ «konuşma pratiği» یعنی تمرینِ مکالمه",
+      "practice; “konuşma pratiği”: speaking practice"
+    ],
+    "saatiyle": [
+      "با ساعتِ …؛ «Tahran saatiyle» یعنی به وقتِ تهران",
+      "by … time; “Tahran saatiyle”: by Tehran time"
+    ],
+    "tahran": [
+      "تهران",
+      "Tehran"
+    ],
+    "uykulu": [
+      "خواب‌آلود",
+      "sleepy"
+    ],
+    "yarısı": [
+      "نیمه؛ «gece yarısına kadar» یعنی تا نیمه‌شب",
+      "half; “gece yarısına kadar”: until midnight"
+    ],
+    "zafer": [
+      "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
+      "Zafer (a name; the word means victory)"
+    ]
+  },
+  "id": "s1e26",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_saatler",
+    "g_a1_3_simdiki",
+    "g_a1_5_dan_a_kadar"
+  ],
+  "level": "A1",
+  "looks": {
+    "alex": {
+      "wear": {
+        "neck": {
+          "colors": [
+            "fab_06",
+            "fab_01"
+          ],
+          "id": "lanyard_badge"
+        }
+      }
+    }
+  },
+  "place": "class504",
+  "props": {
+    "ajanda": {
+      "at": {
+        "class504": {
+          "x": -2.95,
+          "y": 0.76,
+          "z": -1.4
+        }
+      },
+      "kit": "book",
+      "open": true,
+      "terms": [
+        "a1-w-ajanda"
+      ],
+      "text": "",
+      "variant": "diary"
+    },
+    "kol_saati": {
+      "at": {
+        "class504": {
+          "x": -1.25,
+          "y": 0.45,
+          "z": -1.75
+        }
+      },
+      "kit": "watch",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "9:00"
+    },
+    "odevler": {
+      "at": {
+        "class504": {
+          "x": -2.55,
+          "y": 0.76,
+          "z": -1.45
+        }
+      },
+      "kit": "paper",
+      "terms": [
+        "a1-w-odev"
+      ],
+      "variant": "stack"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What time does Zafer Hoca get up?",
+      "fa": "استاد ظفر ساعتِ چند بیدار می‌شود؟",
+      "kind": "comp",
+      "options": [
+        "Altıda",
+        "Yedide",
+        "On birde"
+      ],
+      "q": "Zafer Hoca saat kaçta kalkıyor?",
+      "why": "Zafer Hoca: “Ben genellikle saat altıda kalkıyorum.”"
+    },
+    {
+      "a": 0,
+      "en": "“But sometimes I read the homework.” Bazen means…",
+      "fa": "«Ama bazen ödevleri okuyorum.» Bazen یعنی…",
+      "kind": "word",
+      "options": [
+        "Her zaman değil",
+        "Her zaman",
+        "Hiçbir zaman"
+      ],
+      "q": "“Ama bazen ödevleri okuyorum.” Bazen: …",
+      "why": "Zafer Hoca: “Ama bazen ödevleri okuyorum… gece yarısına kadar!”"
+    },
+    {
+      "a": 0,
+      "en": "When does Alex work?",
+      "fa": "الکس کِی کار می‌کند؟",
+      "kind": "comp",
+      "options": [
+        "Saat on birden yediye kadar",
+        "Saat dokuzdan on ikiye kadar",
+        "Öğle yemeğinde"
+      ],
+      "q": "Alex ne zaman çalışıyor?",
+      "why": "Alex: “Saat on birden yediye kadar.”"
+    }
+  ],
+  "ref": "A1_5",
+  "releaseDate": "2026-10-06",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "door",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "state": "empty",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Half past eight. The classroom is empty. But… Nima is here! And so is Kerim!",
+      "fa": "ساعت هشت و نیمه. کلاس خالیه. ولی… نیما این‌جاست! کریم هم این‌جاست!",
+      "move": {
+        "how": "walk",
+        "to": "front_desk",
+        "via": [
+          "board"
+        ],
+        "who": "nima"
+      },
+      "narr": true,
+      "tr": "Saat sekiz buçuk. Sınıf boş. Ama… Nima burada! Kerim de burada!",
+      "who": "kerim"
+    },
+    {
+      "emo": "surprised",
+      "en": "Good morning! You're very early!",
+      "fa": "صبح بخیر! چه زود!",
+      "obj": [
+        {
+          "id": "odevler",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Günaydın! Çok erken!",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kol_saati",
+      "do": "hold_up",
+      "emo": "shy",
+      "en": "My watch… it's on Tehran time!",
+      "fa": "ساعتم… به وقتِ تهرانه!",
+      "link": {
+        "saatim": "obj:kol_saati"
+      },
+      "obj": [
+        {
+          "id": "kol_saati",
+          "op": "take"
+        }
+      ],
+      "to": "zafer",
+      "tr": "Saatim… Tahran saati!",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "Tehran time! What time do you get up?",
+      "fa": "وقتِ تهران! شما ساعتِ چند بیدار می‌شید؟",
+      "to": "nima",
+      "tr": "Tahran saati! Saat kaçta kalkıyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "emo": "laugh",
+      "en": "At seven… by Tehran time!",
+      "fa": "ساعتِ هفت… به وقتِ تهران!",
+      "react": {
+        "zafer": "laugh"
+      },
+      "to": "zafer",
+      "tr": "Saat yedide… Tahran saatiyle!",
+      "who": "nima"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "I usually get up at six. I have breakfast at seven. At eight I'm at school.",
+      "fa": "من معمولاً ساعتِ شش بیدار می‌شم. هفت صبحونه می‌خورم. هشت دیگه مدرسه‌ام.",
+      "to": "nima",
+      "tr": "Ben genellikle saat altıda kalkıyorum. Yedide kahvaltı ediyorum. Sekizde okuldayım.",
+      "who": "zafer"
+    },
+    {
+      "do": "you",
+      "emo": "curious",
+      "en": "And what time do you go to bed?",
+      "fa": "شما ساعتِ چند می‌خوابید؟",
+      "to": "zafer",
+      "tr": "Siz saat kaçta yatıyorsunuz?",
+      "who": "nima"
+    },
+    {
+      "at": "obj:odevler",
+      "do": "hold_up",
+      "emo": "tired",
+      "en": "At eleven. But sometimes I read the homework… until midnight!",
+      "fa": "یازده. ولی بعضی وقت‌ها تکلیف‌ها رو می‌خونم… تا نصفه‌شب!",
+      "link": {
+        "ödevleri": "obj:odevler"
+      },
+      "to": "nima",
+      "tr": "On birde. Ama bazen ödevleri okuyorum… gece yarısına kadar!",
+      "who": "zafer"
+    },
+    {
+      "spot": {
+        "en": "Saat kaç? asks the time now: “Saat sekiz buçuk.” Saat kaçta? asks when something happens, and the answer takes -DA: saat yedide, altıda, sekizde, on birde (at seven, at six, at eight, at eleven). Kaç → kaçta, yedi → yedide: one small ending.",
+        "ex": "Saat kaçta kalkıyorsunuz?",
+        "fa": "«Saat kaç?» ساعتِ همین الان را می‌پرسد: «Saat sekiz buçuk.» «Saat kaçta?» می‌پرسد کاری چه ساعتی انجام می‌شود، و جواب پسوندِ -DA می‌گیرد: saat yedide، altıda، sekizde، on birde (ساعتِ هفت، شش، هشت، یازده). در فارسی هر دو «ساعت چند؟» است؛ در ترکی فقط یک پسوندِ کوچک فرق می‌گذارد: kaç → kaçta، yedi → yedide.",
+        "lesson": "g_a1_5_saatler",
+        "show": "clock"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Would you like some speaking practice? This week, on Thursday, the classroom is empty at lunchtime.",
+      "fa": "تمرینِ مکالمه می‌خواید؟ این هفته پنجشنبه، موقعِ ناهار کلاس خالیه.",
+      "obj": [
+        {
+          "id": "ajanda",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Konuşma pratiği istiyor musunuz? Bu hafta perşembe, öğle yemeğinde sınıf boş.",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "persembe",
+        "kind": "meaning",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Thursday, at twelve. Is that all right, teacher?",
+            "fa": "پنجشنبه، ساعتِ دوازده. خوبه، استاد؟",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "nod",
+                "emo": "happy",
+                "en": "All right: Thursday, at twelve!",
+                "fa": "باشه: پنجشنبه، ساعتِ دوازده!",
+                "tr": "Tamam: perşembe, saat on ikide!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Perşembe, saat on ikide. Tamam mı, hocam?"
+          },
+          {
+            "do": "shrug",
+            "emo": "nervous",
+            "en": "Thursday? I don't know…",
+            "fa": "پنجشنبه؟ نمی‌دونم…",
+            "react": {
+              "zafer": "curious"
+            },
+            "reply": [
+              {
+                "at": "ch:nima",
+                "do": "you",
+                "emo": "curious",
+                "en": "At what time? You tell me.",
+                "fa": "ساعتِ چند؟ شما بگید.",
+                "tr": "Saat kaçta? Siz söyleyin.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Perşembe? Bilmiyorum…"
+          },
+          {
+            "do": "nod",
+            "emo": "happy",
+            "en": "OK!",
+            "fa": "باشه!",
+            "react": {
+              "zafer": "happy"
+            },
+            "reply": [
+              {
+                "emo": "curious",
+                "en": "…At what time?",
+                "fa": "…ساعتِ چند؟",
+                "tr": "…Saat kaçta?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam!"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "At twelve! Thank you, teacher!",
+      "fa": "ساعتِ دوازده! ممنونم، استاد!",
+      "to": "zafer",
+      "tr": "Saat on ikide! Teşekkür ederim, hocam!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "at": "obj:ajanda",
+        "do": "write",
+        "obj": [
+          {
+            "id": "ajanda",
+            "op": "set",
+            "set": {
+              "text": "Perşembe 12:00"
+            }
+          }
+        ],
+        "sfx": {
+          "id": "pen_scratch",
+          "word": "cız cız"
+        },
+        "who": "zafer"
+      }
+    },
+    {
+      "at": {
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "door",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "state": "full",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kol_saati",
+            "op": "set",
+            "set": {
+              "time": "9:30"
+            }
+          },
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "emo": "surprised",
+      "en": "Nima?! You… came early?! Late yesterday, early today!",
+      "fa": "نیما؟! تو… زود اومدی؟! دیروز دیر، امروز زود!",
+      "move": {
+        "how": "walk",
+        "to": "board",
+        "who": "parvaneh"
+      },
+      "react": {
+        "nima": "laugh"
+      },
+      "to": "nima",
+      "tr": "Nima?! Sen… erken mi geldin?! Dün geç, bugün erken!",
+      "who": "parvaneh"
+    },
+    {
+      "at": "obj:kol_saati",
+      "do": "hold_up",
+      "emo": "laugh",
+      "en": "Yes! Tehran time!",
+      "fa": "آره! وقتِ تهران!",
+      "link": {
+        "saati": "obj:kol_saati"
+      },
+      "to": "parvaneh",
+      "tr": "Evet! Tahran saati!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "emo": "tired",
+        "move": {
+          "how": "enter",
+          "to": "map",
+          "who": "alex"
+        },
+        "sfx": {
+          "id": "door_open"
+        },
+        "who": "alex"
+      }
+    },
+    {
+      "emo": "laugh",
+      "en": "Alex! Sleepy again!",
+      "fa": "الکس! باز خواب‌آلودی!",
+      "to": "alex",
+      "tr": "Alex! Yine uykulusun!",
+      "who": "parvaneh"
+    },
+    {
+      "emo": "tired",
+      "en": "I work nights. In Kadıköy, at a hostel. From eleven to seven.",
+      "fa": "شب‌ها کار می‌کنم. توی کادیکوی، تو یه هاستل. از ساعتِ یازده تا هفت.",
+      "react": {
+        "nima": "surprised",
+        "parvaneh": "surprised"
+      },
+      "to": "parvaneh",
+      "tr": "Gece çalışıyorum. Kadıköy'de, bir hostelde. Saat on birden yediye kadar.",
+      "who": "alex"
+    },
+    {
+      "emo": "curious",
+      "en": "When do you sleep?",
+      "fa": "پس کِی می‌خوابی؟",
+      "to": "alex",
+      "tr": "Ne zaman uyuyorsun?",
+      "who": "nima"
+    },
+    {
+      "emo": "tired",
+      "en": "…In class!",
+      "fa": "…سرِ کلاس!",
+      "react": {
+        "parvaneh": "laugh",
+        "zafer": "happy"
+      },
+      "to": "nima",
+      "tr": "…Derste!",
+      "who": "alex"
+    },
+    {
+      "cam": "wide",
+      "en": "Nine o'clock. Everyone is here. Alex is here too… a little.",
+      "fa": "ساعت نهه. همه این‌جان. الکس هم این‌جاست… یه کمی.",
+      "narr": true,
+      "tr": "Saat dokuz. Herkes burada. Alex de burada… biraz.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The Tehran-time watch strikes again: Nima walks into class 504 at half past eight and finds only Zafer Hoca. They talk about their days, fix a time for speaking practice, and at nine Alex says why he is always so sleepy.",
+  "summaryFa": "ساعتِ تهرانی باز کار دستِ نیما می‌دهد: نیما ساعتِ هشت و نیم به کلاسِ ۵۰۴ می‌رسد و فقط استاد ظفر آن‌جاست. از روزشان حرف می‌زنند، برای تمرینِ مکالمه قرار می‌گذارند، و ساعتِ نه الکس می‌گوید چرا همیشه خواب‌آلود است.",
+  "title": "Saat kaçta?",
+  "titleEn": "At what time?",
+  "titleFa": "ساعتِ چند؟",
+  "words": [
+    "a1-w-kahvalti-etmek",
+    "a1-w-yatmak",
+    "a1-w-kalkmak",
+    "a1-w-bazen",
+    "a1-w-genellikle",
+    "a1-w-ogle-yemegi",
+    "seed-w09",
+    "a1-w-bos"
+  ]
+}

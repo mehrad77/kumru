@@ -1,0 +1,161 @@
+{
+  "address": {
+    "maria": "siz",
+    "nima": "sen",
+    "serkan": "sen"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima… the best on the fourth floor.",
+        "fa": "نیما… بهترینِ طبقه‌ی چهارم.",
+        "photo": {
+          "step": 9,
+          "story": "s1e28"
+        },
+        "tr": "Nima… dördüncü katın en iyisi."
+      },
+      "family": {
+        "en": "Nima is one of our own.",
+        "fa": "نیما دیگه بچه‌ی خونه‌ی ماست.",
+        "photo": {
+          "step": 17,
+          "story": "s1e40"
+        },
+        "tr": "Nima bizim evin çocuğu."
+      },
+      "met": {
+        "en": "Our neighbour, Nima.",
+        "fa": "همسایه‌مون، نیما.",
+        "photo": {
+          "step": 2,
+          "story": "s1e14"
+        },
+        "tr": "Komşumuz Nima."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.45,
+      "shape": "average"
+    },
+    "face": {
+      "brows": "soft",
+      "eyeColor": "eye_hazel",
+      "eyes": "hooded",
+      "marks": [
+        "crows_feet"
+      ],
+      "mouth": "wide",
+      "nose": "long",
+      "shape": "oval"
+    },
+    "hair": {
+      "color": "hair_03",
+      "style": "hair_bob"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_04"
+        ],
+        "id": "bottom_trousers"
+      },
+      "outer": {
+        "colors": [
+          "fab_12"
+        ],
+        "id": "outer_cardigan_short"
+      },
+      "shoes": {
+        "colors": [
+          "fab_21",
+          "fab_02"
+        ],
+        "id": "shoes_slippers_house"
+      },
+      "top": {
+        "colors": [
+          "fab_02"
+        ],
+        "id": "top_tee"
+      }
+    },
+    "skin": "skin_17",
+    "v": 1
+  },
+  "bio": "In her 40s, from İzmir; a nurse at a public hospital in Şişli, on shifts. Warm, practical and unflappable; always tired after nights.",
+  "bioFa": "چهل و چند ساله، اهلِ ازمیر؛ پرستارِ یک بیمارستانِ دولتی در شیشلی است و شیفتی کار می‌کند. گرم، اهلِ عمل و خونسرد است؛ بعد از شیفتِ شب همیشه خسته است.",
+  "catch": {
+    "en": "Get well soon!",
+    "fa": "بلا به دور!",
+    "tr": "Geçmiş olsun!"
+  },
+  "circle": "neighbourhood",
+  "color": "#C4553A",
+  "id": "elif",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "mid",
+    "signature": [
+      "touch",
+      "nod",
+      "hand_heart"
+    ],
+    "tempo": 1.0
+  },
+  "name": "Elif",
+  "nameFa": "الیف",
+  "order": 8,
+  "outfits": {
+    "shift": {
+      "outfit": {
+        "bottom": {
+          "colors": [
+            "fab_35"
+          ],
+          "id": "bottom_scrubs"
+        },
+        "outer": null,
+        "shoes": {
+          "id": "shoes_clogs_work"
+        },
+        "top": {
+          "colors": [
+            "fab_35"
+          ],
+          "id": "top_scrubs"
+        }
+      },
+      "wear": {
+        "hat": {
+          "colors": [
+            "fab_35"
+          ],
+          "id": "cap_scrub"
+        },
+        "neck": {
+          "colors": [
+            "fab_12",
+            "fab_01"
+          ],
+          "id": "lanyard_badge"
+        }
+      }
+    }
+  },
+  "places": [
+    "flat_elif",
+    "flat_nima"
+  ],
+  "role": "Nurse; lives downstairs from Nima",
+  "roleFa": "پرستار؛ طبقهٔ پایینِ نیما زندگی می‌کند",
+  "voice": {
+    "pitch": 1.05,
+    "rate": 1.0
+  }
+}

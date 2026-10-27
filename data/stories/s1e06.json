@@ -1,0 +1,1063 @@
+{
+  "arc": {
+    "en": "Welcome!",
+    "fa": "خوش آمدی!",
+    "id": "s1w01",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Hoş geldin!"
+  },
+  "cast": [
+    "farzad",
+    "nima",
+    "kirlangic",
+    "rayan"
+  ],
+  "followUp": [
+    {
+      "en": "What's this?",
+      "fa": "این چیه؟",
+      "to": "nima",
+      "tr": "Bu ne?",
+      "who": "kirlangic"
+    },
+    {
+      "en": "It's a book.",
+      "fa": "این یه کتابه.",
+      "to": "kirlangic",
+      "tr": "Bu bir kitap.",
+      "who": "nima"
+    },
+    {
+      "en": "And what are these?",
+      "fa": "اینا چیه؟",
+      "to": "nima",
+      "tr": "Bunlar ne?",
+      "who": "kirlangic"
+    },
+    {
+      "choice": {
+        "id": "fu_toplar",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Balls.",
+            "fa": "توپ‌ها.",
+            "ok": true,
+            "react": {
+              "kirlangic": "happy"
+            },
+            "reply": [
+              {
+                "en": "Yes! Very good!",
+                "fa": "آره! خیلی خوبه!",
+                "to": "nima",
+                "tr": "Evet! Çok güzel!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Toplar."
+          },
+          {
+            "en": "Ball.",
+            "fa": "توپ.",
+            "react": {
+              "kirlangic": "curious"
+            },
+            "reply": [
+              {
+                "en": "One, two… balls!",
+                "fa": "یک، دو… توپ‌ها!",
+                "to": "nima",
+                "tr": "Bir, iki… toplar!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Top."
+          },
+          {
+            "en": "Balls. (with -ler)",
+            "fa": "توپ‌ها. (با -ler)",
+            "react": {
+              "kirlangic": "laugh"
+            },
+            "reply": [
+              {
+                "en": "No… toplar!",
+                "fa": "نه… toplar!",
+                "to": "nima",
+                "tr": "Hayır… toplar!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Topler."
+          }
+        ],
+        "to": "kirlangic"
+      }
+    }
+  ],
+  "gl": {
+    "ellerine": [
+      "(در «ellerine sağlık») دستت درد نکنه، به آشپز",
+      "(in “ellerine sağlık”) bless your hands: said to the cook"
+    ],
+    "elmalar": [
+      "سیب‌ها",
+      "apples"
+    ],
+    "hafız": [
+      "حافظ (شاعر)",
+      "Hafez (the poet)"
+    ],
+    "hoca": [
+      "استاد، معلم",
+      "teacher (Zafer Hoca: the teacher, Zafer)"
+    ],
+    "kalın": [
+      "(در «hoşça kalın») خداحافظ، به چند نفر",
+      "(in “hoşça kalın”) bye, to more than one person"
+    ],
+    "kırlangıç": [
+      "پرستو (اسم)",
+      "Kırlangıç (a name; the word means “swallow”)"
+    ],
+    "narlar": [
+      "انارها",
+      "pomegranates"
+    ],
+    "parvane": [
+      "پروانه (اسم)",
+      "Parvaneh (a name)"
+    ],
+    "safran": [
+      "زعفران",
+      "saffron"
+    ],
+    "topler": [
+      "اشتباه؛ درستش: toplar",
+      "a slip; the right form is toplar"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name; the word means “victory”)"
+    ]
+  },
+  "id": "s1e06",
+  "kind": "special",
+  "lessons": [
+    "g_a1_1_cogul",
+    "g_a1_1_bu_su_o",
+    "g_a1_1_soru"
+  ],
+  "level": "A1",
+  "place": "flat_farzad_living",
+  "props": {
+    "bardaklar": {
+      "at": {
+        "x": -0.5,
+        "y": 0.76,
+        "z": -1.0
+      },
+      "hot": true,
+      "kit": "tea",
+      "n": 4,
+      "shown": false,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    },
+    "bavul": {
+      "at": {
+        "x": -3.15,
+        "y": 0,
+        "z": -2.3
+      },
+      "kit": "bag",
+      "n": 5,
+      "terms": [
+        "a1-w-bavul"
+      ],
+      "variant": "suitcase"
+    },
+    "cicekler": {
+      "at": {
+        "x": -3.7,
+        "y": 1.0,
+        "z": -2.0
+      },
+      "color": "sarı",
+      "kit": "flowers",
+      "shown": false,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "bouquet"
+    },
+    "hafiz": {
+      "at": {
+        "x": -0.3,
+        "y": 0.76,
+        "z": -1.2
+      },
+      "kit": "book",
+      "terms": [
+        "seed-w01"
+      ],
+      "title": "HAFIZ"
+    },
+    "nar_kutusu": {
+      "at": {
+        "x": -0.75,
+        "y": 0.76,
+        "z": -1.2
+      },
+      "kit": "box",
+      "terms": [
+        "a1-w-nar",
+        "a1-w-kutu"
+      ],
+      "variant": "pomegranates"
+    },
+    "pilav": {
+      "at": {
+        "x": -0.95,
+        "y": 0.76,
+        "z": -1.15
+      },
+      "kit": "plate",
+      "shown": false,
+      "terms": [
+        "a1-w-pilav"
+      ],
+      "variant": "rice"
+    },
+    "safran": {
+      "at": {
+        "x": 0.0,
+        "y": 0.76,
+        "z": -1.2
+      },
+      "kit": "food",
+      "terms": [],
+      "variant": "saffron"
+    },
+    "salata": {
+      "at": {
+        "x": 0.3,
+        "y": 0.76,
+        "z": -1.15
+      },
+      "kit": "plate",
+      "shown": false,
+      "terms": [
+        "a1-w-salata"
+      ],
+      "variant": "salad"
+    },
+    "tavuk": {
+      "at": {
+        "x": -0.05,
+        "y": 0.76,
+        "z": -1.15
+      },
+      "kit": "plate",
+      "shown": false,
+      "terms": [
+        "a1-w-tavuk"
+      ],
+      "variant": "chicken"
+    },
+    "top": {
+      "at": {
+        "x": 0.4,
+        "y": 0.76,
+        "z": -1.2
+      },
+      "color": "kırmızı",
+      "kit": "toy",
+      "terms": [
+        "a1-w-top"
+      ],
+      "variant": "ball"
+    },
+    "yun": {
+      "at": {
+        "x": 3.65,
+        "y": 0.47,
+        "z": -2.0
+      },
+      "color": "mavi",
+      "kit": "yarn",
+      "terms": [
+        "b1-w-yun"
+      ],
+      "variant": "knitting"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What's for dinner tonight?",
+      "fa": "امشب شام چیست؟",
+      "kind": "comp",
+      "options": [
+        "Pilav ve tavuk",
+        "Ekmek ve zeytin",
+        "Nar ve elma"
+      ],
+      "q": "Bu akşam yemek ne?",
+      "why": "Farzad: “Bu pilav! Tavuk, salata… afiyet olsun!”"
+    },
+    {
+      "a": 0,
+      "en": "A box of red fruit from home. Kırlangıç: “A box! What are these?”",
+      "fa": "یک جعبه میوه‌ی قرمز. پرستو: «یه جعبه! اینا چیه؟»",
+      "kind": "word",
+      "options": [
+        "Narlar",
+        "Elmalar",
+        "Toplar"
+      ],
+      "q": "Kırlangıç: “Bir kutu! Bunlar ne?”",
+      "why": "Nima: “Narlar!”"
+    },
+    {
+      "a": 0,
+      "en": "After dinner, Farzad asks: “How was the food?” Nima says to the cook: “…”",
+      "fa": "بعد از شام فرزاد می‌پرسد: «غذا چطور بود؟» نیما به آشپز می‌گوید: «…»",
+      "kind": "comp",
+      "options": [
+        "Ellerine sağlık!",
+        "Hoş geldiniz!",
+        "Güle güle!"
+      ],
+      "q": "Farzad: “Yemek nasıl?” Nima: “…”",
+      "why": "Nima: “Ellerine sağlık!” Farzad: “Afiyet olsun!”"
+    }
+  ],
+  "ref": "A1_1",
+  "releaseDate": "2026-09-12",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "farzad": "host",
+        "nima": "hall"
+      },
+      "kerim": "balcony_rail",
+      "scene": "flat_farzad_living",
+      "time": "golden"
+    },
+    {
+      "cam": "wide",
+      "en": "Good evening! This home… Farzad and Nima. Tonight: dinner!",
+      "fa": "عصر بخیر! این خونه… فرزاد و نیما. امشب: شام!",
+      "narr": true,
+      "tr": "İyi akşamlar! Bu ev… Farzad ve Nima. Bu akşam: yemek!",
+      "who": "kerim"
+    },
+    {
+      "emo": "happy",
+      "en": "Good evening!",
+      "fa": "عصر بخیر!",
+      "move": [
+        {
+          "from": "door",
+          "how": "enter",
+          "to": "door",
+          "who": "kirlangic"
+        },
+        {
+          "from": "door",
+          "how": "enter",
+          "to": "kitchen",
+          "who": "rayan"
+        }
+      ],
+      "obj": [
+        {
+          "id": "cicekler",
+          "op": "take"
+        },
+        {
+          "id": "cicekler",
+          "op": "show"
+        }
+      ],
+      "sfx": {
+        "id": "doorbell"
+      },
+      "to": "farzad",
+      "tr": "İyi akşamlar!",
+      "who": "kirlangic"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Welcome, both of you!",
+      "fa": "خوش اومدید!",
+      "to": "kirlangic",
+      "tr": "Hoş geldiniz!",
+      "who": "farzad"
+    },
+    {
+      "emo": "happy",
+      "en": "Glad to be here! Nima… flowers!",
+      "fa": "خوشحالیم که اومدیم! نیما… گل!",
+      "link": {
+        "çiçekler": "obj:cicekler"
+      },
+      "obj": [
+        {
+          "id": "cicekler",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Hoş bulduk! Nima… çiçekler!",
+      "who": "kirlangic"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "moved",
+      "en": "Thank you!",
+      "fa": "ممنون!",
+      "to": "kirlangic",
+      "tr": "Teşekkür ederim!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "cicekler",
+            "op": "give",
+            "to": "farzad"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": "obj:bavul",
+      "do": "point",
+      "emo": "curious",
+      "en": "What's this?",
+      "fa": "این چیه؟",
+      "to": "nima",
+      "tr": "Bu ne?",
+      "who": "rayan"
+    },
+    {
+      "at": "obj:bavul",
+      "do": "point",
+      "emo": "happy",
+      "en": "This is a suitcase.",
+      "fa": "این یه چمدونه.",
+      "link": {
+        "bavul": "obj:bavul"
+      },
+      "to": "rayan",
+      "tr": "Bu bir bavul.",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "Suitcases! So many suitcases!",
+      "fa": "چمدون‌ها! چقدر چمدون!",
+      "link": {
+        "bavul": "obj:bavul",
+        "bavullar": "obj:bavul"
+      },
+      "react": {
+        "kirlangic": "laugh"
+      },
+      "to": "all",
+      "tr": "Bavullar! Çok bavul!",
+      "who": "farzad"
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "exit",
+            "to": "kitchen",
+            "who": "farzad"
+          },
+          {
+            "how": "walk",
+            "to": "table_1",
+            "who": "kirlangic"
+          },
+          {
+            "how": "walk",
+            "to": "table_4",
+            "who": "rayan"
+          },
+          {
+            "how": "walk",
+            "to": "table_2",
+            "who": "nima"
+          }
+        ]
+      }
+    },
+    {
+      "at": {
+        "kirlangic": "table_1",
+        "nima": "table_2",
+        "rayan": "table_4"
+      },
+      "kerim": "balcony_rail",
+      "scene": "flat_farzad_living",
+      "time": "dusk"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "nar_kutusu",
+            "op": "take"
+          }
+        ],
+        "who": "kirlangic"
+      }
+    },
+    {
+      "at": "obj:nar_kutusu",
+      "do": "hold_up",
+      "emo": "curious",
+      "en": "A box! What are these?",
+      "fa": "یه جعبه! اینا چیه؟",
+      "link": {
+        "kutu": "obj:nar_kutusu"
+      },
+      "move": {
+        "from": "kitchen",
+        "how": "enter",
+        "to": "table_3",
+        "who": "farzad"
+      },
+      "to": "nima",
+      "tr": "Bir kutu! Bunlar ne?",
+      "who": "kirlangic"
+    },
+    {
+      "choice": {
+        "id": "narlar",
+        "kind": "meaning",
+        "options": [
+          {
+            "emo": "proud",
+            "en": "Pomegranates!",
+            "fa": "انارها!",
+            "link": {
+              "narlar": "obj:nar_kutusu"
+            },
+            "ok": true,
+            "react": {
+              "kirlangic": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Pomegranates! Lovely!",
+                "fa": "انار! چه خوشگل!",
+                "link": {
+                  "narlar": "obj:nar_kutusu"
+                },
+                "to": "nima",
+                "tr": "Narlar! Çok güzel!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Narlar!"
+          },
+          {
+            "emo": "happy",
+            "en": "Pomegranate! (singular)",
+            "fa": "انار! (مفرد)",
+            "link": {
+              "nar": "obj:nar_kutusu"
+            },
+            "react": {
+              "kirlangic": {
+                "emo": "laugh"
+              },
+              "rayan": {
+                "at": "obj:nar_kutusu",
+                "do": "count"
+              }
+            },
+            "reply": [
+              {
+                "at": "obj:nar_kutusu",
+                "do": "count",
+                "emo": "laugh",
+                "en": "One, two, three… yes: pomegranates!",
+                "fa": "یک، دو، سه… آره: انارها!",
+                "n": 3,
+                "to": "nima",
+                "tr": "Bir, iki, üç… evet: narlar!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Nar!"
+          },
+          {
+            "emo": "happy",
+            "en": "Apples!",
+            "fa": "سیب‌ها!",
+            "react": {
+              "kirlangic": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "Apples? No… pomegranates!",
+                "fa": "سیب؟ نه… انار!",
+                "link": {
+                  "nar": "obj:nar_kutusu"
+                },
+                "to": "nima",
+                "tr": "Elma mı? Hayır… nar!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Elmalar!"
+          }
+        ],
+        "to": "kirlangic"
+      }
+    },
+    {
+      "at": "obj:hafiz",
+      "do": "point",
+      "emo": "happy",
+      "en": "Farzad, this book is for you.",
+      "fa": "فرزاد، این کتاب برای توئه.",
+      "link": {
+        "kitap": "obj:hafiz"
+      },
+      "to": "farzad",
+      "tr": "Farzad, bu kitap.",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "hafiz",
+            "op": "take"
+          }
+        ],
+        "who": "farzad"
+      }
+    },
+    {
+      "at": "obj:hafiz",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Hafez! How beautiful!",
+      "fa": "حافظ! چه قشنگ!",
+      "link": {
+        "hafız": "obj:hafiz"
+      },
+      "to": "nima",
+      "tr": "Hafız! Çok güzel!",
+      "who": "farzad"
+    },
+    {
+      "at": "obj:safran",
+      "do": "point",
+      "emo": "happy",
+      "en": "Kırlangıç, this saffron is for you!",
+      "fa": "پرستو، این زعفرون برای توئه!",
+      "link": {
+        "safran": "obj:safran"
+      },
+      "to": "kirlangic",
+      "tr": "Kırlangıç, bu safran!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "safran",
+            "op": "take"
+          }
+        ],
+        "who": "kirlangic"
+      }
+    },
+    {
+      "at": "obj:safran",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Saffron! Thank you!",
+      "fa": "زعفرون! ممنون!",
+      "link": {
+        "safran": "obj:safran"
+      },
+      "to": "nima",
+      "tr": "Safran! Teşekkür ederim!",
+      "who": "kirlangic"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "top",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": "obj:top",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Rayan, what's this?",
+      "fa": "رایان، این چیه؟",
+      "to": "rayan",
+      "tr": "Rayan, bu ne?",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Ball! A red ball!",
+      "fa": "توپ! توپِ قرمز!",
+      "link": {
+        "top": "obj:top"
+      },
+      "obj": [
+        {
+          "id": "top",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Top! Kırmızı top!",
+      "who": "rayan"
+    },
+    {
+      "spot": {
+        "en": "Tonight's plurals: nar → narlar, kitap → kitaplar, top → toplar (last vowel a, ı, o or u: -lar), and çiçek → çiçekler (last vowel e, i, ö or ü: -ler). One suitcase is bavul; Nima's five are bavullar!",
+        "ex": "çiçekler",
+        "fa": "جمع‌های امشب: nar ← narlar، kitap ← kitaplar، top ← toplar (آخرین حرفِ صدادار a یا ı یا o یا u: -lar)، و çiçek ← çiçekler (آخرین حرفِ صدادار e یا i یا ö یا ü: -ler). یک چمدان bavul است؛ پنج چمدانِ نیما bavullar!",
+        "lesson": "g_a1_1_cogul"
+      }
+    },
+    {
+      "at": "obj:pilav",
+      "do": "point",
+      "emo": "proud",
+      "en": "This is pilaf! Chicken, salad… enjoy your meal!",
+      "fa": "این پلوئه! مرغ، سالاد… نوش جون!",
+      "link": {
+        "pilav": "obj:pilav",
+        "salata": "obj:salata",
+        "tavuk": "obj:tavuk"
+      },
+      "obj": [
+        {
+          "id": "pilav",
+          "op": "show"
+        },
+        {
+          "id": "tavuk",
+          "op": "show"
+        },
+        {
+          "id": "salata",
+          "op": "show"
+        }
+      ],
+      "to": "all",
+      "tr": "Bu pilav! Tavuk, salata… afiyet olsun!",
+      "who": "farzad"
+    },
+    {
+      "at": "obj:pilav",
+      "do": "point",
+      "emo": "happy",
+      "en": "Pilaf!",
+      "fa": "پلو!",
+      "link": {
+        "pilav": "obj:pilav"
+      },
+      "to": "farzad",
+      "tr": "Pilav!",
+      "who": "rayan"
+    },
+    {
+      "emo": "happy",
+      "en": "Enjoy your meal!",
+      "fa": "نوش جون!",
+      "to": "all",
+      "tr": "Afiyet olsun!",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "Nima, how's school?",
+      "fa": "نیما، کلاس چطوره؟",
+      "to": "nima",
+      "tr": "Nima, okul nasıl?",
+      "who": "kirlangic"
+    },
+    {
+      "emo": "happy",
+      "en": "Zafer Hoca… he's very good!",
+      "fa": "استاد ظفر… خیلی خوبه!",
+      "to": "kirlangic",
+      "tr": "Zafer Hoca… çok iyi!",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "And your friends?",
+      "fa": "دوستات چی؟",
+      "to": "nima",
+      "tr": "Ya arkadaşlar?",
+      "who": "kirlangic"
+    },
+    {
+      "emo": "happy",
+      "en": "Parvaneh, Dilnoza… really good friends!",
+      "fa": "پروانه، دلنوزا… دوستای خیلی خوبی‌ان!",
+      "to": "kirlangic",
+      "tr": "Parvane, Dilnoza… çok iyi arkadaşlar!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "pilav",
+            "op": "set",
+            "set": {
+              "kind": "empty"
+            }
+          },
+          {
+            "id": "tavuk",
+            "op": "set",
+            "set": {
+              "kind": "empty"
+            }
+          },
+          {
+            "id": "salata",
+            "op": "set",
+            "set": {
+              "kind": "empty"
+            }
+          }
+        ],
+        "wait": 600
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "How was the food?",
+      "fa": "غذا چطور بود؟",
+      "to": "nima",
+      "tr": "Yemek nasıl?",
+      "who": "farzad"
+    },
+    {
+      "choice": {
+        "id": "ellerine_saglik",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Bless your hands! (said to the cook)",
+            "fa": "دستت درد نکنه!",
+            "ok": true,
+            "react": {
+              "farzad": {
+                "do": "hand_heart",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Enjoy! (the cook's answer)",
+                "fa": "نوش جون!",
+                "to": "nima",
+                "tr": "Afiyet olsun!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Ellerine sağlık!"
+          },
+          {
+            "emo": "happy",
+            "en": "Enjoy your meal!",
+            "fa": "نوش جون!",
+            "react": {
+              "farzad": {
+                "emo": "laugh"
+              },
+              "kirlangic": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "do": "explain",
+                "emo": "laugh",
+                "en": "No! You say: ellerine sağlık. Farzad says: afiyet olsun.",
+                "fa": "نه! تو می‌گی «ellerine sağlık»، فرزاد می‌گه «afiyet olsun».",
+                "to": "nima",
+                "tr": "Hayır! Sen: ellerine sağlık. Farzad: afiyet olsun.",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Afiyet olsun!"
+          },
+          {
+            "emo": "happy",
+            "en": "Thanks, it was lovely!",
+            "fa": "مرسی، خیلی خوب بود!",
+            "react": {
+              "farzad": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Enjoy! (the cook's answer)",
+                "fa": "نوش جون!",
+                "to": "nima",
+                "tr": "Afiyet olsun!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Teşekkürler, çok güzel!"
+          }
+        ],
+        "to": "farzad"
+      }
+    },
+    {
+      "at": "obj:bardaklar",
+      "do": "count",
+      "emo": "happy",
+      "en": "Tea! Four glasses: one, two, three, four!",
+      "fa": "چای! چهار تا استکان: یک، دو، سه، چهار!",
+      "link": {
+        "bardak": "obj:bardaklar",
+        "çay": "obj:bardaklar"
+      },
+      "n": 4,
+      "obj": [
+        {
+          "id": "bardaklar",
+          "op": "show"
+        }
+      ],
+      "sfx": {
+        "id": "tea_glass"
+      },
+      "to": "all",
+      "tr": "Çay! Dört bardak: bir, iki, üç, dört!",
+      "who": "farzad"
+    },
+    {
+      "beat": {
+        "do": "sleep",
+        "emo": "tired",
+        "move": {
+          "how": "walk",
+          "to": "sofa",
+          "who": "rayan"
+        },
+        "who": "rayan"
+      }
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye, both of you!",
+      "fa": "خداحافظ!",
+      "to": "all",
+      "tr": "Hoşça kalın!",
+      "who": "kirlangic"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye! Take care!",
+      "fa": "به سلامت!",
+      "to": "kirlangic",
+      "tr": "Güle güle!",
+      "who": "nima"
+    },
+    {
+      "cam": "wide",
+      "en": "One week. A new home… new friends.",
+      "env": "time:night:5000",
+      "fa": "یه هفته. یه خونه‌ی تازه… دوستای تازه.",
+      "move": [
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "kirlangic"
+        },
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "rayan"
+        }
+      ],
+      "narr": true,
+      "tr": "Bir hafta. Yeni bir ev… yeni arkadaşlar.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Nima's first week ends with a small dinner at Farzad's. Kırlangıç and Rayan bring flowers, Nima hands out the gifts from home at last, and Farzad serves pilav and chicken.",
+  "summaryFa": "هفته‌ی اولِ نیما با یک شامِ کوچک در خانه‌ی فرزاد تمام می‌شود. پرستو و رایان گل می‌آورند، نیما بالاخره سوغاتی‌ها را می‌دهد و فرزاد پلو و مرغ می‌کشد.",
+  "title": "Hoş geldin yemeği",
+  "titleEn": "The welcome dinner",
+  "titleFa": "شامِ خوش‌آمدگویی",
+  "words": [
+    "a1-w-nar",
+    "seed-w01",
+    "a1-w-top",
+    "a1-w-cicek",
+    "a1-w-tavuk",
+    "a1-w-yemek",
+    "a1-w-kutu",
+    "a1-w-bardak",
+    "a1-w-afiyet-olsun",
+    "a1-w-tesekkur-ederim"
+  ]
+}

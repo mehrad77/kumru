@@ -1,0 +1,623 @@
+{
+  "arc": {
+    "en": "A new home, a new way",
+    "fa": "خانه‌ی نو، راهِ نو",
+    "id": "s1w03",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Yeni ev, yeni yol"
+  },
+  "cast": [
+    "farzad",
+    "nima",
+    "serkan",
+    "omer"
+  ],
+  "followUp": [
+    {
+      "en": "Neighbour! Where are we going?",
+      "fa": "همسایه! کجا بریم؟",
+      "to": "nima",
+      "tr": "Komşu! Nereye gidiyoruz?",
+      "who": "serkan"
+    },
+    {
+      "choice": {
+        "id": "fu_nereye",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "To school, please.",
+            "fa": "مدرسه، لطفاً.",
+            "ok": true,
+            "react": {
+              "serkan": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "To school! Right.",
+                "fa": "مدرسه! باشه.",
+                "tr": "Okula! Tamam.",
+                "who": "serkan"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Okula, lütfen."
+          },
+          {
+            "en": "From school.",
+            "fa": "از مدرسه.",
+            "react": {
+              "serkan": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "en": "Not from school… to school! Right.",
+                "fa": "از مدرسه نه… به مدرسه! باشه.",
+                "tr": "Okuldan değil… okula! Tamam.",
+                "who": "serkan"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Okuldan."
+          }
+        ],
+        "to": "serkan"
+      }
+    },
+    {
+      "en": "And where are you coming from now?",
+      "fa": "حالا از کجا میای؟",
+      "to": "nima",
+      "tr": "Şimdi nereden geliyorsun?",
+      "who": "serkan"
+    },
+    {
+      "en": "From home!",
+      "fa": "از خونه!",
+      "to": "serkan",
+      "tr": "Evden!",
+      "who": "nima"
+    },
+    {
+      "en": "From home to school. Right, off we go!",
+      "fa": "از خونه به مدرسه. باشه، بریم!",
+      "to": "nima",
+      "tr": "Evden okula. Tamam, gidiyoruz!",
+      "who": "serkan"
+    }
+  ],
+  "gl": {
+    "asansör": [
+      "آسانسور",
+      "lift, elevator"
+    ],
+    "beşiktaş": [
+      "بشیکتاش (محله و تیمِ فوتبال)",
+      "Beşiktaş (a district and its football club)"
+    ],
+    "ediyorum": [
+      "می‌کنم (yardım ediyorum: کمک می‌کنم)",
+      "I do (yardım ediyorum: I'm helping)"
+    ],
+    "evden": [
+      "از خانه",
+      "from home"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a district of Şişli)"
+    ],
+    "kazanıyor": [
+      "دارد می‌بَرَد",
+      "is winning"
+    ],
+    "kimsin": [
+      "کی هستی؟",
+      "who are you?"
+    ],
+    "komşu": [
+      "همسایه",
+      "neighbour"
+    ],
+    "mecidiyeköy": [
+      "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "Mecidiyeköy (a district of Şişli)"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ]
+  },
+  "id": "s1e13",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_3_simdiki",
+    "g_a1_3_yonelme",
+    "g_a1_3_uzaklasma"
+  ],
+  "level": "A1",
+  "place": "flat_farzad_living",
+  "props": {
+    "kucuk_kutu": {
+      "at": {
+        "flat_farzad_living": {
+          "x": -2.15,
+          "y": 0,
+          "z": -1.95
+        },
+        "flat_nima_street": {
+          "x": -0.75,
+          "y": 0,
+          "z": -2.3
+        }
+      },
+      "kit": "box",
+      "n": 1,
+      "size": 0.6,
+      "terms": [
+        "a1-w-kutu"
+      ],
+      "variant": "small"
+    },
+    "kutu": {
+      "at": {
+        "flat_farzad_living": {
+          "x": -2.7,
+          "y": 0,
+          "z": -1.75
+        },
+        "flat_nima_street": {
+          "x": -1.3,
+          "y": 0,
+          "z": -2.4
+        }
+      },
+      "kit": "box",
+      "n": 3,
+      "size": 1.2,
+      "terms": [
+        "a1-w-kutu"
+      ],
+      "variant": "moving"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Who is the taxi driver?",
+      "fa": "راننده‌ی تاکسی کیست؟",
+      "kind": "comp",
+      "options": [
+        "Serkan",
+        "Farzad",
+        "Ömer"
+      ],
+      "q": "Şoför kim?",
+      "why": "Serkan: “Nereye gidiyoruz?”"
+    },
+    {
+      "a": 0,
+      "en": "Serkan asks “Nereden geliyorsunuz?” (Where are you coming from?) What does Nima answer?",
+      "fa": "سرکان می‌پرسد «Nereden geliyorsunuz?» (از کجا می‌آیید؟). نیما چه جواب می‌دهد؟",
+      "kind": "word",
+      "options": [
+        "Mecidiyeköy'den.",
+        "Feriköy'e.",
+        "Feriköy'de."
+      ],
+      "q": "Serkan: “Nereden geliyorsunuz?” Nima: “…”",
+      "why": "Nima: “Mecidiyeköy'den.”"
+    },
+    {
+      "a": 0,
+      "en": "Which floor do Serkan and Ömer live on?",
+      "fa": "سرکان و عمر در کدام طبقه زندگی می‌کنند؟",
+      "kind": "comp",
+      "options": [
+        "İkinci kat",
+        "Dördüncü kat",
+        "Birinci kat"
+      ],
+      "q": "Serkan ve Ömer kaçıncı katta oturuyorlar?",
+      "why": "Serkan: “Ben de burada oturuyorum! İkinci kat!”"
+    }
+  ],
+  "ref": "A1_3",
+  "releaseDate": "2026-09-21",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "farzad": "hall",
+        "nima": "host"
+      },
+      "scene": "flat_farzad_living",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Good morning! Today… Nima is moving house! Farzad's running, Nima's running…",
+      "fa": "صبح بخیر! امروز… نیما داره اسباب‌کشی می‌کنه! فرزاد می‌دوه، نیما می‌دوه…",
+      "narr": true,
+      "tr": "Günaydın! Bugün… Nima taşınıyor! Farzad koşuyor, Nima koşuyor…",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:kutu",
+      "do": "touch",
+      "emo": "curious",
+      "en": "Where does this box go?",
+      "fa": "این جعبه کجا بره؟",
+      "link": {
+        "kutu": "obj:kutu"
+      },
+      "to": "nima",
+      "tr": "Bu kutu nereye?",
+      "who": "farzad"
+    },
+    {
+      "emo": "happy",
+      "en": "Into the taxi!",
+      "fa": "تو تاکسی!",
+      "to": "farzad",
+      "tr": "Taksiye!",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "farzad": "back_r",
+        "nima": "back_l",
+        "serkan": "driver"
+      },
+      "scene": "taxi",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "sfx": {
+          "at": "obj:radio",
+          "id": "radio_football"
+        }
+      }
+    },
+    {
+      "cam": "ots",
+      "emo": "happy",
+      "en": "Where are we going?",
+      "fa": "کجا بریم؟",
+      "to": "nima",
+      "tr": "Nereye gidiyoruz?",
+      "who": "serkan"
+    },
+    {
+      "choice": {
+        "id": "nereye",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "To Feriköy, please.",
+            "fa": "فری‌کؤی، لطفاً.",
+            "ok": true,
+            "react": {
+              "serkan": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "nod",
+                "emo": "happy",
+                "en": "Right! What are you up to?",
+                "fa": "باشه! چی‌کار می‌کنید؟",
+                "tr": "Tamam! Ne yapıyorsunuz?",
+                "who": "serkan"
+              },
+              {
+                "emo": "happy",
+                "en": "We're moving house!",
+                "fa": "داریم اسباب‌کشی می‌کنیم!",
+                "tr": "Taşınıyoruz!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Feriköy'e, lütfen."
+          },
+          {
+            "en": "From Mecidiyeköy.",
+            "fa": "از مجیدیه‌کؤی.",
+            "react": {
+              "serkan": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "Not where from… where to?",
+                "fa": "از کجا نه… به کجا؟",
+                "tr": "Nereden değil… nereye?",
+                "who": "serkan"
+              },
+              {
+                "emo": "happy",
+                "en": "To Feriköy! We're moving house!",
+                "fa": "به فری‌کؤی! داریم اسباب‌کشی می‌کنیم!",
+                "tr": "Feriköy'e! Taşınıyoruz!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Mecidiyeköy'den."
+          },
+          {
+            "en": "In Feriköy.",
+            "fa": "تو فری‌کؤی.",
+            "react": {
+              "serkan": {
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "emo": "confused",
+                "en": "In Feriköy? We're in Mecidiyeköy! Where to?",
+                "fa": "تو فری‌کؤی؟ ما که تو مجیدیه‌کؤی‌ایم! کجا بریم؟",
+                "tr": "Feriköy'de mi? Biz Mecidiyeköy'deyiz! Nereye?",
+                "who": "serkan"
+              },
+              {
+                "emo": "happy",
+                "en": "To Feriköy! We're moving house!",
+                "fa": "به فری‌کؤی! داریم اسباب‌کشی می‌کنیم!",
+                "tr": "Feriköy'e! Taşınıyoruz!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Feriköy'de."
+          }
+        ],
+        "to": "serkan"
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "So… where are you coming from?",
+      "fa": "خب… از کجا میایید؟",
+      "to": "nima",
+      "tr": "Peki… nereden geliyorsunuz?",
+      "who": "serkan"
+    },
+    {
+      "en": "From Mecidiyeköy.",
+      "fa": "از مجیدیه‌کؤی.",
+      "to": "serkan",
+      "tr": "Mecidiyeköy'den.",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "sfx": {
+          "at": "obj:radio",
+          "id": "radio_football",
+          "word": "Gol!"
+        }
+      }
+    },
+    {
+      "do": "cheer",
+      "emo": "happy",
+      "en": "The match! Beşiktaş… are winning!",
+      "fa": "مسابقه! بشیکتاش… داره می‌بره!",
+      "link": {
+        "maç": "obj:radio"
+      },
+      "react": {
+        "farzad": "laugh",
+        "nima": "laugh"
+      },
+      "to": "nima",
+      "tr": "Maç! Beşiktaş… kazanıyor!",
+      "who": "serkan"
+    },
+    {
+      "at": {
+        "farzad": "walk_l",
+        "nima": "walk_r",
+        "serkan": "kerb"
+      },
+      "scene": "flat_nima_street",
+      "time": "day"
+    },
+    {
+      "do": "me",
+      "emo": "surprised",
+      "en": "This street? Here?! I live here too! Second floor!",
+      "fa": "این کوچه؟ همین‌جا؟! منم همین‌جا زندگی می‌کنم! طبقه‌ی دوم!",
+      "react": {
+        "farzad": "laugh",
+        "nima": "surprised"
+      },
+      "to": "nima",
+      "tr": "Bu sokak mı? Burası mı?! Ben de burada oturuyorum! İkinci kat!",
+      "who": "serkan"
+    },
+    {
+      "at": "ch:nima",
+      "do": "you",
+      "emo": "curious",
+      "en": "Dad! …Who are you? What are you doing?",
+      "fa": "بابا! …تو کی هستی؟ داری چی‌کار می‌کنی؟",
+      "move": {
+        "how": "enter",
+        "to": "steps",
+        "who": "omer"
+      },
+      "to": "nima",
+      "tr": "Baba! …Sen kimsin? Ne yapıyorsun?",
+      "who": "omer"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Hello! I'm Nima. I'm moving in! Fourth floor.",
+      "fa": "سلام! من نیمام. دارم اسباب‌کشی می‌کنم! طبقه‌ی چهارم.",
+      "to": "omer",
+      "tr": "Merhaba! Ben Nima. Taşınıyorum! Dördüncü kat.",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kutu",
+            "op": "take"
+          }
+        ],
+        "who": "serkan"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kucuk_kutu",
+            "op": "take"
+          }
+        ],
+        "who": "omer"
+      }
+    },
+    {
+      "at": {
+        "nima": "foot",
+        "omer": "landing_1",
+        "serkan": "stairs_low"
+      },
+      "scene": "flat_nima_stairs",
+      "time": "golden"
+    },
+    {
+      "do": "me",
+      "emo": "proud",
+      "en": "Fourth floor? There's no lift! But I'm helping too!",
+      "fa": "طبقه‌ی چهارم؟ آسانسور نداره! ولی منم کمک می‌کنم!",
+      "link": {
+        "asansör": "obj:asansor_yok"
+      },
+      "move": {
+        "how": "walk",
+        "to": "landing_2",
+        "who": "omer"
+      },
+      "to": "nima",
+      "tr": "Dördüncü kat? Asansör yok! Ama ben de yardım ediyorum!",
+      "who": "omer"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Thank you, Serkan Bey!",
+      "fa": "ممنونم، آقای سرکان!",
+      "move": {
+        "how": "walk",
+        "to": "landing_1",
+        "who": "nima"
+      },
+      "to": "serkan",
+      "tr": "Teşekkür ederim, Serkan Bey!",
+      "who": "nima"
+    },
+    {
+      "do": "shake_head",
+      "emo": "laugh",
+      "en": "Not Serkan Bey… just Serkan! Welcome, neighbour! Call me “sen”!",
+      "fa": "آقای سرکان نه… سرکان! خوش اومدی، همسایه! به من «تو» بگو!",
+      "note": {
+        "en": "Serkan switches on purpose: from here on, Nima and Serkan say “sen” to each other.",
+        "fa": "سرکان عمداً «sen» (تو) را پیشنهاد می‌کند: از این‌جا به بعد نیما و سرکان به هم «sen» می‌گویند."
+      },
+      "react": {
+        "nima": "happy"
+      },
+      "to": "nima",
+      "tr": "Serkan Bey değil… Serkan! Hoş geldin, komşu! Bana “sen” de!",
+      "who": "serkan"
+    },
+    {
+      "spot": {
+        "en": "-(y)A means “to”: Feriköy'e, taksiye. After a vowel a y comes in: taksi → taksiye. Its partner -DAn means “from”: Mecidiyeköy'den. Nereye? To where? Nereden? From where? Today Nima goes Mecidiyeköy'den Feriköy'e.",
+        "ex": "Taksiye!",
+        "fa": "‏-(y)A یعنی «به»: Feriköy'e، taksiye. بعد از حرفِ صدادار یک y اضافه می‌شود: taksi ← taksiye. جفتش ‎-DAn یعنی «از»: Mecidiyeköy'den. Nereye? به کجا؟ Nereden? از کجا؟ فارسی «به» و «از» را قبل از اسم می‌گذارد؛ ترکی آخرِ اسم. امروز نیما Mecidiyeköy'den Feriköy'e می‌رود: از مجیدیه‌کؤی به فری‌کؤی.",
+        "lesson": "g_a1_3_yonelme",
+        "show": "case_path"
+      }
+    },
+    {
+      "at": {
+        "farzad": "kerb",
+        "nima": "step"
+      },
+      "kerim": "roof",
+      "scene": "flat_nima_street",
+      "state": "window_lit",
+      "time": "dusk"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye!",
+      "fa": "خداحافظ!",
+      "move": {
+        "how": "walk",
+        "to": "walk_l",
+        "who": "farzad"
+      },
+      "to": "nima",
+      "tr": "Hoşça kal!",
+      "who": "farzad"
+    },
+    {
+      "do": "wave",
+      "emo": "moved",
+      "en": "Bye-bye! Thank you so much!",
+      "fa": "به سلامت! خیلی ممنون!",
+      "to": "farzad",
+      "tr": "Güle güle! Çok teşekkür ederim!",
+      "who": "nima"
+    },
+    {
+      "cam": "wide",
+      "en": "Nima… in Feriköy. And on the roof… Kerim.",
+      "fa": "نیما… تو فری‌کؤی. و روی پشت‌بوم… کریم.",
+      "narr": true,
+      "tr": "Nima… Feriköy'de. Ve çatıda… Kerim.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Moving day: Nima and Farzad take the boxes to Feriköy by taxi. The driver, Serkan, a Beşiktaş fan, turns out to live in the same building, with his son Ömer.",
+  "summaryFa": "روزِ اسباب‌کشی: نیما و فرزاد جعبه‌ها را با تاکسی به فری‌کؤی می‌برند. راننده، سرکان، طرفدارِ بشیکتاش است و معلوم می‌شود با پسرش عمر در همان ساختمان زندگی می‌کند.",
+  "title": "Feriköy'e!",
+  "titleEn": "To Feriköy!",
+  "titleFa": "به فری‌کؤی!",
+  "words": [
+    "seed-w24",
+    "a1-w-oturmak",
+    "a1-w-nereye",
+    "a1-w-nereden",
+    "a1-w-mac",
+    "a1-w-kosmak",
+    "a1-w-yardim-etmek"
+  ]
+}

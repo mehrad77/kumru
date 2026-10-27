@@ -1,0 +1,326 @@
+{
+  "v": 1,
+  "id": "firin",
+  "name": {
+    "tr": "Köşedeki fırın",
+    "en": "The bakery on the corner",
+    "fa": "نانواییِ سرِ نبش"
+  },
+  "district": "Feriköy, Şişli",
+  "size": {
+    "w": 8,
+    "d": 4
+  },
+  "camera": {
+    "wide": {
+      "w": 8.4,
+      "x": 0,
+      "z": -0.9,
+      "y0": 0,
+      "y1": 4.2
+    }
+  },
+  "times": [
+    "day"
+  ],
+  "perch": "chimney",
+  "ambience": [
+    "street_far",
+    "crowd"
+  ],
+  "motif": "street",
+  "surface": "tile",
+  "marks": {
+    "door": {
+      "door": "door",
+      "out": {
+        "x": -3.3,
+        "z": -3.0
+      },
+      "x": -3.3,
+      "z": -1.25
+    },
+    "counter": {
+      "facing": "l",
+      "x": 1.95,
+      "z": -1.0
+    },
+    "queue_1": {
+      "facing": "r",
+      "x": 0.25,
+      "z": -0.3
+    },
+    "queue_2": {
+      "facing": "r",
+      "x": -0.8,
+      "z": -0.25
+    },
+    "chimney": {
+      "x": -0.95,
+      "y": 3.95,
+      "z": -2.35
+    },
+    "air": {
+      "air": true,
+      "x": 2.6,
+      "y": 2.4,
+      "z": -1.0
+    }
+  },
+  "pieces": [
+    {
+      "kit": "sky_clouds",
+      "x": 0,
+      "z": -60
+    },
+    {
+      "kit": "skyline",
+      "variant": "ferikoy",
+      "w": 4000,
+      "h": 700,
+      "x": 0,
+      "z": -30
+    },
+    {
+      "kit": "street",
+      "w": 2400,
+      "x": 0,
+      "z": -10,
+      "variant": "far"
+    },
+    {
+      "kit": "floor",
+      "a": "#BDB5A8",
+      "b": "#B1A99B",
+      "tile": 55,
+      "w": 2400,
+      "d": 800,
+      "x": 0,
+      "z": -10
+    },
+    {
+      "kit": "floor",
+      "a": "#D9CDB6",
+      "b": "#CDBFA6",
+      "tile": 40,
+      "w": 1200,
+      "d": 1000,
+      "x": 0,
+      "z": -2.25
+    },
+    {
+      "kit": "wall",
+      "color": "#E9DCC4",
+      "h": 280,
+      "w": 1100,
+      "tiles": 120,
+      "x": 0,
+      "z": -2.2,
+      "openings": [
+        {
+          "x": -330,
+          "y": 0,
+          "w": 105,
+          "h": 220
+        },
+        {
+          "x": 320,
+          "y": 110,
+          "w": 100,
+          "h": 100
+        }
+      ]
+    },
+    {
+      "kit": "wall",
+      "color": "#CFC4B0",
+      "h": 14,
+      "w": 1110,
+      "tiles": 0,
+      "x": 0,
+      "y": 2.8,
+      "z": -2.22
+    },
+    {
+      "kit": "door_shop",
+      "id": "door",
+      "x": -3.3,
+      "z": -2.19
+    },
+    {
+      "kit": "window",
+      "w": 100,
+      "h": 100,
+      "x": 3.2,
+      "y": 1.1,
+      "z": -2.19
+    },
+    {
+      "kit": "chimney",
+      "id": "chimney",
+      "kind": "brick",
+      "w": 50,
+      "h": 75,
+      "aerial": false,
+      "smoke": true,
+      "x": -0.95,
+      "y": 2.92,
+      "z": -2.3
+    },
+    {
+      "kit": "kitchen",
+      "id": "oven",
+      "variant": "bakery_oven",
+      "front": "tile",
+      "terms": [
+        "a1-w-firin"
+      ],
+      "x": -0.95,
+      "z": -2.08
+    },
+    {
+      "kit": "shelf",
+      "id": "bread_rack",
+      "variant": "bread_rack",
+      "terms": [
+        "a1-w-ekmek",
+        "a1-w-taze"
+      ],
+      "w": 150,
+      "h": 200,
+      "x": 1.75,
+      "z": -2.08
+    },
+    {
+      "kit": "clock",
+      "id": "saat",
+      "time": "16:00",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "x": 3.2,
+      "y": 2.55,
+      "z": -2.18
+    },
+    {
+      "kit": "counter",
+      "id": "counter",
+      "variant": "glass",
+      "goods": "bread",
+      "prices": [
+        "15 TL",
+        "20 TL"
+      ],
+      "w": 220,
+      "h": 86,
+      "x": 1.65,
+      "z": -0.45
+    },
+    {
+      "kit": "lamp",
+      "x": -2.1,
+      "y": 2.6,
+      "z": 0.6
+    },
+    {
+      "kit": "crowd",
+      "kind": "queue",
+      "dir": 1,
+      "n": 3,
+      "x": -2.3,
+      "x0": -60,
+      "x1": 60,
+      "z": -0.2
+    }
+  ],
+  "props": {
+    "bread": {
+      "kit": "bread",
+      "n": 6,
+      "terms": [
+        "a1-w-ekmek"
+      ],
+      "at": {
+        "x": 1.3,
+        "y": 0.86,
+        "z": -0.5
+      }
+    },
+    "kasa": {
+      "kit": "device",
+      "variant": "till",
+      "screen": "15 TL",
+      "terms": [
+        "a1-w-fiyat",
+        "a1-w-para"
+      ],
+      "at": {
+        "x": 2.45,
+        "y": 0.86,
+        "z": -0.5
+      }
+    },
+    "simit": {
+      "kit": "simit_tray",
+      "n": 5,
+      "terms": [
+        "a2-w-simit"
+      ],
+      "at": {
+        "x": 0.75,
+        "y": 0.86,
+        "z": -0.5
+      }
+    },
+    "kurek": {
+      "kit": "shop_kit",
+      "variant": "peel",
+      "decor": true,
+      "at": {
+        "x": 0.75,
+        "y": 0,
+        "z": -1.95
+      }
+    },
+    "un": {
+      "kit": "pantry",
+      "variant": "flour",
+      "n": 2,
+      "terms": [
+        "b1-w-un"
+      ],
+      "at": {
+        "x": -2.55,
+        "y": 0,
+        "z": -1.9
+      }
+    },
+    "sepet": {
+      "kit": "shop_kit",
+      "variant": "bread_basket",
+      "terms": [
+        "a1-w-ekmek"
+      ],
+      "at": {
+        "x": -2.1,
+        "y": 0,
+        "z": -1.7
+      }
+    },
+    "fiyat": {
+      "kit": "sign_board",
+      "variant": "plate",
+      "label": "Ekmek 15 TL",
+      "terms": [
+        "a1-w-fiyat"
+      ],
+      "w": 70,
+      "h": 24,
+      "at": {
+        "x": 1.75,
+        "y": 2.3,
+        "z": -2.15
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+._*
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local env / secrets (the .example files are the documented templates)
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Dependencies
+node_modules/
+
+# Build output and local Worker state
+public/
+.build/
+.wrangler/
+test-results/
+playwright-report/
+*.log
+
+# The private, book-derived course data: linked or copied in by scripts/data.mjs, never tracked here.
+# It lives in the private course repo (kumru-data/); data-sample/ is the public stand-in.
+/data/cards
+/data/cards-extra
+/data/grammar
+/data/path
+/data/syllabus
+/.kumru-data
+
+# CI: the private course data checked out by .github/workflows/deploy.yml
+/.kumru-private

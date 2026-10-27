@@ -1,0 +1,122 @@
+/* The Path: the stats pill, level banners, unit headers, the winding road of steps, the skill tree's pucks, and the sheets of units, skills and
+   the legend. The Review sheet's option rows (.rv-o) are shared with the Lab's sheets and are in app/styles/components.css. */
+@layer features {
+/* the stats pill melts into the header on scroll: --melt 0..1 and --drip (a bump at mid-way) are set by meltTick (melt.ts);
+   its body and drips live in .pt-goo, which an SVG goo filter (#ptGoo in index.html) blends, so only the shape is liquid and the text stays crisp */
+.pt-top{--melt:0;--drip:0;--dy:57;display:flex;justify-content:space-between;gap:8px;padding:calc(10px - var(--melt)*3px) 14px;margin-bottom:6px;position:sticky;top:calc(64px + env(safe-area-inset-top,0px));z-index:6;isolation:isolate;background:none;box-shadow:none;
+  width:calc(100% - var(--melt)*(100% - var(--cw,168)*1px));margin-right:calc(var(--melt)*var(--mr,58)*1px);margin-left:auto;transform:translateY(calc(var(--melt)*var(--dy)*-1px))}
+.pt-top.fade{width:100%;margin-right:0}.pt-top.fade .pt-stat{opacity:calc(1 - var(--melt)*1.6)}
+.pt-top.melting{z-index:25}.pt-top.melted{pointer-events:none}
+.pt-goo{position:absolute;inset:0;z-index:-1;pointer-events:none;filter:url(#ptGoo) drop-shadow(0 6px 14px rgba(70,58,24,calc(.13*(1 - var(--melt)))))}
+.pt-goo b,.pt-goo i{position:absolute;background:var(--surface)}
+.pt-goo b{inset:0;border-radius:28px;transform-origin:50% 0;transform:scale(calc(1 + .05*var(--drip)),calc(1 - .88*var(--melt) + .1*var(--drip)));opacity:calc(1.25 - var(--melt)*1.25)}
+.pt-goo i{width:26px;height:26px;border-radius:50%;top:-4px;opacity:calc(var(--drip)*3);transform:translateY(calc(var(--drip)*-26px)) scale(calc(.4 + var(--drip)*.7))}
+.pt-goo i:nth-of-type(1){left:26%}.pt-goo i:nth-of-type(2){left:64%;width:20px;height:20px;transform:translateY(calc(var(--drip)*-20px)) scale(calc(.4 + var(--drip)*.8))}
+.pt-top .pt-stat .hint,.pt-top .pt-stat.goal b{overflow:hidden;white-space:nowrap;max-width:calc((1 - var(--melt))*90px);opacity:calc(1 - var(--melt)*2.5)}
+.pt-stat{display:flex;align-items:center;gap:8px;min-width:0}
+.pt-stat b{font:500 17px/1 var(--sans);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pt-stat .hint{font-size:12px}
+.pt-ico{width:26px;height:26px;display:inline-grid;place-items:center}.pt-ico svg{width:100%;height:100%}
+.pt-ico.flame{color:var(--bark)}.pt-ico.xp{color:var(--ochre)}
+.pt-stat .ring.sm{width:30px;height:30px}.ring.sm{width:56px;height:56px}
+.pt-level{display:flex;align-items:baseline;gap:12px;margin:28px 4px 6px}
+.pt-lv{font:400 40px/1 var(--sans);letter-spacing:-.02em}
+.pt-level::after{content:"";flex:1;height:2px;background:var(--line);border-radius:2px;align-self:center}
+/* each level heading sticks under the header (below the stats pill until that has melted away); a later level covers the earlier one, and .stuck (meltTick) compacts it */
+.pt-level{position:sticky;top:calc(62px + env(safe-area-inset-top,0px) + (1 - var(--melt,0))*56px);z-index:5;isolation:isolate;padding:7px 16px;min-height:54px;box-sizing:border-box;transition:width .2s var(--ease-soft)}
+.pt-level::before{content:"";position:absolute;inset:10px 0;z-index:-1;border-radius:999px;background:var(--surface);box-shadow:var(--shadow-float);opacity:0;transition:opacity .2s}@media (min-width:761px){.pt-level{top:calc(78px + (1 - var(--melt,0))*56px)}}
+.pt-level.stuck{width:fit-content;align-items:center;gap:8px}.pt-level.stuck::before{opacity:1}.pt-level.stuck::after{display:none}
+.pt-level.behind{visibility:hidden}.pt-level.stuck .pt-lv{font-size:18px}.pt-level.stuck .hint{font-size:12px}
+.pt-lv{transition:font-size .2s var(--ease-soft)}
+.pt-unit{margin-block:12px}
+.pt-uh{display:flex;align-items:center;gap:8px;justify-content:space-between;background:var(--surface);box-shadow:var(--shadow-float);border-radius:var(--radius-xl);padding:8px 8px 8px 8px}
+.pt-unit.cur .pt-uh{background:var(--grad-card-sage);box-shadow:var(--shadow-card)}
+.pt-unit.past:not(.done) .pt-uh,.pt-unit.later .pt-uh{opacity:.85}
+.pt-uh-main{flex:1;min-width:0;display:flex;align-items:center;gap:12px;background:none;border:0;padding:6px 8px;text-align:start;color:var(--ink);border-radius:var(--radius-lg)}
+.pt-unit.cur .pt-uh-main{cursor:default}
+.pt-uh-no{width:40px;height:40px;border-radius:14px;display:grid;place-items:center;background:var(--sunken);font:500 17px var(--sans);flex:none}
+.pt-unit.cur .pt-uh-no{background:var(--act);color:var(--act-text)}.pt-unit.done .pt-uh-no{background:var(--accent-soft);color:var(--accent)}
+.pt-uh-t{display:grid;gap:1px;min-width:0;flex:1}.pt-uh-t b{font:500 17px/1.25 var(--sans)}.pt-uh-t .hint{font-size:12px}
+.pt-uh .btn.sm{flex:none}
+.pt-uh-t b{overflow-wrap:anywhere}
+.pt-later{display:flex;justify-content:center;padding:10px}
+.pt-nodes{list-style:none;margin:0;padding:46px 0 22px;display:flex;flex-direction:column;align-items:center;gap:16px;overflow:hidden}
+.pt-node.cur{margin-top:30px}
+.pt-node{display:grid;justify-items:center;gap:6px;width:100%;transform:translateX(var(--off,0))}
+.pt-n-wrap{position:relative;display:grid;justify-items:center}
+.pt-n{width:68px;height:68px;border-radius:50%;border:0;display:grid;place-items:center;background:var(--sunken);color:var(--muted);box-shadow:0 6px 0 var(--sand-strong);transition:transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base)}
+.pt-n:active{transform:translateY(4px);box-shadow:0 2px 0 var(--sand-strong)}
+.pt-n-ico svg{width:28px;height:28px}
+.pt-n.done{background:var(--sage);color:var(--ink);box-shadow:0 6px 0 var(--accent)}.pt-n.done:active{box-shadow:0 2px 0 var(--accent)}
+.pt-n.open{background:var(--sage-200);color:var(--ink);box-shadow:0 6px 0 var(--sage-300)}
+.pt-n.cur{width:82px;height:82px;background:var(--act);color:var(--act-text);box-shadow:0 7px 0 #000a,var(--shadow-ink)}
+.pt-n.cur .pt-n-ico svg{width:34px;height:34px}
+.pt-n.locked{cursor:default;opacity:.8}.pt-n.locked:active{transform:none;box-shadow:0 6px 0 var(--sand-strong)}
+.t-checkpoint.pt-n{outline:3px solid var(--ochre);outline-offset:3px}.t-review.pt-n:not(.locked):not(.cur){background:var(--ochre-soft);color:var(--bark);box-shadow:0 6px 0 var(--ochre)}@media (prefers-reduced-motion:no-preference){.pt-n.cur{animation:pt-pulse 2.4s var(--ease-out-quart) infinite}@keyframes pt-pulse{0%{box-shadow:0 7px 0 #000a,0 0 0 0 rgba(153,173,122,.7)}70%,100%{box-shadow:0 7px 0 #000a,0 0 0 16px rgba(153,173,122,0)}}.pt-start{animation:pt-bob 1.6s ease-in-out infinite}@keyframes pt-bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,-5px)}}}
+.pt-start{position:absolute;left:50%;top:-34px;transform:translate(-50%,0);background:var(--surface);color:var(--ink);font:500 13px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:7px 14px;border-radius:999px;box-shadow:var(--shadow-card);white-space:nowrap}
+.pt-start::after{content:"";position:absolute;left:50%;bottom:-5px;width:10px;height:10px;margin-left:-5px;background:var(--surface);transform:rotate(45deg);border-radius:2px}
+.pt-n-t{display:grid;justify-items:center;gap:2px;max-width:200px;text-align:center}
+/* skill nodes of the tree: isometric pucks (Puck.tsx). The button is transparent; the colours come from the variables below. */
+.pt-n.sk{position:relative;width:88px;height:83px;border-radius:0;background:none;box-shadow:none;padding:0;display:block;overflow:visible;cursor:pointer;
+  --sk-top:var(--sage-200);--sk-side:var(--sage-300);--sk-ink:var(--ink);--sk-rim:var(--ink);--sk-fill:var(--accent)}
+.pt-n.sk:active,.pt-n.sk:hover{transform:none;box-shadow:none}
+.sk-puck{display:block;width:100%;height:100%;overflow:visible}
+.sk-shadow{fill:rgba(0,0,0,.26)}.sk-wall{fill:var(--sk-side)}.sk-top{fill:var(--sk-top)}
+.sk-groove{stroke:var(--sk-rim);stroke-width:2;opacity:.22}.sk-fill{stroke:var(--sk-fill);stroke-width:3}
+.sk-ico{stroke:var(--sk-ink)}.sk-ico-mid{stroke:color-mix(in srgb,var(--sk-ink) 55%,var(--sk-top))}.sk-ico-sh{stroke:rgba(0,0,0,.3)}
+.sk-up{transition:transform .12s var(--ease-spring)}.sk-top,.sk-shadow{transition:filter .12s,opacity .12s,transform .12s;transform-box:fill-box;transform-origin:center}
+.pt-n.sk:not(.locked):hover .sk-up{transform:translateY(-2px)}
+/* pressed: the top sinks into the wall, darkens a little, and the ground shadow tightens */
+.pt-n.sk:not(.locked):active .sk-up,.pt-n.sk.pressed .sk-up{transform:translateY(8px);transition-duration:.06s}
+.pt-n.sk:not(.locked):active .sk-top,.pt-n.sk.pressed .sk-top{filter:brightness(.9)}
+.pt-n.sk:not(.locked):active .sk-shadow,.pt-n.sk.pressed .sk-shadow{transform:scale(.93);opacity:.6}
+.pt-n.sk:not(.locked):active .sk-badge{transform:translateY(6px)}.sk-badge{transition:transform .06s}
+.pt-n.sk.done{--sk-top:color-mix(in srgb,var(--sage) 80%,#fff);--sk-side:color-mix(in srgb,var(--sage) 58%,#000);--sk-ink:#1d2314;--sk-rim:#1d2314;--sk-fill:#2f4a1f}
+.pt-n.sk.cur{width:106px;height:100px;--sk-top:var(--act);--sk-side:color-mix(in srgb,var(--act) 52%,#8a8a80);--sk-ink:var(--act-text);--sk-rim:var(--act-text);--sk-fill:var(--sage);animation:none}
+.pt-n.sk.locked{cursor:default;opacity:1;--sk-top:var(--sunken);--sk-side:color-mix(in srgb,var(--sand-strong) 50%,var(--sunken));--sk-ink:var(--faint);--sk-rim:var(--faint)}
+.pt-n.sk.locked .sk-fill{display:none}.pt-n.sk.locked .sk-shadow{opacity:.55}
+.pt-n.sk.cp{--sk-top:var(--ochre-soft);--sk-side:var(--ochre);--sk-ink:var(--bark);--sk-rim:var(--bark);--sk-fill:var(--bark);outline:0}
+.pt-n.sk.cp.done{--sk-top:color-mix(in srgb,var(--sage) 80%,#fff);--sk-side:color-mix(in srgb,var(--sage) 58%,#000);--sk-ink:#1d2314;--sk-rim:#1d2314;--sk-fill:#2f4a1f}
+.pt-n.sk.cp.cur{--sk-top:var(--ochre);--sk-side:color-mix(in srgb,var(--ochre) 55%,#000);--sk-ink:#fff;--sk-rim:#fff;--sk-fill:#fff}
+.pt-n.sk.cp.locked{--sk-top:var(--sunken);--sk-side:color-mix(in srgb,var(--sand-strong) 50%,var(--sunken));--sk-ink:var(--faint);--sk-rim:var(--faint)}
+/* skipped by a placement or a test: the same puck, muted, with a dashed groove (no progress ring) */
+.pt-n.sk.placed{--sk-top:color-mix(in srgb,var(--sage) 38%,var(--sunken));--sk-side:color-mix(in srgb,var(--sage) 30%,color-mix(in srgb,var(--sunken) 55%,#000));--sk-ink:color-mix(in srgb,var(--ink) 55%,var(--sunken));--sk-rim:var(--ink)}
+.pt-n.sk.placed .sk-groove{stroke-dasharray:4 5;opacity:.4}.pt-n.sk.placed .sk-shadow{opacity:.7}.pt-n.sk.placed .sk-fill{display:none}
+.sk-pulse{fill:none;stroke:var(--sage);stroke-width:2.5;transform-box:fill-box;transform-origin:center;opacity:0}@media (prefers-reduced-motion:no-preference){.sk-pulse{animation:sk-pulse 2.4s var(--ease-out-quart) infinite}@keyframes sk-pulse{0%{transform:scale(1);opacity:.75}70%,100%{transform:scale(1.4);opacity:0}}}
+.sk-badge{position:absolute;right:2px;top:6px;width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;box-shadow:0 0 0 3px var(--bg)}
+.sk-badge svg{width:14px;height:14px}
+.pt-node.sk-li .pt-n-t{gap:1px;max-width:210px;margin-top:-4px}
+.pt-node.sk-li .pt-n-name{font-size:14px;font-weight:500;color:var(--ink);line-height:1.25}
+.pt-node.sk-li.locked .pt-n-name{font-weight:400;color:var(--muted)}
+.pt-node.sk-li .hint{font-size:12px;line-height:1.3;max-width:190px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pt-node.sk-li .pt-stars{font-size:11px;letter-spacing:3px;margin-top:2px}
+.pt-node.placed .pt-n-name,.pt-node.placed .hint{opacity:.8}
+.pt-n-t .hint{font-size:12px;line-height:1.3}
+.sk-badge.skip{background:var(--sand-strong);color:#2a2418}
+.sk-status{font-size:11px;letter-spacing:.02em;color:var(--muted);background:var(--sunken);border-radius:999px;padding:2px 9px;margin-top:3px}
+.sk-note{margin:0 4px 8px}
+.pt-help{margin-inline-start:auto;width:26px;height:26px;border-radius:50%;border:0;background:var(--sunken);color:var(--muted);font:500 14px/1 var(--sans);display:grid;place-items:center;box-shadow:var(--shadow-float);flex:none}
+.pt-level.stuck .pt-help{display:none}
+.pt-rv + .pt-help{margin-inline-start:0}.pt-rv .bi{width:14px;height:14px}
+.lg{display:grid;gap:6px;padding:4px 0 8px}.lg-row{display:flex;align-items:center;gap:14px;padding:6px 4px}.lg-t{display:grid;gap:2px}.lg-t b{font:500 16px var(--sans)}.lg-t .hint{font-size:13px;line-height:1.35}
+.pt-n.sk.mini{width:58px;height:55px;flex:none;pointer-events:none}.pt-n.sk.mini.cur{width:58px;height:55px}.pt-n.sk.mini .sk-badge{width:20px;height:20px;right:-2px;top:2px}.pt-n.sk.mini .sk-badge svg{width:12px;height:12px}
+.pt-n-name{font-size:13px;color:var(--muted)}.pt-node.cur .pt-n-name{color:var(--ink);font-weight:500;font-size:14px}
+.pt-stars{font-size:12px;letter-spacing:2px;color:var(--line)}.pt-stars .on{color:var(--ochre)}
+.pt-here{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:10px}
+.sheet.us{max-width:600px}
+.us-body{display:grid;gap:2px}
+.sheet .btn.two{flex-direction:column;gap:1px;padding:8px 20px;white-space:normal;text-align:center;line-height:1.25}
+.btn.two .b-sub{font-size:12px;font-weight:400;opacity:.7}
+.us-sum{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:6px 0 10px}
+.us-w{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 2px;border-bottom:1px solid var(--line)}
+.us-w .tr{font-weight:500;font-size:18px}.us-w .fa{font-size:15px}.us-w .en{font-size:13px;color:var(--muted)}
+.us-w-dots{display:grid;justify-items:end;gap:2px;color:var(--accent)}.us-w-dots.weak{color:var(--bad)}.us-w-dots .hint{font-size:11px}
+.us-l{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:12px;align-items:center;border:0;background:none;text-align:start;color:var(--ink);padding:10px 4px;border-radius:var(--radius-md);border-bottom:1px solid var(--line)}
+.us-l:hover{background:var(--raise)}.us-l .ttl{font-weight:500;display:block}.us-l .hint{font-size:13px}
+}
+@layer features {
+/* The flash on the unit /unit/<REF> opens (book.ts) */
+.pt-unit.bk-flash,.bk-flash{animation:bk-flash 2.4s ease-out}
+@keyframes bk-flash{0%,40%{box-shadow:0 0 0 3px var(--accent)}100%{box-shadow:0 0 0 3px transparent}}
+@media (prefers-reduced-motion:reduce){.bk-flash{animation:none;box-shadow:0 0 0 3px var(--accent)}}
+}

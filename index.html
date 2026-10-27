@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>@layer reset,base,components,features;@layer reset{:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}}</style></head><body>
+<title>Kumru · Turkish Notebook</title>
+<!-- @icon -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Vazirmatn:wght@400;500;600;700&display=swap">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="ptGoo" x="-20%" y="-80%" width="140%" height="260%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/><feColorMatrix in="b" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -8"/></filter></svg>
+<div class="appbar"><div class="inner">
+  <div class="logo"><span class="logo-k"></span>Kumru</div>
+  <nav class="tabs" role="tablist" id="tabs" aria-label="Sections">
+    <button role="tab" data-tab="stories"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01"/></svg>Stories</button>
+    <button role="tab" data-tab="path"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M9 18h5a4 4 0 0 0 0-8h-4a4 4 0 0 1 0-8h5"/></svg>Path</button>
+    <button role="tab" data-tab="lab" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"/><path d="M10 3v6.2L4.6 18.4A2 2 0 0 0 6.3 21.4h11.4a2 2 0 0 0 1.7-3L14 9.2V3"/><path d="M7.5 15h9"/></svg>Lab</button>
+    <button role="tab" data-tab="friends"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg>Friends</button>
+    <button role="tab" data-tab="profile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>Profile</button>
+    <button role="tab" data-tab="people" class="admin-tab" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>People</button>
+  </nav>
+  <div class="userchip" id="userchip"></div>
+</div></div>
+<div class="appbar-line"></div>
+
+<div class="wrap">
+  <div id="status" class="status" hidden></div>
+  <section id="p-stories" hidden></section>
+  <section id="p-path" hidden></section>
+  <section id="p-lab" hidden></section>
+  <section id="p-friends" hidden></section>
+  <section id="p-profile" hidden></section>
+  <section id="p-people" hidden></section>
+</div>
+<div id="session" class="session" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+<script type="module" src="/app/main.ts"></script>
+
+</body></html>

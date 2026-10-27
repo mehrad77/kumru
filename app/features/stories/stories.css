@@ -1,0 +1,87 @@
+/* The Stories tab (StoriesTab.tsx) and the reader page (reader.ts). The .empty and .card looks are base.css's. */
+@layer features {
+  .st-soon h1,.st-tab h1{margin:0 0 14px}
+  .st-tab h1 small{font:500 14px var(--sans);color:var(--muted);margin-left:8px}
+  .st-soon .empty p{margin:6px 0}
+  .st-soon .empty .kerim{display:block;margin:0 auto 10px}
+  /* the timeline: a line down the left, a dot per story on it (done: filled; the next one: a ring; locked: hollow) */
+  .st-tl{list-style:none;margin:0;padding:0 0 0 22px;position:relative;display:grid;gap:8px}
+  .st-tl::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;border-radius:2px;background:var(--line)}
+  .st-wk{margin:14px 0 2px}.st-wk:first-child{margin-top:0}
+  .st-wk h2{font:600 15px var(--sans);margin:0;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+  .st-wk h2 small{font-weight:400;color:var(--muted)}
+  .st-ent{position:relative;scroll-margin:96px 0 120px}
+  .st-ent::before{content:"";position:absolute;left:-20px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--bg);box-shadow:inset 0 0 0 2px var(--line);z-index:1}
+  .st-ent.done::before{background:var(--accent);box-shadow:none}
+  .st-ent.next::before{top:44px;width:14px;height:14px;left:-21px;background:var(--surface);box-shadow:inset 0 0 0 4px var(--accent),0 0 0 4px var(--accent-soft)}
+  .st-ent.today::before{box-shadow:inset 0 0 0 2px var(--ochre),0 0 0 4px color-mix(in srgb,var(--ochre) 25%,transparent)}
+  .st-row{display:flex;align-items:center;gap:12px;width:100%;text-align:start;border:1.5px solid var(--line);border-bottom-width:3px;background:var(--surface);border-radius:14px;padding:8px 12px 8px 8px;color:var(--ink)}
+  .st-ent.done .st-row{background:var(--sunken)}
+  .st-ent.locked .st-row,.st-ent.soon .st-row{border-style:dashed;border-bottom-width:1.5px;background:none;color:var(--muted)}
+  .st-ent.locked .st-th,.st-ent.soon .st-th{filter:grayscale(1);opacity:.45}
+  .st-ent.today .st-row{border-color:var(--ochre)}
+  .st-th{flex:none;display:grid;place-items:center;width:72px;aspect-ratio:16/10;border-radius:9px;overflow:hidden;background:var(--sunken);color:var(--muted)}
+  .st-th img{width:100%;height:100%;object-fit:cover;display:block}
+  .st-th.big{width:100%;border-radius:14px}
+  .st-ent-b{display:grid;gap:2px;min-width:0;flex:1}
+  .st-ent-n{color:var(--muted);font-size:12px;font-weight:600;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+  .st-ent-t{display:grid;gap:1px;min-width:0}.st-ent-t small{color:var(--muted)}
+  .st-ent-m{display:flex;gap:6px;align-items:center;flex:none}
+  .st-today-chip{background:color-mix(in srgb,var(--ochre) 22%,var(--surface));color:var(--bark)}
+  .st-stars{display:inline-flex;gap:2px}.st-stars i{width:10px;height:10px;border-radius:50%;background:var(--line)}.st-stars i.on{background:var(--accent)}
+  /* the next story: large, with its picture and Read */
+  .st-next{display:grid;gap:8px;margin:4px 0;padding:10px 10px 14px}
+  .st-next-pic{border:0;padding:0;background:none;display:block;border-radius:14px}
+  .st-next-meta{display:flex;gap:6px;align-items:center;flex-wrap:wrap;padding:0 4px}.st-next-meta>small{color:var(--muted);font-weight:600}
+  .st-next .st-ent-t,.st-next>p{padding:0 4px}
+  .st-next .st-ent-t b{font:400 24px/1.2 var(--sans)}
+  .st-next>p{margin:0}
+  .st-ent.today .st-next{box-shadow:0 0 0 2px var(--ochre),var(--shadow-card)}
+
+  /* the Path's "out today" banner (Banner.tsx) */
+  .st-ban{display:flex;gap:12px;align-items:center;padding:10px;margin:6px 0 4px;width:100%;text-align:start;color:var(--ink);border:0}
+  .st-ban .st-th{width:96px}
+  .st-ban-t{display:grid;gap:2px;min-width:0;flex:1}
+  .st-ban-t small{color:var(--muted);font-weight:600}.st-ban-t b{font:500 17px/1.25 var(--sans)}
+  .st-ban-t .hint{font-size:13px}
+
+  /* the reader: the stage edge to edge at the top (under the notch a dark strip), a small back button over it, no title bar */
+  .st-page{display:flex;flex-direction:column;min-height:100dvh;padding-top:env(safe-area-inset-top,0px)}
+  .st-page::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#1d1a17;z-index:3}
+  .st-back{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));left:calc(8px + env(safe-area-inset-left,0px));z-index:4;width:40px;height:40px;border-radius:50%;border:0;display:grid;place-items:center;font-size:20px;line-height:1;color:#fff;background:rgba(29,26,23,.42);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+  .st-back:focus-visible{outline:2px solid #fff;outline-offset:2px}
+  .st-body{display:flex;flex-direction:column;gap:10px;width:100%;flex:1}
+  .st-body>.hint,.st-log,.st-foot{width:min(100% - 24px,960px);margin-inline:auto}
+  .st-body>.hint{margin-top:64px}
+  .st-stagewrap{position:relative;aspect-ratio:16/10;width:100%;overflow:hidden;background:var(--sunken);flex:none;margin-inline:auto}
+  .st-page:not(.st-theatre) .st-stagewrap{position:sticky;top:env(safe-area-inset-top,0px);z-index:2}
+  /* sideways or wide: the whole stage fits above the footer */
+  .st-theatre .st-stagewrap{width:min(100%,(100dvh - env(safe-area-inset-top,0px) - var(--st-foot,140px) - 60px) * 1.6)}
+  .st-stage{position:absolute;inset:0}
+  .st-still{position:absolute;inset:0;display:grid;place-items:center;font:400 22px var(--sans);color:var(--muted);background:var(--sunken)}
+  .st-log{display:grid;gap:6px;font-size:17px}
+  .st-line{margin:0}.st-line b{color:var(--muted);font-weight:600}.st-line.me b{color:var(--accent)}
+  /* the newest line leads: larger, with the earlier ones a step back; every line keeps clear of the footer when scrolled to */
+  .st-log>*{scroll-margin-bottom:calc(var(--st-foot,120px) + 8px);transition:opacity .2s,font-size .2s}
+  .st-log>.st-line:not(:last-child),.st-log>.st-spot:not(:last-child){opacity:.7}
+  .st-log>.st-line:last-child{font-size:21px;line-height:1.35}
+  .st-log>.st-line:last-child .tl{font-size:15px}.st-log>.st-line:last-child .fa{font-size:16px}
+  @media (prefers-reduced-motion:reduce){.st-log>*{transition:none}}
+  .st-line .tl,.st-card .tl,.st-spot .tl,.st-quiz .tl{display:block;color:var(--muted);font-size:14px}
+  .st-line .fa,.st-card .fa,.st-spot .fa,.st-quiz .fa{display:block;color:var(--muted);font-size:15px}
+  .st-spot{display:flex;gap:10px;align-items:flex-start;padding:10px;border-radius:14px;background:var(--accent-soft)}
+  .st-spot>div{display:grid;gap:2px}.st-spot .linkish{justify-self:start;padding:0}
+  /* the action (Devam, the reply card, the quiz) is always at the screen's bottom, under the thumb, however short the log */
+  .st-foot{margin-top:auto;position:sticky;bottom:0;padding:8px 0 calc(8px + env(safe-area-inset-bottom));background:linear-gradient(transparent,var(--bg) 18px)}
+  .st-card,.st-quiz,.st-end{display:grid;gap:8px;padding:14px;margin:0}
+  .st-card small,.st-quiz>small{color:var(--muted);font-weight:600}
+  .st-opt{display:grid;gap:2px;text-align:start;border:1.5px solid var(--line);border-bottom-width:3px;background:var(--surface);border-radius:12px;padding:10px 14px;color:var(--ink);font-size:17px;min-height:44px}
+  .st-opt:disabled{opacity:.6}
+  .st-say,.st-aloud{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .st-heard{color:var(--muted)}
+  .st-q{margin:0;font-size:18px}.st-why{margin:0}
+  .st-end{justify-items:center;text-align:center}
+  .st-stars-big{font-size:32px;margin:0;color:var(--accent);letter-spacing:4px}
+  .st-fu{border:0;border-top:1px dashed var(--line);width:100%}
+  .st-theatre .st-log{max-height:30vh;overflow:auto}
+}

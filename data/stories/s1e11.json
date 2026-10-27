@@ -1,0 +1,661 @@
+{
+  "arc": {
+    "en": "Where's home?",
+    "fa": "خانه کجاست؟",
+    "id": "s1w02",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Ev nerede?"
+  },
+  "cast": [
+    "tolga",
+    "farzad",
+    "nima"
+  ],
+  "followUp": [
+    {
+      "en": "A new form! Name?",
+      "fa": "یه فرمِ جدید! اسم؟",
+      "to": "nima",
+      "tr": "Yeni bir form! Ad?",
+      "who": "tolga"
+    },
+    {
+      "en": "Nima.",
+      "fa": "نیما.",
+      "to": "tolga",
+      "tr": "Nima.",
+      "who": "nima"
+    },
+    {
+      "en": "Are you a student?",
+      "fa": "دانشجویید؟",
+      "to": "nima",
+      "tr": "Öğrenci misiniz?",
+      "who": "tolga"
+    },
+    {
+      "choice": {
+        "id": "fu_ogrenci",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Yes, I'm a student.",
+            "fa": "بله، دانشجوام.",
+            "ok": true,
+            "react": {
+              "tolga": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "All right! Where are you from?",
+                "fa": "باشه! اهلِ کجایید؟",
+                "tr": "Tamam! Nerelisiniz?",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Evet, öğrenciyim."
+          },
+          {
+            "en": "Yes, you are a student.",
+            "fa": "بله، دانشجویی.",
+            "react": {
+              "tolga": "confused"
+            },
+            "reply": [
+              {
+                "en": "Me? No: “öğrenciyim”, I am a student! Where are you from?",
+                "fa": "من؟ نه: «öğrenciyim»، من دانشجوام! اهلِ کجایید؟",
+                "tr": "Ben mi? Hayır: “öğrenciyim”! Nerelisiniz?",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, öğrencisin."
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "en": "I'm from Tehran.",
+      "fa": "اهلِ تهرانم.",
+      "to": "tolga",
+      "tr": "Tahranlıyım.",
+      "who": "nima"
+    },
+    {
+      "en": "All right. Very good!",
+      "fa": "باشه. خیلی خوب!",
+      "to": "nima",
+      "tr": "Tamam. Çok güzel!",
+      "who": "tolga"
+    }
+  ],
+  "gl": {
+    "ah": [
+      "آهان، اوه (تعجب)",
+      "ah, oh (surprise)"
+    ],
+    "anahtarlar": [
+      "کلیدها",
+      "keys"
+    ],
+    "anahtarı": [
+      "کلیدِ… («çatı anahtarı»: کلیدِ پشت‌بام)",
+      "key of… (“çatı anahtarı”: the roof key)"
+    ],
+    "dakika": [
+      "دقیقه («bir dakika»: یک لحظه)",
+      "minute (“bir dakika”: just a moment)"
+    ],
+    "depozito": [
+      "ودیعه، پیش‌پرداخت",
+      "deposit"
+    ],
+    "emlak": [
+      "املاک، بنگاه",
+      "real estate"
+    ],
+    "ikamet": [
+      "اقامت (مجوزِ اقامت)",
+      "residence (the residence permit)"
+    ],
+    "için": [
+      "برای",
+      "for"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "nerelisiniz": [
+      "اهلِ کجایید؟",
+      "where are you from? (siz)"
+    ],
+    "sözleşme": [
+      "قرارداد",
+      "contract"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ]
+  },
+  "id": "s1e11",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_2_degil",
+    "g_a1_2_isim_cumleleri",
+    "g_a1_2_sayilar"
+  ],
+  "level": "A1",
+  "place": "office_emlak",
+  "props": {
+    "anahtarlar": {
+      "at": {
+        "x": 1,
+        "y": 0.75,
+        "z": -2.85
+      },
+      "kit": "key",
+      "n": 3,
+      "terms": [
+        "a1-w-anahtar"
+      ],
+      "variant": "keys"
+    },
+    "form": {
+      "at": {
+        "x": 0.45,
+        "y": 0.75,
+        "z": -2.95
+      },
+      "fields": [
+        "Ad",
+        "Nereli",
+        "Öğrenci",
+        "Telefon",
+        "Kira"
+      ],
+      "kit": "paper",
+      "lines": [],
+      "terms": [
+        "a1-w-form"
+      ],
+      "variant": "form"
+    },
+    "sozlesme": {
+      "at": {
+        "x": 1.2,
+        "y": 0.75,
+        "z": -3
+      },
+      "kit": "paper",
+      "lines": [
+        "Feriköy · No 12 · 4. kat",
+        "Kira: 20.000 TL",
+        "Depozito: 20.000 TL"
+      ],
+      "terms": [
+        "a1-w-sozlesme",
+        "a1-w-kira"
+      ],
+      "variant": "contract"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "How much is the rent?",
+      "fa": "اجاره چند لیر است؟",
+      "kind": "comp",
+      "options": [
+        "Yirmi bin lira",
+        "Yirmi bir bin lira",
+        "Beş yüz lira"
+      ],
+      "q": "Kira kaç lira?",
+      "why": "Farzad: “Kira yirmi bin, adres tamam.”"
+    },
+    {
+      "a": 0,
+      "en": "Tolga Bey: “This is a key. These are… …!”",
+      "fa": "آقای تولگا: «این کلید است. این‌ها… …!»",
+      "kind": "word",
+      "options": [
+        "anahtarlar",
+        "kapılar",
+        "kalemler"
+      ],
+      "q": "Tolga Bey: “Bu anahtar. Bunlar… …!”",
+      "why": "Tolga Bey: “Bu anahtar. Bunlar… anahtarlar!”"
+    },
+    {
+      "a": 0,
+      "en": "How many keys?",
+      "fa": "چند کلید؟",
+      "kind": "comp",
+      "options": [
+        "Üç",
+        "İki",
+        "Bir"
+      ],
+      "q": "Kaç anahtar?",
+      "why": "Tolga Bey: “Üç! Kapı, ev… ve çatı!”"
+    }
+  ],
+  "ref": "A1_2",
+  "releaseDate": "2026-09-18",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "farzad": "front_r",
+        "nima": "front_l",
+        "tolga": "desk"
+      },
+      "kerim": "sign",
+      "scene": "office_emlak",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Good morning! This is an office. Tolga Bey is here.",
+      "fa": "صبح بخیر! این‌جا یه دفتره. آقای تولگا این‌جاست.",
+      "narr": true,
+      "tr": "Günaydın! Burası bir ofis. Tolga Bey burada.",
+      "who": "kerim"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Welcome! Is it a yes?",
+      "fa": "خوش اومدید! جوابتون مثبته؟",
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Hoş geldiniz! Evet mi?",
+      "who": "tolga"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes!",
+      "fa": "بله!",
+      "to": "tolga",
+      "tr": "Evet!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:form",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Very good! This is the form. Name? Where are you from?",
+      "fa": "خیلی خوب! این فرمه. اسم؟ اهلِ کجایید؟",
+      "obj": [
+        {
+          "id": "form",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Çok güzel! Bu form. Ad? Nerelisiniz?",
+      "who": "tolga"
+    },
+    {
+      "emo": "neutral",
+      "en": "Nima. I'm from Tehran.",
+      "fa": "نیما. اهلِ تهرانم.",
+      "to": "tolga",
+      "tr": "Nima. Tahranlıyım.",
+      "who": "nima"
+    },
+    {
+      "do": "write",
+      "emo": "happy",
+      "en": "Are you a student? Phone?",
+      "fa": "دانشجویید؟ تلفن؟",
+      "obj": [
+        {
+          "id": "form",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Nima",
+              "Tahran"
+            ]
+          }
+        }
+      ],
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Öğrenci misiniz? Telefon?",
+      "who": "tolga"
+    },
+    {
+      "emo": "neutral",
+      "en": "Yes, I'm a student. Phone: zero, five, three, two…",
+      "fa": "بله، دانشجوام. تلفن: صفر، پنج، سه، دو…",
+      "to": "tolga",
+      "tr": "Evet, öğrenciyim. Telefon: sıfır, beş, üç, iki…",
+      "who": "nima"
+    },
+    {
+      "do": "write",
+      "emo": "happy",
+      "en": "The rent… twenty-one thousand lira. The deposit: one month's rent.",
+      "fa": "اجاره… بیست و یک هزار لیر. ودیعه: یه ماه اجاره.",
+      "obj": [
+        {
+          "id": "form",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Nima",
+              "Tahran",
+              "Evet",
+              "0532 …",
+              "21.000 TL"
+            ]
+          }
+        }
+      ],
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Kira… yirmi bir bin lira. Depozito: bir kira.",
+      "who": "tolga"
+    },
+    {
+      "choice": {
+        "id": "kira",
+        "kind": "meaning",
+        "options": [
+          {
+            "emo": "curious",
+            "en": "It's twenty thousand, isn't it?",
+            "fa": "بیست هزاره، نه؟",
+            "ok": true,
+            "react": {
+              "farzad": {
+                "emo": "proud"
+              },
+              "tolga": {
+                "emo": "sorry"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Oh! Yes, yes… twenty thousand!",
+                "fa": "آهان! بله، بله… بیست هزار!",
+                "obj": [
+                  {
+                    "id": "form",
+                    "op": "set",
+                    "set": {
+                      "lines": [
+                        "Nima",
+                        "Tahran",
+                        "Evet",
+                        "0532 …",
+                        "~~21.000~~ 20.000 TL"
+                      ]
+                    }
+                  }
+                ],
+                "tempo": 1.3,
+                "to": "nima",
+                "tr": "Ah! Evet, evet… yirmi bin!",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Yirmi bin, değil mi?"
+          },
+          {
+            "do": "shake_head",
+            "emo": "annoyed",
+            "en": "No! Twenty thousand!",
+            "fa": "نه! بیست هزار!",
+            "react": {
+              "farzad": {
+                "emo": "nervous"
+              },
+              "tolga": {
+                "emo": "annoyed"
+              }
+            },
+            "reply": [
+              {
+                "emo": "neutral",
+                "en": "…All right. Twenty thousand.",
+                "fa": "…باشه. بیست هزار.",
+                "obj": [
+                  {
+                    "id": "form",
+                    "op": "set",
+                    "set": {
+                      "lines": [
+                        "Nima",
+                        "Tahran",
+                        "Evet",
+                        "0532 …",
+                        "~~21.000~~ 20.000 TL"
+                      ]
+                    }
+                  }
+                ],
+                "to": "nima",
+                "tr": "…Tamam. Yirmi bin.",
+                "who": "tolga"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Hayır! Yirmi bin!"
+          },
+          {
+            "emo": "neutral",
+            "en": "… (sign without a word)",
+            "fa": "… (بی‌هیچ حرفی امضا کن)",
+            "react": {
+              "farzad": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "surprised",
+                "en": "Wait a minute… twenty-one thousand?!",
+                "fa": "یه لحظه… بیست و یک هزار؟!",
+                "to": "tolga",
+                "tr": "Bir dakika… yirmi bir bin mi?!",
+                "who": "farzad"
+              },
+              {
+                "emo": "sorry",
+                "en": "Oh… no, no! Twenty thousand!",
+                "fa": "اوه… نه، نه! بیست هزار!",
+                "obj": [
+                  {
+                    "id": "form",
+                    "op": "set",
+                    "set": {
+                      "lines": [
+                        "Nima",
+                        "Tahran",
+                        "Evet",
+                        "0532 …",
+                        "~~21.000~~ 20.000 TL"
+                      ]
+                    }
+                  }
+                ],
+                "to": "farzad",
+                "tr": "Ah… hayır, hayır! Yirmi bin!",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "…",
+            "voice": "silent"
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "at": "obj:sozlesme",
+      "do": "touch",
+      "emo": "neutral",
+      "en": "The rent's twenty thousand, the address is right. This contract… matters for your residence permit!",
+      "fa": "اجاره بیست هزاره، آدرس هم درسته. این قرارداد… برای اقامت مهمه!",
+      "to": "nima",
+      "tr": "Kira yirmi bin, adres tamam. Bu sözleşme… ikamet için önemli!",
+      "who": "farzad"
+    },
+    {
+      "at": "obj:sozlesme",
+      "do": "point",
+      "emo": "happy",
+      "en": "Here, please.",
+      "fa": "این‌جا، لطفاً.",
+      "to": "nima",
+      "tr": "Burada, lütfen.",
+      "who": "tolga"
+    },
+    {
+      "beat": {
+        "at": "obj:sozlesme",
+        "do": "write",
+        "obj": [
+          {
+            "id": "sozlesme",
+            "op": "set",
+            "set": {
+              "signed": true
+            }
+          }
+        ],
+        "sfx": {
+          "id": "pen_scratch",
+          "word": "cızzz"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "at": "obj:anahtarlar",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "This is a key. These… are keys!",
+      "fa": "این کلیده. اینا… کلیدن!",
+      "link": {
+        "anahtar": "obj:anahtarlar",
+        "anahtarlar": "obj:anahtarlar"
+      },
+      "obj": [
+        {
+          "id": "anahtarlar",
+          "op": "take"
+        }
+      ],
+      "sfx": {
+        "id": "keys_jingle",
+        "word": "şıngır şıngır"
+      },
+      "to": "nima",
+      "tr": "Bu anahtar. Bunlar… anahtarlar!",
+      "who": "tolga"
+    },
+    {
+      "emo": "curious",
+      "en": "How many keys?",
+      "fa": "چند تا کلید؟",
+      "to": "tolga",
+      "tr": "Kaç anahtar?",
+      "who": "farzad"
+    },
+    {
+      "do": "count",
+      "emo": "happy",
+      "en": "Three! The street door, the flat… and the roof!",
+      "fa": "سه تا! درِ ساختمون، خونه… و پشت‌بوم!",
+      "n": 3,
+      "obj": [
+        {
+          "id": "anahtarlar",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Üç! Kapı, ev… ve çatı!",
+      "who": "tolga"
+    },
+    {
+      "spot": {
+        "en": "“değil mi?” at the end checks something you think is true: Yirmi bin, değil mi? It's twenty thousand, isn't it? It stays the same after any sentence: Siz Tolga Bey'siniz, değil mi? Ev güzel, değil mi?",
+        "ex": "Yirmi bin, değil mi?",
+        "fa": "«değil mi?» آخرِ جمله، چیزی را که فکر می‌کنی درست است می‌پرسد، مثلِ «…، نه؟» یا «مگه نه؟» در فارسی: Yirmi bin, değil mi? بیست هزار است، نه؟ بعد از هر جمله‌ای همین است و عوض نمی‌شود: Siz Tolga Bey'siniz, değil mi? Ev güzel, değil mi?",
+        "lesson": "g_a1_2_degil"
+      }
+    },
+    {
+      "at": {
+        "farzad": "street_l",
+        "nima": "street_r"
+      },
+      "kerim": "sign",
+      "scene": "office_emlak",
+      "time": "day"
+    },
+    {
+      "do": "cheer",
+      "emo": "happy",
+      "en": "Monday: a new home!",
+      "fa": "دوشنبه: خونه‌ی جدید!",
+      "to": "nima",
+      "tr": "Pazartesi: yeni ev!",
+      "who": "farzad"
+    },
+    {
+      "at": "obj:anahtarlar",
+      "cam": "close",
+      "emo": "happy",
+      "en": "The roof key… coo-coo!",
+      "fa": "کلیدِ پشت‌بوم… کو-کو!",
+      "link": {
+        "anahtarı": "obj:anahtarlar"
+      },
+      "move": {
+        "how": "fly",
+        "to": "glass",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Çatı anahtarı… ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Friday at Tolga Bey's agency: Nima fills in the form, spots the wrong rent on it, and signs with Farzad checking the small print. Three keys: the street door, the flat, and the roof.",
+  "summaryFa": "جمعه در بنگاهِ آقای تولگا: نیما فرم را پر می‌کند، اجاره‌ی اشتباه را رویش می‌بیند و در حالی که فرزاد ریزِ قرارداد را می‌خواند امضا می‌کند. سه کلید: درِ ساختمان، خانه، و پشت‌بام.",
+  "title": "Anahtarlar",
+  "titleEn": "The keys",
+  "titleFa": "کلیدها",
+  "words": [
+    "a1-w-anahtar",
+    "a1-w-form",
+    "a1-w-adres",
+    "a1-w-kac",
+    "a1-w-lira",
+    "a1-w-bin"
+  ]
+}

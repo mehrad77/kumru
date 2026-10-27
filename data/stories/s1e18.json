@@ -1,0 +1,1100 @@
+{
+  "arc": {
+    "en": "A new home, a new way",
+    "fa": "خانه‌ی نو، راهِ نو",
+    "id": "s1w03",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Yeni ev, yeni yol"
+  },
+  "cast": [
+    "nima",
+    "maria",
+    "serkan",
+    "omer",
+    "kirlangic",
+    "farzad"
+  ],
+  "extras": [
+    "elif",
+    "rayan"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, what do you want to do?",
+      "fa": "نیما، شما دلتون می‌خواد چی‌کار کنید؟",
+      "to": "nima",
+      "tr": "Nima, ne yapmak istiyorsunuz?",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "fu_istek",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I want to go to the Bosphorus.",
+            "fa": "می‌خوام برم کنارِ بسفر.",
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "How lovely!",
+                "fa": "چه قشنگ!",
+                "tr": "Çok güzel!",
+                "who": "maria"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Boğaz'a gitmek istiyorum."
+          },
+          {
+            "en": "I'm going to the Bosphorus.",
+            "fa": "دارم می‌رم کنارِ بسفر.",
+            "react": {
+              "maria": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "en": "Now? It's night!",
+                "fa": "الان؟ شبه!",
+                "tr": "Şimdi mi? Gece!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Boğaz'a gidiyorum."
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "en": "Tea? How many glasses?",
+      "fa": "چای؟ چند تا استکان؟",
+      "to": "nima",
+      "tr": "Çay? Kaç bardak?",
+      "who": "maria"
+    },
+    {
+      "en": "Two glasses, please!",
+      "fa": "دو تا استکان، لطفاً!",
+      "to": "maria",
+      "tr": "İki bardak, lütfen!",
+      "who": "nima"
+    },
+    {
+      "en": "Two glasses! Here you are.",
+      "fa": "دو تا استکان! بفرمایید.",
+      "to": "nima",
+      "tr": "İki bardak! Buyurun.",
+      "who": "maria"
+    }
+  ],
+  "gl": {
+    "afiyet": [
+      "نوش (Afiyet olsun: نوشِ جان)",
+      "(Afiyet olsun: enjoy your meal)"
+    ],
+    "beşiktaş": [
+      "بشیکتاش (تیمِ فوتبال)",
+      "Beşiktaş (the football club)"
+    ],
+    "boğaz": [
+      "بسفر",
+      "the Bosphorus"
+    ],
+    "buyurun": [
+      "بفرمایید",
+      "here you are; please (offering)"
+    ],
+    "ediyorum": [
+      "می‌کنم (yardım ediyorum: کمک می‌کنم)",
+      "I do (yardım ediyorum: I'm helping)"
+    ],
+    "ellerine": [
+      "(Ellerine sağlık: دستت درد نکنه)",
+      "(Ellerine sağlık: bless your hands, said to a cook; sen)"
+    ],
+    "ellerinize": [
+      "(Ellerinize sağlık: دستتون درد نکنه)",
+      "(Ellerinize sağlık: bless your hands, said to a cook; siz)"
+    ],
+    "evi": [
+      "خانه‌اش (Kerim'in evi: خانه‌ی کریم)",
+      "home (Kerim'in evi: Kerim's home)"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a district of Şişli)"
+    ],
+    "kurabiye": [
+      "شیرینیِ خانگی؛ کلوچه",
+      "biscuit; homemade cookie"
+    ],
+    "kırlangıç": [
+      "پرستو (اسم)",
+      "Kırlangıç (a name; also the word for swallow)"
+    ],
+    "nihayet": [
+      "بالاخره",
+      "at last"
+    ],
+    "olsun": [
+      "باشد (Afiyet olsun: نوشِ جان)",
+      "may it be (Afiyet olsun: enjoy)"
+    ],
+    "sandalyeler": [
+      "صندلی‌ها",
+      "chairs"
+    ],
+    "sağlık": [
+      "سلامتی (Ellerinize sağlık: دستتون درد نکنه)",
+      "health (Ellerinize sağlık: bless your hands)"
+    ],
+    "sizinle": [
+      "با شما",
+      "with you"
+    ],
+    "yavrum": [
+      "عزیزم؛ بچه‌جان",
+      "my dear (to someone younger)"
+    ],
+    "yeter": [
+      "بس است؛ کافی است",
+      "that's enough"
+    ],
+    "yâ": [
+      "(Yâ Kerim: اسمِ عامیانه‌ی قمری، از صدای بقبقویش)",
+      "(Yâ Kerim: the folk name of the collared dove, from its coo)"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ],
+    "çatıda": [
+      "روی پشت‌بام",
+      "on the roof"
+    ],
+    "çatıya": [
+      "به پشت‌بام",
+      "to the roof"
+    ],
+    "üçüncü": [
+      "سوم",
+      "third"
+    ],
+    "şşş": [
+      "هیس!",
+      "shh!"
+    ]
+  },
+  "id": "s1e18",
+  "kind": "special",
+  "lessons": [
+    "g_a1_3_mak_istemek",
+    "g_a1_3_simdiki",
+    "g_a1_3_yonelme"
+  ],
+  "level": "A1",
+  "place": "rooftop",
+  "props": {
+    "anahtar": {
+      "at": {
+        "rooftop": {
+          "x": -4.5,
+          "y": 0,
+          "z": -2.2
+        }
+      },
+      "kit": "key",
+      "shown": false,
+      "terms": [
+        "a1-w-anahtar"
+      ]
+    },
+    "bardaklar": {
+      "at": {
+        "rooftop": {
+          "x": 0.5,
+          "y": 0.75,
+          "z": -1.6
+        }
+      },
+      "kit": "tea",
+      "n": 7,
+      "shown": false,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    },
+    "caydanlik": {
+      "at": {
+        "rooftop": {
+          "x": 1.2,
+          "y": 0.75,
+          "z": -1.6
+        }
+      },
+      "kit": "tea",
+      "shown": false,
+      "terms": [
+        "a1-w-caydanlik"
+      ],
+      "variant": "caydanlik"
+    },
+    "kasik": {
+      "at": {
+        "rooftop": {
+          "x": -0.2,
+          "y": 0.8,
+          "z": -1.5
+        }
+      },
+      "kit": "cutlery",
+      "shown": false,
+      "terms": [
+        "a1-w-kasik"
+      ],
+      "variant": "teaspoon"
+    },
+    "kurabiye": {
+      "at": {
+        "rooftop": {
+          "x": -0.05,
+          "y": 0.75,
+          "z": -1.6
+        }
+      },
+      "kit": "plate",
+      "shown": false,
+      "terms": [
+        "a2-w-kurabiye",
+        "a1-w-tabak"
+      ],
+      "variant": "biscuits"
+    },
+    "omerin_kasigi": {
+      "at": {
+        "rooftop": {
+          "x": 0.95,
+          "y": 0.8,
+          "z": -1.5
+        }
+      },
+      "kit": "cutlery",
+      "shown": false,
+      "terms": [
+        "a1-w-kasik"
+      ],
+      "variant": "teaspoon"
+    },
+    "sandalyeler": {
+      "at": {
+        "rooftop": {
+          "x": 2.5,
+          "y": 0,
+          "z": -1.3
+        }
+      },
+      "kit": "chair",
+      "n": 2,
+      "shown": false,
+      "terms": [
+        "a1-w-sandalye"
+      ],
+      "variant": "folding"
+    },
+    "telefon": {
+      "at": {
+        "rooftop": {
+          "x": 2.5,
+          "y": 1,
+          "z": -1.3
+        }
+      },
+      "kit": "phone",
+      "shown": false,
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "“That's… Kerim!” Who names the bird?",
+      "fa": "«اون… کریمه!» چه کسی اسمِ پرنده را می‌گذارد؟",
+      "kind": "comp",
+      "options": [
+        "Maria",
+        "Ömer",
+        "Farzad"
+      ],
+      "q": "“O… Kerim!” Kim diyor?",
+      "why": "Maria: “O… Kerim!”"
+    },
+    {
+      "a": 0,
+      "en": "“İstemek” means to want. Nima: “I … to go to the Bosphorus!” Which word fits?",
+      "fa": "‏«istemek» یعنی خواستن. نیما: «من … به بسفر بروم!» کدام کلمه درست است؟",
+      "kind": "word",
+      "options": [
+        "istiyorum",
+        "oturuyorum",
+        "izliyorum"
+      ],
+      "q": "Nima: “Ben Boğaz'a gitmek …!”",
+      "why": "Nima: “Ben Boğaz'a gitmek istiyorum!”"
+    },
+    {
+      "a": 0,
+      "en": "What does Ömer want to be?",
+      "fa": "عمر می‌خواهد چه‌کاره شود؟",
+      "kind": "comp",
+      "options": [
+        "Polis",
+        "Doktor",
+        "Şoför"
+      ],
+      "q": "Ömer ne olmak istiyor?",
+      "why": "Ömer: “Ben polis olmak istiyorum!”"
+    }
+  ],
+  "ref": "A1_3",
+  "releaseDate": "2026-09-26",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "elif": "deckchair"
+      },
+      "kerim": "tank",
+      "scene": "rooftop",
+      "state": "party",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "do": "sleep",
+        "emo": "tired",
+        "loop": true,
+        "who": "elif"
+      }
+    },
+    {
+      "cam": "wide",
+      "en": "Good evening! This roof… is Kerim's home. But today… everyone's here!",
+      "fa": "عصر بخیر! این پشت‌بوم… خونه‌ی کریمه. ولی امروز… همه این‌جان!",
+      "narr": true,
+      "tr": "İyi akşamlar! Bu çatı… Kerim'in evi. Ama bugün… herkes burada!",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:anahtar",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "The third key! Up to the roof we go. Come on in!",
+      "fa": "کلیدِ سوم! داریم می‌ریم پشت‌بوم. بفرمایید!",
+      "link": {
+        "anahtar": "obj:anahtar"
+      },
+      "move": {
+        "how": "enter",
+        "to": "guests_l",
+        "who": "nima"
+      },
+      "obj": [
+        {
+          "id": "anahtar",
+          "op": "show"
+        },
+        {
+          "id": "anahtar",
+          "op": "take"
+        }
+      ],
+      "sfx": {
+        "id": "door_open"
+      },
+      "to": "all",
+      "tr": "Üçüncü anahtar! Çatıya çıkıyoruz. Buyurun!",
+      "who": "nima"
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point",
+      "emo": "surprised",
+      "en": "A bird! There's a bird here!",
+      "fa": "پرنده! یه پرنده این‌جاست!",
+      "link": {
+        "kuş": "ch:kerim"
+      },
+      "move": {
+        "how": "enter",
+        "to": "run",
+        "who": "omer"
+      },
+      "to": "all",
+      "tr": "Kuş! Kuş burada!",
+      "who": "omer"
+    },
+    {
+      "emo": "annoyed",
+      "en": "Not “a bird”. Kerim!",
+      "fa": "پرنده نه. کریم!",
+      "narr": true,
+      "tr": "Kuş değil. Kerim!",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:caydanlik",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Here comes the tea! The teapot's here!",
+      "fa": "چای اومد! قوری این‌جاست!",
+      "link": {
+        "çay": "obj:caydanlik",
+        "çaydanlık": "obj:caydanlik"
+      },
+      "move": {
+        "how": "enter",
+        "to": "table",
+        "who": "maria"
+      },
+      "obj": [
+        {
+          "id": "caydanlik",
+          "op": "show"
+        },
+        {
+          "id": "caydanlik",
+          "op": "take"
+        }
+      ],
+      "to": "all",
+      "tr": "Çay geliyor! Çaydanlık burada!",
+      "who": "maria"
+    },
+    {
+      "at": "obj:sandalyeler",
+      "do": "hold_up",
+      "emo": "tired",
+      "en": "The chairs are here too! I'm helping as well!",
+      "fa": "صندلی‌ها هم این‌جان! منم کمک می‌کنم!",
+      "link": {
+        "sandalyeler": "obj:sandalyeler"
+      },
+      "move": {
+        "how": "enter",
+        "to": "guests_r",
+        "who": "serkan"
+      },
+      "obj": [
+        {
+          "id": "sandalyeler",
+          "op": "show"
+        },
+        {
+          "id": "sandalyeler",
+          "op": "take"
+        }
+      ],
+      "to": "all",
+      "tr": "Sandalyeler de burada! Ben de yardım ediyorum!",
+      "who": "serkan"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "at": "sit_7",
+            "id": "sandalyeler",
+            "op": "place"
+          }
+        ],
+        "who": "serkan"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "A new home… and a roof too! The weather's lovely too!",
+      "fa": "خونه‌ی نو… پشت‌بوم هم داره! هوا هم عالیه!",
+      "move": [
+        {
+          "how": "enter",
+          "to": "seat_2",
+          "who": "farzad"
+        },
+        {
+          "how": "enter",
+          "to": "seat_5",
+          "who": "kirlangic"
+        },
+        {
+          "how": "enter",
+          "to": "seat_4",
+          "who": "rayan"
+        }
+      ],
+      "to": "nima",
+      "tr": "Yeni ev… çatı da var! Hava da çok güzel!",
+      "who": "farzad"
+    },
+    {
+      "do": "shush",
+      "emo": "neutral",
+      "en": "Shh… Elif's asleep. She works nights.",
+      "fa": "هیس… الیف خوابه. شب‌ها کار می‌کنه.",
+      "react": {
+        "farzad": "laugh",
+        "nima": {
+          "at": "ch:elif",
+          "do": "look"
+        }
+      },
+      "to": "all",
+      "tr": "Şşş… Elif uyuyor. Gece çalışıyor.",
+      "voice": "whisper",
+      "who": "serkan"
+    },
+    {
+      "emo": "happy",
+      "en": "Here you are, tea! And there are biscuits too.",
+      "fa": "بفرمایید، چای! شیرینی هم هست.",
+      "link": {
+        "kurabiye": "obj:kurabiye",
+        "çay": "obj:bardaklar"
+      },
+      "move": {
+        "how": "walk",
+        "to": "seat_1",
+        "who": "nima"
+      },
+      "obj": [
+        {
+          "id": "bardaklar",
+          "op": "show"
+        },
+        {
+          "id": "kurabiye",
+          "op": "show"
+        }
+      ],
+      "sfx": {
+        "id": "tea_glass"
+      },
+      "to": "all",
+      "tr": "Buyurun, çay! Kurabiye de var.",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "ellerinize",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Bless your hands!",
+            "fa": "دستتون درد نکنه!",
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "hand_heart",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Enjoy, dear!",
+                "fa": "نوشِ جان، عزیزم!",
+                "to": "nima",
+                "tr": "Afiyet olsun, yavrum!",
+                "who": "maria"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Ellerinize sağlık!"
+          },
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Bless your hands! (sen)",
+            "fa": "دستت درد نکنه!",
+            "react": {
+              "kirlangic": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "…Ellerinize! (the siz form)",
+                "fa": "…«دستتون درد نکنه»!",
+                "to": "nima",
+                "tr": "…Ellerinize!",
+                "voice": "whisper",
+                "who": "kirlangic"
+              },
+              {
+                "emo": "happy",
+                "en": "Enjoy!",
+                "fa": "نوشِ جان!",
+                "to": "nima",
+                "tr": "Afiyet olsun!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Ellerine sağlık!"
+          },
+          {
+            "emo": "neutral",
+            "en": "Nice.",
+            "fa": "خوبه.",
+            "react": {
+              "maria": {
+                "emo": "neutral"
+              }
+            },
+            "reply": [
+              {
+                "emo": "curious",
+                "en": "Just “nice”?",
+                "fa": "فقط خوبه؟",
+                "to": "nima",
+                "tr": "Sadece güzel mi?",
+                "who": "maria"
+              },
+              {
+                "emo": "happy",
+                "en": "Very nice!",
+                "fa": "خیلی خوبه!",
+                "to": "maria",
+                "tr": "Çok güzel!",
+                "who": "omer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Güzel."
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "seat_3",
+          "who": "omer"
+        }
+      }
+    },
+    {
+      "at": "obj:omerin_kasigi",
+      "do": "touch",
+      "emo": "proud",
+      "en": "That's enough tea! The spoon goes here.",
+      "fa": "چای بسه! قاشق این‌جاست.",
+      "link": {
+        "kaşık": "obj:omerin_kasigi"
+      },
+      "obj": [
+        {
+          "id": "omerin_kasigi",
+          "op": "show"
+        }
+      ],
+      "react": {
+        "maria": {
+          "do": "nod",
+          "emo": "happy"
+        }
+      },
+      "to": "maria",
+      "tr": "Çay yeter! Kaşık burada.",
+      "who": "omer"
+    },
+    {
+      "do": "explain",
+      "emo": "curious",
+      "en": "What do you all want to do?",
+      "fa": "شما دلتون می‌خواد چی‌کار کنید؟",
+      "to": "all",
+      "tr": "Ne yapmak istiyorsunuz?",
+      "who": "maria"
+    },
+    {
+      "do": "me",
+      "emo": "proud",
+      "en": "I want to be a police officer!",
+      "fa": "من می‌خوام پلیس بشم!",
+      "to": "maria",
+      "tr": "Ben polis olmak istiyorum!",
+      "who": "omer"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Me, Beşiktaş…",
+      "fa": "من، بشیکتاش رو…",
+      "to": "all",
+      "tr": "Ben Beşiktaş'ı…",
+      "who": "serkan"
+    },
+    {
+      "at": "ch:serkan",
+      "do": "point",
+      "emo": "laugh",
+      "en": "…wants to watch them! Matches, always!",
+      "fa": "…می‌خواد تماشا کنه! همش فوتبال!",
+      "react": {
+        "farzad": "laugh",
+        "serkan": "laugh"
+      },
+      "to": "all",
+      "tr": "…izlemek istiyor! Hep maç!",
+      "who": "omer"
+    },
+    {
+      "do": "me",
+      "emo": "laugh",
+      "en": "I want to drink tea!",
+      "fa": "من می‌خوام چای بخورم!",
+      "link": {
+        "çay": "obj:bardaklar"
+      },
+      "react": {
+        "maria": "laugh",
+        "nima": "laugh"
+      },
+      "to": "all",
+      "tr": "Ben çay içmek istiyorum!",
+      "who": "kirlangic"
+    },
+    {
+      "at": "ch:elif",
+      "do": "point",
+      "emo": "tired",
+      "en": "I want to sleep… like Elif!",
+      "fa": "من می‌خوام بخوابم… مثلِ الیف!",
+      "to": "all",
+      "tr": "Ben uyumak istiyorum… Elif gibi!",
+      "who": "farzad"
+    },
+    {
+      "do": "me",
+      "emo": "moved",
+      "en": "I want to live right here. In Feriköy.",
+      "fa": "من می‌خوام همین‌جا زندگی کنم. تو فری‌کؤی.",
+      "to": "all",
+      "tr": "Ben burada oturmak istiyorum. Feriköy'de.",
+      "who": "maria"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "I want to go to the Bosphorus!",
+      "fa": "من می‌خوام برم کنارِ بسفر!",
+      "to": "all",
+      "tr": "Ben Boğaz'a gitmek istiyorum!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "fly",
+          "to": "ledge",
+          "who": "kerim"
+        },
+        "sfx": {
+          "at": "ch:kerim",
+          "id": "coo",
+          "word": "Ku-kuu… ku-kuu…"
+        }
+      }
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point",
+      "emo": "surprised",
+      "en": "The bird's singing!",
+      "fa": "پرنده داره آواز می‌خونه!",
+      "link": {
+        "kuş": "ch:kerim"
+      },
+      "to": "all",
+      "tr": "Kuş şarkı söylüyor!",
+      "who": "omer"
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point_far",
+      "emo": "moved",
+      "en": "Listen… “Yâ Kerim… yâ Kerim…” This bird always says “Yâ Kerim”. That's… Kerim!",
+      "fa": "گوش کنید… «یا کریم… یا کریم…» این پرنده همیشه می‌گه «یا کریم». اون… کریمه!",
+      "react": {
+        "nima": "surprised",
+        "omer": "surprised"
+      },
+      "to": "all",
+      "tr": "Dinleyin… “Yâ Kerim… yâ Kerim…” Bu kuş hep “Yâ Kerim” diyor. O… Kerim!",
+      "who": "maria"
+    },
+    {
+      "emo": "laugh",
+      "en": "Kerim! Kerim!",
+      "fa": "کریم! کریم!",
+      "to": "all",
+      "tr": "Kerim! Kerim!",
+      "who": "omer"
+    },
+    {
+      "at": "ch:kerim",
+      "do": "wave",
+      "emo": "happy",
+      "en": "Hello, Kerim!",
+      "fa": "سلام، کریم!",
+      "to": "kerim",
+      "tr": "Merhaba, Kerim!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Yes! Kerim! At last!",
+      "fa": "آره! کریم! بالاخره!",
+      "narr": true,
+      "tr": "Evet! Kerim! Nihayet!",
+      "who": "kerim"
+    },
+    {
+      "at": "ch:kerim",
+      "do": "you",
+      "emo": "curious",
+      "en": "What do you want to do?",
+      "fa": "تو می‌خوای چی‌کار کنی؟",
+      "to": "kerim",
+      "tr": "Sen ne yapmak istiyorsun?",
+      "who": "omer"
+    },
+    {
+      "emo": "happy",
+      "en": "Me? I want to sit right here. On the roof. With you.",
+      "fa": "من؟ می‌خوام همین‌جا بشینم. روی پشت‌بوم. با شما.",
+      "narr": true,
+      "tr": "Ben? Burada oturmak istiyorum. Çatıda. Sizinle.",
+      "who": "kerim"
+    },
+    {
+      "spot": {
+        "en": "Everyone's wish has the same shape: the verb with -mAk, then istiyorum. Polis olmak, Beşiktaş'ı izlemek, çay içmek, uyumak, burada oturmak, Boğaz'a gitmek… istiyorum. And to ask: Ne yapmak istiyorsun? What do you want to do?",
+        "ex": "Ben polis olmak istiyorum!",
+        "fa": "آرزوی همه یک شکل دارد: فعل با ‎-mAk، بعد istiyorum. Polis olmak، Beşiktaş'ı izlemek، çay içmek، uyumak، burada oturmak، Boğaz'a gitmek… istiyorum (می‌خواهم پلیس شوم، بشیکتاش را تماشا کنم، چای بنوشم، بخوابم، این‌جا زندگی کنم، به بسفر بروم). و برای پرسیدن: Ne yapmak istiyorsun? می‌خواهی چه کار کنی؟",
+        "lesson": "g_a1_3_mak_istemek"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "One more glass, dear?",
+      "fa": "یه استکانِ دیگه، عزیزم؟",
+      "link": {
+        "bardak": "obj:bardaklar"
+      },
+      "to": "nima",
+      "tr": "Bir bardak daha, yavrum?",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "kasik",
+        "kind": "action",
+        "options": [
+          {
+            "do": "stop",
+            "emo": "happy",
+            "en": "Thank you, that's enough.",
+            "fa": "ممنون، کافیه.",
+            "obj": [
+              {
+                "id": "kasik",
+                "op": "show"
+              }
+            ],
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "nod",
+                "emo": "happy",
+                "en": "All right, dear.",
+                "fa": "باشه، عزیزم.",
+                "to": "nima",
+                "tr": "Tamam, yavrum.",
+                "who": "maria"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Teşekkürler, yeter."
+          },
+          {
+            "do": "nod",
+            "emo": "happy",
+            "en": "Yes, please!",
+            "fa": "بله، لطفاً!",
+            "react": {
+              "maria": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "obj": [
+                    {
+                      "id": "bardaklar",
+                      "n": 3,
+                      "op": "add"
+                    }
+                  ],
+                  "react": {
+                    "nima": "surprised"
+                  },
+                  "sfx": {
+                    "id": "tea_glass"
+                  },
+                  "who": "maria"
+                }
+              },
+              {
+                "en": "Three… four… five!",
+                "fa": "سه… چهار… پنج!",
+                "narr": true,
+                "tr": "Üç… dört… beş!",
+                "who": "kerim"
+              },
+              {
+                "at": "obj:omerin_kasigi",
+                "do": "point",
+                "emo": "laugh",
+                "en": "The spoon, Nima! The spoon!",
+                "fa": "قاشق، نیما! قاشق!",
+                "link": {
+                  "kaşık": "obj:omerin_kasigi"
+                },
+                "to": "nima",
+                "tr": "Kaşık, Nima! Kaşık!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, lütfen!"
+          },
+          {
+            "do": "shake_head",
+            "emo": "neutral",
+            "en": "No!",
+            "fa": "نه!",
+            "react": {
+              "maria": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "wait": 900
+                }
+              },
+              {
+                "emo": "sorry",
+                "en": "…Very well.",
+                "fa": "…باشه.",
+                "to": "nima",
+                "tr": "…Peki.",
+                "who": "maria"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Hayır!"
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "beat": {
+        "env": "time:night:4000",
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "show"
+          },
+          {
+            "id": "telefon",
+            "op": "take"
+          },
+          {
+            "id": "telefon",
+            "op": "set",
+            "set": {
+              "screen": "GOL!"
+            }
+          }
+        ],
+        "react": {
+          "rayan": {
+            "do": "sleep",
+            "emo": "tired"
+          }
+        },
+        "who": "serkan"
+      }
+    },
+    {
+      "cam": "wide",
+      "en": "Stars… Feriköy… and neighbours.",
+      "fa": "ستاره‌ها… فری‌کؤی… و همسایه‌ها.",
+      "narr": true,
+      "tr": "Yıldızlar… Feriköy… ve komşular.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Maria Teyze's tea grows into a gathering on the roof at sunset: the neighbours and Nima's friends share tea and their wishes, and Maria Teyze hears the coo and names the bird: Kerim.",
+  "summaryFa": "چایِ خاله ماریا غروب روی پشت‌بام به یک دورهمی تبدیل می‌شود: همسایه‌ها و دوستانِ نیما چای می‌نوشند و آرزوهایشان را می‌گویند، و خاله ماریا صدای بق‌بقوی پرنده را می‌شنود و اسمش را می‌گذارد: کریم.",
+  "title": "Çatıda çay",
+  "titleEn": "Tea on the roof",
+  "titleFa": "چای روی پشت‌بام",
+  "words": [
+    "a1-w-olmak",
+    "a1-w-izlemek",
+    "a1-w-icmek",
+    "a1-w-uyumak",
+    "a1-w-oturmak",
+    "a1-w-calismak",
+    "a1-w-sarki",
+    "a1-w-istemek",
+    "a1-w-caydanlik",
+    "a1-w-yildiz",
+    "a1-w-sandalye"
+  ]
+}

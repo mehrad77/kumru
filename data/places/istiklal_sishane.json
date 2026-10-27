@@ -1,0 +1,360 @@
+{
+  "ambience": [
+    "street_far",
+    "crowd"
+  ],
+  "camera": {
+    "wide": {
+      "w": 10,
+      "x": 0,
+      "y1": 3.5,
+      "z": -2.4
+    }
+  },
+  "district": "Beyoğlu",
+  "id": "istiklal_sishane",
+  "marks": {
+    "arrive_l": {
+      "facing": "r",
+      "x": -3.6,
+      "z": -0.3
+    },
+    "arrive_r": {
+      "facing": "l",
+      "x": 3.7,
+      "z": -0.5
+    },
+    "canopy": {
+      "x": 1.0,
+      "y": 3.12,
+      "z": -3.05
+    },
+    "entrance": {
+      "door": "metro",
+      "out": {
+        "x": 1.6,
+        "z": -3.6
+      },
+      "x": 1.6,
+      "z": -2.2
+    },
+    "galata": {
+      "air": true,
+      "x": 2.8,
+      "y": 3.1,
+      "z": -5.0
+    },
+    "roof": {
+      "x": -1.0,
+      "y": 2.95,
+      "z": -4.05
+    },
+    "walk_l": {
+      "facing": "r",
+      "x": -2.2,
+      "z": 0.0
+    },
+    "walk_r": {
+      "facing": "l",
+      "x": 0.4,
+      "z": 0.1
+    },
+    "zafer": {
+      "facing": "l",
+      "x": 3.2,
+      "z": -1.3
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "Şişhane",
+    "fa": "شیشهانه",
+    "tr": "Şişhane"
+  },
+  "outdoor": true,
+  "perch": "roof",
+  "pieces": [
+    {
+      "kit": "night_sky",
+      "variant": "crescent",
+      "x": 0,
+      "z": -200
+    },
+    {
+      "galata": false,
+      "h": 600,
+      "kit": "skyline",
+      "w": 6000,
+      "which": "golden_horn",
+      "x": 0,
+      "z": -70
+    },
+    {
+      "id": "galata_kulesi",
+      "kit": "landmark",
+      "which": "galata",
+      "x": 3.0,
+      "z": -48
+    },
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 5000,
+      "x": 0,
+      "z": -56
+    },
+    {
+      "a": "#B5AC9E",
+      "b": "#A9A091",
+      "d": 1400,
+      "kit": "floor",
+      "tile": 60,
+      "w": 2400,
+      "x": 0,
+      "z": -12
+    },
+    {
+      "a": "#B5AC9E",
+      "b": "#A9A091",
+      "d": 2800,
+      "kit": "floor",
+      "tile": 80,
+      "w": 2800,
+      "x": 0,
+      "z": -40
+    },
+    {
+      "floors": 4,
+      "id": "bina",
+      "kit": "facade",
+      "terms": [
+        "a1-w-bina"
+      ],
+      "variant": "apartment_old",
+      "w": 520,
+      "x": -4.6,
+      "z": -4.6
+    },
+    {
+      "floors": 4,
+      "ground": "shops",
+      "kit": "facade",
+      "variant": "apartment",
+      "w": 480,
+      "x": 5.6,
+      "z": -5.4
+    },
+    {
+      "id": "dukkan",
+      "kit": "frontage",
+      "variant": "cicekci",
+      "w": 280,
+      "x": -1.6,
+      "z": -4.0
+    },
+    {
+      "id": "metro",
+      "kit": "metro_entrance",
+      "name": "Şişhane",
+      "terms": [
+        "a1-w-metro",
+        "a1-w-istasyon"
+      ],
+      "x": 1.6,
+      "z": -3.0
+    },
+    {
+      "id": "metro_tabelasi",
+      "kit": "metro_sign",
+      "name": "Şişhane",
+      "terms": [
+        "a1-w-metro",
+        "a1-w-istasyon"
+      ],
+      "x": 3.6,
+      "z": -2.4
+    },
+    {
+      "h": 370,
+      "id": "lamba",
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": -0.1,
+      "z": -1.5
+    },
+    {
+      "h": 370,
+      "kit": "lamp_post",
+      "x": 4.7,
+      "z": 0.8
+    },
+    {
+      "kit": "bench",
+      "x": -3.3,
+      "z": -2.4
+    },
+    {
+      "alt": 330,
+      "kind": "gulls",
+      "kit": "birds",
+      "n": 3,
+      "x": 0,
+      "x0": -500,
+      "x1": 500,
+      "z": -6
+    },
+    {
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 4,
+      "x": 0,
+      "x0": -600,
+      "x1": 600,
+      "z": -3.1
+    },
+    {
+      "dir": -1,
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "x": -1.7,
+      "x0": -330,
+      "x1": 150,
+      "z": -1.0
+    },
+    {
+      "kind": "far",
+      "kit": "crowd",
+      "n": 10,
+      "x": 0,
+      "x0": -900,
+      "x1": 900,
+      "z": -10
+    }
+  ],
+  "props": {
+    "canta": {
+      "at": {
+        "x": -3.75,
+        "y": 0.45,
+        "z": -2.35
+      },
+      "kit": "bag",
+      "terms": [
+        "a1-w-canta"
+      ]
+    },
+    "cicekler": {
+      "at": {
+        "x": -0.6,
+        "y": 0,
+        "z": -3.7
+      },
+      "kit": "flowers",
+      "n": 2,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "bucket"
+    },
+    "cop_kutusu": {
+      "at": {
+        "x": 0.55,
+        "y": 0,
+        "z": -1.6
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "dondurmaci": {
+      "at": {
+        "x": 4.2,
+        "y": 0,
+        "z": -2.2
+      },
+      "kit": "vendor",
+      "terms": [
+        "a1-w-dondurma"
+      ],
+      "variant": "ice_cream"
+    },
+    "fiyat_tahtasi": {
+      "at": {
+        "x": -1.2,
+        "y": 0,
+        "z": -3.35
+      },
+      "kit": "shop_kit",
+      "label": "Lale 40 TL",
+      "terms": [
+        "a1-w-fiyat"
+      ],
+      "variant": "a_board"
+    },
+    "gazete": {
+      "at": {
+        "x": -3.4,
+        "y": 0.45,
+        "z": -2.3
+      },
+      "kit": "paper",
+      "terms": [
+        "a1-w-gazete"
+      ],
+      "variant": "sheet"
+    },
+    "kedi": {
+      "at": {
+        "x": -2.9,
+        "y": 0.45,
+        "z": -2.35
+      },
+      "coat": "tabby",
+      "kit": "cat",
+      "terms": [
+        "a1-w-kedi"
+      ]
+    },
+    "laleler": {
+      "at": {
+        "x": -1.75,
+        "y": 0,
+        "z": -3.75
+      },
+      "kit": "potted",
+      "n": 2,
+      "terms": [
+        "a1-w-lale",
+        "a1-w-cicek"
+      ],
+      "variant": "tulips"
+    },
+    "scooter": {
+      "at": {
+        "x": -4.1,
+        "y": 0,
+        "z": -1.6
+      },
+      "decor": true,
+      "kit": "street_kit",
+      "variant": "scooter"
+    }
+  },
+  "site": "istiklal",
+  "size": {
+    "d": 6,
+    "w": 12
+  },
+  "surface": "stone",
+  "times": [
+    "day",
+    "golden",
+    "dusk"
+  ],
+  "v": 1
+}

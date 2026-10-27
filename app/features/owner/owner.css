@@ -1,0 +1,18 @@
+/* The Owner tab: the learners table and its filter. (The portrait and the filter box are ui/people.css.) */
+@layer features {
+/* People (admin) */
+/* one shrinkable column: the wide learners table scrolls inside its card instead of stretching the page */
+.pp{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+.pp>*,.pp .card>div{min-width:0}
+.pp-bar{display:flex;align-items:center;gap:14px}
+.pp-filter{max-width:360px}
+.pp-count{white-space:nowrap}
+.pp-scroll{overflow-x:auto;background:var(--surface);border-radius:var(--radius-xl);box-shadow:var(--shadow-card)}
+.pp-table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.pp-table th{text-align:start;font-weight:500;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint);padding:14px 12px 10px;white-space:nowrap}
+.pp-table td{padding:8px 12px;border-top:1px solid var(--line);white-space:nowrap}
+.pp-table td:first-child{width:32px}
+.pp-code{letter-spacing:.1em;font-weight:500}
+.pp-deleted{opacity:.55}
+.pp-who{display:flex;align-items:center;gap:10px}
+}

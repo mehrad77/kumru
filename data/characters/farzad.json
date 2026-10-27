@@ -1,0 +1,130 @@
+{
+  "address": {
+    "nima": "sen"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima is my friend.",
+        "fa": "نیما دوستِ منه.",
+        "photo": {
+          "step": 23,
+          "story": "s1e12"
+        },
+        "tr": "Nima benim arkadaşım."
+      },
+      "family": {
+        "en": "Nima is like a sibling to me.",
+        "fa": "نیما مثلِ خواهر/برادرِ خودمه.",
+        "photo": {
+          "step": 4,
+          "story": "s1e48"
+        },
+        "tr": "Nima benim kardeşim gibi."
+      },
+      "met": {
+        "en": "Nima… my guest.",
+        "fa": "نیما… مهمونِ منه.",
+        "photo": {
+          "step": 5,
+          "story": "s1e01"
+        },
+        "tr": "Nima… benim misafirim."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.55,
+      "shape": "average"
+    },
+    "face": {
+      "brows": "straight",
+      "eyeColor": "eye_brown",
+      "eyes": "almond",
+      "mouth": "wide",
+      "nose": "long",
+      "shape": "oval"
+    },
+    "facialHair": {
+      "color": "hair_03",
+      "style": "beard_trimmed"
+    },
+    "hair": {
+      "color": "hair_03",
+      "style": "hair_bun_low"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_03"
+        ],
+        "id": "bottom_jeans"
+      },
+      "outer": {
+        "id": "outer_jacket_denim",
+        "pattern": "pat_denim"
+      },
+      "shoes": {
+        "colors": [
+          "fab_22"
+        ],
+        "id": "shoes_leather"
+      },
+      "top": {
+        "colors": [
+          "fab_22"
+        ],
+        "id": "top_tee"
+      }
+    },
+    "skin": "skin_20",
+    "v": 1
+  },
+  "bio": "A computer engineer who has lived in Turkey for about ten years. Logical and well prepared, and always there for family and friends.",
+  "bioFa": "مهندس کامپیوتر که حدود ده سال است در ترکیه زندگی می‌کند. منطقی و همیشه آماده، و همیشه پشتِ خانواده و دوستانش.",
+  "circle": "old_friends",
+  "color": "#17696B",
+  "id": "farzad",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "mid",
+    "signature": [
+      "explain",
+      "nod"
+    ],
+    "tempo": 1
+  },
+  "name": "Farzad",
+  "nameFa": "فرزاد",
+  "order": 3,
+  "outfits": {
+    "indoor": {
+      "outfit": {
+        "outer": null
+      }
+    },
+    "winter": {
+      "outfit": {
+        "outer": {
+          "colors": [
+            "fab_24"
+          ],
+          "id": "outer_coat_long"
+        }
+      }
+    }
+  },
+  "places": [
+    "flat_farzad"
+  ],
+  "role": "Nima's old friend and host",
+  "roleFa": "دوستِ قدیمیِ نیما و میزبانش",
+  "voice": {
+    "pitch": 0.85,
+    "rate": 1
+  }
+}

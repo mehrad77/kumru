@@ -1,0 +1,760 @@
+{
+  "arc": {
+    "en": "The exam and the holiday",
+    "fa": "امتحان و جشن",
+    "id": "s1w08",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud",
+      "unlocks"
+    ],
+    "tr": "Sınav ve bayram"
+  },
+  "cast": [
+    "ismail",
+    "zafer",
+    "nima"
+  ],
+  "extras": [
+    "dilnoza",
+    "parvaneh",
+    "yusuf",
+    "alex",
+    "farzad"
+  ],
+  "followUp": [
+    {
+      "en": "What did you do today?",
+      "fa": "امروز چی‌کار کردی؟",
+      "narr": true,
+      "tr": "Bugün ne yaptın?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_bugun",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I studied a lot… and I drank tea!",
+            "fa": "خیلی درس خوندم… و چای خوردم!",
+            "ok": true,
+            "react": {
+              "kerim": "happy"
+            },
+            "reply": [
+              {
+                "en": "Very good! Kerim wants tea too… coo coo!",
+                "fa": "خیلی خوبه! کریم هم چای می‌خواد… کو کو!",
+                "narr": true,
+                "tr": "Çok güzel! Kerim de çay istiyor… ku ku!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Çok çalıştım… ve çay içtim!"
+          },
+          {
+            "en": "I went to school. Then I slept!",
+            "fa": "رفتم مدرسه. بعد خوابیدم!",
+            "react": {
+              "kerim": "curious"
+            },
+            "reply": [
+              {
+                "en": "So did Kerim! Coo… coo…",
+                "fa": "کریم هم! کو… کو…",
+                "narr": true,
+                "tr": "Kerim de! Ku… ku…",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Okula gittim. Sonra uyudum!"
+          }
+        ],
+        "to": "kerim"
+      }
+    }
+  ],
+  "gl": {
+    "buyrun": [
+      "بفرمایید",
+      "here you are; please (buyurun, said quickly)"
+    ],
+    "ediyor": [
+      "می‌کند (yardım ediyor: کمک می‌کند)",
+      "does (yardım ediyor: is helping)"
+    ],
+    "hocam": [
+      "استاد (خطاب به معلم)",
+      "Hocam (how you address a teacher)"
+    ],
+    "kart": [
+      "کارت",
+      "card"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "kumru": [
+      "قمری",
+      "collared dove (an A2 word)"
+    ],
+    "naziksiniz": [
+      "لطف دارید",
+      "you're kind (nazik: kind)"
+    ],
+    "rize": [
+      "ریزه (شهری کنارِ دریای سیاه، معروف به چای)",
+      "Rize (a Black Sea town famous for its tea)"
+    ],
+    "taksim": [
+      "تقسیم (میدان و محله‌ای در بی‌اوغلو)",
+      "Taksim (a square and district in Beyoğlu)"
+    ],
+    "uçtum": [
+      "پرواز کردم (uçmak: پرواز کردن)",
+      "I flew (uçmak: to fly)"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name; the word means victory)"
+    ],
+    "ünite": [
+      "درس، فصلِ کتاب",
+      "unit (of a textbook)"
+    ]
+  },
+  "id": "s1e44",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_gecmis",
+    "g_a1_5_once_sonra",
+    "g_a1_3_simdiki"
+  ],
+  "level": "A1",
+  "place": "flat_nima_room",
+  "props": {
+    "kese": {
+      "at": {
+        "bakkal": {
+          "x": 0.4,
+          "y": 0.9,
+          "z": -0.7
+        },
+        "flat_nima_room": {
+          "x": 0.45,
+          "y": 0.77,
+          "z": -1.95
+        }
+      },
+      "kit": "bag",
+      "terms": [],
+      "variant": "paper"
+    },
+    "kumru_karti": {
+      "at": {
+        "x": 1.05,
+        "y": 0.77,
+        "z": -1.95
+      },
+      "kit": "paper",
+      "shown": false,
+      "terms": [
+        "a2-w-kumru"
+      ],
+      "title": "kumru",
+      "variant": "flash_card"
+    },
+    "not_kagidi": {
+      "at": {
+        "flat_nima_street": {
+          "x": -1.55,
+          "y": 0,
+          "z": -1.25
+        }
+      },
+      "kit": "paper",
+      "label": "Başarılar! Farzad",
+      "terms": [],
+      "variant": "note"
+    },
+    "sinav_kagidi": {
+      "at": {
+        "tomer_office": {
+          "x": -0.05,
+          "y": 0.77,
+          "z": -2.25
+        }
+      },
+      "kit": "paper",
+      "terms": [
+        "a1-w-sinav"
+      ],
+      "variant": "exam"
+    },
+    "yemek_kutusu": {
+      "at": {
+        "flat_nima_street": {
+          "x": -2.05,
+          "y": 0,
+          "z": -1.25
+        }
+      },
+      "kit": "box",
+      "terms": [
+        "a1-w-kutu",
+        "a1-w-yemek"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 1,
+      "en": "Who is the Rize tea from?",
+      "fa": "چای ریزه از طرفِ کیست؟",
+      "kind": "comp",
+      "options": [
+        "Farzad'dan",
+        "İsmail Bey'den",
+        "Zafer Hoca'dan"
+      ],
+      "q": "Rize çayı kimden?",
+      "why": "“Nima, buyrun: bu İsmail Bey'den. Sizin için.”"
+    },
+    {
+      "a": 1,
+      "en": "What is Kerim doing?",
+      "fa": "کریم چه کار می‌کند؟",
+      "kind": "word",
+      "options": [
+        "Uyuyor",
+        "Yardım ediyor",
+        "Sınav yazıyor"
+      ],
+      "q": "Kerim ne yapıyor?",
+      "why": "“Kerim ne yapıyor? Kerim… yardım ediyor!”"
+    },
+    {
+      "a": 2,
+      "en": "Which word does Kerim leave behind?",
+      "fa": "کریم کدام کلمه را به جا می‌گذارد؟",
+      "kind": "comp",
+      "options": [
+        "Kuş",
+        "Sınav",
+        "Kumru"
+      ],
+      "q": "Kerim hangi kelimeyi bırakıyor?",
+      "why": "“Son bir kart… ve yeni bir kelime: kumru.”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-27",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "desk"
+      },
+      "kerim": "ledge",
+      "scene": "flat_nima_room",
+      "state": "warm",
+      "time": "dawn"
+    },
+    {
+      "at": "obj:books",
+      "do": "read",
+      "emo": "tired",
+      "en": "I'm tired… but I'm studying.",
+      "fa": "خسته‌م… ولی دارم درس می‌خونم.",
+      "tr": "Yorgunum… ama çalışıyorum.",
+      "who": "nima"
+    },
+    {
+      "cam": "follow",
+      "en": "Everyone's studying. Everyone's tired. What is Kerim doing? Kerim… is helping!",
+      "fa": "همه دارن درس می‌خونن. همه خسته‌ن. کریم چی‌کار می‌کنه؟ کریم… کمک می‌کنه!",
+      "move": {
+        "how": "fly",
+        "to": "sill_up",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Herkes çalışıyor. Herkes yorgun. Kerim ne yapıyor? Kerim… yardım ediyor!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "ismail": "counter"
+      },
+      "kerim": "over",
+      "scene": "bakkal",
+      "state": "closed",
+      "time": "dawn"
+    },
+    {
+      "beat": {
+        "env": "state:open:roll",
+        "move": [
+          {
+            "how": "enter",
+            "to": "customer",
+            "who": "zafer"
+          },
+          {
+            "how": "fly",
+            "to": "awning",
+            "who": "kerim"
+          }
+        ]
+      }
+    },
+    {
+      "at": "ch:zafer",
+      "do": "give",
+      "emo": "happy",
+      "en": "Here you go, teacher! When's the exam?",
+      "fa": "بفرمایید استاد! امتحان کِیه؟",
+      "obj": [
+        {
+          "id": "cay_bardagi",
+          "op": "give",
+          "to": "zafer"
+        }
+      ],
+      "to": "zafer",
+      "tr": "Buyrun, hocam! Sınav ne zaman?",
+      "who": "ismail"
+    },
+    {
+      "do": "drink",
+      "emo": "happy",
+      "en": "Friday. It starts at nine.",
+      "fa": "جمعه. ساعتِ نه شروع می‌شه.",
+      "to": "ismail",
+      "tr": "Cuma. Saat dokuzda başlıyor.",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kese",
+            "op": "take"
+          }
+        ],
+        "who": "ismail"
+      }
+    },
+    {
+      "at": "obj:kese",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Nima has the exam too, right? The honey student! This packet's for Nima. One glass before the exam!",
+      "fa": "نیما هم امتحان داره، نه؟ همون شاگردِ عسل! این بسته مالِ نیماست. قبل از امتحان یه استکان!",
+      "link": {
+        "paket": "obj:kese"
+      },
+      "to": "zafer",
+      "tr": "Nima'nın da sınavı var, değil mi? Bal öğrencisi! Bu paket Nima için. Sınavdan önce bir bardak!",
+      "who": "ismail"
+    },
+    {
+      "beat": {
+        "at": "ch:zafer",
+        "do": "give",
+        "obj": [
+          {
+            "id": "kese",
+            "op": "give",
+            "to": "zafer"
+          }
+        ],
+        "react": {
+          "zafer": {
+            "do": "nod",
+            "emo": "happy"
+          }
+        },
+        "who": "ismail"
+      }
+    },
+    {
+      "at": "ch:ismail",
+      "do": "look",
+      "emo": "happy",
+      "en": "İsmail… remembers Nima!",
+      "fa": "اسماعیل… نیما رو یادشه!",
+      "narr": true,
+      "tr": "İsmail… Nima'yı hatırlıyor!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "alex": "desk_alex",
+        "dilnoza": "desk_dilnoza",
+        "nima": "desk_nima",
+        "parvaneh": "desk_parvaneh",
+        "yusuf": "desk_yusuf",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "at": "ch:nima",
+      "do": "give",
+      "en": "Friday's exam: reading, writing, listening, speaking. …Nima, here you are: this is from İsmail Bey. For you.",
+      "fa": "امتحانِ جمعه: خوندن، نوشتن، شنیدن، صحبت کردن. …نیما، بفرمایید: این از طرفِ آقای اسماعیله. برای شما.",
+      "move": {
+        "how": "walk",
+        "to": "teacher_desk",
+        "who": "nima"
+      },
+      "obj": [
+        {
+          "id": "kese",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Cuma sınav: okuma, yazma, dinleme, konuşma. …Nima, buyrun: bu İsmail Bey'den. Sizin için.",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kese",
+      "do": "hold_up",
+      "emo": "laugh",
+      "en": "Rize tea! İsmail Bey… you're so kind!",
+      "fa": "چای ریزه! آقای اسماعیل… خیلی لطف دارید!",
+      "link": {
+        "çayı": "obj:kese"
+      },
+      "react": {
+        "parvaneh": "laugh",
+        "zafer": "laugh"
+      },
+      "tr": "Rize çayı! İsmail Bey… çok naziksiniz!",
+      "who": "nima"
+    },
+    {
+      "emo": "moved",
+      "en": "Six units… seven weeks. You've all worked very hard.",
+      "fa": "شش درس… هفت هفته. شما خیلی زحمت کشیدید.",
+      "to": "all",
+      "tr": "Altı ünite… yedi hafta. Siz çok çalıştınız.",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "exit",
+            "to": "door",
+            "who": "dilnoza"
+          },
+          {
+            "how": "exit",
+            "to": "door",
+            "who": "parvaneh"
+          },
+          {
+            "how": "exit",
+            "to": "door",
+            "who": "yusuf"
+          },
+          {
+            "how": "exit",
+            "to": "door",
+            "who": "alex"
+          }
+        ]
+      }
+    },
+    {
+      "choice": {
+        "id": "tesekkur",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Thank you, teacher. I learned so much.",
+            "fa": "ممنونم، استاد. خیلی یاد گرفتم.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "hand_heart",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "do": "wave",
+                "emo": "happy",
+                "en": "I learned from you too. See you on Friday!",
+                "fa": "من هم از شما یاد گرفتم. جمعه می‌بینمتون!",
+                "tr": "Ben de sizden öğrendim. Cuma görüşürüz!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Teşekkür ederim, hocam. Çok öğrendim."
+          },
+          {
+            "do": "wave",
+            "en": "OK, see you.",
+            "fa": "باشه، می‌بینمتون.",
+            "react": {
+              "zafer": "nod"
+            },
+            "reply": [
+              {
+                "do": "wave",
+                "en": "See you.",
+                "fa": "می‌بینمتون.",
+                "tr": "Görüşürüz.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam, görüşürüz."
+          },
+          {
+            "emo": "shy",
+            "en": "… (Nima leaves without a word.)",
+            "fa": "… (نیما بی‌هیچ حرفی می‌رود.)",
+            "move": {
+              "how": "exit",
+              "to": "door",
+              "who": "nima"
+            },
+            "react": {
+              "zafer": {
+                "at": "mark:door",
+                "do": "look",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "emo": "sad",
+                  "who": "kerim"
+                }
+              }
+            ],
+            "tone": "casual",
+            "tr": "…",
+            "voice": "silent"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "at": {
+        "zafer": "desk"
+      },
+      "kerim": "air",
+      "scene": "tomer_office",
+      "time": "dusk"
+    },
+    {
+      "beat": {
+        "cam": "follow",
+        "do": "write",
+        "loop": true,
+        "move": {
+          "how": "fly",
+          "to": "sill",
+          "who": "kerim"
+        },
+        "who": "zafer"
+      }
+    },
+    {
+      "beat": {
+        "at": "obj:sinav_kagidi",
+        "cam": "close",
+        "do": "look",
+        "who": "kerim"
+      }
+    },
+    {
+      "emo": "proud",
+      "en": "Kerim saw it. But Kerim isn't telling. Kerim is an honest bird!",
+      "fa": "کریم دید. ولی کریم نمی‌گه. کریم یه پرنده‌ی صادقه!",
+      "narr": true,
+      "tr": "Kerim gördü. Ama Kerim söylemiyor. Kerim dürüst bir kuş!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "farzad": "walk_l"
+      },
+      "kerim": "window_4",
+      "scene": "flat_nima_street",
+      "state": "window_lit",
+      "time": "night"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "yemek_kutusu",
+            "op": "take"
+          },
+          {
+            "id": "not_kagidi",
+            "op": "take"
+          }
+        ],
+        "who": "farzad"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "step",
+          "who": "farzad"
+        }
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "at": "step",
+            "id": "yemek_kutusu",
+            "op": "place"
+          },
+          {
+            "at": "steps",
+            "id": "not_kagidi",
+            "op": "place"
+          }
+        ],
+        "who": "farzad"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "walk_r",
+          "who": "farzad"
+        }
+      }
+    },
+    {
+      "at": {
+        "nima": "desk"
+      },
+      "kerim": "ledge",
+      "scene": "flat_nima_room",
+      "state": "warm",
+      "time": "night"
+    },
+    {
+      "beat": {
+        "do": "sleep",
+        "emo": "tired",
+        "loop": true,
+        "who": "nima"
+      }
+    },
+    {
+      "emo": "tired",
+      "en": "…fourth floor…",
+      "fa": "…طبقه‌ی چهارم…",
+      "tr": "…dördüncü kat…",
+      "voice": "whisper",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "fly",
+          "to": "desk_top",
+          "who": "kerim"
+        },
+        "obj": [
+          {
+            "id": "kumru_karti",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "at": "obj:kumru_karti",
+      "cam": "obj",
+      "en": "One last card… and a new word: kumru.",
+      "fa": "یه کارتِ آخر… و یه کلمه‌ی تازه: «kumru»، یعنی قمری.",
+      "link": {
+        "kart": "obj:kumru_karti"
+      },
+      "narr": true,
+      "tr": "Son bir kart… ve yeni bir kelime: kumru.",
+      "who": "kerim"
+    },
+    {
+      "en": "In the morning I flew to Taksim. I saw İsmail. Then I went to school. In the evening I saw the exam, but I didn't tell.",
+      "fa": "صبح تا تقسیم پرواز کردم. اسماعیل رو دیدم. بعد رفتم مدرسه. غروب امتحان رو دیدم، ولی نگفتم.",
+      "narr": true,
+      "tr": "Sabah Taksim'e uçtum. İsmail'i gördüm. Sonra okula gittim. Akşam sınavı gördüm, ama söylemedim.",
+      "who": "kerim"
+    },
+    {
+      "spot": {
+        "en": "Kerim's day in -DI, the past: uçtum (I flew), gördüm (I saw), gittim (I went). Sabah, sonra, akşam put the day in order. And the negative: söyle- + -me- + -di + -m, söylemedim, “I didn't tell”. The -mA- comes before the -DI.",
+        "ex": "Akşam sınavı gördüm, ama söylemedim.",
+        "fa": "روزِ کریم با -DI، یعنی زمانِ گذشته: uçtum (پرواز کردم)، gördüm (دیدم)، gittim (رفتم). sabah، sonra و akşam روز را به ترتیب می‌چینند. و منفی‌اش: söyle- + -me- + -di + -m می‌شود söylemedim، یعنی «نگفتم». -mA- پیش از -DI می‌آید.",
+        "lesson": "g_a1_5_gecmis"
+      }
+    },
+    {
+      "en": "A long day. Kerim's tired too. But Nima isn't alone. Good night… coo… coo…",
+      "fa": "یه روزِ طولانی. کریم هم خسته‌ست. ولی نیما تنها نیست. شب بخیر… کو… کو…",
+      "narr": true,
+      "sfx": {
+        "id": "coo",
+        "word": "ku… ku…"
+      },
+      "tr": "Uzun bir gün. Kerim de yorgun. Ama Nima yalnız değil. İyi geceler… ku… ku…",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Exam week from Kerim's side. Kerim flies across the city to help and finds others helping too: İsmail sends Rize tea through Zafer Hoca, and Farzad leaves food at the door.",
+  "summaryFa": "هفته‌ی امتحان از نگاهِ کریم. کریم در شهر پرواز می‌کند تا کمک کند و می‌بیند دیگران هم کمک می‌کنند: اسماعیل به دستِ استاد ظفر برای نیما چای ریزه می‌فرستد و فرزاد پشتِ در غذا می‌گذارد.",
+  "title": "Kerim'in günü",
+  "titleEn": "Kerim's day",
+  "titleFa": "روزِ کریم",
+  "words": [
+    "a1-w-yardim-etmek",
+    "a1-w-calismak",
+    "a1-w-yorgun",
+    "a1-w-sinav",
+    "a1-w-baslamak",
+    "a1-w-gormek",
+    "a1-w-soylemek"
+  ]
+}

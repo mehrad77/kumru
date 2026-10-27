@@ -1,0 +1,404 @@
+{
+  "ambience": [
+    "waves",
+    "crowd"
+  ],
+  "camera": {
+    "wide": {
+      "w": 11,
+      "x": 0,
+      "y1": 4.2,
+      "z": -1.6
+    }
+  },
+  "district": "Beşiktaş",
+  "id": "ortakoy",
+  "marks": {
+    "arrive": {
+      "door": "kalabalik",
+      "facing": "r",
+      "out": {
+        "x": -6.2,
+        "z": 0.6
+      },
+      "x": -3.6,
+      "z": 0.3
+    },
+    "cayci": {
+      "facing": "l",
+      "x": 3.4,
+      "z": -1.5
+    },
+    "high": {
+      "air": true,
+      "x": 1.0,
+      "y": 4.0,
+      "z": -6
+    },
+    "railing": {
+      "x": 2.4,
+      "y": 1.06,
+      "z": -2.6
+    },
+    "shore_1": {
+      "x": -1.5,
+      "z": -2.15
+    },
+    "shore_2": {
+      "x": -0.5,
+      "z": -2.15
+    },
+    "shore_3": {
+      "x": 0.5,
+      "z": -2.15
+    },
+    "shore_4": {
+      "x": 1.5,
+      "z": -2.15
+    }
+  },
+  "motif": "sea",
+  "name": {
+    "en": "Ortaköy, by the Bosphorus",
+    "fa": "اورتاکوی، کنار بسفر",
+    "tr": "Ortaköy, Boğaz kıyısı"
+  },
+  "outdoor": true,
+  "perch": "railing",
+  "pieces": [
+    {
+      "h": 4000,
+      "kit": "night_sky",
+      "my": 0.2,
+      "w": 9000,
+      "x": 0,
+      "z": -80
+    },
+    {
+      "kit": "skyline",
+      "variant": "asian_shore",
+      "w": 7000,
+      "x": 0,
+      "z": -70
+    },
+    {
+      "h": 900,
+      "id": "kopru",
+      "in": [
+        "bridge_white"
+      ],
+      "kit": "landmark",
+      "terms": [
+        "seed-w22"
+      ],
+      "variant": "bosphorus_bridge",
+      "x": 8,
+      "z": -60
+    },
+    {
+      "h": 900,
+      "id": "bridge",
+      "in": [
+        "bridge_red_white"
+      ],
+      "kit": "landmark",
+      "red_white": true,
+      "terms": [
+        "seed-w22"
+      ],
+      "variant": "bosphorus_bridge",
+      "x": 8,
+      "z": -60
+    },
+    {
+      "d": 300,
+      "in": [
+        "bridge_white"
+      ],
+      "kit": "sea",
+      "lightColors": [
+        "#CFE0FF",
+        "#FFFFFF"
+      ],
+      "lights": 14,
+      "w": 4000,
+      "x": 8,
+      "z": -40
+    },
+    {
+      "d": 300,
+      "in": [
+        "bridge_red_white"
+      ],
+      "kit": "sea",
+      "lightColors": [
+        "#E30A17",
+        "#FFFFFF"
+      ],
+      "lights": 14,
+      "w": 4000,
+      "x": 8,
+      "z": -40
+    },
+    {
+      "d": 2300,
+      "id": "water",
+      "kit": "sea",
+      "lights": 12,
+      "path": "moon",
+      "px": -400,
+      "terms": [
+        "a1-w-deniz",
+        "a2-w-bogaz"
+      ],
+      "w": 3000,
+      "x": 0,
+      "z": -2.9
+    },
+    {
+      "id": "cami",
+      "kit": "landmark",
+      "terms": [
+        "a1-w-cami"
+      ],
+      "variant": "ortakoy_mosque",
+      "x": -9,
+      "z": -22
+    },
+    {
+      "in": [
+        "fireworks"
+      ],
+      "kind": "far",
+      "kit": "crowd",
+      "n": 9,
+      "x": -8.5,
+      "x0": -300,
+      "x1": 300,
+      "z": -21.6
+    },
+    {
+      "in": [
+        "fireworks"
+      ],
+      "kit": "ferry",
+      "len": 1400,
+      "name": "ORTAKÖY",
+      "x": 7,
+      "z": -30
+    },
+    {
+      "a": "#9C958A",
+      "b": "#928B80",
+      "d": 560,
+      "kit": "floor",
+      "tile": 60,
+      "w": 1600,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "id": "railing",
+      "kit": "railing",
+      "variant": "shore",
+      "w": 1400,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "id": "street_lamps",
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba",
+        "a1-w-isik"
+      ],
+      "x": -2.8,
+      "z": -2.4
+    },
+    {
+      "kit": "lamp_post",
+      "x": 3.0,
+      "z": -2.4
+    },
+    {
+      "kit": "lamp_post",
+      "x": -5.6,
+      "z": -2.4
+    },
+    {
+      "h": 320,
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "n": 2,
+      "variant": "bunting",
+      "w": 580,
+      "x": 0.1,
+      "z": -2.45
+    },
+    {
+      "h": 500,
+      "id": "bayrak",
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "n": 2,
+      "terms": [
+        "a1-w-bayrak"
+      ],
+      "variant": "pole",
+      "x": 5.2,
+      "z": -2.3
+    },
+    {
+      "id": "kalabalik",
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 7,
+      "x": -4.0,
+      "x0": -110,
+      "x1": 110,
+      "z": -2.0
+    },
+    {
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 5,
+      "x": 5.1,
+      "x0": -90,
+      "x1": 90,
+      "z": -2.0
+    },
+    {
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "x": -4.2,
+      "x0": -150,
+      "x1": 150,
+      "z": -0.6
+    },
+    {
+      "dir": -1,
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "x": 4.6,
+      "x0": -110,
+      "x1": 110,
+      "z": -0.4
+    },
+    {
+      "id": "cay_tezgahi",
+      "kit": "vendor",
+      "terms": [
+        "a1-w-cay"
+      ],
+      "variant": "tea_cart",
+      "x": 4.4,
+      "z": -1.0
+    },
+    {
+      "kind": "gulls",
+      "kit": "birds",
+      "n": 3,
+      "x": 0,
+      "x0": -500,
+      "x1": 500,
+      "z": -6
+    },
+    {
+      "h": 520,
+      "kit": "tree",
+      "x": -5.8,
+      "z": 0.9
+    }
+  ],
+  "props": {
+    "cayci_tray": {
+      "at": {
+        "x": 3.9,
+        "y": 0.95,
+        "z": -1.05
+      },
+      "decor": true,
+      "kit": "tea",
+      "variant": "tray"
+    },
+    "cop": {
+      "at": {
+        "x": 2.3,
+        "y": 0,
+        "z": -2.35
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "kedi": {
+      "at": {
+        "x": -2.4,
+        "y": 0,
+        "z": -2.3
+      },
+      "kit": "cat",
+      "pose": "sit",
+      "terms": [
+        "a1-w-kedi"
+      ]
+    },
+    "misir": {
+      "at": {
+        "x": -3.0,
+        "y": 0,
+        "z": -0.9
+      },
+      "decor": true,
+      "kit": "vendor",
+      "variant": "corn_cart"
+    },
+    "tea_glass": {
+      "at": {
+        "x": 4.6,
+        "y": 0.92,
+        "z": -0.95
+      },
+      "kit": "tea",
+      "n": 5,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    }
+  },
+  "site": "ortakoy",
+  "size": {
+    "d": 3,
+    "w": 12
+  },
+  "states": {
+    "bridge_red_white": {
+      "group": "bridge"
+    },
+    "bridge_white": {
+      "default": true,
+      "group": "bridge"
+    },
+    "fireworks": {
+      "group": "sky"
+    },
+    "flags": {
+      "group": "festive"
+    }
+  },
+  "surface": "stone",
+  "times": [
+    "night"
+  ],
+  "v": 1
+}

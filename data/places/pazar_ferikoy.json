@@ -1,0 +1,405 @@
+{
+  "v": 1,
+  "id": "pazar_ferikoy",
+  "name": {
+    "tr": "Feriköy pazarı",
+    "en": "The Feriköy market",
+    "fa": "بازارِ فری‌کؤی"
+  },
+  "district": "Feriköy, Şişli",
+  "outdoor": true,
+  "size": {
+    "w": 12,
+    "d": 5
+  },
+  "camera": {
+    "wide": {
+      "w": 11,
+      "x": 0,
+      "z": -1.6,
+      "y0": 0,
+      "y1": 3.3
+    }
+  },
+  "times": [
+    "day"
+  ],
+  "perch": "awning",
+  "ambience": [
+    "crowd",
+    "street_far"
+  ],
+  "motif": "street",
+  "surface": "stone",
+  "marks": {
+    "gate": {
+      "door": "pazar_kapisi",
+      "out": {
+        "x": -1.8,
+        "z": -4.6
+      },
+      "x": -1.8,
+      "z": -2.5
+    },
+    "meet_1": {
+      "facing": "r",
+      "x": -3.2,
+      "z": -1.7
+    },
+    "meet_2": {
+      "facing": "r",
+      "x": -2.3,
+      "z": -1.6
+    },
+    "meet_3": {
+      "facing": "l",
+      "x": -1.3,
+      "z": -1.6
+    },
+    "meet_4": {
+      "facing": "l",
+      "x": -0.4,
+      "z": -1.7
+    },
+    "pushchair": {
+      "facing": "r",
+      "x": -1.0,
+      "z": -0.35
+    },
+    "seller": {
+      "x": 2.1,
+      "z": -1.95
+    },
+    "buyer_l": {
+      "facing": "r",
+      "x": 1.0,
+      "z": -0.55
+    },
+    "buyer_r": {
+      "facing": "l",
+      "x": 3.3,
+      "z": -0.55
+    },
+    "awning": {
+      "x": 2.1,
+      "y": 2.62,
+      "z": -1.25
+    },
+    "over": {
+      "air": true,
+      "x": -0.4,
+      "y": 2.9,
+      "z": -2.2
+    }
+  },
+  "pieces": [
+    {
+      "kit": "sky_clouds",
+      "x": 0,
+      "z": -60
+    },
+    {
+      "kit": "skyline",
+      "variant": "ferikoy",
+      "w": 5000,
+      "h": 700,
+      "x": 0,
+      "z": -40
+    },
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 3000,
+      "x": 0,
+      "z": -14
+    },
+    {
+      "kit": "floor",
+      "a": "#B9B1A3",
+      "b": "#ADA597",
+      "tile": 80,
+      "w": 2800,
+      "d": 1300,
+      "x": 0,
+      "z": -13
+    },
+    {
+      "kit": "floor",
+      "a": "#B9B1A3",
+      "b": "#ADA597",
+      "tile": 80,
+      "w": 1600,
+      "d": 400,
+      "x": 0,
+      "z": -0.5
+    },
+    {
+      "kit": "facade",
+      "variant": "apartment",
+      "floors": 4,
+      "w": 520,
+      "laundry": 2,
+      "x": -6.2,
+      "z": -7.5
+    },
+    {
+      "kit": "facade",
+      "variant": "apartment_old",
+      "floors": 4,
+      "w": 520,
+      "x": 6.4,
+      "z": -7.5
+    },
+    {
+      "kit": "market",
+      "id": "pazar_kapisi",
+      "variant": "gate",
+      "w": 440,
+      "terms": [
+        "seed-w07"
+      ],
+      "x": -1.8,
+      "z": -3.2
+    },
+    {
+      "kit": "market",
+      "variant": "stall",
+      "kind": "greens",
+      "w": 260,
+      "x": 2.6,
+      "z": -3.6
+    },
+    {
+      "kit": "market",
+      "variant": "stall",
+      "kind": "fruit",
+      "w": 260,
+      "x": -5.4,
+      "z": -3.4
+    },
+    {
+      "kit": "market",
+      "id": "tezgah",
+      "variant": "tomatoes",
+      "color": "#D9534A",
+      "prices": [
+        "80 TL",
+        "80 TL",
+        "70 TL",
+        "80 TL"
+      ],
+      "terms": [
+        "a1-w-domates",
+        "a1-w-fiyat"
+      ],
+      "w": 280,
+      "x": 2.1,
+      "z": -1.25
+    },
+    {
+      "kit": "market",
+      "variant": "cheese",
+      "color": "#2F6DB5",
+      "prices": [
+        "250 TL",
+        "320 TL"
+      ],
+      "w": 200,
+      "x": -4.6,
+      "z": -1.3
+    },
+    {
+      "kit": "market",
+      "variant": "stall",
+      "kind": "peppers",
+      "color": "#E0A83A",
+      "w": 240,
+      "x": 5.2,
+      "z": -1.6
+    },
+    {
+      "kit": "crowd",
+      "kind": "walk",
+      "n": 5,
+      "x": 0,
+      "x0": -550,
+      "x1": 550,
+      "z": -4.3
+    },
+    {
+      "kit": "crowd",
+      "kind": "stand",
+      "n": 2,
+      "x": 5.0,
+      "x0": -40,
+      "x1": 40,
+      "z": -0.6
+    },
+    {
+      "kit": "birds",
+      "kind": "pigeons",
+      "n": 4,
+      "x": -3.0,
+      "x0": -60,
+      "x1": 60,
+      "z": -0.4
+    },
+    {
+      "kit": "tree",
+      "h": 480,
+      "x": 4.3,
+      "z": -4.2
+    },
+    {
+      "kit": "flowers",
+      "variant": "bucket",
+      "flower": "daisy",
+      "color": "beyaz",
+      "labels": [
+        "20 TL",
+        "20 TL"
+      ],
+      "n": 2,
+      "x": -4.0,
+      "z": 0.7
+    }
+  ],
+  "props": {
+    "domates": {
+      "kit": "food",
+      "variant": "tomatoes",
+      "crate": true,
+      "n": 12,
+      "terms": [
+        "a1-w-domates",
+        "a1-w-kilo"
+      ],
+      "at": {
+        "x": 0.65,
+        "y": 0,
+        "z": -0.95
+      }
+    },
+    "yumurta": {
+      "kit": "food",
+      "variant": "eggs",
+      "terms": [
+        "a1-w-yumurta"
+      ],
+      "at": {
+        "x": 3.05,
+        "y": 0.86,
+        "z": -1.15
+      }
+    },
+    "peynir": {
+      "kit": "food",
+      "variant": "cheese",
+      "terms": [
+        "a1-w-peynir"
+      ],
+      "at": {
+        "x": -4.2,
+        "y": 0.86,
+        "z": -1.15
+      }
+    },
+    "sut": {
+      "kit": "milk",
+      "n": 3,
+      "terms": [
+        "a1-w-sut"
+      ],
+      "at": {
+        "x": -5.15,
+        "y": 0.86,
+        "z": -1.15
+      }
+    },
+    "ekmek": {
+      "kit": "bread",
+      "n": 3,
+      "terms": [
+        "a1-w-ekmek"
+      ],
+      "at": {
+        "x": 4.75,
+        "y": 0.86,
+        "z": -1.45
+      }
+    },
+    "fiyat_etiketi": {
+      "kit": "paper",
+      "variant": "price_tag",
+      "n": 5,
+      "labels": [
+        "Domates · kilo 80 TL"
+      ],
+      "terms": [
+        "a1-w-fiyat"
+      ],
+      "at": {
+        "x": 1.55,
+        "y": 0.86,
+        "z": -1.1
+      }
+    },
+    "bebek_arabasi": {
+      "kit": "trolley",
+      "variant": "pushchair",
+      "color": "#2F8C88",
+      "terms": [
+        "a1-w-bebek"
+      ],
+      "at": {
+        "x": -0.4,
+        "y": 0,
+        "z": -0.35
+      }
+    },
+    "pazar_arabasi": {
+      "kit": "trolley",
+      "variant": "shopping",
+      "terms": [
+        "a1-w-canta"
+      ],
+      "at": {
+        "x": -3.8,
+        "y": 0,
+        "z": -0.6
+      }
+    },
+    "kasalar": {
+      "kit": "shop_kit",
+      "variant": "crate",
+      "decor": true,
+      "at": {
+        "x": 3.7,
+        "y": 0,
+        "z": -1.0
+      }
+    },
+    "cuval": {
+      "kit": "shop_kit",
+      "variant": "sack",
+      "decor": true,
+      "at": {
+        "x": -3.6,
+        "y": 0,
+        "z": -1.15
+      }
+    },
+    "terazi": {
+      "kit": "shop_kit",
+      "variant": "scale",
+      "terms": [
+        "a1-w-kilo"
+      ],
+      "at": {
+        "x": 2.55,
+        "y": 0.86,
+        "z": -1.15
+      }
+    }
+  }
+}

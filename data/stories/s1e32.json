@@ -1,0 +1,558 @@
+{
+  "arc": {
+    "en": "The best of Feriköy",
+    "fa": "بهترین جاهای فری‌کؤی",
+    "id": "s1w06",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Feriköy'ün en iyi yerleri"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "dilnoza",
+    "gulten"
+  ],
+  "extras": [
+    "parvaneh",
+    "yusuf",
+    "alex"
+  ],
+  "followUp": [
+    {
+      "en": "Medium height, bearded, glasses… and always “Once more, please!” Who?",
+      "fa": "قدِ متوسط، ریش‌دار، عینکی… و همیشه «یه بار دیگه، لطفاً!» کیه؟",
+      "narr": true,
+      "tr": "Orta boylu, sakallı, gözlüklü… ve hep “Bir daha, lütfen!” Kim?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_kim",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Zafer Hoca!",
+            "fa": "استاد ظفر!",
+            "ok": true,
+            "react": {
+              "kerim": "happy"
+            },
+            "reply": [
+              {
+                "en": "Yes! Smiling Zafer Hoca.",
+                "fa": "آره! استاد ظفرِ خوش‌رو.",
+                "narr": true,
+                "tr": "Evet! Güler yüzlü Zafer Hoca.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Zafer Hoca!"
+          },
+          {
+            "en": "Alex!",
+            "fa": "الکس!",
+            "react": {
+              "kerim": "curious"
+            },
+            "reply": [
+              {
+                "en": "No! Alex is tall and always sleepy.",
+                "fa": "نه! الکس قدبلنده و همیشه خواب‌آلوده.",
+                "narr": true,
+                "tr": "Hayır! Alex uzun boylu ve hep uykulu.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Alex!"
+          }
+        ],
+        "to": "kerim"
+      }
+    },
+    {
+      "en": "White hair, a smiling face, eighty years old… Who?",
+      "fa": "موسفید، خوش‌رو، هشتاد ساله… کیه؟",
+      "narr": true,
+      "tr": "Beyaz saçlı, güler yüzlü, seksen yaşında… Kim?",
+      "who": "kerim"
+    },
+    {
+      "en": "Maria Teyze!",
+      "fa": "خاله ماریا!",
+      "tr": "Maria Teyze!",
+      "who": "nima"
+    }
+  ],
+  "gl": {
+    "edin": [
+      "(امری، مؤدبانه) کنید",
+      "do (polite: tarif edin = describe)"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a neighbourhood of Şişli)"
+    ],
+    "köşede": [
+      "سرِ نبش، در گوشه",
+      "on the corner"
+    ],
+    "maria": [
+      "ماریا (همسایهٔ طبقهٔ پنجم)",
+      "Maria (the neighbour on the fifth floor)"
+    ],
+    "sakallı": [
+      "ریش‌دار",
+      "bearded"
+    ],
+    "sardunya": [
+      "شمعدانی",
+      "geranium"
+    ],
+    "sardunyalar": [
+      "شمعدانی‌ها",
+      "geraniums"
+    ],
+    "tarif": [
+      "توصیف",
+      "describe (tarif etmek)"
+    ],
+    "tüylü": [
+      "پَردار، با پَرِ…",
+      "with … feathers"
+    ],
+    "uykulu": [
+      "خواب‌آلود",
+      "sleepy"
+    ],
+    "şallı": [
+      "با شالِ…",
+      "with a … shawl"
+    ]
+  },
+  "id": "s1e32",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_6_en",
+    "g_a1_6_belirtili_tamlama",
+    "g_a1_6_belirtisiz_tamlama"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "makas": {
+      "at": {
+        "cicekci": {
+          "x": 2.6,
+          "y": 0.86,
+          "z": -0.55
+        }
+      },
+      "kit": "tool",
+      "terms": [
+        "a1-w-makas"
+      ],
+      "variant": "scissors"
+    },
+    "rehber": {
+      "at": {
+        "class504": {
+          "x": 3.95,
+          "y": 0.72,
+          "z": -2.0
+        }
+      },
+      "kit": "book",
+      "label": "Feriköy'ün en iyi yerleri",
+      "tabs": true,
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "notebook"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Brown-haired, always sleepy… who?",
+      "fa": "موقهوه‌ای، همیشه خواب‌آلود… کیست؟",
+      "kind": "comp",
+      "options": [
+        "Alex",
+        "Yusuf",
+        "Nima"
+      ],
+      "q": "Kahverengi saçlı, hep uykulu… kim?",
+      "why": "Nima: “Alex!”"
+    },
+    {
+      "a": 0,
+      "en": "Zafer Hoca: bearded, glasses and …",
+      "fa": "استاد ظفر: ریش‌دار، عینکی و …",
+      "kind": "word",
+      "options": [
+        "güler yüzlü",
+        "sarı saçlı",
+        "uzun boylu"
+      ],
+      "q": "Zafer Hoca: sakallı, gözlüklü ve …",
+      "why": "Nima: “Sakallı, gözlüklü, güler yüzlü.”"
+    },
+    {
+      "a": 0,
+      "en": "What does Maria Teyze always buy from Gülten Hanım?",
+      "fa": "خاله ماریا همیشه از گولتن خانم چه می‌خرد؟",
+      "kind": "comp",
+      "options": [
+        "Sardunya",
+        "Gül",
+        "Lale"
+      ],
+      "q": "Maria Teyze Gülten Hanım'dan hep ne alıyor?",
+      "why": "Gülten Hanım: “Kırk yıldır çiçeklerini benden alıyor. Hep sardunya.”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-13",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Good morning! Today… who's who? Tall, short, blue-eyed, blond…",
+      "fa": "صبح بخیر! امروز… کی کیه؟ قدبلند، قدکوتاه، چشم‌آبی، موطلایی…",
+      "narr": true,
+      "tr": "Günaydın! Bugün… kim kim? Uzun boylu, kısa boylu, mavi gözlü, sarı saçlı…",
+      "who": "kerim"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "A game: someone in the class… who? Dilnoza, you start!",
+      "fa": "یه بازی: یه نفر توی کلاس… کیه؟ دلنوزا، شما شروع کنین!",
+      "to": "all",
+      "tr": "Bir oyun: sınıfta biri… kim? Dilnoza, siz başlayın!",
+      "who": "zafer"
+    },
+    {
+      "do": "think",
+      "emo": "proud",
+      "en": "The tallest student in the class! Brown-haired… and always sleepy!",
+      "fa": "قدبلندترین شاگردِ کلاس! موقهوه‌ای… و همیشه خواب‌آلود!",
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "take"
+        }
+      ],
+      "react": {
+        "alex": {
+          "emo": "tired"
+        }
+      },
+      "to": "all",
+      "tr": "Sınıfın en uzun boylu öğrencisi! Kahverengi saçlı… ve hep uykulu!",
+      "who": "dilnoza"
+    },
+    {
+      "at": "ch:alex",
+      "do": "point",
+      "emo": "laugh",
+      "en": "Alex!",
+      "fa": "الکس!",
+      "react": {
+        "alex": {
+          "do": "shrug",
+          "emo": "tired"
+        }
+      },
+      "to": "dilnoza",
+      "tr": "Alex!",
+      "who": "nima"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Right! Nima, now you. Describe me!",
+      "fa": "درسته! نیما، حالا شما. منو توصیف کنین!",
+      "to": "nima",
+      "tr": "Doğru! Nima, şimdi siz. Beni tarif edin!",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "tarif",
+        "kind": "meaning",
+        "options": [
+          {
+            "at": "ch:zafer",
+            "do": "look",
+            "emo": "happy",
+            "en": "Bearded, with glasses, smiling.",
+            "fa": "ریش‌دار، عینکی، خوش‌رو.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "hand_heart",
+                "emo": "happy",
+                "en": "Thank you!",
+                "fa": "ممنونم!",
+                "to": "nima",
+                "tr": "Teşekkür ederim!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Sakallı, gözlüklü, güler yüzlü."
+          },
+          {
+            "at": "ch:zafer",
+            "do": "look",
+            "en": "With glasses, bearded… and old.",
+            "fa": "عینکی، ریش‌دار… و پیر.",
+            "react": {
+              "parvaneh": "laugh",
+              "zafer": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "do": "me",
+                "emo": "annoyed",
+                "en": "Old?! I'm thirty-five!",
+                "fa": "پیر؟! من سی و پنج سالمه!",
+                "react": {
+                  "alex": "laugh",
+                  "yusuf": "laugh"
+                },
+                "to": "nima",
+                "tr": "Yaşlı mı?! Ben otuz beş yaşındayım!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Gözlüklü, sakallı… ve yaşlı."
+          },
+          {
+            "at": "ch:zafer",
+            "do": "look",
+            "en": "Tall…",
+            "fa": "قدبلند…",
+            "react": {
+              "zafer": {
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "No! Medium height!",
+                "fa": "نه! قدش متوسطه!",
+                "to": "nima",
+                "tr": "Hayır! Orta boylu!",
+                "who": "dilnoza"
+              },
+              {
+                "emo": "neutral",
+                "en": "Thank you, Dilnoza.",
+                "fa": "ممنونم، دلنوزا.",
+                "to": "dilnoza",
+                "tr": "Teşekkür ederim, Dilnoza.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Uzun boylu…"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "at": {
+        "dilnoza": "door",
+        "gulten": "counter",
+        "nima": "buckets"
+      },
+      "kerim": "air",
+      "scene": "cicekci",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "makas",
+            "op": "take"
+          }
+        ],
+        "sfx": {
+          "id": "shop_bell",
+          "word": "dın dın"
+        },
+        "who": "gulten"
+      }
+    },
+    {
+      "do": "welcome",
+      "emo": "neutral",
+      "en": "Welcome.",
+      "fa": "خوش اومدین.",
+      "move": {
+        "how": "walk",
+        "to": "front",
+        "who": "gulten"
+      },
+      "to": "nima",
+      "tr": "Hoş geldiniz.",
+      "who": "gulten"
+    },
+    {
+      "at": "ch:nima",
+      "do": "you",
+      "emo": "surprised",
+      "en": "You… the geraniums! And at the party! For the lady with the purple shawl and white hair, right?",
+      "fa": "شما… شمعدانی‌ها! و توی مهمونی! برای اون خانمِ موسفید با شالِ بنفش، نه؟",
+      "to": "nima",
+      "tr": "Siz… sardunyalar! Ve partide! Mor şallı, beyaz saçlı hanım için, değil mi?",
+      "who": "gulten"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes! Maria Teyze. She's eighty!",
+      "fa": "آره! خاله ماریا. هشتاد سالشه!",
+      "to": "gulten",
+      "tr": "Evet! Maria Teyze. Seksen yaşında!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:geraniums",
+      "do": "point",
+      "emo": "proud",
+      "en": "I know. She's bought her flowers from me for forty years. Always geraniums.",
+      "fa": "می‌دونم. چهل ساله که گل‌هاشو از من می‌خره. همیشه شمعدانی.",
+      "link": {
+        "sardunya": "obj:geraniums"
+      },
+      "to": "nima",
+      "tr": "Biliyorum. Kırk yıldır çiçeklerini benden alıyor. Hep sardunya.",
+      "who": "gulten"
+    },
+    {
+      "at": "obj:rehber",
+      "do": "read",
+      "emo": "happy",
+      "en": "Gülten Hanım's flower shop: on the corner. The freshest flowers in Feriköy!",
+      "fa": "گل‌فروشیِ گولتن خانم: سرِ نبش. تازه‌ترین گل‌های فری‌کؤی!",
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Berfin'in kafesi: fırının yanında.",
+              "Gülten Hanım'ın çiçekçisi: köşede.",
+              "Feriköy'ün en taze çiçekleri!"
+            ]
+          }
+        }
+      ],
+      "to": "gulten",
+      "tr": "Gülten Hanım'ın çiçekçisi: köşede. Feriköy'ün en taze çiçekleri!",
+      "who": "nima"
+    },
+    {
+      "do": "shake_head",
+      "emo": "proud",
+      "en": "Not Feriköy's… Istanbul's freshest flowers!",
+      "fa": "فری‌کؤی نه… تازه‌ترین گل‌های استانبول!",
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Berfin'in kafesi: fırının yanında.",
+              "Gülten Hanım'ın çiçekçisi: köşede.",
+              "~~Feriköy'ün en taze çiçekleri!~~",
+              "İstanbul'un en taze çiçekleri!"
+            ]
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Feriköy'ün değil… İstanbul'un en taze çiçekleri!",
+      "who": "gulten"
+    },
+    {
+      "spot": {
+        "en": "-lI makes a describing word from a noun: göz (eye) → mavi gözlü (blue-eyed), saç (hair) → kahverengi saçlı, boy (height) → uzun boylu, yüz (face) → güler yüzlü, gözlük → gözlüklü, sakal → sakallı. Put en in front for “the most”: sınıfın en uzun boylu öğrencisi. Gülten Hanım's picture of Maria Teyze is two of them: mor şallı, beyaz saçlı bir hanım.",
+        "ex": "Sınıfın en uzun boylu öğrencisi!",
+        "fa": "‎-lI از اسم صفت می‌سازد، مثل ترکیب‌های فارسی: göz (چشم) ← mavi gözlü (چشم‌آبی)، saç (مو) ← kahverengi saçlı (موقهوه‌ای)، boy (قد) ← uzun boylu (قدبلند)، yüz (صورت) ← güler yüzlü (خوش‌رو)، gözlük ← gözlüklü (عینکی)، sakal ← sakallı (ریش‌دار). برای «ـترین» en را جلویش بگذار: sınıfın en uzun boylu öğrencisi (قدبلندترین شاگردِ کلاس). توصیفِ گولتن خانم از خاله ماریا هم دو تا از همین‌هاست: mor şallı, beyaz saçlı bir hanım.",
+        "lesson": "g_a1_6_en",
+        "show": "compare"
+      }
+    },
+    {
+      "en": "Grey feathers, red eyes, a very clever bird… who? Kerim!",
+      "fa": "پرهای خاکستری، چشم‌های قرمز، یه پرندهٔ خیلی باهوش… کیه؟ کریم!",
+      "move": {
+        "how": "fly",
+        "to": "tulip_bucket",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Gri tüylü, kırmızı gözlü, çok akıllı bir kuş… kim? Kerim!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "In class, everyone describes someone and the others guess, and Nima has to describe Zafer Hoca. After class the guide's second page is the corner flower shop, where Gülten Hanım remembers Nima and every customer.",
+  "summaryFa": "سرِ کلاس هر کس یک نفر را توصیف می‌کند و بقیه حدس می‌زنند، و نیما باید استاد ظفر را توصیف کند. بعد از کلاس، صفحهٔ دومِ راهنما گل‌فروشیِ سرِ نبش است؛ گولتن خانم نیما را و همهٔ مشتری‌هایش را به یاد دارد.",
+  "title": "Mavi gözlü, güler yüzlü",
+  "titleEn": "Blue-eyed, smiling",
+  "titleFa": "چشم‌آبی، خوش‌رو",
+  "words": [
+    "a1-w-uzun-boylu",
+    "a1-w-orta-boylu",
+    "a1-w-mavi-gozlu",
+    "a1-w-sari-sacli",
+    "a1-w-guler-yuzlu",
+    "a1-w-akilli"
+  ]
+}

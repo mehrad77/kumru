@@ -1,0 +1,603 @@
+{
+  "arc": {
+    "en": "Before the exam",
+    "fa": "پیش از امتحان",
+    "id": "s1w07",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Sınavdan önce"
+  },
+  "cast": [
+    "nima",
+    "tolga",
+    "serkan",
+    "kirlangic"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, what's this?",
+      "fa": "نیما، این چیه؟",
+      "narr": true,
+      "tr": "Nima, bu ne?",
+      "who": "kerim"
+    },
+    {
+      "en": "This is the boiler.",
+      "fa": "این پکیجه.",
+      "tr": "Bu kombi.",
+      "who": "nima"
+    },
+    {
+      "en": "Is the boiler hot or cold?",
+      "fa": "پکیج گرمه یا سرد؟",
+      "narr": true,
+      "tr": "Kombi sıcak mı, soğuk mu?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_soguk",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Cold! The boiler isn't working.",
+            "fa": "سرده! پکیج کار نمی‌کنه.",
+            "ok": true,
+            "react": {
+              "kerim": "happy"
+            },
+            "reply": [
+              {
+                "en": "Yes… very cold!",
+                "fa": "آره… خیلی سرده!",
+                "narr": true,
+                "tr": "Evet… çok soğuk!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Soğuk! Kombi çalışmıyor."
+          },
+          {
+            "en": "Hot.",
+            "fa": "گرمه.",
+            "react": {
+              "kerim": "confused"
+            },
+            "reply": [
+              {
+                "en": "Hot? No… cold!",
+                "fa": "گرمه؟ نه… سرده!",
+                "narr": true,
+                "tr": "Sıcak mı? Hayır… soğuk!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Sıcak."
+          }
+        ],
+        "to": "kerim"
+      }
+    },
+    {
+      "en": "And what are these?",
+      "fa": "خب، این‌ها چی‌اند؟",
+      "narr": true,
+      "tr": "Peki bunlar ne?",
+      "who": "kerim"
+    },
+    {
+      "en": "These are glasses. Tea glasses!",
+      "fa": "این‌ها لیوانن. استکانِ چای!",
+      "tr": "Bunlar bardak. Çay bardakları!",
+      "who": "nima"
+    },
+    {
+      "en": "The tea's hot! Coo-coo!",
+      "fa": "چای گرمه! کو-کو!",
+      "narr": true,
+      "tr": "Çay sıcak! Ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "gl": {
+    "alo": [
+      "الو",
+      "hello (on the phone)"
+    ],
+    "e": [
+      "اِ… (حرفِ E روی صفحه)",
+      "E… (the letter on the panel)"
+    ],
+    "ibb": [
+      "شهرداریِ استانبول",
+      "İBB, Istanbul's city council"
+    ],
+    "kalorifer": [
+      "شوفاژ",
+      "radiator, central heating"
+    ],
+    "kombi": [
+      "پکیج (آبگرم‌کنِ دیواری)",
+      "combi boiler"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "kütüphanesinde": [
+      "در کتابخانهٔ…",
+      "in the … library"
+    ],
+    "kırlangıç": [
+      "پرستو (اسم)",
+      "Kırlangıç (a name; the word means swallow)"
+    ],
+    "musun": [
+      "…ی؟ (نشانهٔ پرسش، برای «تو»)",
+      "question word mu + -sun (you)"
+    ],
+    "noter": [
+      "دفترخانه، محضر",
+      "notary"
+    ],
+    "orası": [
+      "آن‌جا",
+      "there, that place"
+    ],
+    "sözleşme": [
+      "قرارداد",
+      "contract"
+    ],
+    "sır": [
+      "راز، معما",
+      "secret, mystery"
+    ],
+    "usta": [
+      "تعمیرکار، اوستا",
+      "repairman"
+    ]
+  },
+  "id": "s1e37",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_1_bu_su_o",
+    "g_a1_1_cogul",
+    "g_a1_1_soru"
+  ],
+  "level": "A1",
+  "looks": {
+    "nima": {
+      "outfit": {
+        "outer": {
+          "id": "outer_jacket_puffer"
+        }
+      }
+    }
+  },
+  "place": "flat_nima_room",
+  "props": {
+    "toolbox": {
+      "at": {
+        "flat_nima_flat": "door"
+      },
+      "kit": "tool",
+      "shown": false,
+      "terms": [],
+      "variant": "toolbox"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What isn't working?",
+      "fa": "چه چیزی کار نمی‌کند؟",
+      "kind": "comp",
+      "options": [
+        "Kombi",
+        "Telefon",
+        "Çaydanlık"
+      ],
+      "q": "Ne çalışmıyor?",
+      "why": "Nima: “Kombi çalışmıyor.”"
+    },
+    {
+      "a": 0,
+      "en": "Nima's flat isn't warm. The flat is very …",
+      "fa": "خانهٔ نیما گرم نیست. خانه خیلی … است.",
+      "kind": "word",
+      "options": [
+        "soğuk",
+        "güzel",
+        "büyük"
+      ],
+      "q": "Nima'nın evi sıcak değil. Ev çok …",
+      "why": "Nima: “Ama ev çok soğuk!”"
+    },
+    {
+      "a": 0,
+      "en": "When is the repairman coming?",
+      "fa": "تعمیرکار کی می‌آید؟",
+      "kind": "comp",
+      "options": [
+        "Yarın",
+        "Bugün",
+        "Cuma"
+      ],
+      "q": "Usta ne zaman geliyor?",
+      "why": "Tolga Bey: “Yarın usta geliyor!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-19",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "desk"
+      },
+      "kerim": "ledge",
+      "scene": "flat_nima_room",
+      "state": "cold",
+      "time": "dawn"
+    },
+    {
+      "emo": "nervous",
+      "en": "Monday. It's very cold! And in two weeks… the exam!",
+      "fa": "دوشنبه. هوا خیلی سرده! و دو هفتهٔ دیگه… امتحان!",
+      "narr": true,
+      "tr": "Pazartesi. Hava çok soğuk! Ve iki hafta sonra… sınav!",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "do": "shiver",
+        "emo": "sad",
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "phone",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": {
+        "nima": "kitchen"
+      },
+      "kerim": "ledge",
+      "scene": "flat_nima_flat",
+      "state": "cold",
+      "time": "dawn"
+    },
+    {
+      "at": "mark:boiler",
+      "do": "look",
+      "emo": "nervous",
+      "en": "The water's cold… the radiator's cold… The boiler's not working! What will Nima do?",
+      "fa": "آب سرده… شوفاژ سرده… پکیج کار نمی‌کنه! نیما چی‌کار می‌کنه؟",
+      "narr": true,
+      "react": {
+        "nima": {
+          "at": "mark:boiler",
+          "do": "look",
+          "emo": "sad"
+        }
+      },
+      "sfx": {
+        "id": "boiler_beep",
+        "word": "bip bip bip"
+      },
+      "tr": "Su soğuk… kalorifer soğuk… Kombi çalışmıyor! Nima ne yapıyor?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "ilk_is",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "proud",
+            "en": "I'm calling Tolga Bey.",
+            "fa": "به آقای تولگا زنگ می‌زنم.",
+            "ok": true,
+            "react": {
+              "kerim": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Hello? Yes, go ahead!",
+                "fa": "الو؟ بفرمایید!",
+                "tempo": 1.3,
+                "tr": "Alo? Buyurun!",
+                "via": "phone",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Tolga Bey'i arıyorum."
+          },
+          {
+            "emo": "curious",
+            "en": "I'm calling Serkan.",
+            "fa": "سرکان رو صدا می‌کنم.",
+            "react": {
+              "kerim": "curious"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "The boiler? I'll have a look! But call Tolga Bey first!",
+                "fa": "پکیج؟ خودم یه نگاهی می‌ندازم! ولی اول به آقای تولگا زنگ بزن!",
+                "tr": "Kombi mi? Ben bakıyorum! Ama önce Tolga Bey'i ara!",
+                "via": "phone",
+                "who": "serkan"
+              },
+              {
+                "emo": "happy",
+                "en": "Hello? Yes, go ahead!",
+                "fa": "الو؟ بفرمایید!",
+                "tempo": 1.3,
+                "tr": "Alo? Buyurun!",
+                "via": "phone",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Serkan'ı çağırıyorum."
+          },
+          {
+            "do": "shiver",
+            "emo": "tired",
+            "en": "A blanket… and tea. Later.",
+            "fa": "پتو… و چای. بعداً.",
+            "link": {
+              "battaniye": "obj:battaniye",
+              "çay": "obj:tea_glass"
+            },
+            "react": {
+              "kerim": {
+                "do": "flap",
+                "emo": "nervous"
+              }
+            },
+            "reply": [
+              {
+                "emo": "nervous",
+                "en": "The tea's hot… but the flat is very cold! The phone, Nima!",
+                "fa": "چای گرمه… ولی خونه خیلی سرده! تلفن، نیما!",
+                "link": {
+                  "çay": "obj:tea_glass"
+                },
+                "narr": true,
+                "tr": "Çay sıcak… ama ev çok soğuk! Telefon, Nima!",
+                "who": "kerim"
+              },
+              {
+                "emo": "happy",
+                "en": "Hello? Yes, go ahead!",
+                "fa": "الو؟ بفرمایید!",
+                "tempo": 1.3,
+                "tr": "Alo? Buyurun!",
+                "via": "phone",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Battaniye… ve çay. Sonra."
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "do": "phone",
+      "emo": "sad",
+      "en": "Hello, good morning, Tolga Bey. The boiler's not working.",
+      "fa": "الو، صبح بخیر آقای تولگا. پکیج کار نمی‌کنه.",
+      "to": "tolga",
+      "tr": "Alo, iyi günler, Tolga Bey. Kombi çalışmıyor.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "The boiler? Fine, fine! The repairman's coming tomorrow!",
+      "fa": "پکیج؟ باشه، باشه! فردا تعمیرکار میاد!",
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Kombi mi? Tamam, tamam! Yarın usta geliyor!",
+      "via": "phone",
+      "who": "tolga"
+    },
+    {
+      "emo": "curious",
+      "en": "What about the contract? The notary?",
+      "fa": "قرارداد چی؟ محضر؟",
+      "to": "tolga",
+      "tr": "Peki sözleşme? Noter?",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "The notary… yes, yes. That's tomorrow too!",
+      "fa": "محضر… آره، آره. اونم فردا!",
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Noter… evet, evet. O da yarın!",
+      "via": "phone",
+      "who": "tolga"
+    },
+    {
+      "emo": "confused",
+      "en": "Tomorrow… tomorrow… But today… here comes Serkan!",
+      "fa": "فردا… فردا… ولی امروز… سرکان داره میاد!",
+      "narr": true,
+      "sfx": {
+        "id": "knock",
+        "word": "tık tık"
+      },
+      "tr": "Yarın… yarın… Ama bugün… Serkan geliyor!",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "enter",
+          "to": "door",
+          "who": "serkan"
+        },
+        "obj": [
+          {
+            "id": "toolbox",
+            "op": "show"
+          },
+          {
+            "id": "toolbox",
+            "op": "take"
+          }
+        ],
+        "who": "serkan"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "boiler",
+          "who": "serkan"
+        },
+        "obj": [
+          {
+            "at": "boiler",
+            "id": "toolbox",
+            "op": "place"
+          }
+        ],
+        "sfx": {
+          "id": "toolbox_clank",
+          "word": "tangır tungur"
+        },
+        "who": "serkan"
+      }
+    },
+    {
+      "at": "mark:boiler",
+      "do": "point",
+      "emo": "confused",
+      "en": "What's this? E… zero… one? …It's a mystery.",
+      "fa": "این چیه؟ اِ… صفر… یک؟ …این یه معماست.",
+      "to": "nima",
+      "tr": "Bu ne? E… sıfır… bir? …Bu bir sır.",
+      "who": "serkan"
+    },
+    {
+      "at": "obj:tea_glass",
+      "do": "point",
+      "emo": "happy",
+      "en": "Do you want some tea?",
+      "fa": "چای می‌خوای؟",
+      "link": {
+        "çay": "obj:tea_glass"
+      },
+      "react": {
+        "serkan": {
+          "do": "nod",
+          "emo": "happy"
+        }
+      },
+      "to": "serkan",
+      "tr": "Çay istiyor musun?",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "sfx": {
+          "id": "phone_ring",
+          "word": "zırr zırr"
+        }
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Good morning! When's the exam?",
+      "fa": "صبح بخیر! امتحان کِیه؟",
+      "to": "nima",
+      "tr": "Günaydın! Sınav ne zaman?",
+      "via": "phone",
+      "who": "kirlangic"
+    },
+    {
+      "emo": "sad",
+      "en": "In two weeks. On the thirtieth of October. But the flat is so cold!",
+      "fa": "دو هفتهٔ دیگه. سی‌ام اکتبر. ولی خونه خیلی سرده!",
+      "to": "kirlangic",
+      "tr": "İki hafta sonra. Otuz Ekim'de. Ama ev çok soğuk!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Tomorrow we're studying at the İBB library. It's warm there!",
+      "fa": "فردا توی کتابخونهٔ شهرداری درس می‌خونیم. اون‌جا گرمه!",
+      "to": "nima",
+      "tr": "Yarın İBB kütüphanesinde çalışıyoruz. Orası sıcak!",
+      "via": "phone",
+      "who": "kirlangic"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "OK, I'm coming!",
+      "fa": "باشه، میام!",
+      "to": "kirlangic",
+      "tr": "Tamam, geliyorum!",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "at": "mark:boiler",
+        "do": "point",
+        "en": "bu is for the thing right here. Serkan stands at the boiler and asks “Bu ne?” (What's this?); the answer is “Bu kombi.” For more than one thing: bunlar, and -lar/-ler on the noun, by vowel harmony: “Bunlar ne? Bardaklar!” A yes/no question takes mı/mi/mu/mü: “Çay istiyor musun?”, “Su sıcak mı? Hayır… soğuk.”",
+        "ex": "Bu ne?",
+        "fa": "bu یعنی چیزی که همین‌جاست. سرکان کنارِ پکیج می‌ایستد و می‌پرسد «Bu ne?» (این چیه؟)؛ جواب «Bu kombi.» است. برای بیش از یک چیز: bunlar، و پسوندِ ‎-lar/-ler‎ روی اسم، طبقِ هماهنگیِ واکه‌ها: «Bunlar ne? Bardaklar!» (این‌ها چی‌اند؟ لیوان‌ها!). سؤالِ بله/نه با mı/mi/mu/mü ساخته می‌شود: «Çay istiyor musun?»، «Su sıcak mı? Hayır… soğuk.»",
+        "lesson": "g_a1_1_bu_su_o",
+        "show": "deixis"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "The boiler's cold… but the neighbours are warm.",
+      "fa": "پکیج سرده… ولی همسایه‌ها خونگرمن.",
+      "narr": true,
+      "tr": "Kombi soğuk… ama komşular sıcak.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The first cold Monday, two weeks before the exam, and the boiler won't start. Tolga Bey promises “tomorrow” on the phone, Serkan comes up with his toolbox and fails, and Kırlangıç invites Nima to study somewhere warm.",
+  "summaryFa": "اولین دوشنبهٔ سرد، دو هفته مانده به امتحان، پکیجِ خانه روشن نمی‌شود. آقای تولگا پشتِ تلفن قولِ «فردا» می‌دهد، سرکان با جعبه‌ابزارش بالا می‌آید و کاری از پیش نمی‌برد، و پرستو نیما را دعوت می‌کند که با هم جایی گرم درس بخوانند.",
+  "title": "Kombi çalışmıyor!",
+  "titleEn": "The boiler's not working!",
+  "titleFa": "پکیج کار نمی‌کند!",
+  "words": [
+    "a1-w-soguk",
+    "a1-w-sicak",
+    "a1-w-cay",
+    "a1-w-bu",
+    "a1-w-ne",
+    "a1-w-sinav",
+    "a1-w-calismak"
+  ]
+}

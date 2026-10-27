@@ -1,0 +1,697 @@
+{
+  "arc": {
+    "en": "What time is it?",
+    "fa": "ساعت چند است؟",
+    "id": "s1w05",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Saat kaç?"
+  },
+  "cast": [
+    "kirlangic",
+    "nima",
+    "rayan"
+  ],
+  "followUp": [
+    {
+      "en": "Now one more card: for Kerim! What are you writing?",
+      "fa": "حالا یه کارتِ دیگه: برای کریم! چی می‌نویسی؟",
+      "to": "nima",
+      "tr": "Şimdi bir kart daha: Kerim için! Ne yazıyorsun?",
+      "who": "kirlangic"
+    },
+    {
+      "en": "Dear Kerim, I saw you on the roof.",
+      "fa": "کریمِ عزیز، تو را روی پشت‌بام دیدم.",
+      "to": "kirlangic",
+      "tr": "Sevgili Kerim, seni çatıda gördüm.",
+      "who": "nima"
+    },
+    {
+      "en": "Nice! And then what happened?",
+      "fa": "قشنگه! بعد چی شد؟",
+      "to": "nima",
+      "tr": "Güzel! Sonra ne oldu?",
+      "who": "kirlangic"
+    },
+    {
+      "choice": {
+        "id": "fu_sonra",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Then we became friends!",
+            "fa": "بعد دوست شدیم!",
+            "ok": true,
+            "react": {
+              "kirlangic": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Perfect!",
+                "fa": "عالیه!",
+                "tr": "Mükemmel!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Sonra arkadaş olduk!"
+          },
+          {
+            "en": "Then we are becoming friends!",
+            "fa": "بعد داریم دوست می‌شیم!",
+            "react": {
+              "kirlangic": "curious"
+            },
+            "reply": [
+              {
+                "en": "Not “we are becoming”: “we became”! But nice.",
+                "fa": "«داریم می‌شیم» نه: «شدیم»! ولی قشنگه.",
+                "tr": "Oluyoruz değil: olduk! Ama güzel.",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Sonra arkadaş oluyoruz!"
+          }
+        ],
+        "to": "kirlangic"
+      }
+    }
+  ],
+  "gl": {
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a neighbourhood in Şişli)"
+    ],
+    "gününüz": [
+      "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "your day; “doğum gününüz”: your birthday"
+    ],
+    "hediyen": [
+      "کادوی تو، هدیه‌ات",
+      "your present"
+    ],
+    "kart": [
+      "کارت",
+      "card"
+    ],
+    "kartı": [
+      "کارت را",
+      "the card (object)"
+    ],
+    "ku": [
+      "کو (صدای کریم)",
+      "coo (Kerim's call)"
+    ],
+    "kutlu": [
+      "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
+    ],
+    "kırlangıç": [
+      "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "Kırlangıç (a name; the word means swallow)"
+    ],
+    "maria": [
+      "ماریا (اسم؛ خاله ماریا، همسایه‌ی طبقه‌ی پنجم)",
+      "Maria (a name: Maria Teyze, the neighbour on the fifth floor)"
+    ],
+    "metroda": [
+      "در مترو",
+      "on the metro"
+    ],
+    "moru": [
+      "بنفش را (رنگِ بنفش)",
+      "purple (as the object)"
+    ],
+    "mükemmel": [
+      "عالی، بی‌نقص",
+      "perfect"
+    ],
+    "yün": [
+      "پشم، کاموا",
+      "wool"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ],
+    "örmek": [
+      "بافتن (با میل)",
+      "to knit"
+    ],
+    "şal": [
+      "شال",
+      "shawl"
+    ]
+  },
+  "id": "s1e29",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_gecmis",
+    "g_a1_5_once_sonra",
+    "g_a1_4_belirtme"
+  ],
+  "level": "A1",
+  "place": "flat_kirlangic",
+  "props": {
+    "kalem": {
+      "at": {
+        "flat_kirlangic": {
+          "x": -0.15,
+          "y": 0.5,
+          "z": -1.3
+        }
+      },
+      "kit": "pen",
+      "terms": [
+        "a1-w-kalem"
+      ]
+    },
+    "kart": {
+      "at": {
+        "flat_kirlangic": {
+          "x": -0.3,
+          "y": 0.5,
+          "z": -1.05
+        }
+      },
+      "kit": "paper",
+      "lines": [],
+      "open": true,
+      "terms": [
+        "a1-w-mektup"
+      ],
+      "variant": "card"
+    },
+    "mor_iplik": {
+      "at": {
+        "flat_kirlangic": {
+          "x": 2.0,
+          "y": 1.02,
+          "z": -3.35
+        }
+      },
+      "color": "#A78BA8",
+      "kit": "yarn",
+      "shown": false,
+      "terms": [
+        "a1-w-mor"
+      ],
+      "variant": "strand"
+    },
+    "mor_yumak": {
+      "at": {
+        "flat_kirlangic": {
+          "x": -0.62,
+          "y": 0.5,
+          "z": -1.02
+        }
+      },
+      "color": "#A78BA8",
+      "kit": "yarn",
+      "terms": [
+        "a1-w-mor"
+      ],
+      "variant": "ball"
+    },
+    "sal": {
+      "at": {
+        "flat_kirlangic": {
+          "x": -1.6,
+          "y": 0.47,
+          "z": -1.95
+        }
+      },
+      "color": "#A78BA8",
+      "kit": "cloth",
+      "shown": false,
+      "terms": [],
+      "variant": "shawl"
+    },
+    "sardunya": {
+      "at": {
+        "flat_kirlangic": {
+          "x": -0.85,
+          "y": 0.5,
+          "z": -1.15
+        }
+      },
+      "flower": "geranium",
+      "kit": "flowers",
+      "terms": [
+        "a1-w-cicek",
+        "a1-w-hediye"
+      ],
+      "variant": "pot"
+    },
+    "turuncu_yumak": {
+      "at": {
+        "flat_kirlangic": {
+          "x": -0.49,
+          "y": 0.5,
+          "z": -1.02
+        }
+      },
+      "color": "turuncu",
+      "kit": "yarn",
+      "terms": [
+        "a1-w-turuncu"
+      ],
+      "variant": "ball"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What is Kırlangıç knitting?",
+      "fa": "پرستو چه می‌بافد؟",
+      "kind": "comp",
+      "options": [
+        "Bir şal",
+        "Bir top",
+        "Bir kart"
+      ],
+      "q": "Kırlangıç ne örüyor?",
+      "why": "Kırlangıç: “Maria Teyze için bir şal örüyorum.”"
+    },
+    {
+      "a": 0,
+      "en": "How does Nima begin the card?",
+      "fa": "نیما کارت را چطور شروع می‌کند؟",
+      "kind": "word",
+      "options": [
+        "Sevgili Maria Teyze",
+        "Merhaba Maria Teyze",
+        "İyi bayramlar"
+      ],
+      "q": "Nima karta nasıl başlıyor?",
+      "why": "Nima: “Sevgili Maria Teyze, bir ay önce İstanbul'a geldim.”"
+    },
+    {
+      "a": 0,
+      "en": "What is the last colour?",
+      "fa": "رنگِ آخر چیست؟",
+      "kind": "comp",
+      "options": [
+        "Mor",
+        "Turuncu",
+        "Pembe"
+      ],
+      "q": "Son renk ne?",
+      "why": "Kırlangıç: “Tamam: son renk mor!”"
+    }
+  ],
+  "ref": "A1_5",
+  "releaseDate": "2026-10-09",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "kirlangic": "sofa",
+        "nima": "table",
+        "rayan": "floor"
+      },
+      "kerim": "balcony_rail",
+      "scene": "flat_kirlangic",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "This home… wool! Wool everywhere!",
+      "fa": "این خونه… کاموا! همه‌جا کاموا!",
+      "narr": true,
+      "tr": "Bu ev… yün! Her yerde yün!",
+      "who": "kerim"
+    },
+    {
+      "do": "knit",
+      "emo": "happy",
+      "en": "I'm knitting a shawl for Maria Teyze.",
+      "fa": "دارم برای خاله ماریا یه شال می‌بافم.",
+      "loop": true,
+      "obj": [
+        {
+          "id": "orgu",
+          "op": "take"
+        }
+      ],
+      "sfx": {
+        "id": "knitting_clicks",
+        "word": "tık tık tık"
+      },
+      "to": "nima",
+      "tr": "Maria Teyze için bir şal örüyorum.",
+      "who": "kirlangic"
+    },
+    {
+      "emo": "happy",
+      "en": "Ball!",
+      "fa": "توپ!",
+      "obj": [
+        {
+          "id": "top",
+          "ms": 1400,
+          "op": "go",
+          "to": "table"
+        }
+      ],
+      "react": {
+        "nima": "laugh"
+      },
+      "to": "nima",
+      "tr": "Top!",
+      "who": "rayan"
+    },
+    {
+      "at": "obj:mor_yumak",
+      "do": "point",
+      "emo": "curious",
+      "en": "Which colour? Purple or orange?",
+      "fa": "کدوم رنگ؟ بنفش یا نارنجی؟",
+      "link": {
+        "mor": "obj:mor_yumak",
+        "turuncu": "obj:turuncu_yumak"
+      },
+      "to": "nima",
+      "tr": "Hangi renk? Mor mu, turuncu mu?",
+      "who": "kirlangic"
+    },
+    {
+      "choice": {
+        "id": "son_renk",
+        "kind": "action",
+        "options": [
+          {
+            "at": "obj:mor_yumak",
+            "do": "point",
+            "emo": "happy",
+            "en": "Purple! Maria Teyze loves purple.",
+            "fa": "بنفش! خاله ماریا بنفش رو دوست داره.",
+            "link": {
+              "mor": "obj:mor_yumak"
+            },
+            "ok": true,
+            "react": {
+              "kirlangic": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "nod",
+                "emo": "happy",
+                "en": "That's right!",
+                "fa": "درسته!",
+                "tr": "Doğru!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Mor! Maria Teyze moru seviyor."
+          },
+          {
+            "do": "me",
+            "emo": "happy",
+            "en": "Orange! I love orange.",
+            "fa": "نارنجی! من نارنجی رو دوست دارم.",
+            "link": {
+              "turuncu": "obj:turuncu_yumak"
+            },
+            "react": {
+              "kirlangic": "laugh"
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "But the present isn't for you…",
+                "fa": "ولی کادو که برای تو نیست…",
+                "tr": "Ama hediye senin için değil…",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Turuncu! Ben turuncuyu seviyorum."
+          },
+          {
+            "do": "shrug",
+            "emo": "shy",
+            "en": "I don't know, you choose.",
+            "fa": "نمی‌دونم، تو انتخاب کن.",
+            "react": {
+              "kirlangic": "curious"
+            },
+            "reply": [
+              {
+                "emo": "curious",
+                "en": "All right… I'll choose.",
+                "fa": "باشه… خودم انتخاب می‌کنم.",
+                "tr": "Peki… ben seçiyorum.",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Bilmiyorum, sen seç."
+          }
+        ],
+        "to": "kirlangic"
+      }
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "All right: the last colour is purple!",
+      "fa": "باشه: رنگِ آخر بنفش!",
+      "obj": [
+        {
+          "id": "orgu",
+          "op": "set",
+          "set": {
+            "rows": 30
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Tamam: son renk mor!",
+      "who": "kirlangic"
+    },
+    {
+      "at": "obj:sardunya",
+      "do": "point",
+      "emo": "happy",
+      "en": "Your present: flowers and a card. Write the card in Turkish!",
+      "fa": "کادوی تو: گل و یه کارت. کارت رو ترکی بنویس!",
+      "link": {
+        "kartı": "obj:kart",
+        "çiçek": "obj:sardunya"
+      },
+      "to": "nima",
+      "tr": "Senin hediyen: çiçek ve bir kart. Kartı Türkçe yaz!",
+      "who": "kirlangic"
+    },
+    {
+      "at": "obj:kart",
+      "do": "write",
+      "emo": "happy",
+      "en": "Dear Maria Teyze, a month ago I came to Istanbul.",
+      "fa": "خاله ماریای عزیز، یک ماه پیش به استانبول آمدم.",
+      "obj": [
+        {
+          "id": "kalem",
+          "op": "take"
+        },
+        {
+          "id": "kart",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Sevgili Maria Teyze,",
+              "Bir ay önce İstanbul'a geldim."
+            ]
+          }
+        }
+      ],
+      "sfx": {
+        "id": "pen_scratch",
+        "word": "cız cız"
+      },
+      "to": "kirlangic",
+      "tr": "Sevgili Maria Teyze, bir ay önce İstanbul'a geldim.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Nice! And then?",
+      "fa": "قشنگه! بعدش؟",
+      "to": "nima",
+      "tr": "Güzel! Sonra?",
+      "who": "kirlangic"
+    },
+    {
+      "at": "obj:kart",
+      "do": "write",
+      "emo": "happy",
+      "en": "I moved to Feriköy. I saw you on the metro… then we became neighbours!",
+      "fa": "به فری‌کؤی اسباب‌کشی کردم. شما را در مترو دیدم… بعد همسایه شدیم!",
+      "obj": [
+        {
+          "id": "kart",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Sevgili Maria Teyze,",
+              "Bir ay önce İstanbul'a geldim.",
+              "Feriköy'e taşındım.",
+              "Sizi metroda gördüm… sonra komşu olduk!"
+            ]
+          }
+        }
+      ],
+      "to": "kirlangic",
+      "tr": "Feriköy'e taşındım. Sizi metroda gördüm… sonra komşu olduk!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Ball! Ball!",
+      "fa": "توپ! توپ!",
+      "obj": [
+        {
+          "id": "top",
+          "ms": 1400,
+          "op": "go",
+          "to": "floor"
+        }
+      ],
+      "react": {
+        "kirlangic": "laugh",
+        "nima": "laugh"
+      },
+      "to": "nima",
+      "tr": "Top! Top!",
+      "who": "rayan"
+    },
+    {
+      "at": "obj:kart",
+      "do": "write",
+      "emo": "proud",
+      "en": "Happy birthday!",
+      "fa": "تولدتان مبارک!",
+      "obj": [
+        {
+          "id": "kart",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Sevgili Maria Teyze,",
+              "Bir ay önce İstanbul'a geldim.",
+              "Feriköy'e taşındım.",
+              "Sizi metroda gördüm… sonra komşu olduk!",
+              "Doğum gününüz kutlu olsun!",
+              "Nima"
+            ]
+          }
+        }
+      ],
+      "to": "kirlangic",
+      "tr": "Doğum gününüz kutlu olsun!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:kart",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "Perfect! This isn't a card… it's a letter!",
+      "fa": "عالیه! این کارت نیست… یه نامه‌ست!",
+      "link": {
+        "kart": "obj:kart",
+        "mektup": "obj:kart"
+      },
+      "obj": [
+        {
+          "id": "kart",
+          "op": "take"
+        }
+      ],
+      "react": {
+        "nima": "proud"
+      },
+      "to": "nima",
+      "tr": "Mükemmel! Bu kart değil… bir mektup!",
+      "who": "kirlangic"
+    },
+    {
+      "spot": {
+        "at": "obj:kart",
+        "en": "A letter tells what happened, so it is full of -DI: geldim, taşındım, gördüm (I came, I moved, I saw), olduk (we became). The person comes at the end: -DIm I, -DIn you, -DI he or she, -DIk we. Geldim, geldin, geldi, geldik.",
+        "ex": "Feriköy'e taşındım.",
+        "fa": "نامه از چیزهایی می‌گوید که اتفاق افتاده، پس پر از -DI است: geldim، taşındım، gördüm (آمدم، اسباب‌کشی کردم، دیدم)، olduk (شدیم). شخص در آخر می‌آید، مثلِ فارسی: -DIm من، -DIn تو، -DI او، -DIk ما. Geldim، geldin، geldi، geldik: آمدم، آمدی، آمد، آمدیم.",
+        "lesson": "g_a1_5_gecmis"
+      }
+    },
+    {
+      "at": {
+        "kirlangic": "sofa",
+        "nima": "floor",
+        "rayan": "table"
+      },
+      "kerim": "balcony_rail",
+      "scene": "flat_kirlangic",
+      "time": "night"
+    },
+    {
+      "beat": {
+        "do": "sleep",
+        "emo": "tired",
+        "loop": true,
+        "obj": [
+          {
+            "id": "orgu",
+            "op": "hide"
+          },
+          {
+            "id": "sal",
+            "op": "show"
+          },
+          {
+            "id": "mor_iplik",
+            "op": "show"
+          }
+        ],
+        "who": "rayan"
+      }
+    },
+    {
+      "cam": "close",
+      "emo": "happy",
+      "en": "Tomorrow… eighty years! Coo-coo!",
+      "fa": "فردا… هشتاد سالگی! کو-کو!",
+      "narr": true,
+      "tr": "Yarın… seksen yaş! Ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The day before the party, at Kırlangıç's flat full of yarn: she knits a shawl for Maria Teyze, Rayan plays with a yarn ball, and Nima writes the birthday card in Turkish, line by line, in the past tense.",
+  "summaryFa": "یک روز قبل از جشن، در خانه‌ی پر از کاموای پرستو: او برای خاله ماریا شال می‌بافد، رایان با یک گلوله‌ی کاموا بازی می‌کند و نیما کارتِ تولد را به ترکی می‌نویسد، خط به خط، با زمانِ گذشته.",
+  "title": "Sevgili Maria Teyze",
+  "titleEn": "Dear Maria Teyze",
+  "titleFa": "خاله ماریای عزیز",
+  "words": [
+    "a1-w-sevgili",
+    "a1-w-yazmak",
+    "a1-w-mektup",
+    "a1-w-gormek",
+    "a1-w-olmak",
+    "a1-w-hediye",
+    "a1-w-cicek",
+    "a1-w-mor"
+  ]
+}

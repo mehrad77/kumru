@@ -1,0 +1,602 @@
+{
+  "ambience": [
+    "street_far",
+    "corridor_murmur"
+  ],
+  "camera": {
+    "wide": {
+      "w": 9.6,
+      "x": 0,
+      "z": -1.6
+    }
+  },
+  "district": "Taksim, Beyoğlu",
+  "id": "class504",
+  "marks": {
+    "board": {
+      "x": -1.45,
+      "z": -2.6
+    },
+    "desk_alex": {
+      "x": 3.0,
+      "z": -2.1
+    },
+    "desk_dilnoza": {
+      "x": 4.3,
+      "z": -2.1
+    },
+    "desk_nima": {
+      "x": 1.05,
+      "z": -1.1
+    },
+    "desk_parvaneh": {
+      "x": 2.35,
+      "z": -1.1
+    },
+    "desk_yusuf": {
+      "x": 1.7,
+      "z": -2.1
+    },
+    "door": {
+      "door": "kapi",
+      "out": {
+        "x": -4.3,
+        "z": -3.8
+      },
+      "x": -4.3,
+      "z": -2.6
+    },
+    "examinee": {
+      "facing": "l",
+      "in": [
+        "facing",
+        "exam"
+      ],
+      "seat": 0.45,
+      "x": -1.2,
+      "z": -0.4
+    },
+    "examiner": {
+      "facing": "r",
+      "in": [
+        "facing",
+        "exam"
+      ],
+      "seat": 0.45,
+      "x": -2.4,
+      "z": -0.4
+    },
+    "front_desk": {
+      "facing": "l",
+      "seat": 0.45,
+      "x": -1.55,
+      "z": -1.8
+    },
+    "ledge": {
+      "x": 2.33,
+      "y": 0.97,
+      "z": -3.2
+    },
+    "map": {
+      "x": 0.5,
+      "z": -2.6
+    },
+    "seat_1": {
+      "seat": 0.45,
+      "x": 0.5,
+      "z": -1.3
+    },
+    "seat_2": {
+      "seat": 0.45,
+      "x": 1.8,
+      "z": -1.3
+    },
+    "seat_3": {
+      "seat": 0.45,
+      "x": 1.15,
+      "z": -2.3
+    },
+    "seat_4": {
+      "seat": 0.45,
+      "x": 2.45,
+      "z": -2.3
+    },
+    "seat_5": {
+      "seat": 0.45,
+      "x": 3.75,
+      "z": -2.3
+    },
+    "seat_6": {
+      "seat": 0.45,
+      "x": 3.1,
+      "z": -1.3
+    },
+    "teacher": {
+      "facing": "r",
+      "x": -2.3,
+      "z": -2.4
+    },
+    "teacher_desk": {
+      "facing": "l",
+      "x": -1.3,
+      "z": -1.2
+    },
+    "wall": {
+      "x": -1.85,
+      "z": -2.75
+    },
+    "window_out": {
+      "air": true,
+      "x": 3.33,
+      "y": 1.55,
+      "z": -3.35
+    }
+  },
+  "motif": "school",
+  "name": {
+    "en": "Class 504",
+    "fa": "کلاسِ ۵۰۴",
+    "tr": "Sınıf 504"
+  },
+  "perch": "ledge",
+  "pieces": [
+    {
+      "h": 400,
+      "kit": "skyline",
+      "w": 3000,
+      "which": "city",
+      "x": 0,
+      "z": -16
+    },
+    {
+      "a": "#CDBFA6",
+      "b": "#C2B39A",
+      "d": 600,
+      "kit": "floor",
+      "tile": 50,
+      "w": 1200,
+      "x": 0,
+      "z": -2.9
+    },
+    {
+      "h": 400,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 210,
+          "w": 95,
+          "x": -430,
+          "y": 0
+        },
+        {
+          "h": 135,
+          "w": 90,
+          "x": 155,
+          "y": 95
+        },
+        {
+          "h": 135,
+          "w": 90,
+          "x": 255,
+          "y": 95
+        },
+        {
+          "h": 135,
+          "w": 90,
+          "x": 355,
+          "y": 95
+        }
+      ],
+      "w": 1100,
+      "x": 0,
+      "z": -3.1
+    },
+    {
+      "id": "kapi",
+      "kit": "door",
+      "number": "504",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "class",
+      "x": -4.3,
+      "z": -3.09
+    },
+    {
+      "h": 135,
+      "id": "pencere",
+      "kit": "window",
+      "terms": [
+        "seed-w02"
+      ],
+      "view": false,
+      "w": 90,
+      "x": 1.55,
+      "y": 0.95,
+      "z": -3.09
+    },
+    {
+      "h": 135,
+      "kit": "window",
+      "view": false,
+      "w": 90,
+      "x": 2.55,
+      "y": 0.95,
+      "z": -3.09
+    },
+    {
+      "h": 135,
+      "kit": "window",
+      "view": false,
+      "w": 90,
+      "x": 3.55,
+      "y": 0.95,
+      "z": -3.09
+    },
+    {
+      "h": 50,
+      "kit": "heater",
+      "n": 3,
+      "w": 90,
+      "x": 2.55,
+      "z": -3.06
+    },
+    {
+      "h": 110,
+      "id": "tahta",
+      "kit": "board",
+      "terms": [
+        "a1-w-tahta",
+        "a1-w-yazi-tahtasi"
+      ],
+      "variant": "white",
+      "w": 220,
+      "x": -2.0,
+      "y": 0.95,
+      "z": -3.08
+    },
+    {
+      "h": 75,
+      "id": "wall_map",
+      "kit": "board",
+      "labels": [
+        "Şişli",
+        "Feriköy",
+        "Beşiktaş",
+        "Kadıköy",
+        "Osmanbey"
+      ],
+      "style": "city",
+      "terms": [
+        "a1-w-harita"
+      ],
+      "variant": "map",
+      "w": 100,
+      "x": 0.5,
+      "y": 1.15,
+      "z": -3.08
+    },
+    {
+      "id": "saat",
+      "kit": "clock",
+      "terms": [
+        "a1-w-saat",
+        "a1-w-duvar"
+      ],
+      "time": "9:10",
+      "x": -0.4,
+      "y": 2.2,
+      "z": -3.08
+    },
+    {
+      "id": "teacher_desk",
+      "kit": "desk",
+      "terms": [
+        "a1-w-masa"
+      ],
+      "variant": "teacher",
+      "w": 140,
+      "x": -2.6,
+      "z": -1.55
+    },
+    {
+      "kit": "chair",
+      "variant": "office",
+      "x": -2.75,
+      "z": -2.3
+    },
+    {
+      "facing": "l",
+      "kit": "chair",
+      "variant": "school",
+      "x": -1.55,
+      "z": -1.8
+    },
+    {
+      "gap": 130,
+      "id": "masa",
+      "kit": "desk",
+      "n": 3,
+      "terms": [
+        "a1-w-masa",
+        "a1-w-sira"
+      ],
+      "variant": "school",
+      "x": 1.8,
+      "z": -0.95
+    },
+    {
+      "gap": 130,
+      "kit": "desk",
+      "n": 3,
+      "variant": "school",
+      "x": 2.45,
+      "z": -1.95
+    },
+    {
+      "gap": 130,
+      "id": "sandalye",
+      "kit": "chair",
+      "n": 3,
+      "terms": [
+        "a1-w-sandalye"
+      ],
+      "variant": "school",
+      "x": 1.8,
+      "z": -1.3
+    },
+    {
+      "gap": 130,
+      "kit": "chair",
+      "n": 3,
+      "variant": "school",
+      "x": 2.45,
+      "z": -2.3
+    },
+    {
+      "facing": "r",
+      "in": [
+        "facing",
+        "exam"
+      ],
+      "kit": "chair",
+      "variant": "school",
+      "x": -2.4,
+      "z": -0.4
+    },
+    {
+      "facing": "l",
+      "in": [
+        "facing",
+        "exam"
+      ],
+      "kit": "chair",
+      "variant": "school",
+      "x": -1.2,
+      "z": -0.4
+    },
+    {
+      "kit": "ceiling_light",
+      "x": -1.6,
+      "y": 3.1,
+      "z": -1.4
+    },
+    {
+      "kit": "ceiling_light",
+      "x": 2.3,
+      "y": 3.1,
+      "z": -1.4
+    },
+    {
+      "h": 150,
+      "kit": "plant",
+      "x": -3.9,
+      "z": 0.75
+    }
+  ],
+  "props": {
+    "agac": {
+      "at": {
+        "x": -1.35,
+        "y": 2.12,
+        "z": -3.07
+      },
+      "in": [
+        "trees_on_wall"
+      ],
+      "kit": "paper",
+      "terms": [
+        "a1-w-aile"
+      ],
+      "variant": "family_tree"
+    },
+    "agaclar": {
+      "at": {
+        "x": -2.4,
+        "y": 2.12,
+        "z": -3.07
+      },
+      "in": [
+        "trees_on_wall"
+      ],
+      "kit": "paper",
+      "n": 2,
+      "terms": [
+        "a1-w-aile",
+        "a1-w-agac"
+      ],
+      "variant": "family_tree"
+    },
+    "bilgisayar": {
+      "at": {
+        "x": -3.0,
+        "y": 0.76,
+        "z": -1.65
+      },
+      "kit": "device",
+      "terms": [
+        "a1-w-bilgisayar"
+      ],
+      "variant": "computer"
+    },
+    "cantalar": {
+      "at": {
+        "x": 4.55,
+        "y": 0,
+        "z": -2.7
+      },
+      "in": [
+        "full"
+      ],
+      "kit": "bag",
+      "n": 2,
+      "terms": [
+        "a1-w-canta"
+      ]
+    },
+    "cay": {
+      "at": {
+        "x": -2.0,
+        "y": 0.76,
+        "z": -1.6
+      },
+      "hot": true,
+      "in": [
+        "empty"
+      ],
+      "kit": "tea",
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bardak"
+      ],
+      "variant": "glass"
+    },
+    "cetvel": {
+      "at": {
+        "x": 0.45,
+        "y": 0.72,
+        "z": -0.92
+      },
+      "kit": "stationery",
+      "terms": [
+        "a1-w-cetvel"
+      ],
+      "variant": "ruler"
+    },
+    "defterler": {
+      "at": {
+        "x": 3.15,
+        "y": 0.72,
+        "z": -1.0
+      },
+      "kit": "book",
+      "n": 3,
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "stack"
+    },
+    "farsca_jar": {
+      "at": {
+        "x": 1.95,
+        "y": 0.72,
+        "z": -1.0
+      },
+      "kit": "jar",
+      "label": "FARSÇA: 1 LİRA",
+      "n": 1,
+      "shown": false,
+      "terms": [
+        "a1-w-lira"
+      ],
+      "variant": "coins"
+    },
+    "hoca_cantasi": {
+      "at": {
+        "x": -3.6,
+        "y": 0,
+        "z": -1.5
+      },
+      "in": [
+        "empty"
+      ],
+      "kit": "bag",
+      "terms": [
+        "a1-w-canta"
+      ]
+    },
+    "montlar": {
+      "at": {
+        "x": 4.45,
+        "y": 1.75,
+        "z": -3.07
+      },
+      "in": [
+        "full"
+      ],
+      "kit": "cloth",
+      "n": 2,
+      "terms": [
+        "a1-w-mont",
+        "a1-w-ceket"
+      ],
+      "variant": "coat"
+    },
+    "sinav_kagitlari": {
+      "at": {
+        "x": -2.45,
+        "y": 0.76,
+        "z": -1.6
+      },
+      "in": [
+        "exam"
+      ],
+      "kit": "paper",
+      "terms": [
+        "a1-w-sinav"
+      ],
+      "variant": "stack"
+    },
+    "televizyon_yok": {
+      "at": {
+        "x": -3.6,
+        "y": 1.6,
+        "z": -3.07
+      },
+      "kit": "device",
+      "shown": false,
+      "terms": [
+        "a1-w-televizyon"
+      ],
+      "variant": "tv"
+    }
+  },
+  "size": {
+    "d": 3.4,
+    "w": 10
+  },
+  "states": {
+    "empty": {
+      "group": "occupancy"
+    },
+    "exam": {
+      "group": "layout"
+    },
+    "facing": {
+      "group": "layout"
+    },
+    "full": {
+      "default": true,
+      "group": "occupancy"
+    },
+    "trees_on_wall": {
+      "group": "wall"
+    }
+  },
+  "surface": "tile",
+  "times": [
+    "day",
+    "overcast"
+  ],
+  "v": 1
+}

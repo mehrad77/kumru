@@ -1,0 +1,5 @@
+/* The dev gallery of Kerim (gallery.ts) */
+@layer features {
+.kg{position:fixed;inset:0;z-index:200;overflow:auto;background:var(--bg);color:var(--ink);padding:16px 16px 80px}.kg-h{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.kg-h h2{margin:0 auto 0 0;font:400 28px var(--sans)}
+.kg h3{font:500 14px var(--sans);color:var(--muted);margin:18px 0 6px}.kg-r{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end}.kg-c{margin:0;display:grid;justify-items:center;gap:4px;cursor:pointer;padding:8px}.kg-c figcaption{font-size:11px;color:var(--muted)}
+}

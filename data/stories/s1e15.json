@@ -1,0 +1,562 @@
+{
+  "arc": {
+    "en": "A new home, a new way",
+    "fa": "خانه‌ی نو، راهِ نو",
+    "id": "s1w03",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Yeni ev, yeni yol"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "parvaneh",
+    "dilnoza"
+  ],
+  "extras": [
+    "yusuf",
+    "alex"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, what do you want to do in Istanbul?",
+      "fa": "نیما، تو استانبول می‌خواید چی‌کار کنید؟",
+      "to": "nima",
+      "tr": "Nima, İstanbul'da ne yapmak istiyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_istek",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I want to drink tea on the Bosphorus.",
+            "fa": "می‌خوام کنار بسفر چای بخورم.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very nice!",
+                "fa": "خیلی خوب!",
+                "tr": "Çok güzel!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Boğaz'da çay içmek istiyorum."
+          },
+          {
+            "en": "I'm drinking tea on the Bosphorus.",
+            "fa": "دارم کنار بسفر چای می‌خورم.",
+            "react": {
+              "zafer": {
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "en": "Right now? No… you want to drink it!",
+                "fa": "همین الان؟ نه… می‌خواید بخورید!",
+                "tr": "Şimdi mi? Hayır… içmek istiyorsunuz!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Boğaz'da çay içiyorum."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "And now? It's raining!",
+      "fa": "حالا چی؟ داره بارون میاد!",
+      "to": "nima",
+      "tr": "Peki şimdi? Yağmur yağıyor!",
+      "who": "zafer"
+    },
+    {
+      "en": "Now… I want an umbrella!",
+      "fa": "حالا… چتر می‌خوام!",
+      "to": "zafer",
+      "tr": "Şimdi… şemsiye istiyorum!",
+      "who": "nima"
+    },
+    {
+      "en": "Me too!",
+      "fa": "منم!",
+      "to": "nima",
+      "tr": "Ben de!",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "adalar": [
+      "جزیره‌ها (جزایرِ پرنس، نزدیکِ استانبول)",
+      "the Islands (the Princes' Islands off Istanbul)"
+    ],
+    "boğaz": [
+      "بسفر",
+      "the Bosphorus"
+    ],
+    "bulut": [
+      "ابر",
+      "cloud"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a district of Şişli)"
+    ],
+    "galata": [
+      "گالاتا (برجِ گالاتا)",
+      "Galata (the Galata Tower)"
+    ],
+    "musun": [
+      "(نشانه‌ی سؤال) …ی؟",
+      "(question word) are you…?"
+    ],
+    "osmanbey": [
+      "عثمان‌بی (محله و ایستگاهِ مترو در شیشلی)",
+      "Osmanbey (a district and metro stop in Şişli)"
+    ],
+    "tane": [
+      "دانه؛ تا (bir tane: یکی)",
+      "piece (bir tane: just one)"
+    ],
+    "zafer": [
+      "ظفر (اسم؛ به معنیِ پیروزی)",
+      "Zafer (a name; also the word for victory)"
+    ]
+  },
+  "id": "s1e15",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_3_mak_istemek",
+    "g_a1_3_simdiki",
+    "g_a1_3_unsuz"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "buyuk_semsiye": {
+      "at": {
+        "tomer_gate": {
+          "x": -0.35,
+          "y": 0,
+          "z": 0.1
+        }
+      },
+      "kit": "umbrella",
+      "open": false,
+      "shown": false,
+      "terms": [
+        "a1-w-semsiye"
+      ],
+      "w": 160
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What does Dilnoza want to do?",
+      "fa": "دلنوزا می‌خواهد چه کار کند؟",
+      "kind": "comp",
+      "options": [
+        "Türkçe konuşmak",
+        "Galata'ya çıkmak",
+        "Uyumak"
+      ],
+      "q": "Dilnoza ne yapmak istiyor?",
+      "why": "Dilnoza: “Ben… Türkçe konuşmak istiyorum.”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “I … to drink tea on the Bosphorus.” Which word fits? (istemek: to want)",
+      "fa": "نیما: «من … کنار بسفر چای بنوشم.» کدام کلمه درست است؟ (istemek: خواستن)",
+      "kind": "word",
+      "options": [
+        "istiyorum",
+        "konuşuyorum",
+        "yağıyor"
+      ],
+      "q": "Nima: “Ben Boğaz'da çay içmek …”",
+      "why": "Nima: “Ben Boğaz'da çay içmek istiyorum.”"
+    },
+    {
+      "a": 0,
+      "en": "It's raining. Who opens an umbrella?",
+      "fa": "باران می‌بارد. چه کسی چتر باز می‌کند؟",
+      "kind": "comp",
+      "options": [
+        "Dilnoza",
+        "Parvane",
+        "Zafer Hoca"
+      ],
+      "q": "Yağmur yağıyor. Kim şemsiye açıyor?",
+      "why": "Dilnoza: “Şemsiye istiyor musun?”"
+    }
+  ],
+  "ref": "A1_3",
+  "releaseDate": "2026-09-23",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "desk_alex",
+        "dilnoza": "desk_dilnoza",
+        "nima": "desk_nima",
+        "parvaneh": "desk_parvaneh",
+        "yusuf": "desk_yusuf",
+        "zafer": "teacher"
+      },
+      "scene": "class504",
+      "time": "overcast"
+    },
+    {
+      "en": "Good morning! The weather… cloudy. I can't see any sun.",
+      "fa": "صبح بخیر! هوا… ابریه. آفتاب نمی‌بینم.",
+      "narr": true,
+      "tr": "Günaydın! Hava… bulut var. Güneş görmüyorum.",
+      "who": "kerim"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "What do you want to do in Istanbul?",
+      "fa": "تو استانبول می‌خواید چی‌کار کنید؟",
+      "to": "all",
+      "tr": "İstanbul'da ne yapmak istiyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "I want to go up Galata! I want to go to the Bosphorus! Wander around the Islands…",
+      "fa": "می‌خوام برم بالای گالاتا! می‌خوام برم کنار بسفر! تو جزیره‌ها بگردم…",
+      "to": "zafer",
+      "tr": "Galata'ya çıkmak istiyorum! Boğaz'a gitmek istiyorum! Adalar'da gezmek…",
+      "who": "parvaneh"
+    },
+    {
+      "do": "count",
+      "emo": "laugh",
+      "en": "Just one, Parvaneh! …Nima, you?",
+      "fa": "فقط یکی، پروانه! …نیما، شما؟",
+      "n": 1,
+      "react": {
+        "parvaneh": "laugh"
+      },
+      "to": "parvaneh",
+      "tr": "Bir tane, Parvane! …Nima, siz?",
+      "who": "zafer"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "I want to drink tea on the Bosphorus.",
+      "fa": "من می‌خوام کنار بسفر چای بخورم.",
+      "to": "zafer",
+      "tr": "Ben Boğaz'da çay içmek istiyorum.",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "do": "sleep",
+        "emo": "tired",
+        "who": "alex"
+      }
+    },
+    {
+      "at": "ch:alex",
+      "do": "point",
+      "emo": "laugh",
+      "en": "Alex wants to sleep!",
+      "fa": "الکس می‌خواد بخوابه!",
+      "react": {
+        "nima": "laugh",
+        "parvaneh": "laugh"
+      },
+      "to": "all",
+      "tr": "Alex uyumak istiyor!",
+      "who": "zafer"
+    },
+    {
+      "emo": "shy",
+      "en": "I… want to speak Turkish.",
+      "fa": "من… می‌خوام ترکی حرف بزنم.",
+      "to": "zafer",
+      "tr": "Ben… Türkçe konuşmak istiyorum.",
+      "who": "dilnoza"
+    },
+    {
+      "do": "thumb_up",
+      "emo": "proud",
+      "en": "Very good, Dilnoza. You're speaking now!",
+      "fa": "خیلی خوب، دلنوزا. الان دارید حرف می‌زنید!",
+      "react": {
+        "dilnoza": "shy"
+      },
+      "to": "dilnoza",
+      "tr": "Çok güzel, Dilnoza. Şimdi konuşuyorsunuz!",
+      "who": "zafer"
+    },
+    {
+      "at": {
+        "dilnoza": "street",
+        "nima": "walk_r"
+      },
+      "scene": "tomer_gate",
+      "state": "autumn",
+      "time": "overcast"
+    },
+    {
+      "emo": "shy",
+      "en": "It's raining! …Do you want the umbrella?",
+      "env": [
+        "thunder",
+        "state:rain",
+        "weather:rain"
+      ],
+      "fa": "داره بارون میاد! …چتر می‌خوای؟",
+      "link": {
+        "şemsiye": "obj:buyuk_semsiye"
+      },
+      "obj": [
+        {
+          "id": "buyuk_semsiye",
+          "op": "show"
+        },
+        {
+          "id": "buyuk_semsiye",
+          "op": "take"
+        },
+        {
+          "id": "buyuk_semsiye",
+          "op": "set",
+          "set": {
+            "open": true
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder"
+        },
+        {
+          "id": "rain"
+        }
+      ],
+      "to": "nima",
+      "tr": "Yağmur yağıyor! …Şemsiye istiyor musun?",
+      "who": "dilnoza"
+    },
+    {
+      "choice": {
+        "id": "semsiye",
+        "kind": "action",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Yes, please! Thanks so much.",
+            "fa": "آره، لطفاً! خیلی ممنون.",
+            "ok": true,
+            "react": {
+              "dilnoza": {
+                "do": "beckon",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "beckon",
+                "emo": "happy",
+                "en": "Come, come!",
+                "fa": "بیا، بیا!",
+                "move": {
+                  "how": "walk",
+                  "to": "walk_l",
+                  "who": "nima"
+                },
+                "to": "nima",
+                "tr": "Gel, gel!",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Evet, lütfen! Çok teşekkürler."
+          },
+          {
+            "do": "shake_head",
+            "emo": "proud",
+            "en": "No, I don't want it.",
+            "fa": "نه، نمی‌خوام.",
+            "move": {
+              "how": "walk",
+              "to": "walk_l",
+              "who": "nima"
+            },
+            "react": {
+              "dilnoza": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "do": "shiver",
+                  "emo": "sad",
+                  "move": {
+                    "how": "walk",
+                    "to": "walk_r",
+                    "who": "nima"
+                  },
+                  "who": "nima"
+                }
+              },
+              {
+                "emo": "laugh",
+                "en": "Do you want it… now?",
+                "fa": "حالا… می‌خوای؟",
+                "react": {
+                  "nima": "shy"
+                },
+                "to": "nima",
+                "tr": "İstiyor musun… şimdi?",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Hayır, istemiyorum."
+          },
+          {
+            "emo": "neutral",
+            "en": "Give it here!",
+            "fa": "بده!",
+            "react": {
+              "dilnoza": {
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "at": "ch:nima",
+                "do": "give",
+                "emo": "sad",
+                "en": "…Here.",
+                "fa": "…بگیر.",
+                "obj": [
+                  {
+                    "id": "buyuk_semsiye",
+                    "op": "give",
+                    "to": "nima"
+                  }
+                ],
+                "react": {
+                  "nima": "sorry"
+                },
+                "to": "nima",
+                "tr": "…Al.",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Ver!"
+          }
+        ],
+        "to": "dilnoza"
+      }
+    },
+    {
+      "at": {
+        "dilnoza": "walk_l",
+        "nima": "walk_c"
+      },
+      "scene": "istiklal_taksim",
+      "state": "rain",
+      "time": "overcast",
+      "weather": "rain"
+    },
+    {
+      "emo": "curious",
+      "en": "You're going to Feriköy, aren't you?",
+      "fa": "تو می‌ری فری‌کؤی، نه؟",
+      "move": {
+        "how": "walk",
+        "to": "walk_r",
+        "who": "dilnoza"
+      },
+      "to": "nima",
+      "tr": "Sen Feriköy'e gidiyorsun, değil mi?",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "happy",
+      "en": "Yes. And you?",
+      "fa": "آره. تو چی؟",
+      "move": {
+        "how": "walk",
+        "to": "walk_c",
+        "who": "nima"
+      },
+      "to": "dilnoza",
+      "tr": "Evet. Sen?",
+      "who": "nima"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Me too, to Osmanbey!",
+      "fa": "منم می‌رم عثمان‌بی!",
+      "react": {
+        "nima": {
+          "do": "nod",
+          "emo": "happy"
+        }
+      },
+      "to": "nima",
+      "tr": "Ben de Osmanbey'e!",
+      "who": "dilnoza"
+    },
+    {
+      "spot": {
+        "en": "-mAk is a verb's dictionary form: içmek, çıkmak, konuşmak. Put it before istiyorum and it's a wish: çay içmek istiyorum, I want to drink tea. Without a verb, istemek wants a thing: Şemsiye istiyor musun? The negative is istemiyorum. And a hard t softens before a vowel: gitmek → gidiyorum.",
+        "ex": "Ben Boğaz'da çay içmek istiyorum.",
+        "fa": "‏-mAk شکلِ مصدرِ فعل است: içmek، çıkmak، konuşmak. اگر قبل از istiyorum بیاید، آرزو می‌شود: çay içmek istiyorum یعنی «می‌خواهم چای بنوشم». بدونِ فعل، istemek یک چیز را می‌خواهد: Şemsiye istiyor musun? (چتر می‌خواهی؟). منفی‌اش istemiyorum است. و t سخت قبل از حرفِ صدادار نرم می‌شود و d می‌شود: gitmek ← gidiyorum.",
+        "lesson": "g_a1_3_mak_istemek"
+      }
+    },
+    {
+      "emo": "sad",
+      "en": "Kerim wants an umbrella too…",
+      "fa": "کریم هم چتر می‌خواد…",
+      "narr": true,
+      "tr": "Kerim de şemsiye istiyor…",
+      "who": "kerim"
+    }
+  ],
+  "summary": "In class everyone says what they want to do in Istanbul: Nima wants tea on the Bosphorus. Then the first autumn rain comes, and shy Dilnoza has a huge umbrella.",
+  "summaryFa": "سرِ کلاس هر کس می‌گوید در استانبول چه می‌خواهد بکند: نیما می‌خواهد کنار بسفر چای بنوشد. بعد اولین بارانِ پاییزی می‌بارد و دلنوزای خجالتی چترِ بزرگی دارد.",
+  "title": "Yağmur yağıyor!",
+  "titleEn": "It's raining!",
+  "titleFa": "باران می‌بارد!",
+  "words": [
+    "a1-w-istemek",
+    "a1-w-icmek",
+    "a1-w-cikmak",
+    "a1-w-gezmek",
+    "a1-w-gormek",
+    "a1-w-konusmak",
+    "a1-w-yagmak",
+    "seed-w05"
+  ]
+}

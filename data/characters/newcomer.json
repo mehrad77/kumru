@@ -1,0 +1,126 @@
+{
+  "address": {
+    "nima": "sen"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima, teacher!",
+        "fa": "استاد نیما!",
+        "photo": {
+          "step": 16,
+          "story": "s1e38"
+        },
+        "tr": "Nima hocam!"
+      },
+      "family": {
+        "en": "Nima, my friend.",
+        "fa": "نیما رفیقمه.",
+        "photo": {
+          "step": 13,
+          "story": "s1e38"
+        },
+        "tr": "Nima arkadaşım."
+      },
+      "met": {
+        "en": "Nima… the guide!",
+        "fa": "نیما… راهنما!",
+        "photo": {
+          "step": 30,
+          "story": "s1e36"
+        },
+        "tr": "Nima… rehber!"
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.45,
+      "shape": "average"
+    },
+    "carry": {
+      "colors": [
+        "fab_09",
+        "fab_20"
+      ],
+      "id": "bag_backpack"
+    },
+    "face": {
+      "brows": "soft",
+      "eyeColor": "eye_dark",
+      "eyes": "round",
+      "mouth": "small",
+      "nose": "broad",
+      "shape": "full"
+    },
+    "hair": {
+      "color": "hair_02",
+      "style": "hair_messy_short"
+    },
+    "hold": {
+      "colors": [
+        "fab_10",
+        "fab_22"
+      ],
+      "id": "bag_suitcase"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_28"
+        ],
+        "id": "bottom_trousers"
+      },
+      "shoes": {
+        "colors": [
+          "fab_21",
+          "fab_01"
+        ],
+        "id": "shoes_sneakers"
+      },
+      "top": {
+        "colors": [
+          "fab_43"
+        ],
+        "id": "top_tee_long"
+      }
+    },
+    "skin": "skin_07",
+    "v": 1
+  },
+  "bio": "A new student who walks into Berfin's café with a suitcase, lost, phone dead; later stuck on a Unit 2 workbook at the library.",
+  "bioFa": "دانشجویی تازه که با چمدان، گم‌شده و با گوشیِ خاموش، واردِ کافهٔ برفین می‌شود؛ بعد در کتابخانه سرِ کتابِ کارِ درسِ ۲ گیر می‌کند.",
+  "circle": "guest",
+  "color": "#9AA0A6",
+  "id": "newcomer",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "low",
+    "signature": [
+      "think",
+      "nod"
+    ],
+    "tempo": 0.9
+  },
+  "name": "Yeni öğrenci",
+  "nameFa": "دانشجوی تازه",
+  "order": 21,
+  "outfits": {
+    "library": {
+      "hold": null
+    }
+  },
+  "places": [
+    "cafe_berfin",
+    "library_ibb"
+  ],
+  "role": "A new student, unnamed",
+  "roleFa": "دانشجویی تازه، بی‌نام",
+  "voice": {
+    "pitch": 1.0,
+    "rate": 1.0
+  }
+}

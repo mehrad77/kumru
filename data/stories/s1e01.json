@@ -1,0 +1,624 @@
+{
+  "arc": {
+    "en": "Welcome!",
+    "fa": "خوش آمدی!",
+    "id": "s1w01",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Hoş geldin!"
+  },
+  "cast": [
+    "farzad",
+    "nima"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, where is this?",
+      "fa": "نیما، این‌جا کجاست؟",
+      "to": "nima",
+      "tr": "Nima, burası neresi?",
+      "who": "farzad"
+    },
+    {
+      "choice": {
+        "id": "fu_neresi",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "This is Mecidiyeköy.",
+            "fa": "این‌جا مجیدیه‌کؤیه.",
+            "ok": true,
+            "react": {
+              "farzad": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Yes! This is Mecidiyeköy.",
+                "fa": "آره! این‌جا مجیدیه‌کؤیه.",
+                "tr": "Evet! Burası Mecidiyeköy.",
+                "who": "farzad"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Burası Mecidiyeköy."
+          },
+          {
+            "en": "This is the airport.",
+            "fa": "این‌جا فرودگاهه.",
+            "react": {
+              "farzad": "happy"
+            },
+            "reply": [
+              {
+                "en": "No, not the airport! This is Mecidiyeköy.",
+                "fa": "نه، فرودگاه نیست! این‌جا مجیدیه‌کؤیه.",
+                "tr": "Hayır, havalimanı değil! Burası Mecidiyeköy.",
+                "who": "farzad"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Burası havalimanı."
+          }
+        ],
+        "to": "farzad"
+      }
+    },
+    {
+      "en": "What's this?",
+      "fa": "این چیه؟",
+      "to": "nima",
+      "tr": "Bu ne?",
+      "who": "farzad"
+    },
+    {
+      "en": "This is a suitcase.",
+      "fa": "این چمدونه.",
+      "to": "farzad",
+      "tr": "Bu bavul.",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! And these are suitcases too!",
+      "fa": "آره! اینا هم چمدونن!",
+      "to": "nima",
+      "tr": "Evet! Bunlar da bavul!",
+      "who": "farzad"
+    }
+  ],
+  "gl": {
+    "bavul": [
+      "چمدان",
+      "suitcase"
+    ],
+    "biri": [
+      "یک نفر",
+      "someone"
+    ],
+    "da": [
+      "هم",
+      "too, also"
+    ],
+    "diyoruz": [
+      "می‌گوییم",
+      "we say (in a set phrase)"
+    ],
+    "gayrettepe": [
+      "گایرت‌تپه (ایستگاه مترو)",
+      "Gayrettepe (a metro stop)"
+    ],
+    "havalimanı": [
+      "فرودگاه",
+      "airport"
+    ],
+    "istanbul": [
+      "استانبول",
+      "Istanbul"
+    ],
+    "işte": [
+      "این هم…؛ بفرما",
+      "here is…; there you go"
+    ],
+    "mecidiyeköy": [
+      "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "Mecidiyeköy (a district of Şişli)"
+    ]
+  },
+  "id": "s1e01",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_1_bu_su_o",
+    "g_a1_1_burasi",
+    "g_a1_1_cogul"
+  ],
+  "level": "A1",
+  "place": "ist",
+  "props": {
+    "bavul": {
+      "at": {
+        "ist": {
+          "x": 0.75,
+          "y": 0,
+          "z": 0.6
+        },
+        "metro_m11": {
+          "x": -1.15,
+          "y": 0,
+          "z": -0.15
+        },
+        "flat_farzad_street": {
+          "x": -1.35,
+          "y": 0,
+          "z": 0.35
+        }
+      },
+      "kit": "bag",
+      "n": 1,
+      "shown": false,
+      "terms": [
+        "a1-w-bavul"
+      ],
+      "variant": "suitcase"
+    },
+    "tabela": {
+      "at": "sign",
+      "kit": "sign_board",
+      "label": "Hoş geldin, Nima!",
+      "terms": []
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "At the airport: “Hoş geldin, Nima!” Who says it?",
+      "fa": "در فرودگاه: «Hoş geldin, Nima!» را چه کسی می‌گوید؟",
+      "kind": "comp",
+      "options": [
+        "Farzad",
+        "Kerim",
+        "Nima"
+      ],
+      "q": "Havalimanı: “Hoş geldin, Nima!” Kim?",
+      "why": "Farzad: “Hoş geldin, Nima!”"
+    },
+    {
+      "a": 0,
+      "en": "Farzad asks “Bunlar ne?” What are they?",
+      "fa": "فرزاد می‌پرسد «Bunlar ne?» این‌ها چه هستند؟",
+      "kind": "word",
+      "options": [
+        "Bavullar",
+        "Uçaklar",
+        "Kuşlar"
+      ],
+      "q": "Farzad: “Bunlar ne?” Nima: “…!”",
+      "why": "Nima: “Bavullar!”"
+    },
+    {
+      "a": 0,
+      "en": "The new home: where is this?",
+      "fa": "خانه‌ی جدید: این‌جا کجاست؟",
+      "kind": "comp",
+      "options": [
+        "Mecidiyeköy",
+        "Gayrettepe",
+        "Havalimanı"
+      ],
+      "q": "Yeni ev: burası neresi?",
+      "why": "Farzad: “Burası Mecidiyeköy. İşte ev!”"
+    }
+  ],
+  "ref": "A1_1",
+  "releaseDate": "2026-09-07",
+  "season": 1,
+  "steps": [
+    {
+      "at": {},
+      "kerim": "roof",
+      "scene": "ist",
+      "time": "day"
+    },
+    {
+      "at": "obj:ucak",
+      "cam": "obj",
+      "en": "Hello! My name is Kerim. This is Istanbul. What's this? It's a plane!",
+      "fa": "سلام! اسم من کریمه. این‌جا استانبوله. این چیه؟ این یه هواپیماست!",
+      "link": {
+        "uçak": "obj:ucak"
+      },
+      "move": {
+        "how": "fly",
+        "to": "runway",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Merhaba! Benim adım Kerim. Burası İstanbul. Bu ne? Bu bir uçak!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "farzad": "wait"
+      },
+      "kerim": "board",
+      "scene": "ist",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "tabela",
+            "op": "take"
+          }
+        ],
+        "who": "farzad"
+      }
+    },
+    {
+      "en": "Who's this? Someone new!",
+      "fa": "این کیه؟ یه تازه‌وارد!",
+      "move": {
+        "how": "enter",
+        "to": "arrive",
+        "who": "nima"
+      },
+      "narr": true,
+      "obj": [
+        {
+          "id": "bavul",
+          "op": "show"
+        }
+      ],
+      "react": {
+        "farzad": {
+          "at": "ch:nima",
+          "do": "look",
+          "emo": "happy"
+        }
+      },
+      "tr": "Bu kim? Yeni biri!",
+      "who": "kerim"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Welcome, Nima!",
+      "fa": "خوش اومدی، نیما!",
+      "to": "nima",
+      "tr": "Hoş geldin, Nima!",
+      "who": "farzad"
+    },
+    {
+      "choice": {
+        "id": "hos_bulduk",
+        "kind": "polite",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Good to be here!",
+            "fa": "خوشحالم که این‌جام!",
+            "ok": true,
+            "react": {
+              "farzad": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "tone": "warm",
+            "tr": "Hoş bulduk!"
+          },
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Hello!",
+            "fa": "سلام!",
+            "react": {
+              "farzad": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "explain",
+                "emo": "happy",
+                "en": "We say “Hoş bulduk!”",
+                "fa": "این‌جا می‌گیم «Hoş bulduk!»",
+                "to": "nima",
+                "tr": "“Hoş bulduk!” diyoruz.",
+                "who": "farzad"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Merhaba!"
+          },
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Thanks!",
+            "fa": "مرسی!",
+            "react": {
+              "farzad": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "explain",
+                "emo": "happy",
+                "en": "We say “Hoş bulduk!”",
+                "fa": "این‌جا می‌گیم «Hoş bulduk!»",
+                "to": "nima",
+                "tr": "“Hoş bulduk!” diyoruz.",
+                "who": "farzad"
+              }
+            ],
+            "tone": "formal",
+            "tr": "Teşekkürler!"
+          }
+        ],
+        "to": "farzad"
+      }
+    },
+    {
+      "at": "obj:bavul",
+      "cam": "two",
+      "do": "count",
+      "emo": "surprised",
+      "en": "One, two, three… What are these?",
+      "fa": "یک، دو، سه… اینا چیه؟",
+      "n": 3,
+      "obj": [
+        {
+          "id": "bavul",
+          "n": 2,
+          "op": "add"
+        }
+      ],
+      "to": "nima",
+      "tr": "Bir, iki, üç… Bunlar ne?",
+      "who": "farzad"
+    },
+    {
+      "emo": "proud",
+      "en": "Suitcases!",
+      "fa": "چمدونا!",
+      "link": {
+        "bavullar": "obj:bavul"
+      },
+      "tr": "Bavullar!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:bavul",
+      "cam": "two",
+      "do": "point",
+      "emo": "surprised",
+      "en": "These are all suitcases?!",
+      "fa": "اینا همه‌ش چمدونه؟!",
+      "link": {
+        "bavul": "obj:bavul"
+      },
+      "obj": [
+        {
+          "id": "bavul",
+          "n": 2,
+          "op": "add"
+        }
+      ],
+      "to": "nima",
+      "tr": "Bunlar bavul mu?!",
+      "who": "farzad"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes!",
+      "fa": "آره!",
+      "react": {
+        "farzad": "laugh"
+      },
+      "tr": "Evet!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:bavul",
+      "cam": "obj",
+      "en": "So many suitcases!",
+      "fa": "چقدر چمدون!",
+      "link": {
+        "bavul": "obj:bavul"
+      },
+      "narr": true,
+      "obj": [
+        {
+          "at": "sign",
+          "id": "tabela",
+          "op": "place"
+        }
+      ],
+      "tr": "Çok bavul!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "farzad": "stand_r",
+        "nima": "stand_l"
+      },
+      "kerim": "outside",
+      "scene": "metro_m11",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "env": "stop:Gayrettepe",
+        "move": {
+          "how": "fly",
+          "to": "outside_far",
+          "who": "kerim"
+        },
+        "sfx": {
+          "id": "metro_chime",
+          "word": "dıt dıt dıt"
+        }
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "This is the metro.",
+      "fa": "این‌جا متروئه.",
+      "to": "nima",
+      "tr": "Burası metro.",
+      "who": "farzad"
+    },
+    {
+      "at": "ch:kerim",
+      "cam": "wide",
+      "do": "point",
+      "emo": "curious",
+      "en": "What's that?",
+      "fa": "اون چیه؟",
+      "react": {
+        "farzad": {
+          "at": "ch:kerim",
+          "do": "look"
+        }
+      },
+      "to": "farzad",
+      "tr": "Şu ne?",
+      "who": "nima"
+    },
+    {
+      "at": "obj:ucak",
+      "cam": "wide",
+      "do": "point_far",
+      "en": "A bird! And that's a plane!",
+      "fa": "پرنده! اونی که دوره، هواپیماست!",
+      "link": {
+        "kuş": "ch:kerim",
+        "uçak": "obj:ucak"
+      },
+      "react": {
+        "nima": {
+          "at": "obj:ucak",
+          "do": "look"
+        }
+      },
+      "to": "nima",
+      "tr": "Kuş! O uçak!",
+      "who": "farzad"
+    },
+    {
+      "at": "obj:bavul",
+      "cam": "two",
+      "do": "touch",
+      "emo": "laugh",
+      "en": "And this is a suitcase!",
+      "fa": "اینم چمدونه!",
+      "link": {
+        "bavul": "obj:bavul"
+      },
+      "react": {
+        "farzad": "laugh"
+      },
+      "to": "farzad",
+      "tr": "Bu da bavul!",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "en": "bu: near, you can touch it (“Bu da bavul!”). şu: a little further, where you point (“Şu ne?”: the bird outside the window). o: far away (“O uçak!”).",
+        "ex": "Bu da bavul!",
+        "fa": "bu برای چیزِ نزدیک است، که دستت به آن می‌رسد («Bu da bavul!»). şu کمی دورتر است و با انگشت نشانش می‌دهی («Şu ne?»: پرنده‌ی بیرونِ پنجره). o برای چیزِ دور است («O uçak!»). فارسی فقط «این» و «آن» دارد؛ ترکی سه‌تا.",
+        "lesson": "g_a1_1_bu_su_o",
+        "show": "deixis"
+      }
+    },
+    {
+      "beat": {
+        "sfx": {
+          "id": "metro_chime",
+          "word": "Gayrettepe!"
+        },
+        "wait": 600
+      }
+    },
+    {
+      "at": {
+        "farzad": "walk_r",
+        "nima": "walk_l"
+      },
+      "kerim": "canopy",
+      "scene": "flat_farzad_street",
+      "time": "golden"
+    },
+    {
+      "at": "obj:ev",
+      "cam": "wide",
+      "do": "point",
+      "emo": "happy",
+      "en": "This is Mecidiyeköy. And here's home!",
+      "fa": "این‌جا مجیدیه‌کؤیه. اینم خونه!",
+      "link": {
+        "ev": "obj:ev"
+      },
+      "move": {
+        "how": "walk",
+        "to": "door",
+        "who": "nima"
+      },
+      "react": {
+        "nima": {
+          "at": "obj:ev",
+          "do": "look"
+        }
+      },
+      "to": "nima",
+      "tr": "Burası Mecidiyeköy. İşte ev!",
+      "who": "farzad"
+    },
+    {
+      "at": "obj:ev",
+      "do": "look",
+      "emo": "surprised",
+      "en": "This is home?",
+      "fa": "خونه اینه؟",
+      "link": {
+        "ev": "obj:ev"
+      },
+      "to": "farzad",
+      "tr": "Ev bu mu?",
+      "who": "nima"
+    },
+    {
+      "en": "A new home!",
+      "fa": "یه خونه‌ی جدید!",
+      "link": {
+        "ev": "obj:ev"
+      },
+      "narr": true,
+      "tr": "Yeni bir ev!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Nima lands at IST with far too many suitcases. Farzad is waiting with a sign, and they take the metro to Farzad's home in Mecidiyeköy.",
+  "summaryFa": "نیما با چمدان‌های بسیار در فرودگاه استانبول از هواپیما پیاده می‌شود. فرزاد با یک تابلو منتظر اوست و با هم با مترو به خانه‌ی فرزاد در مجیدیه‌کؤی می‌روند.",
+  "title": "Merhaba, İstanbul!",
+  "titleEn": "Hello, Istanbul!",
+  "titleFa": "سلام، استانبول!",
+  "words": [
+    "a1-w-bu",
+    "a1-w-ne",
+    "a1-w-kim",
+    "a1-w-yeni",
+    "a1-w-ucak",
+    "a1-w-metro",
+    "a1-w-kus",
+    "seed-w20"
+  ]
+}

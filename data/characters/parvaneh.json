@@ -1,0 +1,140 @@
+{
+  "address": {
+    "alex": "sen",
+    "dilnoza": "sen",
+    "kirlangic": "sen",
+    "nima": "sen",
+    "yusuf": "sen",
+    "zafer": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "With Nima, only Turkish!",
+        "fa": "با نیما فقط ترکی!",
+        "photo": {
+          "step": 7,
+          "story": "s1e16"
+        },
+        "tr": "Nima ile sadece Türkçe!"
+      },
+      "family": {
+        "en": "Nima… is like a sibling to me. And the jar is ours!",
+        "fa": "نیما… مثلِ خواهر/برادرمه. قلک هم مالِ هر دومونه!",
+        "photo": {
+          "step": 18,
+          "story": "s1e48"
+        },
+        "tr": "Nima… benim kardeşim. Kumbara da bizim!"
+      },
+      "met": {
+        "en": "Nima, my classmate.",
+        "fa": "نیما، هم‌کلاسیِ من.",
+        "photo": {
+          "step": 4,
+          "story": "s1e03"
+        },
+        "tr": "Nima, sınıf arkadaşım."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.45,
+      "shape": "slim"
+    },
+    "face": {
+      "brows": "arched",
+      "eyeColor": "eye_dark",
+      "eyes": "almond",
+      "mouth": "full",
+      "nose": "aquiline",
+      "shape": "heart"
+    },
+    "hair": {
+      "color": "hair_01",
+      "style": "hair_ponytail_high"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_03"
+        ],
+        "id": "bottom_jeans_wide"
+      },
+      "outer": {
+        "colors": [
+          "fab_51",
+          "fab_22"
+        ],
+        "id": "outer_jacket_bomber"
+      },
+      "shoes": {
+        "colors": [
+          "fab_01",
+          "fab_22",
+          "fab_01"
+        ],
+        "id": "shoes_hightops"
+      },
+      "top": {
+        "colors": [
+          "fab_01"
+        ],
+        "id": "top_tee"
+      }
+    },
+    "skin": "skin_02",
+    "v": 1,
+    "wear": {
+      "ears": {
+        "colors": [
+          "met_gold"
+        ],
+        "id": "ear_hoop_big"
+      }
+    }
+  },
+  "bio": "In her 20s, from Isfahan; wants a master's in design. Brave and always talks first, but guesses wildly.",
+  "bioFa": "بیست‌وچند ساله، اهل اصفهان؛ می‌خواهد فوق‌لیسانسِ طراحی بخواند. شجاع است و همیشه اول حرف می‌زند، ولی بی‌پروا حدس می‌زند.",
+  "catch": {
+    "en": "Easy! …Isn't it?",
+    "fa": "آسان است! …نه؟",
+    "tr": "Kolay! …Değil mi?"
+  },
+  "circle": "tomer",
+  "color": "#E4528C",
+  "id": "parvaneh",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "high",
+    "signature": [
+      "hold_up",
+      "explain",
+      "me"
+    ],
+    "tempo": 1.2
+  },
+  "name": "Parvane",
+  "nameFa": "پروانه",
+  "order": 14,
+  "outfits": {
+    "indoor": {
+      "outfit": {
+        "outer": null
+      }
+    }
+  },
+  "places": [
+    "class504"
+  ],
+  "role": "Parvaneh, a classmate from Isfahan",
+  "roleFa": "هم‌کلاسی‌ای از اصفهان",
+  "voice": {
+    "pitch": 1.15,
+    "rate": 1.15
+  }
+}

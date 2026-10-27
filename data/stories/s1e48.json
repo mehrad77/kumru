@@ -1,0 +1,762 @@
+{
+  "arc": {
+    "en": "The exam and the holiday",
+    "fa": "امتحان و جشن",
+    "id": "s1w08",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud",
+      "unlocks"
+    ],
+    "tr": "Sınav ve bayram"
+  },
+  "cast": [
+    "alex",
+    "nima",
+    "parvaneh",
+    "dilnoza",
+    "farzad",
+    "kirlangic"
+  ],
+  "extras": [
+    "rayan",
+    "newcomer",
+    "cayci_vapur"
+  ],
+  "followUp": [
+    {
+      "en": "Now you! Where are you from? Where do you live?",
+      "fa": "حالا تو! اهلِ کجایی؟ کجا زندگی می‌کنی؟",
+      "to": "nima",
+      "tr": "Şimdi sen! Nerelisin? Nerede oturuyorsun?",
+      "who": "dilnoza"
+    },
+    {
+      "en": "I'm from Tehran. But I live in Istanbul!",
+      "fa": "تهرانی‌ام. ولی توی استانبول زندگی می‌کنم!",
+      "to": "dilnoza",
+      "tr": "Tahranlıyım. Ama İstanbul'da oturuyorum!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Nice to meet you!",
+      "fa": "خوشبختم!",
+      "to": "nima",
+      "tr": "Memnun oldum!",
+      "who": "dilnoza"
+    }
+  ],
+  "gl": {
+    "bilirsin": [
+      "می‌دانی (sen bilirsin: خودت می‌دانی، تصمیم با توست)",
+      "you know (sen bilirsin: it's up to you)"
+    ],
+    "farsçam": [
+      "فارسیِ من (Farsça: فارسی)",
+      "my Persian (Farsça: Persian)"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ی نیما در شیشلی)",
+      "Feriköy (Nima's neighbourhood in Şişli)"
+    ],
+    "gezelim": [
+      "بگردیم (gezmek: گشتن)",
+      "let's go round (gezmek: to tour)"
+    ],
+    "herkese": [
+      "به همه، برای همه",
+      "to everyone, for everyone"
+    ],
+    "hostelim": [
+      "هاستلِ من",
+      "my hostel"
+    ],
+    "kadıköy": [
+      "کادیکوی (آن سوی آب، در بخشِ آسیایی)",
+      "Kadıköy (across the water, on the Asian side)"
+    ],
+    "kumbara": [
+      "قلک",
+      "money jar, piggy bank"
+    ],
+    "kırlangıç": [
+      "پرستو (اسم)",
+      "Kırlangıç (a name; the word means swallow)"
+    ],
+    "kız kulesi": [
+      "برجِ دختر (برجی کوچک روی جزیره‌ای در بسفر)",
+      "the Maiden's Tower (a small tower on an islet in the Bosphorus)"
+    ],
+    "polissin": [
+      "پلیسی (polis: پلیس)",
+      "you're the police (polis)"
+    ],
+    "çaycı": [
+      "چای‌فروش (کسی که روی کشتی چای می‌گرداند)",
+      "çaycı (the man who brings tea round)"
+    ]
+  },
+  "id": "s1e48",
+  "kind": "special",
+  "lessons": [
+    "g_a1_1_bu_su_o",
+    "g_a1_2_isim_cumleleri",
+    "g_a1_4_iyelik"
+  ],
+  "level": "A1",
+  "place": "vapur_pier",
+  "props": {
+    "karsilama": {
+      "at": {
+        "kadikoy": {
+          "x": 0.45,
+          "y": 0,
+          "z": -1.15
+        }
+      },
+      "kit": "sign_board",
+      "label": "HOŞ GELDİNİZ, 504!",
+      "terms": [],
+      "variant": "stick"
+    },
+    "kumbara": {
+      "at": {
+        "vapur_pier": {
+          "x": 3.3,
+          "y": 0,
+          "z": -0.85
+        }
+      },
+      "kit": "jar",
+      "label": "FARSÇA: 1 LİRA",
+      "n": 100,
+      "terms": [
+        "a1-w-para"
+      ],
+      "variant": "coins"
+    }
+  },
+  "quiz": [
+    {
+      "a": 1,
+      "en": "Who is waiting in Kadıköy?",
+      "fa": "چه کسی در کادیکوی منتظر است؟",
+      "kind": "comp",
+      "options": [
+        "Farzad",
+        "Alex",
+        "Dilnoza"
+      ],
+      "q": "Kadıköy'de kim bekliyor?",
+      "why": "Alex: “Hoş geldiniz!”"
+    },
+    {
+      "a": 1,
+      "en": "Kerim: “What's this? It's a …!”",
+      "fa": "کریم: «این چیه؟ این یه …!»",
+      "kind": "word",
+      "options": [
+        "uçak",
+        "vapur",
+        "metro"
+      ],
+      "q": "Kerim: “Bu ne? Bu bir …!”",
+      "why": "“Bu bir vapur!”"
+    },
+    {
+      "a": 1,
+      "en": "What is the money in the jar for?",
+      "fa": "پولِ توی قلک برای چیست؟",
+      "kind": "comp",
+      "options": [
+        "Bir bavul",
+        "Herkes için çay",
+        "Bir sınav"
+      ],
+      "q": "Kumbaradaki para ne için?",
+      "why": "“Çaycı! Herkese çay, lütfen! Çaylar bizden!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-31",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "dilnoza": "gangway",
+        "farzad": "wait_1",
+        "nima": "wait_2",
+        "parvaneh": "wait_3"
+      },
+      "kerim": "over_water",
+      "scene": "vapur_pier",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kumbara",
+            "op": "take"
+          }
+        ],
+        "who": "parvaneh"
+      }
+    },
+    {
+      "en": "Hello! This is Istanbul. This is the pier. What's this? It's a ferry! And on the ferry… who's there?",
+      "fa": "سلام! این‌جا استانبوله. این‌جا اسکله‌ست. این چیه؟ این یه کشتیه! و توی کشتی… کی هست؟",
+      "narr": true,
+      "sfx": {
+        "id": "ferry_horn",
+        "word": "düüüt"
+      },
+      "tr": "Merhaba! Burası İstanbul. Burası iskele. Bu ne? Bu bir vapur! Ve vapurda… kim var?",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:kumbara",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "The exam's over! And the jar… is full! Lots of money!",
+      "fa": "امتحان تموم شد! و قلک… پُره! کلی پول!",
+      "sfx": {
+        "id": "coin_clink",
+        "word": "şıngır"
+      },
+      "to": "all",
+      "tr": "Sınav bitti! Ve kumbara… dolu! Çok para!",
+      "who": "parvaneh"
+    },
+    {
+      "at": "ch:nima",
+      "do": "look",
+      "emo": "laugh",
+      "en": "Nima… no suitcases?",
+      "fa": "نیما… چمدون نداری؟",
+      "to": "nima",
+      "tr": "Nima… bavul yok mu?",
+      "who": "farzad"
+    },
+    {
+      "do": "shrug",
+      "emo": "laugh",
+      "en": "No suitcases! Just tea!",
+      "fa": "چمدون نه! فقط چای!",
+      "react": {
+        "farzad": "laugh"
+      },
+      "to": "farzad",
+      "tr": "Bavul yok! Sadece çay!",
+      "who": "nima"
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Come on, come on! Onto the ferry!",
+      "fa": "بیاین، بیاین! بریم توی کشتی!",
+      "to": "all",
+      "tr": "Gelin, gelin! Vapura!",
+      "who": "dilnoza"
+    },
+    {
+      "at": {
+        "dilnoza": "bench_1",
+        "kirlangic": "bench_3",
+        "newcomer": "rail_2",
+        "nima": "rail_1",
+        "parvaneh": "bench_2",
+        "rayan": "rail_3"
+      },
+      "kerim": "pace",
+      "scene": "vapur_deck",
+      "time": "day"
+    },
+    {
+      "at": "ch:newcomer",
+      "do": "look",
+      "en": "Who's this? Someone new! Looking at everything.",
+      "fa": "این کیه؟ یه تازه‌وارد! به همه‌چی نگاه می‌کنه.",
+      "narr": true,
+      "react": {
+        "newcomer": {
+          "at": "obj:tea_glass",
+          "do": "look",
+          "emo": "surprised"
+        }
+      },
+      "tr": "Bu kim? Yeni biri! Her şeye bakıyor.",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:tea_glass",
+      "do": "point",
+      "emo": "happy",
+      "en": "This is a tea glass. That… is the Maiden's Tower!",
+      "fa": "این یه استکانِ چاییه. اون… برجِ دختره!",
+      "link": {
+        "bardağı": "obj:tea_glass"
+      },
+      "react": {
+        "newcomer": {
+          "do": "nod",
+          "emo": "surprised"
+        }
+      },
+      "to": "newcomer",
+      "tr": "Bu bir çay bardağı. Şu… Kız Kulesi!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "fly",
+          "to": "far_bird",
+          "who": "kerim"
+        }
+      }
+    },
+    {
+      "beat": {
+        "at": "ch:kerim",
+        "do": "point_far",
+        "emo": "surprised",
+        "who": "rayan"
+      }
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point_far",
+      "emo": "curious",
+      "en": "Nima, look! What's over there?",
+      "fa": "نیما، ببین! اون‌جا چیه؟",
+      "to": "nima",
+      "tr": "Nima, bak! Orada ne var?",
+      "who": "kirlangic"
+    },
+    {
+      "choice": {
+        "id": "o_kerim",
+        "kind": "meaning",
+        "options": [
+          {
+            "at": "ch:kerim",
+            "do": "point_far",
+            "emo": "happy",
+            "en": "That's a bird… That's Kerim!",
+            "fa": "اون یه پرنده‌ست… اون کریمه!",
+            "link": {
+              "kerim": "ch:kerim"
+            },
+            "ok": true,
+            "react": {
+              "kirlangic": {
+                "do": "nod",
+                "emo": "happy"
+              },
+              "rayan": "clap"
+            },
+            "reply": [
+              {
+                "en": "Yes… that's Kerim!",
+                "fa": "آره… اون کریمه!",
+                "narr": true,
+                "tr": "Evet… o Kerim!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "O bir kuş… O Kerim!"
+          },
+          {
+            "emo": "happy",
+            "en": "This is Kerim!",
+            "fa": "این کریمه!",
+            "react": {
+              "kirlangic": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "This? It's so far away… so it's o!",
+                "fa": "این؟ خیلی دوره… پس «o»!",
+                "to": "nima",
+                "tr": "Bu mu? Çok uzak… o!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Bu Kerim!"
+          },
+          {
+            "emo": "happy",
+            "en": "That one there is Kerim!",
+            "fa": "اونی که اون‌جاست کریمه!",
+            "react": {
+              "kirlangic": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Not şu… it's very far away: o!",
+                "fa": "«şu» نه… خیلی دوره: «o»!",
+                "to": "nima",
+                "tr": "Şu değil… çok uzak: o!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Şu Kerim!"
+          }
+        ],
+        "to": "kirlangic"
+      }
+    },
+    {
+      "at": {
+        "cayci_vapur": "cayci",
+        "dilnoza": "bench_2",
+        "farzad": "bench_3",
+        "kirlangic": "rail_3",
+        "newcomer": "rail_2",
+        "nima": "bench_1",
+        "parvaneh": "rail_1"
+      },
+      "kerim": "rail_perch",
+      "scene": "vapur_deck",
+      "time": "day"
+    },
+    {
+      "do": "wave",
+      "emo": "laugh",
+      "en": "Hello! What's your name? Where are you from?",
+      "fa": "سلام! اسمت چیه؟ اهلِ کجایی؟",
+      "to": "nima",
+      "tr": "Merhaba! Senin adın ne? Nerelisin?",
+      "who": "dilnoza"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "My name is Nima. I'm from Tehran. But… I live in Feriköy.",
+      "fa": "اسمِ من نیماست. تهرانی‌ام. ولی… توی فری‌کؤی زندگی می‌کنم.",
+      "to": "dilnoza",
+      "tr": "Benim adım Nima. Tahranlıyım. Ama… Feriköy'de oturuyorum.",
+      "who": "nima"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Nice to meet you!",
+      "fa": "خوشبختم!",
+      "to": "nima",
+      "tr": "Memnun oldum!",
+      "who": "dilnoza"
+    },
+    {
+      "at": "ch:nima",
+      "do": "give",
+      "emo": "happy",
+      "en": "Here! The jar's yours! You're the police… you decide!",
+      "fa": "بگیر! قلک مالِ تو! تو پلیسی… خودت می‌دونی!",
+      "obj": [
+        {
+          "id": "kumbara",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Al! Kumbara senin! Sen polissin… sen bilirsin!",
+      "who": "parvaneh"
+    },
+    {
+      "choice": {
+        "id": "jar",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Tea for everyone!",
+            "fa": "برای همه چای!",
+            "ok": true,
+            "react": {
+              "farzad": "happy",
+              "parvaneh": {
+                "do": "clap",
+                "emo": "proud"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Yes! For everyone!",
+                "fa": "آره! برای همه!",
+                "to": "nima",
+                "tr": "Evet! Herkes için!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Herkes için çay!"
+          },
+          {
+            "at": "ch:parvaneh",
+            "do": "give",
+            "emo": "happy",
+            "en": "Parvaneh, this is your money. Take it!",
+            "fa": "پروانه، این پولِ خودته. بگیرش!",
+            "obj": [
+              {
+                "id": "kumbara",
+                "op": "give",
+                "to": "parvaneh"
+              }
+            ],
+            "react": {
+              "parvaneh": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "at": "ch:nima",
+                "do": "give",
+                "emo": "happy",
+                "en": "No! Take it! It's our jar. Tea for everyone!",
+                "fa": "نه! بگیر! این قلکِ ماست. برای همه چای!",
+                "obj": [
+                  {
+                    "id": "kumbara",
+                    "op": "give",
+                    "to": "nima"
+                  }
+                ],
+                "to": "nima",
+                "tr": "Hayır! Al! Bu bizim kumbaramız. Herkes için çay!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Parvane, bu senin paran. Al!"
+          },
+          {
+            "do": "count",
+            "emo": "happy",
+            "en": "Two teas: you and me.",
+            "fa": "دو تا چای: تو و من.",
+            "n": 2,
+            "react": {
+              "farzad": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "And us?!",
+                "fa": "پس ما چی؟!",
+                "to": "nima",
+                "tr": "Ya biz?!",
+                "who": "farzad"
+              },
+              {
+                "emo": "laugh",
+                "en": "For everyone, Nima! For everyone!",
+                "fa": "برای همه، نیما! برای همه!",
+                "to": "nima",
+                "tr": "Herkes için, Nima! Herkes için!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "casual",
+            "tr": "İki çay: sen ve ben."
+          }
+        ],
+        "to": "parvaneh"
+      }
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Tea seller! Tea for everyone, please! It's on us!",
+      "fa": "آقا! برای همه چای، لطفاً! چای مهمونِ ما!",
+      "to": "cayci_vapur",
+      "tr": "Çaycı! Herkese çay, lütfen! Çaylar bizden!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "tea_glass",
+            "n": 9,
+            "op": "add"
+          }
+        ],
+        "sfx": {
+          "id": "tea_glass",
+          "word": "çın"
+        },
+        "who": "cayci_vapur"
+      }
+    },
+    {
+      "emo": "proud",
+      "en": "My Persian… your tea!",
+      "fa": "فارسیِ من… چایِ شما!",
+      "react": {
+        "farzad": "laugh",
+        "kirlangic": "laugh"
+      },
+      "to": "all",
+      "tr": "Benim Farsçam… sizin çayınız!",
+      "who": "parvaneh"
+    },
+    {
+      "en": "The sea… tea… birds… and everyone together.",
+      "fa": "دریا… چای… پرنده‌ها… و همه با هم.",
+      "narr": true,
+      "sfx": {
+        "id": "gull",
+        "word": "ak ak"
+      },
+      "tr": "Deniz… çay… kuşlar… ve herkes beraber.",
+      "who": "kerim"
+    },
+    {
+      "spot": {
+        "en": "Day one's lesson, and now Nima teaches it: bu for what is near (“Bu bir çay bardağı.”), şu for what you point at (“Şu… Kız Kulesi!”), and o for what is far away (“O Kerim!”).",
+        "ex": "Bu bir çay bardağı. Şu… Kız Kulesi!",
+        "fa": "درسِ روزِ اول، که حالا نیما یادش می‌دهد: bu برای چیزِ نزدیک («Bu bir çay bardağı.»)، şu برای چیزی که با انگشت نشانش می‌دهی («Şu… Kız Kulesi!»)، و o برای چیزِ دور («O Kerim!»).",
+        "lesson": "g_a1_1_bu_su_o",
+        "show": "deixis"
+      }
+    },
+    {
+      "spot": {
+        "en": "And ben becomes biz. In week one it was “Benim adım…”, all about me. Today it's “Çaylar bizden!”: the tea is from us. Benim Farsçam… sizin çayınız: -(I)m is “my”, -(I)nIz is “your”.",
+        "ex": "Benim Farsçam… sizin çayınız!",
+        "fa": "و «من» می‌شود «ما». هفته‌ی اول «Benim adım…» بود، همه‌اش درباره‌ی خودم. امروز «Çaylar bizden!» است: چای از طرفِ ماست. Benim Farsçam… sizin çayınız: -(I)m یعنی «ـَم»، -(I)nIz یعنی «ـِتان».",
+        "lesson": "g_a1_4_iyelik"
+      }
+    },
+    {
+      "at": {
+        "alex": "sign",
+        "dilnoza": "arrive_2",
+        "farzad": "enter",
+        "nima": "arrive_1",
+        "parvaneh": "gangway"
+      },
+      "kerim": "lamp",
+      "scene": "kadikoy",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "karsilama",
+            "op": "take"
+          }
+        ],
+        "who": "alex"
+      }
+    },
+    {
+      "do": "welcome",
+      "emo": "tired",
+      "en": "Welcome!",
+      "fa": "خوش اومدید!",
+      "to": "all",
+      "tr": "Hoş geldiniz!",
+      "who": "alex"
+    },
+    {
+      "emo": "happy",
+      "en": "Good to be here!",
+      "fa": "خوشحالیم که این‌جاییم!",
+      "react": {
+        "alex": {
+          "emo": "happy"
+        }
+      },
+      "to": "alex",
+      "tr": "Hoş bulduk!",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "Alex, you're so tired!",
+      "fa": "الکس، خیلی خسته‌ای!",
+      "to": "alex",
+      "tr": "Alex, çok yorgunsun!",
+      "who": "parvaneh"
+    },
+    {
+      "at": "mark:market",
+      "do": "point",
+      "emo": "happy",
+      "en": "I worked all night… My hostel's over there. But first… let's look around Kadıköy!",
+      "fa": "دیشب کار کردم… هاستلم اون‌جاست. ولی اول… بیاین کادیکوی رو بگردیم!",
+      "to": "all",
+      "tr": "Gece çalıştım… Hostelim şurada. Ama önce… Kadıköy'ü gezelim!",
+      "who": "alex"
+    },
+    {
+      "en": "Who's this? …Nima. Not someone new.",
+      "fa": "این کیه؟ …نیما. دیگه تازه‌وارد نیست.",
+      "move": [
+        {
+          "how": "exit",
+          "to": "market",
+          "who": "nima"
+        },
+        {
+          "how": "exit",
+          "to": "market",
+          "who": "alex"
+        },
+        {
+          "how": "exit",
+          "to": "market",
+          "who": "dilnoza"
+        },
+        {
+          "how": "exit",
+          "to": "market",
+          "who": "parvaneh"
+        },
+        {
+          "how": "exit",
+          "to": "market",
+          "who": "farzad"
+        }
+      ],
+      "narr": true,
+      "tr": "Bu kim? …Nima. Yeni biri değil.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The day after the exam, the class and old friends take the ferry from Beşiktaş to Kadıköy, where Alex waits with a sign. On the deck Nima teaches a newcomer bu, şu and o, answers Dilnoza's day-two questions, and spends Parvaneh's jar on tea for everyone.",
+  "summaryFa": "روزِ بعد از امتحان، بچه‌های کلاس و دوستانِ قدیمی با کشتی از بشیکتاش به کادیکوی می‌روند، جایی که الکس با یک تابلو منتظرشان است. روی عرشه، نیما به یک تازه‌وارد bu، şu و o یاد می‌دهد، به سؤال‌های روزِ دومِ دلنوزا جواب می‌دهد و پولِ قلکِ پروانه را خرجِ چای برای همه می‌کند.",
+  "title": "Vapurda çay",
+  "titleEn": "Tea on the ferry",
+  "titleFa": "چای روی کشتی",
+  "words": [
+    "a1-w-vapur",
+    "a1-w-deniz",
+    "a1-w-iskele",
+    "a1-w-cay",
+    "a1-w-bardak",
+    "a1-w-para",
+    "a1-w-herkes",
+    "a1-w-dolu",
+    "a1-w-kule",
+    "a1-w-gezmek",
+    "a1-w-kus"
+  ]
+}

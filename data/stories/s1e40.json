@@ -1,0 +1,622 @@
+{
+  "arc": {
+    "en": "Before the exam",
+    "fa": "پیش از امتحان",
+    "id": "s1w07",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Sınavdan önce"
+  },
+  "cast": [
+    "tolga",
+    "nima",
+    "elif",
+    "farzad"
+  ],
+  "followUp": [
+    {
+      "en": "Yes, Nima! What's wrong?",
+      "fa": "بفرمایید، نیما! چی شده؟",
+      "to": "nima",
+      "tr": "Buyurun, Nima! Ne oldu?",
+      "who": "tolga"
+    },
+    {
+      "en": "Tolga Bey, my lamp isn't working.",
+      "fa": "آقای تولگا، لامپِ من کار نمی‌کنه.",
+      "to": "tolga",
+      "tr": "Tolga Bey, benim lambam çalışmıyor.",
+      "who": "nima"
+    },
+    {
+      "en": "The lamp? Fine, fine… tomorrow!",
+      "fa": "لامپ؟ باشه، باشه… فردا!",
+      "to": "nima",
+      "tr": "Lamba mı? Tamam, tamam… yarın!",
+      "who": "tolga"
+    },
+    {
+      "choice": {
+        "id": "fu_bugun",
+        "kind": "polite",
+        "options": [
+          {
+            "en": "Today, please.",
+            "fa": "امروز، لطفاً.",
+            "ok": true,
+            "react": {
+              "tolga": "surprised"
+            },
+            "reply": [
+              {
+                "en": "All right, all right… today!",
+                "fa": "باشه، باشه… امروز!",
+                "to": "nima",
+                "tr": "Peki, peki… bugün!",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Bugün, lütfen."
+          },
+          {
+            "en": "OK… tomorrow.",
+            "fa": "باشه… فردا.",
+            "react": {
+              "tolga": "happy"
+            },
+            "reply": [
+              {
+                "en": "Tomorrow! Or… the day after!",
+                "fa": "فردا! یا… پس‌فردا!",
+                "to": "nima",
+                "tr": "Yarın! Ya da… öbür gün!",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam… yarın."
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "en": "Anything else?",
+      "fa": "چیزِ دیگه‌ای هم هست؟",
+      "to": "nima",
+      "tr": "Başka bir şey?",
+      "who": "tolga"
+    },
+    {
+      "en": "Yes. My door is old too. Today, please!",
+      "fa": "آره. درِ من هم کهنه‌ست. امروز، لطفاً!",
+      "to": "tolga",
+      "tr": "Evet. Benim kapım da eski. Bugün, lütfen!",
+      "who": "nima"
+    }
+  ],
+  "gl": {
+    "eve": [
+      "به خانه",
+      "home (to home)"
+    ],
+    "gerçek": [
+      "واقعی",
+      "real"
+    ],
+    "gerçekten": [
+      "واقعاً",
+      "really"
+    ],
+    "ikamet": [
+      "اقامت",
+      "residence (permit)"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "lambam": [
+      "لامپم",
+      "my lamp"
+    ],
+    "noter": [
+      "دفترخانه، محضر",
+      "notary"
+    ],
+    "notere": [
+      "به محضر",
+      "to the notary"
+    ],
+    "onayı": [
+      "تأییدِ…",
+      "the approval, the stamp (onay)"
+    ],
+    "randevum": [
+      "نوبتم، وقتم",
+      "my appointment"
+    ],
+    "randevusu": [
+      "نوبتِ…",
+      "appointment (of…)"
+    ],
+    "söz": [
+      "قول",
+      "a promise; I promise!"
+    ],
+    "sözleşmem": [
+      "قراردادم",
+      "my contract"
+    ],
+    "sözleşmeyi": [
+      "قرارداد را",
+      "the contract (as object)"
+    ],
+    "türkçen": [
+      "ترکی‌ات",
+      "your Turkish"
+    ],
+    "usta": [
+      "تعمیرکار، اوستا",
+      "repairman"
+    ]
+  },
+  "id": "s1e40",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_4_iyelik",
+    "g_a1_4_belirtme",
+    "g_a1_4_ad_durumlari"
+  ],
+  "level": "A1",
+  "looks": {
+    "nima": {
+      "outfit": {
+        "outer": {
+          "id": "outer_jacket_puffer"
+        }
+      }
+    }
+  },
+  "place": "office_emlak",
+  "props": {
+    "onay": {
+      "at": {
+        "x": -0.8,
+        "y": 1.0,
+        "z": -2.85
+      },
+      "kit": "stationery",
+      "shown": false,
+      "terms": [
+        "b1-w-onay"
+      ],
+      "variant": "stamp"
+    },
+    "randevu_kagidi": {
+      "at": {
+        "x": -0.6,
+        "y": 0,
+        "z": -2.55
+      },
+      "kit": "paper",
+      "label": "İkamet randevusu: 26 Ekim, 10:00",
+      "shown": false,
+      "terms": [
+        "a1-w-randevu"
+      ],
+      "variant": "slip"
+    },
+    "sozlesme": {
+      "at": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": -2.85
+      },
+      "kit": "paper",
+      "signed": true,
+      "stamped": false,
+      "terms": [
+        "a1-w-sozlesme",
+        "a1-w-kira"
+      ],
+      "variant": "contract"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "When is the repairman coming?",
+      "fa": "تعمیرکار کی می‌آید؟",
+      "kind": "comp",
+      "options": [
+        "Yarın sabah, saat dokuzda",
+        "Bugün, saat altıda",
+        "Pazartesi"
+      ],
+      "q": "Usta ne zaman geliyor?",
+      "why": "Tolga Bey: “Alo, usta? Yarın sabah, saat dokuzda!”"
+    },
+    {
+      "a": 0,
+      "en": "Tolga Bey: “Tomorrow!” Nima: “…, please.”",
+      "fa": "آقای تولگا: «فردا!» نیما: «…، لطفاً.»",
+      "kind": "word",
+      "options": [
+        "Bugün",
+        "Yarın",
+        "Sabah"
+      ],
+      "q": "Tolga Bey: “Yarın!” Nima: “…, lütfen.”",
+      "why": "Nima: “Bugün, lütfen.”"
+    },
+    {
+      "a": 0,
+      "en": "When is Nima's appointment?",
+      "fa": "نوبتِ نیما کی است؟",
+      "kind": "comp",
+      "options": [
+        "Pazartesi",
+        "Cuma",
+        "Yarın"
+      ],
+      "q": "Nima'nın randevusu ne zaman?",
+      "why": "Nima: “Pazartesi randevum var!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-22",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "tolga": "counter"
+      },
+      "kerim": "sign",
+      "scene": "office_emlak",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "phones",
+            "op": "take"
+          }
+        ],
+        "who": "tolga"
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "Thursday. Class is over. Where is Nima going? Not home… to Tolga Bey's!",
+      "fa": "پنجشنبه. کلاس تموم شد. نیما کجا می‌ره؟ خونه نه… پیشِ آقای تولگا!",
+      "move": {
+        "how": "enter",
+        "to": "customer",
+        "who": "nima"
+      },
+      "narr": true,
+      "tr": "Perşembe. Ders bitti. Nima nereye gidiyor? Eve değil… Tolga Bey'e!",
+      "who": "kerim"
+    },
+    {
+      "at": "ch:nima",
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Welcome! Wait a minute…",
+      "fa": "خوش اومدید! یه دقیقه صبر کنید…",
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Hoş geldiniz! Bir dakika bekleyin…",
+      "who": "tolga"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "wait",
+          "who": "nima"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "do": "phone",
+        "loop": true,
+        "sfx": {
+          "id": "phone_ring",
+          "word": "zırr zırr"
+        },
+        "wait": 1500,
+        "who": "tolga"
+      }
+    },
+    {
+      "at": "obj:sozlesme",
+      "do": "point",
+      "emo": "proud",
+      "en": "Good afternoon, Tolga Bey. My boiler isn't working. And my contract… it has no notary stamp.",
+      "fa": "عصر بخیر آقای تولگا. پکیجِ من کار نمی‌کنه. و قراردادم… مهرِ محضر نداره.",
+      "link": {
+        "onayı": "obj:onay",
+        "sözleşmem": "obj:sozlesme"
+      },
+      "move": {
+        "how": "walk",
+        "to": "customer",
+        "who": "nima"
+      },
+      "to": "tolga",
+      "tr": "İyi günler, Tolga Bey. Benim kombim çalışmıyor. Ve sözleşmem… noter onayı yok.",
+      "who": "nima"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "The boiler? The notary? Fine, fine… tomorrow!",
+      "fa": "پکیج؟ محضر؟ باشه، باشه… فردا!",
+      "tempo": 1.4,
+      "to": "nima",
+      "tr": "Kombi mi? Noter mi? Tamam, tamam… yarın!",
+      "who": "tolga"
+    },
+    {
+      "choice": {
+        "id": "bugun",
+        "kind": "action",
+        "options": [
+          {
+            "do": "shake_head",
+            "emo": "proud",
+            "en": "No, Tolga Bey. Not tomorrow.",
+            "fa": "نه، آقای تولگا. فردا نه.",
+            "ok": true,
+            "react": {
+              "tolga": "surprised"
+            },
+            "reply": [
+              {
+                "emo": "surprised",
+                "en": "Not tomorrow? Then… when?!",
+                "fa": "فردا نه؟ پس… کِی؟!",
+                "to": "nima",
+                "tr": "Yarın değil mi? Peki… ne zaman?!",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Hayır, Tolga Bey. Yarın değil."
+          },
+          {
+            "emo": "nervous",
+            "en": "I'm calling Farzad…",
+            "fa": "به فرزاد زنگ می‌زنم…",
+            "react": {
+              "tolga": "curious"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Nima? You talk! Your Turkish is very good!",
+                "fa": "نیما؟ خودت حرف بزن! ترکی‌ات خیلی خوبه!",
+                "to": "nima",
+                "tr": "Nima? Sen konuş! Türkçen çok iyi!",
+                "via": "phone",
+                "who": "farzad"
+              },
+              {
+                "beat": {
+                  "sfx": {
+                    "id": "message",
+                    "word": "dıt"
+                  }
+                }
+              }
+            ],
+            "tone": "casual",
+            "tr": "Farzad'ı arıyorum…"
+          },
+          {
+            "emo": "sad",
+            "en": "OK… tomorrow.",
+            "fa": "باشه… فردا.",
+            "move": {
+              "how": "walk",
+              "to": "front_r",
+              "who": "nima"
+            },
+            "react": {
+              "tolga": "happy"
+            },
+            "reply": [
+              {
+                "do": "flap",
+                "emo": "annoyed",
+                "en": "Tomorrow? Always tomorrow! Coo-coo!",
+                "fa": "فردا؟ همیشه فردا! کو-کو!",
+                "move": {
+                  "how": "fly",
+                  "to": "glass",
+                  "who": "kerim"
+                },
+                "narr": true,
+                "sfx": {
+                  "id": "beak_tap",
+                  "word": "tık tık tık"
+                },
+                "tr": "Yarın? Hep yarın! Ku-ku!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam… yarın."
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "customer",
+          "who": "nima"
+        },
+        "obj": [
+          {
+            "id": "randevu_kagidi",
+            "op": "show"
+          },
+          {
+            "id": "randevu_kagidi",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": "obj:randevu_kagidi",
+      "cam": "two",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "Today, please. I have an appointment on Monday!",
+      "fa": "امروز، لطفاً. دوشنبه نوبت دارم!",
+      "link": {
+        "randevum": "obj:randevu_kagidi"
+      },
+      "to": "tolga",
+      "tr": "Bugün, lütfen. Pazartesi randevum var!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:randevu_kagidi",
+      "do": "look",
+      "emo": "surprised",
+      "en": "…Monday? The contract… yes, I forgot. All right. Today!",
+      "fa": "…دوشنبه؟ قرارداد… آره، یادم رفت. باشه. امروز!",
+      "link": {
+        "sözleşme": "obj:sozlesme"
+      },
+      "to": "nima",
+      "tr": "…Pazartesi mi? Sözleşme… evet, unuttum. Tamam. Bugün!",
+      "who": "tolga"
+    },
+    {
+      "do": "phone",
+      "emo": "happy",
+      "en": "Hello? I'm taking the contract to the notary today! …Hello, repairman? Tomorrow morning, at nine!",
+      "fa": "الو؟ قرارداد رو امروز می‌برم محضر! …الو، اوستا؟ فردا صبح، ساعتِ نه!",
+      "link": {
+        "sözleşmeyi": "obj:sozlesme"
+      },
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Alo? Sözleşmeyi bugün notere götürüyorum! …Alo, usta? Yarın sabah, saat dokuzda!",
+      "who": "tolga"
+    },
+    {
+      "emo": "proud",
+      "en": "Tomorrow, at nine. Agreed?",
+      "fa": "فردا، ساعتِ نه. باشه؟",
+      "to": "tolga",
+      "tr": "Yarın, saat dokuzda. Tamam mı?",
+      "who": "nima"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Agreed! I promise! This “tomorrow” is real!",
+      "fa": "باشه! قول می‌دم! این «فردا» دیگه واقعیه!",
+      "to": "nima",
+      "tr": "Tamam! Söz! Bu “yarın” gerçek!",
+      "who": "tolga"
+    },
+    {
+      "spot": {
+        "en": "Nima said the whole problem with possessive endings: kombim (my boiler), sözleşmem (my contract), randevum (my appointment). Tolga Bey's answer shows the case endings: “Sözleşmeyi bugün notere götürüyorum!”: -yi marks the thing he takes, -e where he takes it. One noun, many endings: noter, notere, noterde, noterden.",
+        "ex": "Benim kombim çalışmıyor.",
+        "fa": "نیما کلِ مشکل را با پسوندِ ملکی گفت: kombim (پکیجِ من)، sözleşmem (قراردادم)، randevum (نوبتم). جوابِ آقای تولگا پسوندهای حالت را نشان می‌دهد: «Sözleşmeyi bugün notere götürüyorum!»: ‎-yi‎ مفعولِ مشخص است («را»)، ‎-e‎ مقصد («به»). یک اسم، چند پسوند: noter، notere (به محضر)، noterde (در محضر)، noterden (از محضر).",
+        "lesson": "g_a1_4_iyelik",
+        "show": "owner"
+      }
+    },
+    {
+      "at": {
+        "elif": "elif_door",
+        "nima": "landing_2"
+      },
+      "kerim": "window",
+      "scene": "flat_nima_stairs",
+      "state": [
+        "cold",
+        "elif_door_open"
+      ],
+      "time": "dusk"
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Your flat is cold. Come in! Ours is warm.",
+      "fa": "خونهٔ تو سرده. بیا! خونهٔ ما گرمه.",
+      "to": "nima",
+      "tr": "Senin evin soğuk. Gel! Bizim ev sıcak.",
+      "who": "elif"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Thank you, Elif Hanım! But the boiler will work tomorrow!",
+      "fa": "ممنونم، الیف خانم! ولی فردا پکیج کار می‌کنه!",
+      "to": "elif",
+      "tr": "Teşekkür ederim, Elif Hanım! Ama yarın kombi çalışıyor!",
+      "who": "nima"
+    },
+    {
+      "emo": "surprised",
+      "en": "Tolga Bey? Really?!",
+      "fa": "آقای تولگا؟ واقعاً؟!",
+      "to": "nima",
+      "tr": "Tolga Bey mi? Gerçekten mi?!",
+      "who": "elif"
+    },
+    {
+      "do": "nod",
+      "emo": "proud",
+      "en": "Yes. I talked to him today!",
+      "fa": "آره. امروز باهاش حرف زدم!",
+      "to": "elif",
+      "tr": "Evet. Bugün konuştum!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Not tomorrow… today. Coo-coo!",
+      "fa": "فردا نه… امروز. کو-کو!",
+      "narr": true,
+      "tr": "Yarın değil… bugün. Ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The day after the mock, Nima goes to Tolga Bey's agency instead of waiting for his “tomorrow”, holds up the appointment slip, and gets the notary done today and the repairman booked for nine. In the cold stairwell, Elif can hardly believe it.",
+  "summaryFa": "فردای امتحانِ آزمایشی، نیما به‌جای این‌که منتظرِ «فردا»ی آقای تولگا بماند، به بنگاهش می‌رود، برگهٔ نوبت را بالا می‌گیرد و کاری می‌کند که قرارداد همان روز به محضر برود و تعمیرکار فردا ساعتِ نه بیاید. در راه‌پلهٔ سرد، الیف باورش نمی‌شود.",
+  "title": "Bugün, lütfen!",
+  "titleEn": "Today, please!",
+  "titleFa": "امروز، لطفاً!",
+  "words": [
+    "a1-w-unutmak",
+    "a1-w-goturmek",
+    "a1-w-beklemek",
+    "a1-w-bugun",
+    "a1-w-yarin",
+    "a1-w-sabah",
+    "a1-w-randevu",
+    "a1-w-sozlesme"
+  ]
+}

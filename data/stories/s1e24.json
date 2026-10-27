@@ -1,0 +1,1087 @@
+{
+  "arc": {
+    "en": "A new family",
+    "fa": "یک خانواده‌ی تازه",
+    "id": "s1w04",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Yeni bir aile"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "parvaneh",
+    "yusuf",
+    "alex",
+    "dilnoza"
+  ],
+  "extras": [
+    "passerby_1",
+    "librarian_bu"
+  ],
+  "followUp": [
+    {
+      "en": "Now you, Nima: library… go?",
+      "fa": "حالا شما، نیما: کتابخانه… بروید؟",
+      "to": "nima",
+      "tr": "Şimdi siz, Nima: kütüphane… gidin?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_kutuphane",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Go to the library!",
+            "fa": "به کتابخانه بروید!",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Yes! To the library.",
+                "fa": "بله! به کتابخانه.",
+                "to": "nima",
+                "tr": "Evet! Kütüphaneye.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Kütüphaneye gidin!"
+          },
+          {
+            "en": "Go in the library!",
+            "fa": "در کتابخانه بروید!",
+            "react": {
+              "zafer": "confused"
+            },
+            "reply": [
+              {
+                "en": "No, go to the library!",
+                "fa": "نه، به کتابخانه بروید!",
+                "to": "nima",
+                "tr": "Hayır, kütüphaneye gidin!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Kütüphanede gidin!"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "And “durak”? The stop… there's a blue box.",
+      "fa": "و «durak»؟ ایستگاه… یه جعبه‌ی آبی هست.",
+      "to": "nima",
+      "tr": "Ve “durak”? Durak… mavi bir kutu var.",
+      "who": "zafer"
+    },
+    {
+      "en": "There's a blue box at the stop!",
+      "fa": "توی ایستگاه یه جعبه‌ی آبی هست!",
+      "to": "zafer",
+      "tr": "Durakta mavi bir kutu var!",
+      "who": "nima"
+    },
+    {
+      "en": "Very good, Nima!",
+      "fa": "خیلی خوب، نیما!",
+      "to": "nima",
+      "tr": "Çok güzel, Nima!",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "alın": [
+      "بردارید",
+      "take (an instruction)"
+    ],
+    "avı": [
+      "شکارِ… (hazine avı: گنج‌یابی)",
+      "hunt (hazine avı: a treasure hunt)"
+    ],
+    "bekleyelim": [
+      "صبر کنیم",
+      "let's wait"
+    ],
+    "birincisiniz": [
+      "اول هستید",
+      "you're first"
+    ],
+    "bulun": [
+      "پیدا کنید",
+      "find (an instruction)"
+    ],
+    "düşünme": [
+      "فکر نکن",
+      "don't think"
+    ],
+    "ederiz": [
+      "…می‌کنیم (teşekkür ederiz: ممنونیم)",
+      "we do (teşekkür ederiz: thank you, from us)"
+    ],
+    "ediyor": [
+      "می‌کند (با takip)",
+      "does (with takip: is following)"
+    ],
+    "gidin": [
+      "بروید",
+      "go (an instruction)"
+    ],
+    "hadi": [
+      "یالا؛ زود باش",
+      "come on!"
+    ],
+    "hazine": [
+      "گنج",
+      "treasure"
+    ],
+    "hepiniz": [
+      "همه‌تان",
+      "all of you"
+    ],
+    "herkese": [
+      "به همه",
+      "to everyone"
+    ],
+    "hey": [
+      "هی!",
+      "hey!"
+    ],
+    "hocam": [
+      "استاد (خطاب به معلم)",
+      "teacher (addressing your teacher)"
+    ],
+    "kazanın": [
+      "ببرید (برنده شوید)",
+      "win (an instruction)"
+    ],
+    "kitabı": [
+      "کتاب را",
+      "the book (as the object)"
+    ],
+    "kitapta": [
+      "توی کتاب",
+      "in the book"
+    ],
+    "koşalım": [
+      "بدوییم",
+      "let's run"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "kutunun": [
+      "…ِ جعبه (kutunun içinde: توی جعبه)",
+      "of the box (kutunun içinde: inside the box)"
+    ],
+    "lokum": [
+      "راحت‌الحلقوم",
+      "Turkish delight"
+    ],
+    "neredesiniz": [
+      "کجایید؟",
+      "where are you? (siz)"
+    ],
+    "neredeyiz": [
+      "کجاییم؟",
+      "where are we?"
+    ],
+    "peçete": [
+      "دستمال‌کاغذی",
+      "paper napkin"
+    ],
+    "peçetede": [
+      "روی دستمال‌کاغذی",
+      "on the napkin"
+    ],
+    "takip": [
+      "دنبال (takip ediyor: دنبال می‌کند)",
+      "following (takip ediyor: is following)"
+    ],
+    "takım": [
+      "تیم",
+      "team"
+    ],
+    "yorgunum": [
+      "خسته‌ام",
+      "I'm tired"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name)"
+    ]
+  },
+  "id": "s1e24",
+  "kind": "special",
+  "lessons": [
+    "g_a1_4_ad_durumlari",
+    "g_a1_4_belirtme",
+    "g_a1_3_yonelme"
+  ],
+  "level": "A1",
+  "place": "tomer_gate",
+  "props": {
+    "hazine": {
+      "at": {
+        "istiklal_sishane": {
+          "x": 3.45,
+          "y": 0.9,
+          "z": -1.3
+        }
+      },
+      "kit": "bag",
+      "terms": [
+        "a1-w-hediye",
+        "a2-w-lokum"
+      ],
+      "variant": "gift"
+    },
+    "ipucu_2": {
+      "at": {
+        "library_bu": {
+          "x": 1.6,
+          "y": 1.2,
+          "z": -2.6
+        }
+      },
+      "kit": "paper",
+      "lines": [
+        "Kafeden bir peçete alın.",
+        "Peçetede bir kelime var."
+      ],
+      "shown": false,
+      "terms": [],
+      "variant": "slip"
+    },
+    "ipucu_3": {
+      "at": {
+        "istiklal_street": {
+          "x": 3.7,
+          "y": 0.2,
+          "z": -2.1
+        }
+      },
+      "kit": "paper",
+      "lines": [
+        "Şişhane'ye gidin.",
+        "Zafer Hoca'yı bulun!"
+      ],
+      "shown": false,
+      "terms": [],
+      "variant": "slip"
+    },
+    "kirmizi_kitap": {
+      "at": {
+        "library_bu": {
+          "x": 1.85,
+          "y": 1.9,
+          "z": -2.75
+        }
+      },
+      "color": "fab_23",
+      "kit": "book",
+      "terms": [
+        "seed-w01",
+        "a1-w-kirmizi"
+      ]
+    },
+    "mavi_kutu": {
+      "at": {
+        "istiklal_street": {
+          "x": 3.75,
+          "y": 0.0,
+          "z": -2.15
+        }
+      },
+      "kit": "box",
+      "terms": [
+        "a1-w-kutu",
+        "a1-w-mavi"
+      ],
+      "variant": "small"
+    },
+    "pecete": {
+      "at": {
+        "istiklal_street": {
+          "x": -3.75,
+          "y": 0.9,
+          "z": -1.2
+        }
+      },
+      "kit": "paper",
+      "label": "DURAK",
+      "terms": [
+        "a1-w-durak"
+      ],
+      "variant": "napkin"
+    },
+    "sozlukler": {
+      "at": {
+        "istiklal_sishane": {
+          "x": 2.85,
+          "y": 0.0,
+          "z": -1.45
+        }
+      },
+      "kit": "book",
+      "n": 5,
+      "shown": false,
+      "terms": [
+        "a1-w-sozluk"
+      ],
+      "variant": "small"
+    },
+    "telefon": {
+      "at": {
+        "istiklal_street": {
+          "x": 2.55,
+          "y": 0.9,
+          "z": 0.2
+        }
+      },
+      "kit": "phone",
+      "screen": "Parvane",
+      "terms": [
+        "a1-w-telefon"
+      ]
+    },
+    "zarf": {
+      "at": {
+        "tomer_gate": {
+          "x": 0.25,
+          "y": 0.95,
+          "z": -3.2
+        }
+      },
+      "kit": "paper",
+      "label": "1",
+      "terms": [],
+      "variant": "envelope"
+    },
+    "zarf_2": {
+      "at": {
+        "tomer_gate": {
+          "x": 0.65,
+          "y": 0.95,
+          "z": -3.2
+        }
+      },
+      "kit": "paper",
+      "label": "2",
+      "terms": [],
+      "variant": "envelope"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What is in the red book?",
+      "fa": "توی کتابِ قرمز چه هست؟",
+      "kind": "comp",
+      "options": [
+        "Bir mesaj",
+        "Bir peçete",
+        "Bir sözlük"
+      ],
+      "q": "Kırmızı kitapta ne var?",
+      "why": "Dilnoza: “Kitapta bir mesaj var!”"
+    },
+    {
+      "a": 0,
+      "en": "“Go to the library. … the red book.”",
+      "fa": "«به کتابخانه بروید. کتابِ قرمز را …»",
+      "kind": "word",
+      "options": [
+        "bulun",
+        "alın",
+        "gidin"
+      ],
+      "q": "“Kütüphaneye gidin. Kırmızı kitabı …”",
+      "why": "Nima: “Kütüphaneye gidin. Kırmızı kitabı bulun.”"
+    },
+    {
+      "a": 0,
+      "en": "What does Zafer Hoca give everyone?",
+      "fa": "استاد ظفر به همه چه می‌دهد؟",
+      "kind": "comp",
+      "options": [
+        "Bir sözlük ve lokum",
+        "Bir kitap ve çay",
+        "Bir peçete"
+      ],
+      "q": "Zafer Hoca herkese ne veriyor?",
+      "why": "Zafer Hoca: “Hediye! Herkese bir sözlük ve lokum.”"
+    }
+  ],
+  "ref": "A1_4",
+  "releaseDate": "2026-10-03",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "walk_r",
+        "dilnoza": "steps_c",
+        "nima": "steps_l",
+        "parvaneh": "steps_r",
+        "yusuf": "street",
+        "zafer": "door"
+      },
+      "kerim": "gate",
+      "scene": "tomer_gate",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "zarf",
+            "op": "take"
+          },
+          {
+            "id": "zarf_2",
+            "op": "take"
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "en": "Good morning! It's Saturday… but there's school! A treasure hunt!",
+      "fa": "صبح بخیر! امروز شنبه‌ست… ولی مدرسه داریم! گنج‌یابی!",
+      "narr": true,
+      "tr": "Günaydın! Bugün cumartesi… ama okul var! Hazine avı!",
+      "who": "kerim"
+    },
+    {
+      "emo": "happy",
+      "en": "Today there's a contest! Nima, Dilnoza and Yusuf are one team. Parvaneh and Alex… but Parvaneh counts as two!",
+      "fa": "امروز یه مسابقه داریم! نیما، دلنوزا و یوسف یه تیمن. پروانه و الکس… ولی پروانه خودش دو نفره!",
+      "obj": [
+        {
+          "id": "zarf",
+          "op": "give",
+          "to": "dilnoza"
+        }
+      ],
+      "react": {
+        "parvaneh": "laugh"
+      },
+      "to": "all",
+      "tr": "Bugün bir yarışma var! Nima, Dilnoza ve Yusuf bir takım. Parvane ve Alex… ama Parvane iki kişi!",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "zarf_2",
+            "op": "give",
+            "to": "parvaneh"
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "at": "obj:zarf",
+      "do": "read",
+      "emo": "curious",
+      "en": "“Go to the library. Find the red book.”",
+      "fa": "«به کتابخانه بروید. کتابِ قرمز را پیدا کنید.»",
+      "to": "all",
+      "tr": "“Kütüphaneye gidin. Kırmızı kitabı bulun.”",
+      "who": "nima"
+    },
+    {
+      "do": "think",
+      "emo": "tired",
+      "en": "One minute… I'm thinking.",
+      "fa": "یه دقیقه… دارم فکر می‌کنم.",
+      "tempo": 0.8,
+      "to": "parvaneh",
+      "tr": "Bir dakika… düşünüyorum.",
+      "who": "alex"
+    },
+    {
+      "do": "beckon",
+      "emo": "laugh",
+      "en": "Don't think, Alex! Come on, let's go!",
+      "fa": "فکر نکن، الکس! یالا، بیا!",
+      "move": [
+        {
+          "from": "corner",
+          "how": "exit",
+          "to": "corner",
+          "who": "parvaneh"
+        },
+        {
+          "from": "corner",
+          "how": "exit",
+          "to": "corner",
+          "who": "alex"
+        }
+      ],
+      "to": "alex",
+      "tr": "Düşünme, Alex! Hadi, gel!",
+      "who": "parvaneh"
+    },
+    {
+      "at": {
+        "dilnoza": "shelf",
+        "librarian_bu": "table",
+        "nima": "aisle",
+        "yusuf": "door"
+      },
+      "kerim": "shelf_top",
+      "scene": "library_bu",
+      "time": "day"
+    },
+    {
+      "at": "obj:kirmizi_kitap",
+      "do": "point",
+      "emo": "happy",
+      "en": "The red book… it's here! There's a message in the book!",
+      "fa": "کتابِ قرمز… این‌جاست! توی کتاب یه پیغام هست!",
+      "link": {
+        "kitap": "obj:kirmizi_kitap",
+        "kitapta": "obj:kirmizi_kitap"
+      },
+      "obj": [
+        {
+          "id": "ipucu_2",
+          "op": "show"
+        }
+      ],
+      "to": "nima",
+      "tr": "Kırmızı kitap… burada! Kitapta bir mesaj var!",
+      "voice": "whisper",
+      "who": "dilnoza"
+    },
+    {
+      "at": "obj:ipucu_2",
+      "do": "read",
+      "emo": "curious",
+      "en": "“Take a napkin from the café. There's a word on the napkin.”",
+      "fa": "«از کافه یک دستمال‌کاغذی بردارید. روی دستمال یک کلمه هست.»",
+      "obj": [
+        {
+          "id": "ipucu_2",
+          "op": "take"
+        }
+      ],
+      "to": "all",
+      "tr": "“Kafeden bir peçete alın. Peçetede bir kelime var.”",
+      "voice": "whisper",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "A café… on İstiklal! Let's go!",
+      "fa": "کافه… توی استقلال! بریم!",
+      "react": {
+        "librarian_bu": "shush"
+      },
+      "to": "nima",
+      "tr": "Kafe… İstiklal'de! Gidiyoruz!",
+      "voice": "whisper",
+      "who": "yusuf"
+    },
+    {
+      "at": {
+        "dilnoza": "corner",
+        "nima": "walk_c",
+        "yusuf": "walk_r"
+      },
+      "kerim": "tram_wire",
+      "scene": "istiklal_street",
+      "time": "day"
+    },
+    {
+      "at": "obj:pecete",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "The napkin: “STOP”!",
+      "fa": "روی دستمال نوشته: «ایستگاه»!",
+      "link": {
+        "peçete": "obj:pecete"
+      },
+      "obj": [
+        {
+          "id": "pecete",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Peçete: “DURAK”!",
+      "who": "dilnoza"
+    },
+    {
+      "at": "ch:nima",
+      "do": "you",
+      "emo": "curious",
+      "en": "Where's the stop? …Nima, you ask!",
+      "fa": "ایستگاه کجاست؟ …نیما، تو بپرس!",
+      "to": "nima",
+      "tr": "Durak nerede? …Nima, sen sor!",
+      "who": "yusuf"
+    },
+    {
+      "beat": {
+        "move": {
+          "from": "side_exit",
+          "how": "enter",
+          "to": "passerby",
+          "who": "passerby_1"
+        }
+      }
+    },
+    {
+      "emo": "nervous",
+      "en": "…",
+      "fa": "…",
+      "to": "passerby_1",
+      "tr": "…",
+      "voice": "silent",
+      "who": "nima"
+    },
+    {
+      "emo": "sad",
+      "en": "Nima is thinking… thinking…",
+      "fa": "نیما داره فکر می‌کنه… فکر می‌کنه…",
+      "narr": true,
+      "tr": "Nima düşünüyor… düşünüyor…",
+      "who": "kerim"
+    },
+    {
+      "emo": "shy",
+      "en": "Excuse me…",
+      "fa": "ببخشید…",
+      "move": {
+        "how": "walk",
+        "to": "walk_l",
+        "who": "passerby_1"
+      },
+      "to": "passerby_1",
+      "tr": "Affedersiniz…",
+      "voice": "whisper",
+      "who": "dilnoza"
+    },
+    {
+      "choice": {
+        "id": "durak",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "bow_head",
+            "emo": "shy",
+            "en": "Excuse me, where's the stop?",
+            "fa": "ببخشید، ایستگاه کجاست؟",
+            "ok": true,
+            "react": {
+              "dilnoza": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "at": "obj:tram_stop",
+                  "do": "point",
+                  "emo": "happy",
+                  "who": "passerby_1"
+                }
+              },
+              {
+                "do": "hand_heart",
+                "emo": "happy",
+                "en": "Over there! Thank you!",
+                "fa": "اون‌جا! ممنونیم!",
+                "to": "nima",
+                "tr": "Orada! Teşekkür ederiz!",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Affedersiniz, durak nerede?"
+          },
+          {
+            "emo": "nervous",
+            "en": "Where's the stop?",
+            "fa": "ایستگاه کجاست؟",
+            "react": {
+              "dilnoza": {
+                "emo": "shy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "at": "obj:tram_stop",
+                  "do": "point",
+                  "emo": "annoyed",
+                  "who": "passerby_1"
+                }
+              },
+              {
+                "emo": "neutral",
+                "en": "Over there? Thanks!",
+                "fa": "اون‌جا؟ ممنون!",
+                "to": "passerby_1",
+                "tr": "Orada mı? Teşekkürler!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Durak nerede?"
+          },
+          {
+            "emo": "nervous",
+            "en": "Hey! The stop!",
+            "fa": "هی! ایستگاه!",
+            "react": {
+              "dilnoza": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "do": "shake_head",
+                  "emo": "annoyed",
+                  "who": "passerby_1"
+                }
+              },
+              {
+                "emo": "shy",
+                "en": "Excuse me… where's the stop?",
+                "fa": "ببخشید… ایستگاه کجاست؟",
+                "to": "passerby_1",
+                "tr": "Affedersiniz… durak nerede?",
+                "who": "dilnoza"
+              },
+              {
+                "beat": {
+                  "at": "obj:tram_stop",
+                  "do": "point",
+                  "emo": "happy",
+                  "who": "passerby_1"
+                }
+              }
+            ],
+            "tone": "rude",
+            "tr": "Hey! Durak!"
+          }
+        ],
+        "to": "dilnoza"
+      }
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "walk",
+            "to": "stop",
+            "who": "nima"
+          },
+          {
+            "from": "side_exit",
+            "how": "exit",
+            "to": "side_exit",
+            "who": "passerby_1"
+          }
+        ]
+      }
+    },
+    {
+      "at": "obj:mavi_kutu",
+      "do": "point",
+      "emo": "surprised",
+      "en": "There's a blue box at the stop!",
+      "fa": "توی ایستگاه یه جعبه‌ی آبی هست!",
+      "link": {
+        "kutu": "obj:mavi_kutu"
+      },
+      "to": "nima",
+      "tr": "Durakta mavi bir kutu var!",
+      "who": "yusuf"
+    },
+    {
+      "at": "obj:ipucu_3",
+      "do": "read",
+      "emo": "happy",
+      "en": "Inside the box… “Go to Şişhane. Find Zafer Hoca!”",
+      "fa": "توی جعبه… «به شیشهانه بروید. استاد ظفر را پیدا کنید!»",
+      "obj": [
+        {
+          "id": "ipucu_3",
+          "op": "show"
+        },
+        {
+          "id": "ipucu_3",
+          "op": "take"
+        }
+      ],
+      "to": "all",
+      "tr": "Kutunun içinde… “Şişhane'ye gidin. Zafer Hoca'yı bulun!”",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "at": "obj:tram_stop",
+        "do": "point",
+        "move": {
+          "how": "fly",
+          "to": "lamp",
+          "who": "kerim"
+        },
+        "who": "kerim"
+      }
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point",
+      "emo": "curious",
+      "en": "That bird… is it following us?",
+      "fa": "اون پرنده… داره ما رو دنبال می‌کنه؟",
+      "link": {
+        "kuş": "ch:kerim"
+      },
+      "to": "nima",
+      "tr": "Şu kuş… bizi takip ediyor mu?",
+      "who": "yusuf"
+    },
+    {
+      "emo": "happy",
+      "en": "Me? No… coo-coo.",
+      "fa": "من؟ نه… کو-کو.",
+      "move": {
+        "how": "fly",
+        "to": "ahead",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Ben? Hayır… ku-ku.",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "do": "phone",
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "take"
+          }
+        ],
+        "sfx": {
+          "id": "phone_ring"
+        },
+        "who": "yusuf"
+      }
+    },
+    {
+      "emo": "nervous",
+      "en": "Nima! Where are you? Where… are we?!",
+      "fa": "نیما! کجایید؟ ما… کجاییم؟!",
+      "to": "nima",
+      "tr": "Nima! Neredesiniz? Biz… neredeyiz?!",
+      "via": "phone",
+      "who": "parvaneh"
+    },
+    {
+      "choice": {
+        "id": "beraber",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Let's wait! Together!",
+            "fa": "صبر کنیم! با هم!",
+            "ok": true,
+            "react": {
+              "dilnoza": {
+                "do": "nod",
+                "emo": "happy"
+              },
+              "yusuf": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Thanks, Nima! We're coming!",
+                "fa": "مرسی، نیما! داریم می‌آییم!",
+                "to": "nima",
+                "tr": "Teşekkürler, Nima! Geliyoruz!",
+                "via": "phone",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Bekleyelim! Beraber!"
+          },
+          {
+            "emo": "happy",
+            "en": "Let's run! We're first!",
+            "fa": "بدوییم! ما اولیم!",
+            "react": {
+              "dilnoza": {
+                "emo": "confused"
+              },
+              "yusuf": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "We're running!",
+                "fa": "داریم می‌دوییم!",
+                "to": "nima",
+                "tr": "Koşuyoruz!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Koşalım! Birinciyiz!"
+          },
+          {
+            "emo": "happy",
+            "en": "Go on, you win!",
+            "fa": "باشه، شما ببرید!",
+            "react": {
+              "dilnoza": {
+                "emo": "surprised"
+              },
+              "yusuf": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "What?! This is a contest, Nima!",
+                "fa": "چی؟! این یه مسابقه‌ست، نیما!",
+                "to": "nima",
+                "tr": "Ne?! Bu bir yarışma, Nima!",
+                "via": "phone",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Hadi, siz kazanın!"
+          }
+        ],
+        "to": "parvaneh"
+      }
+    },
+    {
+      "at": {
+        "alex": "entrance",
+        "dilnoza": "walk_l",
+        "nima": "arrive_l",
+        "parvaneh": "arrive_r",
+        "yusuf": "walk_r",
+        "zafer": "zafer"
+      },
+      "kerim": "canopy",
+      "scene": "istiklal_sishane",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "hazine",
+            "op": "take"
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "emo": "tired",
+      "en": "So… tired! But… we're here.",
+      "fa": "خیلی… خسته‌ام! ولی… این‌جاییم.",
+      "tempo": 0.8,
+      "to": "all",
+      "tr": "Çok… yorgunum! Ama… buradayız.",
+      "who": "alex"
+    },
+    {
+      "at": "obj:hazine",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "A present! A dictionary and Turkish delight for everyone. You're all first… together!",
+      "fa": "هدیه! برای همه یه فرهنگ لغت و راحت‌الحلقوم. همه‌تون اولید… با هم!",
+      "link": {
+        "sözlük": "obj:sozlukler"
+      },
+      "obj": [
+        {
+          "id": "sozlukler",
+          "op": "show"
+        }
+      ],
+      "to": "all",
+      "tr": "Hediye! Herkese bir sözlük ve lokum. Hepiniz birincisiniz… beraber!",
+      "who": "zafer"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Thank you, teacher!",
+      "fa": "ممنونیم، استاد!",
+      "to": "zafer",
+      "tr": "Teşekkür ederiz, hocam!",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "en": "Every clue was a case ending. kütüphaneye: to the library (-(y)A). kitabı: the book, as the object (-(y)I; kitap softens). kafeden: from the café (-DAn). durakta: at the stop (-DA, -ta after k).",
+        "ex": "Kütüphaneye gidin. Kırmızı kitabı bulun.",
+        "fa": "هر سرنخ یک پسوندِ حالت بود. kütüphaneye: به کتابخانه (‎-(y)A). kitabı: کتاب را (‎-(y)I؛ kitap می‌شود kitab-‎). kafeden: از کافه (‎-DAn). durakta: در ایستگاه (‎-DA، بعد از k می‌شود ‎-ta).",
+        "lesson": "g_a1_4_ad_durumlari",
+        "show": "case_path"
+      }
+    },
+    {
+      "do": "hop",
+      "emo": "happy",
+      "en": "And first place… Kerim! Coo-coo!",
+      "fa": "و نفرِ اول… کریم! کو-کو!",
+      "narr": true,
+      "tr": "Ve birinci… Kerim! Ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "A Saturday treasure hunt across Taksim and İstiklal: every clue is written with the case endings. In the street Nima freezes in front of a stranger and shy Dilnoza tries first; Kerim helps in secret, and the hunt ends at Şişhane with a treasure for everyone.",
+  "summaryFa": "گنج‌یابیِ روزِ شنبه در تقسیم و خیابانِ استقلال: هر سرنخ با پسوندهای حالتِ اسم نوشته شده. در خیابان، نیما جلوی یک غریبه زبانش بند می‌آید و دلنوزای خجالتی اول خودش امتحان می‌کند؛ کریم پنهانی کمک می‌کند و گنج‌یابی در شیشهانه با جایزه‌ای برای همه تمام می‌شود.",
+  "title": "Hazine avı",
+  "titleEn": "The treasure hunt",
+  "titleFa": "گنج‌یابی",
+  "words": [
+    "a1-w-bulmak",
+    "a1-w-beraber",
+    "a1-w-yarisma",
+    "a1-w-hediye",
+    "a1-w-kutuphane",
+    "a1-w-durak",
+    "a1-w-kirmizi",
+    "a1-w-mavi",
+    "a1-w-kutu",
+    "a1-w-sozluk",
+    "a1-w-kafe"
+  ]
+}

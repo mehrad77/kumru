@@ -1,0 +1,42 @@
+/* The Profile tab (ProfileTab.tsx, Stats.tsx, Cards.tsx): the header, the stats, the calendar, the suffix skills and the card grid. */
+@layer features {
+/* the header and the sections under it */
+.pf-head{display:flex;align-items:center;gap:16px;padding:20px;margin-bottom:12px;flex-wrap:wrap}
+.pf-who{flex:1;min-width:200px;display:grid;gap:6px}.pf-who h1{margin:0;font:400 clamp(28px,6vw,38px)/1.1 var(--sans);letter-spacing:-.02em}
+.pf-who .pupline{margin-top:6px}
+.pf-un{margin:-2px 0 0;color:var(--muted);font-size:14px}
+.pf-meta{display:flex;gap:6px;flex-wrap:wrap}.pf-meta .pchip svg{width:14px;height:14px}
+#p-profile>section{margin-bottom:12px}
+/* the stats tiles' icons (the tiles themselves are shared with the Owner tab) */
+.tile .k{display:flex;align-items:center;gap:8px}
+.tile-ic{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--accent-soft);color:var(--ink);flex:none}
+.tile-ic svg{width:15px;height:15px}
+/* the suffix skills */
+.skill{display:grid;grid-template-columns:minmax(0,1fr) minmax(60px,110px) auto;gap:10px;align-items:center;font-size:13px}
+.skill .sname{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;min-width:0}
+.skill .bar{height:8px;border-radius:999px;background:var(--sunken);overflow:hidden}.skill .bar span{display:block;height:100%}
+.skill .meta{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.more-stats{margin-top:4px}
+.more-stats>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:6px 12px;flex-wrap:wrap;padding:14px 18px;border:0;background:var(--sunken);border-radius:999px;color:var(--ink);font-weight:500}
+.more-stats>summary::-webkit-details-marker{display:none}
+.more-stats>summary::before{content:"";width:16px;height:16px;align-self:center;background:currentColor;-webkit-mask:var(--plus-glyph) center/contain no-repeat;mask:var(--plus-glyph) center/contain no-repeat;transition:transform var(--dur-base) var(--ease-soft)}
+.more-stats[open]>summary::before{transform:rotate(45deg)}
+.more-stats[open]>summary{margin-bottom:12px}
+.more-stats>summary .hint{font-weight:400}
+/* the activity calendar */
+.cal-wrap{padding-bottom:4px;container-type:inline-size}
+/* 18 week columns share the card's width (cells up to 18px), so the calendar never scrolls */
+.cal{--cs:min(18px,calc((100cqw - 86px) / 18));display:grid;grid-auto-flow:column;grid-template-rows:14px repeat(7,var(--cs));grid-template-columns:32px;grid-auto-columns:var(--cs);gap:3px;font-size:10px;color:var(--faint)}
+.cal .d{width:var(--cs);height:var(--cs)}
+.cal .wdl{padding-inline-end:6px;line-height:13px}
+.cal .ml{white-space:nowrap;overflow:visible;line-height:14px}
+.d{display:inline-block;width:13px;height:13px;border-radius:3px;background:var(--line)}
+.d.empty{visibility:hidden}.d.l1{background:color-mix(in srgb,var(--good) 30%,var(--line))}.d.l2{background:color-mix(in srgb,var(--good) 55%,var(--line))}
+.d.l3{background:color-mix(in srgb,var(--good) 80%,var(--line))}.d.l4{background:var(--good)}
+.d.today{box-shadow:0 0 0 1.5px var(--ink)}
+.legend-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--muted)}
+.cal-key{display:inline-flex;gap:3px;align-items:center}.cal-key .d{width:10px;height:10px}
+/* the grid of cards (the profileCards slot) */
+.set-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px;align-items:start}
+@media (max-width:420px){.set-grid{grid-template-columns:1fr}}
+}

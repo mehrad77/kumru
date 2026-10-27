@@ -1,0 +1,22 @@
+/* A character's portrait: the .chr span (app/ui/avatar/portrait.ts). Its SVG parts carry the c-* classes the mouth, head and body animations use. */
+@layer features {
+.chr{display:inline-block;width:64px;height:64px;flex:none;position:relative}
+.chr svg{width:100%;height:100%;display:block;overflow:visible}
+.chr.ring{border-radius:50%;background:color-mix(in srgb,var(--c,var(--accent)) 16%,var(--surface));box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--c,var(--accent)) 55%,transparent);overflow:hidden}
+.chr.ring svg{transform:translateY(6%) scale(1.02)}
+/* Sahne portraits and the silhouette are framed at the head already (app/lib/avatar.ts) */
+.chr.sahne svg,.chr.sil svg{transform:none}.chr.ring.sahne,.chr.ring.sil{background:color-mix(in srgb,var(--c,var(--accent)) 10%,var(--surface))}
+.chr .c-open{opacity:0}
+.chr .c-head,.chr .c-body,.chr .c-scarf{transform-box:fill-box;transform-origin:50% 100%}@media (prefers-reduced-motion:no-preference){.chr.talk .c-open{animation:ch-mouth .24s steps(2) infinite alternate}.chr.talk .c-smile{animation:ch-mouth .24s steps(2) infinite alternate-reverse}.chr.talk .c-head{animation:ch-nod .5s ease-in-out infinite alternate}.actor .c-body{animation:ch-breathe 3.2s ease-in-out infinite}.actor[data-ch="simit"] .c-earL,.actor[data-ch="simit"] .c-earR{transform-box:fill-box;transform-origin:50% 100%;animation:ch-ear 4s ease-in-out infinite}.actor[data-ch="can"] .c-led{animation:ch-blink 1.4s steps(2) infinite}.chr.a-bounce{animation:a-bounce .7s cubic-bezier(.3,1.6,.5,1)}.chr.a-look .c-head{animation:a-look .8s ease-in-out}.chr.a-shake{animation:a-shake .5s ease-in-out}.chr.a-wave{animation:a-wave .8s ease-in-out}.chr.a-run{animation:a-run .8s ease-in-out}.chr.a-swoop{animation:a-swoop .8s ease-out}}
+@keyframes ch-mouth{from{opacity:0}to{opacity:1}}
+@keyframes ch-nod{from{transform:rotate(-2deg) translateY(0)}to{transform:rotate(2deg) translateY(-1.5px)}}
+@keyframes ch-breathe{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.025)}}
+@keyframes ch-ear{0%,90%,100%{transform:rotate(0)}94%{transform:rotate(-12deg)}}
+@keyframes ch-blink{50%{opacity:.35}}
+@keyframes a-bounce{30%{transform:translateY(-22%)}55%{transform:translateY(0) scaleY(.92)}75%{transform:translateY(-6%)}}
+@keyframes a-look{30%{transform:rotate(-10deg)}70%{transform:rotate(8deg)}}
+@keyframes a-shake{20%,60%{transform:translateX(-6%)}40%,80%{transform:translateX(6%)}}
+@keyframes a-wave{25%{transform:rotate(-9deg)}50%{transform:rotate(7deg)}75%{transform:rotate(-5deg)}}
+@keyframes a-run{0%{transform:translateX(0)}30%{transform:translateX(-10%) skewX(8deg)}60%{transform:translateX(14%) skewX(-10deg)}100%{transform:translateX(0)}}
+@keyframes a-swoop{0%{transform:translate(-60%,-80%) rotate(-20deg);opacity:0}60%{transform:translate(5%,5%) rotate(6deg);opacity:1}100%{transform:none}}
+}

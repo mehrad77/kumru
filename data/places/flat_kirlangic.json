@@ -1,0 +1,337 @@
+{
+  "ambience": [
+    "street_far"
+  ],
+  "camera": {
+    "wide": {
+      "w": 7.6,
+      "x": 0,
+      "y1": 2.6,
+      "z": -2.2
+    }
+  },
+  "district": "İstanbul",
+  "id": "flat_kirlangic",
+  "marks": {
+    "balcony_rail": {
+      "x": 2.0,
+      "y": 1.02,
+      "z": -3.45
+    },
+    "door": {
+      "door": "kapi",
+      "out": {
+        "x": -3.25,
+        "z": -3.3
+      },
+      "x": -3.25,
+      "z": -2.15
+    },
+    "floor": {
+      "x": 1.1,
+      "z": -0.45
+    },
+    "sofa": {
+      "seat": 0.45,
+      "x": -1.2,
+      "z": -1.9
+    },
+    "table": {
+      "facing": "l",
+      "seat": 0.45,
+      "x": 0.25,
+      "z": -1.25
+    }
+  },
+  "motif": "home",
+  "name": {
+    "en": "Kırlangıç's flat",
+    "fa": "خانه‌ی پرستو",
+    "tr": "Kırlangıç'ın evi"
+  },
+  "perch": "balcony_rail",
+  "pieces": [
+    {
+      "h": 800,
+      "kit": "skyline",
+      "variant": "ferikoy",
+      "w": 3000,
+      "x": 0,
+      "z": -22
+    },
+    {
+      "a": "#BF946A",
+      "b": "#B48A60",
+      "d": 500,
+      "kit": "floor",
+      "tile": 26,
+      "w": 1000,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "color": "#E6E1D3",
+      "h": 400,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 212,
+          "w": 95,
+          "x": -325,
+          "y": 0
+        },
+        {
+          "h": 235,
+          "w": 170,
+          "x": 200,
+          "y": 0
+        },
+        {
+          "h": 130,
+          "w": 90,
+          "x": 325,
+          "y": 92
+        }
+      ],
+      "tiles": 0,
+      "w": 1000,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "away": false,
+      "color": "#6B4A35",
+      "id": "kapi",
+      "kit": "door",
+      "number": "5",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": -3.25,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 225,
+      "id": "balcony",
+      "kit": "balcony",
+      "terms": [
+        "a1-w-balkon"
+      ],
+      "variant": "door",
+      "w": 150,
+      "x": 2.0,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 130,
+      "id": "pencere",
+      "kit": "window",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 90,
+      "x": 3.25,
+      "y": 0.92,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 50,
+      "kit": "heater",
+      "w": 80,
+      "x": 3.25,
+      "z": -2.56
+    },
+    {
+      "color": "#8C6A4F",
+      "id": "sofa",
+      "kit": "sofa",
+      "terms": [
+        "a1-w-kanepe"
+      ],
+      "throw": "#C9A25A",
+      "w": 210,
+      "x": -1.2,
+      "z": -2.15
+    },
+    {
+      "id": "lamp",
+      "kit": "lamp",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "variant": "standing",
+      "x": -2.55,
+      "z": -2.3
+    },
+    {
+      "id": "table",
+      "kit": "table",
+      "terms": [
+        "a1-w-masa"
+      ],
+      "variant": "tea",
+      "w": 100,
+      "x": -0.55,
+      "z": -1.25
+    },
+    {
+      "facing": "l",
+      "kit": "chair",
+      "x": 0.25,
+      "z": -1.3
+    },
+    {
+      "color": "#6F8A72",
+      "d": 160,
+      "id": "hali",
+      "kit": "rug",
+      "terms": [
+        "a1-w-hali"
+      ],
+      "variant": "kilim",
+      "w": 280,
+      "x": 0.4,
+      "z": -0.8
+    },
+    {
+      "h": 45,
+      "id": "kitaplik",
+      "kit": "shelf",
+      "rows": 1,
+      "terms": [
+        "a1-w-kitaplik"
+      ],
+      "variant": "books",
+      "w": 130,
+      "x": -1.2,
+      "y": 1.4,
+      "z": -2.5500000000000003
+    },
+    {
+      "id": "saat",
+      "kit": "clock",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "3:00",
+      "x": -1.95,
+      "y": 2.1,
+      "z": -2.5900000000000003
+    },
+    {
+      "kit": "lamp",
+      "x": -0.5,
+      "y": 2.45,
+      "z": -1.3
+    },
+    {
+      "h": 130,
+      "kit": "plant",
+      "x": 3.5,
+      "z": 0.7
+    }
+  ],
+  "props": {
+    "cay": {
+      "at": {
+        "x": -0.3,
+        "y": 0.5,
+        "z": -1.2
+      },
+      "hot": true,
+      "kit": "tea",
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bardak"
+      ],
+      "variant": "glass"
+    },
+    "orgu": {
+      "at": {
+        "x": -0.7,
+        "y": 0.46,
+        "z": -2.0
+      },
+      "kit": "yarn",
+      "terms": [
+        "a2-w-orgu"
+      ],
+      "variant": "knitting"
+    },
+    "terlik": {
+      "at": {
+        "x": -2.75,
+        "y": 0,
+        "z": -2.3
+      },
+      "kit": "footwear",
+      "terms": [
+        "a1-w-terlik"
+      ],
+      "variant": "slippers"
+    },
+    "top": {
+      "at": {
+        "x": 0.9,
+        "y": 0,
+        "z": -0.6
+      },
+      "color": "#C2557A",
+      "kit": "yarn",
+      "terms": [
+        "a1-w-top"
+      ],
+      "variant": "ball"
+    },
+    "yarn": {
+      "at": {
+        "x": -2.05,
+        "y": 0,
+        "z": -1.85
+      },
+      "kit": "yarn",
+      "n": 2,
+      "terms": [
+        "b1-w-yun",
+        "a2-w-orgu"
+      ],
+      "variant": "basket"
+    },
+    "yastik": {
+      "at": {
+        "x": -1.85,
+        "y": 0.47,
+        "z": -2.0
+      },
+      "kit": "linen",
+      "terms": [
+        "a1-w-yastik"
+      ],
+      "variant": "cushion"
+    },
+    "yumaklar": {
+      "at": {
+        "x": -0.75,
+        "y": 0.5,
+        "z": -1.25
+      },
+      "kind": "pile",
+      "kit": "yarn",
+      "terms": [
+        "b1-w-yun"
+      ]
+    }
+  },
+  "site": "flat_kirlangic",
+  "size": {
+    "d": 4,
+    "w": 8
+  },
+  "surface": "wood",
+  "times": [
+    "day",
+    "night"
+  ],
+  "v": 1
+}

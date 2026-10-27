@@ -1,0 +1,626 @@
+{
+  "arc": {
+    "en": "Welcome!",
+    "fa": "خوش آمدی!",
+    "id": "s1w01",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Hoş geldin!"
+  },
+  "cast": [
+    "ismail",
+    "nima"
+  ],
+  "followUp": [
+    {
+      "en": "Tea or water?",
+      "fa": "چای یا آب؟",
+      "to": "nima",
+      "tr": "Çay mı, su mu?",
+      "who": "ismail"
+    },
+    {
+      "choice": {
+        "id": "fu_cay_su",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Tea, please.",
+            "fa": "چای، لطفاً.",
+            "ok": true,
+            "react": {
+              "ismail": "happy"
+            },
+            "reply": [
+              {
+                "en": "Tea! Coming up!",
+                "fa": "چای! چشم!",
+                "to": "nima",
+                "tr": "Çay! Tamam!",
+                "who": "ismail"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Çay, lütfen."
+          },
+          {
+            "en": "Yes.",
+            "fa": "بله.",
+            "react": {
+              "ismail": "laugh"
+            },
+            "reply": [
+              {
+                "en": "Yes? …All right: tea it is!",
+                "fa": "بله؟ …باشه: چای!",
+                "to": "nima",
+                "tr": "Evet? …Tamam: çay!",
+                "who": "ismail"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet."
+          }
+        ],
+        "to": "ismail"
+      }
+    },
+    {
+      "en": "Black olives or green olives?",
+      "fa": "زیتونِ سیاه یا زیتونِ سبز؟",
+      "to": "nima",
+      "tr": "Siyah zeytin mi, yeşil zeytin mi?",
+      "who": "ismail"
+    },
+    {
+      "en": "Green olives, please.",
+      "fa": "زیتونِ سبز، لطفاً.",
+      "to": "ismail",
+      "tr": "Yeşil zeytin, lütfen.",
+      "who": "nima"
+    },
+    {
+      "en": "Sure!",
+      "fa": "باشه!",
+      "to": "nima",
+      "tr": "Tamam!",
+      "who": "ismail"
+    }
+  ],
+  "gl": {
+    "bakkal": [
+      "بقال؛ بقالی",
+      "corner shop, grocer's"
+    ],
+    "burada": [
+      "این‌جا",
+      "here"
+    ],
+    "gelsin": [
+      "(در «kolay gelsin») خسته نباشید",
+      "(in “kolay gelsin”) may it come easy: said to someone at work"
+    ],
+    "istanbullu": [
+      "استانبولی، اهلِ استانبول",
+      "from Istanbul (İstanbullu)"
+    ],
+    "izmirli": [
+      "اهلِ ازمیر",
+      "from İzmir"
+    ],
+    "kolay": [
+      "آسان",
+      "easy"
+    ],
+    "nerelisiniz": [
+      "اهلِ کجا هستید؟",
+      "where are you from? (polite)"
+    ],
+    "olun": [
+      "(در «sağ olun») ممنون، مؤدبانه",
+      "(in “sağ olun”) thank you, polite"
+    ],
+    "rize": [
+      "ریزه (شهری در کنارِ دریای سیاه، معروف به چای)",
+      "Rize (a Black Sea town, famous for its tea)"
+    ],
+    "rizeli": [
+      "اهلِ ریزه",
+      "from Rize"
+    ],
+    "rizeliyim": [
+      "اهلِ ریزه‌ام",
+      "I'm from Rize"
+    ]
+  },
+  "id": "s1e05",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_1_soru",
+    "g_a1_1_unlu_uyumu",
+    "g_a1_1_bu_su_o"
+  ],
+  "level": "A1",
+  "place": "bakkal",
+  "props": {
+    "rize_paket": {
+      "at": {
+        "x": 0.38,
+        "y": 0.9,
+        "z": -0.28
+      },
+      "kit": "food",
+      "label": "RİZE",
+      "n": 1,
+      "terms": [
+        "a1-w-cay"
+      ],
+      "variant": "tea_packet"
+    },
+    "telefon": {
+      "at": {
+        "x": -3.25,
+        "y": 1.0,
+        "z": -1.0
+      },
+      "kit": "phone",
+      "screen": {
+        "lines": [
+          "ekmek",
+          "yumurta",
+          "zeytin",
+          "çay",
+          "su"
+        ],
+        "title": "Farzad"
+      },
+      "shown": false,
+      "terms": [
+        "a1-w-telefon",
+        "a1-w-liste"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Where is İsmail from?",
+      "fa": "اسماعیل اهلِ کجاست؟",
+      "kind": "comp",
+      "options": [
+        "Rizeli",
+        "İzmirli",
+        "İstanbullu"
+      ],
+      "q": "İsmail nereli?",
+      "why": "İsmail: “Rizeliyim! Çay!”"
+    },
+    {
+      "a": 0,
+      "en": "İsmail: “…? Black or green?”",
+      "fa": "اسماعیل: «…؟ سیاه یا سبز؟»",
+      "kind": "word",
+      "options": [
+        "Zeytin",
+        "Ekmek",
+        "Su"
+      ],
+      "q": "İsmail: “…? Siyah mı, yeşil mi?”",
+      "why": "İsmail: “Zeytin? Siyah mı, yeşil mi?”"
+    },
+    {
+      "a": 0,
+      "en": "İsmail gives Nima a small packet: “And this… …! From Rize!”",
+      "fa": "اسماعیل یک بسته‌ی کوچک به نیما می‌دهد: «اینم… …! از ریزه!»",
+      "kind": "comp",
+      "options": [
+        "çay",
+        "su",
+        "ekmek"
+      ],
+      "q": "İsmail: “Bu… …! Rize!”",
+      "why": "İsmail: “Bu… çay! Rize!”"
+    }
+  ],
+  "ref": "A1_1",
+  "releaseDate": "2026-09-11",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "ismail": "counter"
+      },
+      "kerim": "over",
+      "scene": "bakkal",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Good morning! This is Taksim. And this is a bakkal, a corner shop.",
+      "fa": "صبح بخیر! این‌جا تقسیمه. این یه بقالیه.",
+      "move": {
+        "how": "enter",
+        "to": "door",
+        "who": "nima"
+      },
+      "narr": true,
+      "sfx": {
+        "id": "shop_bell"
+      },
+      "tr": "Günaydın! Burası Taksim. Bu bir bakkal.",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "cay_bardagi",
+            "op": "take"
+          }
+        ],
+        "who": "ismail"
+      }
+    },
+    {
+      "beat": {
+        "at": "obj:telefon",
+        "cam": "obj",
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "take"
+          },
+          {
+            "id": "telefon",
+            "op": "show"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "choice": {
+        "id": "kolay_gelsin",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Good morning! Hope work goes easy!",
+            "fa": "صبح بخیر، خسته نباشید!",
+            "ok": true,
+            "react": {
+              "ismail": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "hand_heart",
+                "emo": "happy",
+                "en": "Thanks!",
+                "fa": "سلامت باشی!",
+                "to": "nima",
+                "tr": "Sağ ol!",
+                "who": "ismail"
+              }
+            ],
+            "to": "ismail",
+            "tone": "polite",
+            "tr": "Günaydın, kolay gelsin!"
+          },
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Hi!",
+            "fa": "سلام!",
+            "react": {
+              "ismail": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "wait": 600,
+                  "who": "ismail"
+                }
+              },
+              {
+                "emo": "neutral",
+                "en": "…Good morning.",
+                "fa": "…صبح بخیر.",
+                "to": "nima",
+                "tr": "…Günaydın.",
+                "who": "ismail"
+              }
+            ],
+            "to": "ismail",
+            "tone": "casual",
+            "tr": "Selam!"
+          },
+          {
+            "emo": "neutral",
+            "en": "Bread!",
+            "fa": "نون!",
+            "react": {
+              "ismail": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "surprised",
+                "en": "…Good morning?",
+                "fa": "…صبح بخیر؟",
+                "to": "nima",
+                "tr": "…Günaydın?",
+                "who": "ismail"
+              }
+            ],
+            "to": "ismail",
+            "tone": "blunt",
+            "tr": "Ekmek!"
+          }
+        ],
+        "to": "ismail"
+      }
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Welcome! Where are you from?",
+      "fa": "خوش اومدید! اهلِ کجایید؟",
+      "move": {
+        "how": "walk",
+        "to": "customer",
+        "who": "nima"
+      },
+      "to": "nima",
+      "tr": "Hoş geldiniz! Nerelisiniz?",
+      "who": "ismail"
+    },
+    {
+      "emo": "happy",
+      "en": "I'm from Tehran.",
+      "fa": "اهلِ تهرانم.",
+      "to": "ismail",
+      "tr": "Tahranlıyım.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Tehran! Lovely.",
+      "fa": "تهران! خیلی قشنگه.",
+      "to": "nima",
+      "tr": "Tahran! Çok güzel.",
+      "who": "ismail"
+    },
+    {
+      "at": "ch:ismail",
+      "do": "you",
+      "emo": "curious",
+      "en": "And where are you from?",
+      "fa": "شما اهلِ کجایید؟",
+      "to": "ismail",
+      "tr": "Siz nerelisiniz?",
+      "who": "nima"
+    },
+    {
+      "at": "obj:cay_bardagi",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "I'm from Rize! Tea!",
+      "fa": "اهلِ ریزه‌ام! چای!",
+      "link": {
+        "çay": "obj:cay_bardagi"
+      },
+      "sfx": {
+        "id": "tea_glass"
+      },
+      "to": "nima",
+      "tr": "Rizeliyim! Çay!",
+      "who": "ismail"
+    },
+    {
+      "at": "obj:zeytin",
+      "do": "point",
+      "emo": "curious",
+      "en": "Bread… one loaf. Eggs… ten eggs. Olives? Black or green?",
+      "fa": "نون… یه نون. تخم‌مرغ… ده تا تخم‌مرغ. زیتون؟ سیاه یا سبز؟",
+      "link": {
+        "ekmek": "obj:ekmek",
+        "yumurta": "obj:yumurta",
+        "zeytin": "obj:zeytin"
+      },
+      "obj": [
+        {
+          "id": "telefon",
+          "op": "set",
+          "set": {
+            "screen": {
+              "lines": [
+                "✓ ekmek",
+                "✓ yumurta",
+                "zeytin",
+                "çay",
+                "su"
+              ],
+              "title": "Farzad"
+            }
+          }
+        }
+      ],
+      "on": "zeytin",
+      "to": "nima",
+      "tr": "Ekmek… bir ekmek. Yumurta… on yumurta. Zeytin? Siyah mı, yeşil mi?",
+      "who": "ismail"
+    },
+    {
+      "emo": "happy",
+      "en": "Black, please.",
+      "fa": "سیاه، لطفاً.",
+      "to": "ismail",
+      "tr": "Siyah, lütfen.",
+      "who": "nima"
+    },
+    {
+      "at": "obj:su",
+      "do": "count",
+      "emo": "happy",
+      "en": "Water… two bottles. Done!",
+      "fa": "آب… دو تا آب. تمومه!",
+      "link": {
+        "su": "obj:su"
+      },
+      "n": 2,
+      "obj": [
+        {
+          "id": "telefon",
+          "op": "set",
+          "set": {
+            "screen": {
+              "lines": [
+                "✓ ekmek",
+                "✓ yumurta",
+                "✓ zeytin",
+                "çay",
+                "✓ su"
+              ],
+              "title": "Farzad"
+            }
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Su… iki su. Tamam!",
+      "who": "ismail"
+    },
+    {
+      "beat": {
+        "at": "obj:kart_okuyucu",
+        "cam": "two",
+        "do": "touch",
+        "sfx": {
+          "id": "message"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "rize_paket",
+            "op": "take"
+          }
+        ],
+        "who": "ismail"
+      }
+    },
+    {
+      "at": "obj:rize_paket",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "And this… tea! From Rize! The school up there? Are you a student?",
+      "fa": "اینم… چای! از ریزه! دانشگاه؟ دانشجویید؟",
+      "link": {
+        "çay": "obj:rize_paket"
+      },
+      "to": "nima",
+      "tr": "Bu… çay! Rize! Okul? Öğrenci mi?",
+      "who": "ismail"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "rize_paket",
+            "op": "give",
+            "to": "nima"
+          },
+          {
+            "id": "telefon",
+            "op": "set",
+            "set": {
+              "screen": {
+                "lines": [
+                  "✓ ekmek",
+                  "✓ yumurta",
+                  "✓ zeytin",
+                  "✓ çay",
+                  "✓ su"
+                ],
+                "title": "Farzad"
+              }
+            }
+          }
+        ],
+        "who": "ismail"
+      }
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Yes! Thank you, have a nice day!",
+      "fa": "بله! ممنون، روز خوش!",
+      "to": "ismail",
+      "tr": "Evet! Sağ olun, iyi günler!",
+      "who": "nima"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye! Tea every day… right here!",
+      "fa": "به سلامت! هر روز چای… همین‌جا!",
+      "to": "nima",
+      "tr": "Güle güle! Her gün çay… burada!",
+      "who": "ismail"
+    },
+    {
+      "spot": {
+        "en": "Two choices, two little mi's: “Siyah mı, yeşil mi?” Black or green? Each mi follows the last vowel of the word before it: siyah → mı, yeşil → mi. One more: “Çay mı, su mu?” Tea or water?",
+        "ex": "Siyah mı, yeşil mi?",
+        "fa": "دو گزینه، دو تا mi: «Siyah mı, yeşil mi?» یعنی «سیاه یا سبز؟». حرفِ صدادارِ هر mi از آخرین حرفِ صدادارِ کلمه‌ی قبلش پیروی می‌کند: siyah ← mı، yeşil ← mi. یکی دیگر: «Çay mı, su mu?» یعنی «چای یا آب؟».",
+        "lesson": "g_a1_1_soru"
+      }
+    },
+    {
+      "cam": "wide",
+      "en": "Bread, eggs, olives… and tea. And İsmail.",
+      "fa": "نون، تخم‌مرغ، زیتون… و چای. و اسماعیل.",
+      "move": [
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "nima"
+        },
+        {
+          "how": "fly",
+          "to": "ledge",
+          "who": "kerim"
+        }
+      ],
+      "narr": true,
+      "sfx": {
+        "id": "shop_bell"
+      },
+      "tr": "Ekmek, yumurta, zeytin… ve çay. Ve İsmail.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Nima goes shopping alone for the first time, with Farzad's list for tomorrow's dinner, at İsmail's bakkal round the corner from the campus. İsmail is from Rize, and he adds a packet of tea.",
+  "summaryFa": "نیما با فهرستی که فرزاد برای شامِ فردا فرستاده، برای اولین بار تنهایی به خرید می‌رود: به بقالیِ اسماعیل، نزدیکِ دانشگاه. اسماعیل اهلِ ریزه است و یک بسته چای هم هدیه می‌دهد.",
+  "title": "Bakkalda",
+  "titleEn": "At the corner shop",
+  "titleFa": "در بقالی",
+  "words": [
+    "a1-w-ekmek",
+    "a1-w-zeytin",
+    "a1-w-siyah",
+    "a1-w-yesil",
+    "a1-w-sag-ol"
+  ]
+}

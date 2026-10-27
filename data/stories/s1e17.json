@@ -1,0 +1,576 @@
+{
+  "arc": {
+    "en": "A new home, a new way",
+    "fa": "خانه‌ی نو، راهِ نو",
+    "id": "s1w03",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Yeni ev, yeni yol"
+  },
+  "cast": [
+    "nima",
+    "dilnoza"
+  ],
+  "extras": [
+    "passenger_1",
+    "passenger_4"
+  ],
+  "followUp": [
+    {
+      "en": "Look! What are the cats doing?",
+      "fa": "نگاه کن! گربه‌ها چی‌کار می‌کنن؟",
+      "narr": true,
+      "tr": "Bak! Kediler ne yapıyor?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_kedi",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "The cats are sleeping.",
+            "fa": "گربه‌ها خوابن.",
+            "ok": true,
+            "reply": [
+              {
+                "en": "Yes! The cats are sleeping.",
+                "fa": "آره! گربه‌ها خوابن.",
+                "narr": true,
+                "tr": "Evet! Kediler uyuyor.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Kediler uyuyor."
+          },
+          {
+            "en": "The cats to sleep.",
+            "fa": "گربه‌ها «خوابیدن».",
+            "reply": [
+              {
+                "en": "“To sleep”? No… the cats are sleeping!",
+                "fa": "«خوابیدن»؟ نه… گربه‌ها خوابن!",
+                "narr": true,
+                "tr": "Uyumak mı? Hayır… kediler uyuyor!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Kediler uyumak."
+          }
+        ]
+      }
+    },
+    {
+      "en": "And Dilnoza? What's she doing?",
+      "fa": "دلنوزا چی؟ داره چی‌کار می‌کنه؟",
+      "narr": true,
+      "tr": "Peki Dilnoza? Ne yapıyor?",
+      "who": "kerim"
+    },
+    {
+      "en": "Dilnoza's walking!",
+      "fa": "دلنوزا داره راه می‌ره!",
+      "tr": "Dilnoza yürüyor!",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! Coo-coo!",
+      "fa": "آره! کو-کو!",
+      "narr": true,
+      "tr": "Evet! Ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "gl": {
+    "ağaca": [
+      "به درخت",
+      "to the tree"
+    ],
+    "boğaz": [
+      "بسفر",
+      "the Bosphorus"
+    ],
+    "kilise": [
+      "کلیسا",
+      "church"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "maria": [
+      "ماریا (همسایه‌ی طبقه‌ی پنجم)",
+      "Maria (the neighbour on the fifth floor)"
+    ],
+    "musun": [
+      "(نشانه‌ی سؤال) …ی؟",
+      "(question word) are you…?"
+    ]
+  },
+  "id": "s1e17",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_3_simdiki",
+    "g_a1_3_unsuz",
+    "g_a1_3_mak_istemek"
+  ],
+  "level": "A1",
+  "place": "ferikoy",
+  "props": {
+    "dilim": {
+      "at": {
+        "ferikoy": {
+          "x": 3.3,
+          "y": 0.45,
+          "z": -2.2
+        }
+      },
+      "flavor": "strawberry",
+      "kit": "cake",
+      "shown": false,
+      "terms": [
+        "a1-w-pasta"
+      ],
+      "variant": "slice"
+    },
+    "pasta": {
+      "at": {
+        "ferikoy": {
+          "x": -3.06,
+          "y": 0,
+          "z": -3.9
+        }
+      },
+      "flavor": "strawberry",
+      "kit": "cake",
+      "shown": false,
+      "terms": [
+        "a1-w-pasta"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What are the cats doing?",
+      "fa": "گربه‌ها چه کار می‌کنند؟",
+      "kind": "comp",
+      "options": [
+        "Uyuyor",
+        "Oynuyor",
+        "Yürüyor"
+      ],
+      "q": "Kediler ne yapıyor?",
+      "why": "Dilnoza: “Kediler uyuyor…”"
+    },
+    {
+      "a": 0,
+      "en": "“Girmek” means to go in. Dilnoza: “A patisserie! Do you want to …?” Which word fits?",
+      "fa": "‏«girmek» یعنی وارد شدن. دلنوزا: «شیرینی‌فروشی! می‌خواهی …؟» کدام کلمه درست است؟",
+      "kind": "word",
+      "options": [
+        "Girmek",
+        "Oynamak",
+        "Uyumak"
+      ],
+      "q": "Dilnoza: “Pastane! … istiyor musun?”",
+      "why": "Dilnoza: “Girmek istiyor musun?”"
+    },
+    {
+      "a": 0,
+      "en": "Nima offers the cake. What does Dilnoza say first?",
+      "fa": "نیما کیک تعارف می‌کند. دلنوزا اول چه می‌گوید؟",
+      "kind": "comp",
+      "options": [
+        "Hayır, istemiyorum, teşekkürler.",
+        "Evet, çok seviyorum!",
+        "Boğaz'a!"
+      ],
+      "q": "Nima pasta veriyor. Dilnoza: “…”",
+      "why": "Dilnoza: “Hayır, istemiyorum, teşekkürler.”"
+    }
+  ],
+  "ref": "A1_3",
+  "releaseDate": "2026-09-25",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "dilnoza": "park_side",
+        "nima": "corner",
+        "passenger_1": "cafe_table",
+        "passenger_4": "firin_front"
+      },
+      "kerim": "rooftops",
+      "scene": "ferikoy",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Friday! No school, lovely weather. What's Nima doing? Nima's out exploring!",
+      "fa": "جمعه! مدرسه تعطیله، هوا خوبه. نیما چی‌کار می‌کنه؟ نیما داره گردش می‌کنه!",
+      "narr": true,
+      "tr": "Cuma! Okul yok, hava güzel. Nima ne yapıyor? Nima geziyor!",
+      "who": "kerim"
+    },
+    {
+      "emo": "curious",
+      "en": "Where are we walking to?",
+      "fa": "پیاده کجا می‌ریم؟",
+      "to": "nima",
+      "tr": "Nereye yürüyoruz?",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "happy",
+      "en": "To the Bosphorus! I want to drink tea!",
+      "fa": "بسفر! می‌خوام چای بخورم!",
+      "move": {
+        "how": "walk",
+        "to": "walk_r",
+        "who": "nima"
+      },
+      "to": "dilnoza",
+      "tr": "Boğaz'a! Çay içmek istiyorum!",
+      "who": "nima"
+    },
+    {
+      "at": "ch:passenger_1",
+      "do": "point",
+      "emo": "happy",
+      "en": "The cats are sleeping… But what are they doing?",
+      "fa": "گربه‌ها خوابن… ولی اونا دارن چی‌کار می‌کنن؟",
+      "link": {
+        "kediler": "obj:cats"
+      },
+      "move": {
+        "how": "walk",
+        "to": "walk_l",
+        "who": "dilnoza"
+      },
+      "on": "onlar",
+      "to": "nima",
+      "tr": "Kediler uyuyor… Ama onlar ne yapıyorlar?",
+      "who": "dilnoza"
+    },
+    {
+      "at": "obj:oyun",
+      "do": "point",
+      "emo": "happy",
+      "en": "They're playing!",
+      "fa": "دارن بازی می‌کنن!",
+      "link": {
+        "oynuyorlar": "obj:oyun"
+      },
+      "react": {
+        "passenger_1": {
+          "do": "nod"
+        }
+      },
+      "to": "dilnoza",
+      "tr": "Oynuyorlar!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "at": "obj:oyun",
+        "do": "think",
+        "loop": true,
+        "who": "passenger_1"
+      }
+    },
+    {
+      "beat": {
+        "sfx": {
+          "at": "mark:church_gate",
+          "id": "church_bells"
+        }
+      }
+    },
+    {
+      "at": "mark:church_gate",
+      "do": "look",
+      "emo": "curious",
+      "en": "What's that? Do you know?",
+      "fa": "این چیه؟ می‌دونی؟",
+      "move": {
+        "how": "walk",
+        "to": "church_gate",
+        "who": "dilnoza"
+      },
+      "to": "nima",
+      "tr": "Bu ne? Biliyor musun?",
+      "who": "dilnoza"
+    },
+    {
+      "at": "mark:church_gate",
+      "do": "point",
+      "emo": "proud",
+      "en": "A church!",
+      "fa": "کلیسا!",
+      "move": {
+        "how": "walk",
+        "to": "walk_l",
+        "who": "nima"
+      },
+      "to": "dilnoza",
+      "tr": "Kilise!",
+      "who": "nima"
+    },
+    {
+      "cam": "follow",
+      "en": "Look at the tree! Kerim's here!",
+      "fa": "درخت رو نگاه کن! کریم این‌جاست!",
+      "move": {
+        "how": "fly",
+        "to": "tree",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Ağaca bak! Kerim burada!",
+      "who": "kerim"
+    },
+    {
+      "at": "mark:patisserie_door",
+      "do": "point",
+      "emo": "happy",
+      "en": "A patisserie! Do you like cake? Do you want to go in?",
+      "fa": "شیرینی‌فروشی! کیک دوست داری؟ می‌خوای بریم تو؟",
+      "to": "nima",
+      "tr": "Pastane! Pasta seviyor musun? Girmek istiyor musun?",
+      "who": "dilnoza"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes! I love it!",
+      "fa": "آره! خیلی دوست دارم!",
+      "move": {
+        "how": "exit",
+        "to": "patisserie_door",
+        "who": "nima"
+      },
+      "to": "dilnoza",
+      "tr": "Evet! Çok seviyorum!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "from": "patisserie_door",
+            "how": "enter",
+            "to": "bench",
+            "who": "nima"
+          },
+          {
+            "how": "walk",
+            "to": "walk_l",
+            "who": "dilnoza"
+          }
+        ],
+        "obj": [
+          {
+            "id": "pasta",
+            "op": "show"
+          },
+          {
+            "id": "pasta",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "beat": {
+        "at": "ch:dilnoza",
+        "do": "give",
+        "emo": "happy",
+        "move": {
+          "how": "walk",
+          "to": "ground",
+          "who": "dilnoza"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "do": "shake_head",
+      "emo": "shy",
+      "en": "No, I don't want any, thanks.",
+      "fa": "نه، نمی‌خوام، مرسی.",
+      "to": "nima",
+      "tr": "Hayır, istemiyorum, teşekkürler.",
+      "who": "dilnoza"
+    },
+    {
+      "choice": {
+        "id": "cake",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Do you want a little? Please!",
+            "fa": "یه کم می‌خوای؟ تو رو خدا!",
+            "ok": true,
+            "react": {
+              "dilnoza": {
+                "emo": "shy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "…Okay, a little!",
+                "fa": "…باشه، یه کم!",
+                "obj": [
+                  {
+                    "id": "dilim",
+                    "op": "show"
+                  },
+                  {
+                    "id": "dilim",
+                    "op": "give",
+                    "to": "dilnoza"
+                  }
+                ],
+                "to": "nima",
+                "tr": "…Tamam, biraz!",
+                "who": "dilnoza"
+              }
+            ],
+            "sets": "s1e17_cake",
+            "tone": "warm",
+            "tr": "Biraz istiyor musun? Lütfen!"
+          },
+          {
+            "do": "eat",
+            "emo": "happy",
+            "en": "Okay!",
+            "fa": "باشه!",
+            "react": {
+              "dilnoza": {
+                "emo": "sad"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "at": "obj:pasta",
+                  "do": "look",
+                  "emo": "sad",
+                  "who": "dilnoza"
+                }
+              },
+              {
+                "en": "Coo-coo… Dilnoza?",
+                "fa": "کو-کو… دلنوزا؟",
+                "narr": true,
+                "tr": "Ku-ku… Dilnoza?",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam!"
+          },
+          {
+            "emo": "neutral",
+            "en": "Eat!",
+            "fa": "بخور!",
+            "react": {
+              "dilnoza": {
+                "emo": "nervous"
+              }
+            },
+            "reply": [
+              {
+                "do": "eat",
+                "emo": "shy",
+                "en": "…All right.",
+                "fa": "…باشه.",
+                "to": "nima",
+                "tr": "…Peki.",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Ye!"
+          }
+        ],
+        "to": "dilnoza"
+      }
+    },
+    {
+      "spot": {
+        "en": "The whole week in one line: Nima Feriköy'den pastaneye yürüyor. Pasta yemek istiyor. Dilnoza istemiyor… istiyor! And today's softening: a hard p, ç, t or k at the end turns soft before a vowel: ağaç → ağaca, gitmek → gidiyorum.",
+        "ex": "Ağaca bak!",
+        "fa": "همه‌ی این هفته در یک جمله: Nima Feriköy'den pastaneye yürüyor. Pasta yemek istiyor. Dilnoza istemiyor… istiyor! (نیما از فری‌کؤی تا شیرینی‌فروشی پیاده می‌رود. می‌خواهد کیک بخورد. دلنوزا نمی‌خواهد… می‌خواهد!) و نرم‌شدنِ امروز: اگر کلمه به p، ç، t یا k ختم شود، این حرف قبل از حرفِ صدادار نرم می‌شود: ağaç ← ağaca، gitmek ← gidiyorum.",
+        "lesson": "g_a1_3_unsuz"
+      }
+    },
+    {
+      "at": {
+        "dilnoza": "park_side",
+        "nima": "corner"
+      },
+      "kerim": "tree",
+      "scene": "ferikoy",
+      "time": "golden"
+    },
+    {
+      "emo": "laugh",
+      "en": "The Bosphorus? It's so far!",
+      "fa": "بسفر؟ خیلی دوره!",
+      "to": "nima",
+      "tr": "Boğaz? Çok uzak!",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "laugh",
+      "en": "The Bosphorus… another day!",
+      "fa": "بسفر… یه روزِ دیگه!",
+      "to": "dilnoza",
+      "tr": "Boğaz… başka bir gün!",
+      "who": "nima"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye!",
+      "fa": "خداحافظ!",
+      "to": "nima",
+      "tr": "Hoşça kal!",
+      "who": "dilnoza"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye-bye! Tomorrow… I'm going to Maria Teyze's!",
+      "fa": "به سلامت! فردا… می‌رم پیشِ خاله ماریا!",
+      "to": "dilnoza",
+      "tr": "Güle güle! Yarın… Maria Teyze'ye gidiyorum!",
+      "who": "nima"
+    }
+  ],
+  "summary": "No class on Friday: Nima and Dilnoza set off for the Bosphorus on foot, but Feriköy keeps stopping them: sleeping cats, two men playing, a church bell, a Rum patisserie and one big cake.",
+  "summaryFa": "جمعه کلاس نیست: نیما و دلنوزا پیاده راهِ بسفر را می‌گیرند، ولی فری‌کؤی مدام نگهشان می‌دارد: گربه‌های خواب، دو پیرمردِ سرگرمِ بازی، زنگِ یک کلیسا، یک شیرینی‌فروشیِ رومی و یک کیکِ بزرگ.",
+  "title": "Pasta istiyor musun?",
+  "titleEn": "Do you want some cake?",
+  "titleFa": "کیک می‌خواهی؟",
+  "words": [
+    "a1-w-oynamak",
+    "a1-w-bilmek",
+    "a1-w-girmek",
+    "a1-w-sevmek",
+    "a1-w-yurumek",
+    "a1-w-gezmek",
+    "a1-w-istemek"
+  ]
+}

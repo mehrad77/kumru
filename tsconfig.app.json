@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "node"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "shared/**/*.ts"
+  ],
+  "exclude": [
+    "app/host/sw.ts",
+    "app/**/*.test.ts",
+    "shared/**/*.test.ts",
+    "node_modules",
+    "public"
+  ]
+}

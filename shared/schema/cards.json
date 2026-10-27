@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kumru cards document (SPECS_SCHEMA.md 4.1)",
+  "type": "object",
+  "properties": {
+    "tr": {
+      "type": "string",
+      "minLength": 1
+    },
+    "en": {
+      "type": "string"
+    },
+    "fa": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "word",
+        "sentence",
+        "note"
+      ]
+    },
+    "level": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "pos": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string",
+      "pattern": "^((A1|A2|B1)_[1-6])?$"
+    },
+    "core": {
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "origin": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "at": {
+      "type": "integer"
+    },
+    "detail": {
+      "type": "string"
+    },
+    "ex": {
+      "type": "string"
+    },
+    "exFa": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "accept": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gloss": {
+      "type": "object"
+    },
+    "retired": {
+      "enum": [
+        true
+      ]
+    }
+  },
+  "required": [
+    "tr",
+    "en",
+    "kind",
+    "author",
+    "at"
+  ],
+  "additionalProperties": false
+}

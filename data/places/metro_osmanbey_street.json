@@ -1,0 +1,333 @@
+{
+  "ambience": [
+    "traffic",
+    "street_far"
+  ],
+  "camera": {
+    "wide": {
+      "w": 10,
+      "x": 0,
+      "y1": 3.5,
+      "z": -2.4
+    }
+  },
+  "district": "Şişli",
+  "id": "metro_osmanbey_street",
+  "marks": {
+    "canopy": {
+      "x": 1.1,
+      "y": 3.12,
+      "z": -3.05
+    },
+    "entrance": {
+      "door": "metro",
+      "out": {
+        "x": 1.7,
+        "z": -3.6
+      },
+      "x": 1.7,
+      "z": -2.2
+    },
+    "street": {
+      "facing": "r",
+      "x": 0.6,
+      "z": -0.6
+    },
+    "walk_l": {
+      "facing": "r",
+      "x": -2.4,
+      "z": 0.0
+    },
+    "walk_r": {
+      "facing": "l",
+      "x": 3.4,
+      "z": -0.3
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "Osmanbey metro entrance",
+    "fa": "ورودی متروی عثمان‌بی",
+    "tr": "Osmanbey metro girişi"
+  },
+  "outdoor": true,
+  "perch": "canopy",
+  "pieces": [
+    {
+      "h": 700,
+      "kit": "skyline",
+      "variant": "sisli",
+      "w": 6000,
+      "x": 0,
+      "z": -70
+    },
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 5000,
+      "x": 0,
+      "z": -56
+    },
+    {
+      "a": "#B9B1A3",
+      "b": "#ADA597",
+      "d": 1400,
+      "kit": "floor",
+      "tile": 60,
+      "w": 2400,
+      "x": 0,
+      "z": -12
+    },
+    {
+      "a": "#B9B1A3",
+      "b": "#ADA597",
+      "d": 2800,
+      "kit": "floor",
+      "tile": 80,
+      "w": 2800,
+      "x": 0,
+      "z": -40
+    },
+    {
+      "floors": 5,
+      "ground": "shops",
+      "id": "bina",
+      "kit": "facade",
+      "terms": [
+        "a1-w-bina"
+      ],
+      "variant": "apartment",
+      "w": 540,
+      "x": -4.4,
+      "z": -5.0
+    },
+    {
+      "floors": 4,
+      "kit": "facade",
+      "variant": "apartment_old",
+      "w": 480,
+      "x": 5.4,
+      "z": -5.6
+    },
+    {
+      "goods": "clothes",
+      "id": "dukkan",
+      "kit": "frontage",
+      "sign": "Butik",
+      "variant": "shop",
+      "w": 300,
+      "x": -1.4,
+      "z": -4.2
+    },
+    {
+      "id": "metro",
+      "in": [
+        "open"
+      ],
+      "kit": "metro_entrance",
+      "name": "Osmanbey",
+      "terms": [
+        "a1-w-metro",
+        "a1-w-istasyon"
+      ],
+      "x": 1.7,
+      "z": -3.0
+    },
+    {
+      "closed": true,
+      "id": "metro",
+      "in": [
+        "closed"
+      ],
+      "kit": "metro_entrance",
+      "name": "Osmanbey",
+      "terms": [
+        "a1-w-metro",
+        "a1-w-kapali"
+      ],
+      "x": 1.7,
+      "z": -3.0
+    },
+    {
+      "id": "metro_sign",
+      "kit": "metro_sign",
+      "name": "Osmanbey",
+      "terms": [
+        "a1-w-metro"
+      ],
+      "x": 3.8,
+      "z": -2.4
+    },
+    {
+      "in": [
+        "closed"
+      ],
+      "kit": "street_kit",
+      "variant": "cone",
+      "x": 1.0,
+      "z": -2.0
+    },
+    {
+      "in": [
+        "closed"
+      ],
+      "kit": "street_kit",
+      "variant": "cone",
+      "x": 2.4,
+      "z": -2.0
+    },
+    {
+      "dir": 1,
+      "in": [
+        "open"
+      ],
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "x": 1.7,
+      "x0": -260,
+      "x1": 0,
+      "z": -2.95
+    },
+    {
+      "h": 370,
+      "id": "lamba",
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": -0.2,
+      "z": -1.6
+    },
+    {
+      "h": 370,
+      "kit": "lamp_post",
+      "x": 4.8,
+      "z": 0.8
+    },
+    {
+      "kit": "tree",
+      "x": -3.0,
+      "z": -2.6
+    },
+    {
+      "kind": "pigeons",
+      "kit": "birds",
+      "n": 4,
+      "x": -1.6,
+      "x0": -80,
+      "x1": 80,
+      "z": -1.4
+    },
+    {
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 4,
+      "x": 0,
+      "x0": -600,
+      "x1": 600,
+      "z": -3.4
+    },
+    {
+      "kind": "far",
+      "kit": "crowd",
+      "n": 10,
+      "x": 0,
+      "x0": -900,
+      "x1": 900,
+      "z": -10
+    },
+    {
+      "id": "simit",
+      "kit": "simit_cart",
+      "terms": [
+        "a2-w-simit"
+      ],
+      "x": -3.9,
+      "z": -1.5
+    }
+  ],
+  "props": {
+    "ayakkabi": {
+      "at": {
+        "x": -2.2,
+        "y": 0,
+        "z": -3.6
+      },
+      "kit": "shop_kit",
+      "label": "İndirim %50",
+      "terms": [
+        "a1-w-fiyat"
+      ],
+      "variant": "a_board"
+    },
+    "cop_kutusu": {
+      "at": {
+        "x": -0.75,
+        "y": 0,
+        "z": -1.7
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "gazete": {
+      "at": {
+        "x": 4.3,
+        "y": 0,
+        "z": -1.9
+      },
+      "kit": "paper",
+      "terms": [
+        "a1-w-gazete"
+      ],
+      "variant": "sheet"
+    },
+    "kedi": {
+      "at": {
+        "x": -1.9,
+        "y": 0,
+        "z": -3.6
+      },
+      "coat": "ginger",
+      "kit": "cat",
+      "terms": [
+        "a1-w-kedi"
+      ]
+    },
+    "otobus_duragi": {
+      "at": {
+        "x": -4.2,
+        "y": 0,
+        "z": -1.0
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-otobus"
+      ],
+      "variant": "bus_stop"
+    }
+  },
+  "site": "metro",
+  "size": {
+    "d": 6,
+    "w": 12
+  },
+  "states": {
+    "closed": {
+      "group": "entrance"
+    },
+    "open": {
+      "default": true,
+      "group": "entrance"
+    }
+  },
+  "surface": "stone",
+  "times": [
+    "day",
+    "overcast"
+  ],
+  "v": 1
+}

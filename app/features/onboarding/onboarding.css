@@ -1,0 +1,33 @@
+/* The onboarding flow (Onboarding.tsx, steps/): the full-screen dialog, its header, scrolling middle and footer, and the step bodies
+   (the character builder, the placement options, the profile card). The quiz itself is placement.css. */
+@layer features {
+.onb-back{position:fixed;inset:0;z-index:90;background:var(--bg-page) fixed,var(--bg);display:flex;flex-direction:column;overflow:hidden}
+.onb-head{flex:none;display:grid;grid-template-columns:44px 1fr 44px;justify-items:center;align-items:center;min-height:42px;padding:calc(8px + env(safe-area-inset-top,0px)) 16px 8px;border-bottom:0;background:var(--glass);-webkit-backdrop-filter:var(--blur-glass);backdrop-filter:var(--blur-glass)}
+.onb-scroll{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;display:grid;align-items:safe center;justify-items:center;padding:20px 16px}
+.onb-foot{flex:none;display:grid;gap:8px;justify-items:center;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));border-top:0;background:var(--glass);-webkit-backdrop-filter:var(--blur-glass);backdrop-filter:var(--blur-glass)}
+.onb-foot>*{width:100%;max-width:440px}.onb-foot .linkish{width:auto}.onb-foot .btn{min-height:48px;font-size:16px}
+.onb-bk{justify-self:start;width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);display:grid;place-items:center;padding:0}.onb-bk svg{width:20px;height:20px}.onb-bk:hover{border-color:var(--accent)}
+.onb-step{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}.onb-pips{display:flex;gap:6px}
+.onb{max-width:440px;width:100%;min-width:0;display:grid;gap:14px;justify-items:center;text-align:center}
+.onb h1{margin:0;font:400 34px/1.1 var(--sans)}.onb p{margin:0;color:var(--muted)}.onb .fa{font-family:var(--fa)}
+.onb input{width:100%;font-size:20px;padding:14px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink)}
+.onb .nm-in{text-align:center}
+.onb input:focus{border-color:var(--accent);outline:none}
+.onb>.btn,.onb-choose .btn{width:100%;min-height:50px;font-size:16px}
+.onb-cast{display:flex;flex-wrap:wrap;justify-content:center;gap:6px}
+.onb-you{display:grid;justify-items:center;gap:4px}.onb-you b{font-size:20px;color:#14A3A3}
+.onb-dots{display:flex;align-items:center;gap:10px}.onb-dots i{width:8px;height:8px;border-radius:50%;background:var(--line)}.onb-dots i.on{background:var(--accent)}
+.onb.onb-av,.onb.onb-pl{text-align:start}.onb.onb-pl{justify-items:stretch}
+.onb .fields{display:grid;gap:10px;width:100%;text-align:start}.onb .fld{display:grid;gap:4px}.onb .fields input{font-size:17px;padding:12px 14px}
+.onb textarea{width:100%}.onb .try-in{text-align:start}.onb .hint{text-align:center}
+.onb-sug{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;align-items:center}.onb-sug:empty{display:none}
+.onb-chip{border:1.5px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:6px 14px;font-weight:600;font-size:15px}
+/* the avatar step hosts Sahne's builder (its own stylesheet, themed by --sb-*): full width, its preview above the tabs below 720 px */
+.av-builder{width:100%;min-width:0;text-align:start}
+.av-builder .sahne-bld{--sb-bg:transparent;--sb-card:var(--surface);--sb-ink:var(--ink);--sb-mute:var(--muted);--sb-line:var(--line);--sb-sunk:var(--sunken);--sb-accent:var(--act);--sb-accent-ink:var(--act-text)}
+.onb-opts{display:grid;gap:8px;width:100%}.onb-opt{display:grid;gap:2px;text-align:start;border:1.5px solid var(--line);border-bottom-width:3px;background:var(--surface);border-radius:14px;padding:12px 16px;color:var(--ink)}
+.onb-opt.on{border-color:var(--accent);background:var(--accent-soft)}
+.onb-card{width:100%;padding:14px;display:grid;gap:10px;text-align:start}.onb-prow{display:grid;gap:2px}.onb-prow .btn{justify-self:start;min-height:36px}
+.onb-sugg{width:100%;padding:18px}.onb-big{font:400 26px/1.2 var(--sans)}.onb-choose{display:grid;gap:10px;width:100%;justify-items:center}
+.onb-classes{display:grid;gap:10px;width:100%;max-width:320px;margin:8px auto 0}
+}

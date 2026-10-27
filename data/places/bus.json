@@ -1,0 +1,297 @@
+{
+  "ambience": [
+    "traffic",
+    "bus_engine"
+  ],
+  "camera": {
+    "wide": {
+      "w": 7.2,
+      "x": 0,
+      "z": -1.5
+    }
+  },
+  "id": "bus",
+  "life": "run",
+  "marks": {
+    "door": {
+      "door": "poles",
+      "out": {
+        "x": 2.0,
+        "z": -2.4
+      },
+      "x": 2.0,
+      "z": -1.2
+    },
+    "outside": {
+      "air": true,
+      "pace": true,
+      "x": -3.2,
+      "y": 1.45,
+      "z": -2.3
+    },
+    "pole": {
+      "facing": "l",
+      "x": 1.0,
+      "z": -0.7
+    },
+    "seat_l": {
+      "facing": "side_l",
+      "seat": 0.45,
+      "x": -1.6,
+      "z": -1.0
+    },
+    "seat_r": {
+      "facing": "side_l",
+      "seat": 0.45,
+      "x": -0.85,
+      "z": -1.0
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "The bus",
+    "fa": "اتوبوس",
+    "tr": "Otobüs"
+  },
+  "perch": "outside",
+  "pieces": [
+    {
+      "kit": "sky_clouds",
+      "x": 0,
+      "z": -40
+    },
+    {
+      "dir": -1,
+      "in": [
+        "moving"
+      ],
+      "kit": "skyline",
+      "ms": 60000,
+      "scroll": true,
+      "stops": true,
+      "variant": "sisli",
+      "w": 9000,
+      "x": 0,
+      "z": -30
+    },
+    {
+      "in": [
+        "stuck"
+      ],
+      "kit": "skyline",
+      "variant": "sisli",
+      "w": 9000,
+      "x": 0,
+      "z": -30
+    },
+    {
+      "color": "#7E868C",
+      "doors": [
+        200
+      ],
+      "kit": "metro_floor",
+      "w": 1000,
+      "x": 0,
+      "z": -1.65
+    },
+    {
+      "id": "city_traffic",
+      "in": [
+        "moving"
+      ],
+      "kit": "traffic",
+      "moving": true,
+      "stops": true,
+      "terms": [
+        "a1-w-araba"
+      ],
+      "w": 1400,
+      "x": 0,
+      "y": 0.3,
+      "z": -3.0
+    },
+    {
+      "in": [
+        "moving"
+      ],
+      "kit": "scroll_view",
+      "layer": "bus_stop",
+      "stops": true,
+      "x": 0.45,
+      "y": -0.3,
+      "z": -2.3
+    },
+    {
+      "id": "jam",
+      "in": [
+        "stuck"
+      ],
+      "kit": "traffic",
+      "terms": [
+        "a1-w-araba"
+      ],
+      "w": 1400,
+      "x": 0,
+      "y": 0.3,
+      "z": -3.0
+    },
+    {
+      "door": 200,
+      "h": 330,
+      "id": "poles",
+      "kit": "cabin",
+      "poles": [
+        100,
+        -340
+      ],
+      "stations": [
+        "Osmanbey",
+        "Pangaltı",
+        "Harbiye",
+        "Elmadağ",
+        "Taksim"
+      ],
+      "stops": true,
+      "terms": [
+        "a1-w-otobus"
+      ],
+      "variant": "bus",
+      "w": 1000,
+      "x": 0,
+      "z": -1.6
+    },
+    {
+      "id": "windows",
+      "kit": "metro_window",
+      "terms": [
+        "seed-w02"
+      ],
+      "variant": "bus",
+      "x": -2.37,
+      "z": -1.59
+    },
+    {
+      "dir": -1,
+      "id": "seats",
+      "kit": "seats",
+      "n": 4,
+      "terms": [
+        "a1-w-koltuk"
+      ],
+      "variant": "bus",
+      "x": -2.2,
+      "z": -1.2
+    },
+    {
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 2,
+      "x": 3.45,
+      "x0": 0,
+      "x1": 40,
+      "z": -0.9
+    },
+    {
+      "kind": "sit",
+      "kit": "crowd",
+      "n": 2,
+      "x": -3.9,
+      "x0": 0,
+      "x1": 0,
+      "z": -1.2
+    },
+    {
+      "kit": "metro_riders",
+      "n": 1,
+      "spots": [
+        [
+          80,
+          90
+        ]
+      ],
+      "x": 2.0,
+      "z": -1.6
+    }
+  ],
+  "props": {
+    "bus_sign": {
+      "at": {
+        "x": 0.5,
+        "y": 2.15,
+        "z": -1.55
+      },
+      "kit": "sign_board",
+      "label": "İETT",
+      "sub": "46T Osmanbey",
+      "terms": [
+        "a1-w-otobus"
+      ],
+      "variant": "plate"
+    },
+    "canta": {
+      "at": {
+        "x": -0.2,
+        "y": 0,
+        "z": -0.9
+      },
+      "kit": "bag",
+      "terms": [
+        "a1-w-canta"
+      ],
+      "variant": "shopping"
+    },
+    "gazete": {
+      "at": {
+        "x": -2.9,
+        "y": 0.46,
+        "z": -1.0
+      },
+      "kit": "print",
+      "lying": true,
+      "terms": [
+        "a1-w-gazete"
+      ],
+      "variant": "newspaper"
+    },
+    "kahve": {
+      "at": {
+        "x": 3.3,
+        "y": 0,
+        "z": -1.25
+      },
+      "decor": true,
+      "kit": "cup",
+      "variant": "paper_cup"
+    }
+  },
+  "size": {
+    "d": 3,
+    "w": 9
+  },
+  "states": {
+    "moving": {
+      "default": true,
+      "group": "traffic"
+    },
+    "stuck": {
+      "group": "traffic"
+    }
+  },
+  "stops": {
+    "stations": [
+      "Osmanbey",
+      "Pangaltı",
+      "Harbiye",
+      "Elmadağ",
+      "Taksim"
+    ]
+  },
+  "surface": "stone",
+  "times": [
+    "day",
+    "overcast",
+    "dusk",
+    "night"
+  ],
+  "v": 1
+}

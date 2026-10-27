@@ -1,0 +1,559 @@
+{
+  "arc": {
+    "en": "The best of Feriköy",
+    "fa": "بهترین جاهای فری‌کؤی",
+    "id": "s1w06",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Feriköy'ün en iyi yerleri"
+  },
+  "cast": [
+    "nima",
+    "dilnoza",
+    "serkan"
+  ],
+  "extras": [
+    "baker_firin"
+  ],
+  "followUp": [
+    {
+      "en": "Look: the pen on the table, the pen in the bag. Which one is longer?",
+      "fa": "ببین: خودکارِ روی میز، خودکارِ توی کیف. کدوم بلندتره؟",
+      "narr": true,
+      "tr": "Bak: masadaki kalem, çantadaki kalem. Hangisi daha uzun?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_kalem",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "The pen on the table is longer.",
+            "fa": "خودکارِ روی میز بلندتره.",
+            "ok": true,
+            "react": {
+              "kerim": "happy"
+            },
+            "reply": [
+              {
+                "en": "Yes! The one on the table is longer.",
+                "fa": "آره! مالِ روی میز بلندتره.",
+                "narr": true,
+                "tr": "Evet! Masadaki daha uzun.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Masadaki kalem daha uzun."
+          },
+          {
+            "en": "The pen in the bag is longer.",
+            "fa": "خودکارِ توی کیف بلندتره.",
+            "react": {
+              "kerim": "curious"
+            },
+            "reply": [
+              {
+                "en": "No… the one in the bag is shorter!",
+                "fa": "نه… مالِ توی کیف کوتاه‌تره!",
+                "narr": true,
+                "tr": "Hayır… çantadaki daha kısa!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Çantadaki kalem daha uzun."
+          }
+        ],
+        "to": "kerim"
+      }
+    },
+    {
+      "en": "And which bread is warmer?",
+      "fa": "و کدوم نون داغ‌تره؟",
+      "narr": true,
+      "tr": "Ve hangi ekmek daha sıcak?",
+      "who": "kerim"
+    },
+    {
+      "en": "The bread from the bakery on the corner is warmer!",
+      "fa": "نونِ نونواییِ سرِ نبش داغ‌تره!",
+      "tr": "Köşedeki fırının ekmeği daha sıcak!",
+      "who": "nima"
+    }
+  ],
+  "gl": {
+    "berfin": [
+      "برفین (صاحبِ کافهٔ کوچک)",
+      "Berfin (who runs the tiny café)"
+    ],
+    "fırından": [
+      "از نانوایی",
+      "from the bakery"
+    ],
+    "fırının": [
+      "ـِ نانوایی",
+      "the bakery's; of the bakery"
+    ],
+    "hangisi": [
+      "کدام‌یک",
+      "which one"
+    ],
+    "ikisini": [
+      "هر دو را",
+      "both (of them)"
+    ],
+    "masadaki": [
+      "(آنِ) روی میز",
+      "the one on the table"
+    ],
+    "üstünde": [
+      "بالای…، روی…",
+      "on top of…"
+    ]
+  },
+  "id": "s1e33",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_6_ki",
+    "g_a1_6_daha",
+    "g_a1_6_en"
+  ],
+  "level": "A1",
+  "place": "firin",
+  "props": {
+    "kirinti": {
+      "at": {
+        "ferikoy": {
+          "x": 3.0,
+          "y": 0,
+          "z": -1.85
+        }
+      },
+      "kit": "food",
+      "shown": false,
+      "terms": [
+        "a1-w-ekmek"
+      ],
+      "variant": "crumbs"
+    },
+    "kosedeki": {
+      "at": {
+        "ferikoy": {
+          "x": 3.35,
+          "y": 0.45,
+          "z": -2.3
+        },
+        "firin": {
+          "x": 1.45,
+          "y": 0.86,
+          "z": -0.45
+        }
+      },
+      "kit": "bread",
+      "n": 1,
+      "terms": [
+        "a1-w-ekmek"
+      ]
+    },
+    "parktaki": {
+      "at": {
+        "ferikoy": {
+          "x": 3.85,
+          "y": 0.45,
+          "z": -2.3
+        }
+      },
+      "kit": "bread",
+      "n": 1,
+      "terms": [
+        "a1-w-ekmek"
+      ]
+    },
+    "rehber": {
+      "at": {
+        "firin": {
+          "x": -3.1,
+          "y": 0.9,
+          "z": -1.0
+        }
+      },
+      "kit": "book",
+      "label": "Feriköy'ün en iyi yerleri",
+      "shown": false,
+      "tabs": true,
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "notebook"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Which bakery is cheaper?",
+      "fa": "کدام نانوایی ارزان‌تر است؟",
+      "kind": "comp",
+      "options": [
+        "Parktaki fırın",
+        "Köşedeki fırın",
+        "İki fırın da"
+      ],
+      "q": "Hangi fırın daha ucuz?",
+      "why": "Dilnoza: “Parktaki fırın da var. O daha ucuz.”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “This bread is more …”",
+      "fa": "نیما: «این نان …تر است.»",
+      "kind": "word",
+      "options": [
+        "yumuşak",
+        "ucuz",
+        "sert"
+      ],
+      "q": "Nima: “Bu ekmek daha …”",
+      "why": "Nima: “Bu ekmek daha yumuşak.”"
+    },
+    {
+      "a": 0,
+      "en": "Which bakery has the warmest bread?",
+      "fa": "داغ‌ترین نان مالِ کدام نانوایی است؟",
+      "kind": "comp",
+      "options": [
+        "Köşedeki fırında",
+        "Parktaki fırında",
+        "Berfin'in kafesinde"
+      ],
+      "q": "En sıcak ekmek hangi fırında?",
+      "why": "Nima: “Köşedeki fırın: en sıcak ekmek.”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-14",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "baker_firin": "counter",
+        "dilnoza": "door",
+        "nima": "queue_2",
+        "serkan": "queue_1"
+      },
+      "kerim": "chimney",
+      "scene": "firin",
+      "time": "day"
+    },
+    {
+      "en": "Four o'clock. Warm bread! Kerim is on top of the bakery…",
+      "fa": "ساعت چهار. نونِ داغ! کریم بالای نونواییه…",
+      "narr": true,
+      "sfx": {
+        "id": "oven_door",
+        "word": "tak"
+      },
+      "tr": "Saat dört. Sıcak ekmek! Kerim fırının üstünde…",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kosedeki",
+            "op": "give",
+            "to": "serkan"
+          }
+        ],
+        "who": "baker_firin"
+      }
+    },
+    {
+      "do": "explain",
+      "emo": "proud",
+      "en": "The bread from the bakery on the corner… the best bread in Feriköy!",
+      "fa": "نونِ نونواییِ سرِ نبش… بهترین نونِ فری‌کؤی!",
+      "link": {
+        "ekmeği": "obj:kosedeki"
+      },
+      "to": "nima",
+      "tr": "Köşedeki fırının ekmeği… Feriköy'ün en iyi ekmeği!",
+      "who": "serkan"
+    },
+    {
+      "at": "obj:rehber",
+      "do": "write",
+      "emo": "curious",
+      "en": "There's the bakery by the park too. It's cheaper.",
+      "fa": "نونواییِ کنارِ پارک هم هست. اون ارزون‌تره.",
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "show"
+        },
+        {
+          "id": "rehber",
+          "op": "take"
+        }
+      ],
+      "to": "serkan",
+      "tr": "Parktaki fırın da var. O daha ucuz.",
+      "who": "dilnoza"
+    },
+    {
+      "do": "think",
+      "emo": "curious",
+      "en": "Which one is better? We're trying both!",
+      "fa": "کدومش بهتره؟ هر دوتاشو امتحان می‌کنیم!",
+      "to": "dilnoza",
+      "tr": "Hangisi daha iyi? İkisini de deniyoruz!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:kosedeki",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "Cheap, but this one's warmer! This one's fresher!",
+      "fa": "ارزونه، ولی این داغ‌تره! این تازه‌تره!",
+      "obj": [
+        {
+          "id": "kosedeki",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Ucuz, ama bu daha sıcak! Bu daha taze!",
+      "who": "serkan"
+    },
+    {
+      "at": {
+        "dilnoza": "eczane_front",
+        "nima": "bench",
+        "serkan": "corner"
+      },
+      "kerim": "over",
+      "scene": "ferikoy",
+      "time": "day"
+    },
+    {
+      "do": "count",
+      "emo": "happy",
+      "en": "Two bakeries, two loaves. You first!",
+      "fa": "دو تا نونوایی، دو تا نون. اول تو!",
+      "link": {
+        "ekmek": "obj:parktaki"
+      },
+      "n": 2,
+      "to": "nima",
+      "tr": "İki fırın, iki ekmek. Önce sen!",
+      "who": "dilnoza"
+    },
+    {
+      "at": "obj:kosedeki",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "This bread is softer.",
+      "fa": "این نون نرم‌تره.",
+      "link": {
+        "ekmek": "obj:kosedeki"
+      },
+      "to": "dilnoza",
+      "tr": "Bu ekmek daha yumuşak.",
+      "who": "nima"
+    },
+    {
+      "at": "obj:parktaki",
+      "do": "point",
+      "emo": "curious",
+      "en": "Soft, OK. And that one? Is it hard?",
+      "fa": "نرم، باشه. اون یکی چی؟ سفته؟",
+      "to": "nima",
+      "tr": "Yumuşak, tamam. Ve şu? Sert mi?",
+      "who": "dilnoza"
+    },
+    {
+      "at": "obj:parktaki",
+      "do": "point",
+      "emo": "happy",
+      "en": "That one's a bit hard… but tastier!",
+      "fa": "اون یه کم سفته… ولی خوشمزه‌تره!",
+      "to": "dilnoza",
+      "tr": "Şu biraz sert… ama daha lezzetli!",
+      "who": "nima"
+    },
+    {
+      "emo": "proud",
+      "en": "The corner one is the best, right?!",
+      "fa": "مالِ سرِ نبش از همه بهتره، نه؟!",
+      "to": "nima",
+      "tr": "Köşedeki en iyi, değil mi?!",
+      "who": "serkan"
+    },
+    {
+      "choice": {
+        "id": "fikir",
+        "kind": "polite",
+        "options": [
+          {
+            "at": "obj:parktaki",
+            "do": "point",
+            "emo": "shy",
+            "en": "I think the park one is tastier.",
+            "fa": "به نظرم مالِ پارک خوشمزه‌تره.",
+            "ok": true,
+            "react": {
+              "serkan": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "wait": 600
+                }
+              },
+              {
+                "do": "nod",
+                "emo": "laugh",
+                "en": "OK, OK… but the corner one is warmer!",
+                "fa": "باشه، باشه… ولی مالِ سرِ نبش داغ‌تره!",
+                "to": "nima",
+                "tr": "Tamam, tamam… ama köşedeki daha sıcak!",
+                "who": "serkan"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Bence parktaki daha lezzetli."
+          },
+          {
+            "do": "shake_head",
+            "en": "No, wrong!",
+            "fa": "نه، اشتباهه!",
+            "react": {
+              "dilnoza": {
+                "emo": "shy"
+              },
+              "serkan": {
+                "emo": "sad"
+              }
+            },
+            "reply": [
+              {
+                "emo": "sad",
+                "en": "Wrong?!",
+                "fa": "اشتباه؟!",
+                "to": "nima",
+                "tr": "Yanlış mı?!",
+                "who": "serkan"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Hayır, yanlış!"
+          },
+          {
+            "do": "nod",
+            "en": "Yes, yes, the best!",
+            "fa": "آره، آره، از همه بهتره!",
+            "react": {
+              "dilnoza": {
+                "emo": "confused"
+              },
+              "serkan": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "at": "obj:parktaki",
+                "do": "point",
+                "emo": "confused",
+                "en": "But you… liked that one, didn't you?",
+                "fa": "ولی تو… اون یکی رو دوست داشتی، نه؟",
+                "to": "nima",
+                "tr": "Ama sen… şunu sevdin, değil mi?",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, evet, en iyi!"
+          }
+        ],
+        "to": "serkan"
+      }
+    },
+    {
+      "at": "obj:rehber",
+      "do": "read",
+      "emo": "happy",
+      "en": "The bakery on the corner: the warmest bread. The bakery by the park: the tastiest bread.",
+      "fa": "نونواییِ سرِ نبش: داغ‌ترین نون. نونواییِ کنارِ پارک: خوشمزه‌ترین نون.",
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Berfin'in kafesi: fırının yanında.",
+              "Gülten Hanım'ın çiçekçisi: köşede.",
+              "Köşedeki fırın: en sıcak ekmek.",
+              "Parktaki fırın: en lezzetli ekmek."
+            ]
+          }
+        }
+      ],
+      "to": "dilnoza",
+      "tr": "Köşedeki fırın: en sıcak ekmek. Parktaki fırın: en lezzetli ekmek.",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "en": "-ki after -DA says which one: köşede (on the corner) → köşedeki fırın (the bakery on the corner), parkta → parktaki fırın, yerde → yerdeki ekmek. To compare two, use daha: bu daha yumuşak, şu daha lezzetli. Name the other with -DAn: bu ekmek şundan daha sıcak (this bread is warmer than that one). For one out of many: en sıcak.",
+        "ex": "Köşedeki fırın: en sıcak ekmek.",
+        "fa": "‎-ki بعد از ‎-DA می‌گوید «کدام»: köşede (سرِ نبش) ← köşedeki fırın (نانواییِ سرِ نبش)، parkta ← parktaki fırın، yerde ← yerdeki ekmek (نانِ روی زمین). برای مقایسهٔ دو چیز daha: bu daha yumuşak (این نرم‌تر است)، şu daha lezzetli. طرفِ مقایسه با ‎-DAn می‌آید، مثل «از» در فارسی: bu ekmek şundan daha sıcak (این نان از آن داغ‌تر است). برای «ـترین»: en sıcak.",
+        "lesson": "g_a1_6_ki",
+        "show": "compare"
+      }
+    },
+    {
+      "en": "For Kerim, the best bread… is the bread on the ground!",
+      "fa": "برای کریم بهترین نون… نونِ روی زمینه!",
+      "link": {
+        "ekmek": "obj:kirinti"
+      },
+      "move": {
+        "how": "fly",
+        "to": "ground",
+        "who": "kerim"
+      },
+      "narr": true,
+      "obj": [
+        {
+          "id": "kirinti",
+          "op": "show"
+        }
+      ],
+      "tr": "Kerim için en iyi ekmek… yerdeki ekmek!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The guide's third page is bread, and Serkan has opinions. On a bench between the two bakeries Nima tastes a loaf from each, and has to tell Serkan which one is better.",
+  "summaryFa": "صفحهٔ سومِ راهنما دربارهٔ نان است و سرکان نظرِ خودش را دارد. نیما روی نیمکتی بینِ دو نانوایی از هر کدام یک نان می‌چشد و باید به سرکان بگوید کدام بهتر است.",
+  "title": "Köşedeki fırın",
+  "titleEn": "The bakery on the corner",
+  "titleFa": "نانواییِ سرِ نبش",
+  "words": [
+    "a1-w-lezzetli",
+    "a1-w-yumusak",
+    "a1-w-sert",
+    "a1-w-bence",
+    "a1-w-sicak",
+    "a1-w-taze",
+    "a1-w-ucuz",
+    "a1-w-yanlis"
+  ]
+}

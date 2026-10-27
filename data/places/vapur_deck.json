@@ -1,0 +1,265 @@
+{
+  "ambience": [
+    "waves",
+    "gull",
+    "wind",
+    "ferry_engine"
+  ],
+  "camera": {
+    "wide": {
+      "w": 11,
+      "x": 0,
+      "y1": 3.6,
+      "z": -1.6
+    }
+  },
+  "id": "vapur_deck",
+  "life": "run",
+  "marks": {
+    "bench_1": {
+      "seat": 0.5,
+      "x": -0.85,
+      "z": -1.58
+    },
+    "bench_2": {
+      "seat": 0.5,
+      "x": 0.3,
+      "z": -1.58
+    },
+    "bench_3": {
+      "seat": 0.5,
+      "x": 2.4,
+      "z": -1.58
+    },
+    "cayci": {
+      "x": 0.6,
+      "z": -0.6
+    },
+    "far_bird": {
+      "air": true,
+      "x": -3,
+      "y": 3.2,
+      "z": -14
+    },
+    "pace": {
+      "air": true,
+      "pace": true,
+      "x": -4.6,
+      "y": 2.0,
+      "z": -3.4
+    },
+    "rail_1": {
+      "facing": "r",
+      "x": -1.55,
+      "z": -1.8
+    },
+    "rail_2": {
+      "facing": "l",
+      "x": 1.1,
+      "z": -1.8
+    },
+    "rail_3": {
+      "facing": "l",
+      "x": 3.75,
+      "z": -1.8
+    },
+    "rail_perch": {
+      "x": -1.0,
+      "y": 1.06,
+      "z": -2.0
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "On the ferry",
+    "fa": "روی کشتی",
+    "tr": "Vapurda"
+  },
+  "outdoor": true,
+  "perch": "rail_perch",
+  "pieces": [
+    {
+      "kit": "sky_clouds",
+      "x": 0,
+      "z": -60
+    },
+    {
+      "h": 500,
+      "id": "city_layer",
+      "kit": "skyline",
+      "variant": "parallax",
+      "w": 6000,
+      "which": "asian_shore",
+      "x": 0,
+      "z": -40
+    },
+    {
+      "id": "maidens_tower",
+      "kit": "landmark",
+      "terms": [
+        "a1-w-kule"
+      ],
+      "which": "kiz_kulesi",
+      "x": 6,
+      "z": -24
+    },
+    {
+      "d": 2000,
+      "id": "water",
+      "kit": "sea",
+      "path": "sun",
+      "px": 500,
+      "terms": [
+        "a1-w-deniz"
+      ],
+      "w": 4000,
+      "x": 0,
+      "y": -1.2,
+      "z": -3.0
+    },
+    {
+      "benches": 0,
+      "d": 520,
+      "id": "rail",
+      "kit": "ferry",
+      "terms": [
+        "a1-w-vapur"
+      ],
+      "variant": "deck",
+      "w": 1400,
+      "x": 0,
+      "z": -2.0
+    },
+    {
+      "id": "benches",
+      "kit": "bench",
+      "variant": "deck",
+      "w": 220,
+      "x": -2.9,
+      "z": -1.68
+    },
+    {
+      "kit": "bench",
+      "variant": "deck",
+      "w": 220,
+      "x": -0.27,
+      "z": -1.68
+    },
+    {
+      "kit": "bench",
+      "variant": "deck",
+      "w": 220,
+      "x": 2.4,
+      "z": -1.68
+    },
+    {
+      "front": true,
+      "gap": 60,
+      "kind": "sit",
+      "kit": "crowd",
+      "n": 3,
+      "x": -3.5,
+      "x0": 0,
+      "x1": 120,
+      "z": -1.6
+    },
+    {
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 2,
+      "x": -4.3,
+      "x0": 0,
+      "x1": 40,
+      "z": -0.8999999999999999
+    },
+    {
+      "id": "gulls",
+      "kind": "gulls",
+      "kit": "birds",
+      "n": 4,
+      "x": 0,
+      "x0": -500,
+      "x1": 500,
+      "z": -1.0
+    },
+    {
+      "kit": "railing",
+      "variant": "deck",
+      "w": 180,
+      "x": -5.2,
+      "z": 1.0
+    }
+  ],
+  "props": {
+    "can_simidi": {
+      "at": {
+        "x": -5.0,
+        "y": 1.2,
+        "z": -1.85
+      },
+      "decor": true,
+      "kit": "outing",
+      "variant": "life_ring"
+    },
+    "cayci_tray": {
+      "at": {
+        "x": 4.3,
+        "y": 0.95,
+        "z": -1.2
+      },
+      "decor": true,
+      "kit": "tea",
+      "variant": "tray"
+    },
+    "gazete": {
+      "at": {
+        "x": 1.9,
+        "y": 0.5,
+        "z": -1.58
+      },
+      "kit": "print",
+      "lying": true,
+      "terms": [
+        "a1-w-gazete"
+      ],
+      "variant": "newspaper"
+    },
+    "simit": {
+      "at": {
+        "x": 2.9,
+        "y": 0.5,
+        "z": -1.58
+      },
+      "kit": "food",
+      "terms": [
+        "a2-w-simit"
+      ],
+      "variant": "simit"
+    },
+    "tea_glass": {
+      "at": {
+        "x": -0.3,
+        "y": 0.5,
+        "z": -1.58
+      },
+      "kit": "tea",
+      "n": 2,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    }
+  },
+  "site": "vapur",
+  "size": {
+    "d": 4,
+    "w": 14
+  },
+  "surface": "wood",
+  "times": [
+    "day",
+    "golden"
+  ],
+  "v": 1
+}

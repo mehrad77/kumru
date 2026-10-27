@@ -1,0 +1,12 @@
+# gitleaks (run in CI, .github/workflows/deploy.yml): the default rules, minus the two public values in wrangler.jsonc
+# `vars`, which are public by design (the Turnstile site key and the VAPID public key; their secret halves live only in
+# Cloudflare). Allow exact values only, never a path or a rule.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "public wrangler.jsonc vars"
+regexes = [
+  '''0x4AAAAAAFQFMa1lV0PQbPNg''',
+  '''BNjPLSnfZAAryihzvB20574oPNUDAbCWcATWktmbgaexqa3okmmME_PlYHchDprmI2BY8tZPqwgpD2W-6aopdC4''',
+]

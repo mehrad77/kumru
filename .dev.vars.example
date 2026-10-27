@@ -1,0 +1,8 @@
+# Copy to .dev.vars for `pnpm dev` (wrangler dev reads it; never deployed).
+DEV=1
+PEPPER=dev-pepper-not-secret
+TURNSTILE_SECRET_KEY=
+# local dev has no Turnstile check (the real site key only works on turk.shab.boo)
+TURNSTILE_SITE_KEY=
+# the reader that may sync its notebook (production has only https://yeni.shab.boo, in wrangler.jsonc)
+YENI_ORIGINS=https://yeni.shab.boo,http://localhost:4330

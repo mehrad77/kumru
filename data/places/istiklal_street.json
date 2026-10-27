@@ -1,0 +1,401 @@
+{
+  "ambience": [
+    "crowd",
+    "street_far"
+  ],
+  "camera": {
+    "wide": {
+      "w": 10,
+      "x": 0,
+      "y1": 3.4,
+      "z": -2.2
+    }
+  },
+  "district": "Beyoğlu",
+  "id": "istiklal_street",
+  "marks": {
+    "ahead": {
+      "air": true,
+      "x": 3.0,
+      "y": 2.6,
+      "z": -1.0
+    },
+    "cafe_door": {
+      "door": "kafeler",
+      "out": {
+        "x": -1.55,
+        "z": -4.6
+      },
+      "x": -1.55,
+      "z": -3.6
+    },
+    "cafe_table": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -3.0,
+      "z": -3.25
+    },
+    "corner": {
+      "x": -3.9,
+      "z": -1.2
+    },
+    "lamp": {
+      "x": 4.6,
+      "y": 3.5,
+      "z": -1.2
+    },
+    "passerby": {
+      "x": 1.2,
+      "z": -1.4
+    },
+    "side_exit": {
+      "door": "side_street",
+      "out": {
+        "x": -4.6,
+        "z": -6.5
+      },
+      "x": -4.6,
+      "z": -3.4
+    },
+    "sign": {
+      "x": 0.0,
+      "z": -3.35
+    },
+    "stop": {
+      "facing": "r",
+      "x": 3.4,
+      "z": -1.7
+    },
+    "tram_wire": {
+      "x": -2.4,
+      "y": 2.85,
+      "z": -3.95
+    },
+    "walk_c": {
+      "x": 0.0,
+      "z": 0.3
+    },
+    "walk_l": {
+      "facing": "r",
+      "x": -2.4,
+      "z": 0.2
+    },
+    "walk_r": {
+      "facing": "l",
+      "x": 2.4,
+      "z": 0.2
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "İstiklal Avenue",
+    "fa": "خیابانِ استقلال",
+    "tr": "İstiklal Caddesi"
+  },
+  "outdoor": true,
+  "perch": "tram_wire",
+  "pieces": [
+    {
+      "h": 500,
+      "kit": "skyline",
+      "w": 5000,
+      "which": "city",
+      "x": 0,
+      "z": -40
+    },
+    {
+      "id": "side_street",
+      "kit": "street",
+      "variant": "far",
+      "w": 900,
+      "x": -4.6,
+      "z": -10
+    },
+    {
+      "kit": "street",
+      "w": 600,
+      "x": -8.6,
+      "z": -4.6
+    },
+    {
+      "kit": "street",
+      "w": 2200,
+      "x": 7.4,
+      "z": -4.6
+    },
+    {
+      "a": "#B9B0A2",
+      "b": "#ADA394",
+      "d": 1200,
+      "kit": "floor",
+      "tile": 60,
+      "w": 2400,
+      "x": 0,
+      "z": -9
+    },
+    {
+      "id": "kafeler",
+      "kit": "frontage",
+      "sign": "KAFE",
+      "terms": [
+        "a1-w-kafe"
+      ],
+      "variant": "cafe",
+      "w": 300,
+      "x": -2.2,
+      "z": -4.0
+    },
+    {
+      "goods": "clothes",
+      "id": "magazalar",
+      "kit": "frontage",
+      "terms": [
+        "a1-w-magaza"
+      ],
+      "variant": "shop",
+      "w": 240,
+      "x": 0.4,
+      "z": -4.0
+    },
+    {
+      "goods": "shoes",
+      "kit": "frontage",
+      "variant": "shop",
+      "w": 240,
+      "x": 2.8,
+      "z": -4.0
+    },
+    {
+      "goods": "bags",
+      "kit": "frontage",
+      "variant": "shop",
+      "w": 240,
+      "x": 5.2,
+      "z": -4.0
+    },
+    {
+      "goods": "books",
+      "kit": "frontage",
+      "variant": "shop",
+      "w": 220,
+      "x": -6.8,
+      "z": -4.0
+    },
+    {
+      "go": [
+        [
+          -1600,
+          0,
+          0
+        ],
+        [
+          1600,
+          0,
+          0
+        ]
+      ],
+      "id": "tramvay",
+      "kit": "tram",
+      "ms": 16000,
+      "phase": 0.35,
+      "terms": [
+        "a2-w-tramvay"
+      ],
+      "wait": 14000,
+      "x": 0,
+      "z": -2.3
+    },
+    {
+      "kit": "table",
+      "variant": "cafe",
+      "x": -2.4,
+      "z": -3.1
+    },
+    {
+      "facing": "r",
+      "kit": "chair",
+      "variant": "cafe",
+      "x": -3.0,
+      "z": -3.25
+    },
+    {
+      "facing": "l",
+      "kit": "chair",
+      "variant": "cafe",
+      "x": -1.8,
+      "z": -3.25
+    },
+    {
+      "h": 370,
+      "id": "lamba",
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": 4.6,
+      "z": -1.2
+    },
+    {
+      "kit": "simit_cart",
+      "x": 4.2,
+      "z": 0.75
+    },
+    {
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 5,
+      "x": 0,
+      "x0": -600,
+      "x1": 600,
+      "z": -0.5
+    },
+    {
+      "dir": -1,
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "x": 2.6,
+      "x0": -180,
+      "x1": 180,
+      "z": -3.0
+    },
+    {
+      "kind": "far",
+      "kit": "crowd",
+      "n": 10,
+      "x": -4.6,
+      "x0": -120,
+      "x1": 120,
+      "z": -9
+    }
+  ],
+  "props": {
+    "boyaci": {
+      "at": {
+        "x": -0.75,
+        "y": 0,
+        "z": -3.45
+      },
+      "kit": "vendor",
+      "terms": [
+        "a1-w-ayakkabi"
+      ],
+      "variant": "shoe_shine"
+    },
+    "cay": {
+      "at": {
+        "x": -2.4,
+        "y": 0.74,
+        "z": -3.0
+      },
+      "kit": "tea",
+      "n": 2,
+      "terms": [
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    },
+    "cicekler": {
+      "at": {
+        "x": 1.0,
+        "y": 0,
+        "z": -3.7
+      },
+      "kit": "flowers",
+      "n": 2,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "bucket"
+    },
+    "kestaneci": {
+      "at": {
+        "x": -3.1,
+        "y": 0,
+        "z": 0.6
+      },
+      "kit": "vendor",
+      "terms": [
+        "a2-w-kestane"
+      ],
+      "variant": "chestnut_cart"
+    },
+    "kopek": {
+      "at": {
+        "x": 1.05,
+        "y": 0,
+        "z": -3.2
+      },
+      "dir": -1,
+      "kit": "dog",
+      "pose": "sleep",
+      "terms": [
+        "a1-w-kopek",
+        "b1-w-sokak-kopegi"
+      ],
+      "variant": "street"
+    },
+    "levha": {
+      "at": {
+        "x": -0.1,
+        "y": 3.45,
+        "z": -3.95
+      },
+      "h": 28,
+      "kit": "sign_board",
+      "label": "İstiklal Caddesi",
+      "terms": [
+        "a1-w-cadde"
+      ],
+      "variant": "plate",
+      "w": 110
+    },
+    "ptt": {
+      "at": {
+        "x": -3.65,
+        "y": 0,
+        "z": -3.5
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-postane"
+      ],
+      "variant": "ptt_box"
+    },
+    "simitler": {
+      "at": {
+        "x": 4.15,
+        "y": 1.6,
+        "z": 0.8
+      },
+      "decor": true,
+      "kit": "simit_tray",
+      "n": 6
+    },
+    "tram_stop": {
+      "at": {
+        "x": 3.95,
+        "y": 0,
+        "z": -2.0
+      },
+      "h": 40,
+      "kit": "sign_board",
+      "terms": [
+        "a1-w-durak"
+      ],
+      "variant": "post",
+      "w": 60
+    }
+  },
+  "site": "istiklal",
+  "size": {
+    "d": 5,
+    "w": 12
+  },
+  "surface": "stone",
+  "times": [
+    "day",
+    "golden"
+  ],
+  "v": 1
+}

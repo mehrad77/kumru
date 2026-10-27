@@ -1,0 +1,670 @@
+{
+  "arc": {
+    "en": "A new family",
+    "fa": "یک خانواده‌ی تازه",
+    "id": "s1w04",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Yeni bir aile"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "parvaneh",
+    "alex"
+  ],
+  "extras": [
+    "yusuf",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, who's this? Is this your mother?",
+      "fa": "نیما، این کیه؟ مادرتونه؟",
+      "to": "nima",
+      "tr": "Nima, bu kim? Bu sizin anneniz mi?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_anne",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Yes, my mother.",
+            "fa": "بله، مادرمه.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very good!",
+                "fa": "خیلی خوب!",
+                "to": "nima",
+                "tr": "Çok güzel!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Evet, benim annem."
+          },
+          {
+            "en": "Yes, your mother.",
+            "fa": "بله، مادرِ شما.",
+            "react": {
+              "zafer": "laugh"
+            },
+            "reply": [
+              {
+                "en": "Not my mother! Your mother!",
+                "fa": "مادرِ من نه! مادرِ شما!",
+                "to": "nima",
+                "tr": "Benim annem değil! Sizin anneniz!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, sizin anneniz."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "And this? Is this your father?",
+      "fa": "و این؟ پدرتونه؟",
+      "to": "nima",
+      "tr": "Ve bu? Sizin babanız mı?",
+      "who": "zafer"
+    },
+    {
+      "en": "Yes, my father.",
+      "fa": "بله، پدرمه.",
+      "to": "zafer",
+      "tr": "Evet, benim babam.",
+      "who": "nima"
+    },
+    {
+      "en": "Very good, Nima!",
+      "fa": "خیلی خوب، نیما!",
+      "to": "nima",
+      "tr": "Çok güzel, Nima!",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "ablan": [
+      "خواهرِ بزرگ‌ترت",
+      "your big sister"
+    ],
+    "ablası": [
+      "خواهرِ بزرگ‌ترش",
+      "his or her big sister"
+    ],
+    "aileniz": [
+      "خانواده‌ی شما",
+      "your family (siz)"
+    ],
+    "ailesi": [
+      "خانواده‌اش",
+      "their family"
+    ],
+    "anneniz": [
+      "مادرِ شما",
+      "your mother (siz)"
+    ],
+    "annesi": [
+      "مادرش",
+      "his or her mother"
+    ],
+    "ağacım": [
+      "درختم",
+      "my tree"
+    ],
+    "ağacınız": [
+      "درختِ شما",
+      "your tree (siz)"
+    ],
+    "ağaçlar": [
+      "درخت‌ها",
+      "trees"
+    ],
+    "ağaçları": [
+      "درخت‌های… (aile ağaçları: شجره‌نامه‌ها)",
+      "trees (aile ağaçları: family trees)"
+    ],
+    "behzad": [
+      "بهزاد (اسم)",
+      "Behzad (a name)"
+    ],
+    "farsçada": [
+      "در فارسی",
+      "in Persian"
+    ],
+    "hepsi": [
+      "همه‌شان",
+      "all of them"
+    ],
+    "herkesin": [
+      "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
+      "everyone's"
+    ],
+    "moskova": [
+      "مسکو",
+      "Moscow"
+    ],
+    "olga": [
+      "اولگا (اسم)",
+      "Olga (a name)"
+    ],
+    "onun": [
+      "…ِ او (onun adı: اسمِ او)",
+      "his, her (onun adı: his or her name)"
+    ],
+    "teyzem": [
+      "خاله‌ام",
+      "my aunt (mother's sister)"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name)"
+    ],
+    "خاله": [
+      "خاله",
+      "teyze in Persian"
+    ],
+    "دایی": [
+      "دایی",
+      "dayı in Persian"
+    ]
+  },
+  "id": "s1e20",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_4_iyelik",
+    "g_a1_4_ulke_milliyet_dil",
+    "g_a1_2_isim_cumleleri"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "alex_agaci": {
+      "at": {
+        "x": 2.45,
+        "y": 0.72,
+        "z": -2.0
+      },
+      "kit": "paper",
+      "names": [
+        "Annem",
+        "Babam",
+        "Olga",
+        "Ben"
+      ],
+      "rows": [
+        2,
+        2
+      ],
+      "terms": [
+        "a1-w-aile",
+        "a1-w-agac"
+      ],
+      "variant": "family_tree"
+    },
+    "kagit": {
+      "at": {
+        "x": -2.2,
+        "y": 0.76,
+        "z": -1.55
+      },
+      "kit": "paper",
+      "terms": [],
+      "variant": "sheet"
+    },
+    "parvane_agaci": {
+      "at": {
+        "x": 1.55,
+        "y": 0.72,
+        "z": -1.0
+      },
+      "kit": "paper",
+      "names": [
+        "Dedem",
+        "Babaannem",
+        "Babam",
+        "Annem",
+        "Dayım",
+        "Teyzem",
+        "Ben"
+      ],
+      "rows": [
+        2,
+        3,
+        2
+      ],
+      "terms": [
+        "a1-w-aile",
+        "a1-w-agac"
+      ],
+      "variant": "family_tree"
+    },
+    "zafer_agaci": {
+      "at": {
+        "x": -1.6,
+        "y": 1.45,
+        "z": -3.0
+      },
+      "kit": "paper",
+      "names": [
+        "Annem",
+        "Babam",
+        "Ben",
+        "Eşim",
+        "Kızım"
+      ],
+      "rows": [
+        2,
+        2,
+        1
+      ],
+      "shown": false,
+      "terms": [
+        "a1-w-aile",
+        "a1-w-agac"
+      ],
+      "variant": "family_tree"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Alex: “Her name is Olga. She's a …”",
+      "fa": "الکس: «اسمش اولگاست. او … است.»",
+      "kind": "comp",
+      "options": [
+        "doktor",
+        "mühendis",
+        "öğretmen"
+      ],
+      "q": "Alex: “Onun adı Olga. O …”",
+      "why": "Alex: “Benim bir ablam var. Onun adı Olga. O doktor… Moskova'da.”"
+    },
+    {
+      "a": 0,
+      "en": "Parvaneh: “This is my …, and this is my aunt!”",
+      "fa": "پروانه: «این … منه، این هم خاله‌ی منه!»",
+      "kind": "word",
+      "options": [
+        "dayım",
+        "kızım",
+        "eşim"
+      ],
+      "q": "Parvane: “Bu benim …, bu da benim teyzem!”",
+      "why": "Parvane: “Bu benim dayım, bu da benim teyzem!”"
+    },
+    {
+      "a": 0,
+      "en": "Zafer Hoca: “Yes, my daughter. She's … years old.”",
+      "fa": "استاد ظفر: «بله، دخترمه. … سالشه.»",
+      "kind": "comp",
+      "options": [
+        "üç",
+        "beş",
+        "on"
+      ],
+      "q": "Zafer Hoca: “Evet, benim kızım. O … yaşında.”",
+      "why": "Zafer Hoca: “Evet, benim kızım. O üç yaşında.”"
+    }
+  ],
+  "ref": "A1_4",
+  "releaseDate": "2026-09-29",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Good morning! Today… trees! But which trees? Family trees!",
+      "fa": "صبح بخیر! امروز… درخت! ولی چه درختی؟ درختِ خانوادگی!",
+      "narr": true,
+      "tr": "Günaydın! Bugün… ağaçlar! Ama hangi ağaçlar? Aile ağaçları!",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "at": "obj:zafer_agaci",
+        "do": "write",
+        "obj": [
+          {
+            "id": "zafer_agaci",
+            "op": "show"
+          }
+        ],
+        "sfx": {
+          "id": "marker_squeak"
+        },
+        "who": "zafer"
+      }
+    },
+    {
+      "at": "obj:zafer_agaci",
+      "do": "point",
+      "emo": "happy",
+      "en": "This is my mother, this is my father, this is my wife. And who's this?",
+      "fa": "این مادرمه، این پدرمه، این همسرمه. و این کیه؟",
+      "to": "nima",
+      "tr": "Bu benim annem, bu benim babam, bu benim eşim. Ve bu kim?",
+      "who": "zafer"
+    },
+    {
+      "emo": "curious",
+      "en": "Is it your daughter?",
+      "fa": "دخترتونه؟",
+      "to": "zafer",
+      "tr": "Sizin kızınız mı?",
+      "who": "nima"
+    },
+    {
+      "do": "explain",
+      "emo": "proud",
+      "en": "Yes, my daughter. She's three. Now… your families!",
+      "fa": "بله، دخترمه. سه سالشه. حالا… خانواده‌ی شما!",
+      "to": "all",
+      "tr": "Evet, benim kızım. O üç yaşında. Şimdi… sizin aileniz!",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "parvane_agaci",
+            "op": "take"
+          }
+        ],
+        "who": "parvaneh"
+      }
+    },
+    {
+      "at": "obj:parvane_agaci",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "This is my dad. His name is Behzad. He's an engineer.",
+      "fa": "این بابامه. اسمش بهزاده. مهندسه.",
+      "move": {
+        "how": "walk",
+        "to": "wall",
+        "who": "parvaneh"
+      },
+      "to": "all",
+      "tr": "Bu benim babam. Onun adı Behzad. O mühendis.",
+      "who": "parvaneh"
+    },
+    {
+      "at": "obj:parvane_agaci",
+      "do": "point",
+      "emo": "happy",
+      "en": "This is my mum. She's a teacher. This is my uncle, and this is my aunt!",
+      "fa": "این مامانمه. معلمه. این دایی‌مه، این هم خاله‌مه!",
+      "to": "all",
+      "tr": "Bu benim annem. O öğretmen. Bu benim dayım, bu da benim teyzem!",
+      "who": "parvaneh"
+    },
+    {
+      "emo": "curious",
+      "en": "Dayı, teyze… do you have those in Persian too?",
+      "fa": "dayı، teyze… توی فارسی هم هست؟",
+      "to": "parvaneh",
+      "tr": "Dayı, teyze… Farsçada da var mı?",
+      "who": "zafer"
+    },
+    {
+      "do": "explain",
+      "emo": "laugh",
+      "en": "Yes! Dayı is دایی. Teyze is خاله. Amca, hala… we have them all!",
+      "fa": "بله! dayı یعنی دایی، teyze یعنی خاله. amca، hala… همه‌شون رو داریم!",
+      "to": "zafer",
+      "tr": "Evet! Dayı: دایی. Teyze: خاله. Amca, hala… hepsi var!",
+      "who": "parvaneh"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "seat_2",
+          "who": "parvaneh"
+        },
+        "obj": [
+          {
+            "id": "alex_agaci",
+            "op": "take"
+          }
+        ],
+        "who": "alex"
+      }
+    },
+    {
+      "at": "obj:alex_agaci",
+      "do": "hold_up",
+      "emo": "shy",
+      "en": "I have a big sister. Her name is Olga. She's a doctor… in Moscow.",
+      "fa": "من یه خواهرِ بزرگ‌تر دارم. اسمش اولگاست. دکتره… توی مسکو.",
+      "move": {
+        "how": "walk",
+        "to": "wall",
+        "who": "alex"
+      },
+      "tempo": 0.8,
+      "to": "all",
+      "tr": "Benim bir ablam var. Onun adı Olga. O doktor… Moskova'da.",
+      "who": "alex"
+    },
+    {
+      "en": "Nima, who is Olga?",
+      "fa": "نیما، اولگا کیه؟",
+      "to": "nima",
+      "tr": "Nima, Olga kim?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "olga",
+        "kind": "meaning",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "His big sister.",
+            "fa": "خواهرِ بزرگ‌ترش.",
+            "ok": true,
+            "react": {
+              "alex": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Yes! My big sister!",
+                "fa": "آره! خواهرِ بزرگمه!",
+                "to": "nima",
+                "tr": "Evet! Benim ablam!",
+                "who": "alex"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Onun ablası."
+          },
+          {
+            "emo": "curious",
+            "en": "His mother.",
+            "fa": "مادرش.",
+            "react": {
+              "alex": "laugh"
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "Not my mum! My big sister!",
+                "fa": "مادرم نه! خواهرِ بزرگم!",
+                "to": "nima",
+                "tr": "Annem değil! Ablam!",
+                "who": "alex"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Onun annesi."
+          },
+          {
+            "emo": "curious",
+            "en": "My big sister.",
+            "fa": "خواهرِ بزرگِ من.",
+            "react": {
+              "parvaneh": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "Your big sister?! No… his big sister!",
+                "fa": "خواهرِ تو؟! نه… خواهرِ اون!",
+                "to": "nima",
+                "tr": "Senin ablan mı?! Hayır… onun ablası!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Benim ablam."
+          }
+        ],
+        "to": "alex"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "seat_4",
+          "who": "alex"
+        },
+        "obj": [
+          {
+            "id": "kagit",
+            "op": "take"
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Tomorrow it's your tree, Nima! Mother, father, big sister, big brother, grandfather… Here you are.",
+      "fa": "فردا نوبتِ درختِ شماست، نیما! مادر، پدر، خواهر، برادر، پدربزرگ… بفرمایید.",
+      "move": {
+        "how": "walk",
+        "to": "desk_nima",
+        "who": "zafer"
+      },
+      "obj": [
+        {
+          "id": "kagit",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Yarın sizin ağacınız, Nima! Anne, baba, abla, ağabey, dede… Buyurun.",
+      "who": "zafer"
+    },
+    {
+      "emo": "shy",
+      "en": "My tree is small!",
+      "fa": "درختِ من کوچیکه!",
+      "to": "zafer",
+      "tr": "Benim ağacım küçük!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:parvane_agaci",
+      "do": "hold_up",
+      "emo": "laugh",
+      "en": "My tree is huge!",
+      "fa": "درختِ من خیلی بزرگه!",
+      "link": {
+        "ağacım": "obj:parvane_agaci"
+      },
+      "obj": [
+        {
+          "id": "parvane_agaci",
+          "n": 3,
+          "op": "add"
+        }
+      ],
+      "react": {
+        "nima": "laugh"
+      },
+      "to": "nima",
+      "tr": "Benim ağacım çok büyük!",
+      "who": "parvaneh"
+    },
+    {
+      "spot": {
+        "en": "One word, three owners. ablam: my big sister. ablan: your big sister. ablası: his or her big sister, and you can say onun first: onun ablası, onun adı. The same with anne: annem, annen, annesi.",
+        "ex": "Onun adı Olga.",
+        "fa": "یک کلمه، سه صاحب. ablam یعنی خواهرِ بزرگِ من، ablan یعنی مالِ تو، ablası یعنی مالِ او؛ و می‌شود قبلش onun را هم گفت: onun ablası، onun adı. با anne هم همین‌طور: annem، annen، annesi. درست مثلِ فارسی: خواهرم، خواهرت، خواهرش.",
+        "lesson": "g_a1_4_iyelik",
+        "show": "owner"
+      }
+    },
+    {
+      "en": "Everyone's family is far away… but the class is here.",
+      "fa": "خانواده‌ی همه دوره… ولی کلاس این‌جاست.",
+      "narr": true,
+      "tr": "Herkesin ailesi uzakta… ama sınıf burada.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Zafer Hoca starts the week's project: everyone draws a family tree. He shows his own; Parvaneh shows her huge one and says Persian also has a separate word for each kind of uncle and aunt; and Alex introduces his big sister Olga.",
+  "summaryFa": "استاد ظفر پروژه‌ی این هفته را شروع می‌کند: هر کس شجره‌نامه‌ی خانواده‌اش را می‌کشد. اول شجره‌نامه‌ی خودش را نشان می‌دهد، بعد پروانه شجره‌نامه‌ی بزرگش را، و پروانه می‌گوید فارسی هم برای دایی، خاله، عمو و عمه کلمه‌ی جدا دارد. الکس هم خواهرِ بزرگش اولگا را معرفی می‌کند.",
+  "title": "Aile ağacı",
+  "titleEn": "The family tree",
+  "titleFa": "شجره‌نامه",
+  "words": [
+    "a1-w-aile",
+    "a1-w-amca",
+    "a1-w-dayi",
+    "a1-w-teyze",
+    "a1-w-hala",
+    "a1-w-dede",
+    "a1-w-abla",
+    "a1-w-agabey"
+  ]
+}

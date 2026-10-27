@@ -1,0 +1,658 @@
+{
+  "arc": {
+    "en": "A new home, a new way",
+    "fa": "خانه‌ی نو، راهِ نو",
+    "id": "s1w03",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Yeni ev, yeni yol"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "parvaneh",
+    "maria"
+  ],
+  "extras": [
+    "yusuf",
+    "alex",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, where are you coming from now?",
+      "fa": "نیما، الان از کجا میایید؟",
+      "to": "nima",
+      "tr": "Nima, şimdi nereden geliyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_nereden",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "From Feriköy.",
+            "fa": "از فری‌کؤی.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very good!",
+                "fa": "خیلی خوب!",
+                "tr": "Çok güzel!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Feriköy'den."
+          },
+          {
+            "en": "To Feriköy.",
+            "fa": "به فری‌کؤی.",
+            "react": {
+              "zafer": {
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "en": "To Feriköy? No… from Feriköy!",
+                "fa": "به فری‌کؤی؟ نه… از فری‌کؤی!",
+                "tr": "Feriköy'e mi? Hayır… Feriköy'den!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Feriköy'e."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "And where are you coming to Istanbul from?",
+      "fa": "خب، از کجا به استانبول اومدید؟",
+      "to": "nima",
+      "tr": "Peki, İstanbul'a nereden geliyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "en": "From Tehran!",
+      "fa": "از تهران!",
+      "to": "zafer",
+      "tr": "Tahran'dan!",
+      "who": "nima"
+    },
+    {
+      "en": "From Tehran to Istanbul. Very good!",
+      "fa": "از تهران به استانبول. خیلی خوب!",
+      "to": "nima",
+      "tr": "Tahran'dan İstanbul'a. Çok güzel!",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "beşiktaş": [
+      "بشیکتاش (محله‌ای در استانبول)",
+      "Beşiktaş (a district of Istanbul)"
+    ],
+    "beşinci": [
+      "پنجم",
+      "fifth"
+    ],
+    "buradanım": [
+      "اهلِ همین‌جام",
+      "I'm from here"
+    ],
+    "damlaya": [
+      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    ],
+    "farsça": [
+      "فارسی (زبان)",
+      "Persian (the language)"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a district of Şişli)"
+    ],
+    "göl": [
+      "دریاچه",
+      "lake"
+    ],
+    "kadıköy": [
+      "کادیکوی (محله‌ای در سمتِ آسیاییِ استانبول)",
+      "Kadıköy (a district on the Asian side)"
+    ],
+    "kattayım": [
+      "طبقه‌ی … هستم",
+      "I'm on the … floor"
+    ],
+    "komşular": [
+      "همسایه‌ها",
+      "neighbours"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "metroda": [
+      "در مترو",
+      "on the metro"
+    ],
+    "naziksiniz": [
+      "لطف دارید؛ مهربانید",
+      "you're kind"
+    ],
+    "olur": [
+      "می‌شود",
+      "becomes"
+    ],
+    "osmanbey": [
+      "عثمان‌بی (محله‌ای در شیشلی)",
+      "Osmanbey (a district of Şişli)"
+    ],
+    "polissin": [
+      "پلیسی (تو پلیس هستی)",
+      "you're the police"
+    ],
+    "sokaktan": [
+      "از کوچه؛ اهلِ این کوچه",
+      "from the street"
+    ],
+    "vapurla": [
+      "با کشتی",
+      "by ferry"
+    ],
+    "zafer": [
+      "ظفر (اسم؛ به معنیِ پیروزی)",
+      "Zafer (a name; also the word for victory)"
+    ],
+    "şişli": [
+      "شیشلی (محله‌ای در استانبول)",
+      "Şişli (a district of Istanbul)"
+    ],
+    "خیلی": [
+      "خیلی (فارسی: çok)",
+      "very (Persian for çok)"
+    ],
+    "دوره": [
+      "دور است (فارسی: uzak)",
+      "it's far (Persian for uzak)"
+    ],
+    "کادیکوی": [
+      "کادیکوی (فارسی: Kadıköy)",
+      "Kadıköy (in Persian)"
+    ]
+  },
+  "id": "s1e16",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_3_uzaklasma",
+    "g_a1_3_simdiki",
+    "g_a1_3_yonelme"
+  ],
+  "level": "A1",
+  "looks": {
+    "maria": "home"
+  },
+  "place": "class504",
+  "props": {
+    "defter": {
+      "at": {
+        "flat_nima_stairs": "stairs_4_5"
+      },
+      "kit": "book",
+      "label": "Nima",
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "notebook"
+    },
+    "pins": {
+      "at": {
+        "class504": {
+          "x": 0.5,
+          "y": 1.2,
+          "z": -3.05
+        }
+      },
+      "kit": "pin",
+      "n": 2,
+      "terms": []
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Where does Alex come from?",
+      "fa": "الکس از کجا می‌آید؟",
+      "kind": "comp",
+      "options": [
+        "Kadıköy'den",
+        "Beşiktaş'tan",
+        "Şişli'den"
+      ],
+      "q": "Alex nereden geliyor?",
+      "why": "Zafer Hoca: “Alex Kadıköy'den, vapurla!”"
+    },
+    {
+      "a": 0,
+      "en": "Maria asks where Nima comes from. Which question word does she use?",
+      "fa": "ماریا می‌پرسد نیما از کجا می‌آید. کدام کلمه‌ی پرسشی را به کار می‌برد؟",
+      "kind": "word",
+      "options": [
+        "Nereden",
+        "Nereye",
+        "Nerede"
+      ],
+      "q": "Maria: “… geliyorsunuz?”",
+      "why": "Maria: “Nereden geliyorsunuz?”"
+    },
+    {
+      "a": 0,
+      "en": "Which floor does Maria live on?",
+      "fa": "ماریا در کدام طبقه زندگی می‌کند؟",
+      "kind": "comp",
+      "options": [
+        "Beşinci kat",
+        "Dördüncü kat",
+        "İkinci kat"
+      ],
+      "q": "Maria kaçıncı katta oturuyor?",
+      "why": "Maria: “Ben Maria, beşinci kattayım.”"
+    }
+  ],
+  "ref": "A1_3",
+  "releaseDate": "2026-09-24",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "desk_alex",
+        "dilnoza": "desk_dilnoza",
+        "nima": "desk_nima",
+        "parvaneh": "desk_parvaneh",
+        "yusuf": "desk_yusuf",
+        "zafer": "map"
+      },
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "do": "wave",
+      "emo": "happy",
+      "en": "Good morning! Where are you coming from?",
+      "fa": "صبح بخیر! از کجا میایید؟",
+      "to": "all",
+      "tr": "Günaydın! Nereden geliyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "emo": "happy",
+      "en": "From Şişli!",
+      "fa": "از شیشلی!",
+      "to": "zafer",
+      "tr": "Şişli'den!",
+      "who": "parvaneh"
+    },
+    {
+      "emo": "happy",
+      "en": "From Feriköy!",
+      "fa": "از فری‌کؤی!",
+      "to": "zafer",
+      "tr": "Feriköy'den!",
+      "who": "nima"
+    },
+    {
+      "en": "Yusuf comes from Beşiktaş. Alex from Kadıköy, by ferry! Dilnoza from Osmanbey: very close.",
+      "fa": "یوسف از بشیکتاش میاد. الکس از کادیکوی، با کشتی! دلنوزا از عثمان‌بی: خیلی نزدیک.",
+      "obj": [
+        {
+          "id": "pins",
+          "n": 3,
+          "op": "add"
+        }
+      ],
+      "react": {
+        "alex": {
+          "do": "nod",
+          "emo": "tired"
+        },
+        "dilnoza": {
+          "do": "nod",
+          "emo": "shy"
+        }
+      },
+      "to": "all",
+      "tr": "Yusuf Beşiktaş'tan geliyor. Alex Kadıköy'den, vapurla! Dilnoza Osmanbey'den: çok yakın.",
+      "who": "zafer"
+    },
+    {
+      "emo": "surprised",
+      "en": "(in Persian, to herself) Kadıköy? That's so far!",
+      "fa": "کادیکوی؟ خیلی دوره!",
+      "tr": "کادیکوی؟ خیلی دوره!",
+      "voice": "whisper",
+      "who": "parvaneh"
+    },
+    {
+      "emo": "happy",
+      "en": "In Turkish, please!",
+      "fa": "ترکی، لطفاً!",
+      "react": {
+        "parvaneh": "shy"
+      },
+      "to": "parvaneh",
+      "tr": "Türkçe, lütfen!",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:farsca_jar",
+      "do": "point",
+      "emo": "laugh",
+      "en": "…Very far! When I speak Persian… one lira! Nima, you're the police!",
+      "fa": "…خیلی دوره! فارسی حرف بزنم… یه لیر! نیما، تو پلیسی!",
+      "link": {
+        "lira": "obj:farsca_jar"
+      },
+      "obj": [
+        {
+          "id": "farsca_jar",
+          "op": "show"
+        }
+      ],
+      "to": "nima",
+      "tr": "…Çok uzak! Farsça konuşuyorum… bir lira! Nima, sen polissin!",
+      "who": "parvaneh"
+    },
+    {
+      "do": "nod",
+      "emo": "laugh",
+      "en": "Okay! One lira, Parvaneh!",
+      "fa": "باشه! یه لیر، پروانه!",
+      "link": {
+        "lira": "obj:farsca_jar"
+      },
+      "to": "parvaneh",
+      "tr": "Tamam! Bir lira, Parvane!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "n": 1,
+            "op": "add"
+          }
+        ],
+        "react": {
+          "zafer": "laugh"
+        },
+        "sfx": {
+          "at": "obj:farsca_jar",
+          "id": "coin_clink"
+        },
+        "who": "parvaneh"
+      }
+    },
+    {
+      "spot": {
+        "en": "-DAn means “from”, at the end of the word. Its vowel follows the word: Şişli'den, Feriköy'den, Kadıköy'den. After a hard sound (p, ç, t, k, s, ş, h, f) the d becomes t: Beşiktaş'tan. The question is Nereden? From where?",
+        "ex": "Feriköy'den!",
+        "fa": "‏-DAn یعنی «از»، ولی آخرِ کلمه می‌آید. حرفِ صدادارش از خودِ کلمه پیروی می‌کند: Şişli'den، Feriköy'den، Kadıköy'den. بعد از صداهای سخت (p, ç, t, k, s, ş, h, f) حرفِ d به t تبدیل می‌شود: Beşiktaş'tan. سؤالش Nereden? است: از کجا؟",
+        "lesson": "g_a1_3_uzaklasma",
+        "show": "case_path"
+      }
+    },
+    {
+      "at": {
+        "maria": "stairs_4_5",
+        "nima": "landing_4"
+      },
+      "kerim": "stair_window",
+      "scene": "flat_nima_stairs",
+      "time": "night"
+    },
+    {
+      "at": "obj:defter",
+      "do": "hold_up",
+      "emo": "curious",
+      "en": "This notebook… Nima? Is that you?",
+      "fa": "این دفتر… نیما؟ شمایید؟",
+      "link": {
+        "defter": "obj:defter"
+      },
+      "obj": [
+        {
+          "id": "defter",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Bu defter… Nima? Siz misiniz?",
+      "who": "maria"
+    },
+    {
+      "at": "ch:maria",
+      "do": "you",
+      "emo": "surprised",
+      "en": "Yes! You… on the metro!",
+      "fa": "بله! شما… تو مترو!",
+      "to": "maria",
+      "tr": "Evet! Siz… metroda!",
+      "who": "nima"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "moved",
+      "en": "Yes! And you… you were very kind, thank you! I'm Maria, from the fifth floor. Where do you come from?",
+      "fa": "بله! و شما… خیلی لطف داشتید، ممنونم! من ماریا هستم، طبقه‌ی پنجم. شما اهلِ کجایید؟",
+      "if": "s1e14_seat",
+      "obj": [
+        {
+          "id": "defter",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Evet! Ve siz… çok naziksiniz, teşekkürler! Ben Maria, beşinci kattayım. Nereden geliyorsunuz?",
+      "who": "maria"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Yes, on the metro! I'm Maria, from the fifth floor. Where do you come from?",
+      "fa": "بله، تو مترو! من ماریا هستم، طبقه‌ی پنجم. شما اهلِ کجایید؟",
+      "obj": [
+        {
+          "id": "defter",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Evet, metroda! Ben Maria, beşinci kattayım. Nereden geliyorsunuz?",
+      "unless": "s1e14_seat",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "From Tehran. And you, where from?",
+      "fa": "از تهران. شما اهلِ کجایید؟",
+      "to": "maria",
+      "tr": "Tahran'dan. Siz nereden?",
+      "who": "nima"
+    },
+    {
+      "do": "me",
+      "emo": "proud",
+      "en": "I'm from here. From this very street!",
+      "fa": "من اهلِ همین‌جام. از همین کوچه!",
+      "to": "nima",
+      "tr": "Ben buradanım. Bu sokaktan!",
+      "who": "maria"
+    },
+    {
+      "emo": "sad",
+      "en": "Turkish is hard!",
+      "fa": "ترکی سخته!",
+      "to": "maria",
+      "tr": "Türkçe zor!",
+      "who": "nima"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "It isn't easy… but drop by drop, a lake forms.",
+      "fa": "آسون نیست… ولی قطره قطره جمع گردد، وانگهی دریا شود.",
+      "to": "nima",
+      "tr": "Kolay değil… ama damlaya damlaya göl olur.",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "Drop by drop… a lake forms. That's lovely!",
+      "fa": "قطره قطره… دریا می‌شه. چه قشنگ!",
+      "to": "maria",
+      "tr": "Damlaya damlaya… göl olur. Çok güzel!",
+      "who": "nima"
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Come for tea on Saturday!",
+      "fa": "شنبه برای چای تشریف بیارید!",
+      "to": "nima",
+      "tr": "Cumartesi çaya gelin!",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "cay",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Thank you so much, Maria Teyze!",
+            "fa": "خیلی ممنونم، خاله ماریا!",
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "hand_heart",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "No, thank you! Saturday… teatime!",
+                "fa": "من از شما ممنونم! شنبه… وقتِ چای!",
+                "to": "nima",
+                "tr": "Ben teşekkür ederim! Cumartesi… çay saati!",
+                "who": "maria"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Çok teşekkür ederim, Maria Teyze!"
+          },
+          {
+            "en": "Okay.",
+            "fa": "باشه.",
+            "react": {
+              "maria": {
+                "emo": "neutral"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "wait": 700
+                }
+              },
+              {
+                "do": "nod",
+                "emo": "happy",
+                "en": "…Okay. Saturday.",
+                "fa": "…باشه. شنبه.",
+                "to": "nima",
+                "tr": "…Tamam. Cumartesi.",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam."
+          },
+          {
+            "emo": "neutral",
+            "en": "No, I don't want to.",
+            "fa": "نه، نمی‌خوام.",
+            "react": {
+              "kerim": {
+                "emo": "nervous"
+              },
+              "maria": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "en": "No?! Coo-coo…",
+                "fa": "نه؟! کو-کو…",
+                "narr": true,
+                "tr": "Hayır mı?! Ku-ku…",
+                "who": "kerim"
+              },
+              {
+                "do": "beckon",
+                "emo": "happy",
+                "en": "Very well… but there's tea on Saturday. Do come, do come!",
+                "fa": "باشه… ولی شنبه چای داریم. تشریف بیارید، حتماً!",
+                "to": "nima",
+                "tr": "Peki… ama cumartesi çay var. Gelin, gelin!",
+                "who": "maria"
+              }
+            ],
+            "tone": "rude",
+            "tr": "Hayır, istemiyorum."
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "en": "Maria Teyze… and Nima. Neighbours!",
+      "fa": "خاله ماریا… و نیما. همسایه‌ها!",
+      "narr": true,
+      "tr": "Maria Teyze… ve Nima. Komşular!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "At the class map everyone says where they come from, and Parvaneh's Persian slip starts the Farsça jar, with Nima as its keeper. That night the lady from the metro is waiting upstairs with Nima's lost notebook: she is Maria, from the fifth floor.",
+  "summaryFa": "کنارِ نقشه‌ی کلاس هر کس می‌گوید از کجا می‌آید. یک کلمه‌ی فارسی از دهانِ پروانه می‌پرد و قلکِ «فارسی» راه می‌افتد، و نیما نگهبانش می‌شود. آن شب خانمِ مترو با دفترِ گم‌شده‌ی نیما در راه‌پله منتظر است: او ماریاست، از طبقه‌ی پنجم.",
+  "title": "Nereden geliyorsunuz?",
+  "titleEn": "Where are you coming from?",
+  "titleFa": "از کجا می‌آیید؟",
+  "words": [
+    "a1-w-nereden",
+    "a1-w-gelmek",
+    "a1-w-vapur",
+    "a1-w-uzak",
+    "a1-w-yakin",
+    "seed-w18",
+    "a1-w-kolay"
+  ]
+}

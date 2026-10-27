@@ -1,0 +1,593 @@
+{
+  "arc": {
+    "en": "Where's home?",
+    "fa": "خانه کجاست؟",
+    "id": "s1w02",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Ev nerede?"
+  },
+  "cast": [
+    "zafer",
+    "parvaneh",
+    "farzad",
+    "nima"
+  ],
+  "extras": [
+    "yusuf",
+    "alex",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "do": "hold_up",
+      "en": "Hello! I'm… ?",
+      "fa": "سلام! من… ؟",
+      "to": "nima",
+      "tr": "Merhaba! Ben… ?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_is",
+        "kind": "polite",
+        "options": [
+          {
+            "en": "What do you do?",
+            "fa": "شغلتون چیه؟",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "I'm a cook! And you?",
+                "fa": "من آشپزم! شما چی؟",
+                "tr": "Ben aşçıyım! Ya siz?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Ne iş yapıyorsunuz?"
+          },
+          {
+            "en": "What do you do? (to a friend)",
+            "fa": "شغلت چیه؟",
+            "react": {
+              "zafer": "surprised"
+            },
+            "reply": [
+              {
+                "en": "“Siz”, please! …I'm a cook. And you?",
+                "fa": "«شما»، لطفاً! …من آشپزم. شما چی؟",
+                "tr": "Siz, lütfen! …Ben aşçıyım. Ya siz?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Ne iş yapıyorsun?"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "I'm a student.",
+      "fa": "من دانشجوام.",
+      "to": "zafer",
+      "tr": "Ben öğrenciyim.",
+      "who": "nima"
+    },
+    {
+      "en": "A young and happy student!",
+      "fa": "یه دانشجوی جوون و خوشحال!",
+      "to": "nima",
+      "tr": "Genç ve mutlu bir öğrenci!",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "gençsiniz": [
+      "جوانید",
+      "you are young (siz)"
+    ],
+    "hocam": [
+      "استاد (خطابِ شاگرد به معلم)",
+      "Hocam: “my teacher”, how students address a teacher"
+    ],
+    "komşu": [
+      "همسایه",
+      "neighbour"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "musun": [
+      "…ی؟ (پرسش، تو)",
+      "are you…? (the question, sen)"
+    ],
+    "musunuz": [
+      "…ید؟ (پرسش، شما)",
+      "are you…? (the question, siz)"
+    ],
+    "polisim": [
+      "پلیسم",
+      "I'm a police officer"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name; the word means “victory”)"
+    ],
+    "şoförüm": [
+      "راننده‌ام",
+      "I'm a driver"
+    ]
+  },
+  "id": "s1e10",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_2_isim_cumleleri",
+    "g_a1_2_degil",
+    "g_a1_2_sayilar"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "sapka": {
+      "at": {
+        "x": -2.95,
+        "y": 0.76,
+        "z": -1.5
+      },
+      "kinds": [
+        "doctor"
+      ],
+      "kit": "hats",
+      "n": 1,
+      "terms": [
+        "a1-w-sapka",
+        "a1-w-doktor",
+        "a1-w-asci",
+        "a1-w-polis",
+        "a1-w-sofor"
+      ]
+    },
+    "telefon": {
+      "at": {
+        "x": 0.65,
+        "y": 0.72,
+        "z": -0.95
+      },
+      "kit": "phone",
+      "screen": {
+        "lines": [
+          "4. kat",
+          "20.000 TL"
+        ],
+        "title": "Feriköy"
+      },
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Is the flat nice? How many say “yes”?",
+      "fa": "خانه قشنگ است؟ چند نفر می‌گویند «بله»؟",
+      "kind": "comp",
+      "options": [
+        "Üç",
+        "Bir",
+        "Beş"
+      ],
+      "q": "Ev güzel mi? “Evet”: kaç kişi?",
+      "why": "Zafer Hoca: “Evet: bir, iki, üç. Hayır: bir.”"
+    },
+    {
+      "a": 0,
+      "en": "Zafer Hoca: “Are you tired?” Nima: “No, I'm not …!”",
+      "fa": "استاد ظفر: «خسته‌اید؟» نیما: «نه، … نیستم!»",
+      "kind": "word",
+      "options": [
+        "yorgun",
+        "mutlu",
+        "hasta"
+      ],
+      "q": "Zafer Hoca: “Yorgun musunuz?” Nima: “Hayır, … değilim!”",
+      "why": "Nima: “Hayır, yorgun değilim!”"
+    },
+    {
+      "a": 0,
+      "en": "The flat: yes or no?",
+      "fa": "خانه: بله یا نه؟",
+      "kind": "comp",
+      "options": [
+        "Evet",
+        "Hayır",
+        "Yok"
+      ],
+      "q": "Ev: evet mi, hayır mı?",
+      "why": "Farzad: “Tamam! Cuma: evet!”"
+    }
+  ],
+  "ref": "A1_2",
+  "releaseDate": "2026-09-17",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "emo": "happy",
+      "en": "Good morning! I'm a bird. You're a student. We're… friends!",
+      "fa": "صبح بخیر! من یه پرنده‌ام. تو دانشجویی. ما… دوستیم!",
+      "narr": true,
+      "tr": "Günaydın! Ben bir kuşum. Sen öğrencisin. Biz… arkadaşız!",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:sapka",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "I'm a doctor. Is anyone ill?",
+      "fa": "من دکترم. مریض داریم؟",
+      "obj": [
+        {
+          "id": "sapka",
+          "op": "take"
+        }
+      ],
+      "react": {
+        "alex": {
+          "emo": "tired"
+        }
+      },
+      "to": "all",
+      "tr": "Ben doktorum. Hasta var mı?",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:sapka",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "I'm a cook!",
+      "fa": "من آشپزم!",
+      "obj": [
+        {
+          "id": "sapka",
+          "op": "set",
+          "set": {
+            "kinds": [
+              "chef"
+            ]
+          }
+        }
+      ],
+      "to": "all",
+      "tr": "Ben aşçıyım!",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:sapka",
+      "do": "hold_up",
+      "emo": "neutral",
+      "en": "I'm a police officer!",
+      "fa": "من پلیسم!",
+      "obj": [
+        {
+          "id": "sapka",
+          "op": "set",
+          "set": {
+            "kinds": [
+              "police"
+            ]
+          }
+        }
+      ],
+      "react": {
+        "parvaneh": "laugh"
+      },
+      "to": "all",
+      "tr": "Ben polisim!",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "emo": "neutral",
+        "obj": [
+          {
+            "id": "sapka",
+            "op": "set",
+            "set": {
+              "kinds": [
+                "driver"
+              ]
+            }
+          }
+        ],
+        "wait": 900,
+        "who": "zafer"
+      }
+    },
+    {
+      "choice": {
+        "id": "ne_is",
+        "kind": "polite",
+        "options": [
+          {
+            "emo": "curious",
+            "en": "What do you do?",
+            "fa": "شغلتون چیه؟",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "me",
+                "emo": "happy",
+                "en": "I'm a driver! Are you a student?",
+                "fa": "من راننده‌ام! شما دانشجویید؟",
+                "to": "nima",
+                "tr": "Ben şoförüm! Siz öğrenci misiniz?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Ne iş yapıyorsunuz?"
+          },
+          {
+            "emo": "curious",
+            "en": "What do you do? (to a friend)",
+            "fa": "شغلت چیه؟",
+            "react": {
+              "zafer": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "surprised",
+                "en": "…“You”, to me? I'm a driver.",
+                "fa": "…«تو»؟ من راننده‌ام.",
+                "to": "nima",
+                "tr": "…Sen mi? Ben şoförüm.",
+                "who": "zafer"
+              },
+              {
+                "do": "you",
+                "en": "“Siz”!",
+                "fa": "«شما»!",
+                "to": "nima",
+                "tr": "Siz!",
+                "voice": "whisper",
+                "who": "parvaneh"
+              },
+              {
+                "emo": "happy",
+                "en": "Are you… a student?",
+                "fa": "شما… دانشجویید؟",
+                "to": "nima",
+                "tr": "Siz… öğrenci misiniz?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Ne iş yapıyorsun?"
+          },
+          {
+            "emo": "neutral",
+            "en": "Job?",
+            "fa": "شغل؟",
+            "react": {
+              "zafer": {
+                "emo": "annoyed"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "emo": "neutral",
+                  "wait": 1200,
+                  "who": "zafer"
+                }
+              },
+              {
+                "emo": "neutral",
+                "en": "“What do you do?” …I'm a driver. Are you a student?",
+                "fa": "«شغلتون چیه؟» …من راننده‌ام. شما دانشجویید؟",
+                "to": "nima",
+                "tr": "“Ne iş yapıyorsunuz?” …Ben şoförüm. Siz öğrenci misiniz?",
+                "who": "zafer"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "İş?"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes, I'm a student.",
+      "fa": "بله، دانشجوام.",
+      "to": "zafer",
+      "tr": "Evet, öğrenciyim.",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "You're very young! Are you tired?",
+      "fa": "خیلی جوونید! خسته‌اید؟",
+      "to": "nima",
+      "tr": "Çok gençsiniz! Yorgun musunuz?",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:telefon",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "No, I'm not tired! Hocam… is this flat nice?",
+      "fa": "نه، خسته نیستم! استاد… این خونه قشنگه؟",
+      "obj": [
+        {
+          "id": "telefon",
+          "op": "take"
+        }
+      ],
+      "to": "zafer",
+      "tr": "Hayır, yorgun değilim! Hocam… bu ev güzel mi?",
+      "who": "nima"
+    },
+    {
+      "do": "thumb_up",
+      "emo": "happy",
+      "en": "Yes! Very nice!",
+      "fa": "آره! خیلی قشنگه!",
+      "to": "nima",
+      "tr": "Evet! Çok güzel!",
+      "who": "parvaneh"
+    },
+    {
+      "do": "count",
+      "emo": "happy",
+      "en": "Yes: one, two, three. No: one.",
+      "fa": "بله: یک، دو، سه. نه: یکی.",
+      "n": 3,
+      "react": {
+        "dilnoza": "hold_up",
+        "yusuf": "hold_up"
+      },
+      "to": "all",
+      "tr": "Evet: bir, iki, üç. Hayır: bir.",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "at": "mark:window_out",
+        "do": "point",
+        "emo": "tired",
+        "react": {
+          "parvaneh": "laugh",
+          "zafer": "laugh"
+        },
+        "who": "alex"
+      }
+    },
+    {
+      "spot": {
+        "en": "The endings say who: -(y)Im “I am”, -sIn “you are”, -(y)Iz “we are”, -sInIz “you are” (siz). Ben bir kuşum, sen öğrencisin, biz arkadaşız. In a question they go on mi: Öğrenci misiniz? With değil: Yorgun değilim. They work like Persian -am, -i, -im, -id: “I'm a student” is دانشجوام, öğrenciyim.",
+        "ex": "Ben bir kuşum. Sen öğrencisin.",
+        "fa": "این پسوندها می‌گویند «چه کسی»: -(y)Im یعنی «ـَم»، -sIn یعنی «ـی»، -(y)Iz یعنی «ـیم»، -sInIz یعنی «ـید» (برای siz). Ben bir kuşum (من پرنده‌ام)، sen öğrencisin (تو دانشجویی)، biz arkadaşız (ما دوستیم). در سؤال به mi می‌چسبند: Öğrenci misiniz? (دانشجویید؟). با değil: Yorgun değilim (خسته نیستم). درست مثلِ فارسی: دانشجوام ≈ öğrenciyim.",
+        "lesson": "g_a1_2_isim_cumleleri"
+      }
+    },
+    {
+      "at": {
+        "farzad": "table_3",
+        "nima": "table_4"
+      },
+      "looks": {
+        "farzad": "indoor"
+      },
+      "scene": "flat_farzad_living",
+      "time": "dusk"
+    },
+    {
+      "do": "me",
+      "emo": "curious",
+      "en": "I'm an engineer, you're a student. Twenty thousand lira… that's expensive, isn't it?",
+      "fa": "من مهندسم، تو دانشجویی. بیست هزار لیر… گرونه، نه؟",
+      "to": "nima",
+      "tr": "Ben mühendisim, sen öğrencisin. Yirmi bin lira… pahalı, değil mi?",
+      "who": "farzad"
+    },
+    {
+      "emo": "neutral",
+      "en": "A bit expensive. But the flat is nice.",
+      "fa": "یه کم گرونه. ولی خونه قشنگه.",
+      "to": "farzad",
+      "tr": "Biraz pahalı. Ama ev güzel.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Are you happy?",
+      "fa": "تو خوشحالی؟",
+      "to": "nima",
+      "tr": "Sen mutlu musun?",
+      "who": "farzad"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes, I'm happy!",
+      "fa": "آره، خوشحالم!",
+      "to": "farzad",
+      "tr": "Evet, mutluyum!",
+      "who": "nima"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "All right! Friday: yes!",
+      "fa": "باشه! جمعه: آره!",
+      "to": "nima",
+      "tr": "Tamam! Cuma: evet!",
+      "who": "farzad"
+    },
+    {
+      "at": {},
+      "kerim": "tank",
+      "scene": "rooftop",
+      "time": "night"
+    },
+    {
+      "cam": "wide",
+      "emo": "happy",
+      "en": "Friday… a new neighbour! Coo-coo!",
+      "fa": "جمعه… یه همسایه‌ی جدید! کو-کو!",
+      "narr": true,
+      "tr": "Cuma… yeni bir komşu! Ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Zafer Hoca puts on job hats to teach the personal endings, and Nima has to ask a stranger politely what he does. The class votes on the Feriköy flat, and that evening, at Farzad's, Nima says yes.",
+  "summaryFa": "استاد ظفر یکی‌یکی کلاهِ شغل‌های مختلف را به سر می‌گذارد تا پسوندهای شخصی را یاد بدهد و نیما باید مؤدبانه از یک غریبه بپرسد چه‌کاره است. کلاس به خانه‌ی فری‌کؤی رأی می‌دهد و آن شب، در خانه‌ی فرزاد، نیما «بله» می‌گوید.",
+  "title": "Ben öğrenciyim",
+  "titleEn": "I'm a student",
+  "titleFa": "من دانشجوام",
+  "words": [
+    "a1-w-asci",
+    "a1-w-yorgun",
+    "a1-w-mutlu",
+    "a1-w-hasta",
+    "a1-w-genc"
+  ]
+}

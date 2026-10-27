@@ -1,0 +1,625 @@
+{
+  "arc": {
+    "en": "The best of Feriköy",
+    "fa": "بهترین جاهای فری‌کؤی",
+    "id": "s1w06",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Feriköy'ün en iyi yerleri"
+  },
+  "cast": [
+    "nima",
+    "dilnoza",
+    "hatice",
+    "berfin"
+  ],
+  "followUp": [
+    {
+      "en": "A map! Where's the cat?",
+      "fa": "یه نقشه! گربه کجاست؟",
+      "narr": true,
+      "tr": "Bir harita! Kedi nerede?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_kedi",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "In front of the café.",
+            "fa": "جلوی کافه.",
+            "ok": true,
+            "react": {
+              "kerim": "happy"
+            },
+            "reply": [
+              {
+                "en": "Yes! In front of the café.",
+                "fa": "آره! جلوی کافه.",
+                "narr": true,
+                "tr": "Evet! Kafenin önünde.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Kafenin önünde."
+          },
+          {
+            "en": "Inside the café.",
+            "fa": "داخلِ کافه.",
+            "react": {
+              "kerim": "curious"
+            },
+            "reply": [
+              {
+                "en": "Not inside… in front!",
+                "fa": "داخلش نه… جلوش!",
+                "narr": true,
+                "tr": "İçinde değil… önünde!",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Kafenin içinde."
+          }
+        ],
+        "to": "kerim"
+      }
+    },
+    {
+      "en": "And where's Berfin?",
+      "fa": "و برفین کجاست؟",
+      "narr": true,
+      "tr": "Ve Berfin nerede?",
+      "who": "kerim"
+    },
+    {
+      "en": "Inside the café!",
+      "fa": "داخلِ کافه!",
+      "tr": "Kafenin içinde!",
+      "who": "nima"
+    },
+    {
+      "en": "Right! What's on the corner?",
+      "fa": "درسته! سرِ نبش چی هست؟",
+      "narr": true,
+      "tr": "Doğru! Köşede ne var?",
+      "who": "kerim"
+    },
+    {
+      "en": "There's a florist on the corner.",
+      "fa": "سرِ نبش یه گل‌فروشی هست.",
+      "tr": "Köşede bir çiçekçi var.",
+      "who": "nima"
+    }
+  ],
+  "gl": {
+    "canım": [
+      "عزیزم",
+      "my dear"
+    ],
+    "eczanenin": [
+      "ـِ داروخانه",
+      "the pharmacy's; of the pharmacy"
+    ],
+    "fırının": [
+      "ـِ نانوایی",
+      "the bakery's; of the bakery"
+    ],
+    "köşede": [
+      "سرِ نبش، در گوشه",
+      "on the corner"
+    ],
+    "köşeyi": [
+      "گوشه را",
+      "the corner (object)"
+    ],
+    "mahallesi": [
+      "محلهٔ…",
+      "the neighbourhood of…"
+    ],
+    "musun": [
+      "(پرسشی) …ی؟",
+      "(question) do you…?"
+    ],
+    "rehber": [
+      "راهنما",
+      "guide (a guidebook)"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ],
+    "önünde": [
+      "جلوی…",
+      "in front of…"
+    ]
+  },
+  "id": "s1e31",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_6_yer_yon",
+    "g_a1_6_belirtili_tamlama",
+    "g_a1_6_en"
+  ],
+  "level": "A1",
+  "place": "ferikoy",
+  "props": {
+    "ekmek": {
+      "at": {
+        "ferikoy": {
+          "x": -0.4,
+          "y": 0,
+          "z": -3.1
+        }
+      },
+      "kit": "bread",
+      "n": 1,
+      "terms": [
+        "a1-w-ekmek"
+      ]
+    },
+    "poset": {
+      "at": {
+        "ferikoy": {
+          "x": -3.06,
+          "y": 0,
+          "z": -3.3
+        }
+      },
+      "kit": "bag",
+      "n": 1,
+      "shown": false,
+      "terms": [
+        "a1-w-canta"
+      ],
+      "variant": "shopping"
+    },
+    "rehber": {
+      "at": {
+        "ferikoy": {
+          "x": -0.2,
+          "y": 0.9,
+          "z": -3.1
+        }
+      },
+      "kit": "book",
+      "shown": false,
+      "tabs": true,
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "notebook"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Hatice Abla: “Where's the pharmacy?”",
+      "fa": "خدیجه خانم: «داروخانه کجاست؟»",
+      "kind": "comp",
+      "options": [
+        "Fırının yanında",
+        "Okulun içinde",
+        "Parkın arkasında"
+      ],
+      "q": "Hatice Abla: “Eczane nerede?”",
+      "why": "Nima: “Fırının yanında. Şurada!”"
+    },
+    {
+      "a": 0,
+      "en": "Where's the park? … the school.",
+      "fa": "پارک کجاست؟ … مدرسه.",
+      "kind": "word",
+      "options": [
+        "karşısında",
+        "içinde",
+        "arkasında"
+      ],
+      "q": "Park nerede? Okulun …",
+      "why": "Nima: “Okulun karşısında.”"
+    },
+    {
+      "a": 0,
+      "en": "What is the best thing at Berfin's café?",
+      "fa": "در کافهٔ برفین بهترین چیز چیست؟",
+      "kind": "comp",
+      "options": [
+        "Çay",
+        "Kahve",
+        "Ekmek"
+      ],
+      "q": "Berfin'in kafesinde en iyi ne var?",
+      "why": "Berfin: “Burası Feriköy'ün en küçük kafesi… ama en iyi çayı burada!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-12",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "dilnoza": "firin_front",
+        "nima": "walk_l"
+      },
+      "kerim": "rooftops",
+      "scene": "ferikoy",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "ekmek",
+            "op": "take"
+          }
+        ],
+        "who": "dilnoza"
+      }
+    },
+    {
+      "en": "Good morning! Feriköy… Kerim's neighbourhood. The most beautiful neighbourhood!",
+      "fa": "صبح بخیر! فری‌کؤی… محلهٔ کریم. قشنگ‌ترین محله!",
+      "move": {
+        "how": "walk",
+        "to": "cafe_front",
+        "who": "nima"
+      },
+      "narr": true,
+      "tr": "Günaydın! Feriköy… Kerim'in mahallesi. En güzel mahalle!",
+      "who": "kerim"
+    },
+    {
+      "at": "ch:nima",
+      "do": "give",
+      "emo": "happy",
+      "en": "Warm bread… today it's my turn to share! A question: where's the bakery?",
+      "fa": "نونِ داغ… امروز مهمونِ منی! یه سؤال: نونوایی کجاست؟",
+      "if": "s1e17_cake",
+      "obj": [
+        {
+          "id": "ekmek",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Sıcak ekmek… bugün ben veriyorum! Bir soru: fırın nerede?",
+      "who": "dilnoza"
+    },
+    {
+      "at": "obj:ekmek",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Warm bread! Do you want a little? A question: where's the bakery?",
+      "fa": "نونِ داغ! یه کم می‌خوای؟ یه سؤال: نونوایی کجاست؟",
+      "to": "nima",
+      "tr": "Sıcak ekmek! Biraz istiyor musun? Bir soru: fırın nerede?",
+      "unless": "s1e17_cake",
+      "who": "dilnoza"
+    },
+    {
+      "at": "mark:eczane_front",
+      "do": "point",
+      "emo": "proud",
+      "en": "Next to the pharmacy.",
+      "fa": "کنارِ داروخونه.",
+      "to": "dilnoza",
+      "tr": "Eczanenin yanında.",
+      "who": "nima"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Right! Where's the park?",
+      "fa": "درسته! پارک کجاست؟",
+      "to": "nima",
+      "tr": "Doğru! Park nerede?",
+      "who": "dilnoza"
+    },
+    {
+      "at": "mark:park_side",
+      "do": "point_far",
+      "en": "Opposite the school.",
+      "fa": "روبه‌روی مدرسه.",
+      "to": "dilnoza",
+      "tr": "Okulun karşısında.",
+      "who": "nima"
+    },
+    {
+      "at": "obj:rehber",
+      "do": "hold_up",
+      "emo": "surprised",
+      "en": "You know Feriköy really well! For new students… a guide!",
+      "fa": "تو فری‌کؤی رو خیلی خوب می‌شناسی! برای دانشجوهای تازه‌وارد… یه راهنما!",
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "show"
+        },
+        {
+          "id": "rehber",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Sen Feriköy'ü çok iyi biliyorsun! Yeni öğrenciler için… bir rehber!",
+      "who": "dilnoza"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes! “The best places in Feriköy”!",
+      "fa": "آره! «بهترین جاهای فری‌کؤی»!",
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "set",
+          "set": {
+            "label": "Feriköy'ün en iyi yerleri"
+          }
+        }
+      ],
+      "to": "dilnoza",
+      "tr": "Evet! “Feriköy'ün en iyi yerleri”!",
+      "who": "nima"
+    },
+    {
+      "emo": "confused",
+      "en": "Excuse me, where's the pharmacy?",
+      "fa": "ببخشید، داروخونه کجاست؟",
+      "move": {
+        "from": "patisserie_door",
+        "how": "enter",
+        "to": "walk_l",
+        "who": "hatice"
+      },
+      "obj": [
+        {
+          "id": "poset",
+          "op": "show"
+        },
+        {
+          "id": "poset",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Affedersiniz, eczane nerede?",
+      "who": "hatice"
+    },
+    {
+      "choice": {
+        "id": "eczane",
+        "kind": "meaning",
+        "options": [
+          {
+            "at": "mark:eczane_front",
+            "do": "point",
+            "en": "Next to the bakery. Over there!",
+            "fa": "کنارِ نونوایی. اون‌جا!",
+            "ok": true,
+            "react": {
+              "hatice": {
+                "at": "mark:eczane_front",
+                "do": "look",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "at": "ch:nima",
+                "do": "you",
+                "emo": "surprised",
+                "en": "Thanks, dear! …You… tomatoes!",
+                "fa": "مرسی عزیزم! …تو… گوجه!",
+                "to": "nima",
+                "tr": "Sağ ol, canım! …Sen… domates!",
+                "who": "hatice"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Fırının yanında. Şurada!"
+          },
+          {
+            "at": "mark:park_side",
+            "do": "point",
+            "en": "Opposite the bakery.",
+            "fa": "روبه‌روی نونوایی.",
+            "react": {
+              "hatice": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "confused",
+                "en": "This is a park! Where's the pharmacy?!",
+                "fa": "این‌جا که پارکه! داروخونه کجاست؟!",
+                "move": {
+                  "how": "walk",
+                  "to": "park_side",
+                  "who": "hatice"
+                },
+                "to": "nima",
+                "tr": "Burası park! Eczane nerede?!",
+                "who": "hatice"
+              },
+              {
+                "at": "mark:eczane_front",
+                "do": "point",
+                "en": "Next to it! Next to the bakery!",
+                "fa": "کنارش! کنارِ نونوایی!",
+                "to": "hatice",
+                "tr": "Yanında! Fırının yanında!",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Fırının karşısında."
+          },
+          {
+            "at": "mark:school",
+            "do": "point_far",
+            "en": "Over there!",
+            "fa": "اون‌جا!",
+            "react": {
+              "hatice": {
+                "at": "mark:school",
+                "do": "look",
+                "emo": "confused"
+              }
+            },
+            "reply": [
+              {
+                "emo": "confused",
+                "en": "Over there? Behind the school?",
+                "fa": "اون‌جا؟ پشتِ مدرسه؟",
+                "to": "nima",
+                "tr": "Orada mı? Okulun arkasında mı?",
+                "who": "hatice"
+              },
+              {
+                "do": "shake_head",
+                "en": "No! Next to the bakery!",
+                "fa": "نه! کنارِ نونوایی!",
+                "to": "hatice",
+                "tr": "Hayır! Fırının yanında!",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Orada!"
+          }
+        ],
+        "to": "hatice"
+      }
+    },
+    {
+      "beat": {
+        "cam": "wide",
+        "move": {
+          "how": "walk",
+          "to": "eczane_front",
+          "who": "hatice"
+        }
+      }
+    },
+    {
+      "at": {
+        "berfin": "counter",
+        "dilnoza": "table",
+        "nima": "door"
+      },
+      "kerim": "awning",
+      "scene": "cafe_berfin",
+      "time": "day"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Welcome! Tea or coffee?",
+      "fa": "خوش اومدین! چای یا قهوه؟",
+      "move": {
+        "how": "walk",
+        "to": "team_building",
+        "who": "nima"
+      },
+      "sfx": {
+        "id": "shop_bell",
+        "word": "dın dın"
+      },
+      "to": "nima",
+      "tr": "Hoş geldiniz! Çay mı, kahve mi?",
+      "who": "berfin"
+    },
+    {
+      "do": "count",
+      "en": "Two teas, please!",
+      "fa": "دو تا چای، لطفاً!",
+      "n": 2,
+      "to": "berfin",
+      "tr": "İki çay, lütfen!",
+      "who": "nima"
+    },
+    {
+      "emo": "proud",
+      "en": "Here you are! This is the smallest café in Feriköy… but the best tea is right here!",
+      "fa": "بفرمایین! این‌جا کوچیک‌ترین کافهٔ فری‌کؤیه… ولی بهترین چای همین‌جاست!",
+      "obj": [
+        {
+          "id": "tea_glass",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Buyurun! Burası Feriköy'ün en küçük kafesi… ama en iyi çayı burada!",
+      "who": "berfin"
+    },
+    {
+      "at": "obj:rehber",
+      "do": "read",
+      "emo": "happy",
+      "en": "Berfin's café: next to the bakery. The best tea in Feriköy!",
+      "fa": "کافهٔ برفین: کنارِ نونوایی. بهترین چایِ فری‌کؤی!",
+      "move": {
+        "how": "walk",
+        "to": "team_class",
+        "who": "nima"
+      },
+      "obj": [
+        {
+          "id": "rehber",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Berfin'in kafesi: fırının yanında.",
+              "Feriköy'ün en iyi çayı!"
+            ]
+          }
+        }
+      ],
+      "to": "dilnoza",
+      "tr": "Berfin'in kafesi: fırının yanında. Feriköy'ün en iyi çayı!",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "en": "Where is it? Say the landmark with -(n)In, then the place word with -(s)I and -DA: eczane → eczanenin yanında (next to the pharmacy), okul → okulun karşısında (opposite the school), fırınla eczanenin arasında (between the bakery and the pharmacy), kafenin içinde (inside the café), kafenin önünde (in front of the café).",
+        "ex": "Eczanenin yanında.",
+        "fa": "کجاست؟ اول نشانه را با ‎-(n)In بگو، بعد کلمهٔ مکان را با ‎-(s)I و ‎-DA: eczane ← eczanenin yanında (کنارِ داروخانه)، okul ← okulun karşısında (روبه‌روی مدرسه)، fırınla eczanenin arasında (بینِ نانوایی و داروخانه)، kafenin içinde (داخلِ کافه)، kafenin önünde (جلوی کافه). مثل «کنارِ داروخانه» در فارسی، فقط ترتیبش برعکس است.",
+        "lesson": "g_a1_6_yer_yon",
+        "show": "case_path"
+      }
+    },
+    {
+      "en": "A guide? Kerim is a guide too! From the roof I see every corner.",
+      "fa": "راهنما؟ کریم هم یه راهنماست! از پشت‌بوم هر گوشه‌ای رو می‌بینم.",
+      "narr": true,
+      "tr": "Rehber mi? Kerim de bir rehber! Çatıdan her köşeyi görüyorum.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "On the morning walk through Feriköy, Nima and Dilnoza decide to write a guide for new students. Hatice Abla asks the way, and between the bakery and the pharmacy they find Berfin's tiny café.",
+  "summaryFa": "در پیاده‌رویِ صبح در فری‌کؤی، نیما و دلنوزا تصمیم می‌گیرند برای دانشجوهای تازه‌وارد یک راهنما بنویسند. خدیجه خانم نشانی می‌پرسد، و بینِ نانوایی و داروخانه کافهٔ کوچکِ برفین را پیدا می‌کنند.",
+  "title": "Fırının yanında",
+  "titleEn": "Next to the bakery",
+  "titleFa": "کنار نانوایی",
+  "words": [
+    "a1-w-karsi",
+    "a1-w-on-2",
+    "a1-w-arka",
+    "a1-w-ic",
+    "a1-w-en",
+    "a1-w-mahalle",
+    "a1-w-firin",
+    "a1-w-kose"
+  ]
+}

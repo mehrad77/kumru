@@ -1,0 +1,320 @@
+{
+  "ambience": [
+    "street_far",
+    "traffic"
+  ],
+  "camera": {
+    "wide": {
+      "w": 7.6,
+      "x": 0,
+      "y1": 2.6,
+      "z": -1.6
+    }
+  },
+  "district": "Taksim, Beyoğlu",
+  "id": "tomer_office",
+  "marks": {
+    "air": {
+      "air": true,
+      "x": 1.3,
+      "y": 2.05,
+      "z": -1.0
+    },
+    "desk": {
+      "facing": "l",
+      "seat": 0.45,
+      "x": -0.42,
+      "z": -2.75
+    },
+    "sill": {
+      "x": 0.2,
+      "y": 0.87,
+      "z": -1.48
+    }
+  },
+  "motif": "school",
+  "name": {
+    "en": "Zafer Hoca's office window",
+    "fa": "پنجرهٔ دفترِ استاد ظفر",
+    "tr": "Zafer Hoca'nın penceresi"
+  },
+  "outdoor": true,
+  "perch": "sill",
+  "pieces": [
+    {
+      "kit": "night_sky",
+      "variant": "crescent",
+      "x": 0,
+      "z": -200
+    },
+    {
+      "h": 1000,
+      "kit": "skyline",
+      "w": 4000,
+      "which": "city",
+      "x": 0,
+      "z": -30
+    },
+    {
+      "h": 520,
+      "kit": "tree",
+      "side": "left",
+      "terms": [
+        "a1-w-agac"
+      ],
+      "x": 4.2,
+      "z": -3.2
+    },
+    {
+      "color": "#F4D49A",
+      "h": 420,
+      "id": "office_back",
+      "kit": "wall",
+      "tiles": 0,
+      "w": 520,
+      "x": -0.6,
+      "z": -3.45
+    },
+    {
+      "h": 210,
+      "id": "kitaplik",
+      "kit": "shelf",
+      "terms": [
+        "a1-w-kitaplik"
+      ],
+      "variant": "books",
+      "w": 110,
+      "x": -1.45,
+      "z": -3.35
+    },
+    {
+      "h": 60,
+      "kit": "board",
+      "variant": "notice",
+      "w": 90,
+      "x": 0.45,
+      "y": 1.35,
+      "z": -3.42
+    },
+    {
+      "id": "saat",
+      "kit": "clock",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "19:40",
+      "x": -0.05,
+      "y": 2.05,
+      "z": -3.42
+    },
+    {
+      "id": "tavan_lambasi",
+      "kit": "lamp",
+      "x": -0.4,
+      "y": 2.75,
+      "z": -2.6
+    },
+    {
+      "kit": "chair",
+      "variant": "office",
+      "x": -0.42,
+      "z": -2.95
+    },
+    {
+      "id": "desk",
+      "kit": "desk",
+      "terms": [
+        "a1-w-masa"
+      ],
+      "variant": "office",
+      "w": 200,
+      "x": -0.45,
+      "z": -2.45
+    },
+    {
+      "id": "desk_lamp",
+      "kit": "lamp",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "variant": "desk",
+      "x": -0.12,
+      "y": 0.77,
+      "z": -2.38
+    },
+    {
+      "color": "#DAD2C2",
+      "h": 620,
+      "id": "office_wall",
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 155,
+          "w": 160,
+          "x": 70,
+          "y": 85
+        }
+      ],
+      "terms": [
+        "a1-w-bina"
+      ],
+      "tiles": 0,
+      "w": 600,
+      "x": -1.2,
+      "z": -1.6
+    },
+    {
+      "h": 155,
+      "id": "lit_window",
+      "kit": "window",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 160,
+      "x": -0.5,
+      "y": 0.85,
+      "z": -1.58
+    },
+    {
+      "h": 155,
+      "kit": "window",
+      "variant": "lit",
+      "w": 120,
+      "x": -3.0,
+      "y": 0.85,
+      "z": -1.58
+    },
+    {
+      "kit": "flowers",
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "pot",
+      "x": -2.3,
+      "z": -1.35
+    },
+    {
+      "a": "#5F6168",
+      "b": "#585A61",
+      "d": 2700,
+      "kit": "floor",
+      "tile": 400,
+      "w": 2600,
+      "x": 0,
+      "z": -30
+    },
+    {
+      "a": "#C9C2B6",
+      "b": "#BDB5A8",
+      "d": 400,
+      "kit": "floor",
+      "tile": 60,
+      "w": 1500,
+      "x": 0,
+      "z": -3
+    },
+    {
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": 3.1,
+      "z": -2.6
+    },
+    {
+      "kit": "bench",
+      "w": 160,
+      "x": 3.3,
+      "z": 0.8
+    }
+  ],
+  "props": {
+    "cay": {
+      "at": {
+        "x": -0.25,
+        "y": 0.77,
+        "z": -2.3
+      },
+      "kit": "tea",
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bardak"
+      ],
+      "variant": "glass"
+    },
+    "defterler": {
+      "at": {
+        "x": 0.3,
+        "y": 0.77,
+        "z": -2.36
+      },
+      "kit": "book",
+      "n": 3,
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "stack"
+    },
+    "kalem": {
+      "at": {
+        "x": -0.55,
+        "y": 0.77,
+        "z": -2.3
+      },
+      "kit": "pen",
+      "terms": [
+        "a1-w-kalem"
+      ]
+    },
+    "kalemlik": {
+      "at": {
+        "x": -0.75,
+        "y": 0.77,
+        "z": -2.3
+      },
+      "kit": "stationery",
+      "terms": [
+        "a1-w-kalem"
+      ],
+      "variant": "pen_cup"
+    },
+    "levha": {
+      "at": {
+        "x": 1.15,
+        "y": 1.45,
+        "z": -1.56
+      },
+      "h": 42,
+      "kit": "sign_board",
+      "label": "TÖMER",
+      "sub": "Türkçe Öğretim Merkezi",
+      "terms": [
+        "a1-w-universite"
+      ],
+      "variant": "plate",
+      "w": 110
+    },
+    "notlar": {
+      "at": {
+        "x": 0.12,
+        "y": 0.77,
+        "z": -2.3
+      },
+      "kit": "stationery",
+      "terms": [
+        "a2-w-not"
+      ],
+      "variant": "sticky_notes"
+    }
+  },
+  "site": "tomer",
+  "size": {
+    "d": 4,
+    "w": 9
+  },
+  "surface": "stone",
+  "times": [
+    "dusk"
+  ],
+  "v": 1
+}

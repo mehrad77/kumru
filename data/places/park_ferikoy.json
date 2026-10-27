@@ -1,0 +1,355 @@
+{
+  "ambience": [
+    "crowd",
+    "street_far"
+  ],
+  "camera": {
+    "wide": {
+      "w": 11,
+      "x": 0,
+      "y1": 3.8,
+      "z": -2.0
+    }
+  },
+  "district": "Şişli",
+  "id": "park_ferikoy",
+  "marks": {
+    "back": {
+      "facing": "r",
+      "x": -4.4,
+      "z": -2.6
+    },
+    "gate": {
+      "door": "park",
+      "out": {
+        "x": -3.4,
+        "z": -6.6
+      },
+      "x": -3.4,
+      "z": -4.8
+    },
+    "seat_elif": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -1.4,
+      "z": -1.0
+    },
+    "seat_maria": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -2.1,
+      "z": -1.0
+    },
+    "seat_nima": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -1.4,
+      "z": -2.0
+    },
+    "seat_serkan": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -2.1,
+      "z": -2.0
+    },
+    "stage_1": {
+      "x": 1.3,
+      "y": 0.7,
+      "z": -3.3
+    },
+    "stage_2": {
+      "x": 2.0,
+      "y": 0.7,
+      "z": -3.3
+    },
+    "stage_3": {
+      "x": 2.7,
+      "y": 0.7,
+      "z": -3.3
+    },
+    "stage_4": {
+      "x": 3.4,
+      "y": 0.7,
+      "z": -3.3
+    },
+    "stage_side": {
+      "facing": "r",
+      "x": -0.5,
+      "z": -3.0
+    },
+    "tree": {
+      "x": 2.4,
+      "y": 3.1,
+      "z": -4.4
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "Feriköy park",
+    "fa": "پارک فری‌کؤی",
+    "tr": "Feriköy Parkı"
+  },
+  "outdoor": true,
+  "perch": "tree",
+  "pieces": [
+    {
+      "kit": "sky_clouds",
+      "x": 0,
+      "z": -60
+    },
+    {
+      "flagState": "flags",
+      "kit": "skyline",
+      "variant": "sisli",
+      "w": 5000,
+      "x": 0,
+      "z": -40
+    },
+    {
+      "kit": "street",
+      "w": 2600,
+      "x": 0,
+      "z": -9
+    },
+    {
+      "a": "#BDB4A4",
+      "b": "#B3AA99",
+      "d": 920,
+      "kit": "floor",
+      "tile": 60,
+      "w": 1600,
+      "x": 0,
+      "z": -6.6
+    },
+    {
+      "gate": -340,
+      "id": "park",
+      "kit": "park_edge",
+      "terms": [
+        "a1-w-park"
+      ],
+      "w": 1400,
+      "x": 0,
+      "z": -5.6
+    },
+    {
+      "h": 560,
+      "id": "trees",
+      "kit": "tree",
+      "perch": 310,
+      "side": "left",
+      "terms": [
+        "a1-w-agac"
+      ],
+      "x": 4.7,
+      "z": -4.4
+    },
+    {
+      "h": 500,
+      "kit": "tree",
+      "x": -1.2,
+      "z": -4.9
+    },
+    {
+      "h": 540,
+      "kit": "tree",
+      "x": -5.6,
+      "z": 0.9
+    },
+    {
+      "banner": "Cumhuriyet Bayramımız Kutlu Olsun",
+      "color": "#B3261E",
+      "id": "stage",
+      "kit": "small_stage",
+      "w": 440,
+      "x": 2.6,
+      "z": -3.4
+    },
+    {
+      "id": "speakers",
+      "kit": "small_stage",
+      "variant": "speaker",
+      "x": -0.2,
+      "z": -3.6
+    },
+    {
+      "kit": "small_stage",
+      "variant": "speaker",
+      "x": 5.2,
+      "z": -3.6
+    },
+    {
+      "facing": "r",
+      "gap": 70,
+      "id": "chairs",
+      "kit": "chair",
+      "n": 4,
+      "terms": [
+        "a1-w-sandalye",
+        "a1-w-sira"
+      ],
+      "variant": "folding",
+      "x": -2.45,
+      "z": -1.0
+    },
+    {
+      "facing": "r",
+      "gap": 70,
+      "kit": "chair",
+      "n": 4,
+      "variant": "folding",
+      "x": -2.45,
+      "z": -2.0
+    },
+    {
+      "facing": "r",
+      "gap": 70,
+      "kit": "chair",
+      "n": 4,
+      "variant": "folding",
+      "x": -2.45,
+      "z": -3.0
+    },
+    {
+      "h": 330,
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "n": 2,
+      "variant": "bunting",
+      "w": 1000,
+      "x": -1.0,
+      "y": 0,
+      "z": -4.6
+    },
+    {
+      "h": 520,
+      "id": "bayrak",
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "terms": [
+        "a1-w-bayrak"
+      ],
+      "variant": "pole",
+      "x": -4.6,
+      "z": -4.6
+    },
+    {
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 6,
+      "x": -1.0,
+      "x0": -150,
+      "x1": 150,
+      "z": -4.2
+    },
+    {
+      "dir": -1,
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 4,
+      "x": 0,
+      "x0": -500,
+      "x1": 500,
+      "z": -7.2
+    },
+    {
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 3,
+      "x": 4.3,
+      "x0": -80,
+      "x1": 80,
+      "z": -0.5
+    },
+    {
+      "kind": "pigeons",
+      "kit": "birds",
+      "n": 4,
+      "x": 0.8,
+      "x0": -60,
+      "x1": 60,
+      "z": -1.0
+    }
+  ],
+  "props": {
+    "bank": {
+      "at": {
+        "x": 4.4,
+        "y": 0,
+        "z": -1.2
+      },
+      "decor": true,
+      "kit": "bench"
+    },
+    "bayraklar": {
+      "at": {
+        "x": -2.8,
+        "y": 0.45,
+        "z": -2.0
+      },
+      "decor": true,
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "n": 2,
+      "variant": "hand"
+    },
+    "cicekler": {
+      "at": {
+        "x": 0.9,
+        "y": 0,
+        "z": -4.0
+      },
+      "kit": "flowers",
+      "n": 2,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "pot"
+    },
+    "cop": {
+      "at": {
+        "x": 5.0,
+        "y": 0,
+        "z": -2.0
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "kedi": {
+      "at": {
+        "x": 3.7,
+        "y": 0,
+        "z": -1.3
+      },
+      "kit": "cat",
+      "pose": "sleep",
+      "terms": [
+        "a1-w-kedi"
+      ]
+    }
+  },
+  "site": "park_ferikoy",
+  "size": {
+    "d": 6,
+    "w": 12
+  },
+  "states": {
+    "flags": {
+      "group": "festive"
+    }
+  },
+  "surface": "stone",
+  "times": [
+    "day"
+  ],
+  "v": 1
+}

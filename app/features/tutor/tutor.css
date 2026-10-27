@@ -1,0 +1,27 @@
+/* The tutor: the lesson page's "Try it" box (TryIt.tsx), the correction pieces (parts.tsx) and the tutor lab (TutorLab.tsx). The writing box
+   `.try-in`, `.ai-pill`, `.think-bar` and `.tw-col` are in app/styles/components.css (onboarding and Profile draw them too), as are `.fix-orig` and
+   `.fix-hint`. */
+@layer features {
+/* try it */
+.try-box{display:grid;gap:10px;padding:16px;border-radius:18px;border:1.5px dashed color-mix(in srgb,var(--bark) 55%,var(--line));background:color-mix(in srgb,var(--bark) 5%,var(--surface))}
+.try-top{display:flex;justify-content:space-between;align-items:center}
+.try-task{display:grid;gap:2px}.try-task b{font-size:17px}
+.try-act{display:flex;gap:8px;align-items:center}
+.try-out{display:grid;gap:10px}.try-out:empty{display:none}
+.try-wait{display:flex;align-items:center;gap:10px;color:var(--muted)}
+.try-h{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center}.try-h b{font-size:18px;display:block}.try-h.ok b{color:var(--good)}
+.try-diff{display:grid;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.try-diff>div{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.try-diff .lbl{min-width:72px}
+.dline{font-size:17px}.d-del{color:var(--bad);text-decoration:line-through;background:color-mix(in srgb,var(--bad) 10%,transparent);border-radius:4px;padding:0 2px}
+.d-ins{color:var(--good);font-weight:700;background:color-mix(in srgb,var(--good) 12%,transparent);border-radius:4px;padding:0 2px;text-decoration:none}
+.try-note{display:grid;gap:4px;padding:8px 12px;border-inline-start:3px solid var(--ochre);background:var(--raise);border-radius:4px 10px 10px 4px}
+.try-note .fa{font-family:var(--fa)}
+.try-err{color:var(--bad);font-size:14px}
+/* tutor lab */
+.lab-title{margin:0;font:400 34px/1.1 var(--sans)}
+.lab-sum{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}.lab-sum .card{padding:10px 12px}.lab-sum .v{font-size:22px;font-weight:700}
+.lab-rows{display:grid;gap:8px}
+.lab-row{border:1px solid var(--line);border-inline-start:4px solid var(--line);border-radius:8px;padding:8px 12px;background:var(--surface);display:grid;gap:3px;font-size:14px}
+.lab-row.pass{border-inline-start-color:var(--good)}.lab-row.fail,.lab-row.err{border-inline-start-color:var(--bad)}.lab-row.close{border-inline-start-color:var(--ochre)}.lab-row.wait{color:var(--muted)}
+.lab-h{display:flex;gap:8px;align-items:center}.lab-v{margin-inline-start:auto;font-weight:700;font-size:12px}
+}

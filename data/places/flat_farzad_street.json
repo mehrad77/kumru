@@ -1,0 +1,235 @@
+{
+  "ambience": [
+    "street_far",
+    "traffic"
+  ],
+  "camera": {
+    "wide": {
+      "w": 8.4,
+      "x": 0.3,
+      "y1": 3.3,
+      "z": -0.9
+    }
+  },
+  "district": "Mecidiyeköy, Şişli",
+  "id": "flat_farzad_street",
+  "marks": {
+    "canopy": {
+      "x": 1.9,
+      "y": 3.42,
+      "z": -4.42
+    },
+    "door": {
+      "door": "kapi",
+      "out": {
+        "x": 1.9,
+        "z": -5.3
+      },
+      "x": 1.9,
+      "y": 0.32,
+      "z": -4.15
+    },
+    "kerb": {
+      "x": 1.4,
+      "z": -0.4
+    },
+    "walk_l": {
+      "facing": "r",
+      "x": -0.7,
+      "z": 0.1
+    },
+    "walk_r": {
+      "facing": "l",
+      "x": 0.45,
+      "z": 0.15
+    }
+  },
+  "motif": "home",
+  "name": {
+    "en": "Farzad's street",
+    "fa": "کوچه‌ی فرزاد",
+    "tr": "Farzad'ın sokağı"
+  },
+  "outdoor": true,
+  "perch": "canopy",
+  "pieces": [
+    {
+      "h": 1400,
+      "kit": "skyline",
+      "variant": "sisli",
+      "w": 6000,
+      "x": 0,
+      "z": -40
+    },
+    {
+      "kit": "street",
+      "w": 1600,
+      "x": 0,
+      "z": -4.6
+    },
+    {
+      "a": "#BDB5A8",
+      "b": "#B1A99B",
+      "d": 520,
+      "kit": "floor",
+      "tile": 55,
+      "w": 1600,
+      "x": 0,
+      "z": -4.55
+    },
+    {
+      "a": "#5E6166",
+      "b": "#585B60",
+      "d": 400,
+      "kit": "floor",
+      "tile": 200,
+      "w": 1600,
+      "x": 0,
+      "z": 0.65
+    },
+    {
+      "h": 230,
+      "id": "kapi",
+      "kit": "door",
+      "number": "27",
+      "style": "wood",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "street",
+      "w": 100,
+      "x": 1.9,
+      "y": 0.32,
+      "z": -4.48
+    },
+    {
+      "h": 470,
+      "id": "agac",
+      "kit": "tree",
+      "terms": [
+        "a1-w-agac"
+      ],
+      "x": -2.6,
+      "z": -3.9
+    },
+    {
+      "kit": "street_kit",
+      "variant": "courier",
+      "x": 4.2,
+      "z": -3.7
+    },
+    {
+      "kit": "street_kit",
+      "variant": "bollard",
+      "x": -1.6,
+      "z": 0.45
+    },
+    {
+      "h": 380,
+      "id": "lamba",
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": -3.7,
+      "z": 0.75
+    },
+    {
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "night": 0.3,
+      "x": 0,
+      "x0": -700,
+      "x1": 700,
+      "z": -2.9
+    },
+    {
+      "kit": "street_kit",
+      "variant": "bus_stop",
+      "x": -4.3,
+      "z": -3.6
+    },
+    {
+      "kind": "pigeons",
+      "kit": "birds",
+      "n": 3,
+      "x": -2.0,
+      "x0": -50,
+      "x1": 50,
+      "z": -1.6
+    }
+  ],
+  "props": {
+    "cicek": {
+      "at": {
+        "x": 1.15,
+        "y": 0,
+        "z": -4.25
+      },
+      "flower": "geranium",
+      "kit": "flowers",
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "pot"
+    },
+    "cop": {
+      "at": {
+        "x": 3.0,
+        "y": 0,
+        "z": -4.0
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "ev": {
+      "ac": 0.4,
+      "at": {
+        "x": 1.9,
+        "y": 0,
+        "z": -4.5
+      },
+      "bays": 3,
+      "color": "white",
+      "doorArt": false,
+      "flags": 0,
+      "floors": 6,
+      "kit": "facade",
+      "terms": [
+        "seed-w20"
+      ],
+      "variant": "apartment",
+      "w": 420
+    },
+    "kedi": {
+      "at": {
+        "x": -1.8,
+        "y": 0,
+        "z": -3.9
+      },
+      "coat": "ginger",
+      "kit": "cat",
+      "pose": "loaf",
+      "terms": [
+        "a1-w-kedi"
+      ]
+    }
+  },
+  "site": "flat_farzad",
+  "size": {
+    "d": 6,
+    "w": 10
+  },
+  "surface": "stone",
+  "times": [
+    "day",
+    "golden",
+    "dusk",
+    "night"
+  ],
+  "v": 1
+}

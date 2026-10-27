@@ -1,0 +1,428 @@
+{
+  "ambience": [
+    "street_far"
+  ],
+  "camera": {
+    "wide": {
+      "w": 7.0,
+      "x": 0.1,
+      "y1": 2.6,
+      "z": -2.2
+    }
+  },
+  "district": "Feriköy, Şişli",
+  "id": "flat_nima_room",
+  "marks": {
+    "bed": {
+      "seat": 0.5,
+      "x": -0.75,
+      "z": -1.7
+    },
+    "desk": {
+      "seat": 0.45,
+      "x": 1.4,
+      "z": -2.3
+    },
+    "desk_top": {
+      "x": 1.0,
+      "y": 0.77,
+      "z": -2.0
+    },
+    "door": {
+      "door": "kapi",
+      "out": {
+        "x": -2.85,
+        "z": -3.3
+      },
+      "x": -2.85,
+      "z": -2.15
+    },
+    "ledge": {
+      "x": 1.75,
+      "y": 1.0,
+      "z": -2.75
+    },
+    "sill": {
+      "x": 1.1,
+      "y": 1.0,
+      "z": -2.75
+    },
+    "sill_up": {
+      "air": true,
+      "x": 1.55,
+      "y": 2.0,
+      "z": -2.95
+    },
+    "window": {
+      "x": 1.4,
+      "y": 1.0,
+      "z": -2.75
+    }
+  },
+  "motif": "home",
+  "name": {
+    "en": "Nima's room",
+    "fa": "اتاقِ نیما",
+    "tr": "Nima'nın odası"
+  },
+  "perch": "window",
+  "pieces": [
+    {
+      "h": 700,
+      "kit": "skyline",
+      "variant": "ferikoy",
+      "w": 3000,
+      "x": 0,
+      "z": -20
+    },
+    {
+      "a": "#C49A6C",
+      "b": "#B98F62",
+      "d": 500,
+      "kit": "floor",
+      "tile": 22,
+      "w": 1000,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "color": "#D8E2E4",
+      "h": 400,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 205,
+          "w": 85,
+          "x": -285,
+          "y": 0
+        },
+        {
+          "h": 130,
+          "w": 120,
+          "x": 140,
+          "y": 95
+        }
+      ],
+      "tiles": 0,
+      "w": 1000,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "away": false,
+      "beyond": "#EEE9DF",
+      "color": "#F1EEE6",
+      "h": 200,
+      "id": "kapi",
+      "kit": "door",
+      "number": " ",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "w": 80,
+      "x": -2.85,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 130,
+      "id": "window",
+      "kit": "window",
+      "terms": [
+        "seed-w02",
+        "yk-w-cam"
+      ],
+      "w": 120,
+      "x": 1.4,
+      "y": 0.95,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 50,
+      "id": "radiator",
+      "kit": "heater",
+      "terms": [],
+      "w": 100,
+      "x": 1.4,
+      "z": -2.56
+    },
+    {
+      "color": "#4F6E9E",
+      "id": "bed",
+      "kit": "bed",
+      "w": 200,
+      "x": -0.75,
+      "z": -2.05
+    },
+    {
+      "h": 40,
+      "id": "raf",
+      "kit": "shelf",
+      "rows": 1,
+      "terms": [
+        "a1-w-kitaplik"
+      ],
+      "variant": "books",
+      "w": 110,
+      "x": -0.75,
+      "y": 1.45,
+      "z": -2.5500000000000003
+    },
+    {
+      "h": 45,
+      "id": "harita",
+      "kit": "board",
+      "labels": [
+        "Feriköy",
+        "Şişli",
+        "Taksim"
+      ],
+      "style": "city",
+      "terms": [
+        "a1-w-harita"
+      ],
+      "variant": "map",
+      "w": 60,
+      "x": -1.95,
+      "y": 1.2,
+      "z": -2.58
+    },
+    {
+      "id": "chair",
+      "kit": "chair",
+      "terms": [
+        "a1-w-sandalye"
+      ],
+      "variant": "office",
+      "x": 1.4,
+      "z": -2.32
+    },
+    {
+      "id": "desk",
+      "kit": "desk",
+      "terms": [
+        "a1-w-masa"
+      ],
+      "things": false,
+      "w": 130,
+      "x": 1.4,
+      "z": -1.85
+    },
+    {
+      "id": "lamp",
+      "kit": "lamp",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "variant": "desk",
+      "x": 1.9,
+      "y": 0.77,
+      "z": -1.9
+    },
+    {
+      "h": 15,
+      "id": "family_photo",
+      "kit": "picture",
+      "people": 3,
+      "stand": true,
+      "terms": [
+        "a1-w-fotograf"
+      ],
+      "variant": "photo",
+      "w": 20,
+      "x": 0.95,
+      "y": 0.77,
+      "z": -1.95
+    },
+    {
+      "kit": "lamp",
+      "x": 0,
+      "y": 2.5,
+      "z": -1.6
+    },
+    {
+      "color": "#7A3E6E",
+      "d": 140,
+      "id": "hali",
+      "kit": "rug",
+      "terms": [
+        "a1-w-hali"
+      ],
+      "w": 220,
+      "x": 0.2,
+      "z": -1.0
+    },
+    {
+      "facing": "back",
+      "kit": "chair",
+      "x": -1.85,
+      "z": 0.55
+    }
+  ],
+  "props": {
+    "atki": {
+      "at": {
+        "x": -1.85,
+        "y": 0.45,
+        "z": 0.55
+      },
+      "decor": true,
+      "in": [
+        "cold"
+      ],
+      "kit": "cloth",
+      "variant": "scarf"
+    },
+    "bag": {
+      "at": {
+        "x": 2.35,
+        "y": 0,
+        "z": -2.0
+      },
+      "kit": "bag",
+      "terms": [
+        "a1-w-canta"
+      ],
+      "variant": "shoulder"
+    },
+    "battaniye": {
+      "at": {
+        "x": -0.4,
+        "y": 0.52,
+        "z": -1.95
+      },
+      "decor": true,
+      "in": [
+        "cold"
+      ],
+      "kit": "cloth",
+      "variant": "blanket"
+    },
+    "book": {
+      "at": {
+        "x": 1.15,
+        "y": 0.77,
+        "z": -1.8
+      },
+      "kit": "book",
+      "terms": [
+        "seed-w01"
+      ]
+    },
+    "books": {
+      "at": {
+        "x": 1.65,
+        "y": 0.77,
+        "z": -1.95
+      },
+      "kit": "book",
+      "n": 4,
+      "terms": [
+        "seed-w01"
+      ],
+      "variant": "stack"
+    },
+    "boxes": {
+      "at": {
+        "x": 3.0,
+        "y": 0,
+        "z": -2.0
+      },
+      "kit": "box",
+      "n": 2,
+      "terms": [
+        "a1-w-kutu"
+      ],
+      "variant": "moving"
+    },
+    "cay": {
+      "at": {
+        "x": 0.75,
+        "y": 0.77,
+        "z": -1.8
+      },
+      "hot": true,
+      "in": [
+        "warm"
+      ],
+      "kit": "tea",
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bardak"
+      ],
+      "variant": "glass"
+    },
+    "notebook": {
+      "at": {
+        "x": 1.45,
+        "y": 0.77,
+        "z": -1.75
+      },
+      "kit": "book",
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "notebook"
+    },
+    "phone": {
+      "at": {
+        "x": 1.85,
+        "y": 0.77,
+        "z": -1.75
+      },
+      "kit": "phone",
+      "terms": [
+        "a1-w-telefon"
+      ]
+    },
+    "terlik": {
+      "at": {
+        "x": -0.2,
+        "y": 0,
+        "z": -1.45
+      },
+      "in": [
+        "warm"
+      ],
+      "kit": "footwear",
+      "terms": [
+        "a1-w-terlik"
+      ],
+      "variant": "slippers"
+    },
+    "yastik": {
+      "at": {
+        "x": -1.45,
+        "y": 0.5,
+        "z": -1.95
+      },
+      "kit": "linen",
+      "terms": [
+        "a1-w-yastik"
+      ],
+      "variant": "cushion"
+    }
+  },
+  "site": "flat_nima",
+  "size": {
+    "d": 4,
+    "w": 7.5
+  },
+  "states": {
+    "cold": {
+      "group": "warmth"
+    },
+    "warm": {
+      "group": "warmth"
+    }
+  },
+  "surface": "wood",
+  "times": [
+    "day",
+    "golden",
+    "dusk",
+    "dawn",
+    "night"
+  ],
+  "v": 1
+}

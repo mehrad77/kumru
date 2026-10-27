@@ -1,0 +1,864 @@
+{
+  "arc": {
+    "en": "Where's home?",
+    "fa": "خانه کجاست؟",
+    "id": "s1w02",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Ev nerede?"
+  },
+  "cast": [
+    "nima",
+    "farzad",
+    "kirlangic",
+    "parvaneh",
+    "yusuf",
+    "hatice"
+  ],
+  "extras": [
+    "alex",
+    "dilnoza",
+    "rayan"
+  ],
+  "followUp": [
+    {
+      "en": "Come, dear, come! Fresh cheese!",
+      "fa": "بیا عزیزم، بیا! پنیرِ تازه!",
+      "to": "nima",
+      "tr": "Gel canım, gel! Taze peynir!",
+      "who": "hatice"
+    },
+    {
+      "choice": {
+        "id": "fu_peynir",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "How much is the cheese?",
+            "fa": "پنیر چنده؟",
+            "ok": true,
+            "react": {
+              "hatice": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Four hundred lira a kilo! How many kilos?",
+                "fa": "کیلویی چهارصد لیر! چند کیلو؟",
+                "tr": "Kilo dört yüz lira! Kaç kilo?",
+                "who": "hatice"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Peynir kaç lira?"
+          },
+          {
+            "en": "The cheese is which in the row?",
+            "fa": "پنیر چندمه؟",
+            "react": {
+              "hatice": "confused"
+            },
+            "reply": [
+              {
+                "en": "Which in the row? No, dear: how much! Four hundred a kilo. How many kilos?",
+                "fa": "چندم؟ نه عزیزم: چند لیر! کیلویی چهارصد. چند کیلو؟",
+                "tr": "Kaçıncı mı? Hayır canım: kaç lira! Kilo dört yüz. Kaç kilo?",
+                "who": "hatice"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Peynir kaçıncı?"
+          }
+        ],
+        "to": "hatice"
+      }
+    },
+    {
+      "en": "Half a kilo, please.",
+      "fa": "نیم کیلو، لطفاً.",
+      "to": "hatice",
+      "tr": "Yarım kilo, lütfen.",
+      "who": "nima"
+    },
+    {
+      "en": "Half a kilo… two hundred lira. Enjoy!",
+      "fa": "نیم کیلو… دویست لیر. نوشِ جان!",
+      "to": "nima",
+      "tr": "Yarım kilo… iki yüz lira. Afiyet olsun!",
+      "who": "hatice"
+    }
+  ],
+  "gl": {
+    "abla": [
+      "خواهر بزرگ‌تر؛ خطابِ دوستانه به یک زن («Gel abla gel!»: صدای فروشنده‌ها)",
+      "elder sister; a friendly way to call a woman (“Gel abla gel!”: the market call)"
+    ],
+    "adım": [
+      "اسمم («Benim adım…»: اسمِ من…)",
+      "my name (“Benim adım…”: my name is…)"
+    ],
+    "bende": [
+      "پیشِ من، با من («Çantalar bende»: کیسه‌ها با من)",
+      "with me (“Çantalar bende”: I've got the bags)"
+    ],
+    "bilmiyor": [
+      "نمی‌داند",
+      "doesn't know"
+    ],
+    "bilmiyorum": [
+      "نمی‌دانم",
+      "I don't know"
+    ],
+    "buzdolabı": [
+      "یخچال",
+      "fridge"
+    ],
+    "canım": [
+      "عزیزم",
+      "my dear"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a neighbourhood of Şişli)"
+    ],
+    "hadi": [
+      "بریم! زود باش!",
+      "come on! let's go!"
+    ],
+    "kırlangıç": [
+      "پرستو (اسم)",
+      "Kırlangıç (a name; the word means “swallow”)"
+    ],
+    "organik": [
+      "ارگانیک",
+      "organic"
+    ],
+    "yardım": [
+      "کمک",
+      "help"
+    ],
+    "yerde": [
+      "روی زمین",
+      "on the floor"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ],
+    "çatıda": [
+      "روی پشت‌بام",
+      "on the roof"
+    ],
+    "üçüncü": [
+      "سوم",
+      "third"
+    ]
+  },
+  "id": "s1e12",
+  "kind": "special",
+  "lessons": [
+    "g_a1_2_var_yok",
+    "g_a1_2_sayilar",
+    "g_a1_2_isim_cumleleri"
+  ],
+  "level": "A1",
+  "place": "pazar_ferikoy",
+  "props": {
+    "anahtarlar": {
+      "at": {
+        "flat_nima_flat": {
+          "x": -0.95,
+          "y": 0.9,
+          "z": -2.45
+        }
+      },
+      "kit": "key",
+      "n": 3,
+      "terms": [
+        "a1-w-anahtar"
+      ],
+      "variant": "keys"
+    },
+    "bardaklar": {
+      "at": {
+        "rooftop": {
+          "x": -1.5,
+          "y": 0,
+          "z": -2.55
+        }
+      },
+      "kit": "tea",
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "tray"
+    },
+    "cantalar": {
+      "at": {
+        "pazar_ferikoy": "pushchair"
+      },
+      "kit": "bag",
+      "n": 2,
+      "terms": [
+        "a1-w-canta"
+      ],
+      "variant": "shopping"
+    },
+    "liste": {
+      "at": {
+        "pazar_ferikoy": "gate"
+      },
+      "kit": "paper",
+      "lines": [],
+      "terms": [
+        "a1-w-liste"
+      ],
+      "title": "LİSTE",
+      "variant": "list"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "What is missing in the flat?",
+      "fa": "در خانه چه چیزی نیست؟",
+      "kind": "comp",
+      "options": [
+        "Buzdolabı",
+        "Masa",
+        "Balkon"
+      ],
+      "q": "Evde ne yok?",
+      "why": "Farzad: “Buzdolabı yok!”"
+    },
+    {
+      "a": 0,
+      "en": "Hatice Abla: “Eighty lira a kilo! …, fresh!”",
+      "fa": "خدیجه خانم: «کیلویی هشتاد لیر! …، تازه!»",
+      "kind": "word",
+      "options": [
+        "Taze",
+        "Pahalı",
+        "Yarım"
+      ],
+      "q": "Hatice Abla: “Kilo seksen lira! …, taze!”",
+      "why": "Hatice Abla: “Kilo seksen lira! Taze, taze! Gel abla gel!”"
+    },
+    {
+      "a": 0,
+      "en": "“A bit expensive, isn't it?” Then how much are the tomatoes?",
+      "fa": "«یه کم گرونه، نه؟» بعد گوجه‌ها چند لیر می‌شود؟",
+      "kind": "comp",
+      "options": [
+        "Yüz elli lira",
+        "Yüz altmış lira",
+        "Seksen lira"
+      ],
+      "q": "“Biraz pahalı, değil mi?” Sonra domates kaç lira?",
+      "why": "Hatice Abla: “Tamam canım, yüz elli lira!”"
+    }
+  ],
+  "ref": "A1_2",
+  "releaseDate": "2026-09-19",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "gate",
+        "dilnoza": "buyer_r",
+        "farzad": "meet_3",
+        "hatice": "seller",
+        "kirlangic": "pushchair",
+        "nima": "meet_4",
+        "parvaneh": "meet_1",
+        "yusuf": "meet_2"
+      },
+      "kerim": "over",
+      "scene": "pazar_ferikoy",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "liste",
+            "op": "take"
+          }
+        ],
+        "react": {
+          "kirlangic": {
+            "emo": "happy"
+          }
+        },
+        "who": "alex"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "cantalar",
+            "op": "take"
+          }
+        ],
+        "who": "kirlangic"
+      }
+    },
+    {
+      "cam": "wide",
+      "emo": "happy",
+      "en": "Good morning! Today is Saturday. There's a pazar in Feriköy, a market! Pazar? But pazar is Sunday, and today is Saturday! Still… it's a pazar!",
+      "fa": "صبح بخیر! امروز شنبه‌ست. توی فری‌کؤی «پازار» هست! پازار؟ «پازار» که یعنی یکشنبه؛ امروز شنبه‌ست! ولی… «پازار» یعنی بازار هم!",
+      "narr": true,
+      "tr": "Günaydın! Bugün cumartesi. Feriköy'de pazar var! Pazar? Bugün cumartesi! Ama… pazar!",
+      "who": "kerim"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Good morning! Welcome!",
+      "fa": "صبح بخیر! خوش اومدید!",
+      "to": "all",
+      "tr": "Günaydın! Hoş geldiniz!",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "So what is there in the flat, and what isn't?",
+      "fa": "توی خونه چی هست، چی نیست؟",
+      "to": "nima",
+      "tr": "Evde ne var, ne yok?",
+      "who": "kirlangic"
+    },
+    {
+      "do": "shake_head",
+      "emo": "neutral",
+      "en": "There's no fridge!",
+      "fa": "یخچال نداره!",
+      "on": "yok",
+      "to": "kirlangic",
+      "tr": "Buzdolabı yok!",
+      "who": "farzad"
+    },
+    {
+      "emo": "curious",
+      "en": "Is there a table?",
+      "fa": "میز داره؟",
+      "to": "nima",
+      "tr": "Masa var mı?",
+      "who": "yusuf"
+    },
+    {
+      "emo": "neutral",
+      "en": "There's a table. There are no chairs.",
+      "fa": "میز داره. صندلی نداره.",
+      "to": "yusuf",
+      "tr": "Masa var. Sandalye yok.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Right! The list, Alex: chairs, plates… Come on!",
+      "fa": "خب! فهرست، الکس: صندلی، بشقاب… بریم!",
+      "obj": [
+        {
+          "id": "liste",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Sandalye",
+              "Tabak"
+            ]
+          }
+        }
+      ],
+      "react": {
+        "alex": "write"
+      },
+      "to": "alex",
+      "tr": "Tamam! Liste, Alex: sandalye, tabak… Hadi!",
+      "who": "farzad"
+    },
+    {
+      "beat": {
+        "do": "shrug",
+        "emo": "tired",
+        "who": "kirlangic"
+      }
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "The bags… I've got them!",
+      "fa": "منم! کیسه‌ها… با من!",
+      "obj": [
+        {
+          "id": "cantalar",
+          "op": "take"
+        }
+      ],
+      "to": "kirlangic",
+      "tr": "Çantalar… bende!",
+      "who": "nima"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Thanks a lot!",
+      "fa": "خیلی ممنون!",
+      "to": "nima",
+      "tr": "Çok teşekkürler!",
+      "who": "kirlangic"
+    },
+    {
+      "at": "obj:domates",
+      "do": "point",
+      "emo": "curious",
+      "en": "How much are the tomatoes?",
+      "fa": "گوجه چنده؟",
+      "move": {
+        "how": "walk",
+        "to": "buyer_l",
+        "who": "parvaneh"
+      },
+      "to": "hatice",
+      "tr": "Domates kaç lira?",
+      "who": "parvaneh"
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Eighty lira a kilo! Fresh, fresh! Come on, sister, come!",
+      "fa": "کیلویی هشتاد لیر! تازه، تازه! بیا آبجی، بیا!",
+      "obj": [
+        {
+          "id": "fiyat_etiketi",
+          "op": "set",
+          "set": {
+            "labels": [
+              "Domates · kilo 80 TL"
+            ]
+          }
+        }
+      ],
+      "sfx": {
+        "id": "market_call",
+        "word": "Gel abla gel!"
+      },
+      "tempo": 1.3,
+      "to": "parvaneh",
+      "tr": "Kilo seksen lira! Taze, taze! Gel abla gel!",
+      "who": "hatice"
+    },
+    {
+      "at": "obj:liste",
+      "do": "read",
+      "emo": "happy",
+      "en": "Cheese: half a kilo. Milk, eggs… and bread!",
+      "fa": "پنیر: نیم کیلو. شیر، تخم‌مرغ… و نون!",
+      "obj": [
+        {
+          "id": "liste",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Sandalye",
+              "Tabak",
+              "Peynir: yarım kilo",
+              "Süt",
+              "Yumurta",
+              "Ekmek"
+            ]
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Peynir: yarım kilo. Süt, yumurta… ve ekmek!",
+      "who": "yusuf"
+    },
+    {
+      "do": "count",
+      "emo": "happy",
+      "en": "Tomatoes, dear? Two kilos… a hundred and sixty lira!",
+      "fa": "گوجه، عزیزم؟ دو کیلو… صد و شصت لیر!",
+      "n": 2,
+      "to": "nima",
+      "tr": "Domates, canım? İki kilo… yüz altmış lira!",
+      "who": "hatice"
+    },
+    {
+      "choice": {
+        "id": "pazarlik",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "shy",
+            "en": "A bit expensive, isn't it?",
+            "fa": "یه کم گرونه، نه؟",
+            "ok": true,
+            "react": {
+              "hatice": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "All right, dear, a hundred and fifty lira!",
+                "fa": "باشه عزیزم، صد و پنجاه لیر!",
+                "to": "nima",
+                "tr": "Tamam canım, yüz elli lira!",
+                "who": "hatice"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Biraz pahalı, değil mi?"
+          },
+          {
+            "emo": "annoyed",
+            "en": "Far too expensive!",
+            "fa": "خیلی گرونه!",
+            "react": {
+              "hatice": {
+                "emo": "annoyed"
+              }
+            },
+            "reply": [
+              {
+                "emo": "annoyed",
+                "en": "Expensive? They're organic!",
+                "fa": "گرون؟ ارگانیکه!",
+                "to": "nima",
+                "tr": "Pahalı mı? Organik!",
+                "who": "hatice"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Çok pahalı!"
+          },
+          {
+            "do": "nod",
+            "emo": "happy",
+            "en": "Fine, here you are!",
+            "fa": "باشه، بفرمایید!",
+            "react": {
+              "farzad": {
+                "emo": "tired"
+              },
+              "hatice": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "tired",
+                "en": "It's a market, Nima… a market!",
+                "fa": "بازاره دیگه، نیما… بازار!",
+                "to": "nima",
+                "tr": "Pazar, Nima… pazar!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam, buyurun!"
+          }
+        ],
+        "to": "hatice"
+      }
+    },
+    {
+      "spot": {
+        "do": "count",
+        "en": "Kaç asks how many or how much, and the noun after a number stays singular: Kaç lira? Seksen. Kaç kilo? İki kilo, not “iki kilolar”. Kaç kişi? Yedi! Persian does the same: دو کیلو، هفت نفر.",
+        "ex": "Domates kaç lira?",
+        "fa": "«kaç» یعنی چند، و اسمِ بعد از عدد مفرد می‌ماند: Kaç lira? Seksen (چند لیر؟ هشتاد). Kaç kilo? İki kilo، نه «iki kilolar». Kaç kişi? Yedi! (چند نفر؟ هفت!) فارسی هم همین‌طور است: دو کیلو، هفت نفر.",
+        "lesson": "g_a1_2_sayilar",
+        "n": 7
+      }
+    },
+    {
+      "at": {
+        "farzad": "foot",
+        "nima": "step_cat",
+        "parvaneh": "landing_1",
+        "yusuf": "stairs_low"
+      },
+      "kerim": "rail",
+      "scene": "flat_nima_stairs",
+      "time": "day"
+    },
+    {
+      "cam": "follow",
+      "emo": "tired",
+      "en": "First… second… third… fourth!",
+      "fa": "اول… دوم… سوم… چهارم!",
+      "move": [
+        {
+          "how": "walk",
+          "to": "landing_4",
+          "via": [
+            "landing_2",
+            "landing_3"
+          ],
+          "who": "parvaneh"
+        },
+        {
+          "how": "walk",
+          "to": "landing_3",
+          "via": [
+            "landing_1",
+            "landing_2"
+          ],
+          "who": "nima"
+        }
+      ],
+      "react": {
+        "farzad": {
+          "emo": "tired"
+        },
+        "yusuf": {
+          "emo": "tired"
+        }
+      },
+      "to": "all",
+      "tr": "Birinci… ikinci… üçüncü… dördüncü!",
+      "who": "parvaneh"
+    },
+    {
+      "at": {
+        "alex": "door",
+        "farzad": "salon",
+        "kirlangic": "boiler",
+        "nima": "kitchen",
+        "parvaneh": "balcony_window",
+        "yusuf": "bathroom"
+      },
+      "kerim": "balcony_ledge",
+      "scene": "flat_nima_flat",
+      "state": "empty",
+      "time": "day"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Thank you so much!",
+      "fa": "خیلی ممنونم!",
+      "obj": [
+        {
+          "at": "kitchen",
+          "id": "cantalar",
+          "op": "place"
+        }
+      ],
+      "to": "all",
+      "tr": "Çok teşekkür ederim!",
+      "who": "nima"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "You're welcome!",
+      "fa": "خواهش می‌کنم!",
+      "react": {
+        "kirlangic": "hand_heart",
+        "yusuf": "nod"
+      },
+      "to": "nima",
+      "tr": "Rica ederim!",
+      "who": "farzad"
+    },
+    {
+      "emo": "tired",
+      "en": "I'm so tired! Is there any tea?",
+      "fa": "من خیلی خسته‌ام! چای هست؟",
+      "to": "nima",
+      "tr": "Ben çok yorgunum! Çay var mı?",
+      "who": "parvaneh"
+    },
+    {
+      "choice": {
+        "id": "cati",
+        "kind": "action",
+        "options": [
+          {
+            "at": "obj:anahtarlar",
+            "do": "hold_up",
+            "emo": "happy",
+            "en": "The roof! I have the key. Tea on the roof!",
+            "fa": "پشت‌بوم! کلید دارم. چای روی پشت‌بوم!",
+            "obj": [
+              {
+                "id": "anahtarlar",
+                "op": "take"
+              }
+            ],
+            "ok": true,
+            "react": {
+              "parvaneh": {
+                "emo": "happy"
+              },
+              "yusuf": "cheer"
+            },
+            "reply": [
+              {
+                "emo": "tired",
+                "en": "The roof?! One more floor. All right!",
+                "fa": "پشت‌بوم؟! یه طبقه‌ی دیگه. باشه!",
+                "to": "nima",
+                "tr": "Çatı mı?! Bir kat… daha. Tamam!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Çatı! Anahtar var. Çatıda çay!"
+          },
+          {
+            "emo": "neutral",
+            "en": "Here… tea on the floor?",
+            "fa": "همین‌جا… چای روی زمین؟",
+            "react": {
+              "kirlangic": {
+                "emo": "curious"
+              }
+            },
+            "reply": [
+              {
+                "at": "obj:anahtarlar",
+                "do": "point",
+                "emo": "curious",
+                "en": "What's this key? …The roof?! Come on!",
+                "fa": "این کلید چیه؟ …پشت‌بوم؟! بریم!",
+                "to": "nima",
+                "tr": "Bu anahtar ne? …Çatı mı?! Hadi!",
+                "who": "kirlangic"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Burada… yerde çay?"
+          },
+          {
+            "do": "wave",
+            "emo": "tired",
+            "en": "I'm tired… bye-bye!",
+            "fa": "من خسته‌ام… خداحافظ!",
+            "react": {
+              "farzad": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "No way! There's tea… there's a roof!",
+                "fa": "نه بابا! چای هست… پشت‌بوم هست!",
+                "to": "nima",
+                "tr": "Hayır! Çay var… çatı var!",
+                "who": "farzad"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Ben yorgunum… güle güle!"
+          }
+        ],
+        "to": "parvaneh"
+      }
+    },
+    {
+      "at": {
+        "alex": "sit_1",
+        "dilnoza": "sit_7",
+        "farzad": "sit_5",
+        "kirlangic": "sit_6",
+        "nima": "sit_4",
+        "parvaneh": "sit_3",
+        "rayan": "run",
+        "yusuf": "sit_2"
+      },
+      "kerim": "tank",
+      "scene": "rooftop",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "fly",
+          "to": "ledge",
+          "who": "kerim"
+        },
+        "react": {
+          "rayan": {
+            "emo": "surprised"
+          }
+        },
+        "sfx": {
+          "id": "wing_flap",
+          "word": "pır pır"
+        }
+      }
+    },
+    {
+      "at": "ch:kerim",
+      "do": "point",
+      "emo": "curious",
+      "en": "Who's this bird?",
+      "fa": "این پرنده کیه؟",
+      "link": {
+        "kuş": "ch:kerim"
+      },
+      "to": "nima",
+      "tr": "Bu kuş kim?",
+      "who": "parvaneh"
+    },
+    {
+      "do": "shrug",
+      "emo": "happy",
+      "en": "I don't know! But… it's here every day.",
+      "fa": "نمی‌دونم! ولی… هر روز این‌جاست.",
+      "to": "parvaneh",
+      "tr": "Bilmiyorum! Ama… her gün burada.",
+      "who": "nima"
+    },
+    {
+      "cam": "close",
+      "emo": "happy",
+      "en": "My name is Kerim! But Nima doesn't know it.",
+      "fa": "اسمِ من کریمه! ولی نیما نمی‌دونه.",
+      "narr": true,
+      "tr": "Benim adım Kerim! Ama Nima bilmiyor.",
+      "who": "kerim"
+    },
+    {
+      "cam": "wide",
+      "emo": "happy",
+      "en": "A market, a Saturday… and friends.",
+      "fa": "بازار، شنبه… و دوستا.",
+      "narr": true,
+      "tr": "Pazar, cumartesi… ve arkadaşlar.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The flat hunt ends at the Saturday market in Feriköy: a list for the empty kitchen, a polite bargain with Hatice Abla, four floors of stairs with the bags, and the first tea with friends on the roof, under the eyes of a bird nobody can name yet.",
+  "summaryFa": "جست‌وجوی خانه در بازارِ شنبه‌ی فری‌کؤی تمام می‌شود: یک فهرست برای آشپزخانه‌ی خالی، چانه‌زدنی مؤدبانه با خدیجه خانم، چهار طبقه پله با کیسه‌های خرید، و اولین چای با دوستان روی پشت‌بام، زیرِ نگاهِ پرنده‌ای که هنوز کسی اسمش را نمی‌داند.",
+  "title": "Feriköy pazarı",
+  "titleEn": "The Feriköy market",
+  "titleFa": "بازارِ فری‌کؤی",
+  "words": [
+    "a1-w-domates",
+    "a1-w-peynir",
+    "a1-w-sut",
+    "a1-w-taze",
+    "a1-w-kilo",
+    "a1-w-yarim",
+    "a1-w-liste",
+    "a1-w-kac",
+    "a1-w-tabak",
+    "a1-w-tesekkurler"
+  ]
+}

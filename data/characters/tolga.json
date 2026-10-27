@@ -1,0 +1,126 @@
+{
+  "address": {
+    "nima": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima… says “today”!",
+        "fa": "نیما… می‌گه «امروز»!",
+        "photo": {
+          "step": 11,
+          "story": "s1e40"
+        },
+        "tr": "Nima… “bugün” diyor!"
+      },
+      "family": {
+        "en": "Nima's my best tenant! Tomorrow… a new flat?",
+        "fa": "نیما بهترین مستأجرمه! فردا… یه خونه‌ی جدید؟",
+        "photo": {
+          "step": 13,
+          "story": "s1e11"
+        },
+        "tr": "Nima en iyi kiracım! Yarın… yeni bir ev?"
+      },
+      "met": {
+        "en": "My tenant, Nima.",
+        "fa": "مستأجرم، نیما.",
+        "photo": {
+          "step": 2,
+          "story": "s1e09"
+        },
+        "tr": "Kiracım Nima."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.55,
+      "shape": "average"
+    },
+    "face": {
+      "brows": "straight",
+      "eyeColor": "eye_dark",
+      "eyes": "almond",
+      "mouth": "wide",
+      "nose": "long",
+      "shape": "long"
+    },
+    "hair": {
+      "color": "hair_01",
+      "style": "hair_slick_back"
+    },
+    "hold": {
+      "id": "phone_held"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_04"
+        ],
+        "id": "bottom_trousers_suit"
+      },
+      "outer": {
+        "colors": [
+          "fab_04"
+        ],
+        "id": "outer_blazer"
+      },
+      "shoes": {
+        "id": "shoes_loafer"
+      },
+      "top": {
+        "colors": [
+          "fab_42"
+        ],
+        "id": "top_shirt"
+      }
+    },
+    "skin": "skin_20",
+    "v": 1
+  },
+  "bio": "In his 30s, from Istanbul; an estate agent in Şişli, on the phone all day. Eager and never stops selling; glosses over problems and promises \"Yarın!\"",
+  "bioFa": "سی و چند ساله، اهلِ استانبول؛ مشاورِ املاک در شیشلی که تمامِ روز پای تلفن است. پرشور است و دست از فروختن برنمی‌دارد؛ از مشکلات سرسری می‌گذرد و قولِ «Yarın!» (فردا!) می‌دهد.",
+  "catch": {
+    "en": "A very nice flat, very nice!",
+    "fa": "خانهٔ خیلی خوبی است، خیلی خوب!",
+    "tr": "Çok güzel ev, çok güzel!"
+  },
+  "circle": "guest",
+  "color": "#A9CC3A",
+  "id": "tolga",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "high",
+    "signature": [
+      "explain",
+      "phone",
+      "count"
+    ],
+    "tempo": 1.3
+  },
+  "name": "Tolga",
+  "nameFa": "تولگا",
+  "order": 19,
+  "outfits": {
+    "winter": {
+      "outfit": {
+        "shoes": {
+          "id": "shoes_boots_chelsea"
+        }
+      }
+    }
+  },
+  "places": [
+    "office_emlak"
+  ],
+  "role": "Estate agent (emlakçı) in Şişli",
+  "roleFa": "مشاورِ املاک (املاکچی) در شیشلی",
+  "voice": {
+    "pitch": 1.0,
+    "rate": 1.25
+  }
+}

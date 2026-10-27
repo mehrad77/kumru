@@ -1,0 +1,32 @@
+/* The account feature: the sign-in gate, the account forms (fields, password toggle, links, the human check), the recovery
+   code and the add-a-phone QR. The sheet form itself (.acc-form, .acc-err, .acc-dev, the spinner) is shared and is in
+   app/styles/components.css. */
+@layer features {
+.acc-field{display:grid;gap:4px}
+.acc-field .acc-fhint,.acc-form .acc-ferr{margin:0;font-size:12.5px}
+.acc-form .acc-ferr{color:var(--bad)}.acc-form .acc-ferr:empty{display:none}
+.acc-form input[aria-invalid="true"]{outline:2px solid var(--bad);outline-offset:1px}
+.pw-wrap{position:relative;display:grid}
+.pw-wrap input{padding-inline-end:76px}
+.pw-toggle{position:absolute;inset-block:4px;inset-inline-end:4px;border:0;background:var(--surface);color:var(--ink-2);border-radius:999px;padding:0 14px;font:inherit;font-size:13px;font-weight:500;min-width:60px;cursor:pointer}
+.pw-toggle:focus-visible{outline:2px solid var(--sage,var(--accent));outline-offset:1px}
+.acc-links{display:flex;flex-wrap:wrap;gap:4px 8px;justify-content:center}
+.acc-links .btn{justify-self:auto;color:var(--accent)}
+.acc-ts{display:flex;justify-content:center;min-height:0}.acc-extra{display:grid;gap:8px;justify-items:center}.acc-extra .acc-err{justify-self:stretch}
+.acc-form .acc-check{display:flex;align-items:center;gap:12px;font-size:16px;font-weight:500;color:var(--ink);padding:6px 0;cursor:pointer}
+.acc-check input{width:24px;height:24px;min-height:0;flex:none;accent-color:var(--act);padding:0}
+.acc-lock{margin:0;min-height:0}.acc-lock:empty{display:none}
+.sheet-locked .s-close{display:none}
+.acc-code{font:600 22px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-align:center;padding:12px;border-radius:14px;background:var(--sunken);user-select:all}
+.acc-qr{display:grid;place-items:center;padding:12px;background:#fff;border-radius:18px;margin:0 auto;width:min(240px,70vw)}
+.acc-qr svg{width:100%;height:auto;display:block}
+/* sign-in gate: below the sheets (z 60), so the account forms open over it */
+.gate-back{position:fixed;inset:0;z-index:50;background:var(--bg-page) fixed,var(--bg);display:flex;align-items:center;justify-content:center;padding:24px 16px;overflow:auto}
+.gate-card{width:min(100%,380px);display:grid;gap:14px;text-align:center;justify-items:center}
+.gate-k{width:96px;height:96px}
+.gate-card h1{margin:0;font-size:28px}
+.gate-lead{margin:0;color:var(--ink-2,var(--ink))}
+.gate-actions{display:grid;gap:10px;width:100%}
+.gate-note{margin:0;min-height:1em}
+.gate-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+}

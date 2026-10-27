@@ -1,0 +1,805 @@
+{
+  "arc": {
+    "en": "Before the exam",
+    "fa": "پیش از امتحان",
+    "id": "s1w07",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Sınavdan önce"
+  },
+  "cast": [
+    "berfin",
+    "nima",
+    "parvaneh",
+    "yusuf",
+    "serkan",
+    "omer"
+  ],
+  "extras": [
+    "dilnoza",
+    "alex",
+    "elif",
+    "maria"
+  ],
+  "followUp": [
+    {
+      "en": "Now you! What's this?",
+      "fa": "حالا تو! این چیه؟",
+      "to": "nima",
+      "tr": "Şimdi sen! Bu ne?",
+      "who": "berfin"
+    },
+    {
+      "en": "It's a glass.",
+      "fa": "این یه استکانه.",
+      "to": "berfin",
+      "tr": "Bu bir bardak.",
+      "who": "nima"
+    },
+    {
+      "en": "Which floor is your flat on?",
+      "fa": "خونه‌ت طبقهٔ چندمه؟",
+      "to": "nima",
+      "tr": "Senin evin kaçıncı katta?",
+      "who": "berfin"
+    },
+    {
+      "choice": {
+        "id": "fu_kat",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "On the fourth floor.",
+            "fa": "طبقهٔ چهارم.",
+            "ok": true,
+            "react": {
+              "berfin": "happy"
+            },
+            "reply": [
+              {
+                "en": "Right!",
+                "fa": "درسته!",
+                "to": "nima",
+                "tr": "Doğru!",
+                "who": "berfin"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Dördüncü katta."
+          },
+          {
+            "en": "On four floor.",
+            "fa": "طبقهٔ چهار.",
+            "react": {
+              "berfin": "confused"
+            },
+            "reply": [
+              {
+                "en": "Four? On the fourth floor!",
+                "fa": "چهار؟ طبقهٔ چهارم!",
+                "to": "nima",
+                "tr": "Dört mü? Dördüncü katta!",
+                "who": "berfin"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Dört katta."
+          }
+        ],
+        "to": "berfin"
+      }
+    },
+    {
+      "en": "What time is it?",
+      "fa": "ساعت چنده؟",
+      "to": "nima",
+      "tr": "Saat kaç?",
+      "who": "berfin"
+    },
+    {
+      "en": "It's half past nine.",
+      "fa": "ساعت نه و نیمه.",
+      "to": "berfin",
+      "tr": "Saat dokuz buçuk.",
+      "who": "nima"
+    },
+    {
+      "en": "Last question: what is Alex doing?",
+      "fa": "سؤالِ آخر: الکس داره چی‌کار می‌کنه؟",
+      "to": "nima",
+      "tr": "Son soru: Alex ne yapıyor?",
+      "who": "berfin"
+    },
+    {
+      "en": "He's sleeping!",
+      "fa": "خوابیده!",
+      "to": "berfin",
+      "tr": "Uyuyor!",
+      "who": "nima"
+    },
+    {
+      "en": "Congratulations! One more tea?",
+      "fa": "تبریک! یه چای دیگه؟",
+      "to": "nima",
+      "tr": "Tebrikler! Bir çay daha?",
+      "who": "berfin"
+    }
+  ],
+  "gl": {
+    "aferin": [
+      "آفرین",
+      "well done"
+    ],
+    "atkı": [
+      "شال‌گردن",
+      "scarf"
+    ],
+    "bardak": [
+      "لیوان، استکان",
+      "glass"
+    ],
+    "berabere": [
+      "مساوی",
+      "a draw, level"
+    ],
+    "beşiktaş": [
+      "بشیکتاش (باشگاهِ فوتبال)",
+      "Beşiktaş (the football club)"
+    ],
+    "eczanenin": [
+      "ـِ داروخانه (کنارِ داروخانه)",
+      "the pharmacy's (next to the pharmacy)"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a district of Şişli)"
+    ],
+    "gerçek": [
+      "واقعی",
+      "real"
+    ],
+    "haliç": [
+      "شاخِ طلایی (خلیج)",
+      "the Golden Horn"
+    ],
+    "hangisi": [
+      "کدام؟",
+      "which one?"
+    ],
+    "herkese": [
+      "به همه",
+      "to everyone"
+    ],
+    "kafesinde": [
+      "توی کافه‌اش",
+      "in (her) café"
+    ],
+    "kopya": [
+      "تقلب",
+      "cheating, copying"
+    ],
+    "köşedeki": [
+      "سرِ نبش، کنجی",
+      "on the corner, the corner (one)"
+    ],
+    "manzarası": [
+      "منظرهٔ…",
+      "the view (of…)"
+    ],
+    "maç": [
+      "مسابقهٔ فوتبال",
+      "match, game"
+    ],
+    "puan": [
+      "امتیاز",
+      "point"
+    ],
+    "rehberde": [
+      "توی راهنما",
+      "in the guide"
+    ],
+    "sır": [
+      "راز",
+      "secret"
+    ],
+    "takımdasın": [
+      "توی تیمِ… هستی",
+      "you're on the … team"
+    ],
+    "tankın": [
+      "ـِ منبعِ آب",
+      "of the (water) tank"
+    ],
+    "tebrikler": [
+      "تبریک!",
+      "congratulations"
+    ],
+    "yarışması": [
+      "مسابقهٔ…",
+      "competition (of…)"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ],
+    "üstünde": [
+      "رویِ",
+      "on top of"
+    ]
+  },
+  "id": "s1e42",
+  "kind": "special",
+  "lessons": [
+    "g_a1_6_yer_yon",
+    "g_a1_6_daha",
+    "g_a1_6_en"
+  ],
+  "level": "A1",
+  "looks": {
+    "dilnoza": "indoor",
+    "maria": "cold",
+    "parvaneh": "indoor"
+  },
+  "place": "cafe_berfin",
+  "props": {
+    "kalemler": {
+      "at": {
+        "x": 2.35,
+        "y": 0.86,
+        "z": -0.75
+      },
+      "kit": "pen",
+      "n": 3,
+      "terms": [
+        "a1-w-kalem"
+      ]
+    },
+    "zil": {
+      "at": {
+        "x": 2.1,
+        "y": 0.86,
+        "z": -0.55
+      },
+      "kit": "bell",
+      "terms": [],
+      "variant": "desk"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Who asks the questions?",
+      "fa": "چه کسی سؤال می‌پرسد؟",
+      "kind": "comp",
+      "options": [
+        "Berfin",
+        "Serkan",
+        "Yusuf"
+      ],
+      "q": "Kim soru soruyor?",
+      "why": "Berfin: “Birinci soru: bunlar ne?”"
+    },
+    {
+      "a": 0,
+      "en": "Berfin: “Last round… where is the … bakery?”",
+      "fa": "برفین: «دورِ آخر… نانواییِ … کجاست؟»",
+      "kind": "word",
+      "options": [
+        "köşedeki",
+        "kaçıncı",
+        "çeyrek"
+      ],
+      "q": "Berfin: “Son tur… … fırın nerede?”",
+      "why": "Berfin: “Son tur… köşedeki fırın nerede?”"
+    },
+    {
+      "a": 0,
+      "en": "How does the quiz end?",
+      "fa": "مسابقه چطور تمام می‌شود؟",
+      "kind": "comp",
+      "options": [
+        "Berabere",
+        "Sınıf birinci",
+        "Bina birinci"
+      ],
+      "q": "Yarışma nasıl bitiyor?",
+      "why": "Berfin: “O zaman… berabere!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-24",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "door",
+        "berfin": "counter",
+        "dilnoza": "seat_3",
+        "elif": "seat_6",
+        "maria": "seat_5",
+        "nima": "team_class",
+        "omer": "seat_4",
+        "parvaneh": "seat_1",
+        "serkan": "team_building",
+        "yusuf": "seat_2"
+      },
+      "kerim": "frame",
+      "scene": "cafe_berfin",
+      "state": [
+        "quiz",
+        "guide_up"
+      ],
+      "time": "night"
+    },
+    {
+      "emo": "happy",
+      "en": "Saturday evening. At Berfin's café… a quiz night!",
+      "fa": "شنبه شب. توی کافهٔ برفین… مسابقهٔ اطلاعات عمومی!",
+      "link": {
+        "kafesinde": "obj:sign"
+      },
+      "narr": true,
+      "tr": "Cumartesi akşamı. Berfin'in kafesinde… bilgi yarışması!",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "sfx": {
+          "at": "obj:zil",
+          "id": "quiz_bell",
+          "word": "dıng"
+        },
+        "who": "berfin"
+      }
+    },
+    {
+      "at": "obj:kalemler",
+      "cam": "wide",
+      "do": "point",
+      "emo": "happy",
+      "en": "Class against building! First question: what are these?",
+      "fa": "کلاس در برابرِ ساختمون! سؤالِ اول: این‌ها چی‌اند؟",
+      "to": "all",
+      "tr": "Sınıf binaya karşı! Birinci soru: bunlar ne?",
+      "who": "berfin"
+    },
+    {
+      "emo": "proud",
+      "en": "Pens!",
+      "fa": "خودکارها!",
+      "link": {
+        "kalemler": "obj:kalemler"
+      },
+      "to": "berfin",
+      "tr": "Kalemler!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Right! Second question: which floor is Nima's flat on?",
+      "fa": "درسته! سؤالِ دوم: خونهٔ نیما طبقهٔ چندمه؟",
+      "to": "all",
+      "tr": "Doğru! İkinci soru: Nima'nın evi kaçıncı katta?",
+      "who": "berfin"
+    },
+    {
+      "emo": "proud",
+      "en": "On the fourth floor! Easy!",
+      "fa": "طبقهٔ چهارم! آسونه!",
+      "to": "berfin",
+      "tr": "Dördüncü katta! Kolay!",
+      "who": "parvaneh"
+    },
+    {
+      "at": "ch:omer",
+      "do": "point",
+      "emo": "happy",
+      "en": "Right! Now Ömer… what is Ömer doing?",
+      "fa": "درسته! حالا عمر… عمر داره چی‌کار می‌کنه؟",
+      "react": {
+        "omer": {
+          "do": "sleep",
+          "emo": "tired"
+        }
+      },
+      "to": "all",
+      "tr": "Doğru! Şimdi Ömer… Ömer ne yapıyor?",
+      "who": "berfin"
+    },
+    {
+      "emo": "laugh",
+      "en": "He's sleeping! …Like Alex!",
+      "fa": "خوابیده! …مثلِ الکس!",
+      "react": {
+        "alex": "tired"
+      },
+      "to": "berfin",
+      "tr": "Uyuyor! …Alex gibi!",
+      "who": "yusuf"
+    },
+    {
+      "at": "ch:serkan",
+      "do": "point",
+      "emo": "laugh",
+      "en": "Right! Whose is that scarf?",
+      "fa": "درسته! اون شال‌گردن مالِ کیه؟",
+      "to": "nima",
+      "tr": "Doğru! Şu atkı kimin?",
+      "who": "berfin"
+    },
+    {
+      "emo": "laugh",
+      "en": "Serkan's!",
+      "fa": "مالِ سرکان!",
+      "to": "berfin",
+      "tr": "Serkan'ın!",
+      "who": "nima"
+    },
+    {
+      "do": "me",
+      "emo": "proud",
+      "en": "Mine! Beşiktaş is the greatest!",
+      "fa": "مالِ منه! بشیکتاش بزرگ‌ترینه!",
+      "to": "all",
+      "tr": "Benim! En büyük Beşiktaş!",
+      "who": "serkan"
+    },
+    {
+      "emo": "happy",
+      "en": "What time is it?",
+      "fa": "ساعت چنده؟",
+      "to": "all",
+      "tr": "Saat kaç?",
+      "who": "berfin"
+    },
+    {
+      "emo": "happy",
+      "en": "Match time!",
+      "fa": "وقتِ فوتباله!",
+      "react": {
+        "berfin": "laugh",
+        "omer": "laugh"
+      },
+      "to": "berfin",
+      "tr": "Maç saati!",
+      "who": "serkan"
+    },
+    {
+      "do": "shake_head",
+      "emo": "laugh",
+      "en": "No, Serkan! It's a quarter past nine. Last round… where is the corner bakery?",
+      "fa": "نه، سرکان! ساعت نه و ربعه. دورِ آخر… نونواییِ سرِ نبش کجاست؟",
+      "to": "nima",
+      "tr": "Hayır, Serkan! Dokuzu çeyrek geçiyor. Son tur… köşedeki fırın nerede?",
+      "who": "berfin"
+    },
+    {
+      "cam": "close",
+      "emo": "happy",
+      "en": "Nima! The answer: next to the pharmacy!",
+      "fa": "نیما! جوابش: کنارِ داروخونه!",
+      "to": "nima",
+      "tr": "Nima! Cevap: eczanenin yanında!",
+      "voice": "whisper",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "kopya",
+        "kind": "action",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Thanks, Ömer… but I know it: next to the pharmacy!",
+            "fa": "مرسی، عمر… ولی خودم می‌دونم: کنارِ داروخونه!",
+            "ok": true,
+            "react": {
+              "berfin": "happy",
+              "omer": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Right! One point to the class!",
+                "fa": "درسته! یک امتیاز برای کلاس!",
+                "to": "all",
+                "tr": "Doğru! Sınıfa bir puan!",
+                "who": "berfin"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Teşekkürler, Ömer… ama ben biliyorum: eczanenin yanında!"
+          },
+          {
+            "emo": "proud",
+            "en": "Next to the pharmacy!",
+            "fa": "کنارِ داروخونه!",
+            "react": {
+              "omer": "shy",
+              "serkan": "surprised"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "Ömer! Which team are you on?!",
+                "fa": "عمر! تو توی کدوم تیمی؟!",
+                "to": "omer",
+                "tr": "Ömer! Sen hangi takımdasın?!",
+                "who": "serkan"
+              },
+              {
+                "emo": "laugh",
+                "en": "Right… One point to the class, and one to the building!",
+                "fa": "درسته… یک امتیاز برای کلاس، یکی هم برای ساختمون!",
+                "to": "all",
+                "tr": "Doğru… Sınıfa bir puan, binaya da bir puan!",
+                "who": "berfin"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Eczanenin yanında!"
+          },
+          {
+            "at": "ch:omer",
+            "do": "point",
+            "emo": "annoyed",
+            "en": "Ömer! That's cheating!",
+            "fa": "عمر! تقلبه!",
+            "react": {
+              "omer": "sad"
+            },
+            "reply": [
+              {
+                "emo": "confused",
+                "en": "Cheating? All right… Yusuf?",
+                "fa": "تقلب؟ باشه… یوسف؟",
+                "to": "all",
+                "tr": "Kopya mı? Peki… Yusuf?",
+                "who": "berfin"
+              },
+              {
+                "emo": "happy",
+                "en": "Next to the pharmacy!",
+                "fa": "کنارِ داروخونه!",
+                "to": "berfin",
+                "tr": "Eczanenin yanında!",
+                "who": "yusuf"
+              },
+              {
+                "emo": "happy",
+                "en": "Right! One point to the class!",
+                "fa": "درسته! یک امتیاز برای کلاس!",
+                "to": "all",
+                "tr": "Doğru! Sınıfa bir puan!",
+                "who": "berfin"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Ömer! Kopya!"
+          }
+        ],
+        "to": "omer"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Which is bigger: the Bosphorus or the Golden Horn?",
+      "fa": "کدوم بزرگ‌تره: بسفر یا شاخِ طلایی؟",
+      "to": "all",
+      "tr": "Hangisi daha büyük: Boğaz mı, Haliç mi?",
+      "who": "berfin"
+    },
+    {
+      "emo": "proud",
+      "en": "The Bosphorus, of course! The Bosphorus is bigger!",
+      "fa": "بسفر، معلومه! بسفر بزرگ‌تره!",
+      "to": "berfin",
+      "tr": "Boğaz, tabii! Boğaz daha büyük!",
+      "who": "serkan"
+    },
+    {
+      "emo": "curious",
+      "en": "And… who is Feriköy's oldest neighbour?",
+      "fa": "و… قدیمی‌ترین همسایهٔ فری‌کؤی کیه؟",
+      "to": "all",
+      "tr": "Ve… Feriköy'ün en eski komşusu kim?",
+      "who": "berfin"
+    },
+    {
+      "beat": {
+        "do": "me",
+        "emo": "proud",
+        "react": {
+          "berfin": "laugh",
+          "elif": "laugh"
+        },
+        "who": "maria"
+      }
+    },
+    {
+      "at": "ch:maria",
+      "do": "point",
+      "emo": "laugh",
+      "en": "Maria Teyze!",
+      "fa": "خاله ماریا!",
+      "react": {
+        "maria": "laugh"
+      },
+      "to": "berfin",
+      "tr": "Maria Teyze!",
+      "who": "omer"
+    },
+    {
+      "emo": "curious",
+      "en": "Class five, building five! The last question, for Nima: where is the most beautiful view in Feriköy?",
+      "fa": "کلاس پنج، ساختمون پنج! سؤالِ آخر، برای نیما: قشنگ‌ترین منظرهٔ فری‌کؤی کجاست؟",
+      "to": "nima",
+      "tr": "Sınıf beş, bina beş! Son soru, Nima için: Feriköy'ün en güzel manzarası nerede?",
+      "who": "berfin"
+    },
+    {
+      "beat": {
+        "at": "ch:nima",
+        "do": "look",
+        "emo": "shy",
+        "who": "dilnoza"
+      }
+    },
+    {
+      "beat": {
+        "emo": "nervous",
+        "wait": 900,
+        "who": "kerim"
+      }
+    },
+    {
+      "choice": {
+        "id": "tank",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "That's a secret!",
+            "fa": "این یه رازه!",
+            "ok": true,
+            "react": {
+              "berfin": "laugh",
+              "kerim": "moved"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "A secret? All right, all right…",
+                "fa": "راز؟ باشه، باشه…",
+                "to": "nima",
+                "tr": "Sır mı? Peki, peki…",
+                "who": "berfin"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Bu bir sır!"
+          },
+          {
+            "emo": "proud",
+            "en": "On our roof… on top of the tank!",
+            "fa": "روی پشت‌بومِ ما… بالای منبعِ آب!",
+            "react": {
+              "kerim": "nervous",
+              "parvaneh": "happy"
+            },
+            "reply": [
+              {
+                "emo": "curious",
+                "en": "On top of the tank? But that's not in the guide!",
+                "fa": "بالای منبعِ آب؟ ولی این توی راهنما نیست!",
+                "to": "nima",
+                "tr": "Tankın üstünde mi? Ama rehberde yok!",
+                "who": "berfin"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Bizim çatıda… tankın üstünde!",
+            "warm": {
+              "kerim": -1
+            }
+          },
+          {
+            "do": "shrug",
+            "emo": "shy",
+            "en": "I don't know.",
+            "fa": "نمی‌دونم.",
+            "react": {
+              "dilnoza": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "You don't know… All right!",
+                "fa": "نمی‌دونی… باشه!",
+                "to": "nima",
+                "tr": "Bilmiyorsun… Peki!",
+                "who": "berfin"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Bilmiyorum."
+          }
+        ],
+        "to": "kerim"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "So… it's a draw!",
+      "fa": "پس… مساوی!",
+      "sfx": {
+        "at": "obj:zil",
+        "id": "quiz_bell",
+        "word": "dıng"
+      },
+      "to": "all",
+      "tr": "O zaman… berabere!",
+      "who": "berfin"
+    },
+    {
+      "do": "clap",
+      "emo": "happy",
+      "en": "Congratulations, everyone!",
+      "fa": "به همه تبریک می‌گم!",
+      "to": "all",
+      "tr": "Herkese tebrikler!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Well done! One more tea?",
+      "fa": "آفرین! یه چای دیگه؟",
+      "link": {
+        "çay": "obj:tea_glass"
+      },
+      "to": "all",
+      "tr": "Aferin! Bir çay daha?",
+      "who": "berfin"
+    },
+    {
+      "spot": {
+        "en": "The last round is all Ünite 6. Where: “eczanenin yanında” (next to the pharmacy): the noun takes -(n)In, then yan + -ı + -nda. Which one: “köşedeki fırın” (the bakery on the corner), with -ki. Comparing two: “Boğaz daha büyük.” The top of all: “Feriköy'ün en eski komşusu”, “en güzel manzarası”.",
+        "ex": "eczanenin yanında",
+        "fa": "دورِ آخر همه‌اش درسِ ۶ است. کجا: «eczanenin yanında» (کنارِ داروخانه): اسم ‎-(n)In‎ می‌گیرد، بعد yan + ‎-ı‎ + ‎-nda‎. کدام: «köşedeki fırın» (نانواییِ سرِ نبش)، با ‎-ki‎. مقایسهٔ دو چیز: «Boğaz daha büyük.» (بسفر بزرگ‌تر است). بالاتر از همه: «Feriköy'ün en eski komşusu» (قدیمی‌ترین همسایهٔ فری‌کؤی)، «en güzel manzarası» (قشنگ‌ترین منظره‌اش).",
+        "lesson": "g_a1_6_yer_yon",
+        "show": "case_path"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "In a week… the real exam. But tonight… everyone comes first.",
+      "fa": "یه هفتهٔ دیگه… امتحانِ واقعی. ولی امشب… همه نفرِ اولن.",
+      "narr": true,
+      "tr": "Bir hafta sonra… gerçek sınav. Ama bu akşam… herkes birinci.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "A week before the exam, Berfin runs a quiz night at her café: the class against the building, one round per unit. Ömer whispers an answer across the tables, and the tie-break question is about a friend's secret.",
+  "summaryFa": "یک هفته مانده به امتحان، برفین در کافه‌اش شبِ مسابقه راه می‌اندازد: کلاس در برابرِ ساختمان، برای هر درس یک دور. عمر از میزِ تیمِ مقابل جواب را یواشکی به نیما می‌گوید، و سؤالِ تعیین‌کننده دربارهٔ رازِ یک دوست است.",
+  "title": "Bilgi yarışması",
+  "titleEn": "Quiz night",
+  "titleFa": "مسابقهٔ اطلاعات عمومی",
+  "words": [
+    "a1-w-kalem",
+    "a1-w-kacinci",
+    "a1-w-uyumak",
+    "a1-w-teyze",
+    "a1-w-ceyrek",
+    "a1-w-kose",
+    "a1-w-firin",
+    "a1-w-eczane",
+    "a1-w-buyuk",
+    "a1-w-eski",
+    "a1-w-manzara",
+    "a1-w-soru"
+  ]
+}

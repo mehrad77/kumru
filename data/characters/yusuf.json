@@ -1,0 +1,148 @@
+{
+  "address": {
+    "alex": "sen",
+    "dilnoza": "sen",
+    "nima": "sen",
+    "parvaneh": "sen",
+    "zafer": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima and me: we study together.",
+        "fa": "من و نیما: با هم درس می‌خونیم.",
+        "photo": {
+          "step": 9,
+          "story": "s1e08"
+        },
+        "tr": "Nima ve ben: beraber çalışıyoruz."
+      },
+      "family": {
+        "en": "Nima… is like a sibling to me.",
+        "fa": "نیما… مثلِ خواهر/برادرمه.",
+        "photo": {
+          "step": 11,
+          "story": "s1e45"
+        },
+        "tr": "Nima… benim kardeşim."
+      },
+      "met": {
+        "en": "Nima, my classmate.",
+        "fa": "نیما، هم‌کلاسیِ من.",
+        "photo": {
+          "step": 14,
+          "story": "s1e07"
+        },
+        "tr": "Nima, sınıf arkadaşım."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.5,
+      "shape": "average"
+    },
+    "face": {
+      "brows": "thick",
+      "eyeColor": "eye_brown",
+      "eyes": "round",
+      "mouth": "wide",
+      "nose": "round",
+      "shape": "oval"
+    },
+    "facialHair": {
+      "color": "hair_01",
+      "style": "beard_trimmed"
+    },
+    "hair": {
+      "color": "hair_01",
+      "style": "hair_curly_taper"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_24",
+          "fab_21"
+        ],
+        "id": "bottom_joggers"
+      },
+      "shoes": {
+        "colors": [
+          "fab_01",
+          "fab_24"
+        ],
+        "id": "shoes_sneakers"
+      },
+      "top": {
+        "colors": [
+          "fab_08"
+        ],
+        "id": "top_hoodie"
+      }
+    },
+    "skin": "skin_21",
+    "v": 1
+  },
+  "bio": "In his 20s, from Aleppo, Syria; his family is in Aleppo and Gaziantep. Wants to study medicine, which needs B2. Kind and organised, the class's helper, but takes the wrong train.",
+  "bioFa": "بیست‌وچند ساله، اهل حلبِ سوریه؛ خانواده‌اش در حلب و غازی‌عینتاب است. می‌خواهد پزشکی بخواند و برای آن B2 لازم است. مهربان و منظم، یاورِ کلاس، ولی سوارِ قطارِ اشتباهی می‌شود.",
+  "catch": {
+    "en": "This word exists in Arabic too!",
+    "fa": "این کلمه در عربی هم هست!",
+    "tr": "Bu kelime Arapçada da var!"
+  },
+  "circle": "tomer",
+  "color": "#6F7A45",
+  "id": "yusuf",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "mid",
+    "signature": [
+      "me",
+      "think",
+      "nod"
+    ],
+    "tempo": 1.0
+  },
+  "name": "Yusuf",
+  "nameFa": "یوسف",
+  "order": 15,
+  "outfits": {
+    "cold": {
+      "outfit": {
+        "outer": {
+          "colors": [
+            "fab_08",
+            "fab_24"
+          ],
+          "id": "outer_hoodie_zip"
+        },
+        "shoes": {
+          "colors": [
+            "fab_22",
+            "fab_01",
+            "fab_01"
+          ],
+          "id": "shoes_hightops"
+        },
+        "top": {
+          "colors": [
+            "fab_21"
+          ],
+          "id": "top_tee"
+        }
+      }
+    }
+  },
+  "places": [
+    "class504"
+  ],
+  "role": "A classmate from Aleppo",
+  "roleFa": "هم‌کلاسی‌ای از حلب",
+  "voice": {
+    "pitch": 0.95,
+    "rate": 1.0
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kumru path document (SPECS_SCHEMA.md 4.1)",
+  "type": "object",
+  "properties": {
+    "order": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "level": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "en": {
+      "type": "string"
+    },
+    "fa": {
+      "type": "string"
+    },
+    "draft": {
+      "type": "boolean"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^sk_[a-z0-9_]+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "en": {
+            "type": "string"
+          },
+          "fa": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "words",
+              "grammar",
+              "mixed"
+            ]
+          },
+          "lessons": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^g_(a1|a2|b1)_[1-6]_[a-z0-9_]+$"
+            }
+          },
+          "words": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sentences": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^yk-s-"
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "en",
+          "fa",
+          "icon",
+          "kind",
+          "lessons",
+          "words"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "order",
+    "level",
+    "title",
+    "en",
+    "fa",
+    "skills"
+  ],
+  "additionalProperties": false
+}

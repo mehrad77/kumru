@@ -1,0 +1,242 @@
+{
+  "s1e01": {
+    "date": "2026-09-07",
+    "kind": "episode",
+    "week": 1
+  },
+  "s1e02": {
+    "date": "2026-09-08",
+    "kind": "episode",
+    "week": 1
+  },
+  "s1e03": {
+    "date": "2026-09-09",
+    "kind": "episode",
+    "week": 1
+  },
+  "s1e04": {
+    "date": "2026-09-10",
+    "kind": "episode",
+    "week": 1
+  },
+  "s1e05": {
+    "date": "2026-09-11",
+    "kind": "episode",
+    "week": 1
+  },
+  "s1e06": {
+    "date": "2026-09-12",
+    "kind": "special",
+    "week": 1
+  },
+  "s1e07": {
+    "date": "2026-09-14",
+    "kind": "episode",
+    "week": 2
+  },
+  "s1e08": {
+    "date": "2026-09-15",
+    "kind": "episode",
+    "week": 2
+  },
+  "s1e09": {
+    "date": "2026-09-16",
+    "kind": "episode",
+    "week": 2
+  },
+  "s1e10": {
+    "date": "2026-09-17",
+    "kind": "episode",
+    "week": 2
+  },
+  "s1e11": {
+    "date": "2026-09-18",
+    "kind": "episode",
+    "week": 2
+  },
+  "s1e12": {
+    "date": "2026-09-19",
+    "kind": "special",
+    "week": 2
+  },
+  "s1e13": {
+    "date": "2026-09-21",
+    "kind": "episode",
+    "week": 3
+  },
+  "s1e14": {
+    "date": "2026-09-22",
+    "kind": "episode",
+    "week": 3
+  },
+  "s1e15": {
+    "date": "2026-09-23",
+    "kind": "episode",
+    "week": 3
+  },
+  "s1e16": {
+    "date": "2026-09-24",
+    "kind": "episode",
+    "week": 3
+  },
+  "s1e17": {
+    "date": "2026-09-25",
+    "kind": "episode",
+    "week": 3
+  },
+  "s1e18": {
+    "date": "2026-09-26",
+    "kind": "special",
+    "week": 3
+  },
+  "s1e19": {
+    "date": "2026-09-28",
+    "kind": "episode",
+    "week": 4
+  },
+  "s1e20": {
+    "date": "2026-09-29",
+    "kind": "episode",
+    "week": 4
+  },
+  "s1e21": {
+    "date": "2026-09-30",
+    "kind": "episode",
+    "week": 4
+  },
+  "s1e22": {
+    "date": "2026-10-01",
+    "kind": "episode",
+    "week": 4
+  },
+  "s1e23": {
+    "date": "2026-10-02",
+    "kind": "episode",
+    "week": 4
+  },
+  "s1e24": {
+    "date": "2026-10-03",
+    "kind": "special",
+    "week": 4
+  },
+  "s1e25": {
+    "date": "2026-10-05",
+    "kind": "episode",
+    "week": 5
+  },
+  "s1e26": {
+    "date": "2026-10-06",
+    "kind": "episode",
+    "week": 5
+  },
+  "s1e27": {
+    "date": "2026-10-07",
+    "kind": "episode",
+    "week": 5
+  },
+  "s1e28": {
+    "date": "2026-10-08",
+    "kind": "episode",
+    "week": 5
+  },
+  "s1e29": {
+    "date": "2026-10-09",
+    "kind": "episode",
+    "week": 5
+  },
+  "s1e30": {
+    "date": "2026-10-10",
+    "kind": "special",
+    "week": 5
+  },
+  "s1e31": {
+    "date": "2026-10-12",
+    "kind": "episode",
+    "week": 6
+  },
+  "s1e32": {
+    "date": "2026-10-13",
+    "kind": "episode",
+    "week": 6
+  },
+  "s1e33": {
+    "date": "2026-10-14",
+    "kind": "episode",
+    "week": 6
+  },
+  "s1e34": {
+    "date": "2026-10-15",
+    "kind": "episode",
+    "week": 6
+  },
+  "s1e35": {
+    "date": "2026-10-16",
+    "kind": "episode",
+    "week": 6
+  },
+  "s1e36": {
+    "date": "2026-10-17",
+    "kind": "special",
+    "week": 6
+  },
+  "s1e37": {
+    "date": "2026-10-19",
+    "kind": "episode",
+    "week": 7
+  },
+  "s1e38": {
+    "date": "2026-10-20",
+    "kind": "episode",
+    "week": 7
+  },
+  "s1e39": {
+    "date": "2026-10-21",
+    "kind": "episode",
+    "week": 7
+  },
+  "s1e40": {
+    "date": "2026-10-22",
+    "kind": "episode",
+    "week": 7
+  },
+  "s1e41": {
+    "date": "2026-10-23",
+    "kind": "episode",
+    "week": 7
+  },
+  "s1e42": {
+    "date": "2026-10-24",
+    "kind": "special",
+    "week": 7
+  },
+  "s1e43": {
+    "date": "2026-10-26",
+    "kind": "episode",
+    "week": 8
+  },
+  "s1e44": {
+    "date": "2026-10-27",
+    "kind": "episode",
+    "week": 8
+  },
+  "s1e45": {
+    "date": "2026-10-28",
+    "kind": "episode",
+    "week": 8
+  },
+  "s1e46": {
+    "date": "2026-10-29",
+    "kind": "episode",
+    "week": 8
+  },
+  "s1e47": {
+    "date": "2026-10-30",
+    "kind": "episode",
+    "week": 8
+  },
+  "s1e48": {
+    "date": "2026-10-31",
+    "kind": "special",
+    "week": 8
+  }
+}

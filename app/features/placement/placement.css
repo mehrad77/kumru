@@ -1,0 +1,4 @@
+/* The placement quiz (Climb.tsx): its heading line, and the box it draws into (onboarding's quiz step, the Path's Jump here and Test out sheets). */
+@layer features {
+.pl-head{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-bottom:6px}.pl-body{display:grid;gap:14px}
+}

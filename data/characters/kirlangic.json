@@ -1,0 +1,163 @@
+{
+  "address": {
+    "farzad": "sen",
+    "nima": "sen",
+    "parvaneh": "sen",
+    "rayan": "sen"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima is a good student… and a good friend.",
+        "fa": "نیما دانشجوی خوبیه… و دوستِ خوبی.",
+        "photo": {
+          "step": 7,
+          "story": "s1e29"
+        },
+        "tr": "Nima iyi bir öğrenci… ve iyi bir arkadaş."
+      },
+      "family": {
+        "en": "Nima is our family.",
+        "fa": "نیما خانواده‌ی ماست.",
+        "photo": {
+          "step": 12,
+          "story": "s1e48"
+        },
+        "tr": "Nima bizim ailemiz."
+      },
+      "met": {
+        "en": "Nima: the new student at the door.",
+        "fa": "نیما: دانشجوی تازه‌ی دمِ در.",
+        "photo": {
+          "step": 4,
+          "story": "s1e02"
+        },
+        "tr": "Nima: kapıdaki yeni öğrenci."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.45,
+      "shape": "average"
+    },
+    "carry": {
+      "colors": [
+        "fab_18",
+        "fab_20"
+      ],
+      "id": "bag_tote"
+    },
+    "face": {
+      "brows": "arched",
+      "eyeColor": "eye_brown",
+      "eyes": "almond",
+      "mouth": "full",
+      "nose": "small",
+      "shape": "diamond"
+    },
+    "hair": {
+      "color": "hair_02",
+      "style": "hair_shoulder"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_20"
+        ],
+        "id": "bottom_trousers"
+      },
+      "outer": {
+        "colors": [
+          "fab_10",
+          "fab_20"
+        ],
+        "id": "outer_cardigan_short"
+      },
+      "shoes": {
+        "colors": [
+          "fab_22",
+          "fab_22"
+        ],
+        "id": "shoes_flats"
+      },
+      "top": {
+        "colors": [
+          "fab_02"
+        ],
+        "id": "top_tee_long"
+      }
+    },
+    "skin": "skin_03",
+    "v": 1,
+    "wear": {
+      "neck": {
+        "colors": [
+          "fab_35"
+        ],
+        "id": "scarf_wool"
+      }
+    }
+  },
+  "bio": "Iranian, a TÖMER student a few levels above Nima, and Rayan's mother. The experienced learner: she explains, translates and shows where Nima is heading. She knits.",
+  "bioFa": "ایرانی، دانشجوی تومر چند سطح بالاتر از نیما، و مادرِ رایان. زبان‌آموزِ باتجربه: توضیح می‌دهد، ترجمه می‌کند و نشان می‌دهد نیما به کجا می‌رود. بافتنی می‌بافد.",
+  "circle": "old_friends",
+  "color": "#2F5D8A",
+  "id": "kirlangic",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "mid",
+    "signature": [
+      "knit",
+      "explain"
+    ],
+    "tempo": 1
+  },
+  "name": "Kırlangıç",
+  "nameFa": "پرستو",
+  "order": 4,
+  "outfits": {
+    "indoor": {
+      "carry": null
+    },
+    "winter": {
+      "outfit": {
+        "outer": {
+          "colors": [
+            "fab_04"
+          ],
+          "id": "outer_coat_long"
+        }
+      },
+      "wear": {
+        "hat": {
+          "colors": [
+            "fab_35",
+            "fab_35"
+          ],
+          "id": "hat_beanie"
+        }
+      }
+    }
+  },
+  "places": [
+    "tomer",
+    "flat_farzad",
+    "pazar_ferikoy",
+    "rooftop",
+    "bus",
+    "flat_kirlangic",
+    "library_ibb",
+    "park_ferikoy",
+    "vapur"
+  ],
+  "role": "The experienced learner; Rayan's mother",
+  "roleFa": "زبان‌آموزِ باتجربه؛ مادرِ رایان",
+  "voice": {
+    "pitch": 1.1,
+    "rate": 0.95
+  }
+}

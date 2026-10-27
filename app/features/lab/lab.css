@@ -1,0 +1,57 @@
+/* Kerim's Lab (LabTab.tsx, SheetBodies.tsx) */
+@layer features {
+.lab-page{display:grid;gap:14px;padding-bottom:96px}
+.lab-top{display:grid;gap:8px}
+/* the scene is 400×220; Kerim stands on the bench (y 150 of 220), sized and placed in container units so it scales with the card */
+.lab-hero{position:relative;container-type:inline-size;aspect-ratio:400/220;border-radius:var(--radius-xl,24px);overflow:hidden;box-shadow:var(--shadow-card);background:#F4ECDD}
+.lab-scene{position:absolute;inset:0;width:100%;height:100%;display:block}
+.lab-hero .lab-kerim{position:absolute;width:40cqw;height:40cqw;left:3cqw;top:2.9cqw}
+.lab-hero .lab-kerim .k-ledge{display:none}
+.lab-pot-hit{position:absolute;left:58.5%;top:42%;width:26%;height:30%;border:0;background:none;padding:0;border-radius:18px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.lab-pot-hit:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.lab-say{display:flex;justify-content:flex-start}
+.lab-say .bubble{margin:0}
+.lab-head{display:grid;gap:4px;padding:2px 2px 0}
+.lab-head h2{margin:0;font:500 26px/1.15 var(--sans);letter-spacing:-.01em}
+.lab-head .hint{margin:0;font-size:14px;line-height:1.45}
+.lab-badge{justify-self:start;font:600 10px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--on-accent);background:var(--accent);border-radius:999px;padding:5px 9px}
+.lab-list{display:grid;gap:10px}
+/* recipe cards: a perforated "tarif" strip along the top edge */
+.lab-recipe{position:relative;display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:14px;align-items:center;border:0;background:var(--surface);box-shadow:var(--shadow-float);border-radius:var(--radius-lg);padding:16px 14px 14px;text-align:start;color:var(--ink);min-height:84px;overflow:hidden;transition:transform var(--dur-base) var(--ease-soft),box-shadow var(--dur-base)}
+.lab-recipe::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:repeating-linear-gradient(90deg,color-mix(in srgb,var(--c,var(--accent)) 55%,var(--surface)) 0 8px,transparent 8px 14px)}
+.lab-recipe:disabled{opacity:.55}.lab-recipe:hover:not(:disabled){transform:translateY(-1px);box-shadow:var(--shadow-card)}.lab-recipe:active{transform:scale(.99)}
+.lab-recipe .ico,.lab-soon .ico{width:48px;height:48px;border-radius:50% 50% 14px 14px;display:grid;place-items:center;color:var(--c,var(--accent));background:color-mix(in srgb,var(--c,var(--accent)) 16%,var(--surface))}
+.lab-recipe .ico svg,.lab-soon .ico svg{width:24px;height:24px}
+.lab-tr{font:600 10.5px/1.2 var(--sans);letter-spacing:.09em;text-transform:uppercase;color:var(--c,var(--accent))}
+.lab-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:5px}
+.lab-tags i{font:500 11px/1 var(--sans);font-style:normal;color:var(--muted);background:var(--sunken);border-radius:999px;padding:4px 8px}
+.lab-recipe .go{color:var(--faint)}.lab-recipe .go svg{width:18px;height:18px}
+/* coming soon: the card is blurred and a chip sits over it */
+.lab-soons{grid-template-columns:1fr 1fr}
+.lab-soon{position:relative;border-radius:var(--radius-lg);background:var(--surface);box-shadow:var(--shadow-float);min-height:104px;overflow:hidden;user-select:none;pointer-events:none}
+.lab-soon-in{display:grid;gap:10px;padding:14px;filter:blur(3.5px) saturate(.9);opacity:.7}
+.lab-soon .rv-t b{font-size:15px}
+.lab-chip{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;gap:1px;justify-items:center;text-align:center;background:var(--act);color:var(--act-text);border-radius:14px;padding:8px 12px;box-shadow:var(--shadow-ink);white-space:nowrap}
+.lab-chip b{font:600 13px/1.2 var(--sans)}.lab-chip span{font:500 10.5px/1.2 var(--sans);opacity:.75;letter-spacing:.04em;text-transform:uppercase}
+@media (max-width:339px){.lab-soons{grid-template-columns:1fr}}
+@media (min-width:761px){.lab-page{max-width:620px;margin:0 auto;padding-bottom:40px}}
+/* bubbles rise with their letters, the flame flickers, the spoon stirs, steam drifts; a tap bursts the bubbles */
+@media (prefers-reduced-motion:no-preference){
+  .lab-hero .lb{transform-box:fill-box;transform-origin:center;animation:lab-rise 4.2s ease-in infinite;opacity:0}
+  .lab-hero .lab-steam path{animation:lab-steam 2.6s ease-in-out infinite}.lab-hero .lab-steam path:nth-child(2){animation-delay:-.9s}.lab-hero .lab-steam path:nth-child(3){animation-delay:-1.7s}
+  .lab-hero .lab-flame{transform-box:fill-box;transform-origin:50% 100%;animation:lab-flick .45s ease-in-out infinite alternate}
+  .lab-hero .lab-spoon{transform-box:view-box;transform-origin:286px 108px;animation:lab-stir 3.2s ease-in-out infinite}
+  .lab-hero .lab-glow{animation:lab-pulse 3.4s ease-in-out infinite}
+  .lab-hero .lab-fb{animation:lab-fizz 2.4s ease-in infinite}.lab-hero .lab-fb.b2{animation-delay:-1.1s}
+  .lab-hero.burst .lb{animation:lab-pop .8s ease-out 1}
+  .lab-hero.burst .lab-glow{animation:lab-pulse .4s ease-in-out 2}
+}
+@media (prefers-reduced-motion:reduce){.lab-hero .lb{opacity:.9}}
+@keyframes lab-rise{0%{opacity:0;transform:translateY(0) scale(.5)}12%{opacity:1}80%{opacity:.95;transform:translateY(-28px) scale(1)}100%{opacity:0;transform:translateY(-35px) scale(1.25)}}
+@keyframes lab-pop{0%{opacity:1;transform:translateY(-20px) scale(1)}60%{opacity:1;transform:translateY(-42px) scale(1.6)}100%{opacity:0;transform:translateY(-52px) scale(2)}}
+@keyframes lab-steam{0%{opacity:0;transform:translateY(6px)}40%{opacity:.8}100%{opacity:0;transform:translateY(-8px)}}
+@keyframes lab-flick{from{transform:scale(.9,.85)}to{transform:scale(1.05,1.12)}}
+@keyframes lab-stir{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(12deg)}}
+@keyframes lab-pulse{0%,100%{opacity:.22}50%{opacity:.4}}
+@keyframes lab-fizz{0%{transform:translateY(8px);opacity:0}30%{opacity:.9}100%{transform:translateY(-14px);opacity:0}}
+}

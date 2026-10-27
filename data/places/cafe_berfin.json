@@ -1,0 +1,615 @@
+{
+  "v": 1,
+  "id": "cafe_berfin",
+  "name": {
+    "tr": "Berfin'in Kafesi",
+    "en": "Berfin's café",
+    "fa": "کافهٔ برفین"
+  },
+  "district": "Feriköy, Şişli",
+  "size": {
+    "w": 8,
+    "d": 4
+  },
+  "camera": {
+    "wide": {
+      "w": 7.8,
+      "x": 0,
+      "z": -1.0,
+      "y0": 0.1,
+      "y1": 2.6
+    }
+  },
+  "times": [
+    "day",
+    "dusk",
+    "night"
+  ],
+  "perch": "wall",
+  "ambience": [
+    "street_far",
+    "crowd"
+  ],
+  "motif": "home",
+  "surface": "wood",
+  "marks": {
+    "door": {
+      "door": "door",
+      "out": {
+        "x": -3.1,
+        "z": -3.0
+      },
+      "x": -3.1,
+      "z": -1.3
+    },
+    "outside": {
+      "facing": "r",
+      "x": -0.3,
+      "z": -3.0
+    },
+    "counter": {
+      "facing": "l",
+      "x": 2.75,
+      "z": -1.15
+    },
+    "table": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -2.3,
+      "z": -0.85
+    },
+    "team_class": {
+      "facing": "r",
+      "x": -1.9,
+      "z": -0.1
+    },
+    "team_building": {
+      "facing": "l",
+      "x": 0.9,
+      "z": -0.1
+    },
+    "seat_1": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -2.45,
+      "z": -0.85
+    },
+    "seat_2": {
+      "seat": 0.45,
+      "x": -1.75,
+      "z": -1.4
+    },
+    "seat_3": {
+      "seat": 0.45,
+      "x": -1.05,
+      "z": -1.4
+    },
+    "seat_4": {
+      "seat": 0.45,
+      "x": -0.35,
+      "z": -1.4
+    },
+    "seat_5": {
+      "seat": 0.45,
+      "x": 0.35,
+      "z": -1.4
+    },
+    "seat_6": {
+      "facing": "l",
+      "seat": 0.45,
+      "x": 1.05,
+      "z": -0.85
+    },
+    "wall": {
+      "x": -1.75,
+      "y": 2.4,
+      "z": -2.12
+    },
+    "frame": {
+      "x": -1.75,
+      "y": 2.0,
+      "z": -2.12
+    },
+    "awning": {
+      "x": 0.6,
+      "y": 2.12,
+      "z": -2.5
+    }
+  },
+  "pieces": [
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 2400,
+      "x": 0,
+      "z": -12
+    },
+    {
+      "kit": "street",
+      "w": 1500,
+      "x": 0,
+      "z": -4.6
+    },
+    {
+      "kit": "floor",
+      "a": "#BDB5A8",
+      "b": "#B1A99B",
+      "tile": 55,
+      "w": 1500,
+      "d": 235,
+      "x": 0,
+      "z": -4.55
+    },
+    {
+      "kit": "floor",
+      "a": "#B98A5E",
+      "b": "#A97C52",
+      "tile": 30,
+      "w": 1200,
+      "d": 1000,
+      "x": 0,
+      "z": -2.25
+    },
+    {
+      "kit": "wall",
+      "color": "#F1E3C8",
+      "h": 400,
+      "w": 1100,
+      "tiles": 95,
+      "x": 0,
+      "z": -2.2,
+      "openings": [
+        {
+          "x": -310,
+          "y": 0,
+          "w": 105,
+          "h": 220
+        },
+        {
+          "x": 60,
+          "y": 10,
+          "w": 260,
+          "h": 215
+        }
+      ]
+    },
+    {
+      "kit": "door_shop",
+      "id": "door",
+      "color": "#2F8C88",
+      "x": -3.1,
+      "z": -2.19
+    },
+    {
+      "kit": "window",
+      "id": "window",
+      "variant": "shop",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 260,
+      "h": 215,
+      "x": 0.6,
+      "y": 0.1,
+      "z": -2.19
+    },
+    {
+      "kit": "awning",
+      "id": "awning",
+      "color": "#2F8C88",
+      "striped": false,
+      "drop": 30,
+      "w": 300,
+      "x": 0.6,
+      "y": 2.05,
+      "z": -2.45
+    },
+    {
+      "kit": "counter",
+      "id": "counter",
+      "variant": "cafe",
+      "w": 190,
+      "h": 86,
+      "x": 2.75,
+      "z": -0.6
+    },
+    {
+      "kit": "coffee_machine",
+      "id": "coffee_machine",
+      "terms": [
+        "a1-w-kahve"
+      ],
+      "x": 3.1,
+      "y": 0.86,
+      "z": -0.75
+    },
+    {
+      "kit": "shelf",
+      "w": 110,
+      "h": 190,
+      "rows": 4,
+      "x": 3.35,
+      "z": -2.06
+    },
+    {
+      "kit": "board",
+      "variant": "white",
+      "title": "MENÜ",
+      "lines": [
+        "Çay 15",
+        "Kahve 40",
+        "Tost 60"
+      ],
+      "w": 70,
+      "h": 55,
+      "x": 2.3,
+      "y": 1.45,
+      "z": -2.17
+    },
+    {
+      "kit": "picture",
+      "variant": "sepia",
+      "n": 1,
+      "w": 46,
+      "h": 34,
+      "x": -1.75,
+      "y": 2.06,
+      "z": -2.18
+    },
+    {
+      "kit": "clock",
+      "x": -3.1,
+      "y": 2.55,
+      "z": -2.18
+    },
+    {
+      "kit": "lamp",
+      "id": "lamba",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": -1.1,
+      "y": 2.3,
+      "z": -0.9
+    },
+    {
+      "kit": "lamp",
+      "x": 1.9,
+      "y": 2.3,
+      "z": -0.9
+    },
+    {
+      "kit": "table",
+      "variant": "cafe",
+      "n": 2,
+      "gap": 180,
+      "in": [
+        "quiz"
+      ],
+      "x": -0.5,
+      "z": -0.85
+    },
+    {
+      "kit": "chair",
+      "variant": "cafe",
+      "facing": "r",
+      "n": 2,
+      "gap": 180,
+      "in": [
+        "quiz"
+      ],
+      "x": -1.1,
+      "z": -0.95
+    },
+    {
+      "kit": "chair",
+      "variant": "cafe",
+      "facing": "l",
+      "n": 2,
+      "gap": 180,
+      "in": [
+        "quiz"
+      ],
+      "x": 0.1,
+      "z": -0.95
+    },
+    {
+      "kit": "board",
+      "id": "scoreboard",
+      "variant": "score",
+      "teams": [
+        "Sınıf",
+        "Bina"
+      ],
+      "scores": [
+        "0",
+        "0"
+      ],
+      "in": [
+        "quiz"
+      ],
+      "w": 90,
+      "h": 60,
+      "x": -0.35,
+      "y": 1.55,
+      "z": -2.17
+    },
+    {
+      "kit": "table",
+      "variant": "dining",
+      "w": 290,
+      "in": [
+        "big_table"
+      ],
+      "x": -0.7,
+      "z": -0.85
+    },
+    {
+      "kit": "chair",
+      "variant": "cafe",
+      "n": 4,
+      "gap": 70,
+      "in": [
+        "big_table"
+      ],
+      "x": -0.7,
+      "z": -1.45
+    },
+    {
+      "kit": "chair",
+      "variant": "cafe",
+      "facing": "r",
+      "in": [
+        "big_table"
+      ],
+      "x": -2.45,
+      "z": -0.95
+    },
+    {
+      "kit": "chair",
+      "variant": "cafe",
+      "facing": "l",
+      "in": [
+        "big_table"
+      ],
+      "x": 1.05,
+      "z": -0.95
+    },
+    {
+      "kit": "chair",
+      "variant": "cafe",
+      "facing": "r",
+      "n": 2,
+      "gap": 190,
+      "in": [
+        "small"
+      ],
+      "x": -1.5,
+      "z": -0.95
+    },
+    {
+      "kit": "chair",
+      "variant": "cafe",
+      "facing": "l",
+      "n": 2,
+      "gap": 190,
+      "in": [
+        "small"
+      ],
+      "x": -0.3,
+      "z": -0.95
+    },
+    {
+      "kit": "flag",
+      "variant": "bunting",
+      "n": 7,
+      "w": 300,
+      "in": [
+        "flags"
+      ],
+      "x": 0.6,
+      "z": -2.12,
+      "h": 215
+    },
+    {
+      "kit": "flag",
+      "variant": "hand",
+      "n": 2,
+      "in": [
+        "flags"
+      ],
+      "x": 1.7,
+      "y": 0.86,
+      "z": -0.4
+    },
+    {
+      "kit": "flowers",
+      "variant": "pot",
+      "flower": "geranium",
+      "n": 2,
+      "x": -3.3,
+      "z": 0.7
+    }
+  ],
+  "props": {
+    "tables": {
+      "kit": "table",
+      "variant": "cafe",
+      "n": 2,
+      "gap": 190,
+      "in": [
+        "small"
+      ],
+      "terms": [
+        "a1-w-masa",
+        "a1-w-sandalye"
+      ],
+      "at": {
+        "x": -0.9,
+        "y": 0,
+        "z": -0.85
+      }
+    },
+    "chairs": {
+      "kit": "chair",
+      "variant": "cafe",
+      "facing": "l",
+      "n": 2,
+      "in": [
+        "quiz"
+      ],
+      "terms": [
+        "a1-w-sandalye"
+      ],
+      "at": {
+        "x": 1.4,
+        "y": 0,
+        "z": -1.6
+      }
+    },
+    "sign": {
+      "kit": "sign_board",
+      "variant": "plate",
+      "label": "Berfin'in Kafesi",
+      "w": 150,
+      "h": 34,
+      "terms": [
+        "a1-w-kafe"
+      ],
+      "at": {
+        "x": 0.6,
+        "y": 2.55,
+        "z": -2.15
+      }
+    },
+    "teapot": {
+      "kit": "tea",
+      "variant": "caydanlik",
+      "hot": true,
+      "terms": [
+        "a1-w-caydanlik"
+      ],
+      "at": {
+        "x": 2.45,
+        "y": 0.86,
+        "z": -0.65
+      }
+    },
+    "tea_glass": {
+      "kit": "tea",
+      "variant": "glass",
+      "n": 2,
+      "hot": true,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "at": {
+        "x": 2.0,
+        "y": 0.86,
+        "z": -0.5
+      }
+    },
+    "fincan": {
+      "kit": "cup",
+      "variant": "fincan",
+      "terms": [
+        "a1-w-fincan"
+      ],
+      "at": {
+        "x": 1.75,
+        "y": 0.86,
+        "z": -0.5
+      }
+    },
+    "pinned_guide": {
+      "kit": "board",
+      "variant": "guide",
+      "title": "Yeni öğrenciler için!",
+      "in": [
+        "guide_up"
+      ],
+      "w": 60,
+      "h": 75,
+      "at": {
+        "x": -1.75,
+        "y": 1.25,
+        "z": -2.15
+      },
+      "decor": true
+    },
+    "guide": {
+      "kit": "book",
+      "variant": "notebook",
+      "tabs": true,
+      "in": [
+        "guide_up"
+      ],
+      "terms": [
+        "a1-w-defter"
+      ],
+      "at": {
+        "x": 2.3,
+        "y": 0.86,
+        "z": -0.45
+      }
+    },
+    "kedi": {
+      "kit": "cat",
+      "pose": "loaf",
+      "coat": "ginger",
+      "terms": [
+        "a1-w-kedi"
+      ],
+      "at": {
+        "x": 1.05,
+        "y": 0,
+        "z": -2.75
+      }
+    },
+    "bayraklar": {
+      "kit": "flag",
+      "variant": "hand",
+      "n": 3,
+      "in": [
+        "flags"
+      ],
+      "terms": [
+        "a1-w-bayrak"
+      ],
+      "at": {
+        "x": 0.0,
+        "y": 0.1,
+        "z": -2.12
+      }
+    },
+    "isiklar": {
+      "kit": "party",
+      "variant": "string_lights",
+      "decor": true,
+      "at": {
+        "x": -1.0,
+        "y": 2.75,
+        "z": -2.15
+      }
+    }
+  },
+  "states": {
+    "small": {
+      "group": "layout",
+      "default": true
+    },
+    "quiz": {
+      "group": "layout"
+    },
+    "big_table": {
+      "group": "layout"
+    },
+    "guide_up": {
+      "group": "guide"
+    },
+    "flags": {
+      "group": "festive"
+    }
+  }
+}

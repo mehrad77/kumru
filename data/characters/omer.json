@@ -1,0 +1,151 @@
+{
+  "address": {
+    "elif": "sen",
+    "maria": "sen",
+    "nima": "sen",
+    "serkan": "sen"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima is my friend!",
+        "fa": "نیما دوستِ منه!",
+        "photo": {
+          "step": 10,
+          "story": "s1e19"
+        },
+        "tr": "Nima benim arkadaşım!"
+      },
+      "family": {
+        "en": "Nima's mine! Our Nima!",
+        "fa": "نیما مالِ منه! نیما مالِ ماست!",
+        "photo": {
+          "step": 15,
+          "story": "s1e46"
+        },
+        "tr": "Nima benim! Bizim Nima!"
+      },
+      "met": {
+        "en": "Nima… is a neighbour.",
+        "fa": "نیما… یه همسایه‌ست.",
+        "photo": {
+          "step": 14,
+          "story": "s1e13"
+        },
+        "tr": "Nima… o bir komşu."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "child",
+      "height": 0.5,
+      "shape": "average"
+    },
+    "carry": {
+      "colors": [
+        "fab_06",
+        "fab_11"
+      ],
+      "id": "bag_school"
+    },
+    "face": {
+      "brows": "soft",
+      "ears": "protruding",
+      "eyeColor": "eye_hazel",
+      "eyes": "round",
+      "marks": [
+        "freckles"
+      ],
+      "mouth": "wide",
+      "nose": "button",
+      "shape": "round"
+    },
+    "hair": {
+      "color": "hair_04",
+      "style": "hair_messy_medium"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_04"
+        ],
+        "id": "bottom_joggers"
+      },
+      "shoes": {
+        "colors": [
+          "fab_14",
+          "fab_01",
+          "fab_11"
+        ],
+        "id": "shoes_velcro"
+      },
+      "top": {
+        "colors": [
+          "fab_11"
+        ],
+        "id": "top_tee"
+      }
+    },
+    "skin": "skin_03",
+    "v": 1
+  },
+  "bio": "Five or six years old, in kindergarten. Fearless and curious, with no filter.",
+  "bioFa": "پنج‌شش ساله، کودکستانی. نترس و کنجکاو است و هرچه به ذهنش برسد می‌گوید.",
+  "catch": {
+    "en": "Why?",
+    "fa": "چرا؟",
+    "tr": "Neden?"
+  },
+  "circle": "neighbourhood",
+  "color": "#F2B705",
+  "id": "omer",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "high",
+    "signature": [
+      "point",
+      "hold_up",
+      "beckon"
+    ],
+    "tempo": 1.3
+  },
+  "name": "Ömer",
+  "nameFa": "عمر",
+  "order": 10,
+  "outfits": {
+    "rain": {
+      "outfit": {
+        "outer": {
+          "colors": [
+            "fab_33"
+          ],
+          "id": "outer_coat_kids_rain"
+        },
+        "shoes": {
+          "id": "shoes_boots_rain"
+        }
+      }
+    },
+    "winter": {
+      "outfit": {
+        "shoes": {
+          "id": "shoes_boots_winter"
+        }
+      }
+    }
+  },
+  "places": [
+    "flat_elif",
+    "flat_nima",
+    "park_ferikoy"
+  ],
+  "role": "Elif and Serkan's son",
+  "roleFa": "پسرِ الیف و سرکان",
+  "voice": {
+    "pitch": 1.45,
+    "rate": 1.15
+  }
+}

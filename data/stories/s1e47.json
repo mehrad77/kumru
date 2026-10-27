@@ -1,0 +1,796 @@
+{
+  "arc": {
+    "en": "The exam and the holiday",
+    "fa": "امتحان و جشن",
+    "id": "s1w08",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud",
+      "unlocks"
+    ],
+    "tr": "Sınav ve bayram"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "parvaneh",
+    "dilnoza"
+  ],
+  "extras": [
+    "yusuf",
+    "alex",
+    "ismail"
+  ],
+  "followUp": [
+    {
+      "en": "Now you: introduce yourself, please.",
+      "fa": "حالا شما: لطفاً خودتون رو معرفی کنید.",
+      "to": "nima",
+      "tr": "Şimdi siz: kendinizi tanıtın, lütfen.",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_konusma",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "My name is Nima. I'm a student. What I love most… is the tea!",
+            "fa": "اسمِ من نیماست. دانشجوام. از همه بیشتر… چای رو دوست دارم!",
+            "ok": true,
+            "react": {
+              "zafer": "happy"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Very good. Thank you!",
+                "fa": "خیلی خوب. ممنون!",
+                "tr": "Çok güzel. Teşekkürler!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "formal",
+            "tr": "Benim adım Nima. Öğrenciyim. En çok… çayı seviyorum!"
+          },
+          {
+            "en": "Once more, please. Slowly, please.",
+            "fa": "یه بار دیگه، لطفاً. آروم، لطفاً.",
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Of course. Introduce… yourself.",
+                "fa": "حتماً. خودتون رو… معرفی کنید.",
+                "tempo": 0.7,
+                "tr": "Tabii. Kendinizi… tanıtın.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Bir daha, lütfen. Yavaş, lütfen."
+          }
+        ],
+        "to": "zafer"
+      }
+    }
+  ],
+  "gl": {
+    "a1": [
+      "A1 (سطحِ اول)",
+      "A1 (the first level)"
+    ],
+    "belki": [
+      "شاید",
+      "maybe"
+    ],
+    "duyuyorum": [
+      "حس می‌کنم (gurur duyuyorum: افتخار می‌کنم)",
+      "I feel (gurur duyuyorum: I'm proud)"
+    ],
+    "elinde": [
+      "در دستش",
+      "in his hand"
+    ],
+    "farzad": [
+      "فرزاد (دوستِ قدیمیِ نیما)",
+      "Farzad (Nima's old friend)"
+    ],
+    "fazla": [
+      "زیاد (çok fazla: خیلی زیاد)",
+      "too much (çok fazla)"
+    ],
+    "gurur": [
+      "افتخار (gurur duymak: افتخار کردن)",
+      "pride (gurur duymak: to be proud)"
+    ],
+    "havalimanında": [
+      "در فرودگاه",
+      "at the airport"
+    ],
+    "hikâye": [
+      "قصه",
+      "story"
+    ],
+    "hocam": [
+      "استاد (خطاب به معلم)",
+      "Hocam (how you address a teacher)"
+    ],
+    "ikametim": [
+      "اقامتم (اجازه‌ی اقامت)",
+      "my residence permit"
+    ],
+    "mecidiyeköy": [
+      "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "Mecidiyeköy (a district of Şişli)"
+    ],
+    "metroyla": [
+      "با مترو",
+      "by metro"
+    ],
+    "ortaköy": [
+      "اورتاکوی (ساحلِ بسفر در بشیکتاش)",
+      "Ortaköy (on the Bosphorus, in Beşiktaş)"
+    ],
+    "sonuçlar": [
+      "نتیجه‌ها",
+      "the results"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name; the word means victory)"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ],
+    "önünde": [
+      "جلوی…",
+      "in front of"
+    ],
+    "üçte": [
+      "ساعتِ سه",
+      "at three"
+    ],
+    "şeyi": [
+      "چیز را (her şeyi: همه‌چیز را)",
+      "thing (her şeyi: everything)"
+    ],
+    "şşş": [
+      "هیس!",
+      "shh!"
+    ]
+  },
+  "id": "s1e47",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_gecmis",
+    "g_a1_3_yonelme",
+    "g_a1_4_ulke_milliyet_dil"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "kagit": {
+      "at": {
+        "x": 1.05,
+        "y": 0.72,
+        "z": -0.85
+      },
+      "kit": "paper",
+      "label": "Feriköy'de yeni bir kafe var. Kafe birinci katta. Saat sekizde açılıyor.",
+      "terms": [
+        "a1-w-sinav"
+      ],
+      "title": "A1 SINAVI",
+      "variant": "exam"
+    },
+    "simitler": {
+      "at": {
+        "tomer_gate": {
+          "x": 1.0,
+          "y": 0.16,
+          "z": -3.0
+        }
+      },
+      "kit": "food",
+      "n": 4,
+      "terms": [
+        "a2-w-simit"
+      ],
+      "variant": "simit"
+    },
+    "telefon": {
+      "at": {
+        "tomer_gate": {
+          "x": 0.65,
+          "y": 0,
+          "z": -2.7
+        }
+      },
+      "kit": "phone",
+      "screen": "İkamet başvurunuz onaylandı.",
+      "shown": false,
+      "terms": [
+        "a1-w-telefon"
+      ]
+    },
+    "tepsi": {
+      "at": {
+        "tomer_gate": {
+          "x": 0.1,
+          "y": 0.16,
+          "z": -3.0
+        }
+      },
+      "hot": true,
+      "kit": "tea",
+      "n": 5,
+      "shown": false,
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bardak"
+      ],
+      "variant": "tray"
+    }
+  },
+  "quiz": [
+    {
+      "a": 1,
+      "en": "What did Nima write about?",
+      "fa": "نیما درباره‌ی چه نوشت؟",
+      "kind": "comp",
+      "options": [
+        "Benim ailem",
+        "İlk günüm",
+        "Yeni bir kafe"
+      ],
+      "q": "Nima ne yazdı?",
+      "why": "“Ben ‘İlk günüm’. Sen?”"
+    },
+    {
+      "a": 1,
+      "en": "When do the results come?",
+      "fa": "نتیجه‌ها کِی می‌آیند؟",
+      "kind": "comp",
+      "options": [
+        "Yarın",
+        "Gelecek hafta",
+        "Bugün"
+      ],
+      "q": "Sonuçlar ne zaman?",
+      "why": "“Sonuçlar… gelecek hafta.”"
+    },
+    {
+      "a": 0,
+      "en": "Nima's text: “I had so many …!”",
+      "fa": "متنِ نیما: «کلی … داشتم!»",
+      "kind": "word",
+      "options": [
+        "bavulum",
+        "çayım",
+        "kedim"
+      ],
+      "q": "Nima'nın yazısı: “Çok … vardı!”",
+      "why": "“Çok bavulum vardı!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-30",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "desk_alex",
+        "dilnoza": "desk_dilnoza",
+        "nima": "desk_nima",
+        "parvaneh": "desk_parvaneh",
+        "yusuf": "desk_yusuf",
+        "zafer": "teacher_desk"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "state": "exam",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ],
+        "sfx": {
+          "id": "clock_tick",
+          "word": "tik tak"
+        }
+      }
+    },
+    {
+      "en": "Nine o'clock. The exam is starting. Kerim… is quiet.",
+      "fa": "ساعت نه. امتحان داره شروع می‌شه. کریم… ساکته.",
+      "narr": true,
+      "tr": "Saat dokuz. Sınav başlıyor. Kerim… sessiz.",
+      "voice": "whisper",
+      "who": "kerim"
+    },
+    {
+      "emo": "neutral",
+      "en": "Reading. Which floor is the café on? What time does it open?",
+      "fa": "خواندن. کافه طبقه‌ی چندمه؟ ساعت چند باز می‌شه؟",
+      "to": "all",
+      "tr": "Okuma. Kafe kaçıncı katta? Saat kaçta açılıyor?",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "at": "obj:kagit",
+        "cam": "obj"
+      }
+    },
+    {
+      "at": "obj:kagit",
+      "do": "write",
+      "emo": "curious",
+      "en": "On the first floor. At eight.",
+      "fa": "طبقه‌ی اول. ساعت هشت.",
+      "tr": "Birinci katta. Saat sekizde.",
+      "who": "nima"
+    },
+    {
+      "en": "Writing: ‘My first day.’",
+      "fa": "نوشتن: «روزِ اولم.»",
+      "to": "all",
+      "tr": "Yazma: ‘İlk günüm.’",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kagit",
+      "do": "write",
+      "emo": "happy",
+      "en": "I came to Istanbul on the seventh of September. Farzad waited for me at the airport.",
+      "fa": "هفتِ سپتامبر اومدم استانبول. فرزاد توی فرودگاه منتظرم بود.",
+      "obj": [
+        {
+          "id": "kagit",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Yedi Eylül'de İstanbul'a geldim. Havalimanında Farzad beni bekledi."
+            ]
+          }
+        }
+      ],
+      "tr": "Yedi Eylül'de İstanbul'a geldim. Havalimanında Farzad beni bekledi.",
+      "who": "nima"
+    },
+    {
+      "emo": "nervous",
+      "en": "Nima! Is it ‘gittik’ (we went) or ‘gittim’ (I went)?",
+      "fa": "نیما! «gittik» (رفتیم) یا «gittim» (رفتم)؟",
+      "to": "nima",
+      "tr": "Nima! ‘Gittik’ mi, ‘gittim’ mi?",
+      "voice": "whisper",
+      "who": "parvaneh"
+    },
+    {
+      "choice": {
+        "id": "fisilti",
+        "kind": "action",
+        "options": [
+          {
+            "do": "shush",
+            "emo": "shy",
+            "en": "Shh! Later!",
+            "fa": "هیس! بعداً!",
+            "ok": true,
+            "react": {
+              "parvaneh": {
+                "do": "nod",
+                "emo": "shy"
+              }
+            },
+            "reply": [
+              {
+                "do": "write",
+                "emo": "happy",
+                "en": "I… went. Gittim! OK.",
+                "fa": "من… رفتم. gittim! باشه.",
+                "tr": "Ben… gittim. Gittim! Tamam.",
+                "voice": "whisper",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Şşş! Sonra!",
+            "voice": "whisper"
+          },
+          {
+            "emo": "nervous",
+            "en": "‘Gittim.’ (whispering the answer)",
+            "fa": "«gittim». (جواب را آهسته می‌گوید)",
+            "react": {
+              "zafer": {
+                "at": "ch:nima",
+                "do": "look",
+                "emo": "annoyed"
+              }
+            },
+            "reply": [
+              {
+                "emo": "annoyed",
+                "en": "Parvaneh… Nima…",
+                "fa": "پروانه… نیما…",
+                "react": {
+                  "nima": "shy",
+                  "parvaneh": "shy"
+                },
+                "to": "nima",
+                "tr": "Parvane… Nima…",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "‘Gittim.’",
+            "voice": "whisper"
+          },
+          {
+            "emo": "annoyed",
+            "en": "Teacher! Parvaneh is talking!",
+            "fa": "استاد! پروانه داره حرف می‌زنه!",
+            "react": {
+              "parvaneh": {
+                "emo": "sad"
+              },
+              "zafer": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "do": "shush",
+                "emo": "annoyed",
+                "en": "Quiet… please!",
+                "fa": "لطفاً… ساکت!",
+                "to": "all",
+                "tr": "Lütfen… sessiz!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Hocam! Parvane konuşuyor!"
+          }
+        ],
+        "to": "parvaneh"
+      }
+    },
+    {
+      "at": "obj:kagit",
+      "do": "write",
+      "emo": "happy",
+      "en": "He had a sign in his hand: ‘Welcome, Nima!’ I had so many suitcases! Then we went to Mecidiyeköy by metro.",
+      "fa": "توی دستش یه نوشته بود: «خوش اومدی، نیما!» کلی چمدون داشتم! بعد با مترو رفتیم مجیدیه‌کؤی.",
+      "obj": [
+        {
+          "id": "kagit",
+          "op": "set",
+          "set": {
+            "lines": [
+              "Yedi Eylül'de İstanbul'a geldim. Havalimanında Farzad beni bekledi.",
+              "Elinde bir yazı vardı: ‘Hoş geldin, Nima!’ Çok bavulum vardı! Sonra metroyla Mecidiyeköy'e gittik."
+            ]
+          }
+        }
+      ],
+      "tr": "Elinde bir yazı vardı: ‘Hoş geldin, Nima!’ Çok bavulum vardı! Sonra metroyla Mecidiyeköy'e gittik.",
+      "who": "nima"
+    },
+    {
+      "en": "Listening. ‘What time?’ ‘At three.’ ‘Where?’ ‘In front of the café.’ …Where?",
+      "fa": "شنیدن. «ساعت چند؟» «ساعت سه.» «کجا؟» «جلوی کافه.» …کجا؟",
+      "tempo": 0.9,
+      "to": "all",
+      "tr": "Dinleme. ‘Saat kaçta?’ ‘Üçte.’ ‘Nerede?’ ‘Kafenin önünde.’ …Nerede?",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kagit",
+      "do": "write",
+      "emo": "happy",
+      "en": "In front of the café!",
+      "fa": "جلوی کافه!",
+      "tr": "Kafenin önünde!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "cam": "two",
+        "move": [
+          {
+            "how": "walk",
+            "to": "examiner",
+            "who": "zafer"
+          },
+          {
+            "how": "walk",
+            "to": "examinee",
+            "who": "nima"
+          }
+        ]
+      }
+    },
+    {
+      "emo": "neutral",
+      "en": "Speaking. Number seven: Nima. Introduce yourself, please.",
+      "fa": "صحبت کردن. شماره‌ی هفت: نیما. لطفاً خودتون رو معرفی کنید.",
+      "to": "nima",
+      "tr": "Konuşma. Yedi numara: Nima. Kendinizi tanıtın, lütfen.",
+      "who": "zafer"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "My name is Nima. I'm from Tehran. I'm a student.",
+      "fa": "اسمِ من نیماست. تهرانی‌ام. دانشجوام.",
+      "to": "zafer",
+      "tr": "Benim adım Nima. Tahranlıyım. Öğrenciyim.",
+      "who": "nima"
+    },
+    {
+      "en": "What do you love most in Istanbul?",
+      "fa": "توی استانبول چی رو از همه بیشتر دوست دارید؟",
+      "to": "nima",
+      "tr": "İstanbul'da en çok neyi seviyorsunuz?",
+      "who": "zafer"
+    },
+    {
+      "emo": "shy",
+      "en": "My neighbours… and the bird on the roof!",
+      "fa": "همسایه‌هام رو… و پرنده‌ی روی پشت‌بوم رو!",
+      "react": {
+        "kerim": "happy",
+        "zafer": "laugh"
+      },
+      "to": "zafer",
+      "tr": "Komşularımı… ve çatıdaki kuşu!",
+      "who": "nima"
+    },
+    {
+      "do": "write",
+      "en": "What did you do yesterday, and where did you go?",
+      "fa": "دیروز چی‌کار کردید، کجا رفتید؟",
+      "tempo": 1.4,
+      "to": "nima",
+      "tr": "Dün ne yaptınız, nereye gittiniz?",
+      "who": "zafer"
+    },
+    {
+      "beat": {
+        "cam": "close",
+        "emo": "nervous",
+        "sfx": {
+          "id": "clock_tick",
+          "word": "tik tak"
+        },
+        "wait": 1200,
+        "who": "nima"
+      }
+    },
+    {
+      "do": "hand_heart",
+      "emo": "shy",
+      "en": "Once more, please. Slowly, please.",
+      "fa": "یه بار دیگه، لطفاً. آروم، لطفاً.",
+      "to": "zafer",
+      "tr": "Bir daha, lütfen. Yavaş, lütfen.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Yesterday… what did you do?",
+      "fa": "دیروز… چی‌کار کردید؟",
+      "tempo": 0.7,
+      "to": "nima",
+      "tr": "Dün… ne yaptınız?",
+      "who": "zafer"
+    },
+    {
+      "emo": "proud",
+      "en": "Yesterday we went to Ortaköy. We drank tea on the Bosphorus!",
+      "fa": "دیروز رفتیم اورتاکوی. کنارِ بسفر چای خوردیم!",
+      "to": "zafer",
+      "tr": "Dün Ortaköy'e gittik. Boğaz'da çay içtik!",
+      "who": "nima"
+    },
+    {
+      "emo": "moved",
+      "en": "A1 is over. The results… next week. But I'm very proud of you all.",
+      "fa": "A1 تموم شد. نتیجه‌ها… هفته‌ی بعد. ولی من به همه‌تون خیلی افتخار می‌کنم.",
+      "to": "all",
+      "tr": "A1 bitti. Sonuçlar… gelecek hafta. Ama ben sizinle çok gurur duyuyorum.",
+      "who": "zafer"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "happy",
+      "en": "Thank you, teacher!",
+      "fa": "ممنون، استاد!",
+      "react": {
+        "dilnoza": "happy",
+        "parvaneh": "happy"
+      },
+      "to": "zafer",
+      "tr": "Teşekkürler, hocam!",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "alex": "door",
+        "dilnoza": "steps_r",
+        "nima": "steps_c",
+        "parvaneh": "steps_l",
+        "yusuf": "steps_back"
+      },
+      "kerim": "roof",
+      "scene": "tomer_gate",
+      "state": "autumn",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "move": {
+          "from": "corner",
+          "how": "enter",
+          "to": "walk_l",
+          "who": "ismail"
+        },
+        "obj": [
+          {
+            "id": "tepsi",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "beat": {
+        "at": "ch:nima",
+        "do": "wave",
+        "move": {
+          "how": "fly",
+          "to": "crumbs",
+          "who": "kerim"
+        },
+        "who": "ismail"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "exit",
+          "to": "corner",
+          "who": "ismail"
+        }
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "The corner shop brought tea! …What did you write, Nima?",
+      "fa": "بقالِ سرِ کوچه چای آورد! …تو چی نوشتی، نیما؟",
+      "to": "nima",
+      "tr": "Köşe bakkalı çay getirdi! …Ne yazdın, Nima?",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "happy",
+      "en": "I wrote ‘My first day’. You?",
+      "fa": "من «روزِ اولم». تو؟",
+      "to": "dilnoza",
+      "tr": "Ben ‘İlk günüm’. Sen?",
+      "who": "nima"
+    },
+    {
+      "emo": "shy",
+      "en": "Me… ‘My family’.",
+      "fa": "من… «خانواده‌ام».",
+      "to": "nima",
+      "tr": "Ben… ‘Benim ailem’.",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "laugh",
+      "en": "I wrote everything! …Maybe too much!",
+      "fa": "من همه‌چی رو نوشتم! …شاید زیادی!",
+      "react": {
+        "nima": "laugh"
+      },
+      "to": "all",
+      "tr": "Ben her şeyi yazdım! …Belki çok fazla!",
+      "who": "parvaneh"
+    },
+    {
+      "beat": {
+        "at": "obj:telefon",
+        "cam": "obj",
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "show"
+          },
+          {
+            "id": "telefon",
+            "op": "take"
+          }
+        ],
+        "react": {
+          "dilnoza": {
+            "at": "obj:telefon",
+            "do": "look",
+            "emo": "curious"
+          }
+        },
+        "sfx": {
+          "id": "message",
+          "word": "dıt"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "do": "cheer",
+      "emo": "happy",
+      "en": "My residence permit came through!",
+      "fa": "اقامتم درست شد!",
+      "to": "all",
+      "tr": "İkametim tamam!",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "Two exams over in one day!",
+      "fa": "توی یه روز دو تا امتحان تموم شد!",
+      "react": {
+        "dilnoza": "laugh"
+      },
+      "to": "nima",
+      "tr": "Bir günde iki sınav bitti!",
+      "who": "parvaneh"
+    },
+    {
+      "spot": {
+        "en": "Kerim was quiet in the exam. Now, Nima's text: -DI tells what happened (geldim, bekledi, gittik). vardı is var + -DI: “there was”, “I had” (Çok bavulum vardı!). -(y)A goes to a place (İstanbul'a, Mecidiyeköy'e), -DAn comes from one. And -lI says where someone is from: Tahranlıyım.",
+        "ex": "Yedi Eylül'de İstanbul'a geldim.",
+        "fa": "کریم در امتحان ساکت بود. حالا متنِ نیما: -DI می‌گوید چه اتفاقی افتاد (geldim، bekledi، gittik). vardı همان var + -DI است: «بود»، «داشتم» (Çok bavulum vardı!). -(y)A به سمتِ جایی می‌رود (İstanbul'a، Mecidiyeköy'e)، -DAn از جایی می‌آید. و -lI می‌گوید کسی اهلِ کجاست: Tahranlıyım.",
+        "lesson": "g_a1_5_gecmis"
+      }
+    },
+    {
+      "en": "The exam is over. A1 is over. But… the story isn't.",
+      "fa": "امتحان تموم شد. A1 تموم شد. ولی… قصه تموم نشد.",
+      "narr": true,
+      "tr": "Sınav bitti. A1 bitti. Ama… hikâye bitmedi.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The A1 exam in four parts: reading, writing, listening and speaking. Nima freezes for a moment, asks for the question again, slowly, and gets through. On the steps after, the residence permit is approved.",
+  "summaryFa": "امتحانِ A1 در چهار بخش: خواندن، نوشتن، شنیدن و صحبت کردن. نیما یک لحظه خشکش می‌زند، می‌خواهد سؤال را دوباره و آهسته بپرسند، و از پسش برمی‌آید. بعد، روی پله‌ها، اقامتش تأیید می‌شود.",
+  "title": "Sınav günü",
+  "titleEn": "Exam day",
+  "titleFa": "روزِ امتحان",
+  "words": [
+    "a1-w-bavul",
+    "a1-w-numara",
+    "a1-w-kacinci",
+    "seed-w24",
+    "a1-w-aile",
+    "a1-w-beklemek",
+    "a1-w-kose"
+  ]
+}

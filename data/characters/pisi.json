@@ -1,0 +1,21 @@
+{
+  "bio": "A black street cat at the door of Nima's building. Everyone in the building feeds it in secret, each under a different name: Pişi, Kiki, Pamuk, Kara Kartal. It never speaks.",
+  "bioFa": "گربه‌ای سیاه و خیابانی دمِ درِ ساختمانِ نیما. همهٔ اهالیِ ساختمان پنهانی به او غذا می‌دهند، هر کدام با اسمی دیگر: پیشی، کیکی، پاموک، کارا کارتال. هیچ‌وقت حرف نمی‌زند.",
+  "circle": "neighbourhood",
+  "color": "#5B4E7A",
+  "id": "pisi",
+  "kind": "cast",
+  "level": "A1",
+  "name": "Pisi",
+  "nameFa": "پیشی",
+  "order": 22,
+  "places": [
+    "flat_nima"
+  ],
+  "puppet": "cat",
+  "role": "The building's street cat: four bowls, four names",
+  "roleFa": "گربهٔ خیابانیِ ساختمان: چهار کاسه، چهار اسم",
+  "terms": [
+    "a1-w-kedi"
+  ]
+}

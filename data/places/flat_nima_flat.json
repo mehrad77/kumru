@@ -1,0 +1,480 @@
+{
+  "ambience": [
+    "street_far",
+    "echo_room"
+  ],
+  "camera": {
+    "wide": {
+      "w": 8.6,
+      "x": 0,
+      "y1": 2.6,
+      "z": -2.2
+    }
+  },
+  "district": "Feriköy, Şişli",
+  "id": "flat_nima_flat",
+  "marks": {
+    "balcony_ledge": {
+      "x": 3.55,
+      "y": 0.92,
+      "z": -2.75
+    },
+    "balcony_window": {
+      "facing": "r",
+      "x": 3.5,
+      "z": -1.85
+    },
+    "bathroom": {
+      "x": -2.55,
+      "z": -2.0
+    },
+    "boiler": {
+      "x": -0.3,
+      "z": -1.8
+    },
+    "door": {
+      "door": "kapi",
+      "out": {
+        "x": -3.75,
+        "z": -3.3
+      },
+      "x": -3.75,
+      "z": -2.15
+    },
+    "entry": {
+      "door": "kapi",
+      "out": {
+        "x": -3.75,
+        "z": -3.3
+      },
+      "x": -3.75,
+      "z": -2.15
+    },
+    "kitchen": {
+      "facing": "l",
+      "x": -0.95,
+      "z": -1.65
+    },
+    "ledge": {
+      "x": 0.25,
+      "y": 1.12,
+      "z": -2.75
+    },
+    "salon": {
+      "x": 2.0,
+      "z": -0.9
+    }
+  },
+  "motif": "home",
+  "name": {
+    "en": "Nima's flat",
+    "fa": "خانه‌ی نیما",
+    "tr": "Nima'nın evi"
+  },
+  "perch": "balcony_ledge",
+  "pieces": [
+    {
+      "h": 700,
+      "kit": "skyline",
+      "variant": "ferikoy",
+      "w": 3000,
+      "x": 0,
+      "z": -20
+    },
+    {
+      "a": "#C49A6C",
+      "b": "#B98F62",
+      "d": 500,
+      "kit": "floor",
+      "tile": 22,
+      "w": 1100,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "color": "#EEE9DF",
+      "h": 400,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 212,
+          "w": 95,
+          "x": -375,
+          "y": 0
+        },
+        {
+          "h": 205,
+          "w": 85,
+          "x": -255,
+          "y": 0
+        },
+        {
+          "h": 110,
+          "w": 100,
+          "x": 25,
+          "y": 112
+        },
+        {
+          "h": 235,
+          "w": 170,
+          "x": 220,
+          "y": 0
+        },
+        {
+          "h": 130,
+          "w": 100,
+          "x": 355,
+          "y": 92
+        }
+      ],
+      "tiles": 0,
+      "w": 1100,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "color": "#EEE9DF",
+      "h": 150,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 110,
+          "w": 100,
+          "x": 75,
+          "y": 112
+        }
+      ],
+      "tiles": 150,
+      "w": 250,
+      "x": -0.5,
+      "z": -2.5900000000000003
+    },
+    {
+      "away": false,
+      "color": "#5B6770",
+      "id": "kapi",
+      "kit": "door",
+      "number": "8",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": -3.75,
+      "z": -2.5900000000000003
+    },
+    {
+      "beyond": "#CFE3EA",
+      "color": "#F1EEE6",
+      "h": 200,
+      "id": "banyo",
+      "kit": "door",
+      "number": "WC",
+      "terms": [
+        "a1-w-banyo"
+      ],
+      "variant": "flat",
+      "w": 80,
+      "x": -2.55,
+      "z": -2.5900000000000003
+    },
+    {
+      "id": "firin",
+      "kit": "kitchen",
+      "terms": [
+        "a1-w-firin"
+      ],
+      "variant": "oven",
+      "x": -1.45,
+      "z": -2.48
+    },
+    {
+      "kit": "kitchen",
+      "upper": false,
+      "variant": "counter",
+      "w": 80,
+      "x": -0.75,
+      "z": -2.48
+    },
+    {
+      "id": "tap",
+      "kit": "kitchen",
+      "terms": [
+        "seed-w19"
+      ],
+      "upper": false,
+      "variant": "sink",
+      "w": 90,
+      "x": 0.25,
+      "z": -2.48
+    },
+    {
+      "display": "55°",
+      "faultState": "cold",
+      "id": "boiler",
+      "kit": "heater",
+      "terms": [
+        "b1-w-kombi"
+      ],
+      "variant": "boiler",
+      "x": -0.75,
+      "y": 1.45,
+      "z": -2.58
+    },
+    {
+      "h": 110,
+      "id": "mutfak_penceresi",
+      "kit": "window",
+      "w": 100,
+      "x": 0.25,
+      "y": 1.12,
+      "z": -2.5900000000000003
+    },
+    {
+      "id": "masa",
+      "kit": "table",
+      "terms": [
+        "a1-w-masa"
+      ],
+      "variant": "kitchen",
+      "w": 100,
+      "x": -0.4,
+      "z": -1.15
+    },
+    {
+      "h": 225,
+      "id": "balkon",
+      "kit": "balcony",
+      "terms": [
+        "a1-w-balkon"
+      ],
+      "variant": "door",
+      "w": 150,
+      "x": 2.2,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 130,
+      "id": "pencere",
+      "kit": "window",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 100,
+      "x": 3.55,
+      "y": 0.92,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 50,
+      "kit": "heater",
+      "w": 90,
+      "x": 3.55,
+      "z": -2.56
+    },
+    {
+      "kit": "lamp",
+      "x": -0.4,
+      "y": 2.45,
+      "z": -1.3
+    },
+    {
+      "kit": "lamp",
+      "x": 2.4,
+      "y": 2.45,
+      "z": -1.4
+    },
+    {
+      "id": "kanepe",
+      "in": [
+        "furnished"
+      ],
+      "kit": "sofa",
+      "terms": [
+        "a1-w-kanepe"
+      ],
+      "throw": true,
+      "w": 190,
+      "x": 3.2,
+      "z": -1.9
+    },
+    {
+      "d": 150,
+      "id": "hali",
+      "in": [
+        "furnished"
+      ],
+      "kind": "kilim",
+      "kit": "rug",
+      "terms": [
+        "a1-w-hali"
+      ],
+      "w": 240,
+      "x": 2.5,
+      "z": -1.1
+    },
+    {
+      "h": 130,
+      "in": [
+        "furnished"
+      ],
+      "kit": "plant",
+      "x": 4.1,
+      "z": 0.7
+    }
+  ],
+  "props": {
+    "atki": {
+      "at": {
+        "x": -0.1,
+        "y": 0.76,
+        "z": -1.15
+      },
+      "decor": true,
+      "in": [
+        "cold"
+      ],
+      "kit": "cloth",
+      "variant": "scarf"
+    },
+    "battaniye": {
+      "at": {
+        "x": 3.0,
+        "y": 0.45,
+        "z": -1.75
+      },
+      "decor": true,
+      "in": [
+        "cold"
+      ],
+      "kit": "cloth",
+      "variant": "blanket"
+    },
+    "buzdolabi_yok": {
+      "at": {
+        "x": 0.95,
+        "y": 0,
+        "z": -2.45
+      },
+      "kit": "fridge",
+      "shown": false,
+      "terms": [
+        "a1-w-buzdolabi"
+      ],
+      "variant": "home"
+    },
+    "cicek": {
+      "at": {
+        "x": -0.4,
+        "y": 0.76,
+        "z": -1.15
+      },
+      "in": [
+        "warm"
+      ],
+      "kit": "flowers",
+      "terms": [
+        "a1-w-cicek"
+      ]
+    },
+    "gazete": {
+      "at": {
+        "x": 1.2,
+        "y": 0,
+        "z": -1.0
+      },
+      "in": [
+        "empty"
+      ],
+      "kit": "print",
+      "lying": true,
+      "terms": [
+        "a1-w-gazete"
+      ],
+      "variant": "newspaper"
+    },
+    "kettle": {
+      "at": {
+        "x": -1.45,
+        "y": 0.9,
+        "z": -2.45
+      },
+      "kit": "tea",
+      "terms": [
+        "a1-w-caydanlik"
+      ],
+      "variant": "caydanlik"
+    },
+    "kutular": {
+      "at": {
+        "x": 1.9,
+        "y": 0,
+        "z": -1.7
+      },
+      "in": [
+        "empty"
+      ],
+      "kit": "box",
+      "n": 3,
+      "terms": [
+        "a1-w-kutu"
+      ],
+      "variant": "moving"
+    },
+    "tea_glass": {
+      "at": {
+        "x": -0.75,
+        "y": 0.9,
+        "z": -2.45
+      },
+      "kit": "tea",
+      "n": 2,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    },
+    "terlik": {
+      "at": {
+        "x": -3.2,
+        "y": 0,
+        "z": -2.3
+      },
+      "in": [
+        "warm"
+      ],
+      "kit": "footwear",
+      "terms": [
+        "a1-w-terlik"
+      ],
+      "variant": "slippers"
+    }
+  },
+  "site": "flat_nima",
+  "size": {
+    "d": 4,
+    "w": 9
+  },
+  "states": {
+    "cold": {
+      "group": "warmth"
+    },
+    "empty": {
+      "group": "furnish"
+    },
+    "furnished": {
+      "default": true,
+      "group": "furnish"
+    },
+    "warm": {
+      "group": "warmth"
+    }
+  },
+  "surface": "wood",
+  "times": [
+    "day",
+    "dusk",
+    "dawn"
+  ],
+  "v": 1
+}

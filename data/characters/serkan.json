@@ -1,0 +1,148 @@
+{
+  "address": {
+    "berfin": "sen",
+    "elif": "sen",
+    "nima": "sen"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima… a Beşiktaş fan? Not… yet!",
+        "fa": "نیما… طرفدارِ بشیکتاش؟ نه… هنوز!",
+        "photo": {
+          "step": 11,
+          "story": "s1e42"
+        },
+        "tr": "Nima… Beşiktaşlı mı? Değil… daha!"
+      },
+      "family": {
+        "en": "Nima is our family. And a Beşiktaş fan!",
+        "fa": "نیما خانواده‌ی ماست. طرفدارِ بشیکتاش هم هست!",
+        "photo": {
+          "step": 23,
+          "story": "s1e46"
+        },
+        "tr": "Nima bizim ailemiz. Ve Beşiktaşlı!"
+      },
+      "met": {
+        "en": "Neighbour! Fourth floor.",
+        "fa": "همسایه! طبقه‌ی چهارم.",
+        "photo": {
+          "step": 21,
+          "story": "s1e13"
+        },
+        "tr": "Komşu! Dördüncü kat."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.55,
+      "shape": "broad"
+    },
+    "face": {
+      "brows": "bushy",
+      "eyeColor": "eye_brown",
+      "eyes": "small",
+      "marks": [
+        "forehead_lines"
+      ],
+      "mouth": "thin",
+      "nose": "broad",
+      "shape": "square"
+    },
+    "facialHair": {
+      "color": "hair_01",
+      "style": "stubble"
+    },
+    "hair": {
+      "color": "hair_01",
+      "style": "hair_receding"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_24"
+        ],
+        "id": "bottom_trousers"
+      },
+      "shoes": {
+        "colors": [
+          "fab_21",
+          "fab_01",
+          "fab_22"
+        ],
+        "id": "shoes_running"
+      },
+      "top": {
+        "colors": [
+          "fab_40"
+        ],
+        "id": "top_tee"
+      }
+    },
+    "skin": "skin_05",
+    "v": 1,
+    "wear": {
+      "neck": {
+        "colors": [
+          "fab_22",
+          "fab_01"
+        ],
+        "id": "scarf_fan"
+      }
+    }
+  },
+  "bio": "In his 40s, born in Beşiktaş, Istanbul; drives a yellow taxi. Big-hearted and loud; can't lose an argument.",
+  "bioFa": "چهل و چند ساله، متولدِ بشیکتاشِ استانبول؛ رانندهٔ تاکسیِ زرد است. دلِ بزرگی دارد و بلند حرف می‌زند؛ نمی‌تواند در بحثی ببازد.",
+  "catch": {
+    "en": "Beşiktaş is the greatest!",
+    "fa": "بشیکتاش بزرگ‌ترین است!",
+    "tr": "En büyük Beşiktaş!"
+  },
+  "circle": "neighbourhood",
+  "color": "#3A3D45",
+  "id": "serkan",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "high",
+    "signature": [
+      "explain",
+      "shake_head",
+      "stop"
+    ],
+    "tempo": 1.1
+  },
+  "name": "Serkan",
+  "nameFa": "سرکان",
+  "order": 9,
+  "outfits": {
+    "winter": {
+      "outfit": {
+        "outer": {
+          "colors": [
+            "fab_28"
+          ],
+          "id": "outer_jacket_bomber"
+        },
+        "shoes": {
+          "id": "shoes_derby"
+        }
+      }
+    }
+  },
+  "places": [
+    "taxi",
+    "flat_elif",
+    "cafe_berfin"
+  ],
+  "role": "Elif's husband; taxi driver and Beşiktaş fan",
+  "roleFa": "همسرِ الیف؛ رانندهٔ تاکسی و طرفدارِ بشیکتاش",
+  "voice": {
+    "pitch": 0.8,
+    "rate": 1.1
+  }
+}

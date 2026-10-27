@@ -1,0 +1,519 @@
+{
+  "arc": {
+    "en": "Where's home?",
+    "fa": "خانه کجاست؟",
+    "id": "s1w02",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Ev nerede?"
+  },
+  "cast": [
+    "tolga",
+    "nima"
+  ],
+  "followUp": [
+    {
+      "en": "This is a bedroom. It's small, but clean!",
+      "fa": "این‌جا اتاقه. کوچیکه، ولی تمیزه!",
+      "to": "nima",
+      "tr": "Burası oda. Küçük, ama temiz!",
+      "who": "tolga"
+    },
+    {
+      "choice": {
+        "id": "fu_burada",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "What's in here?",
+            "fa": "این‌جا چی هست؟",
+            "ok": true,
+            "react": {
+              "tolga": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "There's a window here. No wardrobe.",
+                "fa": "این‌جا پنجره هست. کمد نیست.",
+                "tr": "Burada pencere var. Dolap yok.",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Burada ne var?"
+          },
+          {
+            "en": "What's there… this place?",
+            "fa": "این‌جا… چی هست؟",
+            "react": {
+              "tolga": "confused"
+            },
+            "reply": [
+              {
+                "en": "Burada: “in here”! What's in here? There's a window.",
+                "fa": "«burada»، یعنی «توی این‌جا»! این‌جا چی هست؟ پنجره هست.",
+                "tr": "Burada! Burada ne var? Pencere var.",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Burası ne var?"
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "en": "Is there a table?",
+      "fa": "میز هست؟",
+      "to": "tolga",
+      "tr": "Masa var mı?",
+      "who": "nima"
+    },
+    {
+      "en": "No table… but there's a window!",
+      "fa": "میز نیست… ولی پنجره هست!",
+      "to": "nima",
+      "tr": "Masa yok… ama pencere var!",
+      "who": "tolga"
+    }
+  ],
+  "gl": {
+    "asansör": [
+      "آسانسور",
+      "lift, elevator"
+    ],
+    "beşinci": [
+      "پنجم",
+      "fifth"
+    ],
+    "buzdolabı": [
+      "یخچال",
+      "fridge"
+    ],
+    "de": [
+      "بگو («evet de»: بگو بله)",
+      "say (“evet de”: say yes)"
+    ],
+    "depozito": [
+      "ودیعه، پیش‌پرداخت",
+      "deposit"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a neighbourhood of Şişli)"
+    ],
+    "feriköy'de": [
+      "در فری‌کؤی",
+      "in Feriköy"
+    ],
+    "mutfakta": [
+      "در آشپزخانه",
+      "in the kitchen"
+    ],
+    "salonda": [
+      "در پذیرایی",
+      "in the living room"
+    ],
+    "çatıda": [
+      "روی پشت‌بام",
+      "on the roof"
+    ],
+    "üçüncü": [
+      "سوم",
+      "third"
+    ]
+  },
+  "id": "s1e09",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_2_var_yok",
+    "g_a1_2_bulunma",
+    "g_a1_2_degil"
+  ],
+  "level": "A1",
+  "place": "flat_nima_street",
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Which floor is the flat on?",
+      "fa": "خانه در طبقه‌ی چندم است؟",
+      "kind": "comp",
+      "options": [
+        "Dördüncü kat",
+        "İkinci kat",
+        "Beşinci kat"
+      ],
+      "q": "Ev kaçıncı katta?",
+      "why": "Tolga Bey: “…dördüncü kat! Asansör yok, ama… merdiven var!”"
+    },
+    {
+      "a": 0,
+      "en": "Tolga Bey: “It isn't expensive! In Feriköy it's …!”",
+      "fa": "آقای تولگا: «گران نیست! در فری‌کؤی … است!»",
+      "kind": "word",
+      "options": [
+        "ucuz",
+        "eski",
+        "küçük"
+      ],
+      "q": "Tolga Bey: “Pahalı değil! Feriköy'de …!”",
+      "why": "Tolga Bey: “Pahalı değil! Feriköy'de ucuz!”"
+    },
+    {
+      "a": 0,
+      "en": "What is on the balcony?",
+      "fa": "روی بالکن چه چیزی هست؟",
+      "kind": "comp",
+      "options": [
+        "Bir kuş",
+        "Bir kedi",
+        "Bir buzdolabı"
+      ],
+      "q": "Balkonda ne var?",
+      "why": "Nima: “Bu ne? Bir kuş!”"
+    }
+  ],
+  "ref": "A1_2",
+  "releaseDate": "2026-09-16",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "walk_l",
+        "tolga": "steps"
+      },
+      "kerim": "roof",
+      "scene": "flat_nima_street",
+      "time": "dusk"
+    },
+    {
+      "cam": "wide",
+      "en": "Good evening! This is Feriköy. This building is old. Who's on the roof? Kerim is!",
+      "fa": "عصر بخیر! این‌جا فری‌کؤیه. این ساختمون قدیمیه. روی پشت‌بوم کی هست؟ کریم!",
+      "narr": true,
+      "tr": "İyi akşamlar! Burası Feriköy. Bu bina eski. Çatıda kim var? Kerim var!",
+      "who": "kerim"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Good evening! Welcome!",
+      "fa": "عصر بخیر! خوش اومدید!",
+      "move": {
+        "how": "walk",
+        "to": "kerb",
+        "who": "nima"
+      },
+      "to": "nima",
+      "tr": "İyi akşamlar! Hoş geldiniz!",
+      "who": "tolga"
+    },
+    {
+      "emo": "happy",
+      "en": "Good to be here.",
+      "fa": "ممنون، خوشحالم که اومدم.",
+      "to": "tolga",
+      "tr": "Hoş bulduk.",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "nima": "foot",
+        "tolga": "stairs_low"
+      },
+      "kerim": "stair_window",
+      "scene": "flat_nima_stairs",
+      "time": "dusk"
+    },
+    {
+      "cam": "follow",
+      "emo": "happy",
+      "en": "First… second… third… fourth floor! There's no lift, but… there are stairs!",
+      "fa": "اول… دوم… سوم… طبقه‌ی چهارم! آسانسور نداره، ولی… پله داره!",
+      "move": [
+        {
+          "how": "walk",
+          "to": "landing_4",
+          "via": [
+            "landing_1",
+            "landing_2",
+            "landing_3"
+          ],
+          "who": "tolga"
+        },
+        {
+          "how": "walk",
+          "to": "landing_3",
+          "via": [
+            "landing_1",
+            "landing_2"
+          ],
+          "who": "nima"
+        }
+      ],
+      "react": {
+        "nima": {
+          "emo": "tired"
+        }
+      },
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Birinci… ikinci… üçüncü… dördüncü kat! Asansör yok, ama… merdiven var!",
+      "who": "tolga"
+    },
+    {
+      "at": {
+        "nima": "door",
+        "tolga": "salon"
+      },
+      "kerim": "balcony_ledge",
+      "scene": "flat_nima_flat",
+      "state": "empty",
+      "time": "dusk"
+    },
+    {
+      "at": "mark:balcony_window",
+      "do": "point",
+      "emo": "happy",
+      "en": "This is the living room. There's a balcony in the living room… and the city!",
+      "fa": "این‌جا پذیراییه. توی پذیرایی بالکن هست… و شهر!",
+      "to": "nima",
+      "tr": "Burası salon. Salonda balkon var… ve şehir!",
+      "who": "tolga"
+    },
+    {
+      "at": "mark:kitchen",
+      "do": "look",
+      "emo": "curious",
+      "en": "Where's the kitchen?",
+      "fa": "آشپزخونه کجاست؟",
+      "to": "tolga",
+      "tr": "Mutfak nerede?",
+      "who": "nima"
+    },
+    {
+      "at": "mark:kitchen",
+      "do": "point",
+      "emo": "happy",
+      "en": "The kitchen's over there. In the kitchen there's an oven, a table… no fridge! It's a very nice flat, isn't it?",
+      "fa": "آشپزخونه اون‌جاست. توی آشپزخونه فِر هست، میز هست… یخچال نیست! خونه‌ی خیلی خوبیه، نه؟",
+      "to": "nima",
+      "tr": "Mutfak şurada. Mutfakta fırın var, masa var… buzdolabı yok! Çok güzel bir ev, değil mi?",
+      "who": "tolga"
+    },
+    {
+      "choice": {
+        "id": "ev_guzel",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "neutral",
+            "en": "It's nice, but small.",
+            "fa": "قشنگه، ولی کوچیکه.",
+            "ok": true,
+            "react": {
+              "tolga": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Small… but cheap!",
+                "fa": "کوچیک… ولی ارزون!",
+                "to": "nima",
+                "tr": "Küçük… ama ucuz!",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Güzel, ama küçük."
+          },
+          {
+            "do": "shake_head",
+            "en": "No, it's ugly!",
+            "fa": "نه، زشته!",
+            "react": {
+              "tolga": {
+                "emo": "nervous"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "emo": "annoyed",
+                  "wait": 700,
+                  "who": "tolga"
+                }
+              },
+              {
+                "do": "shake_head",
+                "emo": "nervous",
+                "en": "It's not ugly! It's… old.",
+                "fa": "زشت… نیست! قدیمیه.",
+                "to": "nima",
+                "tr": "Çirkin… değil! Eski.",
+                "who": "tolga"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Hayır, çirkin!"
+          },
+          {
+            "do": "nod",
+            "en": "Yes, yes! Very nice!",
+            "fa": "آره، آره! خیلی قشنگه!",
+            "react": {
+              "tolga": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Great! Very nice! The deposit is one month's rent…",
+                "fa": "عالیه! خیلی قشنگه! ودیعه یه ماه اجاره…",
+                "tempo": 1.5,
+                "to": "nima",
+                "tr": "Tamam! Çok güzel! Depozito bir kira…",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, evet! Çok güzel!"
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "But… how much is the rent? Is it expensive?",
+      "fa": "ولی… اجاره چنده؟ گرونه؟",
+      "to": "tolga",
+      "tr": "Ama… kira kaç lira? Pahalı mı?",
+      "who": "nima"
+    },
+    {
+      "do": "shake_head",
+      "emo": "happy",
+      "en": "Twenty thousand. It isn't expensive! It's cheap for Feriköy!",
+      "fa": "بیست هزار. گرون نیست! برای فری‌کؤی ارزونه!",
+      "on": "değil",
+      "to": "nima",
+      "tr": "Yirmi bin. Pahalı değil! Feriköy'de ucuz!",
+      "who": "tolga"
+    },
+    {
+      "emo": "curious",
+      "en": "Cheap… is it?",
+      "fa": "ارزون… واقعاً؟",
+      "narr": true,
+      "tr": "Ucuz… mu?",
+      "who": "kerim"
+    },
+    {
+      "at": "ch:kerim",
+      "cam": "close",
+      "do": "point",
+      "emo": "surprised",
+      "en": "What's this? A bird!",
+      "fa": "این چیه؟ یه پرنده!",
+      "link": {
+        "kuş": "ch:kerim"
+      },
+      "move": {
+        "how": "walk",
+        "to": "balcony_window",
+        "who": "nima"
+      },
+      "sfx": {
+        "id": "door_open",
+        "word": "gıcırt"
+      },
+      "to": "kerim",
+      "tr": "Bu ne? Bir kuş!",
+      "who": "nima"
+    },
+    {
+      "cam": "close",
+      "emo": "happy",
+      "en": "Not “a bird”… Kerim!",
+      "fa": "یه پرنده… نه. کریم!",
+      "narr": true,
+      "tr": "Bir kuş… değil. Kerim!",
+      "who": "kerim"
+    },
+    {
+      "emo": "happy",
+      "en": "Yes? Or no?",
+      "fa": "آره یا نه؟",
+      "tempo": 1.2,
+      "to": "nima",
+      "tr": "Evet mi? Hayır mı?",
+      "who": "tolga"
+    },
+    {
+      "emo": "shy",
+      "en": "The flat… is nice. But… Friday, please.",
+      "fa": "خونه… قشنگه. ولی… جمعه، لطفاً.",
+      "move": {
+        "how": "walk",
+        "to": "salon",
+        "who": "nima"
+      },
+      "to": "tolga",
+      "tr": "Ev… güzel. Ama… cuma, lütfen.",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "do": "nod",
+        "emo": "happy",
+        "who": "tolga"
+      }
+    },
+    {
+      "spot": {
+        "en": "-DA with var / yok says “there is … in …”: Salonda balkon var, there's a balcony in the living room. Mutfakta buzdolabı yok, there's no fridge in the kitchen. For an adjective, the “not” is değil: Pahalı değil, it isn't expensive.",
+        "ex": "Salonda balkon var",
+        "fa": "‏-DA همراهِ var / yok یعنی «در … هست / نیست»: Salonda balkon var، توی پذیرایی بالکن هست. Mutfakta buzdolabı yok، توی آشپزخانه یخچال نیست. برای صفت، «نیست» می‌شود değil: Pahalı değil، گران نیست. فارسی برای هر دو «نیست» می‌گوید؛ ترکی دو کلمه دارد.",
+        "lesson": "g_a1_2_var_yok",
+        "show": "var_yok"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Yes… say yes, Nima!",
+      "fa": "آره… بگو آره، نیما!",
+      "narr": true,
+      "sfx": {
+        "id": "door_close",
+        "word": "küt"
+      },
+      "tr": "Evet… evet de, Nima!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "On Wednesday evening Nima views the Feriköy flat with Tolga Bey: four floors up, no lift, no fridge, and a rent he calls cheap. At the balcony window, a bird looks Nima in the eye.",
+  "summaryFa": "چهارشنبه عصر، نیما با آقای تولگا خانه‌ی فری‌کؤی را می‌بیند: چهار طبقه بالا، بی‌آسانسور، بی‌یخچال، با اجاره‌ای که به گفته‌ی او ارزان است. پشتِ پنجره‌ی بالکن، پرنده‌ای مستقیم به چشم‌های نیما نگاه می‌کند.",
+  "title": "Dördüncü kat",
+  "titleEn": "The fourth floor",
+  "titleFa": "طبقه‌ی چهارم",
+  "words": [
+    "a1-w-kucuk",
+    "a1-w-eski",
+    "a1-w-ucuz",
+    "a1-w-pahali",
+    "a1-w-bina",
+    "seed-w03"
+  ]
+}

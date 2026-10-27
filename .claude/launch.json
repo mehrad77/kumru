@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kumru",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "PORT=${PORT:-8787} pnpm dev"
+      ],
+      "port": 8787,
+      "autoPort": true
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "v": 1,
+  "id": "cicekci",
+  "name": {
+    "tr": "Gülten Hanım'ın çiçekçisi",
+    "en": "Gülten Hanım's flower shop",
+    "fa": "گل‌فروشیِ گولتن خانم"
+  },
+  "district": "Feriköy, Şişli",
+  "size": {
+    "w": 8,
+    "d": 4
+  },
+  "camera": {
+    "wide": {
+      "w": 7.6,
+      "x": 0,
+      "z": -1.0,
+      "y0": 0.1,
+      "y1": 2.5
+    }
+  },
+  "times": [
+    "day"
+  ],
+  "perch": "tulip_bucket",
+  "ambience": [
+    "street_far"
+  ],
+  "motif": "street",
+  "surface": "tile",
+  "marks": {
+    "door": {
+      "door": "door",
+      "out": {
+        "x": -3.0,
+        "z": -3.0
+      },
+      "x": -3.0,
+      "z": -1.25
+    },
+    "counter": {
+      "facing": "l",
+      "x": 2.45,
+      "z": -1.05
+    },
+    "buckets": {
+      "facing": "r",
+      "x": -0.55,
+      "z": -0.15
+    },
+    "front": {
+      "facing": "r",
+      "x": 1.0,
+      "z": -0.1
+    },
+    "tulip_bucket": {
+      "x": 0.45,
+      "y": 0.62,
+      "z": -1.3
+    },
+    "air": {
+      "air": true,
+      "x": -1.8,
+      "y": 2.0,
+      "z": -1.0
+    }
+  },
+  "pieces": [
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 2400,
+      "x": 0,
+      "z": -12
+    },
+    {
+      "kit": "street",
+      "w": 1500,
+      "x": 0,
+      "z": -4.6
+    },
+    {
+      "kit": "floor",
+      "a": "#BDB5A8",
+      "b": "#B1A99B",
+      "tile": 55,
+      "w": 1500,
+      "d": 235,
+      "x": 0,
+      "z": -4.55
+    },
+    {
+      "kit": "floor",
+      "a": "#E6DCCB",
+      "b": "#D3C6B0",
+      "tile": 45,
+      "w": 1200,
+      "d": 1000,
+      "x": 0,
+      "z": -2.25
+    },
+    {
+      "kit": "wall",
+      "color": "#E4EEDF",
+      "h": 400,
+      "w": 1100,
+      "tiles": 0,
+      "x": 0,
+      "z": -2.2,
+      "openings": [
+        {
+          "x": -300,
+          "y": 0,
+          "w": 105,
+          "h": 220
+        },
+        {
+          "x": 20,
+          "y": 60,
+          "w": 280,
+          "h": 170
+        }
+      ]
+    },
+    {
+      "kit": "door_shop",
+      "id": "door",
+      "color": "#4E7A48",
+      "x": -3.0,
+      "z": -2.19
+    },
+    {
+      "kit": "window",
+      "id": "window",
+      "variant": "shop",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 280,
+      "h": 170,
+      "x": 0.2,
+      "y": 0.6,
+      "z": -2.19
+    },
+    {
+      "kit": "flowers",
+      "variant": "window_box",
+      "flower": "geranium",
+      "w": 260,
+      "x": 0.2,
+      "y": 0.6,
+      "z": -2.12
+    },
+    {
+      "kit": "counter",
+      "id": "counter",
+      "variant": "glass",
+      "goods": "flowers",
+      "w": 200,
+      "h": 86,
+      "x": 2.3,
+      "z": -0.5
+    },
+    {
+      "kit": "shelf",
+      "w": 130,
+      "h": 180,
+      "rows": 3,
+      "fill": 0,
+      "x": 3.3,
+      "z": -2.06
+    },
+    {
+      "kit": "plant",
+      "h": 150,
+      "x": -1.85,
+      "z": -1.95
+    },
+    {
+      "kit": "clock",
+      "id": "saat",
+      "time": "11:20",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "x": -3.0,
+      "y": 2.55,
+      "z": -2.18
+    },
+    {
+      "kit": "calendar",
+      "x": -1.3,
+      "y": 1.75,
+      "z": -2.18
+    },
+    {
+      "kit": "lamp",
+      "x": 1.0,
+      "y": 2.4,
+      "z": -1.0
+    },
+    {
+      "kit": "flowers",
+      "variant": "bucket",
+      "flower": "daisy",
+      "n": 2,
+      "x": 2.75,
+      "z": 0.6,
+      "labels": [
+        " ",
+        " "
+      ],
+      "color": "beyaz"
+    },
+    {
+      "kit": "flowers",
+      "variant": "bucket",
+      "flower": "tulip",
+      "color": "mor",
+      "n": 2,
+      "x": -2.6,
+      "z": 0.6
+    },
+    {
+      "kit": "flowers",
+      "variant": "bucket",
+      "flower": "rose",
+      "color": "pembe",
+      "n": 3,
+      "x": -1.95,
+      "z": -0.35
+    },
+    {
+      "kit": "flowers",
+      "variant": "bucket",
+      "flower": "rose",
+      "color": "beyaz",
+      "n": 2,
+      "x": 1.1,
+      "z": -1.75
+    }
+  ],
+  "props": {
+    "roses": {
+      "kit": "flowers",
+      "variant": "bucket",
+      "flower": "rose",
+      "n": 2,
+      "terms": [
+        "a1-w-gul",
+        "a1-w-cicek",
+        "a1-w-kirmizi"
+      ],
+      "at": {
+        "x": -1.15,
+        "y": 0,
+        "z": -1.4
+      },
+      "color": "kırmızı"
+    },
+    "tulips": {
+      "kit": "flowers",
+      "variant": "bucket",
+      "flower": "tulip",
+      "n": 2,
+      "terms": [
+        "a1-w-lale",
+        "a1-w-cicek",
+        "a1-w-sari"
+      ],
+      "at": {
+        "x": 0.25,
+        "y": 0,
+        "z": -1.3
+      },
+      "color": "sarı"
+    },
+    "geraniums": {
+      "kit": "flowers",
+      "variant": "pot",
+      "flower": "geranium",
+      "n": 3,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "at": {
+        "x": -2.2,
+        "y": 0,
+        "z": -1.0
+      }
+    },
+    "colour_labels": {
+      "kit": "paper",
+      "variant": "price_tag",
+      "n": 4,
+      "labels": [
+        "kırmızı",
+        "beyaz",
+        "sarı",
+        "pembe"
+      ],
+      "terms": [
+        "a1-w-renk"
+      ],
+      "at": {
+        "x": 1.6,
+        "y": 0.86,
+        "z": -0.45
+      }
+    },
+    "buket": {
+      "kit": "flowers",
+      "variant": "bouquet",
+      "terms": [
+        "a1-w-cicek",
+        "a1-w-hediye"
+      ],
+      "at": {
+        "x": 2.25,
+        "y": 0.86,
+        "z": -0.5
+      }
+    },
+    "vazo": {
+      "kit": "flowers",
+      "flower": "tulip",
+      "terms": [
+        "a1-w-vazo"
+      ],
+      "at": {
+        "x": 2.85,
+        "y": 0.86,
+        "z": -0.55
+      }
+    },
+    "kurdele": {
+      "kit": "party",
+      "variant": "ribbon",
+      "decor": true,
+      "at": {
+        "x": 1.95,
+        "y": 0.86,
+        "z": -0.5
+      }
+    },
+    "sulama": {
+      "kit": "garden_kit",
+      "variant": "watering_can",
+      "decor": true,
+      "at": {
+        "x": -2.65,
+        "y": 0,
+        "z": -1.7
+      }
+    },
+    "saksi": {
+      "kit": "potted",
+      "variant": "chrysanthemum",
+      "n": 2,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "at": {
+        "x": 3.3,
+        "y": 1.2,
+        "z": -2.0
+      }
+    },
+    "kaktus": {
+      "kit": "potted",
+      "variant": "cactus",
+      "n": 3,
+      "decor": true,
+      "at": {
+        "x": 3.3,
+        "y": 0.62,
+        "z": -2.0
+      }
+    },
+    "ambalaj": {
+      "kit": "party",
+      "variant": "wrapping",
+      "decor": true,
+      "at": {
+        "x": 1.55,
+        "y": 0.86,
+        "z": -0.55
+      }
+    },
+    "levha": {
+      "kit": "sign_board",
+      "variant": "plate",
+      "label": "ÇİÇEKÇİ",
+      "sub": "Feriköy",
+      "w": 120,
+      "h": 34,
+      "terms": [
+        "a2-w-cicekci",
+        "a1-w-cicek"
+      ],
+      "at": {
+        "x": 0.2,
+        "y": 2.42,
+        "z": -2.15
+      }
+    }
+  }
+}

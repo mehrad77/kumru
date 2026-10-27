@@ -1,0 +1,5 @@
+@layer features {
+.dgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.dchip{display:flex;align-items:center;justify-content:space-between;gap:8px;border:0;background:var(--surface);box-shadow:var(--shadow-float);border-radius:var(--radius-md);padding:10px 12px;min-height:52px;text-align:start;color:var(--ink);font-weight:400;font-size:14px;transition:transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base)}
+.dchip:hover{box-shadow:var(--shadow-card)}.dchip:active{transform:scale(.97)}
+}

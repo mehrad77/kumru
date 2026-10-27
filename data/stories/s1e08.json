@@ -1,0 +1,666 @@
+{
+  "arc": {
+    "en": "Where's home?",
+    "fa": "خانه کجاست؟",
+    "id": "s1w02",
+    "mechanics": [
+      "say",
+      "explore",
+      "act",
+      "aloud"
+    ],
+    "tr": "Ev nerede?"
+  },
+  "cast": [
+    "zafer",
+    "yusuf",
+    "tolga",
+    "nima"
+  ],
+  "extras": [
+    "alex",
+    "parvaneh",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "do": "phone",
+      "en": "I'm the estate agent! Hello, how can I help?",
+      "fa": "من بنگاهی‌ام! الو، بفرمایید!",
+      "to": "nima",
+      "tr": "Ben emlakçıyım! Alo, buyurun!",
+      "who": "yusuf"
+    },
+    {
+      "choice": {
+        "id": "fu_kira",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "How much is the rent?",
+            "fa": "اجاره چند لیره؟",
+            "ok": true,
+            "react": {
+              "yusuf": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Twenty thousand lira!",
+                "fa": "بیست هزار لیر!",
+                "tr": "Yirmi bin lira!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Kira kaç lira?"
+          },
+          {
+            "en": "The rent is which in the row?",
+            "fa": "اجاره چندمه؟",
+            "react": {
+              "yusuf": "confused"
+            },
+            "reply": [
+              {
+                "en": "Which in the row? No: how much? Twenty thousand!",
+                "fa": "چندم؟ نه: چند لیر؟ بیست هزار!",
+                "tr": "Kaçıncı? Hayır: kaç lira? Yirmi bin!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Kira kaçıncı?"
+          }
+        ],
+        "to": "yusuf"
+      }
+    },
+    {
+      "en": "Which floor?",
+      "fa": "طبقه‌ی چندم؟",
+      "to": "yusuf",
+      "tr": "Kaçıncı kat?",
+      "who": "nima"
+    },
+    {
+      "en": "The fourth floor!",
+      "fa": "طبقه‌ی چهارم!",
+      "to": "nima",
+      "tr": "Dördüncü kat!",
+      "who": "yusuf"
+    },
+    {
+      "en": "Is there a kitchen?",
+      "fa": "آشپزخونه داره؟",
+      "to": "yusuf",
+      "tr": "Mutfak var mı?",
+      "who": "nima"
+    },
+    {
+      "en": "There is! A lift… no!",
+      "fa": "داره! آسانسور… نداره!",
+      "to": "nima",
+      "tr": "Var! Asansör… yok!",
+      "who": "yusuf"
+    }
+  ],
+  "gl": {
+    "akşam": [
+      "عصر، شب",
+      "evening"
+    ],
+    "alo": [
+      "الو",
+      "hello (on the phone)"
+    ],
+    "asansör": [
+      "آسانسور",
+      "lift, elevator"
+    ],
+    "beşinci": [
+      "پنجم",
+      "fifth"
+    ],
+    "depozito": [
+      "ودیعه، پیش‌پرداخت",
+      "deposit"
+    ],
+    "emlakçı": [
+      "بنگاهی، مشاورِ املاک",
+      "estate agent"
+    ],
+    "emlakçıyım": [
+      "من بنگاهی‌ام",
+      "I'm the estate agent"
+    ],
+    "feriköy": [
+      "فری‌کؤی (محله‌ای در شیشلی)",
+      "Feriköy (a neighbourhood of Şişli)"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "sayıları": [
+      "عددهای…",
+      "the numbers of… (İstanbul sayıları: Istanbul numbers)"
+    ],
+    "very": [
+      "خیلی (انگلیسی)",
+      "very (in English)"
+    ]
+  },
+  "id": "s1e08",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_2_sayilar",
+    "g_a1_2_kacinci",
+    "g_a1_2_var_yok"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "defter": {
+      "at": {
+        "tomer_corridor": {
+          "x": 0.1,
+          "y": 0,
+          "z": -0.35
+        }
+      },
+      "kit": "book",
+      "shown": false,
+      "terms": [
+        "a1-w-defter",
+        "a1-w-adres"
+      ],
+      "variant": "notebook"
+    },
+    "telefon": {
+      "at": {
+        "tomer_corridor": {
+          "x": 0.75,
+          "y": 0,
+          "z": -0.35
+        }
+      },
+      "kit": "phone",
+      "screen": "Feriköy · 20.000 TL",
+      "shown": false,
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Which floor is the flat on?",
+      "fa": "خانه در طبقه‌ی چندم است؟",
+      "kind": "comp",
+      "options": [
+        "Dördüncü kat",
+        "Beşinci kat",
+        "Birinci kat"
+      ],
+      "q": "Ev kaçıncı katta?",
+      "why": "Tolga Bey: “Dördüncü! Asansör? …Yok.”"
+    },
+    {
+      "a": 0,
+      "en": "How much is the rent?",
+      "fa": "اجاره چند لیر است؟",
+      "kind": "word",
+      "options": [
+        "Yirmi bin lira",
+        "Yirmi lira",
+        "İki bin lira"
+      ],
+      "q": "Kira kaç lira?",
+      "why": "Tolga Bey: “Feriköy'de, dördüncü kat, yirmi bin lira…”"
+    },
+    {
+      "a": 0,
+      "en": "Is there a lift?",
+      "fa": "آسانسور هست؟",
+      "kind": "comp",
+      "options": [
+        "Yok",
+        "Var",
+        "Beşinci katta"
+      ],
+      "q": "Asansör var mı?",
+      "why": "Tolga Bey: “Asansör? …Yok.”"
+    }
+  ],
+  "ref": "A1_2",
+  "releaseDate": "2026-09-15",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "board"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Good morning! Today… numbers!",
+      "fa": "صبح بخیر! امروز… عددها!",
+      "narr": true,
+      "tr": "Günaydın! Bugün… sayılar!",
+      "who": "kerim"
+    },
+    {
+      "at": "mark:board",
+      "do": "write",
+      "emo": "neutral",
+      "en": "Twenty thousand, twenty-five thousand… Istanbul numbers! Which floor is this classroom on?",
+      "fa": "بیست هزار، بیست و پنج هزار… عددهای استانبول! این کلاس طبقه‌ی چندمه؟",
+      "to": "all",
+      "tr": "Yirmi bin, yirmi beş bin… İstanbul sayıları! Bu sınıf kaçıncı katta?",
+      "who": "zafer"
+    },
+    {
+      "emo": "proud",
+      "en": "The fifth floor!",
+      "fa": "طبقه‌ی پنجم!",
+      "to": "zafer",
+      "tr": "Beşinci kat!",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "nima": "call",
+        "yusuf": "call_r"
+      },
+      "kerim": "window",
+      "scene": "tomer_corridor",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "show"
+          },
+          {
+            "id": "telefon",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "do": "phone",
+      "emo": "happy",
+      "en": "Hello? How can I help?",
+      "fa": "الو؟ بفرمایید!",
+      "to": "nima",
+      "tr": "Alo? Buyurun!",
+      "who": "yusuf"
+    },
+    {
+      "emo": "nervous",
+      "en": "…",
+      "fa": "…",
+      "to": "yusuf",
+      "tr": "…",
+      "voice": "silent",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "at": "ch:nima",
+        "cam": "close",
+        "sfx": {
+          "id": "clock_tick",
+          "word": "tik tak"
+        }
+      }
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Okay, okay… once more!",
+      "fa": "باشه، باشه… یه بار دیگه!",
+      "to": "nima",
+      "tr": "Tamam, tamam… bir daha!",
+      "who": "yusuf"
+    },
+    {
+      "beat": {
+        "do": "phone",
+        "sfx": {
+          "id": "phone_ring",
+          "word": "dırrr… dırrr…"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "cam": "split",
+      "emo": "happy",
+      "en": "Hello, how can I help?",
+      "fa": "الو، بفرمایید!",
+      "tempo": 1.4,
+      "tr": "Alo, buyurun!",
+      "via": "phone",
+      "who": "tolga"
+    },
+    {
+      "emo": "nervous",
+      "en": "Hello, good day! A flat in Feriköy… is there one?",
+      "fa": "الو، روزتون بخیر! توی فری‌کؤی خونه… هست؟",
+      "to": "tolga",
+      "tr": "Alo, iyi günler! Feriköy'de ev… var mı?",
+      "who": "nima"
+    },
+    {
+      "cam": "split",
+      "emo": "happy",
+      "en": "Yes, yes! In Feriköy, fourth floor, twenty thousand lira, deposit one month's rent, very nice, very clean…",
+      "fa": "هست، هست! توی فری‌کؤی، طبقه‌ی چهارم، بیست هزار لیر، ودیعه یه ماه اجاره، خیلی قشنگ، خیلی تمیز…",
+      "react": {
+        "nima": {
+          "emo": "confused"
+        }
+      },
+      "tempo": 1.5,
+      "tr": "Var, var! Feriköy'de, dördüncü kat, yirmi bin lira, depozito bir kira, çok güzel, çok temiz…",
+      "via": "phone",
+      "who": "tolga"
+    },
+    {
+      "choice": {
+        "id": "yavas",
+        "kind": "meaning",
+        "options": [
+          {
+            "do": "hand_heart",
+            "en": "Slowly, please!",
+            "fa": "آروم‌تر، لطفاً!",
+            "ok": true,
+            "react": {
+              "tolga": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "cam": "split",
+                "emo": "happy",
+                "en": "Of course, of course! Slowly… Twenty. Thousand. Lira.",
+                "fa": "البته، البته! آروم… بیست. هزار. لیر.",
+                "tempo": 0.7,
+                "tr": "Tabii, tabii! Yavaş… Yirmi. Bin. Lira.",
+                "via": "phone",
+                "who": "tolga"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Yavaş, lütfen!"
+          },
+          {
+            "do": "nod",
+            "en": "Yes, yes!",
+            "fa": "بله، بله!",
+            "react": {
+              "tolga": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "cam": "split",
+                "emo": "happy",
+                "en": "Great! Wednesday! See you!",
+                "fa": "عالیه! چهارشنبه! می‌بینمتون!",
+                "tempo": 1.5,
+                "tr": "Tamam! Çarşamba! Görüşürüz!",
+                "via": "phone",
+                "who": "tolga"
+              },
+              {
+                "beat": {
+                  "emo": "confused",
+                  "sfx": {
+                    "id": "ui_tap",
+                    "word": "dıt… dıt… dıt…"
+                  },
+                  "who": "nima"
+                }
+              },
+              {
+                "emo": "surprised",
+                "en": "Nima! How much? Which floor?",
+                "fa": "نیما! چند لیر؟ طبقه‌ی چندم؟",
+                "to": "nima",
+                "tr": "Nima! Kaç lira? Kaçıncı kat?",
+                "who": "yusuf"
+              },
+              {
+                "beat": {
+                  "obj": [
+                    {
+                      "id": "telefon",
+                      "op": "take"
+                    }
+                  ],
+                  "sfx": {
+                    "id": "phone_ring",
+                    "word": "dırrr…"
+                  },
+                  "who": "yusuf"
+                }
+              },
+              {
+                "do": "phone",
+                "emo": "happy",
+                "en": "Hello, good day! Slowly, please!",
+                "fa": "الو، روزتون بخیر! آروم‌تر، لطفاً!",
+                "to": "tolga",
+                "tr": "Alo, iyi günler! Yavaş, lütfen!",
+                "who": "yusuf"
+              },
+              {
+                "beat": {
+                  "obj": [
+                    {
+                      "id": "telefon",
+                      "op": "give",
+                      "to": "nima"
+                    }
+                  ],
+                  "who": "yusuf"
+                }
+              },
+              {
+                "cam": "split",
+                "en": "All right… Twenty. Thousand. Lira.",
+                "fa": "باشه… بیست. هزار. لیر.",
+                "tempo": 0.7,
+                "tr": "Tamam… Yirmi. Bin. Lira.",
+                "via": "phone",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, evet!"
+          },
+          {
+            "do": "shrug",
+            "emo": "sad",
+            "en": "Turkish… none.",
+            "fa": "ترکی… نه.",
+            "react": {
+              "tolga": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "cam": "split",
+                "emo": "nervous",
+                "en": "Very… nice! Very… house!",
+                "fa": "وِری… قشنگ! وِری… خونه!",
+                "tr": "Very… güzel! Very… ev!",
+                "via": "phone",
+                "who": "tolga"
+              },
+              {
+                "cam": "split",
+                "emo": "happy",
+                "en": "All right, Turkish! Slowly… Twenty. Thousand. Lira.",
+                "fa": "باشه، ترکی! آروم… بیست. هزار. لیر.",
+                "tempo": 0.7,
+                "tr": "Tamam, Türkçe! Yavaş… Yirmi. Bin. Lira.",
+                "via": "phone",
+                "who": "tolga"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Türkçe… yok."
+          }
+        ],
+        "to": "tolga"
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "Which floor?",
+      "fa": "طبقه‌ی چندم؟",
+      "to": "tolga",
+      "tr": "Kaçıncı kat?",
+      "who": "nima"
+    },
+    {
+      "cam": "split",
+      "emo": "sorry",
+      "en": "The fourth! A lift? …No.",
+      "fa": "چهارم! آسانسور؟ …نداره.",
+      "tempo": 1.2,
+      "tr": "Dördüncü! Asansör? …Yok.",
+      "via": "phone",
+      "who": "tolga"
+    },
+    {
+      "emo": "curious",
+      "en": "Is there a kitchen?",
+      "fa": "آشپزخونه داره؟",
+      "to": "tolga",
+      "tr": "Mutfak var mı?",
+      "who": "nima"
+    },
+    {
+      "cam": "split",
+      "emo": "happy",
+      "en": "There is! The address: Feriköy, number twelve. Wednesday evening?",
+      "fa": "داره! آدرس: فری‌کؤی، پلاکِ دوازده. چهارشنبه عصر؟",
+      "tempo": 1.4,
+      "tr": "Var! Adres: Feriköy, numara on iki. Çarşamba akşam?",
+      "via": "phone",
+      "who": "tolga"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "All right!",
+      "fa": "باشه!",
+      "to": "tolga",
+      "tr": "Tamam!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "do": "write",
+        "obj": [
+          {
+            "id": "defter",
+            "op": "show"
+          },
+          {
+            "id": "defter",
+            "op": "take"
+          },
+          {
+            "id": "defter",
+            "op": "set",
+            "set": {
+              "lines": [
+                "Feriköy · No 12",
+                "4. kat · 20.000 TL",
+                "Çarşamba akşam"
+              ]
+            }
+          }
+        ],
+        "sfx": {
+          "id": "pen_scratch",
+          "word": "cız cız"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "spot": {
+        "en": "Kaçıncı? asks about order: “which one in the row?” The answer takes -(I)ncI: bir → birinci, iki → ikinci, üç → üçüncü, dört → dördüncü (t becomes d), beş → beşinci. After a vowel it is only -ncI: iki → ikinci, altı → altıncı. The class is on the beşinci kat; the flat is on the dördüncü kat.",
+        "ex": "Beşinci kat!",
+        "fa": "«kaçıncı?» ترتیب را می‌پرسد: «چندمی؟». جواب پسوندِ -(I)ncI می‌گیرد، مثلِ «ـُم» در فارسی: bir → birinci (اول)، iki → ikinci (دوم)، üç → üçüncü (سوم)، dört → dördüncü (چهارم؛ t می‌شود d)، beş → beşinci (پنجم). بعد از واکه فقط -ncI می‌آید: iki → ikinci، altı → altıncı. کلاس در beşinci kat است؛ خانه در dördüncü kat.",
+        "lesson": "g_a1_2_kacinci"
+      }
+    },
+    {
+      "at": {},
+      "kerim": "foot",
+      "scene": "flat_nima_stairs",
+      "time": "dusk"
+    },
+    {
+      "cam": "follow",
+      "do": "count",
+      "en": "How many floors? One, two, three, four… the fourth floor. There's no lift. Coo-coo-coo!",
+      "fa": "چند طبقه؟ یک، دو، سه، چهار… طبقه‌ی چهارم. آسانسور نداره. کو-کو-کو!",
+      "move": {
+        "how": "fly",
+        "to": "landing_4",
+        "via": [
+          "landing_1",
+          "landing_2",
+          "landing_3"
+        ],
+        "who": "kerim"
+      },
+      "n": 4,
+      "narr": true,
+      "tr": "Kaç kat? Bir, iki, üç, dört… dördüncü kat. Asansör yok. Ku-ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Big numbers in class, then Nima calls about the Feriköy ad. The rehearsal with Yusuf ends in a freeze; the real estate agent, Tolga Bey, talks far too fast, but a viewing is booked for Wednesday evening.",
+  "summaryFa": "سرِ کلاس عددهای بزرگ را یاد می‌گیرند، بعد نیما برای آگهیِ فری‌کؤی زنگ می‌زند. تمرینِ تلفن با یوسف به سکوت می‌کشد؛ بنگاهی، آقای تولگا، خیلی تند حرف می‌زند، ولی قرارِ دیدنِ خانه برای چهارشنبه عصر گذاشته می‌شود.",
+  "title": "Alo?",
+  "titleEn": "Hello?",
+  "titleFa": "الو؟",
+  "words": [
+    "a1-w-kacinci",
+    "a1-w-bin",
+    "a1-w-lira",
+    "a1-w-kac",
+    "a1-w-adres",
+    "a1-w-bugun",
+    "a1-w-yavas"
+  ]
+}

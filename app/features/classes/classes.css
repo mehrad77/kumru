@@ -1,0 +1,45 @@
+/* Classes: the class page (hero, board, shares), the editor, the rows on the Friends and Profile cards, and the teacher's box for a
+   member. The person rows and the board list are ui/people.css. */
+@layer features {
+/* class page: a full page below the sheets (z 60), so members and forms open above it */
+.cl-page{z-index:55}
+.cc-sage{--cc:#6E8B5A}.cc-sand{--cc:#B8975A}.cc-sky{--cc:#4F8FB8}.cc-rose{--cc:#C9677A}.cc-plum{--cc:#8A6BB0}.cc-sun{--cc:#D9A21F}
+.cl-hero{display:grid;grid-template-columns:auto 1fr auto;gap:10px 16px;align-items:center;padding:20px;background:linear-gradient(135deg,color-mix(in srgb,var(--cc,#6E8B5A) 20%,var(--surface)),var(--surface) 70%)}
+.cl-hero .cl-desc{margin:-2px 0 0;font-size:16px;line-height:1.5;white-space:pre-line;overflow-wrap:anywhere}
+.cl-adddesc{justify-self:start;padding:0;margin-top:-4px;font-size:15px}
+.cl-hero .acc-actions{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap}
+.cl-info{display:grid;gap:8px;min-width:0}.cl-title{margin:0;font:400 30px/1.15 var(--sans);letter-spacing:-.02em;overflow-wrap:anywhere}
+.cl-meta{display:flex;gap:6px;flex-wrap:wrap}.cl-meta .pchip svg{width:14px;height:14px}
+@media (max-width:420px){.cl-title{font-size:26px}.cl-hero{gap:10px 12px}}
+.cl-hero>.btn.bad{align-self:start}
+.cl-badge{background:color-mix(in srgb,var(--cc,#6E8B5A) 22%,var(--surface));color:var(--cc,#6E8B5A)}
+.cl-badge.cl-badge-lg{width:56px;height:56px;border-radius:18px}.cl-badge.cl-badge-lg svg{width:28px;height:28px}
+.cl-board{padding:16px;display:grid;gap:10px}.cl-board h2{margin:0;font:400 22px/1.2 var(--sans)}
+/* the class editor */
+.cl-prev{display:flex;align-items:center;gap:12px;padding:12px;border-radius:var(--radius-lg);background:var(--sunken)}.cl-prev b{font-size:18px;overflow-wrap:anywhere}
+.cl-pick{display:flex;flex-wrap:wrap;gap:8px}
+.cl-opt{width:46px;height:46px;border-radius:14px;border:2px solid transparent;background:var(--sunken);color:var(--cc);display:grid;place-items:center;padding:0}
+.cl-opt svg{width:22px;height:22px}.cl-opt[aria-pressed="true"]{border-color:var(--ink);background:color-mix(in srgb,var(--cc) 22%,var(--surface))}
+.cl-sw{width:38px;height:38px;border-radius:50%;border:3px solid var(--surface);background:var(--cc);box-shadow:var(--shadow-float);padding:0}
+.cl-sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--ink)}
+
+/* the class rows and badges (the Friends card, the Profile card) */
+.cl-badge{display:grid;place-items:center;width:40px;height:40px;border-radius:14px;font-weight:700}
+.cl-member{align-items:flex-start}
+.cl-badge svg{width:20px;height:20px}
+.cl-nm{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.cl-role{font-size:11px;padding:1px 9px;background:var(--sunken);color:var(--muted)}
+.cl-role.teach{background:var(--accent-soft);color:var(--ink);font-weight:600}
+.cl-group{margin-top:6px}
+.cl-danger{display:grid;gap:8px;margin-top:6px;padding-top:14px;border-top:1px solid var(--line)}.cl-danger .hint{margin:0}
+/* a member's teacher box and shared book summary */
+.cl-tbox{display:grid;gap:6px;padding:12px 14px;border-radius:var(--radius-md);background:var(--accent-soft)}
+.cl-tbox p{margin:0}.cl-trow{display:flex;justify-content:space-between;gap:12px;font-size:14px}.cl-trow b{text-align:end;font-weight:600}
+.cl-bunits{display:flex;flex-wrap:wrap;gap:6px}
+.cl-bchip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:var(--surface);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.cl-bchip b{font-weight:600}.cl-bchip i{font-style:normal;color:var(--muted)}
+.cl-bchip.done{background:var(--good-soft);color:var(--good)}.cl-bchip.done i{color:inherit;font-weight:700}
+.cl-shares{display:grid}
+.cl-bline{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin-top:2px}.cl-bline .hint{font-size:13px}
+.cl-bpill svg{width:13px;height:13px}
+}

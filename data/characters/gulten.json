@@ -1,0 +1,153 @@
+{
+  "address": {
+    "maria": "siz",
+    "nima": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima… a fresh customer!",
+        "fa": "نیما… یه مشتریِ تازه!",
+        "photo": {
+          "step": 11,
+          "story": "s1e32"
+        },
+        "tr": "Nima… taze bir müşteri!"
+      },
+      "family": {
+        "en": "The freshest flowers, for Nima.",
+        "fa": "تازه‌ترین گل‌ها برای نیما.",
+        "photo": {
+          "step": 9,
+          "story": "s1e36"
+        },
+        "tr": "Nima'ya en taze çiçekler."
+      },
+      "met": {
+        "en": "My geranium customer.",
+        "fa": "مشتریِ شمعدانیِ من.",
+        "photo": {
+          "step": 10,
+          "story": "s1e32"
+        },
+        "tr": "Sardunya müşterim."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.45,
+      "shape": "round"
+    },
+    "face": {
+      "brows": "arched",
+      "eyeColor": "eye_brown",
+      "eyes": "upturned",
+      "marks": [
+        "mole"
+      ],
+      "mouth": "bowed",
+      "nose": "small",
+      "shape": "diamond"
+    },
+    "hair": {
+      "color": "hair_11",
+      "style": "hair_set_short"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_04"
+        ],
+        "id": "bottom_trousers_wide"
+      },
+      "shoes": {
+        "colors": [
+          "fab_24",
+          "fab_22"
+        ],
+        "id": "shoes_clogs_work"
+      },
+      "top": {
+        "colors": [
+          "fab_46"
+        ],
+        "id": "top_blouse"
+      }
+    },
+    "skin": "skin_02",
+    "v": 1,
+    "wear": {
+      "eyes": {
+        "colors": [
+          "met_gold",
+          "len_01"
+        ],
+        "id": "glasses_pushed_up"
+      },
+      "waist": {
+        "colors": [
+          "fab_40",
+          "fab_20"
+        ],
+        "id": "apron_garden"
+      }
+    }
+  },
+  "bio": "In her 60s, from Istanbul; has run the flower shop on the corner of Nima's street for 40 years. Exact, proud and secretly sentimental; corrects everyone.",
+  "bioFa": "شصت و چند ساله، اهلِ استانبول؛ چهل سال است گل‌فروشیِ سرِ نبشِ خیابانِ نیما را می‌گرداند. دقیق و مغرور است و در دل احساساتی؛ حرفِ همه را تصحیح می‌کند.",
+  "catch": {
+    "en": "This one is the freshest!",
+    "fa": "این از همه تازه‌تر است!",
+    "tr": "Bu en tazesi!"
+  },
+  "circle": "neighbourhood",
+  "color": "#D18A1C",
+  "id": "gulten",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "mid",
+    "signature": [
+      "point",
+      "stop",
+      "hold_up"
+    ],
+    "tempo": 0.9
+  },
+  "name": "Gülten",
+  "nameFa": "گولتن",
+  "order": 12,
+  "outfits": {
+    "out": {
+      "outfit": {
+        "bottom": {
+          "colors": [
+            "fab_04"
+          ],
+          "id": "bottom_skirt_a_line"
+        },
+        "shoes": {
+          "colors": [
+            "fab_20"
+          ],
+          "id": "shoes_flats"
+        }
+      },
+      "wear": {
+        "waist": null
+      }
+    }
+  },
+  "places": [
+    "cicekci"
+  ],
+  "role": "The florist on the corner in Feriköy",
+  "roleFa": "گل‌فروشِ سرِ نبش در فری‌کؤی",
+  "voice": {
+    "pitch": 1.0,
+    "rate": 0.95
+  }
+}

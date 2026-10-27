@@ -1,0 +1,540 @@
+{
+  "arc": {
+    "en": "The exam and the holiday",
+    "fa": "امتحان و جشن",
+    "id": "s1w08",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud",
+      "unlocks"
+    ],
+    "tr": "Sınav ve bayram"
+  },
+  "cast": [
+    "nima",
+    "dilnoza",
+    "parvaneh",
+    "yusuf",
+    "alex",
+    "berfin"
+  ],
+  "followUp": [
+    {
+      "en": "And you? What do you want to do after A1?",
+      "fa": "تو چی؟ بعد از A1 می‌خوای چی‌کار کنی؟",
+      "to": "nima",
+      "tr": "Ya sen? A1'den sonra ne yapmak istiyorsun?",
+      "who": "berfin"
+    },
+    {
+      "choice": {
+        "id": "fu_sonra",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I want to study Turkish! One more course!",
+            "fa": "می‌خوام ترکی بخونم! یه دوره‌ی دیگه!",
+            "ok": true,
+            "react": {
+              "berfin": "happy"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Great! One more tea?",
+                "fa": "عالیه! یه چای دیگه؟",
+                "tr": "Süper! Bir çay daha?",
+                "who": "berfin"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Türkçe çalışmak istiyorum! Bir kurs daha!"
+          },
+          {
+            "en": "First a holiday… then school!",
+            "fa": "اول تعطیلات… بعد مدرسه!",
+            "react": {
+              "berfin": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Good plan! One more tea?",
+                "fa": "برنامه‌ی خوبیه! یه چای دیگه؟",
+                "tr": "Güzel plan! Bir çay daha?",
+                "who": "berfin"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Önce tatil… sonra okul!"
+          }
+        ],
+        "to": "berfin"
+      }
+    }
+  ],
+  "gl": {
+    "a1": [
+      "A1 (سطحِ اول)",
+      "A1 (the first level)"
+    ],
+    "a2": [
+      "A2 (سطحِ دوم)",
+      "A2 (the next level)"
+    ],
+    "b2": [
+      "B2 (سطحِ چهارم؛ سطحی که دانشگاه می‌خواهد)",
+      "B2 (the fourth level, the one university needs)"
+    ],
+    "belki": [
+      "شاید",
+      "maybe"
+    ],
+    "buyrun": [
+      "بفرمایید",
+      "here you are; please (buyurun, said quickly)"
+    ],
+    "damlaya": [
+      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    ],
+    "hostelde": [
+      "در هاستل",
+      "at the hostel"
+    ],
+    "hostelim": [
+      "هاستلِ من",
+      "my hostel"
+    ],
+    "maria": [
+      "ماریا (همسایه‌ی طبقه‌ی پنجم)",
+      "Maria (the neighbour on the fifth floor)"
+    ],
+    "musun": [
+      "آیا… تو؟ (mu + -sun، سؤال)",
+      "question particle mu + -sun (you)"
+    ],
+    "rehberi": [
+      "راهنما را (rehber: راهنما)",
+      "the guide (rehber: guide)"
+    ],
+    "tıp": [
+      "پزشکی",
+      "medicine (the field)"
+    ],
+    "من": [
+      "من (به فارسی)",
+      "I (Persian)"
+    ],
+    "میترسم": [
+      "می‌ترسم (به فارسی)",
+      "I'm scared (Persian)"
+    ]
+  },
+  "id": "s1e45",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_3_simdiki",
+    "g_a1_3_mak_istemek",
+    "g_a1_5_once_sonra"
+  ],
+  "level": "A1",
+  "place": "cafe_berfin",
+  "props": {
+    "caylar": {
+      "at": {
+        "x": -1.15,
+        "y": 0.75,
+        "z": -1.0
+      },
+      "hot": true,
+      "kit": "tea",
+      "n": 5,
+      "shown": false,
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bardak"
+      ],
+      "variant": "glass"
+    },
+    "kumbara": {
+      "at": {
+        "x": -0.35,
+        "y": 0.75,
+        "z": -1.0
+      },
+      "kit": "jar",
+      "label": "FARSÇA: 1 LİRA",
+      "n": 60,
+      "terms": [
+        "a1-w-para"
+      ],
+      "variant": "coins"
+    }
+  },
+  "quiz": [
+    {
+      "a": 1,
+      "en": "What does Yusuf want?",
+      "fa": "یوسف چه می‌خواهد؟",
+      "kind": "comp",
+      "options": [
+        "A2",
+        "B2",
+        "Çay"
+      ],
+      "q": "Yusuf ne istiyor?",
+      "why": "“Ben B2 istiyorum. Tıp için.”"
+    },
+    {
+      "a": 1,
+      "en": "What does Parvaneh say about Friday?",
+      "fa": "پروانه درباره‌ی جمعه چه می‌گوید؟",
+      "kind": "word",
+      "options": [
+        "Ben yorgunum.",
+        "Ben korkuyorum.",
+        "Ben dönüyorum."
+      ],
+      "q": "Parvane cuma için ne diyor?",
+      "why": "“…Ben korkuyorum. Cuma.”"
+    },
+    {
+      "a": 0,
+      "en": "What does Alex say about Saturday?",
+      "fa": "الکس درباره‌ی شنبه چه می‌گوید؟",
+      "kind": "comp",
+      "options": [
+        "Kadıköy'e gelin!",
+        "Taksim'e gelin!",
+        "Kafeye gelin!"
+      ],
+      "q": "Alex cumartesi için ne diyor?",
+      "why": "“Cumartesi Kadıköy'e gelin!”"
+    }
+  ],
+  "ref": "A1_6",
+  "releaseDate": "2026-10-28",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_2",
+        "berfin": "counter",
+        "dilnoza": "seat_1",
+        "nima": "seat_5",
+        "parvaneh": "seat_4",
+        "yusuf": "seat_3"
+      },
+      "kerim": "awning",
+      "scene": "cafe_berfin",
+      "state": [
+        "big_table",
+        "flags"
+      ],
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "kedi",
+            "op": "go",
+            "to": "outside"
+          }
+        ]
+      }
+    },
+    {
+      "en": "A half day! Tomorrow's the holiday, Friday's the exam.",
+      "fa": "نصفه‌روز! فردا جشنه، جمعه امتحان.",
+      "narr": true,
+      "tr": "Yarım gün! Yarın bayram, cuma sınav.",
+      "who": "kerim"
+    },
+    {
+      "at": "ch:dilnoza",
+      "do": "give",
+      "emo": "happy",
+      "en": "Here's your tea! What are you studying today?",
+      "fa": "بفرمایید، چای! امروز چی می‌خونید؟",
+      "move": {
+        "how": "walk",
+        "to": "team_class",
+        "who": "berfin"
+      },
+      "obj": [
+        {
+          "id": "caylar",
+          "op": "show"
+        }
+      ],
+      "to": "all",
+      "tr": "Buyrun, çaylar! Bugün ne çalışıyorsunuz?",
+      "who": "berfin"
+    },
+    {
+      "emo": "proud",
+      "en": "Speaking! We wrote the guide together… now we're speaking together!",
+      "fa": "مکالمه! راهنما رو با هم نوشتیم… حالا با هم حرف می‌زنیم!",
+      "if": "s1e36_credit",
+      "react": {
+        "nima": "happy"
+      },
+      "to": "berfin",
+      "tr": "Konuşma! Rehberi beraber yazdık… şimdi beraber konuşuyoruz!",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "happy",
+      "en": "Speaking!",
+      "fa": "مکالمه!",
+      "to": "berfin",
+      "tr": "Konuşma!",
+      "unless": "s1e36_credit",
+      "who": "dilnoza"
+    },
+    {
+      "at": "obj:kumbara",
+      "do": "look",
+      "emo": "happy",
+      "en": "Dilnoza's rule: one question each… and only Turkish!",
+      "fa": "قانونِ دلنوزا: هر کی یه سؤال… و فقط ترکی!",
+      "react": {
+        "parvaneh": {
+          "at": "obj:kumbara",
+          "do": "look",
+          "emo": "shy"
+        }
+      },
+      "to": "all",
+      "tr": "Dilnoza'nın kuralı: herkes bir soru… ve sadece Türkçe!",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "Alex, are you coming to A2?",
+      "fa": "الکس، A2 میای؟",
+      "to": "alex",
+      "tr": "Alex, A2'ye geliyor musun?",
+      "who": "dilnoza"
+    },
+    {
+      "do": "shrug",
+      "emo": "tired",
+      "en": "I don't know. I work nights at the hostel… I'm so tired. Maybe I'm going back to Russia. …And you, Yusuf?",
+      "fa": "نمی‌دونم. شب‌ها توی هاستل کار می‌کنم… خیلی خسته‌م. شاید برگردم روسیه. …تو چی، یوسف؟",
+      "to": "yusuf",
+      "tr": "Bilmiyorum. Gece hostelde çalışıyorum… çok yorgunum. Belki Rusya'ya dönüyorum. …Ya sen, Yusuf?",
+      "who": "alex"
+    },
+    {
+      "emo": "sad",
+      "en": "I want B2. For medicine. But B2… is so far away.",
+      "fa": "من B2 می‌خوام. برای پزشکی. ولی B2… خیلی دوره.",
+      "to": "alex",
+      "tr": "Ben B2 istiyorum. Tıp için. Ama B2… çok uzak.",
+      "who": "yusuf"
+    },
+    {
+      "emo": "happy",
+      "en": "Drop by drop, a lake forms!",
+      "fa": "قطره‌قطره جمع گردد، وانگهی دریا شود!",
+      "to": "yusuf",
+      "tr": "Damlaya damlaya göl olur!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Nice! Who is that from?",
+      "fa": "قشنگه! مالِ کیه؟",
+      "to": "nima",
+      "tr": "Güzel! Kimden?",
+      "who": "yusuf"
+    },
+    {
+      "emo": "happy",
+      "en": "From Maria Teyze!",
+      "fa": "از خاله ماریا!",
+      "react": {
+        "yusuf": "laugh"
+      },
+      "to": "yusuf",
+      "tr": "Maria Teyze'den!",
+      "who": "nima"
+    },
+    {
+      "at": "ch:parvaneh",
+      "do": "you",
+      "emo": "curious",
+      "en": "And you, Parvaneh?",
+      "fa": "تو چی، پروانه؟",
+      "to": "parvaneh",
+      "tr": "Ya sen, Parvane?",
+      "who": "yusuf"
+    },
+    {
+      "emo": "nervous",
+      "en": "Man mitarsam… (in Persian) …I'm scared. Friday.",
+      "fa": "من می‌ترسم… …(به ترکی) می‌ترسم. جمعه.",
+      "obj": [
+        {
+          "id": "kumbara",
+          "n": 1,
+          "op": "add"
+        }
+      ],
+      "sfx": {
+        "id": "coin_clink",
+        "word": "şıngır"
+      },
+      "to": "yusuf",
+      "tr": "من میترسم… …Ben korkuyorum. Cuma.",
+      "who": "parvaneh"
+    },
+    {
+      "choice": {
+        "id": "korku",
+        "kind": "polite",
+        "options": [
+          {
+            "at": "ch:parvaneh",
+            "do": "you",
+            "emo": "happy",
+            "en": "Don't be scared! You're a really good student. We're studying together.",
+            "fa": "نترس! تو خیلی شاگردِ خوبی هستی. با هم درس می‌خونیم.",
+            "ok": true,
+            "react": {
+              "parvaneh": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "OK! Easy! …And you, Nima? What are you doing on Saturday?",
+                "fa": "باشه! آسونه! …تو چی، نیما؟ شنبه چی‌کار می‌کنی؟",
+                "to": "nima",
+                "tr": "Tamam! Kolay! …Ya sen, Nima? Cumartesi ne yapıyorsun?",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Korkma! Sen çok iyi bir öğrencisin. Beraber çalışıyoruz."
+          },
+          {
+            "do": "me",
+            "emo": "laugh",
+            "en": "I'm scared too!",
+            "fa": "منم می‌ترسم!",
+            "react": {
+              "dilnoza": "laugh",
+              "parvaneh": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "We're all scared!",
+                "fa": "همه‌مون می‌ترسیم!",
+                "to": "all",
+                "tr": "Hepimiz korkuyoruz!",
+                "who": "dilnoza"
+              },
+              {
+                "emo": "happy",
+                "en": "…And you, Nima? What are you doing on Saturday?",
+                "fa": "…تو چی، نیما؟ شنبه چی‌کار می‌کنی؟",
+                "to": "nima",
+                "tr": "…Ya sen, Nima? Cumartesi ne yapıyorsun?",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Ben de korkuyorum!",
+            "warm": {
+              "parvaneh": 1
+            }
+          },
+          {
+            "emo": "happy",
+            "en": "Easy!",
+            "fa": "آسونه!",
+            "react": {
+              "parvaneh": {
+                "emo": "sad"
+              }
+            },
+            "reply": [
+              {
+                "emo": "nervous",
+                "en": "Um… Nima, what are you doing on Saturday?",
+                "fa": "اِم… نیما، شنبه چی‌کار می‌کنی؟",
+                "to": "nima",
+                "tr": "Şey… Nima, cumartesi ne yapıyorsun?",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Kolay!"
+          }
+        ],
+        "to": "parvaneh"
+      }
+    },
+    {
+      "emo": "sad",
+      "en": "Tea on the Bosphorus… I still haven't had it!",
+      "fa": "چای کنارِ بسفر… هنوز نخوردم!",
+      "tr": "Boğaz'da çay… daha içmedim!",
+      "who": "nima"
+    },
+    {
+      "do": "beckon",
+      "emo": "surprised",
+      "en": "Come to Kadıköy on Saturday! My hostel, the ferry, tea on the ferry!",
+      "fa": "شنبه بیاین کادیکوی! هاستلِ من، کشتی، چای توی کشتی!",
+      "to": "all",
+      "tr": "Cumartesi Kadıköy'e gelin! Benim hostelim, vapur, vapurda çay!",
+      "who": "alex"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Tea on the ferry! Yes!",
+      "fa": "چای توی کشتی! آره!",
+      "to": "alex",
+      "tr": "Vapurda çay! Evet!",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "en": "A1 has no future tense yet, so plans are said with -(I)yor: “A2'ye geliyor musun?” (Are you coming to A2?), “Belki Rusya'ya dönüyorum.” (Maybe I'm going back to Russia). A wish takes istemek: “Ben B2 istiyorum.” The title is -DAn sonra: A1'den sonra, after A1. And “daha içmedim” is -DI's negative with daha: “I haven't had it yet”.",
+        "ex": "A2'ye geliyor musun?",
+        "fa": "A1 هنوز زمانِ آینده ندارد، برای همین برنامه‌ها را با -(I)yor می‌گوییم: «A2'ye geliyor musun?» (A2 می‌آیی؟)، «Belki Rusya'ya dönüyorum.» (شاید برگردم روسیه). خواستن با istemek است: «Ben B2 istiyorum.» عنوانِ داستان -DAn sonra است: A1'den sonra، یعنی بعد از A1. و «daha içmedim» منفیِ -DI است همراهِ daha: «هنوز نخوردم».",
+        "lesson": "g_a1_3_simdiki"
+      }
+    },
+    {
+      "en": "Five students, one table… and on Saturday: the ferry!",
+      "fa": "پنج تا شاگرد، یه میز… و شنبه: کشتی!",
+      "narr": true,
+      "tr": "Beş öğrenci, bir masa… ve cumartesi: vapur!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "On the half day before the holiday, the class meets at Berfin's café for one last speaking session. Every question is about after A1, and Alex invites everyone to Kadıköy on Saturday.",
+  "summaryFa": "روزِ نیمه‌تعطیلِ پیش از جشن، بچه‌های کلاس برای آخرین تمرینِ مکالمه در کافه‌ی برفین جمع می‌شوند. همه‌ی سؤال‌ها درباره‌ی بعد از A1 است و الکس همه را برای شنبه به کادیکوی دعوت می‌کند.",
+  "title": "A1'den sonra",
+  "titleEn": "After A1",
+  "titleFa": "بعد از A1",
+  "words": [
+    "a1-w-korkmak",
+    "a1-w-istemek",
+    "a1-w-donmek",
+    "a1-w-yorgun",
+    "a1-w-uzak",
+    "a1-w-vapur",
+    "a1-w-cumartesi"
+  ]
+}

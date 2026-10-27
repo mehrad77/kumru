@@ -1,0 +1,381 @@
+{
+  "ambience": [
+    "street_far",
+    "traffic"
+  ],
+  "camera": {
+    "wide": {
+      "w": 8.6,
+      "x": 0,
+      "y1": 2.6,
+      "z": -2.2
+    }
+  },
+  "district": "Mecidiyeköy, Şişli",
+  "id": "flat_farzad_living",
+  "marks": {
+    "balcony_rail": {
+      "x": 1.3,
+      "y": 1.02,
+      "z": -3.45
+    },
+    "door": {
+      "door": "kapi",
+      "out": {
+        "x": -3.8,
+        "z": -3.3
+      },
+      "x": -3.8,
+      "z": -2.15
+    },
+    "hall": {
+      "x": -3.2,
+      "z": -1.3
+    },
+    "host": {
+      "facing": "r",
+      "x": -2.5,
+      "z": -0.8
+    },
+    "kitchen": {
+      "door": "mutfak",
+      "out": {
+        "x": -2.55,
+        "z": -3.3
+      },
+      "x": -2.55,
+      "z": -2.15
+    },
+    "sofa": {
+      "seat": 0.45,
+      "x": 3.0,
+      "z": -1.8
+    },
+    "table_1": {
+      "seat": 0.45,
+      "x": -1.0,
+      "z": -1.85
+    },
+    "table_2": {
+      "seat": 0.45,
+      "x": 0.2,
+      "z": -1.85
+    },
+    "table_3": {
+      "facing": "r",
+      "seat": 0.45,
+      "x": -1.65,
+      "z": -1.25
+    },
+    "table_4": {
+      "facing": "l",
+      "seat": 0.45,
+      "x": 0.85,
+      "z": -1.25
+    }
+  },
+  "motif": "home",
+  "name": {
+    "en": "Farzad's flat",
+    "fa": "خانه‌ی فرزاد",
+    "tr": "Farzad'ın evi"
+  },
+  "perch": "balcony_rail",
+  "pieces": [
+    {
+      "h": 1000,
+      "kit": "skyline",
+      "variant": "sisli",
+      "w": 3400,
+      "x": 0,
+      "z": -24
+    },
+    {
+      "a": "#D2B48C",
+      "b": "#C8A982",
+      "d": 500,
+      "kit": "floor",
+      "tile": 30,
+      "w": 1100,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "color": "#ECE6DA",
+      "h": 400,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 212,
+          "w": 95,
+          "x": -380,
+          "y": 0
+        },
+        {
+          "h": 205,
+          "w": 85,
+          "x": -255,
+          "y": 0
+        },
+        {
+          "h": 235,
+          "w": 170,
+          "x": 130,
+          "y": 0
+        }
+      ],
+      "tiles": 0,
+      "w": 1100,
+      "x": 0,
+      "z": -2.6
+    },
+    {
+      "away": false,
+      "color": "#8A5A3A",
+      "id": "kapi",
+      "kit": "door",
+      "number": "14",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": -3.8,
+      "z": -2.5900000000000003
+    },
+    {
+      "beyond": "#E6E0D0",
+      "color": "#F1EEE6",
+      "h": 200,
+      "id": "mutfak",
+      "kit": "door",
+      "number": " ",
+      "terms": [
+        "a1-w-mutfak"
+      ],
+      "variant": "flat",
+      "w": 80,
+      "x": -2.55,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 225,
+      "id": "balkon",
+      "kit": "balcony",
+      "terms": [
+        "a1-w-balkon"
+      ],
+      "variant": "door",
+      "w": 150,
+      "x": 1.3,
+      "z": -2.5900000000000003
+    },
+    {
+      "id": "masa",
+      "kit": "table",
+      "terms": [
+        "a1-w-masa"
+      ],
+      "variant": "dining",
+      "w": 180,
+      "x": -0.4,
+      "z": -1.3
+    },
+    {
+      "gap": 120,
+      "id": "sandalye",
+      "kit": "chair",
+      "n": 2,
+      "terms": [
+        "a1-w-sandalye"
+      ],
+      "x": -0.4,
+      "z": -1.9
+    },
+    {
+      "facing": "r",
+      "kit": "chair",
+      "x": -1.65,
+      "z": -1.3
+    },
+    {
+      "facing": "l",
+      "kit": "chair",
+      "x": 0.85,
+      "z": -1.3
+    },
+    {
+      "kit": "lamp",
+      "x": -0.4,
+      "y": 2.4,
+      "z": -1.3
+    },
+    {
+      "color": "#5F7A8C",
+      "id": "kanepe",
+      "kit": "sofa",
+      "terms": [
+        "a1-w-kanepe"
+      ],
+      "w": 200,
+      "x": 3.1,
+      "z": -2.15
+    },
+    {
+      "id": "sehpa",
+      "kit": "table",
+      "terms": [
+        "a1-w-sehpa"
+      ],
+      "variant": "tea",
+      "w": 90,
+      "x": 3.1,
+      "z": -1.25
+    },
+    {
+      "color": "#4F6E9E",
+      "d": 160,
+      "id": "hali",
+      "kit": "rug",
+      "terms": [
+        "a1-w-hali"
+      ],
+      "variant": "carpet",
+      "w": 260,
+      "x": 3.0,
+      "z": -1.0
+    },
+    {
+      "kit": "lamp",
+      "variant": "standing",
+      "x": 4.12,
+      "z": -2.3
+    },
+    {
+      "h": 60,
+      "id": "resim",
+      "kit": "picture",
+      "terms": [
+        "a1-w-resim"
+      ],
+      "w": 90,
+      "x": 3.1,
+      "y": 1.45,
+      "z": -2.5900000000000003
+    },
+    {
+      "id": "saat",
+      "kit": "clock",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "6:30",
+      "x": -1.2,
+      "y": 2.0,
+      "z": -2.5900000000000003
+    },
+    {
+      "h": 45,
+      "kit": "shelf",
+      "rows": 1,
+      "variant": "books",
+      "w": 120,
+      "x": -0.4,
+      "y": 1.35,
+      "z": -2.5500000000000003
+    },
+    {
+      "h": 140,
+      "kit": "plant",
+      "x": -4.05,
+      "z": 0.7
+    }
+  ],
+  "props": {
+    "kitaplar": {
+      "at": {
+        "x": 3.3,
+        "y": 0.45,
+        "z": -1.25
+      },
+      "kit": "book",
+      "n": 2,
+      "terms": [
+        "seed-w01"
+      ],
+      "variant": "stack"
+    },
+    "kumanda": {
+      "at": {
+        "x": 2.95,
+        "y": 0.45,
+        "z": -1.25
+      },
+      "decor": true,
+      "kit": "gadget",
+      "variant": "remote"
+    },
+    "meyve": {
+      "at": {
+        "x": -0.4,
+        "y": 0.76,
+        "z": -1.3
+      },
+      "kit": "fruit",
+      "terms": [
+        "a1-w-meyve"
+      ],
+      "variant": "fruit_bowl"
+    },
+    "saksi": {
+      "at": {
+        "x": 4.0,
+        "y": 0,
+        "z": -2.35
+      },
+      "kit": "potted",
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "money_plant"
+    },
+    "terlik": {
+      "at": {
+        "x": -3.25,
+        "y": 0,
+        "z": -2.3
+      },
+      "kit": "footwear",
+      "n": 2,
+      "terms": [
+        "a1-w-terlik"
+      ],
+      "variant": "slippers"
+    },
+    "yastiklar": {
+      "at": {
+        "x": 3.1,
+        "y": 0.47,
+        "z": -2.0
+      },
+      "kit": "linen",
+      "n": 2,
+      "terms": [
+        "a1-w-yastik"
+      ],
+      "variant": "cushion"
+    }
+  },
+  "site": "flat_farzad",
+  "size": {
+    "d": 4.5,
+    "w": 9
+  },
+  "surface": "wood",
+  "times": [
+    "day",
+    "golden",
+    "dusk",
+    "night"
+  ],
+  "v": 1
+}

@@ -1,0 +1,337 @@
+{
+  "ambience": [
+    "waves",
+    "gull",
+    "crowd"
+  ],
+  "camera": {
+    "wide": {
+      "w": 15,
+      "x": 0,
+      "y0": -2.1,
+      "y1": 8.2,
+      "z": -1.5
+    }
+  },
+  "district": "Kadıköy",
+  "id": "kadikoy",
+  "marks": {
+    "arrive_1": {
+      "facing": "r",
+      "x": -1.2,
+      "z": -0.9
+    },
+    "arrive_2": {
+      "facing": "r",
+      "x": -2.4,
+      "z": -1.1
+    },
+    "enter": {
+      "door": "pier",
+      "facing": "r",
+      "out": {
+        "x": -7.4,
+        "z": -0.8
+      },
+      "x": -6.0,
+      "z": -0.8
+    },
+    "gangway": {
+      "door": "pier",
+      "out": {
+        "x": -5.0,
+        "z": 1.2
+      },
+      "x": -4.5,
+      "z": -0.3
+    },
+    "lamp": {
+      "x": 1.6,
+      "y": 3.3,
+      "z": -0.3
+    },
+    "market": {
+      "door": "market_far",
+      "out": {
+        "x": 3.8,
+        "z": -9
+      },
+      "x": 3.8,
+      "z": -3.6
+    },
+    "sign": {
+      "facing": "l",
+      "x": 0.2,
+      "z": -1.0
+    }
+  },
+  "motif": "sea",
+  "name": {
+    "en": "Kadıköy pier",
+    "fa": "اسکله کادیکوی",
+    "tr": "Kadıköy İskelesi"
+  },
+  "outdoor": true,
+  "perch": "lamp",
+  "pieces": [
+    {
+      "kit": "sky_clouds",
+      "x": 0,
+      "z": -60
+    },
+    {
+      "h": 900,
+      "kit": "landmark",
+      "variant": "haydarpasa",
+      "x": -24,
+      "z": -60
+    },
+    {
+      "h": 1100,
+      "kit": "skyline",
+      "near": true,
+      "w": 5000,
+      "x": 6,
+      "z": -40
+    },
+    {
+      "id": "market_far",
+      "kit": "street",
+      "terms": [
+        "seed-w08"
+      ],
+      "variant": "far",
+      "w": 1200,
+      "x": 3.8,
+      "z": -14
+    },
+    {
+      "a": "#B7AFA2",
+      "b": "#AEA698",
+      "d": 1400,
+      "kit": "floor",
+      "tile": 60,
+      "w": 1400,
+      "x": 4.0,
+      "z": -14
+    },
+    {
+      "a": "#B7AFA2",
+      "b": "#AEA698",
+      "d": 590,
+      "kit": "floor",
+      "tile": 60,
+      "w": 2200,
+      "x": 0,
+      "z": -5.9
+    },
+    {
+      "floors": 4,
+      "id": "hostel",
+      "kit": "facade",
+      "variant": "apartment",
+      "w": 520,
+      "x": 7.6,
+      "z": -8
+    },
+    {
+      "goods": "clothes",
+      "kit": "frontage",
+      "variant": "shop",
+      "w": 240,
+      "x": 1.8,
+      "z": -6
+    },
+    {
+      "kit": "frontage",
+      "variant": "pastane",
+      "w": 260,
+      "x": 5.9,
+      "z": -6
+    },
+    {
+      "house": 760,
+      "hx": -260,
+      "id": "pier",
+      "kit": "pier",
+      "ramp": -450,
+      "terms": [
+        "a1-w-iskele"
+      ],
+      "variant": "kadikoy",
+      "w": 2000,
+      "x": 0,
+      "z": 0
+    },
+    {
+      "d": 220,
+      "id": "water",
+      "kit": "sea",
+      "path": "sun",
+      "px": 300,
+      "terms": [
+        "a1-w-deniz"
+      ],
+      "w": 3600,
+      "x": 0,
+      "y": -1.4,
+      "z": 2.6
+    },
+    {
+      "id": "ferry",
+      "kit": "ferry",
+      "len": 1800,
+      "name": "BEŞİKTAŞ",
+      "terms": [
+        "a1-w-vapur"
+      ],
+      "variant": "alongside",
+      "x": -12.7,
+      "y": -1.4,
+      "z": 1.0
+    },
+    {
+      "id": "lamp_posts",
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "variant": "pier",
+      "x": 1.6,
+      "z": -0.3
+    },
+    {
+      "kit": "lamp_post",
+      "variant": "pier",
+      "x": 5.6,
+      "z": -0.3
+    },
+    {
+      "kit": "lamp_post",
+      "variant": "pier",
+      "x": -6.6,
+      "z": -0.3
+    },
+    {
+      "id": "martilar",
+      "kind": "gulls",
+      "kit": "birds",
+      "n": 4,
+      "terms": [
+        "a1-w-kus"
+      ],
+      "x": 0,
+      "x0": -500,
+      "x1": 500,
+      "z": 1.0
+    },
+    {
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 5,
+      "x": 0,
+      "x0": -600,
+      "x1": 600,
+      "z": -2.4
+    },
+    {
+      "dir": -1,
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 3,
+      "x": 5.4,
+      "x0": -60,
+      "x1": 60,
+      "z": -1.8
+    },
+    {
+      "kind": "far",
+      "kit": "crowd",
+      "n": 10,
+      "x": 3.8,
+      "x0": -150,
+      "x1": 150,
+      "z": -12
+    },
+    {
+      "kind": "pigeons",
+      "kit": "birds",
+      "n": 4,
+      "x": 2.6,
+      "x0": -60,
+      "x1": 60,
+      "z": -3.0
+    }
+  ],
+  "props": {
+    "can_simidi": {
+      "at": {
+        "x": 5.85,
+        "y": 1.1,
+        "z": -0.2
+      },
+      "decor": true,
+      "kit": "outing",
+      "variant": "life_ring"
+    },
+    "cop": {
+      "at": {
+        "x": 0.9,
+        "y": 0,
+        "z": -0.4
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "midye": {
+      "at": {
+        "x": -0.8,
+        "y": 0,
+        "z": -3.1
+      },
+      "decor": true,
+      "kit": "vendor",
+      "variant": "midye"
+    },
+    "simit": {
+      "at": {
+        "x": 3.0,
+        "y": 0,
+        "z": -3.4
+      },
+      "kit": "vendor",
+      "terms": [
+        "a2-w-simit"
+      ],
+      "variant": "simit_cart"
+    },
+    "tabela": {
+      "at": {
+        "x": 3.0,
+        "y": 0,
+        "z": -4.4
+      },
+      "h": 40,
+      "kit": "sign_board",
+      "label": "ÇARŞI",
+      "terms": [
+        "seed-w08"
+      ],
+      "variant": "post",
+      "w": 80
+    }
+  },
+  "site": "kadikoy",
+  "size": {
+    "d": 6,
+    "w": 14
+  },
+  "surface": "stone",
+  "times": [
+    "golden"
+  ],
+  "v": 1
+}

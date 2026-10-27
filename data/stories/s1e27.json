@@ -1,0 +1,465 @@
+{
+  "arc": {
+    "en": "What time is it?",
+    "fa": "ساعت چند است؟",
+    "id": "s1w05",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Saat kaç?"
+  },
+  "cast": [
+    "maria",
+    "nima"
+  ],
+  "followUp": [
+    {
+      "en": "This photo is old too. What did this child do?",
+      "fa": "این عکس هم قدیمیه. این بچه چی کار کرد؟",
+      "to": "nima",
+      "tr": "Bu fotoğraf da eski. Bu çocuk ne yaptı?",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "fu_ne_yapti",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "She walked to school.",
+            "fa": "پیاده رفت مدرسه.",
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Yes! She walked every day. And then?",
+                "fa": "آره! هر روز پیاده رفت. بعد؟",
+                "tr": "Evet! Her gün yürüdü. Sonra?",
+                "who": "maria"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Okula yürüdü."
+          },
+          {
+            "en": "She is walking to school.",
+            "fa": "داره پیاده می‌ره مدرسه.",
+            "react": {
+              "maria": "curious"
+            },
+            "reply": [
+              {
+                "en": "Not now: she walked! And then?",
+                "fa": "الان نه: پیاده رفت! بعد؟",
+                "tr": "Şimdi değil: yürüdü! Sonra?",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Okula yürüyor."
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "en": "Then she ate baklava!",
+      "fa": "بعد باقلوا خورد!",
+      "to": "maria",
+      "tr": "Sonra baklava yedi!",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! Everyone ate! And what's in this photo?",
+      "fa": "آره! همه خوردن! خب، توی این عکس چی هست؟",
+      "to": "nima",
+      "tr": "Evet! Herkes yedi! Peki bu fotoğrafta ne var?",
+      "who": "maria"
+    },
+    {
+      "en": "There's a street. There's a school. There's a child!",
+      "fa": "یه کوچه هست. یه مدرسه هست. یه بچه هست!",
+      "to": "maria",
+      "tr": "Bir sokak var. Bir okul var. Bir çocuk var!",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! And that child is now… eighty years old!",
+      "fa": "آره! و اون بچه حالا… هشتاد سالشه!",
+      "to": "nima",
+      "tr": "Evet! Ve o çocuk şimdi… seksen yaşında!",
+      "who": "maria"
+    }
+  ],
+  "gl": {
+    "bayramda": [
+      "در عید (روزهای عید)",
+      "at the bayram (a holiday)"
+    ],
+    "bayramlar": [
+      "عیدها؛ «İyi bayramlar!» یعنی عید مبارک",
+      "holidays; “İyi bayramlar!”: happy holidays"
+    ],
+    "beri": [
+      "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "since; “-DAn beri”: since"
+    ],
+    "evdeyim": [
+      "در خانه هستم؛ «bu evdeyim» یعنی در این خانه هستم",
+      "I am in the house; “bu evdeyim”: I am in this house"
+    ],
+    "fotoğrafta": [
+      "در عکس؛ «bu fotoğrafta» یعنی در این عکس",
+      "in the photo; “bu fotoğrafta”: in this photo"
+    ],
+    "günden": [
+      "از روزِ…؛ «o günden beri» یعنی از آن روز تا حالا",
+      "from the day; “o günden beri”: ever since that day"
+    ],
+    "günüm": [
+      "روزم؛ «doğum günüm» یعنی تولدم",
+      "my day; “doğum günüm”: my birthday"
+    ],
+    "gününüz": [
+      "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "your day; “doğum gününüz”: your birthday"
+    ],
+    "kimse": [
+      "هیچ‌کس",
+      "nobody"
+    ],
+    "komşular": [
+      "همسایه‌ها",
+      "the neighbours"
+    ],
+    "ku": [
+      "کو (صدای کریم)",
+      "coo (Kerim's call)"
+    ],
+    "kutlu": [
+      "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
+    ],
+    "mum": [
+      "شمع",
+      "candle"
+    ],
+    "paskalyada": [
+      "در عیدِ پاک (عیدِ مسیحیان)",
+      "at Easter"
+    ],
+    "yavrum": [
+      "عزیزم، بچه‌جان (برای کوچک‌ترها)",
+      "my dear (to someone younger)"
+    ],
+    "şşş": [
+      "هیس!",
+      "shh!"
+    ]
+  },
+  "id": "s1e27",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_gecmis",
+    "g_a1_5_dan_beri",
+    "g_a1_4_iyelik"
+  ],
+  "level": "A1",
+  "place": "flat_maria",
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Where was Maria Teyze born?",
+      "fa": "خاله ماریا کجا به دنیا آمد؟",
+      "kind": "comp",
+      "options": [
+        "Bu sokakta",
+        "Okulda",
+        "Parkta"
+      ],
+      "q": "Maria Teyze nerede doğdu?",
+      "why": "Maria Teyze: “Bu sokakta doğdum.”"
+    },
+    {
+      "a": 0,
+      "en": "“Bu sokakta doğdum.” Doğmak means…",
+      "fa": "«Bu sokakta doğdum.» Doğmak یعنی…",
+      "kind": "word",
+      "options": [
+        "Dünyaya gelmek",
+        "Okula gitmek",
+        "Baklava yemek"
+      ],
+      "q": "“Bu sokakta doğdum.” Doğmak: …",
+      "why": "Maria Teyze: “Bu sokakta doğdum. O günden beri bu evdeyim: seksen yıl!”"
+    },
+    {
+      "a": 0,
+      "en": "How old is Maria Teyze on Saturday?",
+      "fa": "خاله ماریا شنبه چند ساله می‌شود؟",
+      "kind": "comp",
+      "options": [
+        "Seksen",
+        "Yetmiş",
+        "Doksan"
+      ],
+      "q": "Cumartesi Maria Teyze kaç yaşında?",
+      "why": "Maria Teyze: “Doğum günüm. Seksen yaşındayım.”"
+    }
+  ],
+  "ref": "A1_5",
+  "releaseDate": "2026-10-07",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "maria": "maria_chair",
+        "nima": "guest"
+      },
+      "kerim": "window_box",
+      "scene": "flat_maria",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "Maria Teyze's home… very old. And very, very beautiful.",
+      "fa": "خونه‌ی خاله ماریا… خیلی قدیمیه. و خیلی، خیلی قشنگ.",
+      "narr": true,
+      "tr": "Maria Teyze'nin evi… çok eski. Ve çok, çok güzel.",
+      "who": "kerim"
+    },
+    {
+      "at": "mark:window",
+      "do": "point_far",
+      "emo": "moved",
+      "en": "I was born on this street. I've been in this house ever since: eighty years!",
+      "fa": "من توی همین کوچه به دنیا اومدم. از اون روز تا حالا توی همین خونه‌ام: هشتاد سال!",
+      "to": "nima",
+      "tr": "Bu sokakta doğdum. O günden beri bu evdeyim: seksen yıl!",
+      "who": "maria"
+    },
+    {
+      "emo": "surprised",
+      "en": "Eighty years?!",
+      "fa": "هشتاد سال؟!",
+      "to": "maria",
+      "tr": "Seksen yıl mı?!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:eski_fotograflar",
+      "do": "hold_up",
+      "emo": "happy",
+      "en": "Yes. I walked to school along this street. This child… is me.",
+      "fa": "آره. از همین کوچه پیاده می‌رفتم مدرسه. این بچه… منم.",
+      "link": {
+        "çocuk": "obj:eski_fotograflar"
+      },
+      "obj": [
+        {
+          "id": "eski_fotograflar",
+          "op": "take"
+        }
+      ],
+      "react": {
+        "nima": {
+          "at": "obj:eski_fotograflar",
+          "do": "look"
+        }
+      },
+      "to": "nima",
+      "tr": "Evet. Okula bu sokaktan yürüdüm. Bu çocuk… ben!",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "At the bayram the neighbours brought baklava. At Easter we gave red eggs. Everyone came, everyone ate!",
+      "fa": "عید که می‌شد، همسایه‌ها باقلوا می‌آوردن. عیدِ پاک ما تخم‌مرغِ قرمز می‌دادیم. همه می‌اومدن، همه می‌خوردن!",
+      "frame": "past",
+      "to": "nima",
+      "tr": "Bayramda komşular baklava getirdi. Paskalyada biz kırmızı yumurta verdik. Herkes geldi, herkes yedi!",
+      "who": "maria"
+    },
+    {
+      "emo": "curious",
+      "en": "How lovely! And then what happened?",
+      "fa": "چه قشنگ! بعد چی شد؟",
+      "to": "maria",
+      "tr": "Çok güzel! Sonra ne oldu?",
+      "who": "nima"
+    },
+    {
+      "emo": "moved",
+      "en": "Then? The years went by. But I remember it… as if it were last year!",
+      "fa": "بعد؟ سال‌ها گذشت. ولی یادمه… انگار پارسال بود!",
+      "to": "nima",
+      "tr": "Sonra? Yıllar geçti. Ama hatırlıyorum… geçen yıl gibi!",
+      "who": "maria"
+    },
+    {
+      "spot": {
+        "en": "-DI tells what happened and is over: doğdum (I was born), yürüdüm (I walked), getirdi (they brought), verdik (we gave), geldi (came), yedi (ate: not the number seven!). The vowel follows the word: -dı, -di, -du, -dü. After a hard consonant (ç, f, h, k, p, s, ş, t) the d becomes t: kaçtı, gitti. Then the person: -m (I), -n (you), nothing (he, she), -k (we).",
+        "ex": "Bu sokakta doğdum.",
+        "fa": "-DI کاری را می‌گوید که انجام شده و تمام شده: doğdum (به دنیا آمدم)، yürüdüm (راه رفتم)، getirdi (آوردند)، verdik (دادیم)، geldi (آمد)، yedi (خورد؛ نه عددِ هفت!). درست مثلِ گذشته‌ی ساده‌ی فارسی: آمدم، دادیم. مصوتِ پسوند با کلمه هماهنگ می‌شود: -dı، -di، -du، -dü. بعد از صامت‌های سخت (ç, f, h, k, p, s, ş, t) حرفِ d می‌شود t: kaçtı، gitti. بعد شخص می‌آید: -m (من)، -n (تو)، بی‌پسوند (او)، -k (ما).",
+        "lesson": "g_a1_5_gecmis"
+      }
+    },
+    {
+      "at": "mark:calendar",
+      "cam": "obj",
+      "do": "touch",
+      "emo": "curious",
+      "en": "What's this? 10 October… eighty?",
+      "fa": "این چیه؟ ده اکتبر… هشتاد؟",
+      "move": {
+        "how": "walk",
+        "to": "calendar",
+        "via": [
+          "window"
+        ],
+        "who": "nima"
+      },
+      "to": "maria",
+      "tr": "Bu ne? 10 Ekim… seksen?",
+      "who": "nima"
+    },
+    {
+      "emo": "nervous",
+      "en": "Nothing! Nothing…",
+      "fa": "هیچی! هیچی…",
+      "tempo": 1.3,
+      "to": "nima",
+      "tr": "Hiç! Hiç…",
+      "who": "maria"
+    },
+    {
+      "emo": "sad",
+      "en": "It's my birthday. I'm turning eighty. But… nobody knows.",
+      "fa": "تولدمه. هشتاد سالم می‌شه. ولی… هیچ‌کس نمی‌دونه.",
+      "to": "nima",
+      "tr": "Doğum günüm. Seksen yaşındayım. Ama… kimse bilmiyor.",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "dilek",
+        "kind": "polite",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Happy birthday!",
+            "fa": "تولدتون مبارک!",
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "hand_heart",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "do": "hand_heart",
+                "emo": "moved",
+                "en": "Thank you, my dear!",
+                "fa": "ممنونم، عزیزم!",
+                "tr": "Teşekkür ederim, yavrum!",
+                "who": "maria"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Doğum gününüz kutlu olsun!"
+          },
+          {
+            "emo": "happy",
+            "en": "Happy holidays!",
+            "fa": "عید مبارک!",
+            "react": {
+              "maria": "laugh"
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "It's not a bayram, it's a birthday!",
+                "fa": "عید نیست، تولده!",
+                "tr": "Bayram değil, doğum günü!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "İyi bayramlar!"
+          },
+          {
+            "emo": "happy",
+            "en": "Congratulations!",
+            "fa": "تبریک می‌گم!",
+            "react": {
+              "maria": "confused"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "…Congratulations? For being eighty?",
+                "fa": "…تبریک؟ برای هشتاد سالگی؟",
+                "tr": "…Tebrikler mi? Seksen yaş için?",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tebrikler!"
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "do": "shush",
+      "emo": "shy",
+      "en": "Shh! No cake, no candles. All right?",
+      "fa": "هیس! نه کیک، نه شمع. باشه؟",
+      "to": "nima",
+      "tr": "Şşş! Pasta yok, mum yok. Tamam mı?",
+      "who": "maria"
+    },
+    {
+      "do": "nod",
+      "emo": "shy",
+      "en": "All right…",
+      "fa": "باشه…",
+      "to": "maria",
+      "tr": "Tamam…",
+      "who": "nima"
+    },
+    {
+      "cam": "close",
+      "emo": "curious",
+      "en": "All right? Coo-coo-coo…",
+      "fa": "باشه؟ کو-کو-کو…",
+      "narr": true,
+      "tr": "Tamam? Ku-ku-ku…",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Tea after class at Maria Teyze's: old photos of Feriköy and her childhood in the past tense. Then Nima sees a date circled in red on her calendar, and Maria Teyze's secret comes out.",
+  "summaryFa": "چای بعد از کلاس در خانه‌ی خاله ماریا: عکس‌های قدیمیِ فری‌کؤی و بچگیِ او، با زمانِ گذشته. بعد نیما روی تقویمِ دیواری تاریخی را می‌بیند که با قرمز دورش خط کشیده‌اند، و رازِ خاله ماریا فاش می‌شود.",
+  "title": "Bu sokakta doğdum",
+  "titleEn": "I was born on this street",
+  "titleFa": "در همین کوچه به دنیا آمدم",
+  "words": [
+    "a1-w-dogmak",
+    "a1-w-hatirlamak",
+    "a1-w-gecen",
+    "a1-w-bayram",
+    "a1-w-baklava",
+    "a1-w-dogum-gunu",
+    "a1-w-yas",
+    "a1-w-seksen"
+  ]
+}

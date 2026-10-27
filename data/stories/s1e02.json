@@ -1,0 +1,751 @@
+{
+  "arc": {
+    "en": "Welcome!",
+    "fa": "خوش آمدی!",
+    "id": "s1w01",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Hoş geldin!"
+  },
+  "cast": [
+    "reza",
+    "nima",
+    "kirlangic",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Your name?",
+      "fa": "اسمتون؟",
+      "to": "nima",
+      "tr": "Adınız ne?",
+      "who": "reza"
+    },
+    {
+      "en": "My name is Nima.",
+      "fa": "اسمم نیماست.",
+      "to": "reza",
+      "tr": "Benim adım Nima.",
+      "who": "nima"
+    },
+    {
+      "en": "Where are you from?",
+      "fa": "اهلِ کجا هستید؟",
+      "to": "nima",
+      "tr": "Nerelisiniz?",
+      "who": "reza"
+    },
+    {
+      "choice": {
+        "id": "fu_nereli",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I'm from Tehran.",
+            "fa": "اهلِ تهرانم.",
+            "ok": true,
+            "react": {
+              "reza": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "OK. Thank you.",
+                "fa": "باشه. ممنون.",
+                "to": "nima",
+                "tr": "Tamam. Teşekkür ederim.",
+                "who": "reza"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Tahranlıyım."
+          },
+          {
+            "en": "Nima.",
+            "fa": "نیما.",
+            "react": {
+              "reza": "confused"
+            },
+            "reply": [
+              {
+                "en": "No, no… The passport says Tehran. OK!",
+                "fa": "نه، نه… پاسپورت: تهران. باشه!",
+                "to": "nima",
+                "tr": "Hayır, hayır… Pasaport: Tahran. Tamam!",
+                "who": "reza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Nima."
+          }
+        ],
+        "to": "reza"
+      }
+    }
+  ],
+  "gl": {
+    "a": [
+      "حرفِ A",
+      "the letter A"
+    ],
+    "adınız": [
+      "اسمِ شما",
+      "your name (polite)"
+    ],
+    "beykent": [
+      "بیکنت (نامِ دانشگاه)",
+      "Beykent (the university's name)"
+    ],
+    "da": [
+      "هم",
+      "too, also"
+    ],
+    "fotoğraflar": [
+      "عکس‌ها",
+      "photos"
+    ],
+    "hadi": [
+      "بریم!؛ زود باش!",
+      "come on!; let's go!"
+    ],
+    "iranlıyım": [
+      "ایرانی‌ام",
+      "I'm from Iran"
+    ],
+    "istanbullu": [
+      "استانبولی، اهلِ استانبول",
+      "from Istanbul (İstanbullu)"
+    ],
+    "iyilik": [
+      "خوبی؛ (جوابِ «چه خبر؟») سلامتی",
+      "goodness; (answer to “Ne haber?”) all good"
+    ],
+    "kırlangıç": [
+      "پرستو (اسم)",
+      "Kırlangıç (a name; the word means “swallow”)"
+    ],
+    "nerelisiniz": [
+      "اهلِ کجا هستید؟",
+      "where are you from? (polite)"
+    ],
+    "numaralar": [
+      "شماره‌ها",
+      "numbers"
+    ],
+    "tömer": [
+      "تومر (مرکزِ آموزشِ زبانِ ترکی)",
+      "TÖMER (the university's Turkish language centre)"
+    ],
+    "özbekistanlı": [
+      "اهلِ ازبکستان",
+      "from Uzbekistan"
+    ],
+    "özbekistanlıyım": [
+      "اهلِ ازبکستانم",
+      "I'm from Uzbekistan"
+    ]
+  },
+  "id": "s1e02",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_1_soru",
+    "g_a1_1_unlu_uyumu",
+    "g_a1_1_bu_su_o"
+  ],
+  "level": "A1",
+  "place": "tomer_gate",
+  "props": {
+    "fis_504": {
+      "at": {
+        "office": {
+          "x": -2.4,
+          "y": 0.76,
+          "z": -0.9
+        }
+      },
+      "kit": "paper",
+      "label": "504",
+      "terms": [],
+      "variant": "slip"
+    },
+    "form": {
+      "at": {
+        "office": {
+          "x": -1.6,
+          "y": 0.76,
+          "z": -0.85
+        }
+      },
+      "kit": "paper",
+      "label": "Ad:",
+      "terms": [
+        "a1-w-form"
+      ],
+      "variant": "form"
+    },
+    "fotograflar": {
+      "at": {
+        "office": {
+          "x": -1.05,
+          "y": 0.76,
+          "z": -0.95
+        }
+      },
+      "kit": "photo",
+      "n": 4,
+      "scene": "people",
+      "shown": false,
+      "terms": [
+        "a1-w-fotograf"
+      ]
+    },
+    "pasaport": {
+      "at": {
+        "office": {
+          "x": -1.2,
+          "y": 0.76,
+          "z": -0.82
+        }
+      },
+      "kit": "book",
+      "shown": false,
+      "terms": [
+        "a2-w-pasaport"
+      ],
+      "variant": "passport"
+    },
+    "yun": {
+      "at": {
+        "x": -0.95,
+        "y": 0.16,
+        "z": -2.95
+      },
+      "kit": "yarn",
+      "terms": [
+        "b1-w-yun"
+      ],
+      "variant": "basket"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "“Who's that? That's Reza Bey.” Who says it?",
+      "fa": "«O kim? O Reza Bey.» را چه کسی می‌گوید؟",
+      "kind": "comp",
+      "options": [
+        "Kırlangıç",
+        "Dilnoza",
+        "Nima"
+      ],
+      "q": "“O kim? O Reza Bey.” Kim?",
+      "why": "Kırlangıç: “Tahran! Ben İranlıyım. O kim? O Reza Bey. Hadi!”"
+    },
+    {
+      "a": 0,
+      "en": "“Six!” “Seven!” What are these?",
+      "fa": "«Altı!» «Yedi!» این‌ها چه هستند؟",
+      "kind": "word",
+      "options": [
+        "Numaralar",
+        "Fotoğraflar",
+        "Öğrenciler"
+      ],
+      "q": "“Altı!” “Yedi!” Bunlar ne?",
+      "why": "Reza Bey: “Bir numara alın, lütfen.”"
+    },
+    {
+      "a": 0,
+      "en": "Where is Dilnoza from?",
+      "fa": "دلنوزا اهلِ کجاست؟",
+      "kind": "comp",
+      "options": [
+        "Özbekistanlı",
+        "İranlı",
+        "İstanbullu"
+      ],
+      "q": "Dilnoza nereli?",
+      "why": "Dilnoza: “Benim adım Dilnoza. Özbekistanlıyım. Memnun oldum!”"
+    }
+  ],
+  "ref": "A1_1",
+  "releaseDate": "2026-09-08",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "kirlangic": "steps",
+        "nima": "walk_l"
+      },
+      "kerim": "roof",
+      "scene": "tomer_gate",
+      "time": "day"
+    },
+    {
+      "at": "obj:campus_sign",
+      "cam": "wide",
+      "en": "This is Taksim. This is Beykent University.",
+      "fa": "این‌جا تقسیمه. این‌جا دانشگاهِ بیکنته.",
+      "link": {
+        "üniversitesi": "obj:campus_sign"
+      },
+      "narr": true,
+      "tr": "Burası Taksim. Burası Beykent Üniversitesi.",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "do": "knit",
+        "loop": true,
+        "sfx": {
+          "id": "knitting_clicks"
+        },
+        "who": "kirlangic"
+      }
+    },
+    {
+      "do": "wave",
+      "emo": "shy",
+      "en": "Hello… I'm Nima. A new student. Is this TÖMER?",
+      "fa": "سلام… من نیمام. دانشجوی جدید. این‌جا تومره؟",
+      "link": {
+        "tömer": "obj:levha"
+      },
+      "move": {
+        "how": "walk",
+        "to": "street",
+        "who": "nima"
+      },
+      "to": "kirlangic",
+      "tr": "Merhaba… Ben Nima. Yeni öğrenci. Burası TÖMER mi?",
+      "who": "nima"
+    },
+    {
+      "do": "welcome",
+      "emo": "happy",
+      "en": "Hi! Yes, this is TÖMER. Welcome! Where are you from?",
+      "fa": "سلام! آره، این‌جا تومره. خوش اومدی! اهلِ کجایی؟",
+      "link": {
+        "tömer": "obj:levha"
+      },
+      "to": "nima",
+      "tr": "Merhaba! Evet, burası TÖMER. Hoş geldin! Nerelisin?",
+      "who": "kirlangic"
+    },
+    {
+      "emo": "happy",
+      "en": "I'm from Tehran.",
+      "fa": "اهلِ تهرانم.",
+      "to": "kirlangic",
+      "tr": "Tahranlıyım.",
+      "who": "nima"
+    },
+    {
+      "at": "ch:reza",
+      "do": "point",
+      "emo": "happy",
+      "en": "Tehran! I'm from Iran. Who's that? That's Reza Bey. Come on!",
+      "fa": "تهران! من ایرانی‌ام. اون کیه؟ اون آقای رضاست. بریم!",
+      "move": {
+        "from": "door",
+        "how": "enter",
+        "to": "door",
+        "who": "reza"
+      },
+      "on": "o",
+      "react": {
+        "nima": {
+          "at": "ch:reza",
+          "do": "look"
+        }
+      },
+      "to": "nima",
+      "tr": "Tahran! Ben İranlıyım. O kim? O Reza Bey. Hadi!",
+      "who": "kirlangic"
+    },
+    {
+      "at": {
+        "dilnoza": "queue_1",
+        "reza": "desk"
+      },
+      "kerim": "window",
+      "scene": "office",
+      "time": "day"
+    },
+    {
+      "do": "write",
+      "emo": "neutral",
+      "en": "Take a number, please.",
+      "fa": "لطفاً یه شماره بگیرید.",
+      "move": [
+        {
+          "how": "enter",
+          "to": "machine",
+          "who": "nima"
+        },
+        {
+          "how": "enter",
+          "to": "door",
+          "who": "kirlangic"
+        }
+      ],
+      "to": "nima",
+      "tr": "Bir numara alın, lütfen.",
+      "who": "reza"
+    },
+    {
+      "beat": {
+        "sfx": {
+          "at": "mark:machine",
+          "id": "ticket_print"
+        },
+        "wait": 500,
+        "who": "nima"
+      }
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Hi! What's your name?",
+      "fa": "سلام! اسمت چیه؟",
+      "move": {
+        "how": "walk",
+        "to": "queue_2",
+        "who": "nima"
+      },
+      "to": "dilnoza",
+      "tr": "Merhaba! Senin adın ne?",
+      "who": "nima"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "shy",
+      "en": "My name is Dilnoza. I'm from Uzbekistan. Nice to meet you!",
+      "fa": "اسمم دلنوزاست. اهلِ ازبکستانم. خوشبختم!",
+      "on": "memnun",
+      "to": "nima",
+      "tr": "Benim adım Dilnoza. Özbekistanlıyım. Memnun oldum!",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "neutral",
+      "en": "Six! Your name?",
+      "fa": "شش! اسمتون؟",
+      "move": {
+        "how": "walk",
+        "to": "front",
+        "who": "dilnoza"
+      },
+      "sfx": {
+        "at": "mark:machine",
+        "id": "queue_chime"
+      },
+      "to": "dilnoza",
+      "tr": "Altı! Adınız ne?",
+      "who": "reza"
+    },
+    {
+      "en": "Dilnoza.",
+      "fa": "دلنوزا.",
+      "obj": [
+        {
+          "id": "form",
+          "op": "set",
+          "set": {
+            "label": "Ad: Dilnaza"
+          }
+        }
+      ],
+      "react": {
+        "reza": "write"
+      },
+      "to": "reza",
+      "tr": "Dilnoza.",
+      "who": "dilnoza"
+    },
+    {
+      "at": "obj:form",
+      "cam": "two",
+      "do": "point",
+      "emo": "confused",
+      "en": "A or O?",
+      "fa": "A یا O؟",
+      "to": "dilnoza",
+      "tr": "A mı, O mu?",
+      "who": "reza"
+    },
+    {
+      "do": "shake_head",
+      "emo": "surprised",
+      "en": "No, no! O!",
+      "fa": "نه، نه! O!",
+      "to": "reza",
+      "tr": "Hayır, hayır! O!",
+      "who": "dilnoza"
+    },
+    {
+      "beat": {
+        "at": "obj:form",
+        "do": "write",
+        "obj": [
+          {
+            "id": "form",
+            "op": "set",
+            "set": {
+              "label": "Ad: Dilnoza"
+            }
+          }
+        ],
+        "who": "reza"
+      }
+    },
+    {
+      "emo": "neutral",
+      "en": "Seven!",
+      "fa": "هفت!",
+      "move": [
+        {
+          "how": "walk",
+          "to": "queue_1",
+          "who": "dilnoza"
+        },
+        {
+          "how": "walk",
+          "to": "front",
+          "who": "nima"
+        }
+      ],
+      "sfx": {
+        "at": "mark:machine",
+        "id": "queue_chime"
+      },
+      "to": "nima",
+      "tr": "Yedi!",
+      "who": "reza"
+    },
+    {
+      "choice": {
+        "id": "greet",
+        "kind": "polite",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Good morning, how are you?",
+            "fa": "صبح بخیر، حالتون چطوره؟",
+            "obj": [
+              {
+                "id": "pasaport",
+                "op": "show"
+              }
+            ],
+            "ok": true,
+            "react": {
+              "reza": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "hand_heart",
+                "emo": "happy",
+                "en": "I'm well, thank you. Go ahead.",
+                "fa": "خوبم، ممنون. بفرمایید.",
+                "to": "nima",
+                "tr": "İyiyim, teşekkür ederim. Buyurun.",
+                "who": "reza"
+              }
+            ],
+            "to": "reza",
+            "tone": "polite",
+            "tr": "Günaydın, nasılsınız?"
+          },
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Hi, how's it going?",
+            "fa": "سلام، چطوری؟",
+            "obj": [
+              {
+                "id": "pasaport",
+                "op": "show"
+              }
+            ],
+            "react": {
+              "reza": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "emo": "annoyed",
+                  "wait": 700,
+                  "who": "reza"
+                }
+              },
+              {
+                "emo": "nervous",
+                "en": "Say “siz”!",
+                "fa": "بگو «شما»!",
+                "to": "nima",
+                "tr": "Siz!",
+                "voice": "whisper",
+                "who": "kirlangic"
+              },
+              {
+                "emo": "neutral",
+                "en": "…I'm well, thank you. Go ahead.",
+                "fa": "…خوبم، ممنون. بفرمایید.",
+                "to": "nima",
+                "tr": "…İyiyim, teşekkür ederim. Buyurun.",
+                "who": "reza"
+              }
+            ],
+            "to": "reza",
+            "tone": "casual",
+            "tr": "Merhaba, nasılsın?"
+          },
+          {
+            "emo": "happy",
+            "en": "What's up?",
+            "fa": "چه خبر؟",
+            "obj": [
+              {
+                "id": "pasaport",
+                "op": "show"
+              }
+            ],
+            "react": {
+              "dilnoza": {
+                "emo": "laugh"
+              },
+              "reza": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "neutral",
+                "en": "…All good. Go ahead.",
+                "fa": "…سلامتی. بفرمایید.",
+                "to": "nima",
+                "tr": "…İyilik. Buyurun.",
+                "who": "reza"
+              }
+            ],
+            "to": "reza",
+            "tone": "casual",
+            "tr": "Ne haber?"
+          }
+        ],
+        "to": "reza"
+      }
+    },
+    {
+      "at": "obj:pasaport",
+      "do": "point",
+      "emo": "neutral",
+      "en": "Is this the passport?",
+      "fa": "این پاسپورته؟",
+      "link": {
+        "pasaport": "obj:pasaport"
+      },
+      "to": "nima",
+      "tr": "Bu pasaport mu?",
+      "who": "reza"
+    },
+    {
+      "at": "obj:fotograflar",
+      "do": "point",
+      "emo": "happy",
+      "en": "Yes. And these are the photos.",
+      "fa": "بله. اینا هم عکس‌ها.",
+      "link": {
+        "fotoğraflar": "obj:fotograflar"
+      },
+      "obj": [
+        {
+          "id": "fotograflar",
+          "op": "show"
+        }
+      ],
+      "to": "reza",
+      "tr": "Evet. Bunlar da fotoğraflar.",
+      "who": "nima"
+    },
+    {
+      "at": "obj:fotograflar",
+      "do": "count",
+      "emo": "happy",
+      "en": "One, two, three, four. OK!",
+      "fa": "یک، دو، سه، چهار. درسته!",
+      "n": 4,
+      "to": "nima",
+      "tr": "Bir, iki, üç, dört. Tamam!",
+      "who": "reza"
+    },
+    {
+      "beat": {
+        "cam": "two",
+        "obj": [
+          {
+            "id": "fis_504",
+            "op": "give",
+            "to": "nima"
+          }
+        ],
+        "who": "reza"
+      }
+    },
+    {
+      "spot": {
+        "en": "mi makes a question: “Bu pasaport mu?” Is this the passport? Its vowel follows the last vowel of the word before it: e, i → mi (TÖMER mi?), a, ı → mı (A mı?), o, u → mu (pasaport mu? O mu?), ö, ü → mü.",
+        "ex": "Bu pasaport mu?",
+        "fa": "mi جمله را سؤالی می‌کند: «Bu pasaport mu?» یعنی «این پاسپورت است؟». حرفِ صدادارش از آخرین حرفِ صدادارِ کلمه‌ی قبل پیروی می‌کند: بعد از e و i ← mi (TÖMER mi?)، بعد از a و ı ← mı (A mı?)، بعد از o و u ← mu (pasaport mu? O mu?)، بعد از ö و ü ← mü.",
+        "lesson": "g_a1_1_soru"
+      }
+    },
+    {
+      "en": "Two new students.",
+      "fa": "دو تا دانشجوی جدید.",
+      "move": [
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "kirlangic"
+        },
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "nima"
+        },
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "dilnoza"
+        }
+      ],
+      "narr": true,
+      "tr": "İki yeni öğrenci.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Nima has to register at TÖMER. Kırlangıç, knitting on the steps, sends Nima to Reza Bey's office, where Nima meets Dilnoza in the queue.",
+  "summaryFa": "نیما باید در تومر ثبت‌نام کند. پرستو که روی پله‌ها بافتنی می‌بافد، نیما را به دفترِ آقای رضا می‌فرستد و آن‌جا نیما در صف با دلنوزا آشنا می‌شود.",
+  "title": "Kayıt günü",
+  "titleEn": "Registration day",
+  "titleFa": "روزِ ثبت‌نام",
+  "words": [
+    "a1-w-numara",
+    "a1-w-ogrenci",
+    "a1-w-lutfen",
+    "a1-w-evet",
+    "a1-w-hayir",
+    "seed-w17"
+  ]
+}

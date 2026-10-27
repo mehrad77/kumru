@@ -1,0 +1,860 @@
+{
+  "arc": {
+    "en": "A new family",
+    "fa": "یک خانواده‌ی تازه",
+    "id": "s1w04",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Yeni bir aile"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "yusuf",
+    "reza"
+  ],
+  "extras": [
+    "parvaneh",
+    "alex",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Do you have your photos?",
+      "fa": "عکس‌هاتون هست؟",
+      "to": "nima",
+      "tr": "Fotoğraflarınız var mı?",
+      "who": "reza"
+    },
+    {
+      "choice": {
+        "id": "fu_fotograf",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Yes, I have my photos.",
+            "fa": "بله، عکس‌هام هست.",
+            "ok": true,
+            "react": {
+              "reza": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very good.",
+                "fa": "خیلی خوب.",
+                "to": "nima",
+                "tr": "Çok güzel.",
+                "who": "reza"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Evet, fotoğraflarım var."
+          },
+          {
+            "en": "Yes, you have your photos.",
+            "fa": "بله، عکس‌هاتون هست.",
+            "react": {
+              "reza": "confused"
+            },
+            "reply": [
+              {
+                "en": "Not mine, yours! “I have my photos.”",
+                "fa": "مالِ من نه، مالِ شما! «عکس‌هام هست.»",
+                "to": "nima",
+                "tr": "Benim değil, sizin! “Fotoğraflarım var.”",
+                "who": "reza"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, fotoğraflarınız var."
+          }
+        ],
+        "to": "reza"
+      }
+    },
+    {
+      "en": "And your rental contract?",
+      "fa": "و قراردادِ اجاره‌تون؟",
+      "to": "nima",
+      "tr": "Ve kira sözleşmeniz?",
+      "who": "reza"
+    },
+    {
+      "en": "At home! I'll bring it tomorrow.",
+      "fa": "خونه‌ست! فردا می‌آرمش.",
+      "to": "reza",
+      "tr": "Evde! Yarın getiriyorum.",
+      "who": "nima"
+    },
+    {
+      "en": "All right. Don't forget!",
+      "fa": "باشه. فراموش نکنید!",
+      "to": "nima",
+      "tr": "Tamam. Unutmayın!",
+      "who": "reza"
+    }
+  ],
+  "gl": {
+    "ayın": [
+      "ماه (ayın biri: اولِ ماه)",
+      "of the month (ayın biri: the first of the month)"
+    ],
+    "ağacımda": [
+      "در درختم",
+      "on my tree"
+    ],
+    "ağaçlar": [
+      "درخت‌ها",
+      "trees"
+    ],
+    "ağaçta": [
+      "در درخت",
+      "on the tree"
+    ],
+    "belgeleriniz": [
+      "مدارکِ شما",
+      "your documents"
+    ],
+    "buraya": [
+      "به این‌جا",
+      "(to) here"
+    ],
+    "dayısına": [
+      "پیشِ دایی‌اش",
+      "to his or her uncle (mother's brother)"
+    ],
+    "fotoğraflarım": [
+      "عکس‌هایم",
+      "my photos"
+    ],
+    "fotoğraflarınız": [
+      "عکس‌هایِ شما",
+      "your photos"
+    ],
+    "fotoğrafta": [
+      "توی عکس",
+      "in the photo"
+    ],
+    "gönderildi": [
+      "فرستاده شد",
+      "sent"
+    ],
+    "halep": [
+      "حلب",
+      "Aleppo"
+    ],
+    "herkesin": [
+      "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
+      "everyone's"
+    ],
+    "hocam": [
+      "استاد (خطاب به معلم)",
+      "teacher (addressing your teacher)"
+    ],
+    "ikamet": [
+      "اقامت",
+      "residence (permit)"
+    ],
+    "kirayı": [
+      "اجاره را",
+      "the rent (as the object)"
+    ],
+    "pasaportum": [
+      "پاسپورتم",
+      "my passport"
+    ],
+    "pasaportunuz": [
+      "پاسپورتِ شما",
+      "your passport"
+    ],
+    "randevu": [
+      "نوبت؛ وقتِ ملاقات",
+      "appointment"
+    ],
+    "randevunuz": [
+      "نوبتِ شما",
+      "your appointment"
+    ],
+    "sözleşmem": [
+      "قراردادم",
+      "my contract"
+    ],
+    "sözleşmeniz": [
+      "قراردادِ شما",
+      "your contract"
+    ],
+    "unutmayın": [
+      "فراموش نکنید",
+      "don't forget"
+    ],
+    "yazın": [
+      "تابستان، در تابستان",
+      "in (the) summer"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name)"
+    ],
+    "şaka": [
+      "شوخی",
+      "joke; just kidding"
+    ]
+  },
+  "id": "s1e22",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_4_ad_durumlari",
+    "g_a1_4_iyelik",
+    "g_a1_4_belirtme"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "dosya": {
+      "at": {
+        "tomer_corridor": {
+          "x": 3.55,
+          "y": 0.9,
+          "z": -1.7
+        }
+      },
+      "kit": "book",
+      "terms": [
+        "a1-w-dosya"
+      ],
+      "variant": "folder"
+    },
+    "hoca_telefonu": {
+      "at": {
+        "class504": {
+          "x": -2.05,
+          "y": 0.76,
+          "z": -1.55
+        }
+      },
+      "kit": "phone",
+      "terms": [
+        "a1-w-telefon",
+        "a1-w-fotograf-cekmek"
+      ]
+    },
+    "randevu_kagidi": {
+      "at": {
+        "tomer_corridor": {
+          "x": 3.25,
+          "y": 0.9,
+          "z": -1.7
+        }
+      },
+      "kit": "paper",
+      "label": "İkamet randevusu: 16 Ekim, 10:00",
+      "terms": [
+        "a1-w-randevu"
+      ],
+      "variant": "slip"
+    },
+    "telefon": {
+      "at": {
+        "tomer_corridor": {
+          "x": -2.25,
+          "y": 0.9,
+          "z": 0.1
+        }
+      },
+      "kit": "phone",
+      "screen": "",
+      "terms": [
+        "a1-w-telefon",
+        "a1-w-kira"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Zafer Hoca: “Which family is from Aleppo?” Who says “My family!”?",
+      "fa": "استاد ظفر: «کدام خانواده اهلِ حلب است؟» چه کسی می‌گوید «خانواده‌ی من!»؟",
+      "kind": "comp",
+      "options": [
+        "Yusuf",
+        "Nima",
+        "Reza Bey"
+      ],
+      "q": "Zafer Hoca: “Hangi aile Halep'ten?” Kim diyor: “Benim ailem!”?",
+      "why": "Yusuf: “Benim ailem!”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “I'm …… the rent… done!”",
+      "fa": "نیما: «دارم اجاره را …… تمام!»",
+      "kind": "word",
+      "options": [
+        "gönderiyorum",
+        "unutuyorum",
+        "istiyorum"
+      ],
+      "q": "Nima: “Kirayı …… tamam!”",
+      "why": "Nima: “Kirayı gönderiyorum… tamam!”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “But … is at home.” What is at home?",
+      "fa": "نیما: «ولی … در خانه است.» چه چیزی در خانه است؟",
+      "kind": "comp",
+      "options": [
+        "Sözleşmem",
+        "Pasaportum",
+        "Fotoğraflarım"
+      ],
+      "q": "Nima: “Ama … evde.” Ne evde?",
+      "why": "Nima: “Ama sözleşmem… evde.”"
+    }
+  ],
+  "ref": "A1_4",
+  "releaseDate": "2026-10-01",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "state": "trees_on_wall",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Good morning! Today is the first of the month. And… the trees are on the wall!",
+      "fa": "صبح بخیر! امروز اولِ ماهه. و… درخت‌ها روی دیوارن!",
+      "narr": true,
+      "tr": "Günaydın! Bugün ayın biri. Ve… ağaçlar duvarda!",
+      "who": "kerim"
+    },
+    {
+      "emo": "curious",
+      "en": "Which tree has a niece or nephew on it?",
+      "fa": "توی کدوم درخت خواهرزاده یا برادرزاده هست؟",
+      "to": "all",
+      "tr": "Hangi ağaçta yeğen var?",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:agac",
+      "do": "point",
+      "emo": "proud",
+      "en": "On my tree!",
+      "fa": "توی درختِ من!",
+      "link": {
+        "ağacımda": "obj:agac"
+      },
+      "to": "zafer",
+      "tr": "Benim ağacımda!",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "Which family is from Aleppo?",
+      "fa": "کدوم خانواده اهلِ حلبه؟",
+      "to": "all",
+      "tr": "Hangi aile Halep'ten?",
+      "who": "zafer"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "My family!",
+      "fa": "خانواده‌ی من!",
+      "to": "zafer",
+      "tr": "Benim ailem!",
+      "who": "yusuf"
+    },
+    {
+      "emo": "curious",
+      "en": "Who is Parvaneh going to see in the summer?",
+      "fa": "پروانه تابستون پیشِ کی می‌ره؟",
+      "to": "all",
+      "tr": "Parvane yazın kime gidiyor?",
+      "who": "zafer"
+    },
+    {
+      "emo": "laugh",
+      "en": "To her uncle!",
+      "fa": "پیشِ دایی‌اش!",
+      "react": {
+        "parvaneh": {
+          "do": "nod",
+          "emo": "happy"
+        }
+      },
+      "to": "zafer",
+      "tr": "Dayısına!",
+      "who": "nima"
+    },
+    {
+      "at": "obj:agac",
+      "do": "point",
+      "emo": "curious",
+      "en": "And… who knows this word: yeğen?",
+      "fa": "و… کی این کلمه رو بلده: yeğen؟",
+      "to": "all",
+      "tr": "Ve… kim bu kelimeyi biliyor: yeğen?",
+      "who": "zafer"
+    },
+    {
+      "do": "cheer",
+      "emo": "laugh",
+      "en": "We do!",
+      "fa": "ما!",
+      "react": {
+        "nima": "laugh",
+        "parvaneh": "laugh"
+      },
+      "to": "zafer",
+      "tr": "Biz!",
+      "who": "yusuf"
+    },
+    {
+      "at": {
+        "nima": "corridor_l",
+        "reza": "wait_1"
+      },
+      "scene": "tomer_corridor",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "dosya",
+            "op": "take"
+          },
+          {
+            "id": "randevu_kagidi",
+            "op": "take"
+          }
+        ],
+        "who": "reza"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": "obj:telefon",
+      "do": "type",
+      "emo": "proud",
+      "en": "I'm sending the rent… done!",
+      "fa": "دارم اجاره رو می‌فرستم… تموم!",
+      "obj": [
+        {
+          "id": "telefon",
+          "op": "set",
+          "set": {
+            "screen": "Kira: 20.000 TL · gönderildi"
+          }
+        }
+      ],
+      "to": "viewer",
+      "tr": "Kirayı gönderiyorum… tamam!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "at": "obj:telefon",
+        "do": "read",
+        "obj": [
+          {
+            "id": "telefon",
+            "op": "set",
+            "set": {
+              "screen": {
+                "lines": [
+                  "Teşekkürler! Ayın biri: tamam!"
+                ],
+                "title": "Tolga Bey"
+              }
+            }
+          }
+        ],
+        "sfx": {
+          "id": "message"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "emo": "neutral",
+      "en": "Nima! One moment, please. This is your residence-permit appointment.",
+      "fa": "نیما! یک لحظه، لطفاً. این نوبتِ اقامتِ شماست.",
+      "move": {
+        "how": "walk",
+        "to": "corridor_r",
+        "who": "reza"
+      },
+      "obj": [
+        {
+          "id": "randevu_kagidi",
+          "op": "give",
+          "to": "nima"
+        }
+      ],
+      "to": "nima",
+      "tr": "Nima! Bir dakika, lütfen. Bu sizin ikamet randevunuz.",
+      "who": "reza"
+    },
+    {
+      "do": "explain",
+      "en": "Your documents: your passport, your photos… and your rental contract.",
+      "fa": "مدارکتون: پاسپورتتون، عکس‌هاتون… و قراردادِ اجاره‌تون.",
+      "to": "nima",
+      "tr": "Belgeleriniz: pasaportunuz, fotoğraflarınız… ve kira sözleşmeniz.",
+      "who": "reza"
+    },
+    {
+      "do": "count",
+      "emo": "nervous",
+      "en": "One: I have my passport. Two: I have my photos. But my contract… is at home.",
+      "fa": "یک: پاسپورتم هست. دو: عکس‌هام هست. ولی قراردادم… خونه‌ست.",
+      "n": 2,
+      "to": "reza",
+      "tr": "Bir: pasaportum var. İki: fotoğraflarım var. Ama sözleşmem… evde.",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Very good. Don't forget! And… take a number! …Just kidding!",
+      "fa": "خیلی خوب. فراموش نکنید! و… یک شماره بگیرید! …شوخی کردم!",
+      "react": {
+        "nima": "laugh"
+      },
+      "to": "nima",
+      "tr": "Çok güzel. Unutmayın! Ve… bir numara alın! …Şaka!",
+      "who": "reza"
+    },
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "state": "trees_on_wall",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          },
+          {
+            "id": "hoca_telefonu",
+            "op": "take"
+          }
+        ],
+        "who": "zafer"
+      }
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Photo! Everyone over here!",
+      "fa": "عکس! همه بیاین این‌جا!",
+      "to": "all",
+      "tr": "Fotoğraf! Herkes buraya!",
+      "who": "yusuf"
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "walk",
+            "to": "desk_nima",
+            "who": "zafer"
+          },
+          {
+            "how": "walk",
+            "to": "board",
+            "who": "nima"
+          },
+          {
+            "how": "walk",
+            "to": "wall",
+            "who": "parvaneh"
+          },
+          {
+            "how": "walk",
+            "to": "teacher",
+            "who": "dilnoza"
+          },
+          {
+            "how": "walk",
+            "to": "seat_1",
+            "who": "yusuf"
+          },
+          {
+            "how": "walk",
+            "to": "map",
+            "who": "alex"
+          }
+        ]
+      }
+    },
+    {
+      "choice": {
+        "id": "foto",
+        "kind": "action",
+        "options": [
+          {
+            "do": "beckon",
+            "emo": "happy",
+            "en": "You too, teacher! Everyone over here!",
+            "fa": "استاد، شما هم! همه بیاین این‌جا!",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "obj": [
+                    {
+                      "id": "hoca_telefonu",
+                      "op": "give",
+                      "to": "yusuf"
+                    }
+                  ],
+                  "who": "zafer"
+                }
+              },
+              {
+                "do": "hand_heart",
+                "emo": "happy",
+                "en": "Thank you!",
+                "fa": "ممنونم!",
+                "to": "nima",
+                "tr": "Teşekkür ederim!",
+                "who": "zafer"
+              },
+              {
+                "beat": {
+                  "cam": "photo",
+                  "do": "photo",
+                  "move": {
+                    "how": "fly",
+                    "to": "window_out",
+                    "who": "kerim"
+                  },
+                  "sfx": {
+                    "id": "shutter"
+                  },
+                  "who": "yusuf"
+                }
+              },
+              {
+                "at": "ch:kerim",
+                "do": "point",
+                "emo": "laugh",
+                "en": "Kerim's in it too!",
+                "fa": "کریم هم هست!",
+                "to": "all",
+                "tr": "Kerim de var!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Hocam, siz de! Herkes buraya!"
+          },
+          {
+            "emo": "happy",
+            "en": "OK, take it!",
+            "fa": "باشه، عکس بگیرید!",
+            "react": {
+              "zafer": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "cam": "photo",
+                  "do": "photo",
+                  "move": {
+                    "how": "fly",
+                    "to": "window_out",
+                    "who": "kerim"
+                  },
+                  "sfx": {
+                    "id": "shutter"
+                  },
+                  "who": "zafer"
+                }
+              },
+              {
+                "en": "Zafer Hoca… isn't in the photo.",
+                "fa": "استاد ظفر… توی عکس نیست.",
+                "narr": true,
+                "tr": "Zafer Hoca… fotoğrafta yok.",
+                "who": "kerim"
+              },
+              {
+                "at": "ch:kerim",
+                "do": "point",
+                "emo": "laugh",
+                "en": "Kerim's in it too!",
+                "fa": "کریم هم هست!",
+                "to": "all",
+                "tr": "Kerim de var!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Tamam, çekin!"
+          },
+          {
+            "at": "ch:alex",
+            "do": "point",
+            "emo": "happy",
+            "en": "Alex, you take it!",
+            "fa": "الکس، تو عکس بگیر!",
+            "react": {
+              "alex": "shrug"
+            },
+            "reply": [
+              {
+                "beat": {
+                  "move": {
+                    "how": "walk",
+                    "to": "seat_2",
+                    "who": "alex"
+                  }
+                }
+              },
+              {
+                "beat": {
+                  "obj": [
+                    {
+                      "id": "hoca_telefonu",
+                      "op": "give",
+                      "to": "alex"
+                    }
+                  ],
+                  "who": "zafer"
+                }
+              },
+              {
+                "beat": {
+                  "move": {
+                    "how": "walk",
+                    "to": "map",
+                    "who": "zafer"
+                  }
+                }
+              },
+              {
+                "beat": {
+                  "cam": "photo",
+                  "do": "photo",
+                  "move": {
+                    "how": "fly",
+                    "to": "window_out",
+                    "who": "kerim"
+                  },
+                  "react": {
+                    "dilnoza": {
+                      "at": "ch:alex",
+                      "do": "look"
+                    }
+                  },
+                  "sfx": {
+                    "id": "shutter"
+                  },
+                  "who": "alex"
+                }
+              },
+              {
+                "at": "ch:kerim",
+                "do": "point",
+                "emo": "laugh",
+                "en": "Kerim's in it too!",
+                "fa": "کریم هم هست!",
+                "to": "all",
+                "tr": "Kerim de var!",
+                "who": "yusuf"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Alex, sen çek!",
+            "warm": {
+              "alex": -1
+            }
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "spot": {
+        "en": "One noun, four endings: ağaçta (on the tree, -DA), ağaçtan (from the tree, -DAn), ağaca (to the tree, -(y)A), ağacı (the tree, as the object: -(y)I). Today: ağacımda, Halep'ten, dayısına, kelimeyi and kirayı. And Reza Bey's list: pasaportunuz, fotoğraflarınız for siz; pasaportum, fotoğraflarım for me.",
+        "ex": "Benim ağacımda!",
+        "fa": "یک اسم، چهار پسوند: ağaçta (روی درخت، ‎-DA)، ağaçtan (از درخت، ‎-DAn)، ağaca (به درخت، ‎-(y)A)، ağacı (درخت را، ‎-(y)I). امروز: ağacımda، Halep'ten، dayısına، kelimeyi و kirayı. و فهرستِ آقای رضا: pasaportunuz و fotoğraflarınız برای «شما»؛ pasaportum و fotoğraflarım برای «من».",
+        "lesson": "g_a1_4_ad_durumlari",
+        "show": "case_path"
+      }
+    },
+    {
+      "en": "Six people, six trees… one photo… and one appointment. The sixteenth of October!",
+      "fa": "شش نفر، شش تا درخت… یه عکس… و یه نوبت. شونزدهمِ اکتبر!",
+      "narr": true,
+      "tr": "Altı kişi, altı ağaç… bir fotoğraf… ve bir randevu. On altı Ekim!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "The family trees are all on the wall, and Zafer Hoca plays a case game with them. At the break Nima pays the first rent, and Reza Bey brings the residence-permit appointment and the list of documents. Then a class photo under the trees.",
+  "summaryFa": "همه‌ی شجره‌نامه‌ها روی دیوارند و استاد ظفر با آن‌ها بازیِ حالت‌های اسم راه می‌اندازد. سرِ زنگِ تفریح نیما اولین اجاره را می‌فرستد و آقای رضا نوبتِ اقامت و فهرستِ مدارک را می‌آورد. بعد هم عکسِ دسته‌جمعیِ کلاس زیرِ درخت‌ها.",
+  "title": "Herkes buraya!",
+  "titleEn": "Everyone over here!",
+  "titleFa": "همه بیایید این‌جا!",
+  "words": [
+    "a1-w-gondermek",
+    "a1-w-unutmak",
+    "a1-w-herkes",
+    "a1-w-fotograf",
+    "a1-w-kisi"
+  ]
+}

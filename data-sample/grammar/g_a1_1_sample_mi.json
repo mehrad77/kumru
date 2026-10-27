@@ -1,0 +1,63 @@
+{
+  "blocks": [
+    {
+      "fa": [
+        3
+      ],
+      "head": [
+        "Last vowel",
+        "mI",
+        "Örnek",
+        "Persian"
+      ],
+      "rows": [
+        [
+          "a, ı",
+          "mı",
+          "Bu çay [mı:q]?",
+          "این چای است؟"
+        ],
+        [
+          "e, i",
+          "mi",
+          "Bu kedi [mi:q]?",
+          "این گربه است؟"
+        ],
+        [
+          "o, u",
+          "mu",
+          "Bu kumru [mu:q]?",
+          "این قمری است؟"
+        ],
+        [
+          "ö, ü",
+          "mü",
+          "Bu söz [mü:q]?",
+          "این حرف است؟"
+        ]
+      ],
+      "t": "table"
+    }
+  ],
+  "en": "A yes/no question puts mı, mi, mu or mü after the word you ask about, as a separate word. Its vowel follows the last vowel of that word.",
+  "ex": [
+    [
+      "Bu simit mi?",
+      "این سیمیت است؟",
+      "Is this a simit?"
+    ],
+    [
+      "Bu vapur mu?",
+      "این کشتی است؟",
+      "Is this a ferry?"
+    ]
+  ],
+  "fa": "در سؤال بله/خیر، mı، mi، mu یا mü جدا بعد از کلمهٔ مورد سؤال می‌آید و مصوتش از آخرین مصوت آن کلمه پیروی می‌کند.",
+  "level": "A1",
+  "order": 1,
+  "ref": "A1_1",
+  "section": "Sample",
+  "sectionNo": 1,
+  "title": "Soru: mI (sample)",
+  "topic": "Sample data"
+}

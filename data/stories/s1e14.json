@@ -1,0 +1,652 @@
+{
+  "arc": {
+    "en": "A new home, a new way",
+    "fa": "خانه‌ی نو، راهِ نو",
+    "id": "s1w03",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Yeni ev, yeni yol"
+  },
+  "cast": [
+    "elif",
+    "nima",
+    "maria"
+  ],
+  "extras": [
+    "passenger_2"
+  ],
+  "followUp": [
+    {
+      "en": "Nima! Is the metro coming?",
+      "fa": "نیما! مترو میاد؟",
+      "narr": true,
+      "tr": "Nima! Metro geliyor mu?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_geliyor",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Yes, it's coming!",
+            "fa": "آره، داره میاد!",
+            "ok": true,
+            "reply": [
+              {
+                "en": "Yes! The metro is coming.",
+                "fa": "آره! مترو داره میاد.",
+                "narr": true,
+                "tr": "Evet! Metro geliyor.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Evet, geliyor!"
+          },
+          {
+            "en": "I'm coming!",
+            "fa": "دارم میام!",
+            "reply": [
+              {
+                "en": "Not you… the metro! The metro is coming.",
+                "fa": "تو نه… مترو! مترو داره میاد.",
+                "narr": true,
+                "tr": "Sen değil… metro! Metro geliyor.",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Geliyorum!"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Are you sleeping?",
+      "fa": "خوابی؟",
+      "narr": true,
+      "tr": "Sen uyuyor musun?",
+      "who": "kerim"
+    },
+    {
+      "en": "No, I'm not sleeping!",
+      "fa": "نه، خواب نیستم!",
+      "tr": "Hayır, uyumuyorum!",
+      "who": "nima"
+    },
+    {
+      "en": "Good! I'm not sleeping either. Coo-coo!",
+      "fa": "خوبه! منم خواب نیستم. کو-کو!",
+      "narr": true,
+      "tr": "Güzel! Ben de uyumuyorum. Ku-ku!",
+      "who": "kerim"
+    }
+  ],
+  "gl": {
+    "buyurun": [
+      "بفرمایید",
+      "here you are; please (offering)"
+    ],
+    "hastaneye": [
+      "به بیمارستان",
+      "to the hospital"
+    ],
+    "hemşireyim": [
+      "پرستارم",
+      "I'm a nurse"
+    ],
+    "komşusun": [
+      "همسایه‌ای (تو همسایه هستی)",
+      "you're the neighbour"
+    ],
+    "ku": [
+      "کو (صدای قمری)",
+      "coo (a dove's call)"
+    ],
+    "metroya": [
+      "به مترو؛ (سوارِ) مترو",
+      "to the metro; (onto) the metro"
+    ],
+    "musun": [
+      "(نشانه‌ی سؤال) …ی؟",
+      "(question word) are you…?"
+    ],
+    "naziksiniz": [
+      "لطف دارید؛ مهربانید",
+      "you're kind"
+    ],
+    "otobüse": [
+      "به اتوبوس؛ (سوارِ) اتوبوس",
+      "to the bus; (onto) the bus"
+    ],
+    "teyze": [
+      "خاله؛ (برای خانمِ مسن) مادرجان",
+      "auntie (said to any older woman)"
+    ],
+    "ömer": [
+      "عمر (پسرِ الیف)",
+      "Ömer (Elif's son)"
+    ],
+    "şişli": [
+      "شیشلی (محله‌ای در استانبول)",
+      "Şişli (a district of Istanbul)"
+    ]
+  },
+  "id": "s1e14",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_3_simdiki_olumsuz",
+    "g_a1_3_simdiki",
+    "g_a1_3_yonelme"
+  ],
+  "level": "A1",
+  "looks": {
+    "elif": "shift",
+    "maria": "market"
+  },
+  "names": {
+    "maria": "Teyze"
+  },
+  "place": "flat_nima_stairs",
+  "props": {
+    "telefon": {
+      "at": {
+        "metro_m2": {
+          "x": -1.69,
+          "y": 0.45,
+          "z": -1.2
+        }
+      },
+      "kit": "phone",
+      "shown": false,
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Where is Elif going?",
+      "fa": "الیف کجا می‌رود؟",
+      "kind": "comp",
+      "options": [
+        "Hastaneye",
+        "Okula",
+        "Taksim'e"
+      ],
+      "q": "Elif nereye gidiyor?",
+      "why": "Elif: “Hastaneye gidiyorum.”"
+    },
+    {
+      "a": 0,
+      "en": "“Binmek” means to get on (a bus, the metro). Elif asks “Otobüse binmiyor musun?” What does Nima say?",
+      "fa": "‏«binmek» یعنی سوار شدن. الیف می‌پرسد «Otobüse binmiyor musun?» نیما چه می‌گوید؟",
+      "kind": "word",
+      "options": [
+        "Hayır, binmiyorum.",
+        "Hayır, inmiyorum.",
+        "Hayır, uyumuyorum."
+      ],
+      "q": "Elif: “Otobüse binmiyor musun?” Nima: “…”",
+      "why": "Nima: “Hayır, binmiyorum.”"
+    },
+    {
+      "a": 0,
+      "en": "Where does Nima get off?",
+      "fa": "نیما کجا پیاده می‌شود؟",
+      "kind": "comp",
+      "options": [
+        "Taksim'de",
+        "Osmanbey'de",
+        "Şişli'de"
+      ],
+      "q": "Nima nerede iniyor?",
+      "why": "Nima: “Evet, Taksim'de iniyorum!”"
+    }
+  ],
+  "ref": "A1_3",
+  "releaseDate": "2026-09-22",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "landing_4"
+      },
+      "kerim": "window",
+      "scene": "flat_nima_stairs",
+      "time": "dawn"
+    },
+    {
+      "en": "Good morning! It's very early. Is Nima sleeping? No! Nima is up… and running!",
+      "fa": "صبح بخیر! خیلی زوده. نیما خوابه؟ خواب نیست! نیما پا می‌شه… و می‌دوه!",
+      "move": {
+        "how": "run",
+        "to": "landing_3",
+        "who": "nima"
+      },
+      "narr": true,
+      "tr": "Günaydın! Çok erken. Nima uyuyor mu? Uyumuyor! Nima kalkıyor… ve koşuyor!",
+      "who": "kerim"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Good morning! You're the new neighbour, aren't you?",
+      "fa": "صبح بخیر! تو همسایه‌ی جدیدی، نه؟",
+      "move": {
+        "from": "door_elif",
+        "how": "enter",
+        "to": "landing_2",
+        "who": "elif"
+      },
+      "to": "nima",
+      "tr": "Günaydın! Sen yeni komşusun, değil mi?",
+      "who": "elif"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "Yes! I'm Nima.",
+      "fa": "آره! من نیمام.",
+      "to": "elif",
+      "tr": "Evet! Ben Nima.",
+      "who": "nima"
+    },
+    {
+      "at": "mark:door_elif",
+      "do": "point",
+      "emo": "happy",
+      "en": "I'm Elif. I'm a nurse. Here… Ömer and me!",
+      "fa": "من الیفم. پرستارم. این‌جا… عمر و من!",
+      "to": "nima",
+      "tr": "Ben Elif. Ben hemşireyim. Burada… Ömer ve ben!",
+      "who": "elif"
+    },
+    {
+      "at": {
+        "elif": "walk_l",
+        "nima": "street"
+      },
+      "scene": "metro_osmanbey_street",
+      "time": "day"
+    },
+    {
+      "emo": "curious",
+      "en": "We're walking to Osmanbey! Are you going to school?",
+      "fa": "داریم تا عثمان‌بی پیاده می‌ریم! داری می‌ری مدرسه؟",
+      "move": {
+        "how": "walk",
+        "to": "walk_r",
+        "who": "elif"
+      },
+      "to": "nima",
+      "tr": "Osmanbey'e yürüyoruz! Okula mı gidiyorsun?",
+      "who": "elif"
+    },
+    {
+      "emo": "happy",
+      "en": "Yes, I'm going to Taksim. And you?",
+      "fa": "آره، دارم می‌رم تقسیم. شما چی؟",
+      "to": "elif",
+      "tr": "Evet, Taksim'e gidiyorum. Siz?",
+      "who": "nima"
+    },
+    {
+      "at": "obj:otobus_duragi",
+      "do": "point",
+      "en": "I'm going to the hospital. Aren't you taking the bus?",
+      "fa": "می‌رم بیمارستان. سوارِ اتوبوس نمی‌شی؟",
+      "link": {
+        "otobüse": "obj:otobus_duragi"
+      },
+      "to": "nima",
+      "tr": "Hastaneye gidiyorum. Otobüse binmiyor musun?",
+      "who": "elif"
+    },
+    {
+      "do": "shake_head",
+      "emo": "happy",
+      "en": "No, I'm not. I'm taking the metro!",
+      "fa": "نه، سوار نمی‌شم. با مترو می‌رم!",
+      "move": {
+        "how": "walk",
+        "to": "entrance",
+        "who": "nima"
+      },
+      "to": "elif",
+      "tr": "Hayır, binmiyorum. Metroya biniyorum!",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "elif": "platform_r",
+        "nima": "platform_l"
+      },
+      "kerim": "sign",
+      "scene": "metro_osmanbey",
+      "time": "day"
+    },
+    {
+      "at": "obj:departure_board",
+      "do": "look",
+      "emo": "nervous",
+      "en": "Is the metro coming? It isn't… it isn't… I'm going to be late!",
+      "fa": "مترو میاد؟ نمیاد… نمیاد… دیرم می‌شه!",
+      "link": {
+        "metro": "obj:departure_board"
+      },
+      "obj": [
+        {
+          "id": "departure_board",
+          "op": "set",
+          "set": {
+            "label": "Taksim: gelmiyor",
+            "sub": "Şişli: gelmiyor"
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Metro geliyor mu? Gelmiyor… gelmiyor… Ben geç kalıyorum!",
+      "who": "elif"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "departure_board",
+            "op": "set",
+            "set": {
+              "label": "Taksim: geliyor",
+              "sub": "Şişli: geliyor"
+            }
+          }
+        ],
+        "sfx": {
+          "at": "obj:trains",
+          "id": "train_arrive"
+        }
+      }
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "It's coming! You to Taksim, me to Şişli! Bye!",
+      "fa": "داره میاد! تو می‌ری تقسیم، من می‌رم شیشلی! خداحافظ!",
+      "move": {
+        "how": "walk",
+        "to": "stairs",
+        "who": "elif"
+      },
+      "to": "nima",
+      "tr": "Geliyor! Sen Taksim'e, ben Şişli'ye! Hoşça kal!",
+      "who": "elif"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye!",
+      "fa": "به سلامت!",
+      "to": "elif",
+      "tr": "Güle güle!",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "nima": "seat",
+        "passenger_2": "seat_2"
+      },
+      "scene": "metro_m2",
+      "stop": "Osmanbey",
+      "time": "day"
+    },
+    {
+      "emo": "tired",
+      "en": "Excuse me… excuse me…",
+      "fa": "ببخشید… ببخشید…",
+      "move": {
+        "how": "enter",
+        "to": "stand_l",
+        "who": "maria"
+      },
+      "react": {
+        "nima": {
+          "at": "ch:maria",
+          "do": "look"
+        },
+        "passenger_2": {
+          "at": "ch:maria",
+          "do": "look"
+        }
+      },
+      "sfx": {
+        "at": "ch:maria",
+        "id": "trolley_wheels"
+      },
+      "to": "all",
+      "tr": "Pardon… pardon…",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "seat",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Here, please sit down.",
+            "fa": "بفرمایید، بنشینید.",
+            "move": {
+              "how": "walk",
+              "to": "stand_r",
+              "who": "nima"
+            },
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "hand_heart",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "do": "hand_heart",
+                "emo": "happy",
+                "en": "Thank you very much, you're very kind.",
+                "fa": "خیلی ممنونم، خیلی لطف دارید.",
+                "move": {
+                  "how": "walk",
+                  "to": "seat",
+                  "who": "maria"
+                },
+                "to": "nima",
+                "tr": "Çok teşekkür ederim, çok naziksiniz.",
+                "who": "maria"
+              }
+            ],
+            "sets": "s1e14_seat",
+            "tone": "polite",
+            "tr": "Buyurun, oturun."
+          },
+          {
+            "at": "obj:telefon",
+            "do": "look",
+            "emo": "neutral",
+            "en": "…",
+            "fa": "…",
+            "obj": [
+              {
+                "id": "telefon",
+                "op": "show"
+              },
+              {
+                "id": "telefon",
+                "op": "take"
+              }
+            ],
+            "react": {
+              "passenger_2": {
+                "at": "ch:maria",
+                "do": "look"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "move": {
+                    "how": "walk",
+                    "to": "stand_r",
+                    "who": "passenger_2"
+                  }
+                }
+              },
+              {
+                "do": "hand_heart",
+                "emo": "happy",
+                "en": "Thank you!",
+                "fa": "ممنونم!",
+                "move": {
+                  "how": "walk",
+                  "to": "seat_2",
+                  "who": "maria"
+                },
+                "react": {
+                  "nima": "shy"
+                },
+                "to": "passenger_2",
+                "tr": "Teşekkür ederim!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "…",
+            "voice": "silent"
+          },
+          {
+            "emo": "nervous",
+            "en": "Sit down!",
+            "fa": "بنشینید!",
+            "move": {
+              "how": "hop",
+              "to": "stand_r",
+              "who": "nima"
+            },
+            "react": {
+              "maria": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "surprised",
+                "en": "…Thanks?",
+                "fa": "…ممنون؟",
+                "move": {
+                  "how": "walk",
+                  "to": "seat",
+                  "who": "maria"
+                },
+                "to": "nima",
+                "tr": "…Teşekkürler?",
+                "who": "maria"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Oturun!"
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "beat": {
+        "env": "stop:Taksim",
+        "sfx": {
+          "id": "metro_chime",
+          "word": "Taksim!"
+        }
+      }
+    },
+    {
+      "spot": {
+        "en": "-(I)yor says what is happening now: biniyor. The negative puts -mI- before it: binmiyor (not getting on). The question adds mI as its own word: biniyor musun? And both together: binmiyor musun? From the story: Uyuyor mu? Uyumuyor. Geliyor mu? Gelmiyor. Binmiyor musun? Binmiyorum.",
+        "ex": "Otobüse binmiyor musun?",
+        "fa": "‏-(I)yor می‌گوید الان چه اتفاقی می‌افتد: biniyor (سوار می‌شود). منفی‌اش ‎-mI- را قبل از آن می‌گذارد: binmiyor (سوار نمی‌شود). سؤالی‌اش mI را جدا می‌نویسد: biniyor musun? (سوار می‌شوی؟) و هر دو با هم: binmiyor musun? (سوار نمی‌شوی؟). از داستان: Uyuyor mu? Uyumuyor. Geliyor mu? Gelmiyor. Binmiyor musun? Binmiyorum.",
+        "lesson": "g_a1_3_simdiki_olumsuz"
+      }
+    },
+    {
+      "at": "ch:nima",
+      "do": "look",
+      "emo": "happy",
+      "en": "Are you getting off at Taksim too?",
+      "fa": "شما هم تقسیم پیاده می‌شید؟",
+      "to": "nima",
+      "tr": "Siz de Taksim'de mi iniyorsunuz?",
+      "who": "maria"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes, I'm getting off at Taksim!",
+      "fa": "بله، تقسیم پیاده می‌شم!",
+      "react": {
+        "maria": {
+          "emo": "happy"
+        }
+      },
+      "to": "maria",
+      "tr": "Evet, Taksim'de iniyorum!",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "maria": "walk_c",
+        "nima": "walk_r"
+      },
+      "kerim": "station_roof",
+      "scene": "istiklal_taksim",
+      "time": "day"
+    },
+    {
+      "en": "Who is this lady? Coo-coo…",
+      "fa": "این خانم کیه؟ کو-کو…",
+      "move": {
+        "how": "walk",
+        "to": "walk_l",
+        "who": "maria"
+      },
+      "narr": true,
+      "react": {
+        "maria": {
+          "do": "wave",
+          "emo": "happy"
+        },
+        "nima": {
+          "do": "wave",
+          "emo": "happy"
+        }
+      },
+      "tr": "Bu teyze kim? Ku-ku…",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Nima's first commute from Feriköy: Elif from downstairs walks with Nima to Osmanbey, and on the packed M2 an older lady with a shopping trolley needs a seat.",
+  "summaryFa": "اولین رفت‌وآمدِ نیما از فری‌کؤی: الیف، همسایه‌ی طبقه‌ی پایین، با نیما تا عثمان‌بی پیاده می‌رود، و در متروی شلوغِ M2 یک خانمِ مسن با چرخ‌دستیِ خرید به یک صندلی نیاز دارد.",
+  "title": "Metro geliyor mu?",
+  "titleEn": "Is the metro coming?",
+  "titleFa": "مترو می‌آید؟",
+  "words": [
+    "a1-w-uyumak",
+    "a1-w-kalkmak",
+    "a1-w-erken",
+    "a1-w-binmek",
+    "a1-w-inmek",
+    "a1-w-yurumek",
+    "a1-w-gec"
+  ]
+}

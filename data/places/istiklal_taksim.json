@@ -1,0 +1,391 @@
+{
+  "ambience": [
+    "crowd",
+    "traffic"
+  ],
+  "camera": {
+    "wide": {
+      "w": 10,
+      "x": 0,
+      "y1": 3.5,
+      "z": -2.6
+    }
+  },
+  "district": "Taksim, Beyoğlu",
+  "id": "istiklal_taksim",
+  "marks": {
+    "lamp": {
+      "x": -3.3,
+      "y": 3.5,
+      "z": -1.4
+    },
+    "metro_entrance": {
+      "door": "metro_entrance",
+      "out": {
+        "x": 3.4,
+        "z": -3.3
+      },
+      "x": 3.4,
+      "z": -1.9
+    },
+    "over": {
+      "air": true,
+      "x": -1.2,
+      "y": 3.0,
+      "z": -3.0
+    },
+    "station_roof": {
+      "x": 2.7,
+      "y": 3.12,
+      "z": -2.75
+    },
+    "walk_c": {
+      "x": -0.4,
+      "z": -0.5
+    },
+    "walk_l": {
+      "facing": "r",
+      "x": -2.2,
+      "z": -0.6
+    },
+    "walk_r": {
+      "facing": "l",
+      "x": 1.4,
+      "z": -0.6
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "Taksim Square",
+    "fa": "میدانِ تقسیم",
+    "tr": "Taksim Meydanı"
+  },
+  "outdoor": true,
+  "perch": "lamp",
+  "pieces": [
+    {
+      "h": 600,
+      "kit": "skyline",
+      "w": 5000,
+      "which": "sisli",
+      "x": 0,
+      "z": -44
+    },
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 4000,
+      "x": 0,
+      "z": -34
+    },
+    {
+      "kit": "landmark",
+      "which": "aya_triada",
+      "x": 8.5,
+      "z": -31
+    },
+    {
+      "h": 700,
+      "id": "agac",
+      "kit": "tree",
+      "season": "summer",
+      "terms": [
+        "a1-w-agac"
+      ],
+      "x": -11,
+      "z": -16
+    },
+    {
+      "h": 640,
+      "kit": "tree",
+      "x": -14.5,
+      "z": -19
+    },
+    {
+      "id": "meydan",
+      "kit": "landmark",
+      "terms": [
+        "a1-w-meydan",
+        "a1-w-heykel"
+      ],
+      "which": "republic_monument",
+      "x": -3.0,
+      "z": -20
+    },
+    {
+      "a": "#C7BFB2",
+      "b": "#BAB2A4",
+      "d": 1400,
+      "kit": "floor",
+      "tile": 80,
+      "w": 2400,
+      "x": 0,
+      "z": -12
+    },
+    {
+      "a": "#C7BFB2",
+      "b": "#BAB2A4",
+      "d": 2300,
+      "kit": "floor",
+      "tile": 80,
+      "w": 2800,
+      "x": 0,
+      "z": -34
+    },
+    {
+      "dir": -1,
+      "id": "tramvay",
+      "kit": "tram",
+      "terms": [
+        "a2-w-tramvay"
+      ],
+      "x": 6.5,
+      "z": -9
+    },
+    {
+      "id": "metro_entrance",
+      "kit": "metro_entrance",
+      "name": "Taksim",
+      "terms": [
+        "a1-w-metro",
+        "a1-w-istasyon"
+      ],
+      "x": 3.4,
+      "z": -2.7
+    },
+    {
+      "h": 370,
+      "id": "lamba",
+      "kit": "lamp_post",
+      "terms": [
+        "a1-w-lamba"
+      ],
+      "x": -3.3,
+      "z": -1.4
+    },
+    {
+      "kit": "simit_cart",
+      "x": -4.0,
+      "z": -1.0
+    },
+    {
+      "kit": "bench",
+      "x": 3.3,
+      "z": 0.85
+    },
+    {
+      "in": [
+        "dry"
+      ],
+      "kind": "pigeons",
+      "kit": "birds",
+      "n": 6,
+      "x": -0.6,
+      "x0": -180,
+      "x1": 180,
+      "z": -3.4
+    },
+    {
+      "in": [
+        "dry"
+      ],
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 6,
+      "umbrellas": 0,
+      "x": 0,
+      "x0": -600,
+      "x1": 600,
+      "z": -4.4
+    },
+    {
+      "in": [
+        "rain"
+      ],
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 6,
+      "umbrellas": 1,
+      "x": 0,
+      "x0": -600,
+      "x1": 600,
+      "z": -4.4
+    },
+    {
+      "in": [
+        "dry"
+      ],
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 3,
+      "x": 1.0,
+      "x0": -60,
+      "x1": 60,
+      "z": -3.7
+    },
+    {
+      "dir": -1,
+      "in": [
+        "rain"
+      ],
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "umbrellas": 1,
+      "x": 0,
+      "x0": -500,
+      "x1": 300,
+      "z": -3.6
+    },
+    {
+      "kind": "far",
+      "kit": "crowd",
+      "n": 14,
+      "x": 0,
+      "x0": -900,
+      "x1": 900,
+      "z": -8.5
+    }
+  ],
+  "props": {
+    "babalar": {
+      "at": {
+        "x": 0.35,
+        "y": 0,
+        "z": -2.75
+      },
+      "decor": true,
+      "kit": "street_kit",
+      "n": 3,
+      "variant": "bollard"
+    },
+    "cicekler": {
+      "at": {
+        "x": -2.3,
+        "y": 0,
+        "z": -1.7
+      },
+      "kit": "flowers",
+      "n": 3,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "bucket"
+    },
+    "cop_kutusu": {
+      "at": {
+        "x": -1.4,
+        "y": 0,
+        "z": -1.9
+      },
+      "kit": "street_kit",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "kopek": {
+      "at": {
+        "x": 2.3,
+        "y": 0,
+        "z": 0.35
+      },
+      "dir": -1,
+      "in": [
+        "dry"
+      ],
+      "kit": "dog",
+      "pose": "lie",
+      "terms": [
+        "a1-w-kopek",
+        "b1-w-sokak-kopegi"
+      ],
+      "variant": "street"
+    },
+    "misirci": {
+      "at": {
+        "x": 1.55,
+        "y": 0,
+        "z": -2.2
+      },
+      "kit": "vendor",
+      "terms": [
+        "a2-w-misir"
+      ],
+      "variant": "corn_cart"
+    },
+    "piyangocu": {
+      "at": {
+        "x": -2.35,
+        "y": 0,
+        "z": -2.5
+      },
+      "kit": "vendor",
+      "terms": [
+        "a2-w-piyango"
+      ],
+      "variant": "lottery"
+    },
+    "semsiye": {
+      "at": {
+        "x": 4.0,
+        "y": 0,
+        "z": 0.6
+      },
+      "in": [
+        "rain"
+      ],
+      "kit": "umbrella",
+      "open": true,
+      "terms": [
+        "a1-w-semsiye"
+      ]
+    },
+    "simitler": {
+      "at": {
+        "x": -4.05,
+        "y": 1.6,
+        "z": -0.95
+      },
+      "decor": true,
+      "kit": "simit_tray",
+      "n": 6
+    },
+    "street_sign": {
+      "at": {
+        "x": 0.9,
+        "y": 0,
+        "z": -3.3
+      },
+      "h": 30,
+      "kit": "sign_board",
+      "label": "İstiklal Caddesi",
+      "terms": [
+        "a1-w-cadde",
+        "a1-w-sokak"
+      ],
+      "variant": "post",
+      "w": 110
+    }
+  },
+  "site": "istiklal",
+  "size": {
+    "d": 6,
+    "w": 12
+  },
+  "states": {
+    "dry": {
+      "default": true,
+      "group": "weather"
+    },
+    "rain": {
+      "group": "weather"
+    }
+  },
+  "surface": "stone",
+  "times": [
+    "day",
+    "overcast"
+  ],
+  "v": 1
+}

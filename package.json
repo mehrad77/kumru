@@ -1,0 +1,41 @@
+{
+  "name": "kumru",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.5.0",
+  "scripts": {
+    "build": "node scripts/data.mjs && vite build",
+    "dev": "node scripts/data.mjs && node scripts/dev.mjs",
+    "check": "node scripts/data.mjs && node scripts/gates.mjs check",
+    "test": "node scripts/data.mjs && node scripts/gates.mjs test",
+    "smoke": "node scripts/data.mjs && playwright test",
+    "deploy": "node scripts/data.mjs && vite build && wrangler d1 migrations apply yakerim --remote && wrangler deploy",
+    "seed": "node scripts/data.mjs && vite build --mode dev && node worker/seed/seed.mjs",
+    "data": "node scripts/data.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.63.1",
+    "@cloudflare/vitest-pool-workers": "^0.22.0",
+    "@cloudflare/workers-types": "^5.20261006.1",
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.4",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.3",
+    "vitest": "^4.1.0",
+    "wrangler": "4.149.0"
+  },
+  "dependencies": {
+    "@preact/signals": "^2.11.3",
+    "@preact/signals-core": "^1.14.4",
+    "preact": "^11.0.1",
+    "sahne": "workspace:*",
+    "sahne-kit": "workspace:*",
+    "sahne-story": "workspace:*",
+    "sahne-tr": "workspace:*"
+  }
+}

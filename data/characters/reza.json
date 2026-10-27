@@ -1,0 +1,132 @@
+{
+  "address": {
+    "nima": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima's papers are in order.",
+        "fa": "مدارکِ نیما کامله.",
+        "photo": {
+          "step": 17,
+          "story": "s1e22"
+        },
+        "tr": "Nima'nın belgeleri tamam."
+      },
+      "family": {
+        "en": "Nima… a very good student.",
+        "fa": "نیما… دانشجوی خیلی خوبیه.",
+        "photo": {
+          "step": 12,
+          "story": "s1e35"
+        },
+        "tr": "Nima… çok iyi bir öğrenci."
+      },
+      "met": {
+        "en": "Nima. Take a number.",
+        "fa": "نیما. یک شماره بگیرید.",
+        "photo": {
+          "step": 8,
+          "story": "s1e02"
+        },
+        "tr": "Nima. Bir numara alın."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.5,
+      "shape": "average"
+    },
+    "face": {
+      "brows": "bushy",
+      "eyeColor": "eye_brown",
+      "eyes": "hooded",
+      "marks": [
+        "forehead_lines"
+      ],
+      "mouth": "thin",
+      "nose": "aquiline",
+      "shape": "diamond"
+    },
+    "hair": {
+      "color": "hair_08",
+      "style": "hair_classic"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_24"
+        ],
+        "id": "bottom_trousers_suit"
+      },
+      "outer": {
+        "colors": [
+          "fab_28",
+          "fab_28"
+        ],
+        "id": "outer_jacket_suit"
+      },
+      "shoes": {
+        "colors": [
+          "fab_22",
+          "fab_24"
+        ],
+        "id": "shoes_oxford"
+      },
+      "top": {
+        "colors": [
+          "fab_01"
+        ],
+        "id": "top_shirt"
+      }
+    },
+    "skin": "skin_05",
+    "v": 1,
+    "wear": {
+      "neck": {
+        "colors": [
+          "fab_50",
+          "fab_01"
+        ],
+        "id": "lanyard_badge"
+      }
+    }
+  },
+  "bio": "In his 50s; born in Iran, in Istanbul for 30 years; works at the international office on the Taksim campus. Exact, secretly kind, and loves a stamp.",
+  "bioFa": "پنجاه‌وچند ساله؛ متولدِ ایران و سی سال است که در استانبول است؛ در دفترِ بین‌المللِ پردیسِ تکسیم کار می‌کند. دقیق، در خفا مهربان، و عاشقِ مُهر.",
+  "catch": {
+    "en": "Take a number, please.",
+    "fa": "لطفاً یک شماره بگیرید.",
+    "tr": "Bir numara alın, lütfen."
+  },
+  "circle": "tomer",
+  "color": "#6A1E32",
+  "id": "reza",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "low",
+    "signature": [
+      "stop",
+      "write",
+      "point"
+    ],
+    "tempo": 0.8
+  },
+  "name": "Reza Bey",
+  "nameFa": "رضا",
+  "order": 18,
+  "places": [
+    "office",
+    "goc"
+  ],
+  "role": "The international office; the residence permit",
+  "roleFa": "دفترِ بین‌الملل؛ اجازهٔ اقامت",
+  "voice": {
+    "pitch": 0.85,
+    "rate": 0.85
+  }
+}

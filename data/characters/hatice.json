@@ -1,0 +1,114 @@
+{
+  "address": {
+    "nima": "sen"
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.4,
+      "shape": "round"
+    },
+    "face": {
+      "brows": "joined",
+      "eyeColor": "eye_brown",
+      "eyes": "sleepy",
+      "marks": [
+        "laugh_lines"
+      ],
+      "mouth": "full",
+      "nose": "broad",
+      "shape": "full"
+    },
+    "hair": {
+      "color": "hair_02",
+      "style": "hair_bun"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_16"
+        ],
+        "id": "bottom_salvar"
+      },
+      "shoes": {
+        "colors": [
+          "fab_20",
+          "fab_28"
+        ],
+        "id": "shoes_clogs_work"
+      },
+      "top": {
+        "colors": [
+          "fab_08"
+        ],
+        "id": "top_blouse"
+      }
+    },
+    "skin": "skin_06",
+    "v": 1,
+    "wear": {
+      "head": {
+        "colors": [
+          "fab_23",
+          "fab_02"
+        ],
+        "id": "headscarf_back_tie",
+        "inks": [
+          "fab_02",
+          "fab_09"
+        ],
+        "pattern": "pat_floral"
+      },
+      "waist": {
+        "id": "apron_pockets"
+      }
+    }
+  },
+  "bio": "In her 50s, from a village near Bursa; sells vegetables at the Feriköy Saturday market. Warm, quick and proud of her produce; hates \"Çok pahalı!\"",
+  "bioFa": "پنجاه و چند ساله، اهلِ روستایی نزدیکِ بورسا؛ در بازارِ شنبهٔ فری‌کؤی سبزی می‌فروشد. گرم و فرز است و به محصولش افتخار می‌کند؛ از «Çok pahalı!» (خیلی گران است!) بدش می‌آید.",
+  "catch": {
+    "en": "Fresh, fresh!",
+    "fa": "تازه، تازه!",
+    "tr": "Taze, taze!"
+  },
+  "circle": "guest",
+  "color": "#B3261E",
+  "id": "hatice",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "high",
+    "signature": [
+      "beckon",
+      "count",
+      "give"
+    ],
+    "tempo": 1.2
+  },
+  "name": "Hatice",
+  "nameFa": "خدیجه",
+  "order": 20,
+  "outfits": {
+    "rain": {
+      "outfit": {
+        "shoes": {
+          "colors": [
+            "fab_22",
+            "fab_22"
+          ],
+          "id": "shoes_boots_rain"
+        }
+      }
+    }
+  },
+  "places": [
+    "pazar_ferikoy"
+  ],
+  "role": "A stallholder at the Feriköy Saturday market",
+  "roleFa": "بساطیِ بازارِ شنبهٔ فری‌کؤی",
+  "voice": {
+    "pitch": 1.05,
+    "rate": 1.2
+  }
+}

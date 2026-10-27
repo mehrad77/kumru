@@ -1,0 +1,681 @@
+{
+  "arc": {
+    "en": "A new family",
+    "fa": "یک خانواده‌ی تازه",
+    "id": "s1w04",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Yeni bir aile"
+  },
+  "cast": [
+    "zafer",
+    "nima",
+    "dilnoza",
+    "yusuf"
+  ],
+  "extras": [
+    "parvaneh",
+    "alex"
+  ],
+  "followUp": [
+    {
+      "en": "Nima, “harita”… Do you know this word?",
+      "fa": "نیما، «harita»… این کلمه رو بلدید؟",
+      "to": "nima",
+      "tr": "Nima, “harita”… Bu kelimeyi biliyor musunuz?",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "fu_harita",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Yes, I know it!",
+            "fa": "بله، بلدم!",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Very good!",
+                "fa": "خیلی خوب!",
+                "to": "nima",
+                "tr": "Çok güzel!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Evet, biliyorum!"
+          },
+          {
+            "en": "No, I don't know it.",
+            "fa": "نه، بلد نیستم.",
+            "react": {
+              "zafer": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Harita… this! Now you know it.",
+                "fa": "harita… این! حالا بلدید.",
+                "to": "nima",
+                "tr": "Harita… bu! Şimdi biliyorsunuz.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Hayır, bilmiyorum."
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "en": "And “yeğen”?",
+      "fa": "و «yeğen»؟",
+      "to": "nima",
+      "tr": "Ve “yeğen”?",
+      "who": "zafer"
+    },
+    {
+      "en": "Yes! I know this word!",
+      "fa": "بله! این کلمه رو بلدم!",
+      "to": "zafer",
+      "tr": "Evet! Bu kelimeyi biliyorum!",
+      "who": "nima"
+    },
+    {
+      "en": "Very good, Nima!",
+      "fa": "خیلی خوب، نیما!",
+      "to": "nima",
+      "tr": "Çok güzel, Nima!",
+      "who": "zafer"
+    }
+  ],
+  "gl": {
+    "farsçayı": [
+      "فارسی را",
+      "Persian (as the object)"
+    ],
+    "gaziantep": [
+      "غازی‌عینتاب (شهری در جنوبِ ترکیه)",
+      "Gaziantep (a city in southern Turkey)"
+    ],
+    "gibi": [
+      "مثلِ",
+      "like"
+    ],
+    "halep": [
+      "حلب",
+      "Aleppo"
+    ],
+    "haritayı": [
+      "نقشه را",
+      "the map (as the object)"
+    ],
+    "hocam": [
+      "استاد (خطاب به معلم)",
+      "teacher (addressing your teacher)"
+    ],
+    "musunuz": [
+      "…ید؟ (پرسشی، شما)",
+      "do you…? (a question, siz)"
+    ],
+    "semerkant": [
+      "سمرقند",
+      "Samarkand"
+    ],
+    "tacikçe": [
+      "تاجیکی (زبان)",
+      "Tajik (the language)"
+    ],
+    "türkçesi": [
+      "ترکی‌اش",
+      "its Turkish; the Turkish for it"
+    ],
+    "yeğen": [
+      "خواهرزاده یا برادرزاده",
+      "niece or nephew"
+    ],
+    "yeğenim": [
+      "خواهرزاده یا برادرزاده‌ام",
+      "my niece or nephew"
+    ],
+    "zafer": [
+      "ظفر (اسم)",
+      "Zafer (a name)"
+    ],
+    "özbekçe": [
+      "ازبکی (زبان)",
+      "Uzbek (the language)"
+    ],
+    "ülkem": [
+      "کشورم",
+      "my country"
+    ]
+  },
+  "id": "s1e21",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_4_belirtme",
+    "g_a1_4_ulke_milliyet_dil",
+    "g_a1_4_iyelik"
+  ],
+  "level": "A1",
+  "place": "class504",
+  "props": {
+    "harita_ozbekistan": {
+      "at": {
+        "x": -1.25,
+        "y": 1.3,
+        "z": -3.02
+      },
+      "h": 65,
+      "kit": "board",
+      "labels": [
+        "Semerkant"
+      ],
+      "shown": false,
+      "style": "countries",
+      "terms": [
+        "a1-w-harita",
+        "a1-w-ulke"
+      ],
+      "title": "ÖZBEKİSTAN",
+      "variant": "map",
+      "w": 90
+    },
+    "harita_suriye": {
+      "at": {
+        "x": -2.55,
+        "y": 1.3,
+        "z": -3.02
+      },
+      "h": 65,
+      "kit": "board",
+      "labels": [
+        "Halep",
+        "Gaziantep"
+      ],
+      "shown": false,
+      "style": "countries",
+      "terms": [
+        "a1-w-harita",
+        "a1-w-ulke"
+      ],
+      "title": "SURİYE · TÜRKİYE",
+      "variant": "map",
+      "w": 90
+    },
+    "kelime_notu": {
+      "at": {
+        "x": -1.9,
+        "y": 1.05,
+        "z": -3.02
+      },
+      "kit": "paper",
+      "lines": [
+        "kitap",
+        "كتاب"
+      ],
+      "shown": false,
+      "terms": [
+        "seed-w01"
+      ],
+      "variant": "note"
+    },
+    "nima_agaci": {
+      "at": {
+        "x": 0.75,
+        "y": 0.72,
+        "z": -1.0
+      },
+      "kit": "paper",
+      "missing": 4,
+      "names": [
+        "Annem",
+        "Babam",
+        "Kardeşim",
+        "Ben",
+        ""
+      ],
+      "rows": [
+        2,
+        2,
+        1
+      ],
+      "terms": [
+        "a1-w-aile",
+        "a1-w-agac"
+      ],
+      "variant": "family_tree"
+    },
+    "parvane_defteri": {
+      "at": {
+        "x": 2.15,
+        "y": 0.72,
+        "z": -1.0
+      },
+      "kit": "book",
+      "label": "کتاب",
+      "terms": [
+        "a1-w-defter"
+      ],
+      "variant": "notebook"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Dilnoza: “My grandmother speaks …”",
+      "fa": "دلنوزا: «مادربزرگم … حرف می‌زنه.»",
+      "kind": "comp",
+      "options": [
+        "Tacikçe",
+        "Rusça",
+        "Arapça"
+      ],
+      "q": "Dilnoza: “Babaannem … konuşuyor.”",
+      "why": "Dilnoza: “Babaannem Tacikçe konuşuyor.”"
+    },
+    {
+      "a": 0,
+      "en": "Dilnoza: “My grandmother … Persian!”",
+      "fa": "دلنوزا: «مادربزرگم فارسی را …!»",
+      "kind": "word",
+      "options": [
+        "anlıyor",
+        "yazıyor",
+        "seviyor"
+      ],
+      "q": "Dilnoza: “Babaannem Farsçayı …!”",
+      "why": "Dilnoza: “Farsça gibi! Babaannem Farsçayı anlıyor!”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “This… small child.” Who is it?",
+      "fa": "نیما: «این… بچه‌ی کوچیک.» این کیست؟",
+      "kind": "comp",
+      "options": [
+        "Yeğen",
+        "Dede",
+        "Abla"
+      ],
+      "q": "Nima: “Bu… küçük çocuk.” Bu kim?",
+      "why": "Nima: “Bu benim yeğenim!”"
+    }
+  ],
+  "ref": "A1_4",
+  "releaseDate": "2026-09-30",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "alex": "seat_4",
+        "dilnoza": "seat_5",
+        "nima": "seat_1",
+        "parvaneh": "seat_2",
+        "yusuf": "seat_3",
+        "zafer": "teacher"
+      },
+      "kerim": "ledge",
+      "scene": "class504",
+      "state": "trees_on_wall",
+      "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "show"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Good morning! Three trees today. One… two… three!",
+      "fa": "صبح بخیر! امروز سه تا درخت. یک… دو… سه!",
+      "narr": true,
+      "tr": "Günaydın! Bugün üç ağaç. Bir… iki… üç!",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "wall",
+          "who": "dilnoza"
+        },
+        "obj": [
+          {
+            "id": "harita_ozbekistan",
+            "op": "show"
+          }
+        ],
+        "who": "dilnoza"
+      }
+    },
+    {
+      "at": "obj:harita_ozbekistan",
+      "do": "point",
+      "emo": "shy",
+      "en": "This is my country. Can you see the map? This is Samarkand.",
+      "fa": "این کشورِ منه. نقشه رو می‌بینید؟ این سمرقنده.",
+      "link": {
+        "haritayı": "obj:harita_ozbekistan"
+      },
+      "to": "all",
+      "tr": "Bu benim ülkem. Haritayı görüyor musunuz? Bu Semerkant.",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "happy",
+      "en": "My mum speaks Uzbek. My grandmother speaks Tajik.",
+      "fa": "مامانم ازبکی حرف می‌زنه. مادربزرگم تاجیکی حرف می‌زنه.",
+      "to": "all",
+      "tr": "Annem Özbekçe konuşuyor. Babaannem Tacikçe konuşuyor.",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "curious",
+      "en": "What's Tajik?",
+      "fa": "تاجیکی چیه؟",
+      "to": "dilnoza",
+      "tr": "Tacikçe ne?",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "It's like Persian! My grandmother understands Persian!",
+      "fa": "مثلِ فارسیه! مادربزرگم فارسی رو می‌فهمه!",
+      "to": "nima",
+      "tr": "Farsça gibi! Babaannem Farsçayı anlıyor!",
+      "who": "dilnoza"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "walk",
+          "to": "seat_5",
+          "who": "dilnoza"
+        },
+        "obj": [
+          {
+            "id": "nima_agaci",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "at": "obj:nima_agaci",
+      "do": "hold_up",
+      "emo": "confused",
+      "en": "This… small child. What's it called in Turkish? I don't know this word!",
+      "fa": "این… بچه‌ی کوچیک. به ترکی چی می‌شه؟ این کلمه رو بلد نیستم!",
+      "move": {
+        "how": "walk",
+        "to": "wall",
+        "who": "nima"
+      },
+      "to": "zafer",
+      "tr": "Bu… küçük çocuk. Türkçesi ne? Bu kelimeyi bilmiyorum!",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Yeğen! (A niece or nephew.)",
+      "fa": "Yeğen! (خواهرزاده یا برادرزاده.)",
+      "to": "nima",
+      "tr": "Yeğen!",
+      "who": "yusuf"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes, yeğen.",
+      "fa": "بله، yeğen.",
+      "obj": [
+        {
+          "id": "nima_agaci",
+          "op": "set",
+          "set": {
+            "missing": -1,
+            "names": [
+              "Annem",
+              "Babam",
+              "Kardeşim",
+              "Ben",
+              "Yeğenim"
+            ]
+          }
+        }
+      ],
+      "to": "nima",
+      "tr": "Evet, yeğen.",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:nima_agaci",
+      "do": "point",
+      "emo": "proud",
+      "en": "This is my niece or nephew!",
+      "fa": "این خواهرزاده/برادرزاده‌ی منه!",
+      "to": "all",
+      "tr": "Bu benim yeğenim!",
+      "who": "nima"
+    },
+    {
+      "do": "thumb_up",
+      "emo": "happy",
+      "en": "Very good, Nima!",
+      "fa": "خیلی خوب، نیما!",
+      "to": "nima",
+      "tr": "Çok güzel, Nima!",
+      "who": "zafer"
+    },
+    {
+      "choice": {
+        "id": "ovgu",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "hand_heart",
+            "emo": "happy",
+            "en": "Thank you, teacher.",
+            "fa": "ممنونم، استاد.",
+            "ok": true,
+            "react": {
+              "zafer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "You're welcome.",
+                "fa": "خواهش می‌کنم.",
+                "to": "nima",
+                "tr": "Rica ederim.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Teşekkür ederim, hocam."
+          },
+          {
+            "do": "shake_head",
+            "emo": "shy",
+            "en": "No, no… it's bad!",
+            "fa": "نه، نه… بده!",
+            "react": {
+              "zafer": "confused"
+            },
+            "reply": [
+              {
+                "emo": "confused",
+                "en": "Bad? But it's very good!",
+                "fa": "بد؟ ولی خیلی خوبه!",
+                "react": {
+                  "dilnoza": "laugh"
+                },
+                "to": "nima",
+                "tr": "Kötü mü? Ama çok güzel!",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Hayır, hayır… kötü!"
+          },
+          {
+            "emo": "shy",
+            "en": "…",
+            "fa": "…",
+            "react": {
+              "zafer": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "wait": 900
+                }
+              },
+              {
+                "emo": "happy",
+                "en": "Yes… very good. Thank you, Nima.",
+                "fa": "بله… خیلی خوبه. ممنون، نیما.",
+                "to": "nima",
+                "tr": "Evet… çok güzel. Teşekkürler, Nima.",
+                "who": "zafer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "…",
+            "voice": "silent"
+          }
+        ],
+        "to": "zafer"
+      }
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "walk",
+            "to": "seat_1",
+            "who": "nima"
+          },
+          {
+            "how": "walk",
+            "to": "wall",
+            "who": "yusuf"
+          }
+        ],
+        "obj": [
+          {
+            "id": "harita_suriye",
+            "op": "show"
+          }
+        ],
+        "who": "yusuf"
+      }
+    },
+    {
+      "at": "obj:harita_suriye",
+      "do": "point",
+      "emo": "happy",
+      "en": "My family is in Aleppo and in Gaziantep.",
+      "fa": "خانواده‌ی من توی حلب و غازی‌عینتابه.",
+      "link": {
+        "halep'te": "obj:harita_suriye"
+      },
+      "to": "all",
+      "tr": "Benim ailem Halep'te ve Gaziantep'te.",
+      "who": "yusuf"
+    },
+    {
+      "emo": "curious",
+      "en": "You know Arabic, don't you?",
+      "fa": "شما عربی بلدید، نه؟",
+      "to": "yusuf",
+      "tr": "Arapçayı biliyorsunuz, değil mi?",
+      "who": "zafer"
+    },
+    {
+      "at": "obj:kelime_notu",
+      "do": "write",
+      "emo": "laugh",
+      "en": "Yes! Kitap, kalem, saat… they're in Arabic too!",
+      "fa": "بله! kitap، kalem، saat… توی عربی هم هستن!",
+      "obj": [
+        {
+          "id": "kelime_notu",
+          "op": "show"
+        }
+      ],
+      "sfx": {
+        "id": "marker_squeak"
+      },
+      "to": "all",
+      "tr": "Evet! Kitap, kalem, saat… Arapçada da var!",
+      "who": "yusuf"
+    },
+    {
+      "beat": {
+        "at": "obj:parvane_defteri",
+        "do": "hold_up",
+        "obj": [
+          {
+            "id": "parvane_defteri",
+            "op": "take"
+          }
+        ],
+        "react": {
+          "yusuf": "laugh"
+        },
+        "who": "parvaneh"
+      }
+    },
+    {
+      "spot": {
+        "en": "Which one? -(y)I says: that one, the one we mean. “Bu kelimeyi bilmiyorum”: I don't know this word. “Kelime bilmiyorum”: I don't know (any) words. Today: haritayı, Farsçayı, Arapçayı, kelimeyi. After a vowel a y comes in: kelime-y-i.",
+        "ex": "Bu kelimeyi bilmiyorum!",
+        "fa": "کدام یکی؟ ‎-(y)I می‌گوید: همان که منظورمان است، مثلِ «را» در فارسی. «Bu kelimeyi bilmiyorum» یعنی این کلمه را بلد نیستم؛ «Kelime bilmiyorum» یعنی کلمه بلد نیستم. امروز: haritayı، Farsçayı، Arapçayı، kelimeyi. بعد از حرفِ صدادار یک y می‌آید: kelime-y-i.",
+        "lesson": "g_a1_4_belirtme"
+      }
+    },
+    {
+      "en": "Uzbek, Persian, Arabic, Russian… and Turkish. Three trees, one class!",
+      "fa": "ازبکی، فارسی، عربی، روسی… و ترکی. سه تا درخت، یه کلاس!",
+      "narr": true,
+      "tr": "Özbekçe, Farsça, Arapça, Rusça… ve Türkçe. Üç ağaç, bir sınıf!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Three more family trees. Dilnoza's grandmother speaks Tajik, a kind of Persian; Nima's tree has a gap for a word Nima doesn't know yet; and Yusuf shows that kitap, kalem and saat are Arabic words too.",
+  "summaryFa": "سه شجره‌نامه‌ی دیگر. مادربزرگِ دلنوزا تاجیکی حرف می‌زند که نوعی فارسی است؛ در شجره‌نامه‌ی نیما جای کلمه‌ای خالی است که نیما هنوز بلد نیست؛ و یوسف نشان می‌دهد که kitap و kalem و saat در عربی هم هستند.",
+  "title": "Bu kelimeyi bilmiyorum",
+  "titleEn": "I don't know this word",
+  "titleFa": "این کلمه را بلد نیستم",
+  "words": [
+    "a1-w-arapca",
+    "a1-w-farsca",
+    "a1-w-rusca",
+    "a1-w-ulke",
+    "a1-w-harita",
+    "a1-w-anlamak"
+  ]
+}

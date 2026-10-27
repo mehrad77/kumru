@@ -1,0 +1,1055 @@
+{
+  "arc": {
+    "en": "What time is it?",
+    "fa": "ساعت چند است؟",
+    "id": "s1w05",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Saat kaç?"
+  },
+  "cast": [
+    "maria",
+    "nima",
+    "omer",
+    "serkan",
+    "kirlangic",
+    "farzad"
+  ],
+  "extras": [
+    "elif",
+    "rayan",
+    "gulten"
+  ],
+  "followUp": [
+    {
+      "en": "And you? Last year, on your birthday, what did you do?",
+      "fa": "شما چی؟ پارسال، روزِ تولدتون چی کار کردید؟",
+      "to": "nima",
+      "tr": "Ya siz? Geçen yıl, doğum gününüzde ne yaptınız?",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "fu_gecen",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I ate cake and drank tea!",
+            "fa": "کیک خوردم، چای هم خوردم!",
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "nod",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "en": "How lovely! This year… here, with us!",
+                "fa": "چه قشنگ! امسال… این‌جا، با ما!",
+                "tr": "Çok güzel! Bu yıl… burada, bizimle!",
+                "who": "maria"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Pasta yedim, çay içtim!"
+          },
+          {
+            "en": "I'm eating cake, I'm drinking tea!",
+            "fa": "دارم کیک می‌خورم، چای می‌خورم!",
+            "react": {
+              "maria": "curious"
+            },
+            "reply": [
+              {
+                "en": "Last year: yedim, içtim (I ate, I drank)! This year… here, with us!",
+                "fa": "پارسال: yedim، içtim (خوردم، نوشیدم)! امسال… این‌جا، با ما!",
+                "tr": "Geçen yıl: yedim, içtim! Bu yıl… burada, bizimle!",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Pasta yiyorum, çay içiyorum!"
+          }
+        ],
+        "to": "maria"
+      }
+    }
+  ],
+  "gl": {
+    "ailesi": [
+      "خانواده‌اش",
+      "his/her family"
+    ],
+    "atina": [
+      "آتن (پایتختِ یونان)",
+      "Athens"
+    ],
+    "balon": [
+      "بادکنک",
+      "balloon"
+    ],
+    "beri": [
+      "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "since; “-DAn beri”: since"
+    ],
+    "eleni": [
+      "النی (اسم)",
+      "Eleni (a name)"
+    ],
+    "gününüz": [
+      "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "your day; “doğum gününüz”: your birthday"
+    ],
+    "gününüzde": [
+      "در روزِ شما؛ «doğum gününüzde» یعنی در تولدتان",
+      "on your day; “doğum gününüzde”: on your birthday"
+    ],
+    "komşularımız": [
+      "همسایه‌هایمان",
+      "our neighbours"
+    ],
+    "ku": [
+      "کو (صدای کریم)",
+      "coo (Kerim's call)"
+    ],
+    "kutlu": [
+      "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
+    ],
+    "kırlangıç": [
+      "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "Kırlangıç (a name; the word means swallow)"
+    ],
+    "metroda": [
+      "در مترو",
+      "on the metro"
+    ],
+    "mum": [
+      "شمع",
+      "candle"
+    ],
+    "mutlu yıllar sana": [
+      "تولدت مبارک (آوازِ تولد)",
+      "happy birthday to you (the birthday song)"
+    ],
+    "perşembeden": [
+      "از پنجشنبه؛ «perşembeden beri» یعنی از پنجشنبه تا حالا",
+      "from Thursday; “perşembeden beri”: since Thursday"
+    ],
+    "yakaladım": [
+      "گرفتمش! (از yakalamak)",
+      "I caught it! (from yakalamak)"
+    ],
+    "yavrum": [
+      "عزیزم، بچه‌جان (برای کوچک‌ترها)",
+      "my dear (to someone younger)"
+    ],
+    "yiyorum": [
+      "می‌خورم (از yemek)",
+      "I'm eating (from yemek)"
+    ],
+    "yıllar": [
+      "سال‌ها؛ «Mutlu yıllar sana» یعنی تولدت مبارک (آواز)",
+      "years; “Mutlu yıllar sana”: happy birthday to you (the song)"
+    ],
+    "çayla": [
+      "با چای",
+      "with tea"
+    ],
+    "şal": [
+      "شال",
+      "shawl"
+    ],
+    "şerefe": [
+      "به سلامتی! (موقعِ بالا بردنِ لیوان)",
+      "cheers! (raising a glass)"
+    ]
+  },
+  "id": "s1e30",
+  "kind": "special",
+  "lessons": [
+    "g_a1_5_gecmis",
+    "g_a1_5_once_sonra",
+    "g_a1_5_dan_beri"
+  ],
+  "level": "A1",
+  "place": "rooftop",
+  "props": {
+    "balonlar": {
+      "at": {
+        "rooftop": {
+          "x": 3.0,
+          "y": 1.1,
+          "z": -3.35
+        }
+      },
+      "colors": [
+        "#E4528C",
+        "#F2B705",
+        "#5BA3D6",
+        "#9B7BB0"
+      ],
+      "kit": "balloon",
+      "n": 8,
+      "terms": [],
+      "tied": true
+    },
+    "bicak": {
+      "at": {
+        "rooftop": {
+          "x": 0.7,
+          "y": 0.75,
+          "z": -1.45
+        }
+      },
+      "kit": "cutlery",
+      "terms": [],
+      "variant": "knife"
+    },
+    "cay_bardaklari": {
+      "at": {
+        "rooftop": {
+          "x": 0.0,
+          "y": 0.75,
+          "z": -1.55
+        }
+      },
+      "hot": true,
+      "kit": "tea",
+      "n": 6,
+      "terms": [
+        "a1-w-cay",
+        "a1-w-bardak"
+      ],
+      "variant": "glass"
+    },
+    "cicekler": {
+      "at": {
+        "rooftop": {
+          "x": 1.85,
+          "y": 0,
+          "z": -2.3
+        }
+      },
+      "flower": "geranium",
+      "kit": "flowers",
+      "terms": [
+        "a1-w-cicek",
+        "a1-w-hediye"
+      ],
+      "variant": "pot"
+    },
+    "dilim": {
+      "at": {
+        "rooftop": {
+          "x": 0.65,
+          "y": 0.75,
+          "z": -1.7
+        }
+      },
+      "flavor": "strawberry",
+      "kit": "cake",
+      "shown": false,
+      "terms": [
+        "a1-w-pasta"
+      ],
+      "variant": "slice"
+    },
+    "gulten_saksi": {
+      "at": {
+        "rooftop": {
+          "x": -2.55,
+          "y": 0,
+          "z": -2.0
+        }
+      },
+      "flower": "geranium",
+      "kit": "flowers",
+      "shown": false,
+      "terms": [
+        "a1-w-cicek"
+      ],
+      "variant": "pot"
+    },
+    "kart": {
+      "at": {
+        "rooftop": {
+          "x": -0.4,
+          "y": 0.75,
+          "z": -1.65
+        }
+      },
+      "kit": "paper",
+      "lines": [
+        "Sevgili Maria Teyze,",
+        "Bir ay önce İstanbul'a geldim.",
+        "Feriköy'e taşındım.",
+        "Sizi metroda gördüm… sonra komşu olduk!",
+        "Doğum gününüz kutlu olsun!",
+        "Nima"
+      ],
+      "terms": [
+        "a1-w-mektup"
+      ],
+      "variant": "card"
+    },
+    "mumlar": {
+      "at": {
+        "rooftop": {
+          "x": 0.25,
+          "y": 0.9,
+          "z": -1.6
+        }
+      },
+      "kit": "candle",
+      "lit": true,
+      "n": 8,
+      "terms": [
+        "b1-w-mum"
+      ]
+    },
+    "pasta": {
+      "at": {
+        "rooftop": {
+          "x": 0.25,
+          "y": 0.75,
+          "z": -1.6
+        }
+      },
+      "flavor": "strawberry",
+      "kit": "cake",
+      "terms": [
+        "a1-w-pasta"
+      ]
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "How many candles are there?",
+      "fa": "چند شمع هست؟",
+      "kind": "comp",
+      "options": [
+        "Sekiz",
+        "Seksen",
+        "On"
+      ],
+      "q": "Kaç mum var?",
+      "why": "Ömer: “Sekiz mum! Bir mum, on yıl!”"
+    },
+    {
+      "a": 0,
+      "en": "“Sekiz mum!” What is a candle for here?",
+      "fa": "«Sekiz mum!» شمع برای چیست؟",
+      "kind": "word",
+      "options": [
+        "Pasta için",
+        "Çay için",
+        "Şal için"
+      ],
+      "q": "“Sekiz mum!” Mum ne için?",
+      "why": "Ömer: “Sekiz mum! Bir mum, on yıl! Şimdi şarkı söylüyoruz!”"
+    },
+    {
+      "a": 0,
+      "en": "Where did Eleni and her family go?",
+      "fa": "النی و خانواده‌اش کجا رفتند؟",
+      "kind": "comp",
+      "options": [
+        "Atina'ya",
+        "Okula",
+        "Kadıköy'e"
+      ],
+      "q": "Eleni ve ailesi nereye gitti?",
+      "why": "Maria Teyze: “Sonra… onlar gittiler. Atina'ya.”"
+    }
+  ],
+  "ref": "A1_5",
+  "releaseDate": "2026-10-10",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "elif": "seat_1",
+        "farzad": "seat_2",
+        "kirlangic": "table",
+        "omer": "guests_l",
+        "rayan": "seat_3",
+        "serkan": "run"
+      },
+      "kerim": "railing",
+      "scene": "rooftop",
+      "state": "party",
+      "time": "golden"
+    },
+    {
+      "cam": "wide",
+      "en": "Today… eighty years! And on the roof… a surprise!",
+      "fa": "امروز… هشتاد سالگی! و روی پشت‌بوم… یه سورپرایز!",
+      "narr": true,
+      "react": {
+        "omer": {
+          "do": "shush",
+          "emo": "nervous"
+        }
+      },
+      "tr": "Bugün… seksen yaş! Ve çatıda… bir sürpriz!",
+      "who": "kerim"
+    },
+    {
+      "at": {
+        "maria": "maria_door",
+        "nima": "landing_5"
+      },
+      "kerim": "stair_window",
+      "scene": "flat_nima_stairs",
+      "time": "golden"
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Come, Maria Teyze! We're having tea on the roof…",
+      "fa": "بفرمایید، خاله ماریا! روی پشت‌بوم چای می‌خوریم…",
+      "to": "maria",
+      "tr": "Gelin, Maria Teyze! Çatıda çay içiyoruz…",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "Tea? How lovely!",
+      "fa": "چای؟ چه خوب!",
+      "if": "s1e28_secret",
+      "move": {
+        "how": "walk",
+        "to": "landing_5",
+        "who": "maria"
+      },
+      "to": "nima",
+      "tr": "Çay mı? Çok güzel!",
+      "who": "maria"
+    },
+    {
+      "emo": "curious",
+      "en": "Tea… of course. Tea!",
+      "fa": "چای… البته. چای!",
+      "move": {
+        "how": "walk",
+        "to": "landing_5",
+        "who": "maria"
+      },
+      "to": "nima",
+      "tr": "Çay… tabii. Çay!",
+      "unless": "s1e28_secret",
+      "who": "maria"
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "exit",
+            "to": "roof_door",
+            "who": "nima"
+          },
+          {
+            "how": "exit",
+            "to": "roof_door",
+            "who": "maria"
+          }
+        ],
+        "sfx": {
+          "id": "step"
+        }
+      }
+    },
+    {
+      "at": {
+        "elif": "seat_1",
+        "farzad": "seat_2",
+        "kirlangic": "table",
+        "omer": "guests_l",
+        "rayan": "seat_3",
+        "serkan": "run"
+      },
+      "kerim": "railing",
+      "scene": "rooftop",
+      "state": "party",
+      "time": "golden"
+    },
+    {
+      "beat": {
+        "move": [
+          {
+            "how": "enter",
+            "to": "guests_r",
+            "who": "maria"
+          }
+        ],
+        "sfx": {
+          "id": "door_open"
+        }
+      }
+    },
+    {
+      "do": "cheer",
+      "emo": "happy",
+      "en": "Surprise! Today we celebrate!",
+      "fa": "سورپرایز! امروز جشن می‌گیریم!",
+      "move": {
+        "how": "enter",
+        "to": "door",
+        "who": "nima"
+      },
+      "react": {
+        "farzad": "clap",
+        "omer": "cheer"
+      },
+      "sfx": {
+        "id": "applause",
+        "word": "Sürpriz!"
+      },
+      "to": "maria",
+      "tr": "Sürpriz! Bugün kutluyoruz!",
+      "who": "serkan"
+    },
+    {
+      "emo": "happy",
+      "en": "No more secret! Since Thursday… it was so hard!",
+      "fa": "راز تموم شد! از پنجشنبه تا حالا… خیلی سخت بود!",
+      "to": "all",
+      "tr": "Sır bitti! Perşembeden beri… çok zor!",
+      "who": "omer"
+    },
+    {
+      "do": "hand_heart",
+      "emo": "moved",
+      "en": "For me?! Thank you!",
+      "fa": "برای من؟! ممنونم!",
+      "if": "s1e28_secret",
+      "on": "benim",
+      "to": "all",
+      "tr": "Benim için mi?! Teşekkürler!",
+      "who": "maria"
+    },
+    {
+      "emo": "moved",
+      "en": "I knew… but it's still a surprise!",
+      "fa": "می‌دونستم… ولی باز هم سورپرایزه!",
+      "to": "all",
+      "tr": "Biliyorum… ama yine sürpriz!",
+      "unless": "s1e28_secret",
+      "who": "maria"
+    },
+    {
+      "at": "ch:maria",
+      "do": "give",
+      "emo": "happy",
+      "en": "Here you are, Maria Teyze: this shawl is for you. A present!",
+      "fa": "بفرمایید، خاله ماریا: این شال مالِ شماست. یه هدیه!",
+      "looks": {
+        "maria": {
+          "wear": {
+            "neck": {
+              "colors": [
+                "fab_56",
+                "fab_02"
+              ],
+              "id": "shawl_knit"
+            }
+          }
+        }
+      },
+      "to": "maria",
+      "tr": "Buyurun, Maria Teyze: bu şal sizin için. Bir hediye!",
+      "who": "kirlangic"
+    },
+    {
+      "at": "obj:balonlar",
+      "do": "point",
+      "emo": "happy",
+      "en": "And I bought balloons!",
+      "fa": "من هم بادکنک خریدم!",
+      "link": {
+        "balon": "obj:balonlar"
+      },
+      "to": "maria",
+      "tr": "Ben de balon aldım!",
+      "who": "farzad"
+    },
+    {
+      "do": "me",
+      "emo": "proud",
+      "en": "Me… I bought the cake!",
+      "fa": "من… کیک خریدم!",
+      "to": "maria",
+      "tr": "Ben… pasta aldım!",
+      "who": "serkan"
+    },
+    {
+      "beat": {
+        "do": "bow_head",
+        "move": [
+          {
+            "how": "enter",
+            "to": "seat_5",
+            "who": "gulten"
+          },
+          {
+            "how": "walk",
+            "to": "seat_4",
+            "who": "nima"
+          }
+        ],
+        "obj": [
+          {
+            "id": "gulten_saksi",
+            "op": "show"
+          }
+        ],
+        "who": "gulten"
+      }
+    },
+    {
+      "at": "obj:mumlar",
+      "do": "point",
+      "emo": "happy",
+      "en": "Eight candles! One candle, ten years! Now we sing!",
+      "fa": "هشت تا شمع! هر شمع، ده سال! حالا آواز می‌خونیم!",
+      "link": {
+        "mum": "obj:mumlar"
+      },
+      "to": "all",
+      "tr": "Sekiz mum! Bir mum, on yıl! Şimdi şarkı söylüyoruz!",
+      "who": "omer"
+    },
+    {
+      "emo": "happy",
+      "en": "Happy birthday to you…",
+      "fa": "تولدت مبارک…",
+      "react": {
+        "maria": "moved",
+        "omer": "happy"
+      },
+      "sfx": {
+        "id": "singing",
+        "word": "♪ Mutlu yıllar sana… ♪"
+      },
+      "to": "maria",
+      "tr": "Mutlu yıllar sana…",
+      "who": "serkan"
+    },
+    {
+      "beat": {
+        "emo": "happy",
+        "obj": [
+          {
+            "id": "mumlar",
+            "op": "set",
+            "set": {
+              "lit": false,
+              "out": 8
+            }
+          }
+        ],
+        "sfx": {
+          "id": "applause"
+        },
+        "who": "maria"
+      }
+    },
+    {
+      "beat": {
+        "at": "ch:nima",
+        "do": "give",
+        "obj": [
+          {
+            "id": "bicak",
+            "op": "give",
+            "to": "nima"
+          }
+        ],
+        "who": "elif"
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "Whose is the first piece?",
+      "fa": "اولین تیکه‌ی کیک مالِ کیه؟",
+      "to": "nima",
+      "tr": "İlk pasta kimin?",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "dilim",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Maria Teyze first!",
+            "fa": "اول خاله ماریا!",
+            "obj": [
+              {
+                "id": "dilim",
+                "op": "show"
+              },
+              {
+                "id": "dilim",
+                "op": "give",
+                "to": "maria"
+              }
+            ],
+            "ok": true,
+            "react": {
+              "maria": {
+                "do": "hand_heart",
+                "emo": "moved"
+              },
+              "serkan": "nod"
+            },
+            "reply": [
+              {
+                "do": "hand_heart",
+                "emo": "moved",
+                "en": "Thank you, my dear.",
+                "fa": "ممنونم، عزیزم.",
+                "tr": "Teşekkür ederim, yavrum.",
+                "who": "maria"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Önce Maria Teyze!"
+          },
+          {
+            "emo": "happy",
+            "en": "Me!",
+            "fa": "من!",
+            "obj": [
+              {
+                "id": "dilim",
+                "op": "show"
+              },
+              {
+                "id": "dilim",
+                "op": "take"
+              }
+            ],
+            "react": {
+              "maria": "laugh",
+              "omer": "surprised"
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "annoyed",
+                "en": "No! Maria Teyze first!",
+                "fa": "نه! اول خاله ماریا!",
+                "tr": "Hayır! İlk Maria Teyze!",
+                "who": "omer"
+              }
+            ],
+            "tone": "blunt",
+            "tr": "Ben!"
+          },
+          {
+            "at": "ch:omer",
+            "do": "point",
+            "emo": "happy",
+            "en": "Ömer first!",
+            "fa": "اول عمر!",
+            "obj": [
+              {
+                "id": "dilim",
+                "op": "show"
+              }
+            ],
+            "react": {
+              "omer": "happy"
+            },
+            "reply": [
+              {
+                "emo": "happy",
+                "en": "Maria Teyze first, Ömer.",
+                "fa": "اول خاله ماریا، عمر.",
+                "obj": [
+                  {
+                    "id": "dilim",
+                    "op": "give",
+                    "to": "maria"
+                  }
+                ],
+                "tr": "Önce Maria Teyze, Ömer.",
+                "who": "serkan"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Önce Ömer!",
+            "warm": {
+              "maria": 0,
+              "omer": 1
+            }
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "do": "beckon",
+      "emo": "happy",
+      "en": "Come on, Nima! A speech!",
+      "fa": "بیا، نیما! یه سخنرانی کن!",
+      "to": "nima",
+      "tr": "Gel, Nima! Bir konuşma!",
+      "who": "serkan"
+    },
+    {
+      "choice": {
+        "id": "konusma",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "moved",
+            "en": "A month ago I came to Istanbul. I saw you on the metro. Then we became neighbours. Happy birthday!",
+            "fa": "یه ماه پیش اومدم استانبول. شما رو توی مترو دیدم. بعد همسایه شدیم. تولدتون مبارک!",
+            "obj": [
+              {
+                "id": "kart",
+                "op": "take"
+              }
+            ],
+            "ok": true,
+            "react": {
+              "farzad": "clap",
+              "maria": {
+                "do": "hand_heart",
+                "emo": "moved"
+              }
+            },
+            "reply": [
+              {
+                "beat": {
+                  "do": "cheer",
+                  "obj": [
+                    {
+                      "id": "cay_bardaklari",
+                      "n": 1,
+                      "op": "take"
+                    }
+                  ],
+                  "sfx": {
+                    "id": "tea_glass",
+                    "word": "çın!"
+                  },
+                  "who": "serkan"
+                }
+              }
+            ],
+            "tone": "warm",
+            "tr": "Bir ay önce İstanbul'a geldim. Sizi metroda gördüm. Sonra komşu olduk. Doğum gününüz kutlu olsun!"
+          },
+          {
+            "emo": "happy",
+            "en": "A month ago I came. The bus was late. It rained. Then the cat came. Then…",
+            "fa": "یه ماه پیش اومدم. اتوبوس دیر کرد. بارون اومد. بعد گربه اومد. بعد…",
+            "react": {
+              "farzad": "curious",
+              "omer": "tired"
+            },
+            "reply": [
+              {
+                "emo": "curious",
+                "en": "…And?",
+                "fa": "…خب؟",
+                "tr": "…Ve?",
+                "who": "farzad"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Bir ay önce geldim. Otobüs geç kaldı. Yağmur yağdı. Sonra kedi geldi. Sonra…"
+          },
+          {
+            "do": "cheer",
+            "emo": "happy",
+            "en": "Cheers!",
+            "fa": "به سلامتی!",
+            "obj": [
+              {
+                "id": "cay_bardaklari",
+                "n": 1,
+                "op": "take"
+              }
+            ],
+            "react": {
+              "maria": "laugh",
+              "serkan": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "Cheers… with tea?!",
+                "fa": "با چای به سلامتی؟!",
+                "tr": "Çayla şerefe mi?!",
+                "who": "serkan"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Şerefe!"
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "cam": "wide",
+      "emo": "moved",
+      "en": "Seventy years ago… there was a birthday on this roof. Mine! I turned ten!",
+      "env": "state:past",
+      "fa": "هفتاد سال پیش… روی همین پشت‌بوم یه تولد بود. تولدِ من! ده سالگی!",
+      "frame": "past",
+      "to": "all",
+      "tr": "Yetmiş yıl önce… bu çatıda bir doğum günü oldu. Benim! On yaş!",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "My mother made a cake. Our neighbours came: Eleni and her family.",
+      "fa": "مادرم کیک پخت. همسایه‌هامون اومدن: النی و خانواده‌اش.",
+      "frame": "past",
+      "to": "all",
+      "tr": "Annem pasta yaptı. Komşularımız geldi: Eleni ve ailesi.",
+      "who": "maria"
+    },
+    {
+      "beat": {
+        "emo": "sad",
+        "wait": 900,
+        "who": "maria"
+      }
+    },
+    {
+      "emo": "sad",
+      "en": "Then… they left. For Athens.",
+      "fa": "بعد… رفتن. به آتن.",
+      "frame": "past",
+      "react": {
+        "nima": "sad",
+        "omer": "sad"
+      },
+      "to": "all",
+      "tr": "Sonra… onlar gittiler. Atina'ya.",
+      "who": "maria"
+    },
+    {
+      "cam": "wide",
+      "emo": "moved",
+      "en": "Today… on this roof again. New neighbours. A new family.",
+      "env": [
+        "state:now",
+        "time:dusk:8000"
+      ],
+      "fa": "امروز… باز روی همین پشت‌بوم. همسایه‌های تازه. یه خانواده‌ی تازه.",
+      "react": {
+        "kirlangic": "moved",
+        "nima": "moved"
+      },
+      "to": "all",
+      "tr": "Bugün… yine bu çatıda. Yeni komşular. Yeni bir aile.",
+      "who": "maria"
+    },
+    {
+      "spot": {
+        "en": "Then and now. Seventy years ago, in -DI: “bir doğum günü oldu”, “annem pasta yaptı”, “onlar gittiler”. Today, in the present: “bugün kutluyoruz”, “bugün bir doğum günü var”. And Serkan's “pasta aldım” is -DI again: he bought it before the party. Önce after a stretch of time means ago: yetmiş yıl önce, bir ay önce.",
+        "ex": "Yetmiş yıl önce… bu çatıda bir doğum günü oldu.",
+        "fa": "آن موقع و حالا. هفتاد سال پیش، با -DI: «bir doğum günü oldu» (یک تولد بود)، «annem pasta yaptı» (مادرم کیک پخت)، «onlar gittiler» (آن‌ها رفتند). امروز، با زمانِ حال: «bugün kutluyoruz» (امروز جشن می‌گیریم)، «bugün bir doğum günü var». جمله‌ی سرکان، «pasta aldım»، هم -DI است: او کیک را قبل از جشن خریده. önce بعد از یک مدت یعنی «پیش»: yetmiş yıl önce (هفتاد سال پیش)، bir ay önce (یک ماه پیش).",
+        "lesson": "g_a1_5_gecmis"
+      }
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "balonlar",
+            "op": "set",
+            "set": {
+              "tied": false
+            }
+          },
+          {
+            "id": "balonlar",
+            "ms": 5000,
+            "op": "go",
+            "to": "sky"
+          }
+        ],
+        "sfx": {
+          "id": "wind_gust",
+          "word": "vuuu!"
+        }
+      }
+    },
+    {
+      "at": "obj:balonlar",
+      "do": "point_far",
+      "emo": "surprised",
+      "en": "The balloons are flying away!",
+      "fa": "بادکنک‌ها دارن می‌رن!",
+      "link": {
+        "balonlar": "obj:balonlar"
+      },
+      "to": "all",
+      "tr": "Balonlar gidiyor!",
+      "who": "omer"
+    },
+    {
+      "beat": {
+        "cam": "follow",
+        "move": {
+          "how": "fly",
+          "to": "sky",
+          "who": "kerim"
+        },
+        "sfx": {
+          "id": "wing_flap",
+          "word": "pır pır"
+        }
+      }
+    },
+    {
+      "do": "beckon",
+      "emo": "laugh",
+      "en": "Kerim! Come back! Let them go!",
+      "fa": "کریم! بیا! ولشون کن!",
+      "to": "kerim",
+      "tr": "Kerim! Gel! Bırak!",
+      "who": "maria"
+    },
+    {
+      "emo": "happy",
+      "en": "Coo-coo… one! I caught one!",
+      "fa": "کو-کو… یکی! یکی رو گرفتم!",
+      "narr": true,
+      "tr": "Ku-ku… bir tane! Bir tane yakaladım!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "Maria Teyze's surprise 80th on the roof: a shawl, flowers, a card, a cake with eight candles and a speech. Then she tells of her tenth birthday on the same roof, seventy years ago, and the first lodos of the autumn carries the balloons away.",
+  "summaryFa": "جشنِ غافلگیریِ هشتاد سالگیِ خاله ماریا روی پشت‌بام: یک شال، گل، یک کارت، کیکی با هشت شمع و یک سخنرانی. بعد او از تولدِ ده سالگی‌اش روی همین پشت‌بام، هفتاد سال پیش، می‌گوید، و اولین بادِ لودوسِ پاییز بادکنک‌ها را با خود می‌برد.",
+  "title": "Seksen mum",
+  "titleEn": "Eighty candles",
+  "titleFa": "هشتاد شمع",
+  "words": [
+    "a1-w-dogum-gunu",
+    "a1-w-pasta",
+    "a1-w-hediye",
+    "a1-w-sarki",
+    "a1-w-soylemek",
+    "a1-w-yil",
+    "a1-w-once",
+    "seed-w24",
+    "a1-w-aile",
+    "a1-w-kutlamak"
+  ]
+}

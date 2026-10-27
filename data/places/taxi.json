@@ -1,0 +1,208 @@
+{
+  "ambience": [
+    "traffic",
+    "car_engine"
+  ],
+  "camera": {
+    "wide": {
+      "w": 4.2,
+      "x": 0,
+      "y0": -0.62,
+      "y1": 2.4,
+      "z": -1.2
+    }
+  },
+  "id": "taxi",
+  "life": "run",
+  "marks": {
+    "back_l": {
+      "seat": 0.55,
+      "x": -0.55,
+      "z": -0.9
+    },
+    "back_m": {
+      "seat": 0.55,
+      "x": 0,
+      "z": -0.9
+    },
+    "back_r": {
+      "seat": 0.55,
+      "x": 0.55,
+      "z": -0.9
+    },
+    "driver": {
+      "facing": "back",
+      "seat": 0.55,
+      "x": 1.0,
+      "z": 0.45
+    },
+    "front": {
+      "facing": "back",
+      "seat": 0.55,
+      "x": -1.0,
+      "z": 0.45
+    },
+    "outside": {
+      "air": true,
+      "pace": true,
+      "x": -1.6,
+      "y": 1.35,
+      "z": -0.6
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "The taxi",
+    "fa": "تاکسی",
+    "tr": "Taksi"
+  },
+  "perch": "outside",
+  "pieces": [
+    {
+      "kit": "sky_clouds",
+      "x": 0,
+      "z": -200
+    },
+    {
+      "flagState": "flags",
+      "h": 4000,
+      "kit": "skyline",
+      "variant": "sisli",
+      "w": 16000,
+      "x": 0,
+      "y": 0.25,
+      "z": -170
+    },
+    {
+      "h": 420,
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "variant": "pole",
+      "x": -2.6,
+      "z": -9
+    },
+    {
+      "in": [
+        "flags"
+      ],
+      "kit": "flag",
+      "n": 8,
+      "variant": "bunting",
+      "w": 700,
+      "x": 0,
+      "y": 2.4,
+      "z": -4.5
+    },
+    {
+      "id": "road",
+      "kit": "road",
+      "terms": [
+        "seed-w03"
+      ],
+      "variant": "back",
+      "x": 0,
+      "y": 0.25,
+      "z": -1.2
+    },
+    {
+      "id": "cabin",
+      "kit": "cabin",
+      "terms": [
+        "a1-w-araba"
+      ],
+      "variant": "taxi_back",
+      "w": 460,
+      "x": 0,
+      "z": -1.2
+    }
+  ],
+  "props": {
+    "gazete": {
+      "at": {
+        "x": -1.12,
+        "y": 0.46,
+        "z": -0.8
+      },
+      "kit": "print",
+      "lying": true,
+      "terms": [
+        "a1-w-gazete"
+      ],
+      "variant": "newspaper"
+    },
+    "kahve": {
+      "at": {
+        "x": -0.28,
+        "y": 0.62,
+        "z": 0.7
+      },
+      "kit": "cup",
+      "terms": [
+        "a1-w-kahve"
+      ],
+      "variant": "paper_cup"
+    },
+    "meter": {
+      "at": {
+        "x": 0.3,
+        "y": 0.66,
+        "z": 0.72
+      },
+      "decor": true,
+      "kit": "device",
+      "variant": "taxi_meter"
+    },
+    "radio": {
+      "at": {
+        "x": 0,
+        "y": 0.62,
+        "z": 0.7
+      },
+      "kit": "device",
+      "terms": [
+        "a1-w-radyo"
+      ],
+      "variant": "radio"
+    },
+    "scarf": {
+      "at": {
+        "x": 0.35,
+        "y": 1.29,
+        "z": -1.24
+      },
+      "decor": true,
+      "draped": true,
+      "kit": "cloth",
+      "variant": "scarf_bjk",
+      "w": 46
+    },
+    "telefon": {
+      "at": {
+        "x": -0.35,
+        "y": 1.29,
+        "z": -1.25
+      },
+      "kit": "phone",
+      "terms": [
+        "a1-w-telefon"
+      ]
+    }
+  },
+  "size": {
+    "d": 3,
+    "w": 6
+  },
+  "states": {
+    "flags": {}
+  },
+  "surface": "carpet",
+  "times": [
+    "day",
+    "golden",
+    "dusk",
+    "night"
+  ],
+  "v": 1
+}

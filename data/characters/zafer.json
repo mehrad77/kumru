@@ -1,0 +1,144 @@
+{
+  "address": {
+    "alex": "siz",
+    "dilnoza": "siz",
+    "ismail": "siz",
+    "nima": "siz",
+    "parvaneh": "siz",
+    "yusuf": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima worked hard.",
+        "fa": "نیما خیلی زحمت کشید.",
+        "photo": {
+          "step": 15,
+          "story": "s1e44"
+        },
+        "tr": "Nima çok çalıştı."
+      },
+      "family": {
+        "en": "Nima… I'm proud.",
+        "fa": "نیما… بهش افتخار می‌کنم.",
+        "photo": {
+          "step": 23,
+          "story": "s1e47"
+        },
+        "tr": "Nima… gurur duyuyorum."
+      },
+      "met": {
+        "en": "Nima: five hundred and four.",
+        "fa": "نیما: کلاسِ پانصد و چهار.",
+        "photo": {
+          "step": 3,
+          "story": "s1e03"
+        },
+        "tr": "Nima: beş yüz dört."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "adult",
+      "height": 0.5,
+      "shape": "average"
+    },
+    "face": {
+      "brows": "straight",
+      "eyeColor": "eye_brown",
+      "eyes": "almond",
+      "mouth": "thin",
+      "nose": "long",
+      "shape": "square"
+    },
+    "facialHair": {
+      "color": "hair_02",
+      "style": "beard_short"
+    },
+    "hair": {
+      "color": "hair_02",
+      "style": "hair_classic"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_18"
+        ],
+        "id": "bottom_chinos"
+      },
+      "shoes": {
+        "colors": [
+          "fab_20",
+          "fab_28"
+        ],
+        "id": "shoes_derby"
+      },
+      "top": {
+        "colors": [
+          "fab_04",
+          "fab_05"
+        ],
+        "id": "top_sweater_collar"
+      }
+    },
+    "skin": "skin_03",
+    "v": 1,
+    "wear": {
+      "eyes": {
+        "colors": [
+          "fab_22",
+          "len_01"
+        ],
+        "id": "glasses_rectangle"
+      }
+    }
+  },
+  "bio": "35, from Eskişehir; teaches A1 at Beykent TÖMER, class 504. Patient and precise, and a stickler for pronunciation.",
+  "bioFa": "سی‌وپنج ساله، اهل اسکی‌شهیر؛ در تومرِ بیکنت، کلاسِ ۵۰۴، A1 درس می‌دهد. صبور و دقیق، و در تلفظ سخت‌گیر.",
+  "catch": {
+    "en": "Once more, please!",
+    "fa": "یک بار دیگر، لطفاً!",
+    "tr": "Bir daha, lütfen!"
+  },
+  "circle": "tomer",
+  "color": "#2E3A59",
+  "id": "zafer",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "mid",
+    "signature": [
+      "count",
+      "write",
+      "point"
+    ],
+    "tempo": 0.9
+  },
+  "name": "Zafer Hoca",
+  "nameFa": "ظفر",
+  "order": 13,
+  "outfits": {
+    "winter": {
+      "outfit": {
+        "outer": {
+          "colors": [
+            "fab_24"
+          ],
+          "id": "outer_coat_long"
+        }
+      }
+    }
+  },
+  "places": [
+    "class504",
+    "tomer"
+  ],
+  "role": "The A1 teacher",
+  "roleFa": "معلمِ A1",
+  "voice": {
+    "pitch": 0.95,
+    "rate": 0.9
+  }
+}

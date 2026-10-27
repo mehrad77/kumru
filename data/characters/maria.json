@@ -1,0 +1,157 @@
+{
+  "address": {
+    "elif": "sen",
+    "nima": "siz"
+  },
+  "album": {
+    "s1": {
+      "close": {
+        "en": "Nima… a good neighbour.",
+        "fa": "نیما… همسایه‌ی خوبیه.",
+        "photo": {
+          "step": 32,
+          "story": "s1e18"
+        },
+        "tr": "Nima… iyi bir komşu."
+      },
+      "family": {
+        "en": "Nima is my family.",
+        "fa": "نیما خانواده‌ی منه.",
+        "photo": {
+          "step": 34,
+          "story": "s1e46"
+        },
+        "tr": "Nima benim ailem."
+      },
+      "met": {
+        "en": "My neighbour, Nima.",
+        "fa": "همسایه‌م، نیما.",
+        "photo": {
+          "step": 12,
+          "story": "s1e16"
+        },
+        "tr": "Komşum Nima."
+      }
+    }
+  },
+  "avatar": {
+    "body": {
+      "build": "elder",
+      "height": 0.35,
+      "shape": "slim"
+    },
+    "face": {
+      "brows": "thin",
+      "eyeColor": "eye_grey",
+      "eyes": "almond",
+      "marks": [
+        "wrinkles_deep"
+      ],
+      "mouth": "small",
+      "nose": "aquiline",
+      "shape": "long"
+    },
+    "hair": {
+      "color": "hair_09",
+      "style": "hair_bun_pinned"
+    },
+    "kit": "sahne-kit@1",
+    "outfit": {
+      "bottom": {
+        "colors": [
+          "fab_24"
+        ],
+        "id": "bottom_skirt_midi"
+      },
+      "outer": {
+        "colors": [
+          "fab_56"
+        ],
+        "id": "outer_cardigan_short"
+      },
+      "shoes": {
+        "colors": [
+          "fab_22"
+        ],
+        "id": "shoes_flats"
+      },
+      "top": {
+        "colors": [
+          "fab_02",
+          "fab_01"
+        ],
+        "id": "top_blouse_collar"
+      }
+    },
+    "skin": "skin_01",
+    "v": 1,
+    "wear": {
+      "eyes": {
+        "id": "glasses_reading"
+      },
+      "neck": {
+        "id": "neck_glasses_chain"
+      }
+    }
+  },
+  "bio": "Turns 80 on 10 October; Rum (Istanbul Greek), born on this street in Feriköy; a retired seamstress. Gracious, with a sharp memory; stubborn about how things were done.",
+  "bioFa": "دهمِ اکتبر هشتاد ساله می‌شود؛ رومی (یونانیِ استانبول) است و در همین خیابانِ فری‌کؤی به دنیا آمده؛ خیاطِ بازنشسته. باوقار است و حافظهٔ تیزی دارد؛ دربارهٔ اینکه کارها قدیم چطور انجام می‌شد یک‌دنده است.",
+  "catch": {
+    "en": "Drop by drop, a lake forms.",
+    "fa": "قطره قطره جمع گردد، وانگهی دریا شود.",
+    "tr": "Damlaya damlaya göl olur."
+  },
+  "circle": "neighbourhood",
+  "color": "#A78BA8",
+  "id": "maria",
+  "kind": "cast",
+  "level": "A1",
+  "motion": {
+    "energy": "low",
+    "signature": [
+      "hand_heart",
+      "beckon",
+      "explain"
+    ],
+    "tempo": 0.7
+  },
+  "name": "Maria",
+  "nameFa": "ماریا",
+  "order": 11,
+  "outfits": {
+    "cold": {
+      "wear": {
+        "neck": {
+          "colors": [
+            "fab_56",
+            "fab_02"
+          ],
+          "id": "shawl_knit"
+        }
+      }
+    },
+    "home": {
+      "outfit": {
+        "shoes": {
+          "id": "shoes_patik"
+        }
+      }
+    },
+    "market": {
+      "hold": {
+        "id": "bag_trolley"
+      }
+    }
+  },
+  "places": [
+    "flat_maria",
+    "flat_nima",
+    "rooftop"
+  ],
+  "role": "Rum neighbour upstairs; a retired seamstress",
+  "roleFa": "همسایهٔ رومیِ طبقهٔ بالا؛ خیاطِ بازنشسته",
+  "voice": {
+    "pitch": 1.1,
+    "rate": 0.85
+  }
+}

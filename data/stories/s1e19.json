@@ -1,0 +1,608 @@
+{
+  "arc": {
+    "en": "A new family",
+    "fa": "یک خانواده‌ی تازه",
+    "id": "s1w04",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Yeni bir aile"
+  },
+  "cast": [
+    "omer",
+    "nima",
+    "elif",
+    "farzad"
+  ],
+  "followUp": [
+    {
+      "en": "Are these your slippers?",
+      "fa": "این دمپاییِ توئه؟",
+      "to": "nima",
+      "tr": "Bu senin terliğin mi?",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "fu_terlik",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "Yes, they're my slippers.",
+            "fa": "آره، دمپاییِ منه.",
+            "ok": true,
+            "react": {
+              "omer": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "Your slippers are really big!",
+                "fa": "دمپاییت خیلی بزرگه!",
+                "to": "nima",
+                "tr": "Senin terliğin çok büyük!",
+                "who": "omer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Evet, benim terliğim."
+          },
+          {
+            "en": "Yes, they're your slippers.",
+            "fa": "آره، دمپاییِ توئه.",
+            "react": {
+              "omer": "confused"
+            },
+            "reply": [
+              {
+                "en": "Not mine! They're your slippers!",
+                "fa": "مالِ من نیست! دمپاییِ توئه!",
+                "to": "nima",
+                "tr": "Benim değil! Senin terliğin!",
+                "who": "omer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, senin terliğin."
+          }
+        ],
+        "to": "omer"
+      }
+    },
+    {
+      "en": "And is this your phone?",
+      "fa": "این هم گوشیِ توئه؟",
+      "to": "nima",
+      "tr": "Bu da senin telefonun mu?",
+      "who": "omer"
+    },
+    {
+      "en": "Yes, it's my phone.",
+      "fa": "آره، گوشیِ منه.",
+      "to": "omer",
+      "tr": "Evet, benim telefonum.",
+      "who": "nima"
+    },
+    {
+      "en": "I haven't got a phone… but I've got a cat!",
+      "fa": "من گوشی ندارم… ولی گربه دارم!",
+      "to": "nima",
+      "tr": "Benim telefonum yok… ama benim kedim var!",
+      "who": "omer"
+    }
+  ],
+  "gl": {
+    "ailen": [
+      "خانواده‌ات",
+      "your family"
+    ],
+    "ailesi": [
+      "خانواده‌اش",
+      "their family"
+    ],
+    "ağabeyim": [
+      "داداشم (برادرِ بزرگ‌تر)",
+      "my big brother"
+    ],
+    "boğaz": [
+      "بُسفر",
+      "the Bosphorus"
+    ],
+    "kitabım": [
+      "کتابم",
+      "my book"
+    ],
+    "kitabın": [
+      "کتابت",
+      "your book"
+    ],
+    "komşu": [
+      "همسایه",
+      "neighbour"
+    ],
+    "mısın": [
+      "هستی؟ (پرسشی)",
+      "are you? (a question)"
+    ],
+    "odam": [
+      "اتاقم",
+      "my room"
+    ],
+    "odan": [
+      "اتاقت",
+      "your room"
+    ],
+    "resimde": [
+      "توی عکس",
+      "in the picture"
+    ],
+    "tahran": [
+      "تهران",
+      "Tehran"
+    ],
+    "telefonum": [
+      "گوشی‌ام",
+      "my phone"
+    ],
+    "telefonun": [
+      "گوشی‌ات",
+      "your phone"
+    ]
+  },
+  "id": "s1e19",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_4_iyelik",
+    "g_a1_2_var_yok",
+    "g_a1_1_soru"
+  ],
+  "level": "A1",
+  "place": "flat_nima_room",
+  "props": {
+    "aile_fotografi": {
+      "at": {
+        "x": 1.2,
+        "y": 0.77,
+        "z": -1.95
+      },
+      "kit": "photo",
+      "n": 1,
+      "scene": "people",
+      "terms": [
+        "a1-w-fotograf"
+      ]
+    },
+    "oyuncak_kedi": {
+      "at": {
+        "x": 1.6,
+        "y": 0.5,
+        "z": -2.4
+      },
+      "kit": "toy",
+      "shown": false,
+      "terms": [
+        "a1-w-kedi",
+        "a2-w-oyuncak"
+      ],
+      "variant": "cat"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "Ömer: “I haven't got a big sister or a big brother… but I've got a …!”",
+      "fa": "عمر: «نه آبجی دارم، نه داداش… ولی … دارم!»",
+      "kind": "comp",
+      "options": [
+        "kedim",
+        "kitabım",
+        "odam"
+      ],
+      "q": "Ömer: “Benim ablam yok, ağabeyim yok… ama benim … var!”",
+      "why": "Ömer: “Benim ablam yok, ağabeyim yok… ama benim kedim var!”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “This is my mum, this is my dad. And this is my …”",
+      "fa": "نیما: «این مامانمه، این بابامه. این هم …»",
+      "kind": "word",
+      "options": [
+        "kardeşim",
+        "kitabım",
+        "odam"
+      ],
+      "q": "Nima: “Bu benim annem, bu benim babam. Bu da benim …”",
+      "why": "Nima: “Bu benim annem, bu benim babam. Bu da benim kardeşim.”"
+    },
+    {
+      "a": 0,
+      "en": "Nima: “Very far away…” What does Ömer say?",
+      "fa": "نیما: «خیلی دوره…» عمر چه می‌گوید؟",
+      "kind": "comp",
+      "options": [
+        "Ama biz buradayız!",
+        "Senin ailen burada!",
+        "Benim kedim yok!"
+      ],
+      "q": "Nima: “Çok uzak…” Ömer ne diyor?",
+      "why": "Ömer: “…Ama biz buradayız! Ben ve sen!”"
+    }
+  ],
+  "ref": "A1_4",
+  "releaseDate": "2026-09-28",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "nima": "bed"
+      },
+      "kerim": "ledge",
+      "scene": "flat_nima_room",
+      "time": "golden"
+    },
+    {
+      "en": "Whose room is this? Nima's! But today… Ömer is here!",
+      "fa": "این اتاق مال کیه؟ مال نیما! ولی امروز… عمر این‌جاست!",
+      "move": {
+        "how": "enter",
+        "to": "desk",
+        "who": "omer"
+      },
+      "narr": true,
+      "react": {
+        "nima": "happy"
+      },
+      "sfx": {
+        "id": "knock"
+      },
+      "tr": "Bu oda kimin? Nima'nın! Ama bugün… Ömer burada!",
+      "who": "kerim"
+    },
+    {
+      "at": "obj:book",
+      "do": "hold_up",
+      "emo": "curious",
+      "en": "This book… is it yours?",
+      "fa": "این کتاب… مال توئه؟",
+      "link": {
+        "kitap": "obj:book"
+      },
+      "obj": [
+        {
+          "id": "book",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Bu kitap… senin mi?",
+      "who": "omer"
+    },
+    {
+      "choice": {
+        "id": "kitap",
+        "kind": "meaning",
+        "options": [
+          {
+            "do": "nod",
+            "emo": "happy",
+            "en": "Yes, it's mine!",
+            "fa": "آره، مال منه!",
+            "ok": true,
+            "react": {
+              "omer": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "emo": "surprised",
+                "en": "Your book is really big!",
+                "fa": "کتابت خیلی بزرگه!",
+                "link": {
+                  "kitabın": "obj:book"
+                },
+                "to": "nima",
+                "tr": "Senin kitabın çok büyük!",
+                "who": "omer"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Evet, benim!"
+          },
+          {
+            "emo": "happy",
+            "en": "Yes, me!",
+            "fa": "آره، من!",
+            "react": {
+              "omer": "laugh"
+            },
+            "reply": [
+              {
+                "emo": "laugh",
+                "en": "Are you a book?! …It's your book!",
+                "fa": "تو کتابی؟! …کتابِ توئه!",
+                "link": {
+                  "kitap": "obj:book"
+                },
+                "to": "nima",
+                "tr": "Sen kitap mısın?! …Senin kitabın!",
+                "who": "omer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Evet, ben!"
+          },
+          {
+            "emo": "happy",
+            "en": "No, it's yours!",
+            "fa": "نه، مال توئه!",
+            "react": {
+              "omer": {
+                "emo": "surprised"
+              }
+            },
+            "reply": [
+              {
+                "do": "hug",
+                "emo": "laugh",
+                "en": "Mine?! My book!",
+                "fa": "مال من؟! کتابِ من!",
+                "link": {
+                  "kitabım": "obj:book"
+                },
+                "to": "nima",
+                "tr": "Benim mi?! Benim kitabım!",
+                "who": "omer"
+              },
+              {
+                "emo": "shy",
+                "en": "…But it's too big. It's your book.",
+                "fa": "…ولی خیلی بزرگه. کتابِ خودته.",
+                "link": {
+                  "kitabın": "obj:book"
+                },
+                "to": "nima",
+                "tr": "…Ama çok büyük. Senin kitabın.",
+                "who": "omer"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Hayır, senin!"
+          }
+        ],
+        "to": "omer"
+      }
+    },
+    {
+      "at": "obj:bag",
+      "do": "point",
+      "emo": "curious",
+      "en": "Is this your bag? And is this your notebook?",
+      "fa": "این کیفِ توئه؟ این هم دفترِ توئه؟",
+      "link": {
+        "defterin": "obj:notebook",
+        "çantan": "obj:bag"
+      },
+      "obj": [
+        {
+          "at": "desk_top",
+          "id": "book",
+          "op": "place"
+        }
+      ],
+      "to": "nima",
+      "tr": "Bu senin çantan mı? Bu da senin defterin mi?",
+      "who": "omer"
+    },
+    {
+      "do": "nod",
+      "emo": "happy",
+      "en": "Yes, my bag and my notebook.",
+      "fa": "آره، کیفِ من و دفترِ من.",
+      "to": "omer",
+      "tr": "Evet, benim çantam ve benim defterim.",
+      "who": "nima"
+    },
+    {
+      "at": "obj:aile_fotografi",
+      "do": "point",
+      "emo": "curious",
+      "en": "Who's in this picture?",
+      "fa": "تو این عکس کیه؟",
+      "link": {
+        "resimde": "obj:aile_fotografi"
+      },
+      "to": "nima",
+      "tr": "Bu resimde kim var?",
+      "who": "omer"
+    },
+    {
+      "at": "obj:aile_fotografi",
+      "do": "point",
+      "emo": "happy",
+      "en": "This is my mum, this is my dad. And this is my sibling.",
+      "fa": "این مامانمه، این بابامه. این هم خواهر/برادرمه.",
+      "to": "omer",
+      "tr": "Bu benim annem, bu benim babam. Bu da benim kardeşim.",
+      "who": "nima"
+    },
+    {
+      "at": "obj:oyuncak_kedi",
+      "do": "hold_up",
+      "emo": "proud",
+      "en": "I haven't got a big sister or a big brother… but I've got a cat! Where's your family?",
+      "fa": "من نه آبجی دارم، نه داداش… ولی گربه دارم! خانواده‌ات کجاست؟",
+      "link": {
+        "kedim": "obj:oyuncak_kedi"
+      },
+      "obj": [
+        {
+          "id": "oyuncak_kedi",
+          "op": "show"
+        },
+        {
+          "id": "oyuncak_kedi",
+          "op": "take"
+        }
+      ],
+      "to": "nima",
+      "tr": "Benim ablam yok, ağabeyim yok… ama benim kedim var! Senin ailen nerede?",
+      "who": "omer"
+    },
+    {
+      "emo": "sad",
+      "en": "In Tehran. Very far away… But Mum wants a photo: tea on the Bosphorus!",
+      "fa": "تهران. خیلی دوره… ولی مامانم یه عکس می‌خواد: چای کنار بسفر!",
+      "link": {
+        "fotoğraf": "obj:aile_fotografi"
+      },
+      "to": "omer",
+      "tr": "Tahran'da. Çok uzak… Ama annem bir fotoğraf istiyor: Boğaz'da çay!",
+      "who": "nima"
+    },
+    {
+      "at": "ch:nima",
+      "do": "you",
+      "emo": "happy",
+      "en": "The Bosphorus! Lovely! …But we're here! Me and you!",
+      "fa": "بسفر! خیلی قشنگه! …ولی ما این‌جاییم! من و تو!",
+      "on": "sen",
+      "react": {
+        "nima": {
+          "emo": "moved"
+        }
+      },
+      "to": "nima",
+      "tr": "Boğaz! Çok güzel! …Ama biz buradayız! Ben ve sen!",
+      "who": "omer"
+    },
+    {
+      "spot": {
+        "en": "Whose is it? The ending tells you. senin çantan: your bag. benim çantam: my bag. kitap softens to kitab-: benim kitabım, senin kitabın. Today's room is full of them: annem, babam, kardeşim, defterim; senin ailen.",
+        "ex": "Bu senin çantan mı?",
+        "fa": "مال کیه؟ پسوند می‌گه. senin çantan یعنی کیفِ تو، benim çantam یعنی کیفِ من (kitap جلوی پسوند kitab-‎ می‌شه: benim kitabım، senin kitabın). درست مثل فارسی: کیفم، کیفت. امروز اتاق پر از این‌هاست: annem، babam، kardeşim، defterim؛ senin ailen.",
+        "lesson": "g_a1_4_iyelik",
+        "show": "owner"
+      }
+    },
+    {
+      "en": "Ömer! Dinner!",
+      "fa": "عمر! بیا شام!",
+      "move": {
+        "how": "enter",
+        "to": "door",
+        "who": "elif"
+      },
+      "to": "omer",
+      "tr": "Ömer! Yemek!",
+      "who": "elif"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye! Your room is really nice!",
+      "fa": "خداحافظ! اتاقت خیلی قشنگه!",
+      "move": [
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "omer"
+        },
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "elif"
+        }
+      ],
+      "to": "nima",
+      "tr": "Hoşça kal! Senin odan çok güzel!",
+      "who": "omer"
+    },
+    {
+      "do": "wave",
+      "emo": "happy",
+      "en": "Bye bye!",
+      "fa": "به سلامت!",
+      "to": "omer",
+      "tr": "Güle güle!",
+      "who": "nima"
+    },
+    {
+      "beat": {
+        "do": "phone",
+        "move": {
+          "how": "walk",
+          "to": "desk",
+          "who": "nima"
+        },
+        "obj": [
+          {
+            "id": "phone",
+            "op": "take"
+          }
+        ],
+        "sfx": {
+          "id": "phone_ring"
+        },
+        "who": "nima"
+      }
+    },
+    {
+      "en": "Hello, Nima! How's your new home?",
+      "fa": "الو، نیما! خونه‌ی جدیدت چطوره؟",
+      "to": "nima",
+      "tr": "Alo, Nima! Yeni evin nasıl?",
+      "via": "phone",
+      "who": "farzad"
+    },
+    {
+      "emo": "happy",
+      "en": "Really nice! My neighbours are very kind.",
+      "fa": "خیلی خوبه! همسایه‌هام خیلی خوبن.",
+      "to": "farzad",
+      "tr": "Çok güzel! Komşularım çok iyi.",
+      "who": "nima"
+    },
+    {
+      "en": "Come over to ours on Sunday. There'll be food!",
+      "fa": "یکشنبه بیا خونه‌ی ما. غذا داریم!",
+      "to": "nima",
+      "tr": "Pazar günü bize gel. Yemek var!",
+      "via": "phone",
+      "who": "farzad"
+    },
+    {
+      "emo": "happy",
+      "en": "OK! Thanks!",
+      "fa": "باشه! مرسی!",
+      "to": "farzad",
+      "tr": "Tamam! Teşekkürler!",
+      "who": "nima"
+    },
+    {
+      "en": "Nima's family is far away… but the neighbours are here. And Farzad.",
+      "fa": "خانواده‌اش دوره… ولی همسایه‌ها این‌جان. و فرزاد.",
+      "narr": true,
+      "tr": "Ailesi uzakta… ama komşular burada. Ve Farzad.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "After school Ömer from downstairs explores Nima's room, asking who everything belongs to. The family photo on the desk brings out Nima's promise: a photo of tea on the Bosphorus for Mum. Then Farzad calls.",
+  "summaryFa": "بعد از مدرسه، عمر از طبقه‌ی پایین می‌آید، در اتاقِ نیما سرک می‌کشد و می‌پرسد هر چیزی مالِ کیست. عکسِ خانوادگیِ روی میز قولِ نیما را پیش می‌کشد: عکسی از چای کنارِ بسفر برای مادرش. بعد فرزاد زنگ می‌زند.",
+  "title": "Bu senin mi?",
+  "titleEn": "Is this yours?",
+  "titleFa": "این مال توئه؟",
+  "words": [
+    "a1-w-anne",
+    "a1-w-baba",
+    "a1-w-kardes",
+    "a1-w-aile",
+    "a1-w-fotograf",
+    "a1-w-resim",
+    "a1-w-abla",
+    "a1-w-agabey"
+  ]
+}

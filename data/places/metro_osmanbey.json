@@ -1,0 +1,258 @@
+{
+  "ambience": [
+    "crowd"
+  ],
+  "camera": {
+    "wide": {
+      "w": 7.2,
+      "x": 0,
+      "y1": 3.2,
+      "z": -1.2
+    }
+  },
+  "district": "Şişli",
+  "id": "metro_osmanbey",
+  "marks": {
+    "board": {
+      "x": -0.6,
+      "z": -0.8
+    },
+    "platform_l": {
+      "facing": "r",
+      "x": -1.2,
+      "z": -0.3
+    },
+    "platform_r": {
+      "facing": "l",
+      "x": 1.2,
+      "z": -0.3
+    },
+    "sign": {
+      "x": -0.6,
+      "y": 2.85,
+      "z": -1.2
+    },
+    "stairs": {
+      "door": "stairs_door",
+      "out": {
+        "x": -2.8,
+        "z": -1.7
+      },
+      "x": -2.8,
+      "z": -0.9
+    }
+  },
+  "motif": "street",
+  "name": {
+    "en": "Osmanbey metro station",
+    "fa": "ایستگاه متروی عثمان‌بی",
+    "tr": "Osmanbey metro istasyonu"
+  },
+  "perch": "sign",
+  "pieces": [
+    {
+      "board": "",
+      "color": "#3FA34D",
+      "h": 470,
+      "id": "platform_edge",
+      "kit": "platform",
+      "name": "OSMANBEY",
+      "terms": [
+        "a2-w-peron"
+      ],
+      "tunnel": 1,
+      "w": 1400,
+      "x": 0,
+      "z": -1.4
+    },
+    {
+      "color": "#ECEAE2",
+      "h": 245,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 220,
+          "w": 110,
+          "x": 0
+        }
+      ],
+      "tiles": 245,
+      "w": 150,
+      "x": -2.8,
+      "z": -1.0
+    },
+    {
+      "beyond": false,
+      "id": "stairs_door",
+      "kit": "door",
+      "label": "Çıkış",
+      "variant": "glass",
+      "x": -2.8,
+      "z": -0.99
+    },
+    {
+      "kit": "clock",
+      "time": "08:05",
+      "x": -1.6,
+      "y": 2.4,
+      "z": -3.6
+    },
+    {
+      "color": "#3FA34D",
+      "kit": "bench_row",
+      "n": 3,
+      "x": 3.1,
+      "z": -0.4
+    },
+    {
+      "kit": "street_kit",
+      "variant": "bin",
+      "x": -1.8,
+      "z": -1.05
+    },
+    {
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 3,
+      "x": 2.1,
+      "x0": -30,
+      "x1": 60,
+      "z": -1.05
+    },
+    {
+      "front": true,
+      "kind": "sit",
+      "kit": "crowd",
+      "n": 2,
+      "x": 2.7,
+      "x0": 0,
+      "x1": 40,
+      "z": -0.35
+    },
+    {
+      "kit": "ceiling_light",
+      "x": -1.5,
+      "y": 3.6,
+      "z": -0.6
+    },
+    {
+      "kit": "ceiling_light",
+      "x": 2.0,
+      "y": 3.6,
+      "z": -0.6
+    },
+    {
+      "color": "#3FA34D",
+      "kit": "metro_alongside",
+      "len": 900,
+      "x": 6.2,
+      "y": 0,
+      "z": -6.5
+    },
+    {
+      "color": "#ECEAE2",
+      "h": 340,
+      "kit": "wall",
+      "tiles": 340,
+      "w": 60,
+      "x": 3.5,
+      "z": 0.8
+    }
+  ],
+  "props": {
+    "departure_board": {
+      "at": {
+        "x": -0.6,
+        "y": 2.45,
+        "z": -1.2
+      },
+      "kit": "sign_board",
+      "label": "Taksim: geliyor",
+      "sub": "Şişli: 3 dk",
+      "terms": [
+        "a1-w-metro"
+      ],
+      "variant": "plate"
+    },
+    "gazete": {
+      "at": {
+        "x": 3.0,
+        "y": 0.45,
+        "z": -0.3
+      },
+      "kit": "print",
+      "lying": true,
+      "terms": [
+        "a1-w-gazete"
+      ],
+      "variant": "newspaper"
+    },
+    "harita": {
+      "at": {
+        "x": 2.4,
+        "y": 1.2,
+        "z": -3.55
+      },
+      "decor": true,
+      "kit": "board",
+      "variant": "map"
+    },
+    "kahve": {
+      "at": {
+        "x": 3.4,
+        "y": 0.45,
+        "z": -0.4
+      },
+      "kit": "cup",
+      "terms": [
+        "a1-w-kahve"
+      ],
+      "variant": "paper_cup"
+    },
+    "kart": {
+      "at": {
+        "x": -1.8,
+        "y": 1.02,
+        "z": -1.0
+      },
+      "decor": true,
+      "kit": "pass",
+      "variant": "istanbulkart"
+    },
+    "station_sign": {
+      "at": {
+        "x": -2.8,
+        "y": 2.3,
+        "z": -0.97
+      },
+      "kit": "sign_board",
+      "label": "OSMANBEY",
+      "terms": [
+        "a1-w-istasyon"
+      ],
+      "variant": "plate"
+    },
+    "trains": {
+      "at": {
+        "x": 6.6,
+        "y": 0,
+        "z": -2.4
+      },
+      "kit": "metro_alongside",
+      "terms": [
+        "a1-w-tren",
+        "a1-w-metro"
+      ]
+    }
+  },
+  "site": "metro",
+  "size": {
+    "d": 4,
+    "w": 9
+  },
+  "surface": "stone",
+  "times": [
+    "day"
+  ],
+  "v": 1
+}

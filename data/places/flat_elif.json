@@ -1,0 +1,360 @@
+{
+  "ambience": [
+    "street_far",
+    "fridge_hum"
+  ],
+  "camera": {
+    "wide": {
+      "w": 7.8,
+      "x": -0.3,
+      "y1": 2.6,
+      "z": -2.2
+    }
+  },
+  "district": "Feriköy, Şişli",
+  "id": "flat_elif",
+  "marks": {
+    "door": {
+      "door": "kapi",
+      "out": {
+        "x": -2.95,
+        "z": -3.4
+      },
+      "x": -2.95,
+      "z": -2.15
+    },
+    "hall": {
+      "facing": "r",
+      "x": -1.9,
+      "z": -1.5
+    },
+    "kitchen": {
+      "facing": "l",
+      "x": 2.15,
+      "z": -1.55
+    },
+    "omer": {
+      "facing": "r",
+      "x": 0.55,
+      "z": -0.55
+    },
+    "shelf": {
+      "x": 0.95,
+      "y": 1.97,
+      "z": -2.5
+    }
+  },
+  "motif": "home",
+  "name": {
+    "en": "Elif's flat",
+    "fa": "خانه‌ی الیف",
+    "tr": "Elif'in evi"
+  },
+  "perch": "shelf",
+  "pieces": [
+    {
+      "h": 700,
+      "kit": "skyline",
+      "variant": "ferikoy",
+      "w": 3000,
+      "x": 0,
+      "z": -20
+    },
+    {
+      "a": "#B58A62",
+      "b": "#A97E57",
+      "d": 500,
+      "kit": "floor",
+      "tile": 24,
+      "w": 420,
+      "x": -2.5,
+      "z": -2.6
+    },
+    {
+      "a": "#DCD5C7",
+      "b": "#CBC2B2",
+      "d": 500,
+      "kit": "floor",
+      "tile": 40,
+      "w": 460,
+      "x": 1.7,
+      "z": -2.6
+    },
+    {
+      "color": "#EFE4CC",
+      "h": 400,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 212,
+          "w": 95,
+          "x": -45,
+          "y": 0
+        }
+      ],
+      "tiles": 0,
+      "w": 420,
+      "x": -2.5,
+      "z": -2.6
+    },
+    {
+      "color": "#DCE8DE",
+      "h": 400,
+      "kit": "wall",
+      "openings": [
+        {
+          "h": 115,
+          "w": 110,
+          "x": 5,
+          "y": 110
+        }
+      ],
+      "tiles": 150,
+      "w": 460,
+      "x": 1.7,
+      "z": -2.6
+    },
+    {
+      "beyond": "#D7E3CF",
+      "color": "#6B4A35",
+      "id": "kapi",
+      "kit": "door",
+      "number": "4",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "flat",
+      "x": -2.95,
+      "z": -2.59
+    },
+    {
+      "curtain": "#E9D7A8",
+      "h": 115,
+      "id": "pencere",
+      "kit": "window",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 110,
+      "x": 1.75,
+      "y": 1.1,
+      "z": -2.59
+    },
+    {
+      "id": "hall_clock",
+      "kit": "clock",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "7:00",
+      "variant": "hall",
+      "x": -1.45,
+      "z": -2.45
+    },
+    {
+      "h": 30,
+      "kit": "picture",
+      "people": 3,
+      "variant": "photo",
+      "w": 40,
+      "x": -2.2,
+      "y": 1.45,
+      "z": -2.58
+    },
+    {
+      "kit": "lamp",
+      "variant": "wall",
+      "x": -2.2,
+      "y": 2.15,
+      "z": -2.57
+    },
+    {
+      "color": "#8E3B30",
+      "d": 70,
+      "kit": "rug",
+      "variant": "runner",
+      "w": 230,
+      "x": -2.3,
+      "z": -1.7
+    },
+    {
+      "kit": "kitchen",
+      "on": true,
+      "variant": "oven",
+      "x": 0.3,
+      "z": -2.45
+    },
+    {
+      "id": "kitchen",
+      "kit": "kitchen",
+      "terms": [
+        "a1-w-mutfak"
+      ],
+      "upper": false,
+      "variant": "counter",
+      "w": 80,
+      "x": 1.0,
+      "z": -2.45
+    },
+    {
+      "kit": "kitchen",
+      "variant": "sink",
+      "w": 70,
+      "x": 1.75,
+      "z": -2.45
+    },
+    {
+      "id": "buzdolabi",
+      "kit": "fridge",
+      "variant": "home",
+      "x": 2.75,
+      "z": -2.42
+    },
+    {
+      "h": 40,
+      "kit": "shelf",
+      "rows": 1,
+      "w": 80,
+      "x": 0.95,
+      "y": 1.55,
+      "z": -2.55
+    },
+    {
+      "id": "table",
+      "kit": "table",
+      "terms": [
+        "a1-w-masa"
+      ],
+      "variant": "kitchen",
+      "w": 110,
+      "x": 1.45,
+      "z": -1.15
+    },
+    {
+      "facing": "r",
+      "kit": "chair",
+      "x": 0.75,
+      "z": -1.25
+    },
+    {
+      "facing": "l",
+      "kit": "chair",
+      "x": 2.2,
+      "z": -1.25
+    },
+    {
+      "kit": "lamp",
+      "x": 1.45,
+      "y": 2.45,
+      "z": -1.15
+    },
+    {
+      "h": 120,
+      "kit": "plant",
+      "x": 3.3,
+      "z": 0.7
+    }
+  ],
+  "props": {
+    "askilik": {
+      "at": {
+        "x": -3.7,
+        "y": 0,
+        "z": -2.35
+      },
+      "kit": "laundry",
+      "terms": [
+        "a1-w-mont"
+      ],
+      "variant": "coat_stand"
+    },
+    "bardak": {
+      "at": {
+        "x": 1.25,
+        "y": 0.76,
+        "z": -1.12
+      },
+      "kit": "tea",
+      "n": 2,
+      "terms": [
+        "a1-w-bardak",
+        "a1-w-cay"
+      ],
+      "variant": "glass"
+    },
+    "caydanlik": {
+      "at": {
+        "x": 0.3,
+        "y": 0.9,
+        "z": -2.42
+      },
+      "hot": true,
+      "kit": "tea",
+      "terms": [
+        "a1-w-caydanlik"
+      ],
+      "variant": "caydanlik"
+    },
+    "ekmek": {
+      "at": {
+        "x": 1.7,
+        "y": 0.76,
+        "z": -1.15
+      },
+      "kit": "bread",
+      "n": 2,
+      "terms": [
+        "a1-w-ekmek"
+      ]
+    },
+    "meyve": {
+      "at": {
+        "x": 1.05,
+        "y": 0.9,
+        "z": -2.42
+      },
+      "kit": "fruit",
+      "terms": [
+        "a1-w-meyve"
+      ],
+      "variant": "fruit_bowl"
+    },
+    "terlik": {
+      "at": {
+        "x": -2.4,
+        "y": 0,
+        "z": -2.3
+      },
+      "kit": "footwear",
+      "n": 2,
+      "terms": [
+        "a1-w-terlik"
+      ],
+      "variant": "slippers"
+    },
+    "top": {
+      "at": {
+        "x": 0.2,
+        "y": 0,
+        "z": -0.9
+      },
+      "kit": "toy",
+      "terms": [
+        "a1-w-top"
+      ],
+      "variant": "ball"
+    }
+  },
+  "site": "flat_elif",
+  "size": {
+    "d": 4,
+    "w": 8
+  },
+  "surface": "wood",
+  "times": [
+    "day",
+    "dusk",
+    "night"
+  ],
+  "v": 1
+}

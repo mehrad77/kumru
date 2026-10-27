@@ -1,0 +1,554 @@
+{
+  "arc": {
+    "en": "Welcome!",
+    "fa": "خوش آمدی!",
+    "id": "s1w01",
+    "mechanics": [
+      "say",
+      "explore"
+    ],
+    "tr": "Hoş geldin!"
+  },
+  "cast": [
+    "nima",
+    "parvaneh",
+    "dilnoza"
+  ],
+  "followUp": [
+    {
+      "en": "Where's this?",
+      "fa": "این‌جا کجاست؟",
+      "narr": true,
+      "tr": "Burası neresi?",
+      "who": "kerim"
+    },
+    {
+      "en": "This is Taksim.",
+      "fa": "این‌جا تقسیمه.",
+      "tr": "Burası Taksim.",
+      "who": "nima"
+    },
+    {
+      "en": "And that place there?",
+      "fa": "اون‌جا چی؟",
+      "narr": true,
+      "tr": "Ya şurası?",
+      "who": "kerim"
+    },
+    {
+      "choice": {
+        "id": "fu_surasi",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "That's İstiklal there.",
+            "fa": "اون‌جا استقلاله.",
+            "ok": true,
+            "react": {
+              "kerim": "happy"
+            },
+            "reply": [
+              {
+                "en": "Yes! And that place far away?",
+                "fa": "آره! اون‌جای دور چی؟",
+                "narr": true,
+                "tr": "Evet! Ya orası?",
+                "who": "kerim"
+              }
+            ],
+            "tone": "polite",
+            "tr": "Şurası İstiklal."
+          },
+          {
+            "en": "This is İstiklal here.",
+            "fa": "این‌جا استقلاله.",
+            "react": {
+              "kerim": "curious"
+            },
+            "reply": [
+              {
+                "en": "No… İstiklal is there. And that place far away?",
+                "fa": "نه… استقلال اون‌جاست. اون‌جای دور چی؟",
+                "narr": true,
+                "tr": "Hayır… şurası İstiklal. Ya orası?",
+                "who": "kerim"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Burası İstiklal."
+          }
+        ]
+      }
+    },
+    {
+      "en": "That's Galata over there.",
+      "fa": "اون‌جا گالاتاست.",
+      "tr": "Orası Galata.",
+      "who": "nima"
+    },
+    {
+      "en": "Yes! Very good.",
+      "fa": "آره! خیلی خوبه.",
+      "narr": true,
+      "tr": "Evet! Çok güzel.",
+      "who": "kerim"
+    }
+  ],
+  "gl": {
+    "galata": [
+      "گالاتا (محله و برجی قدیمی در بی‌اوغلو)",
+      "Galata (an old quarter and tower in Beyoğlu)"
+    ],
+    "kalın": [
+      "(در «hoşça kalın») خداحافظ، به چند نفر",
+      "(in “hoşça kalın”) bye, to more than one person"
+    ],
+    "mağazalar": [
+      "مغازه‌ها",
+      "shops"
+    ],
+    "orası": [
+      "آن‌جا (دور)",
+      "that place over there (far away)"
+    ],
+    "paris": [
+      "پاریس",
+      "Paris"
+    ],
+    "şurası": [
+      "آن‌جا (کمی دورتر)",
+      "that place there (a little way off)"
+    ]
+  },
+  "id": "s1e04",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_1_burasi",
+    "g_a1_1_bu_su_o",
+    "g_a1_1_soru"
+  ],
+  "level": "A1",
+  "place": "istiklal_taksim",
+  "quiz": [
+    {
+      "a": 0,
+      "en": "“My bus! Bye, you two!” Who says it?",
+      "fa": "«Otobüs! Hoşça kalın!» را چه کسی می‌گوید؟",
+      "kind": "comp",
+      "options": [
+        "Dilnoza",
+        "Parvane",
+        "Nima"
+      ],
+      "q": "“Otobüs! Hoşça kalın!” Kim?",
+      "why": "Dilnoza: “Otobüs! Hoşça kalın!”"
+    },
+    {
+      "a": 0,
+      "en": "Lots of people everywhere. Kerim: “This is Taksim. So …!”",
+      "fa": "همه‌جا پر از آدم است. کریم: «این‌جا تقسیم است. خیلی …!»",
+      "kind": "word",
+      "options": [
+        "kalabalık",
+        "kırmızı",
+        "yeni"
+      ],
+      "q": "Kerim: “Burası Taksim. Çok …!”",
+      "why": "Kerim: “Burası Taksim. Çok kalabalık!”"
+    },
+    {
+      "a": 0,
+      "en": "Nima goes home on the metro, Parvaneh stays for the shops. Nima says: “…”",
+      "fa": "نیما با مترو می‌رود و پروانه برای مغازه‌ها می‌ماند. نیما می‌گوید: «…»",
+      "kind": "comp",
+      "options": [
+        "Hoşça kal!",
+        "Güle güle!",
+        "Günaydın!"
+      ],
+      "q": "Nima metro, Parvane mağazalar. Nima: “…”",
+      "why": "Nima: “Hoşça kal!” Parvane: “Güle güle!”"
+    }
+  ],
+  "ref": "A1_1",
+  "releaseDate": "2026-09-10",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "dilnoza": "walk_r",
+        "nima": "walk_c",
+        "parvaneh": "walk_l"
+      },
+      "kerim": "over",
+      "scene": "istiklal_taksim",
+      "time": "day"
+    },
+    {
+      "cam": "wide",
+      "en": "This is Taksim. It's so crowded!",
+      "fa": "این‌جا تقسیمه. خیلی شلوغه!",
+      "narr": true,
+      "tr": "Burası Taksim. Çok kalabalık!",
+      "who": "kerim"
+    },
+    {
+      "emo": "curious",
+      "en": "Where's this?",
+      "fa": "این‌جا کجاست؟",
+      "to": "nima",
+      "tr": "Burası neresi?",
+      "who": "parvaneh"
+    },
+    {
+      "emo": "proud",
+      "en": "This is Taksim!",
+      "fa": "این‌جا تقسیمه!",
+      "to": "parvaneh",
+      "tr": "Burası Taksim!",
+      "who": "nima"
+    },
+    {
+      "at": {
+        "dilnoza": "walk_r",
+        "nima": "walk_c",
+        "parvaneh": "walk_l"
+      },
+      "kerim": "tram_wire",
+      "scene": "istiklal_street",
+      "time": "day"
+    },
+    {
+      "at": "obj:levha",
+      "do": "point",
+      "emo": "curious",
+      "en": "And where's that?",
+      "fa": "اون‌جا کجاست؟",
+      "to": "dilnoza",
+      "tr": "Şurası neresi?",
+      "who": "parvaneh"
+    },
+    {
+      "at": "obj:levha",
+      "do": "read",
+      "emo": "happy",
+      "en": "İstiklal! A very beautiful street.",
+      "fa": "استقلال! یه خیابونِ خیلی قشنگ.",
+      "link": {
+        "istiklal": "obj:levha"
+      },
+      "to": "parvaneh",
+      "tr": "İstiklal! Çok güzel bir sokak.",
+      "who": "dilnoza"
+    },
+    {
+      "beat": {
+        "sfx": {
+          "at": "mark:stop",
+          "id": "tram_bell"
+        },
+        "wait": 400
+      }
+    },
+    {
+      "at": "mark:stop",
+      "do": "point",
+      "emo": "surprised",
+      "en": "What's that?",
+      "fa": "اون چیه؟",
+      "to": "dilnoza",
+      "tr": "Şu ne?",
+      "who": "parvaneh"
+    },
+    {
+      "emo": "happy",
+      "en": "A red tram!",
+      "fa": "یه تراموای قرمز!",
+      "to": "parvaneh",
+      "tr": "Kırmızı bir tramvay!",
+      "who": "dilnoza"
+    },
+    {
+      "emo": "happy",
+      "en": "Shops! Cafés!",
+      "fa": "مغازه‌ها! کافه‌ها!",
+      "to": "all",
+      "tr": "Mağazalar! Kafeler!",
+      "who": "parvaneh"
+    },
+    {
+      "do": "wave",
+      "emo": "surprised",
+      "en": "My bus! Bye, you two!",
+      "fa": "اتوبوسم! خداحافظ!",
+      "on": "hoşça",
+      "to": "all",
+      "tr": "Otobüs! Hoşça kalın!",
+      "who": "dilnoza"
+    },
+    {
+      "choice": {
+        "id": "gule_gule",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Bye! (to the one leaving)",
+            "fa": "به سلامت!",
+            "ok": true,
+            "react": {
+              "dilnoza": {
+                "do": "wave",
+                "emo": "happy"
+              }
+            },
+            "tone": "warm",
+            "tr": "Güle güle!"
+          },
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "See you!",
+            "fa": "می‌بینمت!",
+            "react": {
+              "dilnoza": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "wave",
+                "emo": "happy",
+                "en": "See you!",
+                "fa": "می‌بینمت!",
+                "to": "nima",
+                "tr": "Görüşürüz!",
+                "who": "dilnoza"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Görüşürüz!"
+          },
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Bye! (said by the one leaving)",
+            "fa": "خداحافظ!",
+            "react": {
+              "dilnoza": {
+                "emo": "laugh"
+              },
+              "parvaneh": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "No, no! You say güle güle!",
+                "fa": "نه، نه! تو می‌گی güle güle!",
+                "to": "nima",
+                "tr": "Hayır, hayır! Sen: güle güle!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Hoşça kal!"
+          }
+        ],
+        "to": "dilnoza"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "exit",
+          "to": "side_exit",
+          "who": "dilnoza"
+        }
+      }
+    },
+    {
+      "at": {
+        "nima": "walk_r",
+        "parvaneh": "walk_l"
+      },
+      "kerim": "roof",
+      "scene": "istiklal_sishane",
+      "time": "golden"
+    },
+    {
+      "at": "mark:galata",
+      "do": "point_far",
+      "emo": "curious",
+      "en": "What's that place over there? Paris?",
+      "fa": "اون‌جا کجاست؟ پاریسه؟",
+      "to": "nima",
+      "tr": "Orası neresi? Paris mi?",
+      "who": "parvaneh"
+    },
+    {
+      "at": "mark:galata",
+      "do": "point_far",
+      "emo": "laugh",
+      "en": "No! That's Galata over there.",
+      "fa": "نه! اون‌جا گالاتاست.",
+      "move": {
+        "how": "fly",
+        "to": "galata",
+        "who": "kerim"
+      },
+      "react": {
+        "parvaneh": {
+          "at": "mark:galata",
+          "do": "look"
+        }
+      },
+      "to": "parvaneh",
+      "tr": "Hayır! Orası Galata.",
+      "who": "nima"
+    },
+    {
+      "spot": {
+        "en": "Three words for a place: burası is here, where you stand (“Burası Taksim!”). şurası is there, a little way off, where you point (“Şurası neresi?”: the street sign). orası is over there, far away (“Orası Galata.”). To ask: “Burası neresi?”",
+        "ex": "Orası Galata.",
+        "fa": "سه کلمه برای «جا»: burası یعنی همین‌جا که ایستاده‌ای («Burası Taksim!»). şurası یعنی آن‌جا، کمی دورتر، جایی که نشانش می‌دهی («Şurası neresi?»: تابلوی خیابان). orası یعنی آن‌جا، دور («Orası Galata.»). برای پرسیدن: «Burası neresi?» فارسی دو کلمه دارد، این‌جا و آن‌جا؛ ترکی سه‌تا.",
+        "lesson": "g_a1_1_burasi",
+        "show": "deixis"
+      }
+    },
+    {
+      "at": "ch:nima",
+      "do": "you",
+      "emo": "happy",
+      "en": "You: the metro. Me: the shops!",
+      "fa": "تو می‌ری مترو، من می‌رم مغازه‌ها!",
+      "to": "nima",
+      "tr": "Sen metro, ben mağazalar!",
+      "who": "parvaneh"
+    },
+    {
+      "choice": {
+        "id": "hosca_kal",
+        "kind": "polite",
+        "options": [
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Bye! (I'm leaving)",
+            "fa": "خداحافظ!",
+            "ok": true,
+            "react": {
+              "parvaneh": {
+                "do": "wave",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "wave",
+                "emo": "happy",
+                "en": "Bye! Take care!",
+                "fa": "به سلامت!",
+                "to": "nima",
+                "tr": "Güle güle!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Hoşça kal!"
+          },
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "See you!",
+            "fa": "می‌بینمت!",
+            "react": {
+              "parvaneh": {
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "do": "wave",
+                "emo": "happy",
+                "en": "See you, Nima!",
+                "fa": "می‌بینمت، نیما!",
+                "to": "nima",
+                "tr": "Görüşürüz, Nima!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Görüşürüz!"
+          },
+          {
+            "do": "wave",
+            "emo": "happy",
+            "en": "Bye! (said to the one leaving)",
+            "fa": "به سلامت!",
+            "react": {
+              "parvaneh": {
+                "emo": "laugh"
+              }
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "laugh",
+                "en": "No, no! You say hoşça kal. I say güle güle!",
+                "fa": "نه، نه! تو می‌گی hoşça kal، من می‌گم güle güle!",
+                "to": "nima",
+                "tr": "Hayır, hayır! Sen: hoşça kal. Ben: güle güle!",
+                "who": "parvaneh"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Güle güle!"
+          }
+        ],
+        "to": "parvaneh"
+      }
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "exit",
+          "to": "entrance",
+          "who": "nima"
+        }
+      }
+    },
+    {
+      "cam": "wide",
+      "en": "This is Istanbul. Beautiful, and crowded.",
+      "env": "time:dusk:4000",
+      "fa": "این‌جا استانبوله. قشنگ و شلوغ.",
+      "move": {
+        "how": "fly",
+        "to": "roof",
+        "who": "kerim"
+      },
+      "narr": true,
+      "tr": "Burası İstanbul. Güzel ve kalabalık.",
+      "who": "kerim"
+    }
+  ],
+  "summary": "After class, Nima, Parvaneh and Dilnoza walk down İstiklal from Taksim to Şişhane: a red tram, the shops, Galata far away, and two goodbyes.",
+  "summaryFa": "بعد از کلاس، نیما و پروانه و دلنوزا از تقسیم تا شیشهانه در خیابانِ استقلال قدم می‌زنند: یک تراموای قرمز، مغازه‌ها، گالاتا در دوردست و دو خداحافظی.",
+  "title": "Burası neresi?",
+  "titleEn": "Where is this?",
+  "titleFa": "این‌جا کجاست؟",
+  "words": [
+    "a1-w-burasi",
+    "a1-w-neresi",
+    "a1-w-sokak",
+    "a1-w-magaza",
+    "a1-w-kalabalik",
+    "a1-w-kirmizi",
+    "a1-w-hosca-kal",
+    "a1-w-gule-gule"
+  ]
+}

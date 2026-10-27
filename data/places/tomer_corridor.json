@@ -1,0 +1,398 @@
+{
+  "ambience": [
+    "corridor_murmur"
+  ],
+  "camera": {
+    "wide": {
+      "w": 10,
+      "x": 0,
+      "z": -2.4
+    }
+  },
+  "district": "Taksim, Beyoğlu",
+  "id": "tomer_corridor",
+  "marks": {
+    "board": {
+      "x": -1.5,
+      "z": -1.5
+    },
+    "board_l": {
+      "facing": "r",
+      "x": -2.15,
+      "z": -1.45
+    },
+    "board_r": {
+      "facing": "l",
+      "x": -0.85,
+      "z": -1.45
+    },
+    "call": {
+      "facing": "r",
+      "x": 0.4,
+      "z": 0.0
+    },
+    "call_r": {
+      "facing": "l",
+      "x": 1.15,
+      "z": 0.05
+    },
+    "class_door": {
+      "door": "door_504",
+      "out": {
+        "x": 2.4,
+        "z": -3.2
+      },
+      "x": 2.4,
+      "z": -1.9
+    },
+    "corridor_l": {
+      "facing": "r",
+      "x": -2.4,
+      "z": 0.1
+    },
+    "corridor_r": {
+      "facing": "l",
+      "x": -1.6,
+      "z": 0.15
+    },
+    "door_504": {
+      "door": "door_504",
+      "out": {
+        "x": 2.6,
+        "z": -3.2
+      },
+      "x": 2.6,
+      "z": -1.9
+    },
+    "ledge": {
+      "x": 4.25,
+      "y": 1.12,
+      "z": -2.3
+    },
+    "wait_1": {
+      "facing": "l",
+      "x": 3.4,
+      "z": -1.75
+    },
+    "wait_2": {
+      "facing": "l",
+      "x": 4.0,
+      "z": -1.7
+    },
+    "wait_3": {
+      "facing": "r",
+      "x": 1.7,
+      "z": -1.4
+    },
+    "window": {
+      "x": 0.8,
+      "y": 1.12,
+      "z": -2.3
+    }
+  },
+  "motif": "school",
+  "name": {
+    "en": "The TÖMER corridor",
+    "fa": "راهروی تومر",
+    "tr": "TÖMER'in koridoru"
+  },
+  "perch": "window",
+  "pieces": [
+    {
+      "kit": "street",
+      "variant": "far",
+      "w": 2000,
+      "x": 0,
+      "z": -8
+    },
+    {
+      "a": "#D6CFC1",
+      "b": "#C9C1B1",
+      "d": 1000,
+      "kit": "floor",
+      "tile": 50,
+      "w": 1200,
+      "x": 0,
+      "z": -2.4
+    },
+    {
+      "board": {
+        "w": 200,
+        "x": -150
+      },
+      "doors": [
+        {
+          "number": "503",
+          "x": -420
+        },
+        {
+          "cut": true,
+          "x": 250
+        }
+      ],
+      "h": 420,
+      "id": "corridor",
+      "kit": "corridor",
+      "terms": [
+        "a1-w-koridor"
+      ],
+      "view": false,
+      "w": 1100,
+      "windows": [
+        {
+          "cut": true,
+          "h": 130,
+          "w": 150,
+          "x": 80,
+          "y": 110
+        },
+        {
+          "cut": true,
+          "h": 130,
+          "w": 140,
+          "x": 440,
+          "y": 110
+        }
+      ],
+      "x": 0,
+      "z": -2.4
+    },
+    {
+      "id": "door_504",
+      "kit": "door",
+      "number": "",
+      "terms": [
+        "a1-w-kapi"
+      ],
+      "variant": "class",
+      "x": 2.5,
+      "z": -2.39
+    },
+    {
+      "h": 130,
+      "id": "window",
+      "kit": "window",
+      "terms": [
+        "seed-w02"
+      ],
+      "w": 150,
+      "x": 0.8,
+      "y": 1.1,
+      "z": -2.39
+    },
+    {
+      "h": 130,
+      "kit": "window",
+      "w": 140,
+      "x": 4.4,
+      "y": 1.1,
+      "z": -2.39
+    },
+    {
+      "h": 100,
+      "id": "pano",
+      "kit": "board",
+      "terms": [
+        "a2-w-pano",
+        "a2-w-ilan"
+      ],
+      "variant": "notice",
+      "w": 190,
+      "x": -1.5,
+      "y": 0.95,
+      "z": -2.38
+    },
+    {
+      "kit": "board",
+      "title": "Ders programı",
+      "variant": "guide",
+      "x": -4.95,
+      "y": 1.05,
+      "z": -2.38
+    },
+    {
+      "kit": "clock",
+      "time": "10:30",
+      "x": 1.75,
+      "y": 2.3,
+      "z": -2.38
+    },
+    {
+      "id": "sandalye",
+      "kit": "chair",
+      "terms": [
+        "a1-w-sandalye"
+      ],
+      "variant": "waiting_row",
+      "x": -2.95,
+      "z": -2.15
+    },
+    {
+      "h": 150,
+      "kit": "plant",
+      "x": -3.4,
+      "z": 0.75
+    },
+    {
+      "kind": "walk",
+      "kit": "crowd",
+      "n": 3,
+      "umbrellas": 0,
+      "x": 0,
+      "x0": -480,
+      "x1": 480,
+      "z": -0.75
+    },
+    {
+      "kind": "stand",
+      "kit": "crowd",
+      "n": 2,
+      "x": -4.3,
+      "x0": -40,
+      "x1": 40,
+      "z": -1.5
+    }
+  ],
+  "props": {
+    "afis": {
+      "at": {
+        "x": -0.3,
+        "y": 1.2,
+        "z": -2.37
+      },
+      "kit": "print",
+      "terms": [
+        "a2-w-afis"
+      ],
+      "variant": "poster"
+    },
+    "canta": {
+      "at": {
+        "x": -2.55,
+        "y": 0.45,
+        "z": -2.1
+      },
+      "kit": "bag",
+      "terms": [
+        "a1-w-canta"
+      ]
+    },
+    "cop_kutusu": {
+      "at": {
+        "x": -0.3,
+        "y": 0,
+        "z": -2.25
+      },
+      "kit": "cleaning",
+      "terms": [
+        "a1-w-cop-kutusu"
+      ],
+      "variant": "bin"
+    },
+    "ders_programi": {
+      "at": {
+        "x": -0.8,
+        "y": 1.22,
+        "z": -2.36
+      },
+      "kit": "print",
+      "terms": [
+        "a1-w-program"
+      ],
+      "title": "DERS PROGRAMI",
+      "variant": "timetable"
+    },
+    "door_sign_504": {
+      "at": {
+        "x": 3.295,
+        "y": 1.685,
+        "z": -2.37
+      },
+      "h": 26,
+      "kit": "sign_board",
+      "label": "504",
+      "terms": [
+        "a1-w-sinif",
+        "a1-w-numara"
+      ],
+      "variant": "plate",
+      "w": 42
+    },
+    "ilanlar": {
+      "at": {
+        "x": -1.55,
+        "y": 1.22,
+        "z": -2.36
+      },
+      "kit": "paper",
+      "labels": [
+        "Şişli · 25.000 TL",
+        "Feriköy · 4. kat · 20.000 TL",
+        "Kurtuluş · oda · 12.000 TL"
+      ],
+      "n": 6,
+      "terms": [
+        "a2-w-ilan",
+        "b1-w-kiralik",
+        "a1-w-kira"
+      ],
+      "variant": "flat_ad"
+    },
+    "kahve": {
+      "at": {
+        "x": -2.85,
+        "y": 0.45,
+        "z": -2.08
+      },
+      "kit": "cup",
+      "terms": [
+        "a1-w-kahve"
+      ],
+      "variant": "paper_cup"
+    },
+    "kitaplar": {
+      "at": {
+        "x": -3.25,
+        "y": 0.45,
+        "z": -2.1
+      },
+      "decor": true,
+      "kit": "book",
+      "variant": "stack"
+    },
+    "semsiye": {
+      "at": {
+        "x": -3.55,
+        "y": 0,
+        "z": -2.25
+      },
+      "kit": "umbrella",
+      "open": false,
+      "terms": [
+        "a1-w-semsiye"
+      ]
+    },
+    "su": {
+      "at": {
+        "x": 4.0,
+        "y": 1.12,
+        "z": -2.32
+      },
+      "kit": "food",
+      "terms": [
+        "seed-w19"
+      ],
+      "variant": "water"
+    }
+  },
+  "site": "tomer",
+  "size": {
+    "d": 4,
+    "w": 10
+  },
+  "surface": "tile",
+  "times": [
+    "day"
+  ],
+  "v": 1
+}

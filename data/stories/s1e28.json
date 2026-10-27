@@ -1,0 +1,528 @@
+{
+  "arc": {
+    "en": "What time is it?",
+    "fa": "ساعت چند است؟",
+    "id": "s1w05",
+    "mechanics": [
+      "say",
+      "explore",
+      "aloud"
+    ],
+    "tr": "Saat kaç?"
+  },
+  "cast": [
+    "nima",
+    "elif",
+    "omer",
+    "maria"
+  ],
+  "followUp": [
+    {
+      "en": "How long have you been learning Turkish?",
+      "fa": "از کِی ترکی یاد می‌گیری؟",
+      "to": "nima",
+      "tr": "Sen ne zamandan beri Türkçe öğreniyorsun?",
+      "who": "elif"
+    },
+    {
+      "choice": {
+        "id": "fu_beri",
+        "kind": "meaning",
+        "options": [
+          {
+            "en": "I've been learning for a month.",
+            "fa": "یه ماهه یاد می‌گیرم.",
+            "ok": true,
+            "react": {
+              "elif": {
+                "do": "nod",
+                "emo": "happy"
+              }
+            },
+            "reply": [
+              {
+                "en": "A month! Very good. What do you do after class?",
+                "fa": "یه ماه! خیلی خوبه. بعد از کلاس چی کار می‌کنی؟",
+                "tr": "Bir ay! Çok güzel. Dersten sonra ne yapıyorsun?",
+                "who": "elif"
+              }
+            ],
+            "tone": "warm",
+            "tr": "Bir aydan beri öğreniyorum."
+          },
+          {
+            "en": "I'm learning it in a month.",
+            "fa": "توی یه ماه یاد می‌گیرم.",
+            "react": {
+              "elif": "laugh"
+            },
+            "reply": [
+              {
+                "en": "In a month? No: for a month! What do you do after class?",
+                "fa": "توی یه ماه؟ نه: یه ماهه! بعد از کلاس چی کار می‌کنی؟",
+                "tr": "Bir ayda mı? Hayır: bir aydan beri! Dersten sonra ne yapıyorsun?",
+                "who": "elif"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Bir ayda öğreniyorum."
+          }
+        ],
+        "to": "elif"
+      }
+    },
+    {
+      "en": "After class I do my homework. Then I drink tea!",
+      "fa": "بعد از کلاس تکلیف‌هامو انجام می‌دم. بعد چای می‌خورم!",
+      "to": "elif",
+      "tr": "Dersten sonra ödev yapıyorum. Sonra çay içiyorum!",
+      "who": "nima"
+    },
+    {
+      "en": "First homework, then tea! Very good.",
+      "fa": "اول تکلیف، بعد چای! خیلی خوبه.",
+      "to": "nima",
+      "tr": "Önce ödev, sonra çay! Çok güzel.",
+      "who": "elif"
+    }
+  ],
+  "gl": {
+    "ayda": [
+      "در یک ماه؛ «bir ayda» یعنی ظرفِ یک ماه",
+      "in a month"
+    ],
+    "aydan": [
+      "از یک ماه؛ «bir aydan beri» یعنی یک ماه است که",
+      "from a month; “bir aydan beri”: for a month now"
+    ],
+    "beri": [
+      "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "since; “-DAn beri”: since"
+    ],
+    "fısıldıyorsunuz": [
+      "پچ‌پچ می‌کنید (از fısıldamak)",
+      "you are whispering (from fısıldamak)"
+    ],
+    "gerçekten": [
+      "واقعاً",
+      "really"
+    ],
+    "ku": [
+      "کو (صدای کریم)",
+      "coo (Kerim's call)"
+    ],
+    "pastadan": [
+      "از کیک؛ «pastadan önce» یعنی قبل از کیک",
+      "from the cake; “pastadan önce”: before the cake"
+    ],
+    "tahran": [
+      "تهران",
+      "Tehran"
+    ],
+    "tam": [
+      "درست، دقیقاً",
+      "exactly, sharp"
+    ],
+    "zamandan": [
+      "از وقتِ…؛ «ne zamandan beri» یعنی از کِی",
+      "from the time; “ne zamandan beri”: since when"
+    ],
+    "çatı": [
+      "پشت‌بام",
+      "roof"
+    ]
+  },
+  "id": "s1e28",
+  "kind": "episode",
+  "lessons": [
+    "g_a1_5_dan_beri",
+    "g_a1_5_once_sonra",
+    "g_a1_5_gecmis"
+  ],
+  "level": "A1",
+  "looks": {
+    "maria": "market"
+  },
+  "place": "flat_elif",
+  "props": {
+    "kol_saati": {
+      "at": {
+        "flat_elif": {
+          "x": -2.75,
+          "y": 1.0,
+          "z": -1.95
+        }
+      },
+      "kit": "watch",
+      "terms": [
+        "a1-w-saat"
+      ],
+      "time": "7:30"
+    }
+  },
+  "quiz": [
+    {
+      "a": 0,
+      "en": "How long has Nima been in Istanbul?",
+      "fa": "نیما از کِی در استانبول است؟",
+      "kind": "comp",
+      "options": [
+        "Bir aydan beri",
+        "Bir yıldan beri",
+        "Dünden beri"
+      ],
+      "q": "Nima ne zamandan beri İstanbul'da?",
+      "why": "Nima: “Bir aydan beri! Dün tam bir ay oldu!”"
+    },
+    {
+      "a": 0,
+      "en": "“Yemekten önce çatıyı hazırlıyoruz.” What comes first?",
+      "fa": "«Yemekten önce çatıyı hazırlıyoruz.» اول چه؟",
+      "kind": "word",
+      "options": [
+        "Çatı",
+        "Yemek",
+        "Pasta"
+      ],
+      "q": "“Yemekten önce çatıyı hazırlıyoruz.” Önce ne?",
+      "why": "Nima: “Yemekten önce çatıyı hazırlıyoruz!”"
+    },
+    {
+      "a": 0,
+      "en": "Who is buying the cake?",
+      "fa": "کیک را چه کسی می‌خرد؟",
+      "kind": "comp",
+      "options": [
+        "Serkan",
+        "Ömer",
+        "Maria Teyze"
+      ],
+      "q": "Pastayı kim alıyor?",
+      "why": "Elif: “Yemekten sonra pasta! Serkan pasta alıyor.”"
+    }
+  ],
+  "ref": "A1_5",
+  "releaseDate": "2026-10-08",
+  "season": 1,
+  "steps": [
+    {
+      "at": {
+        "elif": "hall",
+        "omer": "omer"
+      },
+      "scene": "flat_elif",
+      "time": "dusk"
+    },
+    {
+      "en": "Seven o'clock. Nima is here at seven sharp! Not Tehran time: Istanbul time!",
+      "fa": "ساعت هفته. نیما درست ساعتِ هفت این‌جاست! نه به وقتِ تهران، به وقتِ استانبول!",
+      "move": {
+        "how": "enter",
+        "to": "door",
+        "who": "nima"
+      },
+      "narr": true,
+      "sfx": {
+        "id": "knock",
+        "word": "tık tık"
+      },
+      "tr": "Saat yedi. Nima tam saat yedide burada! Tahran saati değil, İstanbul saati!",
+      "who": "kerim"
+    },
+    {
+      "beat": {
+        "at": "obj:kol_saati",
+        "cam": "close",
+        "do": "look",
+        "emo": "proud",
+        "obj": [
+          {
+            "id": "kol_saati",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
+    },
+    {
+      "do": "thumb_up",
+      "emo": "happy",
+      "en": "Seven on the dot! Well done!",
+      "fa": "درست ساعتِ هفت! آفرین!",
+      "to": "nima",
+      "tr": "Tam saat yedi! Çok güzel!",
+      "who": "elif"
+    },
+    {
+      "emo": "happy",
+      "en": "There's a secret! Saturday is Maria Teyze's birthday.",
+      "fa": "یه رازی هست! شنبه تولدِ خاله ماریاست.",
+      "react": {
+        "elif": "surprised"
+      },
+      "to": "elif",
+      "tr": "Bir sır var! Cumartesi Maria Teyze'nin doğum günü.",
+      "voice": "whisper",
+      "who": "nima"
+    },
+    {
+      "emo": "surprised",
+      "en": "Really? How old is she?",
+      "fa": "واقعاً؟ چند سالش می‌شه؟",
+      "to": "nima",
+      "tr": "Gerçekten mi? Kaç yaşında?",
+      "voice": "whisper",
+      "who": "elif"
+    },
+    {
+      "emo": "proud",
+      "en": "Eighty!",
+      "fa": "هشتاد!",
+      "to": "elif",
+      "tr": "Seksen!",
+      "voice": "whisper",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "Eighty! And you? How long have you been here?",
+      "fa": "هشتاد! تو چی؟ از کِی این‌جایی؟",
+      "to": "nima",
+      "tr": "Seksen! Peki sen? Ne zamandan beri buradasın?",
+      "voice": "whisper",
+      "who": "elif"
+    },
+    {
+      "emo": "happy",
+      "en": "For a month! Yesterday it was exactly one month!",
+      "fa": "یه ماهه! دیروز درست یه ماه شد!",
+      "to": "elif",
+      "tr": "Bir aydan beri! Dün tam bir ay oldu!",
+      "voice": "whisper",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "A month! Then two celebrations! Two surprises!",
+      "fa": "یه ماه! پس دو تا جشن! دو تا سورپرایز!",
+      "to": "nima",
+      "tr": "Bir ay! O zaman iki kutlama! İki sürpriz!",
+      "voice": "whisper",
+      "who": "elif"
+    },
+    {
+      "emo": "happy",
+      "en": "Before dinner we get the roof ready!",
+      "fa": "قبل از شام پشت‌بوم رو آماده می‌کنیم!",
+      "to": "elif",
+      "tr": "Yemekten önce çatıyı hazırlıyoruz!",
+      "voice": "whisper",
+      "who": "nima"
+    },
+    {
+      "emo": "happy",
+      "en": "After dinner, cake! Serkan is buying the cake.",
+      "fa": "بعد از شام کیک! کیک رو سرکان می‌خره.",
+      "react": {
+        "omer": "surprised"
+      },
+      "to": "nima",
+      "tr": "Yemekten sonra pasta! Serkan pasta alıyor.",
+      "voice": "whisper",
+      "who": "elif"
+    },
+    {
+      "emo": "happy",
+      "en": "Before the cake… cake!",
+      "fa": "قبل از کیک… کیک!",
+      "react": {
+        "elif": "laugh",
+        "nima": "laugh"
+      },
+      "to": "elif",
+      "tr": "Pastadan önce… pasta!",
+      "who": "omer"
+    },
+    {
+      "do": "me",
+      "emo": "happy",
+      "en": "I'm going to tell Maria Teyze!",
+      "fa": "من به خاله ماریا می‌گم!",
+      "move": {
+        "how": "exit",
+        "to": "door",
+        "who": "omer"
+      },
+      "react": {
+        "elif": {
+          "do": "stop",
+          "emo": "surprised"
+        },
+        "nima": {
+          "do": "shake_head",
+          "emo": "surprised"
+        }
+      },
+      "to": "all",
+      "tr": "Ben Maria Teyze'ye söylüyorum!",
+      "who": "omer"
+    },
+    {
+      "at": {
+        "maria": "landing_3",
+        "nima": "door_elif",
+        "omer": "landing_2"
+      },
+      "kerim": "rail",
+      "scene": "flat_nima_stairs",
+      "state": "elif_door_open",
+      "time": "dusk"
+    },
+    {
+      "beat": {
+        "do": "shush",
+        "emo": "surprised",
+        "sfx": {
+          "id": "trolley_wheels",
+          "word": "tak tak tak"
+        },
+        "who": "omer"
+      }
+    },
+    {
+      "emo": "curious",
+      "en": "What is it? Why are you whispering? What's on Saturday?",
+      "fa": "چی شده؟ چرا پچ‌پچ می‌کنید؟ شنبه چه خبره؟",
+      "move": {
+        "how": "walk",
+        "to": "flight_up",
+        "who": "maria"
+      },
+      "react": {
+        "omer": {
+          "emo": "nervous"
+        }
+      },
+      "to": "nima",
+      "tr": "Ne var? Neden fısıldıyorsunuz? Cumartesi ne var?",
+      "who": "maria"
+    },
+    {
+      "choice": {
+        "id": "secret",
+        "kind": "action",
+        "options": [
+          {
+            "emo": "happy",
+            "en": "Nothing! On Saturday… we're having tea on the roof!",
+            "fa": "هیچی! شنبه… روی پشت‌بوم چای می‌خوریم!",
+            "ok": true,
+            "react": {
+              "maria": "curious",
+              "omer": "happy"
+            },
+            "reply": [
+              {
+                "do": "nod",
+                "emo": "happy",
+                "en": "Tea… all right.",
+                "fa": "چای… باشه.",
+                "tr": "Çay… tamam.",
+                "who": "maria"
+              }
+            ],
+            "sets": "s1e28_secret",
+            "tone": "warm",
+            "tr": "Hiç! Cumartesi… çatıda çay içiyoruz!"
+          },
+          {
+            "emo": "surprised",
+            "en": "A birthday! Eighty years!",
+            "fa": "تولد! هشتاد سالگی!",
+            "react": {
+              "maria": "laugh",
+              "omer": "sad"
+            },
+            "reply": [
+              {
+                "emo": "sad",
+                "en": "It was a secret!",
+                "fa": "راز بود!",
+                "tr": "Sır!",
+                "who": "omer"
+              },
+              {
+                "emo": "laugh",
+                "en": "Who told you?",
+                "fa": "کی بهت گفت؟",
+                "tr": "Kim söyledi?",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Doğum günü! Seksen yaş!"
+          },
+          {
+            "emo": "nervous",
+            "en": "On Saturday I'm going to school!",
+            "fa": "شنبه می‌رم کلاس!",
+            "react": {
+              "maria": "confused",
+              "omer": "surprised"
+            },
+            "reply": [
+              {
+                "do": "shake_head",
+                "emo": "annoyed",
+                "en": "No, you're not! There's no school on Saturday!",
+                "fa": "نخیر، نمی‌ری! شنبه کلاس نیست!",
+                "tr": "Hayır, gitmiyorsun! Cumartesi okul yok!",
+                "who": "omer"
+              },
+              {
+                "emo": "curious",
+                "en": "School? …All right.",
+                "fa": "کلاس؟ …باشه.",
+                "tr": "Okul mu? …Peki.",
+                "who": "maria"
+              }
+            ],
+            "tone": "casual",
+            "tr": "Cumartesi okula gidiyorum!"
+          }
+        ],
+        "to": "maria"
+      }
+    },
+    {
+      "spot": {
+        "en": "Two tools with -DAn. -DAn beri says since when something has been going on, and it is still going on: “Bir aydan beri (buradayım)”: for a month now, I'm still here. -DAn önce / -DAn sonra put things in order: “Yemekten önce çatıyı hazırlıyoruz”, “Yemekten sonra pasta!”. Same ending, different jobs.",
+        "ex": "Bir aydan beri!",
+        "fa": "دو ابزار با -DAn. -DAn beri می‌گوید کاری از کِی شروع شده و هنوز ادامه دارد: «Bir aydan beri (buradayım)» یعنی یک ماه است که این‌جا هستم و هنوز هم هستم. -DAn önce و -DAn sonra ترتیب را می‌گویند، مثلِ «قبل از» و «بعد از» در فارسی: «Yemekten önce çatıyı hazırlıyoruz»، «Yemekten sonra pasta!». یک پسوند، دو کار.",
+        "lesson": "g_a1_5_dan_beri"
+      }
+    },
+    {
+      "emo": "happy",
+      "en": "Saturday… coo-coo… it's a secret!",
+      "fa": "شنبه… کو-کو… رازه!",
+      "narr": true,
+      "tr": "Cumartesi… ku-ku… sır!",
+      "who": "kerim"
+    }
+  ],
+  "summary": "A month and a day after landing, Nima is on time at last and tells Elif the secret: Saturday is Maria Teyze's 80th. They plan a surprise on the roof, but Ömer can't keep quiet, and Maria Teyze comes down the stairs asking what is going on.",
+  "summaryFa": "یک ماه و یک روز بعد از رسیدن، نیما بالاخره سرِ وقت می‌رسد و رازی را به الیف می‌گوید: شنبه تولدِ هشتاد سالگیِ خاله ماریاست. یک جشنِ غافلگیری روی پشت‌بام برنامه‌ریزی می‌کنند، اما عمر نمی‌تواند ساکت بماند و خاله ماریا از پله‌ها پایین می‌آید و می‌پرسد چه خبر است.",
+  "title": "Sır!",
+  "titleEn": "It's a secret!",
+  "titleFa": "راز!",
+  "words": [
+    "a1-w-once",
+    "a1-w-sonra",
+    "a1-w-dogum-gunu",
+    "a1-w-pasta",
+    "a1-w-hazirlamak",
+    "a1-w-soylemek",
+    "a1-w-surpriz"
+  ]
+}
