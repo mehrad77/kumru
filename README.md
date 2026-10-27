@@ -1,3 +1,13 @@
+<p align="center"><a href="https://turk.shab.boo"><img src="docs/poster.png" alt="Kumru: Kerim the kumru beside six scenes from the story series" width="100%"></a></p>
+
+<p align="center">
+  <a href="https://turk.shab.boo"><img alt="Live at turk.shab.boo" src="https://img.shields.io/badge/live-turk.shab.boo-546B41"></a>
+  <a href="https://github.com/mehrad77/kumru/actions/workflows/deploy.yml"><img alt="Deploy" src="https://github.com/mehrad77/kumru/actions/workflows/deploy.yml/badge.svg"></a>
+  <a href="LICENSE"><img alt="MIT license (code)" src="https://img.shields.io/badge/code-MIT-262A1C"></a>
+  <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare-Workers%20%2B%20D1-F38020?logo=cloudflare&logoColor=white">
+  <img alt="Installable PWA" src="https://img.shields.io/badge/PWA-offline-5A0FC8">
+</p>
+
 # Kumru
 
 **Kumru · Turkish Notebook** is a practice app for the A1–B1 vocabulary and grammar of a Turkish course: word cards, grammar lessons, a skill path, and a daily story series played on a paper-theatre stage. It installs on a phone and works offline. It is named after the kumru (Eurasian collared dove). Its mascot and narrator is Kerim, a kumru; she takes her name from *yâ kerim*, the Turkish folk name for the kumru, after its coo.

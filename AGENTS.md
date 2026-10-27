@@ -116,6 +116,7 @@ What follows for the page:
 | `uv run scripts/kumru_data.py --check` | Validate the cards, grammar and path against `shared/schema/` and the cross-references between collections (the stories' schemas are the story check's). |
 | course repo `tools/` | The book generators (`kumru_cards.py`, `kumru_path.py`, `kumru_path_sentences.py`, `grammar_lessons.py`) write the private data and have their `--check` there, run against this repo (it reads `app/features/path/icons.ts` and the drill table). A `tools/…` path in a doc or comment names one of them. |
 | `uv run scripts/kumru_icons.py [--check]` | Write `brand/` from `K_HEAD`, `K_BUST` and `K_HEAD_VB` in `sahne/packages/sahne-kit/src/kerim/art.ts`. |
+| `node scripts/kumru_poster.mjs` | Draw `docs/poster.png`, the README hero and the repo's social preview (Kerim and six story thumbnails, 1280×640). Needs the network for the fonts; not a gate. Run it after changing Kerim or the thumbnails. |
 
 ## Changing the page
 
