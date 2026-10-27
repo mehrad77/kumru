@@ -8,7 +8,9 @@
 // - Translations follow the help language (app/core/lang.ts): Persian, English, both, or none (Turkish only); a tapped word
 //   always has its meaning.
 // - Every line of the newcomer is the learner's to say: a card with Söyle (and the microphone where the week turns `aloud` on and
-//   the microphone really works here: voice.ts). A choice is the same card with 2–3 options, shown shuffled and stored by their authored index.
+//   the microphone really works here: voice.ts).
+// - A speaker button (top right) turns the stage's sound on or off: the lines in the device's Turkish voice, the place's
+//   recordings and Kerim's coo. Off until the learner turns it on (STORIES_STAGE.md §3), then remembered (`kumru:story:sound`). A choice is the same card with 2–3 options, shown shuffled and stored by their authored index.
 // - Kerim's grammar spot is a card in the log with the lesson's link (the stage does not act spots out yet).
 // - Without WebGL2 (or when the GPU takes the context away) the story reads in the log with the place's name over a still.
 import { el } from "../../core/dom.ts";
@@ -25,7 +27,7 @@ import { loadGlossModel, type GlossIndex } from "../practice/index.ts";
 import { addXp, bumpDay, saveProgress, todayKey } from "../progress/index.ts";
 import { showGloss } from "../words/index.ts";
 import { finishRecord, okPicks, quizStars, shuffled, type StRecord } from "./model/record.ts";
-import { pref, storyView } from "./prefs.ts";
+import { pref, setPref, storyView } from "./prefs.ts";
 import { characters, loadStories, nextStory, openStories, places, record, stories, type QuizItem, type Story } from "./state.ts";
 import { noteListen, voiceOk } from "./voice.ts";
 
@@ -41,13 +43,40 @@ function tl(en?: string, fa?: string): (HTMLElement | null)[] {
   return [H.en && en ? el("small", { class: "tl", text: en }) : null, H.fa && fa ? el("small", { class: "fa", lang: "fa", dir: "rtl", text: faTxt(fa) }) : null];
 }
 
+const SOUND_ON = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+const SOUND_OFF = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M16 9l5 6M21 9l-5 6"/></svg>';
+/** Whether the browser has a Turkish voice for the lines (the stage's `browserVoice` picks the same way). */
+const trVoiceHere = () => { try { return !!window.speechSynthesis && speechSynthesis.getVoices().some((v) => /^tr([-_]|$)/i.test(v.lang || "")); } catch { return false; } };
+/** A silent utterance inside a tap, so that iOS lets the stage speak later. */
+function unlockSpeech(): void {
+  try { if (window.speechSynthesis) { const u = new SpeechSynthesisUtterance(""); u.volume = 0; speechSynthesis.speak(u); } } catch { /* no speech */ }
+}
+
 /** Mount the reader for story `id` into `page`; returns its teardown. */
 export function mountReader(page: HTMLElement, id: string, close: () => void): () => void {
   let gone = false, stopTimer = 0;
   const cleanups: (() => void)[] = [];
   const back = btn("st-back", "←", close, { "aria-label": "Back to the stories" });
+  // the sound button works before the stage exists: the choice is saved, and the stage takes it when it mounts
+  let soundStage: { setSound(on: boolean): void } | null = null, noVoiceSaid = false;
+  const sound = el("button", { class: "st-back st-sound", type: "button" });
+  const drawSound = () => {
+    const on = pref("sound", false);
+    sound.innerHTML = on ? SOUND_ON : SOUND_OFF;
+    sound.setAttribute("aria-label", on ? "Sound on: tap to mute" : "Sound off: tap to turn it on");
+    sound.setAttribute("aria-pressed", String(on));
+  };
+  sound.onclick = () => {
+    const on = !pref("sound", false);
+    setPref("sound", on);
+    if (on) unlockSpeech();
+    soundStage?.setSound(on);
+    drawSound();
+    if (on && !noVoiceSaid && !trVoiceHere()) { noVoiceSaid = true; toast("This device has no Turkish voice, so the lines stay silent. Add one in its speech settings."); }
+  };
+  drawSound();
   const body = el("div", { class: "st-body" }, el("p", { class: "hint", role: "status", text: "Setting the stage…" }));
-  page.replaceChildren(back, body);
+  page.replaceChildren(back, sound, body);
 
   void (async () => {
     await loadStories();
@@ -117,6 +146,12 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       const manifest = await fetch("/data/manifest.json").then((r) => r.json()).catch(() => ({}));
       const stage = P.stageFor(stageBox, kit, { theatre: theatre(), gloss, motion: reduce ? "still" : undefined, sounds: manifest.sounds, onContext: showStill });
       if (!stage.webgl) showStill(true);
+      soundStage = stage;
+      if (pref("sound", false)) {
+        stage.setSound(true);
+        // iOS speaks only after a first utterance inside a tap: the first tap anywhere in the story (Devam) gives it one
+        page.addEventListener("pointerdown", unlockSpeech, { once: true, capture: true });
+      }
       cleanups.push(() => stage.destroy());
       const ix = P.interact(stage, { explore: mech.includes("explore") });
       const pt = P.propText(stage);

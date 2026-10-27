@@ -14,6 +14,9 @@ export function StorySettings() {
       <SetRow title="Bubbles on stage" sub="Speech bubbles over the scene. Auto: when the phone is sideways or the screen is wide.">
         <Seg cur={storyView()} opts={[["auto", "Auto"], ["theatre", "On"], ["log", "Off"]]} onPick={(v) => set(() => setStoryView(v as StoryView))} />
       </SetRow>
+      <SetRow title="Sound" sub="The lines in this device's Turkish voice, the place's sounds and Kerim's coo. The speaker on the stage does the same.">
+        <Switch on={pref("sound", false)} label="Sound" onChange={(v) => set(() => setPref("sound", v))} />
+      </SetRow>
       {voiceOk() ? (
         <SetRow title="Say your lines aloud" sub="A microphone on your lines, in the weeks that practise speaking.">
           <Switch on={pref("aloud", true)} label="Say your lines aloud" onChange={(v) => set(() => setPref("aloud", v))} />

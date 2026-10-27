@@ -66,7 +66,7 @@ The evidence in one paragraph:
 2. **One gesture and one move per speaker per line**, plus at most two listener reactions. A gesture needs a word to motivate it (lint).
 3. **Teaching overlays** (case arcs, owner tags, *daha/en* tags) show **in Kerim's spots or when a suffix is tapped**, never on every line.
 4. **Reading pace belongs to the learner.** Nothing auto-advances. *Devam* is never blocked: tapping it mid-animation jumps to the end pose. Tapping a line in the log replays its staging.
-5. **Nothing needs sound.** Mouth timing runs from the text, and every sound has its written sound word. Sound is off until the learner turns it on.
+5. **Nothing needs sound.** Mouth timing runs from the text, and every sound has its written sound word. Sound is off until the learner turns it on: the speaker at the top right of the reader, or Profile → Stories → Sound (remembered on the device).
 6. **Motion settings: Full, Calm, Still,** with `prefers-reduced-motion` meaning Still. Every gesture has a static key pose that reads without motion.
 7. **No celebration inside the story.** Stars and confetti come only at the end.
 8. **Music never plays under speech.** It plays only at scene changes and at the end.
