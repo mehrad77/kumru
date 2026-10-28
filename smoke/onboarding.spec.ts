@@ -15,7 +15,6 @@ test("a new account joins class 504 in onboarding", async ({ page }) => {
   await page.getByText("Brand new", { exact: true }).click();
   await primary.click();                                  // self-report (no quiz)
   await step("Başlangıç noktan"); await primary.click();  // start here
-  await step("Günlük hedef"); await primary.click();      // daily goal
   await expect(page.getByRole("heading", { name: "Join a class?" })).toBeVisible();
   await expect(page.getByRole("button", { name: "Class 506" })).toBeVisible();
   await page.getByRole("button", { name: "Class 504" }).click();

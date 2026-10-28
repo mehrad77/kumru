@@ -19,7 +19,6 @@ test("a new account builds a character and plays s1e01 to the end", async ({ pag
   await page.getByText("Brand new", { exact: true }).click();
   await primary.click();
   await step("Başlangıç noktan"); await primary.click();
-  await step("Günlük hedef"); await primary.click();
   await expect(page.getByRole("heading", { name: "Join a class?" })).toBeVisible();
   await page.getByRole("button", { name: "Class 504" }).click();
   await expect(page.getByRole("heading", { name: "Daily reminder" })).toBeVisible();

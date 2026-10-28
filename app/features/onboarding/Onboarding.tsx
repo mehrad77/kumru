@@ -9,7 +9,7 @@ import { AboutStep } from "./steps/About.tsx";
 import { AvatarStep } from "./steps/Avatar.tsx";
 import { NameStep } from "./steps/Name.tsx";
 import { QuizStep, ResultStep, SelfStep, WritingStep } from "./steps/Place.tsx";
-import { CastStep, ClassStep, GoalStep, RemindStep, WhatsNewStep } from "./steps/Rest.tsx";
+import { CastStep, ClassStep, RemindStep, WhatsNewStep } from "./steps/Rest.tsx";
 import { FlowCtx, type Answers, type Flow } from "./Flow.tsx";
 import { ORDER, type Mode, type StepKey } from "./model/flow.ts";
 import { charKind } from "../../lib/char.ts";
@@ -28,20 +28,19 @@ const STEPS: Record<StepKey, { Comp: ComponentType; skip?: (O: Answers, mode: Mo
   quiz: { Comp: QuizStep, skip: (O) => O.skipPlace || O.self === "new" },
   writing: { Comp: WritingStep, skip: (O) => O.skipPlace || O.self === "new" || aiState() !== "ready" },
   result: { Comp: ResultStep, skip: (O) => O.skipPlace },
-  goal: { Comp: GoalStep },
   class: { Comp: ClassStep, skip: (O) => !!O.classOut || pendingClass() },
   remind: { Comp: RemindStep },
   cast: { Comp: CastStep },
 };
 
-/** What the flow starts from: the learner's name, character, profile answers and goal as they are now. */
+/** What the flow starts from: the learner's name, character and hometown as they are now. */
 function initAnswers(mode: Mode): Answers {
   const P0 = S.profile || {};
   return {
     name: S.nick || (S.profileName || "").trim().split(/\s+/)[0] || "",
     char: S.char ?? null,
-    ans: { city: (P0.city || {}).raw || "", job: (P0.job || {}).raw || "", hobby: (P0.hobby || {}).raw || "", why: (P0.why || {}).raw || "" },
-    self: mode === "update" ? "keep" : null, res: null, ai: null, goal: S.prefs.goal || 20, skipPlace: false, useAlt: "",
+    ans: { city: (P0.city || {}).raw || "", job: "", hobby: "", why: "" },
+    self: mode === "update" ? "keep" : null, res: null, ai: null, skipPlace: false, useAlt: "",
   };
 }
 

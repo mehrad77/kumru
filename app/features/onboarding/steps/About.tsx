@@ -1,4 +1,4 @@
-// The "about you" step: hometown, job, hobby, why Turkish (all optional). The tutor writes them up as clean forms the learner can check;
+// The "about you" step: the hometown (optional; job, hobby and why are no longer asked). The tutor writes it up as a clean form the learner can check;
 // without it they are kept as typed. The stories use them (model/personalize.ts, the tutor's blurb).
 import { useEffect, useRef, useState } from "preact/hooks";
 import { renderUser } from "../../../core/shell/appbar.ts";
@@ -97,7 +97,7 @@ export function AboutStep() {
     <StepView dots foot={<><Next onClick={submit} /><Skip /></>}>
       <Pup mood="happy" size={96} />
       <h1 lang="tr">Biraz anlat!</h1>
-      <p>Tell me a little about you. The characters will remember it. Every answer is optional.</p>
+      <p>The characters will remember it. You can leave it empty.</p>
       <div class="fields">
         {ABOUT.map(([k, l, ph]) => (
           <label class="fld">
