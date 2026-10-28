@@ -33,7 +33,8 @@ export function personalizeText<T>(s: T, k: string | undefined, name: string, ci
   if (name === "Nima" && !city) return s;
   if (name !== "Nima") {
     // a Latin name inside Persian text is isolated (FSI … PDI), so it keeps its own direction
-    if (k && FA_KEYS.has(k)) t = t.replace(/(?<![؀-ۿ‌])نیما(?![؀-ۿ])/g, hasFa(name) ? name : "⁨" + name + "⁩");
+    // no lookbehind: Safari before 16.4 cannot parse one, and a chunk that fails to parse leaves the Stories tab and this flow blank
+    if (k && FA_KEYS.has(k)) { const fa = hasFa(name) ? name : "⁨" + name + "⁩"; t = t.replace(/(^|[^؀-ۿ‌])نیما(?![؀-ۿ])/g, (_m, pre) => pre + fa); }
     else if (k && EN_KEYS.has(k)) t = t.replace(/\bNima\b/g, name);
     else t = t.replace(/Nima(?:'([a-zçğıöşü]+))?(?![a-zçğıöşüA-ZÇĞİÖŞÜ])/g, (_m, suf) => nameSuffix(name, suf));
   }
