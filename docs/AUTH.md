@@ -12,9 +12,9 @@ There are two kinds of credential, and neither ever works where the other does:
 | Credential | Held by | Works on | Lifetime | Stored server-side as |
 |---|---|---|---|---|
 | **Session token** | the Kumru page (`localStorage['kumru:session']`) | every Kumru `/api` route except the reader's | 90 days, sliding | SHA-256 in `sessions` |
-| **Reader token** | the reader (`localStorage['yi:sync']`) | `GET`/`PUT /api/yeni/doc`, `DELETE /api/yeni/token` | until revoked | SHA-256 in `yeni_tokens` |
+| **Reader token** | the reader (`localStorage['yi:sync']`) | `GET`/`PUT /api/yeni/doc`, `DELETE /api/yeni/token`, `GET /api/yeni/check` | until revoked | SHA-256 in `yeni_tokens` |
 
-Data flows one way. The Kumru page may read the learner's own notebook with its session (`GET /api/yeni/notebook`, read-only) to show book progress and suggest checkpoints; a reader token never reaches Kumru data. Teachers see book progress only for members who switched book sharing on in that class ([SPECS.md](SPECS.md) §10.3).
+Data flows one way. The Kumru page may read the learner's own notebook with its session (`GET /api/yeni/notebook`, read-only) to show book progress and suggest checkpoints; a reader token never reaches Kumru data. The reader's exam-practice room (a Worker on the reader's origin, in the course repo) gives AI essay feedback only to connected learners: it sends the reader token once to `GET /api/yeni/check` through a service binding and keeps only the answer, an opaque id that names no account ([SPECS_API.md](SPECS_API.md) §11a). Teachers see book progress only for members who switched book sharing on in that class ([SPECS.md](SPECS.md) §10.3).
 
 Both are 32 random bytes, base64url, sent as `Authorization: Bearer …`. Neither is a cookie, so there is no CSRF surface on the API, and Kumru's session never leaves turk.shab.boo.
 
@@ -100,13 +100,14 @@ sequenceDiagram
 | **Guessing codes or tokens** | 256 random bits each, plus the `yeni-code` (per IP) and `anon` rate limits. |
 | **A stolen password** | Changing it, or using the recovery code, ends every other session and disconnects every reader. |
 | **A runaway or hostile reader** | The `yeni` limit (120 requests per 10 minutes), a 1-second minimum between saves, and the 512 KiB cap. |
+| **The token check is used to learn about an account** | `GET /api/yeni/check` answers only an HMAC of the user id (no username, no data), sends no CORS headers, and is limited per learner (`yeni-check`, 60 per 10 minutes). |
 
 **Not covered.** Script injection on yeni.shab.boo could read the reader token from `localStorage`; the token only reaches that learner's notebook document, and the learner can revoke it from Kumru. The same holds for the Kumru page and its session token. Both sites ship no third-party scripts except Turnstile on the Kumru gate.
 
 ## 5. Reader token lifecycle
 
 - **Issued** by the exchange. A learner has at most 10; the eleventh deletes the oldest.
-- **Used** on every sync request; `last_used_at` moves at most once a day.
+- **Used** on every sync request, and when the exam room checks it (`GET /api/yeni/check`); `last_used_at` moves at most once a day.
 - **Listed** in Kumru → Profile → Account → *Notebook*, with its label and dates.
 - **Ends** when the reader disconnects (`DELETE /api/yeni/token`), the learner disconnects it in Kumru, the password changes, the recovery code is used, the account is deleted, or it is the oldest of eleven.
 - **In the reader**, a `401` clears the token and shows "your Kumru connection ended" with the likely reasons, on any page. The local notebook is untouched; connecting again merges it with the account's copy.
@@ -132,7 +133,7 @@ Tests that cover these flows:
 | Test | Covers |
 |---|---|
 | `worker/features/account/auth.test.ts` and friends | sign up, sign in, recover, pairing, password change, limits |
-| `worker/features/yeni/yeni.test.ts` | codes, the exchange (wrong verifier, reused or expired code, other `return`), CORS, tokens, revocation, export and delete |
+| `worker/features/yeni/yeni.test.ts` | codes, the exchange (wrong verifier, reused or expired code, other `return`), CORS, tokens, the token check, revocation, export and delete |
 | `smoke/connect.spec.ts` | the browser flow: gate, consent, Allow, Cancel, closing the sheet, a bad link |
 | the reader's `src/lib/notebook/sync.test.ts`, `pkce.test.ts` (course repo) | the reader: connect URL, `state` checks, exchange, sync, `401`, disconnect |
 

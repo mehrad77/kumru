@@ -5,7 +5,7 @@
 import type { ServerFeature } from "../../core/feature.ts";
 import { all, first } from "../../core/db.ts";
 import { saveBook } from "./book.ts";
-import { codes, dropToken, exchange, getYeniDoc, list, notebook, origins, putYeniDoc, revoke } from "./routes.ts";
+import { check, codes, dropToken, exchange, getYeniDoc, list, notebook, origins, putYeniDoc, revoke } from "./routes.ts";
 import * as rules from "./rules.ts";
 
 const reader = { cors: "yeni", errors: "flat" } as const;
@@ -22,6 +22,8 @@ export const feature: ServerFeature = {
     ["GET", "/api/yeni/doc", getYeniDoc, reader],
     ["PUT", "/api/yeni/doc", putYeniDoc, reader],
     ["DELETE", "/api/yeni/token", dropToken, reader],
+    // server to server (the exam Worker): flat errors, no CORS
+    ["GET", "/api/yeni/check", check, { errors: "flat" }],
   ],
   rules,
   docs: {
