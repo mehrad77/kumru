@@ -1,4 +1,4 @@
-// The onboarding feature: the full-screen flow that welcomes a new learner (name, character, about, placement, goal, class,
+// The onboarding feature: the full-screen flow that welcomes a new learner (name, character, about, placement, class,
 // reminder) and that Profile reopens in parts (edit, retake placement). Also the learner's name and hometown as the stories and the
 // tutor use them. No server half (it saves through the progress document). README.md lists what it owns.
 import type { WebFeature } from "../../core/feature.ts";

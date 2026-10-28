@@ -1,16 +1,14 @@
-// The other steps: what's new (existing learners), the daily goal, joining a class, the daily reminder, and the cast.
+// The other steps: what's new (existing learners), joining a class, the daily reminder, and the cast.
 import { useEffect, useState } from "preact/hooks";
 import { S } from "../../../core/store.ts";
 import { Lazy } from "../../../ui/Lazy.tsx";
 import { Avatar } from "../../../ui/avatar/Avatar.tsx";
 import { Pup } from "../../../ui/Pup.tsx";
-import { Seg } from "../../../ui/Seg.tsx";
 import { toast } from "../../../ui/toast.ts";
 import { classes } from "../../classes/index.ts";
 import { startCustom } from "../../practice/index.ts";
-import { saveProgress } from "../../progress/index.ts";
 import { loadRemindBody, remindStep } from "../../reminders/index.ts";
-import { GOALS, ONB_CLASSES } from "../model/flow.ts";
+import { ONB_CLASSES } from "../model/flow.ts";
 import { CAST_HEADS } from "../cast.gen.ts";
 import { Next, Skip, StepView, useFlow } from "../Flow.tsx";
 
@@ -21,20 +19,6 @@ export function WhatsNewStep() {
       <Pup mood="happy" size={120} />
       <h1 lang="tr">Yeni karakterin!</h1>
       <p>Make your own paper character: your friends see it, and it will be you in Kerim's stories, coming soon. Your progress is kept.</p>
-    </StepView>
-  );
-}
-
-export function GoalStep() {
-  const { O, go } = useFlow();
-  const [goal, setGoal] = useState(O.goal);
-  const next = () => { S.prefs = { ...S.prefs, goal: O.goal }; saveProgress(); go(); };
-  return (
-    <StepView dots foot={<><Next onClick={next} /><Skip /></>}>
-      <Pup mood="happy" size={96} />
-      <h1 lang="tr">Günlük hedef</h1>
-      <p>How much XP a day? Finishing one step is about 20 XP.</p>
-      <Seg cur={goal} opts={GOALS} onPick={(v) => { O.goal = v; setGoal(v); }} />
     </StepView>
   );
 }

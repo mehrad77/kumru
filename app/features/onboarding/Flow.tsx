@@ -11,7 +11,7 @@ import type { About, Mode, WritingResult } from "./model/flow.ts";
 export interface Answers {
   name: string; char: unknown; ans: About;
   self: string | null; res: PlacementResult | null; ai: WritingResult | null;
-  goal: number; skipPlace: boolean; useAlt: string;
+  skipPlace: boolean; useAlt: string;
   classOut?: boolean; classPicked?: boolean;
 }
 
