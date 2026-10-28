@@ -35,7 +35,7 @@ Phases refer to SPECS.md §4–§10. A route is served only from its phase on; b
 - The Worker hashes the token (SHA-256), looks the session up, checks `expires`, and slides `expires` forward by 90 days when `refreshed` is older than 24 hours (one write per device per day at most).
 - A missing, unknown or expired token answers `401 unauthorized`. A route marked **owner** answers `403 forbidden` to anyone whose `users.role` is not `owner`.
 - Ownership is implicit: a signed-in route only reads and writes rows of the caller. No route takes another learner's id for a write.
-- **Reader tokens** (§11a) are a second kind of bearer token, kept in `yeni_tokens`, not `sessions`. They work only on `/api/yeni/doc` and `DELETE /api/yeni/token`; a session token is refused there and a reader token everywhere else. The reader gets one by trading a one-time code (`POST /api/yeni/token`), never from a URL. [AUTH.md](AUTH.md) explains every credential and flow.
+- **Reader tokens** (§11a) are a second kind of bearer token, kept in `yeni_tokens`, not `sessions`. They work only on `/api/yeni/doc`, `DELETE /api/yeni/token` and `GET /api/yeni/check`; a session token is refused there and a reader token everywhere else. The reader gets one by trading a one-time code (`POST /api/yeni/token`), never from a URL. [AUTH.md](AUTH.md) explains every credential and flow.
 
 ### 1.4 Errors
 
@@ -98,6 +98,7 @@ Counters live in the `limits` table (SPECS_SCHEMA.md §2.10), keyed `<rule>:<sub
 | `yeni` | user | 120 | 10 min | `GET` and `PUT /api/yeni/doc` (one every 5 s on average, bursts allowed) |
 | `yeni-token` | user | 20 | 24 h | `POST /api/yeni/codes` |
 | `yeni-code` | IP | 30 | 10 min | `POST /api/yeni/token` (the code exchange) |
+| `yeni-check` | user | 60 | 10 min | `GET /api/yeni/check` (server to server, so per learner rather than per IP) |
 
 Minimum intervals, enforced from the row's own `updated` column (no counter): `PUT /api/doc/*` 1 s, `PUT /api/yeni/doc` 1 s, `PUT /api/profile` 1 s; the `weak` and `book` summaries that ride along with a progress save are stored at most once a minute (older ones are skipped, not refused). A faster repeat answers `429 rate_limited` with `retryAfter: 1`. The page debounces saves by 1.2 s and 1.5 s, so a correct client never hits these.
 
@@ -487,9 +488,9 @@ The sheet takes the address bar back to the tab at once, so a reload never re-as
 
 ### Bearer routes
 
-`/api/yeni/doc` and `DELETE /api/yeni/token` take `Authorization: Bearer <reader token>`. A missing, unknown or revoked token, or one whose account is deleted, answers `401 { "error": "unauthorized" }` and counts against `anon` for the IP. A valid token bumps `last_used_at` at most once a day. Errors are flat (§1.4).
+`/api/yeni/doc`, `DELETE /api/yeni/token` and `GET /api/yeni/check` take `Authorization: Bearer <reader token>`. A missing, unknown or revoked token, or one whose account is deleted, answers `401 { "error": "unauthorized" }` and counts against `anon` for the IP. A valid token bumps `last_used_at` at most once a day. Errors are flat (§1.4).
 
-**CORS**, on these two paths only: when the request's `Origin` is in `YENI_ORIGINS`, every response (errors too) carries `Access-Control-Allow-Origin: <that origin>`, `Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS`, `Access-Control-Allow-Headers: Authorization, Content-Type`, `Access-Control-Expose-Headers: Retry-After, X-Request-Id` and `Access-Control-Max-Age: 86400`; any other origin gets none of them. `Vary: Origin` is always sent. No credentials: the token is a header, never a cookie. `OPTIONS` (the preflight) answers `204` with the same headers and touches nothing else.
+**CORS**, on `/api/yeni/doc` and `/api/yeni/token` only (not `/api/yeni/check`): when the request's `Origin` is in `YENI_ORIGINS`, every response (errors too) carries `Access-Control-Allow-Origin: <that origin>`, `Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS`, `Access-Control-Allow-Headers: Authorization, Content-Type`, `Access-Control-Expose-Headers: Retry-After, X-Request-Id` and `Access-Control-Max-Age: 86400`; any other origin gets none of them. `Vary: Origin` is always sent. No credentials: the token is a header, never a cookie. `OPTIONS` (the preflight) answers `204` with the same headers and touches nothing else.
 
 ### `GET /api/yeni/doc`
 
@@ -504,6 +505,13 @@ The sheet takes the address bar back to the tab at once, so a reload never re-as
 - Errors: `409 { error: "conflict", rev, doc }` with the server's current copy when `baseRev ≠ rev` (including `baseRev: 0` against an existing document); `413 too_large` when `JSON.stringify(doc)` is over 512 KiB (or the raw body over 516 KiB); `400 invalid` when `doc` is not a JSON object or `baseRev` is not a revision; `429 rate_limited` with `retryAfter`.
 - Rows: `yeni_tokens` 1, `limits` 1 upsert, `docs` 1 read + 1 write.
 - Notes: the reader merges the 409 copy with its own (per entry by the newest `at`, `apps/reader/src/lib/notebook/merge.ts`) and PUTs again with the returned `rev`. It pushes on change (debounced about 10 s) and on `pagehide`, and pulls on sign-in and when the tab becomes visible; nothing polls.
+
+### `GET /api/yeni/check`
+
+- Auth: reader token. Limit `yeni-check`. **No CORS**: it is called server to server, by the course repo's exam-room Worker (`yeni-sinav`, same Cloudflare account) through a service binding, never by a browser. That Worker gives AI essay feedback only to learners whose reader token checks out, and keeps the answer, never the token.
+- Response `200 { uid }`. `uid` is the first 22 characters of base64url(HMAC-SHA-256(`PEPPER`, `"sinav:" + user id`)): stable for a learner across their reader tokens, different between learners, and naming no account. No username, no data.
+- Errors (flat, §1.4): `401 unauthorized` (missing, unknown or revoked token, a session token, a deleted account; counts against `anon` for the IP like the other bearer routes), `429 rate_limited`.
+- Rows: `yeni_tokens` 1 (+1 write a day), `limits` 1 upsert.
 
 ### `DELETE /api/yeni/token`
 

@@ -18,6 +18,9 @@ export interface YeniDocPut { baseRev: number; doc: Record<string, unknown> }
 export interface YeniDocPutOk { rev: number }
 /** GET /api/yeni/notebook?since=<rev> (session): the learner's own reader notebook, read-only; 304 when unchanged. */
 export interface YeniNotebook { rev: number; doc: Record<string, unknown> | null }
+/** GET /api/yeni/check (reader token; server to server, the course repo's exam Worker): the token is live. `uid` is an opaque,
+ *  stable id for the learner (HMAC of the user id, 22 characters), naming no account. */
+export interface YeniCheckOk { uid: string }
 export interface YeniDocConflict { error: "conflict"; rev: number; doc: Record<string, unknown> | null }
 /** A learner's book progress from the reader's notebook, computed by their own page (app/features/yeni/book.ts) and shared only with classes
  *  they switched "book" sharing on for. Keys are Kumru unit refs ("A1_3"); never answers or writing. ≤ 4 KB. */

@@ -312,6 +312,55 @@ describe("bearer auth", () => {
   });
 });
 
+describe("GET /api/yeni/check (the exam Worker checks a reader token)", () => {
+  const check = (token?: string, origin?: string) => api("/api/yeni/check", { token, headers: origin ? { Origin: origin } : {} });
+
+  it("answers an opaque uid that is stable per learner and differs between learners", async () => {
+    const a = await reader(), b = await reader();
+    const r = await check(a.yeni);
+    expect(r.status).toBe(200);
+    expect(Object.keys(r.json)).toEqual(["uid"]);
+    expect(r.json.uid).toMatch(/^[A-Za-z0-9_-]{22}$/);
+    expect(r.json.uid).not.toContain(a.user.id);
+    expect(JSON.stringify(r.json)).not.toContain(a.user.username);
+    const again = await connect(a.token);   // a second reader of the same learner
+    expect((await check(again.json.token)).json.uid).toBe(r.json.uid);
+    expect((await check(b.yeni)).json.uid).not.toBe(r.json.uid);
+  });
+
+  it("answers 401 { error: 'unauthorized' } for no token, a bad one, a session token, a revoked one or a deleted account", async () => {
+    const s = await reader();
+    for (const t of [undefined, "nope", "x".repeat(43), s.token]) {
+      const r = await check(t);
+      expect(r.status).toBe(401);
+      expect(r.json).toEqual({ error: "unauthorized" });
+    }
+    const gone = await reader();
+    expect((await api("/api/yeni/token", { method: "DELETE", token: gone.yeni, headers: { Origin: READER } })).status).toBe(204);
+    expect((await check(gone.yeni)).status).toBe(401);
+    const del = await reader();
+    expect((await api("/api/delete", { token: del.token, body: { password: del.password } })).status).toBe(204);
+    expect((await check(del.yeni)).status).toBe(401);
+  });
+
+  it("sends no CORS headers, even to a reader origin", async () => {
+    const s = await reader();
+    const r = await check(s.yeni, READER);
+    expect(r.status).toBe(200);
+    expect(r.headers.get("Access-Control-Allow-Origin")).toBeNull();
+  });
+
+  it("is limited per learner by yeni-check, apart from the yeni limit", async () => {
+    const s = await reader(), other = await reader();
+    for (let i = 0; i < 60; i++) expect((await check(s.yeni)).status).toBe(200);
+    const r = await check(s.yeni);
+    expect(r.status).toBe(429);
+    expect(r.json.error).toBe("rate_limited");
+    expect((await getDoc(s.yeni)).status).toBe(200);
+    expect((await check(other.yeni)).status).toBe(200);
+  });
+});
+
 describe("CORS", () => {
   it("echoes an allowed Origin on the bearer routes, with no credentials", async () => {
     const s = await reader();
