@@ -7,11 +7,16 @@
 //
 // Out is not open: a learner reads the stories in order, so a story opens once every story before it is finished (`isReadable`).
 
+import s1 from "../data/seasons/s1.json" with { type: "json" };
+
 /** Turkey keeps UTC+3 all year (no daylight saving since 2016). */
 const ISTANBUL_OFFSET_MS = 3 * 3600_000;
 
-/** The launch day of each season, an Istanbul date. A season missing here is not launched. */
-export const SEASON_LAUNCH: Readonly<Record<number, string>> = { 1: "2026-10-28" };
+/** The launch day of each season, an Istanbul date: the season document's `launch` (data/seasons/s<n>.json, edited in
+ * backstage). A season missing here, or without a `launch`, is not launched. */
+export const SEASON_LAUNCH: Readonly<Record<number, string>> = Object.fromEntries(
+  [s1].flatMap((se: { n: number; launch?: string }) => (se.launch ? [[se.n, se.launch]] : [])),
+);
 
 /** The Istanbul calendar date (YYYY-MM-DD) at `ms`. */
 export const istanbulDay = (ms: number): string => new Date(ms + ISTANBUL_OFFSET_MS).toISOString().slice(0, 10);

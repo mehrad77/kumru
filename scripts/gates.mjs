@@ -17,7 +17,7 @@ if (kind === "sample") {
   const view = path.join(ROOT, ".build", "sahne-content");
   rmSync(view, { recursive: true, force: true });
   mkdirSync(view, { recursive: true });
-  for (const f of ["stories", "characters", "places", "thumbs", "needs.json", "days.json"]) symlinkSync(path.join(ROOT, "data", f), path.join(view, f));
+  for (const f of ["series.json", "seasons", "stories", "characters", "places", "thumbs", "needs.json", "days.json"]) symlinkSync(path.join(ROOT, "data", f), path.join(view, f));
   process.env.SAHNE_CONTENT = view;
 }
 const SAHNE = "sahne/packages";
