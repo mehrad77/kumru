@@ -34,7 +34,7 @@ const GATES = {
     ["import boundaries", ["node", "scripts/check-boundaries.mjs"]],
     ["build is deterministic and parses", ["node", "scripts/check-build.mjs"]],
     ["content schemas and references", py("kumru_data.py", "--check")],
-    ["the A1 calendar (data/days.json)", ["node", "scripts/kumru_days.mjs", "--check"]],
+    ["the calendar (data/days.json from data/seasons/)", ["node", "scripts/kumru_days.mjs", "--check"]],
     // stories, characters and places: their one schema source is sahne-story/schema/ in the Sahne submodule
     ["stories, characters and places", ["node", `${SAHNE}/sahne-story/stories.ts`, "--check", "--quiet"]],
     ["the generated extras", ["node", `${SAHNE}/sahne-story/cast/extras.ts`, "--check"]],
