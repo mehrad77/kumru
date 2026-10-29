@@ -11,7 +11,8 @@
     "smoke": "node scripts/data.mjs && playwright test",
     "deploy": "node scripts/data.mjs && vite build && wrangler d1 migrations apply yakerim --remote && wrangler deploy",
     "seed": "node scripts/data.mjs && vite build --mode dev && node worker/seed/seed.mjs",
-    "data": "node scripts/data.mjs"
+    "data": "node scripts/data.mjs",
+    "backstage": "node scripts/data.mjs && node scripts/backstage.mjs"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.63.1",

@@ -4,7 +4,7 @@
 // line of a git-ignored .kumru-data file; with one, each folder becomes a symlink into it. With none, each folder is
 // a copy of data-sample/ (a few original cards, one lesson, one path section, a stub syllabus).
 // `node scripts/data.mjs --which` prints "real" or "sample" and changes nothing.
-import { cpSync, existsSync, lstatSync, readFileSync, readlinkSync, rmSync, symlinkSync } from "node:fs";
+import { cpSync, existsSync, lstatSync, mkdirSync, readFileSync, readlinkSync, rmSync, symlinkSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -22,6 +22,19 @@ export function privateRoot() {
 
 /** "real" when data/cards links into a private root, else "sample". */
 export const dataKind = () => (lstatSync(path.join(DATA, "cards"), { throwIfNoEntry: false })?.isSymbolicLink() ? "real" : "sample");
+
+/** The content root Sahne's tools read (SAHNE_CONTENT, an absolute folder): data/ itself on the real data. On the sample it
+ * is .build/sahne-content/, made fresh: a view of data/ without the course folders (cards, grammar, syllabus), since the
+ * public stories and places name real cards and lessons the sample does not have, and Sahne skips its course rules when
+ * those folders are absent. Used by scripts/gates.mjs and scripts/backstage.mjs. */
+export function sahneContent() {
+  if (dataKind() === "real") return DATA;
+  const view = path.join(ROOT, ".build", "sahne-content");
+  rmSync(view, { recursive: true, force: true });
+  mkdirSync(view, { recursive: true });
+  for (const f of ["series.json", "seasons", "stories", "characters", "places", "thumbs", "needs.json", "days.json"]) symlinkSync(path.join(DATA, f), path.join(view, f));
+  return view;
+}
 
 function setup() {
   const root = privateRoot();
