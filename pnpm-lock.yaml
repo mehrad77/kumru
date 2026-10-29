@@ -20,6 +20,9 @@ importers:
       sahne:
         specifier: workspace:*
         version: link:sahne/packages/sahne
+      sahne-backstage:
+        specifier: workspace:*
+        version: link:sahne/packages/sahne-backstage
       sahne-kit:
         specifier: workspace:*
         version: link:sahne/packages/sahne-kit
@@ -74,6 +77,36 @@ importers:
         version: 4.149.0(@cloudflare/workers-types@5.20261007.1)(@types/node@26.6.4)
 
   sahne/packages/sahne: {}
+
+  sahne/packages/sahne-backstage:
+    dependencies:
+      '@fontsource/comic-neue':
+        specifier: 5.3.0
+        version: 5.3.0
+      '@preact/signals':
+        specifier: ^2.11.3
+        version: 2.11.3(preact@11.0.1)
+      esbuild:
+        specifier: 0.28.2
+        version: 0.28.2
+      htm:
+        specifier: ^3.1.1
+        version: 3.1.1
+      preact:
+        specifier: ^11.0.1
+        version: 11.0.1
+      sahne:
+        specifier: workspace:*
+        version: link:../sahne
+      sahne-kit:
+        specifier: workspace:*
+        version: link:../sahne-kit
+      sahne-story:
+        specifier: workspace:*
+        version: link:../sahne-story
+      sahne-tr:
+        specifier: workspace:*
+        version: link:../sahne-tr
 
   sahne/packages/sahne-gallery:
     dependencies:
@@ -1595,6 +1628,9 @@ packages:
 
   hookified@2.2.0:
     resolution: {integrity: sha512-p/LgFzRN5FeoD3DLS6bkUapeye6E4SI6yJs6KetENd18S+FBthqYq2amJUWpt5z0EQwwHemidjY5OqJGEKm5uA==}
+
+  htm@3.1.1:
+    resolution: {integrity: sha512-983Vyg8NwUE7JkZ6NmOqpCZ+sh1bKv2iYTlUkzlWmA5JD2acKoxd4KVxbMmxX/85mtfdnDmTFoNKcg5DGAvxNQ==}
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -3399,6 +3435,8 @@ snapshots:
   hookified@1.15.1: {}
 
   hookified@2.2.0: {}
+
+  htm@3.1.1: {}
 
   ignore@5.3.2: {}
 

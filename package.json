@@ -34,6 +34,7 @@
     "@preact/signals-core": "^1.14.4",
     "preact": "^11.0.1",
     "sahne": "workspace:*",
+    "sahne-backstage": "workspace:*",
     "sahne-kit": "workspace:*",
     "sahne-story": "workspace:*",
     "sahne-tr": "workspace:*"
