@@ -95,8 +95,10 @@
       }
     }
   },
-  "bio": "35, from Eskişehir; teaches A1 at Beykent TÖMER, class 504. Patient and precise, and a stickler for pronunciation.",
-  "bioFa": "سی‌وپنج ساله، اهل اسکی‌شهیر؛ در تومرِ بیکنت، کلاسِ ۵۰۴، A1 درس می‌دهد. صبور و دقیق، و در تلفظ سخت‌گیر.",
+  "bio": {
+    "en": "35, from Eskişehir; teaches A1 at Beykent TÖMER, class 504. Patient and precise, and a stickler for pronunciation.",
+    "fa": "سی‌وپنج ساله، اهل اسکی‌شهیر؛ در تومرِ بیکنت، کلاسِ ۵۰۴، A1 درس می‌دهد. صبور و دقیق، و در تلفظ سخت‌گیر."
+  },
   "catch": {
     "en": "Once more, please!",
     "fa": "یک بار دیگر، لطفاً!",
@@ -116,8 +118,10 @@
     ],
     "tempo": 0.9
   },
-  "name": "Zafer Hoca",
-  "nameFa": "ظفر",
+  "name": {
+    "tr": "Zafer Hoca",
+    "fa": "ظفر"
+  },
   "order": 13,
   "outfits": {
     "winter": {
@@ -135,8 +139,10 @@
     "class504",
     "tomer"
   ],
-  "role": "The A1 teacher",
-  "roleFa": "معلمِ A1",
+  "role": {
+    "en": "The A1 teacher",
+    "fa": "معلمِ A1"
+  },
   "voice": {
     "pitch": 0.95,
     "rate": 0.9

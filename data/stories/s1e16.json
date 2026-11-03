@@ -101,98 +101,98 @@
     }
   ],
   "gl": {
-    "beşiktaş": [
-      "بشیکتاش (محله‌ای در استانبول)",
-      "Beşiktaş (a district of Istanbul)"
-    ],
-    "beşinci": [
-      "پنجم",
-      "fifth"
-    ],
-    "buradanım": [
-      "اهلِ همین‌جام",
-      "I'm from here"
-    ],
-    "damlaya": [
-      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
-      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
-    ],
-    "farsça": [
-      "فارسی (زبان)",
-      "Persian (the language)"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a district of Şişli)"
-    ],
-    "göl": [
-      "دریاچه",
-      "lake"
-    ],
-    "kadıköy": [
-      "کادیکوی (محله‌ای در سمتِ آسیاییِ استانبول)",
-      "Kadıköy (a district on the Asian side)"
-    ],
-    "kattayım": [
-      "طبقه‌ی … هستم",
-      "I'm on the … floor"
-    ],
-    "komşular": [
-      "همسایه‌ها",
-      "neighbours"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "metroda": [
-      "در مترو",
-      "on the metro"
-    ],
-    "naziksiniz": [
-      "لطف دارید؛ مهربانید",
-      "you're kind"
-    ],
-    "olur": [
-      "می‌شود",
-      "becomes"
-    ],
-    "osmanbey": [
-      "عثمان‌بی (محله‌ای در شیشلی)",
-      "Osmanbey (a district of Şişli)"
-    ],
-    "polissin": [
-      "پلیسی (تو پلیس هستی)",
-      "you're the police"
-    ],
-    "sokaktan": [
-      "از کوچه؛ اهلِ این کوچه",
-      "from the street"
-    ],
-    "vapurla": [
-      "با کشتی",
-      "by ferry"
-    ],
-    "zafer": [
-      "ظفر (اسم؛ به معنیِ پیروزی)",
-      "Zafer (a name; also the word for victory)"
-    ],
-    "şişli": [
-      "شیشلی (محله‌ای در استانبول)",
-      "Şişli (a district of Istanbul)"
-    ],
-    "خیلی": [
-      "خیلی (فارسی: çok)",
-      "very (Persian for çok)"
-    ],
-    "دوره": [
-      "دور است (فارسی: uzak)",
-      "it's far (Persian for uzak)"
-    ],
-    "کادیکوی": [
-      "کادیکوی (فارسی: Kadıköy)",
-      "Kadıköy (in Persian)"
-    ]
+    "beşiktaş": {
+      "fa": "بشیکتاش (محله‌ای در استانبول)",
+      "en": "Beşiktaş (a district of Istanbul)"
+    },
+    "beşinci": {
+      "fa": "پنجم",
+      "en": "fifth"
+    },
+    "buradanım": {
+      "fa": "اهلِ همین‌جام",
+      "en": "I'm from here"
+    },
+    "damlaya": {
+      "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    },
+    "farsça": {
+      "fa": "فارسی (زبان)",
+      "en": "Persian (the language)"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a district of Şişli)"
+    },
+    "göl": {
+      "fa": "دریاچه",
+      "en": "lake"
+    },
+    "kadıköy": {
+      "fa": "کادیکوی (محله‌ای در سمتِ آسیاییِ استانبول)",
+      "en": "Kadıköy (a district on the Asian side)"
+    },
+    "kattayım": {
+      "fa": "طبقه‌ی … هستم",
+      "en": "I'm on the … floor"
+    },
+    "komşular": {
+      "fa": "همسایه‌ها",
+      "en": "neighbours"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "metroda": {
+      "fa": "در مترو",
+      "en": "on the metro"
+    },
+    "naziksiniz": {
+      "fa": "لطف دارید؛ مهربانید",
+      "en": "you're kind"
+    },
+    "olur": {
+      "fa": "می‌شود",
+      "en": "becomes"
+    },
+    "osmanbey": {
+      "fa": "عثمان‌بی (محله‌ای در شیشلی)",
+      "en": "Osmanbey (a district of Şişli)"
+    },
+    "polissin": {
+      "fa": "پلیسی (تو پلیس هستی)",
+      "en": "you're the police"
+    },
+    "sokaktan": {
+      "fa": "از کوچه؛ اهلِ این کوچه",
+      "en": "from the street"
+    },
+    "vapurla": {
+      "fa": "با کشتی",
+      "en": "by ferry"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم؛ به معنیِ پیروزی)",
+      "en": "Zafer (a name; also the word for victory)"
+    },
+    "şişli": {
+      "fa": "شیشلی (محله‌ای در استانبول)",
+      "en": "Şişli (a district of Istanbul)"
+    },
+    "خیلی": {
+      "fa": "خیلی (فارسی: çok)",
+      "en": "very (Persian for çok)"
+    },
+    "دوره": {
+      "fa": "دور است (فارسی: uzak)",
+      "en": "it's far (Persian for uzak)"
+    },
+    "کادیکوی": {
+      "fa": "کادیکوی (فارسی: Kadıköy)",
+      "en": "Kadıköy (in Persian)"
+    }
   },
   "id": "s1e16",
   "kind": "episode",
@@ -234,41 +234,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Where does Alex come from?",
-      "fa": "الکس از کجا می‌آید؟",
       "kind": "comp",
       "options": [
         "Kadıköy'den",
         "Beşiktaş'tan",
         "Şişli'den"
       ],
-      "q": "Alex nereden geliyor?",
+      "q": {
+        "tr": "Alex nereden geliyor?",
+        "en": "Where does Alex come from?",
+        "fa": "الکس از کجا می‌آید؟"
+      },
       "why": "Zafer Hoca: “Alex Kadıköy'den, vapurla!”"
     },
     {
       "a": 0,
-      "en": "Maria asks where Nima comes from. Which question word does she use?",
-      "fa": "ماریا می‌پرسد نیما از کجا می‌آید. کدام کلمه‌ی پرسشی را به کار می‌برد؟",
       "kind": "word",
       "options": [
         "Nereden",
         "Nereye",
         "Nerede"
       ],
-      "q": "Maria: “… geliyorsunuz?”",
+      "q": {
+        "tr": "Maria: “… geliyorsunuz?”",
+        "en": "Maria asks where Nima comes from. Which question word does she use?",
+        "fa": "ماریا می‌پرسد نیما از کجا می‌آید. کدام کلمه‌ی پرسشی را به کار می‌برد؟"
+      },
       "why": "Maria: “Nereden geliyorsunuz?”"
     },
     {
       "a": 0,
-      "en": "Which floor does Maria live on?",
-      "fa": "ماریا در کدام طبقه زندگی می‌کند؟",
       "kind": "comp",
       "options": [
         "Beşinci kat",
         "Dördüncü kat",
         "İkinci kat"
       ],
-      "q": "Maria kaçıncı katta oturuyor?",
+      "q": {
+        "tr": "Maria kaçıncı katta oturuyor?",
+        "en": "Which floor does Maria live on?",
+        "fa": "ماریا در کدام طبقه زندگی می‌کند؟"
+      },
       "why": "Maria: “Ben Maria, beşinci kattayım.”"
     }
   ],
@@ -641,11 +647,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "At the class map everyone says where they come from, and Parvaneh's Persian slip starts the Farsça jar, with Nima as its keeper. That night the lady from the metro is waiting upstairs with Nima's lost notebook: she is Maria, from the fifth floor.",
-  "summaryFa": "کنارِ نقشه‌ی کلاس هر کس می‌گوید از کجا می‌آید. یک کلمه‌ی فارسی از دهانِ پروانه می‌پرد و قلکِ «فارسی» راه می‌افتد، و نیما نگهبانش می‌شود. آن شب خانمِ مترو با دفترِ گم‌شده‌ی نیما در راه‌پله منتظر است: او ماریاست، از طبقه‌ی پنجم.",
-  "title": "Nereden geliyorsunuz?",
-  "titleEn": "Where are you coming from?",
-  "titleFa": "از کجا می‌آیید؟",
+  "summary": {
+    "en": "At the class map everyone says where they come from, and Parvaneh's Persian slip starts the Farsça jar, with Nima as its keeper. That night the lady from the metro is waiting upstairs with Nima's lost notebook: she is Maria, from the fifth floor.",
+    "fa": "کنارِ نقشه‌ی کلاس هر کس می‌گوید از کجا می‌آید. یک کلمه‌ی فارسی از دهانِ پروانه می‌پرد و قلکِ «فارسی» راه می‌افتد، و نیما نگهبانش می‌شود. آن شب خانمِ مترو با دفترِ گم‌شده‌ی نیما در راه‌پله منتظر است: او ماریاست، از طبقه‌ی پنجم."
+  },
+  "title": {
+    "tr": "Nereden geliyorsunuz?",
+    "en": "Where are you coming from?",
+    "fa": "از کجا می‌آیید؟"
+  },
   "words": [
     "a1-w-nereden",
     "a1-w-gelmek",

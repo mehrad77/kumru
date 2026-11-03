@@ -99,90 +99,90 @@
     }
   ],
   "gl": {
-    "ablan": [
-      "خواهرِ بزرگ‌ترت",
-      "your big sister"
-    ],
-    "ablası": [
-      "خواهرِ بزرگ‌ترش",
-      "his or her big sister"
-    ],
-    "aileniz": [
-      "خانواده‌ی شما",
-      "your family (siz)"
-    ],
-    "ailesi": [
-      "خانواده‌اش",
-      "their family"
-    ],
-    "anneniz": [
-      "مادرِ شما",
-      "your mother (siz)"
-    ],
-    "annesi": [
-      "مادرش",
-      "his or her mother"
-    ],
-    "ağacım": [
-      "درختم",
-      "my tree"
-    ],
-    "ağacınız": [
-      "درختِ شما",
-      "your tree (siz)"
-    ],
-    "ağaçlar": [
-      "درخت‌ها",
-      "trees"
-    ],
-    "ağaçları": [
-      "درخت‌های… (aile ağaçları: شجره‌نامه‌ها)",
-      "trees (aile ağaçları: family trees)"
-    ],
-    "behzad": [
-      "بهزاد (اسم)",
-      "Behzad (a name)"
-    ],
-    "farsçada": [
-      "در فارسی",
-      "in Persian"
-    ],
-    "hepsi": [
-      "همه‌شان",
-      "all of them"
-    ],
-    "herkesin": [
-      "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
-      "everyone's"
-    ],
-    "moskova": [
-      "مسکو",
-      "Moscow"
-    ],
-    "olga": [
-      "اولگا (اسم)",
-      "Olga (a name)"
-    ],
-    "onun": [
-      "…ِ او (onun adı: اسمِ او)",
-      "his, her (onun adı: his or her name)"
-    ],
-    "teyzem": [
-      "خاله‌ام",
-      "my aunt (mother's sister)"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name)"
-    ],
-    "خاله": [
-      "خاله",
-      "teyze in Persian"
-    ],
-    "دایی": [
-      "دایی",
-      "dayı in Persian"
-    ]
+    "ablan": {
+      "fa": "خواهرِ بزرگ‌ترت",
+      "en": "your big sister"
+    },
+    "ablası": {
+      "fa": "خواهرِ بزرگ‌ترش",
+      "en": "his or her big sister"
+    },
+    "aileniz": {
+      "fa": "خانواده‌ی شما",
+      "en": "your family (siz)"
+    },
+    "ailesi": {
+      "fa": "خانواده‌اش",
+      "en": "their family"
+    },
+    "anneniz": {
+      "fa": "مادرِ شما",
+      "en": "your mother (siz)"
+    },
+    "annesi": {
+      "fa": "مادرش",
+      "en": "his or her mother"
+    },
+    "ağacım": {
+      "fa": "درختم",
+      "en": "my tree"
+    },
+    "ağacınız": {
+      "fa": "درختِ شما",
+      "en": "your tree (siz)"
+    },
+    "ağaçlar": {
+      "fa": "درخت‌ها",
+      "en": "trees"
+    },
+    "ağaçları": {
+      "fa": "درخت‌های… (aile ağaçları: شجره‌نامه‌ها)",
+      "en": "trees (aile ağaçları: family trees)"
+    },
+    "behzad": {
+      "fa": "بهزاد (اسم)",
+      "en": "Behzad (a name)"
+    },
+    "farsçada": {
+      "fa": "در فارسی",
+      "en": "in Persian"
+    },
+    "hepsi": {
+      "fa": "همه‌شان",
+      "en": "all of them"
+    },
+    "herkesin": {
+      "fa": "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
+      "en": "everyone's"
+    },
+    "moskova": {
+      "fa": "مسکو",
+      "en": "Moscow"
+    },
+    "olga": {
+      "fa": "اولگا (اسم)",
+      "en": "Olga (a name)"
+    },
+    "onun": {
+      "fa": "…ِ او (onun adı: اسمِ او)",
+      "en": "his, her (onun adı: his or her name)"
+    },
+    "teyzem": {
+      "fa": "خاله‌ام",
+      "en": "my aunt (mother's sister)"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name)"
+    },
+    "خاله": {
+      "fa": "خاله",
+      "en": "teyze in Persian"
+    },
+    "دایی": {
+      "fa": "دایی",
+      "en": "dayı in Persian"
+    }
   },
   "id": "s1e20",
   "kind": "episode",
@@ -284,41 +284,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Alex: “Her name is Olga. She's a …”",
-      "fa": "الکس: «اسمش اولگاست. او … است.»",
       "kind": "comp",
       "options": [
         "doktor",
         "mühendis",
         "öğretmen"
       ],
-      "q": "Alex: “Onun adı Olga. O …”",
+      "q": {
+        "tr": "Alex: “Onun adı Olga. O …”",
+        "en": "Alex: “Her name is Olga. She's a …”",
+        "fa": "الکس: «اسمش اولگاست. او … است.»"
+      },
       "why": "Alex: “Benim bir ablam var. Onun adı Olga. O doktor… Moskova'da.”"
     },
     {
       "a": 0,
-      "en": "Parvaneh: “This is my …, and this is my aunt!”",
-      "fa": "پروانه: «این … منه، این هم خاله‌ی منه!»",
       "kind": "word",
       "options": [
         "dayım",
         "kızım",
         "eşim"
       ],
-      "q": "Parvane: “Bu benim …, bu da benim teyzem!”",
+      "q": {
+        "tr": "Parvane: “Bu benim …, bu da benim teyzem!”",
+        "en": "Parvaneh: “This is my …, and this is my aunt!”",
+        "fa": "پروانه: «این … منه، این هم خاله‌ی منه!»"
+      },
       "why": "Parvane: “Bu benim dayım, bu da benim teyzem!”"
     },
     {
       "a": 0,
-      "en": "Zafer Hoca: “Yes, my daughter. She's … years old.”",
-      "fa": "استاد ظفر: «بله، دخترمه. … سالشه.»",
       "kind": "comp",
       "options": [
         "üç",
         "beş",
         "on"
       ],
-      "q": "Zafer Hoca: “Evet, benim kızım. O … yaşında.”",
+      "q": {
+        "tr": "Zafer Hoca: “Evet, benim kızım. O … yaşında.”",
+        "en": "Zafer Hoca: “Yes, my daughter. She's … years old.”",
+        "fa": "استاد ظفر: «بله، دخترمه. … سالشه.»"
+      },
       "why": "Zafer Hoca: “Evet, benim kızım. O üç yaşında.”"
     }
   ],
@@ -652,11 +658,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Zafer Hoca starts the week's project: everyone draws a family tree. He shows his own; Parvaneh shows her huge one and says Persian also has a separate word for each kind of uncle and aunt; and Alex introduces his big sister Olga.",
-  "summaryFa": "استاد ظفر پروژه‌ی این هفته را شروع می‌کند: هر کس شجره‌نامه‌ی خانواده‌اش را می‌کشد. اول شجره‌نامه‌ی خودش را نشان می‌دهد، بعد پروانه شجره‌نامه‌ی بزرگش را، و پروانه می‌گوید فارسی هم برای دایی، خاله، عمو و عمه کلمه‌ی جدا دارد. الکس هم خواهرِ بزرگش اولگا را معرفی می‌کند.",
-  "title": "Aile ağacı",
-  "titleEn": "The family tree",
-  "titleFa": "شجره‌نامه",
+  "summary": {
+    "en": "Zafer Hoca starts the week's project: everyone draws a family tree. He shows his own; Parvaneh shows her huge one and says Persian also has a separate word for each kind of uncle and aunt; and Alex introduces his big sister Olga.",
+    "fa": "استاد ظفر پروژه‌ی این هفته را شروع می‌کند: هر کس شجره‌نامه‌ی خانواده‌اش را می‌کشد. اول شجره‌نامه‌ی خودش را نشان می‌دهد، بعد پروانه شجره‌نامه‌ی بزرگش را، و پروانه می‌گوید فارسی هم برای دایی، خاله، عمو و عمه کلمه‌ی جدا دارد. الکس هم خواهرِ بزرگش اولگا را معرفی می‌کند."
+  },
+  "title": {
+    "tr": "Aile ağacı",
+    "en": "The family tree",
+    "fa": "شجره‌نامه"
+  },
   "words": [
     "a1-w-aile",
     "a1-w-amca",

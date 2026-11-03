@@ -13,7 +13,7 @@ import { Icon } from "../../ui/Icon.tsx";
 import { toast } from "../../ui/toast.ts";
 import { personalizeStr } from "../onboarding/index.ts";
 import { openStory } from "./open.ts";
-import { launched, loadStories, loaded, nextStory, openStories, preview, readable, record, thumbBase, today, upcoming, type Story } from "./state.ts";
+import { launched, loadStories, loaded, nextStory, openStories, preview, readable, record, textIn, thumbBase, today, upcoming, type Story } from "./state.ts";
 import { Thumb } from "./Thumb.tsx";
 import { SEASON_LAUNCH } from "../../../shared/stories.ts";
 
@@ -43,9 +43,9 @@ function Titles({ s }: { s: Story }) {
   const H = helpLangs();
   return (
     <span class="st-ent-t">
-      <b lang="tr">{personalizeStr(s.title, "tr")}</b>
-      {H.en && s.titleEn ? <small>{personalizeStr(s.titleEn, "en")}</small> : null}
-      {H.fa && s.titleFa ? <small class="fa" lang="fa" dir="rtl">{faTxt(personalizeStr(s.titleFa, "fa"))}</small> : null}
+      <b lang="tr">{personalizeStr(textIn(s.title, "tr"), "tr")}</b>
+      {H.en && s.title.en ? <small>{personalizeStr(s.title.en, "en")}</small> : null}
+      {H.fa && s.title.fa ? <small class="fa" lang="fa" dir="rtl">{faTxt(personalizeStr(s.title.fa, "fa"))}</small> : null}
     </span>
   );
 }
@@ -64,11 +64,11 @@ function Next({ s, n, isToday }: { s: Story; n: number; isToday: boolean }) {
   return (
     <li class={"st-ent next" + (isToday ? " today" : "")} id={"st-" + s.id}>
       <div class="card st-next">
-        <button class="st-next-pic" type="button" aria-label={"Read " + personalizeStr(s.title, "tr")} onClick={() => openStory(s.id)}><Thumb id={s.id} cls="big" eager /></button>
+        <button class="st-next-pic" type="button" aria-label={"Read " + personalizeStr(textIn(s.title, "tr"), "tr")} onClick={() => openStory(s.id)}><Thumb id={s.id} cls="big" eager /></button>
         <div class="st-next-meta"><small>{r.reads ? "Pick up where you left off" : "Next for you"} · Bölüm {n}</small><Chips s={s} isToday={isToday} /></div>
         <Titles s={s} />
-        {H.en && s.summary ? <p>{personalizeStr(s.summary, "en")}</p> : null}
-        {H.fa && s.summaryFa ? <p class="fa" lang="fa" dir="rtl">{faTxt(personalizeStr(s.summaryFa, "fa"))}</p> : null}
+        {H.en && s.summary?.en ? <p>{personalizeStr(s.summary.en, "en")}</p> : null}
+        {H.fa && s.summary?.fa ? <p class="fa" lang="fa" dir="rtl">{faTxt(personalizeStr(s.summary.fa, "fa"))}</p> : null}
         <button class="btn primary block" type="button" onClick={() => openStory(s.id)}>Read{H.fa ? <span class="fa" lang="fa" dir="rtl">بخوان</span> : null}</button>
       </div>
     </li>

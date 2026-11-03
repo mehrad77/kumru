@@ -14,13 +14,17 @@ import { SEASON_LAUNCH, isReadable, istanbulDay, nextForYou, visibleStories } fr
 export interface Story {
   id: string; season: number; releaseDate: string; kind?: "episode" | "special"; level?: string; draft?: true;
   arc?: { id: string; tr: string; en?: string; fa?: string; mechanics: string[] };
-  title: string; titleEn?: string; titleFa?: string; summary?: string; summaryFa?: string;
+  title: Text; summary?: Text;
   place: string; cast: string[]; extras?: string[]; words?: string[]; lessons?: string[];
-  gl?: Record<string, [string, string]>;
+  gl?: Record<string, Text>;
   steps: unknown[]; quiz?: QuizItem[]; followUp?: unknown[]; unlocks?: string[];
   [k: string]: unknown;
 }
-export interface QuizItem { q: string; en?: string; fa?: string; options: string[]; a: number; why?: string; kind?: "comp" | "word" }
+export interface QuizItem { q: Text; options: string[]; a: number; why?: string; kind?: "comp" | "word" }
+/** A text by language (sahne-story src/texts.ts): `{ tr, en, fa }`, Turkish the main one. */
+export type Text = Partial<Record<string, string>>;
+/** A text in one language, or "" when it has none. */
+export const textIn = (t: Text | undefined, lang: string): string => t?.[lang] ?? "";
 /** What the learner's progress keeps per story (docs/SPECS_SCHEMA.md §3.1 `st`). */
 export interface StRecord { done?: boolean; stars?: number; reads?: number; at?: number; picks?: number; ch?: Record<string, number | string>; fu?: boolean }
 

@@ -88,34 +88,34 @@
     }
   ],
   "gl": {
-    "berfin": [
-      "برفین (صاحبِ کافهٔ کوچک)",
-      "Berfin (who runs the tiny café)"
-    ],
-    "fırından": [
-      "از نانوایی",
-      "from the bakery"
-    ],
-    "fırının": [
-      "ـِ نانوایی",
-      "the bakery's; of the bakery"
-    ],
-    "hangisi": [
-      "کدام‌یک",
-      "which one"
-    ],
-    "ikisini": [
-      "هر دو را",
-      "both (of them)"
-    ],
-    "masadaki": [
-      "(آنِ) روی میز",
-      "the one on the table"
-    ],
-    "üstünde": [
-      "بالای…، روی…",
-      "on top of…"
-    ]
+    "berfin": {
+      "fa": "برفین (صاحبِ کافهٔ کوچک)",
+      "en": "Berfin (who runs the tiny café)"
+    },
+    "fırından": {
+      "fa": "از نانوایی",
+      "en": "from the bakery"
+    },
+    "fırının": {
+      "fa": "ـِ نانوایی",
+      "en": "the bakery's; of the bakery"
+    },
+    "hangisi": {
+      "fa": "کدام‌یک",
+      "en": "which one"
+    },
+    "ikisini": {
+      "fa": "هر دو را",
+      "en": "both (of them)"
+    },
+    "masadaki": {
+      "fa": "(آنِ) روی میز",
+      "en": "the one on the table"
+    },
+    "üstünde": {
+      "fa": "بالای…، روی…",
+      "en": "on top of…"
+    }
   },
   "id": "s1e33",
   "kind": "episode",
@@ -196,41 +196,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Which bakery is cheaper?",
-      "fa": "کدام نانوایی ارزان‌تر است؟",
       "kind": "comp",
       "options": [
         "Parktaki fırın",
         "Köşedeki fırın",
         "İki fırın da"
       ],
-      "q": "Hangi fırın daha ucuz?",
+      "q": {
+        "tr": "Hangi fırın daha ucuz?",
+        "en": "Which bakery is cheaper?",
+        "fa": "کدام نانوایی ارزان‌تر است؟"
+      },
       "why": "Dilnoza: “Parktaki fırın da var. O daha ucuz.”"
     },
     {
       "a": 0,
-      "en": "Nima: “This bread is more …”",
-      "fa": "نیما: «این نان …تر است.»",
       "kind": "word",
       "options": [
         "yumuşak",
         "ucuz",
         "sert"
       ],
-      "q": "Nima: “Bu ekmek daha …”",
+      "q": {
+        "tr": "Nima: “Bu ekmek daha …”",
+        "en": "Nima: “This bread is more …”",
+        "fa": "نیما: «این نان …تر است.»"
+      },
       "why": "Nima: “Bu ekmek daha yumuşak.”"
     },
     {
       "a": 0,
-      "en": "Which bakery has the warmest bread?",
-      "fa": "داغ‌ترین نان مالِ کدام نانوایی است؟",
       "kind": "comp",
       "options": [
         "Köşedeki fırında",
         "Parktaki fırında",
         "Berfin'in kafesinde"
       ],
-      "q": "En sıcak ekmek hangi fırında?",
+      "q": {
+        "tr": "En sıcak ekmek hangi fırında?",
+        "en": "Which bakery has the warmest bread?",
+        "fa": "داغ‌ترین نان مالِ کدام نانوایی است؟"
+      },
       "why": "Nima: “Köşedeki fırın: en sıcak ekmek.”"
     }
   ],
@@ -541,11 +547,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The guide's third page is bread, and Serkan has opinions. On a bench between the two bakeries Nima tastes a loaf from each, and has to tell Serkan which one is better.",
-  "summaryFa": "صفحهٔ سومِ راهنما دربارهٔ نان است و سرکان نظرِ خودش را دارد. نیما روی نیمکتی بینِ دو نانوایی از هر کدام یک نان می‌چشد و باید به سرکان بگوید کدام بهتر است.",
-  "title": "Köşedeki fırın",
-  "titleEn": "The bakery on the corner",
-  "titleFa": "نانواییِ سرِ نبش",
+  "summary": {
+    "en": "The guide's third page is bread, and Serkan has opinions. On a bench between the two bakeries Nima tastes a loaf from each, and has to tell Serkan which one is better.",
+    "fa": "صفحهٔ سومِ راهنما دربارهٔ نان است و سرکان نظرِ خودش را دارد. نیما روی نیمکتی بینِ دو نانوایی از هر کدام یک نان می‌چشد و باید به سرکان بگوید کدام بهتر است."
+  },
+  "title": {
+    "tr": "Köşedeki fırın",
+    "en": "The bakery on the corner",
+    "fa": "نانواییِ سرِ نبش"
+  },
   "words": [
     "a1-w-lezzetli",
     "a1-w-yumusak",

@@ -83,8 +83,10 @@
     "skin": "skin_20",
     "v": 1
   },
-  "bio": "A computer engineer who has lived in Turkey for about ten years. Logical and well prepared, and always there for family and friends.",
-  "bioFa": "مهندس کامپیوتر که حدود ده سال است در ترکیه زندگی می‌کند. منطقی و همیشه آماده، و همیشه پشتِ خانواده و دوستانش.",
+  "bio": {
+    "en": "A computer engineer who has lived in Turkey for about ten years. Logical and well prepared, and always there for family and friends.",
+    "fa": "مهندس کامپیوتر که حدود ده سال است در ترکیه زندگی می‌کند. منطقی و همیشه آماده، و همیشه پشتِ خانواده و دوستانش."
+  },
   "circle": "old_friends",
   "color": "#17696B",
   "id": "farzad",
@@ -98,8 +100,10 @@
     ],
     "tempo": 1
   },
-  "name": "Farzad",
-  "nameFa": "فرزاد",
+  "name": {
+    "tr": "Farzad",
+    "fa": "فرزاد"
+  },
   "order": 3,
   "outfits": {
     "indoor": {
@@ -121,8 +125,10 @@
   "places": [
     "flat_farzad"
   ],
-  "role": "Nima's old friend and host",
-  "roleFa": "دوستِ قدیمیِ نیما و میزبانش",
+  "role": {
+    "en": "Nima's old friend and host",
+    "fa": "دوستِ قدیمیِ نیما و میزبانش"
+  },
   "voice": {
     "pitch": 0.85,
     "rate": 1

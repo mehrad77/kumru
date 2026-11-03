@@ -87,50 +87,50 @@
     }
   ],
   "gl": {
-    "ayda": [
-      "در یک ماه؛ «bir ayda» یعنی ظرفِ یک ماه",
-      "in a month"
-    ],
-    "aydan": [
-      "از یک ماه؛ «bir aydan beri» یعنی یک ماه است که",
-      "from a month; “bir aydan beri”: for a month now"
-    ],
-    "beri": [
-      "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
-      "since; “-DAn beri”: since"
-    ],
-    "fısıldıyorsunuz": [
-      "پچ‌پچ می‌کنید (از fısıldamak)",
-      "you are whispering (from fısıldamak)"
-    ],
-    "gerçekten": [
-      "واقعاً",
-      "really"
-    ],
-    "ku": [
-      "کو (صدای کریم)",
-      "coo (Kerim's call)"
-    ],
-    "pastadan": [
-      "از کیک؛ «pastadan önce» یعنی قبل از کیک",
-      "from the cake; “pastadan önce”: before the cake"
-    ],
-    "tahran": [
-      "تهران",
-      "Tehran"
-    ],
-    "tam": [
-      "درست، دقیقاً",
-      "exactly, sharp"
-    ],
-    "zamandan": [
-      "از وقتِ…؛ «ne zamandan beri» یعنی از کِی",
-      "from the time; “ne zamandan beri”: since when"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ]
+    "ayda": {
+      "fa": "در یک ماه؛ «bir ayda» یعنی ظرفِ یک ماه",
+      "en": "in a month"
+    },
+    "aydan": {
+      "fa": "از یک ماه؛ «bir aydan beri» یعنی یک ماه است که",
+      "en": "from a month; “bir aydan beri”: for a month now"
+    },
+    "beri": {
+      "fa": "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "en": "since; “-DAn beri”: since"
+    },
+    "fısıldıyorsunuz": {
+      "fa": "پچ‌پچ می‌کنید (از fısıldamak)",
+      "en": "you are whispering (from fısıldamak)"
+    },
+    "gerçekten": {
+      "fa": "واقعاً",
+      "en": "really"
+    },
+    "ku": {
+      "fa": "کو (صدای کریم)",
+      "en": "coo (Kerim's call)"
+    },
+    "pastadan": {
+      "fa": "از کیک؛ «pastadan önce» یعنی قبل از کیک",
+      "en": "from the cake; “pastadan önce”: before the cake"
+    },
+    "tahran": {
+      "fa": "تهران",
+      "en": "Tehran"
+    },
+    "tam": {
+      "fa": "درست، دقیقاً",
+      "en": "exactly, sharp"
+    },
+    "zamandan": {
+      "fa": "از وقتِ…؛ «ne zamandan beri» یعنی از کِی",
+      "en": "from the time; “ne zamandan beri”: since when"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    }
   },
   "id": "s1e28",
   "kind": "episode",
@@ -163,41 +163,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "How long has Nima been in Istanbul?",
-      "fa": "نیما از کِی در استانبول است؟",
       "kind": "comp",
       "options": [
         "Bir aydan beri",
         "Bir yıldan beri",
         "Dünden beri"
       ],
-      "q": "Nima ne zamandan beri İstanbul'da?",
+      "q": {
+        "tr": "Nima ne zamandan beri İstanbul'da?",
+        "en": "How long has Nima been in Istanbul?",
+        "fa": "نیما از کِی در استانبول است؟"
+      },
       "why": "Nima: “Bir aydan beri! Dün tam bir ay oldu!”"
     },
     {
       "a": 0,
-      "en": "“Yemekten önce çatıyı hazırlıyoruz.” What comes first?",
-      "fa": "«Yemekten önce çatıyı hazırlıyoruz.» اول چه؟",
       "kind": "word",
       "options": [
         "Çatı",
         "Yemek",
         "Pasta"
       ],
-      "q": "“Yemekten önce çatıyı hazırlıyoruz.” Önce ne?",
+      "q": {
+        "tr": "“Yemekten önce çatıyı hazırlıyoruz.” Önce ne?",
+        "en": "“Yemekten önce çatıyı hazırlıyoruz.” What comes first?",
+        "fa": "«Yemekten önce çatıyı hazırlıyoruz.» اول چه؟"
+      },
       "why": "Nima: “Yemekten önce çatıyı hazırlıyoruz!”"
     },
     {
       "a": 0,
-      "en": "Who is buying the cake?",
-      "fa": "کیک را چه کسی می‌خرد؟",
       "kind": "comp",
       "options": [
         "Serkan",
         "Ömer",
         "Maria Teyze"
       ],
-      "q": "Pastayı kim alıyor?",
+      "q": {
+        "tr": "Pastayı kim alıyor?",
+        "en": "Who is buying the cake?",
+        "fa": "کیک را چه کسی می‌خرد؟"
+      },
       "why": "Elif: “Yemekten sonra pasta! Serkan pasta alıyor.”"
     }
   ],
@@ -511,11 +517,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "A month and a day after landing, Nima is on time at last and tells Elif the secret: Saturday is Maria Teyze's 80th. They plan a surprise on the roof, but Ömer can't keep quiet, and Maria Teyze comes down the stairs asking what is going on.",
-  "summaryFa": "یک ماه و یک روز بعد از رسیدن، نیما بالاخره سرِ وقت می‌رسد و رازی را به الیف می‌گوید: شنبه تولدِ هشتاد سالگیِ خاله ماریاست. یک جشنِ غافلگیری روی پشت‌بام برنامه‌ریزی می‌کنند، اما عمر نمی‌تواند ساکت بماند و خاله ماریا از پله‌ها پایین می‌آید و می‌پرسد چه خبر است.",
-  "title": "Sır!",
-  "titleEn": "It's a secret!",
-  "titleFa": "راز!",
+  "summary": {
+    "en": "A month and a day after landing, Nima is on time at last and tells Elif the secret: Saturday is Maria Teyze's 80th. They plan a surprise on the roof, but Ömer can't keep quiet, and Maria Teyze comes down the stairs asking what is going on.",
+    "fa": "یک ماه و یک روز بعد از رسیدن، نیما بالاخره سرِ وقت می‌رسد و رازی را به الیف می‌گوید: شنبه تولدِ هشتاد سالگیِ خاله ماریاست. یک جشنِ غافلگیری روی پشت‌بام برنامه‌ریزی می‌کنند، اما عمر نمی‌تواند ساکت بماند و خاله ماریا از پله‌ها پایین می‌آید و می‌پرسد چه خبر است."
+  },
+  "title": {
+    "tr": "Sır!",
+    "en": "It's a secret!",
+    "fa": "راز!"
+  },
   "words": [
     "a1-w-once",
     "a1-w-sonra",

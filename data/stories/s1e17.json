@@ -87,30 +87,30 @@
     }
   ],
   "gl": {
-    "ağaca": [
-      "به درخت",
-      "to the tree"
-    ],
-    "boğaz": [
-      "بسفر",
-      "the Bosphorus"
-    ],
-    "kilise": [
-      "کلیسا",
-      "church"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "maria": [
-      "ماریا (همسایه‌ی طبقه‌ی پنجم)",
-      "Maria (the neighbour on the fifth floor)"
-    ],
-    "musun": [
-      "(نشانه‌ی سؤال) …ی؟",
-      "(question word) are you…?"
-    ]
+    "ağaca": {
+      "fa": "به درخت",
+      "en": "to the tree"
+    },
+    "boğaz": {
+      "fa": "بسفر",
+      "en": "the Bosphorus"
+    },
+    "kilise": {
+      "fa": "کلیسا",
+      "en": "church"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "maria": {
+      "fa": "ماریا (همسایه‌ی طبقه‌ی پنجم)",
+      "en": "Maria (the neighbour on the fifth floor)"
+    },
+    "musun": {
+      "fa": "(نشانه‌ی سؤال) …ی؟",
+      "en": "(question word) are you…?"
+    }
   },
   "id": "s1e17",
   "kind": "episode",
@@ -157,41 +157,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What are the cats doing?",
-      "fa": "گربه‌ها چه کار می‌کنند؟",
       "kind": "comp",
       "options": [
         "Uyuyor",
         "Oynuyor",
         "Yürüyor"
       ],
-      "q": "Kediler ne yapıyor?",
+      "q": {
+        "tr": "Kediler ne yapıyor?",
+        "en": "What are the cats doing?",
+        "fa": "گربه‌ها چه کار می‌کنند؟"
+      },
       "why": "Dilnoza: “Kediler uyuyor…”"
     },
     {
       "a": 0,
-      "en": "“Girmek” means to go in. Dilnoza: “A patisserie! Do you want to …?” Which word fits?",
-      "fa": "‏«girmek» یعنی وارد شدن. دلنوزا: «شیرینی‌فروشی! می‌خواهی …؟» کدام کلمه درست است؟",
       "kind": "word",
       "options": [
         "Girmek",
         "Oynamak",
         "Uyumak"
       ],
-      "q": "Dilnoza: “Pastane! … istiyor musun?”",
+      "q": {
+        "tr": "Dilnoza: “Pastane! … istiyor musun?”",
+        "en": "“Girmek” means to go in. Dilnoza: “A patisserie! Do you want to …?” Which word fits?",
+        "fa": "‏«girmek» یعنی وارد شدن. دلنوزا: «شیرینی‌فروشی! می‌خواهی …؟» کدام کلمه درست است؟"
+      },
       "why": "Dilnoza: “Girmek istiyor musun?”"
     },
     {
       "a": 0,
-      "en": "Nima offers the cake. What does Dilnoza say first?",
-      "fa": "نیما کیک تعارف می‌کند. دلنوزا اول چه می‌گوید؟",
       "kind": "comp",
       "options": [
         "Hayır, istemiyorum, teşekkürler.",
         "Evet, çok seviyorum!",
         "Boğaz'a!"
       ],
-      "q": "Nima pasta veriyor. Dilnoza: “…”",
+      "q": {
+        "tr": "Nima pasta veriyor. Dilnoza: “…”",
+        "en": "Nima offers the cake. What does Dilnoza say first?",
+        "fa": "نیما کیک تعارف می‌کند. دلنوزا اول چه می‌گوید؟"
+      },
       "why": "Dilnoza: “Hayır, istemiyorum, teşekkürler.”"
     }
   ],
@@ -559,11 +565,15 @@
       "who": "nima"
     }
   ],
-  "summary": "No class on Friday: Nima and Dilnoza set off for the Bosphorus on foot, but Feriköy keeps stopping them: sleeping cats, two men playing, a church bell, a Rum patisserie and one big cake.",
-  "summaryFa": "جمعه کلاس نیست: نیما و دلنوزا پیاده راهِ بسفر را می‌گیرند، ولی فری‌کؤی مدام نگهشان می‌دارد: گربه‌های خواب، دو پیرمردِ سرگرمِ بازی، زنگِ یک کلیسا، یک شیرینی‌فروشیِ رومی و یک کیکِ بزرگ.",
-  "title": "Pasta istiyor musun?",
-  "titleEn": "Do you want some cake?",
-  "titleFa": "کیک می‌خواهی؟",
+  "summary": {
+    "en": "No class on Friday: Nima and Dilnoza set off for the Bosphorus on foot, but Feriköy keeps stopping them: sleeping cats, two men playing, a church bell, a Rum patisserie and one big cake.",
+    "fa": "جمعه کلاس نیست: نیما و دلنوزا پیاده راهِ بسفر را می‌گیرند، ولی فری‌کؤی مدام نگهشان می‌دارد: گربه‌های خواب، دو پیرمردِ سرگرمِ بازی، زنگِ یک کلیسا، یک شیرینی‌فروشیِ رومی و یک کیکِ بزرگ."
+  },
+  "title": {
+    "tr": "Pasta istiyor musun?",
+    "en": "Do you want some cake?",
+    "fa": "کیک می‌خواهی؟"
+  },
   "words": [
     "a1-w-oynamak",
     "a1-w-bilmek",

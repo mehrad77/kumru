@@ -75,62 +75,62 @@
     }
   ],
   "gl": {
-    "a1": [
-      "A1 (سطحِ اول)",
-      "A1 (the first level)"
-    ],
-    "a2": [
-      "A2 (سطحِ دوم)",
-      "A2 (the next level)"
-    ],
-    "b2": [
-      "B2 (سطحِ چهارم؛ سطحی که دانشگاه می‌خواهد)",
-      "B2 (the fourth level, the one university needs)"
-    ],
-    "belki": [
-      "شاید",
-      "maybe"
-    ],
-    "buyrun": [
-      "بفرمایید",
-      "here you are; please (buyurun, said quickly)"
-    ],
-    "damlaya": [
-      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
-      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
-    ],
-    "hostelde": [
-      "در هاستل",
-      "at the hostel"
-    ],
-    "hostelim": [
-      "هاستلِ من",
-      "my hostel"
-    ],
-    "maria": [
-      "ماریا (همسایه‌ی طبقه‌ی پنجم)",
-      "Maria (the neighbour on the fifth floor)"
-    ],
-    "musun": [
-      "آیا… تو؟ (mu + -sun، سؤال)",
-      "question particle mu + -sun (you)"
-    ],
-    "rehberi": [
-      "راهنما را (rehber: راهنما)",
-      "the guide (rehber: guide)"
-    ],
-    "tıp": [
-      "پزشکی",
-      "medicine (the field)"
-    ],
-    "من": [
-      "من (به فارسی)",
-      "I (Persian)"
-    ],
-    "میترسم": [
-      "می‌ترسم (به فارسی)",
-      "I'm scared (Persian)"
-    ]
+    "a1": {
+      "fa": "A1 (سطحِ اول)",
+      "en": "A1 (the first level)"
+    },
+    "a2": {
+      "fa": "A2 (سطحِ دوم)",
+      "en": "A2 (the next level)"
+    },
+    "b2": {
+      "fa": "B2 (سطحِ چهارم؛ سطحی که دانشگاه می‌خواهد)",
+      "en": "B2 (the fourth level, the one university needs)"
+    },
+    "belki": {
+      "fa": "شاید",
+      "en": "maybe"
+    },
+    "buyrun": {
+      "fa": "بفرمایید",
+      "en": "here you are; please (buyurun, said quickly)"
+    },
+    "damlaya": {
+      "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    },
+    "hostelde": {
+      "fa": "در هاستل",
+      "en": "at the hostel"
+    },
+    "hostelim": {
+      "fa": "هاستلِ من",
+      "en": "my hostel"
+    },
+    "maria": {
+      "fa": "ماریا (همسایه‌ی طبقه‌ی پنجم)",
+      "en": "Maria (the neighbour on the fifth floor)"
+    },
+    "musun": {
+      "fa": "آیا… تو؟ (mu + -sun، سؤال)",
+      "en": "question particle mu + -sun (you)"
+    },
+    "rehberi": {
+      "fa": "راهنما را (rehber: راهنما)",
+      "en": "the guide (rehber: guide)"
+    },
+    "tıp": {
+      "fa": "پزشکی",
+      "en": "medicine (the field)"
+    },
+    "من": {
+      "fa": "من (به فارسی)",
+      "en": "I (Persian)"
+    },
+    "میترسم": {
+      "fa": "می‌ترسم (به فارسی)",
+      "en": "I'm scared (Persian)"
+    }
   },
   "id": "s1e45",
   "kind": "episode",
@@ -176,41 +176,47 @@
   "quiz": [
     {
       "a": 1,
-      "en": "What does Yusuf want?",
-      "fa": "یوسف چه می‌خواهد؟",
       "kind": "comp",
       "options": [
         "A2",
         "B2",
         "Çay"
       ],
-      "q": "Yusuf ne istiyor?",
+      "q": {
+        "tr": "Yusuf ne istiyor?",
+        "en": "What does Yusuf want?",
+        "fa": "یوسف چه می‌خواهد؟"
+      },
       "why": "“Ben B2 istiyorum. Tıp için.”"
     },
     {
       "a": 1,
-      "en": "What does Parvaneh say about Friday?",
-      "fa": "پروانه درباره‌ی جمعه چه می‌گوید؟",
       "kind": "word",
       "options": [
         "Ben yorgunum.",
         "Ben korkuyorum.",
         "Ben dönüyorum."
       ],
-      "q": "Parvane cuma için ne diyor?",
+      "q": {
+        "tr": "Parvane cuma için ne diyor?",
+        "en": "What does Parvaneh say about Friday?",
+        "fa": "پروانه درباره‌ی جمعه چه می‌گوید؟"
+      },
       "why": "“…Ben korkuyorum. Cuma.”"
     },
     {
       "a": 0,
-      "en": "What does Alex say about Saturday?",
-      "fa": "الکس درباره‌ی شنبه چه می‌گوید؟",
       "kind": "comp",
       "options": [
         "Kadıköy'e gelin!",
         "Taksim'e gelin!",
         "Kafeye gelin!"
       ],
-      "q": "Alex cumartesi için ne diyor?",
+      "q": {
+        "tr": "Alex cumartesi için ne diyor?",
+        "en": "What does Alex say about Saturday?",
+        "fa": "الکس درباره‌ی شنبه چه می‌گوید؟"
+      },
       "why": "“Cumartesi Kadıköy'e gelin!”"
     }
   ],
@@ -523,11 +529,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "On the half day before the holiday, the class meets at Berfin's café for one last speaking session. Every question is about after A1, and Alex invites everyone to Kadıköy on Saturday.",
-  "summaryFa": "روزِ نیمه‌تعطیلِ پیش از جشن، بچه‌های کلاس برای آخرین تمرینِ مکالمه در کافه‌ی برفین جمع می‌شوند. همه‌ی سؤال‌ها درباره‌ی بعد از A1 است و الکس همه را برای شنبه به کادیکوی دعوت می‌کند.",
-  "title": "A1'den sonra",
-  "titleEn": "After A1",
-  "titleFa": "بعد از A1",
+  "summary": {
+    "en": "On the half day before the holiday, the class meets at Berfin's café for one last speaking session. Every question is about after A1, and Alex invites everyone to Kadıköy on Saturday.",
+    "fa": "روزِ نیمه‌تعطیلِ پیش از جشن، بچه‌های کلاس برای آخرین تمرینِ مکالمه در کافه‌ی برفین جمع می‌شوند. همه‌ی سؤال‌ها درباره‌ی بعد از A1 است و الکس همه را برای شنبه به کادیکوی دعوت می‌کند."
+  },
+  "title": {
+    "tr": "A1'den sonra",
+    "en": "After A1",
+    "fa": "بعد از A1"
+  },
   "words": [
     "a1-w-korkmak",
     "a1-w-istemek",

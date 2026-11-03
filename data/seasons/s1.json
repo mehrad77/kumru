@@ -2,9 +2,11 @@
   "v": 1,
   "id": "s1",
   "n": 1,
-  "title": "1. sezon",
-  "titleEn": "Season 1",
-  "titleFa": "فصل 1",
+  "title": {
+    "tr": "1. sezon",
+    "en": "Season 1",
+    "fa": "فصل 1"
+  },
   "arcs": {
     "s1w01": {
       "en": "Welcome!",

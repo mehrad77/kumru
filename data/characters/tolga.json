@@ -81,8 +81,10 @@
     "skin": "skin_20",
     "v": 1
   },
-  "bio": "In his 30s, from Istanbul; an estate agent in Şişli, on the phone all day. Eager and never stops selling; glosses over problems and promises \"Yarın!\"",
-  "bioFa": "سی و چند ساله، اهلِ استانبول؛ مشاورِ املاک در شیشلی که تمامِ روز پای تلفن است. پرشور است و دست از فروختن برنمی‌دارد؛ از مشکلات سرسری می‌گذرد و قولِ «Yarın!» (فردا!) می‌دهد.",
+  "bio": {
+    "en": "In his 30s, from Istanbul; an estate agent in Şişli, on the phone all day. Eager and never stops selling; glosses over problems and promises \"Yarın!\"",
+    "fa": "سی و چند ساله، اهلِ استانبول؛ مشاورِ املاک در شیشلی که تمامِ روز پای تلفن است. پرشور است و دست از فروختن برنمی‌دارد؛ از مشکلات سرسری می‌گذرد و قولِ «Yarın!» (فردا!) می‌دهد."
+  },
   "catch": {
     "en": "A very nice flat, very nice!",
     "fa": "خانهٔ خیلی خوبی است، خیلی خوب!",
@@ -102,8 +104,10 @@
     ],
     "tempo": 1.3
   },
-  "name": "Tolga",
-  "nameFa": "تولگا",
+  "name": {
+    "tr": "Tolga",
+    "fa": "تولگا"
+  },
   "order": 19,
   "outfits": {
     "winter": {
@@ -117,8 +121,10 @@
   "places": [
     "office_emlak"
   ],
-  "role": "Estate agent (emlakçı) in Şişli",
-  "roleFa": "مشاورِ املاک (املاکچی) در شیشلی",
+  "role": {
+    "en": "Estate agent (emlakçı) in Şişli",
+    "fa": "مشاورِ املاک (املاکچی) در شیشلی"
+  },
   "voice": {
     "pitch": 1.0,
     "rate": 1.25

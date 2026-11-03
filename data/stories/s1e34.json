@@ -91,62 +91,62 @@
     }
   ],
   "gl": {
-    "ayağı": [
-      "پایش",
-      "its/his/her foot"
-    ],
-    "b2": [
-      "سطحِ B2 (متوسطِ بالا)",
-      "B2 (upper-intermediate level)"
-    ],
-    "ballı": [
-      "عسل‌دار، با عسل",
-      "with honey"
-    ],
-    "boğazınız": [
-      "گلویتان",
-      "your throat"
-    ],
-    "buyrun": [
-      "بفرمایید",
-      "here you are; please (buyurun, said quickly)"
-    ],
-    "eczaneden": [
-      "از داروخانه",
-      "from the pharmacy"
-    ],
-    "fırından": [
-      "از نانوایی",
-      "from the bakery"
-    ],
-    "gürültülü": [
-      "پرسروصدا، شلوغ",
-      "noisy"
-    ],
-    "hocamın": [
-      "ـِ استادم",
-      "my teacher's"
-    ],
-    "nedir": [
-      "چیست",
-      "what is (it)"
-    ],
-    "rize": [
-      "ریزه (شهری در دریای سیاه، معروف به چای)",
-      "Rize (a Black Sea town famous for its tea)"
-    ],
-    "ses": [
-      "صدا",
-      "voice; sound"
-    ],
-    "sesi": [
-      "صدایش",
-      "his/her voice"
-    ],
-    "sessizlik": [
-      "سکوت",
-      "silence"
-    ]
+    "ayağı": {
+      "fa": "پایش",
+      "en": "its/his/her foot"
+    },
+    "b2": {
+      "fa": "سطحِ B2 (متوسطِ بالا)",
+      "en": "B2 (upper-intermediate level)"
+    },
+    "ballı": {
+      "fa": "عسل‌دار، با عسل",
+      "en": "with honey"
+    },
+    "boğazınız": {
+      "fa": "گلویتان",
+      "en": "your throat"
+    },
+    "buyrun": {
+      "fa": "بفرمایید",
+      "en": "here you are; please (buyurun, said quickly)"
+    },
+    "eczaneden": {
+      "fa": "از داروخانه",
+      "en": "from the pharmacy"
+    },
+    "fırından": {
+      "fa": "از نانوایی",
+      "en": "from the bakery"
+    },
+    "gürültülü": {
+      "fa": "پرسروصدا، شلوغ",
+      "en": "noisy"
+    },
+    "hocamın": {
+      "fa": "ـِ استادم",
+      "en": "my teacher's"
+    },
+    "nedir": {
+      "fa": "چیست",
+      "en": "what is (it)"
+    },
+    "rize": {
+      "fa": "ریزه (شهری در دریای سیاه، معروف به چای)",
+      "en": "Rize (a Black Sea town famous for its tea)"
+    },
+    "ses": {
+      "fa": "صدا",
+      "en": "voice; sound"
+    },
+    "sesi": {
+      "fa": "صدایش",
+      "en": "his/her voice"
+    },
+    "sessizlik": {
+      "fa": "سکوت",
+      "en": "silence"
+    }
   },
   "id": "s1e34",
   "kind": "episode",
@@ -233,41 +233,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What does Zafer Hoca write on the board first?",
-      "fa": "استاد ظفر اول روی تخته چه می‌نویسد؟",
       "kind": "comp",
       "options": [
         "Sesim yok",
         "Çay + bal",
         "Teşekkürler"
       ],
-      "q": "Zafer Hoca tahtaya ilk ne yazıyor?",
+      "q": {
+        "tr": "Zafer Hoca tahtaya ilk ne yazıyor?",
+        "en": "What does Zafer Hoca write on the board first?",
+        "fa": "استاد ظفر اول روی تخته چه می‌نویسد؟"
+      },
       "why": "Kerim: “Zafer Hoca geliyor… ama… sesi yok!”"
     },
     {
       "a": 0,
-      "en": "Yusuf: “Your throat …”",
-      "fa": "یوسف: «گلوتان …»",
       "kind": "word",
       "options": [
         "ağrıyor",
         "yok",
         "güzel"
       ],
-      "q": "Yusuf: “Boğazınız …”",
+      "q": {
+        "tr": "Yusuf: “Boğazınız …”",
+        "en": "Yusuf: “Your throat …”",
+        "fa": "یوسف: «گلوتان …»"
+      },
       "why": "Yusuf: “Boğazınız ağrıyor.”"
     },
     {
       "a": 0,
-      "en": "Where does Nima buy the honey?",
-      "fa": "نیما عسل را از کجا می‌خرد؟",
       "kind": "comp",
       "options": [
         "İsmail'in bakkalından",
         "Fırından",
         "Eczaneden"
       ],
-      "q": "Nima balı nereden alıyor?",
+      "q": {
+        "tr": "Nima balı nereden alıyor?",
+        "en": "Where does Nima buy the honey?",
+        "fa": "نیما عسل را از کجا می‌خرد؟"
+      },
       "why": "İsmail: “Geçmiş olsun! Buyrun: bal ve Rize çayı. Hoca için!”"
     }
   ],
@@ -721,11 +727,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Zafer Hoca comes to class with no voice, so the class runs the lesson: Yusuf plays the doctor, Parvaneh takes the marker for the body game, and at the break Nima runs to İsmail's bakkal for honey and Rize tea.",
-  "summaryFa": "استاد ظفر بی‌صدا به کلاس می‌آید و بچه‌ها خودشان کلاس را اداره می‌کنند: یوسف دکتر می‌شود، پروانه ماژیک را برمی‌دارد و بازیِ اعضای بدن را راه می‌اندازد، و نیما در زنگِ تفریح به بقالیِ اسماعیل می‌دود تا عسل و چای ریزه بخرد.",
-  "title": "Hocanın sesi yok!",
-  "titleEn": "The teacher has no voice!",
-  "titleFa": "صدای استاد درنمی‌آید!",
+  "summary": {
+    "en": "Zafer Hoca comes to class with no voice, so the class runs the lesson: Yusuf plays the doctor, Parvaneh takes the marker for the body game, and at the break Nima runs to İsmail's bakkal for honey and Rize tea.",
+    "fa": "استاد ظفر بی‌صدا به کلاس می‌آید و بچه‌ها خودشان کلاس را اداره می‌کنند: یوسف دکتر می‌شود، پروانه ماژیک را برمی‌دارد و بازیِ اعضای بدن را راه می‌اندازد، و نیما در زنگِ تفریح به بقالیِ اسماعیل می‌دود تا عسل و چای ریزه بخرد."
+  },
+  "title": {
+    "tr": "Hocanın sesi yok!",
+    "en": "The teacher has no voice!",
+    "fa": "صدای استاد درنمی‌آید!"
+  },
   "words": [
     "a1-w-bas",
     "a1-w-kulak",

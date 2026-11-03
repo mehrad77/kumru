@@ -9,9 +9,10 @@ import { puppets as kerimPuppets } from "sahne-kit/kerim";
 import { puppets as animalPuppets } from "sahne-kit/puppets";
 import { familiesOf, loadSet, withSet } from "sahne-kit/set";
 import { tr } from "sahne-tr";
-import { adaptStory, albumBand, flagsOf, metIn, storyPlayer, unlockedOf, warmthOf, type CharacterDoc, type StoryDoc, type StoryPlace } from "sahne-story";
+import { adaptStory as adapt, albumBand, flagsOf, metIn, storyPlayer, unlockedOf, warmthOf, type CharacterDoc, type StoryDoc, type StoryPlace } from "sahne-story";
+import { lesson } from "sahne-lesson";
 
-export { adaptStory, albumBand, flagsOf, metIn, unlockedOf, warmthOf, browserVoice, canListen, cannotListen, glossInto, interact, listenFor, propText, storyPlayer, tr };
+export { albumBand, flagsOf, metIn, unlockedOf, warmthOf, browserVoice, canListen, cannotListen, glossInto, interact, listenFor, propText, storyPlayer, tr };
 export type { Gloss, GlossOptions, Stage };
 
 const withPuppets = { ...baseKit, puppets: { ...baseKit.puppets, ...kerimPuppets, ...animalPuppets } };
@@ -20,6 +21,9 @@ const withPuppets = { ...baseKit, puppets: { ...baseKit.puppets, ...kerimPuppets
 export async function kitFor(places: StoryPlace[]) {
   return withSet(withPuppets, await loadSet(familiesOf(places)));
 }
+
+/** The story adapted for the stage with Kumru's series plugins (data/series.json `plugins`: the lesson plugin, for the spots). */
+export const adaptStory = (story: StoryDoc, o: Omit<Parameters<typeof adapt>[1], "plugins">) => adapt(story, { ...o, plugins: [lesson] });
 
 /** The learner's character as Nima's, untrusted: no cast parts, palette colours only (the stage trusts its cast). */
 export const learnerAvatar = (char: unknown) => normalize(char, baseKit, { trusted: false });

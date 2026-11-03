@@ -101,54 +101,54 @@
     }
   ],
   "gl": {
-    "ah": [
-      "آهان، اوه (تعجب)",
-      "ah, oh (surprise)"
-    ],
-    "anahtarlar": [
-      "کلیدها",
-      "keys"
-    ],
-    "anahtarı": [
-      "کلیدِ… («çatı anahtarı»: کلیدِ پشت‌بام)",
-      "key of… (“çatı anahtarı”: the roof key)"
-    ],
-    "dakika": [
-      "دقیقه («bir dakika»: یک لحظه)",
-      "minute (“bir dakika”: just a moment)"
-    ],
-    "depozito": [
-      "ودیعه، پیش‌پرداخت",
-      "deposit"
-    ],
-    "emlak": [
-      "املاک، بنگاه",
-      "real estate"
-    ],
-    "ikamet": [
-      "اقامت (مجوزِ اقامت)",
-      "residence (the residence permit)"
-    ],
-    "için": [
-      "برای",
-      "for"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "nerelisiniz": [
-      "اهلِ کجایید؟",
-      "where are you from? (siz)"
-    ],
-    "sözleşme": [
-      "قرارداد",
-      "contract"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ]
+    "ah": {
+      "fa": "آهان، اوه (تعجب)",
+      "en": "ah, oh (surprise)"
+    },
+    "anahtarlar": {
+      "fa": "کلیدها",
+      "en": "keys"
+    },
+    "anahtarı": {
+      "fa": "کلیدِ… («çatı anahtarı»: کلیدِ پشت‌بام)",
+      "en": "key of… (“çatı anahtarı”: the roof key)"
+    },
+    "dakika": {
+      "fa": "دقیقه («bir dakika»: یک لحظه)",
+      "en": "minute (“bir dakika”: just a moment)"
+    },
+    "depozito": {
+      "fa": "ودیعه، پیش‌پرداخت",
+      "en": "deposit"
+    },
+    "emlak": {
+      "fa": "املاک، بنگاه",
+      "en": "real estate"
+    },
+    "ikamet": {
+      "fa": "اقامت (مجوزِ اقامت)",
+      "en": "residence (the residence permit)"
+    },
+    "için": {
+      "fa": "برای",
+      "en": "for"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "nerelisiniz": {
+      "fa": "اهلِ کجایید؟",
+      "en": "where are you from? (siz)"
+    },
+    "sözleşme": {
+      "fa": "قرارداد",
+      "en": "contract"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    }
   },
   "id": "s1e11",
   "kind": "episode",
@@ -215,41 +215,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "How much is the rent?",
-      "fa": "اجاره چند لیر است؟",
       "kind": "comp",
       "options": [
         "Yirmi bin lira",
         "Yirmi bir bin lira",
         "Beş yüz lira"
       ],
-      "q": "Kira kaç lira?",
+      "q": {
+        "tr": "Kira kaç lira?",
+        "en": "How much is the rent?",
+        "fa": "اجاره چند لیر است؟"
+      },
       "why": "Farzad: “Kira yirmi bin, adres tamam.”"
     },
     {
       "a": 0,
-      "en": "Tolga Bey: “This is a key. These are… …!”",
-      "fa": "آقای تولگا: «این کلید است. این‌ها… …!»",
       "kind": "word",
       "options": [
         "anahtarlar",
         "kapılar",
         "kalemler"
       ],
-      "q": "Tolga Bey: “Bu anahtar. Bunlar… …!”",
+      "q": {
+        "tr": "Tolga Bey: “Bu anahtar. Bunlar… …!”",
+        "en": "Tolga Bey: “This is a key. These are… …!”",
+        "fa": "آقای تولگا: «این کلید است. این‌ها… …!»"
+      },
       "why": "Tolga Bey: “Bu anahtar. Bunlar… anahtarlar!”"
     },
     {
       "a": 0,
-      "en": "How many keys?",
-      "fa": "چند کلید؟",
       "kind": "comp",
       "options": [
         "Üç",
         "İki",
         "Bir"
       ],
-      "q": "Kaç anahtar?",
+      "q": {
+        "tr": "Kaç anahtar?",
+        "en": "How many keys?",
+        "fa": "چند کلید؟"
+      },
       "why": "Tolga Bey: “Üç! Kapı, ev… ve çatı!”"
     }
   ],
@@ -645,11 +651,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Friday at Tolga Bey's agency: Nima fills in the form, spots the wrong rent on it, and signs with Farzad checking the small print. Three keys: the street door, the flat, and the roof.",
-  "summaryFa": "جمعه در بنگاهِ آقای تولگا: نیما فرم را پر می‌کند، اجاره‌ی اشتباه را رویش می‌بیند و در حالی که فرزاد ریزِ قرارداد را می‌خواند امضا می‌کند. سه کلید: درِ ساختمان، خانه، و پشت‌بام.",
-  "title": "Anahtarlar",
-  "titleEn": "The keys",
-  "titleFa": "کلیدها",
+  "summary": {
+    "en": "Friday at Tolga Bey's agency: Nima fills in the form, spots the wrong rent on it, and signs with Farzad checking the small print. Three keys: the street door, the flat, and the roof.",
+    "fa": "جمعه در بنگاهِ آقای تولگا: نیما فرم را پر می‌کند، اجاره‌ی اشتباه را رویش می‌بیند و در حالی که فرزاد ریزِ قرارداد را می‌خواند امضا می‌کند. سه کلید: درِ ساختمان، خانه، و پشت‌بام."
+  },
+  "title": {
+    "tr": "Anahtarlar",
+    "en": "The keys",
+    "fa": "کلیدها"
+  },
   "words": [
     "a1-w-anahtar",
     "a1-w-form",

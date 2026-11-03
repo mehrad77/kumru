@@ -95,8 +95,10 @@
       }
     }
   },
-  "bio": "In his 50s; born in Iran, in Istanbul for 30 years; works at the international office on the Taksim campus. Exact, secretly kind, and loves a stamp.",
-  "bioFa": "پنجاه‌وچند ساله؛ متولدِ ایران و سی سال است که در استانبول است؛ در دفترِ بین‌المللِ پردیسِ تکسیم کار می‌کند. دقیق، در خفا مهربان، و عاشقِ مُهر.",
+  "bio": {
+    "en": "In his 50s; born in Iran, in Istanbul for 30 years; works at the international office on the Taksim campus. Exact, secretly kind, and loves a stamp.",
+    "fa": "پنجاه‌وچند ساله؛ متولدِ ایران و سی سال است که در استانبول است؛ در دفترِ بین‌المللِ پردیسِ تکسیم کار می‌کند. دقیق، در خفا مهربان، و عاشقِ مُهر."
+  },
   "catch": {
     "en": "Take a number, please.",
     "fa": "لطفاً یک شماره بگیرید.",
@@ -116,15 +118,19 @@
     ],
     "tempo": 0.8
   },
-  "name": "Reza Bey",
-  "nameFa": "رضا",
+  "name": {
+    "tr": "Reza Bey",
+    "fa": "رضا"
+  },
   "order": 18,
   "places": [
     "office",
     "goc"
   ],
-  "role": "The international office; the residence permit",
-  "roleFa": "دفترِ بین‌الملل؛ اجازهٔ اقامت",
+  "role": {
+    "en": "The international office; the residence permit",
+    "fa": "دفترِ بین‌الملل؛ اجازهٔ اقامت"
+  },
   "voice": {
     "pitch": 0.85,
     "rate": 0.85

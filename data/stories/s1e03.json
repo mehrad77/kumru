@@ -110,50 +110,50 @@
     }
   ],
   "gl": {
-    "a": [
-      "حرفِ a",
-      "the letter a"
-    ],
-    "e": [
-      "حرفِ e",
-      "the letter e"
-    ],
-    "hocam": [
-      "استاد (خطاب به معلم)",
-      "(to a teacher) sir, miss; literally “my teacher”"
-    ],
-    "isfahanlıyım": [
-      "اهلِ اصفهانم",
-      "I'm from Isfahan"
-    ],
-    "kalemlar": [
-      "اشتباهِ دلنوزا؛ درستش: kalemler",
-      "Dilnoza's slip; the right form is kalemler"
-    ],
-    "kapılar": [
-      "درها",
-      "doors"
-    ],
-    "masalar": [
-      "میزها",
-      "tables, desks"
-    ],
-    "masaler": [
-      "اشتباه؛ درستش: masalar",
-      "a slip; the right form is masalar"
-    ],
-    "pencerelar": [
-      "اشتباه؛ درستش: pencereler",
-      "a slip; the right form is pencereler"
-    ],
-    "pencereler": [
-      "پنجره‌ها",
-      "windows"
-    ],
-    "tahtalar": [
-      "تخته‌ها",
-      "boards"
-    ]
+    "a": {
+      "fa": "حرفِ a",
+      "en": "the letter a"
+    },
+    "e": {
+      "fa": "حرفِ e",
+      "en": "the letter e"
+    },
+    "hocam": {
+      "fa": "استاد (خطاب به معلم)",
+      "en": "(to a teacher) sir, miss; literally “my teacher”"
+    },
+    "isfahanlıyım": {
+      "fa": "اهلِ اصفهانم",
+      "en": "I'm from Isfahan"
+    },
+    "kalemlar": {
+      "fa": "اشتباهِ دلنوزا؛ درستش: kalemler",
+      "en": "Dilnoza's slip; the right form is kalemler"
+    },
+    "kapılar": {
+      "fa": "درها",
+      "en": "doors"
+    },
+    "masalar": {
+      "fa": "میزها",
+      "en": "tables, desks"
+    },
+    "masaler": {
+      "fa": "اشتباه؛ درستش: masalar",
+      "en": "a slip; the right form is masalar"
+    },
+    "pencerelar": {
+      "fa": "اشتباه؛ درستش: pencereler",
+      "en": "a slip; the right form is pencereler"
+    },
+    "pencereler": {
+      "fa": "پنجره‌ها",
+      "en": "windows"
+    },
+    "tahtalar": {
+      "fa": "تخته‌ها",
+      "en": "boards"
+    }
   },
   "id": "s1e03",
   "kind": "episode",
@@ -194,41 +194,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "“Kalemlar!” Who says it?",
-      "fa": "«Kalemlar!» را چه کسی می‌گوید؟",
       "kind": "comp",
       "options": [
         "Dilnoza",
         "Parvane",
         "Nima"
       ],
-      "q": "“Kalemlar!” Kim?",
+      "q": {
+        "tr": "“Kalemlar!” Kim?",
+        "en": "“Kalemlar!” Who says it?",
+        "fa": "«Kalemlar!» را چه کسی می‌گوید؟"
+      },
       "why": "Dilnoza: “Kalemlar!”"
     },
     {
       "a": 0,
-      "en": "Zafer Hoca points at the windows: “Nima, what are these?” Nima: “…”",
-      "fa": "استاد ظفر پنجره‌ها را نشان می‌دهد: «Nima, bunlar ne?» نیما: «…»",
       "kind": "word",
       "options": [
         "Pencereler.",
         "Kalemler.",
         "Defterler."
       ],
-      "q": "Zafer Hoca: “Nima, bunlar ne?” Nima: “…”",
+      "q": {
+        "tr": "Zafer Hoca: “Nima, bunlar ne?” Nima: “…”",
+        "en": "Zafer Hoca points at the windows: “Nima, what are these?” Nima: “…”",
+        "fa": "استاد ظفر پنجره‌ها را نشان می‌دهد: «Nima, bunlar ne?» نیما: «…»"
+      },
       "why": "Zafer Hoca: “Nima, bunlar ne?” Nima: “Pencereler.”"
     },
     {
       "a": 0,
-      "en": "It's nine o'clock, and Nima is at the door: “…”",
-      "fa": "ساعت نُه است و نیما دمِ در است: «…»",
       "kind": "comp",
       "options": [
         "Günaydın hocam, özür dilerim!",
         "İyi akşamlar!",
         "Hoş geldin!"
       ],
-      "q": "Saat dokuz. Nima: “…”",
+      "q": {
+        "tr": "Saat dokuz. Nima: “…”",
+        "en": "It's nine o'clock, and Nima is at the door: “…”",
+        "fa": "ساعت نُه است و نیما دمِ در است: «…»"
+      },
       "why": "Nima: “Günaydın hocam, özür dilerim!”"
     }
   ],
@@ -575,11 +581,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Nima is late for the first real lesson. Zafer Hoca plays a game with the things on his desk, Dilnoza says “kalemlar”, and Nima names the windows.",
-  "summaryFa": "نیما برای اولین درسِ واقعی دیر می‌رسد. استاد ظفر با وسایلِ روی میزش یک بازی راه می‌اندازد، دلنوزا می‌گوید «kalemlar» و نیما اسمِ پنجره‌ها را می‌گوید.",
-  "title": "Bunlar ne?",
-  "titleEn": "What are these?",
-  "titleFa": "این‌ها چیست؟",
+  "summary": {
+    "en": "Nima is late for the first real lesson. Zafer Hoca plays a game with the things on his desk, Dilnoza says “kalemlar”, and Nima names the windows.",
+    "fa": "نیما برای اولین درسِ واقعی دیر می‌رسد. استاد ظفر با وسایلِ روی میزش یک بازی راه می‌اندازد، دلنوزا می‌گوید «kalemlar» و نیما اسمِ پنجره‌ها را می‌گوید."
+  },
+  "title": {
+    "tr": "Bunlar ne?",
+    "en": "What are these?",
+    "fa": "این‌ها چیست؟"
+  },
   "words": [
     "a1-w-kalem",
     "a1-w-defter",

@@ -92,42 +92,42 @@
     }
   ],
   "gl": {
-    "hocam": [
-      "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
-      "my teacher (how students address a teacher)"
-    ],
-    "ikiye": [
-      "به دو؛ «on ikiye kadar» یعنی تا دوازده",
-      "to two; “on ikiye kadar”: until twelve"
-    ],
-    "kaldım": [
-      "ماندم؛ «geç kaldım» یعنی دیر کردم",
-      "I stayed; “geç kaldım”: I'm late"
-    ],
-    "kırlangıç": [
-      "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
-      "Kırlangıç (a name; the word means swallow)"
-    ],
-    "onu": [
-      "ده را (در گفتنِ ساعت: onu çeyrek geçiyor)؛ همچنین: او را",
-      "ten, with -u (telling the time: onu çeyrek geçiyor); also: him, her, it"
-    ],
-    "programı": [
-      "برنامه‌اش",
-      "his/her/its programme, schedule"
-    ],
-    "tahran": [
-      "تهران",
-      "Tehran"
-    ],
-    "tam": [
-      "درست، دقیقاً",
-      "exactly, sharp"
-    ],
-    "zafer": [
-      "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
-      "Zafer (a name; the word means victory)"
-    ]
+    "hocam": {
+      "fa": "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
+      "en": "my teacher (how students address a teacher)"
+    },
+    "ikiye": {
+      "fa": "به دو؛ «on ikiye kadar» یعنی تا دوازده",
+      "en": "to two; “on ikiye kadar”: until twelve"
+    },
+    "kaldım": {
+      "fa": "ماندم؛ «geç kaldım» یعنی دیر کردم",
+      "en": "I stayed; “geç kaldım”: I'm late"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "en": "Kırlangıç (a name; the word means swallow)"
+    },
+    "onu": {
+      "fa": "ده را (در گفتنِ ساعت: onu çeyrek geçiyor)؛ همچنین: او را",
+      "en": "ten, with -u (telling the time: onu çeyrek geçiyor); also: him, her, it"
+    },
+    "programı": {
+      "fa": "برنامه‌اش",
+      "en": "his/her/its programme, schedule"
+    },
+    "tahran": {
+      "fa": "تهران",
+      "en": "Tehran"
+    },
+    "tam": {
+      "fa": "درست، دقیقاً",
+      "en": "exactly, sharp"
+    },
+    "zafer": {
+      "fa": "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
+      "en": "Zafer (a name; the word means victory)"
+    }
   },
   "id": "s1e25",
   "kind": "episode",
@@ -216,41 +216,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Nima's watch: which time is it on?",
-      "fa": "ساعتِ نیما: به وقتِ کجاست؟",
       "kind": "comp",
       "options": [
         "Tahran saati",
         "İstanbul saati",
         "Otobüs saati"
       ],
-      "q": "Nima'nın saati: hangi saat?",
+      "q": {
+        "tr": "Nima'nın saati: hangi saat?",
+        "en": "Nima's watch: which time is it on?",
+        "fa": "ساعتِ نیما: به وقتِ کجاست؟"
+      },
       "why": "Kırlangıç: “Senin saatin… Tahran saati!”"
     },
     {
       "a": 0,
-      "en": "“Saat dokuzu çeyrek geçiyor.” How many minutes is a çeyrek?",
-      "fa": "«Saat dokuzu çeyrek geçiyor.» یک çeyrek چند دقیقه است؟",
       "kind": "word",
       "options": [
         "On beş dakika",
         "Otuz dakika",
         "Kırk beş dakika"
       ],
-      "q": "“Saat dokuzu çeyrek geçiyor.” Çeyrek kaç dakika?",
+      "q": {
+        "tr": "“Saat dokuzu çeyrek geçiyor.” Çeyrek kaç dakika?",
+        "en": "“Saat dokuzu çeyrek geçiyor.” How many minutes is a çeyrek?",
+        "fa": "«Saat dokuzu çeyrek geçiyor.» یک çeyrek چند دقیقه است؟"
+      },
       "why": "Kerim: “Saat dokuzu çeyrek geçiyor.”: 9:15. Bir çeyrek: on beş dakika."
     },
     {
       "a": 0,
-      "en": "Nima reaches the classroom. What time is it?",
-      "fa": "نیما به کلاس می‌رسد. ساعت چند است؟",
       "kind": "comp",
       "options": [
         "Dokuzu yirmi geçiyor",
         "Sekiz buçuk",
         "Dokuza çeyrek var"
       ],
-      "q": "Nima sınıfta. Saat kaç?",
+      "q": {
+        "tr": "Nima sınıfta. Saat kaç?",
+        "en": "Nima reaches the classroom. What time is it?",
+        "fa": "نیما به کلاس می‌رسد. ساعت چند است؟"
+      },
       "why": "Zafer Hoca: “Saat dokuzu yirmi geçiyor. Buyurun!”"
     }
   ],
@@ -695,11 +701,15 @@
       }
     }
   ],
-  "summary": "Nima's old watch still runs on Tehran time, half an hour ahead. The metro is closed, Nima and Kırlangıç get stuck in traffic on the bus, and in class the clock game gets a laugh.",
-  "summaryFa": "ساعتِ قدیمیِ نیما هنوز به وقتِ تهران است، نیم ساعت جلوتر. مترو بسته است، نیما و پرستو با اتوبوس در ترافیک گیر می‌کنند و در کلاس، بازیِ ساعت همه را می‌خنداند.",
-  "title": "Tahran saati",
-  "titleEn": "Tehran time",
-  "titleFa": "ساعتِ تهران",
+  "summary": {
+    "en": "Nima's old watch still runs on Tehran time, half an hour ahead. The metro is closed, Nima and Kırlangıç get stuck in traffic on the bus, and in class the clock game gets a laugh.",
+    "fa": "ساعتِ قدیمیِ نیما هنوز به وقتِ تهران است، نیم ساعت جلوتر. مترو بسته است، نیما و پرستو با اتوبوس در ترافیک گیر می‌کنند و در کلاس، بازیِ ساعت همه را می‌خنداند."
+  },
+  "title": {
+    "tr": "Tahran saati",
+    "en": "Tehran time",
+    "fa": "ساعتِ تهران"
+  },
   "words": [
     "a1-w-bucuk",
     "a1-w-ceyrek",

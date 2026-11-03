@@ -49,54 +49,54 @@
     }
   ],
   "gl": {
-    "bilirsin": [
-      "می‌دانی (sen bilirsin: خودت می‌دانی، تصمیم با توست)",
-      "you know (sen bilirsin: it's up to you)"
-    ],
-    "farsçam": [
-      "فارسیِ من (Farsça: فارسی)",
-      "my Persian (Farsça: Persian)"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ی نیما در شیشلی)",
-      "Feriköy (Nima's neighbourhood in Şişli)"
-    ],
-    "gezelim": [
-      "بگردیم (gezmek: گشتن)",
-      "let's go round (gezmek: to tour)"
-    ],
-    "herkese": [
-      "به همه، برای همه",
-      "to everyone, for everyone"
-    ],
-    "hostelim": [
-      "هاستلِ من",
-      "my hostel"
-    ],
-    "kadıköy": [
-      "کادیکوی (آن سوی آب، در بخشِ آسیایی)",
-      "Kadıköy (across the water, on the Asian side)"
-    ],
-    "kumbara": [
-      "قلک",
-      "money jar, piggy bank"
-    ],
-    "kırlangıç": [
-      "پرستو (اسم)",
-      "Kırlangıç (a name; the word means swallow)"
-    ],
-    "kız kulesi": [
-      "برجِ دختر (برجی کوچک روی جزیره‌ای در بسفر)",
-      "the Maiden's Tower (a small tower on an islet in the Bosphorus)"
-    ],
-    "polissin": [
-      "پلیسی (polis: پلیس)",
-      "you're the police (polis)"
-    ],
-    "çaycı": [
-      "چای‌فروش (کسی که روی کشتی چای می‌گرداند)",
-      "çaycı (the man who brings tea round)"
-    ]
+    "bilirsin": {
+      "fa": "می‌دانی (sen bilirsin: خودت می‌دانی، تصمیم با توست)",
+      "en": "you know (sen bilirsin: it's up to you)"
+    },
+    "farsçam": {
+      "fa": "فارسیِ من (Farsça: فارسی)",
+      "en": "my Persian (Farsça: Persian)"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ی نیما در شیشلی)",
+      "en": "Feriköy (Nima's neighbourhood in Şişli)"
+    },
+    "gezelim": {
+      "fa": "بگردیم (gezmek: گشتن)",
+      "en": "let's go round (gezmek: to tour)"
+    },
+    "herkese": {
+      "fa": "به همه، برای همه",
+      "en": "to everyone, for everyone"
+    },
+    "hostelim": {
+      "fa": "هاستلِ من",
+      "en": "my hostel"
+    },
+    "kadıköy": {
+      "fa": "کادیکوی (آن سوی آب، در بخشِ آسیایی)",
+      "en": "Kadıköy (across the water, on the Asian side)"
+    },
+    "kumbara": {
+      "fa": "قلک",
+      "en": "money jar, piggy bank"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسم)",
+      "en": "Kırlangıç (a name; the word means swallow)"
+    },
+    "kız kulesi": {
+      "fa": "برجِ دختر (برجی کوچک روی جزیره‌ای در بسفر)",
+      "en": "the Maiden's Tower (a small tower on an islet in the Bosphorus)"
+    },
+    "polissin": {
+      "fa": "پلیسی (polis: پلیس)",
+      "en": "you're the police (polis)"
+    },
+    "çaycı": {
+      "fa": "چای‌فروش (کسی که روی کشتی چای می‌گرداند)",
+      "en": "çaycı (the man who brings tea round)"
+    }
   },
   "id": "s1e48",
   "kind": "special",
@@ -141,41 +141,47 @@
   "quiz": [
     {
       "a": 1,
-      "en": "Who is waiting in Kadıköy?",
-      "fa": "چه کسی در کادیکوی منتظر است؟",
       "kind": "comp",
       "options": [
         "Farzad",
         "Alex",
         "Dilnoza"
       ],
-      "q": "Kadıköy'de kim bekliyor?",
+      "q": {
+        "tr": "Kadıköy'de kim bekliyor?",
+        "en": "Who is waiting in Kadıköy?",
+        "fa": "چه کسی در کادیکوی منتظر است؟"
+      },
       "why": "Alex: “Hoş geldiniz!”"
     },
     {
       "a": 1,
-      "en": "Kerim: “What's this? It's a …!”",
-      "fa": "کریم: «این چیه؟ این یه …!»",
       "kind": "word",
       "options": [
         "uçak",
         "vapur",
         "metro"
       ],
-      "q": "Kerim: “Bu ne? Bu bir …!”",
+      "q": {
+        "tr": "Kerim: “Bu ne? Bu bir …!”",
+        "en": "Kerim: “What's this? It's a …!”",
+        "fa": "کریم: «این چیه؟ این یه …!»"
+      },
       "why": "“Bu bir vapur!”"
     },
     {
       "a": 1,
-      "en": "What is the money in the jar for?",
-      "fa": "پولِ توی قلک برای چیست؟",
       "kind": "comp",
       "options": [
         "Bir bavul",
         "Herkes için çay",
         "Bir sınav"
       ],
-      "q": "Kumbaradaki para ne için?",
+      "q": {
+        "tr": "Kumbaradaki para ne için?",
+        "en": "What is the money in the jar for?",
+        "fa": "پولِ توی قلک برای چیست؟"
+      },
       "why": "“Çaycı! Herkese çay, lütfen! Çaylar bizden!”"
     }
   ],
@@ -741,11 +747,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The day after the exam, the class and old friends take the ferry from Beşiktaş to Kadıköy, where Alex waits with a sign. On the deck Nima teaches a newcomer bu, şu and o, answers Dilnoza's day-two questions, and spends Parvaneh's jar on tea for everyone.",
-  "summaryFa": "روزِ بعد از امتحان، بچه‌های کلاس و دوستانِ قدیمی با کشتی از بشیکتاش به کادیکوی می‌روند، جایی که الکس با یک تابلو منتظرشان است. روی عرشه، نیما به یک تازه‌وارد bu، şu و o یاد می‌دهد، به سؤال‌های روزِ دومِ دلنوزا جواب می‌دهد و پولِ قلکِ پروانه را خرجِ چای برای همه می‌کند.",
-  "title": "Vapurda çay",
-  "titleEn": "Tea on the ferry",
-  "titleFa": "چای روی کشتی",
+  "summary": {
+    "en": "The day after the exam, the class and old friends take the ferry from Beşiktaş to Kadıköy, where Alex waits with a sign. On the deck Nima teaches a newcomer bu, şu and o, answers Dilnoza's day-two questions, and spends Parvaneh's jar on tea for everyone.",
+    "fa": "روزِ بعد از امتحان، بچه‌های کلاس و دوستانِ قدیمی با کشتی از بشیکتاش به کادیکوی می‌روند، جایی که الکس با یک تابلو منتظرشان است. روی عرشه، نیما به یک تازه‌وارد bu، şu و o یاد می‌دهد، به سؤال‌های روزِ دومِ دلنوزا جواب می‌دهد و پولِ قلکِ پروانه را خرجِ چای برای همه می‌کند."
+  },
+  "title": {
+    "tr": "Vapurda çay",
+    "en": "Tea on the ferry",
+    "fa": "چای روی کشتی"
+  },
   "words": [
     "a1-w-vapur",
     "a1-w-deniz",

@@ -97,8 +97,10 @@
       }
     }
   },
-  "bio": "In her 20s, from Isfahan; wants a master's in design. Brave and always talks first, but guesses wildly.",
-  "bioFa": "بیست‌وچند ساله، اهل اصفهان؛ می‌خواهد فوق‌لیسانسِ طراحی بخواند. شجاع است و همیشه اول حرف می‌زند، ولی بی‌پروا حدس می‌زند.",
+  "bio": {
+    "en": "In her 20s, from Isfahan; wants a master's in design. Brave and always talks first, but guesses wildly.",
+    "fa": "بیست‌وچند ساله، اهل اصفهان؛ می‌خواهد فوق‌لیسانسِ طراحی بخواند. شجاع است و همیشه اول حرف می‌زند، ولی بی‌پروا حدس می‌زند."
+  },
   "catch": {
     "en": "Easy! …Isn't it?",
     "fa": "آسان است! …نه؟",
@@ -118,8 +120,10 @@
     ],
     "tempo": 1.2
   },
-  "name": "Parvane",
-  "nameFa": "پروانه",
+  "name": {
+    "tr": "Parvane",
+    "fa": "پروانه"
+  },
   "order": 14,
   "outfits": {
     "indoor": {
@@ -131,8 +135,10 @@
   "places": [
     "class504"
   ],
-  "role": "Parvaneh, a classmate from Isfahan",
-  "roleFa": "هم‌کلاسی‌ای از اصفهان",
+  "role": {
+    "en": "Parvaneh, a classmate from Isfahan",
+    "fa": "هم‌کلاسی‌ای از اصفهان"
+  },
   "voice": {
     "pitch": 1.15,
     "rate": 1.15

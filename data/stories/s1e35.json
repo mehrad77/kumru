@@ -82,130 +82,130 @@
     }
   ],
   "gl": {
-    "belgeleriniz": [
-      "مدارکتان",
-      "your documents"
-    ],
-    "belgem": [
-      "مدرکم، گواهی‌ام",
-      "my certificate (document)"
-    ],
-    "belki": [
-      "شاید",
-      "maybe"
-    ],
-    "boğaz": [
-      "بسفر",
-      "the Bosphorus"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a neighbourhood of Şişli)"
-    ],
-    "feriköy'ün": [
-      "ـِ فری‌کؤی",
-      "Feriköy's"
-    ],
-    "fotoğraflarım": [
-      "عکس‌هایم",
-      "my photos"
-    ],
-    "haliç": [
-      "شاخ طلایی (خلیجِ استانبول)",
-      "the Golden Horn"
-    ],
-    "herkesin": [
-      "همه (… دارند)",
-      "everyone's; everyone (has)"
-    ],
-    "hikâyesi": [
-      "داستانِ…",
-      "a story (of …)"
-    ],
-    "ikamet": [
-      "اقامت",
-      "residence (permit)"
-    ],
-    "imza": [
-      "امضا",
-      "signature"
-    ],
-    "manzarası": [
-      "منظرهٔ…",
-      "the view (of …)"
-    ],
-    "mühür": [
-      "مهر",
-      "stamp, seal"
-    ],
-    "noter": [
-      "محضر، دفترخانهٔ اسناد رسمی",
-      "notary"
-    ],
-    "onayı": [
-      "تأییدِ…",
-      "the approval (of …)"
-    ],
-    "randevusu": [
-      "نوبتِ…، وقتِ…",
-      "the appointment (for …)"
-    ],
-    "rehbere": [
-      "به راهنما، در راهنما",
-      "into the guide"
-    ],
-    "rehberin": [
-      "ـِ راهنما",
-      "the guide's"
-    ],
-    "sorun": [
-      "مشکل",
-      "problem"
-    ],
-    "sözleşmede": [
-      "در قرارداد",
-      "on the contract"
-    ],
-    "sözleşmem": [
-      "قراردادم",
-      "my contract"
-    ],
-    "sır": [
-      "راز",
-      "secret"
-    ],
-    "sırrı": [
-      "رازِ…",
-      "the secret (of …)"
-    ],
-    "tank": [
-      "منبعِ آب",
-      "(water) tank"
-    ],
-    "tanka": [
-      "به منبعِ آب",
-      "to the (water) tank"
-    ],
-    "tankın": [
-      "ـِ منبعِ آب",
-      "of the (water) tank"
-    ],
-    "tolga": [
-      "تولگا (مشاورِ املاک)",
-      "Tolga (the estate agent)"
-    ],
-    "vay": [
-      "وای!",
-      "wow!"
-    ],
-    "üstünde": [
-      "بالای…، روی…",
-      "on top of…; over…"
-    ],
-    "üstündeki": [
-      "(آنِ) روی…",
-      "the one on top of…"
-    ]
+    "belgeleriniz": {
+      "fa": "مدارکتان",
+      "en": "your documents"
+    },
+    "belgem": {
+      "fa": "مدرکم، گواهی‌ام",
+      "en": "my certificate (document)"
+    },
+    "belki": {
+      "fa": "شاید",
+      "en": "maybe"
+    },
+    "boğaz": {
+      "fa": "بسفر",
+      "en": "the Bosphorus"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a neighbourhood of Şişli)"
+    },
+    "feriköy'ün": {
+      "fa": "ـِ فری‌کؤی",
+      "en": "Feriköy's"
+    },
+    "fotoğraflarım": {
+      "fa": "عکس‌هایم",
+      "en": "my photos"
+    },
+    "haliç": {
+      "fa": "شاخ طلایی (خلیجِ استانبول)",
+      "en": "the Golden Horn"
+    },
+    "herkesin": {
+      "fa": "همه (… دارند)",
+      "en": "everyone's; everyone (has)"
+    },
+    "hikâyesi": {
+      "fa": "داستانِ…",
+      "en": "a story (of …)"
+    },
+    "ikamet": {
+      "fa": "اقامت",
+      "en": "residence (permit)"
+    },
+    "imza": {
+      "fa": "امضا",
+      "en": "signature"
+    },
+    "manzarası": {
+      "fa": "منظرهٔ…",
+      "en": "the view (of …)"
+    },
+    "mühür": {
+      "fa": "مهر",
+      "en": "stamp, seal"
+    },
+    "noter": {
+      "fa": "محضر، دفترخانهٔ اسناد رسمی",
+      "en": "notary"
+    },
+    "onayı": {
+      "fa": "تأییدِ…",
+      "en": "the approval (of …)"
+    },
+    "randevusu": {
+      "fa": "نوبتِ…، وقتِ…",
+      "en": "the appointment (for …)"
+    },
+    "rehbere": {
+      "fa": "به راهنما، در راهنما",
+      "en": "into the guide"
+    },
+    "rehberin": {
+      "fa": "ـِ راهنما",
+      "en": "the guide's"
+    },
+    "sorun": {
+      "fa": "مشکل",
+      "en": "problem"
+    },
+    "sözleşmede": {
+      "fa": "در قرارداد",
+      "en": "on the contract"
+    },
+    "sözleşmem": {
+      "fa": "قراردادم",
+      "en": "my contract"
+    },
+    "sır": {
+      "fa": "راز",
+      "en": "secret"
+    },
+    "sırrı": {
+      "fa": "رازِ…",
+      "en": "the secret (of …)"
+    },
+    "tank": {
+      "fa": "منبعِ آب",
+      "en": "(water) tank"
+    },
+    "tanka": {
+      "fa": "به منبعِ آب",
+      "en": "to the (water) tank"
+    },
+    "tankın": {
+      "fa": "ـِ منبعِ آب",
+      "en": "of the (water) tank"
+    },
+    "tolga": {
+      "fa": "تولگا (مشاورِ املاک)",
+      "en": "Tolga (the estate agent)"
+    },
+    "vay": {
+      "fa": "وای!",
+      "en": "wow!"
+    },
+    "üstünde": {
+      "fa": "بالای…، روی…",
+      "en": "on top of…; over…"
+    },
+    "üstündeki": {
+      "fa": "(آنِ) روی…",
+      "en": "the one on top of…"
+    }
   },
   "id": "s1e35",
   "kind": "episode",
@@ -354,41 +354,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What is missing on the contract?",
-      "fa": "قرارداد چه چیزی ندارد؟",
       "kind": "comp",
       "options": [
         "Noter onayı",
         "Fotoğraf",
         "Pasaport"
       ],
-      "q": "Sözleşmede ne yok?",
+      "q": {
+        "tr": "Sözleşmede ne yok?",
+        "en": "What is missing on the contract?",
+        "fa": "قرارداد چه چیزی ندارد؟"
+      },
       "why": "Reza Bey: “Sözleşme… noter onayı yok.”"
     },
     {
       "a": 0,
-      "en": "Dilnoza: “Wow! This … where is it?”",
-      "fa": "دلنوزا: «وای! این … کجاست؟»",
       "kind": "word",
       "options": [
         "manzara",
         "köprü",
         "sayfa"
       ],
-      "q": "Dilnoza: “Vay! Bu … nerede?”",
+      "q": {
+        "tr": "Dilnoza: “Vay! Bu … nerede?”",
+        "en": "Dilnoza: “Wow! This … where is it?”",
+        "fa": "دلنوزا: «وای! این … کجاست؟»"
+      },
       "why": "Dilnoza: “Vay! Bu manzara… nerede?”"
     },
     {
       "a": 0,
-      "en": "Who leads Nima to the water tank?",
-      "fa": "چه کسی نیما را تا منبعِ آب می‌برد؟",
       "kind": "comp",
       "options": [
         "Kerim",
         "Reza Bey",
         "Dilnoza"
       ],
-      "q": "Nima'yı tanka kim götürüyor?",
+      "q": {
+        "tr": "Nima'yı tanka kim götürüyor?",
+        "en": "Who leads Nima to the water tank?",
+        "fa": "چه کسی نیما را تا منبعِ آب می‌برد؟"
+      },
       "why": "Kerim: “Kerim'in yeri, Kerim'in sırrı. Ve şimdi… Nima'nın da sırrı.”"
     }
   ],
@@ -830,11 +836,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "At the residence-permit appointment the rental contract has no notary stamp, and Nima gets a new date. That evening Kerim leads Nima up to the old water tank on the roof, Kerim's secret place, where the Bosphorus shows between the buildings.",
-  "summaryFa": "سرِ نوبتِ اقامت معلوم می‌شود قراردادِ اجاره مهرِ محضر ندارد و نیما نوبتِ تازه‌ای می‌گیرد. عصر، کریم نیما را تا منبعِ آبِ قدیمیِ پشت‌بام می‌برد، جای مخفیِ خودش، جایی که بسفر از لای ساختمان‌ها پیداست.",
-  "title": "En güzel manzara",
-  "titleEn": "The most beautiful view",
-  "titleFa": "زیباترین منظره",
+  "summary": {
+    "en": "At the residence-permit appointment the rental contract has no notary stamp, and Nima gets a new date. That evening Kerim leads Nima up to the old water tank on the roof, Kerim's secret place, where the Bosphorus shows between the buildings.",
+    "fa": "سرِ نوبتِ اقامت معلوم می‌شود قراردادِ اجاره مهرِ محضر ندارد و نیما نوبتِ تازه‌ای می‌گیرد. عصر، کریم نیما را تا منبعِ آبِ قدیمیِ پشت‌بام می‌برد، جای مخفیِ خودش، جایی که بسفر از لای ساختمان‌ها پیداست."
+  },
+  "title": {
+    "tr": "En güzel manzara",
+    "en": "The most beautiful view",
+    "fa": "زیباترین منظره"
+  },
   "words": [
     "a1-w-manzara",
     "seed-w22",

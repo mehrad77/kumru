@@ -94,74 +94,74 @@
     }
   ],
   "gl": {
-    "afiyet": [
-      "نوشِ جان",
-      "afiyet olsun: enjoy (your food or drink)"
-    ],
-    "belki": [
-      "شاید",
-      "maybe"
-    ],
-    "beri": [
-      "تا حالا، از… به این طرف",
-      "since (-dan beri: for, since)"
-    ],
-    "damlaya": [
-      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
-      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a district of Şişli)"
-    ],
-    "haftadan": [
-      "از… هفته",
-      "from … weeks (hafta + -dan)"
-    ],
-    "hangisiydi": [
-      "کدام بود؟",
-      "which one was it?"
-    ],
-    "hikâye": [
-      "قصه، داستان",
-      "story"
-    ],
-    "metroda": [
-      "توی مترو",
-      "on the metro"
-    ],
-    "nihayet": [
-      "بالاخره",
-      "at last"
-    ],
-    "noter": [
-      "دفترخانه، محضر",
-      "notary"
-    ],
-    "onaylı": [
-      "تأییدشده، مهرخورده",
-      "approved, stamped"
-    ],
-    "rehber": [
-      "راهنما",
-      "guide"
-    ],
-    "sözleşmeyi": [
-      "قرارداد را",
-      "the contract (as object)"
-    ],
-    "tolga": [
-      "تولگا (اسم)",
-      "Tolga (a name)"
-    ],
-    "usta": [
-      "تعمیرکار، اوستا",
-      "repairman"
-    ],
-    "zordu": [
-      "سخت بود",
-      "was hard"
-    ]
+    "afiyet": {
+      "fa": "نوشِ جان",
+      "en": "afiyet olsun: enjoy (your food or drink)"
+    },
+    "belki": {
+      "fa": "شاید",
+      "en": "maybe"
+    },
+    "beri": {
+      "fa": "تا حالا، از… به این طرف",
+      "en": "since (-dan beri: for, since)"
+    },
+    "damlaya": {
+      "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a district of Şişli)"
+    },
+    "haftadan": {
+      "fa": "از… هفته",
+      "en": "from … weeks (hafta + -dan)"
+    },
+    "hangisiydi": {
+      "fa": "کدام بود؟",
+      "en": "which one was it?"
+    },
+    "hikâye": {
+      "fa": "قصه، داستان",
+      "en": "story"
+    },
+    "metroda": {
+      "fa": "توی مترو",
+      "en": "on the metro"
+    },
+    "nihayet": {
+      "fa": "بالاخره",
+      "en": "at last"
+    },
+    "noter": {
+      "fa": "دفترخانه، محضر",
+      "en": "notary"
+    },
+    "onaylı": {
+      "fa": "تأییدشده، مهرخورده",
+      "en": "approved, stamped"
+    },
+    "rehber": {
+      "fa": "راهنما",
+      "en": "guide"
+    },
+    "sözleşmeyi": {
+      "fa": "قرارداد را",
+      "en": "the contract (as object)"
+    },
+    "tolga": {
+      "fa": "تولگا (اسم)",
+      "en": "Tolga (a name)"
+    },
+    "usta": {
+      "fa": "تعمیرکار، اوستا",
+      "en": "repairman"
+    },
+    "zordu": {
+      "fa": "سخت بود",
+      "en": "was hard"
+    }
   },
   "id": "s1e41",
   "kind": "episode",
@@ -203,41 +203,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Who came this morning?",
-      "fa": "امروز صبح چه کسی آمد؟",
       "kind": "comp",
       "options": [
         "Usta",
         "Serkan",
         "Kerim"
       ],
-      "q": "Bu sabah kim geldi?",
+      "q": {
+        "tr": "Bu sabah kim geldi?",
+        "en": "Who came this morning?",
+        "fa": "امروز صبح چه کسی آمد؟"
+      },
       "why": "Nima: “Ve bu sabah usta geldi!”"
     },
     {
       "a": 0,
-      "en": "Maria Teyze: “Go on, tell me! … what happened on the first day?”",
-      "fa": "خاله ماریا: «خب، تعریف کنید! … روزِ اول چه شد؟»",
       "kind": "word",
       "options": [
         "Önce",
         "Hiç",
         "Belki"
       ],
-      "q": "Maria Teyze: “Anlatın bakalım! … ilk gün ne oldu?”",
+      "q": {
+        "tr": "Maria Teyze: “Anlatın bakalım! … ilk gün ne oldu?”",
+        "en": "Maria Teyze: “Go on, tell me! … what happened on the first day?”",
+        "fa": "خاله ماریا: «خب، تعریف کنید! … روزِ اول چه شد؟»"
+      },
       "why": "Maria Teyze: “Önce… ilk gün ne oldu?”"
     },
     {
       "a": 0,
-      "en": "How many weeks has Nima been here?",
-      "fa": "نیما چند هفته است این‌جاست؟",
       "kind": "comp",
       "options": [
         "Yedi haftadan beri",
         "Altı haftadan beri",
         "Sekiz haftadan beri"
       ],
-      "q": "Nima kaç haftadan beri burada?",
+      "q": {
+        "tr": "Nima kaç haftadan beri burada?",
+        "en": "How many weeks has Nima been here?",
+        "fa": "نیما چند هفته است این‌جاست؟"
+      },
       "why": "Nima: “Yedi haftadan beri buradayım.”"
     }
   ],
@@ -519,11 +525,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "No class on Friday. Over tea, Maria Teyze makes Nima tell the story so far, in order, as speaking practice. This morning the repairman came, and the contract is stamped at last; Nima sets the watch to Istanbul time.",
-  "summaryFa": "جمعه کلاس نیست. خاله ماریا سرِ چای از نیما می‌خواهد ماجرای این هفت هفته را به ترتیب تعریف کند، برای تمرینِ مکالمه. امروز صبح تعمیرکار آمد و قرارداد بالاخره مهر خورد؛ نیما ساعتش را با وقتِ استانبول تنظیم می‌کند.",
-  "title": "Yedi hafta",
-  "titleEn": "Seven weeks",
-  "titleFa": "هفت هفته",
+  "summary": {
+    "en": "No class on Friday. Over tea, Maria Teyze makes Nima tell the story so far, in order, as speaking practice. This morning the repairman came, and the contract is stamped at last; Nima sets the watch to Istanbul time.",
+    "fa": "جمعه کلاس نیست. خاله ماریا سرِ چای از نیما می‌خواهد ماجرای این هفت هفته را به ترتیب تعریف کند، برای تمرینِ مکالمه. امروز صبح تعمیرکار آمد و قرارداد بالاخره مهر خورد؛ نیما ساعتش را با وقتِ استانبول تنظیم می‌کند."
+  },
+  "title": {
+    "tr": "Yedi hafta",
+    "en": "Seven weeks",
+    "fa": "هفت هفته"
+  },
   "words": [
     "seed-w09",
     "a1-w-once",

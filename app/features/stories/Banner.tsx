@@ -6,7 +6,7 @@ import { S, redrawTick } from "../../core/store.ts";
 import { Icon } from "../../ui/Icon.tsx";
 import { personalizeStr } from "../onboarding/index.ts";
 import { openStory } from "./open.ts";
-import { isDone, launched, loadStories, loaded, nextStory, preview, readable, thumbBase, todays } from "./state.ts";
+import { isDone, launched, loadStories, loaded, nextStory, preview, readable, textIn, thumbBase, todays } from "./state.ts";
 import { Thumb } from "./Thumb.tsx";
 
 export function StoryBanner() {
@@ -14,7 +14,7 @@ export function StoryBanner() {
   if (!loaded.value) { if (S.db) void loadStories(); return null; }
   const s = todays();
   if (!s || !(launched() || preview())) return null;
-  const title = personalizeStr(s.title, "tr");
+  const title = personalizeStr(textIn(s.title, "tr"), "tr");
   if (isDone(s.id)) {
     return (
       <button class="card st-ban" type="button" onClick={() => openStory(s.id)}>
@@ -30,7 +30,7 @@ export function StoryBanner() {
       <span class="st-ban-t">
         <small>Yeni hikâye · New today</small>
         <b lang="tr">{title}</b>
-        <span class="hint">{first === s ? "Tap to read it." : `First: “${personalizeStr(first.title, "tr")}”, the next story in order.`}</span>
+        <span class="hint">{first === s ? "Tap to read it." : `First: “${personalizeStr(textIn(first.title, "tr"), "tr")}”, the next story in order.`}</span>
       </span>
       <Icon name="chev" />
     </button>

@@ -101,66 +101,66 @@
     }
   ],
   "gl": {
-    "farsçayı": [
-      "فارسی را",
-      "Persian (as the object)"
-    ],
-    "gaziantep": [
-      "غازی‌عینتاب (شهری در جنوبِ ترکیه)",
-      "Gaziantep (a city in southern Turkey)"
-    ],
-    "gibi": [
-      "مثلِ",
-      "like"
-    ],
-    "halep": [
-      "حلب",
-      "Aleppo"
-    ],
-    "haritayı": [
-      "نقشه را",
-      "the map (as the object)"
-    ],
-    "hocam": [
-      "استاد (خطاب به معلم)",
-      "teacher (addressing your teacher)"
-    ],
-    "musunuz": [
-      "…ید؟ (پرسشی، شما)",
-      "do you…? (a question, siz)"
-    ],
-    "semerkant": [
-      "سمرقند",
-      "Samarkand"
-    ],
-    "tacikçe": [
-      "تاجیکی (زبان)",
-      "Tajik (the language)"
-    ],
-    "türkçesi": [
-      "ترکی‌اش",
-      "its Turkish; the Turkish for it"
-    ],
-    "yeğen": [
-      "خواهرزاده یا برادرزاده",
-      "niece or nephew"
-    ],
-    "yeğenim": [
-      "خواهرزاده یا برادرزاده‌ام",
-      "my niece or nephew"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name)"
-    ],
-    "özbekçe": [
-      "ازبکی (زبان)",
-      "Uzbek (the language)"
-    ],
-    "ülkem": [
-      "کشورم",
-      "my country"
-    ]
+    "farsçayı": {
+      "fa": "فارسی را",
+      "en": "Persian (as the object)"
+    },
+    "gaziantep": {
+      "fa": "غازی‌عینتاب (شهری در جنوبِ ترکیه)",
+      "en": "Gaziantep (a city in southern Turkey)"
+    },
+    "gibi": {
+      "fa": "مثلِ",
+      "en": "like"
+    },
+    "halep": {
+      "fa": "حلب",
+      "en": "Aleppo"
+    },
+    "haritayı": {
+      "fa": "نقشه را",
+      "en": "the map (as the object)"
+    },
+    "hocam": {
+      "fa": "استاد (خطاب به معلم)",
+      "en": "teacher (addressing your teacher)"
+    },
+    "musunuz": {
+      "fa": "…ید؟ (پرسشی، شما)",
+      "en": "do you…? (a question, siz)"
+    },
+    "semerkant": {
+      "fa": "سمرقند",
+      "en": "Samarkand"
+    },
+    "tacikçe": {
+      "fa": "تاجیکی (زبان)",
+      "en": "Tajik (the language)"
+    },
+    "türkçesi": {
+      "fa": "ترکی‌اش",
+      "en": "its Turkish; the Turkish for it"
+    },
+    "yeğen": {
+      "fa": "خواهرزاده یا برادرزاده",
+      "en": "niece or nephew"
+    },
+    "yeğenim": {
+      "fa": "خواهرزاده یا برادرزاده‌ام",
+      "en": "my niece or nephew"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name)"
+    },
+    "özbekçe": {
+      "fa": "ازبکی (زبان)",
+      "en": "Uzbek (the language)"
+    },
+    "ülkem": {
+      "fa": "کشورم",
+      "en": "my country"
+    }
   },
   "id": "s1e21",
   "kind": "episode",
@@ -275,41 +275,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Dilnoza: “My grandmother speaks …”",
-      "fa": "دلنوزا: «مادربزرگم … حرف می‌زنه.»",
       "kind": "comp",
       "options": [
         "Tacikçe",
         "Rusça",
         "Arapça"
       ],
-      "q": "Dilnoza: “Babaannem … konuşuyor.”",
+      "q": {
+        "tr": "Dilnoza: “Babaannem … konuşuyor.”",
+        "en": "Dilnoza: “My grandmother speaks …”",
+        "fa": "دلنوزا: «مادربزرگم … حرف می‌زنه.»"
+      },
       "why": "Dilnoza: “Babaannem Tacikçe konuşuyor.”"
     },
     {
       "a": 0,
-      "en": "Dilnoza: “My grandmother … Persian!”",
-      "fa": "دلنوزا: «مادربزرگم فارسی را …!»",
       "kind": "word",
       "options": [
         "anlıyor",
         "yazıyor",
         "seviyor"
       ],
-      "q": "Dilnoza: “Babaannem Farsçayı …!”",
+      "q": {
+        "tr": "Dilnoza: “Babaannem Farsçayı …!”",
+        "en": "Dilnoza: “My grandmother … Persian!”",
+        "fa": "دلنوزا: «مادربزرگم فارسی را …!»"
+      },
       "why": "Dilnoza: “Farsça gibi! Babaannem Farsçayı anlıyor!”"
     },
     {
       "a": 0,
-      "en": "Nima: “This… small child.” Who is it?",
-      "fa": "نیما: «این… بچه‌ی کوچیک.» این کیست؟",
       "kind": "comp",
       "options": [
         "Yeğen",
         "Dede",
         "Abla"
       ],
-      "q": "Nima: “Bu… küçük çocuk.” Bu kim?",
+      "q": {
+        "tr": "Nima: “Bu… küçük çocuk.” Bu kim?",
+        "en": "Nima: “This… small child.” Who is it?",
+        "fa": "نیما: «این… بچه‌ی کوچیک.» این کیست؟"
+      },
       "why": "Nima: “Bu benim yeğenim!”"
     }
   ],
@@ -665,11 +671,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Three more family trees. Dilnoza's grandmother speaks Tajik, a kind of Persian; Nima's tree has a gap for a word Nima doesn't know yet; and Yusuf shows that kitap, kalem and saat are Arabic words too.",
-  "summaryFa": "سه شجره‌نامه‌ی دیگر. مادربزرگِ دلنوزا تاجیکی حرف می‌زند که نوعی فارسی است؛ در شجره‌نامه‌ی نیما جای کلمه‌ای خالی است که نیما هنوز بلد نیست؛ و یوسف نشان می‌دهد که kitap و kalem و saat در عربی هم هستند.",
-  "title": "Bu kelimeyi bilmiyorum",
-  "titleEn": "I don't know this word",
-  "titleFa": "این کلمه را بلد نیستم",
+  "summary": {
+    "en": "Three more family trees. Dilnoza's grandmother speaks Tajik, a kind of Persian; Nima's tree has a gap for a word Nima doesn't know yet; and Yusuf shows that kitap, kalem and saat are Arabic words too.",
+    "fa": "سه شجره‌نامه‌ی دیگر. مادربزرگِ دلنوزا تاجیکی حرف می‌زند که نوعی فارسی است؛ در شجره‌نامه‌ی نیما جای کلمه‌ای خالی است که نیما هنوز بلد نیست؛ و یوسف نشان می‌دهد که kitap و kalem و saat در عربی هم هستند."
+  },
+  "title": {
+    "tr": "Bu kelimeyi bilmiyorum",
+    "en": "I don't know this word",
+    "fa": "این کلمه را بلد نیستم"
+  },
   "words": [
     "a1-w-arapca",
     "a1-w-farsca",

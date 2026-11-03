@@ -86,70 +86,70 @@
     }
   ],
   "gl": {
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a neighbourhood in Şişli)"
-    ],
-    "gününüz": [
-      "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
-      "your day; “doğum gününüz”: your birthday"
-    ],
-    "hediyen": [
-      "کادوی تو، هدیه‌ات",
-      "your present"
-    ],
-    "kart": [
-      "کارت",
-      "card"
-    ],
-    "kartı": [
-      "کارت را",
-      "the card (object)"
-    ],
-    "ku": [
-      "کو (صدای کریم)",
-      "coo (Kerim's call)"
-    ],
-    "kutlu": [
-      "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
-      "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
-    ],
-    "kırlangıç": [
-      "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
-      "Kırlangıç (a name; the word means swallow)"
-    ],
-    "maria": [
-      "ماریا (اسم؛ خاله ماریا، همسایه‌ی طبقه‌ی پنجم)",
-      "Maria (a name: Maria Teyze, the neighbour on the fifth floor)"
-    ],
-    "metroda": [
-      "در مترو",
-      "on the metro"
-    ],
-    "moru": [
-      "بنفش را (رنگِ بنفش)",
-      "purple (as the object)"
-    ],
-    "mükemmel": [
-      "عالی، بی‌نقص",
-      "perfect"
-    ],
-    "yün": [
-      "پشم، کاموا",
-      "wool"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ],
-    "örmek": [
-      "بافتن (با میل)",
-      "to knit"
-    ],
-    "şal": [
-      "شال",
-      "shawl"
-    ]
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a neighbourhood in Şişli)"
+    },
+    "gününüz": {
+      "fa": "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "en": "your day; “doğum gününüz”: your birthday"
+    },
+    "hediyen": {
+      "fa": "کادوی تو، هدیه‌ات",
+      "en": "your present"
+    },
+    "kart": {
+      "fa": "کارت",
+      "en": "card"
+    },
+    "kartı": {
+      "fa": "کارت را",
+      "en": "the card (object)"
+    },
+    "ku": {
+      "fa": "کو (صدای کریم)",
+      "en": "coo (Kerim's call)"
+    },
+    "kutlu": {
+      "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "en": "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "en": "Kırlangıç (a name; the word means swallow)"
+    },
+    "maria": {
+      "fa": "ماریا (اسم؛ خاله ماریا، همسایه‌ی طبقه‌ی پنجم)",
+      "en": "Maria (a name: Maria Teyze, the neighbour on the fifth floor)"
+    },
+    "metroda": {
+      "fa": "در مترو",
+      "en": "on the metro"
+    },
+    "moru": {
+      "fa": "بنفش را (رنگِ بنفش)",
+      "en": "purple (as the object)"
+    },
+    "mükemmel": {
+      "fa": "عالی، بی‌نقص",
+      "en": "perfect"
+    },
+    "yün": {
+      "fa": "پشم، کاموا",
+      "en": "wool"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    },
+    "örmek": {
+      "fa": "بافتن (با میل)",
+      "en": "to knit"
+    },
+    "şal": {
+      "fa": "شال",
+      "en": "shawl"
+    }
   },
   "id": "s1e29",
   "kind": "episode",
@@ -270,41 +270,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What is Kırlangıç knitting?",
-      "fa": "پرستو چه می‌بافد؟",
       "kind": "comp",
       "options": [
         "Bir şal",
         "Bir top",
         "Bir kart"
       ],
-      "q": "Kırlangıç ne örüyor?",
+      "q": {
+        "tr": "Kırlangıç ne örüyor?",
+        "en": "What is Kırlangıç knitting?",
+        "fa": "پرستو چه می‌بافد؟"
+      },
       "why": "Kırlangıç: “Maria Teyze için bir şal örüyorum.”"
     },
     {
       "a": 0,
-      "en": "How does Nima begin the card?",
-      "fa": "نیما کارت را چطور شروع می‌کند؟",
       "kind": "word",
       "options": [
         "Sevgili Maria Teyze",
         "Merhaba Maria Teyze",
         "İyi bayramlar"
       ],
-      "q": "Nima karta nasıl başlıyor?",
+      "q": {
+        "tr": "Nima karta nasıl başlıyor?",
+        "en": "How does Nima begin the card?",
+        "fa": "نیما کارت را چطور شروع می‌کند؟"
+      },
       "why": "Nima: “Sevgili Maria Teyze, bir ay önce İstanbul'a geldim.”"
     },
     {
       "a": 0,
-      "en": "What is the last colour?",
-      "fa": "رنگِ آخر چیست؟",
       "kind": "comp",
       "options": [
         "Mor",
         "Turuncu",
         "Pembe"
       ],
-      "q": "Son renk ne?",
+      "q": {
+        "tr": "Son renk ne?",
+        "en": "What is the last colour?",
+        "fa": "رنگِ آخر چیست؟"
+      },
       "why": "Kırlangıç: “Tamam: son renk mor!”"
     }
   ],
@@ -679,11 +685,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The day before the party, at Kırlangıç's flat full of yarn: she knits a shawl for Maria Teyze, Rayan plays with a yarn ball, and Nima writes the birthday card in Turkish, line by line, in the past tense.",
-  "summaryFa": "یک روز قبل از جشن، در خانه‌ی پر از کاموای پرستو: او برای خاله ماریا شال می‌بافد، رایان با یک گلوله‌ی کاموا بازی می‌کند و نیما کارتِ تولد را به ترکی می‌نویسد، خط به خط، با زمانِ گذشته.",
-  "title": "Sevgili Maria Teyze",
-  "titleEn": "Dear Maria Teyze",
-  "titleFa": "خاله ماریای عزیز",
+  "summary": {
+    "en": "The day before the party, at Kırlangıç's flat full of yarn: she knits a shawl for Maria Teyze, Rayan plays with a yarn ball, and Nima writes the birthday card in Turkish, line by line, in the past tense.",
+    "fa": "یک روز قبل از جشن، در خانه‌ی پر از کاموای پرستو: او برای خاله ماریا شال می‌بافد، رایان با یک گلوله‌ی کاموا بازی می‌کند و نیما کارتِ تولد را به ترکی می‌نویسد، خط به خط، با زمانِ گذشته."
+  },
+  "title": {
+    "tr": "Sevgili Maria Teyze",
+    "en": "Dear Maria Teyze",
+    "fa": "خاله ماریای عزیز"
+  },
   "words": [
     "a1-w-sevgili",
     "a1-w-yazmak",
