@@ -32,7 +32,7 @@ pnpm backstage      # the story editor (sahne-backstage) on data/, saves on, htt
 
 Then open `http://localhost:8787/?as=ada` to sign in as a seeded learner, or `?as=owner` for the owner. You need Node 24, pnpm 11 and [uv](https://docs.astral.sh/uv/) (two checks are small Python scripts).
 
-`pnpm backstage` saves into `data/`, and a person commits. Its review notes (status, steps reviewed, comments) are in `data/.backstage/review.json`, which is committed so the review is shared.
+`pnpm backstage` saves into `data/`, and a person commits. What it keeps beside the stories is committed, so everyone on the series shares it: the review notes (status, steps reviewed, comments) in `data/.backstage/review.json`, and the assistant's memory, conversations and task records in `memory.json`, `chats/` and `tasks/` there. Never paste a key into a conversation: it is committed with it.
 
 `pnpm check` (types, lint, build, the content and story checks) and `pnpm test` (unit and Worker tests) run on the sample data. On the sample, the story check skips the rules that need the real cards and lessons, and `pnpm smoke` (the browser smoke test) needs the real data, since it uses real ids.
 
