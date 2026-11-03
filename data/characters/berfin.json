@@ -96,8 +96,10 @@
       }
     }
   },
-  "bio": "In her 20s, Kurdish, from Diyarbakır; runs a tiny café in Feriköy, between the bakery and the pharmacy, and plays the bağlama. Quick and funny, knows every shortcut; impatient.",
-  "bioFa": "بیست و چند ساله، کُرد، اهلِ دیاربکر؛ کافهٔ کوچکی در فری‌کؤی، میانِ نانوایی و داروخانه، را می‌گرداند و باغلاما می‌نوازد. زرنگ و بامزه است و همهٔ میان‌برها را بلد است؛ کم‌حوصله است.",
+  "bio": {
+    "en": "In her 20s, Kurdish, from Diyarbakır; runs a tiny café in Feriköy, between the bakery and the pharmacy, and plays the bağlama. Quick and funny, knows every shortcut; impatient.",
+    "fa": "بیست و چند ساله، کُرد، اهلِ دیاربکر؛ کافهٔ کوچکی در فری‌کؤی، میانِ نانوایی و داروخانه، را می‌گرداند و باغلاما می‌نوازد. زرنگ و بامزه است و همهٔ میان‌برها را بلد است؛ کم‌حوصله است."
+  },
   "catch": {
     "en": "One more tea?",
     "fa": "یک چای دیگر؟",
@@ -117,8 +119,10 @@
     ],
     "tempo": 1.2
   },
-  "name": "Berfin",
-  "nameFa": "برفین",
+  "name": {
+    "tr": "Berfin",
+    "fa": "برفین"
+  },
   "order": 7,
   "outfits": {
     "music": {
@@ -130,8 +134,10 @@
   "places": [
     "cafe_berfin"
   ],
-  "role": "Runs a tiny café in Feriköy",
-  "roleFa": "کافهٔ کوچکی در فری‌کؤی را می‌گرداند",
+  "role": {
+    "en": "Runs a tiny café in Feriköy",
+    "fa": "کافهٔ کوچکی در فری‌کؤی را می‌گرداند"
+  },
   "voice": {
     "pitch": 1.2,
     "rate": 1.1

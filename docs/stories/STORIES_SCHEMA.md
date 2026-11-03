@@ -44,6 +44,8 @@ Course content lives in `data/<collection>/<id>.json`: one document per file, pr
 
 ## 3. Story document
 
+The lesson fields (`level`, `ref`, `lessons`, `words`, `gl`, `quiz`, the `spot` step, a line's `note` and `mistake`) belong to Sahne's lesson plugin (`sahne/packages/sahne-lesson/README.md`). `data/series.json` turns it on (`"plugins": ["lesson"]`), and the reader passes it to the stage (`app/lib/player.ts`).
+
 | Field | Type | Req. | Meaning |
 |---|---|---|---|
 | `id` | string | ✓ | `s1e01` |
@@ -53,14 +55,14 @@ Course content lives in `data/<collection>/<id>.json`: one document per file, pr
 | `season` | integer 1–3 | ✓ | Matches the id |
 | `arc` | `{id, tr, en, fa, mechanics}` | ✓ | The week's arc, e.g. `{id:"s1w01", tr:"Hoş geldin!", en:"Welcome!", fa:"خوش آمدی!", mechanics:["say","explore"]}`. `mechanics` lists what the week's stories may use: `say`, `explore`, `act`, `aloud`, `unlocks` (`STORIES_STAGE.md` §5). Every story of an arc repeats the same object (the validator checks) |
 | `ref` | `A1_1` … `B1_6` | ✓ | The unit of the story's week (weeks 1–6 their own unit, weeks 7–8 `A1_6`). A constraint: the check fails a `ref` that is not the week's, and a lesson or target word from a later unit |
-| `title`, `titleEn`, `titleFa` | string | ✓ | `title` is Turkish |
-| `summary`, `summaryFa` | string | ✓ | 1–2 sentences, for the archive and as context for the plus-tier talk |
+| `title` | `{tr, en, fa}` | ✓ | A text by language (Sahne's language shape: `sahne/packages/sahne-story/README.md`, *Languages*) |
+| `summary` | `{en, fa}` | ✓ | 1–2 sentences, for the archive and as context for the plus-tier talk |
 | `place` | place id | ✓ | Where the story opens. The first step's `scene` must name it |
 | `cast` | character ids | ✓ | The speakers: 2–4 in an episode, at most 6 in a special. Kerim counts only when she speaks in the scene as a character. Her narration and spots don't count |
 | `extras` | character ids | | On stage but silent, e.g. classmates in the background. They don't count towards the cast limit, and they cannot speak
 | `lessons` | grammar ids, 1–3 | ✓ | At A1, none later than the story's week (`STORIES_DESIGN.md` §2) |
 | `words` | card ids | ✓ | Target words: 5–8 in an episode, 10–12 in a special. **Card ids, not Turkish text** |
-| `gl` | `{ word: [fa, en] }` | ✓ | Glosses for words that no card or suffix strip reaches. Keys are lower-case Turkish (`"havalimanı": ["فرودگاه", "airport"]`) |
+| `gl` | `{ word: {fa, en} }` | ✓ | Glosses for words that no card or suffix strip reaches. Keys are lower-case Turkish (`"havalimanı": {"fa": "فرودگاه", "en": "airport"}`) |
 | `props` | `{ id: prop }` | | Story-only props, added to the places their `at` names (below) |
 | `looks` | `{ <character id>: outfit \| look }` | | What characters wear for the whole story (section 5.2); without it, their `avatar` |
 | `names` | `{ <character id>: string }` | | The name a character goes by in this story only, for one the learner has not met by name yet (`s1e14`: Maria is *Teyze*); without it, their `name` |
@@ -238,7 +240,7 @@ At the end of each season, after its last story, Kerim shows a **photo album**: 
 ### 4.6 Quiz item
 
 ```json
-{"q": "Bakkalda ne yok?", "en": "What is missing at the bakkal?", "fa": "…", "options": ["Süt", "Ekmek", "Simit"], "a": 0, "why": "“Ama süt yok.”", "kind": "comp"}
+{"q": {"tr": "Bakkalda ne yok?", "en": "What is missing at the bakkal?", "fa": "…"}, "options": ["Süt", "Ekmek", "Simit"], "a": 0, "why": "“Ama süt yok.”", "kind": "comp"}
 ```
 
 There are exactly 3 items. `options` has 3 Turkish options, and `a` is the index of the right one. `why` quotes the line that answers it. `kind` is `comp` (who, what, where) or `word` (a target word); a story has at least one of each. Grammar is never quizzed.
@@ -249,10 +251,10 @@ There are exactly 3 items. `options` has 3 Turkish options, and `a` is the index
 |---|---|---|---|
 | `id` | slug | ✓ | `ismail` |
 | `order` | integer | ✓ | Gallery and archive-filter order |
-| `name`, `nameFa` | string | ✓ | `İsmail`, `اسماعیل` (shown as *İsmail Abi* where the stories call him that) |
+| `name` | `{tr, fa}` | ✓ | `{"tr": "İsmail", "fa": "اسماعیل"}` (shown as *İsmail Abi* where the stories call him that) |
 | `kind` | `narrator` \| `standin` \| `cast` \| `extra` | ✓ | Exactly one each of `narrator` (Kerim) and `standin` (Nima). `extra` is a generic silent person of a place (a clerk, a çaycı, a child), named only by their role (§5.3) |
 | `circle` | `old_friends` \| `neighbourhood` \| `tomer` \| `guest` | | From the character sheet (`STORIES_CAST.md`) |
-| `role`, `roleFa`, `bio`, `bioFa` | string | ✓ | The short sheet shown in the character sheet |
+| `role`, `bio` | `{en, fa}` | ✓ | The short sheet shown in the character sheet |
 | `catch` | `{tr, en, fa}` | | The catchphrase |
 | `color` | `#RRGGBB` | ✓ | The speech-bubble notch and avatar ring. It must be distinct from the others in the same scenes |
 | `level` | `A1` \| `A2` \| `B1` | ✓ | The level they first appear in. A character never appears before it (Nani is A2) |
@@ -297,7 +299,7 @@ The `look` lint (`STORIES_STAGE.md` §4) checks every look and outfit against th
 
 ### 5.3 Extras
 
-A generic extra is a character document with `kind: "extra"` in `data/characters/<id>.json`, beside the named cast: `kind` tells them apart. A story names it in `extras` (section 3) and never gives it a line. Its `name` and `nameFa` are the role (`Çaycı`, `چای‌فروش`), `role`/`roleFa` and `bio`/`bioFa` are one plain line, `color` is one neutral grey, `level` is `A1`, and `order` is 100 or more so extras sort after the cast. It has an `avatar` and no `outfits`, `catch`, `album`, `friend` or `address`. Ids name the role and, when needed, the place or a number: `clerk_goc`, `cayci_ortakoy`, `child_1`…`child_8`, `passenger_1`…. Extras are generated, never edited by hand: `node sahne/packages/sahne-story/cast/extras.ts` builds each from a fixed seed and a frozen list of kit parts and colours, then sets the role's own items (an apron, a lanyard, a headscarf), and `--check` fails when a file is stale. It only ever writes or deletes files of `kind: "extra"`, and refuses to write an extra over another character. A new extra is a new entry in that script with a new seed. Named characters who are only silent in a story (Yusuf, Alex) are cast characters, not extras.
+A generic extra is a character document with `kind: "extra"` in `data/characters/<id>.json`, beside the named cast: `kind` tells them apart. A story names it in `extras` (section 3) and never gives it a line. Its `name` is the role (`{"tr": "Çaycı", "fa": "چای‌فروش"}`), its `role` and `bio` one plain line each, `color` is one neutral grey, `level` is `A1`, and `order` is 100 or more so extras sort after the cast. It has an `avatar` and no `outfits`, `catch`, `album`, `friend` or `address`. Ids name the role and, when needed, the place or a number: `clerk_goc`, `cayci_ortakoy`, `child_1`…`child_8`, `passenger_1`…. Extras are generated, never edited by hand: `node sahne/packages/sahne-story/cast/extras.ts` builds each from a fixed seed and a frozen list of kit parts and colours, then sets the role's own items (an apron, a lanyard, a headscarf), and `--check` fails when a file is stale. It only ever writes or deletes files of `kind: "extra"`, and refuses to write an extra over another character. A new extra is a new entry in that script with a new seed. Named characters who are only silent in a story (Yusuf, Alex) are cast characters, not extras.
 
 ## 6. Place document (new)
 
@@ -354,7 +356,7 @@ These live in the private `progress` document and the public Friends profile (`d
 
 ## 10. Validator
 
-`node sahne/packages/sahne-story/stories.ts --check` runs inside `pnpm sahne check` and Kumru's `pnpm check` (`scripts/gates.mjs`, with `cast/extras.ts --check`; the `sahne` and `kumru` jobs of `deploy.yml` run them on pull requests); `test/drafts.test.ts` runs the same check over every story in `data/stories/` on its own, so a new story needs no test. It is the one schema source for stories, characters and places: `scripts/kumru_data.py` checks only their references into the app's other collections (lessons, words, cast, place). It checks the schemas (`sahne/packages/sahne-story/schema/`: `story.json`, `character.json`, `place.json`, run with ajv), the story rules below and the lints in `STORIES_STAGE.md` §4 (`lintStory`, `lintPlace`). Errors fail it; warnings and info are the report (the known-word ratio, recycling, the season's choice kinds). The logic is `sahne/packages/sahne-story/check/` (node only, not part of the app's bundle); the release calendar is the *Days* table of `STORIES_A1.md`, the syllabus data `sahne/packages/sahne-story/syllabus/a1.json`.
+`node sahne/packages/sahne-story/stories.ts --check` runs inside `pnpm sahne check` and Kumru's `pnpm check` (`scripts/gates.mjs`, with `cast/extras.ts --check`; the `sahne` and `kumru` jobs of `deploy.yml` run them on pull requests); `test/drafts.test.ts` runs the same check over every story in `data/stories/` on its own, so a new story needs no test. It is the one schema source for stories, characters and places: `scripts/kumru_data.py` checks only their references into the app's other collections (lessons, words, cast, place). It checks the schemas (`sahne/packages/sahne-story/schema/`: `story.json`, `character.json`, `place.json`, run with ajv), the story rules below and the lints in `STORIES_STAGE.md` §4 (`lintStory`, `lintPlace`). Errors fail it; warnings and info are the report (the known-word ratio, recycling, the season's choice kinds). The logic is `sahne/packages/sahne-story/check/` (node only, not part of the app's bundle); the release calendar is each season's `calendar` in `data/seasons/s<n>.json` (edited in backstage; `scripts/kumru_days.mjs` writes `data/days.json` from it), the syllabus data `sahne/packages/sahne-story/syllabus/a1.json`.
 
 **Story-level checks** (modelled on `grammar_lessons.py --check`):
 - `id` format and uniqueness; `releaseDate` is a date, with no two stories on the same date (one track).

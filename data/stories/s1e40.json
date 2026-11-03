@@ -100,70 +100,70 @@
     }
   ],
   "gl": {
-    "eve": [
-      "به خانه",
-      "home (to home)"
-    ],
-    "gerçek": [
-      "واقعی",
-      "real"
-    ],
-    "gerçekten": [
-      "واقعاً",
-      "really"
-    ],
-    "ikamet": [
-      "اقامت",
-      "residence (permit)"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "lambam": [
-      "لامپم",
-      "my lamp"
-    ],
-    "noter": [
-      "دفترخانه، محضر",
-      "notary"
-    ],
-    "notere": [
-      "به محضر",
-      "to the notary"
-    ],
-    "onayı": [
-      "تأییدِ…",
-      "the approval, the stamp (onay)"
-    ],
-    "randevum": [
-      "نوبتم، وقتم",
-      "my appointment"
-    ],
-    "randevusu": [
-      "نوبتِ…",
-      "appointment (of…)"
-    ],
-    "söz": [
-      "قول",
-      "a promise; I promise!"
-    ],
-    "sözleşmem": [
-      "قراردادم",
-      "my contract"
-    ],
-    "sözleşmeyi": [
-      "قرارداد را",
-      "the contract (as object)"
-    ],
-    "türkçen": [
-      "ترکی‌ات",
-      "your Turkish"
-    ],
-    "usta": [
-      "تعمیرکار، اوستا",
-      "repairman"
-    ]
+    "eve": {
+      "fa": "به خانه",
+      "en": "home (to home)"
+    },
+    "gerçek": {
+      "fa": "واقعی",
+      "en": "real"
+    },
+    "gerçekten": {
+      "fa": "واقعاً",
+      "en": "really"
+    },
+    "ikamet": {
+      "fa": "اقامت",
+      "en": "residence (permit)"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "lambam": {
+      "fa": "لامپم",
+      "en": "my lamp"
+    },
+    "noter": {
+      "fa": "دفترخانه، محضر",
+      "en": "notary"
+    },
+    "notere": {
+      "fa": "به محضر",
+      "en": "to the notary"
+    },
+    "onayı": {
+      "fa": "تأییدِ…",
+      "en": "the approval, the stamp (onay)"
+    },
+    "randevum": {
+      "fa": "نوبتم، وقتم",
+      "en": "my appointment"
+    },
+    "randevusu": {
+      "fa": "نوبتِ…",
+      "en": "appointment (of…)"
+    },
+    "söz": {
+      "fa": "قول",
+      "en": "a promise; I promise!"
+    },
+    "sözleşmem": {
+      "fa": "قراردادم",
+      "en": "my contract"
+    },
+    "sözleşmeyi": {
+      "fa": "قرارداد را",
+      "en": "the contract (as object)"
+    },
+    "türkçen": {
+      "fa": "ترکی‌ات",
+      "en": "your Turkish"
+    },
+    "usta": {
+      "fa": "تعمیرکار، اوستا",
+      "en": "repairman"
+    }
   },
   "id": "s1e40",
   "kind": "episode",
@@ -230,41 +230,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "When is the repairman coming?",
-      "fa": "تعمیرکار کی می‌آید؟",
       "kind": "comp",
       "options": [
         "Yarın sabah, saat dokuzda",
         "Bugün, saat altıda",
         "Pazartesi"
       ],
-      "q": "Usta ne zaman geliyor?",
+      "q": {
+        "tr": "Usta ne zaman geliyor?",
+        "en": "When is the repairman coming?",
+        "fa": "تعمیرکار کی می‌آید؟"
+      },
       "why": "Tolga Bey: “Alo, usta? Yarın sabah, saat dokuzda!”"
     },
     {
       "a": 0,
-      "en": "Tolga Bey: “Tomorrow!” Nima: “…, please.”",
-      "fa": "آقای تولگا: «فردا!» نیما: «…، لطفاً.»",
       "kind": "word",
       "options": [
         "Bugün",
         "Yarın",
         "Sabah"
       ],
-      "q": "Tolga Bey: “Yarın!” Nima: “…, lütfen.”",
+      "q": {
+        "tr": "Tolga Bey: “Yarın!” Nima: “…, lütfen.”",
+        "en": "Tolga Bey: “Tomorrow!” Nima: “…, please.”",
+        "fa": "آقای تولگا: «فردا!» نیما: «…، لطفاً.»"
+      },
       "why": "Nima: “Bugün, lütfen.”"
     },
     {
       "a": 0,
-      "en": "When is Nima's appointment?",
-      "fa": "نوبتِ نیما کی است؟",
       "kind": "comp",
       "options": [
         "Pazartesi",
         "Cuma",
         "Yarın"
       ],
-      "q": "Nima'nın randevusu ne zaman?",
+      "q": {
+        "tr": "Nima'nın randevusu ne zaman?",
+        "en": "When is Nima's appointment?",
+        "fa": "نوبتِ نیما کی است؟"
+      },
       "why": "Nima: “Pazartesi randevum var!”"
     }
   ],
@@ -604,11 +610,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The day after the mock, Nima goes to Tolga Bey's agency instead of waiting for his “tomorrow”, holds up the appointment slip, and gets the notary done today and the repairman booked for nine. In the cold stairwell, Elif can hardly believe it.",
-  "summaryFa": "فردای امتحانِ آزمایشی، نیما به‌جای این‌که منتظرِ «فردا»ی آقای تولگا بماند، به بنگاهش می‌رود، برگهٔ نوبت را بالا می‌گیرد و کاری می‌کند که قرارداد همان روز به محضر برود و تعمیرکار فردا ساعتِ نه بیاید. در راه‌پلهٔ سرد، الیف باورش نمی‌شود.",
-  "title": "Bugün, lütfen!",
-  "titleEn": "Today, please!",
-  "titleFa": "امروز، لطفاً!",
+  "summary": {
+    "en": "The day after the mock, Nima goes to Tolga Bey's agency instead of waiting for his “tomorrow”, holds up the appointment slip, and gets the notary done today and the repairman booked for nine. In the cold stairwell, Elif can hardly believe it.",
+    "fa": "فردای امتحانِ آزمایشی، نیما به‌جای این‌که منتظرِ «فردا»ی آقای تولگا بماند، به بنگاهش می‌رود، برگهٔ نوبت را بالا می‌گیرد و کاری می‌کند که قرارداد همان روز به محضر برود و تعمیرکار فردا ساعتِ نه بیاید. در راه‌پلهٔ سرد، الیف باورش نمی‌شود."
+  },
+  "title": {
+    "tr": "Bugün, lütfen!",
+    "en": "Today, please!",
+    "fa": "امروز، لطفاً!"
+  },
   "words": [
     "a1-w-unutmak",
     "a1-w-goturmek",

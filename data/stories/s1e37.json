@@ -105,62 +105,62 @@
     }
   ],
   "gl": {
-    "alo": [
-      "الو",
-      "hello (on the phone)"
-    ],
-    "e": [
-      "اِ… (حرفِ E روی صفحه)",
-      "E… (the letter on the panel)"
-    ],
-    "ibb": [
-      "شهرداریِ استانبول",
-      "İBB, Istanbul's city council"
-    ],
-    "kalorifer": [
-      "شوفاژ",
-      "radiator, central heating"
-    ],
-    "kombi": [
-      "پکیج (آبگرم‌کنِ دیواری)",
-      "combi boiler"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "kütüphanesinde": [
-      "در کتابخانهٔ…",
-      "in the … library"
-    ],
-    "kırlangıç": [
-      "پرستو (اسم)",
-      "Kırlangıç (a name; the word means swallow)"
-    ],
-    "musun": [
-      "…ی؟ (نشانهٔ پرسش، برای «تو»)",
-      "question word mu + -sun (you)"
-    ],
-    "noter": [
-      "دفترخانه، محضر",
-      "notary"
-    ],
-    "orası": [
-      "آن‌جا",
-      "there, that place"
-    ],
-    "sözleşme": [
-      "قرارداد",
-      "contract"
-    ],
-    "sır": [
-      "راز، معما",
-      "secret, mystery"
-    ],
-    "usta": [
-      "تعمیرکار، اوستا",
-      "repairman"
-    ]
+    "alo": {
+      "fa": "الو",
+      "en": "hello (on the phone)"
+    },
+    "e": {
+      "fa": "اِ… (حرفِ E روی صفحه)",
+      "en": "E… (the letter on the panel)"
+    },
+    "ibb": {
+      "fa": "شهرداریِ استانبول",
+      "en": "İBB, Istanbul's city council"
+    },
+    "kalorifer": {
+      "fa": "شوفاژ",
+      "en": "radiator, central heating"
+    },
+    "kombi": {
+      "fa": "پکیج (آبگرم‌کنِ دیواری)",
+      "en": "combi boiler"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "kütüphanesinde": {
+      "fa": "در کتابخانهٔ…",
+      "en": "in the … library"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسم)",
+      "en": "Kırlangıç (a name; the word means swallow)"
+    },
+    "musun": {
+      "fa": "…ی؟ (نشانهٔ پرسش، برای «تو»)",
+      "en": "question word mu + -sun (you)"
+    },
+    "noter": {
+      "fa": "دفترخانه، محضر",
+      "en": "notary"
+    },
+    "orası": {
+      "fa": "آن‌جا",
+      "en": "there, that place"
+    },
+    "sözleşme": {
+      "fa": "قرارداد",
+      "en": "contract"
+    },
+    "sır": {
+      "fa": "راز، معما",
+      "en": "secret, mystery"
+    },
+    "usta": {
+      "fa": "تعمیرکار، اوستا",
+      "en": "repairman"
+    }
   },
   "id": "s1e37",
   "kind": "episode",
@@ -194,41 +194,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What isn't working?",
-      "fa": "چه چیزی کار نمی‌کند؟",
       "kind": "comp",
       "options": [
         "Kombi",
         "Telefon",
         "Çaydanlık"
       ],
-      "q": "Ne çalışmıyor?",
+      "q": {
+        "tr": "Ne çalışmıyor?",
+        "en": "What isn't working?",
+        "fa": "چه چیزی کار نمی‌کند؟"
+      },
       "why": "Nima: “Kombi çalışmıyor.”"
     },
     {
       "a": 0,
-      "en": "Nima's flat isn't warm. The flat is very …",
-      "fa": "خانهٔ نیما گرم نیست. خانه خیلی … است.",
       "kind": "word",
       "options": [
         "soğuk",
         "güzel",
         "büyük"
       ],
-      "q": "Nima'nın evi sıcak değil. Ev çok …",
+      "q": {
+        "tr": "Nima'nın evi sıcak değil. Ev çok …",
+        "en": "Nima's flat isn't warm. The flat is very …",
+        "fa": "خانهٔ نیما گرم نیست. خانه خیلی … است."
+      },
       "why": "Nima: “Ama ev çok soğuk!”"
     },
     {
       "a": 0,
-      "en": "When is the repairman coming?",
-      "fa": "تعمیرکار کی می‌آید؟",
       "kind": "comp",
       "options": [
         "Yarın",
         "Bugün",
         "Cuma"
       ],
-      "q": "Usta ne zaman geliyor?",
+      "q": {
+        "tr": "Usta ne zaman geliyor?",
+        "en": "When is the repairman coming?",
+        "fa": "تعمیرکار کی می‌آید؟"
+      },
       "why": "Tolga Bey: “Yarın usta geliyor!”"
     }
   ],
@@ -586,11 +592,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The first cold Monday, two weeks before the exam, and the boiler won't start. Tolga Bey promises “tomorrow” on the phone, Serkan comes up with his toolbox and fails, and Kırlangıç invites Nima to study somewhere warm.",
-  "summaryFa": "اولین دوشنبهٔ سرد، دو هفته مانده به امتحان، پکیجِ خانه روشن نمی‌شود. آقای تولگا پشتِ تلفن قولِ «فردا» می‌دهد، سرکان با جعبه‌ابزارش بالا می‌آید و کاری از پیش نمی‌برد، و پرستو نیما را دعوت می‌کند که با هم جایی گرم درس بخوانند.",
-  "title": "Kombi çalışmıyor!",
-  "titleEn": "The boiler's not working!",
-  "titleFa": "پکیج کار نمی‌کند!",
+  "summary": {
+    "en": "The first cold Monday, two weeks before the exam, and the boiler won't start. Tolga Bey promises “tomorrow” on the phone, Serkan comes up with his toolbox and fails, and Kırlangıç invites Nima to study somewhere warm.",
+    "fa": "اولین دوشنبهٔ سرد، دو هفته مانده به امتحان، پکیجِ خانه روشن نمی‌شود. آقای تولگا پشتِ تلفن قولِ «فردا» می‌دهد، سرکان با جعبه‌ابزارش بالا می‌آید و کاری از پیش نمی‌برد، و پرستو نیما را دعوت می‌کند که با هم جایی گرم درس بخوانند."
+  },
+  "title": {
+    "tr": "Kombi çalışmıyor!",
+    "en": "The boiler's not working!",
+    "fa": "پکیج کار نمی‌کند!"
+  },
   "words": [
     "a1-w-soguk",
     "a1-w-sicak",

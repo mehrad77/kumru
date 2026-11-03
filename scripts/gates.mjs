@@ -2,24 +2,15 @@
 // print each one, and stop at the first failure with its exit code. Run from the repo root, after scripts/data.mjs
 // (the package scripts run it first). Sahne's story tools and the thumbnails read Kumru's content through
 // SAHNE_CONTENT (sahne/packages/sahne-story/paths.ts), an absolute folder set here for every step: data/ itself on the
-// real data. On data-sample/ it is .build/sahne-content/, a view of data/ without the course folders (cards, grammar,
-// syllabus), since the public stories and places name real cards and lessons the sample does not have: Sahne skips its
-// course rules when those folders are absent. The rest of the story check runs on both.
+// real data, a view of it without the course folders on data-sample/ (scripts/data.mjs `sahneContent`). The rest of the
+// story check runs on both.
 import { spawnSync } from "node:child_process";
-import { mkdirSync, readdirSync, rmSync, symlinkSync } from "node:fs";
-import path from "node:path";
-import { ROOT, dataKind } from "./data.mjs";
+import { readdirSync } from "node:fs";
+import { ROOT, dataKind, sahneContent } from "./data.mjs";
 
 process.chdir(ROOT);
 const kind = dataKind();
-process.env.SAHNE_CONTENT = path.join(ROOT, "data");
-if (kind === "sample") {
-  const view = path.join(ROOT, ".build", "sahne-content");
-  rmSync(view, { recursive: true, force: true });
-  mkdirSync(view, { recursive: true });
-  for (const f of ["stories", "characters", "places", "thumbs", "needs.json", "days.json"]) symlinkSync(path.join(ROOT, "data", f), path.join(view, f));
-  process.env.SAHNE_CONTENT = view;
-}
+process.env.SAHNE_CONTENT = sahneContent();
 const SAHNE = "sahne/packages";
 const py = (tool, ...args) => ["uv", "run", `scripts/${tool}`, ...args];
 const pageTests = readdirSync("scripts").filter((f) => /^kumru_.*\.test\.cjs$/.test(f)).sort();
@@ -34,9 +25,11 @@ const GATES = {
     ["import boundaries", ["node", "scripts/check-boundaries.mjs"]],
     ["build is deterministic and parses", ["node", "scripts/check-build.mjs"]],
     ["content schemas and references", py("kumru_data.py", "--check")],
-    ["the A1 calendar (data/days.json)", ["node", "scripts/kumru_days.mjs", "--check"]],
+    ["the calendar (data/days.json from data/seasons/)", ["node", "scripts/kumru_days.mjs", "--check"]],
     // stories, characters and places: their one schema source is sahne-story/schema/ in the Sahne submodule
     ["stories, characters and places", ["node", `${SAHNE}/sahne-story/stories.ts`, "--check", "--quiet"]],
+    // the app reads texts as maps by language (title: { tr, en, fa }); a file in the old shape (titleEn, nameFa) fails here
+    ["texts in the new language shape", ["node", `${SAHNE}/sahne-story/convert/languages.ts`, "--check"]],
     ["the generated extras", ["node", `${SAHNE}/sahne-story/cast/extras.ts`, "--check"]],
     ["story thumbnails", ["node", `${SAHNE}/sahne-gallery/thumbs.mjs`, "--check"]],
     ["brand files", py("kumru_icons.py", "--check")],

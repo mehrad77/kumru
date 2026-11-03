@@ -65,8 +65,10 @@
       }
     }
   },
-  "bio": "In her 50s, from a village near Bursa; sells vegetables at the Feriköy Saturday market. Warm, quick and proud of her produce; hates \"Çok pahalı!\"",
-  "bioFa": "پنجاه و چند ساله، اهلِ روستایی نزدیکِ بورسا؛ در بازارِ شنبهٔ فری‌کؤی سبزی می‌فروشد. گرم و فرز است و به محصولش افتخار می‌کند؛ از «Çok pahalı!» (خیلی گران است!) بدش می‌آید.",
+  "bio": {
+    "en": "In her 50s, from a village near Bursa; sells vegetables at the Feriköy Saturday market. Warm, quick and proud of her produce; hates \"Çok pahalı!\"",
+    "fa": "پنجاه و چند ساله، اهلِ روستایی نزدیکِ بورسا؛ در بازارِ شنبهٔ فری‌کؤی سبزی می‌فروشد. گرم و فرز است و به محصولش افتخار می‌کند؛ از «Çok pahalı!» (خیلی گران است!) بدش می‌آید."
+  },
   "catch": {
     "en": "Fresh, fresh!",
     "fa": "تازه، تازه!",
@@ -86,8 +88,10 @@
     ],
     "tempo": 1.2
   },
-  "name": "Hatice",
-  "nameFa": "خدیجه",
+  "name": {
+    "tr": "Hatice",
+    "fa": "خدیجه"
+  },
   "order": 20,
   "outfits": {
     "rain": {
@@ -105,8 +109,10 @@
   "places": [
     "pazar_ferikoy"
   ],
-  "role": "A stallholder at the Feriköy Saturday market",
-  "roleFa": "بساطیِ بازارِ شنبهٔ فری‌کؤی",
+  "role": {
+    "en": "A stallholder at the Feriköy Saturday market",
+    "fa": "بساطیِ بازارِ شنبهٔ فری‌کؤی"
+  },
   "voice": {
     "pitch": 1.05,
     "rate": 1.2

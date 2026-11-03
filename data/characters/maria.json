@@ -94,8 +94,10 @@
       }
     }
   },
-  "bio": "Turns 80 on 10 October; Rum (Istanbul Greek), born on this street in Feriköy; a retired seamstress. Gracious, with a sharp memory; stubborn about how things were done.",
-  "bioFa": "دهمِ اکتبر هشتاد ساله می‌شود؛ رومی (یونانیِ استانبول) است و در همین خیابانِ فری‌کؤی به دنیا آمده؛ خیاطِ بازنشسته. باوقار است و حافظهٔ تیزی دارد؛ دربارهٔ اینکه کارها قدیم چطور انجام می‌شد یک‌دنده است.",
+  "bio": {
+    "en": "Turns 80 on 10 October; Rum (Istanbul Greek), born on this street in Feriköy; a retired seamstress. Gracious, with a sharp memory; stubborn about how things were done.",
+    "fa": "دهمِ اکتبر هشتاد ساله می‌شود؛ رومی (یونانیِ استانبول) است و در همین خیابانِ فری‌کؤی به دنیا آمده؛ خیاطِ بازنشسته. باوقار است و حافظهٔ تیزی دارد؛ دربارهٔ اینکه کارها قدیم چطور انجام می‌شد یک‌دنده است."
+  },
   "catch": {
     "en": "Drop by drop, a lake forms.",
     "fa": "قطره قطره جمع گردد، وانگهی دریا شود.",
@@ -115,8 +117,10 @@
     ],
     "tempo": 0.7
   },
-  "name": "Maria",
-  "nameFa": "ماریا",
+  "name": {
+    "tr": "Maria",
+    "fa": "ماریا"
+  },
   "order": 11,
   "outfits": {
     "cold": {
@@ -148,8 +152,10 @@
     "flat_nima",
     "rooftop"
   ],
-  "role": "Rum neighbour upstairs; a retired seamstress",
-  "roleFa": "همسایهٔ رومیِ طبقهٔ بالا؛ خیاطِ بازنشسته",
+  "role": {
+    "en": "Rum neighbour upstairs; a retired seamstress",
+    "fa": "همسایهٔ رومیِ طبقهٔ بالا؛ خیاطِ بازنشسته"
+  },
   "voice": {
     "pitch": 1.1,
     "rate": 0.85

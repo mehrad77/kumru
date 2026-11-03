@@ -99,6 +99,8 @@ After the review, about a third of the choices are each kind: **polite** (the ri
 
 ## Days
 
+The dates, weeks and kinds here are a copy for planning. The source is the season's calendar, `data/seasons/s1.json` (edited in backstage, `pnpm backstage`); `scripts/kumru_days.mjs` writes `data/days.json` from it.
+
 | id | Date | Wk | Kind | Story |
 |---|---|---|---|---|
 | s1e01 | Mon 7 Sep | 1 | episode | **decided**: Merhaba, İstanbul! (brief below) |

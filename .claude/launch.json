@@ -10,6 +10,15 @@
       ],
       "port": 8787,
       "autoPort": true
+    },
+    {
+      "name": "backstage",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": [
+        "-c",
+        "PORT=${PORT:-5181} pnpm backstage"
+      ],
+      "port": 5181
     }
   ]
 }

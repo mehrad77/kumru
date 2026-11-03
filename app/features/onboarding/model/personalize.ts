@@ -11,7 +11,7 @@ export interface BlurbProfile {
   why?: { en?: string; raw?: string } | null; bio?: { en?: string } | null;
 }
 
-const FA_KEYS = new Set(["fa", "titleFa", "summaryFa", "bioFa", "roleFa"]), EN_KEYS = new Set(["en", "titleEn", "summary", "bio", "role", "focus"]);
+const FA_KEYS = new Set(["fa"]), EN_KEYS = new Set(["en", "focus"]);
 const TAHRAN_RE = /Tahran(?:'([a-zçğıöşü]+)|(l[ıiuü][a-zçğıöşü]*))?(?![a-zçğıöşüA-ZÇĞİÖŞÜ])/g;
 
 /** The learner's first name with a capital, or Nima (the stories' own name for the newcomer, sahne/packages/sahne-story STANDIN). */
@@ -45,7 +45,7 @@ export function personalizeText<T>(s: T, k: string | undefined, name: string, ci
     .replace(TAHRAN_RE, (_m, suf, li) => li ? nameSuffix(c.tr, li, true) : nameSuffix(c.tr, suf)) as T;
 }
 
-/** A whole story document (strings, arrays, objects) personalized; the keys `who`, `id` and `place` are left alone, and a glossary (`gl`) has its keys swapped too. */
+/** A whole story document (strings, arrays, objects) personalized; the keys `who`, `id` and `place` are left alone, and a glossary (`gl`) has its keys swapped too. Texts are maps by language (`{ tr, en, fa }`), so the key says the language. */
 export function personalizeAll(v: unknown, k: string | undefined, name: string, city: HomeCity): unknown {
   const text = (s: unknown, key: string) => personalizeText(s, key, name, city);
   if (Array.isArray(v)) return v.map((x) => personalizeAll(x, k, name, city));
@@ -56,7 +56,7 @@ export function personalizeAll(v: unknown, k: string | undefined, name: string, 
       if (k === "gl") {
         const nk = key.startsWith("nima") ? (text("Nima" + key.slice(4), "tr") as string).toLocaleLowerCase("tr")
           : key.startsWith("tahran") ? (text("Tahran" + key.slice(6), "tr") as string).toLocaleLowerCase("tr") : key;
-        o[nk] = Array.isArray(val) ? [text(val[0], "fa"), text(val[1], "en")] : val;
+        o[nk] = personalizeAll(val, undefined, name, city);
       } else o[key] = personalizeAll(val, key, name, city);
     }
     return o;

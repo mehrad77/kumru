@@ -96,46 +96,46 @@
     }
   ],
   "gl": {
-    "asansör": [
-      "آسانسور",
-      "lift, elevator"
-    ],
-    "beşiktaş": [
-      "بشیکتاش (محله و تیمِ فوتبال)",
-      "Beşiktaş (a district and its football club)"
-    ],
-    "ediyorum": [
-      "می‌کنم (yardım ediyorum: کمک می‌کنم)",
-      "I do (yardım ediyorum: I'm helping)"
-    ],
-    "evden": [
-      "از خانه",
-      "from home"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a district of Şişli)"
-    ],
-    "kazanıyor": [
-      "دارد می‌بَرَد",
-      "is winning"
-    ],
-    "kimsin": [
-      "کی هستی؟",
-      "who are you?"
-    ],
-    "komşu": [
-      "همسایه",
-      "neighbour"
-    ],
-    "mecidiyeköy": [
-      "مجیدیه‌کؤی (محله‌ای در شیشلی)",
-      "Mecidiyeköy (a district of Şişli)"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ]
+    "asansör": {
+      "fa": "آسانسور",
+      "en": "lift, elevator"
+    },
+    "beşiktaş": {
+      "fa": "بشیکتاش (محله و تیمِ فوتبال)",
+      "en": "Beşiktaş (a district and its football club)"
+    },
+    "ediyorum": {
+      "fa": "می‌کنم (yardım ediyorum: کمک می‌کنم)",
+      "en": "I do (yardım ediyorum: I'm helping)"
+    },
+    "evden": {
+      "fa": "از خانه",
+      "en": "from home"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a district of Şişli)"
+    },
+    "kazanıyor": {
+      "fa": "دارد می‌بَرَد",
+      "en": "is winning"
+    },
+    "kimsin": {
+      "fa": "کی هستی؟",
+      "en": "who are you?"
+    },
+    "komşu": {
+      "fa": "همسایه",
+      "en": "neighbour"
+    },
+    "mecidiyeköy": {
+      "fa": "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "en": "Mecidiyeköy (a district of Şişli)"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    }
   },
   "id": "s1e13",
   "kind": "episode",
@@ -193,41 +193,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Who is the taxi driver?",
-      "fa": "راننده‌ی تاکسی کیست؟",
       "kind": "comp",
       "options": [
         "Serkan",
         "Farzad",
         "Ömer"
       ],
-      "q": "Şoför kim?",
+      "q": {
+        "tr": "Şoför kim?",
+        "en": "Who is the taxi driver?",
+        "fa": "راننده‌ی تاکسی کیست؟"
+      },
       "why": "Serkan: “Nereye gidiyoruz?”"
     },
     {
       "a": 0,
-      "en": "Serkan asks “Nereden geliyorsunuz?” (Where are you coming from?) What does Nima answer?",
-      "fa": "سرکان می‌پرسد «Nereden geliyorsunuz?» (از کجا می‌آیید؟). نیما چه جواب می‌دهد؟",
       "kind": "word",
       "options": [
         "Mecidiyeköy'den.",
         "Feriköy'e.",
         "Feriköy'de."
       ],
-      "q": "Serkan: “Nereden geliyorsunuz?” Nima: “…”",
+      "q": {
+        "tr": "Serkan: “Nereden geliyorsunuz?” Nima: “…”",
+        "en": "Serkan asks “Nereden geliyorsunuz?” (Where are you coming from?) What does Nima answer?",
+        "fa": "سرکان می‌پرسد «Nereden geliyorsunuz?» (از کجا می‌آیید؟). نیما چه جواب می‌دهد؟"
+      },
       "why": "Nima: “Mecidiyeköy'den.”"
     },
     {
       "a": 0,
-      "en": "Which floor do Serkan and Ömer live on?",
-      "fa": "سرکان و عمر در کدام طبقه زندگی می‌کنند؟",
       "kind": "comp",
       "options": [
         "İkinci kat",
         "Dördüncü kat",
         "Birinci kat"
       ],
-      "q": "Serkan ve Ömer kaçıncı katta oturuyorlar?",
+      "q": {
+        "tr": "Serkan ve Ömer kaçıncı katta oturuyorlar?",
+        "en": "Which floor do Serkan and Ömer live on?",
+        "fa": "سرکان و عمر در کدام طبقه زندگی می‌کنند؟"
+      },
       "why": "Serkan: “Ben de burada oturuyorum! İkinci kat!”"
     }
   ],
@@ -606,11 +612,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Moving day: Nima and Farzad take the boxes to Feriköy by taxi. The driver, Serkan, a Beşiktaş fan, turns out to live in the same building, with his son Ömer.",
-  "summaryFa": "روزِ اسباب‌کشی: نیما و فرزاد جعبه‌ها را با تاکسی به فری‌کؤی می‌برند. راننده، سرکان، طرفدارِ بشیکتاش است و معلوم می‌شود با پسرش عمر در همان ساختمان زندگی می‌کند.",
-  "title": "Feriköy'e!",
-  "titleEn": "To Feriköy!",
-  "titleFa": "به فری‌کؤی!",
+  "summary": {
+    "en": "Moving day: Nima and Farzad take the boxes to Feriköy by taxi. The driver, Serkan, a Beşiktaş fan, turns out to live in the same building, with his son Ömer.",
+    "fa": "روزِ اسباب‌کشی: نیما و فرزاد جعبه‌ها را با تاکسی به فری‌کؤی می‌برند. راننده، سرکان، طرفدارِ بشیکتاش است و معلوم می‌شود با پسرش عمر در همان ساختمان زندگی می‌کند."
+  },
+  "title": {
+    "tr": "Feriköy'e!",
+    "en": "To Feriköy!",
+    "fa": "به فری‌کؤی!"
+  },
   "words": [
     "seed-w24",
     "a1-w-oturmak",

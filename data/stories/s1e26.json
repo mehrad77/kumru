@@ -91,58 +91,58 @@
     }
   ],
   "gl": {
-    "ediyorum": [
-      "می‌کنم (از etmek)؛ «kahvaltı ediyorum» یعنی صبحانه می‌خورم",
-      "I do (from etmek); “kahvaltı ediyorum”: I have breakfast"
-    ],
-    "hocam": [
-      "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
-      "my teacher (how students address a teacher)"
-    ],
-    "hostelde": [
-      "در یک هاستل (مسافرخانه‌ی ارزان)",
-      "at a hostel"
-    ],
-    "ikide": [
-      "در دو؛ «saat on ikide» یعنی ساعتِ دوازده",
-      "at two; “saat on ikide”: at twelve"
-    ],
-    "ikiye": [
-      "به دو؛ «on ikiye kadar» یعنی تا دوازده",
-      "to two; “on ikiye kadar”: until twelve"
-    ],
-    "kadıköy": [
-      "کادیکوی (محله‌ای در بخشِ آسیاییِ استانبول)",
-      "Kadıköy (a district on the Asian side)"
-    ],
-    "musunuz": [
-      "آیا (شما)…؟ (پرسش)",
-      "question word (you, polite)"
-    ],
-    "pratiği": [
-      "تمرین؛ «konuşma pratiği» یعنی تمرینِ مکالمه",
-      "practice; “konuşma pratiği”: speaking practice"
-    ],
-    "saatiyle": [
-      "با ساعتِ …؛ «Tahran saatiyle» یعنی به وقتِ تهران",
-      "by … time; “Tahran saatiyle”: by Tehran time"
-    ],
-    "tahran": [
-      "تهران",
-      "Tehran"
-    ],
-    "uykulu": [
-      "خواب‌آلود",
-      "sleepy"
-    ],
-    "yarısı": [
-      "نیمه؛ «gece yarısına kadar» یعنی تا نیمه‌شب",
-      "half; “gece yarısına kadar”: until midnight"
-    ],
-    "zafer": [
-      "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
-      "Zafer (a name; the word means victory)"
-    ]
+    "ediyorum": {
+      "fa": "می‌کنم (از etmek)؛ «kahvaltı ediyorum» یعنی صبحانه می‌خورم",
+      "en": "I do (from etmek); “kahvaltı ediyorum”: I have breakfast"
+    },
+    "hocam": {
+      "fa": "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
+      "en": "my teacher (how students address a teacher)"
+    },
+    "hostelde": {
+      "fa": "در یک هاستل (مسافرخانه‌ی ارزان)",
+      "en": "at a hostel"
+    },
+    "ikide": {
+      "fa": "در دو؛ «saat on ikide» یعنی ساعتِ دوازده",
+      "en": "at two; “saat on ikide”: at twelve"
+    },
+    "ikiye": {
+      "fa": "به دو؛ «on ikiye kadar» یعنی تا دوازده",
+      "en": "to two; “on ikiye kadar”: until twelve"
+    },
+    "kadıköy": {
+      "fa": "کادیکوی (محله‌ای در بخشِ آسیاییِ استانبول)",
+      "en": "Kadıköy (a district on the Asian side)"
+    },
+    "musunuz": {
+      "fa": "آیا (شما)…؟ (پرسش)",
+      "en": "question word (you, polite)"
+    },
+    "pratiği": {
+      "fa": "تمرین؛ «konuşma pratiği» یعنی تمرینِ مکالمه",
+      "en": "practice; “konuşma pratiği”: speaking practice"
+    },
+    "saatiyle": {
+      "fa": "با ساعتِ …؛ «Tahran saatiyle» یعنی به وقتِ تهران",
+      "en": "by … time; “Tahran saatiyle”: by Tehran time"
+    },
+    "tahran": {
+      "fa": "تهران",
+      "en": "Tehran"
+    },
+    "uykulu": {
+      "fa": "خواب‌آلود",
+      "en": "sleepy"
+    },
+    "yarısı": {
+      "fa": "نیمه؛ «gece yarısına kadar» یعنی تا نیمه‌شب",
+      "en": "half; “gece yarısına kadar”: until midnight"
+    },
+    "zafer": {
+      "fa": "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
+      "en": "Zafer (a name; the word means victory)"
+    }
   },
   "id": "s1e26",
   "kind": "episode",
@@ -215,41 +215,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What time does Zafer Hoca get up?",
-      "fa": "استاد ظفر ساعتِ چند بیدار می‌شود؟",
       "kind": "comp",
       "options": [
         "Altıda",
         "Yedide",
         "On birde"
       ],
-      "q": "Zafer Hoca saat kaçta kalkıyor?",
+      "q": {
+        "tr": "Zafer Hoca saat kaçta kalkıyor?",
+        "en": "What time does Zafer Hoca get up?",
+        "fa": "استاد ظفر ساعتِ چند بیدار می‌شود؟"
+      },
       "why": "Zafer Hoca: “Ben genellikle saat altıda kalkıyorum.”"
     },
     {
       "a": 0,
-      "en": "“But sometimes I read the homework.” Bazen means…",
-      "fa": "«Ama bazen ödevleri okuyorum.» Bazen یعنی…",
       "kind": "word",
       "options": [
         "Her zaman değil",
         "Her zaman",
         "Hiçbir zaman"
       ],
-      "q": "“Ama bazen ödevleri okuyorum.” Bazen: …",
+      "q": {
+        "tr": "“Ama bazen ödevleri okuyorum.” Bazen: …",
+        "en": "“But sometimes I read the homework.” Bazen means…",
+        "fa": "«Ama bazen ödevleri okuyorum.» Bazen یعنی…"
+      },
       "why": "Zafer Hoca: “Ama bazen ödevleri okuyorum… gece yarısına kadar!”"
     },
     {
       "a": 0,
-      "en": "When does Alex work?",
-      "fa": "الکس کِی کار می‌کند؟",
       "kind": "comp",
       "options": [
         "Saat on birden yediye kadar",
         "Saat dokuzdan on ikiye kadar",
         "Öğle yemeğinde"
       ],
-      "q": "Alex ne zaman çalışıyor?",
+      "q": {
+        "tr": "Alex ne zaman çalışıyor?",
+        "en": "When does Alex work?",
+        "fa": "الکس کِی کار می‌کند؟"
+      },
       "why": "Alex: “Saat on birden yediye kadar.”"
     }
   ],
@@ -614,11 +620,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The Tehran-time watch strikes again: Nima walks into class 504 at half past eight and finds only Zafer Hoca. They talk about their days, fix a time for speaking practice, and at nine Alex says why he is always so sleepy.",
-  "summaryFa": "ساعتِ تهرانی باز کار دستِ نیما می‌دهد: نیما ساعتِ هشت و نیم به کلاسِ ۵۰۴ می‌رسد و فقط استاد ظفر آن‌جاست. از روزشان حرف می‌زنند، برای تمرینِ مکالمه قرار می‌گذارند، و ساعتِ نه الکس می‌گوید چرا همیشه خواب‌آلود است.",
-  "title": "Saat kaçta?",
-  "titleEn": "At what time?",
-  "titleFa": "ساعتِ چند؟",
+  "summary": {
+    "en": "The Tehran-time watch strikes again: Nima walks into class 504 at half past eight and finds only Zafer Hoca. They talk about their days, fix a time for speaking practice, and at nine Alex says why he is always so sleepy.",
+    "fa": "ساعتِ تهرانی باز کار دستِ نیما می‌دهد: نیما ساعتِ هشت و نیم به کلاسِ ۵۰۴ می‌رسد و فقط استاد ظفر آن‌جاست. از روزشان حرف می‌زنند، برای تمرینِ مکالمه قرار می‌گذارند، و ساعتِ نه الکس می‌گوید چرا همیشه خواب‌آلود است."
+  },
+  "title": {
+    "tr": "Saat kaçta?",
+    "en": "At what time?",
+    "fa": "ساعتِ چند؟"
+  },
   "words": [
     "a1-w-kahvalti-etmek",
     "a1-w-yatmak",

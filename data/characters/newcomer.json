@@ -90,8 +90,10 @@
     "skin": "skin_07",
     "v": 1
   },
-  "bio": "A new student who walks into Berfin's café with a suitcase, lost, phone dead; later stuck on a Unit 2 workbook at the library.",
-  "bioFa": "دانشجویی تازه که با چمدان، گم‌شده و با گوشیِ خاموش، واردِ کافهٔ برفین می‌شود؛ بعد در کتابخانه سرِ کتابِ کارِ درسِ ۲ گیر می‌کند.",
+  "bio": {
+    "en": "A new student who walks into Berfin's café with a suitcase, lost, phone dead; later stuck on a Unit 2 workbook at the library.",
+    "fa": "دانشجویی تازه که با چمدان، گم‌شده و با گوشیِ خاموش، واردِ کافهٔ برفین می‌شود؛ بعد در کتابخانه سرِ کتابِ کارِ درسِ ۲ گیر می‌کند."
+  },
   "circle": "guest",
   "color": "#9AA0A6",
   "id": "newcomer",
@@ -105,8 +107,10 @@
     ],
     "tempo": 0.9
   },
-  "name": "Yeni öğrenci",
-  "nameFa": "دانشجوی تازه",
+  "name": {
+    "tr": "Yeni öğrenci",
+    "fa": "دانشجوی تازه"
+  },
   "order": 21,
   "outfits": {
     "library": {
@@ -117,8 +121,10 @@
     "cafe_berfin",
     "library_ibb"
   ],
-  "role": "A new student, unnamed",
-  "roleFa": "دانشجویی تازه، بی‌نام",
+  "role": {
+    "en": "A new student, unnamed",
+    "fa": "دانشجویی تازه، بی‌نام"
+  },
   "voice": {
     "pitch": 1.0,
     "rate": 1.0

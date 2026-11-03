@@ -80,94 +80,94 @@
     }
   ],
   "gl": {
-    "ailesi": [
-      "خانواده‌اش",
-      "his/her family"
-    ],
-    "atina": [
-      "آتن (پایتختِ یونان)",
-      "Athens"
-    ],
-    "balon": [
-      "بادکنک",
-      "balloon"
-    ],
-    "beri": [
-      "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
-      "since; “-DAn beri”: since"
-    ],
-    "eleni": [
-      "النی (اسم)",
-      "Eleni (a name)"
-    ],
-    "gününüz": [
-      "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
-      "your day; “doğum gününüz”: your birthday"
-    ],
-    "gününüzde": [
-      "در روزِ شما؛ «doğum gününüzde» یعنی در تولدتان",
-      "on your day; “doğum gününüzde”: on your birthday"
-    ],
-    "komşularımız": [
-      "همسایه‌هایمان",
-      "our neighbours"
-    ],
-    "ku": [
-      "کو (صدای کریم)",
-      "coo (Kerim's call)"
-    ],
-    "kutlu": [
-      "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
-      "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
-    ],
-    "kırlangıç": [
-      "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
-      "Kırlangıç (a name; the word means swallow)"
-    ],
-    "metroda": [
-      "در مترو",
-      "on the metro"
-    ],
-    "mum": [
-      "شمع",
-      "candle"
-    ],
-    "mutlu yıllar sana": [
-      "تولدت مبارک (آوازِ تولد)",
-      "happy birthday to you (the birthday song)"
-    ],
-    "perşembeden": [
-      "از پنجشنبه؛ «perşembeden beri» یعنی از پنجشنبه تا حالا",
-      "from Thursday; “perşembeden beri”: since Thursday"
-    ],
-    "yakaladım": [
-      "گرفتمش! (از yakalamak)",
-      "I caught it! (from yakalamak)"
-    ],
-    "yavrum": [
-      "عزیزم، بچه‌جان (برای کوچک‌ترها)",
-      "my dear (to someone younger)"
-    ],
-    "yiyorum": [
-      "می‌خورم (از yemek)",
-      "I'm eating (from yemek)"
-    ],
-    "yıllar": [
-      "سال‌ها؛ «Mutlu yıllar sana» یعنی تولدت مبارک (آواز)",
-      "years; “Mutlu yıllar sana”: happy birthday to you (the song)"
-    ],
-    "çayla": [
-      "با چای",
-      "with tea"
-    ],
-    "şal": [
-      "شال",
-      "shawl"
-    ],
-    "şerefe": [
-      "به سلامتی! (موقعِ بالا بردنِ لیوان)",
-      "cheers! (raising a glass)"
-    ]
+    "ailesi": {
+      "fa": "خانواده‌اش",
+      "en": "his/her family"
+    },
+    "atina": {
+      "fa": "آتن (پایتختِ یونان)",
+      "en": "Athens"
+    },
+    "balon": {
+      "fa": "بادکنک",
+      "en": "balloon"
+    },
+    "beri": {
+      "fa": "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "en": "since; “-DAn beri”: since"
+    },
+    "eleni": {
+      "fa": "النی (اسم)",
+      "en": "Eleni (a name)"
+    },
+    "gününüz": {
+      "fa": "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "en": "your day; “doğum gününüz”: your birthday"
+    },
+    "gününüzde": {
+      "fa": "در روزِ شما؛ «doğum gününüzde» یعنی در تولدتان",
+      "en": "on your day; “doğum gününüzde”: on your birthday"
+    },
+    "komşularımız": {
+      "fa": "همسایه‌هایمان",
+      "en": "our neighbours"
+    },
+    "ku": {
+      "fa": "کو (صدای کریم)",
+      "en": "coo (Kerim's call)"
+    },
+    "kutlu": {
+      "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "en": "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "en": "Kırlangıç (a name; the word means swallow)"
+    },
+    "metroda": {
+      "fa": "در مترو",
+      "en": "on the metro"
+    },
+    "mum": {
+      "fa": "شمع",
+      "en": "candle"
+    },
+    "mutlu yıllar sana": {
+      "fa": "تولدت مبارک (آوازِ تولد)",
+      "en": "happy birthday to you (the birthday song)"
+    },
+    "perşembeden": {
+      "fa": "از پنجشنبه؛ «perşembeden beri» یعنی از پنجشنبه تا حالا",
+      "en": "from Thursday; “perşembeden beri”: since Thursday"
+    },
+    "yakaladım": {
+      "fa": "گرفتمش! (از yakalamak)",
+      "en": "I caught it! (from yakalamak)"
+    },
+    "yavrum": {
+      "fa": "عزیزم، بچه‌جان (برای کوچک‌ترها)",
+      "en": "my dear (to someone younger)"
+    },
+    "yiyorum": {
+      "fa": "می‌خورم (از yemek)",
+      "en": "I'm eating (from yemek)"
+    },
+    "yıllar": {
+      "fa": "سال‌ها؛ «Mutlu yıllar sana» یعنی تولدت مبارک (آواز)",
+      "en": "years; “Mutlu yıllar sana”: happy birthday to you (the song)"
+    },
+    "çayla": {
+      "fa": "با چای",
+      "en": "with tea"
+    },
+    "şal": {
+      "fa": "شال",
+      "en": "shawl"
+    },
+    "şerefe": {
+      "fa": "به سلامتی! (موقعِ بالا بردنِ لیوان)",
+      "en": "cheers! (raising a glass)"
+    }
   },
   "id": "s1e30",
   "kind": "special",
@@ -330,41 +330,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "How many candles are there?",
-      "fa": "چند شمع هست؟",
       "kind": "comp",
       "options": [
         "Sekiz",
         "Seksen",
         "On"
       ],
-      "q": "Kaç mum var?",
+      "q": {
+        "tr": "Kaç mum var?",
+        "en": "How many candles are there?",
+        "fa": "چند شمع هست؟"
+      },
       "why": "Ömer: “Sekiz mum! Bir mum, on yıl!”"
     },
     {
       "a": 0,
-      "en": "“Sekiz mum!” What is a candle for here?",
-      "fa": "«Sekiz mum!» شمع برای چیست؟",
       "kind": "word",
       "options": [
         "Pasta için",
         "Çay için",
         "Şal için"
       ],
-      "q": "“Sekiz mum!” Mum ne için?",
+      "q": {
+        "tr": "“Sekiz mum!” Mum ne için?",
+        "en": "“Sekiz mum!” What is a candle for here?",
+        "fa": "«Sekiz mum!» شمع برای چیست؟"
+      },
       "why": "Ömer: “Sekiz mum! Bir mum, on yıl! Şimdi şarkı söylüyoruz!”"
     },
     {
       "a": 0,
-      "en": "Where did Eleni and her family go?",
-      "fa": "النی و خانواده‌اش کجا رفتند؟",
       "kind": "comp",
       "options": [
         "Atina'ya",
         "Okula",
         "Kadıköy'e"
       ],
-      "q": "Eleni ve ailesi nereye gitti?",
+      "q": {
+        "tr": "Eleni ve ailesi nereye gitti?",
+        "en": "Where did Eleni and her family go?",
+        "fa": "النی و خانواده‌اش کجا رفتند؟"
+      },
       "why": "Maria Teyze: “Sonra… onlar gittiler. Atina'ya.”"
     }
   ],
@@ -1035,11 +1041,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Maria Teyze's surprise 80th on the roof: a shawl, flowers, a card, a cake with eight candles and a speech. Then she tells of her tenth birthday on the same roof, seventy years ago, and the first lodos of the autumn carries the balloons away.",
-  "summaryFa": "جشنِ غافلگیریِ هشتاد سالگیِ خاله ماریا روی پشت‌بام: یک شال، گل، یک کارت، کیکی با هشت شمع و یک سخنرانی. بعد او از تولدِ ده سالگی‌اش روی همین پشت‌بام، هفتاد سال پیش، می‌گوید، و اولین بادِ لودوسِ پاییز بادکنک‌ها را با خود می‌برد.",
-  "title": "Seksen mum",
-  "titleEn": "Eighty candles",
-  "titleFa": "هشتاد شمع",
+  "summary": {
+    "en": "Maria Teyze's surprise 80th on the roof: a shawl, flowers, a card, a cake with eight candles and a speech. Then she tells of her tenth birthday on the same roof, seventy years ago, and the first lodos of the autumn carries the balloons away.",
+    "fa": "جشنِ غافلگیریِ هشتاد سالگیِ خاله ماریا روی پشت‌بام: یک شال، گل، یک کارت، کیکی با هشت شمع و یک سخنرانی. بعد او از تولدِ ده سالگی‌اش روی همین پشت‌بام، هفتاد سال پیش، می‌گوید، و اولین بادِ لودوسِ پاییز بادکنک‌ها را با خود می‌برد."
+  },
+  "title": {
+    "tr": "Seksen mum",
+    "en": "Eighty candles",
+    "fa": "هشتاد شمع"
+  },
   "words": [
     "a1-w-dogum-gunu",
     "a1-w-pasta",

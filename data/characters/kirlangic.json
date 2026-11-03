@@ -101,8 +101,10 @@
       }
     }
   },
-  "bio": "Iranian, a TÖMER student a few levels above Nima, and Rayan's mother. The experienced learner: she explains, translates and shows where Nima is heading. She knits.",
-  "bioFa": "ایرانی، دانشجوی تومر چند سطح بالاتر از نیما، و مادرِ رایان. زبان‌آموزِ باتجربه: توضیح می‌دهد، ترجمه می‌کند و نشان می‌دهد نیما به کجا می‌رود. بافتنی می‌بافد.",
+  "bio": {
+    "en": "Iranian, a TÖMER student a few levels above Nima, and Rayan's mother. The experienced learner: she explains, translates and shows where Nima is heading. She knits.",
+    "fa": "ایرانی، دانشجوی تومر چند سطح بالاتر از نیما، و مادرِ رایان. زبان‌آموزِ باتجربه: توضیح می‌دهد، ترجمه می‌کند و نشان می‌دهد نیما به کجا می‌رود. بافتنی می‌بافد."
+  },
   "circle": "old_friends",
   "color": "#2F5D8A",
   "id": "kirlangic",
@@ -116,8 +118,10 @@
     ],
     "tempo": 1
   },
-  "name": "Kırlangıç",
-  "nameFa": "پرستو",
+  "name": {
+    "tr": "Kırlangıç",
+    "fa": "پرستو"
+  },
   "order": 4,
   "outfits": {
     "indoor": {
@@ -154,8 +158,10 @@
     "park_ferikoy",
     "vapur"
   ],
-  "role": "The experienced learner; Rayan's mother",
-  "roleFa": "زبان‌آموزِ باتجربه؛ مادرِ رایان",
+  "role": {
+    "en": "The experienced learner; Rayan's mother",
+    "fa": "زبان‌آموزِ باتجربه؛ مادرِ رایان"
+  },
   "voice": {
     "pitch": 1.1,
     "rate": 0.95

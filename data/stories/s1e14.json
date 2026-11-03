@@ -87,54 +87,54 @@
     }
   ],
   "gl": {
-    "buyurun": [
-      "بفرمایید",
-      "here you are; please (offering)"
-    ],
-    "hastaneye": [
-      "به بیمارستان",
-      "to the hospital"
-    ],
-    "hemşireyim": [
-      "پرستارم",
-      "I'm a nurse"
-    ],
-    "komşusun": [
-      "همسایه‌ای (تو همسایه هستی)",
-      "you're the neighbour"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "metroya": [
-      "به مترو؛ (سوارِ) مترو",
-      "to the metro; (onto) the metro"
-    ],
-    "musun": [
-      "(نشانه‌ی سؤال) …ی؟",
-      "(question word) are you…?"
-    ],
-    "naziksiniz": [
-      "لطف دارید؛ مهربانید",
-      "you're kind"
-    ],
-    "otobüse": [
-      "به اتوبوس؛ (سوارِ) اتوبوس",
-      "to the bus; (onto) the bus"
-    ],
-    "teyze": [
-      "خاله؛ (برای خانمِ مسن) مادرجان",
-      "auntie (said to any older woman)"
-    ],
-    "ömer": [
-      "عمر (پسرِ الیف)",
-      "Ömer (Elif's son)"
-    ],
-    "şişli": [
-      "شیشلی (محله‌ای در استانبول)",
-      "Şişli (a district of Istanbul)"
-    ]
+    "buyurun": {
+      "fa": "بفرمایید",
+      "en": "here you are; please (offering)"
+    },
+    "hastaneye": {
+      "fa": "به بیمارستان",
+      "en": "to the hospital"
+    },
+    "hemşireyim": {
+      "fa": "پرستارم",
+      "en": "I'm a nurse"
+    },
+    "komşusun": {
+      "fa": "همسایه‌ای (تو همسایه هستی)",
+      "en": "you're the neighbour"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "metroya": {
+      "fa": "به مترو؛ (سوارِ) مترو",
+      "en": "to the metro; (onto) the metro"
+    },
+    "musun": {
+      "fa": "(نشانه‌ی سؤال) …ی؟",
+      "en": "(question word) are you…?"
+    },
+    "naziksiniz": {
+      "fa": "لطف دارید؛ مهربانید",
+      "en": "you're kind"
+    },
+    "otobüse": {
+      "fa": "به اتوبوس؛ (سوارِ) اتوبوس",
+      "en": "to the bus; (onto) the bus"
+    },
+    "teyze": {
+      "fa": "خاله؛ (برای خانمِ مسن) مادرجان",
+      "en": "auntie (said to any older woman)"
+    },
+    "ömer": {
+      "fa": "عمر (پسرِ الیف)",
+      "en": "Ömer (Elif's son)"
+    },
+    "şişli": {
+      "fa": "شیشلی (محله‌ای در استانبول)",
+      "en": "Şişli (a district of Istanbul)"
+    }
   },
   "id": "s1e14",
   "kind": "episode",
@@ -171,41 +171,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Where is Elif going?",
-      "fa": "الیف کجا می‌رود؟",
       "kind": "comp",
       "options": [
         "Hastaneye",
         "Okula",
         "Taksim'e"
       ],
-      "q": "Elif nereye gidiyor?",
+      "q": {
+        "tr": "Elif nereye gidiyor?",
+        "en": "Where is Elif going?",
+        "fa": "الیف کجا می‌رود؟"
+      },
       "why": "Elif: “Hastaneye gidiyorum.”"
     },
     {
       "a": 0,
-      "en": "“Binmek” means to get on (a bus, the metro). Elif asks “Otobüse binmiyor musun?” What does Nima say?",
-      "fa": "‏«binmek» یعنی سوار شدن. الیف می‌پرسد «Otobüse binmiyor musun?» نیما چه می‌گوید؟",
       "kind": "word",
       "options": [
         "Hayır, binmiyorum.",
         "Hayır, inmiyorum.",
         "Hayır, uyumuyorum."
       ],
-      "q": "Elif: “Otobüse binmiyor musun?” Nima: “…”",
+      "q": {
+        "tr": "Elif: “Otobüse binmiyor musun?” Nima: “…”",
+        "en": "“Binmek” means to get on (a bus, the metro). Elif asks “Otobüse binmiyor musun?” What does Nima say?",
+        "fa": "‏«binmek» یعنی سوار شدن. الیف می‌پرسد «Otobüse binmiyor musun?» نیما چه می‌گوید؟"
+      },
       "why": "Nima: “Hayır, binmiyorum.”"
     },
     {
       "a": 0,
-      "en": "Where does Nima get off?",
-      "fa": "نیما کجا پیاده می‌شود؟",
       "kind": "comp",
       "options": [
         "Taksim'de",
         "Osmanbey'de",
         "Şişli'de"
       ],
-      "q": "Nima nerede iniyor?",
+      "q": {
+        "tr": "Nima nerede iniyor?",
+        "en": "Where does Nima get off?",
+        "fa": "نیما کجا پیاده می‌شود؟"
+      },
       "why": "Nima: “Evet, Taksim'de iniyorum!”"
     }
   ],
@@ -635,11 +641,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Nima's first commute from Feriköy: Elif from downstairs walks with Nima to Osmanbey, and on the packed M2 an older lady with a shopping trolley needs a seat.",
-  "summaryFa": "اولین رفت‌وآمدِ نیما از فری‌کؤی: الیف، همسایه‌ی طبقه‌ی پایین، با نیما تا عثمان‌بی پیاده می‌رود، و در متروی شلوغِ M2 یک خانمِ مسن با چرخ‌دستیِ خرید به یک صندلی نیاز دارد.",
-  "title": "Metro geliyor mu?",
-  "titleEn": "Is the metro coming?",
-  "titleFa": "مترو می‌آید؟",
+  "summary": {
+    "en": "Nima's first commute from Feriköy: Elif from downstairs walks with Nima to Osmanbey, and on the packed M2 an older lady with a shopping trolley needs a seat.",
+    "fa": "اولین رفت‌وآمدِ نیما از فری‌کؤی: الیف، همسایه‌ی طبقه‌ی پایین، با نیما تا عثمان‌بی پیاده می‌رود، و در متروی شلوغِ M2 یک خانمِ مسن با چرخ‌دستیِ خرید به یک صندلی نیاز دارد."
+  },
+  "title": {
+    "tr": "Metro geliyor mu?",
+    "en": "Is the metro coming?",
+    "fa": "مترو می‌آید؟"
+  },
   "words": [
     "a1-w-uyumak",
     "a1-w-kalkmak",

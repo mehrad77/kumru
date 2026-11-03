@@ -94,42 +94,42 @@
     }
   ],
   "gl": {
-    "gençsiniz": [
-      "جوانید",
-      "you are young (siz)"
-    ],
-    "hocam": [
-      "استاد (خطابِ شاگرد به معلم)",
-      "Hocam: “my teacher”, how students address a teacher"
-    ],
-    "komşu": [
-      "همسایه",
-      "neighbour"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "musun": [
-      "…ی؟ (پرسش، تو)",
-      "are you…? (the question, sen)"
-    ],
-    "musunuz": [
-      "…ید؟ (پرسش، شما)",
-      "are you…? (the question, siz)"
-    ],
-    "polisim": [
-      "پلیسم",
-      "I'm a police officer"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name; the word means “victory”)"
-    ],
-    "şoförüm": [
-      "راننده‌ام",
-      "I'm a driver"
-    ]
+    "gençsiniz": {
+      "fa": "جوانید",
+      "en": "you are young (siz)"
+    },
+    "hocam": {
+      "fa": "استاد (خطابِ شاگرد به معلم)",
+      "en": "Hocam: “my teacher”, how students address a teacher"
+    },
+    "komşu": {
+      "fa": "همسایه",
+      "en": "neighbour"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "musun": {
+      "fa": "…ی؟ (پرسش، تو)",
+      "en": "are you…? (the question, sen)"
+    },
+    "musunuz": {
+      "fa": "…ید؟ (پرسش، شما)",
+      "en": "are you…? (the question, siz)"
+    },
+    "polisim": {
+      "fa": "پلیسم",
+      "en": "I'm a police officer"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name; the word means “victory”)"
+    },
+    "şoförüm": {
+      "fa": "راننده‌ام",
+      "en": "I'm a driver"
+    }
   },
   "id": "s1e10",
   "kind": "episode",
@@ -182,41 +182,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Is the flat nice? How many say “yes”?",
-      "fa": "خانه قشنگ است؟ چند نفر می‌گویند «بله»؟",
       "kind": "comp",
       "options": [
         "Üç",
         "Bir",
         "Beş"
       ],
-      "q": "Ev güzel mi? “Evet”: kaç kişi?",
+      "q": {
+        "tr": "Ev güzel mi? “Evet”: kaç kişi?",
+        "en": "Is the flat nice? How many say “yes”?",
+        "fa": "خانه قشنگ است؟ چند نفر می‌گویند «بله»؟"
+      },
       "why": "Zafer Hoca: “Evet: bir, iki, üç. Hayır: bir.”"
     },
     {
       "a": 0,
-      "en": "Zafer Hoca: “Are you tired?” Nima: “No, I'm not …!”",
-      "fa": "استاد ظفر: «خسته‌اید؟» نیما: «نه، … نیستم!»",
       "kind": "word",
       "options": [
         "yorgun",
         "mutlu",
         "hasta"
       ],
-      "q": "Zafer Hoca: “Yorgun musunuz?” Nima: “Hayır, … değilim!”",
+      "q": {
+        "tr": "Zafer Hoca: “Yorgun musunuz?” Nima: “Hayır, … değilim!”",
+        "en": "Zafer Hoca: “Are you tired?” Nima: “No, I'm not …!”",
+        "fa": "استاد ظفر: «خسته‌اید؟» نیما: «نه، … نیستم!»"
+      },
       "why": "Nima: “Hayır, yorgun değilim!”"
     },
     {
       "a": 0,
-      "en": "The flat: yes or no?",
-      "fa": "خانه: بله یا نه؟",
       "kind": "comp",
       "options": [
         "Evet",
         "Hayır",
         "Yok"
       ],
-      "q": "Ev: evet mi, hayır mı?",
+      "q": {
+        "tr": "Ev: evet mi, hayır mı?",
+        "en": "The flat: yes or no?",
+        "fa": "خانه: بله یا نه؟"
+      },
       "why": "Farzad: “Tamam! Cuma: evet!”"
     }
   ],
@@ -578,11 +584,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Zafer Hoca puts on job hats to teach the personal endings, and Nima has to ask a stranger politely what he does. The class votes on the Feriköy flat, and that evening, at Farzad's, Nima says yes.",
-  "summaryFa": "استاد ظفر یکی‌یکی کلاهِ شغل‌های مختلف را به سر می‌گذارد تا پسوندهای شخصی را یاد بدهد و نیما باید مؤدبانه از یک غریبه بپرسد چه‌کاره است. کلاس به خانه‌ی فری‌کؤی رأی می‌دهد و آن شب، در خانه‌ی فرزاد، نیما «بله» می‌گوید.",
-  "title": "Ben öğrenciyim",
-  "titleEn": "I'm a student",
-  "titleFa": "من دانشجوام",
+  "summary": {
+    "en": "Zafer Hoca puts on job hats to teach the personal endings, and Nima has to ask a stranger politely what he does. The class votes on the Feriköy flat, and that evening, at Farzad's, Nima says yes.",
+    "fa": "استاد ظفر یکی‌یکی کلاهِ شغل‌های مختلف را به سر می‌گذارد تا پسوندهای شخصی را یاد بدهد و نیما باید مؤدبانه از یک غریبه بپرسد چه‌کاره است. کلاس به خانه‌ی فری‌کؤی رأی می‌دهد و آن شب، در خانه‌ی فرزاد، نیما «بله» می‌گوید."
+  },
+  "title": {
+    "tr": "Ben öğrenciyim",
+    "en": "I'm a student",
+    "fa": "من دانشجوام"
+  },
   "words": [
     "a1-w-asci",
     "a1-w-yorgun",

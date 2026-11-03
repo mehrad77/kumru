@@ -80,30 +80,30 @@
     }
   ],
   "gl": {
-    "gülme": [
-      "نخند",
-      "don't laugh (gülmek: to laugh)"
-    ],
-    "ha": [
-      "ها (صدای خنده)",
-      "ha (laughter)"
-    ],
-    "kere": [
-      "بار، دفعه",
-      "times (on kere: ten times)"
-    ],
-    "musun": [
-      "آیا… تو؟ (mu + -sun، سؤال)",
-      "question particle mu + -sun (you)"
-    ],
-    "yatma": [
-      "خوابیدن (yatma saati: وقتِ خواب)",
-      "going to bed (yatma saati: bedtime)"
-    ],
-    "şarkım": [
-      "آهنگِ من",
-      "my song"
-    ]
+    "gülme": {
+      "fa": "نخند",
+      "en": "don't laugh (gülmek: to laugh)"
+    },
+    "ha": {
+      "fa": "ها (صدای خنده)",
+      "en": "ha (laughter)"
+    },
+    "kere": {
+      "fa": "بار، دفعه",
+      "en": "times (on kere: ten times)"
+    },
+    "musun": {
+      "fa": "آیا… تو؟ (mu + -sun، سؤال)",
+      "en": "question particle mu + -sun (you)"
+    },
+    "yatma": {
+      "fa": "خوابیدن (yatma saati: وقتِ خواب)",
+      "en": "going to bed (yatma saati: bedtime)"
+    },
+    "şarkım": {
+      "fa": "آهنگِ من",
+      "en": "my song"
+    }
   },
   "id": "s1e43",
   "kind": "episode",
@@ -167,41 +167,47 @@
   "quiz": [
     {
       "a": 1,
-      "en": "When is Ömer's show?",
-      "fa": "نمایشِ عمر کِی است؟",
       "kind": "comp",
       "options": [
         "Cuma",
         "Perşembe",
         "Pazartesi"
       ],
-      "q": "Ömer'in gösterisi ne zaman?",
+      "q": {
+        "tr": "Ömer'in gösterisi ne zaman?",
+        "en": "When is Ömer's show?",
+        "fa": "نمایشِ عمر کِی است؟"
+      },
       "why": "“Ama bu binada… Ömer'in gösterisi perşembe!”"
     },
     {
       "a": 0,
-      "en": "What does Ömer sing on Thursday?",
-      "fa": "عمر پنج‌شنبه چه می‌خواند؟",
       "kind": "word",
       "options": [
         "Bir şarkı",
         "Bir kitap",
         "Bir sınav"
       ],
-      "q": "Perşembe Ömer ne söylüyor?",
+      "q": {
+        "tr": "Perşembe Ömer ne söylüyor?",
+        "en": "What does Ömer sing on Thursday?",
+        "fa": "عمر پنج‌شنبه چه می‌خواند؟"
+      },
       "why": "“Sınav cuma… ama perşembe, en önemli şarkı!”"
     },
     {
       "a": 2,
-      "en": "When is Nima's exam?",
-      "fa": "امتحانِ نیما کِی است؟",
       "kind": "comp",
       "options": [
         "Perşembe",
         "Pazartesi",
         "Cuma"
       ],
-      "q": "Nima'nın sınavı ne zaman?",
+      "q": {
+        "tr": "Nima'nın sınavı ne zaman?",
+        "en": "When is Nima's exam?",
+        "fa": "امتحانِ نیما کِی است؟"
+      },
       "why": "“Pazartesi. Nima'nın sınavı cuma.”"
     }
   ],
@@ -491,11 +497,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Exam week begins, but the big event in the building is Ömer's song for Republic Day, 29 October. He rehearses it on the stairs, forgets the second verse, and looks at Nima.",
-  "summaryFa": "هفته‌ی امتحان شروع شده، ولی اتفاقِ بزرگِ ساختمان آهنگِ عمر برای جشنِ ۲۹ اکتبر است. او روی پله‌ها تمرین می‌کند، بندِ دوم یادش می‌رود و به نیما نگاه می‌کند.",
-  "title": "Prova",
-  "titleEn": "Rehearsal",
-  "titleFa": "تمرین",
+  "summary": {
+    "en": "Exam week begins, but the big event in the building is Ömer's song for Republic Day, 29 October. He rehearses it on the stairs, forgets the second verse, and looks at Nima.",
+    "fa": "هفته‌ی امتحان شروع شده، ولی اتفاقِ بزرگِ ساختمان آهنگِ عمر برای جشنِ ۲۹ اکتبر است. او روی پله‌ها تمرین می‌کند، بندِ دوم یادش می‌رود و به نیما نگاه می‌کند."
+  },
+  "title": {
+    "tr": "Prova",
+    "en": "Rehearsal",
+    "fa": "تمرین"
+  },
   "words": [
     "a1-w-sarki",
     "a1-w-soylemek",

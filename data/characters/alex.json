@@ -88,8 +88,10 @@
     "skin": "skin_01",
     "v": 1
   },
-  "bio": "In his 20s, from St Petersburg, Russia; wants to study architecture. Works nights at a hostel in Kadıköy and comes to class by ferry. Careful, with a dry humour, but slow to answer.",
-  "bioFa": "بیست‌وچند ساله، اهل سن‌پترزبورگِ روسیه؛ می‌خواهد معماری بخواند. شب‌ها در هاستلی در کادیکوی کار می‌کند و با کشتی به کلاس می‌آید. دقیق و با شوخ‌طبعیِ خشک، ولی دیر جواب می‌دهد.",
+  "bio": {
+    "en": "In his 20s, from St Petersburg, Russia; wants to study architecture. Works nights at a hostel in Kadıköy and comes to class by ferry. Careful, with a dry humour, but slow to answer.",
+    "fa": "بیست‌وچند ساله، اهل سن‌پترزبورگِ روسیه؛ می‌خواهد معماری بخواند. شب‌ها در هاستلی در کادیکوی کار می‌کند و با کشتی به کلاس می‌آید. دقیق و با شوخ‌طبعیِ خشک، ولی دیر جواب می‌دهد."
+  },
   "catch": {
     "en": "One minute… I'm thinking.",
     "fa": "یک دقیقه… دارم فکر می‌کنم.",
@@ -109,8 +111,10 @@
     ],
     "tempo": 0.9
   },
-  "name": "Alex",
-  "nameFa": "الکس",
+  "name": {
+    "tr": "Alex",
+    "fa": "الکس"
+  },
   "order": 16,
   "outfits": {
     "indoor": {
@@ -135,8 +139,10 @@
     "class504",
     "kadikoy"
   ],
-  "role": "A classmate from St Petersburg",
-  "roleFa": "هم‌کلاسی‌ای از سن‌پترزبورگ",
+  "role": {
+    "en": "A classmate from St Petersburg",
+    "fa": "هم‌کلاسی‌ای از سن‌پترزبورگ"
+  },
   "voice": {
     "pitch": 0.9,
     "rate": 0.85

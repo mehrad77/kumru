@@ -104,74 +104,74 @@
     }
   ],
   "gl": {
-    "a1": [
-      "A1 (سطحِ زبان)",
-      "A1 (a language level)"
-    ],
-    "b2": [
-      "B2 (سطحِ زبان)",
-      "B2 (a language level)"
-    ],
-    "benimki": [
-      "مالِ من",
-      "mine"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a district of Şişli)"
-    ],
-    "haftanız": [
-      "هفته‌تان (دو هفته وقت دارید)",
-      "your weeks (you have two weeks)"
-    ],
-    "konuşmanız": [
-      "مکالمه‌تان، حرف‌زدنتان",
-      "your speaking (konuşma + -nız)"
-    ],
-    "korkmayın": [
-      "نترسید",
-      "don't be afraid (to siz)"
-    ],
-    "lazım": [
-      "لازم",
-      "needed"
-    ],
-    "maria": [
-      "ماریا (اسم)",
-      "Maria (a name)"
-    ],
-    "metroyla": [
-      "با مترو",
-      "by metro"
-    ],
-    "osmanbey": [
-      "عثمان‌بی (ایستگاه مترو)",
-      "Osmanbey (a metro stop)"
-    ],
-    "prova": [
-      "آزمایشی، تمرینی",
-      "mock, rehearsal"
-    ],
-    "tolga": [
-      "تولگا (اسم)",
-      "Tolga (a name)"
-    ],
-    "tıp": [
-      "پزشکی",
-      "medicine"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name; the word means victory)"
-    ],
-    "zayıf": [
-      "ضعیف",
-      "weak"
-    ],
-    "ömer": [
-      "عمر (اسم)",
-      "Ömer (a name)"
-    ]
+    "a1": {
+      "fa": "A1 (سطحِ زبان)",
+      "en": "A1 (a language level)"
+    },
+    "b2": {
+      "fa": "B2 (سطحِ زبان)",
+      "en": "B2 (a language level)"
+    },
+    "benimki": {
+      "fa": "مالِ من",
+      "en": "mine"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a district of Şişli)"
+    },
+    "haftanız": {
+      "fa": "هفته‌تان (دو هفته وقت دارید)",
+      "en": "your weeks (you have two weeks)"
+    },
+    "konuşmanız": {
+      "fa": "مکالمه‌تان، حرف‌زدنتان",
+      "en": "your speaking (konuşma + -nız)"
+    },
+    "korkmayın": {
+      "fa": "نترسید",
+      "en": "don't be afraid (to siz)"
+    },
+    "lazım": {
+      "fa": "لازم",
+      "en": "needed"
+    },
+    "maria": {
+      "fa": "ماریا (اسم)",
+      "en": "Maria (a name)"
+    },
+    "metroyla": {
+      "fa": "با مترو",
+      "en": "by metro"
+    },
+    "osmanbey": {
+      "fa": "عثمان‌بی (ایستگاه مترو)",
+      "en": "Osmanbey (a metro stop)"
+    },
+    "prova": {
+      "fa": "آزمایشی، تمرینی",
+      "en": "mock, rehearsal"
+    },
+    "tolga": {
+      "fa": "تولگا (اسم)",
+      "en": "Tolga (a name)"
+    },
+    "tıp": {
+      "fa": "پزشکی",
+      "en": "medicine"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name; the word means victory)"
+    },
+    "zayıf": {
+      "fa": "ضعیف",
+      "en": "weak"
+    },
+    "ömer": {
+      "fa": "عمر (اسم)",
+      "en": "Ömer (a name)"
+    }
   },
   "id": "s1e39",
   "kind": "episode",
@@ -190,41 +190,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Zafer Hoca: how is Nima's speaking?",
-      "fa": "استاد ظفر: مکالمهٔ نیما چطور است؟",
       "kind": "comp",
       "options": [
         "Biraz zayıf",
         "Çok iyi",
         "Kolay"
       ],
-      "q": "Zafer Hoca: Nima'nın konuşması nasıl?",
+      "q": {
+        "tr": "Zafer Hoca: Nima'nın konuşması nasıl?",
+        "en": "Zafer Hoca: how is Nima's speaking?",
+        "fa": "استاد ظفر: مکالمهٔ نیما چطور است؟"
+      },
       "why": "Zafer Hoca: “Konuşmanız… biraz zayıf.”"
     },
     {
       "a": 0,
-      "en": "Zafer Hoca: “But …: you have two weeks.”",
-      "fa": "استاد ظفر: «ولی …: دو هفته وقت دارید.»",
       "kind": "word",
       "options": [
         "korkmayın",
         "gidin",
         "yürüyün"
       ],
-      "q": "Zafer Hoca: “Ama …: iki haftanız var.”",
+      "q": {
+        "tr": "Zafer Hoca: “Ama …: iki haftanız var.”",
+        "en": "Zafer Hoca: “But …: you have two weeks.”",
+        "fa": "استاد ظفر: «ولی …: دو هفته وقت دارید.»"
+      },
       "why": "Zafer Hoca: “Ama korkmayın: iki haftanız var.”"
     },
     {
       "a": 0,
-      "en": "Who says “Beraber çalışıyoruz” (we study together)?",
-      "fa": "چه کسی می‌گوید «Beraber çalışıyoruz» (با هم درس می‌خوانیم)؟",
       "kind": "comp",
       "options": [
         "Dilnoza",
         "Yusuf",
         "Zafer Hoca"
       ],
-      "q": "Kim “Beraber çalışıyoruz” diyor?",
+      "q": {
+        "tr": "Kim “Beraber çalışıyoruz” diyor?",
+        "en": "Who says “Beraber çalışıyoruz” (we study together)?",
+        "fa": "چه کسی می‌گوید «Beraber çalışıyoruz» (با هم درس می‌خوانیم)؟"
+      },
       "why": "Dilnoza: “Beraber çalışıyoruz.”"
     }
   ],
@@ -535,11 +541,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The mock oral exam, one student at a time. Nima answers the first questions well, then freezes on the long one. In the corridor, shy Dilnoza takes charge, and Nima decides to speak every day, starting with Tolga Bey tomorrow.",
-  "summaryFa": "امتحانِ شفاهیِ آزمایشی، نفر به نفر. نیما به سؤال‌های اول خوب جواب می‌دهد، ولی سرِ سؤالِ بلند زبانش بند می‌آید. در راهرو دلنوزای خجالتی رهبری را به دست می‌گیرد، و نیما تصمیم می‌گیرد هر روز حرف بزند؛ از فردا و از آقای تولگا شروع می‌کند.",
-  "title": "Prova sınavı",
-  "titleEn": "The mock exam",
-  "titleFa": "امتحانِ آزمایشی",
+  "summary": {
+    "en": "The mock oral exam, one student at a time. Nima answers the first questions well, then freezes on the long one. In the corridor, shy Dilnoza takes charge, and Nima decides to speak every day, starting with Tolga Bey tomorrow.",
+    "fa": "امتحانِ شفاهیِ آزمایشی، نفر به نفر. نیما به سؤال‌های اول خوب جواب می‌دهد، ولی سرِ سؤالِ بلند زبانش بند می‌آید. در راهرو دلنوزای خجالتی رهبری را به دست می‌گیرد، و نیما تصمیم می‌گیرد هر روز حرف بزند؛ از فردا و از آقای تولگا شروع می‌کند."
+  },
+  "title": {
+    "tr": "Prova sınavı",
+    "en": "The mock exam",
+    "fa": "امتحانِ آزمایشی"
+  },
   "words": [
     "seed-w24",
     "a1-w-gelmek",

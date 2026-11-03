@@ -88,66 +88,66 @@
     }
   ],
   "gl": {
-    "a": [
-      "حرفِ A",
-      "the letter A"
-    ],
-    "adınız": [
-      "اسمِ شما",
-      "your name (polite)"
-    ],
-    "beykent": [
-      "بیکنت (نامِ دانشگاه)",
-      "Beykent (the university's name)"
-    ],
-    "da": [
-      "هم",
-      "too, also"
-    ],
-    "fotoğraflar": [
-      "عکس‌ها",
-      "photos"
-    ],
-    "hadi": [
-      "بریم!؛ زود باش!",
-      "come on!; let's go!"
-    ],
-    "iranlıyım": [
-      "ایرانی‌ام",
-      "I'm from Iran"
-    ],
-    "istanbullu": [
-      "استانبولی، اهلِ استانبول",
-      "from Istanbul (İstanbullu)"
-    ],
-    "iyilik": [
-      "خوبی؛ (جوابِ «چه خبر؟») سلامتی",
-      "goodness; (answer to “Ne haber?”) all good"
-    ],
-    "kırlangıç": [
-      "پرستو (اسم)",
-      "Kırlangıç (a name; the word means “swallow”)"
-    ],
-    "nerelisiniz": [
-      "اهلِ کجا هستید؟",
-      "where are you from? (polite)"
-    ],
-    "numaralar": [
-      "شماره‌ها",
-      "numbers"
-    ],
-    "tömer": [
-      "تومر (مرکزِ آموزشِ زبانِ ترکی)",
-      "TÖMER (the university's Turkish language centre)"
-    ],
-    "özbekistanlı": [
-      "اهلِ ازبکستان",
-      "from Uzbekistan"
-    ],
-    "özbekistanlıyım": [
-      "اهلِ ازبکستانم",
-      "I'm from Uzbekistan"
-    ]
+    "a": {
+      "fa": "حرفِ A",
+      "en": "the letter A"
+    },
+    "adınız": {
+      "fa": "اسمِ شما",
+      "en": "your name (polite)"
+    },
+    "beykent": {
+      "fa": "بیکنت (نامِ دانشگاه)",
+      "en": "Beykent (the university's name)"
+    },
+    "da": {
+      "fa": "هم",
+      "en": "too, also"
+    },
+    "fotoğraflar": {
+      "fa": "عکس‌ها",
+      "en": "photos"
+    },
+    "hadi": {
+      "fa": "بریم!؛ زود باش!",
+      "en": "come on!; let's go!"
+    },
+    "iranlıyım": {
+      "fa": "ایرانی‌ام",
+      "en": "I'm from Iran"
+    },
+    "istanbullu": {
+      "fa": "استانبولی، اهلِ استانبول",
+      "en": "from Istanbul (İstanbullu)"
+    },
+    "iyilik": {
+      "fa": "خوبی؛ (جوابِ «چه خبر؟») سلامتی",
+      "en": "goodness; (answer to “Ne haber?”) all good"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسم)",
+      "en": "Kırlangıç (a name; the word means “swallow”)"
+    },
+    "nerelisiniz": {
+      "fa": "اهلِ کجا هستید؟",
+      "en": "where are you from? (polite)"
+    },
+    "numaralar": {
+      "fa": "شماره‌ها",
+      "en": "numbers"
+    },
+    "tömer": {
+      "fa": "تومر (مرکزِ آموزشِ زبانِ ترکی)",
+      "en": "TÖMER (the university's Turkish language centre)"
+    },
+    "özbekistanlı": {
+      "fa": "اهلِ ازبکستان",
+      "en": "from Uzbekistan"
+    },
+    "özbekistanlıyım": {
+      "fa": "اهلِ ازبکستانم",
+      "en": "I'm from Uzbekistan"
+    }
   },
   "id": "s1e02",
   "kind": "episode",
@@ -234,41 +234,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "“Who's that? That's Reza Bey.” Who says it?",
-      "fa": "«O kim? O Reza Bey.» را چه کسی می‌گوید؟",
       "kind": "comp",
       "options": [
         "Kırlangıç",
         "Dilnoza",
         "Nima"
       ],
-      "q": "“O kim? O Reza Bey.” Kim?",
+      "q": {
+        "tr": "“O kim? O Reza Bey.” Kim?",
+        "en": "“Who's that? That's Reza Bey.” Who says it?",
+        "fa": "«O kim? O Reza Bey.» را چه کسی می‌گوید؟"
+      },
       "why": "Kırlangıç: “Tahran! Ben İranlıyım. O kim? O Reza Bey. Hadi!”"
     },
     {
       "a": 0,
-      "en": "“Six!” “Seven!” What are these?",
-      "fa": "«Altı!» «Yedi!» این‌ها چه هستند؟",
       "kind": "word",
       "options": [
         "Numaralar",
         "Fotoğraflar",
         "Öğrenciler"
       ],
-      "q": "“Altı!” “Yedi!” Bunlar ne?",
+      "q": {
+        "tr": "“Altı!” “Yedi!” Bunlar ne?",
+        "en": "“Six!” “Seven!” What are these?",
+        "fa": "«Altı!» «Yedi!» این‌ها چه هستند؟"
+      },
       "why": "Reza Bey: “Bir numara alın, lütfen.”"
     },
     {
       "a": 0,
-      "en": "Where is Dilnoza from?",
-      "fa": "دلنوزا اهلِ کجاست؟",
       "kind": "comp",
       "options": [
         "Özbekistanlı",
         "İranlı",
         "İstanbullu"
       ],
-      "q": "Dilnoza nereli?",
+      "q": {
+        "tr": "Dilnoza nereli?",
+        "en": "Where is Dilnoza from?",
+        "fa": "دلنوزا اهلِ کجاست؟"
+      },
       "why": "Dilnoza: “Benim adım Dilnoza. Özbekistanlıyım. Memnun oldum!”"
     }
   ],
@@ -735,11 +741,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Nima has to register at TÖMER. Kırlangıç, knitting on the steps, sends Nima to Reza Bey's office, where Nima meets Dilnoza in the queue.",
-  "summaryFa": "نیما باید در تومر ثبت‌نام کند. پرستو که روی پله‌ها بافتنی می‌بافد، نیما را به دفترِ آقای رضا می‌فرستد و آن‌جا نیما در صف با دلنوزا آشنا می‌شود.",
-  "title": "Kayıt günü",
-  "titleEn": "Registration day",
-  "titleFa": "روزِ ثبت‌نام",
+  "summary": {
+    "en": "Nima has to register at TÖMER. Kırlangıç, knitting on the steps, sends Nima to Reza Bey's office, where Nima meets Dilnoza in the queue.",
+    "fa": "نیما باید در تومر ثبت‌نام کند. پرستو که روی پله‌ها بافتنی می‌بافد، نیما را به دفترِ آقای رضا می‌فرستد و آن‌جا نیما در صف با دلنوزا آشنا می‌شود."
+  },
+  "title": {
+    "tr": "Kayıt günü",
+    "en": "Registration day",
+    "fa": "روزِ ثبت‌نام"
+  },
   "words": [
     "a1-w-numara",
     "a1-w-ogrenci",

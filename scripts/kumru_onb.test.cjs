@@ -37,7 +37,7 @@ eq(personalizeStr("Ben Nima. Tahran'danım.","tr"),"Ben Mehrad. Şiraz'danım.",
 eq(personalizeStr("Nima'nın annesi için","tr"),"Mehrad'ın annesi için","name suffix");
 eq(personalizeStr("Nima's mum","en"),"Mehrad's mum","en name");
 eq(personalizeStr("مادرِ نیما","fa"),"مادرِ \u2068Mehrad\u2069","latin name isolated in persian");
-eq(personalize({who:"nima",tr:"Nima'ya bak",gl:{"nima'ya":["به نیما","to Nima"]}}),{who:"nima",tr:"Mehrad'a bak",gl:{"mehrad'a":["به \u2068Mehrad\u2069","to Mehrad"]}},"a story step and its glossary");
+eq(personalize({who:"nima",tr:"Nima'ya bak",gl:{"nima'ya":{fa:"به نیما",en:"to Nima"}}}),{who:"nima",tr:"Mehrad'a bak",gl:{"mehrad'a":{fa:"به \u2068Mehrad\u2069",en:"to Mehrad"}}},"a story step and its glossary");
 S.profile=null;
 eq(learnerBlurb().includes("Tehran"),true,"default blurb");
 S.profile={city:{raw:"Şiraz",tr:"Şiraz",en:"Shiraz"},job:{raw:"mühendis",tr:"mühendis",en:"engineer"},bio:{en:"Likes football."}};

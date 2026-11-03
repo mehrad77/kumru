@@ -1,20 +1,23 @@
-// Writes data/days.json, the A1 calendar Sahne's story check reads ($SAHNE_CONTENT/days.json: the calendar and recycle
-// rules), from the *Days* table of docs/stories/STORIES_A1.md (id, date, week, kind; the year is 2026, the A1 term,
-// docs/stories/STORIES_CALENDAR.md). The table is the one source: change it there, then run this.
+// Writes data/days.json, the release calendar in the shape Sahne's story check read before the seasons carried it
+// ($SAHNE_CONTENT/days.json: the calendar and recycle rules), from each season's `calendar` in data/seasons/s<n>.json
+// (id → date, kind, week; edited in backstage, `pnpm backstage`). The seasons are the one source: while days.json is
+// written beside them, Sahne warns when it differs. Change a date in the season, then run this.
 // node scripts/kumru_days.mjs [--check]   (--check fails when data/days.json is stale; in `pnpm check`)
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 
-const SRC = new URL("../docs/stories/STORIES_A1.md", import.meta.url);
+const SEASONS = new URL("../data/seasons/", import.meta.url);
 const OUT = new URL("../data/days.json", import.meta.url);
-const MONTHS = { Sep: "09", Oct: "10", Nov: "11", Dec: "12", Jan: "01", Feb: "02", Mar: "03" };
 
 export function daysText() {
   const days = {};
-  for (const m of readFileSync(SRC, "utf8").matchAll(/^\| (s1e\d\d) \| \w{3} (\d{1,2}) (\w{3}) \| (\d) \| (episode|special) \|/gm)) {
-    if (!MONTHS[m[3]]) throw new Error(`STORIES_A1.md: ${m[1]} has an unknown month ${m[3]}`);
-    days[m[1]] = { date: `2026-${MONTHS[m[3]]}-${m[2].padStart(2, "0")}`, kind: m[5], week: Number(m[4]) };
+  for (const f of readdirSync(SEASONS).filter((f) => /^s\d+\.json$/.test(f)).sort()) {
+    const { calendar = {} } = JSON.parse(readFileSync(new URL(f, SEASONS), "utf8"));
+    for (const [id, { date, kind, week }] of Object.entries(calendar)) {
+      if (days[id]) throw new Error(`data/seasons/${f}: ${id} is in another season's calendar too`);
+      days[id] = { date, kind, week };
+    }
   }
-  if (!Object.keys(days).length) throw new Error("STORIES_A1.md: no rows in the Days table");
+  if (!Object.keys(days).length) throw new Error("data/seasons/: no season has a calendar");
   return JSON.stringify(Object.fromEntries(Object.keys(days).sort().map((k) => [k, days[k]])), null, 2) + "\n";
 }
 

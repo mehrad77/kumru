@@ -99,70 +99,70 @@
     }
   ],
   "gl": {
-    "bayramda": [
-      "در عید (روزهای عید)",
-      "at the bayram (a holiday)"
-    ],
-    "bayramlar": [
-      "عیدها؛ «İyi bayramlar!» یعنی عید مبارک",
-      "holidays; “İyi bayramlar!”: happy holidays"
-    ],
-    "beri": [
-      "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
-      "since; “-DAn beri”: since"
-    ],
-    "evdeyim": [
-      "در خانه هستم؛ «bu evdeyim» یعنی در این خانه هستم",
-      "I am in the house; “bu evdeyim”: I am in this house"
-    ],
-    "fotoğrafta": [
-      "در عکس؛ «bu fotoğrafta» یعنی در این عکس",
-      "in the photo; “bu fotoğrafta”: in this photo"
-    ],
-    "günden": [
-      "از روزِ…؛ «o günden beri» یعنی از آن روز تا حالا",
-      "from the day; “o günden beri”: ever since that day"
-    ],
-    "günüm": [
-      "روزم؛ «doğum günüm» یعنی تولدم",
-      "my day; “doğum günüm”: my birthday"
-    ],
-    "gününüz": [
-      "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
-      "your day; “doğum gününüz”: your birthday"
-    ],
-    "kimse": [
-      "هیچ‌کس",
-      "nobody"
-    ],
-    "komşular": [
-      "همسایه‌ها",
-      "the neighbours"
-    ],
-    "ku": [
-      "کو (صدای کریم)",
-      "coo (Kerim's call)"
-    ],
-    "kutlu": [
-      "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
-      "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
-    ],
-    "mum": [
-      "شمع",
-      "candle"
-    ],
-    "paskalyada": [
-      "در عیدِ پاک (عیدِ مسیحیان)",
-      "at Easter"
-    ],
-    "yavrum": [
-      "عزیزم، بچه‌جان (برای کوچک‌ترها)",
-      "my dear (to someone younger)"
-    ],
-    "şşş": [
-      "هیس!",
-      "shh!"
-    ]
+    "bayramda": {
+      "fa": "در عید (روزهای عید)",
+      "en": "at the bayram (a holiday)"
+    },
+    "bayramlar": {
+      "fa": "عیدها؛ «İyi bayramlar!» یعنی عید مبارک",
+      "en": "holidays; “İyi bayramlar!”: happy holidays"
+    },
+    "beri": {
+      "fa": "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "en": "since; “-DAn beri”: since"
+    },
+    "evdeyim": {
+      "fa": "در خانه هستم؛ «bu evdeyim» یعنی در این خانه هستم",
+      "en": "I am in the house; “bu evdeyim”: I am in this house"
+    },
+    "fotoğrafta": {
+      "fa": "در عکس؛ «bu fotoğrafta» یعنی در این عکس",
+      "en": "in the photo; “bu fotoğrafta”: in this photo"
+    },
+    "günden": {
+      "fa": "از روزِ…؛ «o günden beri» یعنی از آن روز تا حالا",
+      "en": "from the day; “o günden beri”: ever since that day"
+    },
+    "günüm": {
+      "fa": "روزم؛ «doğum günüm» یعنی تولدم",
+      "en": "my day; “doğum günüm”: my birthday"
+    },
+    "gününüz": {
+      "fa": "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "en": "your day; “doğum gününüz”: your birthday"
+    },
+    "kimse": {
+      "fa": "هیچ‌کس",
+      "en": "nobody"
+    },
+    "komşular": {
+      "fa": "همسایه‌ها",
+      "en": "the neighbours"
+    },
+    "ku": {
+      "fa": "کو (صدای کریم)",
+      "en": "coo (Kerim's call)"
+    },
+    "kutlu": {
+      "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "en": "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
+    },
+    "mum": {
+      "fa": "شمع",
+      "en": "candle"
+    },
+    "paskalyada": {
+      "fa": "در عیدِ پاک (عیدِ مسیحیان)",
+      "en": "at Easter"
+    },
+    "yavrum": {
+      "fa": "عزیزم، بچه‌جان (برای کوچک‌ترها)",
+      "en": "my dear (to someone younger)"
+    },
+    "şşş": {
+      "fa": "هیس!",
+      "en": "shh!"
+    }
   },
   "id": "s1e27",
   "kind": "episode",
@@ -176,41 +176,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Where was Maria Teyze born?",
-      "fa": "خاله ماریا کجا به دنیا آمد؟",
       "kind": "comp",
       "options": [
         "Bu sokakta",
         "Okulda",
         "Parkta"
       ],
-      "q": "Maria Teyze nerede doğdu?",
+      "q": {
+        "tr": "Maria Teyze nerede doğdu?",
+        "en": "Where was Maria Teyze born?",
+        "fa": "خاله ماریا کجا به دنیا آمد؟"
+      },
       "why": "Maria Teyze: “Bu sokakta doğdum.”"
     },
     {
       "a": 0,
-      "en": "“Bu sokakta doğdum.” Doğmak means…",
-      "fa": "«Bu sokakta doğdum.» Doğmak یعنی…",
       "kind": "word",
       "options": [
         "Dünyaya gelmek",
         "Okula gitmek",
         "Baklava yemek"
       ],
-      "q": "“Bu sokakta doğdum.” Doğmak: …",
+      "q": {
+        "tr": "“Bu sokakta doğdum.” Doğmak: …",
+        "en": "“Bu sokakta doğdum.” Doğmak means…",
+        "fa": "«Bu sokakta doğdum.» Doğmak یعنی…"
+      },
       "why": "Maria Teyze: “Bu sokakta doğdum. O günden beri bu evdeyim: seksen yıl!”"
     },
     {
       "a": 0,
-      "en": "How old is Maria Teyze on Saturday?",
-      "fa": "خاله ماریا شنبه چند ساله می‌شود؟",
       "kind": "comp",
       "options": [
         "Seksen",
         "Yetmiş",
         "Doksan"
       ],
-      "q": "Cumartesi Maria Teyze kaç yaşında?",
+      "q": {
+        "tr": "Cumartesi Maria Teyze kaç yaşında?",
+        "en": "How old is Maria Teyze on Saturday?",
+        "fa": "خاله ماریا شنبه چند ساله می‌شود؟"
+      },
       "why": "Maria Teyze: “Doğum günüm. Seksen yaşındayım.”"
     }
   ],
@@ -447,11 +453,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Tea after class at Maria Teyze's: old photos of Feriköy and her childhood in the past tense. Then Nima sees a date circled in red on her calendar, and Maria Teyze's secret comes out.",
-  "summaryFa": "چای بعد از کلاس در خانه‌ی خاله ماریا: عکس‌های قدیمیِ فری‌کؤی و بچگیِ او، با زمانِ گذشته. بعد نیما روی تقویمِ دیواری تاریخی را می‌بیند که با قرمز دورش خط کشیده‌اند، و رازِ خاله ماریا فاش می‌شود.",
-  "title": "Bu sokakta doğdum",
-  "titleEn": "I was born on this street",
-  "titleFa": "در همین کوچه به دنیا آمدم",
+  "summary": {
+    "en": "Tea after class at Maria Teyze's: old photos of Feriköy and her childhood in the past tense. Then Nima sees a date circled in red on her calendar, and Maria Teyze's secret comes out.",
+    "fa": "چای بعد از کلاس در خانه‌ی خاله ماریا: عکس‌های قدیمیِ فری‌کؤی و بچگیِ او، با زمانِ گذشته. بعد نیما روی تقویمِ دیواری تاریخی را می‌بیند که با قرمز دورش خط کشیده‌اند، و رازِ خاله ماریا فاش می‌شود."
+  },
+  "title": {
+    "tr": "Bu sokakta doğdum",
+    "en": "I was born on this street",
+    "fa": "در همین کوچه به دنیا آمدم"
+  },
   "words": [
     "a1-w-dogmak",
     "a1-w-hatirlamak",

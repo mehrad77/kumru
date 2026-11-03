@@ -82,42 +82,42 @@
     }
   ],
   "gl": {
-    "boğaz": [
-      "بسفر (تنگه‌ی استانبول)",
-      "the Bosphorus"
-    ],
-    "buraya": [
-      "به این‌جا",
-      "(to) here"
-    ],
-    "cumhuriyet": [
-      "جمهوری (Cumhuriyet Bayramı: جشنِ جمهوری، ۲۹ اکتبر)",
-      "republic (Cumhuriyet Bayramı: Republic Day, 29 October)"
-    ],
-    "damlaya": [
-      "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
-      "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
-    ],
-    "kutlu": [
-      "مبارک (Bayramınız kutlu olsun: جشنتان مبارک)",
-      "happy, blessed (Bayramınız kutlu olsun: happy holiday)"
-    ],
-    "muyuz": [
-      "آیا… ما؟ (mu + -yuz، سؤال)",
-      "question particle mu + -yuz (we)"
-    ],
-    "nihayet": [
-      "بالاخره",
-      "at last"
-    ],
-    "üçüncü": [
-      "سوم",
-      "third"
-    ],
-    "şarkıyı": [
-      "آهنگ را",
-      "the song (object)"
-    ]
+    "boğaz": {
+      "fa": "بسفر (تنگه‌ی استانبول)",
+      "en": "the Bosphorus"
+    },
+    "buraya": {
+      "fa": "به این‌جا",
+      "en": "(to) here"
+    },
+    "cumhuriyet": {
+      "fa": "جمهوری (Cumhuriyet Bayramı: جشنِ جمهوری، ۲۹ اکتبر)",
+      "en": "republic (Cumhuriyet Bayramı: Republic Day, 29 October)"
+    },
+    "damlaya": {
+      "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
+    },
+    "kutlu": {
+      "fa": "مبارک (Bayramınız kutlu olsun: جشنتان مبارک)",
+      "en": "happy, blessed (Bayramınız kutlu olsun: happy holiday)"
+    },
+    "muyuz": {
+      "fa": "آیا… ما؟ (mu + -yuz، سؤال)",
+      "en": "question particle mu + -yuz (we)"
+    },
+    "nihayet": {
+      "fa": "بالاخره",
+      "en": "at last"
+    },
+    "üçüncü": {
+      "fa": "سوم",
+      "en": "third"
+    },
+    "şarkıyı": {
+      "fa": "آهنگ را",
+      "en": "the song (object)"
+    }
   },
   "id": "s1e46",
   "kind": "episode",
@@ -194,41 +194,47 @@
   "quiz": [
     {
       "a": 1,
-      "en": "Where is Ömer in the row?",
-      "fa": "عمر نفرِ چندمِ ردیف است؟",
       "kind": "comp",
       "options": [
         "Birinci sırada",
         "Üçüncü sırada",
         "İkinci sırada"
       ],
-      "q": "Ömer kaçıncı sırada?",
+      "q": {
+        "tr": "Ömer kaçıncı sırada?",
+        "en": "Where is Ömer in the row?",
+        "fa": "عمر نفرِ چندمِ ردیف است؟"
+      },
       "why": "“Ömer üçüncü sırada!”"
     },
     {
       "a": 0,
-      "en": "Ömer: “Red and white… … everywhere!”",
-      "fa": "عمر: «قرمز و سفید… همه‌جا …!»",
       "kind": "word",
       "options": [
         "bayraklar",
         "çaylar",
         "kuşlar"
       ],
-      "q": "Ömer: “Kırmızı, beyaz… … her yerde!”",
+      "q": {
+        "tr": "Ömer: “Kırmızı, beyaz… … her yerde!”",
+        "en": "Ömer: “Red and white… … everywhere!”",
+        "fa": "عمر: «قرمز و سفید… همه‌جا …!»"
+      },
       "why": "“Kırmızı, beyaz… bayraklar her yerde!”"
     },
     {
       "a": 1,
-      "en": "Where does Nima drink tea at last?",
-      "fa": "نیما بالاخره کجا چای می‌خورد؟",
       "kind": "comp",
       "options": [
         "Parkta",
         "Boğaz'da",
         "Kafede"
       ],
-      "q": "Nima nihayet nerede çay içiyor?",
+      "q": {
+        "tr": "Nima nihayet nerede çay içiyor?",
+        "en": "Where does Nima drink tea at last?",
+        "fa": "نیما بالاخره کجا چای می‌خورد؟"
+      },
       "why": "“Boğaz'da çay içiyoruz!”"
     }
   ],
@@ -791,11 +797,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "29 October. Ömer's kindergarten sings at the celebration in Feriköy Park, and Ömer gets stuck on the second verse. At night Serkan drives everyone to Ortaköy, where Nima drinks tea by the Bosphorus at last.",
-  "summaryFa": "۲۹ اکتبر. مهدکودکِ عمر در جشنِ پارکِ فری‌کؤی آواز می‌خواند و عمر در بندِ دوم گیر می‌کند. شب، سرکان همه را با تاکسی به اورتاکوی می‌برد و نیما بالاخره کنارِ بسفر چای می‌خورد.",
-  "title": "Cumhuriyet Bayramı",
-  "titleEn": "Republic Day",
-  "titleFa": "جشنِ جمهوری",
+  "summary": {
+    "en": "29 October. Ömer's kindergarten sings at the celebration in Feriköy Park, and Ömer gets stuck on the second verse. At night Serkan drives everyone to Ortaköy, where Nima drinks tea by the Bosphorus at last.",
+    "fa": "۲۹ اکتبر. مهدکودکِ عمر در جشنِ پارکِ فری‌کؤی آواز می‌خواند و عمر در بندِ دوم گیر می‌کند. شب، سرکان همه را با تاکسی به اورتاکوی می‌برد و نیما بالاخره کنارِ بسفر چای می‌خورد."
+  },
+  "title": {
+    "tr": "Cumhuriyet Bayramı",
+    "en": "Republic Day",
+    "fa": "جشنِ جمهوری"
+  },
   "words": [
     "a1-w-bayram",
     "a1-w-bayrak",

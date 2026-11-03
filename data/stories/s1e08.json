@@ -108,50 +108,50 @@
     }
   ],
   "gl": {
-    "akşam": [
-      "عصر، شب",
-      "evening"
-    ],
-    "alo": [
-      "الو",
-      "hello (on the phone)"
-    ],
-    "asansör": [
-      "آسانسور",
-      "lift, elevator"
-    ],
-    "beşinci": [
-      "پنجم",
-      "fifth"
-    ],
-    "depozito": [
-      "ودیعه، پیش‌پرداخت",
-      "deposit"
-    ],
-    "emlakçı": [
-      "بنگاهی، مشاورِ املاک",
-      "estate agent"
-    ],
-    "emlakçıyım": [
-      "من بنگاهی‌ام",
-      "I'm the estate agent"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a neighbourhood of Şişli)"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "sayıları": [
-      "عددهای…",
-      "the numbers of… (İstanbul sayıları: Istanbul numbers)"
-    ],
-    "very": [
-      "خیلی (انگلیسی)",
-      "very (in English)"
-    ]
+    "akşam": {
+      "fa": "عصر، شب",
+      "en": "evening"
+    },
+    "alo": {
+      "fa": "الو",
+      "en": "hello (on the phone)"
+    },
+    "asansör": {
+      "fa": "آسانسور",
+      "en": "lift, elevator"
+    },
+    "beşinci": {
+      "fa": "پنجم",
+      "en": "fifth"
+    },
+    "depozito": {
+      "fa": "ودیعه، پیش‌پرداخت",
+      "en": "deposit"
+    },
+    "emlakçı": {
+      "fa": "بنگاهی، مشاورِ املاک",
+      "en": "estate agent"
+    },
+    "emlakçıyım": {
+      "fa": "من بنگاهی‌ام",
+      "en": "I'm the estate agent"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a neighbourhood of Şişli)"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "sayıları": {
+      "fa": "عددهای…",
+      "en": "the numbers of… (İstanbul sayıları: Istanbul numbers)"
+    },
+    "very": {
+      "fa": "خیلی (انگلیسی)",
+      "en": "very (in English)"
+    }
   },
   "id": "s1e08",
   "kind": "episode",
@@ -198,41 +198,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Which floor is the flat on?",
-      "fa": "خانه در طبقه‌ی چندم است؟",
       "kind": "comp",
       "options": [
         "Dördüncü kat",
         "Beşinci kat",
         "Birinci kat"
       ],
-      "q": "Ev kaçıncı katta?",
+      "q": {
+        "tr": "Ev kaçıncı katta?",
+        "en": "Which floor is the flat on?",
+        "fa": "خانه در طبقه‌ی چندم است؟"
+      },
       "why": "Tolga Bey: “Dördüncü! Asansör? …Yok.”"
     },
     {
       "a": 0,
-      "en": "How much is the rent?",
-      "fa": "اجاره چند لیر است؟",
       "kind": "word",
       "options": [
         "Yirmi bin lira",
         "Yirmi lira",
         "İki bin lira"
       ],
-      "q": "Kira kaç lira?",
+      "q": {
+        "tr": "Kira kaç lira?",
+        "en": "How much is the rent?",
+        "fa": "اجاره چند لیر است؟"
+      },
       "why": "Tolga Bey: “Feriköy'de, dördüncü kat, yirmi bin lira…”"
     },
     {
       "a": 0,
-      "en": "Is there a lift?",
-      "fa": "آسانسور هست؟",
       "kind": "comp",
       "options": [
         "Yok",
         "Var",
         "Beşinci katta"
       ],
-      "q": "Asansör var mı?",
+      "q": {
+        "tr": "Asansör var mı?",
+        "en": "Is there a lift?",
+        "fa": "آسانسور هست؟"
+      },
       "why": "Tolga Bey: “Asansör? …Yok.”"
     }
   ],
@@ -649,11 +655,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Big numbers in class, then Nima calls about the Feriköy ad. The rehearsal with Yusuf ends in a freeze; the real estate agent, Tolga Bey, talks far too fast, but a viewing is booked for Wednesday evening.",
-  "summaryFa": "سرِ کلاس عددهای بزرگ را یاد می‌گیرند، بعد نیما برای آگهیِ فری‌کؤی زنگ می‌زند. تمرینِ تلفن با یوسف به سکوت می‌کشد؛ بنگاهی، آقای تولگا، خیلی تند حرف می‌زند، ولی قرارِ دیدنِ خانه برای چهارشنبه عصر گذاشته می‌شود.",
-  "title": "Alo?",
-  "titleEn": "Hello?",
-  "titleFa": "الو؟",
+  "summary": {
+    "en": "Big numbers in class, then Nima calls about the Feriköy ad. The rehearsal with Yusuf ends in a freeze; the real estate agent, Tolga Bey, talks far too fast, but a viewing is booked for Wednesday evening.",
+    "fa": "سرِ کلاس عددهای بزرگ را یاد می‌گیرند، بعد نیما برای آگهیِ فری‌کؤی زنگ می‌زند. تمرینِ تلفن با یوسف به سکوت می‌کشد؛ بنگاهی، آقای تولگا، خیلی تند حرف می‌زند، ولی قرارِ دیدنِ خانه برای چهارشنبه عصر گذاشته می‌شود."
+  },
+  "title": {
+    "tr": "Alo?",
+    "en": "Hello?",
+    "fa": "الو؟"
+  },
   "words": [
     "a1-w-kacinci",
     "a1-w-bin",

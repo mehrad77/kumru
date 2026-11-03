@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "kumru",
+  "title": {
+    "tr": "Kumru",
+    "en": "Kumru",
+    "fa": "کومرو"
+  },
+  "narrator": "kerim",
+  "standin": "nima",
+  "plugins": [
+    "lesson"
+  ]
+}

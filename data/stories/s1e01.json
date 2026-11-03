@@ -91,42 +91,42 @@
     }
   ],
   "gl": {
-    "bavul": [
-      "چمدان",
-      "suitcase"
-    ],
-    "biri": [
-      "یک نفر",
-      "someone"
-    ],
-    "da": [
-      "هم",
-      "too, also"
-    ],
-    "diyoruz": [
-      "می‌گوییم",
-      "we say (in a set phrase)"
-    ],
-    "gayrettepe": [
-      "گایرت‌تپه (ایستگاه مترو)",
-      "Gayrettepe (a metro stop)"
-    ],
-    "havalimanı": [
-      "فرودگاه",
-      "airport"
-    ],
-    "istanbul": [
-      "استانبول",
-      "Istanbul"
-    ],
-    "işte": [
-      "این هم…؛ بفرما",
-      "here is…; there you go"
-    ],
-    "mecidiyeköy": [
-      "مجیدیه‌کؤی (محله‌ای در شیشلی)",
-      "Mecidiyeköy (a district of Şişli)"
-    ]
+    "bavul": {
+      "fa": "چمدان",
+      "en": "suitcase"
+    },
+    "biri": {
+      "fa": "یک نفر",
+      "en": "someone"
+    },
+    "da": {
+      "fa": "هم",
+      "en": "too, also"
+    },
+    "diyoruz": {
+      "fa": "می‌گوییم",
+      "en": "we say (in a set phrase)"
+    },
+    "gayrettepe": {
+      "fa": "گایرت‌تپه (ایستگاه مترو)",
+      "en": "Gayrettepe (a metro stop)"
+    },
+    "havalimanı": {
+      "fa": "فرودگاه",
+      "en": "airport"
+    },
+    "istanbul": {
+      "fa": "استانبول",
+      "en": "Istanbul"
+    },
+    "işte": {
+      "fa": "این هم…؛ بفرما",
+      "en": "here is…; there you go"
+    },
+    "mecidiyeköy": {
+      "fa": "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "en": "Mecidiyeköy (a district of Şişli)"
+    }
   },
   "id": "s1e01",
   "kind": "episode",
@@ -174,41 +174,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "At the airport: “Hoş geldin, Nima!” Who says it?",
-      "fa": "در فرودگاه: «Hoş geldin, Nima!» را چه کسی می‌گوید؟",
       "kind": "comp",
       "options": [
         "Farzad",
         "Kerim",
         "Nima"
       ],
-      "q": "Havalimanı: “Hoş geldin, Nima!” Kim?",
+      "q": {
+        "tr": "Havalimanı: “Hoş geldin, Nima!” Kim?",
+        "en": "At the airport: “Hoş geldin, Nima!” Who says it?",
+        "fa": "در فرودگاه: «Hoş geldin, Nima!» را چه کسی می‌گوید؟"
+      },
       "why": "Farzad: “Hoş geldin, Nima!”"
     },
     {
       "a": 0,
-      "en": "Farzad asks “Bunlar ne?” What are they?",
-      "fa": "فرزاد می‌پرسد «Bunlar ne?» این‌ها چه هستند؟",
       "kind": "word",
       "options": [
         "Bavullar",
         "Uçaklar",
         "Kuşlar"
       ],
-      "q": "Farzad: “Bunlar ne?” Nima: “…!”",
+      "q": {
+        "tr": "Farzad: “Bunlar ne?” Nima: “…!”",
+        "en": "Farzad asks “Bunlar ne?” What are they?",
+        "fa": "فرزاد می‌پرسد «Bunlar ne?» این‌ها چه هستند؟"
+      },
       "why": "Nima: “Bavullar!”"
     },
     {
       "a": 0,
-      "en": "The new home: where is this?",
-      "fa": "خانه‌ی جدید: این‌جا کجاست؟",
       "kind": "comp",
       "options": [
         "Mecidiyeköy",
         "Gayrettepe",
         "Havalimanı"
       ],
-      "q": "Yeni ev: burası neresi?",
+      "q": {
+        "tr": "Yeni ev: burası neresi?",
+        "en": "The new home: where is this?",
+        "fa": "خانه‌ی جدید: این‌جا کجاست؟"
+      },
       "why": "Farzad: “Burası Mecidiyeköy. İşte ev!”"
     }
   ],
@@ -606,11 +612,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Nima lands at IST with far too many suitcases. Farzad is waiting with a sign, and they take the metro to Farzad's home in Mecidiyeköy.",
-  "summaryFa": "نیما با چمدان‌های بسیار در فرودگاه استانبول از هواپیما پیاده می‌شود. فرزاد با یک تابلو منتظر اوست و با هم با مترو به خانه‌ی فرزاد در مجیدیه‌کؤی می‌روند.",
-  "title": "Merhaba, İstanbul!",
-  "titleEn": "Hello, Istanbul!",
-  "titleFa": "سلام، استانبول!",
+  "summary": {
+    "en": "Nima lands at IST with far too many suitcases. Farzad is waiting with a sign, and they take the metro to Farzad's home in Mecidiyeköy.",
+    "fa": "نیما با چمدان‌های بسیار در فرودگاه استانبول از هواپیما پیاده می‌شود. فرزاد با یک تابلو منتظر اوست و با هم با مترو به خانه‌ی فرزاد در مجیدیه‌کؤی می‌روند."
+  },
+  "title": {
+    "tr": "Merhaba, İstanbul!",
+    "en": "Hello, Istanbul!",
+    "fa": "سلام، استانبول!"
+  },
   "words": [
     "a1-w-bu",
     "a1-w-ne",

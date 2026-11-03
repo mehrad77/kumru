@@ -80,8 +80,10 @@
     "skin": "skin_03",
     "v": 1
   },
-  "bio": "Three years old, Kırlangıç's son. He goes to kindergarten.",
-  "bioFa": "سه ساله، پسرِ پرستو. به کودکستان می‌رود.",
+  "bio": {
+    "en": "Three years old, Kırlangıç's son. He goes to kindergarten.",
+    "fa": "سه ساله، پسرِ پرستو. به کودکستان می‌رود."
+  },
   "circle": "guest",
   "color": "#F29A2E",
   "id": "rayan",
@@ -95,8 +97,10 @@
     ],
     "tempo": 1.3
   },
-  "name": "Rayan",
-  "nameFa": "رایان",
+  "name": {
+    "tr": "Rayan",
+    "fa": "رایان"
+  },
   "order": 5,
   "outfits": {
     "winter": {
@@ -128,8 +132,10 @@
     "park_ferikoy",
     "vapur"
   ],
-  "role": "Kırlangıç's son",
-  "roleFa": "پسرِ پرستو",
+  "role": {
+    "en": "Kırlangıç's son",
+    "fa": "پسرِ پرستو"
+  },
   "voice": {
     "pitch": 1.6,
     "rate": 1

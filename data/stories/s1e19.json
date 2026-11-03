@@ -95,62 +95,62 @@
     }
   ],
   "gl": {
-    "ailen": [
-      "خانواده‌ات",
-      "your family"
-    ],
-    "ailesi": [
-      "خانواده‌اش",
-      "their family"
-    ],
-    "ağabeyim": [
-      "داداشم (برادرِ بزرگ‌تر)",
-      "my big brother"
-    ],
-    "boğaz": [
-      "بُسفر",
-      "the Bosphorus"
-    ],
-    "kitabım": [
-      "کتابم",
-      "my book"
-    ],
-    "kitabın": [
-      "کتابت",
-      "your book"
-    ],
-    "komşu": [
-      "همسایه",
-      "neighbour"
-    ],
-    "mısın": [
-      "هستی؟ (پرسشی)",
-      "are you? (a question)"
-    ],
-    "odam": [
-      "اتاقم",
-      "my room"
-    ],
-    "odan": [
-      "اتاقت",
-      "your room"
-    ],
-    "resimde": [
-      "توی عکس",
-      "in the picture"
-    ],
-    "tahran": [
-      "تهران",
-      "Tehran"
-    ],
-    "telefonum": [
-      "گوشی‌ام",
-      "my phone"
-    ],
-    "telefonun": [
-      "گوشی‌ات",
-      "your phone"
-    ]
+    "ailen": {
+      "fa": "خانواده‌ات",
+      "en": "your family"
+    },
+    "ailesi": {
+      "fa": "خانواده‌اش",
+      "en": "their family"
+    },
+    "ağabeyim": {
+      "fa": "داداشم (برادرِ بزرگ‌تر)",
+      "en": "my big brother"
+    },
+    "boğaz": {
+      "fa": "بُسفر",
+      "en": "the Bosphorus"
+    },
+    "kitabım": {
+      "fa": "کتابم",
+      "en": "my book"
+    },
+    "kitabın": {
+      "fa": "کتابت",
+      "en": "your book"
+    },
+    "komşu": {
+      "fa": "همسایه",
+      "en": "neighbour"
+    },
+    "mısın": {
+      "fa": "هستی؟ (پرسشی)",
+      "en": "are you? (a question)"
+    },
+    "odam": {
+      "fa": "اتاقم",
+      "en": "my room"
+    },
+    "odan": {
+      "fa": "اتاقت",
+      "en": "your room"
+    },
+    "resimde": {
+      "fa": "توی عکس",
+      "en": "in the picture"
+    },
+    "tahran": {
+      "fa": "تهران",
+      "en": "Tehran"
+    },
+    "telefonum": {
+      "fa": "گوشی‌ام",
+      "en": "my phone"
+    },
+    "telefonun": {
+      "fa": "گوشی‌ات",
+      "en": "your phone"
+    }
   },
   "id": "s1e19",
   "kind": "episode",
@@ -193,41 +193,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Ömer: “I haven't got a big sister or a big brother… but I've got a …!”",
-      "fa": "عمر: «نه آبجی دارم، نه داداش… ولی … دارم!»",
       "kind": "comp",
       "options": [
         "kedim",
         "kitabım",
         "odam"
       ],
-      "q": "Ömer: “Benim ablam yok, ağabeyim yok… ama benim … var!”",
+      "q": {
+        "tr": "Ömer: “Benim ablam yok, ağabeyim yok… ama benim … var!”",
+        "en": "Ömer: “I haven't got a big sister or a big brother… but I've got a …!”",
+        "fa": "عمر: «نه آبجی دارم، نه داداش… ولی … دارم!»"
+      },
       "why": "Ömer: “Benim ablam yok, ağabeyim yok… ama benim kedim var!”"
     },
     {
       "a": 0,
-      "en": "Nima: “This is my mum, this is my dad. And this is my …”",
-      "fa": "نیما: «این مامانمه، این بابامه. این هم …»",
       "kind": "word",
       "options": [
         "kardeşim",
         "kitabım",
         "odam"
       ],
-      "q": "Nima: “Bu benim annem, bu benim babam. Bu da benim …”",
+      "q": {
+        "tr": "Nima: “Bu benim annem, bu benim babam. Bu da benim …”",
+        "en": "Nima: “This is my mum, this is my dad. And this is my …”",
+        "fa": "نیما: «این مامانمه، این بابامه. این هم …»"
+      },
       "why": "Nima: “Bu benim annem, bu benim babam. Bu da benim kardeşim.”"
     },
     {
       "a": 0,
-      "en": "Nima: “Very far away…” What does Ömer say?",
-      "fa": "نیما: «خیلی دوره…» عمر چه می‌گوید؟",
       "kind": "comp",
       "options": [
         "Ama biz buradayız!",
         "Senin ailen burada!",
         "Benim kedim yok!"
       ],
-      "q": "Nima: “Çok uzak…” Ömer ne diyor?",
+      "q": {
+        "tr": "Nima: “Çok uzak…” Ömer ne diyor?",
+        "en": "Nima: “Very far away…” What does Ömer say?",
+        "fa": "نیما: «خیلی دوره…» عمر چه می‌گوید؟"
+      },
       "why": "Ömer: “…Ama biz buradayız! Ben ve sen!”"
     }
   ],
@@ -590,11 +596,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "After school Ömer from downstairs explores Nima's room, asking who everything belongs to. The family photo on the desk brings out Nima's promise: a photo of tea on the Bosphorus for Mum. Then Farzad calls.",
-  "summaryFa": "بعد از مدرسه، عمر از طبقه‌ی پایین می‌آید، در اتاقِ نیما سرک می‌کشد و می‌پرسد هر چیزی مالِ کیست. عکسِ خانوادگیِ روی میز قولِ نیما را پیش می‌کشد: عکسی از چای کنارِ بسفر برای مادرش. بعد فرزاد زنگ می‌زند.",
-  "title": "Bu senin mi?",
-  "titleEn": "Is this yours?",
-  "titleFa": "این مال توئه؟",
+  "summary": {
+    "en": "After school Ömer from downstairs explores Nima's room, asking who everything belongs to. The family photo on the desk brings out Nima's promise: a photo of tea on the Bosphorus for Mum. Then Farzad calls.",
+    "fa": "بعد از مدرسه، عمر از طبقه‌ی پایین می‌آید، در اتاقِ نیما سرک می‌کشد و می‌پرسد هر چیزی مالِ کیست. عکسِ خانوادگیِ روی میز قولِ نیما را پیش می‌کشد: عکسی از چای کنارِ بسفر برای مادرش. بعد فرزاد زنگ می‌زند."
+  },
+  "title": {
+    "tr": "Bu senin mi?",
+    "en": "Is this yours?",
+    "fa": "این مال توئه؟"
+  },
   "words": [
     "a1-w-anne",
     "a1-w-baba",

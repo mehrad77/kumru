@@ -129,106 +129,106 @@
     }
   ],
   "gl": {
-    "aferin": [
-      "آفرین",
-      "well done"
-    ],
-    "atkı": [
-      "شال‌گردن",
-      "scarf"
-    ],
-    "bardak": [
-      "لیوان، استکان",
-      "glass"
-    ],
-    "berabere": [
-      "مساوی",
-      "a draw, level"
-    ],
-    "beşiktaş": [
-      "بشیکتاش (باشگاهِ فوتبال)",
-      "Beşiktaş (the football club)"
-    ],
-    "eczanenin": [
-      "ـِ داروخانه (کنارِ داروخانه)",
-      "the pharmacy's (next to the pharmacy)"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a district of Şişli)"
-    ],
-    "gerçek": [
-      "واقعی",
-      "real"
-    ],
-    "haliç": [
-      "شاخِ طلایی (خلیج)",
-      "the Golden Horn"
-    ],
-    "hangisi": [
-      "کدام؟",
-      "which one?"
-    ],
-    "herkese": [
-      "به همه",
-      "to everyone"
-    ],
-    "kafesinde": [
-      "توی کافه‌اش",
-      "in (her) café"
-    ],
-    "kopya": [
-      "تقلب",
-      "cheating, copying"
-    ],
-    "köşedeki": [
-      "سرِ نبش، کنجی",
-      "on the corner, the corner (one)"
-    ],
-    "manzarası": [
-      "منظرهٔ…",
-      "the view (of…)"
-    ],
-    "maç": [
-      "مسابقهٔ فوتبال",
-      "match, game"
-    ],
-    "puan": [
-      "امتیاز",
-      "point"
-    ],
-    "rehberde": [
-      "توی راهنما",
-      "in the guide"
-    ],
-    "sır": [
-      "راز",
-      "secret"
-    ],
-    "takımdasın": [
-      "توی تیمِ… هستی",
-      "you're on the … team"
-    ],
-    "tankın": [
-      "ـِ منبعِ آب",
-      "of the (water) tank"
-    ],
-    "tebrikler": [
-      "تبریک!",
-      "congratulations"
-    ],
-    "yarışması": [
-      "مسابقهٔ…",
-      "competition (of…)"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ],
-    "üstünde": [
-      "رویِ",
-      "on top of"
-    ]
+    "aferin": {
+      "fa": "آفرین",
+      "en": "well done"
+    },
+    "atkı": {
+      "fa": "شال‌گردن",
+      "en": "scarf"
+    },
+    "bardak": {
+      "fa": "لیوان، استکان",
+      "en": "glass"
+    },
+    "berabere": {
+      "fa": "مساوی",
+      "en": "a draw, level"
+    },
+    "beşiktaş": {
+      "fa": "بشیکتاش (باشگاهِ فوتبال)",
+      "en": "Beşiktaş (the football club)"
+    },
+    "eczanenin": {
+      "fa": "ـِ داروخانه (کنارِ داروخانه)",
+      "en": "the pharmacy's (next to the pharmacy)"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a district of Şişli)"
+    },
+    "gerçek": {
+      "fa": "واقعی",
+      "en": "real"
+    },
+    "haliç": {
+      "fa": "شاخِ طلایی (خلیج)",
+      "en": "the Golden Horn"
+    },
+    "hangisi": {
+      "fa": "کدام؟",
+      "en": "which one?"
+    },
+    "herkese": {
+      "fa": "به همه",
+      "en": "to everyone"
+    },
+    "kafesinde": {
+      "fa": "توی کافه‌اش",
+      "en": "in (her) café"
+    },
+    "kopya": {
+      "fa": "تقلب",
+      "en": "cheating, copying"
+    },
+    "köşedeki": {
+      "fa": "سرِ نبش، کنجی",
+      "en": "on the corner, the corner (one)"
+    },
+    "manzarası": {
+      "fa": "منظرهٔ…",
+      "en": "the view (of…)"
+    },
+    "maç": {
+      "fa": "مسابقهٔ فوتبال",
+      "en": "match, game"
+    },
+    "puan": {
+      "fa": "امتیاز",
+      "en": "point"
+    },
+    "rehberde": {
+      "fa": "توی راهنما",
+      "en": "in the guide"
+    },
+    "sır": {
+      "fa": "راز",
+      "en": "secret"
+    },
+    "takımdasın": {
+      "fa": "توی تیمِ… هستی",
+      "en": "you're on the … team"
+    },
+    "tankın": {
+      "fa": "ـِ منبعِ آب",
+      "en": "of the (water) tank"
+    },
+    "tebrikler": {
+      "fa": "تبریک!",
+      "en": "congratulations"
+    },
+    "yarışması": {
+      "fa": "مسابقهٔ…",
+      "en": "competition (of…)"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    },
+    "üstünde": {
+      "fa": "رویِ",
+      "en": "on top of"
+    }
   },
   "id": "s1e42",
   "kind": "special",
@@ -271,41 +271,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Who asks the questions?",
-      "fa": "چه کسی سؤال می‌پرسد؟",
       "kind": "comp",
       "options": [
         "Berfin",
         "Serkan",
         "Yusuf"
       ],
-      "q": "Kim soru soruyor?",
+      "q": {
+        "tr": "Kim soru soruyor?",
+        "en": "Who asks the questions?",
+        "fa": "چه کسی سؤال می‌پرسد؟"
+      },
       "why": "Berfin: “Birinci soru: bunlar ne?”"
     },
     {
       "a": 0,
-      "en": "Berfin: “Last round… where is the … bakery?”",
-      "fa": "برفین: «دورِ آخر… نانواییِ … کجاست؟»",
       "kind": "word",
       "options": [
         "köşedeki",
         "kaçıncı",
         "çeyrek"
       ],
-      "q": "Berfin: “Son tur… … fırın nerede?”",
+      "q": {
+        "tr": "Berfin: “Son tur… … fırın nerede?”",
+        "en": "Berfin: “Last round… where is the … bakery?”",
+        "fa": "برفین: «دورِ آخر… نانواییِ … کجاست؟»"
+      },
       "why": "Berfin: “Son tur… köşedeki fırın nerede?”"
     },
     {
       "a": 0,
-      "en": "How does the quiz end?",
-      "fa": "مسابقه چطور تمام می‌شود؟",
       "kind": "comp",
       "options": [
         "Berabere",
         "Sınıf birinci",
         "Bina birinci"
       ],
-      "q": "Yarışma nasıl bitiyor?",
+      "q": {
+        "tr": "Yarışma nasıl bitiyor?",
+        "en": "How does the quiz end?",
+        "fa": "مسابقه چطور تمام می‌شود؟"
+      },
       "why": "Berfin: “O zaman… berabere!”"
     }
   ],
@@ -783,11 +789,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "A week before the exam, Berfin runs a quiz night at her café: the class against the building, one round per unit. Ömer whispers an answer across the tables, and the tie-break question is about a friend's secret.",
-  "summaryFa": "یک هفته مانده به امتحان، برفین در کافه‌اش شبِ مسابقه راه می‌اندازد: کلاس در برابرِ ساختمان، برای هر درس یک دور. عمر از میزِ تیمِ مقابل جواب را یواشکی به نیما می‌گوید، و سؤالِ تعیین‌کننده دربارهٔ رازِ یک دوست است.",
-  "title": "Bilgi yarışması",
-  "titleEn": "Quiz night",
-  "titleFa": "مسابقهٔ اطلاعات عمومی",
+  "summary": {
+    "en": "A week before the exam, Berfin runs a quiz night at her café: the class against the building, one round per unit. Ömer whispers an answer across the tables, and the tie-break question is about a friend's secret.",
+    "fa": "یک هفته مانده به امتحان، برفین در کافه‌اش شبِ مسابقه راه می‌اندازد: کلاس در برابرِ ساختمان، برای هر درس یک دور. عمر از میزِ تیمِ مقابل جواب را یواشکی به نیما می‌گوید، و سؤالِ تعیین‌کننده دربارهٔ رازِ یک دوست است."
+  },
+  "title": {
+    "tr": "Bilgi yarışması",
+    "en": "Quiz night",
+    "fa": "مسابقهٔ اطلاعات عمومی"
+  },
   "words": [
     "a1-w-kalem",
     "a1-w-kacinci",
