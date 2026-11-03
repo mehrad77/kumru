@@ -96,8 +96,10 @@
       }
     }
   },
-  "bio": "19, from Samarkand, Uzbekistan; speaks Uzbek and some Tajik. Wants to study economics; her visa came late. Precise, with a great memory, and laughs easily, but too shy to speak first.",
-  "bioFa": "نوزده ساله، اهل سمرقندِ ازبکستان؛ ازبکی و کمی تاجیکی حرف می‌زند. می‌خواهد اقتصاد بخواند؛ ویزایش دیر رسید. دقیق، با حافظه‌ای عالی، و زود می‌خندد، ولی آن‌قدر خجالتی است که اول حرف نمی‌زند.",
+  "bio": {
+    "en": "19, from Samarkand, Uzbekistan; speaks Uzbek and some Tajik. Wants to study economics; her visa came late. Precise, with a great memory, and laughs easily, but too shy to speak first.",
+    "fa": "نوزده ساله، اهل سمرقندِ ازبکستان؛ ازبکی و کمی تاجیکی حرف می‌زند. می‌خواهد اقتصاد بخواند؛ ویزایش دیر رسید. دقیق، با حافظه‌ای عالی، و زود می‌خندد، ولی آن‌قدر خجالتی است که اول حرف نمی‌زند."
+  },
   "catch": {
     "en": "It's the same where I'm from!",
     "fa": "پیش ما هم همین‌طور است!",
@@ -116,8 +118,10 @@
     ],
     "tempo": 0.9
   },
-  "name": "Dilnoza",
-  "nameFa": "دلنوزا",
+  "name": {
+    "tr": "Dilnoza",
+    "fa": "دلنوزا"
+  },
   "order": 17,
   "outfits": {
     "indoor": {
@@ -149,8 +153,10 @@
     "metro_osmanbey",
     "ferikoy"
   ],
-  "role": "A classmate from Samarkand",
-  "roleFa": "هم‌کلاسی‌ای از سمرقند",
+  "role": {
+    "en": "A classmate from Samarkand",
+    "fa": "هم‌کلاسی‌ای از سمرقند"
+  },
   "voice": {
     "pitch": 1.15,
     "rate": 0.9

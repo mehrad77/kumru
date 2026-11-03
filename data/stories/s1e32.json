@@ -91,50 +91,50 @@
     }
   ],
   "gl": {
-    "edin": [
-      "(امری، مؤدبانه) کنید",
-      "do (polite: tarif edin = describe)"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a neighbourhood of Şişli)"
-    ],
-    "köşede": [
-      "سرِ نبش، در گوشه",
-      "on the corner"
-    ],
-    "maria": [
-      "ماریا (همسایهٔ طبقهٔ پنجم)",
-      "Maria (the neighbour on the fifth floor)"
-    ],
-    "sakallı": [
-      "ریش‌دار",
-      "bearded"
-    ],
-    "sardunya": [
-      "شمعدانی",
-      "geranium"
-    ],
-    "sardunyalar": [
-      "شمعدانی‌ها",
-      "geraniums"
-    ],
-    "tarif": [
-      "توصیف",
-      "describe (tarif etmek)"
-    ],
-    "tüylü": [
-      "پَردار، با پَرِ…",
-      "with … feathers"
-    ],
-    "uykulu": [
-      "خواب‌آلود",
-      "sleepy"
-    ],
-    "şallı": [
-      "با شالِ…",
-      "with a … shawl"
-    ]
+    "edin": {
+      "fa": "(امری، مؤدبانه) کنید",
+      "en": "do (polite: tarif edin = describe)"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a neighbourhood of Şişli)"
+    },
+    "köşede": {
+      "fa": "سرِ نبش، در گوشه",
+      "en": "on the corner"
+    },
+    "maria": {
+      "fa": "ماریا (همسایهٔ طبقهٔ پنجم)",
+      "en": "Maria (the neighbour on the fifth floor)"
+    },
+    "sakallı": {
+      "fa": "ریش‌دار",
+      "en": "bearded"
+    },
+    "sardunya": {
+      "fa": "شمعدانی",
+      "en": "geranium"
+    },
+    "sardunyalar": {
+      "fa": "شمعدانی‌ها",
+      "en": "geraniums"
+    },
+    "tarif": {
+      "fa": "توصیف",
+      "en": "describe (tarif etmek)"
+    },
+    "tüylü": {
+      "fa": "پَردار، با پَرِ…",
+      "en": "with … feathers"
+    },
+    "uykulu": {
+      "fa": "خواب‌آلود",
+      "en": "sleepy"
+    },
+    "şallı": {
+      "fa": "با شالِ…",
+      "en": "with a … shawl"
+    }
   },
   "id": "s1e32",
   "kind": "episode",
@@ -180,41 +180,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Brown-haired, always sleepy… who?",
-      "fa": "موقهوه‌ای، همیشه خواب‌آلود… کیست؟",
       "kind": "comp",
       "options": [
         "Alex",
         "Yusuf",
         "Nima"
       ],
-      "q": "Kahverengi saçlı, hep uykulu… kim?",
+      "q": {
+        "tr": "Kahverengi saçlı, hep uykulu… kim?",
+        "en": "Brown-haired, always sleepy… who?",
+        "fa": "موقهوه‌ای، همیشه خواب‌آلود… کیست؟"
+      },
       "why": "Nima: “Alex!”"
     },
     {
       "a": 0,
-      "en": "Zafer Hoca: bearded, glasses and …",
-      "fa": "استاد ظفر: ریش‌دار، عینکی و …",
       "kind": "word",
       "options": [
         "güler yüzlü",
         "sarı saçlı",
         "uzun boylu"
       ],
-      "q": "Zafer Hoca: sakallı, gözlüklü ve …",
+      "q": {
+        "tr": "Zafer Hoca: sakallı, gözlüklü ve …",
+        "en": "Zafer Hoca: bearded, glasses and …",
+        "fa": "استاد ظفر: ریش‌دار، عینکی و …"
+      },
       "why": "Nima: “Sakallı, gözlüklü, güler yüzlü.”"
     },
     {
       "a": 0,
-      "en": "What does Maria Teyze always buy from Gülten Hanım?",
-      "fa": "خاله ماریا همیشه از گولتن خانم چه می‌خرد؟",
       "kind": "comp",
       "options": [
         "Sardunya",
         "Gül",
         "Lale"
       ],
-      "q": "Maria Teyze Gülten Hanım'dan hep ne alıyor?",
+      "q": {
+        "tr": "Maria Teyze Gülten Hanım'dan hep ne alıyor?",
+        "en": "What does Maria Teyze always buy from Gülten Hanım?",
+        "fa": "خاله ماریا همیشه از گولتن خانم چه می‌خرد؟"
+      },
       "why": "Gülten Hanım: “Kırk yıldır çiçeklerini benden alıyor. Hep sardunya.”"
     }
   ],
@@ -542,11 +548,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "In class, everyone describes someone and the others guess, and Nima has to describe Zafer Hoca. After class the guide's second page is the corner flower shop, where Gülten Hanım remembers Nima and every customer.",
-  "summaryFa": "سرِ کلاس هر کس یک نفر را توصیف می‌کند و بقیه حدس می‌زنند، و نیما باید استاد ظفر را توصیف کند. بعد از کلاس، صفحهٔ دومِ راهنما گل‌فروشیِ سرِ نبش است؛ گولتن خانم نیما را و همهٔ مشتری‌هایش را به یاد دارد.",
-  "title": "Mavi gözlü, güler yüzlü",
-  "titleEn": "Blue-eyed, smiling",
-  "titleFa": "چشم‌آبی، خوش‌رو",
+  "summary": {
+    "en": "In class, everyone describes someone and the others guess, and Nima has to describe Zafer Hoca. After class the guide's second page is the corner flower shop, where Gülten Hanım remembers Nima and every customer.",
+    "fa": "سرِ کلاس هر کس یک نفر را توصیف می‌کند و بقیه حدس می‌زنند، و نیما باید استاد ظفر را توصیف کند. بعد از کلاس، صفحهٔ دومِ راهنما گل‌فروشیِ سرِ نبش است؛ گولتن خانم نیما را و همهٔ مشتری‌هایش را به یاد دارد."
+  },
+  "title": {
+    "tr": "Mavi gözlü, güler yüzlü",
+    "en": "Blue-eyed, smiling",
+    "fa": "چشم‌آبی، خوش‌رو"
+  },
   "words": [
     "a1-w-uzun-boylu",
     "a1-w-orta-boylu",

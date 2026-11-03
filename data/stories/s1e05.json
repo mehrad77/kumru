@@ -90,50 +90,50 @@
     }
   ],
   "gl": {
-    "bakkal": [
-      "بقال؛ بقالی",
-      "corner shop, grocer's"
-    ],
-    "burada": [
-      "این‌جا",
-      "here"
-    ],
-    "gelsin": [
-      "(در «kolay gelsin») خسته نباشید",
-      "(in “kolay gelsin”) may it come easy: said to someone at work"
-    ],
-    "istanbullu": [
-      "استانبولی، اهلِ استانبول",
-      "from Istanbul (İstanbullu)"
-    ],
-    "izmirli": [
-      "اهلِ ازمیر",
-      "from İzmir"
-    ],
-    "kolay": [
-      "آسان",
-      "easy"
-    ],
-    "nerelisiniz": [
-      "اهلِ کجا هستید؟",
-      "where are you from? (polite)"
-    ],
-    "olun": [
-      "(در «sağ olun») ممنون، مؤدبانه",
-      "(in “sağ olun”) thank you, polite"
-    ],
-    "rize": [
-      "ریزه (شهری در کنارِ دریای سیاه، معروف به چای)",
-      "Rize (a Black Sea town, famous for its tea)"
-    ],
-    "rizeli": [
-      "اهلِ ریزه",
-      "from Rize"
-    ],
-    "rizeliyim": [
-      "اهلِ ریزه‌ام",
-      "I'm from Rize"
-    ]
+    "bakkal": {
+      "fa": "بقال؛ بقالی",
+      "en": "corner shop, grocer's"
+    },
+    "burada": {
+      "fa": "این‌جا",
+      "en": "here"
+    },
+    "gelsin": {
+      "fa": "(در «kolay gelsin») خسته نباشید",
+      "en": "(in “kolay gelsin”) may it come easy: said to someone at work"
+    },
+    "istanbullu": {
+      "fa": "استانبولی، اهلِ استانبول",
+      "en": "from Istanbul (İstanbullu)"
+    },
+    "izmirli": {
+      "fa": "اهلِ ازمیر",
+      "en": "from İzmir"
+    },
+    "kolay": {
+      "fa": "آسان",
+      "en": "easy"
+    },
+    "nerelisiniz": {
+      "fa": "اهلِ کجا هستید؟",
+      "en": "where are you from? (polite)"
+    },
+    "olun": {
+      "fa": "(در «sağ olun») ممنون، مؤدبانه",
+      "en": "(in “sağ olun”) thank you, polite"
+    },
+    "rize": {
+      "fa": "ریزه (شهری در کنارِ دریای سیاه، معروف به چای)",
+      "en": "Rize (a Black Sea town, famous for its tea)"
+    },
+    "rizeli": {
+      "fa": "اهلِ ریزه",
+      "en": "from Rize"
+    },
+    "rizeliyim": {
+      "fa": "اهلِ ریزه‌ام",
+      "en": "I'm from Rize"
+    }
   },
   "id": "s1e05",
   "kind": "episode",
@@ -186,41 +186,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Where is İsmail from?",
-      "fa": "اسماعیل اهلِ کجاست؟",
       "kind": "comp",
       "options": [
         "Rizeli",
         "İzmirli",
         "İstanbullu"
       ],
-      "q": "İsmail nereli?",
+      "q": {
+        "tr": "İsmail nereli?",
+        "en": "Where is İsmail from?",
+        "fa": "اسماعیل اهلِ کجاست؟"
+      },
       "why": "İsmail: “Rizeliyim! Çay!”"
     },
     {
       "a": 0,
-      "en": "İsmail: “…? Black or green?”",
-      "fa": "اسماعیل: «…؟ سیاه یا سبز؟»",
       "kind": "word",
       "options": [
         "Zeytin",
         "Ekmek",
         "Su"
       ],
-      "q": "İsmail: “…? Siyah mı, yeşil mi?”",
+      "q": {
+        "tr": "İsmail: “…? Siyah mı, yeşil mi?”",
+        "en": "İsmail: “…? Black or green?”",
+        "fa": "اسماعیل: «…؟ سیاه یا سبز؟»"
+      },
       "why": "İsmail: “Zeytin? Siyah mı, yeşil mi?”"
     },
     {
       "a": 0,
-      "en": "İsmail gives Nima a small packet: “And this… …! From Rize!”",
-      "fa": "اسماعیل یک بسته‌ی کوچک به نیما می‌دهد: «اینم… …! از ریزه!»",
       "kind": "comp",
       "options": [
         "çay",
         "su",
         "ekmek"
       ],
-      "q": "İsmail: “Bu… …! Rize!”",
+      "q": {
+        "tr": "İsmail: “Bu… …! Rize!”",
+        "en": "İsmail gives Nima a small packet: “And this… …! From Rize!”",
+        "fa": "اسماعیل یک بسته‌ی کوچک به نیما می‌دهد: «اینم… …! از ریزه!»"
+      },
       "why": "İsmail: “Bu… çay! Rize!”"
     }
   ],
@@ -611,11 +617,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Nima goes shopping alone for the first time, with Farzad's list for tomorrow's dinner, at İsmail's bakkal round the corner from the campus. İsmail is from Rize, and he adds a packet of tea.",
-  "summaryFa": "نیما با فهرستی که فرزاد برای شامِ فردا فرستاده، برای اولین بار تنهایی به خرید می‌رود: به بقالیِ اسماعیل، نزدیکِ دانشگاه. اسماعیل اهلِ ریزه است و یک بسته چای هم هدیه می‌دهد.",
-  "title": "Bakkalda",
-  "titleEn": "At the corner shop",
-  "titleFa": "در بقالی",
+  "summary": {
+    "en": "Nima goes shopping alone for the first time, with Farzad's list for tomorrow's dinner, at İsmail's bakkal round the corner from the campus. İsmail is from Rize, and he adds a packet of tea.",
+    "fa": "نیما با فهرستی که فرزاد برای شامِ فردا فرستاده، برای اولین بار تنهایی به خرید می‌رود: به بقالیِ اسماعیل، نزدیکِ دانشگاه. اسماعیل اهلِ ریزه است و یک بسته چای هم هدیه می‌دهد."
+  },
+  "title": {
+    "tr": "Bakkalda",
+    "en": "At the corner shop",
+    "fa": "در بقالی"
+  },
   "words": [
     "a1-w-ekmek",
     "a1-w-zeytin",

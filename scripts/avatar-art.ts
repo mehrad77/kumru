@@ -12,7 +12,7 @@ const CHARACTERS = new URL("../data/characters/", import.meta.url);
 /** How many of the cast onboarding shows: cast.gen.ts stays under about 40 KB (a head is 6 to 10 KB at any detail). */
 export const CAST_SHOWN = 5;
 
-interface CastDoc { id: string; kind?: string; name: string; nameFa?: string; order?: number; avatar?: unknown }
+interface CastDoc { id: string; kind?: string; name: Partial<Record<string, string>>; order?: number; avatar?: unknown }
 
 /** The cast onboarding's last step shows, in this order. */
 export const ONBOARDING_CAST = ["ismail", "berfin", "elif", "serkan", "omer"];
@@ -40,7 +40,7 @@ export function avatarArtText(): string {
 /** cast.gen.ts: imported only by onboarding's last step (steps/Rest.tsx), in the lazy onboarding chunk. */
 export function castHeadsText(): string {
   const cast = castShown().map((c) => ({
-    id: c.id, name: c.name, nameFa: c.nameFa ?? "",
+    id: c.id, name: c.name.tr ?? c.id, nameFa: c.name.fa ?? "",
     // the span around it carries the name (role img); the picture itself is hidden from screen readers
     svg: portrait(c.avatar, kit, { framing: "head", trusted: true, detail: 46, idPrefix: "c" + c.id }).replace(/^<svg\b/, '<svg aria-hidden="true"'),
   }));

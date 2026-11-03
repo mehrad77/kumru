@@ -9,7 +9,7 @@ import { actionToast, toast } from "../../ui/toast.ts";
 import { closeSheet } from "../../ui/sheet.ts";
 import { closeGloss } from "../words/index.ts";
 import { personalizeStr } from "../onboarding/index.ts";
-import { loaded, nextStory, openStories, readable, storyId } from "./state.ts";
+import { loaded, nextStory, openStories, readable, storyId, textIn } from "./state.ts";
 
 let page: HTMLElement | null = null, stop: (() => void) | null = null;
 
@@ -27,7 +27,7 @@ function teardown(): void {
 function refuse(id: string): void {
   const first = nextStory();
   if (!openStories().some((s) => s.id === id) || !first) { toast("That story isn't out yet."); return; }
-  const msg = `Read “${personalizeStr(first.title, "tr")}” first.`;
+  const msg = `Read “${personalizeStr(textIn(first.title, "tr"), "tr")}” first.`;
   if (S.canEdit) actionToast(msg, "Open anyway", () => openStory(id, true));
   else actionToast(msg, "Read it", () => openStory(first.id));
 }

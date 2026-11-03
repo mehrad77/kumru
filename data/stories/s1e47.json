@@ -82,90 +82,90 @@
     }
   ],
   "gl": {
-    "a1": [
-      "A1 (سطحِ اول)",
-      "A1 (the first level)"
-    ],
-    "belki": [
-      "شاید",
-      "maybe"
-    ],
-    "duyuyorum": [
-      "حس می‌کنم (gurur duyuyorum: افتخار می‌کنم)",
-      "I feel (gurur duyuyorum: I'm proud)"
-    ],
-    "elinde": [
-      "در دستش",
-      "in his hand"
-    ],
-    "farzad": [
-      "فرزاد (دوستِ قدیمیِ نیما)",
-      "Farzad (Nima's old friend)"
-    ],
-    "fazla": [
-      "زیاد (çok fazla: خیلی زیاد)",
-      "too much (çok fazla)"
-    ],
-    "gurur": [
-      "افتخار (gurur duymak: افتخار کردن)",
-      "pride (gurur duymak: to be proud)"
-    ],
-    "havalimanında": [
-      "در فرودگاه",
-      "at the airport"
-    ],
-    "hikâye": [
-      "قصه",
-      "story"
-    ],
-    "hocam": [
-      "استاد (خطاب به معلم)",
-      "Hocam (how you address a teacher)"
-    ],
-    "ikametim": [
-      "اقامتم (اجازه‌ی اقامت)",
-      "my residence permit"
-    ],
-    "mecidiyeköy": [
-      "مجیدیه‌کؤی (محله‌ای در شیشلی)",
-      "Mecidiyeköy (a district of Şişli)"
-    ],
-    "metroyla": [
-      "با مترو",
-      "by metro"
-    ],
-    "ortaköy": [
-      "اورتاکوی (ساحلِ بسفر در بشیکتاش)",
-      "Ortaköy (on the Bosphorus, in Beşiktaş)"
-    ],
-    "sonuçlar": [
-      "نتیجه‌ها",
-      "the results"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name; the word means victory)"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ],
-    "önünde": [
-      "جلوی…",
-      "in front of"
-    ],
-    "üçte": [
-      "ساعتِ سه",
-      "at three"
-    ],
-    "şeyi": [
-      "چیز را (her şeyi: همه‌چیز را)",
-      "thing (her şeyi: everything)"
-    ],
-    "şşş": [
-      "هیس!",
-      "shh!"
-    ]
+    "a1": {
+      "fa": "A1 (سطحِ اول)",
+      "en": "A1 (the first level)"
+    },
+    "belki": {
+      "fa": "شاید",
+      "en": "maybe"
+    },
+    "duyuyorum": {
+      "fa": "حس می‌کنم (gurur duyuyorum: افتخار می‌کنم)",
+      "en": "I feel (gurur duyuyorum: I'm proud)"
+    },
+    "elinde": {
+      "fa": "در دستش",
+      "en": "in his hand"
+    },
+    "farzad": {
+      "fa": "فرزاد (دوستِ قدیمیِ نیما)",
+      "en": "Farzad (Nima's old friend)"
+    },
+    "fazla": {
+      "fa": "زیاد (çok fazla: خیلی زیاد)",
+      "en": "too much (çok fazla)"
+    },
+    "gurur": {
+      "fa": "افتخار (gurur duymak: افتخار کردن)",
+      "en": "pride (gurur duymak: to be proud)"
+    },
+    "havalimanında": {
+      "fa": "در فرودگاه",
+      "en": "at the airport"
+    },
+    "hikâye": {
+      "fa": "قصه",
+      "en": "story"
+    },
+    "hocam": {
+      "fa": "استاد (خطاب به معلم)",
+      "en": "Hocam (how you address a teacher)"
+    },
+    "ikametim": {
+      "fa": "اقامتم (اجازه‌ی اقامت)",
+      "en": "my residence permit"
+    },
+    "mecidiyeköy": {
+      "fa": "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "en": "Mecidiyeköy (a district of Şişli)"
+    },
+    "metroyla": {
+      "fa": "با مترو",
+      "en": "by metro"
+    },
+    "ortaköy": {
+      "fa": "اورتاکوی (ساحلِ بسفر در بشیکتاش)",
+      "en": "Ortaköy (on the Bosphorus, in Beşiktaş)"
+    },
+    "sonuçlar": {
+      "fa": "نتیجه‌ها",
+      "en": "the results"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name; the word means victory)"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    },
+    "önünde": {
+      "fa": "جلوی…",
+      "en": "in front of"
+    },
+    "üçte": {
+      "fa": "ساعتِ سه",
+      "en": "at three"
+    },
+    "şeyi": {
+      "fa": "چیز را (her şeyi: همه‌چیز را)",
+      "en": "thing (her şeyi: everything)"
+    },
+    "şşş": {
+      "fa": "هیس!",
+      "en": "shh!"
+    }
   },
   "id": "s1e47",
   "kind": "episode",
@@ -243,41 +243,47 @@
   "quiz": [
     {
       "a": 1,
-      "en": "What did Nima write about?",
-      "fa": "نیما درباره‌ی چه نوشت؟",
       "kind": "comp",
       "options": [
         "Benim ailem",
         "İlk günüm",
         "Yeni bir kafe"
       ],
-      "q": "Nima ne yazdı?",
+      "q": {
+        "tr": "Nima ne yazdı?",
+        "en": "What did Nima write about?",
+        "fa": "نیما درباره‌ی چه نوشت؟"
+      },
       "why": "“Ben ‘İlk günüm’. Sen?”"
     },
     {
       "a": 1,
-      "en": "When do the results come?",
-      "fa": "نتیجه‌ها کِی می‌آیند؟",
       "kind": "comp",
       "options": [
         "Yarın",
         "Gelecek hafta",
         "Bugün"
       ],
-      "q": "Sonuçlar ne zaman?",
+      "q": {
+        "tr": "Sonuçlar ne zaman?",
+        "en": "When do the results come?",
+        "fa": "نتیجه‌ها کِی می‌آیند؟"
+      },
       "why": "“Sonuçlar… gelecek hafta.”"
     },
     {
       "a": 0,
-      "en": "Nima's text: “I had so many …!”",
-      "fa": "متنِ نیما: «کلی … داشتم!»",
       "kind": "word",
       "options": [
         "bavulum",
         "çayım",
         "kedim"
       ],
-      "q": "Nima'nın yazısı: “Çok … vardı!”",
+      "q": {
+        "tr": "Nima'nın yazısı: “Çok … vardı!”",
+        "en": "Nima's text: “I had so many …!”",
+        "fa": "متنِ نیما: «کلی … داشتم!»"
+      },
       "why": "“Çok bavulum vardı!”"
     }
   ],
@@ -779,11 +785,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The A1 exam in four parts: reading, writing, listening and speaking. Nima freezes for a moment, asks for the question again, slowly, and gets through. On the steps after, the residence permit is approved.",
-  "summaryFa": "امتحانِ A1 در چهار بخش: خواندن، نوشتن، شنیدن و صحبت کردن. نیما یک لحظه خشکش می‌زند، می‌خواهد سؤال را دوباره و آهسته بپرسند، و از پسش برمی‌آید. بعد، روی پله‌ها، اقامتش تأیید می‌شود.",
-  "title": "Sınav günü",
-  "titleEn": "Exam day",
-  "titleFa": "روزِ امتحان",
+  "summary": {
+    "en": "The A1 exam in four parts: reading, writing, listening and speaking. Nima freezes for a moment, asks for the question again, slowly, and gets through. On the steps after, the residence permit is approved.",
+    "fa": "امتحانِ A1 در چهار بخش: خواندن، نوشتن، شنیدن و صحبت کردن. نیما یک لحظه خشکش می‌زند، می‌خواهد سؤال را دوباره و آهسته بپرسند، و از پسش برمی‌آید. بعد، روی پله‌ها، اقامتش تأیید می‌شود."
+  },
+  "title": {
+    "tr": "Sınav günü",
+    "en": "Exam day",
+    "fa": "روزِ امتحان"
+  },
   "words": [
     "a1-w-bavul",
     "a1-w-numara",

@@ -86,50 +86,50 @@
     }
   ],
   "gl": {
-    "asansör": [
-      "آسانسور",
-      "lift, elevator"
-    ],
-    "beşinci": [
-      "پنجم",
-      "fifth"
-    ],
-    "buzdolabı": [
-      "یخچال",
-      "fridge"
-    ],
-    "de": [
-      "بگو («evet de»: بگو بله)",
-      "say (“evet de”: say yes)"
-    ],
-    "depozito": [
-      "ودیعه، پیش‌پرداخت",
-      "deposit"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a neighbourhood of Şişli)"
-    ],
-    "feriköy'de": [
-      "در فری‌کؤی",
-      "in Feriköy"
-    ],
-    "mutfakta": [
-      "در آشپزخانه",
-      "in the kitchen"
-    ],
-    "salonda": [
-      "در پذیرایی",
-      "in the living room"
-    ],
-    "çatıda": [
-      "روی پشت‌بام",
-      "on the roof"
-    ],
-    "üçüncü": [
-      "سوم",
-      "third"
-    ]
+    "asansör": {
+      "fa": "آسانسور",
+      "en": "lift, elevator"
+    },
+    "beşinci": {
+      "fa": "پنجم",
+      "en": "fifth"
+    },
+    "buzdolabı": {
+      "fa": "یخچال",
+      "en": "fridge"
+    },
+    "de": {
+      "fa": "بگو («evet de»: بگو بله)",
+      "en": "say (“evet de”: say yes)"
+    },
+    "depozito": {
+      "fa": "ودیعه، پیش‌پرداخت",
+      "en": "deposit"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a neighbourhood of Şişli)"
+    },
+    "feriköy'de": {
+      "fa": "در فری‌کؤی",
+      "en": "in Feriköy"
+    },
+    "mutfakta": {
+      "fa": "در آشپزخانه",
+      "en": "in the kitchen"
+    },
+    "salonda": {
+      "fa": "در پذیرایی",
+      "en": "in the living room"
+    },
+    "çatıda": {
+      "fa": "روی پشت‌بام",
+      "en": "on the roof"
+    },
+    "üçüncü": {
+      "fa": "سوم",
+      "en": "third"
+    }
   },
   "id": "s1e09",
   "kind": "episode",
@@ -143,41 +143,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Which floor is the flat on?",
-      "fa": "خانه در طبقه‌ی چندم است؟",
       "kind": "comp",
       "options": [
         "Dördüncü kat",
         "İkinci kat",
         "Beşinci kat"
       ],
-      "q": "Ev kaçıncı katta?",
+      "q": {
+        "tr": "Ev kaçıncı katta?",
+        "en": "Which floor is the flat on?",
+        "fa": "خانه در طبقه‌ی چندم است؟"
+      },
       "why": "Tolga Bey: “…dördüncü kat! Asansör yok, ama… merdiven var!”"
     },
     {
       "a": 0,
-      "en": "Tolga Bey: “It isn't expensive! In Feriköy it's …!”",
-      "fa": "آقای تولگا: «گران نیست! در فری‌کؤی … است!»",
       "kind": "word",
       "options": [
         "ucuz",
         "eski",
         "küçük"
       ],
-      "q": "Tolga Bey: “Pahalı değil! Feriköy'de …!”",
+      "q": {
+        "tr": "Tolga Bey: “Pahalı değil! Feriköy'de …!”",
+        "en": "Tolga Bey: “It isn't expensive! In Feriköy it's …!”",
+        "fa": "آقای تولگا: «گران نیست! در فری‌کؤی … است!»"
+      },
       "why": "Tolga Bey: “Pahalı değil! Feriköy'de ucuz!”"
     },
     {
       "a": 0,
-      "en": "What is on the balcony?",
-      "fa": "روی بالکن چه چیزی هست؟",
       "kind": "comp",
       "options": [
         "Bir kuş",
         "Bir kedi",
         "Bir buzdolabı"
       ],
-      "q": "Balkonda ne var?",
+      "q": {
+        "tr": "Balkonda ne var?",
+        "en": "What is on the balcony?",
+        "fa": "روی بالکن چه چیزی هست؟"
+      },
       "why": "Nima: “Bu ne? Bir kuş!”"
     }
   ],
@@ -503,11 +509,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "On Wednesday evening Nima views the Feriköy flat with Tolga Bey: four floors up, no lift, no fridge, and a rent he calls cheap. At the balcony window, a bird looks Nima in the eye.",
-  "summaryFa": "چهارشنبه عصر، نیما با آقای تولگا خانه‌ی فری‌کؤی را می‌بیند: چهار طبقه بالا، بی‌آسانسور، بی‌یخچال، با اجاره‌ای که به گفته‌ی او ارزان است. پشتِ پنجره‌ی بالکن، پرنده‌ای مستقیم به چشم‌های نیما نگاه می‌کند.",
-  "title": "Dördüncü kat",
-  "titleEn": "The fourth floor",
-  "titleFa": "طبقه‌ی چهارم",
+  "summary": {
+    "en": "On Wednesday evening Nima views the Feriköy flat with Tolga Bey: four floors up, no lift, no fridge, and a rent he calls cheap. At the balcony window, a bird looks Nima in the eye.",
+    "fa": "چهارشنبه عصر، نیما با آقای تولگا خانه‌ی فری‌کؤی را می‌بیند: چهار طبقه بالا، بی‌آسانسور، بی‌یخچال، با اجاره‌ای که به گفته‌ی او ارزان است. پشتِ پنجره‌ی بالکن، پرنده‌ای مستقیم به چشم‌های نیما نگاه می‌کند."
+  },
+  "title": {
+    "tr": "Dördüncü kat",
+    "en": "The fourth floor",
+    "fa": "طبقه‌ی چهارم"
+  },
   "words": [
     "a1-w-kucuk",
     "a1-w-eski",

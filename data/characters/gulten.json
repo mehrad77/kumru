@@ -96,8 +96,10 @@
       }
     }
   },
-  "bio": "In her 60s, from Istanbul; has run the flower shop on the corner of Nima's street for 40 years. Exact, proud and secretly sentimental; corrects everyone.",
-  "bioFa": "شصت و چند ساله، اهلِ استانبول؛ چهل سال است گل‌فروشیِ سرِ نبشِ خیابانِ نیما را می‌گرداند. دقیق و مغرور است و در دل احساساتی؛ حرفِ همه را تصحیح می‌کند.",
+  "bio": {
+    "en": "In her 60s, from Istanbul; has run the flower shop on the corner of Nima's street for 40 years. Exact, proud and secretly sentimental; corrects everyone.",
+    "fa": "شصت و چند ساله، اهلِ استانبول؛ چهل سال است گل‌فروشیِ سرِ نبشِ خیابانِ نیما را می‌گرداند. دقیق و مغرور است و در دل احساساتی؛ حرفِ همه را تصحیح می‌کند."
+  },
   "catch": {
     "en": "This one is the freshest!",
     "fa": "این از همه تازه‌تر است!",
@@ -117,8 +119,10 @@
     ],
     "tempo": 0.9
   },
-  "name": "Gülten",
-  "nameFa": "گولتن",
+  "name": {
+    "tr": "Gülten",
+    "fa": "گولتن"
+  },
   "order": 12,
   "outfits": {
     "out": {
@@ -144,8 +148,10 @@
   "places": [
     "cicekci"
   ],
-  "role": "The florist on the corner in Feriköy",
-  "roleFa": "گل‌فروشِ سرِ نبش در فری‌کؤی",
+  "role": {
+    "en": "The florist on the corner in Feriköy",
+    "fa": "گل‌فروشِ سرِ نبش در فری‌کؤی"
+  },
   "voice": {
     "pitch": 1.0,
     "rate": 0.95

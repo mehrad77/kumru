@@ -102,102 +102,102 @@
     }
   ],
   "gl": {
-    "afiyet": [
-      "نوش (Afiyet olsun: نوشِ جان)",
-      "(Afiyet olsun: enjoy your meal)"
-    ],
-    "beşiktaş": [
-      "بشیکتاش (تیمِ فوتبال)",
-      "Beşiktaş (the football club)"
-    ],
-    "boğaz": [
-      "بسفر",
-      "the Bosphorus"
-    ],
-    "buyurun": [
-      "بفرمایید",
-      "here you are; please (offering)"
-    ],
-    "ediyorum": [
-      "می‌کنم (yardım ediyorum: کمک می‌کنم)",
-      "I do (yardım ediyorum: I'm helping)"
-    ],
-    "ellerine": [
-      "(Ellerine sağlık: دستت درد نکنه)",
-      "(Ellerine sağlık: bless your hands, said to a cook; sen)"
-    ],
-    "ellerinize": [
-      "(Ellerinize sağlık: دستتون درد نکنه)",
-      "(Ellerinize sağlık: bless your hands, said to a cook; siz)"
-    ],
-    "evi": [
-      "خانه‌اش (Kerim'in evi: خانه‌ی کریم)",
-      "home (Kerim'in evi: Kerim's home)"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a district of Şişli)"
-    ],
-    "kurabiye": [
-      "شیرینیِ خانگی؛ کلوچه",
-      "biscuit; homemade cookie"
-    ],
-    "kırlangıç": [
-      "پرستو (اسم)",
-      "Kırlangıç (a name; also the word for swallow)"
-    ],
-    "nihayet": [
-      "بالاخره",
-      "at last"
-    ],
-    "olsun": [
-      "باشد (Afiyet olsun: نوشِ جان)",
-      "may it be (Afiyet olsun: enjoy)"
-    ],
-    "sandalyeler": [
-      "صندلی‌ها",
-      "chairs"
-    ],
-    "sağlık": [
-      "سلامتی (Ellerinize sağlık: دستتون درد نکنه)",
-      "health (Ellerinize sağlık: bless your hands)"
-    ],
-    "sizinle": [
-      "با شما",
-      "with you"
-    ],
-    "yavrum": [
-      "عزیزم؛ بچه‌جان",
-      "my dear (to someone younger)"
-    ],
-    "yeter": [
-      "بس است؛ کافی است",
-      "that's enough"
-    ],
-    "yâ": [
-      "(Yâ Kerim: اسمِ عامیانه‌ی قمری، از صدای بقبقویش)",
-      "(Yâ Kerim: the folk name of the collared dove, from its coo)"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ],
-    "çatıda": [
-      "روی پشت‌بام",
-      "on the roof"
-    ],
-    "çatıya": [
-      "به پشت‌بام",
-      "to the roof"
-    ],
-    "üçüncü": [
-      "سوم",
-      "third"
-    ],
-    "şşş": [
-      "هیس!",
-      "shh!"
-    ]
+    "afiyet": {
+      "fa": "نوش (Afiyet olsun: نوشِ جان)",
+      "en": "(Afiyet olsun: enjoy your meal)"
+    },
+    "beşiktaş": {
+      "fa": "بشیکتاش (تیمِ فوتبال)",
+      "en": "Beşiktaş (the football club)"
+    },
+    "boğaz": {
+      "fa": "بسفر",
+      "en": "the Bosphorus"
+    },
+    "buyurun": {
+      "fa": "بفرمایید",
+      "en": "here you are; please (offering)"
+    },
+    "ediyorum": {
+      "fa": "می‌کنم (yardım ediyorum: کمک می‌کنم)",
+      "en": "I do (yardım ediyorum: I'm helping)"
+    },
+    "ellerine": {
+      "fa": "(Ellerine sağlık: دستت درد نکنه)",
+      "en": "(Ellerine sağlık: bless your hands, said to a cook; sen)"
+    },
+    "ellerinize": {
+      "fa": "(Ellerinize sağlık: دستتون درد نکنه)",
+      "en": "(Ellerinize sağlık: bless your hands, said to a cook; siz)"
+    },
+    "evi": {
+      "fa": "خانه‌اش (Kerim'in evi: خانه‌ی کریم)",
+      "en": "home (Kerim'in evi: Kerim's home)"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a district of Şişli)"
+    },
+    "kurabiye": {
+      "fa": "شیرینیِ خانگی؛ کلوچه",
+      "en": "biscuit; homemade cookie"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسم)",
+      "en": "Kırlangıç (a name; also the word for swallow)"
+    },
+    "nihayet": {
+      "fa": "بالاخره",
+      "en": "at last"
+    },
+    "olsun": {
+      "fa": "باشد (Afiyet olsun: نوشِ جان)",
+      "en": "may it be (Afiyet olsun: enjoy)"
+    },
+    "sandalyeler": {
+      "fa": "صندلی‌ها",
+      "en": "chairs"
+    },
+    "sağlık": {
+      "fa": "سلامتی (Ellerinize sağlık: دستتون درد نکنه)",
+      "en": "health (Ellerinize sağlık: bless your hands)"
+    },
+    "sizinle": {
+      "fa": "با شما",
+      "en": "with you"
+    },
+    "yavrum": {
+      "fa": "عزیزم؛ بچه‌جان",
+      "en": "my dear (to someone younger)"
+    },
+    "yeter": {
+      "fa": "بس است؛ کافی است",
+      "en": "that's enough"
+    },
+    "yâ": {
+      "fa": "(Yâ Kerim: اسمِ عامیانه‌ی قمری، از صدای بقبقویش)",
+      "en": "(Yâ Kerim: the folk name of the collared dove, from its coo)"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    },
+    "çatıda": {
+      "fa": "روی پشت‌بام",
+      "en": "on the roof"
+    },
+    "çatıya": {
+      "fa": "به پشت‌بام",
+      "en": "to the roof"
+    },
+    "üçüncü": {
+      "fa": "سوم",
+      "en": "third"
+    },
+    "şşş": {
+      "fa": "هیس!",
+      "en": "shh!"
+    }
   },
   "id": "s1e18",
   "kind": "special",
@@ -335,41 +335,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "“That's… Kerim!” Who names the bird?",
-      "fa": "«اون… کریمه!» چه کسی اسمِ پرنده را می‌گذارد؟",
       "kind": "comp",
       "options": [
         "Maria",
         "Ömer",
         "Farzad"
       ],
-      "q": "“O… Kerim!” Kim diyor?",
+      "q": {
+        "tr": "“O… Kerim!” Kim diyor?",
+        "en": "“That's… Kerim!” Who names the bird?",
+        "fa": "«اون… کریمه!» چه کسی اسمِ پرنده را می‌گذارد؟"
+      },
       "why": "Maria: “O… Kerim!”"
     },
     {
       "a": 0,
-      "en": "“İstemek” means to want. Nima: “I … to go to the Bosphorus!” Which word fits?",
-      "fa": "‏«istemek» یعنی خواستن. نیما: «من … به بسفر بروم!» کدام کلمه درست است؟",
       "kind": "word",
       "options": [
         "istiyorum",
         "oturuyorum",
         "izliyorum"
       ],
-      "q": "Nima: “Ben Boğaz'a gitmek …!”",
+      "q": {
+        "tr": "Nima: “Ben Boğaz'a gitmek …!”",
+        "en": "“İstemek” means to want. Nima: “I … to go to the Bosphorus!” Which word fits?",
+        "fa": "‏«istemek» یعنی خواستن. نیما: «من … به بسفر بروم!» کدام کلمه درست است؟"
+      },
       "why": "Nima: “Ben Boğaz'a gitmek istiyorum!”"
     },
     {
       "a": 0,
-      "en": "What does Ömer want to be?",
-      "fa": "عمر می‌خواهد چه‌کاره شود؟",
       "kind": "comp",
       "options": [
         "Polis",
         "Doktor",
         "Şoför"
       ],
-      "q": "Ömer ne olmak istiyor?",
+      "q": {
+        "tr": "Ömer ne olmak istiyor?",
+        "en": "What does Ömer want to be?",
+        "fa": "عمر می‌خواهد چه‌کاره شود؟"
+      },
       "why": "Ömer: “Ben polis olmak istiyorum!”"
     }
   ],
@@ -1079,11 +1085,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Maria Teyze's tea grows into a gathering on the roof at sunset: the neighbours and Nima's friends share tea and their wishes, and Maria Teyze hears the coo and names the bird: Kerim.",
-  "summaryFa": "چایِ خاله ماریا غروب روی پشت‌بام به یک دورهمی تبدیل می‌شود: همسایه‌ها و دوستانِ نیما چای می‌نوشند و آرزوهایشان را می‌گویند، و خاله ماریا صدای بق‌بقوی پرنده را می‌شنود و اسمش را می‌گذارد: کریم.",
-  "title": "Çatıda çay",
-  "titleEn": "Tea on the roof",
-  "titleFa": "چای روی پشت‌بام",
+  "summary": {
+    "en": "Maria Teyze's tea grows into a gathering on the roof at sunset: the neighbours and Nima's friends share tea and their wishes, and Maria Teyze hears the coo and names the bird: Kerim.",
+    "fa": "چایِ خاله ماریا غروب روی پشت‌بام به یک دورهمی تبدیل می‌شود: همسایه‌ها و دوستانِ نیما چای می‌نوشند و آرزوهایشان را می‌گویند، و خاله ماریا صدای بق‌بقوی پرنده را می‌شنود و اسمش را می‌گذارد: کریم."
+  },
+  "title": {
+    "tr": "Çatıda çay",
+    "en": "Tea on the roof",
+    "fa": "چای روی پشت‌بام"
+  },
   "words": [
     "a1-w-olmak",
     "a1-w-izlemek",

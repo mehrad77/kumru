@@ -100,42 +100,42 @@
     }
   ],
   "gl": {
-    "adalar": [
-      "جزیره‌ها (جزایرِ پرنس، نزدیکِ استانبول)",
-      "the Islands (the Princes' Islands off Istanbul)"
-    ],
-    "boğaz": [
-      "بسفر",
-      "the Bosphorus"
-    ],
-    "bulut": [
-      "ابر",
-      "cloud"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a district of Şişli)"
-    ],
-    "galata": [
-      "گالاتا (برجِ گالاتا)",
-      "Galata (the Galata Tower)"
-    ],
-    "musun": [
-      "(نشانه‌ی سؤال) …ی؟",
-      "(question word) are you…?"
-    ],
-    "osmanbey": [
-      "عثمان‌بی (محله و ایستگاهِ مترو در شیشلی)",
-      "Osmanbey (a district and metro stop in Şişli)"
-    ],
-    "tane": [
-      "دانه؛ تا (bir tane: یکی)",
-      "piece (bir tane: just one)"
-    ],
-    "zafer": [
-      "ظفر (اسم؛ به معنیِ پیروزی)",
-      "Zafer (a name; also the word for victory)"
-    ]
+    "adalar": {
+      "fa": "جزیره‌ها (جزایرِ پرنس، نزدیکِ استانبول)",
+      "en": "the Islands (the Princes' Islands off Istanbul)"
+    },
+    "boğaz": {
+      "fa": "بسفر",
+      "en": "the Bosphorus"
+    },
+    "bulut": {
+      "fa": "ابر",
+      "en": "cloud"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a district of Şişli)"
+    },
+    "galata": {
+      "fa": "گالاتا (برجِ گالاتا)",
+      "en": "Galata (the Galata Tower)"
+    },
+    "musun": {
+      "fa": "(نشانه‌ی سؤال) …ی؟",
+      "en": "(question word) are you…?"
+    },
+    "osmanbey": {
+      "fa": "عثمان‌بی (محله و ایستگاهِ مترو در شیشلی)",
+      "en": "Osmanbey (a district and metro stop in Şişli)"
+    },
+    "tane": {
+      "fa": "دانه؛ تا (bir tane: یکی)",
+      "en": "piece (bir tane: just one)"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم؛ به معنیِ پیروزی)",
+      "en": "Zafer (a name; also the word for victory)"
+    }
   },
   "id": "s1e15",
   "kind": "episode",
@@ -167,41 +167,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What does Dilnoza want to do?",
-      "fa": "دلنوزا می‌خواهد چه کار کند؟",
       "kind": "comp",
       "options": [
         "Türkçe konuşmak",
         "Galata'ya çıkmak",
         "Uyumak"
       ],
-      "q": "Dilnoza ne yapmak istiyor?",
+      "q": {
+        "tr": "Dilnoza ne yapmak istiyor?",
+        "en": "What does Dilnoza want to do?",
+        "fa": "دلنوزا می‌خواهد چه کار کند؟"
+      },
       "why": "Dilnoza: “Ben… Türkçe konuşmak istiyorum.”"
     },
     {
       "a": 0,
-      "en": "Nima: “I … to drink tea on the Bosphorus.” Which word fits? (istemek: to want)",
-      "fa": "نیما: «من … کنار بسفر چای بنوشم.» کدام کلمه درست است؟ (istemek: خواستن)",
       "kind": "word",
       "options": [
         "istiyorum",
         "konuşuyorum",
         "yağıyor"
       ],
-      "q": "Nima: “Ben Boğaz'da çay içmek …”",
+      "q": {
+        "tr": "Nima: “Ben Boğaz'da çay içmek …”",
+        "en": "Nima: “I … to drink tea on the Bosphorus.” Which word fits? (istemek: to want)",
+        "fa": "نیما: «من … کنار بسفر چای بنوشم.» کدام کلمه درست است؟ (istemek: خواستن)"
+      },
       "why": "Nima: “Ben Boğaz'da çay içmek istiyorum.”"
     },
     {
       "a": 0,
-      "en": "It's raining. Who opens an umbrella?",
-      "fa": "باران می‌بارد. چه کسی چتر باز می‌کند؟",
       "kind": "comp",
       "options": [
         "Dilnoza",
         "Parvane",
         "Zafer Hoca"
       ],
-      "q": "Yağmur yağıyor. Kim şemsiye açıyor?",
+      "q": {
+        "tr": "Yağmur yağıyor. Kim şemsiye açıyor?",
+        "en": "It's raining. Who opens an umbrella?",
+        "fa": "باران می‌بارد. چه کسی چتر باز می‌کند؟"
+      },
       "why": "Dilnoza: “Şemsiye istiyor musun?”"
     }
   ],
@@ -544,11 +550,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "In class everyone says what they want to do in Istanbul: Nima wants tea on the Bosphorus. Then the first autumn rain comes, and shy Dilnoza has a huge umbrella.",
-  "summaryFa": "سرِ کلاس هر کس می‌گوید در استانبول چه می‌خواهد بکند: نیما می‌خواهد کنار بسفر چای بنوشد. بعد اولین بارانِ پاییزی می‌بارد و دلنوزای خجالتی چترِ بزرگی دارد.",
-  "title": "Yağmur yağıyor!",
-  "titleEn": "It's raining!",
-  "titleFa": "باران می‌بارد!",
+  "summary": {
+    "en": "In class everyone says what they want to do in Istanbul: Nima wants tea on the Bosphorus. Then the first autumn rain comes, and shy Dilnoza has a huge umbrella.",
+    "fa": "سرِ کلاس هر کس می‌گوید در استانبول چه می‌خواهد بکند: نیما می‌خواهد کنار بسفر چای بنوشد. بعد اولین بارانِ پاییزی می‌بارد و دلنوزای خجالتی چترِ بزرگی دارد."
+  },
+  "title": {
+    "tr": "Yağmur yağıyor!",
+    "en": "It's raining!",
+    "fa": "باران می‌بارد!"
+  },
   "words": [
     "a1-w-istemek",
     "a1-w-icmek",

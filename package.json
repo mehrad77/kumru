@@ -37,6 +37,7 @@
     "sahne": "workspace:*",
     "sahne-backstage": "workspace:*",
     "sahne-kit": "workspace:*",
+    "sahne-lesson": "workspace:*",
     "sahne-story": "workspace:*",
     "sahne-tr": "workspace:*"
   }

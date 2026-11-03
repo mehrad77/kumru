@@ -103,50 +103,50 @@
     }
   ],
   "gl": {
-    "ellerine": [
-      "(در «ellerine sağlık») دستت درد نکنه، به آشپز",
-      "(in “ellerine sağlık”) bless your hands: said to the cook"
-    ],
-    "elmalar": [
-      "سیب‌ها",
-      "apples"
-    ],
-    "hafız": [
-      "حافظ (شاعر)",
-      "Hafez (the poet)"
-    ],
-    "hoca": [
-      "استاد، معلم",
-      "teacher (Zafer Hoca: the teacher, Zafer)"
-    ],
-    "kalın": [
-      "(در «hoşça kalın») خداحافظ، به چند نفر",
-      "(in “hoşça kalın”) bye, to more than one person"
-    ],
-    "kırlangıç": [
-      "پرستو (اسم)",
-      "Kırlangıç (a name; the word means “swallow”)"
-    ],
-    "narlar": [
-      "انارها",
-      "pomegranates"
-    ],
-    "parvane": [
-      "پروانه (اسم)",
-      "Parvaneh (a name)"
-    ],
-    "safran": [
-      "زعفران",
-      "saffron"
-    ],
-    "topler": [
-      "اشتباه؛ درستش: toplar",
-      "a slip; the right form is toplar"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name; the word means “victory”)"
-    ]
+    "ellerine": {
+      "fa": "(در «ellerine sağlık») دستت درد نکنه، به آشپز",
+      "en": "(in “ellerine sağlık”) bless your hands: said to the cook"
+    },
+    "elmalar": {
+      "fa": "سیب‌ها",
+      "en": "apples"
+    },
+    "hafız": {
+      "fa": "حافظ (شاعر)",
+      "en": "Hafez (the poet)"
+    },
+    "hoca": {
+      "fa": "استاد، معلم",
+      "en": "teacher (Zafer Hoca: the teacher, Zafer)"
+    },
+    "kalın": {
+      "fa": "(در «hoşça kalın») خداحافظ، به چند نفر",
+      "en": "(in “hoşça kalın”) bye, to more than one person"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسم)",
+      "en": "Kırlangıç (a name; the word means “swallow”)"
+    },
+    "narlar": {
+      "fa": "انارها",
+      "en": "pomegranates"
+    },
+    "parvane": {
+      "fa": "پروانه (اسم)",
+      "en": "Parvaneh (a name)"
+    },
+    "safran": {
+      "fa": "زعفران",
+      "en": "saffron"
+    },
+    "topler": {
+      "fa": "اشتباه؛ درستش: toplar",
+      "en": "a slip; the right form is toplar"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name; the word means “victory”)"
+    }
   },
   "id": "s1e06",
   "kind": "special",
@@ -305,41 +305,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What's for dinner tonight?",
-      "fa": "امشب شام چیست؟",
       "kind": "comp",
       "options": [
         "Pilav ve tavuk",
         "Ekmek ve zeytin",
         "Nar ve elma"
       ],
-      "q": "Bu akşam yemek ne?",
+      "q": {
+        "tr": "Bu akşam yemek ne?",
+        "en": "What's for dinner tonight?",
+        "fa": "امشب شام چیست؟"
+      },
       "why": "Farzad: “Bu pilav! Tavuk, salata… afiyet olsun!”"
     },
     {
       "a": 0,
-      "en": "A box of red fruit from home. Kırlangıç: “A box! What are these?”",
-      "fa": "یک جعبه میوه‌ی قرمز. پرستو: «یه جعبه! اینا چیه؟»",
       "kind": "word",
       "options": [
         "Narlar",
         "Elmalar",
         "Toplar"
       ],
-      "q": "Kırlangıç: “Bir kutu! Bunlar ne?”",
+      "q": {
+        "tr": "Kırlangıç: “Bir kutu! Bunlar ne?”",
+        "en": "A box of red fruit from home. Kırlangıç: “A box! What are these?”",
+        "fa": "یک جعبه میوه‌ی قرمز. پرستو: «یه جعبه! اینا چیه؟»"
+      },
       "why": "Nima: “Narlar!”"
     },
     {
       "a": 0,
-      "en": "After dinner, Farzad asks: “How was the food?” Nima says to the cook: “…”",
-      "fa": "بعد از شام فرزاد می‌پرسد: «غذا چطور بود؟» نیما به آشپز می‌گوید: «…»",
       "kind": "comp",
       "options": [
         "Ellerine sağlık!",
         "Hoş geldiniz!",
         "Güle güle!"
       ],
-      "q": "Farzad: “Yemek nasıl?” Nima: “…”",
+      "q": {
+        "tr": "Farzad: “Yemek nasıl?” Nima: “…”",
+        "en": "After dinner, Farzad asks: “How was the food?” Nima says to the cook: “…”",
+        "fa": "بعد از شام فرزاد می‌پرسد: «غذا چطور بود؟» نیما به آشپز می‌گوید: «…»"
+      },
       "why": "Nima: “Ellerine sağlık!” Farzad: “Afiyet olsun!”"
     }
   ],
@@ -1043,11 +1049,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Nima's first week ends with a small dinner at Farzad's. Kırlangıç and Rayan bring flowers, Nima hands out the gifts from home at last, and Farzad serves pilav and chicken.",
-  "summaryFa": "هفته‌ی اولِ نیما با یک شامِ کوچک در خانه‌ی فرزاد تمام می‌شود. پرستو و رایان گل می‌آورند، نیما بالاخره سوغاتی‌ها را می‌دهد و فرزاد پلو و مرغ می‌کشد.",
-  "title": "Hoş geldin yemeği",
-  "titleEn": "The welcome dinner",
-  "titleFa": "شامِ خوش‌آمدگویی",
+  "summary": {
+    "en": "Nima's first week ends with a small dinner at Farzad's. Kırlangıç and Rayan bring flowers, Nima hands out the gifts from home at last, and Farzad serves pilav and chicken.",
+    "fa": "هفته‌ی اولِ نیما با یک شامِ کوچک در خانه‌ی فرزاد تمام می‌شود. پرستو و رایان گل می‌آورند، نیما بالاخره سوغاتی‌ها را می‌دهد و فرزاد پلو و مرغ می‌کشد."
+  },
+  "title": {
+    "tr": "Hoş geldin yemeği",
+    "en": "The welcome dinner",
+    "fa": "شامِ خوش‌آمدگویی"
+  },
   "words": [
     "a1-w-nar",
     "seed-w01",

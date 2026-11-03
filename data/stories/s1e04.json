@@ -95,30 +95,30 @@
     }
   ],
   "gl": {
-    "galata": [
-      "گالاتا (محله و برجی قدیمی در بی‌اوغلو)",
-      "Galata (an old quarter and tower in Beyoğlu)"
-    ],
-    "kalın": [
-      "(در «hoşça kalın») خداحافظ، به چند نفر",
-      "(in “hoşça kalın”) bye, to more than one person"
-    ],
-    "mağazalar": [
-      "مغازه‌ها",
-      "shops"
-    ],
-    "orası": [
-      "آن‌جا (دور)",
-      "that place over there (far away)"
-    ],
-    "paris": [
-      "پاریس",
-      "Paris"
-    ],
-    "şurası": [
-      "آن‌جا (کمی دورتر)",
-      "that place there (a little way off)"
-    ]
+    "galata": {
+      "fa": "گالاتا (محله و برجی قدیمی در بی‌اوغلو)",
+      "en": "Galata (an old quarter and tower in Beyoğlu)"
+    },
+    "kalın": {
+      "fa": "(در «hoşça kalın») خداحافظ، به چند نفر",
+      "en": "(in “hoşça kalın”) bye, to more than one person"
+    },
+    "mağazalar": {
+      "fa": "مغازه‌ها",
+      "en": "shops"
+    },
+    "orası": {
+      "fa": "آن‌جا (دور)",
+      "en": "that place over there (far away)"
+    },
+    "paris": {
+      "fa": "پاریس",
+      "en": "Paris"
+    },
+    "şurası": {
+      "fa": "آن‌جا (کمی دورتر)",
+      "en": "that place there (a little way off)"
+    }
   },
   "id": "s1e04",
   "kind": "episode",
@@ -132,41 +132,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "“My bus! Bye, you two!” Who says it?",
-      "fa": "«Otobüs! Hoşça kalın!» را چه کسی می‌گوید؟",
       "kind": "comp",
       "options": [
         "Dilnoza",
         "Parvane",
         "Nima"
       ],
-      "q": "“Otobüs! Hoşça kalın!” Kim?",
+      "q": {
+        "tr": "“Otobüs! Hoşça kalın!” Kim?",
+        "en": "“My bus! Bye, you two!” Who says it?",
+        "fa": "«Otobüs! Hoşça kalın!» را چه کسی می‌گوید؟"
+      },
       "why": "Dilnoza: “Otobüs! Hoşça kalın!”"
     },
     {
       "a": 0,
-      "en": "Lots of people everywhere. Kerim: “This is Taksim. So …!”",
-      "fa": "همه‌جا پر از آدم است. کریم: «این‌جا تقسیم است. خیلی …!»",
       "kind": "word",
       "options": [
         "kalabalık",
         "kırmızı",
         "yeni"
       ],
-      "q": "Kerim: “Burası Taksim. Çok …!”",
+      "q": {
+        "tr": "Kerim: “Burası Taksim. Çok …!”",
+        "en": "Lots of people everywhere. Kerim: “This is Taksim. So …!”",
+        "fa": "همه‌جا پر از آدم است. کریم: «این‌جا تقسیم است. خیلی …!»"
+      },
       "why": "Kerim: “Burası Taksim. Çok kalabalık!”"
     },
     {
       "a": 0,
-      "en": "Nima goes home on the metro, Parvaneh stays for the shops. Nima says: “…”",
-      "fa": "نیما با مترو می‌رود و پروانه برای مغازه‌ها می‌ماند. نیما می‌گوید: «…»",
       "kind": "comp",
       "options": [
         "Hoşça kal!",
         "Güle güle!",
         "Günaydın!"
       ],
-      "q": "Nima metro, Parvane mağazalar. Nima: “…”",
+      "q": {
+        "tr": "Nima metro, Parvane mağazalar. Nima: “…”",
+        "en": "Nima goes home on the metro, Parvaneh stays for the shops. Nima says: “…”",
+        "fa": "نیما با مترو می‌رود و پروانه برای مغازه‌ها می‌ماند. نیما می‌گوید: «…»"
+      },
       "why": "Nima: “Hoşça kal!” Parvane: “Güle güle!”"
     }
   ],
@@ -536,11 +542,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "After class, Nima, Parvaneh and Dilnoza walk down İstiklal from Taksim to Şişhane: a red tram, the shops, Galata far away, and two goodbyes.",
-  "summaryFa": "بعد از کلاس، نیما و پروانه و دلنوزا از تقسیم تا شیشهانه در خیابانِ استقلال قدم می‌زنند: یک تراموای قرمز، مغازه‌ها، گالاتا در دوردست و دو خداحافظی.",
-  "title": "Burası neresi?",
-  "titleEn": "Where is this?",
-  "titleFa": "این‌جا کجاست؟",
+  "summary": {
+    "en": "After class, Nima, Parvaneh and Dilnoza walk down İstiklal from Taksim to Şişhane: a red tram, the shops, Galata far away, and two goodbyes.",
+    "fa": "بعد از کلاس، نیما و پروانه و دلنوزا از تقسیم تا شیشهانه در خیابانِ استقلال قدم می‌زنند: یک تراموای قرمز، مغازه‌ها، گالاتا در دوردست و دو خداحافظی."
+  },
+  "title": {
+    "tr": "Burası neresi?",
+    "en": "Where is this?",
+    "fa": "این‌جا کجاست؟"
+  },
   "words": [
     "a1-w-burasi",
     "a1-w-neresi",

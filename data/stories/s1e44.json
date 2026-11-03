@@ -79,54 +79,54 @@
     }
   ],
   "gl": {
-    "buyrun": [
-      "بفرمایید",
-      "here you are; please (buyurun, said quickly)"
-    ],
-    "ediyor": [
-      "می‌کند (yardım ediyor: کمک می‌کند)",
-      "does (yardım ediyor: is helping)"
-    ],
-    "hocam": [
-      "استاد (خطاب به معلم)",
-      "Hocam (how you address a teacher)"
-    ],
-    "kart": [
-      "کارت",
-      "card"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "kumru": [
-      "قمری",
-      "collared dove (an A2 word)"
-    ],
-    "naziksiniz": [
-      "لطف دارید",
-      "you're kind (nazik: kind)"
-    ],
-    "rize": [
-      "ریزه (شهری کنارِ دریای سیاه، معروف به چای)",
-      "Rize (a Black Sea town famous for its tea)"
-    ],
-    "taksim": [
-      "تقسیم (میدان و محله‌ای در بی‌اوغلو)",
-      "Taksim (a square and district in Beyoğlu)"
-    ],
-    "uçtum": [
-      "پرواز کردم (uçmak: پرواز کردن)",
-      "I flew (uçmak: to fly)"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name; the word means victory)"
-    ],
-    "ünite": [
-      "درس، فصلِ کتاب",
-      "unit (of a textbook)"
-    ]
+    "buyrun": {
+      "fa": "بفرمایید",
+      "en": "here you are; please (buyurun, said quickly)"
+    },
+    "ediyor": {
+      "fa": "می‌کند (yardım ediyor: کمک می‌کند)",
+      "en": "does (yardım ediyor: is helping)"
+    },
+    "hocam": {
+      "fa": "استاد (خطاب به معلم)",
+      "en": "Hocam (how you address a teacher)"
+    },
+    "kart": {
+      "fa": "کارت",
+      "en": "card"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "kumru": {
+      "fa": "قمری",
+      "en": "collared dove (an A2 word)"
+    },
+    "naziksiniz": {
+      "fa": "لطف دارید",
+      "en": "you're kind (nazik: kind)"
+    },
+    "rize": {
+      "fa": "ریزه (شهری کنارِ دریای سیاه، معروف به چای)",
+      "en": "Rize (a Black Sea town famous for its tea)"
+    },
+    "taksim": {
+      "fa": "تقسیم (میدان و محله‌ای در بی‌اوغلو)",
+      "en": "Taksim (a square and district in Beyoğlu)"
+    },
+    "uçtum": {
+      "fa": "پرواز کردم (uçmak: پرواز کردن)",
+      "en": "I flew (uçmak: to fly)"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name; the word means victory)"
+    },
+    "ünite": {
+      "fa": "درس، فصلِ کتاب",
+      "en": "unit (of a textbook)"
+    }
   },
   "id": "s1e44",
   "kind": "episode",
@@ -214,41 +214,47 @@
   "quiz": [
     {
       "a": 1,
-      "en": "Who is the Rize tea from?",
-      "fa": "چای ریزه از طرفِ کیست؟",
       "kind": "comp",
       "options": [
         "Farzad'dan",
         "İsmail Bey'den",
         "Zafer Hoca'dan"
       ],
-      "q": "Rize çayı kimden?",
+      "q": {
+        "tr": "Rize çayı kimden?",
+        "en": "Who is the Rize tea from?",
+        "fa": "چای ریزه از طرفِ کیست؟"
+      },
       "why": "“Nima, buyrun: bu İsmail Bey'den. Sizin için.”"
     },
     {
       "a": 1,
-      "en": "What is Kerim doing?",
-      "fa": "کریم چه کار می‌کند؟",
       "kind": "word",
       "options": [
         "Uyuyor",
         "Yardım ediyor",
         "Sınav yazıyor"
       ],
-      "q": "Kerim ne yapıyor?",
+      "q": {
+        "tr": "Kerim ne yapıyor?",
+        "en": "What is Kerim doing?",
+        "fa": "کریم چه کار می‌کند؟"
+      },
       "why": "“Kerim ne yapıyor? Kerim… yardım ediyor!”"
     },
     {
       "a": 2,
-      "en": "Which word does Kerim leave behind?",
-      "fa": "کریم کدام کلمه را به جا می‌گذارد؟",
       "kind": "comp",
       "options": [
         "Kuş",
         "Sınav",
         "Kumru"
       ],
-      "q": "Kerim hangi kelimeyi bırakıyor?",
+      "q": {
+        "tr": "Kerim hangi kelimeyi bırakıyor?",
+        "en": "Which word does Kerim leave behind?",
+        "fa": "کریم کدام کلمه را به جا می‌گذارد؟"
+      },
       "why": "“Son bir kart… ve yeni bir kelime: kumru.”"
     }
   ],
@@ -743,11 +749,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Exam week from Kerim's side. Kerim flies across the city to help and finds others helping too: İsmail sends Rize tea through Zafer Hoca, and Farzad leaves food at the door.",
-  "summaryFa": "هفته‌ی امتحان از نگاهِ کریم. کریم در شهر پرواز می‌کند تا کمک کند و می‌بیند دیگران هم کمک می‌کنند: اسماعیل به دستِ استاد ظفر برای نیما چای ریزه می‌فرستد و فرزاد پشتِ در غذا می‌گذارد.",
-  "title": "Kerim'in günü",
-  "titleEn": "Kerim's day",
-  "titleFa": "روزِ کریم",
+  "summary": {
+    "en": "Exam week from Kerim's side. Kerim flies across the city to help and finds others helping too: İsmail sends Rize tea through Zafer Hoca, and Farzad leaves food at the door.",
+    "fa": "هفته‌ی امتحان از نگاهِ کریم. کریم در شهر پرواز می‌کند تا کمک کند و می‌بیند دیگران هم کمک می‌کنند: اسماعیل به دستِ استاد ظفر برای نیما چای ریزه می‌فرستد و فرزاد پشتِ در غذا می‌گذارد."
+  },
+  "title": {
+    "tr": "Kerim'in günü",
+    "en": "Kerim's day",
+    "fa": "روزِ کریم"
+  },
   "words": [
     "a1-w-yardim-etmek",
     "a1-w-calismak",

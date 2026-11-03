@@ -101,126 +101,126 @@
     }
   ],
   "gl": {
-    "alın": [
-      "بردارید",
-      "take (an instruction)"
-    ],
-    "avı": [
-      "شکارِ… (hazine avı: گنج‌یابی)",
-      "hunt (hazine avı: a treasure hunt)"
-    ],
-    "bekleyelim": [
-      "صبر کنیم",
-      "let's wait"
-    ],
-    "birincisiniz": [
-      "اول هستید",
-      "you're first"
-    ],
-    "bulun": [
-      "پیدا کنید",
-      "find (an instruction)"
-    ],
-    "düşünme": [
-      "فکر نکن",
-      "don't think"
-    ],
-    "ederiz": [
-      "…می‌کنیم (teşekkür ederiz: ممنونیم)",
-      "we do (teşekkür ederiz: thank you, from us)"
-    ],
-    "ediyor": [
-      "می‌کند (با takip)",
-      "does (with takip: is following)"
-    ],
-    "gidin": [
-      "بروید",
-      "go (an instruction)"
-    ],
-    "hadi": [
-      "یالا؛ زود باش",
-      "come on!"
-    ],
-    "hazine": [
-      "گنج",
-      "treasure"
-    ],
-    "hepiniz": [
-      "همه‌تان",
-      "all of you"
-    ],
-    "herkese": [
-      "به همه",
-      "to everyone"
-    ],
-    "hey": [
-      "هی!",
-      "hey!"
-    ],
-    "hocam": [
-      "استاد (خطاب به معلم)",
-      "teacher (addressing your teacher)"
-    ],
-    "kazanın": [
-      "ببرید (برنده شوید)",
-      "win (an instruction)"
-    ],
-    "kitabı": [
-      "کتاب را",
-      "the book (as the object)"
-    ],
-    "kitapta": [
-      "توی کتاب",
-      "in the book"
-    ],
-    "koşalım": [
-      "بدوییم",
-      "let's run"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "kutunun": [
-      "…ِ جعبه (kutunun içinde: توی جعبه)",
-      "of the box (kutunun içinde: inside the box)"
-    ],
-    "lokum": [
-      "راحت‌الحلقوم",
-      "Turkish delight"
-    ],
-    "neredesiniz": [
-      "کجایید؟",
-      "where are you? (siz)"
-    ],
-    "neredeyiz": [
-      "کجاییم؟",
-      "where are we?"
-    ],
-    "peçete": [
-      "دستمال‌کاغذی",
-      "paper napkin"
-    ],
-    "peçetede": [
-      "روی دستمال‌کاغذی",
-      "on the napkin"
-    ],
-    "takip": [
-      "دنبال (takip ediyor: دنبال می‌کند)",
-      "following (takip ediyor: is following)"
-    ],
-    "takım": [
-      "تیم",
-      "team"
-    ],
-    "yorgunum": [
-      "خسته‌ام",
-      "I'm tired"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name)"
-    ]
+    "alın": {
+      "fa": "بردارید",
+      "en": "take (an instruction)"
+    },
+    "avı": {
+      "fa": "شکارِ… (hazine avı: گنج‌یابی)",
+      "en": "hunt (hazine avı: a treasure hunt)"
+    },
+    "bekleyelim": {
+      "fa": "صبر کنیم",
+      "en": "let's wait"
+    },
+    "birincisiniz": {
+      "fa": "اول هستید",
+      "en": "you're first"
+    },
+    "bulun": {
+      "fa": "پیدا کنید",
+      "en": "find (an instruction)"
+    },
+    "düşünme": {
+      "fa": "فکر نکن",
+      "en": "don't think"
+    },
+    "ederiz": {
+      "fa": "…می‌کنیم (teşekkür ederiz: ممنونیم)",
+      "en": "we do (teşekkür ederiz: thank you, from us)"
+    },
+    "ediyor": {
+      "fa": "می‌کند (با takip)",
+      "en": "does (with takip: is following)"
+    },
+    "gidin": {
+      "fa": "بروید",
+      "en": "go (an instruction)"
+    },
+    "hadi": {
+      "fa": "یالا؛ زود باش",
+      "en": "come on!"
+    },
+    "hazine": {
+      "fa": "گنج",
+      "en": "treasure"
+    },
+    "hepiniz": {
+      "fa": "همه‌تان",
+      "en": "all of you"
+    },
+    "herkese": {
+      "fa": "به همه",
+      "en": "to everyone"
+    },
+    "hey": {
+      "fa": "هی!",
+      "en": "hey!"
+    },
+    "hocam": {
+      "fa": "استاد (خطاب به معلم)",
+      "en": "teacher (addressing your teacher)"
+    },
+    "kazanın": {
+      "fa": "ببرید (برنده شوید)",
+      "en": "win (an instruction)"
+    },
+    "kitabı": {
+      "fa": "کتاب را",
+      "en": "the book (as the object)"
+    },
+    "kitapta": {
+      "fa": "توی کتاب",
+      "en": "in the book"
+    },
+    "koşalım": {
+      "fa": "بدوییم",
+      "en": "let's run"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "kutunun": {
+      "fa": "…ِ جعبه (kutunun içinde: توی جعبه)",
+      "en": "of the box (kutunun içinde: inside the box)"
+    },
+    "lokum": {
+      "fa": "راحت‌الحلقوم",
+      "en": "Turkish delight"
+    },
+    "neredesiniz": {
+      "fa": "کجایید؟",
+      "en": "where are you? (siz)"
+    },
+    "neredeyiz": {
+      "fa": "کجاییم؟",
+      "en": "where are we?"
+    },
+    "peçete": {
+      "fa": "دستمال‌کاغذی",
+      "en": "paper napkin"
+    },
+    "peçetede": {
+      "fa": "روی دستمال‌کاغذی",
+      "en": "on the napkin"
+    },
+    "takip": {
+      "fa": "دنبال (takip ediyor: دنبال می‌کند)",
+      "en": "following (takip ediyor: is following)"
+    },
+    "takım": {
+      "fa": "تیم",
+      "en": "team"
+    },
+    "yorgunum": {
+      "fa": "خسته‌ام",
+      "en": "I'm tired"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name)"
+    }
   },
   "id": "s1e24",
   "kind": "special",
@@ -386,41 +386,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What is in the red book?",
-      "fa": "توی کتابِ قرمز چه هست؟",
       "kind": "comp",
       "options": [
         "Bir mesaj",
         "Bir peçete",
         "Bir sözlük"
       ],
-      "q": "Kırmızı kitapta ne var?",
+      "q": {
+        "tr": "Kırmızı kitapta ne var?",
+        "en": "What is in the red book?",
+        "fa": "توی کتابِ قرمز چه هست؟"
+      },
       "why": "Dilnoza: “Kitapta bir mesaj var!”"
     },
     {
       "a": 0,
-      "en": "“Go to the library. … the red book.”",
-      "fa": "«به کتابخانه بروید. کتابِ قرمز را …»",
       "kind": "word",
       "options": [
         "bulun",
         "alın",
         "gidin"
       ],
-      "q": "“Kütüphaneye gidin. Kırmızı kitabı …”",
+      "q": {
+        "tr": "“Kütüphaneye gidin. Kırmızı kitabı …”",
+        "en": "“Go to the library. … the red book.”",
+        "fa": "«به کتابخانه بروید. کتابِ قرمز را …»"
+      },
       "why": "Nima: “Kütüphaneye gidin. Kırmızı kitabı bulun.”"
     },
     {
       "a": 0,
-      "en": "What does Zafer Hoca give everyone?",
-      "fa": "استاد ظفر به همه چه می‌دهد؟",
       "kind": "comp",
       "options": [
         "Bir sözlük ve lokum",
         "Bir kitap ve çay",
         "Bir peçete"
       ],
-      "q": "Zafer Hoca herkese ne veriyor?",
+      "q": {
+        "tr": "Zafer Hoca herkese ne veriyor?",
+        "en": "What does Zafer Hoca give everyone?",
+        "fa": "استاد ظفر به همه چه می‌دهد؟"
+      },
       "why": "Zafer Hoca: “Hediye! Herkese bir sözlük ve lokum.”"
     }
   ],
@@ -1066,11 +1072,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "A Saturday treasure hunt across Taksim and İstiklal: every clue is written with the case endings. In the street Nima freezes in front of a stranger and shy Dilnoza tries first; Kerim helps in secret, and the hunt ends at Şişhane with a treasure for everyone.",
-  "summaryFa": "گنج‌یابیِ روزِ شنبه در تقسیم و خیابانِ استقلال: هر سرنخ با پسوندهای حالتِ اسم نوشته شده. در خیابان، نیما جلوی یک غریبه زبانش بند می‌آید و دلنوزای خجالتی اول خودش امتحان می‌کند؛ کریم پنهانی کمک می‌کند و گنج‌یابی در شیشهانه با جایزه‌ای برای همه تمام می‌شود.",
-  "title": "Hazine avı",
-  "titleEn": "The treasure hunt",
-  "titleFa": "گنج‌یابی",
+  "summary": {
+    "en": "A Saturday treasure hunt across Taksim and İstiklal: every clue is written with the case endings. In the street Nima freezes in front of a stranger and shy Dilnoza tries first; Kerim helps in secret, and the hunt ends at Şişhane with a treasure for everyone.",
+    "fa": "گنج‌یابیِ روزِ شنبه در تقسیم و خیابانِ استقلال: هر سرنخ با پسوندهای حالتِ اسم نوشته شده. در خیابان، نیما جلوی یک غریبه زبانش بند می‌آید و دلنوزای خجالتی اول خودش امتحان می‌کند؛ کریم پنهانی کمک می‌کند و گنج‌یابی در شیشهانه با جایزه‌ای برای همه تمام می‌شود."
+  },
+  "title": {
+    "tr": "Hazine avı",
+    "en": "The treasure hunt",
+    "fa": "گنج‌یابی"
+  },
   "words": [
     "a1-w-bulmak",
     "a1-w-beraber",

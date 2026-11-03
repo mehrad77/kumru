@@ -91,8 +91,10 @@
     "skin": "skin_03",
     "v": 1
   },
-  "bio": "Five or six years old, in kindergarten. Fearless and curious, with no filter.",
-  "bioFa": "پنج‌شش ساله، کودکستانی. نترس و کنجکاو است و هرچه به ذهنش برسد می‌گوید.",
+  "bio": {
+    "en": "Five or six years old, in kindergarten. Fearless and curious, with no filter.",
+    "fa": "پنج‌شش ساله، کودکستانی. نترس و کنجکاو است و هرچه به ذهنش برسد می‌گوید."
+  },
   "catch": {
     "en": "Why?",
     "fa": "چرا؟",
@@ -112,8 +114,10 @@
     ],
     "tempo": 1.3
   },
-  "name": "Ömer",
-  "nameFa": "عمر",
+  "name": {
+    "tr": "Ömer",
+    "fa": "عمر"
+  },
   "order": 10,
   "outfits": {
     "rain": {
@@ -142,8 +146,10 @@
     "flat_nima",
     "park_ferikoy"
   ],
-  "role": "Elif and Serkan's son",
-  "roleFa": "پسرِ الیف و سرکان",
+  "role": {
+    "en": "Elif and Serkan's son",
+    "fa": "پسرِ الیف و سرکان"
+  },
   "voice": {
     "pitch": 1.45,
     "rate": 1.15

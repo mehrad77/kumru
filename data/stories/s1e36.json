@@ -84,126 +84,126 @@
     }
   ],
   "gl": {
-    "arada": [
-      "(bu arada) راستی",
-      "(bu arada) by the way"
-    ],
-    "benden": [
-      "از طرفِ من، مهمانِ من",
-      "on me; my treat"
-    ],
-    "diyebilirsin": [
-      "می‌توانی بگویی",
-      "you can say"
-    ],
-    "eczanenin": [
-      "ـِ داروخانه",
-      "the pharmacy's; of the pharmacy"
-    ],
-    "feriköy'de": [
-      "در فری‌کؤی",
-      "in Feriköy"
-    ],
-    "feriköy'ün": [
-      "ـِ فری‌کؤی",
-      "Feriköy's"
-    ],
-    "fırınlar": [
-      "نانوایی‌ها",
-      "the bakeries"
-    ],
-    "fırının": [
-      "ـِ نانوایی",
-      "the bakery's; of the bakery"
-    ],
-    "hadi": [
-      "بیا، بریم",
-      "come on, let's go"
-    ],
-    "hazır": [
-      "آماده",
-      "ready"
-    ],
-    "herkese": [
-      "به همه",
-      "to everyone"
-    ],
-    "hâlâ": [
-      "هنوز",
-      "still"
-    ],
-    "ikisi": [
-      "هر دو",
-      "both (of them)"
-    ],
-    "iyisin": [
-      "خوبی",
-      "you're kind; you're good"
-    ],
-    "köşede": [
-      "سرِ نبش، در گوشه",
-      "on the corner"
-    ],
-    "köşedeki": [
-      "(آنِ) سرِ نبش",
-      "the one on the corner"
-    ],
-    "mahallenin": [
-      "ـِ محله",
-      "the neighbourhood's"
-    ],
-    "maria": [
-      "ماریا (همسایهٔ طبقهٔ پنجم)",
-      "Maria (the neighbour on the fifth floor)"
-    ],
-    "naziksiniz": [
-      "لطف دارید",
-      "you're kind"
-    ],
-    "rehber": [
-      "راهنما",
-      "guide (a guidebook)"
-    ],
-    "rehberde": [
-      "در راهنما",
-      "in the guide"
-    ],
-    "rehberi": [
-      "راهنمای…",
-      "the guide (of …)"
-    ],
-    "tankın": [
-      "ـِ منبعِ آب",
-      "of the (water) tank"
-    ],
-    "teyze'nin": [
-      "ـِ خاله",
-      "auntie's"
-    ],
-    "turisti": [
-      "توریستِ…",
-      "the tourist (of …)"
-    ],
-    "yeniydi": [
-      "تازه بود",
-      "was new"
-    ],
-    "yukarıda": [
-      "آن بالا",
-      "up there"
-    ],
-    "önünde": [
-      "جلوی…",
-      "in front of…"
-    ],
-    "üstünde": [
-      "بالای…، روی…",
-      "on top of…"
-    ],
-    "şşş": [
-      "هیس!",
-      "shh!"
-    ]
+    "arada": {
+      "fa": "(bu arada) راستی",
+      "en": "(bu arada) by the way"
+    },
+    "benden": {
+      "fa": "از طرفِ من، مهمانِ من",
+      "en": "on me; my treat"
+    },
+    "diyebilirsin": {
+      "fa": "می‌توانی بگویی",
+      "en": "you can say"
+    },
+    "eczanenin": {
+      "fa": "ـِ داروخانه",
+      "en": "the pharmacy's; of the pharmacy"
+    },
+    "feriköy'de": {
+      "fa": "در فری‌کؤی",
+      "en": "in Feriköy"
+    },
+    "feriköy'ün": {
+      "fa": "ـِ فری‌کؤی",
+      "en": "Feriköy's"
+    },
+    "fırınlar": {
+      "fa": "نانوایی‌ها",
+      "en": "the bakeries"
+    },
+    "fırının": {
+      "fa": "ـِ نانوایی",
+      "en": "the bakery's; of the bakery"
+    },
+    "hadi": {
+      "fa": "بیا، بریم",
+      "en": "come on, let's go"
+    },
+    "hazır": {
+      "fa": "آماده",
+      "en": "ready"
+    },
+    "herkese": {
+      "fa": "به همه",
+      "en": "to everyone"
+    },
+    "hâlâ": {
+      "fa": "هنوز",
+      "en": "still"
+    },
+    "ikisi": {
+      "fa": "هر دو",
+      "en": "both (of them)"
+    },
+    "iyisin": {
+      "fa": "خوبی",
+      "en": "you're kind; you're good"
+    },
+    "köşede": {
+      "fa": "سرِ نبش، در گوشه",
+      "en": "on the corner"
+    },
+    "köşedeki": {
+      "fa": "(آنِ) سرِ نبش",
+      "en": "the one on the corner"
+    },
+    "mahallenin": {
+      "fa": "ـِ محله",
+      "en": "the neighbourhood's"
+    },
+    "maria": {
+      "fa": "ماریا (همسایهٔ طبقهٔ پنجم)",
+      "en": "Maria (the neighbour on the fifth floor)"
+    },
+    "naziksiniz": {
+      "fa": "لطف دارید",
+      "en": "you're kind"
+    },
+    "rehber": {
+      "fa": "راهنما",
+      "en": "guide (a guidebook)"
+    },
+    "rehberde": {
+      "fa": "در راهنما",
+      "en": "in the guide"
+    },
+    "rehberi": {
+      "fa": "راهنمای…",
+      "en": "the guide (of …)"
+    },
+    "tankın": {
+      "fa": "ـِ منبعِ آب",
+      "en": "of the (water) tank"
+    },
+    "teyze'nin": {
+      "fa": "ـِ خاله",
+      "en": "auntie's"
+    },
+    "turisti": {
+      "fa": "توریستِ…",
+      "en": "the tourist (of …)"
+    },
+    "yeniydi": {
+      "fa": "تازه بود",
+      "en": "was new"
+    },
+    "yukarıda": {
+      "fa": "آن بالا",
+      "en": "up there"
+    },
+    "önünde": {
+      "fa": "جلوی…",
+      "en": "in front of…"
+    },
+    "üstünde": {
+      "fa": "بالای…، روی…",
+      "en": "on top of…"
+    },
+    "şşş": {
+      "fa": "هیس!",
+      "en": "shh!"
+    }
   },
   "id": "s1e36",
   "kind": "special",
@@ -257,41 +257,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Who tries out the guide?",
-      "fa": "چه کسی راهنما را امتحان می‌کند؟",
       "kind": "comp",
       "options": [
         "Berfin",
         "Gülten",
         "Farzad"
       ],
-      "q": "Rehberi kim deniyor?",
+      "q": {
+        "tr": "Rehberi kim deniyor?",
+        "en": "Who tries out the guide?",
+        "fa": "چه کسی راهنما را امتحان می‌کند؟"
+      },
       "why": "Berfin: “Ben de Feriköy'de yeniyim. Hadi, rehber!”"
     },
     {
       "a": 0,
-      "en": "Where is Gülten Hanım's flower shop?",
-      "fa": "گل‌فروشیِ گولتن خانم کجاست؟",
       "kind": "word",
       "options": [
         "Köşede",
         "Parkın arkasında",
         "Okulun karşısında"
       ],
-      "q": "Gülten Hanım'ın çiçekçisi nerede?",
+      "q": {
+        "tr": "Gülten Hanım'ın çiçekçisi nerede?",
+        "en": "Where is Gülten Hanım's flower shop?",
+        "fa": "گل‌فروشیِ گولتن خانم کجاست؟"
+      },
       "why": "Nima: “Burası Gülten Hanım'ın çiçekçisi: köşede.”"
     },
     {
       "a": 0,
-      "en": "What does the new student ask?",
-      "fa": "دانشجوی تازه چه می‌پرسد؟",
       "kind": "comp",
       "options": [
         "Burası neresi?",
         "Kedinin adı ne?",
         "Bir çay daha?"
       ],
-      "q": "Yeni öğrenci ne soruyor?",
+      "q": {
+        "tr": "Yeni öğrenci ne soruyor?",
+        "en": "What does the new student ask?",
+        "fa": "دانشجوی تازه چه می‌پرسد؟"
+      },
       "why": "Yeni öğrenci: “Affedersiniz… burası neresi?”"
     }
   ],
@@ -861,11 +867,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The guide is finished, and Berfin, new in Feriköy herself, tests it: the flower shop, the two bakeries, the cat with four names. That evening she pins it on the café wall, just as a lost new student walks in.",
-  "summaryFa": "راهنما تمام شده و برفین، که خودش هم در فری‌کؤی تازه‌وارد است، امتحانش می‌کند: گل‌فروشی، دو نانوایی، گربهٔ چهاراسمه. عصر آن را به دیوارِ کافه می‌زند، درست همان وقت که یک دانشجوی تازه‌واردِ سرگردان وارد می‌شود.",
-  "title": "Rehber",
-  "titleEn": "The guide",
-  "titleFa": "راهنما",
+  "summary": {
+    "en": "The guide is finished, and Berfin, new in Feriköy herself, tests it: the flower shop, the two bakeries, the cat with four names. That evening she pins it on the café wall, just as a lost new student walks in.",
+    "fa": "راهنما تمام شده و برفین، که خودش هم در فری‌کؤی تازه‌وارد است، امتحانش می‌کند: گل‌فروشی، دو نانوایی، گربهٔ چهاراسمه. عصر آن را به دیوارِ کافه می‌زند، درست همان وقت که یک دانشجوی تازه‌واردِ سرگردان وارد می‌شود."
+  },
+  "title": {
+    "tr": "Rehber",
+    "en": "The guide",
+    "fa": "راهنما"
+  },
   "words": [
     "a1-w-mahalle",
     "a1-w-kose",

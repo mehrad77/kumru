@@ -110,38 +110,38 @@
     }
   ],
   "gl": {
-    "bak": [
-      "ببین!",
-      "look!"
-    ],
-    "hocam": [
-      "استادم (خطاب به معلم)",
-      "teacher, sir/miss (said to a teacher)"
-    ],
-    "ku": [
-      "کو (صدای قمری)",
-      "coo (a dove's call)"
-    ],
-    "kırlangıç": [
-      "پرستو (اسم)",
-      "Kırlangıç (a name; the word means swallow)"
-    ],
-    "masada": [
-      "روی میز",
-      "on the table (masa + -da)"
-    ],
-    "usta": [
-      "تعمیرکار، اوستا",
-      "repairman"
-    ],
-    "öğrenciydi": [
-      "دانشجو بود",
-      "was a student"
-    ],
-    "şşş": [
-      "هیس!",
-      "shh!"
-    ]
+    "bak": {
+      "fa": "ببین!",
+      "en": "look!"
+    },
+    "hocam": {
+      "fa": "استادم (خطاب به معلم)",
+      "en": "teacher, sir/miss (said to a teacher)"
+    },
+    "ku": {
+      "fa": "کو (صدای قمری)",
+      "en": "coo (a dove's call)"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسم)",
+      "en": "Kırlangıç (a name; the word means swallow)"
+    },
+    "masada": {
+      "fa": "روی میز",
+      "en": "on the table (masa + -da)"
+    },
+    "usta": {
+      "fa": "تعمیرکار، اوستا",
+      "en": "repairman"
+    },
+    "öğrenciydi": {
+      "fa": "دانشجو بود",
+      "en": "was a student"
+    },
+    "şşş": {
+      "fa": "هیس!",
+      "en": "shh!"
+    }
   },
   "id": "s1e38",
   "kind": "episode",
@@ -199,41 +199,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Which floor is the library on?",
-      "fa": "کتابخانه طبقهٔ چندم است؟",
       "kind": "comp",
       "options": [
         "İkinci katta",
         "Birinci katta",
         "Dördüncü katta"
       ],
-      "q": "Kütüphane kaçıncı katta?",
+      "q": {
+        "tr": "Kütüphane kaçıncı katta?",
+        "en": "Which floor is the library on?",
+        "fa": "کتابخانه طبقهٔ چندم است؟"
+      },
       "why": "Nima: “İkinci katta.”"
     },
     {
       "a": 0,
-      "en": "“Kitap masa.” Is this …? No: “Kitap masada.”",
-      "fa": "«Kitap masa.» این … است؟ نه: «Kitap masada.»",
       "kind": "word",
       "options": [
         "doğru",
         "soğuk",
         "uzun"
       ],
-      "q": "“Kitap masa.” Bu … mu? Hayır: “Kitap masada.”",
+      "q": {
+        "tr": "“Kitap masa.” Bu … mu? Hayır: “Kitap masada.”",
+        "en": "“Kitap masa.” Is this …? No: “Kitap masada.”",
+        "fa": "«Kitap masa.» این … است؟ نه: «Kitap masada.»"
+      },
       "why": "Yeni öğrenci: “Affedersin… bu doğru mu?”"
     },
     {
       "a": 0,
-      "en": "What does the new student call Nima?",
-      "fa": "دانشجوی تازه نیما را چه صدا می‌زند؟",
       "kind": "comp",
       "options": [
         "Hocam",
         "Komşu",
         "Abla"
       ],
-      "q": "Yeni öğrenci Nima'ya ne diyor?",
+      "q": {
+        "tr": "Yeni öğrenci Nima'ya ne diyor?",
+        "en": "What does the new student call Nima?",
+        "fa": "دانشجوی تازه نیما را چه صدا می‌زند؟"
+      },
       "why": "Yeni öğrenci: “Teşekkürler, hocam!”"
     }
   ],
@@ -575,11 +581,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The study group meets at a warm İBB library. Between Unit 2 drills, the new student from Berfin's café asks Nima for help, and the student becomes, a little, a teacher.",
-  "summaryFa": "گروهِ درس‌خوانی در یک کتابخانهٔ گرمِ شهرداری جمع می‌شود. بینِ تمرین‌های درسِ ۲، همان دانشجوی تازه‌واردی که در کافهٔ برفین بود از نیما کمک می‌خواهد، و شاگرد کمی معلم می‌شود.",
-  "title": "Kütüphanede",
-  "titleEn": "At the library",
-  "titleFa": "در کتابخانه",
+  "summary": {
+    "en": "The study group meets at a warm İBB library. Between Unit 2 drills, the new student from Berfin's café asks Nima for help, and the student becomes, a little, a teacher.",
+    "fa": "گروهِ درس‌خوانی در یک کتابخانهٔ گرمِ شهرداری جمع می‌شود. بینِ تمرین‌های درسِ ۲، همان دانشجوی تازه‌واردی که در کافهٔ برفین بود از نیما کمک می‌خواهد، و شاگرد کمی معلم می‌شود."
+  },
+  "title": {
+    "tr": "Kütüphanede",
+    "en": "At the library",
+    "fa": "در کتابخانه"
+  },
   "words": [
     "a1-w-kacinci",
     "a1-w-var",

@@ -85,8 +85,10 @@
     "skin": "skin_21",
     "v": 1
   },
-  "bio": "In his 20s, from Aleppo, Syria; his family is in Aleppo and Gaziantep. Wants to study medicine, which needs B2. Kind and organised, the class's helper, but takes the wrong train.",
-  "bioFa": "بیست‌وچند ساله، اهل حلبِ سوریه؛ خانواده‌اش در حلب و غازی‌عینتاب است. می‌خواهد پزشکی بخواند و برای آن B2 لازم است. مهربان و منظم، یاورِ کلاس، ولی سوارِ قطارِ اشتباهی می‌شود.",
+  "bio": {
+    "en": "In his 20s, from Aleppo, Syria; his family is in Aleppo and Gaziantep. Wants to study medicine, which needs B2. Kind and organised, the class's helper, but takes the wrong train.",
+    "fa": "بیست‌وچند ساله، اهل حلبِ سوریه؛ خانواده‌اش در حلب و غازی‌عینتاب است. می‌خواهد پزشکی بخواند و برای آن B2 لازم است. مهربان و منظم، یاورِ کلاس، ولی سوارِ قطارِ اشتباهی می‌شود."
+  },
   "catch": {
     "en": "This word exists in Arabic too!",
     "fa": "این کلمه در عربی هم هست!",
@@ -106,8 +108,10 @@
     ],
     "tempo": 1.0
   },
-  "name": "Yusuf",
-  "nameFa": "یوسف",
+  "name": {
+    "tr": "Yusuf",
+    "fa": "یوسف"
+  },
   "order": 15,
   "outfits": {
     "cold": {
@@ -139,8 +143,10 @@
   "places": [
     "class504"
   ],
-  "role": "A classmate from Aleppo",
-  "roleFa": "هم‌کلاسی‌ای از حلب",
+  "role": {
+    "en": "A classmate from Aleppo",
+    "fa": "هم‌کلاسی‌ای از حلب"
+  },
   "voice": {
     "pitch": 0.95,
     "rate": 1.0

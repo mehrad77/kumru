@@ -87,8 +87,10 @@
     "skin": "skin_17",
     "v": 1
   },
-  "bio": "In her 40s, from İzmir; a nurse at a public hospital in Şişli, on shifts. Warm, practical and unflappable; always tired after nights.",
-  "bioFa": "چهل و چند ساله، اهلِ ازمیر؛ پرستارِ یک بیمارستانِ دولتی در شیشلی است و شیفتی کار می‌کند. گرم، اهلِ عمل و خونسرد است؛ بعد از شیفتِ شب همیشه خسته است.",
+  "bio": {
+    "en": "In her 40s, from İzmir; a nurse at a public hospital in Şişli, on shifts. Warm, practical and unflappable; always tired after nights.",
+    "fa": "چهل و چند ساله، اهلِ ازمیر؛ پرستارِ یک بیمارستانِ دولتی در شیشلی است و شیفتی کار می‌کند. گرم، اهلِ عمل و خونسرد است؛ بعد از شیفتِ شب همیشه خسته است."
+  },
   "catch": {
     "en": "Get well soon!",
     "fa": "بلا به دور!",
@@ -108,8 +110,10 @@
     ],
     "tempo": 1.0
   },
-  "name": "Elif",
-  "nameFa": "الیف",
+  "name": {
+    "tr": "Elif",
+    "fa": "الیف"
+  },
   "order": 8,
   "outfits": {
     "shift": {
@@ -152,8 +156,10 @@
     "flat_elif",
     "flat_nima"
   ],
-  "role": "Nurse; lives downstairs from Nima",
-  "roleFa": "پرستار؛ طبقهٔ پایینِ نیما زندگی می‌کند",
+  "role": {
+    "en": "Nurse; lives downstairs from Nima",
+    "fa": "پرستار؛ طبقهٔ پایینِ نیما زندگی می‌کند"
+  },
   "voice": {
     "pitch": 1.05,
     "rate": 1.0

@@ -95,8 +95,10 @@
       }
     }
   },
-  "bio": "In his 40s, born in Beşiktaş, Istanbul; drives a yellow taxi. Big-hearted and loud; can't lose an argument.",
-  "bioFa": "چهل و چند ساله، متولدِ بشیکتاشِ استانبول؛ رانندهٔ تاکسیِ زرد است. دلِ بزرگی دارد و بلند حرف می‌زند؛ نمی‌تواند در بحثی ببازد.",
+  "bio": {
+    "en": "In his 40s, born in Beşiktaş, Istanbul; drives a yellow taxi. Big-hearted and loud; can't lose an argument.",
+    "fa": "چهل و چند ساله، متولدِ بشیکتاشِ استانبول؛ رانندهٔ تاکسیِ زرد است. دلِ بزرگی دارد و بلند حرف می‌زند؛ نمی‌تواند در بحثی ببازد."
+  },
   "catch": {
     "en": "Beşiktaş is the greatest!",
     "fa": "بشیکتاش بزرگ‌ترین است!",
@@ -116,8 +118,10 @@
     ],
     "tempo": 1.1
   },
-  "name": "Serkan",
-  "nameFa": "سرکان",
+  "name": {
+    "tr": "Serkan",
+    "fa": "سرکان"
+  },
   "order": 9,
   "outfits": {
     "winter": {
@@ -139,8 +143,10 @@
     "flat_elif",
     "cafe_berfin"
   ],
-  "role": "Elif's husband; taxi driver and Beşiktaş fan",
-  "roleFa": "همسرِ الیف؛ رانندهٔ تاکسی و طرفدارِ بشیکتاش",
+  "role": {
+    "en": "Elif's husband; taxi driver and Beşiktaş fan",
+    "fa": "همسرِ الیف؛ رانندهٔ تاکسی و طرفدارِ بشیکتاش"
+  },
   "voice": {
     "pitch": 0.8,
     "rate": 1.1

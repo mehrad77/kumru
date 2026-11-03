@@ -95,62 +95,62 @@
     }
   ],
   "gl": {
-    "adını": [
-      "اسمش را",
-      "its name (as the object)"
-    ],
-    "boğaz": [
-      "بُسفر",
-      "the Bosphorus"
-    ],
-    "kara": [
-      "سیاه",
-      "black"
-    ],
-    "kartal": [
-      "عقاب",
-      "eagle (Kara Kartal, the Black Eagle: Beşiktaş's nickname)"
-    ],
-    "kedimiz": [
-      "گربه‌مان",
-      "our cat"
-    ],
-    "kediniz": [
-      "گربه‌تان",
-      "your cat (siz)"
-    ],
-    "kiki": [
-      "کیکی (اسمِ گربه)",
-      "Kiki (a cat's name)"
-    ],
-    "kiki'yi": [
-      "کیکی را",
-      "Kiki (as the object)"
-    ],
-    "onu": [
-      "او را؛ آن را",
-      "him, her or it (as the object)"
-    ],
-    "oğlum": [
-      "پسرم (با محبت)",
-      "my boy (said fondly)"
-    ],
-    "pamuk": [
-      "پاموک: «پنبه» (اسمِ گربه)",
-      "Pamuk: “cotton” (a cat's name)"
-    ],
-    "pişi": [
-      "پیشی (گربه را این‌طور صدا می‌کنند)",
-      "Pişi: a way to call a cat (Persian پیشی)"
-    ],
-    "tahran": [
-      "تهران",
-      "Tehran"
-    ],
-    "yavrum": [
-      "عزیزم",
-      "my dear (to someone younger)"
-    ]
+    "adını": {
+      "fa": "اسمش را",
+      "en": "its name (as the object)"
+    },
+    "boğaz": {
+      "fa": "بُسفر",
+      "en": "the Bosphorus"
+    },
+    "kara": {
+      "fa": "سیاه",
+      "en": "black"
+    },
+    "kartal": {
+      "fa": "عقاب",
+      "en": "eagle (Kara Kartal, the Black Eagle: Beşiktaş's nickname)"
+    },
+    "kedimiz": {
+      "fa": "گربه‌مان",
+      "en": "our cat"
+    },
+    "kediniz": {
+      "fa": "گربه‌تان",
+      "en": "your cat (siz)"
+    },
+    "kiki": {
+      "fa": "کیکی (اسمِ گربه)",
+      "en": "Kiki (a cat's name)"
+    },
+    "kiki'yi": {
+      "fa": "کیکی را",
+      "en": "Kiki (as the object)"
+    },
+    "onu": {
+      "fa": "او را؛ آن را",
+      "en": "him, her or it (as the object)"
+    },
+    "oğlum": {
+      "fa": "پسرم (با محبت)",
+      "en": "my boy (said fondly)"
+    },
+    "pamuk": {
+      "fa": "پاموک: «پنبه» (اسمِ گربه)",
+      "en": "Pamuk: “cotton” (a cat's name)"
+    },
+    "pişi": {
+      "fa": "پیشی (گربه را این‌طور صدا می‌کنند)",
+      "en": "Pişi: a way to call a cat (Persian پیشی)"
+    },
+    "tahran": {
+      "fa": "تهران",
+      "en": "Tehran"
+    },
+    "yavrum": {
+      "fa": "عزیزم",
+      "en": "my dear (to someone younger)"
+    }
   },
   "id": "s1e23",
   "kind": "episode",
@@ -220,41 +220,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What does Serkan bring?",
-      "fa": "سرکان چه می‌آورد؟",
       "kind": "comp",
       "options": [
         "Balık",
         "Süt",
         "Çay"
       ],
-      "q": "Serkan ne getiriyor?",
+      "q": {
+        "tr": "Serkan ne getiriyor?",
+        "en": "What does Serkan bring?",
+        "fa": "سرکان چه می‌آورد؟"
+      },
       "why": "Serkan: “Kara Kartal! Gel oğlum! Balık veriyorum!”"
     },
     {
       "a": 0,
-      "en": "Nima: “I have a cat in Tehran. I … it.”",
-      "fa": "نیما: «توی تهران گربه دارم. …»",
       "kind": "word",
       "options": [
         "özlüyorum",
         "veriyorum",
         "korkuyorum"
       ],
-      "q": "Nima: “Tahran'da benim kedim var. Onu …”",
+      "q": {
+        "tr": "Nima: “Tahran'da benim kedim var. Onu …”",
+        "en": "Nima: “I have a cat in Tehran. I … it.”",
+        "fa": "نیما: «توی تهران گربه دارم. …»"
+      },
       "why": "Nima: “Tahran'da benim kedim var. Onu özlüyorum.”"
     },
     {
       "a": 0,
-      "en": "In the end, whose cat is it?",
-      "fa": "آخرش گربه مالِ کیست؟",
       "kind": "comp",
       "options": [
         "Bizim",
         "Benim",
         "Sizin"
       ],
-      "q": "Sonunda kedi kimin?",
+      "q": {
+        "tr": "Sonunda kedi kimin?",
+        "en": "In the end, whose cat is it?",
+        "fa": "آخرش گربه مالِ کیست؟"
+      },
       "why": "Ömer: “Bizim kedimiz! Adı ne?”"
     }
   ],
@@ -695,11 +701,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "Friday, no class: Nima comes down with a thermos for the Bosphorus and finds the street cat at the door. Maria Teyze calls it Kiki, Ömer Pamuk, Serkan Kara Kartal and Nima Pişi: one cat, four names, everyone's cat.",
-  "summaryFa": "جمعه است و کلاس نیست. نیما با فلاسکِ چای پایین می‌آید که برود کنارِ بسفر، اما دمِ در گربه‌ی کوچه را می‌بیند. خاله ماریا صدایش می‌کند کیکی، عمر پاموک، سرکان کارا کارتال و نیما پیشی: یک گربه، چهار اسم، گربه‌ی همه.",
-  "title": "Bizim kedimiz",
-  "titleEn": "Our cat",
-  "titleFa": "گربه‌ی ما",
+  "summary": {
+    "en": "Friday, no class: Nima comes down with a thermos for the Bosphorus and finds the street cat at the door. Maria Teyze calls it Kiki, Ömer Pamuk, Serkan Kara Kartal and Nima Pişi: one cat, four names, everyone's cat.",
+    "fa": "جمعه است و کلاس نیست. نیما با فلاسکِ چای پایین می‌آید که برود کنارِ بسفر، اما دمِ در گربه‌ی کوچه را می‌بیند. خاله ماریا صدایش می‌کند کیکی، عمر پاموک، سرکان کارا کارتال و نیما پیشی: یک گربه، چهار اسم، گربه‌ی همه."
+  },
+  "title": {
+    "tr": "Bizim kedimiz",
+    "en": "Our cat",
+    "fa": "گربه‌ی ما"
+  },
   "words": [
     "a1-w-ozlemek",
     "a1-w-sevmek",

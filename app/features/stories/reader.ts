@@ -28,12 +28,11 @@ import { addXp, bumpDay, saveProgress, todayKey } from "../progress/index.ts";
 import { showGloss } from "../words/index.ts";
 import { finishRecord, okPicks, quizStars, shuffled, type StRecord } from "./model/record.ts";
 import { pref, setPref, storyView } from "./prefs.ts";
-import { characters, loadStories, nextStory, openStories, places, record, stories, type QuizItem, type Story } from "./state.ts";
+import { characters, loadStories, nextStory, openStories, places, record, stories, textIn, type QuizItem, type Story } from "./state.ts";
 import { noteListen, voiceOk } from "./voice.ts";
 
 type Player = typeof import("../../lib/player.ts");
 let G: Awaited<ReturnType<typeof loadGlossModel>>;
-type Lang = "tr" | "en" | "fa";
 type Text3 = { tr?: string; en?: string; fa?: string };
 
 const btn = (cls: string, text: string, onclick: () => void, extra: Record<string, unknown> = {}) => el("button", { class: cls, type: "button", text, onclick, ...extra });
@@ -92,7 +91,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
 
   function run(P: Player, story: Story): number {
     const name = studentName();
-    page.setAttribute("aria-label", story.title);
+    page.setAttribute("aria-label", textIn(story.title, "tr"));
     const mech = story.arc?.mechanics ?? [];
 
     // ---- tap-to-translate: the story's glossary first, then the app's word cards ----
@@ -100,7 +99,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const lookup = (word: string) => {
       const w = word.toLocaleLowerCase("tr").replace(/[’]/g, "'");
       const own = story.gl?.[w];
-      if (own) return { lines: [{ text: own[1] }, { text: own[0], lang: "fa", dir: "rtl" as const }] };
+      if (own) return { lines: [{ text: own.en ?? "" }, ...(own.fa ? [{ text: own.fa, lang: "fa", dir: "rtl" as const }] : [])] };
       const hit = G.glossSegments(word, idx, null).find((s) => s.hit)?.hit;
       if (!hit) return null;
       const c = hit.card as { id?: string; tr?: string; en?: string; fa?: string } | undefined;
@@ -135,7 +134,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const chars = Object.fromEntries(Object.entries(characters.value).map(([cid, c]) => [cid, personalize(c, undefined)])) as Record<string, never>;
     const picksByStory = Object.fromEntries(Object.entries(S.st as Record<string, StRecord>).map(([k, v]) => [k, v?.ch]));
     const flags = P.flagsOf(stories.value as never[], picksByStory);
-    const adapted = P.adaptStory(story as never, { places: storyPlaces, characters: chars, learner: S.char ? P.learnerAvatar(S.char) : null, personalise: (t: string, lang?: Lang) => personalizeStr(t, lang ?? "tr"), flags });
+    const adapted = P.adaptStory(story as never, { places: storyPlaces, characters: chars, learner: S.char ? P.learnerAvatar(S.char) : null, personalise: (t: string, lang?: string) => personalizeStr(t, lang ?? "tr"), flags });
     let lost = false;
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
     const placeName = (pid: string) => { const p = places.value[pid] as { name?: Text3 } | undefined; return p?.name?.tr ?? pid; };
@@ -178,7 +177,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     }
 
     // ---- the log ----
-    const who = (id?: string) => (id === "nima" ? name : (story as { names?: Record<string, string> }).names?.[id ?? ""] ?? (characters.value[id ?? ""] as { name?: string } | undefined)?.name ?? id ?? "");
+    const who = (id?: string) => (id === "nima" ? name : (story as { names?: Record<string, string> }).names?.[id ?? ""] ?? (textIn((characters.value[id ?? ""] as { name?: Text3 } | undefined)?.name, "tr") || id || ""));
     function addLog(i: { kind: string; who?: string; tr?: string; en?: string; fa?: string; step: number }) {
       if (i.kind === "spot") {
         const st = story.steps[i.step] as { spot?: { lesson?: string } }, lesson = st?.spot?.lesson;
@@ -272,8 +271,8 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       const ask = () => {
         const q = items[n], order = shuffled(q.options.length, `${story.id}:quiz${n}:${record(story.id).reads ?? 0}`);
         let tries = 0;
-        const box = el("div", { class: "card st-quiz" }, el("small", { text: `Question ${n + 1} of ${items.length}` }), el("p", { lang: "tr", class: "st-q", text: q.q }),
-          ...tl(q.en, q.fa));
+        const box = el("div", { class: "card st-quiz" }, el("small", { text: `Question ${n + 1} of ${items.length}` }), el("p", { lang: "tr", class: "st-q", text: textIn(q.q, "tr") }),
+          ...tl(q.q.en, q.q.fa));
         const why = el("p", { class: "hint st-why", "aria-live": "polite" });
         for (const k of order) {
           box.append(btn("st-opt", q.options[k], () => {

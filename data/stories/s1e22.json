@@ -100,110 +100,110 @@
     }
   ],
   "gl": {
-    "ayın": [
-      "ماه (ayın biri: اولِ ماه)",
-      "of the month (ayın biri: the first of the month)"
-    ],
-    "ağacımda": [
-      "در درختم",
-      "on my tree"
-    ],
-    "ağaçlar": [
-      "درخت‌ها",
-      "trees"
-    ],
-    "ağaçta": [
-      "در درخت",
-      "on the tree"
-    ],
-    "belgeleriniz": [
-      "مدارکِ شما",
-      "your documents"
-    ],
-    "buraya": [
-      "به این‌جا",
-      "(to) here"
-    ],
-    "dayısına": [
-      "پیشِ دایی‌اش",
-      "to his or her uncle (mother's brother)"
-    ],
-    "fotoğraflarım": [
-      "عکس‌هایم",
-      "my photos"
-    ],
-    "fotoğraflarınız": [
-      "عکس‌هایِ شما",
-      "your photos"
-    ],
-    "fotoğrafta": [
-      "توی عکس",
-      "in the photo"
-    ],
-    "gönderildi": [
-      "فرستاده شد",
-      "sent"
-    ],
-    "halep": [
-      "حلب",
-      "Aleppo"
-    ],
-    "herkesin": [
-      "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
-      "everyone's"
-    ],
-    "hocam": [
-      "استاد (خطاب به معلم)",
-      "teacher (addressing your teacher)"
-    ],
-    "ikamet": [
-      "اقامت",
-      "residence (permit)"
-    ],
-    "kirayı": [
-      "اجاره را",
-      "the rent (as the object)"
-    ],
-    "pasaportum": [
-      "پاسپورتم",
-      "my passport"
-    ],
-    "pasaportunuz": [
-      "پاسپورتِ شما",
-      "your passport"
-    ],
-    "randevu": [
-      "نوبت؛ وقتِ ملاقات",
-      "appointment"
-    ],
-    "randevunuz": [
-      "نوبتِ شما",
-      "your appointment"
-    ],
-    "sözleşmem": [
-      "قراردادم",
-      "my contract"
-    ],
-    "sözleşmeniz": [
-      "قراردادِ شما",
-      "your contract"
-    ],
-    "unutmayın": [
-      "فراموش نکنید",
-      "don't forget"
-    ],
-    "yazın": [
-      "تابستان، در تابستان",
-      "in (the) summer"
-    ],
-    "zafer": [
-      "ظفر (اسم)",
-      "Zafer (a name)"
-    ],
-    "şaka": [
-      "شوخی",
-      "joke; just kidding"
-    ]
+    "ayın": {
+      "fa": "ماه (ayın biri: اولِ ماه)",
+      "en": "of the month (ayın biri: the first of the month)"
+    },
+    "ağacımda": {
+      "fa": "در درختم",
+      "en": "on my tree"
+    },
+    "ağaçlar": {
+      "fa": "درخت‌ها",
+      "en": "trees"
+    },
+    "ağaçta": {
+      "fa": "در درخت",
+      "en": "on the tree"
+    },
+    "belgeleriniz": {
+      "fa": "مدارکِ شما",
+      "en": "your documents"
+    },
+    "buraya": {
+      "fa": "به این‌جا",
+      "en": "(to) here"
+    },
+    "dayısına": {
+      "fa": "پیشِ دایی‌اش",
+      "en": "to his or her uncle (mother's brother)"
+    },
+    "fotoğraflarım": {
+      "fa": "عکس‌هایم",
+      "en": "my photos"
+    },
+    "fotoğraflarınız": {
+      "fa": "عکس‌هایِ شما",
+      "en": "your photos"
+    },
+    "fotoğrafta": {
+      "fa": "توی عکس",
+      "en": "in the photo"
+    },
+    "gönderildi": {
+      "fa": "فرستاده شد",
+      "en": "sent"
+    },
+    "halep": {
+      "fa": "حلب",
+      "en": "Aleppo"
+    },
+    "herkesin": {
+      "fa": "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
+      "en": "everyone's"
+    },
+    "hocam": {
+      "fa": "استاد (خطاب به معلم)",
+      "en": "teacher (addressing your teacher)"
+    },
+    "ikamet": {
+      "fa": "اقامت",
+      "en": "residence (permit)"
+    },
+    "kirayı": {
+      "fa": "اجاره را",
+      "en": "the rent (as the object)"
+    },
+    "pasaportum": {
+      "fa": "پاسپورتم",
+      "en": "my passport"
+    },
+    "pasaportunuz": {
+      "fa": "پاسپورتِ شما",
+      "en": "your passport"
+    },
+    "randevu": {
+      "fa": "نوبت؛ وقتِ ملاقات",
+      "en": "appointment"
+    },
+    "randevunuz": {
+      "fa": "نوبتِ شما",
+      "en": "your appointment"
+    },
+    "sözleşmem": {
+      "fa": "قراردادم",
+      "en": "my contract"
+    },
+    "sözleşmeniz": {
+      "fa": "قراردادِ شما",
+      "en": "your contract"
+    },
+    "unutmayın": {
+      "fa": "فراموش نکنید",
+      "en": "don't forget"
+    },
+    "yazın": {
+      "fa": "تابستان، در تابستان",
+      "en": "in (the) summer"
+    },
+    "zafer": {
+      "fa": "ظفر (اسم)",
+      "en": "Zafer (a name)"
+    },
+    "şaka": {
+      "fa": "شوخی",
+      "en": "joke; just kidding"
+    }
   },
   "id": "s1e22",
   "kind": "episode",
@@ -277,41 +277,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "Zafer Hoca: “Which family is from Aleppo?” Who says “My family!”?",
-      "fa": "استاد ظفر: «کدام خانواده اهلِ حلب است؟» چه کسی می‌گوید «خانواده‌ی من!»؟",
       "kind": "comp",
       "options": [
         "Yusuf",
         "Nima",
         "Reza Bey"
       ],
-      "q": "Zafer Hoca: “Hangi aile Halep'ten?” Kim diyor: “Benim ailem!”?",
+      "q": {
+        "tr": "Zafer Hoca: “Hangi aile Halep'ten?” Kim diyor: “Benim ailem!”?",
+        "en": "Zafer Hoca: “Which family is from Aleppo?” Who says “My family!”?",
+        "fa": "استاد ظفر: «کدام خانواده اهلِ حلب است؟» چه کسی می‌گوید «خانواده‌ی من!»؟"
+      },
       "why": "Yusuf: “Benim ailem!”"
     },
     {
       "a": 0,
-      "en": "Nima: “I'm …… the rent… done!”",
-      "fa": "نیما: «دارم اجاره را …… تمام!»",
       "kind": "word",
       "options": [
         "gönderiyorum",
         "unutuyorum",
         "istiyorum"
       ],
-      "q": "Nima: “Kirayı …… tamam!”",
+      "q": {
+        "tr": "Nima: “Kirayı …… tamam!”",
+        "en": "Nima: “I'm …… the rent… done!”",
+        "fa": "نیما: «دارم اجاره را …… تمام!»"
+      },
       "why": "Nima: “Kirayı gönderiyorum… tamam!”"
     },
     {
       "a": 0,
-      "en": "Nima: “But … is at home.” What is at home?",
-      "fa": "نیما: «ولی … در خانه است.» چه چیزی در خانه است؟",
       "kind": "comp",
       "options": [
         "Sözleşmem",
         "Pasaportum",
         "Fotoğraflarım"
       ],
-      "q": "Nima: “Ama … evde.” Ne evde?",
+      "q": {
+        "tr": "Nima: “Ama … evde.” Ne evde?",
+        "en": "Nima: “But … is at home.” What is at home?",
+        "fa": "نیما: «ولی … در خانه است.» چه چیزی در خانه است؟"
+      },
       "why": "Nima: “Ama sözleşmem… evde.”"
     }
   ],
@@ -845,11 +851,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The family trees are all on the wall, and Zafer Hoca plays a case game with them. At the break Nima pays the first rent, and Reza Bey brings the residence-permit appointment and the list of documents. Then a class photo under the trees.",
-  "summaryFa": "همه‌ی شجره‌نامه‌ها روی دیوارند و استاد ظفر با آن‌ها بازیِ حالت‌های اسم راه می‌اندازد. سرِ زنگِ تفریح نیما اولین اجاره را می‌فرستد و آقای رضا نوبتِ اقامت و فهرستِ مدارک را می‌آورد. بعد هم عکسِ دسته‌جمعیِ کلاس زیرِ درخت‌ها.",
-  "title": "Herkes buraya!",
-  "titleEn": "Everyone over here!",
-  "titleFa": "همه بیایید این‌جا!",
+  "summary": {
+    "en": "The family trees are all on the wall, and Zafer Hoca plays a case game with them. At the break Nima pays the first rent, and Reza Bey brings the residence-permit appointment and the list of documents. Then a class photo under the trees.",
+    "fa": "همه‌ی شجره‌نامه‌ها روی دیوارند و استاد ظفر با آن‌ها بازیِ حالت‌های اسم راه می‌اندازد. سرِ زنگِ تفریح نیما اولین اجاره را می‌فرستد و آقای رضا نوبتِ اقامت و فهرستِ مدارک را می‌آورد. بعد هم عکسِ دسته‌جمعیِ کلاس زیرِ درخت‌ها."
+  },
+  "title": {
+    "tr": "Herkes buraya!",
+    "en": "Everyone over here!",
+    "fa": "همه بیایید این‌جا!"
+  },
   "words": [
     "a1-w-gondermek",
     "a1-w-unutmak",

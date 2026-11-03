@@ -28,6 +28,8 @@ const GATES = {
     ["the calendar (data/days.json from data/seasons/)", ["node", "scripts/kumru_days.mjs", "--check"]],
     // stories, characters and places: their one schema source is sahne-story/schema/ in the Sahne submodule
     ["stories, characters and places", ["node", `${SAHNE}/sahne-story/stories.ts`, "--check", "--quiet"]],
+    // the app reads texts as maps by language (title: { tr, en, fa }); a file in the old shape (titleEn, nameFa) fails here
+    ["texts in the new language shape", ["node", `${SAHNE}/sahne-story/convert/languages.ts`, "--check"]],
     ["the generated extras", ["node", `${SAHNE}/sahne-story/cast/extras.ts`, "--check"]],
     ["story thumbnails", ["node", `${SAHNE}/sahne-gallery/thumbs.mjs`, "--check"]],
     ["brand files", py("kumru_icons.py", "--check")],

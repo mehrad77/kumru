@@ -95,70 +95,70 @@
     }
   ],
   "gl": {
-    "abla": [
-      "خواهر بزرگ‌تر؛ خطابِ دوستانه به یک زن («Gel abla gel!»: صدای فروشنده‌ها)",
-      "elder sister; a friendly way to call a woman (“Gel abla gel!”: the market call)"
-    ],
-    "adım": [
-      "اسمم («Benim adım…»: اسمِ من…)",
-      "my name (“Benim adım…”: my name is…)"
-    ],
-    "bende": [
-      "پیشِ من، با من («Çantalar bende»: کیسه‌ها با من)",
-      "with me (“Çantalar bende”: I've got the bags)"
-    ],
-    "bilmiyor": [
-      "نمی‌داند",
-      "doesn't know"
-    ],
-    "bilmiyorum": [
-      "نمی‌دانم",
-      "I don't know"
-    ],
-    "buzdolabı": [
-      "یخچال",
-      "fridge"
-    ],
-    "canım": [
-      "عزیزم",
-      "my dear"
-    ],
-    "feriköy": [
-      "فری‌کؤی (محله‌ای در شیشلی)",
-      "Feriköy (a neighbourhood of Şişli)"
-    ],
-    "hadi": [
-      "بریم! زود باش!",
-      "come on! let's go!"
-    ],
-    "kırlangıç": [
-      "پرستو (اسم)",
-      "Kırlangıç (a name; the word means “swallow”)"
-    ],
-    "organik": [
-      "ارگانیک",
-      "organic"
-    ],
-    "yardım": [
-      "کمک",
-      "help"
-    ],
-    "yerde": [
-      "روی زمین",
-      "on the floor"
-    ],
-    "çatı": [
-      "پشت‌بام",
-      "roof"
-    ],
-    "çatıda": [
-      "روی پشت‌بام",
-      "on the roof"
-    ],
-    "üçüncü": [
-      "سوم",
-      "third"
-    ]
+    "abla": {
+      "fa": "خواهر بزرگ‌تر؛ خطابِ دوستانه به یک زن («Gel abla gel!»: صدای فروشنده‌ها)",
+      "en": "elder sister; a friendly way to call a woman (“Gel abla gel!”: the market call)"
+    },
+    "adım": {
+      "fa": "اسمم («Benim adım…»: اسمِ من…)",
+      "en": "my name (“Benim adım…”: my name is…)"
+    },
+    "bende": {
+      "fa": "پیشِ من، با من («Çantalar bende»: کیسه‌ها با من)",
+      "en": "with me (“Çantalar bende”: I've got the bags)"
+    },
+    "bilmiyor": {
+      "fa": "نمی‌داند",
+      "en": "doesn't know"
+    },
+    "bilmiyorum": {
+      "fa": "نمی‌دانم",
+      "en": "I don't know"
+    },
+    "buzdolabı": {
+      "fa": "یخچال",
+      "en": "fridge"
+    },
+    "canım": {
+      "fa": "عزیزم",
+      "en": "my dear"
+    },
+    "feriköy": {
+      "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "en": "Feriköy (a neighbourhood of Şişli)"
+    },
+    "hadi": {
+      "fa": "بریم! زود باش!",
+      "en": "come on! let's go!"
+    },
+    "kırlangıç": {
+      "fa": "پرستو (اسم)",
+      "en": "Kırlangıç (a name; the word means “swallow”)"
+    },
+    "organik": {
+      "fa": "ارگانیک",
+      "en": "organic"
+    },
+    "yardım": {
+      "fa": "کمک",
+      "en": "help"
+    },
+    "yerde": {
+      "fa": "روی زمین",
+      "en": "on the floor"
+    },
+    "çatı": {
+      "fa": "پشت‌بام",
+      "en": "roof"
+    },
+    "çatıda": {
+      "fa": "روی پشت‌بام",
+      "en": "on the roof"
+    },
+    "üçüncü": {
+      "fa": "سوم",
+      "en": "third"
+    }
   },
   "id": "s1e12",
   "kind": "special",
@@ -227,41 +227,47 @@
   "quiz": [
     {
       "a": 0,
-      "en": "What is missing in the flat?",
-      "fa": "در خانه چه چیزی نیست؟",
       "kind": "comp",
       "options": [
         "Buzdolabı",
         "Masa",
         "Balkon"
       ],
-      "q": "Evde ne yok?",
+      "q": {
+        "tr": "Evde ne yok?",
+        "en": "What is missing in the flat?",
+        "fa": "در خانه چه چیزی نیست؟"
+      },
       "why": "Farzad: “Buzdolabı yok!”"
     },
     {
       "a": 0,
-      "en": "Hatice Abla: “Eighty lira a kilo! …, fresh!”",
-      "fa": "خدیجه خانم: «کیلویی هشتاد لیر! …، تازه!»",
       "kind": "word",
       "options": [
         "Taze",
         "Pahalı",
         "Yarım"
       ],
-      "q": "Hatice Abla: “Kilo seksen lira! …, taze!”",
+      "q": {
+        "tr": "Hatice Abla: “Kilo seksen lira! …, taze!”",
+        "en": "Hatice Abla: “Eighty lira a kilo! …, fresh!”",
+        "fa": "خدیجه خانم: «کیلویی هشتاد لیر! …، تازه!»"
+      },
       "why": "Hatice Abla: “Kilo seksen lira! Taze, taze! Gel abla gel!”"
     },
     {
       "a": 0,
-      "en": "“A bit expensive, isn't it?” Then how much are the tomatoes?",
-      "fa": "«یه کم گرونه، نه؟» بعد گوجه‌ها چند لیر می‌شود؟",
       "kind": "comp",
       "options": [
         "Yüz elli lira",
         "Yüz altmış lira",
         "Seksen lira"
       ],
-      "q": "“Biraz pahalı, değil mi?” Sonra domates kaç lira?",
+      "q": {
+        "tr": "“Biraz pahalı, değil mi?” Sonra domates kaç lira?",
+        "en": "“A bit expensive, isn't it?” Then how much are the tomatoes?",
+        "fa": "«یه کم گرونه، نه؟» بعد گوجه‌ها چند لیر می‌شود؟"
+      },
       "why": "Hatice Abla: “Tamam canım, yüz elli lira!”"
     }
   ],
@@ -844,11 +850,15 @@
       "who": "kerim"
     }
   ],
-  "summary": "The flat hunt ends at the Saturday market in Feriköy: a list for the empty kitchen, a polite bargain with Hatice Abla, four floors of stairs with the bags, and the first tea with friends on the roof, under the eyes of a bird nobody can name yet.",
-  "summaryFa": "جست‌وجوی خانه در بازارِ شنبه‌ی فری‌کؤی تمام می‌شود: یک فهرست برای آشپزخانه‌ی خالی، چانه‌زدنی مؤدبانه با خدیجه خانم، چهار طبقه پله با کیسه‌های خرید، و اولین چای با دوستان روی پشت‌بام، زیرِ نگاهِ پرنده‌ای که هنوز کسی اسمش را نمی‌داند.",
-  "title": "Feriköy pazarı",
-  "titleEn": "The Feriköy market",
-  "titleFa": "بازارِ فری‌کؤی",
+  "summary": {
+    "en": "The flat hunt ends at the Saturday market in Feriköy: a list for the empty kitchen, a polite bargain with Hatice Abla, four floors of stairs with the bags, and the first tea with friends on the roof, under the eyes of a bird nobody can name yet.",
+    "fa": "جست‌وجوی خانه در بازارِ شنبه‌ی فری‌کؤی تمام می‌شود: یک فهرست برای آشپزخانه‌ی خالی، چانه‌زدنی مؤدبانه با خدیجه خانم، چهار طبقه پله با کیسه‌های خرید، و اولین چای با دوستان روی پشت‌بام، زیرِ نگاهِ پرنده‌ای که هنوز کسی اسمش را نمی‌داند."
+  },
+  "title": {
+    "tr": "Feriköy pazarı",
+    "en": "The Feriköy market",
+    "fa": "بازارِ فری‌کؤی"
+  },
   "words": [
     "a1-w-domates",
     "a1-w-peynir",
