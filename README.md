@@ -1,3 +1,5 @@
+<a href="https://0rwx.com/"><img src=".github/ai-x.png" alt="AI:X: made by AI, curated by me" title="AI:X: made by AI, curated by me (0rwx.com)" width="44" align="right"></a>
+
 <p align="center"><a href="https://turk.shab.boo"><img src="docs/poster.png" alt="Kumru: Kerim the kumru beside six scenes from the story series" width="100%"></a></p>
 
 <p align="center">
