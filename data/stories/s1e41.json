@@ -114,10 +114,6 @@
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
       "en": "Feriköy (a district of Şişli)"
     },
-    "haftadan": {
-      "fa": "از… هفته",
-      "en": "from … weeks (hafta + -dan)"
-    },
     "hangisiydi": {
       "fa": "کدام بود؟",
       "en": "which one was it?"
@@ -134,21 +130,9 @@
       "fa": "بالاخره",
       "en": "at last"
     },
-    "noter": {
-      "fa": "دفترخانه، محضر",
-      "en": "notary"
-    },
-    "onaylı": {
-      "fa": "تأییدشده، مهرخورده",
-      "en": "approved, stamped"
-    },
     "rehber": {
       "fa": "راهنما",
       "en": "guide"
-    },
-    "sözleşmeyi": {
-      "fa": "قرارداد را",
-      "en": "the contract (as object)"
     },
     "tolga": {
       "fa": "تولگا (اسم)",
@@ -161,6 +145,26 @@
     "zordu": {
       "fa": "سخت بود",
       "en": "was hard"
+    },
+    "eylül'den": {
+      "fa": "از سپتامبر",
+      "en": "from/since September"
+    },
+    "noter": {
+      "fa": "محضر، دفترخانه",
+      "en": "notary"
+    },
+    "onaylı": {
+      "fa": "تأییدشده، با مهر؛ «noter onaylı» یعنی با مهرِ محضر",
+      "en": "approved, stamped; “noter onaylı”: stamped by the notary"
+    },
+    "kombi": {
+      "fa": "پکیج (آبگرم‌کنِ دیواری)",
+      "en": "combi boiler"
+    },
+    "sözleşmeyi": {
+      "fa": "قرارداد را",
+      "en": "the contract (as object)"
     }
   },
   "id": "s1e41",
@@ -202,11 +206,11 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Usta",
         "Serkan",
+        "Usta",
         "Kerim"
       ],
       "q": {
@@ -214,37 +218,22 @@
         "en": "Who came this morning?",
         "fa": "امروز صبح چه کسی آمد؟"
       },
-      "why": "Nima: “Ve bu sabah usta geldi!”"
+      "why": "Nima: “Ve bu sabah usta geldi…”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "Önce",
-        "Hiç",
-        "Belki"
+        "hiç",
+        "belki",
+        "sonra"
       ],
       "q": {
-        "tr": "Maria Teyze: “Anlatın bakalım! … ilk gün ne oldu?”",
-        "en": "Maria Teyze: “Go on, tell me! … what happened on the first day?”",
-        "fa": "خاله ماریا: «خب، تعریف کنید! … روزِ اول چه شد؟»"
+        "tr": "Nima önce bir ev buldu, … taşındı.",
+        "en": "Nima first found a flat, … moved in.",
+        "fa": "نیما اول یک خانه پیدا کرد، … اسباب‌کشی کرد."
       },
-      "why": "Maria Teyze: “Önce… ilk gün ne oldu?”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Yedi haftadan beri",
-        "Altı haftadan beri",
-        "Sekiz haftadan beri"
-      ],
-      "q": {
-        "tr": "Nima kaç haftadan beri burada?",
-        "en": "How many weeks has Nima been here?",
-        "fa": "نیما چند هفته است این‌جاست؟"
-      },
-      "why": "Nima: “Yedi haftadan beri buradayım.”"
+      "why": "Maria Teyze: “Sonra?” Nima: “Taşındım…”"
     }
   ],
   "ref": "A1_6",
@@ -279,15 +268,15 @@
     },
     {
       "emo": "happy",
-      "en": "Friday. Tea. And… a story.",
-      "fa": "جمعه. چای. و… یه قصه.",
+      "en": "The repairman came… the boiler works! And on the fifth floor? Tea, and a story.",
+      "fa": "تعمیرکار اومد… پکیج کار می‌کنه! و طبقهٔ پنجم؟ چای و یه قصه.",
       "move": {
         "how": "walk",
         "to": "walk_r",
         "who": "usta"
       },
       "narr": true,
-      "tr": "Cuma. Çay. Ve… bir hikâye.",
+      "tr": "Usta geldi… kombi çalışıyor! Ve beşinci katta? Çay ve bir hikâye.",
       "who": "kerim"
     },
     {
@@ -354,7 +343,7 @@
     {
       "emo": "proud",
       "en": "Last week we wrote a guide. And this morning the repairman came! And Tolga Bey brought the contract: stamped by the notary!",
-      "fa": "هفتهٔ پیش یه راهنما نوشتیم. و امروز صبح تعمیرکار اومد! آقای تولگا هم قرارداد رو آورد: مهرِ محضر خورده!",
+      "fa": "هفتهٔ پیش یه راهنما نوشتیم. امروز صبح هم تعمیرکار اومد! آقای تولگا هم قرارداد رو آورد: مهرِ محضر خورده!",
       "frame": "past_inset",
       "of": {
         "step": 3,
@@ -425,10 +414,10 @@
     },
     {
       "emo": "moved",
-      "en": "I've been here for seven weeks.",
-      "fa": "هفت هفته‌ست که این‌جام.",
+      "en": "Istanbul time! I've been here since the seventh of September. Seven weeks!",
+      "fa": "وقتِ استانبول! از هفتمِ سپتامبر این‌جام. هفت هفته!",
       "to": "maria",
-      "tr": "Yedi haftadan beri buradayım.",
+      "tr": "İstanbul saati! Yedi Eylül'den beri buradayım. Yedi hafta!",
       "who": "nima"
     },
     {
@@ -470,10 +459,10 @@
             "reply": [
               {
                 "emo": "happy",
-                "en": "Not at all?",
-                "fa": "اصلاً؟",
+                "en": "Not at all? But on the metro… it was a bit hard, wasn't it?",
+                "fa": "اصلاً؟ ولی توی مترو… یه کم سخت بود، نه؟",
                 "to": "nima",
-                "tr": "Hiç mi?",
+                "tr": "Hiç mi? Ama metroda… biraz zordu, değil mi?",
                 "who": "maria"
               }
             ],
@@ -509,9 +498,9 @@
     },
     {
       "spot": {
-        "en": "The season in three tools. -DI tells what happened: geldim, aradım, buldum, taşındım, yazdık. önce / sonra put it in order: “Önce… ilk gün ne oldu?”, “Sonra?”. And -DAn beri says how long, up to now: “Yedi haftadan beri buradayım.”",
+        "en": "The season in three tools. -DI tells what happened: geldim, aradım, buldum, taşındım, yazdık. önce / sonra put it in order: “Önce… ilk gün ne oldu?”, “Sonra?”. And -DAn beri says since when, up to now: “Yedi Eylül'den beri buradayım.”",
         "ex": "İstanbul'a geldim",
-        "fa": "این هفت هفته در سه ابزار: ‎-DI‎ می‌گوید چه شد: geldim (آمدم)، aradım (گشتم)، buldum (پیدا کردم)، taşındım (اسباب‌کشی کردم)، yazdık (نوشتیم). önce / sonra ترتیب را می‌گویند: «Önce… ilk gün ne oldu?»، «Sonra?». و ‎-DAn beri‎ می‌گوید از کی تا حالا: «Yedi haftadan beri buradayım.» (هفت هفته است که این‌جا هستم).",
+        "fa": "این هفت هفته در سه ابزار: ‎-DI‎ می‌گوید چه شد: geldim (آمدم)، aradım (گشتم)، buldum (پیدا کردم)، taşındım (اسباب‌کشی کردم)، yazdık (نوشتیم). önce / sonra ترتیب را می‌گویند: «Önce… ilk gün ne oldu?»، «Sonra?». و ‎-DAn beri‎ می‌گوید از کی تا حالا: «Yedi Eylül'den beri buradayım.» (از هفتمِ سپتامبر این‌جا هستم).",
         "lesson": "g_a1_5_gecmis",
         "show": "aspect"
       }

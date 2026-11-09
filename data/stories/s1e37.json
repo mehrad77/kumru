@@ -126,8 +126,8 @@
       "en": "combi boiler"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "kütüphanesinde": {
       "fa": "در کتابخانهٔ…",
@@ -153,13 +153,21 @@
       "fa": "قرارداد",
       "en": "contract"
     },
-    "sır": {
-      "fa": "راز، معما",
-      "en": "secret, mystery"
-    },
     "usta": {
       "fa": "تعمیرکار، اوستا",
       "en": "repairman"
+    },
+    "brr": {
+      "fa": "بررر (از سرما)",
+      "en": "brr (from the cold)"
+    },
+    "hmm": {
+      "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "en": "hmm (thinking)"
+    },
+    "ha": {
+      "fa": "ها (خنده)",
+      "en": "ha (a laugh)"
     }
   },
   "id": "s1e37",
@@ -193,49 +201,34 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Kombi",
         "Telefon",
-        "Çaydanlık"
+        "Çaydanlık",
+        "Kombi"
       ],
       "q": {
         "tr": "Ne çalışmıyor?",
         "en": "What isn't working?",
         "fa": "چه چیزی کار نمی‌کند؟"
       },
-      "why": "Nima: “Kombi çalışmıyor.”"
+      "why": "Nima: “Kombi çalışmıyor!”"
     },
     {
       "a": 0,
       "kind": "word",
       "options": [
+        "sıcak",
         "soğuk",
-        "güzel",
-        "büyük"
+        "küçük"
       ],
       "q": {
-        "tr": "Nima'nın evi sıcak değil. Ev çok …",
-        "en": "Nima's flat isn't warm. The flat is very …",
-        "fa": "خانهٔ نیما گرم نیست. خانه خیلی … است."
+        "tr": "Nima'nın evi soğuk. Kütüphane nasıl?",
+        "en": "Nima's flat is cold. What's the library like?",
+        "fa": "خانهٔ نیما سرد است. کتابخانه چطور است؟"
       },
-      "why": "Nima: “Ama ev çok soğuk!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Yarın",
-        "Bugün",
-        "Cuma"
-      ],
-      "q": {
-        "tr": "Usta ne zaman geliyor?",
-        "en": "When is the repairman coming?",
-        "fa": "تعمیرکار کی می‌آید؟"
-      },
-      "why": "Tolga Bey: “Yarın usta geliyor!”"
+      "why": "Kırlangıç: “Orası sıcak. Gel!”"
     }
   ],
   "ref": "A1_6",
@@ -253,10 +246,10 @@
     },
     {
       "emo": "nervous",
-      "en": "Monday. It's very cold! And in two weeks… the exam!",
-      "fa": "دوشنبه. هوا خیلی سرده! و دو هفتهٔ دیگه… امتحان!",
+      "en": "Brr! It's freezing! And in two weeks… the exam!",
+      "fa": "بررر! هوا خیلی سرده! و دو هفتهٔ دیگه… امتحان!",
       "narr": true,
-      "tr": "Pazartesi. Hava çok soğuk! Ve iki hafta sonra… sınav!",
+      "tr": "Brr! Hava çok soğuk! Ve iki hafta sonra… sınav!",
       "who": "kerim"
     },
     {
@@ -413,10 +406,10 @@
     {
       "do": "phone",
       "emo": "sad",
-      "en": "Hello, good morning, Tolga Bey. The boiler's not working.",
-      "fa": "الو، صبح بخیر آقای تولگا. پکیج کار نمی‌کنه.",
+      "en": "Hello, good morning, Tolga Bey. The boiler's not working!",
+      "fa": "الو، صبح بخیر آقای تولگا. پکیج کار نمی‌کنه!",
       "to": "tolga",
-      "tr": "Alo, iyi günler, Tolga Bey. Kombi çalışmıyor.",
+      "tr": "Alo, günaydın, Tolga Bey. Kombi çalışmıyor!",
       "who": "nima"
     },
     {
@@ -449,14 +442,14 @@
     },
     {
       "emo": "confused",
-      "en": "Tomorrow… tomorrow… But today… here comes Serkan!",
-      "fa": "فردا… فردا… ولی امروز… سرکان داره میاد!",
+      "en": "Tomorrow… tomorrow… Hmm. Tolga Bey always says “tomorrow”.",
+      "fa": "فردا… فردا… هوم. آقای تولگا همیشه می‌گه «فردا».",
       "narr": true,
       "sfx": {
         "id": "knock",
         "word": "tık tık"
       },
-      "tr": "Yarın… yarın… Ama bugün… Serkan geliyor!",
+      "tr": "Yarın… yarın… Hmm. Tolga Bey hep “yarın” diyor.",
       "who": "kerim"
     },
     {
@@ -504,30 +497,11 @@
       "at": "mark:boiler",
       "do": "point",
       "emo": "confused",
-      "en": "What's this? E… zero… one? …It's a mystery.",
-      "fa": "این چیه؟ اِ… صفر… یک؟ …این یه معماست.",
+      "en": "What's this? E… zero… one? Hmm… This boiler is really old!",
+      "fa": "این چیه؟ اِ… صفر… یک؟ هوم… این پکیج خیلی قدیمیه!",
       "to": "nima",
-      "tr": "Bu ne? E… sıfır… bir? …Bu bir sır.",
+      "tr": "Bu ne? E… sıfır… bir? Hmm… Bu kombi çok eski!",
       "who": "serkan"
-    },
-    {
-      "at": "obj:tea_glass",
-      "do": "point",
-      "emo": "happy",
-      "en": "Do you want some tea?",
-      "fa": "چای می‌خوای؟",
-      "link": {
-        "çay": "obj:tea_glass"
-      },
-      "react": {
-        "serkan": {
-          "do": "nod",
-          "emo": "happy"
-        }
-      },
-      "to": "serkan",
-      "tr": "Çay istiyor musun?",
-      "who": "nima"
     },
     {
       "beat": {
@@ -539,27 +513,27 @@
     },
     {
       "emo": "happy",
-      "en": "Good morning! When's the exam?",
-      "fa": "صبح بخیر! امتحان کِیه؟",
+      "en": "Morning! Are you studying for the exam?",
+      "fa": "صبح بخیر! برای امتحان درس می‌خونی؟",
       "to": "nima",
-      "tr": "Günaydın! Sınav ne zaman?",
+      "tr": "Günaydın! Sınava çalışıyor musun?",
       "via": "phone",
       "who": "kirlangic"
     },
     {
       "emo": "sad",
-      "en": "In two weeks. On the thirtieth of October. But the flat is so cold!",
-      "fa": "دو هفتهٔ دیگه. سی‌ام اکتبر. ولی خونه خیلی سرده!",
+      "en": "I'm working… but the boiler isn't! The flat's freezing!",
+      "fa": "من دارم درس می‌خونم… ولی پکیج کار نمی‌کنه! خونه خیلی سرده!",
       "to": "kirlangic",
-      "tr": "İki hafta sonra. Otuz Ekim'de. Ama ev çok soğuk!",
+      "tr": "Ben çalışıyorum… ama kombi çalışmıyor! Ev çok soğuk!",
       "who": "nima"
     },
     {
-      "emo": "happy",
-      "en": "Tomorrow we're studying at the İBB library. It's warm there!",
-      "fa": "فردا توی کتابخونهٔ شهرداری درس می‌خونیم. اون‌جا گرمه!",
+      "emo": "laugh",
+      "en": "Ha ha! Tomorrow we're studying at the İBB library. It's warm there. Come!",
+      "fa": "هاها! فردا توی کتابخونهٔ شهرداری درس می‌خونیم. اون‌جا گرمه. بیا!",
       "to": "nima",
-      "tr": "Yarın İBB kütüphanesinde çalışıyoruz. Orası sıcak!",
+      "tr": "Ha ha! Yarın İBB kütüphanesinde çalışıyoruz. Orası sıcak. Gel!",
       "via": "phone",
       "who": "kirlangic"
     },
@@ -576,9 +550,9 @@
       "spot": {
         "at": "mark:boiler",
         "do": "point",
-        "en": "bu is for the thing right here. Serkan stands at the boiler and asks “Bu ne?” (What's this?); the answer is “Bu kombi.” For more than one thing: bunlar, and -lar/-ler on the noun, by vowel harmony: “Bunlar ne? Bardaklar!” A yes/no question takes mı/mi/mu/mü: “Çay istiyor musun?”, “Su sıcak mı? Hayır… soğuk.”",
+        "en": "bu is for the thing right here. Serkan stands at the boiler and asks “Bu ne?” (What's this?); the answer is “Bu kombi.” For more than one thing: bunlar, and -lar/-ler on the noun, by vowel harmony: “Bunlar ne? Bardaklar!” A yes/no question takes mı/mi/mu/mü: “Çay istiyor musun?”, “Sınava çalışıyor musun?”, “Su sıcak mı? Hayır… soğuk.”",
         "ex": "Bu ne?",
-        "fa": "bu یعنی چیزی که همین‌جاست. سرکان کنارِ پکیج می‌ایستد و می‌پرسد «Bu ne?» (این چیه؟)؛ جواب «Bu kombi.» است. برای بیش از یک چیز: bunlar، و پسوندِ ‎-lar/-ler‎ روی اسم، طبقِ هماهنگیِ واکه‌ها: «Bunlar ne? Bardaklar!» (این‌ها چی‌اند؟ لیوان‌ها!). سؤالِ بله/نه با mı/mi/mu/mü ساخته می‌شود: «Çay istiyor musun?»، «Su sıcak mı? Hayır… soğuk.»",
+        "fa": "bu یعنی چیزی که همین‌جاست. سرکان کنارِ پکیج می‌ایستد و می‌پرسد «Bu ne?» (این چیه؟)؛ جواب «Bu kombi.» است. برای بیش از یک چیز: bunlar، و پسوندِ ‎-lar/-ler‎ روی اسم، طبقِ هماهنگیِ واکه‌ها: «Bunlar ne? Bardaklar!» (این‌ها چی‌اند؟ لیوان‌ها!). سؤالِ بله/نه با mı/mi/mu/mü ساخته می‌شود: «Çay istiyor musun?»، «Sınava çalışıyor musun?»، «Su sıcak mı? Hayır… soğuk.»",
         "lesson": "g_a1_1_bu_su_o",
         "show": "deixis"
       }
@@ -593,8 +567,8 @@
     }
   ],
   "summary": {
-    "en": "The first cold Monday, two weeks before the exam, and the boiler won't start. Tolga Bey promises “tomorrow” on the phone, Serkan comes up with his toolbox and fails, and Kırlangıç invites Nima to study somewhere warm.",
-    "fa": "اولین دوشنبهٔ سرد، دو هفته مانده به امتحان، پکیجِ خانه روشن نمی‌شود. آقای تولگا پشتِ تلفن قولِ «فردا» می‌دهد، سرکان با جعبه‌ابزارش بالا می‌آید و کاری از پیش نمی‌برد، و پرستو نیما را دعوت می‌کند که با هم جایی گرم درس بخوانند."
+    "en": "The first cold Monday, two weeks before the exam, and the boiler won't start. Tolga Bey promises “tomorrow” on the phone, Serkan comes up with his toolbox and only finds the boiler is old, and Kırlangıç invites Nima to study somewhere warm.",
+    "fa": "اولین دوشنبهٔ سرد، دو هفته مانده به امتحان، پکیجِ خانه روشن نمی‌شود. آقای تولگا پشتِ تلفن قولِ «فردا» می‌دهد، سرکان با جعبه‌ابزارش بالا می‌آید و فقط می‌فهمد پکیج قدیمی است، و پرستو نیما را دعوت می‌کند که با هم جایی گرم درس بخوانند."
   },
   "title": {
     "tr": "Kombi çalışmıyor!",
