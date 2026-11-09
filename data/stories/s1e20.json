@@ -182,6 +182,14 @@
     "دایی": {
       "fa": "دایی",
       "en": "dayı in Persian"
+    },
+    "babası": {
+      "fa": "پدرش",
+      "en": "his or her father"
+    },
+    "kardeşi": {
+      "fa": "خواهر یا برادرش",
+      "en": "his or her sibling"
     }
   },
   "id": "s1e20",
@@ -283,49 +291,34 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "doktor",
-        "mühendis",
-        "öğretmen"
-      ],
       "q": {
-        "tr": "Alex: “Onun adı Olga. O …”",
-        "en": "Alex: “Her name is Olga. She's a …”",
-        "fa": "الکس: «اسمش اولگاست. او … است.»"
+        "tr": "Olga ne iş yapıyor?",
+        "en": "What does Olga do?",
+        "fa": "اولگا چه‌کاره‌ست؟"
       },
-      "why": "Alex: “Benim bir ablam var. Onun adı Olga. O doktor… Moskova'da.”"
+      "options": [
+        "Mühendis",
+        "Doktor",
+        "Öğretmen"
+      ],
+      "a": 1,
+      "kind": "comp",
+      "why": "Alex: “Onun adı Olga. O doktor… Moskova'da.”"
     },
     {
-      "a": 0,
-      "kind": "word",
-      "options": [
-        "dayım",
-        "kızım",
-        "eşim"
-      ],
       "q": {
-        "tr": "Parvane: “Bu benim …, bu da benim teyzem!”",
+        "tr": "Parvane: “Bu …, bu da teyzem!”",
         "en": "Parvaneh: “This is my …, and this is my aunt!”",
-        "fa": "پروانه: «این … منه، این هم خاله‌ی منه!»"
+        "fa": "پروانه: «این … منه، این هم خاله‌م!»"
       },
-      "why": "Parvane: “Bu benim dayım, bu da benim teyzem!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
       "options": [
-        "üç",
-        "beş",
-        "on"
+        "eşim",
+        "kızım",
+        "dayım"
       ],
-      "q": {
-        "tr": "Zafer Hoca: “Evet, benim kızım. O … yaşında.”",
-        "en": "Zafer Hoca: “Yes, my daughter. She's … years old.”",
-        "fa": "استاد ظفر: «بله، دخترمه. … سالشه.»"
-      },
-      "why": "Zafer Hoca: “Evet, benim kızım. O üç yaşında.”"
+      "a": 2,
+      "kind": "word",
+      "why": "Parvane: “Bu dayım… bu da teyzem!”"
     }
   ],
   "ref": "A1_4",
@@ -356,10 +349,10 @@
       }
     },
     {
-      "en": "Good morning! Today… trees! But which trees? Family trees!",
-      "fa": "صبح بخیر! امروز… درخت! ولی چه درختی؟ درختِ خانوادگی!",
+      "en": "Trees! But which trees? Family trees!",
+      "fa": "درخت! ولی چه درختی؟ درختِ خانوادگی!",
       "narr": true,
-      "tr": "Günaydın! Bugün… ağaçlar! Ama hangi ağaçlar? Aile ağaçları!",
+      "tr": "Ağaçlar! Ama hangi ağaçlar? Aile ağaçları!",
       "who": "kerim"
     },
     {
@@ -382,27 +375,27 @@
       "at": "obj:zafer_agaci",
       "do": "point",
       "emo": "happy",
-      "en": "This is my mother, this is my father, this is my wife. And who's this?",
-      "fa": "این مادرمه، این پدرمه، این همسرمه. و این کیه؟",
+      "en": "This is my mother, this is my father, and this is my wife. And who's this?",
+      "fa": "این مادرمه، این پدرمه، این هم همسرمه. این کیه؟",
       "to": "nima",
-      "tr": "Bu benim annem, bu benim babam, bu benim eşim. Ve bu kim?",
+      "tr": "Bu annem, bu babam, bu da eşim. Ve bu kim?",
       "who": "zafer"
     },
     {
       "emo": "curious",
-      "en": "Is it your daughter?",
-      "fa": "دخترتونه؟",
+      "en": "Is it your daughter, teacher?",
+      "fa": "دخترتونه، استاد؟",
       "to": "zafer",
-      "tr": "Sizin kızınız mı?",
+      "tr": "Kızınız mı, hocam?",
       "who": "nima"
     },
     {
       "do": "explain",
       "emo": "proud",
       "en": "Yes, my daughter. She's three. Now… your families!",
-      "fa": "بله، دخترمه. سه سالشه. حالا… خانواده‌ی شما!",
+      "fa": "آره، دخترمه. سه سالشه. حالا… نوبتِ خانواده‌های شما!",
       "to": "all",
-      "tr": "Evet, benim kızım. O üç yaşında. Şimdi… sizin aileniz!",
+      "tr": "Evet, kızım. Üç yaşında. Şimdi… sizin aileniz!",
       "who": "zafer"
     },
     {
@@ -420,25 +413,15 @@
       "at": "obj:parvane_agaci",
       "do": "hold_up",
       "emo": "proud",
-      "en": "This is my dad. His name is Behzad. He's an engineer.",
-      "fa": "این بابامه. اسمش بهزاده. مهندسه.",
+      "en": "This is my dad, Behzad; he's an engineer. This is my mum; she's a teacher. This is my uncle… and this is my aunt!",
+      "fa": "این بابامه، اسمش بهزاده، مهندسه. این مامانمه، معلمه. این دایی‌مه… این هم خاله‌م!",
       "move": {
         "how": "walk",
         "to": "wall",
         "who": "parvaneh"
       },
       "to": "all",
-      "tr": "Bu benim babam. Onun adı Behzad. O mühendis.",
-      "who": "parvaneh"
-    },
-    {
-      "at": "obj:parvane_agaci",
-      "do": "point",
-      "emo": "happy",
-      "en": "This is my mum. She's a teacher. This is my uncle, and this is my aunt!",
-      "fa": "این مامانمه. معلمه. این دایی‌مه، این هم خاله‌مه!",
-      "to": "all",
-      "tr": "Bu benim annem. O öğretmen. Bu benim dayım, bu da benim teyzem!",
+      "tr": "Bu babam, adı Behzad, mühendis. Bu annem, o öğretmen. Bu dayım… bu da teyzem!",
       "who": "parvaneh"
     },
     {
@@ -457,6 +440,35 @@
       "to": "zafer",
       "tr": "Evet! Dayı: دایی. Teyze: خاله. Amca, hala… hepsi var!",
       "who": "parvaneh"
+    },
+    {
+      "who": "nima",
+      "tr": "İki lira, Parvane!",
+      "en": "Two lira, Parvaneh!",
+      "fa": "دو لیر، پروانه!",
+      "to": "parvaneh",
+      "emo": "laugh",
+      "do": "point",
+      "at": "obj:farsca_jar"
+    },
+    {
+      "beat": {
+        "who": "parvaneh",
+        "obj": [
+          {
+            "id": "farsca_jar",
+            "op": "add",
+            "n": 2
+          }
+        ],
+        "sfx": {
+          "id": "coin_clink",
+          "at": "obj:farsca_jar"
+        },
+        "react": {
+          "zafer": "laugh"
+        }
+      }
     },
     {
       "beat": {
@@ -487,7 +499,7 @@
       },
       "tempo": 0.8,
       "to": "all",
-      "tr": "Benim bir ablam var. Onun adı Olga. O doktor… Moskova'da.",
+      "tr": "Bir ablam var. Onun adı Olga. O doktor… Moskova'da.",
       "who": "alex"
     },
     {
@@ -651,10 +663,18 @@
       }
     },
     {
-      "en": "Everyone's family is far away… but the class is here.",
-      "fa": "خانواده‌ی همه دوره… ولی کلاس این‌جاست.",
+      "beat": {
+        "who": "nima",
+        "do": "write",
+        "at": "obj:kagit",
+        "emo": "curious"
+      }
+    },
+    {
+      "en": "Nima writes: mum, dad, sibling… and a small child. But what's it called in Turkish?",
+      "fa": "نیما می‌نویسه: مامانش، باباش، خواهر یا برادرش… و یه بچه‌ی کوچیک. ولی اسمش به ترکی چیه؟",
       "narr": true,
-      "tr": "Herkesin ailesi uzakta… ama sınıf burada.",
+      "tr": "Nima yazıyor: annesi, babası, kardeşi… ve küçük bir çocuk. Ama Türkçe adı ne?",
       "who": "kerim"
     }
   ],
