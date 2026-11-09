@@ -305,11 +305,13 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       }
     }
 
-    // ---- the quiz, the follow-up, the record ----
+    // ---- the quiz (none, one, two or three questions), the record ----
+    // A story's `followUp` dialogue is not played: the reading ends at the quiz.
     let firstTry = 0;
+    const done = () => finish({}, false);
     function quiz() {
       const items = (story.quiz ?? []) as QuizItem[];
-      if (!items.length) { followUp(); return; }
+      if (!items.length) { done(); return; }
       let n = 0;
       const ask = () => {
         const q = items[n], order = shuffled(q.options.length, `${story.id}:quiz${n}:${record(story.id).reads ?? 0}`);
@@ -317,15 +319,18 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
         const box = el("div", { class: "card st-quiz" }, el("small", { text: `Question ${n + 1} of ${items.length}` }), el("p", { lang: "tr", class: "st-q", text: textIn(q.q, "tr") }),
           ...tl(q.q.en, q.q.fa));
         const why = el("p", { class: "hint st-why", "aria-live": "polite" });
+        // the learner's pick stays marked: a wrong one crossed out (and closed), the right one ticked once found
         for (const k of order) {
-          box.append(btn("st-opt", q.options[k], () => {
+          const opt = btn("st-opt", q.options[k], () => {
             tries++;
-            if (k !== q.a) { why.textContent = "Not quite. Try again."; return; }
+            if (k !== q.a) { opt.classList.add("no"); (opt as HTMLButtonElement).disabled = true; opt.setAttribute("aria-label", `${q.options[k]}: not this one`); why.textContent = "Not quite. Try again."; return; }
             if (tries === 1) firstTry++;
+            opt.classList.add("ok"); opt.setAttribute("aria-label", `${q.options[k]}: right`);
             why.textContent = q.why ? "✓ " + q.why : "✓";
             box.querySelectorAll("button.st-opt").forEach((b) => ((b as HTMLButtonElement).disabled = true));
-            box.append(btn("btn primary block", n + 1 < items.length ? "Next question" : "Finish", () => { n++; if (n < items.length) ask(); else followUp(); }));
-          }, { lang: "tr" }));
+            box.append(btn("btn primary block", n + 1 < items.length ? "Next question" : "Finish", () => { n++; if (n < items.length) ask(); else done(); }));
+          }, { lang: "tr" });
+          box.append(opt);
         }
         box.append(why);
         foot.replaceChildren(box);
@@ -333,32 +338,9 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       ask();
     }
 
-    function followUp() {
-      const steps = (story.followUp ?? []) as { who?: string; tr?: string; en?: string; fa?: string; if?: string; unless?: string; choice?: { id: string; options: Text3[] } }[];
-      const fuPicks: Record<string, number> = {};
-      const passes = (s: { if?: string; unless?: string }) => (!s.if || flags.has(s.if)) && (!s.unless || !flags.has(s.unless));
-      let k = 0;
-      if (steps.length) log.append(el("hr", { class: "st-fu" }));
-      const next = () => {
-        while (k < steps.length && !passes(steps[k])) k++;
-        if (k >= steps.length) { finish(fuPicks, steps.length > 0); return; }
-        const s = steps[k];
-        if (s.choice) {
-          const c = s.choice, order = shuffled(c.options.length, `${story.id}:${c.id}`);
-          foot.replaceChildren(card("choose what to say", c.options, order, (i) => { fuPicks[c.id] = i; addLog({ kind: "say", who: "nima", ...c.options[i], step: -1 }); k++; next(); }));
-        } else if (s.who === "nima") {
-          foot.replaceChildren(replyCard(glossed(s.tr ?? ""), s.en, s.fa, () => { addLog({ kind: "say", ...s, step: -1 }); speak(s.tr ?? ""); k++; next(); }));
-        } else {
-          addLog({ kind: "line", ...s, step: -1 });
-          foot.replaceChildren(btn("btn primary block", "Devam", () => { k++; next(); }));
-        }
-      };
-      next();
-    }
-
     function finish(fuPicks: Record<string, number>, hadFollowUp: boolean) {
       const ch = { ...(cur?.player.picks ?? {}), ...fuPicks } as Record<string, number | string>;
-      const stars = quizStars(firstTry);
+      const stars = quizStars(firstTry, (story.quiz ?? []).length);
       const { rec, first } = finishRecord(record(story.id), { stars, picks: okPicks(story.steps, ch), ch, fu: hadFollowUp, now: Date.now() });
       (S.st as Record<string, StRecord>)[story.id] = rec;
       if (first) addXp(10);

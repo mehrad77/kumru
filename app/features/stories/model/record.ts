@@ -14,8 +14,11 @@ export function okPicks(steps: readonly unknown[], ch: Record<string, number | s
   return n;
 }
 
-/** Stars from the quiz: the questions right at the first try, at least one (reading to the end is worth a star). */
-export const quizStars = (firstTry: number): number => Math.max(1, Math.min(3, firstTry));
+/**
+ * Stars from the quiz, out of 3 whatever its length: the share of its `n` questions right at the first try, at least one
+ * (reading to the end is worth a star). A story without a quiz gives all three.
+ */
+export const quizStars = (firstTry: number, n = 3): number => n > 0 ? Math.max(1, Math.min(3, Math.round(3 * Math.min(firstTry, n) / n))) : 3;
 
 /** The record after a reading: done, the best stars, one more read, this reading's picks. `first` is the first time it was finished. */
 export function finishRecord(prev: StRecord | undefined, o: { stars: number; picks: number; ch: Record<string, number | string>; fu: boolean; now: number }): { rec: StRecord; first: boolean } {

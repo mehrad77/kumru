@@ -106,11 +106,17 @@
   .st-choose .st-opt:hover:not(:disabled){border-color:var(--accent)}
   .st-opt{display:grid;gap:2px;text-align:start;border:1.5px solid var(--line);border-bottom-width:3px;background:var(--surface);border-radius:12px;padding:10px 14px;color:var(--ink);font-size:17px;min-height:44px}
   .st-opt:disabled{opacity:.6}
+  /* the quiz keeps the learner's picks in view: the right one ticked, a wrong one crossed out */
+  .st-opt.ok,.st-opt.no{opacity:1;position:relative;padding-inline-end:40px}
+  .st-opt.ok{border-color:var(--accent);background:var(--accent-soft);font-weight:600}
+  .st-opt.no{border-color:color-mix(in srgb,#B4412F 55%,transparent);background:color-mix(in srgb,#B4412F 8%,var(--surface));color:var(--muted);text-decoration:line-through}
+  .st-opt.ok::after,.st-opt.no::after{position:absolute;inset-inline-end:14px;top:50%;transform:translateY(-50%);font-weight:700;text-decoration:none}
+  .st-opt.ok::after{content:"✓";color:var(--accent)}
+  .st-opt.no::after{content:"✕";color:#B4412F}
   .st-say,.st-aloud{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
   .st-heard{color:var(--muted)}
   .st-q{margin:0;font-size:18px}.st-why{margin:0}
   .st-end{justify-items:center;text-align:center}
   .st-stars-big{font-size:32px;margin:0;color:var(--accent);letter-spacing:4px}
-  .st-fu{border:0;border-top:1px dashed var(--line);width:100%}
   .st-theatre .st-log{max-height:var(--st-logh);overflow:auto}
 }
