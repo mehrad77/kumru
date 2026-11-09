@@ -57,12 +57,24 @@
   .st-body>.hint{margin-top:64px}
   .st-stagewrap{position:relative;aspect-ratio:16/10;width:100%;overflow:hidden;background:var(--sunken);flex:none;margin-inline:auto}
   .st-page:not(.st-theatre) .st-stagewrap{position:sticky;top:env(safe-area-inset-top,0px);z-index:2}
-  /* sideways or wide: the whole stage fits above the footer */
-  .st-theatre .st-stagewrap{width:min(100%,(100dvh - env(safe-area-inset-top,0px) - var(--st-foot,140px) - 60px) * 1.6)}
+  /* sideways or wide: the whole stage fits above the log's box and the footer, so the newest line shows without scrolling the page */
+  .st-theatre{--st-logh:clamp(84px,22vh,240px)}
+  .st-theatre .st-stagewrap{width:min(100%,(100dvh - env(safe-area-inset-top,0px) - var(--st-foot,140px) - var(--st-logh) - 40px) * 1.6)}
   .st-stage{position:absolute;inset:0}
   .st-still{position:absolute;inset:0;display:grid;place-items:center;font:400 22px var(--sans);color:var(--muted);background:var(--sunken)}
-  .st-log{display:grid;gap:6px;font-size:17px}
-  .st-line{margin:0}.st-line b{color:var(--muted);font-weight:600}.st-line.me b{color:var(--accent)}
+  .st-log{display:grid;gap:8px;font-size:17px}
+  /* a chat line: the speaker's head in a circle, the line in a bubble whose tail points at it; the learner's lines on the other side */
+  .st-line{display:flex;align-items:flex-end;gap:8px;margin:0;max-width:100%}
+  .st-line .st-av{flex:none;width:32px;height:32px;border-radius:50%;overflow:hidden;background:var(--sunken);box-shadow:0 0 0 1.5px var(--line)}
+  .st-line .st-av>svg{width:100%;height:100%;display:block}
+  .st-bub{position:relative;min-width:0;max-width:min(560px,100% - 40px);padding:8px 12px;border-radius:16px 16px 16px 4px;background:var(--surface);border:1px solid var(--line)}
+  .st-bub::before{content:"";position:absolute;bottom:-1px;inset-inline-start:-6px;width:10px;height:10px;background:inherit;border-bottom:1px solid var(--line);border-inline-start:1px solid var(--line);clip-path:polygon(0 100%,100% 0,100% 100%);border-radius:0 0 0 3px}
+  .st-line.me{flex-direction:row-reverse}
+  .st-line.me .st-bub{border-radius:16px 16px 4px 16px;background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 40%,transparent)}
+  .st-line.me .st-bub::before{inset-inline-start:auto;inset-inline-end:-6px;transform:scaleX(-1)}
+  .st-line.beat{justify-content:center}
+  .st-line.beat .st-bub{background:none;border:0;padding:2px 8px;color:var(--muted);font-style:italic}
+  .st-line.beat .st-bub::before{display:none}
   /* the newest line leads: larger, with the earlier ones a step back; every line keeps clear of the footer when scrolled to */
   .st-log>*{scroll-margin-bottom:calc(var(--st-foot,120px) + 8px);transition:opacity .2s,font-size .2s}
   .st-log>.st-line:not(:last-child),.st-log>.st-spot:not(:last-child){opacity:.7}
@@ -77,6 +89,21 @@
   .st-foot{margin-top:auto;position:sticky;bottom:0;padding:8px 0 calc(8px + env(safe-area-inset-bottom));background:linear-gradient(transparent,var(--bg) 18px)}
   .st-card,.st-quiz,.st-end{display:grid;gap:8px;padding:14px;margin:0}
   .st-card small,.st-quiz>small{color:var(--muted);font-weight:600}
+  /* the learner's card: "your turn" with their face, then their line as one of their bubbles with Söyle to send it */
+  .st-card{padding:12px 14px 14px;gap:10px}
+  .st-turn-h{display:flex;align-items:center;gap:8px;font-size:14px}
+  .st-turn-h .st-av{flex:none;width:26px;height:26px;border-radius:50%;overflow:hidden;background:var(--sunken);box-shadow:0 0 0 1.5px var(--accent)}
+  .st-turn-h .st-av>svg{width:100%;height:100%;display:block}
+  .st-turn-h b{color:var(--accent);font-weight:700}
+  .st-turn-h small{color:var(--muted);font-weight:500}
+  .st-reply-b{display:flex;align-items:center;gap:10px}
+  .st-reply .st-mine{flex:1;margin:0;font-size:21px;line-height:1.35;border-radius:18px 18px 4px 18px;background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 40%,transparent);padding:10px 14px}
+  .st-reply .st-mine::before{display:none}
+  .st-send{flex:none;display:inline-flex;align-items:center;gap:8px;min-height:48px;padding-inline:18px 16px;border-radius:999px}
+  .st-send-i{font-size:14px;line-height:1}
+  .st-reply .st-aloud{padding-inline-start:2px}
+  .st-choose .st-opt{border-radius:16px 16px 4px 16px;background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 35%,transparent)}
+  .st-choose .st-opt:hover:not(:disabled){border-color:var(--accent)}
   .st-opt{display:grid;gap:2px;text-align:start;border:1.5px solid var(--line);border-bottom-width:3px;background:var(--surface);border-radius:12px;padding:10px 14px;color:var(--ink);font-size:17px;min-height:44px}
   .st-opt:disabled{opacity:.6}
   .st-say,.st-aloud{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
@@ -85,5 +112,5 @@
   .st-end{justify-items:center;text-align:center}
   .st-stars-big{font-size:32px;margin:0;color:var(--accent);letter-spacing:4px}
   .st-fu{border:0;border-top:1px dashed var(--line);width:100%}
-  .st-theatre .st-log{max-height:30vh;overflow:auto}
+  .st-theatre .st-log{max-height:var(--st-logh);overflow:auto}
 }

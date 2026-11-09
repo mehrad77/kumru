@@ -42,7 +42,7 @@ export function chAvatar(id: string, size?: number | null, cls?: string | null, 
   return span(SILHOUETTE_HEAD, size, cls, label || chInfo(id).name || id, "sil");
 }
 
-interface AvatarImpl { portrait: (char: unknown, o: { size: number; cls: string; label: string }) => HTMLElement; portraitSvg: (char: unknown, o?: { size?: number }) => string }
+interface AvatarImpl { portrait: (char: unknown, o: { size: number; cls: string; label: string }) => HTMLElement; portraitSvg: (char: unknown, o?: { size?: number; trusted?: boolean }) => string }
 const AVATAR: { impl: AvatarImpl | null; loading: Promise<AvatarImpl | null> | null } = { impl: null, loading: null };
 const ready: (() => void)[] = [];
 
@@ -70,6 +70,24 @@ export function avatarPortrait(char: unknown, size: number, cls: string, label?:
   void avatarUse();
   const own = char === S.char ? ownCached(char) : null;
   return span(own || SILHOUETTE_HEAD, size, cls, name, own ? "sahne" : "sil");
+}
+
+/**
+ * A story cast member's head (data/characters/<id>.json `avatar`), trusted as the stage trusts its cast, as a `.chr`
+ * span: Kerim's cast art for her, the silhouette until the `avatar` bundle is in, then drawn in place.
+ */
+export function castPortrait(id: string, avatar: unknown, size: number, cls: string, label: string): HTMLElement {
+  if (id === "kerim" || charKind(avatar) !== "avatar") return chAvatar(id, size, cls, null, label);
+  const draw = (impl: AvatarImpl) => impl.portraitSvg(avatar, { size, trusted: true });
+  if (AVATAR.impl) return span(draw(AVATAR.impl), size, cls, label, "sahne");
+  const s = span(SILHOUETTE_HEAD, size, cls, label, "sil");
+  void avatarUse().then((impl) => {
+    if (!impl) return;
+    s.innerHTML = draw(impl);
+    s.firstElementChild?.setAttribute("aria-hidden", "true");
+    s.classList.replace("sil", "sahne");
+  });
+  return s;
 }
 
 /** The signed-in learner's character, or the silhouette before they have made one. */
