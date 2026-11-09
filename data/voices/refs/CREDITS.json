@@ -5,12 +5,6 @@
   "license": "CC BY 4.0",
   "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
  },
- "nima": {
-  "sample": "tr_m02",
-  "source": "FLEURS tr_tr dev 8682679568734313411.wav",
-  "license": "CC BY 4.0",
-  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
- },
  "farzad": {
   "sample": "fa_m02",
   "source": "FLEURS fa_ir dev 3929967413099840103.wav",

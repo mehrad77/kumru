@@ -65,48 +65,9 @@
     "ms": 2321,
     "sig": "471f6be78dc898"
    }
-  },
-  "nima": {
-   "Hoş bulduk!": {
-    "f": "3f8fcdf011a073.m4a",
-    "ms": 908,
-    "sig": "9c6338f2ee87ec"
-   },
-   "Merhaba!": {
-    "f": "1fc7f46946ae2b.m4a",
-    "ms": 882,
-    "sig": "ca0560dea07db5"
-   },
-   "Teşekkürler!": {
-    "f": "f9d3221bdea6c1.m4a",
-    "ms": 918,
-    "sig": "46006865d452e0"
-   },
-   "Bavullar!": {
-    "f": "14d11f2f608633.m4a",
-    "ms": 857,
-    "sig": "a8546af5dfd54c"
-   },
-   "Evet!": {
-    "f": "b79419e82b8490.m4a",
-    "ms": 678,
-    "sig": "a05b9795f65fe6"
-   },
-   "Şu ne?": {
-    "f": "ff1b570a73f781.m4a",
-    "ms": 1933,
-    "sig": "9dd3a5d71b1c0b"
-   },
-   "Bu da bavul!": {
-    "f": "9cf8a72f0821cd.m4a",
-    "ms": 949,
-    "sig": "ad51c8256cca5f"
-   },
-   "Ev bu mu?": {
-    "f": "714465157466df.m4a",
-    "ms": 2274,
-    "sig": "111cf197dafca5"
-   }
   }
- }
+ },
+ "unvoiced": [
+  "nima"
+ ]
 }

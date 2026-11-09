@@ -19,15 +19,9 @@
    "brief": {
     "gender": "neutral",
     "age": "young",
-    "note": "the learner's lines: neither he nor she, no accent"
+    "note": "the learner's lines: not voiced, the learner says them (their character has no gender to cast for)"
    },
-   "voice": {
-    "ref": "tr_m02",
-    "tempo": 0.75,
-    "exaggeration": 0.5,
-    "cfg": 0.3,
-    "confirmed": true
-   }
+   "unvoiced": true
   },
   "zafer": {
    "brief": {
