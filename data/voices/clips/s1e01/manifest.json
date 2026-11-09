@@ -1,29 +1,6 @@
 {
  "story": "s1e01",
  "lines": {
-  "kerim": {
-   "Merhaba! Benim adım Kerim. Burası İstanbul. Bu ne? Bu bir uçak!": {
-    "f": "10287c5875c63b.m4a",
-    "ms": 4916,
-    "sig": "cbe98bdf51c86b"
-   },
-   "Bu kim? Yeni biri!": {
-    "f": "5fb544c530fa63.m4a",
-    "ms": 2586,
-    "sig": "3ade905205b704"
-   },
-   "Çok bavul!": {
-    "f": "b6b252e96ebffb.m4a",
-    "ms": 988,
-    "sig": "eb6be5832f5ef4",
-    "doubt": "heard \"Çok boğul.\""
-   },
-   "Yeni bir ev!": {
-    "f": "236d1ce93b460e.m4a",
-    "ms": 794,
-    "sig": "184df516693801"
-   }
-  },
   "farzad": {
    "Hoş geldin, Nima!": {
     "f": "069474d49211c8.m4a",
@@ -68,6 +45,7 @@
   }
  },
  "unvoiced": [
+  "kerim",
   "nima"
  ]
 }

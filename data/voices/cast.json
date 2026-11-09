@@ -5,15 +5,9 @@
    "brief": {
     "gender": "female",
     "age": "adult",
-    "note": "the narrator, a dove: slow, clear, warm, the A1 comfort voice"
+    "note": "the narrator, a dove: not voiced (her coo plays instead)"
    },
-   "voice": {
-    "ref": "tr_f01",
-    "tempo": 0.9,
-    "exaggeration": 0.5,
-    "cfg": 0.3,
-    "confirmed": true
-   }
+   "unvoiced": true
   },
   "nima": {
    "brief": {
