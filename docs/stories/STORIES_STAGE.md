@@ -132,10 +132,13 @@ The table is the spec. What the engine does with each row today (`sahne/packages
 - **Link.** Every `link` key is a word of its line, and every `obj:` target (`at`, `link`, `obj`) is a prop on stage at that point.
 - **Props.** A story prop stands only in places the story visits, on marks they have, and its id shadows no prop of those places.
 - **Stand-in.** No two stand-in lines in a row; the learner's first turn within the first four lines (section 7).
+- **Exit.** A speaker who leaves on their own line is off stage when the line plays, so it shows as a phone bubble: move the exit to the line after (a warning). Walking in on one's own line is fine; the actor is on stage as the line starts.
 - **Mechanics.** An `act` only in a week whose `arc.mechanics` has `act`.
 - **Route.** With the places' solid lines (`LintOptions.solids`, from `placeSolids`), a walk that goes round a wall, a railing or a closed gate is a warning (how much longer it is), and one with no way through an error: the stage walks the same way (`sahne/packages/sahne/DESIGN.md` §7). Move a mark, add a `via`, or stage an `enter`/`exit` through the gate's door mark.
 - **Look.** Every look names a character of the story (not Kerim) and an outfit they have, or only clothing slots; it never takes off `top`, `bottom` or `shoes`, and it sits only on a top-level scene, line or beat. With the kit, every look and outfit composes with no part refused, out of its slot, wrong for the build, or dropped for size. Warnings: a look for the learner beyond `outer` and `wear.hat`, and a look that changes nothing.
 - **`--suggest`** (`suggest()`) proposes `link`, `do`/`at` and `obj` show/hide from these same patterns, so staging stays quick to write.
+
+**Framing (by eye, on the storyboard; decided 2026-11).** The speaker is in frame, and nobody stands between the camera and the person speaking: put the listener beside, not in front, or give the line `cam: "single"` or `"two"`. The season review found both about a dozen times; no lint checks them yet.
 
 The walk keeps who stands where (scene `at`, `move`), which props are shown and who holds them (`obj`), and plays scene changes as the engine does (a scene in the same place keeps the props; a new place brings kept props as they were), so *bu* is near (≤ 1.5 m on the floor plan) and *o* is far (≥ 3 m) when the gesture is a plain `point`; a word names a prop through `link`, or through the prop's id or card term (`süt` → `sut`, `a1-w-sut`). *bir* before a noun is the article unless a count says otherwise. A choice's options are each checked from the same state; the story goes on from the first.
 

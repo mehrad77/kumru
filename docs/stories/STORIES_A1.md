@@ -14,7 +14,7 @@ Index: `README.md`. Design rules: `STORIES_DESIGN.md`. World: `STORIES_WORLD.md`
 
 **Calendar:** week 1 starts Mon 7 Sep 2026 and A1 ends Sat 31 Oct. The whole season is released together as the archive at launch, proposed for Mon 9 Nov (`STORIES_CALENDAR.md`). Episodes run Monday to Friday and the special on Saturday; Sunday has no release.
 
-**Cast in a story:** at most 4 speakers in an episode and 6 in a special. Silent classmates in the background are `extras`.
+**Cast in a story:** at most 4 speakers who carry an episode (three lines or more) and 6 in a special; anyone else says one short line at most (`STORIES_DESIGN.md` §1, *Speakers*). Silent classmates in the background are `extras`.
 
 ## Weeks
 

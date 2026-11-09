@@ -51,6 +51,8 @@ All 48 stories were reviewed for natural, well-scripted dialogue, repetition tha
 - **Album photos.** They were moved with their lines wherever steps were added or removed, and every photo still shows its character with Nima.
 - **Gates.** 0 errors, 97 warnings (96 before; see the Buyurun item below). The callbacks are unchanged: s1e14_seat, s1e17_cake, s1e28_secret, s1e36_credit, s1e43_song.
 
+**The rules changed after this review** (2026-11): 10–18 spoken lines, the speaker cap counting only those who carry the story, the known-word ratio over content words, the quiz, natural turns, no weekly formula, a weakness beat each week and the staging checks (`STORIES_DESIGN.md` §1, `STORIES_AUTHORING.md`, `STORIES_STAGE.md` §4; the checker in Sahne 0.2.3).
+
 **Open after this review.**
 - **Lint.** The Turkish give/welcome motive list (`sahne-story/src/langs/tr.ts`) knows "buyr" but not "buyur", so a give on a "Buyurun" line warns. This affects s1e30, s1e34, s1e44 ×2 and s1e45. It is a one-line fix in Sahne.
 - **For the owner.**
