@@ -41,3 +41,7 @@ playwright-report/
 
 # CI: the private course data checked out by .github/workflows/deploy.yml
 /.kumru-private
+
+# sahne-voice: the developer's candidate voices and auditions (never shipped)
+data/voices/.pool
+data/voices/.audition/

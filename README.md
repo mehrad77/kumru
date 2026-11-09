@@ -18,7 +18,7 @@ Live at **https://turk.shab.boo**. An account is needed; there is no anonymous u
 
 - **The page** is a Vite build of `app/` (TypeScript and Preact, one folder per feature under `app/features/`).
 - **The Worker** (`worker/`) serves `/api` on Cloudflare's free plan. It stores accounts, progress, Friends, classes, reminders and backups in D1 and R2.
-- **The stories** (`data/stories`, `characters`, `places`, `thumbs`) play on [Sahne](https://github.com/mehrad77/sahne), the stage engine and kit, which comes in as the git submodule `sahne/`. The series is described in [docs/stories/](docs/stories/README.md).
+- **The stories** (`data/stories`, `characters`, `places`, `thumbs`, and `voices`: each character's recorded lines, cast in backstage's Voices page and generated with `sahne-voice`) play on [Sahne](https://github.com/mehrad77/sahne), the stage engine and kit, which comes in as the git submodule `sahne/`. The series is described in [docs/stories/](docs/stories/README.md).
 - **The course data** (the cards, the grammar lessons, the path and the syllabus) is derived from the books, so it is private and is never in this repo. Without it the app runs on `data-sample/`: a few original cards, one lesson, one path section.
 
 ## Run it

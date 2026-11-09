@@ -144,7 +144,8 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       const kit = await P.kitFor(Object.values(adapted.load.places ?? {}) as never[]);
       if (gone) return;
       const manifest = await fetch("/data/manifest.json").then((r) => r.json()).catch(() => ({}));
-      const stage = P.stageFor(stageBox, kit, { theatre: theatre(), gloss, motion: reduce ? "still" : undefined, sounds: manifest.sounds, onContext: showStill });
+      const voice = await P.storyVoice(story.id, manifest.voices);
+      const stage = P.stageFor(stageBox, kit, { theatre: theatre(), gloss, motion: reduce ? "still" : undefined, sounds: manifest.sounds, onContext: showStill, voice });
       if (!stage.webgl) showStill(true);
       soundStage = stage;
       if (pref("sound", false)) {

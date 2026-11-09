@@ -3,7 +3,7 @@
 
    - install: precache the page, data/manifest.json, the hashed data files, the icons and the page's script chunks
      into `kumru-<version>`; the new version then waits until the page asks it to take over ("Reload"). The heavy lazy
-     chunks (Sahne's builder and story player, the set families: BUILD.lazy) and the recordings (/sounds/) are not
+     chunks (Sahne's builder and story player, the set families: BUILD.lazy), the recordings (/sounds/) and the characters' recorded lines (/voices/) are not
      precached: they go into `kumru-lazy` the first time they are fetched, and stay there across versions.
    - activate: delete the other `kumru-<version>` caches, and the lazy chunks this build no longer has.
    - fetch: /api goes to the network; same-origin GETs are cache-first (a navigation gets the cached
@@ -44,9 +44,9 @@ sw.addEventListener("fetch", (event) => {
       const cache = await caches.open(CACHE);
       const hit = req.mode === "navigate" ? await cache.match("/") : await cache.match(req, { ignoreSearch: true });
       if (hit) return hit;
-      // hashed files the precache leaves out (lazy code, recordings, story thumbnails): cached the first time, so a story opened
+      // hashed files the precache leaves out (lazy code, recordings, recorded lines, story thumbnails): cached the first time, so a story opened
       // once plays offline
-      if (url.pathname.startsWith("/assets/") || url.pathname.startsWith("/sounds/") || url.pathname.startsWith("/thumbs/")) {
+      if (url.pathname.startsWith("/assets/") || url.pathname.startsWith("/sounds/") || url.pathname.startsWith("/thumbs/") || url.pathname.startsWith("/voices/")) {
         const lazy = await caches.open(LAZY);
         const old = await lazy.match(req, { ignoreSearch: true });
         if (old) return old;
