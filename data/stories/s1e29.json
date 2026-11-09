@@ -107,8 +107,8 @@
       "en": "the card (object)"
     },
     "ku": {
-      "fa": "کو (صدای کریم)",
-      "en": "coo (Kerim's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "kutlu": {
       "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
@@ -269,11 +269,11 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Bir şal",
         "Bir top",
+        "Bir şal",
         "Bir kart"
       ],
       "q": {
@@ -284,12 +284,12 @@
       "why": "Kırlangıç: “Maria Teyze için bir şal örüyorum.”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "Sevgili Maria Teyze",
         "Merhaba Maria Teyze",
-        "İyi bayramlar"
+        "İyi bayramlar",
+        "Sevgili Maria Teyze"
       ],
       "q": {
         "tr": "Nima karta nasıl başlıyor?",
@@ -297,21 +297,6 @@
         "fa": "نیما کارت را چطور شروع می‌کند؟"
       },
       "why": "Nima: “Sevgili Maria Teyze, bir ay önce İstanbul'a geldim.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Mor",
-        "Turuncu",
-        "Pembe"
-      ],
-      "q": {
-        "tr": "Son renk ne?",
-        "en": "What is the last colour?",
-        "fa": "رنگِ آخر چیست؟"
-      },
-      "why": "Kırlangıç: “Tamam: son renk mor!”"
     }
   ],
   "ref": "A1_5",
@@ -339,8 +324,8 @@
     {
       "do": "knit",
       "emo": "happy",
-      "en": "I'm knitting a shawl for Maria Teyze.",
-      "fa": "دارم برای خاله ماریا یه شال می‌بافم.",
+      "en": "I'm knitting a shawl for Maria Teyze. “Örmek”… is this!",
+      "fa": "دارم برای خاله ماریا یه شال می‌بافم. «örmek»… یعنی این!",
       "loop": true,
       "obj": [
         {
@@ -353,27 +338,8 @@
         "word": "tık tık tık"
       },
       "to": "nima",
-      "tr": "Maria Teyze için bir şal örüyorum.",
+      "tr": "Maria Teyze için bir şal örüyorum. Örmek… işte bu!",
       "who": "kirlangic"
-    },
-    {
-      "emo": "happy",
-      "en": "Ball!",
-      "fa": "توپ!",
-      "obj": [
-        {
-          "id": "top",
-          "ms": 1400,
-          "op": "go",
-          "to": "table"
-        }
-      ],
-      "react": {
-        "nima": "laugh"
-      },
-      "to": "nima",
-      "tr": "Top!",
-      "who": "rayan"
     },
     {
       "at": "obj:mor_yumak",
@@ -678,10 +644,10 @@
     {
       "cam": "close",
       "emo": "happy",
-      "en": "Tomorrow… eighty years! Coo-coo!",
-      "fa": "فردا… هشتاد سالگی! کو-کو!",
+      "en": "The shawl is ready. The card is ready. Tomorrow… eighty years!",
+      "fa": "شال آماده‌ست. کارت آماده‌ست. فردا… هشتاد سالگی!",
       "narr": true,
-      "tr": "Yarın… seksen yaş! Ku-ku!",
+      "tr": "Şal hazır. Kart hazır. Yarın… seksen yaş!",
       "who": "kerim"
     }
   ],

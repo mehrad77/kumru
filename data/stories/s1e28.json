@@ -87,14 +87,6 @@
     }
   ],
   "gl": {
-    "ayda": {
-      "fa": "در یک ماه؛ «bir ayda» یعنی ظرفِ یک ماه",
-      "en": "in a month"
-    },
-    "aydan": {
-      "fa": "از یک ماه؛ «bir aydan beri» یعنی یک ماه است که",
-      "en": "from a month; “bir aydan beri”: for a month now"
-    },
     "beri": {
       "fa": "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
       "en": "since; “-DAn beri”: since"
@@ -108,16 +100,12 @@
       "en": "really"
     },
     "ku": {
-      "fa": "کو (صدای کریم)",
-      "en": "coo (Kerim's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "pastadan": {
       "fa": "از کیک؛ «pastadan önce» یعنی قبل از کیک",
       "en": "from the cake; “pastadan önce”: before the cake"
-    },
-    "tahran": {
-      "fa": "تهران",
-      "en": "Tehran"
     },
     "tam": {
       "fa": "درست، دقیقاً",
@@ -130,6 +118,30 @@
     "çatı": {
       "fa": "پشت‌بام",
       "en": "roof"
+    },
+    "maşallah": {
+      "fa": "ماشالله (برای تعریف و آرزوی خیر)",
+      "en": "bless (said in admiration, e.g. of an age)"
+    },
+    "şşş": {
+      "fa": "هیس!",
+      "en": "shh!"
+    },
+    "kutlama": {
+      "fa": "جشن",
+      "en": "a celebration"
+    },
+    "eylül'den": {
+      "fa": "از سپتامبر؛ «Yedi Eylül'den beri» یعنی از هفتم سپتامبر",
+      "en": "from September; “Yedi Eylül'den beri”: since 7 September"
+    },
+    "pratiği": {
+      "fa": "تمرین؛ «konuşma pratiği» یعنی تمرینِ مکالمه",
+      "en": "practice; “konuşma pratiği”: speaking practice"
+    },
+    "öğlen": {
+      "fa": "ظهر",
+      "en": "at noon"
     }
   },
   "id": "s1e28",
@@ -162,19 +174,19 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Bir aydan beri",
         "Bir yıldan beri",
-        "Dünden beri"
+        "Dünden beri",
+        "Yedi Eylül'den beri"
       ],
       "q": {
         "tr": "Nima ne zamandan beri İstanbul'da?",
-        "en": "How long has Nima been in Istanbul?",
+        "en": "Since when has Nima been in Istanbul?",
         "fa": "نیما از کِی در استانبول است؟"
       },
-      "why": "Nima: “Bir aydan beri! Dün tam bir ay oldu!”"
+      "why": "Nima: “Yedi Eylül'den beri! Dün tam bir ay oldu!”"
     },
     {
       "a": 0,
@@ -190,21 +202,6 @@
         "fa": "«Yemekten önce çatıyı hazırlıyoruz.» اول چه؟"
       },
       "why": "Nima: “Yemekten önce çatıyı hazırlıyoruz!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Serkan",
-        "Ömer",
-        "Maria Teyze"
-      ],
-      "q": {
-        "tr": "Pastayı kim alıyor?",
-        "en": "Who is buying the cake?",
-        "fa": "کیک را چه کسی می‌خرد؟"
-      },
-      "why": "Elif: “Yemekten sonra pasta! Serkan pasta alıyor.”"
     }
   ],
   "ref": "A1_5",
@@ -220,8 +217,8 @@
       "time": "dusk"
     },
     {
-      "en": "Seven o'clock. Nima is here at seven sharp! Not Tehran time: Istanbul time!",
-      "fa": "ساعت هفته. نیما درست ساعتِ هفت این‌جاست! نه به وقتِ تهران، به وقتِ استانبول!",
+      "en": "Seven o'clock. Nima's watch says half past seven. But Nima is here… at seven sharp!",
+      "fa": "ساعت هفته. ساعتِ نیما: هفت و نیم. ولی نیما این‌جاست… درست ساعتِ هفت!",
       "move": {
         "how": "enter",
         "to": "door",
@@ -232,7 +229,7 @@
         "id": "knock",
         "word": "tık tık"
       },
-      "tr": "Saat yedi. Nima tam saat yedide burada! Tahran saati değil, İstanbul saati!",
+      "tr": "Saat yedi. Nima'nın saati: yedi buçuk. Ama Nima burada… tam yedide!",
       "who": "kerim"
     },
     {
@@ -253,21 +250,21 @@
     {
       "do": "thumb_up",
       "emo": "happy",
-      "en": "Seven on the dot! Well done!",
-      "fa": "درست ساعتِ هفت! آفرین!",
+      "en": "Seven on the dot! Well done! How was today?",
+      "fa": "درست ساعتِ هفت! آفرین! امروز چطور بود؟",
       "to": "nima",
-      "tr": "Tam saat yedi! Çok güzel!",
+      "tr": "Tam saat yedi! Çok güzel! Bugün nasıldı?",
       "who": "elif"
     },
     {
       "emo": "happy",
-      "en": "There's a secret! Saturday is Maria Teyze's birthday.",
-      "fa": "یه رازی هست! شنبه تولدِ خاله ماریاست.",
+      "en": "At noon I had speaking practice! And… there's a secret! Saturday is Maria Teyze's birthday.",
+      "fa": "ظهر تمرینِ مکالمه داشتم! و… یه رازی هست! شنبه تولدِ خاله ماریاست.",
       "react": {
         "elif": "surprised"
       },
       "to": "elif",
-      "tr": "Bir sır var! Cumartesi Maria Teyze'nin doğum günü.",
+      "tr": "Öğlen konuşma pratiği yaptım! Ve… bir sır var! Cumartesi Maria Teyze'nin doğum günü.",
       "voice": "whisper",
       "who": "nima"
     },
@@ -291,19 +288,19 @@
     },
     {
       "emo": "curious",
-      "en": "Eighty! And you? How long have you been here?",
-      "fa": "هشتاد! تو چی؟ از کِی این‌جایی؟",
+      "en": "Eighty! Bless her! And you? Since when have you been in Istanbul?",
+      "fa": "هشتاد! ماشالله! تو چی؟ از کِی استانبولی؟",
       "to": "nima",
-      "tr": "Seksen! Peki sen? Ne zamandan beri buradasın?",
+      "tr": "Seksen! Maşallah! Peki sen? Ne zamandan beri İstanbul'dasın?",
       "voice": "whisper",
       "who": "elif"
     },
     {
       "emo": "happy",
-      "en": "For a month! Yesterday it was exactly one month!",
-      "fa": "یه ماهه! دیروز درست یه ماه شد!",
+      "en": "Since the seventh of September! Yesterday was exactly one month!",
+      "fa": "از هفتم سپتامبر! دیروز درست یه ماه شد!",
       "to": "elif",
-      "tr": "Bir aydan beri! Dün tam bir ay oldu!",
+      "tr": "Yedi Eylül'den beri! Dün tam bir ay oldu!",
       "voice": "whisper",
       "who": "nima"
     },
@@ -355,7 +352,7 @@
       "en": "I'm going to tell Maria Teyze!",
       "fa": "من به خاله ماریا می‌گم!",
       "move": {
-        "how": "exit",
+        "how": "run",
         "to": "door",
         "who": "omer"
       },
@@ -377,7 +374,7 @@
       "at": {
         "maria": "landing_3",
         "nima": "door_elif",
-        "omer": "landing_2"
+        "omer": "flight_up"
       },
       "kerim": "rail",
       "scene": "flat_nima_stairs",
@@ -392,18 +389,14 @@
           "id": "trolley_wheels",
           "word": "tak tak tak"
         },
-        "who": "omer"
+        "who": "omer",
+        "cam": "single"
       }
     },
     {
       "emo": "curious",
       "en": "What is it? Why are you whispering? What's on Saturday?",
       "fa": "چی شده؟ چرا پچ‌پچ می‌کنید؟ شنبه چه خبره؟",
-      "move": {
-        "how": "walk",
-        "to": "flight_up",
-        "who": "maria"
-      },
       "react": {
         "omer": {
           "emo": "nervous"
@@ -459,9 +452,9 @@
               },
               {
                 "emo": "laugh",
-                "en": "Who told you?",
-                "fa": "کی بهت گفت؟",
-                "tr": "Kim söyledi?",
+                "en": "Who did you tell?!",
+                "fa": "به کی گفتی؟!",
+                "tr": "Kime söyledin?!",
                 "who": "maria"
               }
             ],
@@ -480,16 +473,16 @@
               {
                 "do": "shake_head",
                 "emo": "annoyed",
-                "en": "No, you're not! There's no school on Saturday!",
-                "fa": "نخیر، نمی‌ری! شنبه کلاس نیست!",
-                "tr": "Hayır, gitmiyorsun! Cumartesi okul yok!",
+                "en": "No! There's no school on Saturday… there's cake!",
+                "fa": "نه! شنبه مدرسه نیست… کیک هست!",
+                "tr": "Hayır! Cumartesi okul yok… pasta var!",
                 "who": "omer"
               },
               {
                 "emo": "curious",
-                "en": "School? …All right.",
-                "fa": "کلاس؟ …باشه.",
-                "tr": "Okul mu? …Peki.",
+                "en": "Cake?! …All right.",
+                "fa": "کیک؟! …باشه.",
+                "tr": "Pasta mı?! …Peki.",
                 "who": "maria"
               }
             ],
@@ -502,18 +495,18 @@
     },
     {
       "spot": {
-        "en": "Two tools with -DAn. -DAn beri says since when something has been going on, and it is still going on: “Bir aydan beri (buradayım)”: for a month now, I'm still here. -DAn önce / -DAn sonra put things in order: “Yemekten önce çatıyı hazırlıyoruz”, “Yemekten sonra pasta!”. Same ending, different jobs.",
-        "ex": "Bir aydan beri!",
-        "fa": "دو ابزار با -DAn. -DAn beri می‌گوید کاری از کِی شروع شده و هنوز ادامه دارد: «Bir aydan beri (buradayım)» یعنی یک ماه است که این‌جا هستم و هنوز هم هستم. -DAn önce و -DAn sonra ترتیب را می‌گویند، مثلِ «قبل از» و «بعد از» در فارسی: «Yemekten önce çatıyı hazırlıyoruz»، «Yemekten sonra pasta!». یک پسوند، دو کار.",
+        "en": "Two tools with -DAn. -DAn beri says since when something has been going on, and it still is: “Yedi Eylül'den beri (buradayım)”: since 7 September, and I'm still here. So Elif asks “Ne zamandan beri?”: since when? -DAn önce / -DAn sonra put things in order: “Yemekten önce çatıyı hazırlıyoruz”, “Yemekten sonra pasta!”. Same ending, different jobs.",
+        "ex": "Yedi Eylül'den beri!",
+        "fa": "دو ابزار با -DAn. -DAn beri می‌گوید کاری از کِی شروع شده و هنوز ادامه دارد: «Yedi Eylül'den beri (buradayım)» یعنی از هفتم سپتامبر این‌جا هستم و هنوز هم هستم. برای همین الیف می‌پرسد «Ne zamandan beri?»: از کِی؟ -DAn önce و -DAn sonra ترتیب را می‌گویند، مثلِ «قبل از» و «بعد از» در فارسی: «Yemekten önce çatıyı hazırlıyoruz»، «Yemekten sonra pasta!». یک پسوند، دو کار.",
         "lesson": "g_a1_5_dan_beri"
       }
     },
     {
       "emo": "happy",
-      "en": "Saturday… coo-coo… it's a secret!",
-      "fa": "شنبه… کو-کو… رازه!",
+      "en": "Saturday… it's a secret! Shh!",
+      "fa": "شنبه… رازه! هیس!",
       "narr": true,
-      "tr": "Cumartesi… ku-ku… sır!",
+      "tr": "Cumartesi… sır! Şşş!",
       "who": "kerim"
     }
   ],
