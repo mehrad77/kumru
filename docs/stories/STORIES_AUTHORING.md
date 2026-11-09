@@ -32,7 +32,7 @@ grammar      lessons: [...]; Kerim's spot covers: ...
 words        5–8 target card ids (10–12 for a special); recycled words from earlier stories
 choices      1–2: [polite | meaning | action], the situation and what the options contrast;
              a flag the `ok` pick sets, if a later story remembers it
-quiz         3 questions: comprehension + target words
+quiz         0–3 questions (usually 1–2): comprehension + target words in a new frame
 follow-up    scripted dialogue: who, what the learner practises (free tier)
 calendar     any real-world date or season it must reflect
 arc beat     the season-arc step this story carries, if any (weakness, setback, battle, …)
@@ -64,7 +64,7 @@ The page changes these imply (archive view, date gating, reactions, the new name
 - [ ] Persian natural (not a word-by-word translation); English plain.
 - [ ] Choices contrast a real point of their kind (polite, meaning or action); every option gets a reaction; a remembered pick has an `if`/`unless` pair later.
 - [ ] The stand-in never has two lines in a row (each turn is one reply card), and gets a turn within the first four lines.
-- [ ] Quiz: answers are clearly in the text; the "why" quotes the line.
+- [ ] Quiz: only items that need the story; answers are clearly in the text; the "why" quotes the line; the right option is not always the first.
 
 ### Sample brief
 The first finished brief is `s1e01` in `STORIES_A1.md` (Week 1). Briefs are written day by day there, each one from four questions to the owner.

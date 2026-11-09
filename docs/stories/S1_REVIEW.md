@@ -4,6 +4,79 @@ s1e02–s1e48 are written as drafts in `data/stories/<id>.json`, beside the s1e0
 
 **How to review.** Run `pnpm sahne dev` and open `#/stories/<id>` in the gallery (for example `#/stories/s1e02`). Play each story to the end and try every option of each choice. Then read the open points and the Persian listed under the story below. Say what to change for any story; a week is done when you have reviewed it, and this file keeps what is still open.
 
+## Season review (2026-11)
+
+All 48 stories were reviewed for natural, well-scripted dialogue, repetition that teaches rather than bores, useful quizzes, the storyline, and the staging on each episode's storyboard. The review ran in five steps:
+- a season pass (storyline, the frozen canon, repetition across episodes);
+- one rewrite per week, working from the script and the storyboard;
+- an independent second pass, which read each story before and after;
+- its fixes;
+- a re-shoot of every storyboard.
+
+**What changed across the season.**
+- **Openers and closers.** Kerim's "Günaydın!" opener was in about 19 episodes and her "X… ama Y" close in about 10. Most are now openers that start on the episode's own problem. "Bugün… X!", "Kerim de…" and "Tahran saati!" are each kept where they land.
+- **Textbook exchanges.** Full-sentence answers, drill questions with obvious answers, and lines that tell someone what both already know became short real turns, reactions and politeness formulas.
+- **The quiz.** It was 3 items everywhere (144 in all). It is now 1–2 items (94: 46 stories with 2, 2 with 1).
+  - "Who says <quote>?" items and items whose answer was in the question are gone.
+  - The rest ask for a word in a new frame or a point that needs the story.
+  - The right answer is spread over the three positions; it was almost always the first.
+- **Nima's weakness.** Small "leaning on others" beats were added in weeks 1–6 (s1e02, s1e05, s1e14, s1e22, s1e34), so the weakness doesn't vanish between s1e08 and s1e39.
+- **Spending the ending early.**
+  - s1e39's good option is now only "Pardon… bir daha, lütfen?", so "Bir daha, lütfen. Yavaş, lütfen." stays new for s1e47.
+  - s1e47 no longer says "Tahranlıyım" the day before s1e48 needs it.
+- **Canon conflicts fixed.**
+  - The watch: s1e25's logic and s1e28's hint.
+  - Farzad lives alone (s1e19).
+  - The first roof is s1e12's (s1e18).
+  - Ömer's cat is the street cat (s1e19/23).
+  - "Kerim de var!" is said before the class knows her name (s1e22).
+  - One week to the exam (s1e39).
+  - Nima isn't going to Osmanbey (s1e15).
+  - The s1e28_secret path: Ömer now gives it away on the lie option, so Maria's "Biliyorum…" in s1e30 holds.
+- **Settled forms** (the list under *Left inconsistent* below is now closed):
+  - *Hoş bulduk* is «ممنون، خوشحالم که اومدم!» (plural «…خوشحالیم که اومدیم!»).
+  - *Yavaş, lütfen* is «آروم‌تر، لطفاً».
+  - Kerim's coo is "Ku-kuu!", glossed «صدای قمری» / "a dove's coo".
+  - *Buyurun* everywhere.
+  - *maç* is «بازی».
+  - Spoken plural imperatives (بیاین).
+  - ZWNJ in می‌.
+  - No slash forms.
+- **Titles.** s1e39 is "Deneme sınavı" ("prova sınavı" isn't said for a mock exam).
+- **Staging.** About 30 fixes from the storyboards:
+  - people hidden behind others or behind props (s1e02, s1e06, s1e09, s1e12, s1e36, s1e40, s1e45, s1e46…);
+  - exits that turned a goodbye into a phone bubble (s1e17, s1e19, s1e24, s1e28);
+  - cameras that missed the speaker;
+  - Nima's eyes open in the sleeping close-ups (s1e44).
+- **Album photos.** They were moved with their lines wherever steps were added or removed, and every photo still shows its character with Nima.
+- **Gates.** 0 errors, 97 warnings (96 before; see the Buyurun item below). The callbacks are unchanged: s1e14_seat, s1e17_cake, s1e28_secret, s1e36_credit, s1e43_song.
+
+**Open after this review.**
+- **Lint.** The Turkish give/welcome motive list (`sahne-story/src/langs/tr.ts`) knows "buyr" but not "buyur", so a give on a "Buyurun" line warns. This affects s1e30, s1e34, s1e44 ×2 and s1e45. It is a one-line fix in Sahne.
+- **For the owner.**
+  - s1e06's gifts (Hafez, saffron, pomegranates) and Kırlangıç's own "Ben İranlıyım" (s1e02) are kept: approve them as a third exception to the language-neutral rule, or change them.
+  - İsmail's "Taze taze!": the cast doc says he never uses it, but week 2's brief suggests it. It is not used.
+- **Places (marks, props, cameras).**
+  - s1e04: the tram on İstiklal runs on its own clock, so a story can't call it in.
+  - s1e12: the rooftop has no Kerim mark in front of the row.
+  - s1e18: the rooftop has no deckchair.
+  - s1e23: the door says 12 but the house plaque 42.
+  - s1e38: Yusuf's table seat reads as standing.
+  - s1e42: the scoreboard stays 0–0 all night, and the espresso steam covers Berfin's face.
+  - s1e43: Ömer at landing_2 is behind the railing.
+  - s1e45: seat_1 has no chair in `big_table`.
+  - s1e46: no mark for Rayan in the park.
+  - s1e47: the desks have no seats.
+  - s1e48: no deck mark for Yusuf.
+  - Feriköy: the ambient walkers cross close shots.
+- **Engine.**
+  - s1e35: `cam: split` shows no inset.
+  - s1e41: `past_inset` frames are empty, and `cam: obj` doesn't frame the tiny watch.
+  - s1e25: the seated bus pose faces away from the person beside it.
+  - s1e45: tea steam covers faces.
+  - s1e10: Zafer holds his job hats rather than wearing them.
+- **Optional.** s1e30 never shows Nima's geraniums and card being handed over.
+
 ## Season
 
 **Gates (2026-10-24).** `node sahne/packages/sahne-story/stories.ts --check`: 48 stories, 0 errors, 96 warnings (after the checker fixes below). `pnpm sahne check`: green.

@@ -9,7 +9,7 @@ Status: **v1.** The stage and the story adapter are built (`sahne/packages/sahne
 ### Purpose
 - **A graded reader.** A story is easy, enjoyable reading that recycles words and grammar. It is independent of the book: if a story matches a unit of the class's book, that is a bonus, not a requirement.
 - **About 95% known words.** At most about 1 word in 20 is new to a learner at the story's position. New words are glossed through tap-to-translate.
-- **Done** = read to the end **and** quiz passed (3 questions, stars). Flash practice and re-reading are extras.
+- **Done** = read to the end **and** quiz passed (0–3 questions, stars; a story with no quiz is done when read). Flash practice and re-reading are extras.
 - **Culture is shown, never explained.** Tea is offered, shoes come off, someone says *Kolay gelsin*. There are no culture notes.
 
 ### Sizes
@@ -56,7 +56,7 @@ Every story is fully readable without AI. The AI tutor (plus) adds to a story bu
 - **Choices:** 1–2 per episode, of three kinds, about a third each over a season (decided 2026-10-09): **polite** (polite vs blunt, *sen* vs *siz*, the right phrase for the moment), **meaning** (showing Nima understood what was said, or picking the right form) and **action** (what to do: who to ask, where to go, whether to help). Characters react. The plot never branches, but a few picks are **remembered** later in a line or two (callbacks), and every pick moves the learner's hidden **warmth** with a character, which shows only in Kerim's album at the end of the season (`STORIES_SCHEMA.md` §4.5, §4.7, §4.8).
 - **Season threads:** each season has a spine (a want the stand-in carries across weeks) and a few threads that run across episodes, including setbacks that last more than one story. A1's are listed in `STORIES_A1.md`, *Season threads*.
 - **Season arc (decided 2026-10-09):** the stand-in also changes across a season. The arc follows Truby's *Anatomy of Story*: a weakness every learner shares, a need, a desire, an opponent (comic, never a villain), setbacks, a battle, and a self-revelation shown in the last story, never told. It is decided from the end backwards, before the briefs, and each beat is one line or one staging moment. Choices still never branch: where the arc needs Nima to act, every option leads there. A1's is in `STORIES_A1.md`, *Season arc*.
-- **Quiz:** 3 questions on **comprehension** (who, what, where) and the **target words**. Grammar is not quizzed. Kerim's spot and the lesson teach it.
+- **Quiz:** 0–3 questions, only where one helps: **comprehension** that needs the story (who, what, why) and the **target words** in a new frame, never a copy of a quoted line. With two or more, at least one of each. Grammar is not quizzed. Kerim's spot and the lesson teach it.
 - **Audio:** browser TTS for now. Later, a distinct voice per character.
 - **Translation fade** *(proposed)*: the default depends on level, and the learner can always override it.
   - A1: line translation on.

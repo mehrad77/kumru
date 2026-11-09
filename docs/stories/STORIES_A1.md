@@ -154,6 +154,8 @@ The dates, weeks and kinds here are a copy for planning. The source is the seaso
 
 ## Briefs
 
+The briefs are the plan the stories were written from. The stories in `data/stories/` have moved on since (the season review of 2026-11, `S1_REVIEW.md`): their lines and quizzes are the source, and a brief's `quiz` line is the first idea, not the current quiz.
+
 ### s1e01 · Merhaba, İstanbul! (decided 2026-10-09)
 ```
 id           s1e01
