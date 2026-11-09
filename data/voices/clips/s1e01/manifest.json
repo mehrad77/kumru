@@ -1,0 +1,112 @@
+{
+ "story": "s1e01",
+ "lines": {
+  "kerim": {
+   "Merhaba! Benim adım Kerim. Burası İstanbul. Bu ne? Bu bir uçak!": {
+    "f": "10287c5875c63b.m4a",
+    "ms": 4916,
+    "sig": "cbe98bdf51c86b"
+   },
+   "Bu kim? Yeni biri!": {
+    "f": "5fb544c530fa63.m4a",
+    "ms": 2586,
+    "sig": "3ade905205b704"
+   },
+   "Çok bavul!": {
+    "f": "b6b252e96ebffb.m4a",
+    "ms": 988,
+    "sig": "eb6be5832f5ef4",
+    "doubt": "heard \"Çok boğul.\""
+   },
+   "Yeni bir ev!": {
+    "f": "236d1ce93b460e.m4a",
+    "ms": 794,
+    "sig": "184df516693801"
+   }
+  },
+  "farzad": {
+   "Hoş geldin, Nima!": {
+    "f": "069474d49211c8.m4a",
+    "ms": 1378,
+    "sig": "33eed664a4f155"
+   },
+   "Merhaba! Ama “Hoş bulduk!” diyoruz.": {
+    "f": "daf43b9d878566.m4a",
+    "ms": 2620,
+    "sig": "1f8d21247a5fee"
+   },
+   "“Hoş bulduk!” diyoruz.": {
+    "f": "fe613e12999162.m4a",
+    "ms": 1738,
+    "sig": "6572f455eedba9"
+   },
+   "Bir, iki, üç… Bunlar ne?": {
+    "f": "f9523b3ce13400.m4a",
+    "ms": 3339,
+    "sig": "69f05991f40eb6"
+   },
+   "Bunlar bavul mu?!": {
+    "f": "0ee0588edd24fc.m4a",
+    "ms": 1270,
+    "sig": "0022d1b8773913"
+   },
+   "Burası metro.": {
+    "f": "bfcf449f6d3a25.m4a",
+    "ms": 1210,
+    "sig": "4131d3a712dba1"
+   },
+   "Kuş! O uçak!": {
+    "f": "d1df2655f80aa1.m4a",
+    "ms": 1573,
+    "sig": "6778ebecfaf738"
+   },
+   "Burası Mecidiyeköy. İşte ev!": {
+    "f": "c9f93fa845a86a.m4a",
+    "ms": 2321,
+    "sig": "471f6be78dc898"
+   }
+  },
+  "nima": {
+   "Hoş bulduk!": {
+    "f": "3f8fcdf011a073.m4a",
+    "ms": 908,
+    "sig": "9c6338f2ee87ec"
+   },
+   "Merhaba!": {
+    "f": "1fc7f46946ae2b.m4a",
+    "ms": 882,
+    "sig": "ca0560dea07db5"
+   },
+   "Teşekkürler!": {
+    "f": "f9d3221bdea6c1.m4a",
+    "ms": 918,
+    "sig": "46006865d452e0"
+   },
+   "Bavullar!": {
+    "f": "14d11f2f608633.m4a",
+    "ms": 857,
+    "sig": "a8546af5dfd54c"
+   },
+   "Evet!": {
+    "f": "b79419e82b8490.m4a",
+    "ms": 678,
+    "sig": "a05b9795f65fe6"
+   },
+   "Şu ne?": {
+    "f": "ff1b570a73f781.m4a",
+    "ms": 1933,
+    "sig": "9dd3a5d71b1c0b"
+   },
+   "Bu da bavul!": {
+    "f": "9cf8a72f0821cd.m4a",
+    "ms": 949,
+    "sig": "ad51c8256cca5f"
+   },
+   "Ev bu mu?": {
+    "f": "714465157466df.m4a",
+    "ms": 2274,
+    "sig": "111cf197dafca5"
+   }
+  }
+ }
+}

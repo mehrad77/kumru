@@ -1,0 +1,180 @@
+{
+ "model": "chatterbox-multilingual",
+ "characters": {
+  "kerim": {
+   "brief": {
+    "gender": "female",
+    "age": "adult",
+    "note": "the narrator, a dove: slow, clear, warm, the A1 comfort voice"
+   },
+   "voice": {
+    "ref": "tr_f01",
+    "tempo": 0.9,
+    "exaggeration": 0.5,
+    "cfg": 0.3,
+    "confirmed": true
+   }
+  },
+  "nima": {
+   "brief": {
+    "gender": "neutral",
+    "age": "young",
+    "note": "the learner's lines: neither he nor she, no accent"
+   },
+   "voice": {
+    "ref": "tr_m02",
+    "tempo": 0.75,
+    "exaggeration": 0.5,
+    "cfg": 0.3,
+    "confirmed": true
+   }
+  },
+  "zafer": {
+   "brief": {
+    "gender": "male",
+    "age": "adult",
+    "note": "the A1 teacher, 35, Eskişehir: clear and patient"
+   }
+  },
+  "maria": {
+   "brief": {
+    "gender": "female",
+    "age": "elder",
+    "note": "Rum, turns 80, born on this street: old-fashioned courtesy"
+   }
+  },
+  "dilnoza": {
+   "brief": {
+    "gender": "female",
+    "age": "young",
+    "accent": "uz",
+    "note": "19, Samarkand"
+   }
+  },
+  "parvaneh": {
+   "brief": {
+    "gender": "female",
+    "age": "young",
+    "accent": "fa",
+    "note": "20s, Isfahan, bold"
+   }
+  },
+  "omer": {
+   "brief": {
+    "gender": "male",
+    "age": "child",
+    "note": "5–6, Elif and Serkan's son"
+   }
+  },
+  "kirlangic": {
+   "brief": {
+    "gender": "female",
+    "age": "adult",
+    "accent": "fa",
+    "note": "Iranian, a few levels up; Rayan's mother"
+   }
+  },
+  "farzad": {
+   "brief": {
+    "gender": "male",
+    "age": "adult",
+    "accent": "fa",
+    "note": "Iranian, ten years in Turkey: a light accent"
+   },
+   "voice": {
+    "ref": "fa_m02",
+    "tempo": 0.85,
+    "exaggeration": 0.5,
+    "cfg": 0.3,
+    "confirmed": true
+   }
+  },
+  "tolga": {
+   "brief": {
+    "gender": "male",
+    "age": "adult",
+    "note": "estate agent, 30s: talks too fast"
+   }
+  },
+  "yusuf": {
+   "brief": {
+    "gender": "male",
+    "age": "young",
+    "accent": "ar",
+    "note": "20s, Aleppo"
+   }
+  },
+  "serkan": {
+   "brief": {
+    "gender": "male",
+    "age": "adult",
+    "note": "40s, taxi driver, Beşiktaş fan"
+   }
+  },
+  "berfin": {
+   "brief": {
+    "gender": "female",
+    "age": "young",
+    "note": "20s, Diyarbakır, runs the café"
+   }
+  },
+  "reza": {
+   "brief": {
+    "gender": "male",
+    "age": "elder",
+    "accent": "fa",
+    "note": "50s, 30 years in Istanbul: the faintest accent"
+   }
+  },
+  "elif": {
+   "brief": {
+    "gender": "female",
+    "age": "adult",
+    "note": "nurse, 40s, İzmir: motherly"
+   }
+  },
+  "ismail": {
+   "brief": {
+    "gender": "male",
+    "age": "elder",
+    "note": "bakkal, 50s, from Rize"
+   }
+  },
+  "alex": {
+   "brief": {
+    "gender": "male",
+    "age": "young",
+    "accent": "ru",
+    "note": "20s, St Petersburg, works nights"
+   }
+  },
+  "hatice": {
+   "brief": {
+    "gender": "female",
+    "age": "elder",
+    "note": "market stallholder, 50s, near Bursa: the market voice"
+   }
+  },
+  "rayan": {
+   "brief": {
+    "gender": "male",
+    "age": "child",
+    "note": "3, Kırlangıç's son"
+   }
+  },
+  "newcomer": {
+   "brief": {
+    "gender": "male",
+    "age": "young",
+    "note": "a new student, unnamed"
+   }
+  },
+  "gulten": {
+   "brief": {
+    "gender": "female",
+    "age": "elder",
+    "note": "florist, 60s: exact"
+   }
+  }
+ }
+}
