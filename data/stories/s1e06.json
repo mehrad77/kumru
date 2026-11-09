@@ -146,6 +146,10 @@
     "zafer": {
       "fa": "ظفر (اسم)",
       "en": "Zafer (a name; the word means “victory”)"
+    },
+    "buyur": {
+      "fa": "بفرما (به دوست)",
+      "en": "here you go (to a friend)"
     }
   },
   "id": "s1e06",
@@ -319,11 +323,11 @@
       "why": "Farzad: “Bu pilav! Tavuk, salata… afiyet olsun!”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "Narlar",
         "Elmalar",
+        "Narlar",
         "Toplar"
       ],
       "q": {
@@ -332,21 +336,6 @@
         "fa": "یک جعبه میوه‌ی قرمز. پرستو: «یه جعبه! اینا چیه؟»"
       },
       "why": "Nima: “Narlar!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Ellerine sağlık!",
-        "Hoş geldiniz!",
-        "Güle güle!"
-      ],
-      "q": {
-        "tr": "Farzad: “Yemek nasıl?” Nima: “…”",
-        "en": "After dinner, Farzad asks: “How was the food?” Nima says to the cook: “…”",
-        "fa": "بعد از شام فرزاد می‌پرسد: «غذا چطور بود؟» نیما به آشپز می‌گوید: «…»"
-      },
-      "why": "Nima: “Ellerine sağlık!” Farzad: “Afiyet olsun!”"
     }
   ],
   "ref": "A1_1",
@@ -417,7 +406,7 @@
     {
       "emo": "happy",
       "en": "Glad to be here! Nima… flowers!",
-      "fa": "خوشحالیم که اومدیم! نیما… گل!",
+      "fa": "ممنون، خوشحالیم که اومدیم! نیما… گل!",
       "link": {
         "çiçekler": "obj:cicekler"
       },
@@ -450,7 +439,12 @@
             "to": "farzad"
           }
         ],
-        "who": "nima"
+        "who": "nima",
+        "move": {
+          "how": "walk",
+          "to": "table_3",
+          "who": "farzad"
+        }
       }
     },
     {
@@ -657,13 +651,13 @@
       "at": "obj:hafiz",
       "do": "point",
       "emo": "happy",
-      "en": "Farzad, this book is for you.",
-      "fa": "فرزاد، این کتاب برای توئه.",
+      "en": "Farzad, here you go! A book.",
+      "fa": "فرزاد، بفرما! یه کتاب.",
       "link": {
         "kitap": "obj:hafiz"
       },
       "to": "farzad",
-      "tr": "Farzad, bu kitap.",
+      "tr": "Farzad, buyur! Bir kitap.",
       "who": "nima"
     },
     {
@@ -694,13 +688,13 @@
       "at": "obj:safran",
       "do": "point",
       "emo": "happy",
-      "en": "Kırlangıç, this saffron is for you!",
-      "fa": "پرستو، این زعفرون برای توئه!",
+      "en": "Kırlangıç, and this is saffron!",
+      "fa": "پرستو، اینم زعفرونه!",
       "link": {
         "safran": "obj:safran"
       },
       "to": "kirlangic",
-      "tr": "Kırlangıç, bu safran!",
+      "tr": "Kırlangıç, bu da safran!",
       "who": "nima"
     },
     {
@@ -958,12 +952,21 @@
             },
             "reply": [
               {
+                "who": "kirlangic",
+                "tr": "Evet! Ellerine sağlık, Farzad!",
+                "en": "Yes! Bless your hands, Farzad!",
+                "fa": "آره! دستت درد نکنه، فرزاد!",
+                "to": "farzad",
                 "emo": "happy",
+                "do": "hand_heart"
+              },
+              {
+                "who": "farzad",
+                "tr": "Afiyet olsun!",
                 "en": "Enjoy! (the cook's answer)",
                 "fa": "نوش جون!",
-                "to": "nima",
-                "tr": "Afiyet olsun!",
-                "who": "farzad"
+                "to": "all",
+                "emo": "happy"
               }
             ],
             "tone": "warm",
@@ -974,16 +977,13 @@
       }
     },
     {
-      "at": "obj:bardaklar",
-      "do": "count",
       "emo": "happy",
-      "en": "Tea! Four glasses: one, two, three, four!",
-      "fa": "چای! چهار تا استکان: یک، دو، سه، چهار!",
+      "en": "Tea! Four glasses.",
+      "fa": "چای! چهار تا استکان.",
       "link": {
         "bardak": "obj:bardaklar",
         "çay": "obj:bardaklar"
       },
-      "n": 4,
       "obj": [
         {
           "id": "bardaklar",
@@ -994,8 +994,19 @@
         "id": "tea_glass"
       },
       "to": "all",
-      "tr": "Çay! Dört bardak: bir, iki, üç, dört!",
+      "tr": "Çay! Dört bardak.",
       "who": "farzad"
+    },
+    {
+      "who": "rayan",
+      "tr": "Bir, iki, üç, dört!",
+      "en": "One, two, three, four!",
+      "fa": "یک، دو، سه، چهار!",
+      "to": "farzad",
+      "emo": "happy",
+      "do": "count",
+      "n": 4,
+      "at": "obj:bardaklar"
     },
     {
       "beat": {

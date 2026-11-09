@@ -147,6 +147,14 @@
     "özbekistanlıyım": {
       "fa": "اهلِ ازبکستانم",
       "en": "I'm from Uzbekistan"
+    },
+    "bak": {
+      "fa": "ببین",
+      "en": "look"
+    },
+    "dilnaza": {
+      "fa": "اشتباهِ آقای رضا؛ درستش: Dilnoza",
+      "en": "Reza Bey's slip; it is Dilnoza"
     }
   },
   "id": "s1e02",
@@ -220,7 +228,7 @@
     },
     "yun": {
       "at": {
-        "x": -0.95,
+        "x": 0.85,
         "y": 0.16,
         "z": -2.95
       },
@@ -233,41 +241,11 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Kırlangıç",
-        "Dilnoza",
-        "Nima"
-      ],
-      "q": {
-        "tr": "“O kim? O Reza Bey.” Kim?",
-        "en": "“Who's that? That's Reza Bey.” Who says it?",
-        "fa": "«O kim? O Reza Bey.» را چه کسی می‌گوید؟"
-      },
-      "why": "Kırlangıç: “Tahran! Ben İranlıyım. O kim? O Reza Bey. Hadi!”"
-    },
-    {
-      "a": 0,
-      "kind": "word",
-      "options": [
-        "Numaralar",
-        "Fotoğraflar",
-        "Öğrenciler"
-      ],
-      "q": {
-        "tr": "“Altı!” “Yedi!” Bunlar ne?",
-        "en": "“Six!” “Seven!” What are these?",
-        "fa": "«Altı!» «Yedi!» این‌ها چه هستند؟"
-      },
-      "why": "Reza Bey: “Bir numara alın, lütfen.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Özbekistanlı",
         "İranlı",
+        "Özbekistanlı",
         "İstanbullu"
       ],
       "q": {
@@ -276,6 +254,21 @@
         "fa": "دلنوزا اهلِ کجاست؟"
       },
       "why": "Dilnoza: “Benim adım Dilnoza. Özbekistanlıyım. Memnun oldum!”"
+    },
+    {
+      "a": 2,
+      "kind": "word",
+      "options": [
+        "Fotoğraflar",
+        "Öğrenciler",
+        "Numaralar"
+      ],
+      "q": {
+        "tr": "“Altı!” “Yedi!” Bunlar ne?",
+        "en": "“Six!” “Seven!” What are these?",
+        "fa": "«Altı!» «Yedi!» این‌ها چه هستند؟"
+      },
+      "why": "Reza Bey: “Bir numara alın, lütfen.”"
     }
   ],
   "ref": "A1_1",
@@ -284,7 +277,7 @@
   "steps": [
     {
       "at": {
-        "kirlangic": "steps",
+        "kirlangic": "steps_r",
         "nima": "walk_l"
       },
       "kerim": "roof",
@@ -314,32 +307,49 @@
       }
     },
     {
-      "do": "wave",
+      "beat": {
+        "who": "nima",
+        "move": {
+          "how": "walk",
+          "to": "street",
+          "who": "nima"
+        },
+        "emo": "nervous",
+        "do": "look",
+        "at": "obj:levha",
+        "wait": 600
+      }
+    },
+    {
+      "who": "kirlangic",
+      "tr": "Merhaba! Yeni öğrenci mi?",
+      "en": "Hi! Are you new here?",
+      "fa": "سلام! دانشجوی جدیدی؟",
+      "to": "nima",
+      "emo": "happy",
+      "do": "wave"
+    },
+    {
+      "who": "nima",
+      "tr": "Evet… Ben Nima. Burası TÖMER mi?",
+      "en": "Yes… I'm Nima. Is this TÖMER?",
+      "fa": "آره… من نیمام. این‌جا تومره؟",
+      "to": "kirlangic",
       "emo": "shy",
-      "en": "Hello… I'm Nima. A new student. Is this TÖMER?",
-      "fa": "سلام… من نیمام. دانشجوی جدید. این‌جا تومره؟",
       "link": {
         "tömer": "obj:levha"
-      },
-      "move": {
-        "how": "walk",
-        "to": "street",
-        "who": "nima"
-      },
-      "to": "kirlangic",
-      "tr": "Merhaba… Ben Nima. Yeni öğrenci. Burası TÖMER mi?",
-      "who": "nima"
+      }
     },
     {
       "do": "welcome",
       "emo": "happy",
-      "en": "Hi! Yes, this is TÖMER. Welcome! Where are you from?",
-      "fa": "سلام! آره، این‌جا تومره. خوش اومدی! اهلِ کجایی؟",
+      "en": "Yes, this is TOMER. I'm Kırlangıç. Welcome! Where are you from?",
+      "fa": "آره، این‌جا تومره. من پرستوام. خوش اومدی! اهلِ کجایی؟",
       "link": {
         "tömer": "obj:levha"
       },
       "to": "nima",
-      "tr": "Merhaba! Evet, burası TÖMER. Hoş geldin! Nerelisin?",
+      "tr": "Evet, burası TÖMER. Ben Kırlangıç. Hoş geldin! Nerelisin?",
       "who": "kirlangic"
     },
     {
@@ -354,8 +364,8 @@
       "at": "ch:reza",
       "do": "point",
       "emo": "happy",
-      "en": "Tehran! I'm from Iran. Who's that? That's Reza Bey. Come on!",
-      "fa": "تهران! من ایرانی‌ام. اون کیه؟ اون آقای رضاست. بریم!",
+      "en": "Tehran! I'm from Iran. Look… that's Reza Bey. Come on!",
+      "fa": "تهران! من ایرانی‌ام. ببین… اون آقای رضاست. بریم!",
       "move": {
         "from": "door",
         "how": "enter",
@@ -370,7 +380,7 @@
         }
       },
       "to": "nima",
-      "tr": "Tahran! Ben İranlıyım. O kim? O Reza Bey. Hadi!",
+      "tr": "Tahran! Ben İranlıyım. Bak… o Reza Bey. Hadi!",
       "who": "kirlangic"
     },
     {
@@ -478,10 +488,10 @@
       "cam": "two",
       "do": "point",
       "emo": "confused",
-      "en": "A or O?",
-      "fa": "A یا O؟",
+      "en": "Dilnaza? A or O?",
+      "fa": "دلنازا؟ A یا O؟",
       "to": "dilnoza",
-      "tr": "A mı, O mu?",
+      "tr": "Dilnaza? A mı, O mu?",
       "who": "reza"
     },
     {
