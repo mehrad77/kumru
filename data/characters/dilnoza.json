@@ -46,7 +46,7 @@
     "face": {
       "brows": "thin",
       "eyeColor": "eye_dark",
-      "eyes": "round",
+      "eyes": "monolid",
       "mouth": "bowed",
       "nose": "small",
       "shape": "round"
@@ -85,16 +85,7 @@
       }
     },
     "skin": "skin_15",
-    "v": 1,
-    "wear": {
-      "head": {
-        "colors": [
-          "fab_05",
-          "met_silver"
-        ],
-        "id": "headscarf_pinned"
-      }
-    }
+    "v": 1
   },
   "bio": {
     "en": "19, from Samarkand, Uzbekistan; speaks Uzbek and some Tajik. Wants to study economics; her visa came late. Precise, with a great memory, and laughs easily, but too shy to speak first.",
