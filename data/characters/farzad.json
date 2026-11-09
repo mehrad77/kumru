@@ -41,15 +41,12 @@
     },
     "face": {
       "brows": "straight",
-      "eyeColor": "eye_brown",
       "eyes": "almond",
-      "mouth": "wide",
-      "nose": "long",
-      "shape": "oval"
+      "nose": "long"
     },
     "facialHair": {
       "color": "hair_03",
-      "style": "beard_trimmed"
+      "style": "beard_short"
     },
     "hair": {
       "color": "hair_03",
@@ -58,9 +55,6 @@
     "kit": "sahne-kit@1",
     "outfit": {
       "bottom": {
-        "colors": [
-          "fab_03"
-        ],
         "id": "bottom_jeans"
       },
       "outer": {
