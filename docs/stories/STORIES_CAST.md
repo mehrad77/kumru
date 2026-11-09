@@ -547,7 +547,7 @@ Arc (A1)       late to registration, number six (s1e02); "Kalemlar!" (s1e03); İ
                speaking round (s1e45); on the ferry, plays the registration queue again:
                "Nerelisin?" (s1e48); A1 exam result decided later
 Signature      Uzbek–Turkish cognates; vowel-harmony slips, corrected; "Bizde de ..."
-Look           adult · long dark hair, no headscarf · narrow (monolid) eyes · long coat (the outfit learners can pick too) ·
+Look           adult · long dark hair, no headscarf · narrow almond eyes · long coat (the outfit learners can pick too) ·
                prop: a notebook with coloured tabs
 Motion         tempo 0.9 · low, growing · nod, write, shy (emo)
 Colour         turquoise (Samarkand's tiles)
