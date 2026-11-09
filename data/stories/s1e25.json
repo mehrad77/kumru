@@ -348,7 +348,7 @@
     },
     {
       "at": {
-        "kirlangic": "seat_l",
+        "kirlangic": "seat_r",
         "nima": "pole"
       },
       "scene": "bus",
@@ -372,7 +372,7 @@
       "fa": "صبح بخیر، نیما! کجا می‌ری؟",
       "move": {
         "how": "walk",
-        "to": "seat_r",
+        "to": "seat_l",
         "who": "nima"
       },
       "obj": [

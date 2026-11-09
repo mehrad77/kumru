@@ -237,10 +237,10 @@
   "steps": [
     {
       "at": {
-        "alex": "board_r",
+        "alex": "corridor_r",
         "dilnoza": "wait_2",
         "nima": "wait_1",
-        "parvaneh": "board_l"
+        "parvaneh": "corridor_l"
       },
       "kerim": "ledge",
       "scene": "tomer_corridor",
@@ -485,7 +485,8 @@
       },
       "to": "nima",
       "tr": "Bitti! İyi geçti! Seninki nasıl?",
-      "who": "dilnoza"
+      "who": "dilnoza",
+      "cam": "two"
     },
     {
       "emo": "sad",

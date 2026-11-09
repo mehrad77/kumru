@@ -549,7 +549,8 @@
       },
       "to": "nima",
       "tr": "Bir kutu! Bunlar ne?",
-      "who": "kirlangic"
+      "who": "kirlangic",
+      "cam": "obj"
     },
     {
       "choice": {
@@ -695,7 +696,8 @@
       },
       "to": "kirlangic",
       "tr": "Kırlangıç, bu da safran!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "two"
     },
     {
       "beat": {

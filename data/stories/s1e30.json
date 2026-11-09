@@ -597,7 +597,7 @@
         "move": [
           {
             "how": "enter",
-            "to": "seat_5",
+            "to": "sit_2",
             "who": "gulten"
           },
           {
@@ -662,8 +662,8 @@
           "id": "applause"
         },
         "who": "maria",
-        "cam": "obj",
-        "at": "obj:mumlar"
+        "cam": "two",
+        "at": "ch:maria"
       }
     },
     {
@@ -910,7 +910,7 @@
       }
     },
     {
-      "cam": "wide",
+      "cam": "single",
       "emo": "moved",
       "en": "Seventy years ago… there was a birthday on this roof. Mine! I turned ten!",
       "env": "state:past",

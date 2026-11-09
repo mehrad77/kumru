@@ -386,7 +386,8 @@
       ],
       "to": "nima",
       "tr": "Affedersiniz, eczane nerede?",
-      "who": "hatice"
+      "who": "hatice",
+      "cam": "two"
     },
     {
       "choice": {
@@ -566,7 +567,7 @@
       "fa": "کافهٔ برفین: کنارِ نونوایی. بهترین چایِ فری‌کؤی!",
       "move": {
         "how": "walk",
-        "to": "team_class",
+        "to": "seat_3",
         "who": "nima"
       },
       "obj": [
@@ -583,7 +584,13 @@
       ],
       "to": "dilnoza",
       "tr": "Berfin'in kafesi: fırının yanında. Feriköy'ün en iyi çayı!",
-      "who": "nima"
+      "who": "nima",
+      "react": {
+        "dilnoza": {
+          "at": "ch:nima",
+          "do": "look"
+        }
+      }
     },
     {
       "spot": {

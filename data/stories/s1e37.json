@@ -504,6 +504,22 @@
       "who": "serkan"
     },
     {
+      "emo": "happy",
+      "en": "Do you want some tea?",
+      "fa": "چای می‌خوای؟",
+      "to": "serkan",
+      "tr": "Çay istiyor musun?",
+      "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "Tea? Yes! The tea's hot… the boiler's cold!",
+      "fa": "چای؟ آره! چای گرمه… پکیج سرده!",
+      "to": "nima",
+      "tr": "Çay? Evet! Çay sıcak… kombi soğuk!",
+      "who": "serkan"
+    },
+    {
       "beat": {
         "sfx": {
           "id": "phone_ring",

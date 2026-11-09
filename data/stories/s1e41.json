@@ -342,15 +342,31 @@
     },
     {
       "emo": "proud",
-      "en": "Last week we wrote a guide. And this morning the repairman came! And Tolga Bey brought the contract: stamped by the notary!",
-      "fa": "هفتهٔ پیش یه راهنما نوشتیم. امروز صبح هم تعمیرکار اومد! آقای تولگا هم قرارداد رو آورد: مهرِ محضر خورده!",
+      "en": "Last week we wrote a guide. And this morning the repairman came!",
+      "fa": "هفتهٔ پیش یه راهنما نوشتیم. امروز صبح هم تعمیرکار اومد!",
       "frame": "past_inset",
       "of": {
         "step": 3,
         "story": "s1e36"
       },
       "to": "maria",
-      "tr": "Geçen hafta bir rehber yazdık. Ve bu sabah usta geldi! Tolga Bey de sözleşmeyi getirdi: noter onaylı!",
+      "tr": "Geçen hafta bir rehber yazdık. Ve bu sabah usta geldi!",
+      "who": "nima"
+    },
+    {
+      "emo": "curious",
+      "en": "And the contract?",
+      "fa": "قرارداد چی؟",
+      "to": "nima",
+      "tr": "Ya sözleşme?",
+      "who": "maria"
+    },
+    {
+      "emo": "proud",
+      "en": "Tolga Bey brought it. Stamped by the notary!",
+      "fa": "آقای تولگا آوردش. مهرِ محضر خورده!",
+      "to": "maria",
+      "tr": "Tolga Bey getirdi. Noter onaylı!",
       "who": "nima"
     },
     {

@@ -310,7 +310,7 @@
       },
       "move": {
         "how": "enter",
-        "to": "steps",
+        "to": "walk_r",
         "who": "nima"
       },
       "obj": [
@@ -429,6 +429,11 @@
           "how": "fly",
           "to": "ledge_high",
           "who": "kerim"
+        },
+        {
+          "how": "walk",
+          "to": "steps",
+          "who": "nima"
         }
       ],
       "obj": [
@@ -448,7 +453,8 @@
       ],
       "to": "all",
       "tr": "Pamuk! O benim kedim!",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "do": "beckon",
@@ -480,7 +486,8 @@
       ],
       "to": "all",
       "tr": "Kara Kartal! Gel oğlum! Balık veriyorum!",
-      "who": "serkan"
+      "who": "serkan",
+      "cam": "two"
     },
     {
       "at": "obj:cat",
@@ -629,7 +636,13 @@
       "fa": "گربه‌ی ما! اسمش چیه؟",
       "to": "all",
       "tr": "Bizim kedimiz! Adı ne?",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two",
+      "move": {
+        "how": "walk",
+        "to": "step",
+        "who": "nima"
+      }
     },
     {
       "emo": "laugh",

@@ -454,14 +454,22 @@
       "emo": "curious",
       "en": "Dad! …Who are you? What are you doing?",
       "fa": "بابا! …تو کی هستی؟ داری چی‌کار می‌کنی؟",
-      "move": {
-        "how": "enter",
-        "to": "steps",
-        "who": "omer"
-      },
+      "move": [
+        {
+          "how": "enter",
+          "to": "walk_l",
+          "who": "omer"
+        },
+        {
+          "how": "walk",
+          "to": "steps",
+          "who": "farzad"
+        }
+      ],
       "to": "nima",
       "tr": "Baba! …Sen kimsin? Ne yapıyorsun?",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "do": "me",
@@ -470,7 +478,9 @@
       "fa": "سلام! من نیمام. دارم اسباب‌کشی می‌کنم! طبقه‌ی چهارم.",
       "to": "omer",
       "tr": "Merhaba! Ben Nima. Taşınıyorum! Dördüncü kat.",
-      "who": "nima"
+      "who": "nima",
+      "cam": "two",
+      "at": "ch:omer"
     },
     {
       "beat": {
@@ -562,7 +572,7 @@
     {
       "at": {
         "farzad": "kerb",
-        "nima": "step"
+        "nima": "walk_r"
       },
       "kerim": "roof",
       "scene": "flat_nima_street",

@@ -15,7 +15,8 @@
     "zafer",
     "parvaneh",
     "farzad",
-    "nima"
+    "nima",
+    "alex"
   ],
   "extras": [
     "yusuf",
@@ -480,26 +481,29 @@
       "who": "zafer"
     },
     {
-      "beat": {
-        "do": "shake_head",
-        "emo": "tired",
-        "react": {
-          "parvaneh": "laugh",
-          "zafer": "laugh"
-        },
-        "who": "alex",
-        "cam": "single"
-      }
+      "who": "alex",
+      "tr": "Dördüncü kat? Hayır!",
+      "en": "The fourth floor? No!",
+      "fa": "طبقه‌ی چهارم؟ نه!",
+      "to": "zafer",
+      "emo": "tired",
+      "do": "shake_head",
+      "react": {
+        "parvaneh": "laugh",
+        "zafer": "laugh"
+      },
+      "cam": "single"
     },
     {
       "who": "parvaneh",
-      "tr": "Dördüncü kat, asansör yok… Alex yorgun!",
-      "en": "Fourth floor, no lift… Alex is tired!",
-      "fa": "طبقه‌ی چهارم، آسانسور نداره… الکس خسته‌ست!",
-      "to": "zafer",
+      "tr": "Asansör yok… Alex yorgun!",
+      "en": "No lift… Alex is tired!",
+      "fa": "آسانسور نداره… الکس خسته‌ست!",
+      "to": "alex",
       "emo": "laugh",
       "do": "point",
-      "at": "ch:alex"
+      "at": "ch:alex",
+      "cam": "two"
     },
     {
       "spot": {

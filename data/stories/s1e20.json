@@ -413,16 +413,36 @@
       "at": "obj:parvane_agaci",
       "do": "hold_up",
       "emo": "proud",
-      "en": "This is my dad, Behzad; he's an engineer. This is my mum; she's a teacher. This is my uncle… and this is my aunt!",
-      "fa": "این بابامه، اسمش بهزاده، مهندسه. این مامانمه، معلمه. این دایی‌مه… این هم خاله‌م!",
+      "en": "This is my dad, Behzad. He's an engineer!",
+      "fa": "این بابامه، اسمش بهزاده. مهندسه!",
       "move": {
         "how": "walk",
-        "to": "wall",
+        "to": "board",
         "who": "parvaneh"
       },
       "to": "all",
-      "tr": "Bu babam, adı Behzad, mühendis. Bu annem, o öğretmen. Bu dayım… bu da teyzem!",
+      "tr": "Bu babam, adı Behzad. Mühendis!",
       "who": "parvaneh"
+    },
+    {
+      "who": "zafer",
+      "tr": "Ya bu kim?",
+      "en": "And who's this?",
+      "fa": "این یکی کیه؟",
+      "to": "parvaneh",
+      "emo": "curious",
+      "do": "point",
+      "at": "obj:parvane_agaci"
+    },
+    {
+      "who": "parvaneh",
+      "tr": "Annem! O öğretmen. Bu dayım… bu da teyzem!",
+      "en": "My mum! She's a teacher. This is my uncle… and this is my aunt!",
+      "fa": "مامانمه! معلمه. این دایی‌مه… این هم خاله‌م!",
+      "to": "zafer",
+      "emo": "happy",
+      "do": "point",
+      "at": "obj:parvane_agaci"
     },
     {
       "emo": "curious",
@@ -449,7 +469,8 @@
       "to": "parvaneh",
       "emo": "laugh",
       "do": "point",
-      "at": "obj:farsca_jar"
+      "at": "obj:farsca_jar",
+      "cam": "two"
     },
     {
       "beat": {
@@ -494,7 +515,7 @@
       "fa": "من یه خواهرِ بزرگ‌تر دارم. اسمش اولگاست. دکتره… توی مسکو.",
       "move": {
         "how": "walk",
-        "to": "wall",
+        "to": "board",
         "who": "alex"
       },
       "tempo": 0.8,

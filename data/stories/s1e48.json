@@ -254,7 +254,8 @@
       "fa": "بیاین، بیاین! بریم توی کشتی!",
       "to": "all",
       "tr": "Gelin, gelin! Vapura!",
-      "who": "dilnoza"
+      "who": "dilnoza",
+      "cam": "wide"
     },
     {
       "at": {
@@ -657,10 +658,10 @@
     {
       "at": {
         "alex": "sign",
-        "dilnoza": "arrive_2",
+        "dilnoza": "market",
         "farzad": "enter",
         "nima": "arrive_1",
-        "parvaneh": "gangway"
+        "parvaneh": "arrive_2"
       },
       "kerim": "lamp",
       "scene": "kadikoy",

@@ -222,7 +222,8 @@
             "op": "take"
           }
         ],
-        "who": "omer"
+        "who": "omer",
+        "cam": "single"
       }
     },
     {
@@ -237,7 +238,8 @@
             "op": "take"
           }
         ],
-        "who": "nima"
+        "who": "nima",
+        "cam": "single"
       }
     },
     {
@@ -309,7 +311,6 @@
     },
     {
       "at": "ch:nima",
-      "cam": "close",
       "do": "look",
       "emo": "nervous",
       "en": "And now… now… I forgot!",

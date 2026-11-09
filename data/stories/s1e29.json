@@ -642,13 +642,14 @@
       }
     },
     {
-      "cam": "close",
+      "cam": "obj",
       "emo": "happy",
       "en": "The shawl is ready. The card is ready. Tomorrow… eighty years!",
       "fa": "شال آماده‌ست. کارت آماده‌ست. فردا… هشتاد سالگی!",
       "narr": true,
       "tr": "Şal hazır. Kart hazır. Yarın… seksen yaş!",
-      "who": "kerim"
+      "who": "kerim",
+      "at": "obj:sal"
     }
   ],
   "summary": {

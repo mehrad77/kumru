@@ -351,11 +351,6 @@
       "emo": "happy",
       "en": "I'm going to tell Maria Teyze!",
       "fa": "من به خاله ماریا می‌گم!",
-      "move": {
-        "how": "run",
-        "to": "door",
-        "who": "omer"
-      },
       "react": {
         "elif": {
           "do": "stop",
@@ -369,6 +364,16 @@
       "to": "all",
       "tr": "Ben Maria Teyze'ye söylüyorum!",
       "who": "omer"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "exit",
+          "to": "door",
+          "who": "omer"
+        },
+        "who": "omer"
+      }
     },
     {
       "at": {

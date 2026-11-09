@@ -266,7 +266,6 @@
       "who": "nima"
     },
     {
-      "cam": "follow",
       "en": "Everyone's studying. Everyone's tired. What is Kerim doing? Kerim… is helping!",
       "fa": "همه دارن درس می‌خونن. همه خسته‌ن. کریم چی‌کار می‌کنه؟ کریم… کمک می‌کنه!",
       "move": {
@@ -352,7 +351,8 @@
       },
       "to": "zafer",
       "tr": "Nima'nın da sınavı var, değil mi? Bal öğrencisi! Bu paket Nima için.",
-      "who": "ismail"
+      "who": "ismail",
+      "cam": "close"
     },
     {
       "beat": {
@@ -531,11 +531,6 @@
             "emo": "shy",
             "en": "… (Nima leaves without a word.)",
             "fa": "… (نیما بی‌هیچ حرفی می‌رود.)",
-            "move": {
-              "how": "exit",
-              "to": "door",
-              "who": "nima"
-            },
             "react": {
               "zafer": {
                 "at": "mark:door",
@@ -547,7 +542,12 @@
               {
                 "beat": {
                   "emo": "sad",
-                  "who": "kerim"
+                  "who": "kerim",
+                  "move": {
+                    "how": "exit",
+                    "to": "door",
+                    "who": "nima"
+                  }
                 }
               }
             ],

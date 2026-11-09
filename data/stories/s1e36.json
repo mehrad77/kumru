@@ -352,7 +352,7 @@
       "at": {
         "berfin": "ground",
         "dilnoza": "cafe_front",
-        "farzad": "eczane_front",
+        "farzad": "firin_front",
         "gulten": "corner",
         "nima": "bench"
       },
@@ -395,7 +395,8 @@
       "beat": {
         "do": "shake_head",
         "emo": "proud",
-        "who": "gulten"
+        "who": "gulten",
+        "cam": "wide"
       }
     },
     {
@@ -453,7 +454,8 @@
       "tr": "İkisi de lezzetli! …Ama arkada biri hepsini yiyor!",
       "who": "berfin",
       "at": "ch:farzad",
-      "do": "point"
+      "do": "point",
+      "cam": "wide"
     },
     {
       "at": "ch:nima",
@@ -552,8 +554,8 @@
     },
     {
       "at": {
-        "berfin": "walk_r",
-        "dilnoza": "kerb",
+        "berfin": "kerb",
+        "dilnoza": "walk_r",
         "farzad": "door",
         "nima": "walk_l",
         "pisi": "step"
@@ -584,14 +586,14 @@
       "link": {
         "kedinin": "ch:pisi"
       },
+      "to": "nima",
+      "tr": "Bu kedinin adı ne?",
+      "who": "berfin",
       "move": {
         "how": "walk",
         "to": "steps",
         "who": "berfin"
-      },
-      "to": "nima",
-      "tr": "Bu kedinin adı ne?",
-      "who": "berfin"
+      }
     },
     {
       "do": "count",
@@ -642,7 +644,7 @@
       "at": {
         "berfin": "counter",
         "dilnoza": "table",
-        "farzad": "seat_6",
+        "farzad": "seat_3",
         "nima": "team_building"
       },
       "kerim": "wall",

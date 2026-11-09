@@ -625,8 +625,8 @@
         "alex": "door",
         "dilnoza": "steps_r",
         "nima": "steps_c",
-        "parvaneh": "steps_l",
-        "yusuf": "steps_back"
+        "parvaneh": "steps_back",
+        "yusuf": "steps_l"
       },
       "kerim": "roof",
       "scene": "tomer_gate",
@@ -703,7 +703,8 @@
       },
       "to": "all",
       "tr": "Ben her şeyi yazdım! …Belki çok fazla!",
-      "who": "parvaneh"
+      "who": "parvaneh",
+      "cam": "two"
     },
     {
       "beat": {
@@ -766,7 +767,8 @@
       "fa": "امتحان تموم شد. A1 تموم شد. ولی… قصه تموم نشد.",
       "narr": true,
       "tr": "Sınav bitti. A1 bitti. Ama… hikâye bitmedi.",
-      "who": "kerim"
+      "who": "kerim",
+      "cam": "wide"
     }
   ],
   "summary": {

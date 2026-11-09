@@ -306,7 +306,8 @@
       },
       "tempo": 0.8,
       "tr": "Saat… duvar.",
-      "who": "alex"
+      "who": "alex",
+      "cam": "single"
     },
     {
       "at": "mark:wall",
@@ -448,8 +449,8 @@
     {
       "at": {
         "alex": "board",
-        "nima": "board_r",
-        "yusuf": "board_l"
+        "nima": "corridor_r",
+        "yusuf": "corridor_l"
       },
       "kerim": "window",
       "scene": "tomer_corridor",
@@ -520,7 +521,12 @@
           "id": "ui_tap",
           "word": "tık tık"
         },
-        "who": "nima"
+        "who": "nima",
+        "move": {
+          "how": "walk",
+          "to": "call",
+          "who": "alex"
+        }
       }
     },
     {

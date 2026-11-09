@@ -241,7 +241,8 @@
       },
       "to": "nima",
       "tr": "Günaydın! Sen yeni komşusun, değil mi?",
-      "who": "elif"
+      "who": "elif",
+      "cam": "two"
     },
     {
       "do": "me",

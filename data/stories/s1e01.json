@@ -544,7 +544,7 @@
       },
       "move": {
         "how": "walk",
-        "to": "door",
+        "to": "kerb",
         "who": "nima"
       },
       "react": {

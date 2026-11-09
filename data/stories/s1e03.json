@@ -416,7 +416,8 @@
           }
         ],
         "do": "hold_up",
-        "at": "obj:sozluk_hoca"
+        "at": "obj:sozluk_hoca",
+        "cam": "obj"
       }
     },
     {
@@ -553,11 +554,18 @@
       "emo": "curious",
       "en": "And what's that?",
       "fa": "اون چیه؟",
-      "move": {
-        "how": "walk",
-        "to": "teacher",
-        "who": "zafer"
-      },
+      "move": [
+        {
+          "how": "walk",
+          "to": "teacher",
+          "who": "zafer"
+        },
+        {
+          "how": "fly",
+          "to": "window_out",
+          "who": "kerim"
+        }
+      ],
       "react": {
         "nima": {
           "at": "ch:kerim",

@@ -334,19 +334,19 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Maria",
-        "Ömer",
-        "Farzad"
+        "Çatıda",
+        "Boğaz'da",
+        "Feriköy'de"
       ],
       "q": {
-        "tr": "“O… Kerim!” Kim diyor?",
-        "en": "“That's… Kerim!” Who names the bird?",
-        "fa": "«اون… کریمه!» چه کسی اسمِ پرنده را می‌گذارد؟"
+        "tr": "Nima nerede çay içmek istiyor?",
+        "en": "Where does Nima want to drink tea?",
+        "fa": "نیما کجا می‌خواهد چای بخورد؟"
       },
-      "why": "Maria: “O… Kerim!”"
+      "why": "Nima: “Ben Boğaz'da çay içmek istiyorum!”"
     }
   ],
   "ref": "A1_3",
@@ -462,7 +462,8 @@
       ],
       "to": "all",
       "tr": "Çay geliyor! Çaydanlık sıcak!",
-      "who": "maria"
+      "who": "maria",
+      "cam": "single"
     },
     {
       "at": "obj:sandalyeler",
@@ -490,7 +491,8 @@
       ],
       "to": "all",
       "tr": "Sandalyeler de geliyor! Ben de yardım ediyorum!",
-      "who": "serkan"
+      "who": "serkan",
+      "cam": "single"
     },
     {
       "beat": {
@@ -521,14 +523,21 @@
         },
         {
           "how": "enter",
-          "to": "seat_4",
+          "to": "sit_6",
           "who": "rayan"
+        },
+        {
+          "how": "walk",
+          "to": "seat_3",
+          "who": "omer"
         }
       ],
       "to": "kirlangic",
       "tr": "Hava çok güzel! Kırlangıç, Rayan… gelin, gelin!",
       "who": "farzad",
-      "do": "beckon"
+      "do": "beckon",
+      "cam": "two",
+      "at": "ch:kirlangic"
     },
     {
       "do": "shush",
@@ -545,12 +554,7 @@
       "to": "all",
       "tr": "Şşş… Elif uyuyor. Gece çalışıyor.",
       "voice": "whisper",
-      "who": "serkan",
-      "move": {
-        "how": "walk",
-        "to": "seat_3",
-        "who": "omer"
-      }
+      "who": "serkan"
     },
     {
       "emo": "happy",

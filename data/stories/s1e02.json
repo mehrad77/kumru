@@ -277,7 +277,7 @@
   "steps": [
     {
       "at": {
-        "kirlangic": "steps_r",
+        "kirlangic": "walk_r",
         "nima": "walk_l"
       },
       "kerim": "roof",
@@ -729,26 +729,15 @@
     {
       "en": "Two new students.",
       "fa": "دو تا دانشجوی جدید.",
-      "move": [
-        {
-          "how": "exit",
-          "to": "door",
-          "who": "kirlangic"
-        },
-        {
-          "how": "exit",
-          "to": "door",
-          "who": "nima"
-        },
-        {
-          "how": "exit",
-          "to": "door",
-          "who": "dilnoza"
-        }
-      ],
+      "move": {
+        "how": "exit",
+        "to": "door",
+        "who": "kirlangic"
+      },
       "narr": true,
       "tr": "İki yeni öğrenci.",
-      "who": "kerim"
+      "who": "kerim",
+      "cam": "wide"
     }
   ],
   "summary": {

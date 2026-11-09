@@ -201,7 +201,7 @@
     {
       "at": {
         "dilnoza": "park_side",
-        "nima": "corner",
+        "nima": "walk_r",
         "passenger_1": "cafe_table",
         "passenger_4": "firin_front"
       },
@@ -229,11 +229,6 @@
       "emo": "happy",
       "en": "To the Bosphorus! I want to drink tea!",
       "fa": "بسفر! می‌خوام چای بخورم!",
-      "move": {
-        "how": "walk",
-        "to": "walk_r",
-        "who": "nima"
-      },
       "to": "dilnoza",
       "tr": "Boğaz'a! Çay içmek istiyorum!",
       "who": "nima"
@@ -521,7 +516,7 @@
     {
       "at": {
         "dilnoza": "park_side",
-        "nima": "corner"
+        "nima": "walk_r"
       },
       "kerim": "tree",
       "scene": "ferikoy",

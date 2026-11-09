@@ -463,7 +463,7 @@
       "who": "yusuf",
       "move": {
         "who": "yusuf",
-        "to": "map",
+        "to": "seat_3",
         "how": "walk"
       }
     },
@@ -540,6 +540,19 @@
       "to": "parvaneh",
       "tr": "Baş! Kulak! Kol! Bacak!",
       "who": "yusuf"
+    },
+    {
+      "at": "ch:zafer.head",
+      "do": "point",
+      "emo": "proud",
+      "en": "Eye!",
+      "fa": "چشم!",
+      "link": {
+        "göz": "ch:zafer.head"
+      },
+      "to": "parvaneh",
+      "tr": "Göz!",
+      "who": "nima"
     },
     {
       "emo": "laugh",

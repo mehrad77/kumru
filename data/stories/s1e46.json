@@ -518,11 +518,11 @@
     {
       "at": {
         "cayci_ortakoy": "cayci",
-        "elif": "arrive",
-        "maria": "shore_3",
-        "nima": "shore_1",
-        "omer": "shore_2",
-        "serkan": "shore_4"
+        "elif": "shore_3",
+        "maria": "shore_1",
+        "nima": "shore_2",
+        "omer": "shore_4",
+        "serkan": "arrive"
       },
       "kerim": "railing",
       "scene": "ortakoy",
@@ -685,7 +685,8 @@
       "fa": "قطره‌قطره جمع گردد…",
       "to": "nima",
       "tr": "Damlaya damlaya…",
-      "who": "maria"
+      "who": "maria",
+      "cam": "two"
     },
     {
       "emo": "proud",
@@ -779,7 +780,8 @@
       "fa": "هشتاد سال… هر ۲۹ اکتبر این‌جام.",
       "to": "nima",
       "tr": "Seksen yıl… her 29 Ekim'de buradayım.",
-      "who": "maria"
+      "who": "maria",
+      "cam": "two"
     },
     {
       "spot": {

@@ -323,11 +323,11 @@
       "fa": "این چیه؟ ده اکتبر… هشتاد؟",
       "move": {
         "how": "walk",
-        "to": "door",
-        "who": "nima",
+        "to": "calendar",
         "via": [
           "window"
-        ]
+        ],
+        "who": "nima"
       },
       "to": "maria",
       "tr": "Bu ne? 10 Ekim… seksen?",

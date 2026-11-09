@@ -374,7 +374,8 @@
       },
       "to": "berfin",
       "tr": "Kalemler!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "single"
     },
     {
       "emo": "happy",
@@ -393,7 +394,8 @@
       "who": "parvaneh",
       "react": {
         "nima": "laugh"
-      }
+      },
+      "cam": "single"
     },
     {
       "at": "ch:omer",
@@ -441,7 +443,8 @@
       "fa": "مالِ سرکان!",
       "to": "berfin",
       "tr": "Serkan'ın!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "single"
     },
     {
       "do": "me",
@@ -694,7 +697,8 @@
               }
             ],
             "tone": "warm",
-            "tr": "Bu bir sır!"
+            "tr": "Bu bir sır!",
+            "cam": "single"
           },
           {
             "emo": "proud",

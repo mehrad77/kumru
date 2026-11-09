@@ -388,7 +388,7 @@
     {
       "at": {
         "nima": "corridor_l",
-        "reza": "wait_1"
+        "reza": "call_r"
       },
       "scene": "tomer_corridor",
       "time": "day"
@@ -436,7 +436,8 @@
       ],
       "tr": "Kirayı gönderiyorum… tamam!",
       "who": "nima",
-      "voice": "whisper"
+      "voice": "whisper",
+      "cam": "single"
     },
     {
       "beat": {
@@ -579,12 +580,12 @@
           },
           {
             "how": "walk",
-            "to": "wall",
+            "to": "teacher",
             "who": "parvaneh"
           },
           {
             "how": "walk",
-            "to": "teacher",
+            "to": "front_desk",
             "who": "dilnoza"
           },
           {
@@ -594,7 +595,7 @@
           },
           {
             "how": "walk",
-            "to": "map",
+            "to": "desk_yusuf",
             "who": "alex"
           }
         ]
@@ -661,7 +662,8 @@
                 "fa": "ببین! پرنده هم هست!",
                 "to": "all",
                 "tr": "Bak! Kuş da var!",
-                "who": "yusuf"
+                "who": "yusuf",
+                "cam": "wide"
               }
             ],
             "tone": "polite",
@@ -707,7 +709,8 @@
                 "fa": "ببین! پرنده هم هست!",
                 "to": "all",
                 "tr": "Bak! Kuş da var!",
-                "who": "yusuf"
+                "who": "yusuf",
+                "cam": "wide"
               }
             ],
             "tone": "casual",
@@ -782,7 +785,8 @@
                 "fa": "ببین! پرنده هم هست!",
                 "to": "all",
                 "tr": "Bak! Kuş da var!",
-                "who": "yusuf"
+                "who": "yusuf",
+                "cam": "wide"
               }
             ],
             "tone": "casual",

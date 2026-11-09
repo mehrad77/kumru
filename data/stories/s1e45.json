@@ -241,14 +241,14 @@
       "who": "kerim"
     },
     {
-      "at": "ch:dilnoza",
+      "at": "ch:nima",
       "do": "give",
       "emo": "happy",
       "en": "Here's your tea! What are you studying today?",
       "fa": "بفرمایید، چای! امروز چی می‌خونین؟",
       "move": {
         "how": "walk",
-        "to": "team_class",
+        "to": "seat_6",
         "who": "berfin"
       },
       "obj": [
@@ -283,8 +283,6 @@
       "who": "dilnoza"
     },
     {
-      "at": "obj:kumbara",
-      "do": "look",
       "emo": "happy",
       "en": "Dilnoza's rule: one question each… and only Turkish!",
       "fa": "قانونِ دلنوزا: هر کی یه سؤال… و فقط ترکی!",
@@ -302,7 +300,8 @@
         "how": "walk",
         "to": "counter",
         "who": "berfin"
-      }
+      },
+      "cam": "single"
     },
     {
       "emo": "curious",

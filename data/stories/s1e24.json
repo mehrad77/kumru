@@ -580,7 +580,7 @@
     },
     {
       "at": {
-        "dilnoza": "corner",
+        "dilnoza": "walk_l",
         "nima": "walk_c",
         "yusuf": "walk_r"
       },
@@ -650,7 +650,7 @@
       "fa": "ببخشید…",
       "move": {
         "how": "walk",
-        "to": "walk_l",
+        "to": "corner",
         "who": "passerby_1"
       },
       "to": "passerby_1",
@@ -773,7 +773,7 @@
         "move": [
           {
             "how": "walk",
-            "to": "stop",
+            "to": "walk_c",
             "who": "nima"
           },
           {
@@ -796,7 +796,8 @@
       },
       "to": "nima",
       "tr": "Durakta mavi bir kutu var!",
-      "who": "yusuf"
+      "who": "yusuf",
+      "cam": "obj"
     },
     {
       "at": "obj:ipucu_3",
@@ -971,10 +972,10 @@
     },
     {
       "at": {
-        "alex": "entrance",
+        "alex": "arrive_r",
         "dilnoza": "walk_l",
         "nima": "arrive_l",
-        "parvaneh": "arrive_r",
+        "parvaneh": "entrance",
         "yusuf": "walk_r",
         "zafer": "zafer"
       },
@@ -1028,7 +1029,8 @@
       "fa": "ممنونیم، استاد!",
       "to": "zafer",
       "tr": "Teşekkür ederiz, hocam!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "single"
     },
     {
       "spot": {

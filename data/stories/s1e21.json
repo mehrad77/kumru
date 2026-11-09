@@ -172,6 +172,14 @@
     "sözlükte": {
       "fa": "توی فرهنگ‌لغت",
       "en": "in the dictionary"
+    },
+    "aa": {
+      "fa": "اِ (تعجب)",
+      "en": "oh! (surprise)"
+    },
+    "semerkant": {
+      "fa": "سمرقند (شهری در ازبکستان)",
+      "en": "Samarkand (a city in Uzbekistan)"
     }
   },
   "id": "s1e21",
@@ -268,7 +276,8 @@
         "a1-w-aile",
         "a1-w-agac"
       ],
-      "variant": "family_tree"
+      "variant": "family_tree",
+      "shown": false
     },
     "parvane_defteri": {
       "at": {
@@ -355,7 +364,7 @@
       "beat": {
         "move": {
           "how": "walk",
-          "to": "wall",
+          "to": "board",
           "who": "dilnoza"
         },
         "obj": [
@@ -371,14 +380,30 @@
       "at": "obj:harita_ozbekistan",
       "do": "point",
       "emo": "shy",
-      "en": "This is my country! Can you see the map? My mum speaks Uzbek. My grandmother speaks Tajik.",
-      "fa": "این کشورمه! نقشه رو می‌بینید؟ مامانم ازبکی حرف می‌زنه. مادربزرگم تاجیکی حرف می‌زنه.",
+      "en": "This is my country! Can you see the map? This is Samarkand.",
+      "fa": "این کشورمه! نقشه رو می‌بینید؟ این سمرقنده.",
       "link": {
         "haritayı": "obj:harita_ozbekistan"
       },
       "to": "all",
-      "tr": "Bu ülkem! Haritayı görüyor musunuz? Annem Özbekçe konuşuyor. Babaannem Tacikçe konuşuyor.",
+      "tr": "Bu ülkem! Haritayı görüyor musunuz? Bu Semerkant.",
       "who": "dilnoza"
+    },
+    {
+      "who": "zafer",
+      "tr": "Aa, Semerkant!",
+      "en": "Oh, Samarkand!",
+      "fa": "اِ، سمرقند!",
+      "to": "dilnoza",
+      "emo": "happy"
+    },
+    {
+      "who": "dilnoza",
+      "tr": "Annem Özbekçe konuşuyor. Babaannem Tacikçe konuşuyor.",
+      "en": "My mum speaks Uzbek. My grandmother speaks Tajik.",
+      "fa": "مامانم ازبکی حرف می‌زنه. مادربزرگم تاجیکی حرف می‌زنه.",
+      "to": "all",
+      "emo": "shy"
     },
     {
       "emo": "curious",
@@ -407,6 +432,10 @@
           {
             "id": "nima_agaci",
             "op": "take"
+          },
+          {
+            "id": "nima_agaci",
+            "op": "show"
           }
         ],
         "who": "nima"
@@ -575,7 +604,7 @@
       "beat": {
         "move": {
           "how": "walk",
-          "to": "wall",
+          "to": "board",
           "who": "yusuf"
         },
         "obj": [
@@ -640,7 +669,8 @@
         "react": {
           "yusuf": "laugh"
         },
-        "who": "parvaneh"
+        "who": "parvaneh",
+        "cam": "two"
       }
     },
     {
