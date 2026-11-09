@@ -39,23 +39,21 @@
   "avatar": {
     "body": {
       "build": "adult",
-      "height": 0.45,
+      "height": 1,
       "shape": "average"
     },
     "carry": {
       "colors": [
-        "fab_18",
-        "fab_20"
+        "fab_18"
       ],
       "id": "bag_tote"
     },
     "face": {
       "brows": "arched",
-      "eyeColor": "eye_brown",
       "eyes": "almond",
       "mouth": "full",
       "nose": "small",
-      "shape": "diamond"
+      "shape": "heart"
     },
     "hair": {
       "color": "hair_02",
