@@ -214,26 +214,11 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Altıda",
-        "Yedide",
-        "On birde"
-      ],
-      "q": {
-        "tr": "Zafer Hoca saat kaçta kalkıyor?",
-        "en": "What time does Zafer Hoca get up?",
-        "fa": "استاد ظفر ساعتِ چند بیدار می‌شود؟"
-      },
-      "why": "Zafer Hoca: “Ben genellikle saat altıda kalkıyorum.”"
-    },
-    {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "Her zaman değil",
         "Her zaman",
+        "Her zaman değil",
         "Hiçbir zaman"
       ],
       "q": {
@@ -244,12 +229,12 @@
       "why": "Zafer Hoca: “Ama bazen ödevleri okuyorum… gece yarısına kadar!”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Saat on birden yediye kadar",
         "Saat dokuzdan on ikiye kadar",
-        "Öğle yemeğinde"
+        "Öğle yemeğinde",
+        "Saat on birden yediye kadar"
       ],
       "q": {
         "tr": "Alex ne zaman çalışıyor?",
@@ -275,8 +260,8 @@
     },
     {
       "cam": "wide",
-      "en": "Half past eight. The classroom is empty. But… Nima is here! And so is Kerim!",
-      "fa": "ساعت هشت و نیمه. کلاس خالیه. ولی… نیما این‌جاست! کریم هم این‌جاست!",
+      "en": "Half past eight. The classroom is empty… but Nima is here!",
+      "fa": "ساعت هشت و نیمه. کلاس خالیه… ولی نیما این‌جاست!",
       "move": {
         "how": "walk",
         "to": "front_desk",
@@ -286,7 +271,7 @@
         "who": "nima"
       },
       "narr": true,
-      "tr": "Saat sekiz buçuk. Sınıf boş. Ama… Nima burada! Kerim de burada!",
+      "tr": "Saat sekiz buçuk. Sınıf boş… ama Nima burada!",
       "who": "kerim"
     },
     {
@@ -324,21 +309,18 @@
     },
     {
       "emo": "laugh",
-      "en": "Tehran time! What time do you get up?",
-      "fa": "وقتِ تهران! شما ساعتِ چند بیدار می‌شید؟",
+      "en": "So… what time do you get up?",
+      "fa": "خب… شما ساعتِ چند بیدار می‌شید؟",
       "to": "nima",
-      "tr": "Tahran saati! Saat kaçta kalkıyorsunuz?",
+      "tr": "Peki… saat kaçta kalkıyorsunuz?",
       "who": "zafer"
     },
     {
-      "emo": "laugh",
-      "en": "At seven… by Tehran time!",
-      "fa": "ساعتِ هفت… به وقتِ تهران!",
-      "react": {
-        "zafer": "laugh"
-      },
+      "emo": "happy",
+      "en": "At seven. And you?",
+      "fa": "ساعتِ هفت. شما چی؟",
       "to": "zafer",
-      "tr": "Saat yedide… Tahran saatiyle!",
+      "tr": "Yedide. Siz?",
       "who": "nima"
     },
     {
@@ -351,12 +333,11 @@
       "who": "zafer"
     },
     {
-      "do": "you",
       "emo": "curious",
-      "en": "And what time do you go to bed?",
-      "fa": "شما ساعتِ چند می‌خوابید؟",
+      "en": "And you? What time do you go to bed?",
+      "fa": "شما چی؟ ساعتِ چند می‌خوابید؟",
       "to": "zafer",
-      "tr": "Siz saat kaçta yatıyorsunuz?",
+      "tr": "Ya siz? Saat kaçta yatıyorsunuz?",
       "who": "nima"
     },
     {
@@ -375,7 +356,7 @@
     {
       "spot": {
         "en": "Saat kaç? asks the time now: “Saat sekiz buçuk.” Saat kaçta? asks when something happens, and the answer takes -DA: saat yedide, altıda, sekizde, on birde (at seven, at six, at eight, at eleven). Kaç → kaçta, yedi → yedide: one small ending.",
-        "ex": "Saat kaçta kalkıyorsunuz?",
+        "ex": "Peki… saat kaçta kalkıyorsunuz?",
         "fa": "«Saat kaç?» ساعتِ همین الان را می‌پرسد: «Saat sekiz buçuk.» «Saat kaçta?» می‌پرسد کاری چه ساعتی انجام می‌شود، و جواب پسوندِ -DA می‌گیرد: saat yedide، altıda، sekizde، on birde (ساعتِ هفت، شش، هشت، یازده). در فارسی هر دو «ساعت چند؟» است؛ در ترکی فقط یک پسوندِ کوچک فرق می‌گذارد: kaç → kaçta، yedi → yedide.",
         "lesson": "g_a1_5_saatler",
         "show": "clock"
@@ -435,11 +416,10 @@
             "reply": [
               {
                 "at": "ch:nima",
-                "do": "you",
                 "emo": "curious",
-                "en": "At what time? You tell me.",
-                "fa": "ساعتِ چند؟ شما بگید.",
-                "tr": "Saat kaçta? Siz söyleyin.",
+                "en": "Is twelve good? At lunchtime.",
+                "fa": "ساعتِ دوازده خوبه؟ موقعِ ناهار.",
+                "tr": "Saat on iki iyi mi? Öğle yemeğinde.",
                 "who": "zafer"
               }
             ],
@@ -457,9 +437,9 @@
             "reply": [
               {
                 "emo": "curious",
-                "en": "…At what time?",
-                "fa": "…ساعتِ چند؟",
-                "tr": "…Saat kaçta?",
+                "en": "…At what time? At twelve, all right?",
+                "fa": "…ساعتِ چند؟ ساعتِ دوازده، باشه؟",
+                "tr": "…Saat kaçta? On ikide, tamam mı?",
                 "who": "zafer"
               }
             ],
@@ -472,10 +452,10 @@
     },
     {
       "emo": "happy",
-      "en": "At twelve! Thank you, teacher!",
-      "fa": "ساعتِ دوازده! ممنونم، استاد!",
+      "en": "Thank you, teacher!",
+      "fa": "ممنونم، استاد!",
       "to": "zafer",
-      "tr": "Saat on ikide! Teşekkür ederim, hocam!",
+      "tr": "Teşekkür ederim, hocam!",
       "who": "nima"
     },
     {
@@ -501,7 +481,7 @@
     {
       "at": {
         "dilnoza": "seat_5",
-        "nima": "seat_1",
+        "nima": "seat_2",
         "parvaneh": "door",
         "yusuf": "seat_3",
         "zafer": "teacher"
@@ -543,19 +523,6 @@
       "to": "nima",
       "tr": "Nima?! Sen… erken mi geldin?! Dün geç, bugün erken!",
       "who": "parvaneh"
-    },
-    {
-      "at": "obj:kol_saati",
-      "do": "hold_up",
-      "emo": "laugh",
-      "en": "Yes! Tehran time!",
-      "fa": "آره! وقتِ تهران!",
-      "link": {
-        "saati": "obj:kol_saati"
-      },
-      "to": "parvaneh",
-      "tr": "Evet! Tahran saati!",
-      "who": "nima"
     },
     {
       "beat": {

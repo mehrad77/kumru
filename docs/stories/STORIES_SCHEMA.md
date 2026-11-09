@@ -379,8 +379,9 @@ These live in the private `progress` document and the public Friends profile (`d
 - A choice has 2–3 options, each with a reaction, an `id` unique in its story and a `kind`.
 - Every `sets` flag is named `<own story>_<slug>`; every `if`/`unless` names a flag set by an earlier story, and `if` lines have an `unless` twin or stand alone (4.7).
 - Every character in three or more stories of a season has `album` captions for it (not the stand-in or the narrator: the album is Kerim's, of the people the learner met).
+- Every album photo's `{story, step}` is a step of that story, with the character and the stand-in on stage there (an error, from Sahne 0.2.3).
 - *Report, not a failure:* the season's split of choice kinds (`polite` / `meaning` / `action`), which should be near a third each.
-- The quiz has 3 items, with at least one `comp` and one `word`.
+- The quiz has 0–3 items; with two or more, at least one `comp` (a `word` item too, unless no target word works in a new frame). *Warnings:* an item that only asks who says a quoted line, and a season whose right answers sit mostly in one position.
 - `arc` is identical across an arc's stories.
 - No character appears before its `level`.
 - `draft` stories never reach a production build.

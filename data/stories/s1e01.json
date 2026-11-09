@@ -173,27 +173,12 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Farzad",
-        "Kerim",
-        "Nima"
-      ],
-      "q": {
-        "tr": "Havalimanı: “Hoş geldin, Nima!” Kim?",
-        "en": "At the airport: “Hoş geldin, Nima!” Who says it?",
-        "fa": "در فرودگاه: «Hoş geldin, Nima!» را چه کسی می‌گوید؟"
-      },
-      "why": "Farzad: “Hoş geldin, Nima!”"
-    },
-    {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "Bavullar",
         "Uçaklar",
-        "Kuşlar"
+        "Kuşlar",
+        "Bavullar"
       ],
       "q": {
         "tr": "Farzad: “Bunlar ne?” Nima: “…!”",
@@ -201,21 +186,6 @@
         "fa": "فرزاد می‌پرسد «Bunlar ne?» این‌ها چه هستند؟"
       },
       "why": "Nima: “Bavullar!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Mecidiyeköy",
-        "Gayrettepe",
-        "Havalimanı"
-      ],
-      "q": {
-        "tr": "Yeni ev: burası neresi?",
-        "en": "The new home: where is this?",
-        "fa": "خانه‌ی جدید: این‌جا کجاست؟"
-      },
-      "why": "Farzad: “Burası Mecidiyeköy. İşte ev!”"
     }
   ],
   "ref": "A1_1",
@@ -305,12 +275,12 @@
         "options": [
           {
             "emo": "happy",
-            "en": "Good to be here!",
-            "fa": "خوشحالم که این‌جام!",
+            "en": "Glad to be here!",
+            "fa": "ممنون، خوشحالم که اومدم!",
             "ok": true,
             "react": {
               "farzad": {
-                "do": "nod",
+                "do": "thumb_up",
                 "emo": "happy"
               }
             },
@@ -324,18 +294,17 @@
             "fa": "سلام!",
             "react": {
               "farzad": {
-                "do": "nod",
-                "emo": "happy"
+                "emo": "laugh"
               }
             },
             "reply": [
               {
                 "do": "explain",
                 "emo": "happy",
-                "en": "We say “Hoş bulduk!”",
-                "fa": "این‌جا می‌گیم «Hoş bulduk!»",
+                "en": "Hello! But we say “Hoş bulduk!”",
+                "fa": "سلام! ولی این‌جا می‌گیم «Hoş bulduk!»",
                 "to": "nima",
-                "tr": "“Hoş bulduk!” diyoruz.",
+                "tr": "Merhaba! Ama “Hoş bulduk!” diyoruz.",
                 "who": "farzad"
               }
             ],
@@ -575,7 +544,7 @@
       },
       "move": {
         "how": "walk",
-        "to": "door",
+        "to": "kerb",
         "who": "nima"
       },
       "react": {

@@ -133,14 +133,6 @@
       "fa": "برای",
       "en": "for"
     },
-    "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
-    },
-    "nerelisiniz": {
-      "fa": "اهلِ کجایید؟",
-      "en": "where are you from? (siz)"
-    },
     "sözleşme": {
       "fa": "قرارداد",
       "en": "contract"
@@ -181,7 +173,6 @@
       },
       "fields": [
         "Ad",
-        "Nereli",
         "Öğrenci",
         "Telefon",
         "Kira"
@@ -214,12 +205,12 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Yirmi bin lira",
         "Yirmi bir bin lira",
-        "Beş yüz lira"
+        "Yirmi bin lira",
+        "Yirmi beş bin lira"
       ],
       "q": {
         "tr": "Kira kaç lira?",
@@ -229,34 +220,19 @@
       "why": "Farzad: “Kira yirmi bin, adres tamam.”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "anahtarlar",
-        "kapılar",
-        "kalemler"
+        "Formlar",
+        "Kalemler",
+        "Anahtarlar"
       ],
       "q": {
-        "tr": "Tolga Bey: “Bu anahtar. Bunlar… …!”",
-        "en": "Tolga Bey: “This is a key. These are… …!”",
-        "fa": "آقای تولگا: «این کلید است. این‌ها… …!»"
+        "tr": "Kapı, ev ve çatı: Nima'da ne var?",
+        "en": "The street door, the flat and the roof: what does Nima have for them?",
+        "fa": "درِ ساختمان، خانه و پشت‌بام: نیما چه دارد؟"
       },
-      "why": "Tolga Bey: “Bu anahtar. Bunlar… anahtarlar!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Üç",
-        "İki",
-        "Bir"
-      ],
-      "q": {
-        "tr": "Kaç anahtar?",
-        "en": "How many keys?",
-        "fa": "چند کلید؟"
-      },
-      "why": "Tolga Bey: “Üç! Kapı, ev… ve çatı!”"
+      "why": "Tolga Bey: “Ve… anahtarlar! Buyurun!” … “Evet! Kapı, ev… ve çatı!”"
     }
   ],
   "ref": "A1_2",
@@ -275,10 +251,10 @@
     },
     {
       "cam": "wide",
-      "en": "Good morning! This is an office. Tolga Bey is here.",
-      "fa": "صبح بخیر! این‌جا یه دفتره. آقای تولگا این‌جاست.",
+      "en": "Tolga Bey is very fast. But today Farzad's here too!",
+      "fa": "آقای تولگا خیلی تنده. ولی امروز فرزاد هم این‌جاست!",
       "narr": true,
-      "tr": "Günaydın! Burası bir ofis. Tolga Bey burada.",
+      "tr": "Tolga Bey çok hızlı. Ama bugün Farzad da burada!",
       "who": "kerim"
     },
     {
@@ -304,8 +280,8 @@
       "at": "obj:form",
       "do": "hold_up",
       "emo": "happy",
-      "en": "Very good! This is the form. Name? Where are you from?",
-      "fa": "خیلی خوب! این فرمه. اسم؟ اهلِ کجایید؟",
+      "en": "Lovely! This is the form. Name?",
+      "fa": "عالیه! این فرمه. اسم؟",
       "obj": [
         {
           "id": "form",
@@ -313,15 +289,15 @@
         }
       ],
       "to": "nima",
-      "tr": "Çok güzel! Bu form. Ad? Nerelisiniz?",
+      "tr": "Çok güzel! Bu form. Ad?",
       "who": "tolga"
     },
     {
       "emo": "neutral",
-      "en": "Nima. I'm from Tehran.",
-      "fa": "نیما. اهلِ تهرانم.",
+      "en": "Nima.",
+      "fa": "نیما.",
       "to": "tolga",
-      "tr": "Nima. Tahranlıyım.",
+      "tr": "Nima.",
       "who": "nima"
     },
     {
@@ -335,8 +311,7 @@
           "op": "set",
           "set": {
             "lines": [
-              "Nima",
-              "Tahran"
+              "Nima"
             ]
           }
         }
@@ -366,7 +341,6 @@
           "set": {
             "lines": [
               "Nima",
-              "Tahran",
               "Evet",
               "0532 …",
               "21.000 TL"
@@ -409,7 +383,6 @@
                     "set": {
                       "lines": [
                         "Nima",
-                        "Tahran",
                         "Evet",
                         "0532 …",
                         "~~21.000~~ 20.000 TL"
@@ -451,7 +424,6 @@
                     "set": {
                       "lines": [
                         "Nima",
-                        "Tahran",
                         "Evet",
                         "0532 …",
                         "~~21.000~~ 20.000 TL"
@@ -496,7 +468,6 @@
                     "set": {
                       "lines": [
                         "Nima",
-                        "Tahran",
                         "Evet",
                         "0532 …",
                         "~~21.000~~ 20.000 TL"
@@ -561,10 +532,9 @@
       "at": "obj:anahtarlar",
       "do": "hold_up",
       "emo": "happy",
-      "en": "This is a key. These… are keys!",
-      "fa": "این کلیده. اینا… کلیدن!",
+      "en": "And… the keys! Here you are!",
+      "fa": "و… کلیدها! بفرمایید!",
       "link": {
-        "anahtar": "obj:anahtarlar",
         "anahtarlar": "obj:anahtarlar"
       },
       "obj": [
@@ -578,23 +548,24 @@
         "word": "şıngır şıngır"
       },
       "to": "nima",
-      "tr": "Bu anahtar. Bunlar… anahtarlar!",
+      "tr": "Ve… anahtarlar! Buyurun!",
       "who": "tolga"
     },
     {
       "emo": "curious",
-      "en": "How many keys?",
-      "fa": "چند تا کلید؟",
+      "en": "How many keys? One, two… three?",
+      "fa": "چند تا کلید؟ یک، دو… سه تا؟",
       "to": "tolga",
-      "tr": "Kaç anahtar?",
-      "who": "farzad"
+      "tr": "Kaç anahtar? Bir, iki… üç?",
+      "who": "farzad",
+      "at": "obj:anahtarlar",
+      "do": "count",
+      "n": 3
     },
     {
-      "do": "count",
       "emo": "happy",
-      "en": "Three! The street door, the flat… and the roof!",
-      "fa": "سه تا! درِ ساختمون، خونه… و پشت‌بوم!",
-      "n": 3,
+      "en": "Yes! The street door, the flat… and the roof!",
+      "fa": "بله! درِ ساختمون، خونه… و پشت‌بوم!",
       "obj": [
         {
           "id": "anahtarlar",
@@ -603,7 +574,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Üç! Kapı, ev… ve çatı!",
+      "tr": "Evet! Kapı, ev… ve çatı!",
       "who": "tolga"
     },
     {
@@ -636,8 +607,8 @@
       "at": "obj:anahtarlar",
       "cam": "close",
       "emo": "happy",
-      "en": "The roof key… coo-coo!",
-      "fa": "کلیدِ پشت‌بوم… کو-کو!",
+      "en": "The roof key? On the roof… there's Kerim!",
+      "fa": "کلیدِ پشت‌بوم؟ روی پشت‌بوم… کریم هست!",
       "link": {
         "anahtarı": "obj:anahtarlar"
       },
@@ -647,7 +618,7 @@
         "who": "kerim"
       },
       "narr": true,
-      "tr": "Çatı anahtarı… ku-ku!",
+      "tr": "Çatı anahtarı? Çatıda… Kerim var!",
       "who": "kerim"
     }
   ],

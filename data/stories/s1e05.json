@@ -185,11 +185,11 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Rizeli",
         "İzmirli",
+        "Rizeli",
         "İstanbullu"
       ],
       "q": {
@@ -200,12 +200,12 @@
       "why": "İsmail: “Rizeliyim! Çay!”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "Zeytin",
         "Ekmek",
-        "Su"
+        "Su",
+        "Zeytin"
       ],
       "q": {
         "tr": "İsmail: “…? Siyah mı, yeşil mi?”",
@@ -213,21 +213,6 @@
         "fa": "اسماعیل: «…؟ سیاه یا سبز؟»"
       },
       "why": "İsmail: “Zeytin? Siyah mı, yeşil mi?”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "çay",
-        "su",
-        "ekmek"
-      ],
-      "q": {
-        "tr": "İsmail: “Bu… …! Rize!”",
-        "en": "İsmail gives Nima a small packet: “And this… …! From Rize!”",
-        "fa": "اسماعیل یک بسته‌ی کوچک به نیما می‌دهد: «اینم… …! از ریزه!»"
-      },
-      "why": "İsmail: “Bu… çay! Rize!”"
     }
   ],
   "ref": "A1_1",
@@ -244,8 +229,8 @@
     },
     {
       "cam": "wide",
-      "en": "Good morning! This is Taksim. And this is a bakkal, a corner shop.",
-      "fa": "صبح بخیر! این‌جا تقسیمه. این یه بقالیه.",
+      "en": "This is Taksim. And this is a bakkal, a corner shop.",
+      "fa": "این‌جا تقسیمه. این یه بقالیه.",
       "move": {
         "how": "enter",
         "to": "door",
@@ -255,7 +240,7 @@
       "sfx": {
         "id": "shop_bell"
       },
-      "tr": "Günaydın! Burası Taksim. Bu bir bakkal.",
+      "tr": "Burası Taksim. Bu bir bakkal.",
       "who": "kerim"
     },
     {
@@ -283,8 +268,18 @@
             "op": "show"
           }
         ],
-        "who": "nima"
+        "who": "nima",
+        "emo": "nervous"
       }
+    },
+    {
+      "who": "ismail",
+      "tr": "Günaydın! Hoş geldiniz!",
+      "en": "Good morning! Welcome!",
+      "fa": "صبح بخیر! خوش اومدید!",
+      "to": "nima",
+      "emo": "happy",
+      "do": "welcome"
     },
     {
       "choice": {
@@ -306,10 +301,10 @@
               {
                 "do": "hand_heart",
                 "emo": "happy",
-                "en": "Thanks!",
-                "fa": "سلامت باشی!",
+                "en": "Thank you!",
+                "fa": "سلامت باشید!",
                 "to": "nima",
-                "tr": "Sağ ol!",
+                "tr": "Sağ olun!",
                 "who": "ismail"
               }
             ],
@@ -336,10 +331,10 @@
               },
               {
                 "emo": "neutral",
-                "en": "…Good morning.",
-                "fa": "…صبح بخیر.",
+                "en": "…Hi. And good morning!",
+                "fa": "…سلام. صبح بخیر!",
                 "to": "nima",
-                "tr": "…Günaydın.",
+                "tr": "…Selam. Günaydın!",
                 "who": "ismail"
               }
             ],
@@ -375,17 +370,16 @@
       }
     },
     {
-      "do": "welcome",
-      "emo": "happy",
-      "en": "Welcome! Where are you from?",
-      "fa": "خوش اومدید! اهلِ کجایید؟",
+      "emo": "curious",
+      "en": "Where are you from?",
+      "fa": "اهلِ کجایید؟",
       "move": {
         "how": "walk",
         "to": "customer",
         "who": "nima"
       },
       "to": "nima",
-      "tr": "Hoş geldiniz! Nerelisiniz?",
+      "tr": "Nerelisiniz?",
       "who": "ismail"
     },
     {
@@ -431,8 +425,15 @@
       "who": "ismail"
     },
     {
-      "at": "obj:zeytin",
-      "do": "point",
+      "beat": {
+        "who": "nima",
+        "do": "hold_up",
+        "at": "obj:telefon"
+      }
+    },
+    {
+      "at": "obj:telefon",
+      "do": "read",
       "emo": "curious",
       "en": "Bread… one loaf. Eggs… ten eggs. Olives? Black or green?",
       "fa": "نون… یه نون. تخم‌مرغ… ده تا تخم‌مرغ. زیتون؟ سیاه یا سبز؟",
@@ -459,7 +460,6 @@
           }
         }
       ],
-      "on": "zeytin",
       "to": "nima",
       "tr": "Ekmek… bir ekmek. Yumurta… on yumurta. Zeytin? Siyah mı, yeşil mi?",
       "who": "ismail"
@@ -537,7 +537,8 @@
       },
       "to": "nima",
       "tr": "Bu… çay! Rize! Okul? Öğrenci mi?",
-      "who": "ismail"
+      "who": "ismail",
+      "cam": "obj"
     },
     {
       "beat": {

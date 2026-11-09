@@ -11,7 +11,7 @@
         "en": "Nima is a good student… and a good friend.",
         "fa": "نیما دانشجوی خوبیه… و دوستِ خوبی.",
         "photo": {
-          "step": 7,
+          "step": 6,
           "story": "s1e29"
         },
         "tr": "Nima iyi bir öğrenci… ve iyi bir arkadaş."
@@ -20,7 +20,7 @@
         "en": "Nima is our family.",
         "fa": "نیما خانواده‌ی ماست.",
         "photo": {
-          "step": 12,
+          "step": 13,
           "story": "s1e48"
         },
         "tr": "Nima bizim ailemiz."
@@ -39,23 +39,21 @@
   "avatar": {
     "body": {
       "build": "adult",
-      "height": 0.45,
+      "height": 1,
       "shape": "average"
     },
     "carry": {
       "colors": [
-        "fab_18",
-        "fab_20"
+        "fab_18"
       ],
       "id": "bag_tote"
     },
     "face": {
       "brows": "arched",
-      "eyeColor": "eye_brown",
       "eyes": "almond",
       "mouth": "full",
       "nose": "small",
-      "shape": "diamond"
+      "shape": "heart"
     },
     "hair": {
       "color": "hair_02",

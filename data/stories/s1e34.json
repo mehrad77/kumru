@@ -107,10 +107,6 @@
       "fa": "گلویتان",
       "en": "your throat"
     },
-    "buyrun": {
-      "fa": "بفرمایید",
-      "en": "here you are; please (buyurun, said quickly)"
-    },
     "eczaneden": {
       "fa": "از داروخانه",
       "en": "from the pharmacy"
@@ -118,10 +114,6 @@
     "fırından": {
       "fa": "از نانوایی",
       "en": "from the bakery"
-    },
-    "gürültülü": {
-      "fa": "پرسروصدا، شلوغ",
-      "en": "noisy"
     },
     "hocamın": {
       "fa": "ـِ استادم",
@@ -146,6 +138,14 @@
     "sessizlik": {
       "fa": "سکوت",
       "en": "silence"
+    },
+    "lazım": {
+      "fa": "لازم",
+      "en": "needed (ne lazım? = what do you need?)"
+    },
+    "benden": {
+      "fa": "از طرفِ من، مهمانِ من",
+      "en": "from me; my treat"
     }
   },
   "id": "s1e34",
@@ -232,32 +232,17 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Sesim yok",
-        "Çay + bal",
-        "Teşekkürler"
-      ],
-      "q": {
-        "tr": "Zafer Hoca tahtaya ilk ne yazıyor?",
-        "en": "What does Zafer Hoca write on the board first?",
-        "fa": "استاد ظفر اول روی تخته چه می‌نویسد؟"
-      },
-      "why": "Kerim: “Zafer Hoca geliyor… ama… sesi yok!”"
-    },
-    {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "ağrıyor",
-        "yok",
-        "güzel"
+        "iyi",
+        "sıcak",
+        "ağrıyor"
       ],
       "q": {
-        "tr": "Yusuf: “Boğazınız …”",
-        "en": "Yusuf: “Your throat …”",
-        "fa": "یوسف: «گلوتان …»"
+        "tr": "Zafer Hoca hasta. Boğazı …",
+        "en": "Zafer Hoca is ill. His throat …",
+        "fa": "استاد ظفر مریض است. گلویش …"
       },
       "why": "Yusuf: “Boğazınız ağrıyor.”"
     },
@@ -274,7 +259,7 @@
         "en": "Where does Nima buy the honey?",
         "fa": "نیما عسل را از کجا می‌خرد؟"
       },
-      "why": "İsmail: “Geçmiş olsun! Buyrun: bal ve Rize çayı. Hoca için!”"
+      "why": "İsmail: “Geçmiş olsun! Buyurun: bal ve Rize çayı. Hocaya benden!”"
     }
   ],
   "ref": "A1_6",
@@ -304,15 +289,15 @@
       }
     },
     {
-      "en": "Good morning! Zafer Hoca is coming… but… he has no voice!",
-      "fa": "صبح بخیر! استاد ظفر داره میاد… ولی… صداش درنمیاد!",
+      "en": "Here comes Zafer Hoca… but today he has no voice!",
+      "fa": "استاد ظفر داره میاد… ولی امروز صداش درنمیاد!",
       "move": {
         "how": "enter",
         "to": "teacher",
         "who": "zafer"
       },
       "narr": true,
-      "tr": "Günaydın! Zafer Hoca geliyor… ama… sesi yok!",
+      "tr": "Zafer Hoca geliyor… ama bugün sesi yok!",
       "who": "kerim"
     },
     {
@@ -352,7 +337,7 @@
         "options": [
           {
             "emo": "sorry",
-            "en": "Get well soon, Hocam!",
+            "en": "Get well soon, teacher!",
             "fa": "خدا بد نده، استاد!",
             "ok": true,
             "react": {
@@ -449,43 +434,70 @@
     {
       "do": "explain",
       "emo": "proud",
-      "en": "Your throat hurts. The medicine: tea, honey… and silence!",
-      "fa": "گلوتون درد می‌کنه. دارو: چای، عسل… و سکوت!",
+      "en": "Your head hurts. Your throat hurts. The medicine: tea, honey… and silence!",
+      "fa": "سرتون درد می‌کنه. گلوتون درد می‌کنه. دارو: چای، عسل… و سکوت!",
       "react": {
         "zafer": {
           "do": "nod"
-        }
+        },
+        "parvaneh": "laugh"
       },
       "to": "zafer",
-      "tr": "Boğazınız ağrıyor. İlaç: çay, bal… ve sessizlik!",
+      "tr": "Başınız ağrıyor. Boğazınız ağrıyor. İlaç: çay, bal… ve sessizlik!",
       "who": "yusuf"
     },
     {
-      "do": "me",
+      "who": "parvaneh",
+      "to": "yusuf",
+      "emo": "laugh",
+      "tr": "Doktor Yusuf!",
+      "en": "Doctor Yusuf!",
+      "fa": "دکتر یوسف!"
+    },
+    {
       "emo": "shy",
-      "en": "I want to be a doctor… but first, B2!",
-      "fa": "من می‌خوام دکتر بشم… ولی اول B2!",
-      "to": "nima",
-      "tr": "Ben doktor olmak istiyorum… ama önce B2!",
-      "who": "yusuf"
+      "en": "Yes! I want to be a doctor… but first, B2!",
+      "fa": "آره! می‌خوام دکتر بشم… ولی اول B2!",
+      "to": "parvaneh",
+      "tr": "Evet! Doktor olmak istiyorum… ama önce B2!",
+      "who": "yusuf",
+      "move": {
+        "who": "yusuf",
+        "to": "seat_3",
+        "how": "walk"
+      }
+    },
+    {
+      "beat": {
+        "who": "parvaneh",
+        "move": {
+          "who": "parvaneh",
+          "to": "board",
+          "how": "walk"
+        },
+        "obj": [
+          {
+            "id": "marker",
+            "op": "take"
+          }
+        ],
+        "do": "hold_up",
+        "at": "ch:nima",
+        "emo": "happy",
+        "react": {
+          "nima": {
+            "emo": "shy",
+            "do": "shake_head"
+          }
+        }
+      }
     },
     {
       "at": "ch:zafer.head",
       "do": "point",
       "emo": "proud",
-      "en": "Today I'm the teacher! What's this?",
-      "fa": "امروز معلم منم! این چیه؟",
-      "move": {
-        "how": "walk",
-        "to": "board",
-        "who": "parvaneh"
-      },
-      "obj": [
-        {
-          "id": "marker",
-          "op": "take"
-        }
-      ],
+      "en": "OK… today I'm the teacher! What's this?",
+      "fa": "باشه… امروز معلم منم! این چیه؟",
       "react": {
         "zafer": {
           "at": "ch:zafer.head",
@@ -493,7 +505,7 @@
         }
       },
       "to": "all",
-      "tr": "Bugün öğretmen benim! Bu ne?",
+      "tr": "Tamam… bugün öğretmen benim! Bu ne?",
       "who": "parvaneh"
     },
     {
@@ -530,7 +542,9 @@
       "who": "yusuf"
     },
     {
-      "emo": "happy",
+      "at": "ch:zafer.head",
+      "do": "point",
+      "emo": "proud",
       "en": "Eye!",
       "fa": "چشم!",
       "link": {
@@ -591,14 +605,14 @@
     {
       "do": "welcome",
       "emo": "happy",
-      "en": "Welcome! What would you like?",
-      "fa": "خوش اومدین! چی می‌خواین؟",
+      "en": "Welcome! What do you need?",
+      "fa": "خوش اومدین! چی لازم دارین؟",
       "sfx": {
         "id": "doorbell",
         "word": "dın dın"
       },
       "to": "nima",
-      "tr": "Hoş geldiniz! Ne istiyorsunuz?",
+      "tr": "Hoş geldiniz! Ne lazım?",
       "who": "ismail"
     },
     {
@@ -616,8 +630,8 @@
       "at": "ch:nima",
       "do": "give",
       "emo": "sorry",
-      "en": "I hope he gets well soon! Here you are: honey and Rize tea. For the teacher!",
-      "fa": "خدا بد نده! بفرمایین: عسل و چای ریزه. برای استاد!",
+      "en": "I hope he feels better soon! Here you are: honey and Rize tea. For the teacher, from me!",
+      "fa": "خدا بد نده! بفرمایین: عسل و چای ریزه. برای استاد، از طرفِ من!",
       "link": {
         "bal": "obj:paket"
       },
@@ -629,7 +643,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Geçmiş olsun! Buyrun: bal ve Rize çayı. Hoca için!",
+      "tr": "Geçmiş olsun! Buyurun: bal ve Rize çayı. Hocaya benden!",
       "who": "ismail"
     },
     {
@@ -699,6 +713,27 @@
       "who": "parvaneh"
     },
     {
+      "beat": {
+        "who": "zafer",
+        "at": "obj:yazi",
+        "do": "write",
+        "emo": "happy",
+        "obj": [
+          {
+            "id": "yazi",
+            "op": "set",
+            "set": {
+              "lines": [
+                "TEŞEKKÜRLER.",
+                "YARIN… SESİM VAR (BELKİ)."
+              ]
+            }
+          }
+        ],
+        "cam": "single"
+      }
+    },
+    {
       "spot": {
         "en": "Whose head, whose throat? The possessive ending on the body part says who it hurts for: başım ağrıyor (my head hurts), başınız ağrıyor (your head hurts), boğazım / boğazınız (my / your throat), hocamın sesi (my teacher's voice). The same ending asks: Ateşiniz var mı? (Do you have a fever?)",
         "ex": "Boğazınız ağrıyor.",
@@ -708,22 +743,10 @@
       }
     },
     {
-      "en": "A silent lesson… but a very noisy one!",
-      "fa": "یه درسِ بی‌صدا… ولی خیلی پرسروصدا!",
+      "en": "The teacher: Parvaneh. The doctor: Yusuf. And the honey? From Nima!",
+      "fa": "معلم: پروانه. دکتر: یوسف. عسل چی؟ از طرفِ نیما!",
       "narr": true,
-      "obj": [
-        {
-          "id": "yazi",
-          "op": "set",
-          "set": {
-            "lines": [
-              "TEŞEKKÜRLER.",
-              "YARIN… SESİM VAR (BELKİ)."
-            ]
-          }
-        }
-      ],
-      "tr": "Sessiz bir ders… ama çok gürültülü!",
+      "tr": "Öğretmen: Parvane. Doktor: Yusuf. Ve bal? Nima'dan!",
       "who": "kerim"
     }
   ],

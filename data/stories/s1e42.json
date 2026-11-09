@@ -129,10 +129,6 @@
     }
   ],
   "gl": {
-    "aferin": {
-      "fa": "آفرین",
-      "en": "well done"
-    },
     "atkı": {
       "fa": "شال‌گردن",
       "en": "scarf"
@@ -156,10 +152,6 @@
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
       "en": "Feriköy (a district of Şişli)"
-    },
-    "gerçek": {
-      "fa": "واقعی",
-      "en": "real"
     },
     "haliç": {
       "fa": "شاخِ طلایی (خلیج)",
@@ -190,8 +182,8 @@
       "en": "the view (of…)"
     },
     "maç": {
-      "fa": "مسابقهٔ فوتبال",
-      "en": "match, game"
+      "fa": "بازی (فوتبال)",
+      "en": "the match"
     },
     "puan": {
       "fa": "امتیاز",
@@ -228,6 +220,22 @@
     "üstünde": {
       "fa": "رویِ",
       "en": "on top of"
+    },
+    "ödül": {
+      "fa": "جایزه",
+      "en": "prize"
+    },
+    "bedava": {
+      "fa": "مجانی",
+      "en": "free (no charge)"
+    },
+    "puanlar": {
+      "fa": "امتیازها",
+      "en": "the points, the scores"
+    },
+    "uyumuyorum": {
+      "fa": "خواب نیستم (از uyumak)",
+      "en": "I'm not sleeping (from uyumak)"
     }
   },
   "id": "s1e42",
@@ -271,21 +279,6 @@
   "quiz": [
     {
       "a": 0,
-      "kind": "comp",
-      "options": [
-        "Berfin",
-        "Serkan",
-        "Yusuf"
-      ],
-      "q": {
-        "tr": "Kim soru soruyor?",
-        "en": "Who asks the questions?",
-        "fa": "چه کسی سؤال می‌پرسد؟"
-      },
-      "why": "Berfin: “Birinci soru: bunlar ne?”"
-    },
-    {
-      "a": 0,
       "kind": "word",
       "options": [
         "köşedeki",
@@ -300,19 +293,19 @@
       "why": "Berfin: “Son tur… köşedeki fırın nerede?”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Berabere",
-        "Sınıf birinci",
-        "Bina birinci"
+        "Sınıfın",
+        "Herkesin",
+        "Binanın"
       ],
       "q": {
-        "tr": "Yarışma nasıl bitiyor?",
-        "en": "How does the quiz end?",
-        "fa": "مسابقه چطور تمام می‌شود؟"
+        "tr": "Bedava çay kimin?",
+        "en": "Who gets the free tea?",
+        "fa": "چای مجانی مالِ کیست؟"
       },
-      "why": "Berfin: “O zaman… berabere!”"
+      "why": "Berfin: “O zaman… berabere! Bedava çay herkese!”"
     }
   ],
   "ref": "A1_6",
@@ -366,10 +359,10 @@
       "cam": "wide",
       "do": "point",
       "emo": "happy",
-      "en": "Class against building! First question: what are these?",
-      "fa": "کلاس در برابرِ ساختمون! سؤالِ اول: این‌ها چی‌اند؟",
+      "en": "Class against building! The prize: a week of free tea! First question: what are these?",
+      "fa": "کلاس در برابرِ ساختمون! جایزه: یه هفته چای مجانی! سؤالِ اول: اینا چی‌ان؟",
       "to": "all",
-      "tr": "Sınıf binaya karşı! Birinci soru: bunlar ne?",
+      "tr": "Sınıf binaya karşı! Ödül: bir hafta bedava çay! Birinci soru: bunlar ne?",
       "who": "berfin"
     },
     {
@@ -381,7 +374,8 @@
       },
       "to": "berfin",
       "tr": "Kalemler!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "single"
     },
     {
       "emo": "happy",
@@ -393,11 +387,15 @@
     },
     {
       "emo": "proud",
-      "en": "On the fourth floor! Easy!",
-      "fa": "طبقهٔ چهارم! آسونه!",
+      "en": "On the fourth floor! And no lift!",
+      "fa": "طبقهٔ چهارم! آسانسور هم نداره!",
       "to": "berfin",
-      "tr": "Dördüncü katta! Kolay!",
-      "who": "parvaneh"
+      "tr": "Dördüncü katta! Ve asansör yok!",
+      "who": "parvaneh",
+      "react": {
+        "nima": "laugh"
+      },
+      "cam": "single"
     },
     {
       "at": "ch:omer",
@@ -420,7 +418,10 @@
       "en": "He's sleeping! …Like Alex!",
       "fa": "خوابیده! …مثلِ الکس!",
       "react": {
-        "alex": "tired"
+        "alex": "tired",
+        "omer": {
+          "emo": "laugh"
+        }
       },
       "to": "berfin",
       "tr": "Uyuyor! …Alex gibi!",
@@ -442,7 +443,8 @@
       "fa": "مالِ سرکان!",
       "to": "berfin",
       "tr": "Serkan'ın!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "single"
     },
     {
       "do": "me",
@@ -464,7 +466,7 @@
     {
       "emo": "happy",
       "en": "Match time!",
-      "fa": "وقتِ فوتباله!",
+      "fa": "وقتِ بازیه!",
       "react": {
         "berfin": "laugh",
         "omer": "laugh"
@@ -485,10 +487,10 @@
     {
       "cam": "close",
       "emo": "happy",
-      "en": "Nima! The answer: next to the pharmacy!",
-      "fa": "نیما! جوابش: کنارِ داروخونه!",
+      "en": "I'm not asleep! Nima! The answer: next to the pharmacy!",
+      "fa": "خواب نیستم! نیما! جوابش: کنارِ داروخونه!",
       "to": "nima",
-      "tr": "Nima! Cevap: eczanenin yanında!",
+      "tr": "Uyumuyorum! Nima! Cevap: eczanenin yanında!",
       "voice": "whisper",
       "who": "omer"
     },
@@ -641,10 +643,10 @@
     },
     {
       "emo": "curious",
-      "en": "Class five, building five! The last question, for Nima: where is the most beautiful view in Feriköy?",
-      "fa": "کلاس پنج، ساختمون پنج! سؤالِ آخر، برای نیما: قشنگ‌ترین منظرهٔ فری‌کؤی کجاست؟",
+      "en": "The scores are level! The last question, for Nima: where is the most beautiful view in Feriköy?",
+      "fa": "امتیازها مساویه! سؤالِ آخر، برای نیما: قشنگ‌ترین منظرهٔ فری‌کؤی کجاست؟",
       "to": "nima",
-      "tr": "Sınıf beş, bina beş! Son soru, Nima için: Feriköy'ün en güzel manzarası nerede?",
+      "tr": "Puanlar berabere! Son soru, Nima için: Feriköy'ün en güzel manzarası nerede?",
       "who": "berfin"
     },
     {
@@ -657,9 +659,17 @@
     },
     {
       "beat": {
+        "cam": "close",
         "emo": "nervous",
+        "react": {
+          "kerim": "nervous"
+        },
+        "sfx": {
+          "id": "clock_tick",
+          "word": "tik tak"
+        },
         "wait": 900,
-        "who": "kerim"
+        "who": "nima"
       }
     },
     {
@@ -687,7 +697,8 @@
               }
             ],
             "tone": "warm",
-            "tr": "Bu bir sır!"
+            "tr": "Bu bir sır!",
+            "cam": "single"
           },
           {
             "emo": "proud",
@@ -700,10 +711,10 @@
             "reply": [
               {
                 "emo": "curious",
-                "en": "On top of the tank? But that's not in the guide!",
-                "fa": "بالای منبعِ آب؟ ولی این توی راهنما نیست!",
+                "en": "On top of the tank? It's not in the guide… so no point!",
+                "fa": "بالای منبعِ آب؟ توی راهنما نیست… پس امتیاز هم نداره!",
                 "to": "nima",
-                "tr": "Tankın üstünde mi? Ama rehberde yok!",
+                "tr": "Tankın üstünde mi? Rehberde yok… puan da yok!",
                 "who": "berfin"
               }
             ],
@@ -740,15 +751,15 @@
     },
     {
       "emo": "happy",
-      "en": "So… it's a draw!",
-      "fa": "پس… مساوی!",
+      "en": "So… it's a draw! Free tea for everyone!",
+      "fa": "پس… مساوی! چای مجانی برای همه!",
       "sfx": {
         "at": "obj:zil",
         "id": "quiz_bell",
         "word": "dıng"
       },
       "to": "all",
-      "tr": "O zaman… berabere!",
+      "tr": "O zaman… berabere! Bedava çay herkese!",
       "who": "berfin"
     },
     {
@@ -762,13 +773,13 @@
     },
     {
       "emo": "happy",
-      "en": "Well done! One more tea?",
-      "fa": "آفرین! یه چای دیگه؟",
+      "en": "Thanks, Nima! One more tea?",
+      "fa": "مرسی، نیما! یه چای دیگه؟",
       "link": {
         "çay": "obj:tea_glass"
       },
       "to": "all",
-      "tr": "Aferin! Bir çay daha?",
+      "tr": "Sağ ol, Nima! Bir çay daha?",
       "who": "berfin"
     },
     {
@@ -782,16 +793,16 @@
     },
     {
       "emo": "happy",
-      "en": "In a week… the real exam. But tonight… everyone comes first.",
-      "fa": "یه هفتهٔ دیگه… امتحانِ واقعی. ولی امشب… همه نفرِ اولن.",
+      "en": "A week of free tea… and in a week, the exam!",
+      "fa": "یه هفته چای مجانی… و یه هفتهٔ دیگه، امتحان!",
       "narr": true,
-      "tr": "Bir hafta sonra… gerçek sınav. Ama bu akşam… herkes birinci.",
+      "tr": "Bir hafta bedava çay… ve bir hafta sonra, sınav!",
       "who": "kerim"
     }
   ],
   "summary": {
-    "en": "A week before the exam, Berfin runs a quiz night at her café: the class against the building, one round per unit. Ömer whispers an answer across the tables, and the tie-break question is about a friend's secret.",
-    "fa": "یک هفته مانده به امتحان، برفین در کافه‌اش شبِ مسابقه راه می‌اندازد: کلاس در برابرِ ساختمان، برای هر درس یک دور. عمر از میزِ تیمِ مقابل جواب را یواشکی به نیما می‌گوید، و سؤالِ تعیین‌کننده دربارهٔ رازِ یک دوست است."
+    "en": "A week before the exam, Berfin runs a quiz night at her café: the class against the building, for a week of free tea. Ömer whispers an answer across the tables, and the tie-break, for Nima alone, is about a friend's secret.",
+    "fa": "یک هفته مانده به امتحان، برفین در کافه‌اش شبِ مسابقه راه می‌اندازد: کلاس در برابرِ ساختمان، با جایزهٔ یک هفته چای مجانی. عمر از میزِ تیمِ مقابل جواب را یواشکی به نیما می‌گوید، و سؤالِ تعیین‌کننده، که نیما باید تنها جواب بدهد، دربارهٔ رازِ یک دوست است."
   },
   "title": {
     "tr": "Bilgi yarışması",

@@ -1,0 +1,9188 @@
+{
+  "v": 1,
+  "episodes": {
+    "s1e01": {
+      "ai": true,
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "b3fba592",
+      "comments": [
+        {
+          "id": "vb57ug4q",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "b998ac47",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "d5aae245",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "fa1a2c8e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "594714ce",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "d5d34dd6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "e727de0c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "099a547d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "6e6216fb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "34ea4352",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "da316f82",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "dd81db36",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "3b28d7be",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "f24e8317",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "8f228e88",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "a95715da",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "7652404d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.0": {
+          "sig": "3a35b52f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1": {
+          "sig": "9fdc2474",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1.0": {
+          "sig": "c2f95cc8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.2": {
+          "sig": "4b907f39",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.2.0": {
+          "sig": "1ddc7d9e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e02": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "23fd6609",
+      "comments": [
+        {
+          "id": "gptp37l0",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "26d7db8b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "f61c76b0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "fe66a82c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "97ca3435",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "2e64fb49",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "cf3c65da",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "7135f49d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "ca6d8f63",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "a81f1959",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "99490cf0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "3474d07a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "5af87d2a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "020f4f30",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "4df0e2b8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "4e4977a5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "625d1061",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "0ff3a188",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "611d7402",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "eec84067",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.0": {
+          "sig": "7794f2bd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.0.0": {
+          "sig": "9ac107d8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.1": {
+          "sig": "0bad40e0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.1.1": {
+          "sig": "cfca7f36",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.1.2": {
+          "sig": "6f165f6a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.2": {
+          "sig": "7e3f91eb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.2.0": {
+          "sig": "5987cb72",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e03": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "fecbbec3",
+      "comments": [
+        {
+          "id": "v9iehf4w",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "375cfc0e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "5099fbbb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "bbf9d0e3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "98ebdc2e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "68c2b743",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "0384b204",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "06ab1e29",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "1ac916bb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "ec541f69",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "00dd852b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "243b044e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "5402d1a4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "fc4b8258",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "5f6b23d1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "460cbffa",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "7622a917",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0": {
+          "sig": "eab57790",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0.0": {
+          "sig": "b95ae830",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1": {
+          "sig": "a9977536",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1.0": {
+          "sig": "e5ebc648",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2": {
+          "sig": "de18fbc9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2.0": {
+          "sig": "cb0dc65f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e04": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f6d3a0b5",
+      "comments": [
+        {
+          "id": "p5vykytv",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "2118cea3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "98e97376",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "2987a80e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "b867bc87",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "0b9068b1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "417f664f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "7245c983",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "9e8e21a2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "9581879d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "e55fa6f9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "08579ee2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "44602453",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "7d19582b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0": {
+          "sig": "beccf272",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0.0": {
+          "sig": "9491556c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1": {
+          "sig": "f67f5ebe",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1.0": {
+          "sig": "230b8ad1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2": {
+          "sig": "76a99bea",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2.0": {
+          "sig": "116f7d0a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.0": {
+          "sig": "ba417678",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.0.0": {
+          "sig": "860a1885",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.1": {
+          "sig": "413380b5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.1.0": {
+          "sig": "7aa59cee",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.2": {
+          "sig": "df949618",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.2.0": {
+          "sig": "feaf8873",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e05": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c835fd3a",
+      "comments": [
+        {
+          "id": "hhv3awb6",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "4435b864",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "0a8c072c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "b1bb1233",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "9f525664",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "ada77695",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "78827f25",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "4d2ceb27",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "d9828e71",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "9b16e9ec",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "f9292526",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "8712eb5c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "76aa84ba",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "8776b729",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "4f05e92d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "8c58c413",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.0": {
+          "sig": "45d9ad79",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.0.0": {
+          "sig": "7fbae9c0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.1": {
+          "sig": "03888b32",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.1.1": {
+          "sig": "39cbceb4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.2": {
+          "sig": "e573a5a4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.2.0": {
+          "sig": "43012181",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e06": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f4c06e1f",
+      "comments": [
+        {
+          "id": "d843nu8i",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "bdaed23a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "47d5cfb5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "68b8bb66",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "6742b988",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "d61a66d7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "515b3061",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "8a83a57a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "da02fdfb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "167f2d1a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "20acad11",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "67f3ef5c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "51cf9eba",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "ce26bf1f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "87b1ed90",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "9a4dd894",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "60728355",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "ed70611f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "16257805",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "7e2d05fc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28": {
+          "sig": "81d585b9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "93cc1a66",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "5e981b2f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31": {
+          "sig": "ad8f1099",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "33": {
+          "sig": "b3025913",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "35": {
+          "sig": "1bd3ce83",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "36": {
+          "sig": "5b4c0a79",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "38": {
+          "sig": "73440fcc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "39": {
+          "sig": "11deb35e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "40": {
+          "sig": "76579460",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.0": {
+          "sig": "f5166497",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.0.0": {
+          "sig": "bb0992ef",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1": {
+          "sig": "e843ecf4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1.0": {
+          "sig": "d97cc6d1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.2": {
+          "sig": "84d83315",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.2.0": {
+          "sig": "420a031e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34.0": {
+          "sig": "9df6e128",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34.0.0": {
+          "sig": "36cb2589",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34.1": {
+          "sig": "49a5aa4b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34.1.0": {
+          "sig": "870df012",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34.2": {
+          "sig": "817d46cf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34.2.0": {
+          "sig": "b828292b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34.2.1": {
+          "sig": "a52ef7b7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e07": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "686c0b6c",
+      "comments": [
+        {
+          "id": "lre01nxo",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "22264d7d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "6ef14123",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "e638e494",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "c8e010a8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "bf24ae48",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "c8a24a80",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "d0eb7fba",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "6e296271",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "f774ac42",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "d0f8cf23",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "cc5580a2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "f9127c3b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "f03db703",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "e6f1a90a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "0c45e44b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.0": {
+          "sig": "f8dc6b80",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.0.0": {
+          "sig": "112f67c8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.0.1": {
+          "sig": "bd560e83",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.1": {
+          "sig": "fc9d9501",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.1.0": {
+          "sig": "0653cd2e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.2": {
+          "sig": "d85b7aef",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.2.0": {
+          "sig": "223d74ea",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e08": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "a7d2a74b",
+      "comments": [
+        {
+          "id": "z419bnbw",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "71d9e06f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "9622e4c8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "54772be7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "87f72c03",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "fe35a583",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "fd3235fc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "3808f5df",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "b4254245",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "8f7a22a9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "3c601bc9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "bfb8d209",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "7af9f601",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "c4379696",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "5581453b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "5f29423e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "df094e46",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.0": {
+          "sig": "f7e4a2ac",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.0.0": {
+          "sig": "6f19c1b4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1": {
+          "sig": "793c78ec",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1.0": {
+          "sig": "1a433f48",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1.2": {
+          "sig": "bf383d5f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1.4": {
+          "sig": "e05d7a80",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1.6": {
+          "sig": "19bebf2f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.2": {
+          "sig": "86e053be",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.2.0": {
+          "sig": "d591aff0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.2.1": {
+          "sig": "d294f646",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e09": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "a204ef8c",
+      "comments": [
+        {
+          "id": "lm94zp3k",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "119f102e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "65638e31",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "c95d2f17",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "7617b8bb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "22e663d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "9f1fc7db",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "c92f3958",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "853f7eeb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "db9afe49",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "cbde62c1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "a905c47e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "4a57037a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "b5ab1e9e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "ae74fb55",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "37fcd3bb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "a9b1a448",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.0": {
+          "sig": "d8e5c468",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.0.0": {
+          "sig": "b555bbce",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.1": {
+          "sig": "eb28a6c4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.1.1": {
+          "sig": "0ff5540e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.2": {
+          "sig": "fe6d4e33",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10.2.0": {
+          "sig": "7048e027",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e10": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "8d274514",
+      "comments": [
+        {
+          "id": "taum8qgs",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "dd9a1809",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "ee002a40",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "26a3c073",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "5a131860",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "e1b9e80a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "e63398af",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "d7946aa1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "530fcc73",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "18768965",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "a5175f89",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "4f4255bb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "7e44cdf6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "b5b1e908",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "df96d569",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "d2c7afe3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "0603b3fd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "95aaab70",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "c4e951b9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.0": {
+          "sig": "c63e3401",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.0.0": {
+          "sig": "4e661089",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1": {
+          "sig": "aaa6727c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1.0": {
+          "sig": "bff91a90",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1.1": {
+          "sig": "8bf54106",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1.2": {
+          "sig": "51bd76f4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.2": {
+          "sig": "9b9a14e1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.2.1": {
+          "sig": "5eecb312",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e11": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "394c38c3",
+      "comments": [
+        {
+          "id": "ugfpt0q1",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "bf3b36d8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "2fac81b4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "9138e894",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "a5bd2ffa",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "e1a60034",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "11a32dd6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "cde1c1fb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "95fcdb36",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "21d31d69",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "80cfab6c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "71ccc3bf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "75e91094",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "08d6ecbe",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "125c89bc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "24e2f7f3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "42ec351a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.0": {
+          "sig": "a6acceaf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.0.0": {
+          "sig": "e8d875cc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.1": {
+          "sig": "3ff2c91a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.1.0": {
+          "sig": "3ab88b89",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.2": {
+          "sig": "601e1f4c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.2.0": {
+          "sig": "725f3e53",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.2.1": {
+          "sig": "c54c76fb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e12": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "17f7e40d",
+      "comments": [
+        {
+          "id": "8yprrl3m",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "3": {
+          "sig": "af2558c5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "d69d1ff7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "556defa2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "816977a3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "3c624f2e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "2ce8d407",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "ca43e906",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "72ab6ed2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "b2953b10",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "7c6d2978",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "4ffdf22b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "aaae1254",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "eb466690",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "3190962a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "f60ab80b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "7fb9c403",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "3e2cdbc1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "48acfd7c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28": {
+          "sig": "7ac18377",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "51190499",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "68184cac",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31": {
+          "sig": "38d57f4f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0": {
+          "sig": "a15a39d7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0.0": {
+          "sig": "f050a7bc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1": {
+          "sig": "b8f175e3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1.0": {
+          "sig": "3f757422",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.2": {
+          "sig": "79bec49f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.2.0": {
+          "sig": "19e3869a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.0": {
+          "sig": "f6ce1f49",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.0.0": {
+          "sig": "ec245303",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.1": {
+          "sig": "f1ce3ad0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.1.0": {
+          "sig": "e9ca430d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.2": {
+          "sig": "8409f6e6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.2.0": {
+          "sig": "d09be1f9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e13": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f4fdf8bf",
+      "comments": [
+        {
+          "id": "r4b8xnjn",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "4f0d7c6d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "18243361",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "fc6b152d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "3dfee4e3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "433ab4dd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "81798338",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "1e88f58c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "5b15b4df",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "e650b502",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "1cae0c0b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "8bf25f69",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "709d1cb5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "b4d5ad4f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "3e04ecdf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "4cc6a326",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "99c5fb8c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "77fa606d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.0": {
+          "sig": "1e8a571b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.0.0": {
+          "sig": "80612a3d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.0.1": {
+          "sig": "140b0b6f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.1": {
+          "sig": "8d09dcc8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.1.0": {
+          "sig": "e4367d61",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.1.1": {
+          "sig": "0531e4d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.2": {
+          "sig": "8e4c28c9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.2.0": {
+          "sig": "f20decbe",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.2.1": {
+          "sig": "0531e4d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e14": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "12be475b",
+      "comments": [
+        {
+          "id": "1b41uw1t",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "be994f02",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "bd2c40ae",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "5c37e897",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "6166a434",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "acd10495",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "dc0dcc00",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "c7dd3fb4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "8e8c4a9e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "edd73fbe",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "8c927858",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "e4d7a205",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "f27e75d6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "935c2415",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "4f4b9d2d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "9c6aa549",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "afa13ec0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0": {
+          "sig": "30cd465a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0.0": {
+          "sig": "596c5a57",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1": {
+          "sig": "01beb911",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1.1": {
+          "sig": "1202ec3c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.2": {
+          "sig": "4eb9d977",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.2.0": {
+          "sig": "711347d9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e15": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f4ad68b2",
+      "comments": [
+        {
+          "id": "gbgpglk9",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "3de4374c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "37384720",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "25b25450",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "c038f5c7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "0ea8aa6a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "fb46bba0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "02241502",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "fc3cfeeb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "d950d86d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "f125e3f0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "22a8f5c4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "99f8a34e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "71efd565",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "9a9524b3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0": {
+          "sig": "5e7e8084",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0.0": {
+          "sig": "e0867b49",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1": {
+          "sig": "94b26ee4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1.1": {
+          "sig": "3528d38b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2": {
+          "sig": "9843514a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2.0": {
+          "sig": "12b9986a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e16": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "b7a81bad",
+      "comments": [
+        {
+          "id": "gdu3dybc",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "bde41da4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "5133893e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "4f9ec10f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "15a6c549",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "5a064e8b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "1028b761",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "79726ebf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "6e318f93",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "64ef1e36",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "16ac339b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "c4bca4ed",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "b39a3d90",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "b1f75ef5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "127b2f2f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "ed45e4e7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "453af1ec",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "4e671b73",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.0": {
+          "sig": "c8e81298",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.0.0": {
+          "sig": "cdc899ff",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.1": {
+          "sig": "73df488f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.1.1": {
+          "sig": "5643cb5f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2": {
+          "sig": "a6a86c10",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2.0": {
+          "sig": "2161f0df",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2.1": {
+          "sig": "0e94e3f8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e17": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "42805597",
+      "comments": [
+        {
+          "id": "zxivkwe4",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "ae76bc62",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "83de0d7d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "3874365d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "41948a03",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "28d3598d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "95262c40",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "d73b8a38",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "63f64ee1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "037cc62c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "8b647b32",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "5d06f730",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "9f451dab",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "f0d535ef",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "080f60d3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "ad001f01",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "12b14ab1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0": {
+          "sig": "f004b9d7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0.0": {
+          "sig": "71e5f9a3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1": {
+          "sig": "eab9747a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1.1": {
+          "sig": "b26dfd68",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.2": {
+          "sig": "794f096d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.2.0": {
+          "sig": "02b6b15e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e18": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c5d6a221",
+      "comments": [
+        {
+          "id": "f71qezl0",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "ee58c322",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "6a37459d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "7034b96a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "cae1b303",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "1af14525",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "b85ada26",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "fa49d210",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "2bfe04cc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "4417e6f7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "b5b82b56",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "04994dfc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "7e8bff21",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "3e62871a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "0e532bad",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "32c17e72",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "cad568b2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "e3cd5939",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "2325e868",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "3b0da94c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "3475cee0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "f1f8bac5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "83df58a9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "c76f49a0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28": {
+          "sig": "6d150006",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "bfa0c146",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "884708a0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "33": {
+          "sig": "ce52a5d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0": {
+          "sig": "88661a7c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0.0": {
+          "sig": "df739a2c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1": {
+          "sig": "82764f4b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1.0": {
+          "sig": "671f1479",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1.1": {
+          "sig": "c406452c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2": {
+          "sig": "2e51275b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2.0": {
+          "sig": "c9861b97",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2.1": {
+          "sig": "83123006",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31.0": {
+          "sig": "eea73686",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31.0.0": {
+          "sig": "d5206f95",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31.1": {
+          "sig": "270a42a7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31.1.1": {
+          "sig": "bc75e259",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31.1.2": {
+          "sig": "496c86b6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31.2": {
+          "sig": "56eea689",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31.2.1": {
+          "sig": "5c96d1d2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e19": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "53f9d6df",
+      "comments": [
+        {
+          "id": "a5ef35xp",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "e1d9ddcd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "737dd484",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "7f5ee5c2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "83199387",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "81315408",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "71269757",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "0d51a1d2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "2a3a58b6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "0b4bd38f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "4609b877",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "3f6b45c2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "8a8972f8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "bbfab35c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "c833dbe8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "04b491cb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "fc86814a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "50a605b6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "3167be2c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3.0": {
+          "sig": "8b100da2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3.0.0": {
+          "sig": "34413e71",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3.1": {
+          "sig": "1d735cc8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3.1.0": {
+          "sig": "15331e1f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3.2": {
+          "sig": "ae27f458",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3.2.0": {
+          "sig": "f13cc890",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3.2.1": {
+          "sig": "81d2af52",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e20": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "28c667d3",
+      "comments": [
+        {
+          "id": "4xa8jp5l",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "887e9dce",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "c4cc9895",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "81d5c1e4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "86230941",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "18f2e274",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "e6375396",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "aa7c81cc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "bc10f190",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "b0ed0d76",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "eec11112",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "41c94718",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "df7ece04",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "3e373e1a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "ad3e4442",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "c5cb2a70",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "ac5028bd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "dbf14757",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.0": {
+          "sig": "c0ca177f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.0.0": {
+          "sig": "4924def4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.1": {
+          "sig": "0278363e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.1.0": {
+          "sig": "a496dd7a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2": {
+          "sig": "8f75c6bd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2.0": {
+          "sig": "4ed4a73b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e21": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "9cfc667d",
+      "comments": [
+        {
+          "id": "mscuw9vn",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "9e3f2571",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "50619ada",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "ad8d5c9b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "dcac61c9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "bbf06a11",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "8fddc924",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "84cb1e90",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "993078cc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "30b59b02",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "efb00b58",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "3f4197fd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "60906473",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "024589ce",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "98a92f17",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "b002e07f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "b87b26c9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "4425bb1f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.0": {
+          "sig": "e4b62def",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.0.0": {
+          "sig": "a4992e13",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.1": {
+          "sig": "0fadb3ad",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.1.0": {
+          "sig": "862fd1e6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.2": {
+          "sig": "793fa908",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.2.1": {
+          "sig": "6878750c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e22": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d341d618",
+      "comments": [
+        {
+          "id": "94af7z4z",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "3ad75de9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "30a2d0e1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "7b283570",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "df369863",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "8f69006b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "88c5da9e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "6bd7d0bd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "02605829",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "f605838b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "29b15530",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "b23d1598",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "f02bdd0a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "01813211",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "ea1cb73b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "0020b07c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.0": {
+          "sig": "e1c8070f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.0.1": {
+          "sig": "d94dfb77",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.0.3": {
+          "sig": "0ff856ad",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.1": {
+          "sig": "457af710",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.1.1": {
+          "sig": "461865b7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.1.2": {
+          "sig": "0ff856ad",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.2": {
+          "sig": "18f8e4ce",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.2.4": {
+          "sig": "0ff856ad",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e23": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "0d63673b",
+      "comments": [
+        {
+          "id": "9olyaw55",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "05f7428a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "c73d76ca",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "2818f590",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "02f13e69",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "a9e0ceb9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "4800ff75",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "d25c62c7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "26b11735",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "6ca41611",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "42684973",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "4b57ba1a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "39eecfe1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "39bfa1be",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "0719dc40",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "4edb94cf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0": {
+          "sig": "01509327",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0.0": {
+          "sig": "5d58fa8a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1": {
+          "sig": "1939a236",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1.0": {
+          "sig": "e2abe206",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1.2": {
+          "sig": "da61dfe9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2": {
+          "sig": "875ca0a3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2.0": {
+          "sig": "b6bb6ebd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e24": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "198a8845",
+      "comments": [
+        {
+          "id": "sy5pidlg",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "59294183",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "90ade8b5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "9ddcbf20",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "35d84123",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "9d2a2a4d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "20307117",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "a2149018",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "063c1600",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "5a8d1b17",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "97174265",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "642521a6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "645baad1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "812f69f3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "2889ec49",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "d47876e8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "1f624d3b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "712f419b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "da1351a2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31": {
+          "sig": "b58f857f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "32": {
+          "sig": "b3006f2a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "33": {
+          "sig": "217a6567",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34": {
+          "sig": "a7229dff",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "35": {
+          "sig": "f3fad828",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.0": {
+          "sig": "1ededef3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.0.1": {
+          "sig": "b7643023",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.1": {
+          "sig": "6d9fb067",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.1.1": {
+          "sig": "8adb6f65",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.2": {
+          "sig": "a72936b8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.2.1": {
+          "sig": "49924e32",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.0": {
+          "sig": "748c2e04",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.0.0": {
+          "sig": "397a7f24",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.1": {
+          "sig": "2f55e426",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.1.0": {
+          "sig": "9c5528bf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.2": {
+          "sig": "3df139a0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.2.0": {
+          "sig": "cf8ae586",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e25": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "92d7bf6b",
+      "comments": [
+        {
+          "id": "pt1g94h8",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "ff99902f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "d748b27c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "bd4cd8e4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "aefda4d3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "a355ecda",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "5b26e82d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "a40524bc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "a09c94a1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "1cafbba6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "222546af",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "72dbdeb4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "4edb6b1b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "f2567010",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "6f3e4065",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "b809bd1a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0": {
+          "sig": "8285f9ef",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0.0": {
+          "sig": "cf79cbf5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1": {
+          "sig": "76050331",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1.0": {
+          "sig": "44bc1bb8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2": {
+          "sig": "dd6dd771",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2.0": {
+          "sig": "1125fac5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e26": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f77d70c2",
+      "comments": [
+        {
+          "id": "nneha72d",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "a683bfc2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "63a273d4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "9f08ab14",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "11531484",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "54601c8c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "8eb206d7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "a9d1805b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "6307c2d6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "4a655afb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "1d831320",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "e88e666a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "8b789390",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "a0255707",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "372d6623",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "5ad82e9d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "4317de89",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "e750db70",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0": {
+          "sig": "ab99a75c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0.0": {
+          "sig": "be6483a1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1": {
+          "sig": "efa5e829",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1.0": {
+          "sig": "2de6d54d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2": {
+          "sig": "2a40c31d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2.0": {
+          "sig": "fc978780",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e27": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "fb6b6b70",
+      "comments": [
+        {
+          "id": "rxpdu54b",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "d5653e0b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "18b84422",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "cde9e437",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "eedc3097",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "86c019e0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "1c5a9976",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "b3eede42",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "7de796ec",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "f86eb51e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "a4ff4b98",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "d70ba2c9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "3ca0568d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "6d898ba9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "09bce4a2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0": {
+          "sig": "34fa9053",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0.0": {
+          "sig": "242d36f6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1": {
+          "sig": "8e4da3c4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1.0": {
+          "sig": "29440af1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2": {
+          "sig": "0b66d0c0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2.0": {
+          "sig": "b34d8eaf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e28": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "abc6c6bf",
+      "comments": [
+        {
+          "id": "d1duco2t",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "8a79273b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "155df26f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "8b98fc71",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "7f74b7f4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "6cb3af21",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "41353c3b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "a669950b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "e116049f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "6ef45e5d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "ebbe8bd7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "e62bd581",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "abf483f2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "87a28c09",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "2233df1b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "a5f6254e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.0": {
+          "sig": "68ec96f6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.0.0": {
+          "sig": "99bd1945",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.1": {
+          "sig": "9543b1f7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.1.0": {
+          "sig": "7b969f9c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.1.1": {
+          "sig": "2c1256e4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2": {
+          "sig": "28bb5605",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2.0": {
+          "sig": "90bfad75",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18.2.1": {
+          "sig": "c8e745bf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e29": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "97b59f06",
+      "comments": [
+        {
+          "id": "ruxg2y07",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "76602c45",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "aa04bc83",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "0f5df0db",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "371cc55b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "5db233bc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "231a91d8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "3b64871e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "801d60c5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "d86a21eb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "2dfc63a2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "640fcca3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "5b096e7d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "8061cfca",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4.0": {
+          "sig": "0a1abc2c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4.0.0": {
+          "sig": "8856f221",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4.1": {
+          "sig": "934a92f9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4.1.0": {
+          "sig": "b233424b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4.2": {
+          "sig": "0fa65aa8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4.2.0": {
+          "sig": "a5ec8ef1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e30": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "e0ccd8e3",
+      "comments": [
+        {
+          "id": "p1uioruk",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "422b7b1a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "cb50bcc4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "6b18f994",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "04c38c08",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "ea2fa3d1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "98bbf332",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "7b2642ba",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "c1dd4882",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "a01c7478",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "8d146916",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "f7c436b1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "da2a4ab0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "ef5fb71d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "8b128600",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "45c913e3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "f50b3c58",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "587687dd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28": {
+          "sig": "2b5ccc0c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "243f798c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "79af1700",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "32": {
+          "sig": "7207c48d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34": {
+          "sig": "1e727248",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "35": {
+          "sig": "4853f08a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.0": {
+          "sig": "5c3c9172",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.0.0": {
+          "sig": "70e357c7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.1": {
+          "sig": "a0543fa7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.1.0": {
+          "sig": "6cf99c6e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.2": {
+          "sig": "4295f73c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22.2.0": {
+          "sig": "3bd9cd88",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.0": {
+          "sig": "caca4a06",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.1": {
+          "sig": "9e080d3c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.1.0": {
+          "sig": "e0875a53",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.2": {
+          "sig": "9cdce4f0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.2.0": {
+          "sig": "6b7c2497",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e31": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "cc4a2ea2",
+      "comments": [
+        {
+          "id": "62udyqh7",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "b6edaa56",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "ca9cb9c6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "e0d4a382",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "cf46686a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "4c376917",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "97808522",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "57949e39",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "e05b06d7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "65d14221",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "99b4c1df",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "d8581bb8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "d2dee803",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "60f55cee",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "8d93cc55",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "875d8b8f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0": {
+          "sig": "206255fb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0.0": {
+          "sig": "6af7e4bc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1": {
+          "sig": "67da3d41",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1.0": {
+          "sig": "4786c97d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1.1": {
+          "sig": "9553c552",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2": {
+          "sig": "1232e372",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2.0": {
+          "sig": "1e94fd2a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2.1": {
+          "sig": "85388400",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e32": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d0a70d34",
+      "comments": [
+        {
+          "id": "xzcd2smg",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "32cdf742",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "a7bdbbc1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "e64449c7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "8595a3b1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "db109acf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "2dd346f3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "f6d30972",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "a4baee96",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "107f1dbe",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "cfd11d10",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "417a33d7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "2ac92fe2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "2b96f3ff",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.0": {
+          "sig": "486b3ca2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.0.0": {
+          "sig": "d94dfb77",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.1": {
+          "sig": "6fe0bb5b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.1.0": {
+          "sig": "5b7924cb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.2": {
+          "sig": "73533337",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.2.0": {
+          "sig": "07403b23",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7.2.1": {
+          "sig": "52c6919a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e33": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "e89b3bfb",
+      "comments": [
+        {
+          "id": "62utp3jg",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "4dd2adfd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "96f29326",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "30ffb68b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "0f20a35f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "b21f2247",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "ac55c7b6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "e6cf2f2a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "32b5cbd9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "cba331d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "7dda7f6c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "f278da33",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "02d57491",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "fc88d6df",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13.0": {
+          "sig": "c18e5289",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13.0.1": {
+          "sig": "8a4c87c1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13.1": {
+          "sig": "05756c31",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13.1.0": {
+          "sig": "a35f809e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13.2": {
+          "sig": "34eb2cf2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13.2.0": {
+          "sig": "ea73f7cc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e34": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "31b10425",
+      "comments": [
+        {
+          "id": "o02fpx0j",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "b99d372b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "e4ba6640",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "c03bb0d9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "054e10a3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "d2c5464a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "5fba1ba4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "9cfd77a4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "a948b35c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "4c839bd8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "874c4c7a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "e8470c1f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "3c81f8a2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "99f28785",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "32d80d9a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "d33b231e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "ae1cb732",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.0": {
+          "sig": "9bca182c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.1": {
+          "sig": "c7f58198",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.1.0": {
+          "sig": "5165d63c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.2": {
+          "sig": "46044c79",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5.2.0": {
+          "sig": "be383990",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e35": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "01c16c75",
+      "comments": [
+        {
+          "id": "b2ba6rjp",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "5ba7dd2c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "39c63c48",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "3a38d3db",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "da75013e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "9d463167",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "164be76e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "b4c22592",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "46e37809",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "a02c4109",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "cddda77d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "1208ca4f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "310baba2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "2cb8fe41",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "7cffcbe2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "90fd7f2b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.0": {
+          "sig": "b4eb58f1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.0.0": {
+          "sig": "ce14bf8f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.1": {
+          "sig": "e7d9756e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.1.0": {
+          "sig": "9fd56039",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.1.1": {
+          "sig": "aa004817",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.2": {
+          "sig": "98702041",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28.2.0": {
+          "sig": "dd8aac09",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e36": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "2ca9beb7",
+      "comments": [
+        {
+          "id": "bkn55sue",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "05937371",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "6dac86c5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "88fb8f61",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "978be265",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "b59dd3ba",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "7b37f47b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "64baf823",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "edf28659",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "1aa55b50",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "c1d4906b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "7e304abe",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "f3ff3ca0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "048324b4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "556e1470",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "61d76d9f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "643ebb8d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "65650912",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28": {
+          "sig": "56c1c01f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "3625736e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "4d514650",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31": {
+          "sig": "4646907f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "32": {
+          "sig": "4ae767ae",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0": {
+          "sig": "f192f925",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0.0": {
+          "sig": "eec8b3f8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1": {
+          "sig": "07768686",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1.0": {
+          "sig": "a6ae86e3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2": {
+          "sig": "bd6aa3ea",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2.0": {
+          "sig": "81fe00f3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26.0": {
+          "sig": "6d94e920",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26.0.0": {
+          "sig": "bf79788d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26.1": {
+          "sig": "2c7a13d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26.1.0": {
+          "sig": "c0a663b2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26.2": {
+          "sig": "65f8cb11",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26.2.0": {
+          "sig": "4668cd28",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e37": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d3f08a98",
+      "comments": [
+        {
+          "id": "mneq96lp",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "7f53fc06",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "200f2daf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "07c0d648",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "cc223a40",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "b4dc851a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "bc15c797",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "c1d812e4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "8226896d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "fff2505a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "cea3dd46",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "fad7cfcb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "3ed79278",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "0c5b1570",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "fe806755",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "8643c24c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "269d49c0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.0": {
+          "sig": "63313a73",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.0.0": {
+          "sig": "b53fae48",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1": {
+          "sig": "8d5e0d89",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1.0": {
+          "sig": "03fafd6e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.1.1": {
+          "sig": "b53fae48",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.2": {
+          "sig": "960253b1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.2.0": {
+          "sig": "46e6a85e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6.2.1": {
+          "sig": "b53fae48",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e38": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "5d711997",
+      "comments": [
+        {
+          "id": "k0buf8cx",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "0665a4ed",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "ded22b0e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "8b6e8c39",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "8d6c7d4f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "b38fb316",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "4c7ee685",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "f502cff6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "77e63480",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "4573ada0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "59bfa8c7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "74a87aee",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "d3772a12",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "f4076dda",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "6fca1fbd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0": {
+          "sig": "7a09d402",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.0.0": {
+          "sig": "f629ea4e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1": {
+          "sig": "9506c6a9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.1.0": {
+          "sig": "ef30bd47",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2": {
+          "sig": "da02a869",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11.2.1": {
+          "sig": "59f23bd0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e39": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "2eeb73c0",
+      "comments": [
+        {
+          "id": "t2j8iwzj",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "e3b30ef9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "33ec5275",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "7cf62aa7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "745dc33e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "9c5f5802",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "a511a7d3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "08c556ab",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "395e2fcf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "14822b23",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "c695b695",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "4dff593a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "1b49ef8c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "80d986c8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "41fc7989",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "223341a4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0": {
+          "sig": "20c15fa3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.0.0": {
+          "sig": "901479ed",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1": {
+          "sig": "eedac331",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.1.1": {
+          "sig": "e13531cb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2": {
+          "sig": "22688a16",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12.2.1": {
+          "sig": "0641a1c1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e40": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d839a94c",
+      "comments": [
+        {
+          "id": "bwyzgf4v",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "c94fefb6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "44936761",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "9416f349",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "e87207d6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "7c964793",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "19696f2f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "afcd50bb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "6a8f4fe0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "455f3abe",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "cdb700d3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "e6e8fc6d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "fe203101",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "120618b5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "54682f11",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "6ac062ab",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8.0": {
+          "sig": "99476f41",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8.0.0": {
+          "sig": "90025682",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8.1": {
+          "sig": "98e40eea",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8.1.0": {
+          "sig": "15d9d5d3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8.2": {
+          "sig": "decd16c7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8.2.0": {
+          "sig": "0da2618e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e41": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "5ef58f80",
+      "comments": [
+        {
+          "id": "gf8o7xd6",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "6ef082e4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "67047769",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "3364a89e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "02b5f328",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "0ce64c77",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "78e088ec",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "3b1e8266",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "a4ac52e0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "6b201780",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "cc21bcf5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "96cdffe9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "2075e391",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "0a930ca5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "eecceb8c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "c605968f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "05ce3d45",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.0": {
+          "sig": "929e1bc5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.1": {
+          "sig": "01af7535",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.1.0": {
+          "sig": "40a57a67",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.2": {
+          "sig": "1be568f2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19.2.0": {
+          "sig": "433bb279",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e42": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c29a4a7c",
+      "comments": [
+        {
+          "id": "bidt7dvv",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "bda465f0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "d43525e2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "bff21272",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "98849034",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "6f23df71",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "d9191db3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "53e44f55",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "acb8503e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "9aa7e5fd",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "10e6bd40",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "1ae2b842",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "cd18b843",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "68006a0a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "f108ca2c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "76b93321",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "87d4b684",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "4360afe2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "087ed8f1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "5222d075",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "1a1fa551",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "59c44979",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28": {
+          "sig": "6511dc05",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "2dd85dac",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "6b4d9ce0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.0": {
+          "sig": "0d5134a6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.0.0": {
+          "sig": "5ab5cd0b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.1": {
+          "sig": "fe28aef3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.1.0": {
+          "sig": "9d1aa549",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.1.1": {
+          "sig": "6b3d2996",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.2": {
+          "sig": "b05554b3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.2.0": {
+          "sig": "18921aa0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.2.1": {
+          "sig": "71ef5168",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16.2.2": {
+          "sig": "5ab5cd0b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.0": {
+          "sig": "9afd1f6b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.0.0": {
+          "sig": "12c18961",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.1": {
+          "sig": "6df9c73a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.1.0": {
+          "sig": "7b16534c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.2": {
+          "sig": "204ff1a0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25.2.0": {
+          "sig": "52eebf32",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e43": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d97fbb07",
+      "comments": [
+        {
+          "id": "owgt3udo",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "3": {
+          "sig": "4f6754aa",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "61d7e2c2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "a0c6a624",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "02c1e0d9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "b2ba57ec",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "00e565e0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "f66f570b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "c69d5a41",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "b5186d72",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "edd15402",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "4dd3c4b7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "e706309f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "4dae08ba",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "b1e223bf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "23d339c8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.0": {
+          "sig": "5e744dd2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.0.0": {
+          "sig": "ff48b01b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.1": {
+          "sig": "9bf4abb4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.1.0": {
+          "sig": "71a7302d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.2": {
+          "sig": "6053d52f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.2.0": {
+          "sig": "a4351719",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e44": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "6c7a8846",
+      "comments": [
+        {
+          "id": "rs258t1k",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "7140c328",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "2": {
+          "sig": "3a7a3a0e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "7b9d14e2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "63dfcbb2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "827e9877",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "18525b2a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "02b8d6f2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "608b9baf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "0a989f2e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "fa261ec8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "b8e2988c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31": {
+          "sig": "d0458fcb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "32": {
+          "sig": "7b16aa43",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "33": {
+          "sig": "7f91d904",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0": {
+          "sig": "80ddd1a7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.0.0": {
+          "sig": "434aeb84",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1": {
+          "sig": "c9df1b3c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.1.0": {
+          "sig": "1f6d1753",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17.2": {
+          "sig": "0fda12f1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e45": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "9ef95bf3",
+      "comments": [
+        {
+          "id": "enpllc45",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "3e1ce8b9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "5d1c570d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "ce118aaa",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "2f2fe748",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "f178dd07",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "ab4eb4a0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "a8844a31",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "9d506c8e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "ab0ee57b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "ecdd5440",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "0a3def24",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "7b1fb2c5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "a2af9cf9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "f1da67b7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "64149d56",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "512769cf",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "a5c6a2c9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "1c45cc09",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0": {
+          "sig": "7488416c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.0.0": {
+          "sig": "ae09e696",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1": {
+          "sig": "0eff1c1b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1.0": {
+          "sig": "d96d5807",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.1.1": {
+          "sig": "11959b0c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2": {
+          "sig": "c4243d69",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15.2.0": {
+          "sig": "44b9e7e4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e46": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f5e5fa55",
+      "comments": [
+        {
+          "id": "4krnygf5",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "1": {
+          "sig": "d50716c3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "127d8f25",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "dda549d3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "bb5cd4bc",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "8b6a1649",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "12": {
+          "sig": "735bc3e6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "5440911b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "81de8a3d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "f097eb4b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "f641354f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "ca0ed151",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "8b75c7e7",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "ac595be6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "5561db71",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "27": {
+          "sig": "302c9375",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "28": {
+          "sig": "cebad93c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "70f2e098",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34": {
+          "sig": "d6009be1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "35": {
+          "sig": "fe75bd91",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "36": {
+          "sig": "6b8bdda3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "37": {
+          "sig": "ac67faf5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.0": {
+          "sig": "7465b21d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.0.1": {
+          "sig": "ab6624a6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.1": {
+          "sig": "d6ba8561",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.1.0": {
+          "sig": "f4458e41",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.1.1": {
+          "sig": "f31d580e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.2": {
+          "sig": "826ef1ec",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24.2.0": {
+          "sig": "18b7ecc3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e47": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c5562443",
+      "comments": [
+        {
+          "id": "af0hkire",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "a22e7032",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "06612843",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "7067c3c3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "4057af65",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "7": {
+          "sig": "3bd04787",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "8": {
+          "sig": "5372803f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "35b521e6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "11": {
+          "sig": "6fe38e14",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14": {
+          "sig": "1cc44c3a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "15": {
+          "sig": "a6ebfc74",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "75eefb07",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "fc215899",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "37cb8636",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20": {
+          "sig": "cb0d6ebb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "be162554",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "22": {
+          "sig": "f3deb820",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "5fdf1bd3",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "b67823c6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "ab113810",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "6892f99f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31": {
+          "sig": "55effad0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "32": {
+          "sig": "77487a00",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "34": {
+          "sig": "13eea376",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "35": {
+          "sig": "b7be35cb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "36": {
+          "sig": "b909a39b",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "37": {
+          "sig": "0eaa29d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.0": {
+          "sig": "812f4b5e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.0.0": {
+          "sig": "568a93a8",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.1": {
+          "sig": "3718fcd0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.1.0": {
+          "sig": "c2f11fba",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.2": {
+          "sig": "a22e0fc9",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9.2.0": {
+          "sig": "80a77a60",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    },
+    "s1e48": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "259fc85f",
+      "comments": [
+        {
+          "id": "getams4x",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15",
+          "done": true
+        }
+      ],
+      "steps": {
+        "2": {
+          "sig": "15d9ad82",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "3": {
+          "sig": "063d162d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "4": {
+          "sig": "15af160e",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "5": {
+          "sig": "47d4a939",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "6": {
+          "sig": "791c202f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "9": {
+          "sig": "188e3e73",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "10": {
+          "sig": "f689e8e0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "13": {
+          "sig": "17903baa",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "16": {
+          "sig": "b67e4305",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "17": {
+          "sig": "5014df49",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "18": {
+          "sig": "9d4fece1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "19": {
+          "sig": "9dfa9e62",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "21": {
+          "sig": "eaad7058",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "23": {
+          "sig": "53ba1492",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "24": {
+          "sig": "c30eb0b2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "25": {
+          "sig": "14c00f8d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "26": {
+          "sig": "271219c2",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "29": {
+          "sig": "69dcd6db",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "30": {
+          "sig": "591f49d5",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "31": {
+          "sig": "276a6182",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "32": {
+          "sig": "051916d1",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "33": {
+          "sig": "fe5b693d",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.0": {
+          "sig": "9aae54a6",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.0.0": {
+          "sig": "ac30d1fb",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1": {
+          "sig": "5270c332",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.1.0": {
+          "sig": "af6b5f77",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.2": {
+          "sig": "552f8ff4",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "14.2.0": {
+          "sig": "5f131755",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.0": {
+          "sig": "d90db07a",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.0.0": {
+          "sig": "0f7f8d21",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.1": {
+          "sig": "447cee2c",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.1.0": {
+          "sig": "d8d36778",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.2": {
+          "sig": "13d5481f",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.2.0": {
+          "sig": "3ba1bce0",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        },
+        "20.2.1": {
+          "sig": "2bfb6050",
+          "checked": [
+            "en",
+            "fa"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -14,7 +14,7 @@ Index: `README.md`. Design rules: `STORIES_DESIGN.md`. World: `STORIES_WORLD.md`
 
 **Calendar:** week 1 starts Mon 7 Sep 2026 and A1 ends Sat 31 Oct. The whole season is released together as the archive at launch, proposed for Mon 9 Nov (`STORIES_CALENDAR.md`). Episodes run Monday to Friday and the special on Saturday; Sunday has no release.
 
-**Cast in a story:** at most 4 speakers in an episode and 6 in a special. Silent classmates in the background are `extras`.
+**Cast in a story:** at most 4 speakers who carry an episode (three lines or more) and 6 in a special; anyone else says one short line at most (`STORIES_DESIGN.md` §1, *Speakers*). Silent classmates in the background are `extras`.
 
 ## Weeks
 
@@ -153,6 +153,8 @@ The dates, weeks and kinds here are a copy for planning. The source is the seaso
 | s1e48 | Sat 31 Oct | 8 | special | **decided** (after the Truby review): Vapurda çay (brief below). Kerim's album (STORIES_SCHEMA.md §4.8) closes the season |
 
 ## Briefs
+
+The briefs are the plan the stories were written from. The stories in `data/stories/` have moved on since (the season review of 2026-11, `S1_REVIEW.md`): their lines and quizzes are the source, and a brief's `quiz` line is the first idea, not the current quiz.
 
 ### s1e01 · Merhaba, İstanbul! (decided 2026-10-09)
 ```

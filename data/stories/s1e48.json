@@ -96,6 +96,10 @@
     "çaycı": {
       "fa": "چای‌فروش (کسی که روی کشتی چای می‌گرداند)",
       "en": "çaycı (the man who brings tea round)"
+    },
+    "hadi": {
+      "fa": "یالا، زود باش",
+      "en": "come on, go on"
     }
   },
   "id": "s1e48",
@@ -140,26 +144,11 @@
   },
   "quiz": [
     {
-      "a": 1,
-      "kind": "comp",
-      "options": [
-        "Farzad",
-        "Alex",
-        "Dilnoza"
-      ],
-      "q": {
-        "tr": "Kadıköy'de kim bekliyor?",
-        "en": "Who is waiting in Kadıköy?",
-        "fa": "چه کسی در کادیکوی منتظر است؟"
-      },
-      "why": "Alex: “Hoş geldiniz!”"
-    },
-    {
-      "a": 1,
+      "a": 0,
       "kind": "word",
       "options": [
-        "uçak",
         "vapur",
+        "uçak",
         "metro"
       ],
       "q": {
@@ -167,7 +156,7 @@
         "en": "Kerim: “What's this? It's a …!”",
         "fa": "کریم: «این چیه؟ این یه …!»"
       },
-      "why": "“Bu bir vapur!”"
+      "why": "“Bu ne? Bu bir vapur!”"
     },
     {
       "a": 1,
@@ -265,7 +254,8 @@
       "fa": "بیاین، بیاین! بریم توی کشتی!",
       "to": "all",
       "tr": "Gelin, gelin! Vapura!",
-      "who": "dilnoza"
+      "who": "dilnoza",
+      "cam": "wide"
     },
     {
       "at": {
@@ -279,6 +269,22 @@
       "kerim": "pace",
       "scene": "vapur_deck",
       "time": "day"
+    },
+    {
+      "beat": {
+        "obj": [
+          {
+            "id": "tea_glass",
+            "n": 1,
+            "op": "add"
+          },
+          {
+            "id": "tea_glass",
+            "op": "take"
+          }
+        ],
+        "who": "nima"
+      }
     },
     {
       "at": "ch:newcomer",
@@ -500,10 +506,10 @@
             "reply": [
               {
                 "emo": "happy",
-                "en": "Yes! For everyone!",
-                "fa": "آره! برای همه!",
+                "en": "Yes! Go on, Nima!",
+                "fa": "آره! یالا، نیما!",
                 "to": "nima",
-                "tr": "Evet! Herkes için!",
+                "tr": "Evet! Hadi, Nima!",
                 "who": "parvaneh"
               }
             ],
@@ -652,10 +658,10 @@
     {
       "at": {
         "alex": "sign",
-        "dilnoza": "arrive_2",
+        "dilnoza": "market",
         "farzad": "enter",
         "nima": "arrive_1",
-        "parvaneh": "gangway"
+        "parvaneh": "arrive_2"
       },
       "kerim": "lamp",
       "scene": "kadikoy",
@@ -676,15 +682,15 @@
       "do": "welcome",
       "emo": "tired",
       "en": "Welcome!",
-      "fa": "خوش اومدید!",
+      "fa": "خوش اومدین!",
       "to": "all",
       "tr": "Hoş geldiniz!",
       "who": "alex"
     },
     {
       "emo": "happy",
-      "en": "Good to be here!",
-      "fa": "خوشحالیم که این‌جاییم!",
+      "en": "Glad to be here!",
+      "fa": "ممنون، خوشحالیم که اومدیم!",
       "react": {
         "alex": {
           "emo": "happy"

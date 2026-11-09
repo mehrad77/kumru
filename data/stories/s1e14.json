@@ -104,8 +104,8 @@
       "en": "you're the neighbour"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "metroya": {
       "fa": "به مترو؛ (سوارِ) مترو",
@@ -134,6 +134,10 @@
     "şişli": {
       "fa": "شیشلی (محله‌ای در استانبول)",
       "en": "Şişli (a district of Istanbul)"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     }
   },
   "id": "s1e14",
@@ -170,11 +174,11 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Hastaneye",
         "Okula",
+        "Hastaneye",
         "Taksim'e"
       ],
       "q": {
@@ -185,12 +189,12 @@
       "why": "Elif: “Hastaneye gidiyorum.”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "Hayır, binmiyorum.",
         "Hayır, inmiyorum.",
-        "Hayır, uyumuyorum."
+        "Hayır, uyumuyorum.",
+        "Hayır, binmiyorum."
       ],
       "q": {
         "tr": "Elif: “Otobüse binmiyor musun?” Nima: “…”",
@@ -198,21 +202,6 @@
         "fa": "‏«binmek» یعنی سوار شدن. الیف می‌پرسد «Otobüse binmiyor musun?» نیما چه می‌گوید؟"
       },
       "why": "Nima: “Hayır, binmiyorum.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Taksim'de",
-        "Osmanbey'de",
-        "Şişli'de"
-      ],
-      "q": {
-        "tr": "Nima nerede iniyor?",
-        "en": "Where does Nima get off?",
-        "fa": "نیما کجا پیاده می‌شود؟"
-      },
-      "why": "Nima: “Evet, Taksim'de iniyorum!”"
     }
   ],
   "ref": "A1_3",
@@ -228,15 +217,15 @@
       "time": "dawn"
     },
     {
-      "en": "Good morning! It's very early. Is Nima sleeping? No! Nima is up… and running!",
-      "fa": "صبح بخیر! خیلی زوده. نیما خوابه؟ خواب نیست! نیما پا می‌شه… و می‌دوه!",
+      "en": "It's very early. Is Nima asleep? No! Nima's up… and running!",
+      "fa": "خیلی زوده. نیما خوابه؟ نه! نیما پا می‌شه… و می‌دوه!",
       "move": {
         "how": "run",
         "to": "landing_3",
         "who": "nima"
       },
       "narr": true,
-      "tr": "Günaydın! Çok erken. Nima uyuyor mu? Uyumuyor! Nima kalkıyor… ve koşuyor!",
+      "tr": "Çok erken. Nima uyuyor mu? Uyumuyor! Nima kalkıyor… ve koşuyor!",
       "who": "kerim"
     },
     {
@@ -252,7 +241,8 @@
       },
       "to": "nima",
       "tr": "Günaydın! Sen yeni komşusun, değil mi?",
-      "who": "elif"
+      "who": "elif",
+      "cam": "two"
     },
     {
       "do": "me",
@@ -267,10 +257,10 @@
       "at": "mark:door_elif",
       "do": "point",
       "emo": "happy",
-      "en": "I'm Elif. I'm a nurse. Here… Ömer and me!",
-      "fa": "من الیفم. پرستارم. این‌جا… عمر و من!",
+      "en": "I'm Elif. I'm a nurse. Second floor: Serkan, Ömer… and me!",
+      "fa": "من الیفم. پرستارم. طبقه‌ی دوم: سرکان، عمر… و من!",
       "to": "nima",
-      "tr": "Ben Elif. Ben hemşireyim. Burada… Ömer ve ben!",
+      "tr": "Ben Elif. Hemşireyim. İkinci kat: Serkan, Ömer… ve ben!",
       "who": "elif"
     },
     {
@@ -341,7 +331,7 @@
       "at": "obj:departure_board",
       "do": "look",
       "emo": "nervous",
-      "en": "Is the metro coming? It isn't… it isn't… I'm going to be late!",
+      "en": "Is the metro coming? No… no… I'm going to be late!",
       "fa": "مترو میاد؟ نمیاد… نمیاد… دیرم می‌شه!",
       "link": {
         "metro": "obj:departure_board"
@@ -357,8 +347,11 @@
         }
       ],
       "to": "nima",
-      "tr": "Metro geliyor mu? Gelmiyor… gelmiyor… Ben geç kalıyorum!",
-      "who": "elif"
+      "tr": "Metro geliyor mu? Gelmiyor… gelmiyor… Geç kalıyorum!",
+      "who": "elif",
+      "react": {
+        "nima": "think"
+      }
     },
     {
       "beat": {
@@ -445,7 +438,7 @@
           {
             "emo": "happy",
             "en": "Here, please sit down.",
-            "fa": "بفرمایید، بنشینید.",
+            "fa": "بفرمایین، بشینین.",
             "move": {
               "how": "walk",
               "to": "stand_r",
@@ -463,7 +456,7 @@
                 "do": "hand_heart",
                 "emo": "happy",
                 "en": "Thank you very much, you're very kind.",
-                "fa": "خیلی ممنونم، خیلی لطف دارید.",
+                "fa": "خیلی ممنونم، خیلی لطف دارین.",
                 "move": {
                   "how": "walk",
                   "to": "seat",
@@ -535,7 +528,7 @@
           {
             "emo": "nervous",
             "en": "Sit down!",
-            "fa": "بنشینید!",
+            "fa": "بشینین!",
             "move": {
               "how": "hop",
               "to": "stand_r",
@@ -590,7 +583,7 @@
       "do": "look",
       "emo": "happy",
       "en": "Are you getting off at Taksim too?",
-      "fa": "شما هم تقسیم پیاده می‌شید؟",
+      "fa": "شما هم تقسیم پیاده می‌شین؟",
       "to": "nima",
       "tr": "Siz de Taksim'de mi iniyorsunuz?",
       "who": "maria"
@@ -598,15 +591,15 @@
     {
       "do": "nod",
       "emo": "happy",
-      "en": "Yes, I'm getting off at Taksim!",
-      "fa": "بله، تقسیم پیاده می‌شم!",
+      "en": "Yes, me too!",
+      "fa": "بله، منم!",
       "react": {
         "maria": {
           "emo": "happy"
         }
       },
       "to": "maria",
-      "tr": "Evet, Taksim'de iniyorum!",
+      "tr": "Evet, ben de!",
       "who": "nima"
     },
     {
@@ -620,7 +613,7 @@
     },
     {
       "en": "Who is this lady? Coo-coo…",
-      "fa": "این خانم کیه؟ کو-کو…",
+      "fa": "این خانم کیه؟ کو-کوو…",
       "move": {
         "how": "walk",
         "to": "walk_l",
@@ -637,7 +630,7 @@
           "emo": "happy"
         }
       },
-      "tr": "Bu teyze kim? Ku-ku…",
+      "tr": "Bu teyze kim? Ku-kuu…",
       "who": "kerim"
     }
   ],

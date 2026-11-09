@@ -112,21 +112,13 @@
       "fa": "B2 (سطحِ زبان)",
       "en": "B2 (a language level)"
     },
-    "benimki": {
-      "fa": "مالِ من",
-      "en": "mine"
-    },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
       "en": "Feriköy (a district of Şişli)"
     },
     "haftanız": {
-      "fa": "هفته‌تان (دو هفته وقت دارید)",
-      "en": "your weeks (you have two weeks)"
-    },
-    "konuşmanız": {
-      "fa": "مکالمه‌تان، حرف‌زدنتان",
-      "en": "your speaking (konuşma + -nız)"
+      "fa": "هفته‌تان؛ «bir haftanız var» یعنی یک هفته وقت دارید",
+      "en": "your week; “bir haftanız var”: you have a week"
     },
     "korkmayın": {
       "fa": "نترسید",
@@ -148,10 +140,6 @@
       "fa": "عثمان‌بی (ایستگاه مترو)",
       "en": "Osmanbey (a metro stop)"
     },
-    "prova": {
-      "fa": "آزمایشی، تمرینی",
-      "en": "mock, rehearsal"
-    },
     "tolga": {
       "fa": "تولگا (اسم)",
       "en": "Tolga (a name)"
@@ -171,6 +159,30 @@
     "ömer": {
       "fa": "عمر (اسم)",
       "en": "Ömer (a name)"
+    },
+    "seninki": {
+      "fa": "مالِ تو",
+      "en": "yours"
+    },
+    "şey": {
+      "fa": "چیز… (وقتی کلمه یادت نمی‌آید)",
+      "en": "um… (a filler: “thing”)"
+    },
+    "pardon": {
+      "fa": "ببخشید",
+      "en": "sorry, pardon"
+    },
+    "hmm": {
+      "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "en": "hmm (thinking)"
+    },
+    "deneme": {
+      "fa": "آزمایشی",
+      "en": "trial, mock"
+    },
+    "konuşmanız": {
+      "fa": "مکالمه‌تان، حرف‌زدنِ شما",
+      "en": "your speaking"
     }
   },
   "id": "s1e39",
@@ -194,7 +206,7 @@
       "options": [
         "Biraz zayıf",
         "Çok iyi",
-        "Kolay"
+        "Çok kötü"
       ],
       "q": {
         "tr": "Zafer Hoca: Nima'nın konuşması nasıl?",
@@ -204,34 +216,19 @@
       "why": "Zafer Hoca: “Konuşmanız… biraz zayıf.”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "korkmayın",
         "gidin",
+        "korkmayın",
         "yürüyün"
       ],
       "q": {
-        "tr": "Zafer Hoca: “Ama …: iki haftanız var.”",
-        "en": "Zafer Hoca: “But …: you have two weeks.”",
-        "fa": "استاد ظفر: «ولی …: دو هفته وقت دارید.»"
+        "tr": "Zafer Hoca: “Ama …: bir haftanız var.”",
+        "en": "Zafer Hoca: “But …: you have a week.”",
+        "fa": "استاد ظفر: «ولی …: یک هفته وقت دارید.»"
       },
-      "why": "Zafer Hoca: “Ama korkmayın: iki haftanız var.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Dilnoza",
-        "Yusuf",
-        "Zafer Hoca"
-      ],
-      "q": {
-        "tr": "Kim “Beraber çalışıyoruz” diyor?",
-        "en": "Who says “Beraber çalışıyoruz” (we study together)?",
-        "fa": "چه کسی می‌گوید «Beraber çalışıyoruz» (با هم درس می‌خوانیم)؟"
-      },
-      "why": "Dilnoza: “Beraber çalışıyoruz.”"
+      "why": "Zafer Hoca: “Ama korkmayın: bir haftanız var.”"
     }
   ],
   "ref": "A1_6",
@@ -240,10 +237,10 @@
   "steps": [
     {
       "at": {
-        "alex": "board_r",
+        "alex": "corridor_r",
         "dilnoza": "wait_2",
         "nima": "wait_1",
-        "parvaneh": "board_l"
+        "parvaneh": "corridor_l"
       },
       "kerim": "ledge",
       "scene": "tomer_corridor",
@@ -251,10 +248,10 @@
     },
     {
       "emo": "nervous",
-      "en": "Today… the mock exam! Everyone's waiting at the door.",
-      "fa": "امروز… امتحانِ آزمایشیه! همه دمِ در منتظرن.",
+      "en": "The mock exam! Everyone's waiting at the door… and a little scared.",
+      "fa": "امتحانِ آزمایشی! همه دمِ در منتظرن… و یه کم می‌ترسن.",
       "narr": true,
-      "tr": "Bugün… prova sınavı! Herkes kapıda bekliyor.",
+      "tr": "Deneme sınavı! Herkes kapıda bekliyor… ve biraz korkuyor.",
       "who": "kerim"
     },
     {
@@ -322,7 +319,7 @@
     {
       "emo": "happy",
       "en": "How do you come to school every day?",
-      "fa": "هر روز چطوری میاید کلاس؟",
+      "fa": "هر روز چطوری میاین کلاس؟",
       "to": "nima",
       "tr": "Her gün okula nasıl geliyorsunuz?",
       "who": "zafer"
@@ -338,7 +335,7 @@
     {
       "emo": "neutral",
       "en": "At the weekend, what do you want to do in Istanbul, where do you want to go, and why?",
-      "fa": "آخرِ هفته توی استانبول می‌خواید چی‌کار کنید، کجا می‌خواید برید، و چرا؟",
+      "fa": "آخرِ هفته توی استانبول می‌خواین چی‌کار کنین، کجا می‌خواین برین، و چرا؟",
       "tempo": 1.4,
       "to": "nima",
       "tr": "Hafta sonu İstanbul'da ne yapmak istiyorsunuz, nereye gitmek istiyorsunuz ve neden?",
@@ -352,8 +349,8 @@
           {
             "do": "hand_heart",
             "emo": "nervous",
-            "en": "Once more, please. Slowly, please.",
-            "fa": "یه بار دیگه، لطفاً. آروم‌تر، لطفاً.",
+            "en": "Sorry… once more, please?",
+            "fa": "ببخشید… یه بار دیگه، لطفاً؟",
             "ok": true,
             "react": {
               "zafer": {
@@ -364,16 +361,16 @@
             "reply": [
               {
                 "emo": "happy",
-                "en": "Of course. At the weekend… what do you want to do?",
-                "fa": "حتماً. آخرِ هفته… می‌خواید چی‌کار کنید؟",
+                "en": "Of course. At the weekend… where do you want to go? And why?",
+                "fa": "حتماً. آخرِ هفته… کجا می‌خواین برین؟ و چرا؟",
                 "tempo": 0.7,
                 "to": "nima",
-                "tr": "Tabii. Hafta sonu… ne yapmak istiyorsunuz?",
+                "tr": "Tabii. Hafta sonu… nereye gitmek istiyorsunuz? Ve neden?",
                 "who": "zafer"
               }
             ],
             "tone": "polite",
-            "tr": "Bir daha, lütfen. Yavaş, lütfen."
+            "tr": "Pardon… bir daha, lütfen?"
           },
           {
             "emo": "proud",
@@ -391,11 +388,11 @@
               },
               {
                 "emo": "happy",
-                "en": "No, no. At the weekend… what do you want to do?",
-                "fa": "نه، نه. آخرِ هفته… می‌خواید چی‌کار کنید؟",
+                "en": "Hmm… no. At the weekend… where do you want to go? And why?",
+                "fa": "هوم… نه. آخرِ هفته… کجا می‌خواین برین؟ و چرا؟",
                 "tempo": 0.7,
                 "to": "nima",
-                "tr": "Hayır, hayır. Hafta sonu… ne yapmak istiyorsunuz?",
+                "tr": "Hmm… hayır. Hafta sonu… nereye gitmek istiyorsunuz? Ve neden?",
                 "who": "zafer"
               }
             ],
@@ -418,11 +415,11 @@
               },
               {
                 "emo": "happy",
-                "en": "At the weekend… what… do you… want to do?",
-                "fa": "آخرِ هفته… چی‌کار… می‌خواید… بکنید؟",
+                "en": "At the weekend… where… do you… want to go? And… why?",
+                "fa": "آخرِ هفته… کجا… می‌خواین… برین؟ و… چرا؟",
                 "tempo": 0.6,
                 "to": "nima",
-                "tr": "Hafta sonu… ne… yapmak… istiyorsunuz?",
+                "tr": "Hafta sonu… nereye… gitmek… istiyorsunuz? Ve… neden?",
                 "who": "zafer"
               }
             ],
@@ -436,11 +433,11 @@
     },
     {
       "emo": "nervous",
-      "en": "At the weekend… the Bosphorus… tea… I… want…",
-      "fa": "آخرِ هفته… بسفر… چای… من… می‌خوام…",
+      "en": "I want to go to the Bosphorus. Why? Tea… I… um…",
+      "fa": "می‌خوام برم بسفر. چرا؟ چای… من… چیز…",
       "tempo": 0.7,
       "to": "zafer",
-      "tr": "Hafta sonu… Boğaz… çay… ben… istiyorum…",
+      "tr": "Boğaz'a gitmek istiyorum. Neden? Çay… ben… şey…",
       "who": "nima"
     },
     {
@@ -460,10 +457,10 @@
     {
       "do": "write",
       "emo": "sorry",
-      "en": "That's it. Your speaking… is a little weak. But don't be afraid: you have two weeks.",
-      "fa": "تموم شد. مکالمه‌تون… یه کم ضعیفه. ولی نترسید: دو هفته وقت دارید.",
+      "en": "All right, thank you. Your speaking… is a little weak. But don't be afraid: you have a week.",
+      "fa": "خیلی خب، ممنون. مکالمه‌تون… یه کم ضعیفه. ولی نترسید: یه هفته وقت دارید.",
       "to": "nima",
-      "tr": "Bitti. Konuşmanız… biraz zayıf. Ama korkmayın: iki haftanız var.",
+      "tr": "Tamam, teşekkürler. Konuşmanız… biraz zayıf. Ama korkmayın: bir haftanız var.",
       "who": "zafer"
     },
     {
@@ -479,23 +476,24 @@
     },
     {
       "emo": "happy",
-      "en": "It went well!",
-      "fa": "خوب بود!",
+      "en": "Done! It went well! How was yours?",
+      "fa": "تموم شد! خوب بود! مالِ تو چطور بود؟",
       "move": {
         "how": "enter",
         "to": "wait_2",
         "who": "dilnoza"
       },
       "to": "nima",
-      "tr": "İyi geçti!",
-      "who": "dilnoza"
+      "tr": "Bitti! İyi geçti! Seninki nasıl?",
+      "who": "dilnoza",
+      "cam": "two"
     },
     {
       "emo": "sad",
-      "en": "Mine… went badly.",
-      "fa": "مال من… بد بود.",
+      "en": "Badly… Really badly.",
+      "fa": "بد بود… خیلی بد.",
       "to": "dilnoza",
-      "tr": "Benimki… kötü geçti.",
+      "tr": "Kötü geçti… Çok kötü.",
       "who": "nima"
     },
     {
@@ -525,28 +523,28 @@
     },
     {
       "spot": {
-        "en": "Nima did say a lot: “Tahran'dan geliyorum.” “Feriköy'den Osmanbey'e yürüyorum.” -DAn is where from, -(y)A is where to, and -(I)yor is what you're doing. The frozen answer only needs -mAk istemek: the verb's -mak/-mek form, then istiyorum. “Hafta sonu Boğaz'a gitmek istiyorum. Çay içmek istiyorum.”",
+        "en": "Nima did say a lot: “Tahran'dan geliyorum.” “Feriköy'den Osmanbey'e yürüyorum.” -DAn is where from, -(y)A is where to, and -(I)yor is what you're doing. And -mAk istemek came too: “Boğaz'a gitmek istiyorum.” (the verb's -mak/-mek form, then istiyorum). Only the why was missing: “Çay içmek istiyorum!”",
         "ex": "ne yapmak istiyorsunuz",
-        "fa": "نیما خیلی هم حرف زد: «Tahran'dan geliyorum.»، «Feriköy'den Osmanbey'e yürüyorum.». ‎-DAn‎ یعنی از کجا، ‎-(y)A‎ یعنی به کجا، و ‎-(I)yor‎ یعنی چه کار می‌کنی. جوابی که نیامد فقط ‎-mAk istemek‎ می‌خواهد: مصدرِ فعل با ‎-mak/-mek‎، بعد istiyorum: «Hafta sonu Boğaz'a gitmek istiyorum. Çay içmek istiyorum.» (آخرِ هفته می‌خواهم به بسفر بروم. می‌خواهم چای بنوشم.)",
+        "fa": "نیما خیلی هم حرف زد: «Tahran'dan geliyorum.»، «Feriköy'den Osmanbey'e yürüyorum.». ‎-DAn‎ یعنی از کجا، ‎-(y)A‎ یعنی به کجا، و ‎-(I)yor‎ یعنی چه کار می‌کنی. ‎-mAk istemek‎ هم آمد: «Boğaz'a gitmek istiyorum.» (مصدرِ فعل با ‎-mak/-mek‎، بعد istiyorum). فقط «چرا»یش نیامد: «Çay içmek istiyorum!» (می‌خواهم چای بخورم!)",
         "lesson": "g_a1_3_mak_istemek",
         "show": "case_path"
       }
     },
     {
-      "emo": "happy",
-      "en": "Today went badly… but it's only a mock. The exam: Friday, the thirtieth of October.",
-      "fa": "امروز بد گذشت… ولی این فقط یه امتحانِ آزمایشیه. امتحانِ اصلی: جمعه، سی‌ام اکتبر.",
+      "emo": "nervous",
+      "en": "The exam: Friday, the thirtieth of October. Nine more days!",
+      "fa": "امتحان: جمعه، سی‌ام اکتبر. هنوز نُه روز مونده!",
       "narr": true,
-      "tr": "Bugün kötü geçti… ama bu bir prova. Sınav: Cuma, otuz Ekim.",
+      "tr": "Sınav: Cuma, otuz Ekim. Daha dokuz gün var!",
       "who": "kerim"
     }
   ],
   "summary": {
-    "en": "The mock oral exam, one student at a time. Nima answers the first questions well, then freezes on the long one. In the corridor, shy Dilnoza takes charge, and Nima decides to speak every day, starting with Tolga Bey tomorrow.",
-    "fa": "امتحانِ شفاهیِ آزمایشی، نفر به نفر. نیما به سؤال‌های اول خوب جواب می‌دهد، ولی سرِ سؤالِ بلند زبانش بند می‌آید. در راهرو دلنوزای خجالتی رهبری را به دست می‌گیرد، و نیما تصمیم می‌گیرد هر روز حرف بزند؛ از فردا و از آقای تولگا شروع می‌کند."
+    "en": "The mock oral exam, one student at a time. Nima answers the first questions well, then loses the thread on the long one. In the corridor, shy Dilnoza takes charge, and Nima decides to speak every day, starting with Tolga Bey tomorrow.",
+    "fa": "امتحانِ شفاهیِ آزمایشی، نفر به نفر. نیما به سؤال‌های اول خوب جواب می‌دهد، ولی وسطِ سؤالِ بلند رشتهٔ حرف از دستش در می‌رود. در راهرو دلنوزای خجالتی رهبری را به دست می‌گیرد، و نیما تصمیم می‌گیرد هر روز حرف بزند؛ از فردا و از آقای تولگا شروع می‌کند."
   },
   "title": {
-    "tr": "Prova sınavı",
+    "tr": "Deneme sınavı",
     "en": "The mock exam",
     "fa": "امتحانِ آزمایشی"
   },

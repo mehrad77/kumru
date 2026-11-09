@@ -153,6 +153,22 @@
     "tahtalar": {
       "fa": "تخته‌ها",
       "en": "boards"
+    },
+    "kolay": {
+      "fa": "آسان",
+      "en": "easy"
+    },
+    "isfahanlı": {
+      "fa": "اهلِ اصفهان",
+      "en": "from Isfahan"
+    },
+    "özbekistanlı": {
+      "fa": "اهلِ ازبکستان",
+      "en": "from Uzbekistan"
+    },
+    "istanbullu": {
+      "fa": "استانبولی، اهلِ استانبول",
+      "en": "from Istanbul"
     }
   },
   "id": "s1e03",
@@ -196,23 +212,23 @@
       "a": 0,
       "kind": "comp",
       "options": [
-        "Dilnoza",
-        "Parvane",
-        "Nima"
+        "İsfahanlı",
+        "Özbekistanlı",
+        "İstanbullu"
       ],
       "q": {
-        "tr": "“Kalemlar!” Kim?",
-        "en": "“Kalemlar!” Who says it?",
-        "fa": "«Kalemlar!» را چه کسی می‌گوید؟"
+        "tr": "Parvane nereli?",
+        "en": "Where is Parvaneh from?",
+        "fa": "پروانه اهلِ کجاست؟"
       },
-      "why": "Dilnoza: “Kalemlar!”"
+      "why": "Parvane: “Merhaba! Benim adım Parvane. İsfahanlıyım!”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "Pencereler.",
         "Kalemler.",
+        "Pencereler.",
         "Defterler."
       ],
       "q": {
@@ -221,21 +237,6 @@
         "fa": "استاد ظفر پنجره‌ها را نشان می‌دهد: «Nima, bunlar ne?» نیما: «…»"
       },
       "why": "Zafer Hoca: “Nima, bunlar ne?” Nima: “Pencereler.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Günaydın hocam, özür dilerim!",
-        "İyi akşamlar!",
-        "Hoş geldin!"
-      ],
-      "q": {
-        "tr": "Saat dokuz. Nima: “…”",
-        "en": "It's nine o'clock, and Nima is at the door: “…”",
-        "fa": "ساعت نُه است و نیما دمِ در است: «…»"
-      },
-      "why": "Nima: “Günaydın hocam, özür dilerim!”"
     }
   ],
   "ref": "A1_1",
@@ -255,8 +256,8 @@
       "time": "day"
     },
     {
-      "en": "Good morning! Who's this? It's Nima! And it's… nine o'clock!",
-      "fa": "صبح بخیر! این کیه؟ نیماست! ساعت… نُه!",
+      "en": "Nine o'clock. Who's this? It's Nima!",
+      "fa": "ساعت نُه. این کیه؟ نیماست!",
       "move": {
         "how": "enter",
         "to": "door",
@@ -264,9 +265,10 @@
       },
       "narr": true,
       "sfx": {
-        "id": "knock"
+        "id": "knock",
+        "word": "tık tık"
       },
-      "tr": "Günaydın! Bu kim? Bu Nima! Saat… dokuz!",
+      "tr": "Saat dokuz. Bu kim? Bu Nima!",
       "who": "kerim"
     },
     {
@@ -387,8 +389,8 @@
       "at": "obj:defterler",
       "do": "point",
       "emo": "proud",
-      "en": "Kalemler! And these… notebooks!",
-      "fa": "Kalemler! اینا هم… دفترها!",
+      "en": "Kalemler! And these… notebooks, desks!",
+      "fa": "Kalemler! اینا هم… دفترها، میزها!",
       "link": {
         "defterler": "obj:defterler"
       },
@@ -401,26 +403,39 @@
         }
       },
       "to": "zafer",
-      "tr": "Kalemler! Ve bunlar… defterler!",
+      "tr": "Kalemler! Ve bunlar… defterler, masalar!",
       "who": "dilnoza"
     },
     {
-      "at": "mark:desk_parvaneh",
-      "do": "point",
-      "emo": "proud",
-      "en": "And these… desk… desks!",
-      "fa": "اینا هم… میز… میزها!",
-      "on": "bunlar",
-      "react": {
-        "dilnoza": "laugh",
-        "zafer": {
-          "do": "thumb_up",
-          "emo": "happy"
-        }
-      },
+      "beat": {
+        "who": "zafer",
+        "obj": [
+          {
+            "id": "sozluk_hoca",
+            "op": "take"
+          }
+        ],
+        "do": "hold_up",
+        "at": "obj:sozluk_hoca",
+        "cam": "obj"
+      }
+    },
+    {
+      "who": "parvaneh",
+      "tr": "Sözlük! Kolay!",
+      "en": "A dictionary! Easy!",
+      "fa": "دیکشنری! آسونه!",
       "to": "zafer",
-      "tr": "Ve bunlar… masa… masalar!",
-      "who": "parvaneh"
+      "emo": "proud",
+      "link": {
+        "sözlük": "obj:sozluk_hoca"
+      },
+      "react": {
+        "zafer": {
+          "emo": "laugh"
+        },
+        "dilnoza": "laugh"
+      }
     },
     {
       "at": "mark:window_out",
@@ -539,11 +554,18 @@
       "emo": "curious",
       "en": "And what's that?",
       "fa": "اون چیه؟",
-      "move": {
-        "how": "walk",
-        "to": "teacher",
-        "who": "zafer"
-      },
+      "move": [
+        {
+          "how": "walk",
+          "to": "teacher",
+          "who": "zafer"
+        },
+        {
+          "how": "fly",
+          "to": "window_out",
+          "who": "kerim"
+        }
+      ],
       "react": {
         "nima": {
           "at": "ch:kerim",
@@ -572,7 +594,7 @@
       "who": "parvaneh"
     },
     {
-      "cam": "close",
+      "cam": "wide",
       "emo": "happy",
       "en": "A bird… yes!",
       "fa": "پرنده… آره!",

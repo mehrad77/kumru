@@ -127,6 +127,14 @@
     "zafer": {
       "fa": "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
       "en": "Zafer (a name; the word means victory)"
+    },
+    "hadi": {
+      "fa": "یالا؛ زود باش",
+      "en": "come on!"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "en": "oh! (surprise)"
     }
   },
   "id": "s1e25",
@@ -215,12 +223,12 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Tahran saati",
         "İstanbul saati",
-        "Otobüs saati"
+        "Okul saati",
+        "Tahran saati"
       ],
       "q": {
         "tr": "Nima'nın saati: hangi saat?",
@@ -243,21 +251,6 @@
         "fa": "«Saat dokuzu çeyrek geçiyor.» یک çeyrek چند دقیقه است؟"
       },
       "why": "Kerim: “Saat dokuzu çeyrek geçiyor.”: 9:15. Bir çeyrek: on beş dakika."
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Dokuzu yirmi geçiyor",
-        "Sekiz buçuk",
-        "Dokuza çeyrek var"
-      ],
-      "q": {
-        "tr": "Nima sınıfta. Saat kaç?",
-        "en": "Nima reaches the classroom. What time is it?",
-        "fa": "نیما به کلاس می‌رسد. ساعت چند است؟"
-      },
-      "why": "Zafer Hoca: “Saat dokuzu yirmi geçiyor. Buyurun!”"
     }
   ],
   "ref": "A1_5",
@@ -292,8 +285,8 @@
       "at": "obj:kol_saati",
       "do": "hold_up",
       "emo": "nervous",
-      "en": "Half past eight! I'm late!",
-      "fa": "هشت و نیم! دیرم شد!",
+      "en": "Half past eight?! Quick, to school!",
+      "fa": "هشت و نیم؟! زود، برم مدرسه!",
       "link": {
         "buçuk": "obj:kol_saati"
       },
@@ -303,7 +296,7 @@
           "op": "take"
         }
       ],
-      "tr": "Sekiz buçuk! Geç kaldım!",
+      "tr": "Sekiz buçuk mu?! Hadi, okula!",
       "who": "nima"
     },
     {
@@ -355,7 +348,7 @@
     },
     {
       "at": {
-        "kirlangic": "seat_l",
+        "kirlangic": "seat_r",
         "nima": "pole"
       },
       "scene": "bus",
@@ -379,7 +372,7 @@
       "fa": "صبح بخیر، نیما! کجا می‌ری؟",
       "move": {
         "how": "walk",
-        "to": "seat_r",
+        "to": "seat_l",
         "who": "nima"
       },
       "obj": [
@@ -393,7 +386,8 @@
       ],
       "to": "nima",
       "tr": "Günaydın, Nima! Nereye?",
-      "who": "kirlangic"
+      "who": "kirlangic",
+      "at": "ch:nima"
     },
     {
       "emo": "nervous",
@@ -401,14 +395,15 @@
       "fa": "مدرسه! دیرم شده!",
       "to": "kirlangic",
       "tr": "Okula! Geç kaldım!",
-      "who": "nima"
+      "who": "nima",
+      "at": "ch:kirlangic"
     },
     {
       "at": "obj:telefon",
       "do": "hold_up",
       "emo": "curious",
-      "en": "Late? What time is it?",
-      "fa": "دیر؟ ساعت چنده؟",
+      "en": "Late? Look, what time is it?",
+      "fa": "دیر؟ ببین، ساعت چنده؟",
       "link": {
         "saat": "obj:telefon"
       },
@@ -419,7 +414,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Geç mi? Saat kaç?",
+      "tr": "Geç mi? Bak, saat kaç?",
       "who": "kirlangic"
     },
     {
@@ -443,9 +438,9 @@
               {
                 "do": "nod",
                 "emo": "happy",
-                "en": "Yes, nine! And your watch?",
-                "fa": "آره، ساعت نه! ساعتِ تو چی؟",
-                "tr": "Evet, dokuz! Peki senin saatin?",
+                "en": "Yes, nine!",
+                "fa": "آره، ساعت نه!",
+                "tr": "Evet, dokuz!",
                 "who": "kirlangic"
               }
             ],
@@ -504,8 +499,8 @@
       "at": "obj:kol_saati",
       "do": "point",
       "emo": "laugh",
-      "en": "Your watch… it's on Tehran time! The time difference: thirty minutes.",
-      "fa": "ساعتِ تو… به وقتِ تهرانه! اختلافِ ساعت: سی دقیقه.",
+      "en": "Oh! Your watch… it's on Tehran time! The time difference: thirty minutes.",
+      "fa": "عه! ساعتِ تو… به وقتِ تهرانه! اختلافِ ساعت: سی دقیقه.",
       "link": {
         "saatin": "obj:kol_saati"
       },
@@ -513,7 +508,7 @@
         "nima": "laugh"
       },
       "to": "nima",
-      "tr": "Senin saatin… Tahran saati! Saat farkı: otuz dakika.",
+      "tr": "Aa! Senin saatin… Tahran saati! Saat farkı: otuz dakika.",
       "who": "kirlangic"
     },
     {
@@ -572,7 +567,7 @@
             "id": "kol_saati",
             "op": "set",
             "set": {
-              "time": "9:50"
+              "time": "9:55"
             }
           }
         ]
@@ -591,8 +586,8 @@
       "at": "mark:seat_1",
       "do": "point",
       "emo": "happy",
-      "en": "It's twenty past nine. Come in!",
-      "fa": "ساعت نه و بیست دقیقه‌ست. بفرمایید!",
+      "en": "It's twenty-five past nine. Come in!",
+      "fa": "ساعت نه و بیست و پنج دقیقه‌ست. بفرمایید!",
       "move": {
         "how": "walk",
         "to": "seat_1",
@@ -602,16 +597,26 @@
         "who": "nima"
       },
       "to": "nima",
-      "tr": "Saat dokuzu yirmi geçiyor. Buyurun!",
+      "tr": "Saat dokuzu yirmi beş geçiyor. Buyurun!",
       "who": "zafer"
     },
     {
       "emo": "curious",
-      "en": "Nima, what time is it?",
-      "fa": "نیما، ساعت چنده؟",
+      "en": "And now… what time is it, Nima?",
+      "fa": "حالا… ساعت چنده، نیما؟",
       "to": "nima",
-      "tr": "Nima, saat kaç?",
-      "who": "zafer"
+      "tr": "Şimdi… saat kaç, Nima?",
+      "who": "zafer",
+      "at": "obj:saat_kagidi",
+      "obj": [
+        {
+          "id": "saat_kagidi",
+          "op": "set",
+          "set": {
+            "time": "9:30"
+          }
+        }
+      ]
     },
     {
       "at": "obj:kol_saati",
@@ -658,15 +663,6 @@
       "link": {
         "saat": "obj:saat_kagidi"
       },
-      "obj": [
-        {
-          "id": "saat_kagidi",
-          "op": "set",
-          "set": {
-            "time": "9:30"
-          }
-        }
-      ],
       "to": "nima",
       "tr": "Hayır: saat dokuz buçuk.",
       "who": "zafer"
@@ -693,9 +689,9 @@
     {
       "spot": {
         "at": "obj:kol_saati",
-        "en": "Telling the time. Saat sekiz: 8:00. Sekiz buçuk: 8:30 (buçuk = half). Dokuzu çeyrek geçiyor: 9:15, a quarter past nine (the hour takes -(y)I). Dokuza çeyrek var: 8:45, a quarter to nine (the hour takes -(y)A). So Zafer Hoca's “Saat dokuzu yirmi geçiyor” is 9:20. And Nima's watch? İstanbul'da dokuz buçuk, Tahran'da on: saat farkı otuz dakika.",
-        "ex": "Saat dokuzu yirmi geçiyor.",
-        "fa": "گفتنِ ساعت. Saat sekiz یعنی ساعت هشت. Sekiz buçuk یعنی هشت و نیم (buçuk = نیم). Dokuzu çeyrek geçiyor یعنی نه و ربع: ساعت پسوندِ -(y)I می‌گیرد. Dokuza çeyrek var یعنی یک ربع به نه: ساعت پسوندِ -(y)A می‌گیرد، درست مثلِ «به» در فارسی. پس «Saat dokuzu yirmi geçiyor» یعنی نه و بیست دقیقه. ساعتِ نیما چه؟ در استانبول نه و نیم است، در تهران ده: اختلافِ ساعت سی دقیقه است.",
+        "en": "Telling the time. Saat sekiz: 8:00. Sekiz buçuk: 8:30 (buçuk = half). Dokuzu çeyrek geçiyor: 9:15, a quarter past nine (the hour takes -(y)I). Dokuza çeyrek var: 8:45, a quarter to nine (the hour takes -(y)A). So Zafer Hoca's “Saat dokuzu yirmi beş geçiyor” is 9:25. And Nima's watch? İstanbul'da dokuz buçuk, Tahran'da on: saat farkı otuz dakika.",
+        "ex": "Saat dokuzu yirmi beş geçiyor.",
+        "fa": "گفتنِ ساعت. Saat sekiz یعنی ساعت هشت. Sekiz buçuk یعنی هشت و نیم (buçuk = نیم). Dokuzu çeyrek geçiyor یعنی نه و ربع: ساعت پسوندِ -(y)I می‌گیرد. Dokuza çeyrek var یعنی یک ربع به نه: ساعت پسوندِ -(y)A می‌گیرد، درست مثلِ «به» در فارسی. پس «Saat dokuzu yirmi beş geçiyor» یعنی نه و بیست و پنج دقیقه. ساعتِ نیما چه؟ در استانبول نه و نیم است، در تهران ده: اختلافِ ساعت سی دقیقه است.",
         "lesson": "g_a1_5_saatler",
         "show": "clock"
       }

@@ -193,27 +193,12 @@
   },
   "quiz": [
     {
-      "a": 1,
-      "kind": "comp",
-      "options": [
-        "Birinci sırada",
-        "Üçüncü sırada",
-        "İkinci sırada"
-      ],
-      "q": {
-        "tr": "Ömer kaçıncı sırada?",
-        "en": "Where is Ömer in the row?",
-        "fa": "عمر نفرِ چندمِ ردیف است؟"
-      },
-      "why": "“Ömer üçüncü sırada!”"
-    },
-    {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "bayraklar",
         "çaylar",
-        "kuşlar"
+        "kuşlar",
+        "bayraklar"
       ],
       "q": {
         "tr": "Ömer: “Kırmızı, beyaz… … her yerde!”",
@@ -223,11 +208,11 @@
       "why": "“Kırmızı, beyaz… bayraklar her yerde!”"
     },
     {
-      "a": 1,
+      "a": 0,
       "kind": "comp",
       "options": [
-        "Parkta",
         "Boğaz'da",
+        "Parkta",
         "Kafede"
       ],
       "q": {
@@ -267,10 +252,10 @@
         "child_1": "stage_1",
         "child_2": "stage_2",
         "child_3": "stage_4",
-        "elif": "seat_elif",
+        "elif": "seat_nima",
         "kirlangic": "back",
         "maria": "seat_maria",
-        "nima": "seat_nima",
+        "nima": "seat_elif",
         "omer": "stage_3",
         "serkan": "seat_serkan",
         "teacher_kindergarten": "stage_side"
@@ -312,10 +297,10 @@
     },
     {
       "emo": "happy",
-      "en": "And to you! Happy holiday!",
-      "fa": "شما هم همین‌طور! جشنتون مبارک!",
+      "en": "Happy holiday to you too!",
+      "fa": "جشنِ شما هم مبارک!",
       "to": "maria",
-      "tr": "Sizin de! Bayramınız kutlu olsun!",
+      "tr": "Sizin de bayramınız kutlu olsun!",
       "who": "nima"
     },
     {
@@ -376,7 +361,13 @@
         "at": "ch:serkan",
         "do": "look",
         "emo": "nervous",
-        "who": "omer"
+        "who": "omer",
+        "react": {
+          "serkan": {
+            "do": "shrug",
+            "emo": "nervous"
+          }
+        }
       },
       "unless": "s1e43_song"
     },
@@ -450,7 +441,7 @@
         "who": "omer"
       },
       "to": "nima",
-      "tr": "Nasıl geçti? Nasıl geçti?",
+      "tr": "Nasıldı? Nasıldı?",
       "who": "omer"
     },
     {
@@ -492,14 +483,14 @@
     {
       "do": "me",
       "emo": "happy",
-      "en": "Leave the taxi to me!",
+      "en": "The taxi's on me!",
       "fa": "تاکسی با من!",
       "sfx": {
         "id": "keys_jingle",
         "word": "şıngır şıngır"
       },
       "to": "nima",
-      "tr": "Taksi benim!",
+      "tr": "Taksi benden!",
       "who": "serkan"
     },
     {
@@ -527,11 +518,11 @@
     {
       "at": {
         "cayci_ortakoy": "cayci",
-        "elif": "arrive",
-        "maria": "shore_3",
-        "nima": "shore_1",
-        "omer": "shore_2",
-        "serkan": "shore_4"
+        "elif": "shore_3",
+        "maria": "shore_1",
+        "nima": "shore_2",
+        "omer": "shore_4",
+        "serkan": "arrive"
       },
       "kerim": "railing",
       "scene": "ortakoy",
@@ -579,6 +570,14 @@
                   },
                   "who": "cayci_ortakoy"
                 }
+              },
+              {
+                "emo": "happy",
+                "en": "Five! I'm having tea too!",
+                "fa": "پنج تا! منم چای می‌خورم!",
+                "to": "nima",
+                "tr": "Beş! Ben de çay içiyorum!",
+                "who": "omer"
               }
             ],
             "to": "cayci_ortakoy",
@@ -686,7 +685,8 @@
       "fa": "قطره‌قطره جمع گردد…",
       "to": "nima",
       "tr": "Damlaya damlaya…",
-      "who": "maria"
+      "who": "maria",
+      "cam": "two"
     },
     {
       "emo": "proud",
@@ -752,19 +752,27 @@
       }
     },
     {
+      "beat": {
+        "at": "mark:high",
+        "do": "point_far",
+        "emo": "surprised",
+        "env": "state:fireworks",
+        "sfx": {
+          "id": "fireworks",
+          "word": "bum"
+        },
+        "who": "omer"
+      }
+    },
+    {
+      "who": "omer",
+      "to": "all",
+      "emo": "surprised",
       "at": "mark:high",
       "do": "point_far",
-      "emo": "surprised",
-      "en": "Look! Look! The bridge is red and white too!",
-      "env": "state:fireworks",
-      "fa": "ببین! ببین! پل هم قرمز و سفیده!",
-      "sfx": {
-        "id": "fireworks",
-        "word": "bum"
-      },
-      "to": "all",
       "tr": "Bak! Bak! Köprü de kırmızı beyaz!",
-      "who": "omer"
+      "en": "Look! Look! The bridge is red and white too!",
+      "fa": "ببین! ببین! پل هم قرمز و سفیده!"
     },
     {
       "emo": "moved",
@@ -772,7 +780,8 @@
       "fa": "هشتاد سال… هر ۲۹ اکتبر این‌جام.",
       "to": "nima",
       "tr": "Seksen yıl… her 29 Ekim'de buradayım.",
-      "who": "maria"
+      "who": "maria",
+      "cam": "two"
     },
     {
       "spot": {

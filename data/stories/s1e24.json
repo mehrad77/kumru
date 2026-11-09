@@ -178,8 +178,8 @@
       "en": "let's run"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "kutunun": {
       "fa": "…ِ جعبه (kutunun içinde: توی جعبه)",
@@ -220,6 +220,10 @@
     "zafer": {
       "fa": "ظفر (اسم)",
       "en": "Zafer (a name)"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     }
   },
   "id": "s1e24",
@@ -385,49 +389,34 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Bir mesaj",
-        "Bir peçete",
-        "Bir sözlük"
-      ],
       "q": {
-        "tr": "Kırmızı kitapta ne var?",
-        "en": "What is in the red book?",
-        "fa": "توی کتابِ قرمز چه هست؟"
+        "tr": "“Kütüphaneye gidin. Kırmızı kitabı …”",
+        "en": "“Go to the library. … the red book.”",
+        "fa": "«برید کتابخونه. کتابِ قرمز رو …»"
       },
-      "why": "Dilnoza: “Kitapta bir mesaj var!”"
-    },
-    {
-      "a": 0,
-      "kind": "word",
       "options": [
         "bulun",
         "alın",
         "gidin"
       ],
-      "q": {
-        "tr": "“Kütüphaneye gidin. Kırmızı kitabı …”",
-        "en": "“Go to the library. … the red book.”",
-        "fa": "«به کتابخانه بروید. کتابِ قرمز را …»"
-      },
+      "a": 0,
+      "kind": "word",
       "why": "Nima: “Kütüphaneye gidin. Kırmızı kitabı bulun.”"
     },
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Bir sözlük ve lokum",
-        "Bir kitap ve çay",
-        "Bir peçete"
-      ],
       "q": {
         "tr": "Zafer Hoca herkese ne veriyor?",
         "en": "What does Zafer Hoca give everyone?",
-        "fa": "استاد ظفر به همه چه می‌دهد؟"
+        "fa": "استاد ظفر به همه چی می‌ده؟"
       },
-      "why": "Zafer Hoca: “Hediye! Herkese bir sözlük ve lokum.”"
+      "options": [
+        "Bir kitap ve çay",
+        "Bir sözlük ve lokum",
+        "Bir peçete"
+      ],
+      "a": 1,
+      "kind": "comp",
+      "why": "Zafer Hoca: “Hediye! Herkese bir sözlük ve lokum. Hepiniz birincisiniz… beraber!”"
     }
   ],
   "ref": "A1_4",
@@ -463,10 +452,10 @@
       }
     },
     {
-      "en": "Good morning! It's Saturday… but there's school! A treasure hunt!",
-      "fa": "صبح بخیر! امروز شنبه‌ست… ولی مدرسه داریم! گنج‌یابی!",
+      "en": "It's Saturday… but there's school! A treasure hunt!",
+      "fa": "امروز شنبه‌ست… ولی مدرسه داریم! گنج‌یابی!",
       "narr": true,
-      "tr": "Günaydın! Bugün cumartesi… ama okul var! Hazine avı!",
+      "tr": "Bugün cumartesi… ama okul var! Hazine avı!",
       "who": "kerim"
     },
     {
@@ -524,20 +513,6 @@
       "emo": "laugh",
       "en": "Don't think, Alex! Come on, let's go!",
       "fa": "فکر نکن، الکس! یالا، بیا!",
-      "move": [
-        {
-          "from": "corner",
-          "how": "exit",
-          "to": "corner",
-          "who": "parvaneh"
-        },
-        {
-          "from": "corner",
-          "how": "exit",
-          "to": "corner",
-          "who": "alex"
-        }
-      ],
       "to": "alex",
       "tr": "Düşünme, Alex! Hadi, gel!",
       "who": "parvaneh"
@@ -605,7 +580,7 @@
     },
     {
       "at": {
-        "dilnoza": "corner",
+        "dilnoza": "walk_l",
         "nima": "walk_c",
         "yusuf": "walk_r"
       },
@@ -675,13 +650,14 @@
       "fa": "ببخشید…",
       "move": {
         "how": "walk",
-        "to": "walk_l",
+        "to": "corner",
         "who": "passerby_1"
       },
       "to": "passerby_1",
       "tr": "Affedersiniz…",
       "voice": "whisper",
-      "who": "dilnoza"
+      "who": "dilnoza",
+      "cam": "single"
     },
     {
       "choice": {
@@ -797,7 +773,7 @@
         "move": [
           {
             "how": "walk",
-            "to": "stop",
+            "to": "walk_c",
             "who": "nima"
           },
           {
@@ -820,7 +796,8 @@
       },
       "to": "nima",
       "tr": "Durakta mavi bir kutu var!",
-      "who": "yusuf"
+      "who": "yusuf",
+      "cam": "obj"
     },
     {
       "at": "obj:ipucu_3",
@@ -840,7 +817,8 @@
       ],
       "to": "all",
       "tr": "Kutunun içinde… “Şişhane'ye gidin. Zafer Hoca'yı bulun!”",
-      "who": "nima"
+      "who": "nima",
+      "cam": "single"
     },
     {
       "beat": {
@@ -870,14 +848,14 @@
     {
       "emo": "happy",
       "en": "Me? No… coo-coo.",
-      "fa": "من؟ نه… کو-کو.",
+      "fa": "من؟ نه… کو-کوو.",
       "move": {
         "how": "fly",
         "to": "ahead",
         "who": "kerim"
       },
       "narr": true,
-      "tr": "Ben? Hayır… ku-ku.",
+      "tr": "Ben? Hayır… ku-kuu.",
       "who": "kerim"
     },
     {
@@ -994,10 +972,10 @@
     },
     {
       "at": {
-        "alex": "entrance",
+        "alex": "arrive_r",
         "dilnoza": "walk_l",
         "nima": "arrive_l",
-        "parvaneh": "arrive_r",
+        "parvaneh": "entrance",
         "yusuf": "walk_r",
         "zafer": "zafer"
       },
@@ -1051,7 +1029,8 @@
       "fa": "ممنونیم، استاد!",
       "to": "zafer",
       "tr": "Teşekkür ederiz, hocam!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "single"
     },
     {
       "spot": {
@@ -1066,9 +1045,9 @@
       "do": "hop",
       "emo": "happy",
       "en": "And first place… Kerim! Coo-coo!",
-      "fa": "و نفرِ اول… کریم! کو-کو!",
+      "fa": "و نفرِ اول… کریم! کو-کوو!",
       "narr": true,
-      "tr": "Ve birinci… Kerim! Ku-ku!",
+      "tr": "Ve birinci… Kerim! Ku-kuu!",
       "who": "kerim"
     }
   ],

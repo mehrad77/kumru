@@ -115,10 +115,6 @@
       "fa": "سرِ نبش، در گوشه",
       "en": "on the corner"
     },
-    "köşeyi": {
-      "fa": "گوشه را",
-      "en": "the corner (object)"
-    },
     "mahallesi": {
       "fa": "محلهٔ…",
       "en": "the neighbourhood of…"
@@ -131,13 +127,21 @@
       "fa": "راهنما",
       "en": "guide (a guidebook)"
     },
-    "çatı": {
-      "fa": "پشت‌بام",
-      "en": "roof"
-    },
     "önünde": {
       "fa": "جلوی…",
       "en": "in front of…"
+    },
+    "benden": {
+      "fa": "از طرفِ من، مهمانِ من",
+      "en": "on me; my treat"
+    },
+    "köşesi": {
+      "fa": "گوشه‌اش",
+      "en": "its corner"
+    },
+    "test": {
+      "fa": "امتحان، آزمون",
+      "en": "test"
     }
   },
   "id": "s1e31",
@@ -199,12 +203,12 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Fırının yanında",
         "Okulun içinde",
-        "Parkın arkasında"
+        "Parkın arkasında",
+        "Fırının yanında"
       ],
       "q": {
         "tr": "Hatice Abla: “Eczane nerede?”",
@@ -227,21 +231,6 @@
         "fa": "پارک کجاست؟ … مدرسه."
       },
       "why": "Nima: “Okulun karşısında.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Çay",
-        "Kahve",
-        "Ekmek"
-      ],
-      "q": {
-        "tr": "Berfin'in kafesinde en iyi ne var?",
-        "en": "What is the best thing at Berfin's café?",
-        "fa": "در کافهٔ برفین بهترین چیز چیست؟"
-      },
-      "why": "Berfin: “Burası Feriköy'ün en küçük kafesi… ama en iyi çayı burada!”"
     }
   ],
   "ref": "A1_6",
@@ -269,23 +258,23 @@
       }
     },
     {
-      "en": "Good morning! Feriköy… Kerim's neighbourhood. The most beautiful neighbourhood!",
-      "fa": "صبح بخیر! فری‌کؤی… محلهٔ کریم. قشنگ‌ترین محله!",
+      "en": "Good morning! Feriköy… Kerim's neighbourhood. Every corner of it is lovely!",
+      "fa": "صبح بخیر! فری‌کؤی… محلهٔ کریم. هر گوشه‌ش قشنگه!",
       "move": {
         "how": "walk",
         "to": "cafe_front",
         "who": "nima"
       },
       "narr": true,
-      "tr": "Günaydın! Feriköy… Kerim'in mahallesi. En güzel mahalle!",
+      "tr": "Günaydın! Feriköy… Kerim'in mahallesi. Her köşesi güzel!",
       "who": "kerim"
     },
     {
       "at": "ch:nima",
       "do": "give",
       "emo": "happy",
-      "en": "Warm bread… today it's my turn to share! A question: where's the bakery?",
-      "fa": "نونِ داغ… امروز مهمونِ منی! یه سؤال: نونوایی کجاست؟",
+      "en": "Warm bread… here, it's on me today! Now, a test: where's the bakery?",
+      "fa": "نونِ داغ… بگیر، امروز مهمونِ من! حالا یه امتحان: نونوایی کجاست؟",
       "if": "s1e17_cake",
       "obj": [
         {
@@ -295,37 +284,37 @@
         }
       ],
       "to": "nima",
-      "tr": "Sıcak ekmek… bugün ben veriyorum! Bir soru: fırın nerede?",
+      "tr": "Sıcak ekmek… al, bugün benden! Şimdi bir test: fırın nerede?",
       "who": "dilnoza"
     },
     {
       "at": "obj:ekmek",
       "do": "hold_up",
       "emo": "happy",
-      "en": "Warm bread! Do you want a little? A question: where's the bakery?",
-      "fa": "نونِ داغ! یه کم می‌خوای؟ یه سؤال: نونوایی کجاست؟",
+      "en": "Warm bread! Want some? Now, a test: where's the bakery?",
+      "fa": "نونِ داغ! یه کم می‌خوای؟ حالا یه امتحان: نونوایی کجاست؟",
       "to": "nima",
-      "tr": "Sıcak ekmek! Biraz istiyor musun? Bir soru: fırın nerede?",
+      "tr": "Sıcak ekmek! Biraz istiyor musun? Şimdi bir test: fırın nerede?",
       "unless": "s1e17_cake",
       "who": "dilnoza"
     },
     {
       "at": "mark:eczane_front",
       "do": "point",
-      "emo": "proud",
-      "en": "Next to the pharmacy.",
-      "fa": "کنارِ داروخونه.",
+      "emo": "laugh",
+      "en": "Right here! …Next to the pharmacy.",
+      "fa": "همین‌جا! …کنارِ داروخونه.",
       "to": "dilnoza",
-      "tr": "Eczanenin yanında.",
+      "tr": "Burada! …Eczanenin yanında.",
       "who": "nima"
     },
     {
       "do": "nod",
       "emo": "happy",
-      "en": "Right! Where's the park?",
-      "fa": "درسته! پارک کجاست؟",
+      "en": "Right! OK, and where's the park?",
+      "fa": "درسته! خب، پارک کجاست؟",
       "to": "nima",
-      "tr": "Doğru! Park nerede?",
+      "tr": "Doğru! Peki park nerede?",
       "who": "dilnoza"
     },
     {
@@ -397,7 +386,8 @@
       ],
       "to": "nima",
       "tr": "Affedersiniz, eczane nerede?",
-      "who": "hatice"
+      "who": "hatice",
+      "cam": "two"
     },
     {
       "choice": {
@@ -556,8 +546,8 @@
     },
     {
       "emo": "proud",
-      "en": "Here you are! This is the smallest café in Feriköy… but the best tea is right here!",
-      "fa": "بفرمایین! این‌جا کوچیک‌ترین کافهٔ فری‌کؤیه… ولی بهترین چای همین‌جاست!",
+      "en": "Here you are! I'm Berfin. This is the smallest café in Feriköy… but the best tea is right here!",
+      "fa": "بفرمایین! من برفینم. این‌جا کوچیک‌ترین کافهٔ فری‌کؤیه… ولی بهترین چای همین‌جاست!",
       "obj": [
         {
           "id": "tea_glass",
@@ -566,7 +556,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Buyurun! Burası Feriköy'ün en küçük kafesi… ama en iyi çayı burada!",
+      "tr": "Buyurun! Ben Berfin. Burası Feriköy'ün en küçük kafesi… ama en iyi çay burada!",
       "who": "berfin"
     },
     {
@@ -577,7 +567,7 @@
       "fa": "کافهٔ برفین: کنارِ نونوایی. بهترین چایِ فری‌کؤی!",
       "move": {
         "how": "walk",
-        "to": "team_class",
+        "to": "seat_3",
         "who": "nima"
       },
       "obj": [
@@ -594,7 +584,13 @@
       ],
       "to": "dilnoza",
       "tr": "Berfin'in kafesi: fırının yanında. Feriköy'ün en iyi çayı!",
-      "who": "nima"
+      "who": "nima",
+      "react": {
+        "dilnoza": {
+          "at": "ch:nima",
+          "do": "look"
+        }
+      }
     },
     {
       "spot": {
@@ -606,11 +602,12 @@
       }
     },
     {
-      "en": "A guide? Kerim is a guide too! From the roof I see every corner.",
-      "fa": "راهنما؟ کریم هم یه راهنماست! از پشت‌بوم هر گوشه‌ای رو می‌بینم.",
-      "narr": true,
-      "tr": "Rehber mi? Kerim de bir rehber! Çatıdan her köşeyi görüyorum.",
-      "who": "kerim"
+      "who": "berfin",
+      "tr": "Benim kafem… rehberde mi?! Bugün çaylar benden!",
+      "en": "My café… in the guide?! The teas are on me today!",
+      "fa": "کافهٔ من… توی راهنما؟! امروز چای‌ها مهمونِ من!",
+      "to": "all",
+      "emo": "laugh"
     }
   ],
   "summary": {

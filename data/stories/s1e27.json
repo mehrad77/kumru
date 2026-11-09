@@ -140,8 +140,8 @@
       "en": "the neighbours"
     },
     "ku": {
-      "fa": "کو (صدای کریم)",
-      "en": "coo (Kerim's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "kutlu": {
       "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
@@ -162,6 +162,18 @@
     "şşş": {
       "fa": "هیس!",
       "en": "shh!"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
+    },
+    "hmm": {
+      "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "en": "hmm (thinking)"
+    },
+    "kimseye": {
+      "fa": "به هیچ‌کس",
+      "en": "(to) anybody; “kimseye söylemedim”: I didn't tell anybody"
     }
   },
   "id": "s1e27",
@@ -190,34 +202,19 @@
       "why": "Maria Teyze: “Bu sokakta doğdum.”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "Dünyaya gelmek",
-        "Okula gitmek",
-        "Baklava yemek"
+        "doğdum",
+        "hatırlıyorum",
+        "yürüdüm"
       ],
       "q": {
-        "tr": "“Bu sokakta doğdum.” Doğmak: …",
-        "en": "“Bu sokakta doğdum.” Doğmak means…",
-        "fa": "«Bu sokakta doğdum.» Doğmak یعنی…"
+        "tr": "Maria Teyze: “Yıllar geçti. Ama … dün gibi!” Hangisi?",
+        "en": "Maria Teyze: “The years went by. But I … like yesterday!” Which word?",
+        "fa": "خاله ماریا: «Yıllar geçti. Ama … dün gibi!» کدام کلمه؟"
       },
-      "why": "Maria Teyze: “Bu sokakta doğdum. O günden beri bu evdeyim: seksen yıl!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Seksen",
-        "Yetmiş",
-        "Doksan"
-      ],
-      "q": {
-        "tr": "Cumartesi Maria Teyze kaç yaşında?",
-        "en": "How old is Maria Teyze on Saturday?",
-        "fa": "خاله ماریا شنبه چند ساله می‌شود؟"
-      },
-      "why": "Maria Teyze: “Doğum günüm. Seksen yaşındayım.”"
+      "why": "Maria Teyze: “Sonra? Yıllar geçti. Ama hatırlıyorum… dün gibi!”"
     }
   ],
   "ref": "A1_5",
@@ -286,11 +283,11 @@
     },
     {
       "emo": "happy",
-      "en": "At the bayram the neighbours brought baklava. At Easter we gave red eggs. Everyone came, everyone ate!",
-      "fa": "عید که می‌شد، همسایه‌ها باقلوا می‌آوردن. عیدِ پاک ما تخم‌مرغِ قرمز می‌دادیم. همه می‌اومدن، همه می‌خوردن!",
+      "en": "One bayram the neighbours brought baklava. And at Easter we gave red eggs. Everyone came, everyone ate!",
+      "fa": "یه عید، همسایه‌ها باقلوا آوردن. عیدِ پاک هم ما تخم‌مرغِ قرمز دادیم. همه اومدن، همه خوردن!",
       "frame": "past",
       "to": "nima",
-      "tr": "Bayramda komşular baklava getirdi. Paskalyada biz kırmızı yumurta verdik. Herkes geldi, herkes yedi!",
+      "tr": "Bir bayramda komşular baklava getirdi. Paskalyada da biz kırmızı yumurta verdik. Herkes geldi, herkes yedi!",
       "who": "maria"
     },
     {
@@ -303,10 +300,10 @@
     },
     {
       "emo": "moved",
-      "en": "Then? The years went by. But I remember it… as if it were last year!",
-      "fa": "بعد؟ سال‌ها گذشت. ولی یادمه… انگار پارسال بود!",
+      "en": "Then? The years went by. But I remember it… like yesterday!",
+      "fa": "بعد؟ سال‌ها گذشت. ولی یادمه… انگار همین دیروز بود!",
       "to": "nima",
-      "tr": "Sonra? Yıllar geçti. Ama hatırlıyorum… geçen yıl gibi!",
+      "tr": "Sonra? Yıllar geçti. Ama hatırlıyorum… dün gibi!",
       "who": "maria"
     },
     {
@@ -320,7 +317,7 @@
     {
       "at": "mark:calendar",
       "cam": "obj",
-      "do": "touch",
+      "do": "point",
       "emo": "curious",
       "en": "What's this? 10 October… eighty?",
       "fa": "این چیه؟ ده اکتبر… هشتاد؟",
@@ -347,10 +344,10 @@
     },
     {
       "emo": "sad",
-      "en": "It's my birthday. I'm turning eighty. But… nobody knows.",
-      "fa": "تولدمه. هشتاد سالم می‌شه. ولی… هیچ‌کس نمی‌دونه.",
+      "en": "It's my birthday. On Saturday… eighty! But… nobody knows.",
+      "fa": "تولدمه. شنبه… هشتاد سالگی! ولی… هیچ‌کس نمی‌دونه.",
       "to": "nima",
-      "tr": "Doğum günüm. Seksen yaşındayım. Ama… kimse bilmiyor.",
+      "tr": "Doğum günüm. Cumartesi… seksen yaş! Ama… kimse bilmiyor.",
       "who": "maria"
     },
     {
@@ -428,10 +425,10 @@
     {
       "do": "shush",
       "emo": "shy",
-      "en": "Shh! No cake, no candles. All right?",
-      "fa": "هیس! نه کیک، نه شمع. باشه؟",
+      "en": "Shh! No cake, no candles. I didn't tell anyone last year either. All right?",
+      "fa": "هیس! نه کیک، نه شمع. پارسال هم به کسی نگفتم. باشه؟",
       "to": "nima",
-      "tr": "Şşş! Pasta yok, mum yok. Tamam mı?",
+      "tr": "Şşş! Pasta yok, mum yok. Geçen yıl da kimseye söylemedim. Tamam mı?",
       "who": "maria"
     },
     {
@@ -446,10 +443,10 @@
     {
       "cam": "close",
       "emo": "curious",
-      "en": "All right? Coo-coo-coo…",
-      "fa": "باشه؟ کو-کو-کو…",
+      "en": "All right? Hmm… coo-coo.",
+      "fa": "باشه؟ هوم… کو-کوو.",
       "narr": true,
-      "tr": "Tamam? Ku-ku-ku…",
+      "tr": "Tamam? Hmm… Ku-kuu.",
       "who": "kerim"
     }
   ],

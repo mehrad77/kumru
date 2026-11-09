@@ -100,8 +100,8 @@
       "en": "church"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "maria": {
       "fa": "ماریا (همسایه‌ی طبقه‌ی پنجم)",
@@ -110,6 +110,14 @@
     "musun": {
       "fa": "(نشانه‌ی سؤال) …ی؟",
       "en": "(question word) are you…?"
+    },
+    "ses": {
+      "fa": "صدا",
+      "en": "sound"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     }
   },
   "id": "s1e17",
@@ -156,49 +164,34 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Uyuyor",
-        "Oynuyor",
-        "Yürüyor"
-      ],
-      "q": {
-        "tr": "Kediler ne yapıyor?",
-        "en": "What are the cats doing?",
-        "fa": "گربه‌ها چه کار می‌کنند؟"
-      },
-      "why": "Dilnoza: “Kediler uyuyor…”"
-    },
-    {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "Girmek",
         "Oynamak",
+        "Girmek",
         "Uyumak"
       ],
       "q": {
         "tr": "Dilnoza: “Pastane! … istiyor musun?”",
-        "en": "“Girmek” means to go in. Dilnoza: “A patisserie! Do you want to …?” Which word fits?",
-        "fa": "‏«girmek» یعنی وارد شدن. دلنوزا: «شیرینی‌فروشی! می‌خواهی …؟» کدام کلمه درست است؟"
+        "en": "Dilnoza: “A patisserie! Do you want to go in?” Which word fits?",
+        "fa": "دلنوزا: «شیرینی‌فروشی! می‌خوای بریم تو؟» کدام کلمه درست است؟"
       },
       "why": "Dilnoza: “Girmek istiyor musun?”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Hayır, istemiyorum, teşekkürler.",
+        "Boğaz'a!",
         "Evet, çok seviyorum!",
-        "Boğaz'a!"
+        "Yok, yok… istemiyorum, teşekkürler."
       ],
       "q": {
         "tr": "Nima pasta veriyor. Dilnoza: “…”",
         "en": "Nima offers the cake. What does Dilnoza say first?",
         "fa": "نیما کیک تعارف می‌کند. دلنوزا اول چه می‌گوید؟"
       },
-      "why": "Dilnoza: “Hayır, istemiyorum, teşekkürler.”"
+      "why": "Dilnoza: “Yok, yok… istemiyorum, teşekkürler.”"
     }
   ],
   "ref": "A1_3",
@@ -208,7 +201,7 @@
     {
       "at": {
         "dilnoza": "park_side",
-        "nima": "corner",
+        "nima": "walk_r",
         "passenger_1": "cafe_table",
         "passenger_4": "firin_front"
       },
@@ -236,11 +229,6 @@
       "emo": "happy",
       "en": "To the Bosphorus! I want to drink tea!",
       "fa": "بسفر! می‌خوام چای بخورم!",
-      "move": {
-        "how": "walk",
-        "to": "walk_r",
-        "who": "nima"
-      },
       "to": "dilnoza",
       "tr": "Boğaz'a! Çay içmek istiyorum!",
       "who": "nima"
@@ -249,8 +237,8 @@
       "at": "ch:passenger_1",
       "do": "point",
       "emo": "happy",
-      "en": "The cats are sleeping… But what are they doing?",
-      "fa": "گربه‌ها خوابن… ولی اونا دارن چی‌کار می‌کنن؟",
+      "en": "The cats are asleep… And what are they doing?",
+      "fa": "گربه‌ها خوابن… اونا چی‌کار می‌کنن؟",
       "link": {
         "kediler": "obj:cats"
       },
@@ -261,7 +249,7 @@
       },
       "on": "onlar",
       "to": "nima",
-      "tr": "Kediler uyuyor… Ama onlar ne yapıyorlar?",
+      "tr": "Kediler uyuyor… Peki onlar ne yapıyor?",
       "who": "dilnoza"
     },
     {
@@ -302,15 +290,15 @@
       "at": "mark:church_gate",
       "do": "look",
       "emo": "curious",
-      "en": "What's that? Do you know?",
-      "fa": "این چیه؟ می‌دونی؟",
+      "en": "What's that sound? Do you know?",
+      "fa": "این صدا چیه؟ می‌دونی؟",
       "move": {
         "how": "walk",
         "to": "church_gate",
         "who": "dilnoza"
       },
       "to": "nima",
-      "tr": "Bu ne? Biliyor musun?",
+      "tr": "Bu ses ne? Biliyor musun?",
       "who": "dilnoza"
     },
     {
@@ -356,14 +344,18 @@
       "emo": "happy",
       "en": "Yes! I love it!",
       "fa": "آره! خیلی دوست دارم!",
-      "move": {
-        "how": "exit",
-        "to": "patisserie_door",
-        "who": "nima"
-      },
       "to": "dilnoza",
       "tr": "Evet! Çok seviyorum!",
       "who": "nima"
+    },
+    {
+      "beat": {
+        "move": {
+          "how": "exit",
+          "to": "patisserie_door",
+          "who": "nima"
+        }
+      }
     },
     {
       "beat": {
@@ -409,10 +401,10 @@
     {
       "do": "shake_head",
       "emo": "shy",
-      "en": "No, I don't want any, thanks.",
-      "fa": "نه، نمی‌خوام، مرسی.",
+      "en": "No, no… I don't want any, thanks.",
+      "fa": "نه، نه… نمی‌خوام، مرسی.",
       "to": "nima",
-      "tr": "Hayır, istemiyorum, teşekkürler.",
+      "tr": "Yok, yok… istemiyorum, teşekkürler.",
       "who": "dilnoza"
     },
     {
@@ -476,10 +468,10 @@
                 }
               },
               {
-                "en": "Coo-coo… Dilnoza?",
-                "fa": "کو-کو… دلنوزا؟",
+                "en": "Coo-coo… Dilnoza's looking at the cake…",
+                "fa": "کو-کو… دلنوزا داره به کیک نگاه می‌کنه…",
                 "narr": true,
-                "tr": "Ku-ku… Dilnoza?",
+                "tr": "Ku-kuu… Dilnoza pastaya bakıyor…",
                 "who": "kerim"
               }
             ],
@@ -524,7 +516,7 @@
     {
       "at": {
         "dilnoza": "park_side",
-        "nima": "corner"
+        "nima": "walk_r"
       },
       "kerim": "tree",
       "scene": "ferikoy",

@@ -143,13 +143,13 @@
       "fa": "تهران",
       "en": "Tehran"
     },
-    "telefonum": {
-      "fa": "گوشی‌ام",
-      "en": "my phone"
+    "hepsi": {
+      "fa": "همه‌شان",
+      "en": "all of them"
     },
-    "telefonun": {
-      "fa": "گوشی‌ات",
-      "en": "your phone"
+    "annesi": {
+      "fa": "مادرش",
+      "en": "his or her mother"
     }
   },
   "id": "s1e19",
@@ -174,67 +174,38 @@
       "terms": [
         "a1-w-fotograf"
       ]
-    },
-    "oyuncak_kedi": {
-      "at": {
-        "x": 1.6,
-        "y": 0.5,
-        "z": -2.4
-      },
-      "kit": "toy",
-      "shown": false,
-      "terms": [
-        "a1-w-kedi",
-        "a2-w-oyuncak"
-      ],
-      "variant": "cat"
     }
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "kedim",
-        "kitabım",
-        "odam"
-      ],
       "q": {
-        "tr": "Ömer: “Benim ablam yok, ağabeyim yok… ama benim … var!”",
-        "en": "Ömer: “I haven't got a big sister or a big brother… but I've got a …!”",
-        "fa": "عمر: «نه آبجی دارم، نه داداش… ولی … دارم!»"
+        "tr": "Nima'nın annesi ne istiyor?",
+        "en": "What does Nima's mum want?",
+        "fa": "مامانِ نیما چی می‌خواد؟"
       },
-      "why": "Ömer: “Benim ablam yok, ağabeyim yok… ama benim kedim var!”"
+      "options": [
+        "Bir kitap",
+        "Bir kedi",
+        "Bir fotoğraf"
+      ],
+      "a": 2,
+      "kind": "comp",
+      "why": "Nima: “Ama annem bir fotoğraf istiyor: Boğaz'da çay!”"
     },
     {
-      "a": 0,
-      "kind": "word",
+      "q": {
+        "tr": "Nima: “Bu annem, bu babam. Bu da …”",
+        "en": "Nima: “This is my mum, this is my dad. And this is my …”",
+        "fa": "نیما: «این مامانمه، این بابام. این هم …»"
+      },
       "options": [
         "kardeşim",
-        "kitabım",
-        "odam"
+        "odam",
+        "kitabım"
       ],
-      "q": {
-        "tr": "Nima: “Bu benim annem, bu benim babam. Bu da benim …”",
-        "en": "Nima: “This is my mum, this is my dad. And this is my …”",
-        "fa": "نیما: «این مامانمه، این بابامه. این هم …»"
-      },
-      "why": "Nima: “Bu benim annem, bu benim babam. Bu da benim kardeşim.”"
-    },
-    {
       "a": 0,
-      "kind": "comp",
-      "options": [
-        "Ama biz buradayız!",
-        "Senin ailen burada!",
-        "Benim kedim yok!"
-      ],
-      "q": {
-        "tr": "Nima: “Çok uzak…” Ömer ne diyor?",
-        "en": "Nima: “Very far away…” What does Ömer say?",
-        "fa": "نیما: «خیلی دوره…» عمر چه می‌گوید؟"
-      },
-      "why": "Ömer: “…Ama biz buradayız! Ben ve sen!”"
+      "kind": "word",
+      "why": "Nima: “Bu annem, bu babam. Bu da kardeşim.”"
     }
   ],
   "ref": "A1_4",
@@ -406,10 +377,10 @@
     {
       "do": "nod",
       "emo": "happy",
-      "en": "Yes, my bag and my notebook.",
-      "fa": "آره، کیفِ من و دفترِ من.",
+      "en": "Yes! My bag, my notebook… they're all mine!",
+      "fa": "آره! کیفم، دفترم… همه‌ش مال منه!",
       "to": "omer",
-      "tr": "Evet, benim çantam ve benim defterim.",
+      "tr": "Evet! Çantam, defterim… hepsi benim!",
       "who": "nima"
     },
     {
@@ -430,33 +401,21 @@
       "do": "point",
       "emo": "happy",
       "en": "This is my mum, this is my dad. And this is my sibling.",
-      "fa": "این مامانمه، این بابامه. این هم خواهر/برادرمه.",
+      "fa": "این مامانمه، این بابامه. این هم خواهر یا برادرمه.",
       "to": "omer",
-      "tr": "Bu benim annem, bu benim babam. Bu da benim kardeşim.",
+      "tr": "Bu annem, bu babam. Bu da kardeşim.",
       "who": "nima"
     },
     {
-      "at": "obj:oyuncak_kedi",
-      "do": "hold_up",
-      "emo": "proud",
-      "en": "I haven't got a big sister or a big brother… but I've got a cat! Where's your family?",
-      "fa": "من نه آبجی دارم، نه داداش… ولی گربه دارم! خانواده‌ات کجاست؟",
-      "link": {
-        "kedim": "obj:oyuncak_kedi"
-      },
-      "obj": [
-        {
-          "id": "oyuncak_kedi",
-          "op": "show"
-        },
-        {
-          "id": "oyuncak_kedi",
-          "op": "take"
-        }
-      ],
+      "at": "mark:door",
+      "do": "point",
+      "emo": "happy",
+      "en": "I haven't got a big sister or a big brother… but there's a cat at the door! Where's your family?",
+      "fa": "من نه آبجی دارم، نه داداش… ولی دمِ در یه گربه هست! خانواده‌ات کجاست؟",
       "to": "nima",
-      "tr": "Benim ablam yok, ağabeyim yok… ama benim kedim var! Senin ailen nerede?",
-      "who": "omer"
+      "tr": "Benim ablam yok, ağabeyim yok… ama kapıda bir kedi var! Ailen nerede?",
+      "who": "omer",
+      "on": "kapıda"
     },
     {
       "emo": "sad",
@@ -511,18 +470,6 @@
       "emo": "happy",
       "en": "Bye! Your room is really nice!",
       "fa": "خداحافظ! اتاقت خیلی قشنگه!",
-      "move": [
-        {
-          "how": "exit",
-          "to": "door",
-          "who": "omer"
-        },
-        {
-          "how": "exit",
-          "to": "door",
-          "who": "elif"
-        }
-      ],
       "to": "nima",
       "tr": "Hoşça kal! Senin odan çok güzel!",
       "who": "omer"
@@ -534,7 +481,19 @@
       "fa": "به سلامت!",
       "to": "omer",
       "tr": "Güle güle!",
-      "who": "nima"
+      "who": "nima",
+      "move": [
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "omer"
+        },
+        {
+          "how": "exit",
+          "to": "door",
+          "who": "elif"
+        }
+      ]
     },
     {
       "beat": {
@@ -573,10 +532,10 @@
       "who": "nima"
     },
     {
-      "en": "Come over to ours on Sunday. There'll be food!",
-      "fa": "یکشنبه بیا خونه‌ی ما. غذا داریم!",
+      "en": "Come over to mine on Sunday! I'm cooking.",
+      "fa": "یکشنبه بیا خونه‌ام! غذا درست می‌کنم.",
       "to": "nima",
-      "tr": "Pazar günü bize gel. Yemek var!",
+      "tr": "Pazar günü bana gel! Yemek yapıyorum.",
       "via": "phone",
       "who": "farzad"
     },

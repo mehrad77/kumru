@@ -113,8 +113,8 @@
       "en": "our neighbours"
     },
     "ku": {
-      "fa": "کو (صدای کریم)",
-      "en": "coo (Kerim's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "kutlu": {
       "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
@@ -167,6 +167,18 @@
     "şerefe": {
       "fa": "به سلامتی! (موقعِ بالا بردنِ لیوان)",
       "en": "cheers! (raising a glass)"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
+    },
+    "dilim": {
+      "fa": "برش، تیکه (کیک)",
+      "en": "slice"
+    },
+    "şşş": {
+      "fa": "هیس!",
+      "en": "shh!"
     }
   },
   "id": "s1e30",
@@ -341,37 +353,22 @@
         "en": "How many candles are there?",
         "fa": "چند شمع هست؟"
       },
-      "why": "Ömer: “Sekiz mum! Bir mum, on yıl!”"
+      "why": "Ömer: “Sekiz mum! Her mum on yıl!”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "Pasta için",
-        "Çay için",
-        "Şal için"
+        "sonra",
+        "önce",
+        "beri"
       ],
       "q": {
-        "tr": "“Sekiz mum!” Mum ne için?",
-        "en": "“Sekiz mum!” What is a candle for here?",
-        "fa": "«Sekiz mum!» شمع برای چیست؟"
+        "tr": "Maria Teyze: “Yetmiş yıl … bu çatıda bir doğum günü oldu.” Hangisi?",
+        "en": "Maria Teyze: “Seventy years … there was a birthday on this roof.” Which word?",
+        "fa": "خاله ماریا: «Yetmiş yıl … bu çatıda bir doğum günü oldu.» کدام کلمه؟"
       },
-      "why": "Ömer: “Sekiz mum! Bir mum, on yıl! Şimdi şarkı söylüyoruz!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Atina'ya",
-        "Okula",
-        "Kadıköy'e"
-      ],
-      "q": {
-        "tr": "Eleni ve ailesi nereye gitti?",
-        "en": "Where did Eleni and her family go?",
-        "fa": "النی و خانواده‌اش کجا رفتند؟"
-      },
-      "why": "Maria Teyze: “Sonra… onlar gittiler. Atina'ya.”"
+      "why": "Maria Teyze: “Yetmiş yıl önce… bu çatıda bir doğum günü oldu. Benim! On yaş!”"
     }
   ],
   "ref": "A1_5",
@@ -394,8 +391,8 @@
     },
     {
       "cam": "wide",
-      "en": "Today… eighty years! And on the roof… a surprise!",
-      "fa": "امروز… هشتاد سالگی! و روی پشت‌بوم… یه سورپرایز!",
+      "en": "On the roof: balloons, cake, tea… Shh! A surprise!",
+      "fa": "روی پشت‌بوم: بادکنک، کیک، چای… هیس! یه سورپرایز!",
       "narr": true,
       "react": {
         "omer": {
@@ -403,13 +400,13 @@
           "emo": "nervous"
         }
       },
-      "tr": "Bugün… seksen yaş! Ve çatıda… bir sürpriz!",
+      "tr": "Çatıda balonlar, pasta, çay… Şşş! Bir sürpriz!",
       "who": "kerim"
     },
     {
       "at": {
         "maria": "maria_door",
-        "nima": "landing_5"
+        "nima": "stairs_4_5"
       },
       "kerim": "stair_window",
       "scene": "flat_nima_stairs",
@@ -526,7 +523,7 @@
       "en": "No more secret! Since Thursday… it was so hard!",
       "fa": "راز تموم شد! از پنجشنبه تا حالا… خیلی سخت بود!",
       "to": "all",
-      "tr": "Sır bitti! Perşembeden beri… çok zor!",
+      "tr": "Sır bitti! Perşembeden beri… çok zordu!",
       "who": "omer"
     },
     {
@@ -600,7 +597,7 @@
         "move": [
           {
             "how": "enter",
-            "to": "seat_5",
+            "to": "sit_2",
             "who": "gulten"
           },
           {
@@ -622,14 +619,15 @@
       "at": "obj:mumlar",
       "do": "point",
       "emo": "happy",
-      "en": "Eight candles! One candle, ten years! Now we sing!",
-      "fa": "هشت تا شمع! هر شمع، ده سال! حالا آواز می‌خونیم!",
+      "en": "Eight candles! Each candle is ten years! Now we sing!",
+      "fa": "هشت تا شمع! هر شمع ده سال! حالا آواز می‌خونیم!",
       "link": {
         "mum": "obj:mumlar"
       },
       "to": "all",
-      "tr": "Sekiz mum! Bir mum, on yıl! Şimdi şarkı söylüyoruz!",
-      "who": "omer"
+      "tr": "Sekiz mum! Her mum on yıl! Şimdi şarkı söylüyoruz!",
+      "who": "omer",
+      "cam": "obj"
     },
     {
       "emo": "happy",
@@ -663,7 +661,9 @@
         "sfx": {
           "id": "applause"
         },
-        "who": "maria"
+        "who": "maria",
+        "cam": "two",
+        "at": "ch:maria"
       }
     },
     {
@@ -677,15 +677,16 @@
             "to": "nima"
           }
         ],
-        "who": "elif"
+        "who": "elif",
+        "cam": "two"
       }
     },
     {
       "emo": "curious",
-      "en": "Whose is the first piece?",
-      "fa": "اولین تیکه‌ی کیک مالِ کیه؟",
+      "en": "Whose is the first slice?",
+      "fa": "اولین تیکه مالِ کیه؟",
       "to": "nima",
-      "tr": "İlk pasta kimin?",
+      "tr": "İlk dilim kimin?",
       "who": "omer"
     },
     {
@@ -805,10 +806,10 @@
     {
       "do": "beckon",
       "emo": "happy",
-      "en": "Come on, Nima! A speech!",
-      "fa": "بیا، نیما! یه سخنرانی کن!",
+      "en": "Come on, Nima! Two celebrations today: Maria Teyze is eighty, you're one month! A speech!",
+      "fa": "بیا، نیما! امروز دو تا جشن: خاله ماریا هشتاد، تو یه ماه! یه سخنرانی!",
       "to": "nima",
-      "tr": "Gel, Nima! Bir konuşma!",
+      "tr": "Gel, Nima! Bugün iki kutlama: Maria Teyze seksen, sen bir ay! Bir konuşma!",
       "who": "serkan"
     },
     {
@@ -909,7 +910,7 @@
       }
     },
     {
-      "cam": "wide",
+      "cam": "single",
       "emo": "moved",
       "en": "Seventy years ago… there was a birthday on this roof. Mine! I turned ten!",
       "env": "state:past",
@@ -1035,9 +1036,9 @@
     {
       "emo": "happy",
       "en": "Coo-coo… one! I caught one!",
-      "fa": "کو-کو… یکی! یکی رو گرفتم!",
+      "fa": "کو-کوو… یکی! یکی رو گرفتم!",
       "narr": true,
-      "tr": "Ku-ku… bir tane! Bir tane yakaladım!",
+      "tr": "Ku-kuu… bir tane! Bir tane yakaladım!",
       "who": "kerim"
     }
   ],

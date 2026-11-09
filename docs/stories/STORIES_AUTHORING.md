@@ -26,13 +26,13 @@ kind         episode | special
 level · ref  A1 · A1_1
 arc          short name of the week's arc
 place        district + spot (backdrop id)
-cast         2–4 ids (episode), ≤ 6 (special); sen/siz for each pair
+cast         2–4 who carry it (episode), ≤ 6 (special), plus anyone with one short line; sen/siz for each pair
 premise      2–3 sentences: what happens, what small problem or joke drives it
 grammar      lessons: [...]; Kerim's spot covers: ...
 words        5–8 target card ids (10–12 for a special); recycled words from earlier stories
 choices      1–2: [polite | meaning | action], the situation and what the options contrast;
              a flag the `ok` pick sets, if a later story remembers it
-quiz         3 questions: comprehension + target words
+quiz         0–3 questions (usually 1–2): comprehension + target words in a new frame
 follow-up    scripted dialogue: who, what the learner practises (free tier)
 calendar     any real-world date or season it must reflect
 arc beat     the season-arc step this story carries, if any (weakness, setback, battle, …)
@@ -51,8 +51,8 @@ The full data structure is in `STORIES_SCHEMA.md`: stories, steps and staging, c
 The page changes these imply (archive view, date gating, reactions, the new name token for `personalizeStr`, new character art) are a separate code pass: the plan is in `ROADMAP.md` (M8).
 
 ### Review checklist
-- [ ] Level fit: only allowed grammar (strict at A1), sentence length within the level's band.
-- [ ] Known-word ratio ~95%; every new word glossed in `gl`.
+- [ ] Level fit: only allowed grammar (strict at A1), sentence length within the level's band, 10–18 spoken lines at A1.
+- [ ] Known-word ratio ~95% of content words (names, glossed and sound words not counted); every new word glossed in `gl`.
 - [ ] All target words used at least once; recycled words from the past 2 weeks present.
 - [ ] Kerim's spot matches a lesson in `lessons`, and the example is from the story.
 - [ ] *sen*/*siz* consistent with the relationship table; no gendered English for the stand-in.
@@ -64,7 +64,12 @@ The page changes these imply (archive view, date gating, reactions, the new name
 - [ ] Persian natural (not a word-by-word translation); English plain.
 - [ ] Choices contrast a real point of their kind (polite, meaning or action); every option gets a reaction; a remembered pick has an `if`/`unless` pair later.
 - [ ] The stand-in never has two lines in a row (each turn is one reply card), and gets a turn within the first four lines.
-- [ ] Quiz: answers are clearly in the text; the "why" quotes the line.
+- [ ] Quiz: only items that need the story; answers are clearly in the text; the "why" quotes the line; the right option is not always the first.
+- [ ] A want, a stake or a turn; no drill in costume.
+- [ ] Natural turns: short answers, no answer repeating its question, nobody telling what both know; read each line aloud.
+- [ ] No opener or closer formula shared with another episode of the week.
+- [ ] The week gives Nima's weakness one small beat.
+- [ ] Staging: no speaker leaves on their own line (it plays as a phone bubble); the speaker is in frame; nobody stands between the camera and the speaker. Check the storyboard (backstage's strip, or `shots.mjs`).
 
 ### Sample brief
 The first finished brief is `s1e01` in `STORIES_A1.md` (Week 1). Briefs are written day by day there, each one from four questions to the owner.

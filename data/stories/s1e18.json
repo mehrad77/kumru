@@ -334,49 +334,19 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Maria",
-        "Ömer",
-        "Farzad"
+        "Çatıda",
+        "Boğaz'da",
+        "Feriköy'de"
       ],
       "q": {
-        "tr": "“O… Kerim!” Kim diyor?",
-        "en": "“That's… Kerim!” Who names the bird?",
-        "fa": "«اون… کریمه!» چه کسی اسمِ پرنده را می‌گذارد؟"
+        "tr": "Nima nerede çay içmek istiyor?",
+        "en": "Where does Nima want to drink tea?",
+        "fa": "نیما کجا می‌خواهد چای بخورد؟"
       },
-      "why": "Maria: “O… Kerim!”"
-    },
-    {
-      "a": 0,
-      "kind": "word",
-      "options": [
-        "istiyorum",
-        "oturuyorum",
-        "izliyorum"
-      ],
-      "q": {
-        "tr": "Nima: “Ben Boğaz'a gitmek …!”",
-        "en": "“İstemek” means to want. Nima: “I … to go to the Bosphorus!” Which word fits?",
-        "fa": "‏«istemek» یعنی خواستن. نیما: «من … به بسفر بروم!» کدام کلمه درست است؟"
-      },
-      "why": "Nima: “Ben Boğaz'a gitmek istiyorum!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Polis",
-        "Doktor",
-        "Şoför"
-      ],
-      "q": {
-        "tr": "Ömer ne olmak istiyor?",
-        "en": "What does Ömer want to be?",
-        "fa": "عمر می‌خواهد چه‌کاره شود؟"
-      },
-      "why": "Ömer: “Ben polis olmak istiyorum!”"
+      "why": "Nima: “Ben Boğaz'da çay içmek istiyorum!”"
     }
   ],
   "ref": "A1_3",
@@ -413,7 +383,7 @@
       "do": "hold_up",
       "emo": "proud",
       "en": "The third key! Up to the roof we go. Come on in!",
-      "fa": "کلیدِ سوم! داریم می‌ریم پشت‌بوم. بفرمایید!",
+      "fa": "کلیدِ سوم! داریم می‌ریم پشت‌بوم. بفرمایین!",
       "link": {
         "anahtar": "obj:anahtar"
       },
@@ -469,8 +439,8 @@
       "at": "obj:caydanlik",
       "do": "hold_up",
       "emo": "happy",
-      "en": "Here comes the tea! The teapot's here!",
-      "fa": "چای اومد! قوری این‌جاست!",
+      "en": "Here comes the tea! The teapot's hot!",
+      "fa": "چای داره میاد! قوری داغه!",
       "link": {
         "çay": "obj:caydanlik",
         "çaydanlık": "obj:caydanlik"
@@ -491,15 +461,16 @@
         }
       ],
       "to": "all",
-      "tr": "Çay geliyor! Çaydanlık burada!",
-      "who": "maria"
+      "tr": "Çay geliyor! Çaydanlık sıcak!",
+      "who": "maria",
+      "cam": "single"
     },
     {
       "at": "obj:sandalyeler",
       "do": "hold_up",
       "emo": "tired",
-      "en": "The chairs are here too! I'm helping as well!",
-      "fa": "صندلی‌ها هم این‌جان! منم کمک می‌کنم!",
+      "en": "And here come the chairs! I'm helping too!",
+      "fa": "صندلی‌ها هم دارن میان! منم کمک می‌کنم!",
       "link": {
         "sandalyeler": "obj:sandalyeler"
       },
@@ -519,8 +490,9 @@
         }
       ],
       "to": "all",
-      "tr": "Sandalyeler de burada! Ben de yardım ediyorum!",
-      "who": "serkan"
+      "tr": "Sandalyeler de geliyor! Ben de yardım ediyorum!",
+      "who": "serkan",
+      "cam": "single"
     },
     {
       "beat": {
@@ -536,8 +508,8 @@
     },
     {
       "emo": "happy",
-      "en": "A new home… and a roof too! The weather's lovely too!",
-      "fa": "خونه‌ی نو… پشت‌بوم هم داره! هوا هم عالیه!",
+      "en": "What lovely weather! Kırlangıç, Rayan… come on in!",
+      "fa": "هوا عالیه! پرستو، رایان… بیاین، بیاین!",
       "move": [
         {
           "how": "enter",
@@ -551,13 +523,21 @@
         },
         {
           "how": "enter",
-          "to": "seat_4",
+          "to": "sit_6",
           "who": "rayan"
+        },
+        {
+          "how": "walk",
+          "to": "seat_3",
+          "who": "omer"
         }
       ],
-      "to": "nima",
-      "tr": "Yeni ev… çatı da var! Hava da çok güzel!",
-      "who": "farzad"
+      "to": "kirlangic",
+      "tr": "Hava çok güzel! Kırlangıç, Rayan… gelin, gelin!",
+      "who": "farzad",
+      "do": "beckon",
+      "cam": "two",
+      "at": "ch:kirlangic"
     },
     {
       "do": "shush",
@@ -578,8 +558,8 @@
     },
     {
       "emo": "happy",
-      "en": "Here you are, tea! And there are biscuits too.",
-      "fa": "بفرمایید، چای! شیرینی هم هست.",
+      "en": "Here you are, tea! There are biscuits too.",
+      "fa": "بفرمایین، چای! شیرینی هم هست.",
       "link": {
         "kurabiye": "obj:kurabiye",
         "çay": "obj:bardaklar"
@@ -703,20 +683,11 @@
       }
     },
     {
-      "beat": {
-        "move": {
-          "how": "walk",
-          "to": "seat_3",
-          "who": "omer"
-        }
-      }
-    },
-    {
       "at": "obj:omerin_kasigi",
       "do": "touch",
       "emo": "proud",
-      "en": "That's enough tea! The spoon goes here.",
-      "fa": "چای بسه! قاشق این‌جاست.",
+      "en": "That's enough for me! Look… the spoon!",
+      "fa": "من دیگه بسمه! ببین… قاشق!",
       "link": {
         "kaşık": "obj:omerin_kasigi"
       },
@@ -733,14 +704,14 @@
         }
       },
       "to": "maria",
-      "tr": "Çay yeter! Kaşık burada.",
+      "tr": "Bana yeter! Bak… kaşık!",
       "who": "omer"
     },
     {
       "do": "explain",
       "emo": "curious",
       "en": "What do you all want to do?",
-      "fa": "شما دلتون می‌خواد چی‌کار کنید؟",
+      "fa": "شما دلتون می‌خواد چی‌کار کنین؟",
       "to": "all",
       "tr": "Ne yapmak istiyorsunuz?",
       "who": "maria"
@@ -768,7 +739,7 @@
       "do": "point",
       "emo": "laugh",
       "en": "…wants to watch them! Matches, always!",
-      "fa": "…می‌خواد تماشا کنه! همش فوتبال!",
+      "fa": "…می‌خواد تماشا کنه! همه‌ش بازی!",
       "react": {
         "farzad": "laugh",
         "serkan": "laugh"
@@ -779,47 +750,38 @@
     },
     {
       "do": "me",
-      "emo": "laugh",
-      "en": "I want to drink tea!",
-      "fa": "من می‌خوام چای بخورم!",
-      "link": {
-        "çay": "obj:bardaklar"
-      },
-      "react": {
-        "maria": "laugh",
-        "nima": "laugh"
-      },
-      "to": "all",
-      "tr": "Ben çay içmek istiyorum!",
-      "who": "kirlangic"
-    },
-    {
-      "at": "ch:elif",
-      "do": "point",
-      "emo": "tired",
-      "en": "I want to sleep… like Elif!",
-      "fa": "من می‌خوام بخوابم… مثلِ الیف!",
-      "to": "all",
-      "tr": "Ben uyumak istiyorum… Elif gibi!",
-      "who": "farzad"
-    },
-    {
-      "do": "me",
       "emo": "moved",
-      "en": "I want to live right here. In Feriköy.",
-      "fa": "من می‌خوام همین‌جا زندگی کنم. تو فری‌کؤی.",
+      "en": "Me… I want to live right here, always. In Feriköy.",
+      "fa": "من… می‌خوام همیشه همین‌جا بمونم. تو فری‌کؤی.",
       "to": "all",
-      "tr": "Ben burada oturmak istiyorum. Feriköy'de.",
+      "tr": "Ben… hep burada oturmak istiyorum. Feriköy'de.",
       "who": "maria"
     },
     {
       "do": "me",
       "emo": "happy",
-      "en": "I want to go to the Bosphorus!",
-      "fa": "من می‌خوام برم کنارِ بسفر!",
+      "en": "I want to drink tea on the Bosphorus!",
+      "fa": "من می‌خوام کنار بسفر چای بخورم!",
       "to": "all",
-      "tr": "Ben Boğaz'a gitmek istiyorum!",
+      "tr": "Ben Boğaz'da çay içmek istiyorum!",
       "who": "nima"
+    },
+    {
+      "at": "obj:bardaklar",
+      "do": "point",
+      "emo": "laugh",
+      "en": "Why? The tea's right here!",
+      "fa": "چرا؟ چای که این‌جاست!",
+      "link": {
+        "çay": "obj:bardaklar"
+      },
+      "react": {
+        "maria": "laugh",
+        "farzad": "laugh"
+      },
+      "to": "nima",
+      "tr": "Neden? Çay burada!",
+      "who": "omer"
     },
     {
       "beat": {
@@ -853,7 +815,7 @@
       "do": "point_far",
       "emo": "moved",
       "en": "Listen… “Yâ Kerim… yâ Kerim…” This bird always says “Yâ Kerim”. That's… Kerim!",
-      "fa": "گوش کنید… «یا کریم… یا کریم…» این پرنده همیشه می‌گه «یا کریم». اون… کریمه!",
+      "fa": "گوش کنین… «یا کریم… یا کریم…» این پرنده همیشه می‌گه «یا کریم». اون… کریمه!",
       "react": {
         "nima": "surprised",
         "omer": "surprised"
@@ -908,9 +870,9 @@
     },
     {
       "spot": {
-        "en": "Everyone's wish has the same shape: the verb with -mAk, then istiyorum. Polis olmak, Beşiktaş'ı izlemek, çay içmek, uyumak, burada oturmak, Boğaz'a gitmek… istiyorum. And to ask: Ne yapmak istiyorsun? What do you want to do?",
+        "en": "Everyone's wish has the same shape: the verb with -mAk, then istiyorum. Polis olmak, Beşiktaş'ı izlemek, burada oturmak, Boğaz'da çay içmek… istiyorum. And to ask: Ne yapmak istiyorsun? What do you want to do?",
         "ex": "Ben polis olmak istiyorum!",
-        "fa": "آرزوی همه یک شکل دارد: فعل با ‎-mAk، بعد istiyorum. Polis olmak، Beşiktaş'ı izlemek، çay içmek، uyumak، burada oturmak، Boğaz'a gitmek… istiyorum (می‌خواهم پلیس شوم، بشیکتاش را تماشا کنم، چای بنوشم، بخوابم، این‌جا زندگی کنم، به بسفر بروم). و برای پرسیدن: Ne yapmak istiyorsun? می‌خواهی چه کار کنی؟",
+        "fa": "آرزوی همه یک شکل دارد: فعل با ‎-mAk، بعد istiyorum. Polis olmak، Beşiktaş'ı izlemek، burada oturmak، Boğaz'da çay içmek… istiyorum (می‌خواهم پلیس شوم، بشیکتاش را تماشا کنم، همین‌جا زندگی کنم، کنارِ بسفر چای بنوشم). و برای پرسیدن: Ne yapmak istiyorsun? می‌خواهی چه کار کنی؟",
         "lesson": "g_a1_3_mak_istemek"
       }
     },

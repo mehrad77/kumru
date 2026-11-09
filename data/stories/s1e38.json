@@ -119,8 +119,8 @@
       "en": "teacher, sir/miss (said to a teacher)"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
@@ -134,13 +134,25 @@
       "fa": "تعمیرکار، اوستا",
       "en": "repairman"
     },
-    "öğrenciydi": {
-      "fa": "دانشجو بود",
-      "en": "was a student"
-    },
     "şşş": {
       "fa": "هیس!",
       "en": "shh!"
+    },
+    "hadi": {
+      "fa": "یالا؛ زود باش",
+      "en": "come on!"
+    },
+    "aa": {
+      "fa": "آهان! (وقتی چیزی را می‌فهمی)",
+      "en": "oh! (getting it)"
+    },
+    "deneme": {
+      "fa": "آزمایشی",
+      "en": "trial, mock"
+    },
+    "az kaldı": {
+      "fa": "چیزی نمونده بود",
+      "en": "nearly, almost"
     }
   },
   "id": "s1e38",
@@ -198,26 +210,11 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "İkinci katta",
-        "Birinci katta",
-        "Dördüncü katta"
-      ],
-      "q": {
-        "tr": "Kütüphane kaçıncı katta?",
-        "en": "Which floor is the library on?",
-        "fa": "کتابخانه طبقهٔ چندم است؟"
-      },
-      "why": "Nima: “İkinci katta.”"
-    },
-    {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "doğru",
         "soğuk",
+        "doğru",
         "uzun"
       ],
       "q": {
@@ -228,12 +225,12 @@
       "why": "Yeni öğrenci: “Affedersin… bu doğru mu?”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Hocam",
         "Komşu",
-        "Abla"
+        "Abla",
+        "Hocam"
       ],
       "q": {
         "tr": "Yeni öğrenci Nima'ya ne diyor?",
@@ -250,11 +247,11 @@
     {
       "at": {
         "dilnoza": "table_2",
-        "kirlangic": "table_1",
+        "kirlangic": "table_4",
         "librarian_ibb": "librarian",
         "newcomer": "next_table",
         "nima": "table_3",
-        "parvaneh": "table_4",
+        "parvaneh": "table_1",
         "yusuf": "table_5"
       },
       "kerim": "sill",
@@ -263,8 +260,8 @@
     },
     {
       "emo": "happy",
-      "en": "Shh! This is the library. Everyone's studying. Kerim's quiet too… coo… coo…",
-      "fa": "هیس! این‌جا کتابخونه‌ست. همه دارن درس می‌خونن. کریم هم ساکته… کو… کو…",
+      "en": "Shh! In the library everyone's quiet. Everyone?",
+      "fa": "هیس! توی کتابخونه همه ساکتن. همه؟",
       "link": {
         "sessiz": "obj:quiet_sign"
       },
@@ -273,7 +270,7 @@
         "id": "beak_tap",
         "word": "tık tık tık"
       },
-      "tr": "Şşş! Burası kütüphane. Herkes çalışıyor. Kerim de sessiz… ku… ku…",
+      "tr": "Şşş! Kütüphanede herkes sessiz. Herkes mi?",
       "voice": "whisper",
       "who": "kerim"
     },
@@ -328,39 +325,12 @@
     },
     {
       "emo": "happy",
-      "en": "Which floor is the library on?",
-      "fa": "کتابخونه طبقهٔ چندمه؟",
-      "link": {
-        "kütüphane": "obj:levha"
-      },
+      "en": "Tomorrow is the mock exam. Come on, we're studying! Question: what's on the table?",
+      "fa": "فردا امتحانِ آزمایشیه. یالا، درس می‌خونیم! سؤال: روی میز چی هست؟",
       "to": "nima",
-      "tr": "Kütüphane kaçıncı katta?",
+      "tr": "Yarın deneme sınavı var. Hadi, çalışıyoruz! Soru: masada ne var?",
       "voice": "whisper",
       "who": "kirlangic"
-    },
-    {
-      "at": "obj:floor_sign",
-      "do": "point",
-      "emo": "proud",
-      "en": "On the second floor.",
-      "fa": "طبقهٔ دوم.",
-      "link": {
-        "katta": "obj:floor_sign"
-      },
-      "to": "kirlangic",
-      "tr": "İkinci katta.",
-      "voice": "whisper",
-      "who": "nima"
-    },
-    {
-      "do": "write",
-      "emo": "happy",
-      "en": "What's on the table?",
-      "fa": "روی میز چی هست؟",
-      "to": "nima",
-      "tr": "Masada ne var?",
-      "voice": "whisper",
-      "who": "dilnoza"
     },
     {
       "at": "obj:books",
@@ -372,10 +342,19 @@
         "kalem": "obj:pens",
         "kitap": "obj:books"
       },
-      "to": "dilnoza",
+      "to": "kirlangic",
       "tr": "Kitap var, kalem var… çay yok!",
       "voice": "whisper",
       "who": "nima"
+    },
+    {
+      "emo": "laugh",
+      "en": "Right! No tea…",
+      "fa": "درسته! چای نیست…",
+      "to": "nima",
+      "tr": "Doğru! Çay yok…",
+      "voice": "whisper",
+      "who": "dilnoza"
     },
     {
       "at": "obj:workbook",
@@ -413,9 +392,9 @@
             "reply": [
               {
                 "emo": "happy",
-                "en": "On the table! OK… thanks!",
-                "fa": "روی میز! باشه… مرسی!",
-                "tr": "Masada! Tamam… teşekkürler!",
+                "en": "On the table! Oh, OK!",
+                "fa": "روی میز! آهان، باشه!",
+                "tr": "Masada! Aa, tamam!",
                 "voice": "whisper",
                 "who": "newcomer"
               }
@@ -435,10 +414,10 @@
             "reply": [
               {
                 "emo": "happy",
-                "en": "But very close!",
-                "fa": "ولی خیلی نزدیک بود!",
+                "en": "But nearly!",
+                "fa": "ولی نزدیک بود!",
                 "to": "newcomer",
-                "tr": "Ama çok yakın!",
+                "tr": "Ama az kaldı!",
                 "voice": "whisper",
                 "who": "dilnoza"
               }
@@ -500,8 +479,8 @@
       "at": "obj:workbook",
       "do": "touch",
       "emo": "happy",
-      "en": "The book is on the table. So… which page is this?",
-      "fa": "کتاب روی میزه. خب… این صفحه چندمه؟",
+      "en": "The book is on the table… And which page is “var, yok” on?",
+      "fa": "کتاب روی میزه… راستی، «var, yok» صفحهٔ چندمه؟",
       "link": {
         "sayfa": "obj:workbook"
       },
@@ -515,16 +494,16 @@
         }
       ],
       "to": "nima",
-      "tr": "Kitap masada. Peki… bu kaçıncı sayfa?",
+      "tr": "Kitap masada… Peki, “var, yok” kaçıncı sayfada?",
       "voice": "whisper",
       "who": "newcomer"
     },
     {
       "emo": "proud",
-      "en": "Page thirty-one!",
+      "en": "On page thirty-one!",
       "fa": "صفحهٔ سی و یکم!",
       "to": "newcomer",
-      "tr": "Otuz birinci sayfa!",
+      "tr": "Otuz birinci sayfada!",
       "voice": "whisper",
       "who": "nima"
     },
@@ -564,26 +543,26 @@
     },
     {
       "spot": {
-        "en": "-DA says where: “İkinci katta.” (on the second floor), “Kitap masada.” (the book is on the table). The vowel follows harmony, and after a hard consonant d turns into t: katta, masada, evde. var / yok say what is there: “Kitap var, kalem var… çay yok!” And değil makes a noun negative: “Hocam değil… arkadaşım!”",
-        "ex": "İkinci katta.",
-        "fa": "‎-DA‎ جای چیزی را می‌گوید: «İkinci katta.» (در طبقهٔ دوم)، «Kitap masada.» (کتاب روی میز است). واکه‌اش از هماهنگی پیروی می‌کند، و بعد از صامت‌های سخت (مثلِ t)، d به t تبدیل می‌شود: katta، masada، evde. ‏var / yok می‌گویند چه چیزی هست یا نیست: «Kitap var, kalem var… çay yok!». و değil اسم را منفی می‌کند: «Hocam değil… arkadaşım!» («استاد» نه… «رفیق»!)",
+        "en": "-DA says where: “Kitap masada.” (the book is on the table), “Kütüphanede herkes sessiz.” (in the library everyone's quiet), “Otuz birinci sayfada!” The vowel follows harmony: masada, kütüphanede, sayfada. After a hard consonant d turns into t: kitap → kitapta. var / yok say what is there: “Kitap var, kalem var… çay yok!” And değil makes a noun negative: “Hocam değil… arkadaşım!”",
+        "ex": "Kitap masada.",
+        "fa": "‎-DA‎ جای چیزی را می‌گوید: «Kitap masada.» (کتاب روی میز است)، «Kütüphanede herkes sessiz.» (توی کتابخانه همه ساکت‌اند)، «Otuz birinci sayfada!» (در صفحهٔ سی و یکم). واکه‌اش از هماهنگی پیروی می‌کند: masada، kütüphanede، sayfada. بعد از صامت‌های سخت، d به t تبدیل می‌شود: kitap ← kitapta. ‏var / yok می‌گویند چه چیزی هست یا نیست: «Kitap var, kalem var… çay yok!». و değil اسم را منفی می‌کند: «Hocam değil… arkadaşım!» («استاد» نه… «رفیق»!).",
         "lesson": "g_a1_2_bulunma",
         "show": "case_path"
       }
     },
     {
       "emo": "moved",
-      "en": "Six weeks ago… Nima was a new student. Today… a bit of a teacher!",
-      "fa": "شش هفته پیش… نیما یه دانشجوی تازه‌وارد بود. امروز… یه کم معلم!",
+      "en": "Nima isn't a teacher… But today? A bit of a teacher!",
+      "fa": "نیما معلم نیست… ولی امروز؟ یه کم معلم!",
       "narr": true,
-      "tr": "Altı hafta önce… Nima yeni bir öğrenciydi. Bugün… biraz öğretmen!",
+      "tr": "Nima öğretmen değil… Ama bugün? Biraz öğretmen!",
       "voice": "whisper",
       "who": "kerim"
     }
   ],
   "summary": {
-    "en": "The study group meets at a warm İBB library. Between Unit 2 drills, the new student from Berfin's café asks Nima for help, and the student becomes, a little, a teacher.",
-    "fa": "گروهِ درس‌خوانی در یک کتابخانهٔ گرمِ شهرداری جمع می‌شود. بینِ تمرین‌های درسِ ۲، همان دانشجوی تازه‌واردی که در کافهٔ برفین بود از نیما کمک می‌خواهد، و شاگرد کمی معلم می‌شود."
+    "en": "The study group meets at a warm İBB library and drills for tomorrow's mock exam. The new student from Berfin's café asks Nima for help, and the student becomes, a little, a teacher.",
+    "fa": "گروهِ درس‌خوانی در یک کتابخانهٔ گرمِ شهرداری جمع می‌شود و برای امتحانِ آزمایشیِ فردا تمرین می‌کند. همان دانشجوی تازه‌واردی که در کافهٔ برفین بود از نیما کمک می‌خواهد، و شاگرد کمی معلم می‌شود."
   },
   "title": {
     "tr": "Kütüphanede",

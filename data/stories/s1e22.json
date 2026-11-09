@@ -124,10 +124,6 @@
       "fa": "به این‌جا",
       "en": "(to) here"
     },
-    "dayısına": {
-      "fa": "پیشِ دایی‌اش",
-      "en": "to his or her uncle (mother's brother)"
-    },
     "fotoğraflarım": {
       "fa": "عکس‌هایم",
       "en": "my photos"
@@ -143,10 +139,6 @@
     "gönderildi": {
       "fa": "فرستاده شد",
       "en": "sent"
-    },
-    "halep": {
-      "fa": "حلب",
-      "en": "Aleppo"
     },
     "herkesin": {
       "fa": "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
@@ -192,10 +184,6 @@
       "fa": "فراموش نکنید",
       "en": "don't forget"
     },
-    "yazın": {
-      "fa": "تابستان، در تابستان",
-      "en": "in (the) summer"
-    },
     "zafer": {
       "fa": "ظفر (اسم)",
       "en": "Zafer (a name)"
@@ -203,6 +191,18 @@
     "şaka": {
       "fa": "شوخی",
       "en": "joke; just kidding"
+    },
+    "günü": {
+      "fa": "روزِ… (kira günü: روزِ اجاره)",
+      "en": "day of (kira günü: rent day)"
+    },
+    "farzad'ı": {
+      "fa": "فرزاد را (به فرزاد زنگ می‌زنم)",
+      "en": "Farzad (as the object)"
+    },
+    "belge": {
+      "fa": "مدرک",
+      "en": "document"
     }
   },
   "id": "s1e22",
@@ -276,49 +276,34 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Yusuf",
-        "Nima",
-        "Reza Bey"
-      ],
       "q": {
-        "tr": "Zafer Hoca: “Hangi aile Halep'ten?” Kim diyor: “Benim ailem!”?",
-        "en": "Zafer Hoca: “Which family is from Aleppo?” Who says “My family!”?",
-        "fa": "استاد ظفر: «کدام خانواده اهلِ حلب است؟» چه کسی می‌گوید «خانواده‌ی من!»؟"
+        "tr": "Ayın biri. Nima kirayı ne yapıyor?",
+        "en": "It's the first of the month. What does Nima do with the rent?",
+        "fa": "اولِ ماهه. نیما با اجاره چی کار می‌کنه؟"
       },
-      "why": "Yusuf: “Benim ailem!”"
-    },
-    {
-      "a": 0,
+      "options": [
+        "Unutuyor",
+        "Arıyor",
+        "Gönderiyor"
+      ],
+      "a": 2,
       "kind": "word",
-      "options": [
-        "gönderiyorum",
-        "unutuyorum",
-        "istiyorum"
-      ],
-      "q": {
-        "tr": "Nima: “Kirayı …… tamam!”",
-        "en": "Nima: “I'm …… the rent… done!”",
-        "fa": "نیما: «دارم اجاره را …… تمام!»"
-      },
       "why": "Nima: “Kirayı gönderiyorum… tamam!”"
     },
     {
+      "q": {
+        "tr": "Hangi belge evde?",
+        "en": "Which document is at home?",
+        "fa": "کدوم مدرک خونه‌ست؟"
+      },
+      "options": [
+        "Kira sözleşmesi",
+        "Pasaport",
+        "Fotoğraflar"
+      ],
       "a": 0,
       "kind": "comp",
-      "options": [
-        "Sözleşmem",
-        "Pasaportum",
-        "Fotoğraflarım"
-      ],
-      "q": {
-        "tr": "Nima: “Ama … evde.” Ne evde?",
-        "en": "Nima: “But … is at home.” What is at home?",
-        "fa": "نیما: «ولی … در خانه است.» چه چیزی در خانه است؟"
-      },
-      "why": "Nima: “Ama sözleşmem… evde.”"
+      "why": "Nima: “Var. Fotoğraflarım da var. Ama sözleşmem… evde.”"
     }
   ],
   "ref": "A1_4",
@@ -350,10 +335,10 @@
       }
     },
     {
-      "en": "Good morning! Today is the first of the month. And… the trees are on the wall!",
-      "fa": "صبح بخیر! امروز اولِ ماهه. و… درخت‌ها روی دیوارن!",
+      "en": "The first of the month: rent day! And the trees… are on the wall.",
+      "fa": "اولِ ماه: روزِ اجاره! و درخت‌ها… روی دیوارن.",
       "narr": true,
-      "tr": "Günaydın! Bugün ayın biri. Ve… ağaçlar duvarda!",
+      "tr": "Ayın biri: kira günü! Ve ağaçlar… duvarda.",
       "who": "kerim"
     },
     {
@@ -378,71 +363,32 @@
       "who": "nima"
     },
     {
-      "emo": "curious",
-      "en": "Which family is from Aleppo?",
-      "fa": "کدوم خانواده اهلِ حلبه؟",
-      "to": "all",
-      "tr": "Hangi aile Halep'ten?",
-      "who": "zafer"
-    },
-    {
-      "do": "me",
-      "emo": "happy",
-      "en": "My family!",
-      "fa": "خانواده‌ی من!",
-      "to": "zafer",
-      "tr": "Benim ailem!",
-      "who": "yusuf"
-    },
-    {
-      "emo": "curious",
-      "en": "Who is Parvaneh going to see in the summer?",
-      "fa": "پروانه تابستون پیشِ کی می‌ره؟",
-      "to": "all",
-      "tr": "Parvane yazın kime gidiyor?",
-      "who": "zafer"
-    },
-    {
-      "emo": "laugh",
-      "en": "To her uncle!",
-      "fa": "پیشِ دایی‌اش!",
-      "react": {
-        "parvaneh": {
-          "do": "nod",
-          "emo": "happy"
-        }
-      },
-      "to": "zafer",
-      "tr": "Dayısına!",
-      "who": "nima"
-    },
-    {
       "at": "obj:agac",
       "do": "point",
       "emo": "curious",
-      "en": "And… who knows this word: yeğen?",
-      "fa": "و… کی این کلمه رو بلده: yeğen؟",
+      "en": "So… who knows this word? Yeğen?",
+      "fa": "خب… کی این کلمه رو بلده؟ yeğen؟",
       "to": "all",
-      "tr": "Ve… kim bu kelimeyi biliyor: yeğen?",
+      "tr": "Peki… bu kelimeyi kim biliyor? Yeğen?",
       "who": "zafer"
     },
     {
       "do": "cheer",
       "emo": "laugh",
       "en": "We do!",
-      "fa": "ما!",
+      "fa": "ما بلدیم!",
       "react": {
         "nima": "laugh",
         "parvaneh": "laugh"
       },
       "to": "zafer",
-      "tr": "Biz!",
+      "tr": "Biz biliyoruz!",
       "who": "yusuf"
     },
     {
       "at": {
         "nima": "corridor_l",
-        "reza": "wait_1"
+        "reza": "call_r"
       },
       "scene": "tomer_corridor",
       "time": "day"
@@ -488,9 +434,10 @@
           }
         }
       ],
-      "to": "viewer",
       "tr": "Kirayı gönderiyorum… tamam!",
-      "who": "nima"
+      "who": "nima",
+      "voice": "whisper",
+      "cam": "single"
     },
     {
       "beat": {
@@ -545,25 +492,40 @@
       "who": "reza"
     },
     {
-      "do": "count",
       "emo": "nervous",
-      "en": "One: I have my passport. Two: I have my photos. But my contract… is at home.",
-      "fa": "یک: پاسپورتم هست. دو: عکس‌هام هست. ولی قراردادم… خونه‌ست.",
-      "n": 2,
+      "en": "One minute… I'll call Farzad!",
+      "fa": "یه لحظه… به فرزاد زنگ می‌زنم!",
       "to": "reza",
-      "tr": "Bir: pasaportum var. İki: fotoğraflarım var. Ama sözleşmem… evde.",
-      "who": "nima"
+      "tr": "Bir dakika… Farzad'ı arıyorum!",
+      "who": "nima",
+      "at": "obj:telefon"
     },
     {
-      "emo": "happy",
+      "emo": "neutral",
+      "en": "Not Farzad Bey… you! Do you have your passport?",
+      "fa": "آقا فرزاد نه… خودتون! پاسپورتتون هست؟",
+      "to": "nima",
+      "tr": "Farzad Bey değil… siz! Pasaportunuz var mı?",
+      "who": "reza"
+    },
+    {
+      "who": "nima",
+      "tr": "Var. Fotoğraflarım da var. Ama sözleşmem… evde.",
+      "en": "Yes. I have my photos too. But my contract… is at home.",
+      "fa": "هست. عکس‌هام هم هست. ولی قراردادم… خونه‌ست.",
+      "to": "reza",
+      "emo": "nervous"
+    },
+    {
+      "who": "reza",
+      "tr": "Çok güzel. Unutmayın! Ve… bir numara alın! …Şaka!",
       "en": "Very good. Don't forget! And… take a number! …Just kidding!",
       "fa": "خیلی خوب. فراموش نکنید! و… یک شماره بگیرید! …شوخی کردم!",
+      "emo": "happy",
       "react": {
         "nima": "laugh"
       },
-      "to": "nima",
-      "tr": "Çok güzel. Unutmayın! Ve… bir numara alın! …Şaka!",
-      "who": "reza"
+      "to": "nima"
     },
     {
       "at": {
@@ -618,12 +580,12 @@
           },
           {
             "how": "walk",
-            "to": "wall",
+            "to": "teacher",
             "who": "parvaneh"
           },
           {
             "how": "walk",
-            "to": "teacher",
+            "to": "front_desk",
             "who": "dilnoza"
           },
           {
@@ -633,7 +595,7 @@
           },
           {
             "how": "walk",
-            "to": "map",
+            "to": "desk_yusuf",
             "who": "alex"
           }
         ]
@@ -696,11 +658,12 @@
                 "at": "ch:kerim",
                 "do": "point",
                 "emo": "laugh",
-                "en": "Kerim's in it too!",
-                "fa": "کریم هم هست!",
+                "en": "Look! The bird's in it too!",
+                "fa": "ببین! پرنده هم هست!",
                 "to": "all",
-                "tr": "Kerim de var!",
-                "who": "yusuf"
+                "tr": "Bak! Kuş da var!",
+                "who": "yusuf",
+                "cam": "wide"
               }
             ],
             "tone": "polite",
@@ -742,11 +705,12 @@
                 "at": "ch:kerim",
                 "do": "point",
                 "emo": "laugh",
-                "en": "Kerim's in it too!",
-                "fa": "کریم هم هست!",
+                "en": "Look! The bird's in it too!",
+                "fa": "ببین! پرنده هم هست!",
                 "to": "all",
-                "tr": "Kerim de var!",
-                "who": "yusuf"
+                "tr": "Bak! Kuş da var!",
+                "who": "yusuf",
+                "cam": "wide"
               }
             ],
             "tone": "casual",
@@ -817,11 +781,12 @@
                 "at": "ch:kerim",
                 "do": "point",
                 "emo": "laugh",
-                "en": "Kerim's in it too!",
-                "fa": "کریم هم هست!",
+                "en": "Look! The bird's in it too!",
+                "fa": "ببین! پرنده هم هست!",
                 "to": "all",
-                "tr": "Kerim de var!",
-                "who": "yusuf"
+                "tr": "Bak! Kuş da var!",
+                "who": "yusuf",
+                "cam": "wide"
               }
             ],
             "tone": "casual",
@@ -836,9 +801,9 @@
     },
     {
       "spot": {
-        "en": "One noun, four endings: ağaçta (on the tree, -DA), ağaçtan (from the tree, -DAn), ağaca (to the tree, -(y)A), ağacı (the tree, as the object: -(y)I). Today: ağacımda, Halep'ten, dayısına, kelimeyi and kirayı. And Reza Bey's list: pasaportunuz, fotoğraflarınız for siz; pasaportum, fotoğraflarım for me.",
+        "en": "One noun, four endings: ağaçta (on the tree, -DA), ağaçtan (from the tree, -DAn), ağaca (to the tree, -(y)A), ağacı (the tree, as the object: -(y)I). Today: ağacımda, buraya, kelimeyi, kirayı and Farzad'ı. And Reza Bey's list: pasaportunuz, fotoğraflarınız for siz; fotoğraflarım, sözleşmem for me.",
         "ex": "Benim ağacımda!",
-        "fa": "یک اسم، چهار پسوند: ağaçta (روی درخت، ‎-DA)، ağaçtan (از درخت، ‎-DAn)، ağaca (به درخت، ‎-(y)A)، ağacı (درخت را، ‎-(y)I). امروز: ağacımda، Halep'ten، dayısına، kelimeyi و kirayı. و فهرستِ آقای رضا: pasaportunuz و fotoğraflarınız برای «شما»؛ pasaportum و fotoğraflarım برای «من».",
+        "fa": "یک اسم، چهار پسوند: ağaçta (روی درخت، ‎-DA)، ağaçtan (از درخت، ‎-DAn)، ağaca (به درخت، ‎-(y)A)، ağacı (درخت را، ‎-(y)I). امروز: ağacımda، buraya، kelimeyi، kirayı و Farzad'ı. و فهرستِ آقای رضا: pasaportunuz و fotoğraflarınız برای «شما»؛ fotoğraflarım و sözleşmem برای «من».",
         "lesson": "g_a1_4_ad_durumlari",
         "show": "case_path"
       }

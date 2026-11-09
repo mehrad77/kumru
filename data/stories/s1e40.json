@@ -100,6 +100,10 @@
     }
   ],
   "gl": {
+    "açık": {
+      "fa": "باز",
+      "en": "open"
+    },
     "eve": {
       "fa": "به خانه",
       "en": "home (to home)"
@@ -117,8 +121,8 @@
       "en": "residence (permit)"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "lambam": {
       "fa": "لامپم",
@@ -163,6 +167,18 @@
     "usta": {
       "fa": "تعمیرکار، اوستا",
       "en": "repairman"
+    },
+    "ah": {
+      "fa": "آخ، آهان (وقتی چیزی یادت می‌آید)",
+      "en": "ah, oh"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
+    },
+    "aferin": {
+      "fa": "آفرین",
+      "en": "well done"
     }
   },
   "id": "s1e40",
@@ -229,49 +245,34 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Yarın sabah, saat dokuzda",
         "Bugün, saat altıda",
-        "Pazartesi"
+        "Pazartesi",
+        "Yarın sabah, saat dokuzda"
       ],
       "q": {
         "tr": "Usta ne zaman geliyor?",
         "en": "When is the repairman coming?",
         "fa": "تعمیرکار کی می‌آید؟"
       },
-      "why": "Tolga Bey: “Alo, usta? Yarın sabah, saat dokuzda!”"
+      "why": "Tolga Bey: “…Usta? Yarın sabah, saat dokuzda!”"
     },
     {
       "a": 0,
       "kind": "word",
       "options": [
         "Bugün",
-        "Yarın",
+        "Dün",
         "Sabah"
       ],
       "q": {
-        "tr": "Tolga Bey: “Yarın!” Nima: “…, lütfen.”",
-        "en": "Tolga Bey: “Tomorrow!” Nima: “…, please.”",
-        "fa": "آقای تولگا: «فردا!» نیما: «…، لطفاً.»"
+        "tr": "Nima: “… Tolga Bey'le konuştum!” Ne zaman?",
+        "en": "Nima: “I talked to Tolga Bey …!” When?",
+        "fa": "نیما: «… با آقای تولگا حرف زدم!» کِی؟"
       },
-      "why": "Nima: “Bugün, lütfen.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Pazartesi",
-        "Cuma",
-        "Yarın"
-      ],
-      "q": {
-        "tr": "Nima'nın randevusu ne zaman?",
-        "en": "When is Nima's appointment?",
-        "fa": "نوبتِ نیما کی است؟"
-      },
-      "why": "Nima: “Pazartesi randevum var!”"
+      "why": "Nima: “Bugün Tolga Bey'le konuştum!”"
     }
   ],
   "ref": "A1_6",
@@ -299,15 +300,15 @@
     },
     {
       "emo": "curious",
-      "en": "Thursday. Class is over. Where is Nima going? Not home… to Tolga Bey's!",
-      "fa": "پنجشنبه. کلاس تموم شد. نیما کجا می‌ره؟ خونه نه… پیشِ آقای تولگا!",
+      "en": "Class is over. Where is Nima going? Not home… to Tolga Bey's!",
+      "fa": "کلاس تموم شد. نیما کجا می‌ره؟ خونه نه… پیشِ آقای تولگا!",
       "move": {
         "how": "enter",
         "to": "customer",
         "who": "nima"
       },
       "narr": true,
-      "tr": "Perşembe. Ders bitti. Nima nereye gidiyor? Eve değil… Tolga Bey'e!",
+      "tr": "Ders bitti. Nima nereye gidiyor? Eve değil… Tolga Bey'e!",
       "who": "kerim"
     },
     {
@@ -348,7 +349,7 @@
       "do": "point",
       "emo": "proud",
       "en": "Good afternoon, Tolga Bey. My boiler isn't working. And my contract… it has no notary stamp.",
-      "fa": "عصر بخیر آقای تولگا. پکیجِ من کار نمی‌کنه. و قراردادم… مهرِ محضر نداره.",
+      "fa": "عصر بخیر آقای تولگا. پکیجم کار نمی‌کنه. و قراردادم… مهرِ محضر نداره.",
       "link": {
         "onayı": "obj:onay",
         "sözleşmem": "obj:sozlesme"
@@ -359,7 +360,7 @@
         "who": "nima"
       },
       "to": "tolga",
-      "tr": "İyi günler, Tolga Bey. Benim kombim çalışmıyor. Ve sözleşmem… noter onayı yok.",
+      "tr": "İyi günler, Tolga Bey. Kombim çalışmıyor. Ve sözleşmem… noter onayı yok.",
       "who": "nima"
     },
     {
@@ -444,8 +445,8 @@
               {
                 "do": "flap",
                 "emo": "annoyed",
-                "en": "Tomorrow? Always tomorrow! Coo-coo!",
-                "fa": "فردا؟ همیشه فردا! کو-کو!",
+                "en": "Tomorrow? Always tomorrow!",
+                "fa": "فردا؟ همیشه فردا!",
                 "move": {
                   "how": "fly",
                   "to": "glass",
@@ -456,7 +457,7 @@
                   "id": "beak_tap",
                   "word": "tık tık tık"
                 },
-                "tr": "Yarın? Hep yarın! Ku-ku!",
+                "tr": "Yarın? Hep yarın!",
                 "who": "kerim"
               }
             ],
@@ -505,26 +506,39 @@
       "at": "obj:randevu_kagidi",
       "do": "look",
       "emo": "surprised",
-      "en": "…Monday? The contract… yes, I forgot. All right. Today!",
-      "fa": "…دوشنبه؟ قرارداد… آره، یادم رفت. باشه. امروز!",
+      "en": "…Monday? Ah, the contract… I forgot! But the notary is very busy today…",
+      "fa": "…دوشنبه؟ آخ، قرارداد… یادم رفت! ولی امروز محضر خیلی شلوغه…",
       "link": {
         "sözleşme": "obj:sozlesme"
       },
       "to": "nima",
-      "tr": "…Pazartesi mi? Sözleşme… evet, unuttum. Tamam. Bugün!",
+      "tr": "…Pazartesi mi? Ah, sözleşme… unuttum! Ama bugün noter çok kalabalık…",
       "who": "tolga"
+    },
+    {
+      "emo": "proud",
+      "en": "The notary is open until seven. Please, Tolga Bey!",
+      "fa": "محضر تا ساعتِ هفت بازه. لطفاً، آقای تولگا!",
+      "to": "tolga",
+      "tr": "Noter saat yediye kadar açık. Lütfen, Tolga Bey!",
+      "who": "nima",
+      "react": {
+        "tolga": {
+          "emo": "surprised"
+        }
+      }
     },
     {
       "do": "phone",
       "emo": "happy",
-      "en": "Hello? I'm taking the contract to the notary today! …Hello, repairman? Tomorrow morning, at nine!",
-      "fa": "الو؟ قرارداد رو امروز می‌برم محضر! …الو، اوستا؟ فردا صبح، ساعتِ نه!",
+      "en": "All right, all right… today! Hello? I'm taking the contract to the notary today! …Repairman? Tomorrow morning, at nine!",
+      "fa": "باشه، باشه… امروز! الو؟ قرارداد رو امروز می‌برم محضر! …اوستا؟ فردا صبح، ساعتِ نه!",
       "link": {
         "sözleşmeyi": "obj:sozlesme"
       },
       "tempo": 1.3,
       "to": "nima",
-      "tr": "Alo? Sözleşmeyi bugün notere götürüyorum! …Alo, usta? Yarın sabah, saat dokuzda!",
+      "tr": "Peki, peki… bugün! Alo? Sözleşmeyi bugün notere götürüyorum! …Usta? Yarın sabah, saat dokuzda!",
       "who": "tolga"
     },
     {
@@ -547,7 +561,7 @@
     {
       "spot": {
         "en": "Nima said the whole problem with possessive endings: kombim (my boiler), sözleşmem (my contract), randevum (my appointment). Tolga Bey's answer shows the case endings: “Sözleşmeyi bugün notere götürüyorum!”: -yi marks the thing he takes, -e where he takes it. One noun, many endings: noter, notere, noterde, noterden.",
-        "ex": "Benim kombim çalışmıyor.",
+        "ex": "Kombim çalışmıyor.",
         "fa": "نیما کلِ مشکل را با پسوندِ ملکی گفت: kombim (پکیجِ من)، sözleşmem (قراردادم)، randevum (نوبتم). جوابِ آقای تولگا پسوندهای حالت را نشان می‌دهد: «Sözleşmeyi bugün notere götürüyorum!»: ‎-yi‎ مفعولِ مشخص است («را»)، ‎-e‎ مقصد («به»). یک اسم، چند پسوند: noter، notere (به محضر)، noterde (در محضر)، noterden (از محضر).",
         "lesson": "g_a1_4_iyelik",
         "show": "owner"
@@ -556,7 +570,7 @@
     {
       "at": {
         "elif": "elif_door",
-        "nima": "landing_2"
+        "nima": "flight_up"
       },
       "kerim": "window",
       "scene": "flat_nima_stairs",
@@ -569,44 +583,35 @@
     {
       "do": "beckon",
       "emo": "happy",
-      "en": "Your flat is cold. Come in! Ours is warm.",
-      "fa": "خونهٔ تو سرده. بیا! خونهٔ ما گرمه.",
+      "en": "Nima! Your flat's cold, isn't it? Come in! Ours is warm.",
+      "fa": "نیما! خونه‌ات سرده، نه؟ بیا! خونهٔ ما گرمه.",
       "to": "nima",
-      "tr": "Senin evin soğuk. Gel! Bizim ev sıcak.",
+      "tr": "Nima! Evin soğuk, değil mi? Gel! Bizim ev sıcak.",
       "who": "elif"
     },
     {
       "do": "hand_heart",
       "emo": "happy",
-      "en": "Thank you, Elif Hanım! But the boiler will work tomorrow!",
-      "fa": "ممنونم، الیف خانم! ولی فردا پکیج کار می‌کنه!",
+      "en": "Thank you, Elif Hanım! But the boiler will work tomorrow. I talked to Tolga Bey today!",
+      "fa": "ممنونم، الیف خانم! ولی فردا پکیج کار می‌کنه. امروز با آقای تولگا حرف زدم!",
       "to": "elif",
-      "tr": "Teşekkür ederim, Elif Hanım! Ama yarın kombi çalışıyor!",
+      "tr": "Teşekkür ederim, Elif Hanım! Ama yarın kombi çalışıyor. Bugün Tolga Bey'le konuştum!",
       "who": "nima"
     },
     {
       "emo": "surprised",
-      "en": "Tolga Bey? Really?!",
-      "fa": "آقای تولگا؟ واقعاً؟!",
+      "en": "With Tolga Bey? Really?! Well done!",
+      "fa": "با آقای تولگا؟ واقعاً؟! آفرین!",
       "to": "nima",
-      "tr": "Tolga Bey mi? Gerçekten mi?!",
+      "tr": "Tolga Bey'le mi? Gerçekten mi?! Aferin!",
       "who": "elif"
-    },
-    {
-      "do": "nod",
-      "emo": "proud",
-      "en": "Yes. I talked to him today!",
-      "fa": "آره. امروز باهاش حرف زدم!",
-      "to": "elif",
-      "tr": "Evet. Bugün konuştum!",
-      "who": "nima"
     },
     {
       "emo": "happy",
       "en": "Not tomorrow… today. Coo-coo!",
       "fa": "فردا نه… امروز. کو-کو!",
       "narr": true,
-      "tr": "Yarın değil… bugün. Ku-ku!",
+      "tr": "Yarın değil… bugün. Ku-kuu!",
       "who": "kerim"
     }
   ],

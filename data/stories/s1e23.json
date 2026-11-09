@@ -150,6 +150,14 @@
     "yavrum": {
       "fa": "عزیزم",
       "en": "my dear (to someone younger)"
+    },
+    "hep": {
+      "fa": "همیشه",
+      "en": "always"
+    },
+    "ah": {
+      "fa": "آ، آه",
+      "en": "ah, oh"
     }
   },
   "id": "s1e23",
@@ -219,48 +227,33 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Balık",
-        "Süt",
-        "Çay"
-      ],
       "q": {
-        "tr": "Serkan ne getiriyor?",
-        "en": "What does Serkan bring?",
-        "fa": "سرکان چه می‌آورد؟"
+        "tr": "Nima: “Tahran'da da bir kedim var. Onu çok …”",
+        "en": "Nima: “I have a cat in Tehran too. I … it a lot.”",
+        "fa": "نیما: «توی تهران هم یه گربه دارم. خیلی … »"
       },
-      "why": "Serkan: “Kara Kartal! Gel oğlum! Balık veriyorum!”"
-    },
-    {
-      "a": 0,
-      "kind": "word",
       "options": [
-        "özlüyorum",
         "veriyorum",
+        "özlüyorum",
         "korkuyorum"
       ],
-      "q": {
-        "tr": "Nima: “Tahran'da benim kedim var. Onu …”",
-        "en": "Nima: “I have a cat in Tehran. I … it.”",
-        "fa": "نیما: «توی تهران گربه دارم. …»"
-      },
-      "why": "Nima: “Tahran'da benim kedim var. Onu özlüyorum.”"
+      "a": 1,
+      "kind": "word",
+      "why": "Nima: “Tahran'da da bir kedim var. Onu çok özlüyorum.”"
     },
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Bizim",
-        "Benim",
-        "Sizin"
-      ],
       "q": {
         "tr": "Sonunda kedi kimin?",
         "en": "In the end, whose cat is it?",
-        "fa": "آخرش گربه مالِ کیست؟"
+        "fa": "آخرش گربه مالِ کیه؟"
       },
+      "options": [
+        "Benim",
+        "Sizin",
+        "Bizim"
+      ],
+      "a": 2,
+      "kind": "comp",
       "why": "Ömer: “Bizim kedimiz! Adı ne?”"
     }
   ],
@@ -294,8 +287,8 @@
     },
     {
       "emo": "nervous",
-      "en": "Good morning… A cat! There's a cat here! Kerim doesn't like the cat… Kerim is scared!",
-      "fa": "صبح بخیر… گربه! گربه این‌جاست! کریم گربه رو دوست نداره… کریم می‌ترسه!",
+      "en": "Oh no! A cat! There's a cat here! Kerim doesn't like the cat… Kerim is scared!",
+      "fa": "وای! گربه! گربه این‌جاست! کریم گربه رو دوست نداره… کریم می‌ترسه!",
       "link": {
         "kedi": "obj:cat"
       },
@@ -305,19 +298,19 @@
         "who": "kerim"
       },
       "narr": true,
-      "tr": "Günaydın… Kedi! Kedi burada! Kerim kediyi sevmiyor… Kerim korkuyor!",
+      "tr": "Ay! Kedi! Kedi burada! Kerim kediyi sevmiyor… Kerim korkuyor!",
       "who": "kerim"
     },
     {
       "emo": "happy",
-      "en": "Today… the Bosphorus! I've got tea!",
-      "fa": "امروز… بسفر! چای دارم!",
+      "en": "Kerim! Today… the Bosphorus! I've got tea!",
+      "fa": "کریم! امروز… بسفر! چای دارم!",
       "link": {
         "çay": "obj:termos"
       },
       "move": {
         "how": "enter",
-        "to": "steps",
+        "to": "walk_r",
         "who": "nima"
       },
       "obj": [
@@ -330,14 +323,15 @@
           "op": "take"
         }
       ],
-      "to": "viewer",
-      "tr": "Bugün… Boğaz! Çay var!",
-      "who": "nima"
+      "to": "kerim",
+      "tr": "Kerim! Bugün… Boğaz! Çay var!",
+      "who": "nima",
+      "at": "ch:kerim"
     },
     {
       "emo": "happy",
-      "en": "Kiki! Come, come! …I'm looking for Kiki.",
-      "fa": "کیکی! بیا، بیا! …دنبالِ کیکی می‌گردم.",
+      "en": "I'm looking for Kiki… Ah, Kiki! Come, come!",
+      "fa": "دنبالِ کیکی می‌گردم… آ، کیکی! بیا، بیا!",
       "move": {
         "how": "enter",
         "to": "walk_l",
@@ -363,7 +357,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Kiki! Gel, gel! …Kiki'yi arıyorum.",
+      "tr": "Kiki'yi arıyorum… Ah, Kiki! Gel, gel!",
       "who": "maria"
     },
     {
@@ -390,10 +384,10 @@
           }
         }
       ],
-      "to": "viewer",
       "tr": "Pişi, pişi! …Seni seviyorum, Pişi.",
       "voice": "whisper",
-      "who": "nima"
+      "who": "nima",
+      "at": "obj:cat"
     },
     {
       "at": "obj:cat",
@@ -435,6 +429,11 @@
           "how": "fly",
           "to": "ledge_high",
           "who": "kerim"
+        },
+        {
+          "how": "walk",
+          "to": "steps",
+          "who": "nima"
         }
       ],
       "obj": [
@@ -454,7 +453,8 @@
       ],
       "to": "all",
       "tr": "Pamuk! O benim kedim!",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "do": "beckon",
@@ -486,7 +486,8 @@
       ],
       "to": "all",
       "tr": "Kara Kartal! Gel oğlum! Balık veriyorum!",
-      "who": "serkan"
+      "who": "serkan",
+      "cam": "two"
     },
     {
       "at": "obj:cat",
@@ -531,10 +532,10 @@
             "reply": [
               {
                 "emo": "moved",
-                "en": "Yes… our cat.",
-                "fa": "آره… گربه‌ی ما.",
+                "en": "Yes… ours.",
+                "fa": "آره… مالِ ما.",
                 "to": "nima",
-                "tr": "Evet… bizim kedimiz.",
+                "tr": "Evet… bizim.",
                 "who": "maria"
               }
             ],
@@ -635,12 +636,18 @@
       "fa": "گربه‌ی ما! اسمش چیه؟",
       "to": "all",
       "tr": "Bizim kedimiz! Adı ne?",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two",
+      "move": {
+        "how": "walk",
+        "to": "step",
+        "who": "nima"
+      }
     },
     {
       "emo": "laugh",
-      "en": "Kiki… Pamuk… Pişi… Kartal! Everyone says a different name!",
-      "fa": "کیکی… پاموک… پیشی… کارتال! هر کی یه اسمِ دیگه می‌گه!",
+      "en": "Kiki… Pamuk… Pişi… Kartal! One cat, four names!",
+      "fa": "کیکی… پاموک… پیشی… کارتال! یه گربه، چهار تا اسم!",
       "obj": [
         {
           "id": "cat",
@@ -655,29 +662,29 @@
         "serkan": "laugh"
       },
       "to": "all",
-      "tr": "Kiki… Pamuk… Pişi… Kartal! Herkes başka bir ad söylüyor!",
+      "tr": "Kiki… Pamuk… Pişi… Kartal! Bir kedi, dört ad!",
       "who": "maria"
     },
     {
       "emo": "sad",
-      "en": "I have a cat in Tehran. I miss it.",
-      "fa": "توی تهران گربه دارم. دلم براش تنگ شده.",
+      "en": "I have a cat in Tehran too. I miss it a lot.",
+      "fa": "توی تهران هم یه گربه دارم. خیلی دلم براش تنگ شده.",
       "to": "maria",
-      "tr": "Tahran'da benim kedim var. Onu özlüyorum.",
+      "tr": "Tahran'da da bir kedim var. Onu çok özlüyorum.",
       "who": "nima"
     },
     {
       "emo": "moved",
-      "en": "Now… you have a cat here too.",
-      "fa": "حالا… این‌جا هم یه گربه دارید.",
+      "en": "Now… you have a cat here too. And it's always here, at the door!",
+      "fa": "حالا… این‌جا هم یه گربه دارین. همیشه هم این‌جاست، دمِ در!",
       "to": "nima",
-      "tr": "Şimdi… burada da bir kediniz var.",
+      "tr": "Şimdi… burada da bir kediniz var. Ve o hep burada, kapıda!",
       "who": "maria"
     },
     {
       "spot": {
         "en": "With sevmek, özlemek and aramak, the one you mean takes -(y)I: kediyi sevmiyor (doesn't like the cat), seni seviyorum (I love you), onu özlüyorum (I miss it), Kiki'yi arıyorum (I'm looking for Kiki). And one cat for everyone: bizim kedimiz, our cat.",
-        "ex": "Onu özlüyorum.",
+        "ex": "Onu çok özlüyorum.",
         "fa": "با sevmek، özlemek و aramak، کسی یا چیزی که منظورمان است ‎-(y)I می‌گیرد، مثلِ «را» در فارسی: kediyi sevmiyor (گربه را دوست ندارد)، seni seviyorum (دوستت دارم)، onu özlüyorum (دلم برایش تنگ شده)، Kiki'yi arıyorum (دنبالِ کیکی می‌گردم). و یک گربه برای همه: bizim kedimiz، گربه‌ی ما.",
         "lesson": "g_a1_4_belirtme",
         "show": "owner"

@@ -8,8 +8,8 @@ Status: **v1.** The stage and the story adapter are built (`sahne/packages/sahne
 
 ### Purpose
 - **A graded reader.** A story is easy, enjoyable reading that recycles words and grammar. It is independent of the book: if a story matches a unit of the class's book, that is a bonus, not a requirement.
-- **About 95% known words.** At most about 1 word in 20 is new to a learner at the story's position. New words are glossed through tap-to-translate.
-- **Done** = read to the end **and** quiz passed (3 questions, stars). Flash practice and re-reading are extras.
+- **About 95% known words.** At most about 1 content word in 20 is new to a learner at the story's position. Proper names (places, people), glossed words and sound words (*hmm*, *aa*, *şşş*, *ku-kuu*) are left out of the count: a tap gives them, and none is a word to learn. New words are glossed through tap-to-translate.
+- **Done** = read to the end **and** quiz passed (0–3 questions, stars; a story with no quiz is done when read). Flash practice and re-reading are extras.
 - **Culture is shown, never explained.** Tea is offered, shoes come off, someone says *Kolay gelsin*. There are no culture notes.
 
 ### Sizes
@@ -20,11 +20,13 @@ Status: **v1.** The stage and the story adapter are built (`sahne/packages/sahne
 | Target words | 5–8 | 10–12 |
 | Grammar spots | 1 (Kerim) | 1–2 |
 | Choices | 1–2 | 2 |
-| Lines, A1 *(proposed)* | 10–14, mostly one sentence per turn | 20–28 |
+| Lines, A1 (decided 2026-11) | 10–18 spoken lines, mostly one sentence per turn; a one-word reaction (*Aa!*, *Hmm…*, *Tamam*, *Evet!*) is not counted | 20–30 |
 | Lines, A2 *(proposed)* | 14–18, 1–2 sentences per turn | 26–34 |
 | Lines, B1 *(proposed)* | 16–22, 2–3 sentences per turn | 30–40 |
 
 As the level rises, stories don't just get longer: each turn holds more sentences, and characters talk more naturally.
+
+**Speakers.** At most 4 people carry an episode (6 in a special): those with three lines or more. Anyone else may say one short line (up to four words, Alex's *Hayır!*). Kerim's narration does not count. (The 14-line and 4-speaker caps of the first drafts forced merged lines and cut reactions in s1e10, s1e20, s1e21, s1e34, s1e37 and s1e41; the season review of 2026-11 loosened them.)
 
 The release calendar (one track, the weekly rhythm, the launch) is in `STORIES_CALENDAR.md`.
 
@@ -32,7 +34,7 @@ The release calendar (one track, the weekly rhythm, the launch) is in `STORIES_C
 - The learner is an **international student who has just arrived** in Istanbul. They stay with an old friend, Farzad, until they find their own flat, and study at a TÖMER course. The first story starts at **IST airport**, where Farzad picks Nima up.
 - **Phase 1 personalization is the name and hometown only.** The stand-in's name and default hometown (Tehran) are swapped for the learner's own, as `personalizeStr` does today. This keeps stories complete for learners without the AI tutor.
 - **No gendered words for the stand-in.** Turkish and Persian have no gendered pronouns. English lines and notes refer to the stand-in by name or "you", never he/she.
-- **Language-neutral stand-in (decided 2026-10-09).** Only the hometown token says where the stand-in is from. The stand-in's lines, and lines about the stand-in, never claim a country, a nationality or a language ("İranlıyım", "Farsça gibi!"), because those would be wrong for a learner from elsewhere. The Persian bridge lives in the `fa` translations and in the Persian-speaking cast. A1's two kept exceptions are listed in `STORIES_A1.md`, *Season arc*.
+- **Language-neutral stand-in (decided 2026-10-09).** Only the hometown token says where the stand-in is from. The stand-in's lines, and lines about the stand-in, never claim a country, a nationality or a language as the stand-in's own ("İranlıyım", "Farsça konuşuyorum"), because those would be wrong for a learner from elsewhere. Naming another character's language is fine ("Farsça kelime!" about Parvaneh's jar). The Persian bridge lives in the `fa` translations and in the Persian-speaking cast. A1's two kept exceptions are listed in `STORIES_A1.md`, *Season arc*.
 
 ### Free tier and plus tier
 Every story is fully readable without AI. The AI tutor (plus) adds to a story but never replaces part of it.
@@ -55,8 +57,11 @@ Every story is fully readable without AI. The AI tutor (plus) adds to a story bu
 - **The learner says their own lines** (decided 2026-10-08). Every line of the stand-in is chosen by the learner, even when there is only one option. It appears as a reply card with a *Söyle* button, the same card a real choice uses. Learners pick their line on every turn, so they are used to choosing when a real choice comes. Details in `STORIES_STAGE.md` §7.
 - **Choices:** 1–2 per episode, of three kinds, about a third each over a season (decided 2026-10-09): **polite** (polite vs blunt, *sen* vs *siz*, the right phrase for the moment), **meaning** (showing Nima understood what was said, or picking the right form) and **action** (what to do: who to ask, where to go, whether to help). Characters react. The plot never branches, but a few picks are **remembered** later in a line or two (callbacks), and every pick moves the learner's hidden **warmth** with a character, which shows only in Kerim's album at the end of the season (`STORIES_SCHEMA.md` §4.5, §4.7, §4.8).
 - **Season threads:** each season has a spine (a want the stand-in carries across weeks) and a few threads that run across episodes, including setbacks that last more than one story. A1's are listed in `STORIES_A1.md`, *Season threads*.
-- **Season arc (decided 2026-10-09):** the stand-in also changes across a season. The arc follows Truby's *Anatomy of Story*: a weakness every learner shares, a need, a desire, an opponent (comic, never a villain), setbacks, a battle, and a self-revelation shown in the last story, never told. It is decided from the end backwards, before the briefs, and each beat is one line or one staging moment. Choices still never branch: where the arc needs Nima to act, every option leads there. A1's is in `STORIES_A1.md`, *Season arc*.
-- **Quiz:** 3 questions on **comprehension** (who, what, where) and the **target words**. Grammar is not quizzed. Kerim's spot and the lesson teach it.
+- **Season arc (decided 2026-10-09):** the stand-in also changes across a season. The arc follows Truby's *Anatomy of Story*: a weakness every learner shares, a need, a desire, an opponent (comic, never a villain), setbacks, a battle, and a self-revelation shown in the last story, never told. It is decided from the end backwards, before the briefs, and each beat is one line or one staging moment. The weakness gets one small beat every week (a line or a staging moment where Nima leans on someone), so it does not vanish between its big moments. Choices still never branch: where the arc needs Nima to act, every option leads there. A1's is in `STORIES_A1.md`, *Season arc*.
+- **Quiz:** 0–3 questions, usually 1–2, only where one helps. Every item needs the story to answer: **comprehension** (who, what, why) or a **target word** in a new frame. No "“<quote>” — who says it?" items, and no item whose answer is in the question. The right answer's position varies across a season. With two or more, at least one comprehension item, and a word item too, unless no target word works in a new frame (then two comprehension items are fine). Grammar is not quizzed. Kerim's spot and the lesson teach it.
+- **Every episode has a small want, a stake or a turn** (decided 2026-11): someone wants something, something can go wrong, or a joke turns the scene. No drills in costume: a class or a shop is a place things happen, not a frame for "Bu ne? Bu bir kalem."
+- **Natural turn-taking, even at A1** (decided 2026-11). Simple is fine; stilted is not. Short answers and ellipsis are preferred (*Ben de!*, *Siz?*, *Yedide.*); an answer doesn't repeat the question; nobody tells someone what both already know; fillers and reactions are welcome (*Hmm*, *Aa!*, *Yani…*, *Hadi*). Persian and English are idiomatic, not word for word.
+- **No formula across a week** (decided 2026-11). No opener or closer repeats through a week's episodes. At most one deliberate ritual a season (the first drafts opened 19 episodes with Kerim's *Günaydın!* and closed 10 with "X… ama Y"). Repetition that teaches is welcome: a target word coming back in a new frame, an echo used as a callback or a joke.
 - **Audio:** browser TTS for now. Later, a distinct voice per character.
 - **Translation fade** *(proposed)*: the default depends on level, and the learner can always override it.
   - A1: line translation on.
@@ -75,4 +80,4 @@ Every story is fully readable without AI. The AI tutor (plus) adds to a story bu
 ## 3. Open items
 
 1. A **versatile daily-story system:** possibly unlimited daily stories, each with its own mini-arc, on top of the main arc; and whether `season` means level or arc (`STORIES_SCHEMA.md` §2 proposes level).
-2. The size defaults marked *proposed* (lines per level, translation fade).
+2. The size defaults marked *proposed* (A2 and B1 lines, translation fade).

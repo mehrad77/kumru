@@ -203,6 +203,10 @@
     "şşş": {
       "fa": "هیس!",
       "en": "shh!"
+    },
+    "katta": {
+      "fa": "در طبقهٔ…؛ «beşinci katta» یعنی در طبقهٔ پنجم",
+      "en": "on the … floor; “beşinci katta”: on the fifth floor"
     }
   },
   "id": "s1e36",
@@ -243,7 +247,7 @@
       "lines": [
         "Berfin'in kafesi: fırının yanında.",
         "Gülten Hanım'ın çiçekçisi: köşede.",
-        "Feriköy'ün en taze çiçekleri!",
+        "İstanbul'un en taze çiçekleri!",
         "Köşedeki fırın: en sıcak ekmek.",
         "Parktaki fırın: en lezzetli ekmek."
       ],
@@ -257,25 +261,10 @@
   "quiz": [
     {
       "a": 0,
-      "kind": "comp",
-      "options": [
-        "Berfin",
-        "Gülten",
-        "Farzad"
-      ],
-      "q": {
-        "tr": "Rehberi kim deniyor?",
-        "en": "Who tries out the guide?",
-        "fa": "چه کسی راهنما را امتحان می‌کند؟"
-      },
-      "why": "Berfin: “Ben de Feriköy'de yeniyim. Hadi, rehber!”"
-    },
-    {
-      "a": 0,
       "kind": "word",
       "options": [
         "Köşede",
-        "Parkın arkasında",
+        "Parkın yanında",
         "Okulun karşısında"
       ],
       "q": {
@@ -283,14 +272,14 @@
         "en": "Where is Gülten Hanım's flower shop?",
         "fa": "گل‌فروشیِ گولتن خانم کجاست؟"
       },
-      "why": "Nima: “Burası Gülten Hanım'ın çiçekçisi: köşede.”"
+      "why": "Nima: “Köşede… Gülten Hanım'ın çiçekçisi!”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Burası neresi?",
         "Kedinin adı ne?",
+        "Burası neresi?",
         "Bir çay daha?"
       ],
       "q": {
@@ -298,7 +287,7 @@
         "en": "What does the new student ask?",
         "fa": "دانشجوی تازه چه می‌پرسد؟"
       },
-      "why": "Yeni öğrenci: “Affedersiniz… burası neresi?”"
+      "why": "Yeni öğrenci: “Affedersin… burası neresi?”"
     }
   ],
   "ref": "A1_6",
@@ -361,11 +350,11 @@
     },
     {
       "at": {
-        "berfin": "walk_r",
-        "dilnoza": "ground",
-        "farzad": "walk_l",
+        "berfin": "ground",
+        "dilnoza": "cafe_front",
+        "farzad": "firin_front",
         "gulten": "corner",
-        "nima": "eczane_front"
+        "nima": "bench"
       },
       "kerim": "rooftops",
       "scene": "ferikoy",
@@ -390,8 +379,8 @@
       "at": "mark:corner",
       "do": "point",
       "emo": "proud",
-      "en": "This is Gülten Hanım's flower shop: on the corner. The freshest flowers in Feriköy!",
-      "fa": "این‌جا گل‌فروشیِ گولتن خانمه: سرِ نبش. تازه‌ترین گل‌های فری‌کؤی!",
+      "en": "On the corner… Gülten Hanım's flower shop! The freshest flowers in Feri—",
+      "fa": "سرِ نبش… گل‌فروشیِ گولتن خانم! تازه‌ترین گل‌های فری‌…",
       "react": {
         "gulten": {
           "do": "wave",
@@ -399,40 +388,25 @@
         }
       },
       "to": "berfin",
-      "tr": "Burası Gülten Hanım'ın çiçekçisi: köşede. Feriköy'ün en taze çiçekleri!",
+      "tr": "Köşede… Gülten Hanım'ın çiçekçisi! Feriköy'ün en taze…",
       "who": "nima"
     },
     {
       "beat": {
         "do": "shake_head",
         "emo": "proud",
-        "obj": [
-          {
-            "id": "rehber",
-            "op": "set",
-            "set": {
-              "lines": [
-                "Berfin'in kafesi: fırının yanında.",
-                "Gülten Hanım'ın çiçekçisi: köşede.",
-                "~~Feriköy'ün en taze çiçekleri!~~",
-                "İstanbul'un en taze çiçekleri!",
-                "Köşedeki fırın: en sıcak ekmek.",
-                "Parktaki fırın: en lezzetli ekmek."
-              ]
-            }
-          }
-        ],
-        "who": "gulten"
+        "who": "gulten",
+        "cam": "wide"
       }
     },
     {
-      "do": "nod",
+      "do": "shake_head",
       "emo": "laugh",
-      "en": "OK, OK: the freshest flowers in Istanbul!",
-      "fa": "باشه، باشه: تازه‌ترین گل‌های استانبول!",
-      "to": "gulten",
-      "tr": "Tamam, tamam: İstanbul'un en taze çiçekleri!",
-      "who": "berfin"
+      "en": "Not Feriköy's… Istanbul's freshest flowers!",
+      "fa": "فری‌کؤی نه… تازه‌ترین گل‌های استانبول!",
+      "to": "nima",
+      "tr": "Feriköy'ün değil… İstanbul'un en taze çiçekleri!",
+      "who": "dilnoza"
     },
     {
       "at": "mark:firin_front",
@@ -456,16 +430,16 @@
       "at": "mark:park_firin",
       "do": "point_far",
       "emo": "happy",
-      "en": "Behind the park! And the park is opposite the school.",
-      "fa": "پشتِ پارک! پارک هم روبه‌روی مدرسه‌ست.",
+      "en": "Next to the park! And the park is opposite the school.",
+      "fa": "کنارِ پارک! پارک هم روبه‌روی مدرسه‌ست.",
       "to": "berfin",
-      "tr": "Parkın arkasında! Park da okulun karşısında.",
+      "tr": "Parkın yanında! Park da okulun karşısında.",
       "who": "dilnoza"
     },
     {
       "emo": "happy",
-      "en": "They're both delicious!",
-      "fa": "هر دوتاش خوشمزه‌ست!",
+      "en": "They're both delicious! …But someone at the back is eating it all!",
+      "fa": "هر دوتاش خوشمزه‌ست! …ولی یکی اون پشت داره همه‌شو می‌خوره!",
       "link": {
         "ikisi": "obj:ekmekler"
       },
@@ -477,8 +451,11 @@
         }
       },
       "to": "nima",
-      "tr": "İkisi de lezzetli!",
-      "who": "berfin"
+      "tr": "İkisi de lezzetli! …Ama arkada biri hepsini yiyor!",
+      "who": "berfin",
+      "at": "ch:farzad",
+      "do": "point",
+      "cam": "wide"
     },
     {
       "at": "ch:nima",
@@ -577,8 +554,8 @@
     },
     {
       "at": {
-        "berfin": "walk_r",
-        "dilnoza": "kerb",
+        "berfin": "kerb",
+        "dilnoza": "walk_r",
         "farzad": "door",
         "nima": "walk_l",
         "pisi": "step"
@@ -609,14 +586,14 @@
       "link": {
         "kedinin": "ch:pisi"
       },
+      "to": "nima",
+      "tr": "Bu kedinin adı ne?",
+      "who": "berfin",
       "move": {
         "how": "walk",
         "to": "steps",
         "who": "berfin"
-      },
-      "to": "nima",
-      "tr": "Bu kedinin adı ne?",
-      "who": "berfin"
+      }
     },
     {
       "do": "count",
@@ -632,10 +609,10 @@
       "at": "mark:roof",
       "do": "point_far",
       "emo": "happy",
-      "en": "And up there… the flowers of Nima's neighbour, Maria Teyze!",
-      "fa": "و اون بالا… گل‌های خاله ماریا، همسایهٔ نیما!",
+      "en": "And up there, on the fifth floor… Maria Teyze's flowers!",
+      "fa": "و اون بالا، طبقهٔ پنجم… گل‌های خاله ماریا!",
       "to": "berfin",
-      "tr": "Ve yukarıda… Nima'nın komşusu Maria Teyze'nin çiçekleri!",
+      "tr": "Ve yukarıda, beşinci katta… Maria Teyze'nin çiçekleri!",
       "who": "dilnoza"
     },
     {
@@ -667,7 +644,7 @@
       "at": {
         "berfin": "counter",
         "dilnoza": "table",
-        "farzad": "seat_6",
+        "farzad": "seat_3",
         "nima": "team_building"
       },
       "kerim": "wall",
@@ -789,11 +766,18 @@
       "en": "For new students!",
       "env": "state:guide_up",
       "fa": "برای دانشجوهای تازه‌وارد!",
-      "move": {
-        "how": "fly",
-        "to": "frame",
-        "who": "kerim"
-      },
+      "move": [
+        {
+          "how": "fly",
+          "to": "frame",
+          "who": "kerim"
+        },
+        {
+          "who": "berfin",
+          "to": "seat_2",
+          "how": "walk"
+        }
+      ],
       "obj": [
         {
           "id": "rehber",
@@ -830,7 +814,7 @@
         "fa": "نیما حالا به خواستهٔ برفین با او «تو» (sen) حرف می‌زند."
       },
       "to": "berfin",
-      "tr": "Sağ ol, Berfin! Sen çok iyisin.",
+      "tr": "Sağ ol, Berfin! Çok iyisin.",
       "who": "nima"
     },
     {
@@ -847,7 +831,7 @@
         "word": "dın dın"
       },
       "to": "nima",
-      "tr": "Affedersiniz… burası neresi?",
+      "tr": "Affedersin… burası neresi?",
       "who": "newcomer"
     },
     {
