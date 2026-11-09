@@ -135,6 +135,10 @@
     "zafer": {
       "fa": "ظفر (اسم؛ به معنیِ پیروزی)",
       "en": "Zafer (a name; also the word for victory)"
+    },
+    "güneş": {
+      "fa": "خورشید؛ آفتاب",
+      "en": "sun"
     }
   },
   "id": "s1e15",
@@ -181,34 +185,19 @@
       "why": "Dilnoza: “Ben… Türkçe konuşmak istiyorum.”"
     },
     {
-      "a": 0,
       "kind": "word",
-      "options": [
-        "istiyorum",
-        "konuşuyorum",
-        "yağıyor"
-      ],
       "q": {
         "tr": "Nima: “Ben Boğaz'da çay içmek …”",
-        "en": "Nima: “I … to drink tea on the Bosphorus.” Which word fits? (istemek: to want)",
-        "fa": "نیما: «من … کنار بسفر چای بنوشم.» کدام کلمه درست است؟ (istemek: خواستن)"
+        "en": "Nima: “I … to drink tea on the Bosphorus.” Which word fits?",
+        "fa": "نیما: «من … کنار بسفر چای بخورم.» کدام کلمه درست است؟"
       },
-      "why": "Nima: “Ben Boğaz'da çay içmek istiyorum.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
       "options": [
-        "Dilnoza",
-        "Parvane",
-        "Zafer Hoca"
+        "konuşuyorum",
+        "istiyorum",
+        "yağıyor"
       ],
-      "q": {
-        "tr": "Yağmur yağıyor. Kim şemsiye açıyor?",
-        "en": "It's raining. Who opens an umbrella?",
-        "fa": "باران می‌بارد. چه کسی چتر باز می‌کند؟"
-      },
-      "why": "Dilnoza: “Şemsiye istiyor musun?”"
+      "a": 1,
+      "why": "Nima: “Ben Boğaz'da çay içmek istiyorum.”"
     }
   ],
   "ref": "A1_3",
@@ -228,17 +217,17 @@
       "time": "overcast"
     },
     {
-      "en": "Good morning! The weather… cloudy. I can't see any sun.",
-      "fa": "صبح بخیر! هوا… ابریه. آفتاب نمی‌بینم.",
+      "en": "The weather's not nice. Clouds, lots of clouds! The sun… is gone.",
+      "fa": "هوا خوب نیست. ابره، کلی ابر! آفتاب… نیست.",
       "narr": true,
-      "tr": "Günaydın! Hava… bulut var. Güneş görmüyorum.",
+      "tr": "Hava güzel değil. Bulut var, çok bulut! Güneş… yok.",
       "who": "kerim"
     },
     {
       "do": "explain",
       "emo": "happy",
       "en": "What do you want to do in Istanbul?",
-      "fa": "تو استانبول می‌خواید چی‌کار کنید؟",
+      "fa": "تو استانبول می‌خواین چی‌کار کنین؟",
       "to": "all",
       "tr": "İstanbul'da ne yapmak istiyorsunuz?",
       "who": "zafer"
@@ -278,7 +267,8 @@
       "beat": {
         "do": "sleep",
         "emo": "tired",
-        "who": "alex"
+        "who": "alex",
+        "cam": "close"
       }
     },
     {
@@ -307,7 +297,7 @@
       "do": "thumb_up",
       "emo": "proud",
       "en": "Very good, Dilnoza. You're speaking now!",
-      "fa": "خیلی خوب، دلنوزا. الان دارید حرف می‌زنید!",
+      "fa": "خیلی خوب، دلنوزا. الان دارین حرف می‌زنین!",
       "react": {
         "dilnoza": "shy"
       },
@@ -521,8 +511,8 @@
     {
       "do": "me",
       "emo": "happy",
-      "en": "Me too, to Osmanbey!",
-      "fa": "منم می‌رم عثمان‌بی!",
+      "en": "I'm going to Osmanbey! Let's go together!",
+      "fa": "من می‌رم عثمان‌بی! با هم می‌ریم!",
       "react": {
         "nima": {
           "do": "nod",
@@ -530,7 +520,7 @@
         }
       },
       "to": "nima",
-      "tr": "Ben de Osmanbey'e!",
+      "tr": "Ben Osmanbey'e! Beraber gidiyoruz!",
       "who": "dilnoza"
     },
     {

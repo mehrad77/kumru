@@ -142,8 +142,8 @@
       "en": "neighbours"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "metroda": {
       "fa": "در مترو",
@@ -192,6 +192,14 @@
     "کادیکوی": {
       "fa": "کادیکوی (فارسی: Kadıköy)",
       "en": "Kadıköy (in Persian)"
+    },
+    "kelime": {
+      "fa": "کلمه",
+      "en": "word"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     }
   },
   "id": "s1e16",
@@ -233,12 +241,12 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Kadıköy'den",
         "Beşiktaş'tan",
-        "Şişli'den"
+        "Şişli'den",
+        "Kadıköy'den"
       ],
       "q": {
         "tr": "Alex nereden geliyor?",
@@ -261,21 +269,6 @@
         "fa": "ماریا می‌پرسد نیما از کجا می‌آید. کدام کلمه‌ی پرسشی را به کار می‌برد؟"
       },
       "why": "Maria: “Nereden geliyorsunuz?”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Beşinci kat",
-        "Dördüncü kat",
-        "İkinci kat"
-      ],
-      "q": {
-        "tr": "Maria kaçıncı katta oturuyor?",
-        "en": "Which floor does Maria live on?",
-        "fa": "ماریا در کدام طبقه زندگی می‌کند؟"
-      },
-      "why": "Maria: “Ben Maria, beşinci kattayım.”"
     }
   ],
   "ref": "A1_3",
@@ -299,7 +292,7 @@
       "do": "wave",
       "emo": "happy",
       "en": "Good morning! Where are you coming from?",
-      "fa": "صبح بخیر! از کجا میایید؟",
+      "fa": "صبح بخیر! از کجا می‌آین؟",
       "to": "all",
       "tr": "Günaydın! Nereden geliyorsunuz?",
       "who": "zafer"
@@ -342,7 +335,8 @@
       },
       "to": "all",
       "tr": "Yusuf Beşiktaş'tan geliyor. Alex Kadıköy'den, vapurla! Dilnoza Osmanbey'den: çok yakın.",
-      "who": "zafer"
+      "who": "zafer",
+      "cam": "single"
     },
     {
       "emo": "surprised",
@@ -361,14 +355,15 @@
       },
       "to": "parvaneh",
       "tr": "Türkçe, lütfen!",
-      "who": "zafer"
+      "who": "zafer",
+      "cam": "two"
     },
     {
       "at": "obj:farsca_jar",
       "do": "point",
       "emo": "laugh",
-      "en": "…Very far! When I speak Persian… one lira! Nima, you're the police!",
-      "fa": "…خیلی دوره! فارسی حرف بزنم… یه لیر! نیما، تو پلیسی!",
+      "en": "…Very far! Every Persian word… one lira! Nima, you're the police!",
+      "fa": "…خیلی دوره! هر کلمه‌ی فارسی… یه لیر! نیما، تو پلیسی!",
       "link": {
         "lira": "obj:farsca_jar"
       },
@@ -379,7 +374,7 @@
         }
       ],
       "to": "nima",
-      "tr": "…Çok uzak! Farsça konuşuyorum… bir lira! Nima, sen polissin!",
+      "tr": "…Çok uzak! Farsça kelime… bir lira! Nima, sen polissin!",
       "who": "parvaneh"
     },
     {
@@ -463,8 +458,8 @@
     {
       "do": "hand_heart",
       "emo": "moved",
-      "en": "Yes! And you… you were very kind, thank you! I'm Maria, from the fifth floor. Where do you come from?",
-      "fa": "بله! و شما… خیلی لطف داشتید، ممنونم! من ماریا هستم، طبقه‌ی پنجم. شما اهلِ کجایید؟",
+      "en": "Yes! You were very kind, thank you! I'm Maria, from the fifth floor. Where are you from?",
+      "fa": "بله! خیلی لطف داشتین، ممنونم! من ماریام، طبقه‌ی پنجم. اهلِ کجایین؟",
       "if": "s1e14_seat",
       "obj": [
         {
@@ -474,14 +469,14 @@
         }
       ],
       "to": "nima",
-      "tr": "Evet! Ve siz… çok naziksiniz, teşekkürler! Ben Maria, beşinci kattayım. Nereden geliyorsunuz?",
+      "tr": "Evet! Çok naziksiniz, teşekkürler! Ben Maria, beşinci kattayım. Nereden geliyorsunuz?",
       "who": "maria"
     },
     {
       "do": "me",
       "emo": "happy",
-      "en": "Yes, on the metro! I'm Maria, from the fifth floor. Where do you come from?",
-      "fa": "بله، تو مترو! من ماریا هستم، طبقه‌ی پنجم. شما اهلِ کجایید؟",
+      "en": "Yes, on the metro! I'm Maria, from the fifth floor. Where are you from?",
+      "fa": "بله، تو مترو! من ماریام، طبقه‌ی پنجم. اهلِ کجایین؟",
       "obj": [
         {
           "id": "defter",
@@ -496,53 +491,19 @@
     },
     {
       "emo": "happy",
-      "en": "From Tehran. And you, where from?",
-      "fa": "از تهران. شما اهلِ کجایید؟",
+      "en": "From Tehran. And you?",
+      "fa": "از تهران. شما چی؟",
       "to": "maria",
-      "tr": "Tahran'dan. Siz nereden?",
-      "who": "nima"
-    },
-    {
-      "do": "me",
-      "emo": "proud",
-      "en": "I'm from here. From this very street!",
-      "fa": "من اهلِ همین‌جام. از همین کوچه!",
-      "to": "nima",
-      "tr": "Ben buradanım. Bu sokaktan!",
-      "who": "maria"
-    },
-    {
-      "emo": "sad",
-      "en": "Turkish is hard!",
-      "fa": "ترکی سخته!",
-      "to": "maria",
-      "tr": "Türkçe zor!",
-      "who": "nima"
-    },
-    {
-      "do": "explain",
-      "emo": "happy",
-      "en": "It isn't easy… but drop by drop, a lake forms.",
-      "fa": "آسون نیست… ولی قطره قطره جمع گردد، وانگهی دریا شود.",
-      "to": "nima",
-      "tr": "Kolay değil… ama damlaya damlaya göl olur.",
-      "who": "maria"
-    },
-    {
-      "emo": "happy",
-      "en": "Drop by drop… a lake forms. That's lovely!",
-      "fa": "قطره قطره… دریا می‌شه. چه قشنگ!",
-      "to": "maria",
-      "tr": "Damlaya damlaya… göl olur. Çok güzel!",
+      "tr": "Tahran'dan. Siz?",
       "who": "nima"
     },
     {
       "do": "beckon",
       "emo": "happy",
-      "en": "Come for tea on Saturday!",
-      "fa": "شنبه برای چای تشریف بیارید!",
+      "en": "I'm from here. This very street! …Come for tea on Saturday!",
+      "fa": "من اهلِ همین‌جام. از همین کوچه! …شنبه برای چای تشریف بیارین!",
       "to": "nima",
-      "tr": "Cumartesi çaya gelin!",
+      "tr": "Ben buradanım. Bu sokaktan! …Cumartesi çaya gelin!",
       "who": "maria"
     },
     {
@@ -619,14 +580,14 @@
                 "en": "No?! Coo-coo…",
                 "fa": "نه؟! کو-کو…",
                 "narr": true,
-                "tr": "Hayır mı?! Ku-ku…",
+                "tr": "Hayır mı?! Ku-kuu…",
                 "who": "kerim"
               },
               {
                 "do": "beckon",
                 "emo": "happy",
                 "en": "Very well… but there's tea on Saturday. Do come, do come!",
-                "fa": "باشه… ولی شنبه چای داریم. تشریف بیارید، حتماً!",
+                "fa": "باشه… ولی شنبه چای داریم. تشریف بیارین، حتماً!",
                 "to": "nima",
                 "tr": "Peki… ama cumartesi çay var. Gelin, gelin!",
                 "who": "maria"
@@ -640,11 +601,23 @@
       }
     },
     {
-      "en": "Maria Teyze… and Nima. Neighbours!",
-      "fa": "خاله ماریا… و نیما. همسایه‌ها!",
-      "narr": true,
-      "tr": "Maria Teyze… ve Nima. Komşular!",
-      "who": "kerim"
+      "emo": "sad",
+      "en": "But… Turkish is hard!",
+      "fa": "ولی… ترکی سخته!",
+      "to": "maria",
+      "tr": "Ama… Türkçe zor!",
+      "who": "nima",
+      "at": "obj:defter",
+      "do": "look"
+    },
+    {
+      "do": "explain",
+      "emo": "happy",
+      "en": "It isn't easy… but drop by drop, a lake forms.",
+      "fa": "آسون نیست… ولی قطره قطره جمع گردد، وانگهی دریا شود.",
+      "to": "nima",
+      "tr": "Kolay değil… ama damlaya damlaya göl olur.",
+      "who": "maria"
     }
   ],
   "summary": {
