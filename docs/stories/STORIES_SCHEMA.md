@@ -67,7 +67,7 @@ The lesson fields (`level`, `ref`, `lessons`, `words`, `gl`, `quiz`, the `spot` 
 | `looks` | `{ <character id>: outfit \| look }` | | What characters wear for the whole story (section 5.2); without it, their `avatar` |
 | `names` | `{ <character id>: string }` | | The name a character goes by in this story only, for one the learner has not met by name yet (`s1e14`: Maria is *Teyze*); without it, their `name` |
 | `steps` | step[] | ✓ | The story (section 4). It starts with a `scene` step |
-| `quiz` | quiz item[0–3] | | Section 4.6. Optional: none, one, two or three items; two or more have a comp and a word item (sahne-lesson, from the Sahne pin after v0.2.0; v0.2.0 still asks for three) |
+| `quiz` | quiz item[0–3] | | Section 4.6. Optional: none, one, two or three items; two or more have a comp and a word item (sahne-lesson, since Sahne 0.2.1) |
 | `followUp` | step[] | | The scripted dialogue after the quiz, free tier. Only `line` and `choice` steps; the stand-in rules apply. The reader no longer plays it (2026-11-09) |
 | `draft` | `true` | | Unreviewed. Never in a production build (like the path's draft sections) |
 
