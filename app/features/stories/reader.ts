@@ -18,6 +18,7 @@ import { faTxt } from "../../core/i18n.ts";
 import { helpLangs, meaningLang } from "../../core/lang.ts";
 import { S } from "../../core/store.ts";
 import { loadLib } from "../../host/lib.ts";
+import { castPortrait, myPortrait } from "../../ui/avatar/portrait.ts";
 import { pup, kerimTalk, talkMs } from "../../ui/kerim/kerim.ts";
 import { speak } from "../../ui/speech.ts";
 import { toast } from "../../ui/toast.ts";
@@ -166,9 +167,14 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     cleanups.push(() => theatreQ.removeEventListener("change", applyView));
 
     let cur: { stage: ReturnType<Player["stageFor"]>; player: ReturnType<Player["storyPlayer"]> } | null = null;
+    // Devam only where there is a line to read: after the opening, a scene change, a stage beat or a sound, the next cue plays
+    // by itself after a short hold. `lastCue` is the cue played last (null: the opening scene, shown at load).
+    let lastCue: { kind: string; tr?: string } | null = null, onwardFor = -1, onwardTimer = 0;
+    const wordless = (c: { kind: string; tr?: string } | null) => !c || c.kind === "scene" || c.kind === "beat" || c.kind === "react" || !c.tr?.trim();
+    cleanups.push(() => clearTimeout(onwardTimer));
     function start(stage: ReturnType<Player["stageFor"]>) {
       const player = P.storyPlayer(stage as never, adapted, {
-        onCue: (info) => addLog(info),
+        onCue: (info) => { lastCue = info; addLog(info); },
         onChange: () => draw(),
         loadOptions: { narratorEl: narrator, onNarratorTalk: (talking: boolean, text: string) => kerimTalk(narrator, talking ? talkMs(text) : 0), narratorSound: "coo" },
       });
@@ -185,28 +191,61 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
           el("div", null, i.tr ? glossed(i.tr) : null, ...tl(i.en, i.fa),
             lesson ? btn("linkish", "Open the lesson", () => openLesson(lesson)) : null)));
       } else if (i.tr) {
-        const line = el("p", { class: "st-line" + (i.who === "nima" ? " me" : "") }, el("b", { text: i.kind === "beat" ? "" : who(i.who) }), " ",
-          i.tr.trim() === "…" ? el("span", { text: "…" }) : glossed(i.tr), ...tl(i.en, i.fa));
+        // a chat line: the speaker's head in a small circle (named for screen readers), and the line in a bubble out of it;
+        // the learner's own lines from the other side. A beat (a sound word) has no speaker: a plain line in the middle.
+        const text = i.tr.trim() === "…" ? el("span", { text: "…" }) : glossed(i.tr);
+        const beat = i.kind === "beat" || !i.who, me = i.who === "nima", name = beat ? "" : who(i.who);
+        const av = beat ? null : me ? myPortrait(32, "st-av")
+          : i.who === "kerim" ? pup("idle", 32, { pose: "head", enter: false, label: name })
+          : castPortrait(i.who!, (characters.value[i.who!] as { avatar?: unknown } | undefined)?.avatar, 32, "st-av", name);
+        if (av) { av.title = name; av.classList.add("st-av"); }
+        const line = el("div", { class: "st-line" + (me ? " me" : "") + (beat ? " beat" : "") }, av, el("div", { class: "st-bub" }, text, ...tl(i.en, i.fa)));
         log.append(line);
       }
       line2view();
     }
     // the newest line is always in view: at the bottom of the log's own box in theatre, just above the footer in log mode
+    // It measures rather than asks scrollIntoView (which, under the sticky stage and footer, can leave the page where it was):
+    // once the line is laid out, and again after its 0.2 s growth into the newest line's size.
+    let l2vFrame = 0, l2vTimer = 0;
     function line2view() {
-      const last = log.lastElementChild as HTMLElement | null;
-      if (!last) return;
-      const behavior: ScrollBehavior = reduce ? "auto" : "smooth";
-      if (theatre() && !lost) log.scrollTo({ top: log.scrollHeight, behavior });
-      else last.scrollIntoView({ block: "end", behavior });
+      if (!log.lastElementChild) return;
+      cancelAnimationFrame(l2vFrame); l2vFrame = requestAnimationFrame(placeLast);
+      clearTimeout(l2vTimer); l2vTimer = window.setTimeout(placeLast, 260);
     }
+    function placeLast() {
+      const last = log.lastElementChild as HTMLElement | null;
+      if (!last || gone) return;
+      const behavior: ScrollBehavior = reduce ? "auto" : "smooth";
+      logRO.observe(last);
+      const inBox = theatre() && !lost;
+      if (inBox) log.scrollTo({ top: log.scrollHeight, behavior });
+      // the line (in theatre, the log's own box) ends just above the footer
+      const gap = (inBox ? log : last).getBoundingClientRect().bottom - foot.getBoundingClientRect().top + 8;
+      if (gap > 0) page.scrollBy({ top: gap, behavior });
+    }
+    cleanups.push(() => { cancelAnimationFrame(l2vFrame); clearTimeout(l2vTimer); });
+    // a line grows after it lands (the newest line's larger type, a portrait drawn in): keep it in view then too
+    const logRO = new ResizeObserver(() => line2view());
+    logRO.observe(log);
+    cleanups.push(() => logRO.disconnect());
     // the footer (Devam, the reply card) sits over the page's bottom: lines keep clear of it, and a taller card scrolls them up
     const footRO = new ResizeObserver(() => { page.style.setProperty("--st-foot", foot.offsetHeight + "px"); line2view(); });
     footRO.observe(foot);
     cleanups.push(() => footRO.disconnect());
 
     // ---- the footer ----
+    /** The head of the learner's card: their own face and "your turn" (the Turkish, and the gloss under it). */
+    const turnHead = (en: string) => el("div", { class: "st-turn-h" }, myPortrait(26, "st-av"), el("b", { lang: "tr", text: "Senin sıran" }), el("small", { text: en }));
+    /** The reply card: the learner's line as a bubble of theirs, about to be said, with Söyle as its send button beside it. */
+    function replyCard(line: HTMLElement, en: string | undefined, fa: string | undefined, onSay: () => void, extra: HTMLElement | null = null) {
+      const send = el("button", { class: "btn primary st-send", type: "button", onclick: onSay }, el("span", { text: "Söyle" }),
+        el("span", { class: "st-send-i", "aria-hidden": "true", text: "➤" }));
+      return el("div", { class: "card st-card st-reply" }, turnHead("your line"),
+        el("div", { class: "st-reply-b" }, el("div", { class: "st-bub st-mine" }, line, ...tl(en, fa)), send), extra);
+    }
     function card(label: string, opts: Text3[], order: number[], onPick: (authored: number) => void, silent = false) {
-      const c = el("div", { class: "card st-card" }, el("small", { text: label }));
+      const c = el("div", { class: "card st-card st-choose" }, turnHead(label));
       for (const k of order) {
         const o = opts[k];
         const b = el("button", { class: "st-opt", type: "button", onclick: () => onPick(k) }, el("span", { lang: "tr", text: silent ? "…" : o.tr ?? "" }),
@@ -235,6 +274,12 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       if (!cur) return;
       const f = cur.player.footer();
       // busy and devam both offer Devam: keep the button (and its focus) when a cue ends, rather than swapping it mid-tap
+      if (f.kind === "devam" && wordless(lastCue) && onwardFor !== f.cue) {
+        onwardFor = f.cue;
+        const at = f.cue, p = cur.player;
+        clearTimeout(onwardTimer);
+        onwardTimer = window.setTimeout(() => { if (!gone && cur?.player === p && p.next === at && p.footer().kind === "devam") p.devam(); }, lastCue ? 350 : 1200);
+      }
       if (f.kind === "busy" || f.kind === "devam") {
         if (foot.childElementCount === 1 && foot.firstElementChild?.matches("button.st-devam")) return;
         foot.replaceChildren(btn("btn primary block st-devam", "Devam", () => cur!.player.devam())); return;
@@ -244,14 +289,12 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       const t = f.turn;
       if (t.kind === "say") {
         const o = t.options[0];
-        const say = btn("btn primary", t.silent ? "…" : "Söyle", () => cur!.player.say());
-        foot.append(el("div", { class: "card st-card" }, el("small", { text: name }),
-          t.silent ? el("p", { text: "…" }) : el("p", { class: "st-mine" }, glossed(o.tr ?? "")),
-          ...(t.silent ? [] : tl(o.en, o.fa)),
-          el("div", { class: "st-say" }, say, t.silent ? null : aloudBtn([o.tr ?? ""], () => cur!.player.say()))));
+        foot.append(t.silent
+          ? replyCard(el("span", { text: "…" }), undefined, undefined, () => cur!.player.say())
+          : replyCard(glossed(o.tr ?? ""), o.en, o.fa, () => cur!.player.say(), aloudBtn([o.tr ?? ""], () => cur!.player.say())));
       } else if (t.kind === "choice") {
         const order = shuffled(t.options.length, `${story.id}:${t.id}:${record(story.id).reads ?? 0}`);
-        const c = card(`${name}: choose`, t.options, order, (k) => cur!.player.choose(k));
+        const c = card("choose what to say", t.options, order, (k) => cur!.player.choose(k));
         const al = aloudBtn(t.options.map((o) => o.tr ?? ""), () => undefined);
         if (al) c.append(al);
         foot.append(c);
@@ -262,11 +305,13 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       }
     }
 
-    // ---- the quiz, the follow-up, the record ----
+    // ---- the quiz (none, one, two or three questions), the record ----
+    // A story's `followUp` dialogue is not played: the reading ends at the quiz.
     let firstTry = 0;
+    const done = () => finish({}, false);
     function quiz() {
       const items = (story.quiz ?? []) as QuizItem[];
-      if (!items.length) { followUp(); return; }
+      if (!items.length) { done(); return; }
       let n = 0;
       const ask = () => {
         const q = items[n], order = shuffled(q.options.length, `${story.id}:quiz${n}:${record(story.id).reads ?? 0}`);
@@ -274,15 +319,18 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
         const box = el("div", { class: "card st-quiz" }, el("small", { text: `Question ${n + 1} of ${items.length}` }), el("p", { lang: "tr", class: "st-q", text: textIn(q.q, "tr") }),
           ...tl(q.q.en, q.q.fa));
         const why = el("p", { class: "hint st-why", "aria-live": "polite" });
+        // the learner's pick stays marked: a wrong one crossed out (and closed), the right one ticked once found
         for (const k of order) {
-          box.append(btn("st-opt", q.options[k], () => {
+          const opt = btn("st-opt", q.options[k], () => {
             tries++;
-            if (k !== q.a) { why.textContent = "Not quite. Try again."; return; }
+            if (k !== q.a) { opt.classList.add("no"); (opt as HTMLButtonElement).disabled = true; opt.setAttribute("aria-label", `${q.options[k]}: not this one`); why.textContent = "Not quite. Try again."; return; }
             if (tries === 1) firstTry++;
+            opt.classList.add("ok"); opt.setAttribute("aria-label", `${q.options[k]}: right`);
             why.textContent = q.why ? "✓ " + q.why : "✓";
             box.querySelectorAll("button.st-opt").forEach((b) => ((b as HTMLButtonElement).disabled = true));
-            box.append(btn("btn primary block", n + 1 < items.length ? "Next question" : "Finish", () => { n++; if (n < items.length) ask(); else followUp(); }));
-          }, { lang: "tr" }));
+            box.append(btn("btn primary block", n + 1 < items.length ? "Next question" : "Finish", () => { n++; if (n < items.length) ask(); else done(); }));
+          }, { lang: "tr" });
+          box.append(opt);
         }
         box.append(why);
         foot.replaceChildren(box);
@@ -290,33 +338,9 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       ask();
     }
 
-    function followUp() {
-      const steps = (story.followUp ?? []) as { who?: string; tr?: string; en?: string; fa?: string; if?: string; unless?: string; choice?: { id: string; options: Text3[] } }[];
-      const fuPicks: Record<string, number> = {};
-      const passes = (s: { if?: string; unless?: string }) => (!s.if || flags.has(s.if)) && (!s.unless || !flags.has(s.unless));
-      let k = 0;
-      if (steps.length) log.append(el("hr", { class: "st-fu" }));
-      const next = () => {
-        while (k < steps.length && !passes(steps[k])) k++;
-        if (k >= steps.length) { finish(fuPicks, steps.length > 0); return; }
-        const s = steps[k];
-        if (s.choice) {
-          const c = s.choice, order = shuffled(c.options.length, `${story.id}:${c.id}`);
-          foot.replaceChildren(card(`${name}: choose`, c.options, order, (i) => { fuPicks[c.id] = i; addLog({ kind: "say", who: "nima", ...c.options[i], step: -1 }); k++; next(); }));
-        } else if (s.who === "nima") {
-          foot.replaceChildren(el("div", { class: "card st-card" }, el("small", { text: name }), el("p", null, glossed(s.tr ?? "")),
-            btn("btn primary", "Söyle", () => { addLog({ kind: "say", ...s, step: -1 }); speak(s.tr ?? ""); k++; next(); })));
-        } else {
-          addLog({ kind: "line", ...s, step: -1 });
-          foot.replaceChildren(btn("btn primary block", "Devam", () => { k++; next(); }));
-        }
-      };
-      next();
-    }
-
     function finish(fuPicks: Record<string, number>, hadFollowUp: boolean) {
       const ch = { ...(cur?.player.picks ?? {}), ...fuPicks } as Record<string, number | string>;
-      const stars = quizStars(firstTry);
+      const stars = quizStars(firstTry, (story.quiz ?? []).length);
       const { rec, first } = finishRecord(record(story.id), { stars, picks: okPicks(story.steps, ch), ch, fu: hadFollowUp, now: Date.now() });
       (S.st as Record<string, StRecord>)[story.id] = rec;
       if (first) addXp(10);
@@ -330,7 +354,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
         el("p", { class: "st-stars-big", "aria-label": `${stars} of 3 stars`, text: "★".repeat(stars) + "☆".repeat(3 - stars) }),
         el("p", { lang: "tr", text: stars === 3 ? "Harika!" : "Aferin!" }),
         nxt ? btn("btn primary block", "Next story", () => { close(); setTimeout(() => import("./open.ts").then((m) => m.openStory(nxt.id)), 0); }) : null,
-        btn("btn block", "Read it again", () => { firstTry = 0; log.replaceChildren(); cur?.player.restart(); }),
+        btn("btn block", "Read it again", () => { firstTry = 0; lastCue = null; onwardFor = -1; log.replaceChildren(); cur?.player.restart(); }),
         btn("linkish", "Back to the stories", close)));
     }
 

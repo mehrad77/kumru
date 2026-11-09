@@ -16,7 +16,13 @@ test("ok picks count the story's own choices answered with ok", () => {
 });
 
 test("stars: first-try answers, at least one", () => {
-  assert.deepEqual([0, 1, 2, 3, 4].map(quizStars), [1, 1, 2, 3, 3]);
+  assert.deepEqual([0, 1, 2, 3, 4].map((f) => quizStars(f)), [1, 1, 2, 3, 3]);
+});
+
+test("stars: out of 3 for a quiz of any length, and 3 without one", () => {
+  assert.deepEqual([0, 1].map((f) => quizStars(f, 1)), [1, 3]);
+  assert.deepEqual([0, 1, 2].map((f) => quizStars(f, 2)), [1, 2, 3]);
+  assert.equal(quizStars(0, 0), 3);
 });
 
 test("a reading keeps the best stars, counts reads and takes this reading's picks", () => {
