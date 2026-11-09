@@ -79,10 +79,6 @@
     }
   ],
   "gl": {
-    "buyrun": {
-      "fa": "بفرمایید",
-      "en": "here you are; please (buyurun, said quickly)"
-    },
     "ediyor": {
       "fa": "می‌کند (yardım ediyor: کمک می‌کند)",
       "en": "does (yardım ediyor: is helping)"
@@ -96,16 +92,12 @@
       "en": "card"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "kumru": {
       "fa": "قمری",
       "en": "collared dove (an A2 word)"
-    },
-    "naziksiniz": {
-      "fa": "لطف دارید",
-      "en": "you're kind (nazik: kind)"
     },
     "rize": {
       "fa": "ریزه (شهری کنارِ دریای سیاه، معروف به چای)",
@@ -126,6 +118,14 @@
     "ünite": {
       "fa": "درس، فصلِ کتاب",
       "en": "unit (of a textbook)"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
+    },
+    "nazik": {
+      "fa": "مهربان، بالطف",
+      "en": "kind"
     }
   },
   "id": "s1e44",
@@ -216,46 +216,31 @@
       "a": 1,
       "kind": "comp",
       "options": [
-        "Farzad'dan",
+        "Zafer Hoca'dan",
         "İsmail Bey'den",
-        "Zafer Hoca'dan"
+        "Farzad'dan"
       ],
       "q": {
         "tr": "Rize çayı kimden?",
         "en": "Who is the Rize tea from?",
         "fa": "چای ریزه از طرفِ کیست؟"
       },
-      "why": "“Nima, buyrun: bu İsmail Bey'den. Sizin için.”"
-    },
-    {
-      "a": 1,
-      "kind": "word",
-      "options": [
-        "Uyuyor",
-        "Yardım ediyor",
-        "Sınav yazıyor"
-      ],
-      "q": {
-        "tr": "Kerim ne yapıyor?",
-        "en": "What is Kerim doing?",
-        "fa": "کریم چه کار می‌کند؟"
-      },
-      "why": "“Kerim ne yapıyor? Kerim… yardım ediyor!”"
+      "why": "“Nima, buyurun: bu İsmail Bey'den. Sizin için.”"
     },
     {
       "a": 2,
-      "kind": "comp",
+      "kind": "word",
       "options": [
-        "Kuş",
-        "Sınav",
-        "Kumru"
+        "uyudunuz",
+        "konuştunuz",
+        "çalıştınız"
       ],
       "q": {
-        "tr": "Kerim hangi kelimeyi bırakıyor?",
-        "en": "Which word does Kerim leave behind?",
-        "fa": "کریم کدام کلمه را به جا می‌گذارد؟"
+        "tr": "Zafer Hoca: “Altı ünite… yedi hafta. Siz çok …”",
+        "en": "Zafer Hoca: “Six units… seven weeks. You've all … very hard.”",
+        "fa": "استاد ظفر: «شش درس… هفت هفته. شما خیلی …»"
       },
-      "why": "“Son bir kart… ve yeni bir kelime: kumru.”"
+      "why": "“Altı ünite… yedi hafta. Siz çok çalıştınız.”"
     }
   ],
   "ref": "A1_6",
@@ -333,7 +318,7 @@
         }
       ],
       "to": "zafer",
-      "tr": "Buyrun, hocam! Sınav ne zaman?",
+      "tr": "Buyurun, hocam! Sınav ne zaman?",
       "who": "ismail"
     },
     {
@@ -360,13 +345,13 @@
       "at": "obj:kese",
       "do": "hold_up",
       "emo": "happy",
-      "en": "Nima has the exam too, right? The honey student! This packet's for Nima. One glass before the exam!",
-      "fa": "نیما هم امتحان داره، نه؟ همون شاگردِ عسل! این بسته مالِ نیماست. قبل از امتحان یه استکان!",
+      "en": "Nima has the exam too, right? The honey student! This packet's for Nima.",
+      "fa": "نیما هم امتحان داره، نه؟ همون شاگردِ عسل! این بسته مالِ نیماست.",
       "link": {
         "paket": "obj:kese"
       },
       "to": "zafer",
-      "tr": "Nima'nın da sınavı var, değil mi? Bal öğrencisi! Bu paket Nima için. Sınavdan önce bir bardak!",
+      "tr": "Nima'nın da sınavı var, değil mi? Bal öğrencisi! Bu paket Nima için.",
       "who": "ismail"
     },
     {
@@ -425,8 +410,8 @@
     {
       "at": "ch:nima",
       "do": "give",
-      "en": "Friday's exam: reading, writing, listening, speaking. …Nima, here you are: this is from İsmail Bey. For you.",
-      "fa": "امتحانِ جمعه: خوندن، نوشتن، شنیدن، صحبت کردن. …نیما، بفرمایید: این از طرفِ آقای اسماعیله. برای شما.",
+      "en": "Friday's the exam: reading, writing, listening, speaking. …Nima, here you are: this is from İsmail Bey. For you.",
+      "fa": "جمعه امتحان داریم: خوندن، نوشتن، شنیدن، صحبت کردن. …نیما، بفرمایید: این از طرفِ آقای اسماعیله. برای شما.",
       "move": {
         "how": "walk",
         "to": "teacher_desk",
@@ -440,24 +425,24 @@
         }
       ],
       "to": "nima",
-      "tr": "Cuma sınav: okuma, yazma, dinleme, konuşma. …Nima, buyrun: bu İsmail Bey'den. Sizin için.",
+      "tr": "Cuma sınav var: okuma, yazma, dinleme, konuşma. …Nima, buyurun: bu İsmail Bey'den. Sizin için.",
       "who": "zafer"
     },
     {
       "at": "obj:kese",
       "do": "hold_up",
-      "emo": "laugh",
-      "en": "Rize tea! İsmail Bey… you're so kind!",
-      "fa": "چای ریزه! آقای اسماعیل… خیلی لطف دارید!",
+      "emo": "happy",
+      "en": "Rize tea! İsmail Bey is so kind!",
+      "fa": "چای ریزه! آقای اسماعیل خیلی لطف داره!",
       "link": {
         "çayı": "obj:kese"
       },
       "react": {
-        "parvaneh": "laugh",
-        "zafer": "laugh"
+        "zafer": "happy"
       },
-      "tr": "Rize çayı! İsmail Bey… çok naziksiniz!",
-      "who": "nima"
+      "tr": "Rize çayı! İsmail Bey çok nazik!",
+      "who": "nima",
+      "to": "zafer"
     },
     {
       "emo": "moved",
@@ -605,10 +590,10 @@
     },
     {
       "emo": "proud",
-      "en": "Kerim saw it. But Kerim isn't telling. Kerim is an honest bird!",
-      "fa": "کریم دید. ولی کریم نمی‌گه. کریم یه پرنده‌ی صادقه!",
+      "en": "Kerim saw it… but she didn't tell. Kerim is an honest bird!",
+      "fa": "کریم دید… ولی نگفت. کریم یه پرنده‌ی صادقه!",
       "narr": true,
-      "tr": "Kerim gördü. Ama Kerim söylemiyor. Kerim dürüst bir kuş!",
+      "tr": "Kerim gördü… ama söylemedi. Kerim dürüst bir kuş!",
       "who": "kerim"
     },
     {
@@ -720,33 +705,38 @@
       },
       "narr": true,
       "tr": "Son bir kart… ve yeni bir kelime: kumru.",
-      "who": "kerim"
-    },
-    {
-      "en": "In the morning I flew to Taksim. I saw İsmail. Then I went to school. In the evening I saw the exam, but I didn't tell.",
-      "fa": "صبح تا تقسیم پرواز کردم. اسماعیل رو دیدم. بعد رفتم مدرسه. غروب امتحان رو دیدم، ولی نگفتم.",
-      "narr": true,
-      "tr": "Sabah Taksim'e uçtum. İsmail'i gördüm. Sonra okula gittim. Akşam sınavı gördüm, ama söylemedim.",
-      "who": "kerim"
+      "who": "kerim",
+      "react": {
+        "nima": {
+          "do": "sleep",
+          "emo": "tired"
+        }
+      }
     },
     {
       "spot": {
-        "en": "Kerim's day in -DI, the past: uçtum (I flew), gördüm (I saw), gittim (I went). Sabah, sonra, akşam put the day in order. And the negative: söyle- + -me- + -di + -m, söylemedim, “I didn't tell”. The -mA- comes before the -DI.",
-        "ex": "Akşam sınavı gördüm, ama söylemedim.",
-        "fa": "روزِ کریم با -DI، یعنی زمانِ گذشته: uçtum (پرواز کردم)، gördüm (دیدم)، gittim (رفتم). sabah، sonra و akşam روز را به ترتیب می‌چینند. و منفی‌اش: söyle- + -me- + -di + -m می‌شود söylemedim، یعنی «نگفتم». -mA- پیش از -DI می‌آید.",
+        "en": "The past, -DI: gördü, “she saw”. And the negative: söyle- + -me- + -di, söylemedi, “she didn't tell”. The -mA- comes before the -DI. With ben it is -DIm: Kerim's day is “Sabah Taksim'e uçtum. İsmail'i gördüm. Sonra okula gittim. Akşam sınavı gördüm, ama söylemedim.” Sabah, sonra, akşam put a day in order.",
+        "ex": "Kerim gördü… ama söylemedi. Kerim dürüst bir kuş!",
+        "fa": "گذشته با -DI: gördü یعنی «دید». و منفی‌اش: söyle- + -me- + -di می‌شود söylemedi، یعنی «نگفت». -mA- پیش از -DI می‌آید. با ben می‌شود -DIm: روزِ کریم این است: «Sabah Taksim'e uçtum. İsmail'i gördüm. Sonra okula gittim. Akşam sınavı gördüm, ama söylemedim.» (صبح تا تقسیم پرواز کردم. اسماعیل را دیدم. بعد رفتم مدرسه. غروب امتحان را دیدم، ولی نگفتم.) sabah، sonra و akşam روز را به ترتیب می‌چینند.",
         "lesson": "g_a1_5_gecmis"
       }
     },
     {
-      "en": "A long day. Kerim's tired too. But Nima isn't alone. Good night… coo… coo…",
-      "fa": "یه روزِ طولانی. کریم هم خسته‌ست. ولی نیما تنها نیست. شب بخیر… کو… کو…",
+      "en": "A long day. But Nima isn't alone. Good night… Coo-coo!",
+      "fa": "یه روزِ طولانی. ولی نیما تنها نیست. شب بخیر… کوکو!",
       "narr": true,
       "sfx": {
         "id": "coo",
-        "word": "ku… ku…"
+        "word": "Ku-kuu!"
       },
-      "tr": "Uzun bir gün. Kerim de yorgun. Ama Nima yalnız değil. İyi geceler… ku… ku…",
-      "who": "kerim"
+      "tr": "Uzun bir gün. Ama Nima yalnız değil. İyi geceler… Ku-kuu!",
+      "who": "kerim",
+      "react": {
+        "nima": {
+          "do": "sleep",
+          "emo": "tired"
+        }
+      }
     }
   ],
   "summary": {

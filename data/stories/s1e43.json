@@ -166,12 +166,12 @@
   },
   "quiz": [
     {
-      "a": 1,
+      "a": 2,
       "kind": "comp",
       "options": [
         "Cuma",
-        "Perşembe",
-        "Pazartesi"
+        "Pazartesi",
+        "Perşembe"
       ],
       "q": {
         "tr": "Ömer'in gösterisi ne zaman?",
@@ -184,31 +184,16 @@
       "a": 0,
       "kind": "word",
       "options": [
+        "Bir bayrak",
         "Bir şarkı",
-        "Bir kitap",
-        "Bir sınav"
+        "Bir kitap"
       ],
       "q": {
-        "tr": "Perşembe Ömer ne söylüyor?",
-        "en": "What does Ömer sing on Thursday?",
-        "fa": "عمر پنج‌شنبه چه می‌خواند؟"
+        "tr": "Ömer: “Sen de mi geliyorsun?! … getir!” Ömer ne istiyor?",
+        "en": "Ömer: “You're coming too?! Bring …!” What does Ömer want?",
+        "fa": "عمر: «تو هم میای؟! … بیار!» عمر چی می‌خواد؟"
       },
-      "why": "“Sınav cuma… ama perşembe, en önemli şarkı!”"
-    },
-    {
-      "a": 2,
-      "kind": "comp",
-      "options": [
-        "Perşembe",
-        "Pazartesi",
-        "Cuma"
-      ],
-      "q": {
-        "tr": "Nima'nın sınavı ne zaman?",
-        "en": "When is Nima's exam?",
-        "fa": "امتحانِ نیما کِی است؟"
-      },
-      "why": "“Pazartesi. Nima'nın sınavı cuma.”"
+      "why": "“Sen de mi geliyorsun?! Bir bayrak getir!”"
     }
   ],
   "ref": "A1_6",
@@ -256,11 +241,11 @@
       }
     },
     {
-      "en": "Monday. Nima's exam is on Friday. But in this building… Ömer's show is on Thursday!",
+      "en": "Nima's exam is on Friday. But in this building… Ömer's show is on Thursday!",
       "env": "state:flags:fade",
-      "fa": "دوشنبه. امتحانِ نیما جمعه‌ست. ولی توی این ساختمون… نمایشِ عمر پنج‌شنبه‌ست!",
+      "fa": "امتحانِ نیما جمعه‌ست. ولی توی این ساختمون… نمایشِ عمر پنج‌شنبه‌ست!",
       "narr": true,
-      "tr": "Pazartesi. Nima'nın sınavı cuma. Ama bu binada… Ömer'in gösterisi perşembe!",
+      "tr": "Nima'nın sınavı cuma. Ama bu binada… Ömer'in gösterisi perşembe!",
       "who": "kerim"
     },
     {
@@ -300,7 +285,8 @@
       "en": "It's really good! Once more!",
       "fa": "خیلی قشنگه! یه بار دیگه!",
       "tr": "Çok güzel! Bir daha!",
-      "who": "nima"
+      "who": "nima",
+      "to": "omer"
     },
     {
       "do": "cheer",
@@ -318,7 +304,8 @@
       },
       "tempo": 1.2,
       "tr": "Kırmızı, beyaz… bugün bayram, bugün bayram!",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "at": "ch:nima",
@@ -419,7 +406,8 @@
       },
       "to": "nima",
       "tr": "Nima! Randevu nasıl geçti?",
-      "who": "elif"
+      "who": "elif",
+      "cam": "two"
     },
     {
       "at": "obj:dosya",
@@ -428,15 +416,16 @@
       "en": "My file is complete! Now… we wait.",
       "fa": "پرونده‌م کامله! حالا… منتظریم.",
       "tr": "Dosyam tamam! Şimdi… bekliyoruz.",
-      "who": "nima"
+      "who": "nima",
+      "to": "elif"
     },
     {
       "do": "beckon",
       "emo": "happy",
-      "en": "Wonderful! …Ömer, come here! It's eight o'clock! Bedtime!",
+      "en": "How lovely! …Ömer, come here! It's eight o'clock! Bedtime!",
       "fa": "چه خوب! …عمر، بیا! ساعت هشته! وقتِ خوابه!",
       "to": "omer",
-      "tr": "Çok güzel! …Ömer, gel! Saat sekiz! Yatma saati!",
+      "tr": "Ne güzel! …Ömer, gel! Saat sekiz! Yatma saati!",
       "who": "elif"
     },
     {
@@ -450,10 +439,10 @@
     },
     {
       "emo": "tired",
-      "en": "Every evening… he sings it ten times!",
-      "fa": "هر شب… ده بار می‌خونه!",
+      "en": "Oh… he sings it ten times every evening!",
+      "fa": "وای… هر شب ده بار می‌خونه!",
       "to": "nima",
-      "tr": "Her akşam… on kere söylüyor!",
+      "tr": "Ay… her akşam on kere söylüyor!",
       "who": "elif"
     },
     {
@@ -490,10 +479,10 @@
       }
     },
     {
-      "en": "The exam is on Friday… but on Thursday, the most important song!",
-      "fa": "امتحان جمعه‌ست… ولی پنج‌شنبه، مهم‌ترین آهنگ!",
+      "en": "Red and white… today's a holiday! Kerim's learned it too!",
+      "fa": "قرمز و سفید… امروز جشنه! کریم هم یاد گرفت!",
       "narr": true,
-      "tr": "Sınav cuma… ama perşembe, en önemli şarkı!",
+      "tr": "Kırmızı, beyaz… bugün bayram! Kerim de öğrendi!",
       "who": "kerim"
     }
   ],

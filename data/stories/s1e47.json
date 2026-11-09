@@ -245,21 +245,6 @@
       "a": 1,
       "kind": "comp",
       "options": [
-        "Benim ailem",
-        "İlk günüm",
-        "Yeni bir kafe"
-      ],
-      "q": {
-        "tr": "Nima ne yazdı?",
-        "en": "What did Nima write about?",
-        "fa": "نیما درباره‌ی چه نوشت؟"
-      },
-      "why": "“Ben ‘İlk günüm’. Sen?”"
-    },
-    {
-      "a": 1,
-      "kind": "comp",
-      "options": [
         "Yarın",
         "Gelecek hafta",
         "Bugün"
@@ -272,12 +257,12 @@
       "why": "“Sonuçlar… gelecek hafta.”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "bavulum",
         "çayım",
-        "kedim"
+        "kedim",
+        "bavulum"
       ],
       "q": {
         "tr": "Nima'nın yazısı: “Çok … vardı!”",
@@ -330,7 +315,7 @@
     {
       "emo": "neutral",
       "en": "Reading. Which floor is the café on? What time does it open?",
-      "fa": "خواندن. کافه طبقه‌ی چندمه؟ ساعت چند باز می‌شه؟",
+      "fa": "خوندن. کافه طبقه‌ی چندمه؟ ساعت چند باز می‌شه؟",
       "to": "all",
       "tr": "Okuma. Kafe kaçıncı katta? Saat kaçta açılıyor?",
       "who": "zafer"
@@ -507,13 +492,12 @@
       "who": "zafer"
     },
     {
-      "at": "obj:kagit",
-      "do": "write",
-      "emo": "happy",
-      "en": "In front of the café!",
-      "fa": "جلوی کافه!",
-      "tr": "Kafenin önünde!",
-      "who": "nima"
+      "beat": {
+        "at": "obj:kagit",
+        "do": "write",
+        "emo": "happy",
+        "who": "nima"
+      }
     },
     {
       "beat": {
@@ -543,10 +527,10 @@
     {
       "do": "me",
       "emo": "happy",
-      "en": "My name is Nima. I'm from Tehran. I'm a student.",
-      "fa": "اسمِ من نیماست. تهرانی‌ام. دانشجوام.",
+      "en": "My name is Nima. I'm a student. I'm learning Turkish.",
+      "fa": "اسمِ من نیماست. دانشجوام. دارم ترکی یاد می‌گیرم.",
       "to": "zafer",
-      "tr": "Benim adım Nima. Tahranlıyım. Öğrenciyim.",
+      "tr": "Benim adım Nima. Öğrenciyim. Türkçe öğreniyorum.",
       "who": "nima"
     },
     {
@@ -593,7 +577,7 @@
       "do": "hand_heart",
       "emo": "shy",
       "en": "Once more, please. Slowly, please.",
-      "fa": "یه بار دیگه، لطفاً. آروم، لطفاً.",
+      "fa": "یه بار دیگه، لطفاً. آروم‌تر، لطفاً.",
       "to": "zafer",
       "tr": "Bir daha, lütfen. Yavaş, lütfen.",
       "who": "nima"
@@ -771,9 +755,9 @@
     },
     {
       "spot": {
-        "en": "Kerim was quiet in the exam. Now, Nima's text: -DI tells what happened (geldim, bekledi, gittik). vardı is var + -DI: “there was”, “I had” (Çok bavulum vardı!). -(y)A goes to a place (İstanbul'a, Mecidiyeköy'e), -DAn comes from one. And -lI says where someone is from: Tahranlıyım.",
+        "en": "Kerim was quiet in the exam. Now, Nima's text: -DI tells what happened (geldim, bekledi, gittik). vardı is var + -DI: “there was”, “I had” (Çok bavulum vardı!). -(y)A goes to a place (İstanbul'a, Mecidiyeköy'e). And a language takes -ce / -ça: Türkçe öğreniyorum.",
         "ex": "Yedi Eylül'de İstanbul'a geldim.",
-        "fa": "کریم در امتحان ساکت بود. حالا متنِ نیما: -DI می‌گوید چه اتفاقی افتاد (geldim، bekledi، gittik). vardı همان var + -DI است: «بود»، «داشتم» (Çok bavulum vardı!). -(y)A به سمتِ جایی می‌رود (İstanbul'a، Mecidiyeköy'e)، -DAn از جایی می‌آید. و -lI می‌گوید کسی اهلِ کجاست: Tahranlıyım.",
+        "fa": "کریم در امتحان ساکت بود. حالا متنِ نیما: -DI می‌گوید چه اتفاقی افتاد (geldim، bekledi، gittik). vardı همان var + -DI است: «بود»، «داشتم» (Çok bavulum vardı!). -(y)A به سمتِ جایی می‌رود (İstanbul'a، Mecidiyeköy'e). و اسمِ زبان با -ce / -ça می‌آید: Türkçe öğreniyorum.",
         "lesson": "g_a1_5_gecmis"
       }
     },
