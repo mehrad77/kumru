@@ -141,8 +141,8 @@
       "en": "Feriköy (a neighbourhood of Şişli)"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "sayıları": {
       "fa": "عددهای…",
@@ -151,6 +151,10 @@
     "very": {
       "fa": "خیلی (انگلیسی)",
       "en": "very (in English)"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     }
   },
   "id": "s1e08",
@@ -197,42 +201,27 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Dördüncü kat",
-        "Beşinci kat",
-        "Birinci kat"
-      ],
-      "q": {
-        "tr": "Ev kaçıncı katta?",
-        "en": "Which floor is the flat on?",
-        "fa": "خانه در طبقه‌ی چندم است؟"
-      },
-      "why": "Tolga Bey: “Dördüncü! Asansör? …Yok.”"
-    },
-    {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
+        "İki bin lira",
         "Yirmi bin lira",
-        "Yirmi lira",
-        "İki bin lira"
+        "Yirmi lira"
       ],
       "q": {
-        "tr": "Kira kaç lira?",
-        "en": "How much is the rent?",
-        "fa": "اجاره چند لیر است؟"
+        "tr": "Tolga Bey: Feriköy'de kira kaç lira?",
+        "en": "Tolga Bey: how much is the rent in Feriköy?",
+        "fa": "آقای تولگا: اجاره در فری‌کؤی چند لیر است؟"
       },
-      "why": "Tolga Bey: “Feriköy'de, dördüncü kat, yirmi bin lira…”"
+      "why": "Tolga Bey: “Var, var! Feriköy'de, dördüncü kat, yirmi bin lira, depozito bir kira, çok güzel, çok temiz…”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "comp",
       "options": [
-        "Yok",
         "Var",
-        "Beşinci katta"
+        "Beşinci katta",
+        "Yok"
       ],
       "q": {
         "tr": "Asansör var mı?",
@@ -261,10 +250,10 @@
     },
     {
       "cam": "wide",
-      "en": "Good morning! Today… numbers!",
-      "fa": "صبح بخیر! امروز… عددها!",
+      "en": "Twenty thousand? Twenty-five thousand? Coo-coo… big numbers!",
+      "fa": "بیست هزار؟ بیست و پنج هزار؟ کو-کوو… عددهای گنده!",
       "narr": true,
-      "tr": "Günaydın! Bugün… sayılar!",
+      "tr": "Yirmi bin? Yirmi beş bin? Ku-kuu… büyük sayılar!",
       "who": "kerim"
     },
     {
@@ -368,7 +357,7 @@
     },
     {
       "emo": "nervous",
-      "en": "Hello, good day! A flat in Feriköy… is there one?",
+      "en": "Hello, good afternoon! A flat in Feriköy… is there one?",
       "fa": "الو، روزتون بخیر! توی فری‌کؤی خونه… هست؟",
       "to": "tolga",
       "tr": "Alo, iyi günler! Feriköy'de ev… var mı?",
@@ -573,10 +562,10 @@
     {
       "cam": "split",
       "emo": "happy",
-      "en": "There is! The address: Feriköy, number twelve. Wednesday evening?",
-      "fa": "داره! آدرس: فری‌کؤی، پلاکِ دوازده. چهارشنبه عصر؟",
+      "en": "There is! The address: Feriköy, number twelve. Today? No, no… Wednesday evening?",
+      "fa": "داره! آدرس: فری‌کؤی، پلاکِ دوازده. امروز؟ نه، نه… چهارشنبه عصر؟",
       "tempo": 1.4,
-      "tr": "Var! Adres: Feriköy, numara on iki. Çarşamba akşam?",
+      "tr": "Var! Adres: Feriköy, numara on iki. Bugün? Hayır, hayır… çarşamba akşam?",
       "via": "phone",
       "who": "tolga"
     },
@@ -637,8 +626,8 @@
     {
       "cam": "follow",
       "do": "count",
-      "en": "How many floors? One, two, three, four… the fourth floor. There's no lift. Coo-coo-coo!",
-      "fa": "چند طبقه؟ یک، دو، سه، چهار… طبقه‌ی چهارم. آسانسور نداره. کو-کو-کو!",
+      "en": "How many floors? One, two, three, four… the fourth floor. And no lift. Coo-coo!",
+      "fa": "چند طبقه؟ یک، دو، سه، چهار… طبقه‌ی چهارم. آسانسورم نداره. کو-کوو!",
       "move": {
         "how": "fly",
         "to": "landing_4",
@@ -651,7 +640,7 @@
       },
       "n": 4,
       "narr": true,
-      "tr": "Kaç kat? Bir, iki, üç, dört… dördüncü kat. Asansör yok. Ku-ku-ku!",
+      "tr": "Kaç kat? Bir, iki, üç, dört… dördüncü kat. Asansör yok. Ku-kuu!",
       "who": "kerim"
     }
   ],

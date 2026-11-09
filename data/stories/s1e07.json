@@ -112,8 +112,8 @@
       "en": "for rent (on the ads)"
     },
     "ku": {
-      "fa": "کو (صدای قمری)",
-      "en": "coo (a dove's call)"
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     },
     "masada": {
       "fa": "روی میز",
@@ -130,6 +130,10 @@
     "zafer": {
       "fa": "ظفر (اسم)",
       "en": "Zafer (a name; the word means “victory”)"
+    },
+    "kuu": {
+      "fa": "صدای قمری",
+      "en": "a dove's coo"
     }
   },
   "id": "s1e07",
@@ -196,12 +200,12 @@
   },
   "quiz": [
     {
-      "a": 0,
-      "kind": "comp",
+      "a": 2,
+      "kind": "word",
       "options": [
-        "Duvarda",
+        "Duvar",
         "Masada",
-        "Çantada"
+        "Duvarda"
       ],
       "q": {
         "tr": "Saat nerede?",
@@ -212,33 +216,18 @@
     },
     {
       "a": 0,
-      "kind": "word",
-      "options": [
-        "Yok",
-        "Var",
-        "Duvarda"
-      ],
-      "q": {
-        "tr": "Sınıfta televizyon var mı?",
-        "en": "Is there a TV in the classroom?",
-        "fa": "در کلاس تلویزیون هست؟"
-      },
-      "why": "Zafer Hoca: “Tahta var, bilgisayar var… televizyon yok!”"
-    },
-    {
-      "a": 0,
       "kind": "comp",
       "options": [
-        "Yirmi beş bin lira",
-        "Yirmi bin lira",
-        "Beş yüz dört lira"
+        "Eşya",
+        "Mutfak",
+        "Telefon"
       ],
       "q": {
-        "tr": "Şişli'de kira kaç lira?",
-        "en": "How much is the rent in Şişli?",
-        "fa": "اجاره در شیشلی چند لیر است؟"
+        "tr": "Feriköy'de ev ucuz. Ama ne yok?",
+        "en": "The flat in Feriköy is cheap. But what doesn't it have?",
+        "fa": "خانه‌ی فری‌کؤی ارزان است. ولی چه چیزی ندارد؟"
       },
-      "why": "Alex: “Şişli'de ev var. Kira… yirmi beş bin lira.”"
+      "why": "Alex: “Bu ev… Feriköy'de. Yirmi bin! Ama eşya yok.”"
     }
   ],
   "ref": "A1_2",
@@ -260,10 +249,10 @@
     },
     {
       "cam": "wide",
-      "en": "Good morning! This is the school. And this classroom… is five hundred and four!",
-      "fa": "صبح بخیر! این‌جا مدرسه‌ست. این کلاس… پونصد و چهاره!",
+      "en": "Good morning! It's Monday… school's on! Classroom five hundred and four.",
+      "fa": "صبح بخیر! دوشنبه‌ست… کلاس داریم! کلاسِ پونصد و چهار.",
       "narr": true,
-      "tr": "Günaydın! Burası okul. Bu sınıf… beş yüz dört!",
+      "tr": "Günaydın! Pazartesi… okul var! Sınıf beş yüz dört.",
       "who": "kerim"
     },
     {
@@ -340,16 +329,16 @@
       "do": "point",
       "emo": "proud",
       "en": "There are windows!",
-      "fa": "پنجره هست!",
+      "fa": "پنجره داره!",
       "to": "zafer",
-      "tr": "Pencereler var!",
+      "tr": "Pencere var!",
       "who": "nima"
     },
     {
       "do": "shrug",
       "emo": "happy",
-      "en": "Yes! There's a board, there's a computer… there's no TV! Nima, do you have a dictionary?",
-      "fa": "آره! تخته هست، کامپیوتر هست… تلویزیون نیست! نیما، دیکشنری دارید؟",
+      "en": "Yes! There's a board, there's a computer… no TV, sorry! Nima, do you have a dictionary?",
+      "fa": "آره! تخته هست، کامپیوتر هست… تلویزیون نه! نیما، دیکشنری دارین؟",
       "on": "yok",
       "to": "nima",
       "tr": "Evet! Tahta var, bilgisayar var… televizyon yok! Nima, sözlük var mı?",
@@ -374,7 +363,7 @@
             "reply": [
               {
                 "en": "All right. Yusuf, do you have a dictionary?",
-                "fa": "باشه. یوسف، دیکشنری دارید؟",
+                "fa": "باشه. یوسف، دیکشنری دارین؟",
                 "to": "yusuf",
                 "tr": "Tamam. Yusuf, sözlük var mı?",
                 "who": "zafer"
@@ -437,7 +426,20 @@
               }
             },
             "tone": "blunt",
-            "tr": "Yok!"
+            "tr": "Yok!",
+            "reply": [
+              {
+                "emo": "surprised",
+                "en": "“Nope”? …“No, Hocam!” All right. Yusuf?",
+                "fa": "«ندارم»؟ …«ندارم، استاد!» باشه. یوسف؟",
+                "to": "nima",
+                "tr": "“Yok”? …“Yok, hocam!” Tamam. Yusuf?",
+                "who": "zafer",
+                "react": {
+                  "yusuf": "laugh"
+                }
+              }
+            ]
           }
         ],
         "to": "zafer"
@@ -484,10 +486,10 @@
     },
     {
       "emo": "neutral",
-      "en": "That's Istanbul! The canteen is cheap… flats are expensive.",
-      "fa": "استانبوله دیگه! بوفه ارزونه… خونه گرونه.",
+      "en": "That's Istanbul for you! The canteen's cheap… flats are expensive.",
+      "fa": "استانبوله دیگه! بوفه ارزونه… خونه گرون.",
       "to": "nima",
-      "tr": "İstanbul! Kantin ucuz… ev pahalı.",
+      "tr": "İstanbul bu! Kantin ucuz… ev pahalı.",
       "who": "yusuf"
     },
     {
@@ -495,7 +497,7 @@
       "do": "point",
       "emo": "happy",
       "en": "This one… is in Feriköy. Twenty thousand! But no furniture.",
-      "fa": "این یکی… توی فری‌کؤیه. بیست هزار! ولی اثاث نداره.",
+      "fa": "این یکی… توی فری‌کؤیه. بیست هزار! ولی بی‌اثاثه.",
       "to": "nima",
       "tr": "Bu ev… Feriköy'de. Yirmi bin! Ama eşya yok.",
       "who": "alex"
@@ -532,10 +534,10 @@
     },
     {
       "cam": "wide",
-      "en": "Nima… a new home? Where? Coo-coo-coo… slowly, slowly.",
-      "fa": "نیما… یه خونه‌ی جدید؟ کجا؟ کو-کو-کو… یواش‌یواش.",
+      "en": "Nima… a new home? Where? Coo-coo… slowly, slowly.",
+      "fa": "نیما… یه خونه‌ی جدید؟ کجا؟ کو-کوو… یواش‌یواش.",
       "narr": true,
-      "tr": "Nima… yeni bir ev? Nerede? Ku-ku-ku… yavaş yavaş.",
+      "tr": "Nima… yeni bir ev? Nerede? Ku-kuu… yavaş yavaş.",
       "who": "kerim"
     }
   ],

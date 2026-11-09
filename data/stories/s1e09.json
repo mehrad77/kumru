@@ -143,21 +143,6 @@
   "quiz": [
     {
       "a": 0,
-      "kind": "comp",
-      "options": [
-        "Dördüncü kat",
-        "İkinci kat",
-        "Beşinci kat"
-      ],
-      "q": {
-        "tr": "Ev kaçıncı katta?",
-        "en": "Which floor is the flat on?",
-        "fa": "خانه در طبقه‌ی چندم است؟"
-      },
-      "why": "Tolga Bey: “…dördüncü kat! Asansör yok, ama… merdiven var!”"
-    },
-    {
-      "a": 0,
       "kind": "word",
       "options": [
         "ucuz",
@@ -166,23 +151,23 @@
       ],
       "q": {
         "tr": "Tolga Bey: “Pahalı değil! Feriköy'de …!”",
-        "en": "Tolga Bey: “It isn't expensive! In Feriköy it's …!”",
-        "fa": "آقای تولگا: «گران نیست! در فری‌کؤی … است!»"
+        "en": "Tolga Bey: “That's not expensive! For Feriköy, that's …!”",
+        "fa": "آقای تولگا: «گران نیست! برای فری‌کؤی … است!»"
       },
       "why": "Tolga Bey: “Pahalı değil! Feriköy'de ucuz!”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Bir kuş",
         "Bir kedi",
+        "Bir kuş",
         "Bir buzdolabı"
       ],
       "q": {
-        "tr": "Balkonda ne var?",
-        "en": "What is on the balcony?",
-        "fa": "روی بالکن چه چیزی هست؟"
+        "tr": "Pencerede ne var?",
+        "en": "What is at the window?",
+        "fa": "پشتِ پنجره چه چیزی هست؟"
       },
       "why": "Nima: “Bu ne? Bir kuş!”"
     }
@@ -216,7 +201,7 @@
       "move": {
         "how": "walk",
         "to": "kerb",
-        "who": "nima"
+        "who": "tolga"
       },
       "to": "nima",
       "tr": "İyi akşamlar! Hoş geldiniz!",
@@ -224,8 +209,8 @@
     },
     {
       "emo": "happy",
-      "en": "Good to be here.",
-      "fa": "ممنون، خوشحالم که اومدم.",
+      "en": "Glad to be here!",
+      "fa": "ممنون، خوشحالم که اومدم!",
       "to": "tolga",
       "tr": "Hoş bulduk.",
       "who": "nima"
@@ -309,10 +294,10 @@
       "at": "mark:kitchen",
       "do": "point",
       "emo": "happy",
-      "en": "The kitchen's over there. In the kitchen there's an oven, a table… no fridge! It's a very nice flat, isn't it?",
-      "fa": "آشپزخونه اون‌جاست. توی آشپزخونه فِر هست، میز هست… یخچال نیست! خونه‌ی خیلی خوبیه، نه؟",
+      "en": "The kitchen's over there. There's an oven, a table… no fridge! But it's a lovely flat, isn't it?",
+      "fa": "آشپزخونه اون‌جاست. توی آشپزخونه فِر هست، میز هست… یخچال نه! ولی خونه‌ی خیلی خوبیه، نه؟",
       "to": "nima",
-      "tr": "Mutfak şurada. Mutfakta fırın var, masa var… buzdolabı yok! Çok güzel bir ev, değil mi?",
+      "tr": "Mutfak şurada. Mutfakta fırın var, masa var… buzdolabı yok! Ama çok güzel bir ev, değil mi?",
       "who": "tolga"
     },
     {
@@ -402,21 +387,29 @@
     },
     {
       "emo": "curious",
-      "en": "But… how much is the rent? Is it expensive?",
-      "fa": "ولی… اجاره چنده؟ گرونه؟",
+      "en": "But… twenty thousand lira. Is it expensive?",
+      "fa": "ولی… بیست هزار لیر. گرونه؟",
       "to": "tolga",
-      "tr": "Ama… kira kaç lira? Pahalı mı?",
+      "tr": "Ama… yirmi bin lira. Pahalı mı?",
       "who": "nima"
     },
     {
       "do": "shake_head",
       "emo": "happy",
-      "en": "Twenty thousand. It isn't expensive! It's cheap for Feriköy!",
-      "fa": "بیست هزار. گرون نیست! برای فری‌کؤی ارزونه!",
+      "en": "That's not expensive! For Feriköy, that's cheap!",
+      "fa": "گرون نیست! برای فری‌کؤی ارزونه!",
       "on": "değil",
       "to": "nima",
-      "tr": "Yirmi bin. Pahalı değil! Feriköy'de ucuz!",
-      "who": "tolga"
+      "tr": "Pahalı değil! Feriköy'de ucuz!",
+      "who": "tolga",
+      "move": {
+        "how": "walk",
+        "to": "boiler",
+        "via": [
+          "balcony_window"
+        ],
+        "who": "tolga"
+      }
     },
     {
       "emo": "curious",
@@ -428,7 +421,7 @@
     },
     {
       "at": "ch:kerim",
-      "cam": "close",
+      "cam": "two",
       "do": "point",
       "emo": "surprised",
       "en": "What's this? A bird!",
@@ -438,7 +431,10 @@
       },
       "move": {
         "how": "walk",
-        "to": "balcony_window",
+        "to": "salon",
+        "via": [
+          "balcony_window"
+        ],
         "who": "nima"
       },
       "sfx": {
@@ -471,11 +467,6 @@
       "emo": "shy",
       "en": "The flat… is nice. But… Friday, please.",
       "fa": "خونه… قشنگه. ولی… جمعه، لطفاً.",
-      "move": {
-        "how": "walk",
-        "to": "salon",
-        "who": "nima"
-      },
       "to": "tolga",
       "tr": "Ev… güzel. Ama… cuma, lütfen.",
       "who": "nima"
@@ -484,7 +475,8 @@
       "beat": {
         "do": "nod",
         "emo": "happy",
-        "who": "tolga"
+        "who": "tolga",
+        "cam": "single"
       }
     },
     {
@@ -510,8 +502,8 @@
     }
   ],
   "summary": {
-    "en": "On Wednesday evening Nima views the Feriköy flat with Tolga Bey: four floors up, no lift, no fridge, and a rent he calls cheap. At the balcony window, a bird looks Nima in the eye.",
-    "fa": "چهارشنبه عصر، نیما با آقای تولگا خانه‌ی فری‌کؤی را می‌بیند: چهار طبقه بالا، بی‌آسانسور، بی‌یخچال، با اجاره‌ای که به گفته‌ی او ارزان است. پشتِ پنجره‌ی بالکن، پرنده‌ای مستقیم به چشم‌های نیما نگاه می‌کند."
+    "en": "On Wednesday evening Nima views the Feriköy flat with Tolga Bey: four floors up, no lift, no fridge, and a rent he calls cheap. At the kitchen window, a bird looks Nima in the eye.",
+    "fa": "چهارشنبه عصر، نیما با آقای تولگا خانه‌ی فری‌کؤی را می‌بیند: چهار طبقه بالا، بی‌آسانسور، بی‌یخچال، با اجاره‌ای که به گفته‌ی او ارزان است. پشتِ پنجره‌ی آشپزخانه، پرنده‌ای مستقیم به چشم‌های نیما نگاه می‌کند."
   },
   "title": {
     "tr": "Dördüncü kat",

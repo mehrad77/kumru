@@ -158,6 +158,14 @@
     "üçüncü": {
       "fa": "سوم",
       "en": "third"
+    },
+    "kilosu": {
+      "fa": "هر کیلویش (کیلویی)",
+      "en": "a kilo of it, per kilo"
+    },
+    "herkes": {
+      "fa": "همه",
+      "en": "everyone"
     }
   },
   "id": "s1e12",
@@ -241,34 +249,19 @@
       "why": "Farzad: “Buzdolabı yok!”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "Taze",
         "Pahalı",
+        "Taze",
         "Yarım"
       ],
       "q": {
-        "tr": "Hatice Abla: “Kilo seksen lira! …, taze!”",
-        "en": "Hatice Abla: “Eighty lira a kilo! …, fresh!”",
-        "fa": "خدیجه خانم: «کیلویی هشتاد لیر! …، تازه!»"
+        "tr": "Hatice Abla domatesler için ne diyor?",
+        "en": "What does Hatice Abla say about her tomatoes?",
+        "fa": "خدیجه خانم درباره‌ی گوجه‌هایش چه می‌گوید؟"
       },
-      "why": "Hatice Abla: “Kilo seksen lira! Taze, taze! Gel abla gel!”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Yüz elli lira",
-        "Yüz altmış lira",
-        "Seksen lira"
-      ],
-      "q": {
-        "tr": "“Biraz pahalı, değil mi?” Sonra domates kaç lira?",
-        "en": "“A bit expensive, isn't it?” Then how much are the tomatoes?",
-        "fa": "«یه کم گرونه، نه؟» بعد گوجه‌ها چند لیر می‌شود؟"
-      },
-      "why": "Hatice Abla: “Tamam canım, yüz elli lira!”"
+      "why": "Hatice Abla: “Kilosu seksen lira! Taze, taze! Gel abla gel!”"
     }
   ],
   "ref": "A1_2",
@@ -281,7 +274,7 @@
         "dilnoza": "buyer_r",
         "farzad": "meet_3",
         "hatice": "seller",
-        "kirlangic": "pushchair",
+        "kirlangic": "buyer_l",
         "nima": "meet_4",
         "parvaneh": "meet_1",
         "yusuf": "meet_2"
@@ -320,19 +313,18 @@
     {
       "cam": "wide",
       "emo": "happy",
-      "en": "Good morning! Today is Saturday. There's a pazar in Feriköy, a market! Pazar? But pazar is Sunday, and today is Saturday! Still… it's a pazar!",
-      "fa": "صبح بخیر! امروز شنبه‌ست. توی فری‌کؤی «پازار» هست! پازار؟ «پازار» که یعنی یکشنبه؛ امروز شنبه‌ست! ولی… «پازار» یعنی بازار هم!",
+      "en": "Today is Saturday. There's a pazar in Feriköy, a market! Pazar? But pazar is Sunday, and today is Saturday! Yes… a pazar!",
+      "fa": "امروز شنبه‌ست. توی فری‌کؤی «پازار» هست! پازار؟ «پازار» که یعنی یکشنبه؛ امروز شنبه‌ست! آره… «پازار» یعنی بازار هم!",
       "narr": true,
-      "tr": "Günaydın! Bugün cumartesi. Feriköy'de pazar var! Pazar? Bugün cumartesi! Ama… pazar!",
+      "tr": "Bugün cumartesi. Feriköy'de pazar var! Pazar? Ama bugün cumartesi! Evet… pazar!",
       "who": "kerim"
     },
     {
-      "do": "welcome",
       "emo": "happy",
-      "en": "Good morning! Welcome!",
-      "fa": "صبح بخیر! خوش اومدید!",
+      "en": "Good morning! Everyone's here!",
+      "fa": "صبح بخیر! همه اومدن!",
       "to": "all",
-      "tr": "Günaydın! Hoş geldiniz!",
+      "tr": "Günaydın! Herkes burada!",
       "who": "nima"
     },
     {
@@ -403,7 +395,7 @@
       "do": "me",
       "emo": "happy",
       "en": "The bags… I've got them!",
-      "fa": "منم! کیسه‌ها… با من!",
+      "fa": "کیسه‌ها… با من!",
       "obj": [
         {
           "id": "cantalar",
@@ -429,11 +421,18 @@
       "emo": "curious",
       "en": "How much are the tomatoes?",
       "fa": "گوجه چنده؟",
-      "move": {
-        "how": "walk",
-        "to": "buyer_l",
-        "who": "parvaneh"
-      },
+      "move": [
+        {
+          "how": "walk",
+          "to": "buyer_l",
+          "who": "parvaneh"
+        },
+        {
+          "how": "walk",
+          "to": "meet_1",
+          "who": "kirlangic"
+        }
+      ],
       "to": "hatice",
       "tr": "Domates kaç lira?",
       "who": "parvaneh"
@@ -441,7 +440,7 @@
     {
       "do": "beckon",
       "emo": "happy",
-      "en": "Eighty lira a kilo! Fresh, fresh! Come on, sister, come!",
+      "en": "Eighty lira a kilo! Fresh, fresh! Come on, love, come and see!",
       "fa": "کیلویی هشتاد لیر! تازه، تازه! بیا آبجی، بیا!",
       "obj": [
         {
@@ -460,7 +459,7 @@
       },
       "tempo": 1.3,
       "to": "parvaneh",
-      "tr": "Kilo seksen lira! Taze, taze! Gel abla gel!",
+      "tr": "Kilosu seksen lira! Taze, taze! Gel abla gel!",
       "who": "hatice"
     },
     {
@@ -825,10 +824,10 @@
     {
       "do": "shrug",
       "emo": "happy",
-      "en": "I don't know! But… it's here every day.",
-      "fa": "نمی‌دونم! ولی… هر روز این‌جاست.",
+      "en": "I don't know! But… it's a beautiful bird!",
+      "fa": "نمی‌دونم! ولی… پرنده‌ی خیلی قشنگیه!",
       "to": "parvaneh",
-      "tr": "Bilmiyorum! Ama… her gün burada.",
+      "tr": "Bilmiyorum! Ama… çok güzel bir kuş!",
       "who": "nima"
     },
     {
@@ -843,10 +842,10 @@
     {
       "cam": "wide",
       "emo": "happy",
-      "en": "A market, a Saturday… and friends.",
-      "fa": "بازار، شنبه… و دوستا.",
+      "en": "A market on a Saturday… and seven friends.",
+      "fa": "بازار، شنبه… و هفت تا دوست.",
       "narr": true,
-      "tr": "Pazar, cumartesi… ve arkadaşlar.",
+      "tr": "Pazar, cumartesi… ve yedi arkadaş.",
       "who": "kerim"
     }
   ],
