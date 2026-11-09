@@ -115,6 +115,14 @@
     "üstünde": {
       "fa": "بالای…، روی…",
       "en": "on top of…"
+    },
+    "önünde": {
+      "fa": "جلوی…",
+      "en": "in front of…"
+    },
+    "deniyoruz": {
+      "en": "we're trying (denemek: to try, to taste)",
+      "fa": "امتحان می‌کنیم (denemek: امتحان کردن، چشیدن)"
     }
   },
   "id": "s1e33",
@@ -210,11 +218,11 @@
       "why": "Dilnoza: “Parktaki fırın da var. O daha ucuz.”"
     },
     {
-      "a": 0,
+      "a": 1,
       "kind": "word",
       "options": [
-        "yumuşak",
         "ucuz",
+        "yumuşak",
         "sert"
       ],
       "q": {
@@ -223,21 +231,6 @@
         "fa": "نیما: «این نان …تر است.»"
       },
       "why": "Nima: “Bu ekmek daha yumuşak.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Köşedeki fırında",
-        "Parktaki fırında",
-        "Berfin'in kafesinde"
-      ],
-      "q": {
-        "tr": "En sıcak ekmek hangi fırında?",
-        "en": "Which bakery has the warmest bread?",
-        "fa": "داغ‌ترین نان مالِ کدام نانوایی است؟"
-      },
-      "why": "Nima: “Köşedeki fırın: en sıcak ekmek.”"
     }
   ],
   "ref": "A1_6",
@@ -256,14 +249,14 @@
       "time": "day"
     },
     {
-      "en": "Four o'clock. Warm bread! Kerim is on top of the bakery…",
-      "fa": "ساعت چهار. نونِ داغ! کریم بالای نونواییه…",
+      "en": "Warm bread! Kerim's on top of the bakery, Serkan's in front of it.",
+      "fa": "نونِ داغ! کریم بالای نونوایی، سرکان جلوی نونوایی.",
       "narr": true,
       "sfx": {
         "id": "oven_door",
         "word": "tak"
       },
-      "tr": "Saat dört. Sıcak ekmek! Kerim fırının üstünde…",
+      "tr": "Sıcak ekmek! Kerim fırının üstünde, Serkan fırının önünde.",
       "who": "kerim"
     },
     {
@@ -340,7 +333,7 @@
       "at": {
         "dilnoza": "eczane_front",
         "nima": "bench",
-        "serkan": "corner"
+        "serkan": "cafe_front"
       },
       "kerim": "over",
       "scene": "ferikoy",
@@ -376,10 +369,10 @@
       "at": "obj:parktaki",
       "do": "point",
       "emo": "curious",
-      "en": "Soft, OK. And that one? Is it hard?",
-      "fa": "نرم، باشه. اون یکی چی؟ سفته؟",
+      "en": "OK, soft. And that one? Is it hard?",
+      "fa": "باشه، نرم. اون یکی چی؟ سفته؟",
       "to": "nima",
-      "tr": "Yumuşak, tamam. Ve şu? Sert mi?",
+      "tr": "Tamam, yumuşak. Ya şu? Sert mi?",
       "who": "dilnoza"
     },
     {

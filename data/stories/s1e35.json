@@ -205,6 +205,10 @@
     "üstündeki": {
       "fa": "(آنِ) روی…",
       "en": "the one on top of…"
+    },
+    "sözleşmenin": {
+      "fa": "ـِ قرارداد",
+      "en": "the contract's; of the contract"
     }
   },
   "id": "s1e35",
@@ -353,11 +357,11 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Noter onayı",
         "Fotoğraf",
+        "Noter onayı",
         "Pasaport"
       ],
       "q": {
@@ -365,15 +369,15 @@
         "en": "What is missing on the contract?",
         "fa": "قرارداد چه چیزی ندارد؟"
       },
-      "why": "Reza Bey: “Sözleşme… noter onayı yok.”"
+      "why": "Reza Bey: “Sözleşmenin… noter onayı yok.”"
     },
     {
-      "a": 0,
+      "a": 2,
       "kind": "word",
       "options": [
-        "manzara",
         "köprü",
-        "sayfa"
+        "sayfa",
+        "manzara"
       ],
       "q": {
         "tr": "Dilnoza: “Vay! Bu … nerede?”",
@@ -381,21 +385,6 @@
         "fa": "دلنوزا: «وای! این … کجاست؟»"
       },
       "why": "Dilnoza: “Vay! Bu manzara… nerede?”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Kerim",
-        "Reza Bey",
-        "Dilnoza"
-      ],
-      "q": {
-        "tr": "Nima'yı tanka kim götürüyor?",
-        "en": "Who leads Nima to the water tank?",
-        "fa": "چه کسی نیما را تا منبعِ آب می‌برد؟"
-      },
-      "why": "Kerim: “Kerim'in yeri, Kerim'in sırrı. Ve şimdi… Nima'nın da sırrı.”"
     }
   ],
   "ref": "A1_6",
@@ -514,10 +503,10 @@
       "en": "The contract… it has no notary stamp.",
       "fa": "قرارداد… تأییدِ محضر نداره.",
       "link": {
-        "sözleşme": "obj:sozlesme"
+        "sözleşmenin": "obj:sozlesme"
       },
       "to": "nima",
-      "tr": "Sözleşme… noter onayı yok.",
+      "tr": "Sözleşmenin… noter onayı yok.",
       "who": "reza"
     },
     {
@@ -706,14 +695,21 @@
       "who": "dilnoza"
     },
     {
-      "at": "mark:sky",
-      "do": "photo",
       "emo": "shy",
       "en": "Badly… but now I'm here. This is the most beautiful place in Feriköy!",
       "fa": "بد بود… ولی الان این‌جام. این‌جا قشنگ‌ترین جای فری‌کؤیه!",
       "to": "dilnoza",
-      "tr": "Kötü… ama şimdi buradayım. Burası Feriköy'ün en güzel yeri!",
+      "tr": "Kötü geçti… ama şimdi buradayım. Burası Feriköy'ün en güzel yeri!",
       "who": "nima"
+    },
+    {
+      "beat": {
+        "who": "nima",
+        "do": "photo",
+        "at": "mark:sky",
+        "cam": "wide",
+        "emo": "shy"
+      }
     },
     {
       "cam": "split",
@@ -775,10 +771,10 @@
               {
                 "cam": "split",
                 "emo": "laugh",
-                "en": "Maybe… just friends?",
-                "fa": "شاید… فقط دوستا؟",
+                "en": "Everyone? I think… just friends. A secret!",
+                "fa": "همه؟ به نظرم… فقط دوستا. یه راز!",
                 "to": "nima",
-                "tr": "Belki… sadece arkadaşlar?",
+                "tr": "Herkes mi? Bence… sadece arkadaşlar. Bir sır!",
                 "via": "video",
                 "who": "dilnoza"
               }

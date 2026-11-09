@@ -179,41 +179,11 @@
   },
   "quiz": [
     {
-      "a": 0,
+      "a": 1,
       "kind": "comp",
       "options": [
-        "Alex",
-        "Yusuf",
-        "Nima"
-      ],
-      "q": {
-        "tr": "Kahverengi saçlı, hep uykulu… kim?",
-        "en": "Brown-haired, always sleepy… who?",
-        "fa": "موقهوه‌ای، همیشه خواب‌آلود… کیست؟"
-      },
-      "why": "Nima: “Alex!”"
-    },
-    {
-      "a": 0,
-      "kind": "word",
-      "options": [
-        "güler yüzlü",
-        "sarı saçlı",
-        "uzun boylu"
-      ],
-      "q": {
-        "tr": "Zafer Hoca: sakallı, gözlüklü ve …",
-        "en": "Zafer Hoca: bearded, glasses and …",
-        "fa": "استاد ظفر: ریش‌دار، عینکی و …"
-      },
-      "why": "Nima: “Sakallı, gözlüklü, güler yüzlü.”"
-    },
-    {
-      "a": 0,
-      "kind": "comp",
-      "options": [
-        "Sardunya",
         "Gül",
+        "Sardunya",
         "Lale"
       ],
       "q": {
@@ -222,6 +192,21 @@
         "fa": "خاله ماریا همیشه از گولتن خانم چه می‌خرد؟"
       },
       "why": "Gülten Hanım: “Kırk yıldır çiçeklerini benden alıyor. Hep sardunya.”"
+    },
+    {
+      "a": 2,
+      "kind": "word",
+      "options": [
+        "gözlü",
+        "boylu",
+        "saçlı"
+      ],
+      "q": {
+        "tr": "Gülten Hanım: “Mor şallı, beyaz … hanım.”",
+        "en": "Gülten Hanım: “The lady with the purple shawl and white …”",
+        "fa": "گولتن خانم: «خانمِ شال‌بنفش و … سفید.»"
+      },
+      "why": "Gülten Hanım: “Siz… sardunyalar! Ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?”"
     }
   ],
   "ref": "A1_6",
@@ -252,19 +237,19 @@
       }
     },
     {
-      "en": "Good morning! Today… who's who? Tall, short, blue-eyed, blond…",
-      "fa": "صبح بخیر! امروز… کی کیه؟ قدبلند، قدکوتاه، چشم‌آبی، موطلایی…",
+      "en": "Class 504. Tall, short, blue-eyed, blond… who's who?",
+      "fa": "کلاسِ ۵۰۴. قدبلند، قدکوتاه، چشم‌آبی، موطلایی… کی کیه؟",
       "narr": true,
-      "tr": "Günaydın! Bugün… kim kim? Uzun boylu, kısa boylu, mavi gözlü, sarı saçlı…",
+      "tr": "Sınıf 504. Uzun boylu, kısa boylu, mavi gözlü, sarı saçlı… kim kim?",
       "who": "kerim"
     },
     {
       "do": "explain",
       "emo": "happy",
-      "en": "A game: someone in the class… who? Dilnoza, you start!",
-      "fa": "یه بازی: یه نفر توی کلاس… کیه؟ دلنوزا، شما شروع کنین!",
+      "en": "Today we've got a game: “Who's that?” Dilnoza, you start!",
+      "fa": "امروز یه بازی داریم: «اون کیه؟» دلنوزا، شما شروع کنین!",
       "to": "all",
-      "tr": "Bir oyun: sınıfta biri… kim? Dilnoza, siz başlayın!",
+      "tr": "Bugün bir oyun var: “Kim o?” Dilnoza, siz başlayın!",
       "who": "zafer"
     },
     {
@@ -357,16 +342,15 @@
             },
             "reply": [
               {
-                "do": "me",
                 "emo": "annoyed",
                 "en": "Old?! I'm thirty-five!",
-                "fa": "پیر؟! من سی و پنج سالمه!",
+                "fa": "پیر؟! سی و پنج سالمه!",
                 "react": {
                   "alex": "laugh",
                   "yusuf": "laugh"
                 },
                 "to": "nima",
-                "tr": "Yaşlı mı?! Ben otuz beş yaşındayım!",
+                "tr": "Yaşlı mı?! Otuz beş yaşındayım!",
                 "who": "zafer"
               }
             ],
@@ -411,7 +395,7 @@
     },
     {
       "at": {
-        "dilnoza": "door",
+        "dilnoza": "tulip_bucket",
         "gulten": "counter",
         "nima": "buckets"
       },
@@ -452,10 +436,10 @@
       "at": "ch:nima",
       "do": "you",
       "emo": "surprised",
-      "en": "You… the geraniums! And at the party! For the lady with the purple shawl and white hair, right?",
-      "fa": "شما… شمعدانی‌ها! و توی مهمونی! برای اون خانمِ موسفید با شالِ بنفش، نه؟",
+      "en": "You… the geraniums! And at the party too! For the lady with the purple shawl and white hair, right?",
+      "fa": "شما… شمعدونی‌ها! مهمونی هم بودین! برای اون خانمِ موسفید با شالِ بنفش، نه؟",
       "to": "nima",
-      "tr": "Siz… sardunyalar! Ve partide! Mor şallı, beyaz saçlı hanım için, değil mi?",
+      "tr": "Siz… sardunyalar! Ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?",
       "who": "gulten"
     },
     {
@@ -472,7 +456,7 @@
       "do": "point",
       "emo": "proud",
       "en": "I know. She's bought her flowers from me for forty years. Always geraniums.",
-      "fa": "می‌دونم. چهل ساله که گل‌هاشو از من می‌خره. همیشه شمعدانی.",
+      "fa": "می‌دونم. چهل ساله که گل‌هاشو از من می‌خره. همیشه شمعدونی.",
       "link": {
         "sardunya": "obj:geraniums"
       },
