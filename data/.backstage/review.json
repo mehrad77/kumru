@@ -1,0 +1,630 @@
+{
+  "v": 1,
+  "episodes": {
+    "s1e01": {
+      "ai": true,
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "b3fba592",
+      "comments": [
+        {
+          "id": "vb57ug4q",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e02": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "23fd6609",
+      "comments": [
+        {
+          "id": "gptp37l0",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e03": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "fecbbec3",
+      "comments": [
+        {
+          "id": "v9iehf4w",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e04": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f6d3a0b5",
+      "comments": [
+        {
+          "id": "p5vykytv",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e05": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c835fd3a",
+      "comments": [
+        {
+          "id": "hhv3awb6",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e06": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f4c06e1f",
+      "comments": [
+        {
+          "id": "d843nu8i",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e07": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "686c0b6c",
+      "comments": [
+        {
+          "id": "lre01nxo",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e08": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "a7d2a74b",
+      "comments": [
+        {
+          "id": "z419bnbw",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e09": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "a204ef8c",
+      "comments": [
+        {
+          "id": "lm94zp3k",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e10": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "8d274514",
+      "comments": [
+        {
+          "id": "taum8qgs",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e11": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "394c38c3",
+      "comments": [
+        {
+          "id": "ugfpt0q1",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e12": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "17f7e40d",
+      "comments": [
+        {
+          "id": "8yprrl3m",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e13": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f4fdf8bf",
+      "comments": [
+        {
+          "id": "r4b8xnjn",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e14": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "12be475b",
+      "comments": [
+        {
+          "id": "1b41uw1t",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e15": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f4ad68b2",
+      "comments": [
+        {
+          "id": "gbgpglk9",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e16": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "b7a81bad",
+      "comments": [
+        {
+          "id": "gdu3dybc",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e17": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "42805597",
+      "comments": [
+        {
+          "id": "zxivkwe4",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e18": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c5d6a221",
+      "comments": [
+        {
+          "id": "f71qezl0",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e19": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "53f9d6df",
+      "comments": [
+        {
+          "id": "a5ef35xp",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e20": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "28c667d3",
+      "comments": [
+        {
+          "id": "4xa8jp5l",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e21": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "9cfc667d",
+      "comments": [
+        {
+          "id": "mscuw9vn",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e22": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d341d618",
+      "comments": [
+        {
+          "id": "94af7z4z",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e23": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "0d63673b",
+      "comments": [
+        {
+          "id": "9olyaw55",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e24": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "198a8845",
+      "comments": [
+        {
+          "id": "sy5pidlg",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e25": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "92d7bf6b",
+      "comments": [
+        {
+          "id": "pt1g94h8",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e26": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f77d70c2",
+      "comments": [
+        {
+          "id": "nneha72d",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e27": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "fb6b6b70",
+      "comments": [
+        {
+          "id": "rxpdu54b",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e28": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "abc6c6bf",
+      "comments": [
+        {
+          "id": "d1duco2t",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e29": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "97b59f06",
+      "comments": [
+        {
+          "id": "ruxg2y07",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e30": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "e0ccd8e3",
+      "comments": [
+        {
+          "id": "p1uioruk",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e31": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "cc4a2ea2",
+      "comments": [
+        {
+          "id": "62udyqh7",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e32": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d0a70d34",
+      "comments": [
+        {
+          "id": "xzcd2smg",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e33": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "e89b3bfb",
+      "comments": [
+        {
+          "id": "62utp3jg",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e34": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "31b10425",
+      "comments": [
+        {
+          "id": "o02fpx0j",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e35": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "01c16c75",
+      "comments": [
+        {
+          "id": "b2ba6rjp",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e36": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "2ca9beb7",
+      "comments": [
+        {
+          "id": "bkn55sue",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e37": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d3f08a98",
+      "comments": [
+        {
+          "id": "mneq96lp",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e38": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "5d711997",
+      "comments": [
+        {
+          "id": "k0buf8cx",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e39": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "2eeb73c0",
+      "comments": [
+        {
+          "id": "t2j8iwzj",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e40": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d839a94c",
+      "comments": [
+        {
+          "id": "bwyzgf4v",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e41": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "5ef58f80",
+      "comments": [
+        {
+          "id": "gf8o7xd6",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e42": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c29a4a7c",
+      "comments": [
+        {
+          "id": "bidt7dvv",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e43": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "d97fbb07",
+      "comments": [
+        {
+          "id": "owgt3udo",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e44": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "6c7a8846",
+      "comments": [
+        {
+          "id": "rs258t1k",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e45": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "9ef95bf3",
+      "comments": [
+        {
+          "id": "enpllc45",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e46": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "f5e5fa55",
+      "comments": [
+        {
+          "id": "4krnygf5",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e47": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "c5562443",
+      "comments": [
+        {
+          "id": "af0hkire",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    },
+    "s1e48": {
+      "status": "approved",
+      "reviewer": "Mehrad",
+      "sig": "259fc85f",
+      "comments": [
+        {
+          "id": "getams4x",
+          "by": "Mehrad",
+          "text": "Approved before it was ready (translate): Season review of 2026-11 (docs/stories/S1_REVIEW.md): every episode's script, English and Persian were rewritten and read again by an independent second pass; the line-by-line translation checks are not marked.",
+          "date": "2026-11-09 19:15"
+        }
+      ]
+    }
+  }
+}
