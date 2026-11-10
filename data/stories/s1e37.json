@@ -228,7 +228,7 @@
         "en": "Nima's flat is cold. What's the library like?",
         "fa": "خانهٔ نیما سرد است. کتابخانه چطور است؟"
       },
-      "why": "Kırlangıç: “Orası sıcak. Gel!”"
+      "why": "Kırlangıç: “Orası sıcak. Sen de gel!”"
     }
   ],
   "ref": "A1_6",
@@ -513,10 +513,10 @@
     },
     {
       "emo": "laugh",
-      "en": "Tea? Yes! The tea's hot… the boiler's cold!",
-      "fa": "چای؟ آره! چای گرمه… پکیج سرده!",
+      "en": "Yes, please! The tea's hot… the boiler's cold!",
+      "fa": "آره، لطفاً! چای گرمه… پکیج سرده!",
       "to": "nima",
-      "tr": "Çay? Evet! Çay sıcak… kombi soğuk!",
+      "tr": "Evet, lütfen! Çay sıcak… kombi soğuk!",
       "who": "serkan"
     },
     {
@@ -546,10 +546,10 @@
     },
     {
       "emo": "laugh",
-      "en": "Ha ha! Tomorrow we're studying at the İBB library. It's warm there. Come!",
-      "fa": "هاها! فردا توی کتابخونهٔ شهرداری درس می‌خونیم. اون‌جا گرمه. بیا!",
+      "en": "Ha ha! Tomorrow we're studying at the İBB library. It's warm there. Come with us!",
+      "fa": "هاها! فردا توی کتابخونهٔ شهرداری درس می‌خونیم. اون‌جا گرمه. تو هم بیا!",
       "to": "nima",
-      "tr": "Ha ha! Yarın İBB kütüphanesinde çalışıyoruz. Orası sıcak. Gel!",
+      "tr": "Ha ha! Yarın İBB kütüphanesinde çalışıyoruz. Orası sıcak. Sen de gel!",
       "via": "phone",
       "who": "kirlangic"
     },

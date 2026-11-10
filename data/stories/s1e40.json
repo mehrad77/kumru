@@ -592,10 +592,10 @@
     {
       "do": "hand_heart",
       "emo": "happy",
-      "en": "Thank you, Elif Hanım! But the boiler will work tomorrow. I talked to Tolga Bey today!",
-      "fa": "ممنونم، الیف خانم! ولی فردا پکیج کار می‌کنه. امروز با آقای تولگا حرف زدم!",
+      "en": "Thank you, Elif Hanım! But the repairman's coming tomorrow. I talked to Tolga Bey today!",
+      "fa": "ممنونم، الیف خانم! ولی فردا تعمیرکار میاد. امروز با آقای تولگا حرف زدم!",
       "to": "elif",
-      "tr": "Teşekkür ederim, Elif Hanım! Ama yarın kombi çalışıyor. Bugün Tolga Bey'le konuştum!",
+      "tr": "Teşekkür ederim, Elif Hanım! Ama yarın usta geliyor. Bugün Tolga Bey'le konuştum!",
       "who": "nima"
     },
     {

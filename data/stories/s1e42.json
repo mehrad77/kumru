@@ -33,10 +33,10 @@
       "who": "berfin"
     },
     {
-      "en": "It's a glass.",
-      "fa": "این یه استکانه.",
+      "en": "A glass!",
+      "fa": "یه استکان!",
       "to": "berfin",
-      "tr": "Bu bir bardak.",
+      "tr": "Bir bardak!",
       "who": "nima"
     },
     {
@@ -100,10 +100,10 @@
       "who": "berfin"
     },
     {
-      "en": "It's half past nine.",
-      "fa": "ساعت نه و نیمه.",
+      "en": "Half past nine.",
+      "fa": "نه و نیم.",
       "to": "berfin",
-      "tr": "Saat dokuz buçuk.",
+      "tr": "Dokuz buçuk.",
       "who": "nima"
     },
     {
@@ -156,6 +156,10 @@
     "haliç": {
       "fa": "شاخِ طلایی (خلیج)",
       "en": "the Golden Horn"
+    },
+    "haliç'ten": {
+      "fa": "از شاخِ طلایی",
+      "en": "than the Golden Horn (Haliç + -ten)"
     },
     "hangisi": {
       "fa": "کدام؟",
@@ -603,10 +607,10 @@
     },
     {
       "emo": "proud",
-      "en": "The Bosphorus, of course! The Bosphorus is bigger!",
-      "fa": "بسفر، معلومه! بسفر بزرگ‌تره!",
+      "en": "The Bosphorus, of course! It's bigger than the Golden Horn!",
+      "fa": "بسفر، معلومه! از شاخِ طلایی بزرگ‌تره!",
       "to": "berfin",
-      "tr": "Boğaz, tabii! Boğaz daha büyük!",
+      "tr": "Boğaz, tabii! Haliç'ten daha büyük!",
       "who": "serkan"
     },
     {

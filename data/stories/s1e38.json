@@ -511,13 +511,13 @@
       "at": "ch:nima",
       "do": "point",
       "emo": "proud",
-      "en": "Look! Nima's a teacher!",
+      "en": "Look! Nima's become a teacher!",
       "fa": "ببین! نیما معلم شده!",
       "react": {
         "dilnoza": "happy"
       },
       "to": "dilnoza",
-      "tr": "Bak! Nima öğretmen!",
+      "tr": "Bak! Nima öğretmen oldu!",
       "voice": "whisper",
       "who": "kirlangic"
     },
