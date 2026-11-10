@@ -675,10 +675,10 @@
     },
     {
       "emo": "moved",
-      "en": "Now… you have a cat here too. And it's always here, at the door!",
-      "fa": "حالا… این‌جا هم یه گربه دارین. همیشه هم این‌جاست، دمِ در!",
+      "en": "Now… you have a cat here too. It's always here, at the door!",
+      "fa": "حالا… این‌جا هم یه گربه دارین. همیشه این‌جاست، دمِ در!",
       "to": "nima",
-      "tr": "Şimdi… burada da bir kediniz var. Ve o hep burada, kapıda!",
+      "tr": "Şimdi… burada da bir kediniz var. Hep burada, kapıda!",
       "who": "maria"
     },
     {

@@ -203,6 +203,10 @@
     "belge": {
       "fa": "مدرک",
       "en": "document"
+    },
+    "sözleşmeyi": {
+      "fa": "قرارداد را",
+      "en": "the contract (as the object)"
     }
   },
   "id": "s1e22",
@@ -518,9 +522,9 @@
     },
     {
       "who": "reza",
-      "tr": "Çok güzel. Unutmayın! Ve… bir numara alın! …Şaka!",
-      "en": "Very good. Don't forget! And… take a number! …Just kidding!",
-      "fa": "خیلی خوب. فراموش نکنید! و… یک شماره بگیرید! …شوخی کردم!",
+      "tr": "Tamam. Sözleşmeyi unutmayın! Ve… bir numara alın! …Şaka!",
+      "en": "All right. Don't forget the contract! And… take a number! …Just kidding!",
+      "fa": "باشه. قرارداد رو فراموش نکنید! و… یک شماره بگیرید! …شوخی کردم!",
       "emo": "happy",
       "react": {
         "nima": "laugh"
@@ -659,9 +663,9 @@
                 "do": "point",
                 "emo": "laugh",
                 "en": "Look! The bird's in it too!",
-                "fa": "ببین! پرنده هم هست!",
+                "fa": "ببینین! پرنده هم هست!",
                 "to": "all",
-                "tr": "Bak! Kuş da var!",
+                "tr": "Bakın! Kuş da var!",
                 "who": "yusuf",
                 "cam": "wide"
               }
@@ -706,9 +710,9 @@
                 "do": "point",
                 "emo": "laugh",
                 "en": "Look! The bird's in it too!",
-                "fa": "ببین! پرنده هم هست!",
+                "fa": "ببینین! پرنده هم هست!",
                 "to": "all",
-                "tr": "Bak! Kuş da var!",
+                "tr": "Bakın! Kuş da var!",
                 "who": "yusuf",
                 "cam": "wide"
               }
@@ -782,9 +786,9 @@
                 "do": "point",
                 "emo": "laugh",
                 "en": "Look! The bird's in it too!",
-                "fa": "ببین! پرنده هم هست!",
+                "fa": "ببینین! پرنده هم هست!",
                 "to": "all",
-                "tr": "Bak! Kuş da var!",
+                "tr": "Bakın! Kuş da var!",
                 "who": "yusuf",
                 "cam": "wide"
               }

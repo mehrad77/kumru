@@ -592,10 +592,10 @@
       "at": "obj:pecete",
       "do": "hold_up",
       "emo": "proud",
-      "en": "The napkin: “STOP”!",
+      "en": "The napkin says “STOP”!",
       "fa": "روی دستمال نوشته: «ایستگاه»!",
       "link": {
-        "peçete": "obj:pecete"
+        "peçetede": "obj:pecete"
       },
       "obj": [
         {
@@ -604,7 +604,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Peçete: “DURAK”!",
+      "tr": "Peçetede “DURAK” yazıyor!",
       "who": "dilnoza"
     },
     {
