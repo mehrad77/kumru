@@ -763,9 +763,9 @@
       "cam": "wide",
       "do": "point",
       "emo": "proud",
-      "en": "For new students!",
+      "en": "There, on the wall! For new students!",
       "env": "state:guide_up",
-      "fa": "برای دانشجوهای تازه‌وارد!",
+      "fa": "اینم روی دیوار! برای دانشجوهای تازه‌وارد!",
       "move": [
         {
           "how": "fly",
@@ -786,7 +786,7 @@
         }
       ],
       "to": "all",
-      "tr": "Yeni öğrenciler için!",
+      "tr": "İşte, duvarda! Yeni öğrenciler için!",
       "who": "berfin"
     },
     {

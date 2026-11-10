@@ -146,6 +146,10 @@
     "benden": {
       "fa": "از طرفِ من، مهمانِ من",
       "en": "from me; my treat"
+    },
+    "hmm": {
+      "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "en": "hmm (thinking)"
     }
   },
   "id": "s1e34",
@@ -434,8 +438,8 @@
     {
       "do": "explain",
       "emo": "proud",
-      "en": "Your head hurts. Your throat hurts. The medicine: tea, honey… and silence!",
-      "fa": "سرتون درد می‌کنه. گلوتون درد می‌کنه. دارو: چای، عسل… و سکوت!",
+      "en": "Hmm… your head hurts. Your throat hurts. The medicine: tea, honey… and silence!",
+      "fa": "هوم… سرتون درد می‌کنه. گلوتون درد می‌کنه. دارو: چای، عسل… و سکوت!",
       "react": {
         "zafer": {
           "do": "nod"
@@ -443,7 +447,7 @@
         "parvaneh": "laugh"
       },
       "to": "zafer",
-      "tr": "Başınız ağrıyor. Boğazınız ağrıyor. İlaç: çay, bal… ve sessizlik!",
+      "tr": "Hmm… başınız ağrıyor. Boğazınız ağrıyor. İlaç: çay, bal… ve sessizlik!",
       "who": "yusuf"
     },
     {
@@ -617,13 +621,13 @@
     },
     {
       "emo": "nervous",
-      "en": "Honey, please. My teacher has no voice!",
-      "fa": "عسل، لطفاً. صدای استادم درنمیاد!",
+      "en": "Thanks! Honey, please. My teacher has no voice!",
+      "fa": "ممنون، خوشحالم که اومدم! عسل، لطفاً. صدای استادم درنمیاد!",
       "link": {
         "bal": "obj:paket"
       },
       "to": "ismail",
-      "tr": "Bal, lütfen. Hocamın sesi yok!",
+      "tr": "Hoş bulduk! Bal, lütfen. Hocamın sesi yok!",
       "who": "nima"
     },
     {

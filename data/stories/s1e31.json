@@ -142,6 +142,10 @@
     "test": {
       "fa": "امتحان، آزمون",
       "en": "test"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "en": "oh! (surprise)"
     }
   },
   "id": "s1e31",
@@ -412,10 +416,10 @@
                 "at": "ch:nima",
                 "do": "you",
                 "emo": "surprised",
-                "en": "Thanks, dear! …You… tomatoes!",
-                "fa": "مرسی عزیزم! …تو… گوجه!",
+                "en": "Thanks, dear! …Oh! You… the tomatoes!",
+                "fa": "مرسی عزیزم! …عه! تو… گوجه!",
                 "to": "nima",
-                "tr": "Sağ ol, canım! …Sen… domates!",
+                "tr": "Sağ ol, canım! …Aa! Sen… domates!",
                 "who": "hatice"
               }
             ],
@@ -537,11 +541,11 @@
     },
     {
       "do": "count",
-      "en": "Two teas, please!",
-      "fa": "دو تا چای، لطفاً!",
+      "en": "Thanks! Two teas, please!",
+      "fa": "ممنون، خوشحالیم که اومدیم! دو تا چای، لطفاً!",
       "n": 2,
       "to": "berfin",
-      "tr": "İki çay, lütfen!",
+      "tr": "Hoş bulduk! İki çay, lütfen!",
       "who": "nima"
     },
     {

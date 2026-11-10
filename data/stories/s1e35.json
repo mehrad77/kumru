@@ -209,6 +209,10 @@
     "sözleşmenin": {
       "fa": "ـِ قرارداد",
       "en": "the contract's; of the contract"
+    },
+    "of": {
+      "fa": "اوف (آه از خستگی یا ناراحتی)",
+      "en": "ugh (a sigh)"
     }
   },
   "id": "s1e35",
@@ -687,19 +691,19 @@
     {
       "cam": "split",
       "emo": "curious",
-      "en": "Where are you? How did the appointment go?",
-      "fa": "کجایی؟ نوبتِ اقامت چطور بود؟",
+      "en": "Hi, Nima! Where are you? How did the appointment go?",
+      "fa": "الو، نیما! کجایی؟ نوبتِ اقامت چطور بود؟",
       "to": "nima",
-      "tr": "Neredesin? Randevu nasıl geçti?",
+      "tr": "Alo, Nima! Neredesin? Randevu nasıl geçti?",
       "via": "video",
       "who": "dilnoza"
     },
     {
       "emo": "shy",
-      "en": "Badly… but now I'm here. This is the most beautiful place in Feriköy!",
-      "fa": "بد بود… ولی الان این‌جام. این‌جا قشنگ‌ترین جای فری‌کؤیه!",
+      "en": "Ugh… it went badly. But now I'm here. This is the most beautiful place in Feriköy!",
+      "fa": "اوف… بد بود. ولی الان این‌جام. این‌جا قشنگ‌ترین جای فری‌کؤیه!",
       "to": "dilnoza",
-      "tr": "Kötü geçti… ama şimdi buradayım. Burası Feriköy'ün en güzel yeri!",
+      "tr": "Of… kötü geçti. Ama şimdi buradayım. Burası Feriköy'ün en güzel yeri!",
       "who": "nima"
     },
     {

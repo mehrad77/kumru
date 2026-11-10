@@ -134,6 +134,10 @@
     "şallı": {
       "fa": "با شالِ…",
       "en": "with a … shawl"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "en": "oh! (surprise)"
     }
   },
   "id": "s1e32",
@@ -206,7 +210,7 @@
         "en": "Gülten Hanım: “The lady with the purple shawl and white …”",
         "fa": "گولتن خانم: «خانمِ شال‌بنفش و … سفید.»"
       },
-      "why": "Gülten Hanım: “Siz… sardunyalar! Ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?”"
+      "why": "Gülten Hanım: “Aa, siz! Sardunyalar… ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?”"
     }
   ],
   "ref": "A1_6",
@@ -436,10 +440,10 @@
       "at": "ch:nima",
       "do": "you",
       "emo": "surprised",
-      "en": "You… the geraniums! And at the party too! For the lady with the purple shawl and white hair, right?",
-      "fa": "شما… شمعدونی‌ها! مهمونی هم بودین! برای اون خانمِ موسفید با شالِ بنفش، نه؟",
+      "en": "Oh, it's you! The geraniums… and at the party too! For the lady with the purple shawl and white hair, right?",
+      "fa": "عه، شمایین! شمعدونی‌ها… مهمونی هم بودین! برای اون خانمِ موسفید با شالِ بنفش، نه؟",
       "to": "nima",
-      "tr": "Siz… sardunyalar! Ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?",
+      "tr": "Aa, siz! Sardunyalar… ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?",
       "who": "gulten"
     },
     {

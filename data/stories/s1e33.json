@@ -123,6 +123,10 @@
     "deniyoruz": {
       "en": "we're trying (denemek: to try, to taste)",
       "fa": "امتحان می‌کنیم (denemek: امتحان کردن، چشیدن)"
+    },
+    "hmm": {
+      "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "en": "hmm (thinking)"
     }
   },
   "id": "s1e33",
@@ -215,7 +219,7 @@
         "en": "Which bakery is cheaper?",
         "fa": "کدام نانوایی ارزان‌تر است؟"
       },
-      "why": "Dilnoza: “Parktaki fırın da var. O daha ucuz.”"
+      "why": "Dilnoza: “Ama parktaki fırın da var. O daha ucuz.”"
     },
     {
       "a": 1,
@@ -287,8 +291,8 @@
       "at": "obj:rehber",
       "do": "write",
       "emo": "curious",
-      "en": "There's the bakery by the park too. It's cheaper.",
-      "fa": "نونواییِ کنارِ پارک هم هست. اون ارزون‌تره.",
+      "en": "But there's the bakery by the park too. It's cheaper.",
+      "fa": "ولی نونواییِ کنارِ پارک هم هست. اون ارزون‌تره.",
       "obj": [
         {
           "id": "rehber",
@@ -300,17 +304,17 @@
         }
       ],
       "to": "serkan",
-      "tr": "Parktaki fırın da var. O daha ucuz.",
+      "tr": "Ama parktaki fırın da var. O daha ucuz.",
       "who": "dilnoza",
       "cam": "single"
     },
     {
       "do": "think",
       "emo": "curious",
-      "en": "Which one is better? We're trying both!",
-      "fa": "کدومش بهتره؟ هر دوتاشو امتحان می‌کنیم!",
+      "en": "Hmm… which one's better? We're trying both!",
+      "fa": "هوم… کدومش بهتره؟ هر دوتاشو امتحان می‌کنیم!",
       "to": "dilnoza",
-      "tr": "Hangisi daha iyi? İkisini de deniyoruz!",
+      "tr": "Hmm… hangisi daha iyi? İkisini de deniyoruz!",
       "who": "nima"
     },
     {
