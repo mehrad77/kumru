@@ -5,8 +5,9 @@
 // - The stage fills the top of the screen, edge to edge, with only a small back button over it (no title bar).
 // - Log mode (an upright phone) leaves the lines to the log under the stage; theatre mode (sideways, a tablet, or the toggle)
 //   puts them on stage as bubbles (`stage.setBubbles`).
-// - Translations follow the help language (app/core/lang.ts): Persian, English, both, or none (Turkish only); a tapped word
-//   always has its meaning.
+// - Translations are in the help language (app/core/lang.ts): Persian, English or both; with "none", English. A button beside the
+//   speaker shows or hides them for the whole dialogue (`kumru:story:tl`; off by default only with "none"); a tapped word always
+//   has its meaning.
 // - Every line of the newcomer is the learner's to say: a card with Söyle (and the microphone where the week turns `aloud` on and
 //   the microphone really works here: voice.ts).
 // - A speaker button (top right) turns the stage's sound on or off: the lines in the device's Turkish voice, the place's
@@ -15,7 +16,7 @@
 // - Without WebGL2 (or when the GPU takes the context away) the story reads in the log with the place's name over a still.
 import { el } from "../../core/dom.ts";
 import { faTxt } from "../../core/i18n.ts";
-import { helpLangs, meaningLang } from "../../core/lang.ts";
+import { helpLang, helpLangs, meaningLang } from "../../core/lang.ts";
 import { S } from "../../core/store.ts";
 import { loadLib } from "../../host/lib.ts";
 import { castPortrait, myPortrait } from "../../ui/avatar/portrait.ts";
@@ -37,9 +38,17 @@ let G: Awaited<ReturnType<typeof loadGlossModel>>;
 type Text3 = { tr?: string; en?: string; fa?: string };
 
 const btn = (cls: string, text: string, onclick: () => void, extra: Record<string, unknown> = {}) => el("button", { class: cls, type: "button", text, onclick, ...extra });
-/** A line's translations, as the help language asks: English and Persian, either one, or none. */
+/** The translations a story can show: the help language's, or with "none" the meaning language (English). */
+function tlLangs(): { fa: boolean; en: boolean } {
+  if (helpLang() !== "none") return helpLangs();
+  const m = meaningLang();
+  return { fa: m === "fa" || m === "both", en: m === "en" || m === "both" };
+}
+/** Whether the translations show: the reader's toggle, on by default unless the help language is "none". */
+const tlOn = () => pref("tl", helpLang() !== "none");
+/** A line's translations, always in the page, shown or hidden by the reader's toggle (`st-notl` on the page). */
 function tl(en?: string, fa?: string): (HTMLElement | null)[] {
-  const H = helpLangs();
+  const H = tlLangs();
   return [H.en && en ? el("small", { class: "tl", text: en }) : null, H.fa && fa ? el("small", { class: "fa", lang: "fa", dir: "rtl", text: faTxt(fa) }) : null];
 }
 
@@ -75,8 +84,19 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     if (on && !noVoiceSaid && !trVoiceHere()) { noVoiceSaid = true; toast("This device has no Turkish voice, so the lines stay silent. Add one in its speech settings."); }
   };
   drawSound();
+  // the translations of every line at once: on or off for the whole dialogue, whatever the help language
+  const trans = el("button", { class: "st-back st-tlbtn", type: "button" });
+  const drawTl = () => {
+    const on = tlOn(), H = tlLangs();
+    trans.textContent = H.en && H.fa ? "EN·FA" : H.fa ? "FA" : "EN";
+    trans.setAttribute("aria-label", on ? "Translations shown: tap to hide them" : "Translations hidden: tap to show them");
+    trans.setAttribute("aria-pressed", String(on));
+    page.classList.toggle("st-notl", !on);
+  };
+  trans.onclick = () => { setPref("tl", !tlOn()); drawTl(); };
+  drawTl();
   const body = el("div", { class: "st-body" }, el("p", { class: "hint", role: "status", text: "Setting the stage…" }));
-  page.replaceChildren(back, sound, body);
+  page.replaceChildren(back, trans, sound, body);
 
   void (async () => {
     await loadStories();
