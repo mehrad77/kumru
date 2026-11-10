@@ -45,7 +45,7 @@ const btn = (cls: string, text: string, onclick: () => void, extra: Record<strin
 function tlLangs(): { fa: boolean; en: boolean; ru: boolean } {
   if (helpLang() !== "none") return helpLangs();
   const m = meaningLang();
-  return { fa: m === "fa" || m === "both", en: m === "en" || m === "both", ru: m === "ru" };
+  return { fa: m === "fa", en: m === "en", ru: m === "ru" };
 }
 /** Whether the translations show: the reader's toggle, on by default unless the help language is "none". */
 const tlOn = () => pref("tl", helpLang() !== "none");
