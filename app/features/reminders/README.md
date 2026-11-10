@@ -1,6 +1,6 @@
 # reminders
 
-Streak reminders: one Web Push nudge a day at the hour the learner picks, only on days they haven't practised. Server half: `worker/features/reminders` (the hourly cron sends them); contract: `shared/reminders.ts`; routes: docs/SPECS_API.md.
+Daily reminders: one Web Push nudge a day at the hour the learner picks that a story is waiting (with the streak), only on days they haven't practised. Server half: `worker/features/reminders` (the hourly cron sends them); contract: `shared/reminders.ts`; routes: docs/SPECS_API.md.
 
 | | |
 |---|---|

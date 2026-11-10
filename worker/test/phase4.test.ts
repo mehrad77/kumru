@@ -118,7 +118,7 @@ describe("push", () => {
   it("links a reminder to the absolute https://turk.shab.boo URL, so the old YaKerim service workers open the new site", () => {
     expect(SITE).toBe("https://turk.shab.boo");
     expect(reminderPayload(0).url).toBe("https://turk.shab.boo/");
-    expect(reminderPayload(3)).toMatchObject({ title: "Kerim is waiting", body: "3 day streak — one lesson keeps it.", url: "https://turk.shab.boo/" });
+    expect(reminderPayload(3)).toMatchObject({ title: "A story is waiting", body: "3 day streak — read today's story with Kerim to keep it.", url: "https://turk.shab.boo/" });
   });
 
   it("sends nothing without VAPID keys", async () => {

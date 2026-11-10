@@ -105,7 +105,7 @@ interface WebFeature {
 | words | the card sheet, practice chip, gloss popup, read-only notes list | |
 | friends | Friends tab, a learner's sheet, follows, cheers, the leaderboard, invite links | yes |
 | classes | the Classes cards (Friends, Profile), class page `/c/<code>`, board, members | yes |
-| reminders | streak reminders: the Profile card and onboarding's reminder step | yes |
+| reminders | daily reminders that a story is waiting: the Profile card and onboarding's reminder step | yes |
 | yeni | Notebook: connect, book progress, reader links | yes |
 | tutor | the AI state, "Try it", the tutor document and saved fixes, Fix my mistakes, onboarding's writing helpers, the tutor lab | yes (`/api/ai` stub) |
 | lab | the Lab tab | |

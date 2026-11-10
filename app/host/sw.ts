@@ -87,7 +87,7 @@ sw.addEventListener("fetch", (event) => {
 
 /* Streak reminders (app/features/reminders/api.ts, worker/features/reminders/cron.ts): show the pushed message, open the app on tap. */
 sw.addEventListener("push", (event) => {
-  let d = { title: "Kerim is waiting", body: "One short lesson keeps your streak.", url: "/" };
+  let d = { title: "A story is waiting", body: "Kerim has a story for you today.", url: "/" };
   try { d = { ...d, ...event.data?.json() }; } catch { /* keep the default */ }
   event.waitUntil(sw.registration.showNotification(d.title, { body: d.body, icon: "/icon-192.png", badge: "/icon-192.png", data: { url: d.url }, tag: "kumru-streak" }));
 });

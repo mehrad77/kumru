@@ -381,8 +381,8 @@ The report links each card to its file under `data/cards/` and each lesson to `d
 
 ### 10.6 Streak reminders (phase 4)
 
-- Onboarding ends with a **Remind me once a day at <hour>** step that asks for notification permission (default 20:00; "Not now" skips). Profile has the same control, "Remind me at <hour>", with the browser's permission prompt. The subscription (endpoint, keys), the learner's IANA time zone and the chosen hour are stored in `push_subs`.
-- The hourly cron selects subscriptions whose local hour is now, whose learner has not studied today (`profiles.last_day` is before today in that zone), and sends one push with the streak count. Payloads are encrypted with a small Web Push implementation for Workers and the `VAPID_*` keys.
+- Onboarding has a **daily reminder** step ("Kerim can tell you once a day when a new story is waiting") that asks for notification permission (default 20:00; "Not now" skips). Profile has the same control, "Remind me at <hour>", with the browser's permission prompt. The subscription (endpoint, keys), the learner's IANA time zone and the chosen hour are stored in `push_subs`.
+- The hourly cron selects subscriptions whose local hour is now, whose learner has not studied today (`profiles.last_day` is before today in that zone), and sends one push about the day's story, with the streak count. Payloads are encrypted with a small Web Push implementation for Workers and the `VAPID_*` keys.
 - A subscription that returns 404 or 410 is deleted.
 - On iPhone this works only after the app is added to the home screen; the Profile copy says so.
 

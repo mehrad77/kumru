@@ -1,4 +1,4 @@
-// The streak-reminders card on Profile: a nudge at the hour the learner picks, only on days they haven't studied yet.
+// The reminders card on Profile: a nudge at the hour the learner picks that a story is waiting, only on days they haven't studied yet.
 import { useEffect, useState } from "preact/hooks";
 import { signals } from "../../core/store.ts";
 import { SetCard, SetRow } from "../../ui/settings.tsx";
@@ -31,7 +31,7 @@ export function RemindCard() {
   };
   return (
     <SetCard title="Reminders">
-      <p class="hint">A nudge at the hour you choose, only on days you haven't studied yet.</p>
+      <p class="hint">A nudge at the hour you choose that a story is waiting, only on days you haven't studied yet.</p>
       <SetRow title="Remind me at" sub={st.on ? "On: every day you haven't practised." : "On iPhone this works only after Kumru is added to the Home Screen."}>
         <select class="sel" aria-label="Reminder hour" value={String(hour)} onChange={(e) => setHour(+(e.currentTarget as HTMLSelectElement).value)}>
           {HOURS.map((h) => <option value={String(h)}>{hourLabel(h)}</option>)}
