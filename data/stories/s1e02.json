@@ -343,13 +343,10 @@
     {
       "do": "welcome",
       "emo": "happy",
-      "en": "Yes, this is TOMER. I'm Kırlangıç. Welcome! Where are you from?",
-      "fa": "آره، این‌جا تومره. من پرستوام. خوش اومدی! اهلِ کجایی؟",
-      "link": {
-        "tömer": "obj:levha"
-      },
+      "en": "Yes! I'm Kırlangıç. Welcome! Where are you from?",
+      "fa": "آره! من پرستوام. خوش اومدی! اهلِ کجایی؟",
       "to": "nima",
-      "tr": "Evet, burası TÖMER. Ben Kırlangıç. Hoş geldin! Nerelisin?",
+      "tr": "Evet! Ben Kırlangıç. Hoş geldin! Nerelisin?",
       "who": "kirlangic"
     },
     {

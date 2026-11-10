@@ -95,6 +95,10 @@
     }
   ],
   "gl": {
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "en": "oh! (surprise)"
+    },
     "galata": {
       "fa": "گالاتا (محله و برجی قدیمی در بی‌اوغلو)",
       "en": "Galata (an old quarter and tower in Beyoğlu)"
@@ -274,11 +278,11 @@
     {
       "do": "wave",
       "emo": "surprised",
-      "en": "My bus! Bye, you two!",
-      "fa": "اتوبوسم! خداحافظ!",
+      "en": "Oh, my bus! Bye, you two!",
+      "fa": "عه، اتوبوسم! خداحافظ!",
       "on": "hoşça",
       "to": "all",
-      "tr": "Otobüs! Hoşça kalın!",
+      "tr": "Aa, otobüs! Hoşça kalın!",
       "who": "dilnoza"
     },
     {
