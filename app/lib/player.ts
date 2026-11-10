@@ -33,12 +33,13 @@ export const learnerAvatar = (char: unknown) => normalize(char, baseKit, { trust
 
 /**
  * The voice of a story: each character's recorded lines (sahne-voice, the clips under the data manifest's `voices` base), the
- * device's Turkish voice for a line with none (the learner's own name in it, a story not recorded yet). Loaded before the
+ * device's Turkish voice for a line with none (a story not recorded yet). A line with the learner's name has its clip too: the clip
+ * leaves the name out, and is found under the personalised line. Loaded before the
  * story starts, so the first line does not race its clip.
  */
-export function storyVoice(story: string, voicesBase?: string): Promise<VoiceProvider> {
+export function storyVoice(story: string, voicesBase?: string, personalise?: (text: string) => string): Promise<VoiceProvider> {
   const fallback = browserVoice();
-  return voicesBase ? clipVoice({ base: `${voicesBase}${story}/`, lang: tr, fallback }) : Promise.resolve(fallback);
+  return voicesBase ? clipVoice({ base: `${voicesBase}${story}/`, lang: tr, fallback, personalise }) : Promise.resolve(fallback);
 }
 
 /**

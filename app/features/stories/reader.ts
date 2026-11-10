@@ -24,7 +24,7 @@ import { pup, kerimTalk, talkMs } from "../../ui/kerim/kerim.ts";
 import { speak } from "../../ui/speech.ts";
 import { toast } from "../../ui/toast.ts";
 import { openLesson } from "../grammar/index.ts";
-import { personalize, personalizeStr, studentName } from "../onboarding/index.ts";
+import { personalize, personalizeName, personalizeStr, studentName } from "../onboarding/index.ts";
 import { loadGlossModel, type GlossIndex } from "../practice/index.ts";
 import { addXp, bumpDay, saveProgress, todayKey } from "../progress/index.ts";
 import { showGloss } from "../words/index.ts";
@@ -174,7 +174,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       const kit = await P.kitFor(Object.values(adapted.load.places ?? {}) as never[]);
       if (gone) return;
       const manifest = await fetch("/data/manifest.json").then((r) => r.json()).catch(() => ({}));
-      const voice = await P.storyVoice(story.id, manifest.voices);
+      const voice = await P.storyVoice(story.id, manifest.voices, (t) => personalizeName(t, "tr"));
       const stage = P.stageFor(stageBox, kit, { theatre: theatre(), gloss, motion: reduce ? "still" : undefined, sounds: manifest.sounds, onContext: showStill, voice });
       if (!stage.webgl) showStill(true);
       soundStage = stage;
