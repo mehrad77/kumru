@@ -63,10 +63,10 @@ Lessons stay learned or not learned (`progress.gram`); they have no score. A les
 
 | How the position changes | Rule |
 |---|---|
-| Onboarding placement | The quiz suggests a unit. The learner may start there or lower (*One unit earlier*, *Choose myself*), never higher. |
+| Placement (Profile's *Retake*; onboarding has none) | The quiz suggests a unit. The learner may start there or lower (*One unit earlier*, *Choose myself*), never higher. |
 | Checkpoint | Passing the current unit's checkpoint completes it and moves the position to the next unit. |
 | *Jump here* | The only way past the current unit without its checkpoint. It needs a test (section 5). |
-| Retaking placement (Profile) | Same as onboarding. It can move the learner down, or up to the suggested unit. |
+| Retaking placement (Profile) | It can move the learner down, or up to the suggested unit. |
 
 **Placed past** is a unit before the position whose checkpoint isn't passed. It stays open: its lessons, word batches and checkpoint can all be done, and passing the checkpoint marks it done. Its words keep their own scores and are offered as catch-up (section 6).
 
@@ -110,7 +110,7 @@ For the levels `data/path` covers (drafted for A1, A2 and B1) the road is a tree
 | Moment | Rule (`treeMark`) |
 |---|---|
 | First time the tree shows (`treeMigrate`, once, then `tree.mig`) | A skill whose lessons are learned and 80% of whose words are known becomes done (`how: "migrated"`). Any other skill before the learner's unit becomes placed. |
-| Onboarding placement, retaking it, or a unit *Jump here* (`applyPlacement`) | Skills before the new unit become placed. |
+| Placement (Profile's *Retake*) or a unit *Jump here* (`applyPlacement`) | Skills before the new unit become placed. |
 | Moving the position back (Profile, retake) | Placed marks that no longer lie before the position are dropped; finished and tested skills stay. Moving it forward by hand places nothing. |
 | *Test out* succeeds (`testOut`, `applyTreeTest`) | The sections from the current one up to the one before the target are marked tested (`how: "test"`), as are their unfinished skills. |
 

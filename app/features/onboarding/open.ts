@@ -8,7 +8,8 @@ import { S } from "../../core/store.ts";
 import { mountIsland } from "../../ui/mount.ts";
 import { flushLater } from "../../ui/later.ts";
 import { saveProgress } from "../progress/index.ts";
-import { ONB_V, type Mode } from "./model/flow.ts";
+import type { Mode } from "./model/flow.ts";
+import { ONB_V } from "./model/version.ts";
 
 const RETRIED = "kumru:onb-retried";
 

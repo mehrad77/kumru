@@ -16,6 +16,6 @@ The service worker (`app/host/sw.ts`) shows the pushed message and opens the app
 
 ## What other features call
 
-- The onboarding feature's "Daily reminder" step calls `remindStep()` (`step.ts`: `{ supported, turnOn }`; it resets the step's hour to 8 pm) and draws `loadRemindBody()` (`StepBody.tsx`). It could become an `onboardingSteps` slot fill once more steps live outside onboarding.
+- The onboarding feature's "Daily reminder" step calls `remindStep()` (`step.ts`: `{ supported, turnOn }`; it resets the step's hour to 8 pm) and draws `loadRemindBody()` (`StepBody.tsx`, with the flow's words in the learner's language: `text`, `none`, `hour`). It could become an `onboardingSteps` slot fill once more steps live outside onboarding.
 
 `window.kumru.host.push` is gone: nothing else read it.
