@@ -39,9 +39,15 @@ export function storyVoice(story: string, voicesBase?: string): Promise<VoicePro
   return voicesBase ? clipVoice({ base: `${voicesBase}${story}/`, lang: tr, fallback }) : Promise.resolve(fallback);
 }
 
+/**
+ * The place's ambience, half the stage's default (0.3): the recorded voices (−18 LUFS) are quieter than the device's, and a
+ * learner must hear every word over the wind and the street.
+ */
+const VOLUMES = { ambience: 0.15 };
+
 /** A mounted stage for a story, in log mode or theatre mode. */
 export function stageFor(host: HTMLElement, kit: Awaited<ReturnType<typeof kitFor>>, o: { theatre: boolean; gloss: GlossOptions; motion?: "full" | "calm" | "still"; sounds?: string; onContext?: (lost: boolean) => void; voice?: VoiceProvider }): Stage {
-  return mountStage(host, { kit, lang: tr, bubbles: o.theatre ? true : "log", gloss: o.gloss, glosses: false, voice: o.voice ?? browserVoice(), motion: o.motion, sounds: o.sounds, onContext: o.onContext });
+  return mountStage(host, { kit, lang: tr, bubbles: o.theatre ? true : "log", gloss: o.gloss, glosses: false, voice: o.voice ?? browserVoice(), motion: o.motion, sounds: o.sounds, volumes: VOLUMES, onContext: o.onContext });
 }
 
 export type { CharacterDoc, StoryDoc, StoryPlace };
