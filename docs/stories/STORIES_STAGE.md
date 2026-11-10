@@ -160,6 +160,7 @@ An act turn's result counts like a choice: characters react, the warmth may move
 
 - **Log mode** (phones held upright):
   - The stage is on top at 16:10, sticky and collapsible. The log is below it, and the footer holds *Devam* or the reply card.
+  - The log reads like a group chat: each line in a bubble beside its speaker's head, with the speaker's name atop the bubble whenever the speaker changes (so a learner meets Farzad by name, not just by face). The learner's own lines come from the other side, unnamed.
   - On screens under 700 px tall, during a choice with three options, the stage shrinks to 16:6 and the line being answered shows as a bubble on stage, so the learner can always see what they are answering.
 - **Theatre mode** (phones held sideways, tablets, or a toggle): the stage fills the screen, lines show as bubbles, the reply card floats over the stage, and the log is a drawer.
 - **Taps on the stage** explore when the week turns `explore` on. Otherwise a tap does nothing; only *Devam* advances.

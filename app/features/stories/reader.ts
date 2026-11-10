@@ -229,15 +229,18 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
           el("div", null, i.tr ? glossed(i.tr) : null, ...tl(i.text ?? i),
             lesson ? btn("linkish", "Open the lesson", () => openLesson(lesson)) : null)));
       } else if (i.tr) {
-        // a chat line: the speaker's head in a small circle (named for screen readers), and the line in a bubble out of it;
-        // the learner's own lines from the other side. A beat (a sound word) has no speaker: a plain line in the middle.
+        // a chat line: the speaker's head in a small circle, and the line in a bubble out of it, with the speaker's name atop it
+        // whenever the speaker changes (as in a group chat); the learner's own lines from the other side, unnamed. A beat (a sound
+        // word) has no speaker: a plain line in the middle.
         const text = i.tr.trim() === "…" ? el("span", { text: "…" }) : glossed(i.tr);
         const beat = i.kind === "beat" || !i.who, me = i.who === "nima", name = beat ? "" : who(i.who);
         const av = beat ? null : me ? myPortrait(32, "st-av")
           : i.who === "kerim" ? pup("idle", 32, { pose: "head", enter: false, label: name })
           : castPortrait(i.who!, (characters.value[i.who!] as { avatar?: unknown } | undefined)?.avatar, 32, "st-av", name);
         if (av) { av.title = name; av.classList.add("st-av"); }
-        const line = el("div", { class: "st-line" + (me ? " me" : "") + (beat ? " beat" : "") }, av, el("div", { class: "st-bub" }, text, ...tl(i.text ?? i)));
+        const prev = (log.lastElementChild as HTMLElement | null)?.dataset.who;
+        const tag = !beat && !me && prev !== i.who ? el("b", { class: "st-who", text: name }) : null;
+        const line = el("div", { class: "st-line" + (me ? " me" : "") + (beat ? " beat" : ""), "data-who": beat ? "" : i.who }, av, el("div", { class: "st-bub" }, tag, text, ...tl(i.text ?? i)));
         log.append(line);
       }
       line2view();

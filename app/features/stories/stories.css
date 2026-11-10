@@ -70,6 +70,8 @@
   .st-line{display:flex;align-items:flex-end;gap:8px;margin:0;max-width:100%}
   .st-line .st-av{flex:none;width:32px;height:32px;border-radius:50%;overflow:hidden;background:var(--sunken);box-shadow:0 0 0 1.5px var(--line)}
   .st-line .st-av>svg{width:100%;height:100%;display:block}
+  /* the speaker's name atop their bubble, when the speaker changes */
+  .st-who{display:block;font-size:13px;font-weight:700;color:var(--accent);margin-bottom:1px;line-height:1.3}
   .st-bub{position:relative;min-width:0;max-width:min(560px,100% - 40px);padding:8px 12px;border-radius:16px 16px 16px 4px;background:var(--surface);border:1px solid var(--line)}
   .st-bub::before{content:"";position:absolute;bottom:-1px;inset-inline-start:-6px;width:10px;height:10px;background:inherit;border-bottom:1px solid var(--line);border-inline-start:1px solid var(--line);clip-path:polygon(0 100%,100% 0,100% 100%);border-radius:0 0 0 3px}
   .st-line.me{flex-direction:row-reverse}
