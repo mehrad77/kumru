@@ -43,10 +43,10 @@ export function storyVoice(story: string, voicesBase?: string, personalise?: (te
 }
 
 /**
- * The place's ambience, a quarter of the stage's default (0.3), about 12 dB down: the recorded voices (−18 LUFS) are quieter
- * than the device's, and a learner must hear every word over the wind and the street.
+ * Under the recorded voices (−18 LUFS, quieter than the device's) a learner must hear every word: the place's ambience at
+ * about an eighth of the stage's default (0.3 → 0.04), and the effects (Kerim's coo, steps, doors, bells) at half (0.8 → 0.4).
  */
-const VOLUMES = { ambience: 0.075 };
+const VOLUMES = { ambience: 0.04, fx: 0.4 };
 
 /** A mounted stage for a story, in log mode or theatre mode. */
 export function stageFor(host: HTMLElement, kit: Awaited<ReturnType<typeof kitFor>>, o: { theatre: boolean; gloss: GlossOptions; motion?: "full" | "calm" | "still"; sounds?: string; onContext?: (lost: boolean) => void; voice?: VoiceProvider }): Stage {
