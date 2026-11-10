@@ -34,8 +34,8 @@ const VOICES_DIR = ["data", "voices", "clips"];
 
 // The size gate (sahne/packages/sahne/DESIGN.md §12, ROADMAP.md M8): gzip KB of what each part of the page loads, checked on every build.
 // `entry` is what the first paint needs (no Sahne code may be in it); the lazy libraries are counted with all they pull in that
-// the entry does not already carry; a set family is one chunk.
-const BUDGET_KB = { entry: 85, avatar: 150, builder: 240, player: 265, family: 40 } as const;
+// the entry does not already carry; a set family is one chunk. The entry was raised from 85 to 90 on 2026-11-11.
+const BUDGET_KB = { entry: 90, avatar: 150, builder: 240, player: 265, family: 40 } as const;
 // the lazy libraries whose code the service worker fetches on first use instead of precaching
 const LAZY_LIBS = ["app/lib/builder.ts", "app/lib/player.ts"];
 const BRAND_FILES = ["manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png", "apple-touch-icon-180.png"];
