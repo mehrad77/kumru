@@ -138,6 +138,10 @@
     "kuu": {
       "fa": "صدای قمری",
       "en": "a dove's coo"
+    },
+    "of": {
+      "fa": "اَه! (کلافگی)",
+      "en": "ugh!, oh no! (annoyance)"
     }
   },
   "id": "s1e14",
@@ -331,8 +335,8 @@
       "at": "obj:departure_board",
       "do": "look",
       "emo": "nervous",
-      "en": "Is the metro coming? No… no… I'm going to be late!",
-      "fa": "مترو میاد؟ نمیاد… نمیاد… دیرم می‌شه!",
+      "en": "Is the metro coming? No… no… Oh no, I'm going to be late!",
+      "fa": "مترو میاد؟ نمیاد… نمیاد… اَه، دیرم می‌شه!",
       "link": {
         "metro": "obj:departure_board"
       },
@@ -347,7 +351,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Metro geliyor mu? Gelmiyor… gelmiyor… Geç kalıyorum!",
+      "tr": "Metro geliyor mu? Gelmiyor… gelmiyor… Of, geç kalıyorum!",
       "who": "elif",
       "react": {
         "nima": "think"

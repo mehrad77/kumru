@@ -429,10 +429,10 @@
     },
     {
       "emo": "annoyed",
-      "en": "Not “a bird”. Kerim!",
-      "fa": "پرنده نه. کریم!",
+      "en": "I'm not “a bird”, I'm Kerim!",
+      "fa": "پرنده نیستم، من کریمم!",
       "narr": true,
-      "tr": "Kuş değil. Kerim!",
+      "tr": "Kuş değilim, ben Kerim!",
       "who": "kerim"
     },
     {
@@ -710,10 +710,10 @@
     {
       "do": "explain",
       "emo": "curious",
-      "en": "What do you all want to do?",
-      "fa": "شما دلتون می‌خواد چی‌کار کنین؟",
+      "en": "So, what do you all want to do?",
+      "fa": "خب، شما دلتون می‌خواد چی‌کار کنین؟",
       "to": "all",
-      "tr": "Ne yapmak istiyorsunuz?",
+      "tr": "Peki, ne yapmak istiyorsunuz?",
       "who": "maria"
     },
     {

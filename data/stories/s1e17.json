@@ -237,8 +237,8 @@
       "at": "ch:passenger_1",
       "do": "point",
       "emo": "happy",
-      "en": "The cats are asleep… And what are they doing?",
-      "fa": "گربه‌ها خوابن… اونا چی‌کار می‌کنن؟",
+      "en": "Look, the cats are asleep! And what are they doing?",
+      "fa": "ببین، گربه‌ها خوابن! اونا چی‌کار می‌کنن؟",
       "link": {
         "kediler": "obj:cats"
       },
@@ -249,7 +249,7 @@
       },
       "on": "onlar",
       "to": "nima",
-      "tr": "Kediler uyuyor… Peki onlar ne yapıyor?",
+      "tr": "Bak, kediler uyuyor! Peki onlar ne yapıyor?",
       "who": "dilnoza"
     },
     {

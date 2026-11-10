@@ -200,6 +200,10 @@
     "kuu": {
       "fa": "صدای قمری",
       "en": "a dove's coo"
+    },
+    "aa": {
+      "fa": "آهان! (وقتی کسی را می‌شناسی)",
+      "en": "oh! (recognising someone)"
     }
   },
   "id": "s1e16",
@@ -454,10 +458,10 @@
       "at": "ch:maria",
       "do": "you",
       "emo": "surprised",
-      "en": "Yes! You… on the metro!",
-      "fa": "بله! شما… تو مترو!",
+      "en": "Oh, yes! You… on the metro!",
+      "fa": "آهان، بله! شما… تو مترو!",
       "to": "maria",
-      "tr": "Evet! Siz… metroda!",
+      "tr": "Aa, evet! Siz… metroda!",
       "who": "nima"
     },
     {

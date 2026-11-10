@@ -139,6 +139,14 @@
     "güneş": {
       "fa": "خورشید؛ آفتاب",
       "en": "sun"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "en": "oh! (surprise)"
+    },
+    "hadi": {
+      "fa": "بیا، بریم!",
+      "en": "come on!; let's go!"
     }
   },
   "id": "s1e15",
@@ -316,13 +324,13 @@
     },
     {
       "emo": "shy",
-      "en": "It's raining! …Do you want the umbrella?",
+      "en": "Oh, it's raining! …Do you want the umbrella?",
       "env": [
         "thunder",
         "state:rain",
         "weather:rain"
       ],
-      "fa": "داره بارون میاد! …چتر می‌خوای؟",
+      "fa": "عه، داره بارون میاد! …چتر می‌خوای؟",
       "link": {
         "şemsiye": "obj:buyuk_semsiye"
       },
@@ -352,7 +360,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Yağmur yağıyor! …Şemsiye istiyor musun?",
+      "tr": "Aa, yağmur yağıyor! …Şemsiye istiyor musun?",
       "who": "dilnoza"
     },
     {
@@ -511,8 +519,8 @@
     {
       "do": "me",
       "emo": "happy",
-      "en": "I'm going to Osmanbey! Let's go together!",
-      "fa": "من می‌رم عثمان‌بی! با هم می‌ریم!",
+      "en": "I'm going to Osmanbey! Come on, let's go together!",
+      "fa": "من می‌رم عثمان‌بی! بیا، با هم می‌ریم!",
       "react": {
         "nima": {
           "do": "nod",
@@ -520,7 +528,7 @@
         }
       },
       "to": "nima",
-      "tr": "Ben Osmanbey'e! Beraber gidiyoruz!",
+      "tr": "Ben Osmanbey'e! Hadi, beraber gidiyoruz!",
       "who": "dilnoza"
     },
     {

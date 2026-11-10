@@ -135,6 +135,10 @@
     "çatı": {
       "fa": "پشت‌بام",
       "en": "roof"
+    },
+    "vay": {
+      "fa": "وای!",
+      "en": "wow!"
     }
   },
   "id": "s1e13",
@@ -413,8 +417,8 @@
     {
       "do": "cheer",
       "emo": "happy",
-      "en": "The match! Beşiktaş… are winning!",
-      "fa": "بازی! بشیکتاش… داره می‌بره!",
+      "en": "Wow! Beşiktaş are winning! Great match!",
+      "fa": "وای! بشیکتاش داره می‌بره! چه بازی‌ای!",
       "link": {
         "maç": "obj:radio"
       },
@@ -423,7 +427,7 @@
         "nima": "laugh"
       },
       "to": "nima",
-      "tr": "Maç! Beşiktaş… kazanıyor!",
+      "tr": "Vay! Beşiktaş kazanıyor! Güzel maç!",
       "who": "serkan"
     },
     {
