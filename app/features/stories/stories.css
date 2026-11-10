@@ -104,7 +104,15 @@
   .st-reply .st-mine::before{display:none}
   .st-send{flex:none;display:inline-flex;align-items:center;gap:8px;min-height:48px;padding-inline:18px 16px;border-radius:999px}
   .st-send-i{font-size:14px;line-height:1}
-  .st-reply .st-aloud{padding-inline-start:2px}
+  .st-reply .st-aloud{padding-inline-start:2px;justify-content:space-between}
+  /* the microphone: a round button where Söyle was (or under a choice), glowing until the learner has used it once */
+  .st-mic{flex:none;width:56px;height:56px;min-height:56px;padding:0;border-radius:50%;display:inline-grid;place-items:center;font-size:24px}
+  .st-mic[aria-pressed="true"]{animation:st-listen 1.1s ease-in-out infinite}
+  .st-mic-new{animation:st-glow 1.8s ease-in-out infinite}
+  @keyframes st-glow{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 45%,transparent)}50%{box-shadow:0 0 0 10px transparent}}
+  @keyframes st-listen{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+  @media (prefers-reduced-motion:reduce){.st-mic-new,.st-mic[aria-pressed="true"]{animation:none}}
+  .st-skip{padding:0;font-size:14px}
   .st-choose .st-opt{border-radius:16px 16px 4px 16px;background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 35%,transparent)}
   .st-choose .st-opt:hover:not(:disabled){border-color:var(--accent)}
   .st-opt{display:grid;gap:2px;text-align:start;border:1.5px solid var(--line);border-bottom-width:3px;background:var(--surface);border-radius:12px;padding:10px 14px;color:var(--ink);font-size:17px;min-height:44px}

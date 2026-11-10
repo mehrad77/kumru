@@ -171,9 +171,10 @@ An act turn's result counts like a choice: characters react, the warmth may move
 - **The card.** When it is the learner's turn, the footer's *Devam* button is replaced by a reply card, in thumb reach. It shows:
   - the Turkish line, with every word tappable for its gloss, as in the log;
   - its translation, following the level's translation fade;
-  - a *Söyle* (say) button.
-- **Söyle.** Tapping it says the line: the learner's character speaks and gestures, the voice plays if sound is on, and the line enters the log.
-- **Say it aloud.** Unless the learner turned it off, the card also has a microphone, in every story (the arc's `aloud` no longer gates it). Speaking the line counts like tapping *Söyle*, and a tap always works too.
+  - one way to say it: the microphone where it works, *Söyle* where it does not (never both, which read as the same thing).
+- **The microphone.** Unless the learner turned it off, or speech recognition does not really work on the device (`voice.ts`), the card's main action is a round 🎤 button beside the line, in every story (the arc's `aloud` no longer gates it). A hint under the line says "Tap 🎤 and say it in Turkish", and the button glows until the learner has used it once (`kumru:story:micUsed`). Speaking the line says it. A quiet *Say it for me* link under the line says it without speaking: the tap always works too.
+- **Söyle.** Without a microphone, the card has a *Söyle* (say) button. Tapping it says the line: the learner's character speaks and gestures, the voice plays if sound is on, and the line enters the log.
+- **A choice, aloud.** Under a choice's options, the same 🎤 hears whichever option the learner says ("Tap 🎤 and say one, or tap it"), and tapping an option still picks it.
 - **The "…" card** (`voice: "silent"`) has no words, and its button reads *…* rather than *Söyle*. The character freezes: no voice, no mouth, the `nervous` face.
 - **A real choice** uses the **same card in the same place** with 2–3 options. Only the number of options differs.
 
