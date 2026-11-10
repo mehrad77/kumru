@@ -11,7 +11,8 @@
     "not_found_handling": "single-page-application",
     "run_worker_first": ["/api/*", "/f/*", "/c/*", "/@*"]
   },
-  "routes": [{ "pattern": "turk.shab.boo", "custom_domain": true }],
+  // kumru.shab.boo is the address; turk.shab.boo stays for the learners signed in there (app/host/site.ts)
+  "routes": [{ "pattern": "kumru.shab.boo", "custom_domain": true }, { "pattern": "turk.shab.boo", "custom_domain": true }],
   "vars": { "MIN_CLIENT": "", "DEV": "0", "PBKDF2_ITER": "25000", "TURNSTILE_SITE_KEY": "0x4AAAAAAFQFMa1lV0PQbPNg", "YENI_ORIGINS": "https://yeni.shab.boo", "VAPID_PUBLIC": "BNjPLSnfZAAryihzvB20574oPNUDAbCWcATWktmbgaexqa3okmmME_PlYHchDprmI2BY8tZPqwgpD2W-6aopdC4" },
   // Secrets, set with `wrangler secret put` and never in the repo: PEPPER, TURNSTILE_SECRET_KEY and VAPID_PRIVATE.
   "d1_databases": [

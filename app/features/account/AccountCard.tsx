@@ -10,11 +10,12 @@ import { account } from "./api.ts";
 import { BusyButton } from "./forms.tsx";
 import { accErr } from "./model/errors.ts";
 import { openDelete, openDevices, openLogout, openPairStart, openPassword } from "./sheets.tsx";
+import { shareOrigin } from "../../host/site.ts";
 
 export function AccountCard() {
   if (!signals.me.value) return null;
   const name = signals.profileName.value;
-  const link = name ? location.origin + "/@" + name : "";
+  const link = name ? shareOrigin() + "/@" + name : "";
   return (
     <SetCard title="Account">
       <SetRow title={"Signed in as " + (name || "you")} sub="Your progress syncs to every phone you sign in on.">

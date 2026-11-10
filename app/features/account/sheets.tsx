@@ -171,7 +171,7 @@ function Recovery({ code, user, saved, lock, finish }: RecoveryProps) {
   };
   const download = () => {
     const txt = "Kumru recovery code\n\nUsername: " + user + "\nRecovery code: " + code + "\nKept on: " + new Date().toISOString().slice(0, 10)
-      + "\n\nIf you forget your password, this code and your username get you back in at turk.shab.boo (Sign in → Forgot your password?).\nIt works once and gives you a new one. Keep this file private.\n";
+      + "\n\nIf you forget your password, this code and your username get you back in at kumru.shab.boo (Sign in → Forgot your password?).\nIt works once and gives you a new one. Keep this file private.\n";
     const a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob([txt], { type: "text/plain" }));
     a.download = "kumru-recovery-" + user + ".txt";

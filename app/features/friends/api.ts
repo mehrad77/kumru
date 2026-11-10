@@ -3,6 +3,7 @@
 import type { Friends, ProfileDoc, ProfilePutOk, Search } from "../../../shared/api.ts";
 import { weekKey } from "../../lib/progress.ts";
 import { api, getToken } from "../../host/transport.ts";
+import { shareOrigin } from "../../host/site.ts";
 
 export const friendsApi = {
   /** The Friends payload, or null signed out. */
@@ -14,5 +15,5 @@ export const friendsApi = {
   search: async (q: string): Promise<Search> => (await api("GET", "/api/profiles/search?q=" + encodeURIComponent(q))).json,
   /** Save my public profile; the stored copy carries the permanent friend code. */
   save: async (doc: ProfileDoc): Promise<ProfilePutOk> => (await api("PUT", "/api/profile", { doc, week: weekKey(Date.now()) })).json,
-  profileLink: (username: string): string => `${location.origin}/@${username}`,
+  profileLink: (username: string): string => `${shareOrigin()}/@${username}`,
 };
