@@ -9,9 +9,19 @@ import { follow } from "./actions.ts";
 import { openFriendSheet } from "./sheet.ts";
 import { nameOf, profiles, relation, writable } from "./state.ts";
 
+/** The first letter of a name, for a portrait the server held back. */
+const initialOf = (name: string): string => (Array.from(name.trim())[0] || "?").toLocaleUpperCase();
+
+/**
+ * A learner's portrait. Someone else's character comes only to mutual follows unless they made it public (the server's
+ * `hideChars`), so without one their row shows their initial in a disc rather than a blank head.
+ */
 export function Avatar({ uid, size }: { uid: string; size: number }) {
   const p = uid === S.me ? { char: S.char } : (profiles.value.get(uid) || {}) as { char?: unknown };
-  return <Char char={p.char || null} size={size} cls="fr-av" label={nameOf(uid)} />;
+  const name = nameOf(uid);
+  if (uid !== S.me && !p.char)
+    return <span class="chr fr-av fr-init" role="img" aria-label={name} style={`width:${size}px;height:${size}px;font-size:${Math.round(size * 0.44)}px`}>{bidiTxt(initialOf(name))}</span>;
+  return <Char char={p.char || null} size={size} cls="fr-av" label={name} />;
 }
 
 /** An icon in a round disc (`fr-ic`). */
