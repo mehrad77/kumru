@@ -111,10 +111,12 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const raw = stories.value.find((s) => s.id === id);
     if (!raw) { body.replaceChildren(el("p", { class: "hint", text: "That story isn't here." })); return; }
     if (!openStories().some((s) => s.id === id)) { body.replaceChildren(el("p", { class: "hint", text: "This story isn't out yet." })); return; }
+    // the stage's bundle and the gloss model load side by side
+    const gloss = loadGlossModel();
     let P: Player;
     try { P = await loadLib("player"); } catch { body.replaceChildren(el("p", { class: "hint", text: "The stage could not load. Check your connection and try again." })); return; }
     if (gone) return;
-    G = await loadGlossModel();
+    G = await gloss;
     stopTimer = run(P, personalize(raw, undefined) as Story);
   })();
 
@@ -171,10 +173,12 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const placeName = (pid: string) => { const p = places.value[pid] as { name?: Record<string, string> } | undefined; return p?.name?.tr ?? pid; };
     const showStill = (on: boolean) => { lost = on; still.hidden = !on; still.textContent = on ? placeName(story.place) : ""; };
     void (async () => {
+      // the set families and the voices (the data manifest, then the story's clips) load side by side
+      const manifestP = fetch("/data/manifest.json").then((r) => r.json()).catch(() => ({}));
+      const voiceP = manifestP.then((m: { voices?: string }) => P.storyVoice(story.id, m.voices, (t) => personalizeName(t, "tr")));
       const kit = await P.kitFor(Object.values(adapted.load.places ?? {}) as never[]);
       if (gone) return;
-      const manifest = await fetch("/data/manifest.json").then((r) => r.json()).catch(() => ({}));
-      const voice = await P.storyVoice(story.id, manifest.voices, (t) => personalizeName(t, "tr"));
+      const manifest = await manifestP, voice = await voiceP;
       const stage = P.stageFor(stageBox, kit, { theatre: theatre(), gloss, motion: reduce ? "still" : undefined, sounds: manifest.sounds, onContext: showStill, voice });
       if (!stage.webgl) showStill(true);
       soundStage = stage;
