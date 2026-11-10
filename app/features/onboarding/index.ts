@@ -7,7 +7,7 @@ import { maybeOnboard, openOnboarding } from "./open.ts";
 import { studentName } from "./personalize.ts";
 
 export { maybeOnboard, openOnboarding } from "./open.ts";
-export { studentName, personalize, personalizeStr, learnerBlurb } from "./personalize.ts";
+export { studentName, personalize, personalizeName, personalizeStr, learnerBlurb } from "./personalize.ts";
 export { translitOffline } from "./model/names.ts";
 export { normProfile, profileFallback, type Answers, type Profile } from "./model/profile.ts";
 

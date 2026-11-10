@@ -488,7 +488,7 @@
       "to": "all",
       "tr": "Pamuk! O benim kedim!",
       "who": "omer",
-      "cam": "two"
+      "cam": "wide"
     },
     {
       "do": "beckon",
@@ -522,7 +522,7 @@
       "to": "all",
       "tr": "Kara Kartal! Gel oğlum! Balık veriyorum!",
       "who": "serkan",
-      "cam": "two"
+      "cam": "wide"
     },
     {
       "at": "obj:cat",
@@ -681,12 +681,7 @@
       "to": "all",
       "tr": "Bizim kedimiz! Adı ne?",
       "who": "omer",
-      "cam": "two",
-      "move": {
-        "how": "walk",
-        "to": "step",
-        "who": "nima"
-      }
+      "cam": "wide"
     },
     {
       "emo": "laugh",

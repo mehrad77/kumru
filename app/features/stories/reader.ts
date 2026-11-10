@@ -8,8 +8,8 @@
 // - Translations are in the help language (app/core/lang.ts): Persian, English or both; with "none", English. A button beside the
 //   speaker shows or hides them for the whole dialogue (`kumru:story:tl`; off by default only with "none"); a tapped word always
 //   has its meaning.
-// - Every line of the newcomer is the learner's to say: a card with Söyle (and the microphone where the week turns `aloud` on and
-//   the microphone really works here: voice.ts).
+// - Every line of the newcomer is the learner's to say: a card with Söyle (and the microphone, in every story, unless the learner turned it off
+//   or it does not really work here: voice.ts).
 // - A speaker button (top right) turns the stage's sound on or off: the lines in the device's Turkish voice, the place's
 //   recordings and Kerim's coo. Off until the learner turns it on (STORIES_STAGE.md §3), then remembered (`kumru:story:sound`). A choice is the same card with 2–3 options, shown shuffled and stored by their authored index.
 // - Kerim's grammar spot is a card in the log with the lesson's link (the stage does not act spots out yet).
@@ -24,7 +24,7 @@ import { pup, kerimTalk, talkMs } from "../../ui/kerim/kerim.ts";
 import { speak } from "../../ui/speech.ts";
 import { toast } from "../../ui/toast.ts";
 import { openLesson } from "../grammar/index.ts";
-import { personalize, personalizeStr, studentName } from "../onboarding/index.ts";
+import { personalize, personalizeName, personalizeStr, studentName } from "../onboarding/index.ts";
 import { loadGlossModel, type GlossIndex } from "../practice/index.ts";
 import { addXp, bumpDay, saveProgress, todayKey } from "../progress/index.ts";
 import { showGloss } from "../words/index.ts";
@@ -111,10 +111,12 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const raw = stories.value.find((s) => s.id === id);
     if (!raw) { body.replaceChildren(el("p", { class: "hint", text: "That story isn't here." })); return; }
     if (!openStories().some((s) => s.id === id)) { body.replaceChildren(el("p", { class: "hint", text: "This story isn't out yet." })); return; }
+    // the stage's bundle and the gloss model load side by side
+    const gloss = loadGlossModel();
     let P: Player;
     try { P = await loadLib("player"); } catch { body.replaceChildren(el("p", { class: "hint", text: "The stage could not load. Check your connection and try again." })); return; }
     if (gone) return;
-    G = await loadGlossModel();
+    G = await gloss;
     stopTimer = run(P, personalize(raw, undefined) as Story);
   })();
 
@@ -171,10 +173,12 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const placeName = (pid: string) => { const p = places.value[pid] as { name?: Record<string, string> } | undefined; return p?.name?.tr ?? pid; };
     const showStill = (on: boolean) => { lost = on; still.hidden = !on; still.textContent = on ? placeName(story.place) : ""; };
     void (async () => {
+      // the set families and the voices (the data manifest, then the story's clips) load side by side
+      const manifestP = fetch("/data/manifest.json").then((r) => r.json()).catch(() => ({}));
+      const voiceP = manifestP.then((m: { voices?: string }) => P.storyVoice(story.id, m.voices, (t) => personalizeName(t, "tr")));
       const kit = await P.kitFor(Object.values(adapted.load.places ?? {}) as never[]);
       if (gone) return;
-      const manifest = await fetch("/data/manifest.json").then((r) => r.json()).catch(() => ({}));
-      const voice = await P.storyVoice(story.id, manifest.voices);
+      const manifest = await manifestP, voice = await voiceP;
       const stage = P.stageFor(stageBox, kit, { theatre: theatre(), gloss, motion: reduce ? "still" : undefined, sounds: manifest.sounds, onContext: showStill, voice });
       if (!stage.webgl) showStill(true);
       soundStage = stage;
@@ -198,10 +202,11 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     cleanups.push(() => theatreQ.removeEventListener("change", applyView));
 
     let cur: { stage: ReturnType<Player["stageFor"]>; player: ReturnType<Player["storyPlayer"]> } | null = null;
-    // Devam only where there is a line to read: after the opening, a scene change, a stage beat or a sound, the next cue plays
-    // by itself after a short hold. `lastCue` is the cue played last (null: the opening scene, shown at load).
+    // Devam only where there is a line to read: after the opening, a scene change, a stage beat or a sound, and after the
+    // learner's own line (one they said or picked: they have just read it), the next cue plays by itself after a short hold.
+    // `lastCue` is the cue played last (null: the opening scene, shown at load).
     let lastCue: { kind: string; tr?: string } | null = null, onwardFor = -1, onwardTimer = 0;
-    const wordless = (c: { kind: string; tr?: string } | null) => !c || c.kind === "scene" || c.kind === "beat" || c.kind === "react" || !c.tr?.trim();
+    const wordless = (c: { kind: string; tr?: string } | null) => !c || c.kind === "scene" || c.kind === "beat" || c.kind === "react" || c.kind === "say" || !c.tr?.trim();
     cleanups.push(() => clearTimeout(onwardTimer));
     function start(stage: ReturnType<Player["stageFor"]>) {
       const player = P.storyPlayer(stage as never, adapted, {
@@ -285,8 +290,9 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       }
       return c;
     }
-    function aloudBtn(expected: string[], said: () => void) {
-      if (!mech.includes("aloud") || !pref("aloud", true) || !voiceOk(P.canListen())) return null;
+    /** The microphone for a card: `said` gets which of the `expected` lines was heard (a choice picks that option). */
+    function aloudBtn(expected: string[], said: (best: number) => void) {
+      if (!pref("aloud", true) || !voiceOk(P.canListen())) return null;
       const status = el("small", { class: "st-heard", "aria-live": "polite" });
       let ctl: AbortController | null = null;
       const mic = btn("btn sm", "🎤 Say it", async () => {
@@ -296,7 +302,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
         ctl = null; mic.setAttribute("aria-pressed", "false");
         noteListen(r);
         if (!r.matched && !voiceOk(P.canListen())) { wrap.remove(); return; }
-        if (r.matched) { status.textContent = "✓"; said(); } else status.textContent = r.heard ? `I heard “${r.heard}”. Try again, or tap Söyle.` : "I didn't hear you. Try again, or tap Söyle.";
+        if (r.matched) { status.textContent = "✓"; said(r.best); } else status.textContent = r.heard ? `I heard “${r.heard}”. Try again, or tap Söyle.` : "I didn't hear you. Try again, or tap Söyle.";
       }, { "aria-pressed": "false" });
       const wrap = el("div", { class: "st-aloud" }, mic, status);
       return wrap;
@@ -326,7 +332,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       } else if (t.kind === "choice") {
         const order = shuffled(t.options.length, `${story.id}:${t.id}:${record(story.id).reads ?? 0}`);
         const c = card("choose what to say", t.options, order, (k) => cur!.player.choose(k));
-        const al = aloudBtn(t.options.map((o) => o.tr ?? ""), () => undefined);
+        const al = aloudBtn(t.options.map((o) => o.tr ?? ""), (k) => cur!.player.choose(k));
         if (al) c.append(al);
         foot.append(c);
       } else {

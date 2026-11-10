@@ -219,7 +219,7 @@
   "steps": [
     {
       "at": {
-        "dilnoza": "park_side",
+        "dilnoza": "cafe_front",
         "nima": "walk_r",
         "passenger_1": "cafe_table",
         "passenger_4": "firin_front"
@@ -253,7 +253,12 @@
       "ru": "К Босфору! Хочу пить чай!",
       "to": "dilnoza",
       "tr": "Boğaz'a! Çay içmek istiyorum!",
-      "who": "nima"
+      "who": "nima",
+      "move": {
+        "how": "walk",
+        "to": "walk_l",
+        "who": "dilnoza"
+      }
     },
     {
       "at": "ch:passenger_1",
@@ -264,11 +269,6 @@
       "ru": "Смотри, кошки спят! А те что делают?",
       "link": {
         "kediler": "obj:cats"
-      },
-      "move": {
-        "how": "walk",
-        "to": "walk_l",
-        "who": "dilnoza"
       },
       "on": "onlar",
       "to": "nima",
@@ -307,6 +307,11 @@
         "sfx": {
           "at": "mark:church_gate",
           "id": "church_bells"
+        },
+        "move": {
+          "how": "walk",
+          "to": "church_gate",
+          "who": "dilnoza"
         }
       }
     },
@@ -317,14 +322,14 @@
       "en": "What's that sound? Do you know?",
       "fa": "این صدا چیه؟ می‌دونی؟",
       "ru": "Что это за звук? Знаешь?",
-      "move": {
-        "how": "walk",
-        "to": "church_gate",
-        "who": "dilnoza"
-      },
       "to": "nima",
       "tr": "Bu ses ne? Biliyor musun?",
-      "who": "dilnoza"
+      "who": "dilnoza",
+      "move": {
+        "how": "walk",
+        "to": "walk_l",
+        "who": "nima"
+      }
     },
     {
       "at": "mark:church_gate",
@@ -333,11 +338,6 @@
       "en": "A church!",
       "fa": "کلیسا!",
       "ru": "Церковь!",
-      "move": {
-        "how": "walk",
-        "to": "walk_l",
-        "who": "nima"
-      },
       "to": "dilnoza",
       "tr": "Kilise!",
       "who": "nima"

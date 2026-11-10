@@ -471,7 +471,12 @@
       "ru": "Я не «птица», я Керим!",
       "narr": true,
       "tr": "Kuş değilim, ben Kerim!",
-      "who": "kerim"
+      "who": "kerim",
+      "move": {
+        "how": "enter",
+        "to": "table",
+        "who": "maria"
+      }
     },
     {
       "at": "obj:caydanlik",
@@ -483,11 +488,6 @@
       "link": {
         "çay": "obj:caydanlik",
         "çaydanlık": "obj:caydanlik"
-      },
-      "move": {
-        "how": "enter",
-        "to": "table",
-        "who": "maria"
       },
       "obj": [
         {
@@ -502,7 +502,12 @@
       "to": "all",
       "tr": "Çay geliyor! Çaydanlık sıcak!",
       "who": "maria",
-      "cam": "single"
+      "cam": "wide",
+      "move": {
+        "how": "enter",
+        "to": "guests_r",
+        "who": "serkan"
+      }
     },
     {
       "at": "obj:sandalyeler",
@@ -513,11 +518,6 @@
       "ru": "А вот и стулья! Я тоже помогаю!",
       "link": {
         "sandalyeler": "obj:sandalyeler"
-      },
-      "move": {
-        "how": "enter",
-        "to": "guests_r",
-        "who": "serkan"
       },
       "obj": [
         {
@@ -532,7 +532,12 @@
       "to": "all",
       "tr": "Sandalyeler de geliyor! Ben de yardım ediyorum!",
       "who": "serkan",
-      "cam": "single"
+      "cam": "wide",
+      "move": {
+        "how": "enter",
+        "to": "seat_2",
+        "who": "farzad"
+      }
     },
     {
       "beat": {
@@ -554,11 +559,6 @@
       "move": [
         {
           "how": "enter",
-          "to": "seat_2",
-          "who": "farzad"
-        },
-        {
-          "how": "enter",
           "to": "seat_5",
           "who": "kirlangic"
         },
@@ -577,7 +577,7 @@
       "tr": "Hava çok güzel! Kırlangıç, Rayan… gelin, gelin!",
       "who": "farzad",
       "do": "beckon",
-      "cam": "two",
+      "cam": "wide",
       "at": "ch:kirlangic"
     },
     {

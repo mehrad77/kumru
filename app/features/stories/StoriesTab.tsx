@@ -13,6 +13,7 @@ import { Icon } from "../../ui/Icon.tsx";
 import { toast } from "../../ui/toast.ts";
 import { personalizeStr } from "../onboarding/index.ts";
 import { openStory } from "./open.ts";
+import { warmStory } from "./warm.ts";
 import { launched, loadStories, loaded, nextStory, openStories, preview, readable, record, textIn, thumbBase, today, upcoming, type Story } from "./state.ts";
 import { Thumb } from "./Thumb.tsx";
 import { SEASON_LAUNCH } from "../../../shared/stories.ts";
@@ -120,6 +121,7 @@ export function StoriesTab() {
   const ready = loaded.value && (launched() || preview());
   const list = ready ? openStories() : [], next = ready ? nextStory() : null, soon = ready ? upcoming() : null;
   useEffect(() => { toNext(tab, next?.id ?? list[list.length - 1]?.id ?? null); });
+  useEffect(() => { if (tab === "stories" && next) warmStory(next.id); }, [tab, next?.id]);
   if (!loaded.value) { void loadStories(); return <div class="st-soon"><h1>Stories</h1><p class="hint">Loading…</p></div>; }
   if (!ready) return <Coming />;
   const H = helpLangs(), day = today();

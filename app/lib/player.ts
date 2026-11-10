@@ -33,19 +33,20 @@ export const learnerAvatar = (char: unknown) => normalize(char, baseKit, { trust
 
 /**
  * The voice of a story: each character's recorded lines (sahne-voice, the clips under the data manifest's `voices` base), the
- * device's Turkish voice for a line with none (the learner's own name in it, a story not recorded yet). Loaded before the
+ * device's Turkish voice for a line with none (a story not recorded yet). A line with the learner's name has its clip too: the clip
+ * leaves the name out, and is found under the personalised line. Loaded before the
  * story starts, so the first line does not race its clip.
  */
-export function storyVoice(story: string, voicesBase?: string): Promise<VoiceProvider> {
+export function storyVoice(story: string, voicesBase?: string, personalise?: (text: string) => string): Promise<VoiceProvider> {
   const fallback = browserVoice();
-  return voicesBase ? clipVoice({ base: `${voicesBase}${story}/`, lang: tr, fallback }) : Promise.resolve(fallback);
+  return voicesBase ? clipVoice({ base: `${voicesBase}${story}/`, lang: tr, fallback, personalise }) : Promise.resolve(fallback);
 }
 
 /**
- * The place's ambience, a quarter of the stage's default (0.3), about 12 dB down: the recorded voices (−18 LUFS) are quieter
- * than the device's, and a learner must hear every word over the wind and the street.
+ * Under the recorded voices (−18 LUFS, quieter than the device's) a learner must hear every word: the place's ambience at
+ * about an eighth of the stage's default (0.3 → 0.04), and the effects (Kerim's coo, steps, doors, bells) at half (0.8 → 0.4).
  */
-const VOLUMES = { ambience: 0.075 };
+const VOLUMES = { ambience: 0.04, fx: 0.4 };
 
 /** A mounted stage for a story, in log mode or theatre mode. */
 export function stageFor(host: HTMLElement, kit: Awaited<ReturnType<typeof kitFor>>, o: { theatre: boolean; gloss: GlossOptions; motion?: "full" | "calm" | "still"; sounds?: string; onContext?: (lost: boolean) => void; voice?: VoiceProvider }): Stage {

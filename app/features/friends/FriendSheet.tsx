@@ -9,6 +9,7 @@ import { Lazy } from "../../ui/Lazy.tsx";
 import { closeSheet, confirmSheet } from "../../ui/sheet.ts";
 import { cheer, follow, unfollow } from "./actions.ts";
 import { FR_CHEERS, frCheerWait, frLiveStreak, frRelTime } from "./model/friends.ts";
+import { frStoryLabel } from "./model/story.ts";
 import { Avatar, Ic } from "./parts.tsx";
 import type { SheetExtra } from "./sheet.ts";
 import { myBase, nameOf, names, profiles, relation, writable } from "./state.ts";
@@ -55,6 +56,7 @@ export function FriendSheet({ uid, extra }: { uid: string; extra: SheetExtra | n
         <div class="fr-meta">
           {p.pos && p.pos.lv ? <span class="pill fr-lv">{p.pos.lv}</span> : null}
           <span class="hint">{p.pos && p.pos.lv ? unitLabel(p.pos.lv, p.pos.u) : "Just started"}</span>
+          {frStoryLabel(p.storyAt) ? <span class="pill fr-ep">{frStoryLabel(p.storyAt)}</span> : null}
         </div>
       </div>
       <div class="fr-stats">

@@ -29,6 +29,9 @@ function validate(doc: unknown): ProfileDoc {
   if (d.cheers && (typeof d.cheers !== "object" || Object.keys(d.cheers).length > 200)) {
     throw new HttpError("invalid", "cheers has at most 200 entries.", { field: "cheers" });
   }
+  if (d.storyAt !== undefined && (typeof d.storyAt !== "string" || !/^s\d+e\d{2}$/.test(d.storyAt))) {
+    throw new HttpError("invalid", "storyAt is a story id like s1e12.", { field: "storyAt" });
+  }
   // a character the rules refuse is stored as none rather than refusing the save (shared/char.ts)
   return (charProblem(d.char) ? { ...d, char: null } : d) as ProfileDoc;
 }
