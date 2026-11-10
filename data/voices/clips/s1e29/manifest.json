@@ -1,0 +1,74 @@
+{
+ "story": "s1e29",
+ "lines": {
+  "kirlangic": {
+   "Maria Teyze için bir şal örüyorum. Örmek… işte bu!": {
+    "f": "3be4d177e9f46e.m4a",
+    "ms": 3813,
+    "sig": "bf9ad905d92d65"
+   },
+   "Hangi renk? Mor mu, turuncu mu?": {
+    "f": "490f95defbc258.m4a",
+    "ms": 3581,
+    "sig": "de492821d2d6c9"
+   },
+   "Doğru!": {
+    "f": "4d4b2745a07cf4.m4a",
+    "ms": 1765,
+    "sig": "09d5e7f0ffd734"
+   },
+   "Peki… ben seçiyorum.": {
+    "f": "9052ff5425609b.m4a",
+    "ms": 2619,
+    "sig": "2d8122fdc64189"
+   },
+   "Ama hediye senin için değil…": {
+    "f": "ba72af67822988.m4a",
+    "ms": 1749,
+    "sig": "0da48061980a3c"
+   },
+   "Tamam: son renk mor!": {
+    "f": "dcc8c63c5a72b5.m4a",
+    "ms": 1709,
+    "sig": "f1f8eec0bb1eab"
+   },
+   "Güzel! Sonra?": {
+    "f": "36cdbf09ed18c9.m4a",
+    "ms": 1336,
+    "sig": "aec20888232a7b"
+   },
+   "Mükemmel! Bu kart değil… bir mektup!": {
+    "f": "dcb1319cb0e546.m4a",
+    "ms": 2689,
+    "sig": "918b755a0f3e26"
+   },
+   "Çiçek ve kart… güzel bir hediye! Kartı Türkçe yaz!": {
+    "f": "18bd697b200899.m4a",
+    "ms": 4531,
+    "sig": "21e503dfb35d12"
+   }
+  },
+  "rayan": {
+   "Top! Top!": {
+    "f": "ca7f21df41cf0c.m4a",
+    "ms": 1553,
+    "sig": "71855522c8bbdc"
+   }
+  },
+  "kerim": {
+   "Şal hazır. Kart hazır. Yarın… seksen yaş!": {
+    "f": "c0eec96dff3f63.m4a",
+    "ms": 3645,
+    "sig": "2129af8ebe5323"
+   },
+   "Bu ev… yün! Her yerde yün!": {
+    "f": "d0f7c0a2d71e6b.m4a",
+    "ms": 3557,
+    "sig": "08f7bae4db08ae"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

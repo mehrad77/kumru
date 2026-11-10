@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new home, a new way",
     "fa": "خانه‌ی نو، راهِ نو",
+    "ru": "Новый дом, новый путь",
     "id": "s1w03",
     "mechanics": [
       "say",
@@ -26,6 +27,7 @@
     {
       "en": "Nima, what do you want to do?",
       "fa": "نیما، شما دلتون می‌خواد چی‌کار کنید؟",
+      "ru": "Нима, что вы хотите делать?",
       "to": "nima",
       "tr": "Nima, ne yapmak istiyorsunuz?",
       "who": "maria"
@@ -38,6 +40,7 @@
           {
             "en": "I want to go to the Bosphorus.",
             "fa": "می‌خوام برم کنارِ بسفر.",
+            "ru": "Я хочу поехать на Босфор.",
             "ok": true,
             "react": {
               "maria": {
@@ -49,6 +52,7 @@
               {
                 "en": "How lovely!",
                 "fa": "چه قشنگ!",
+                "ru": "Как чудесно!",
                 "tr": "Çok güzel!",
                 "who": "maria"
               }
@@ -59,6 +63,7 @@
           {
             "en": "I'm going to the Bosphorus.",
             "fa": "دارم می‌رم کنارِ بسفر.",
+            "ru": "Я еду на Босфор.",
             "react": {
               "maria": {
                 "emo": "surprised"
@@ -68,6 +73,7 @@
               {
                 "en": "Now? It's night!",
                 "fa": "الان؟ شبه!",
+                "ru": "Сейчас? Ночь же!",
                 "tr": "Şimdi mi? Gece!",
                 "who": "maria"
               }
@@ -82,6 +88,7 @@
     {
       "en": "Tea? How many glasses?",
       "fa": "چای؟ چند تا استکان؟",
+      "ru": "Чаю? Сколько стаканов?",
       "to": "nima",
       "tr": "Çay? Kaç bardak?",
       "who": "maria"
@@ -89,6 +96,7 @@
     {
       "en": "Two glasses, please!",
       "fa": "دو تا استکان، لطفاً!",
+      "ru": "Два стакана, пожалуйста!",
       "to": "maria",
       "tr": "İki bardak, lütfen!",
       "who": "nima"
@@ -96,6 +104,7 @@
     {
       "en": "Two glasses! Here you are.",
       "fa": "دو تا استکان! بفرمایید.",
+      "ru": "Два стакана! Угощайтесь.",
       "to": "nima",
       "tr": "İki bardak! Buyurun.",
       "who": "maria"
@@ -104,98 +113,122 @@
   "gl": {
     "afiyet": {
       "fa": "نوش (Afiyet olsun: نوشِ جان)",
+      "ru": "(Afiyet olsun: приятного аппетита)",
       "en": "(Afiyet olsun: enjoy your meal)"
     },
     "beşiktaş": {
       "fa": "بشیکتاش (تیمِ فوتبال)",
+      "ru": "«Бешикташ» (футбольный клуб)",
       "en": "Beşiktaş (the football club)"
     },
     "boğaz": {
       "fa": "بسفر",
+      "ru": "Босфор",
       "en": "the Bosphorus"
     },
     "buyurun": {
       "fa": "بفرمایید",
+      "ru": "пожалуйста, вот (предлагая)",
       "en": "here you are; please (offering)"
     },
     "ediyorum": {
       "fa": "می‌کنم (yardım ediyorum: کمک می‌کنم)",
+      "ru": "делаю (yardım ediyorum: помогаю)",
       "en": "I do (yardım ediyorum: I'm helping)"
     },
     "ellerine": {
       "fa": "(Ellerine sağlık: دستت درد نکنه)",
+      "ru": "(Ellerine sağlık: спасибо, очень вкусно — тому, кто готовил; на «ты»)",
       "en": "(Ellerine sağlık: bless your hands, said to a cook; sen)"
     },
     "ellerinize": {
       "fa": "(Ellerinize sağlık: دستتون درد نکنه)",
+      "ru": "(Ellerinize sağlık: спасибо, очень вкусно — тому, кто готовил; на «вы»)",
       "en": "(Ellerinize sağlık: bless your hands, said to a cook; siz)"
     },
     "evi": {
       "fa": "خانه‌اش (Kerim'in evi: خانه‌ی کریم)",
+      "ru": "дом (Kerim'in evi: дом Керим)",
       "en": "home (Kerim'in evi: Kerim's home)"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a district of Şişli)"
     },
     "kurabiye": {
       "fa": "شیرینیِ خانگی؛ کلوچه",
+      "ru": "печенье; домашнее печенье",
       "en": "biscuit; homemade cookie"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
+      "ru": "Кырлангыч (имя; также слово «ласточка»)",
       "en": "Kırlangıç (a name; also the word for swallow)"
     },
     "nihayet": {
       "fa": "بالاخره",
+      "ru": "наконец",
       "en": "at last"
     },
     "olsun": {
       "fa": "باشد (Afiyet olsun: نوشِ جان)",
+      "ru": "пусть будет (Afiyet olsun: приятного аппетита)",
       "en": "may it be (Afiyet olsun: enjoy)"
     },
     "sandalyeler": {
       "fa": "صندلی‌ها",
+      "ru": "стулья",
       "en": "chairs"
     },
     "sağlık": {
       "fa": "سلامتی (Ellerinize sağlık: دستتون درد نکنه)",
+      "ru": "здоровье (Ellerinize sağlık: спасибо, очень вкусно)",
       "en": "health (Ellerinize sağlık: bless your hands)"
     },
     "sizinle": {
       "fa": "با شما",
+      "ru": "с вами",
       "en": "with you"
     },
     "yavrum": {
       "fa": "عزیزم؛ بچه‌جان",
+      "ru": "деточка (младшему)",
       "en": "my dear (to someone younger)"
     },
     "yeter": {
       "fa": "بس است؛ کافی است",
+      "ru": "хватит",
       "en": "that's enough"
     },
     "yâ": {
       "fa": "(Yâ Kerim: اسمِ عامیانه‌ی قمری، از صدای بقبقویش)",
+      "ru": "(Yâ Kerim: народное имя кольчатой горлицы, по её воркованию)",
       "en": "(Yâ Kerim: the folk name of the collared dove, from its coo)"
     },
     "çatı": {
       "fa": "پشت‌بام",
+      "ru": "крыша",
       "en": "roof"
     },
     "çatıda": {
       "fa": "روی پشت‌بام",
+      "ru": "на крыше",
       "en": "on the roof"
     },
     "çatıya": {
       "fa": "به پشت‌بام",
+      "ru": "на крышу",
       "en": "to the roof"
     },
     "üçüncü": {
       "fa": "سوم",
+      "ru": "третий",
       "en": "third"
     },
     "şşş": {
       "fa": "هیس!",
+      "ru": "тсс!",
       "en": "shh!"
     }
   },
@@ -344,7 +377,8 @@
       "q": {
         "tr": "Nima nerede çay içmek istiyor?",
         "en": "Where does Nima want to drink tea?",
-        "fa": "نیما کجا می‌خواهد چای بخورد؟"
+        "fa": "نیما کجا می‌خواهد چای بخورد؟",
+        "ru": "Где Нима хочет пить чай?"
       },
       "why": "Nima: “Ben Boğaz'da çay içmek istiyorum!”"
     }
@@ -374,6 +408,7 @@
       "cam": "wide",
       "en": "Good evening! This roof… is Kerim's home. But today… everyone's here!",
       "fa": "عصر بخیر! این پشت‌بوم… خونه‌ی کریمه. ولی امروز… همه این‌جان!",
+      "ru": "Добрый вечер! Эта крыша… дом Керим. Но сегодня… здесь все!",
       "narr": true,
       "tr": "İyi akşamlar! Bu çatı… Kerim'in evi. Ama bugün… herkes burada!",
       "who": "kerim"
@@ -384,6 +419,7 @@
       "emo": "proud",
       "en": "The third key! Up to the roof we go. Come on in!",
       "fa": "کلیدِ سوم! داریم می‌ریم پشت‌بوم. بفرمایین!",
+      "ru": "Третий ключ! Поднимаемся на крышу. Проходите!",
       "link": {
         "anahtar": "obj:anahtar"
       },
@@ -415,6 +451,7 @@
       "emo": "surprised",
       "en": "A bird! There's a bird here!",
       "fa": "پرنده! یه پرنده این‌جاست!",
+      "ru": "Птица! Здесь птица!",
       "link": {
         "kuş": "ch:kerim"
       },
@@ -429,10 +466,11 @@
     },
     {
       "emo": "annoyed",
-      "en": "Not “a bird”. Kerim!",
-      "fa": "پرنده نه. کریم!",
+      "en": "I'm not “a bird”, I'm Kerim!",
+      "fa": "پرنده نیستم، من کریمم!",
+      "ru": "Я не «птица», я Керим!",
       "narr": true,
-      "tr": "Kuş değil. Kerim!",
+      "tr": "Kuş değilim, ben Kerim!",
       "who": "kerim"
     },
     {
@@ -441,6 +479,7 @@
       "emo": "happy",
       "en": "Here comes the tea! The teapot's hot!",
       "fa": "چای داره میاد! قوری داغه!",
+      "ru": "А вот и чай! Чайник горячий!",
       "link": {
         "çay": "obj:caydanlik",
         "çaydanlık": "obj:caydanlik"
@@ -471,6 +510,7 @@
       "emo": "tired",
       "en": "And here come the chairs! I'm helping too!",
       "fa": "صندلی‌ها هم دارن میان! منم کمک می‌کنم!",
+      "ru": "А вот и стулья! Я тоже помогаю!",
       "link": {
         "sandalyeler": "obj:sandalyeler"
       },
@@ -510,6 +550,7 @@
       "emo": "happy",
       "en": "What lovely weather! Kırlangıç, Rayan… come on in!",
       "fa": "هوا عالیه! پرستو، رایان… بیاین، بیاین!",
+      "ru": "Какая чудесная погода! Кырлангыч, Райан… идите сюда, идите!",
       "move": [
         {
           "how": "enter",
@@ -544,6 +585,7 @@
       "emo": "neutral",
       "en": "Shh… Elif's asleep. She works nights.",
       "fa": "هیس… الیف خوابه. شب‌ها کار می‌کنه.",
+      "ru": "Тсс… Элиф спит. Она работает по ночам.",
       "react": {
         "farzad": "laugh",
         "nima": {
@@ -560,6 +602,7 @@
       "emo": "happy",
       "en": "Here you are, tea! There are biscuits too.",
       "fa": "بفرمایین، چای! شیرینی هم هست.",
+      "ru": "Угощайтесь, чай! И печенье есть.",
       "link": {
         "kurabiye": "obj:kurabiye",
         "çay": "obj:bardaklar"
@@ -596,6 +639,7 @@
             "emo": "happy",
             "en": "Bless your hands!",
             "fa": "دستتون درد نکنه!",
+            "ru": "Спасибо вам, очень вкусно!",
             "ok": true,
             "react": {
               "maria": {
@@ -608,6 +652,7 @@
                 "emo": "happy",
                 "en": "Enjoy, dear!",
                 "fa": "نوشِ جان، عزیزم!",
+                "ru": "Приятного аппетита, деточка!",
                 "to": "nima",
                 "tr": "Afiyet olsun, yavrum!",
                 "who": "maria"
@@ -621,6 +666,7 @@
             "emo": "happy",
             "en": "Bless your hands! (sen)",
             "fa": "دستت درد نکنه!",
+            "ru": "Спасибо тебе, очень вкусно!",
             "react": {
               "kirlangic": {
                 "emo": "laugh"
@@ -631,6 +677,7 @@
                 "emo": "laugh",
                 "en": "…Ellerinize! (the siz form)",
                 "fa": "…«دستتون درد نکنه»!",
+                "ru": "…«Ellerinize»! С ней на «вы»!",
                 "to": "nima",
                 "tr": "…Ellerinize!",
                 "voice": "whisper",
@@ -640,6 +687,7 @@
                 "emo": "happy",
                 "en": "Enjoy!",
                 "fa": "نوشِ جان!",
+                "ru": "Приятного аппетита!",
                 "to": "nima",
                 "tr": "Afiyet olsun!",
                 "who": "maria"
@@ -652,6 +700,7 @@
             "emo": "neutral",
             "en": "Nice.",
             "fa": "خوبه.",
+            "ru": "Вкусно.",
             "react": {
               "maria": {
                 "emo": "neutral"
@@ -662,6 +711,7 @@
                 "emo": "curious",
                 "en": "Just “nice”?",
                 "fa": "فقط خوبه؟",
+                "ru": "Просто «вкусно»?",
                 "to": "nima",
                 "tr": "Sadece güzel mi?",
                 "who": "maria"
@@ -670,6 +720,7 @@
                 "emo": "happy",
                 "en": "Very nice!",
                 "fa": "خیلی خوبه!",
+                "ru": "Очень вкусно!",
                 "to": "maria",
                 "tr": "Çok güzel!",
                 "who": "omer"
@@ -688,6 +739,7 @@
       "emo": "proud",
       "en": "That's enough for me! Look… the spoon!",
       "fa": "من دیگه بسمه! ببین… قاشق!",
+      "ru": "Мне хватит! Смотри… ложечка!",
       "link": {
         "kaşık": "obj:omerin_kasigi"
       },
@@ -710,10 +762,11 @@
     {
       "do": "explain",
       "emo": "curious",
-      "en": "What do you all want to do?",
-      "fa": "شما دلتون می‌خواد چی‌کار کنین؟",
+      "en": "So, what do you all want to do?",
+      "fa": "خب، شما دلتون می‌خواد چی‌کار کنین؟",
+      "ru": "Ну, а чего вы все хотите?",
       "to": "all",
-      "tr": "Ne yapmak istiyorsunuz?",
+      "tr": "Peki, ne yapmak istiyorsunuz?",
       "who": "maria"
     },
     {
@@ -721,6 +774,7 @@
       "emo": "proud",
       "en": "I want to be a police officer!",
       "fa": "من می‌خوام پلیس بشم!",
+      "ru": "Я хочу стать полицейским!",
       "to": "maria",
       "tr": "Ben polis olmak istiyorum!",
       "who": "omer"
@@ -730,6 +784,7 @@
       "emo": "happy",
       "en": "Me, Beşiktaş…",
       "fa": "من، بشیکتاش رو…",
+      "ru": "А я «Бешикташ»…",
       "to": "all",
       "tr": "Ben Beşiktaş'ı…",
       "who": "serkan"
@@ -740,6 +795,7 @@
       "emo": "laugh",
       "en": "…wants to watch them! Matches, always!",
       "fa": "…می‌خواد تماشا کنه! همه‌ش بازی!",
+      "ru": "…хочет смотреть! Вечно футбол!",
       "react": {
         "farzad": "laugh",
         "serkan": "laugh"
@@ -753,6 +809,7 @@
       "emo": "moved",
       "en": "Me… I want to live right here, always. In Feriköy.",
       "fa": "من… می‌خوام همیشه همین‌جا بمونم. تو فری‌کؤی.",
+      "ru": "А я… хочу всегда жить здесь. В Ферикёе.",
       "to": "all",
       "tr": "Ben… hep burada oturmak istiyorum. Feriköy'de.",
       "who": "maria"
@@ -762,6 +819,7 @@
       "emo": "happy",
       "en": "I want to drink tea on the Bosphorus!",
       "fa": "من می‌خوام کنار بسفر چای بخورم!",
+      "ru": "А я хочу пить чай на Босфоре!",
       "to": "all",
       "tr": "Ben Boğaz'da çay içmek istiyorum!",
       "who": "nima"
@@ -772,6 +830,7 @@
       "emo": "laugh",
       "en": "Why? The tea's right here!",
       "fa": "چرا؟ چای که این‌جاست!",
+      "ru": "Зачем? Чай вот он, здесь!",
       "link": {
         "çay": "obj:bardaklar"
       },
@@ -803,6 +862,7 @@
       "emo": "surprised",
       "en": "The bird's singing!",
       "fa": "پرنده داره آواز می‌خونه!",
+      "ru": "Птица поёт!",
       "link": {
         "kuş": "ch:kerim"
       },
@@ -816,6 +876,7 @@
       "emo": "moved",
       "en": "Listen… “Yâ Kerim… yâ Kerim…” This bird always says “Yâ Kerim”. That's… Kerim!",
       "fa": "گوش کنین… «یا کریم… یا کریم…» این پرنده همیشه می‌گه «یا کریم». اون… کریمه!",
+      "ru": "Послушайте… «Yâ Kerim… yâ Kerim…» Эта птица всегда говорит «Yâ Kerim». Она… Керим!",
       "react": {
         "nima": "surprised",
         "omer": "surprised"
@@ -828,6 +889,7 @@
       "emo": "laugh",
       "en": "Kerim! Kerim!",
       "fa": "کریم! کریم!",
+      "ru": "Керим! Керим!",
       "to": "all",
       "tr": "Kerim! Kerim!",
       "who": "omer"
@@ -838,6 +900,7 @@
       "emo": "happy",
       "en": "Hello, Kerim!",
       "fa": "سلام، کریم!",
+      "ru": "Привет, Керим!",
       "to": "kerim",
       "tr": "Merhaba, Kerim!",
       "who": "nima"
@@ -846,6 +909,7 @@
       "emo": "happy",
       "en": "Yes! Kerim! At last!",
       "fa": "آره! کریم! بالاخره!",
+      "ru": "Да! Керим! Наконец-то!",
       "narr": true,
       "tr": "Evet! Kerim! Nihayet!",
       "who": "kerim"
@@ -856,6 +920,7 @@
       "emo": "curious",
       "en": "What do you want to do?",
       "fa": "تو می‌خوای چی‌کار کنی؟",
+      "ru": "А ты что хочешь делать?",
       "to": "kerim",
       "tr": "Sen ne yapmak istiyorsun?",
       "who": "omer"
@@ -864,6 +929,7 @@
       "emo": "happy",
       "en": "Me? I want to sit right here. On the roof. With you.",
       "fa": "من؟ می‌خوام همین‌جا بشینم. روی پشت‌بوم. با شما.",
+      "ru": "Я? Хочу сидеть прямо здесь. На крыше. С вами.",
       "narr": true,
       "tr": "Ben? Burada oturmak istiyorum. Çatıda. Sizinle.",
       "who": "kerim"
@@ -873,6 +939,7 @@
         "en": "Everyone's wish has the same shape: the verb with -mAk, then istiyorum. Polis olmak, Beşiktaş'ı izlemek, burada oturmak, Boğaz'da çay içmek… istiyorum. And to ask: Ne yapmak istiyorsun? What do you want to do?",
         "ex": "Ben polis olmak istiyorum!",
         "fa": "آرزوی همه یک شکل دارد: فعل با ‎-mAk، بعد istiyorum. Polis olmak، Beşiktaş'ı izlemek، burada oturmak، Boğaz'da çay içmek… istiyorum (می‌خواهم پلیس شوم، بشیکتاش را تماشا کنم، همین‌جا زندگی کنم، کنارِ بسفر چای بنوشم). و برای پرسیدن: Ne yapmak istiyorsun? می‌خواهی چه کار کنی؟",
+        "ru": "У всех желаний одна форма: глагол на -mAk, потом istiyorum. Polis olmak, Beşiktaş'ı izlemek, burada oturmak, Boğaz'da çay içmek… istiyorum. А чтобы спросить: Ne yapmak istiyorsun? Что ты хочешь делать?",
         "lesson": "g_a1_3_mak_istemek"
       }
     },
@@ -880,6 +947,7 @@
       "emo": "happy",
       "en": "One more glass, dear?",
       "fa": "یه استکانِ دیگه، عزیزم؟",
+      "ru": "Ещё стаканчик, деточка?",
       "link": {
         "bardak": "obj:bardaklar"
       },
@@ -897,6 +965,7 @@
             "emo": "happy",
             "en": "Thank you, that's enough.",
             "fa": "ممنون، کافیه.",
+            "ru": "Спасибо, мне хватит.",
             "obj": [
               {
                 "id": "kasik",
@@ -916,6 +985,7 @@
                 "emo": "happy",
                 "en": "All right, dear.",
                 "fa": "باشه، عزیزم.",
+                "ru": "Хорошо, деточка.",
                 "to": "nima",
                 "tr": "Tamam, yavrum.",
                 "who": "maria"
@@ -929,6 +999,7 @@
             "emo": "happy",
             "en": "Yes, please!",
             "fa": "بله، لطفاً!",
+            "ru": "Да, пожалуйста!",
             "react": {
               "maria": {
                 "emo": "happy"
@@ -956,6 +1027,7 @@
               {
                 "en": "Three… four… five!",
                 "fa": "سه… چهار… پنج!",
+                "ru": "Три… четыре… пять!",
                 "narr": true,
                 "tr": "Üç… dört… beş!",
                 "who": "kerim"
@@ -966,6 +1038,7 @@
                 "emo": "laugh",
                 "en": "The spoon, Nima! The spoon!",
                 "fa": "قاشق، نیما! قاشق!",
+                "ru": "Ложечку, Нима! Ложечку!",
                 "link": {
                   "kaşık": "obj:omerin_kasigi"
                 },
@@ -982,6 +1055,7 @@
             "emo": "neutral",
             "en": "No!",
             "fa": "نه!",
+            "ru": "Нет!",
             "react": {
               "maria": {
                 "emo": "surprised"
@@ -997,6 +1071,7 @@
                 "emo": "sorry",
                 "en": "…Very well.",
                 "fa": "…باشه.",
+                "ru": "…Ну что ж.",
                 "to": "nima",
                 "tr": "…Peki.",
                 "who": "maria"
@@ -1042,6 +1117,7 @@
       "cam": "wide",
       "en": "Stars… Feriköy… and neighbours.",
       "fa": "ستاره‌ها… فری‌کؤی… و همسایه‌ها.",
+      "ru": "Звёзды… Ферикёй… и соседи.",
       "narr": true,
       "tr": "Yıldızlar… Feriköy… ve komşular.",
       "who": "kerim"
@@ -1049,12 +1125,14 @@
   ],
   "summary": {
     "en": "Maria Teyze's tea grows into a gathering on the roof at sunset: the neighbours and Nima's friends share tea and their wishes, and Maria Teyze hears the coo and names the bird: Kerim.",
-    "fa": "چایِ خاله ماریا غروب روی پشت‌بام به یک دورهمی تبدیل می‌شود: همسایه‌ها و دوستانِ نیما چای می‌نوشند و آرزوهایشان را می‌گویند، و خاله ماریا صدای بق‌بقوی پرنده را می‌شنود و اسمش را می‌گذارد: کریم."
+    "fa": "چایِ خاله ماریا غروب روی پشت‌بام به یک دورهمی تبدیل می‌شود: همسایه‌ها و دوستانِ نیما چای می‌نوشند و آرزوهایشان را می‌گویند، و خاله ماریا صدای بق‌بقوی پرنده را می‌شنود و اسمش را می‌گذارد: کریم.",
+    "ru": "Чаепитие у тёти Марии превращается в посиделки на крыше на закате: соседи и друзья Нимы пьют чай и делятся желаниями, а тётя Мария слышит воркование и называет птицу: Керим."
   },
   "title": {
     "tr": "Çatıda çay",
     "en": "Tea on the roof",
-    "fa": "چای روی پشت‌بام"
+    "fa": "چای روی پشت‌بام",
+    "ru": "Чай на крыше"
   },
   "words": [
     "a1-w-olmak",

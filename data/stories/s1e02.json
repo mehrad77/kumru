@@ -2,6 +2,7 @@
   "arc": {
     "en": "Welcome!",
     "fa": "خوش آمدی!",
+    "ru": "Добро пожаловать!",
     "id": "s1w01",
     "mechanics": [
       "say",
@@ -19,6 +20,7 @@
     {
       "en": "Your name?",
       "fa": "اسمتون؟",
+      "ru": "Ваше имя?",
       "to": "nima",
       "tr": "Adınız ne?",
       "who": "reza"
@@ -26,6 +28,7 @@
     {
       "en": "My name is Nima.",
       "fa": "اسمم نیماست.",
+      "ru": "Меня зовут Нима.",
       "to": "reza",
       "tr": "Benim adım Nima.",
       "who": "nima"
@@ -33,6 +36,7 @@
     {
       "en": "Where are you from?",
       "fa": "اهلِ کجا هستید؟",
+      "ru": "Откуда вы?",
       "to": "nima",
       "tr": "Nerelisiniz?",
       "who": "reza"
@@ -45,6 +49,7 @@
           {
             "en": "I'm from Tehran.",
             "fa": "اهلِ تهرانم.",
+            "ru": "Я из Тегерана.",
             "ok": true,
             "react": {
               "reza": {
@@ -56,6 +61,7 @@
               {
                 "en": "OK. Thank you.",
                 "fa": "باشه. ممنون.",
+                "ru": "Хорошо. Спасибо.",
                 "to": "nima",
                 "tr": "Tamam. Teşekkür ederim.",
                 "who": "reza"
@@ -67,6 +73,7 @@
           {
             "en": "Nima.",
             "fa": "نیما.",
+            "ru": "Нима.",
             "react": {
               "reza": "confused"
             },
@@ -74,6 +81,7 @@
               {
                 "en": "No, no… The passport says Tehran. OK!",
                 "fa": "نه، نه… پاسپورت: تهران. باشه!",
+                "ru": "Нет, нет… В паспорте: Тегеран. Хорошо!",
                 "to": "nima",
                 "tr": "Hayır, hayır… Pasaport: Tahran. Tamam!",
                 "who": "reza"
@@ -90,70 +98,87 @@
   "gl": {
     "a": {
       "fa": "حرفِ A",
+      "ru": "буква A",
       "en": "the letter A"
     },
     "adınız": {
       "fa": "اسمِ شما",
+      "ru": "ваше имя (вежливо)",
       "en": "your name (polite)"
     },
     "beykent": {
       "fa": "بیکنت (نامِ دانشگاه)",
+      "ru": "Бейкент (название университета)",
       "en": "Beykent (the university's name)"
     },
     "da": {
       "fa": "هم",
+      "ru": "тоже, и",
       "en": "too, also"
     },
     "fotoğraflar": {
       "fa": "عکس‌ها",
+      "ru": "фотографии",
       "en": "photos"
     },
     "hadi": {
       "fa": "بریم!؛ زود باش!",
+      "ru": "давай!; пойдём!",
       "en": "come on!; let's go!"
     },
     "iranlıyım": {
       "fa": "ایرانی‌ام",
+      "ru": "я из Ирана",
       "en": "I'm from Iran"
     },
     "istanbullu": {
       "fa": "استانبولی، اهلِ استانبول",
+      "ru": "из Стамбула, стамбулец (İstanbullu)",
       "en": "from Istanbul (İstanbullu)"
     },
     "iyilik": {
       "fa": "خوبی؛ (جوابِ «چه خبر؟») سلامتی",
+      "ru": "добро; (ответ на «Ne haber?») всё хорошо",
       "en": "goodness; (answer to “Ne haber?”) all good"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means “swallow”)"
     },
     "nerelisiniz": {
       "fa": "اهلِ کجا هستید؟",
+      "ru": "откуда вы? (вежливо)",
       "en": "where are you from? (polite)"
     },
     "numaralar": {
       "fa": "شماره‌ها",
+      "ru": "номера",
       "en": "numbers"
     },
     "tömer": {
       "fa": "تومر (مرکزِ آموزشِ زبانِ ترکی)",
+      "ru": "ТЁМЕР (центр турецкого языка при университете)",
       "en": "TÖMER (the university's Turkish language centre)"
     },
     "özbekistanlı": {
       "fa": "اهلِ ازبکستان",
+      "ru": "из Узбекистана",
       "en": "from Uzbekistan"
     },
     "özbekistanlıyım": {
       "fa": "اهلِ ازبکستانم",
+      "ru": "я из Узбекистана",
       "en": "I'm from Uzbekistan"
     },
     "bak": {
       "fa": "ببین",
+      "ru": "смотри",
       "en": "look"
     },
     "dilnaza": {
       "fa": "اشتباهِ آقای رضا؛ درستش: Dilnoza",
+      "ru": "оговорка господина Резы; правильно — Дилноза",
       "en": "Reza Bey's slip; it is Dilnoza"
     }
   },
@@ -251,7 +276,8 @@
       "q": {
         "tr": "Dilnoza nereli?",
         "en": "Where is Dilnoza from?",
-        "fa": "دلنوزا اهلِ کجاست؟"
+        "fa": "دلنوزا اهلِ کجاست؟",
+        "ru": "Откуда Дилноза?"
       },
       "why": "Dilnoza: “Benim adım Dilnoza. Özbekistanlıyım. Memnun oldum!”"
     },
@@ -266,7 +292,8 @@
       "q": {
         "tr": "“Altı!” “Yedi!” Bunlar ne?",
         "en": "“Six!” “Seven!” What are these?",
-        "fa": "«Altı!» «Yedi!» این‌ها چه هستند؟"
+        "fa": "«Altı!» «Yedi!» این‌ها چه هستند؟",
+        "ru": "«Altı!» «Yedi!» Что это?"
       },
       "why": "Reza Bey: “Bir numara alın, lütfen.”"
     }
@@ -289,6 +316,7 @@
       "cam": "wide",
       "en": "This is Taksim. This is Beykent University.",
       "fa": "این‌جا تقسیمه. این‌جا دانشگاهِ بیکنته.",
+      "ru": "Это Таксим. Это университет Бейкент.",
       "link": {
         "üniversitesi": "obj:campus_sign"
       },
@@ -325,6 +353,7 @@
       "tr": "Merhaba! Yeni öğrenci mi?",
       "en": "Hi! Are you new here?",
       "fa": "سلام! دانشجوی جدیدی؟",
+      "ru": "Привет! Ты из новых студентов?",
       "to": "nima",
       "emo": "happy",
       "do": "wave"
@@ -334,6 +363,7 @@
       "tr": "Evet… Ben Nima. Burası TÖMER mi?",
       "en": "Yes… I'm Nima. Is this TÖMER?",
       "fa": "آره… من نیمام. این‌جا تومره؟",
+      "ru": "Да… Я Нима. Это ТЁМЕР?",
       "to": "kirlangic",
       "emo": "shy",
       "link": {
@@ -343,19 +373,18 @@
     {
       "do": "welcome",
       "emo": "happy",
-      "en": "Yes, this is TOMER. I'm Kırlangıç. Welcome! Where are you from?",
-      "fa": "آره، این‌جا تومره. من پرستوام. خوش اومدی! اهلِ کجایی؟",
-      "link": {
-        "tömer": "obj:levha"
-      },
+      "en": "Yes! I'm Kırlangıç. Welcome! Where are you from?",
+      "fa": "آره! من پرستوام. خوش اومدی! اهلِ کجایی؟",
+      "ru": "Да! Я Кырлангыч. Добро пожаловать! Ты откуда?",
       "to": "nima",
-      "tr": "Evet, burası TÖMER. Ben Kırlangıç. Hoş geldin! Nerelisin?",
+      "tr": "Evet! Ben Kırlangıç. Hoş geldin! Nerelisin?",
       "who": "kirlangic"
     },
     {
       "emo": "happy",
       "en": "I'm from Tehran.",
       "fa": "اهلِ تهرانم.",
+      "ru": "Я из Тегерана.",
       "to": "kirlangic",
       "tr": "Tahranlıyım.",
       "who": "nima"
@@ -366,6 +395,7 @@
       "emo": "happy",
       "en": "Tehran! I'm from Iran. Look… that's Reza Bey. Come on!",
       "fa": "تهران! من ایرانی‌ام. ببین… اون آقای رضاست. بریم!",
+      "ru": "Из Тегерана! Я из Ирана. Смотри… это господин Реза. Давай!",
       "move": {
         "from": "door",
         "how": "enter",
@@ -397,6 +427,7 @@
       "emo": "neutral",
       "en": "Take a number, please.",
       "fa": "لطفاً یه شماره بگیرید.",
+      "ru": "Возьмите номерок, пожалуйста.",
       "move": [
         {
           "how": "enter",
@@ -428,6 +459,7 @@
       "emo": "happy",
       "en": "Hi! What's your name?",
       "fa": "سلام! اسمت چیه؟",
+      "ru": "Привет! Как тебя зовут?",
       "move": {
         "how": "walk",
         "to": "queue_2",
@@ -442,6 +474,7 @@
       "emo": "shy",
       "en": "My name is Dilnoza. I'm from Uzbekistan. Nice to meet you!",
       "fa": "اسمم دلنوزاست. اهلِ ازبکستانم. خوشبختم!",
+      "ru": "Меня зовут Дилноза. Я из Узбекистана. Очень приятно!",
       "on": "memnun",
       "to": "nima",
       "tr": "Benim adım Dilnoza. Özbekistanlıyım. Memnun oldum!",
@@ -451,6 +484,7 @@
       "emo": "neutral",
       "en": "Six! Your name?",
       "fa": "شش! اسمتون؟",
+      "ru": "Шесть! Ваше имя?",
       "move": {
         "how": "walk",
         "to": "front",
@@ -467,6 +501,7 @@
     {
       "en": "Dilnoza.",
       "fa": "دلنوزا.",
+      "ru": "Дилноза.",
       "obj": [
         {
           "id": "form",
@@ -490,6 +525,7 @@
       "emo": "confused",
       "en": "Dilnaza? A or O?",
       "fa": "دلنازا؟ A یا O؟",
+      "ru": "Дилназа? Через А или через О?",
       "to": "dilnoza",
       "tr": "Dilnaza? A mı, O mu?",
       "who": "reza"
@@ -499,6 +535,7 @@
       "emo": "surprised",
       "en": "No, no! O!",
       "fa": "نه، نه! O!",
+      "ru": "Нет, нет! Через О!",
       "to": "reza",
       "tr": "Hayır, hayır! O!",
       "who": "dilnoza"
@@ -523,6 +560,7 @@
       "emo": "neutral",
       "en": "Seven!",
       "fa": "هفت!",
+      "ru": "Семь!",
       "move": [
         {
           "how": "walk",
@@ -552,6 +590,7 @@
             "emo": "happy",
             "en": "Good morning, how are you?",
             "fa": "صبح بخیر، حالتون چطوره؟",
+            "ru": "Доброе утро, как поживаете?",
             "obj": [
               {
                 "id": "pasaport",
@@ -571,6 +610,7 @@
                 "emo": "happy",
                 "en": "I'm well, thank you. Go ahead.",
                 "fa": "خوبم، ممنون. بفرمایید.",
+                "ru": "Хорошо, спасибо. Слушаю вас.",
                 "to": "nima",
                 "tr": "İyiyim, teşekkür ederim. Buyurun.",
                 "who": "reza"
@@ -585,6 +625,7 @@
             "emo": "happy",
             "en": "Hi, how's it going?",
             "fa": "سلام، چطوری؟",
+            "ru": "Привет, как ты?",
             "obj": [
               {
                 "id": "pasaport",
@@ -608,6 +649,7 @@
                 "emo": "nervous",
                 "en": "Say “siz”!",
                 "fa": "بگو «شما»!",
+                "ru": "На «вы»!",
                 "to": "nima",
                 "tr": "Siz!",
                 "voice": "whisper",
@@ -617,6 +659,7 @@
                 "emo": "neutral",
                 "en": "…I'm well, thank you. Go ahead.",
                 "fa": "…خوبم، ممنون. بفرمایید.",
+                "ru": "…Хорошо, спасибо. Слушаю вас.",
                 "to": "nima",
                 "tr": "…İyiyim, teşekkür ederim. Buyurun.",
                 "who": "reza"
@@ -630,6 +673,7 @@
             "emo": "happy",
             "en": "What's up?",
             "fa": "چه خبر؟",
+            "ru": "Как жизнь?",
             "obj": [
               {
                 "id": "pasaport",
@@ -649,6 +693,7 @@
                 "emo": "neutral",
                 "en": "…All good. Go ahead.",
                 "fa": "…سلامتی. بفرمایید.",
+                "ru": "…Всё хорошо. Слушаю вас.",
                 "to": "nima",
                 "tr": "…İyilik. Buyurun.",
                 "who": "reza"
@@ -668,6 +713,7 @@
       "emo": "neutral",
       "en": "Is this the passport?",
       "fa": "این پاسپورته؟",
+      "ru": "Это паспорт?",
       "link": {
         "pasaport": "obj:pasaport"
       },
@@ -681,6 +727,7 @@
       "emo": "happy",
       "en": "Yes. And these are the photos.",
       "fa": "بله. اینا هم عکس‌ها.",
+      "ru": "Да. А это фотографии.",
       "link": {
         "fotoğraflar": "obj:fotograflar"
       },
@@ -700,6 +747,7 @@
       "emo": "happy",
       "en": "One, two, three, four. OK!",
       "fa": "یک، دو، سه، چهار. درسته!",
+      "ru": "Раз, два, три, четыре. Хорошо!",
       "n": 4,
       "to": "nima",
       "tr": "Bir, iki, üç, dört. Tamam!",
@@ -723,12 +771,14 @@
         "en": "mi makes a question: “Bu pasaport mu?” Is this the passport? Its vowel follows the last vowel of the word before it: e, i → mi (TÖMER mi?), a, ı → mı (A mı?), o, u → mu (pasaport mu? O mu?), ö, ü → mü.",
         "ex": "Bu pasaport mu?",
         "fa": "mi جمله را سؤالی می‌کند: «Bu pasaport mu?» یعنی «این پاسپورت است؟». حرفِ صدادارش از آخرین حرفِ صدادارِ کلمه‌ی قبل پیروی می‌کند: بعد از e و i ← mi (TÖMER mi?)، بعد از a و ı ← mı (A mı?)، بعد از o و u ← mu (pasaport mu? O mu?)، بعد از ö و ü ← mü.",
+        "ru": "mi делает вопрос: «Bu pasaport mu?» Это паспорт? Его гласная повторяет последнюю гласную слова перед ним: e, i → mi (TÖMER mi?), a, ı → mı (A mı?), o, u → mu (pasaport mu? O mu?), ö, ü → mü.",
         "lesson": "g_a1_1_soru"
       }
     },
     {
       "en": "Two new students.",
       "fa": "دو تا دانشجوی جدید.",
+      "ru": "Двое новеньких.",
       "move": {
         "how": "exit",
         "to": "door",
@@ -742,12 +792,14 @@
   ],
   "summary": {
     "en": "Nima has to register at TÖMER. Kırlangıç, knitting on the steps, sends Nima to Reza Bey's office, where Nima meets Dilnoza in the queue.",
-    "fa": "نیما باید در تومر ثبت‌نام کند. پرستو که روی پله‌ها بافتنی می‌بافد، نیما را به دفترِ آقای رضا می‌فرستد و آن‌جا نیما در صف با دلنوزا آشنا می‌شود."
+    "fa": "نیما باید در تومر ثبت‌نام کند. پرستو که روی پله‌ها بافتنی می‌بافد، نیما را به دفترِ آقای رضا می‌فرستد و آن‌جا نیما در صف با دلنوزا آشنا می‌شود.",
+    "ru": "Ниме нужно записаться в ТЁМЕР. Кырлангыч, которая вяжет на ступеньках, отправляет Ниму в кабинет господина Резы, и там, в очереди, Нима знакомится с Дилнозой."
   },
   "title": {
     "tr": "Kayıt günü",
     "en": "Registration day",
-    "fa": "روزِ ثبت‌نام"
+    "fa": "روزِ ثبت‌نام",
+    "ru": "День записи"
   },
   "words": [
     "a1-w-numara",

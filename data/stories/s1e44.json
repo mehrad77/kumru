@@ -2,6 +2,7 @@
   "arc": {
     "en": "The exam and the holiday",
     "fa": "امتحان و جشن",
+    "ru": "Экзамен и праздник",
     "id": "s1w08",
     "mechanics": [
       "say",
@@ -27,6 +28,7 @@
     {
       "en": "What did you do today?",
       "fa": "امروز چی‌کار کردی؟",
+      "ru": "Как прошёл твой день?",
       "narr": true,
       "tr": "Bugün ne yaptın?",
       "who": "kerim"
@@ -39,6 +41,7 @@
           {
             "en": "I studied a lot… and I drank tea!",
             "fa": "خیلی درس خوندم… و چای خوردم!",
+            "ru": "Весь день учёба… и чай!",
             "ok": true,
             "react": {
               "kerim": "happy"
@@ -47,6 +50,7 @@
               {
                 "en": "Very good! Kerim wants tea too… coo coo!",
                 "fa": "خیلی خوبه! کریم هم چای می‌خواد… کو کو!",
+                "ru": "Отлично! Керим тоже хочет чаю… ку-ку!",
                 "narr": true,
                 "tr": "Çok güzel! Kerim de çay istiyor… ku ku!",
                 "who": "kerim"
@@ -58,6 +62,7 @@
           {
             "en": "I went to school. Then I slept!",
             "fa": "رفتم مدرسه. بعد خوابیدم!",
+            "ru": "Утром — школа. Потом — сон!",
             "react": {
               "kerim": "curious"
             },
@@ -65,6 +70,7 @@
               {
                 "en": "So did Kerim! Coo… coo…",
                 "fa": "کریم هم! کو… کو…",
+                "ru": "Керим тоже! Ку… ку…",
                 "narr": true,
                 "tr": "Kerim de! Ku… ku…",
                 "who": "kerim"
@@ -81,50 +87,62 @@
   "gl": {
     "ediyor": {
       "fa": "می‌کند (yardım ediyor: کمک می‌کند)",
+      "ru": "делает (yardım ediyor: помогает)",
       "en": "does (yardım ediyor: is helping)"
     },
     "hocam": {
       "fa": "استاد (خطاب به معلم)",
+      "ru": "Учитель (обращение к преподавателю)",
       "en": "Hocam (how you address a teacher)"
     },
     "kart": {
       "fa": "کارت",
+      "ru": "карточка",
       "en": "card"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "kumru": {
       "fa": "قمری",
+      "ru": "горлица (слово уровня A2)",
       "en": "collared dove (an A2 word)"
     },
     "rize": {
       "fa": "ریزه (شهری کنارِ دریای سیاه، معروف به چای)",
+      "ru": "Ризе (город у Чёрного моря, славится чаем)",
       "en": "Rize (a Black Sea town famous for its tea)"
     },
     "taksim": {
       "fa": "تقسیم (میدان و محله‌ای در بی‌اوغلو)",
+      "ru": "Таксим (площадь и район в Бейоглу)",
       "en": "Taksim (a square and district in Beyoğlu)"
     },
     "uçtum": {
       "fa": "پرواز کردم (uçmak: پرواز کردن)",
+      "ru": "я летала (uçmak: летать)",
       "en": "I flew (uçmak: to fly)"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя; слово значит «победа»)",
       "en": "Zafer (a name; the word means victory)"
     },
     "ünite": {
       "fa": "درس، فصلِ کتاب",
+      "ru": "раздел (учебника)",
       "en": "unit (of a textbook)"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "nazik": {
       "fa": "مهربان، بالطف",
+      "ru": "добрый, любезный",
       "en": "kind"
     }
   },
@@ -223,7 +241,8 @@
       "q": {
         "tr": "Rize çayı kimden?",
         "en": "Who is the Rize tea from?",
-        "fa": "چای ریزه از طرفِ کیست؟"
+        "fa": "چای ریزه از طرفِ کیست؟",
+        "ru": "От кого чай из Ризе?"
       },
       "why": "“Nima, buyurun: bu İsmail Bey'den. Sizin için.”"
     },
@@ -238,7 +257,8 @@
       "q": {
         "tr": "Zafer Hoca: “Altı ünite… yedi hafta. Siz çok …”",
         "en": "Zafer Hoca: “Six units… seven weeks. You've all … very hard.”",
-        "fa": "استاد ظفر: «شش درس… هفت هفته. شما خیلی …»"
+        "fa": "استاد ظفر: «شش درس… هفت هفته. شما خیلی …»",
+        "ru": "Зафер: «Шесть разделов… семь недель. Вы очень …»"
       },
       "why": "“Altı ünite… yedi hafta. Siz çok çalıştınız.”"
     }
@@ -262,12 +282,14 @@
       "emo": "tired",
       "en": "I'm tired… but I'm studying.",
       "fa": "خسته‌م… ولی دارم درس می‌خونم.",
+      "ru": "Сил нет… но я занимаюсь.",
       "tr": "Yorgunum… ama çalışıyorum.",
       "who": "nima"
     },
     {
       "en": "Everyone's studying. Everyone's tired. What is Kerim doing? Kerim… is helping!",
       "fa": "همه دارن درس می‌خونن. همه خسته‌ن. کریم چی‌کار می‌کنه؟ کریم… کمک می‌کنه!",
+      "ru": "Все занимаются. Все устали. А что делает Керим? Керим… помогает!",
       "move": {
         "how": "fly",
         "to": "sill_up",
@@ -309,6 +331,7 @@
       "emo": "happy",
       "en": "Here you go, teacher! When's the exam?",
       "fa": "بفرمایید استاد! امتحان کِیه؟",
+      "ru": "Пожалуйста, учитель! Когда экзамен?",
       "obj": [
         {
           "id": "cay_bardagi",
@@ -325,6 +348,7 @@
       "emo": "happy",
       "en": "Friday. It starts at nine.",
       "fa": "جمعه. ساعتِ نه شروع می‌شه.",
+      "ru": "В пятницу. Начинается в девять.",
       "to": "ismail",
       "tr": "Cuma. Saat dokuzda başlıyor.",
       "who": "zafer"
@@ -346,6 +370,7 @@
       "emo": "happy",
       "en": "Nima has the exam too, right? The honey student! This packet's for Nima.",
       "fa": "نیما هم امتحان داره، نه؟ همون شاگردِ عسل! این بسته مالِ نیماست.",
+      "ru": "У Нимы ведь тоже экзамен, да? Мёд у меня берёт! Этот пакет — для Нимы.",
       "link": {
         "paket": "obj:kese"
       },
@@ -380,6 +405,7 @@
       "emo": "happy",
       "en": "İsmail… remembers Nima!",
       "fa": "اسماعیل… نیما رو یادشه!",
+      "ru": "Исмаил… помнит Ниму!",
       "narr": true,
       "tr": "İsmail… Nima'yı hatırlıyor!",
       "who": "kerim"
@@ -412,6 +438,7 @@
       "do": "give",
       "en": "Friday's the exam: reading, writing, listening, speaking. …Nima, here you are: this is from İsmail Bey. For you.",
       "fa": "جمعه امتحان داریم: خوندن، نوشتن، شنیدن، صحبت کردن. …نیما، بفرمایید: این از طرفِ آقای اسماعیله. برای شما.",
+      "ru": "В пятницу экзамен: чтение, письмо, аудирование, говорение. …Нима, пожалуйста: это от господина Исмаила. Для вас.",
       "move": {
         "how": "walk",
         "to": "teacher_desk",
@@ -434,6 +461,7 @@
       "emo": "happy",
       "en": "Rize tea! İsmail Bey is so kind!",
       "fa": "چای ریزه! آقای اسماعیل خیلی لطف داره!",
+      "ru": "Чай из Ризе! Господин Исмаил такой добрый!",
       "link": {
         "çayı": "obj:kese"
       },
@@ -448,6 +476,7 @@
       "emo": "moved",
       "en": "Six units… seven weeks. You've all worked very hard.",
       "fa": "شش درس… هفت هفته. شما خیلی زحمت کشیدید.",
+      "ru": "Шесть разделов… семь недель. Вы все очень потрудились.",
       "to": "all",
       "tr": "Altı ünite… yedi hafta. Siz çok çalıştınız.",
       "who": "zafer"
@@ -488,6 +517,7 @@
             "emo": "happy",
             "en": "Thank you, teacher. I learned so much.",
             "fa": "ممنونم، استاد. خیلی یاد گرفتم.",
+            "ru": "Спасибо, учитель. Теперь я столько знаю!",
             "ok": true,
             "react": {
               "zafer": {
@@ -501,6 +531,7 @@
                 "emo": "happy",
                 "en": "I learned from you too. See you on Friday!",
                 "fa": "من هم از شما یاد گرفتم. جمعه می‌بینمتون!",
+                "ru": "Я тоже у вас многому научился. До пятницы!",
                 "tr": "Ben de sizden öğrendim. Cuma görüşürüz!",
                 "who": "zafer"
               }
@@ -512,6 +543,7 @@
             "do": "wave",
             "en": "OK, see you.",
             "fa": "باشه، می‌بینمتون.",
+            "ru": "Ладно, до встречи.",
             "react": {
               "zafer": "nod"
             },
@@ -520,6 +552,7 @@
                 "do": "wave",
                 "en": "See you.",
                 "fa": "می‌بینمتون.",
+                "ru": "До встречи.",
                 "tr": "Görüşürüz.",
                 "who": "zafer"
               }
@@ -531,6 +564,7 @@
             "emo": "shy",
             "en": "… (Nima leaves without a word.)",
             "fa": "… (نیما بی‌هیچ حرفی می‌رود.)",
+            "ru": "… (Нима уходит молча.)",
             "react": {
               "zafer": {
                 "at": "mark:door",
@@ -592,6 +626,7 @@
       "emo": "proud",
       "en": "Kerim saw it… but she didn't tell. Kerim is an honest bird!",
       "fa": "کریم دید… ولی نگفت. کریم یه پرنده‌ی صادقه!",
+      "ru": "Керим видела… но не сказала. Керим — честная птица!",
       "narr": true,
       "tr": "Kerim gördü… ama söylemedi. Kerim dürüst bir kuş!",
       "who": "kerim"
@@ -676,6 +711,7 @@
       "emo": "tired",
       "en": "…fourth floor…",
       "fa": "…طبقه‌ی چهارم…",
+      "ru": "…четвёртый этаж…",
       "tr": "…dördüncü kat…",
       "voice": "whisper",
       "who": "nima"
@@ -700,6 +736,7 @@
       "cam": "obj",
       "en": "One last card… and a new word: kumru.",
       "fa": "یه کارتِ آخر… و یه کلمه‌ی تازه: «kumru»، یعنی قمری.",
+      "ru": "Последняя карточка… и новое слово: «kumru» — горлица.",
       "link": {
         "kart": "obj:kumru_karti"
       },
@@ -718,12 +755,14 @@
         "en": "The past, -DI: gördü, “she saw”. And the negative: söyle- + -me- + -di, söylemedi, “she didn't tell”. The -mA- comes before the -DI. With ben it is -DIm: Kerim's day is “Sabah Taksim'e uçtum. İsmail'i gördüm. Sonra okula gittim. Akşam sınavı gördüm, ama söylemedim.” Sabah, sonra, akşam put a day in order.",
         "ex": "Kerim gördü… ama söylemedi. Kerim dürüst bir kuş!",
         "fa": "گذشته با -DI: gördü یعنی «دید». و منفی‌اش: söyle- + -me- + -di می‌شود söylemedi، یعنی «نگفت». -mA- پیش از -DI می‌آید. با ben می‌شود -DIm: روزِ کریم این است: «Sabah Taksim'e uçtum. İsmail'i gördüm. Sonra okula gittim. Akşam sınavı gördüm, ama söylemedim.» (صبح تا تقسیم پرواز کردم. اسماعیل را دیدم. بعد رفتم مدرسه. غروب امتحان را دیدم، ولی نگفتم.) sabah، sonra و akşam روز را به ترتیب می‌چینند.",
+        "ru": "Прошедшее время, -DI: gördü — «она увидела». И отрицание: söyle- + -me- + -di, söylemedi — «она не сказала». -mA- стоит перед -DI. С ben будет -DIm: день Керим — «Sabah Taksim'e uçtum. İsmail'i gördüm. Sonra okula gittim. Akşam sınavı gördüm, ama söylemedim.» Sabah, sonra, akşam выстраивают день по порядку.",
         "lesson": "g_a1_5_gecmis"
       }
     },
     {
       "en": "A long day. But Nima isn't alone. Good night… Coo-coo!",
       "fa": "یه روزِ طولانی. ولی نیما تنها نیست. شب بخیر… کوکو!",
+      "ru": "Длинный день. Но рядом с Нимой — друзья. Спокойной ночи… Ку-ку!",
       "narr": true,
       "sfx": {
         "id": "coo",
@@ -741,12 +780,14 @@
   ],
   "summary": {
     "en": "Exam week from Kerim's side. Kerim flies across the city to help and finds others helping too: İsmail sends Rize tea through Zafer Hoca, and Farzad leaves food at the door.",
-    "fa": "هفته‌ی امتحان از نگاهِ کریم. کریم در شهر پرواز می‌کند تا کمک کند و می‌بیند دیگران هم کمک می‌کنند: اسماعیل به دستِ استاد ظفر برای نیما چای ریزه می‌فرستد و فرزاد پشتِ در غذا می‌گذارد."
+    "fa": "هفته‌ی امتحان از نگاهِ کریم. کریم در شهر پرواز می‌کند تا کمک کند و می‌بیند دیگران هم کمک می‌کنند: اسماعیل به دستِ استاد ظفر برای نیما چای ریزه می‌فرستد و فرزاد پشتِ در غذا می‌گذارد.",
+    "ru": "Неделя экзаменов глазами Керим. Керим летает по городу, чтобы помогать, и видит, что помогают и другие: Исмаил передаёт через Зафера чай из Ризе, а Фарзад оставляет еду у двери."
   },
   "title": {
     "tr": "Kerim'in günü",
     "en": "Kerim's day",
-    "fa": "روزِ کریم"
+    "fa": "روزِ کریم",
+    "ru": "День Керим"
   },
   "words": [
     "a1-w-yardim-etmek",

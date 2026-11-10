@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new family",
     "fa": "یک خانواده‌ی تازه",
+    "ru": "Новая семья",
     "id": "s1w04",
     "mechanics": [
       "say",
@@ -19,6 +20,7 @@
     {
       "en": "Are these your slippers?",
       "fa": "این دمپاییِ توئه؟",
+      "ru": "Это твои тапочки?",
       "to": "nima",
       "tr": "Bu senin terliğin mi?",
       "who": "omer"
@@ -31,6 +33,7 @@
           {
             "en": "Yes, they're my slippers.",
             "fa": "آره، دمپاییِ منه.",
+            "ru": "Да, это мои тапочки.",
             "ok": true,
             "react": {
               "omer": {
@@ -42,6 +45,7 @@
               {
                 "en": "Your slippers are really big!",
                 "fa": "دمپاییت خیلی بزرگه!",
+                "ru": "Твои тапочки очень большие!",
                 "to": "nima",
                 "tr": "Senin terliğin çok büyük!",
                 "who": "omer"
@@ -53,6 +57,7 @@
           {
             "en": "Yes, they're your slippers.",
             "fa": "آره، دمپاییِ توئه.",
+            "ru": "Да, это твои тапочки.",
             "react": {
               "omer": "confused"
             },
@@ -60,6 +65,7 @@
               {
                 "en": "Not mine! They're your slippers!",
                 "fa": "مالِ من نیست! دمپاییِ توئه!",
+                "ru": "Не мои! Это твои тапочки!",
                 "to": "nima",
                 "tr": "Benim değil! Senin terliğin!",
                 "who": "omer"
@@ -75,6 +81,7 @@
     {
       "en": "And is this your phone?",
       "fa": "این هم گوشیِ توئه؟",
+      "ru": "А это тоже твой телефон?",
       "to": "nima",
       "tr": "Bu da senin telefonun mu?",
       "who": "omer"
@@ -82,6 +89,7 @@
     {
       "en": "Yes, it's my phone.",
       "fa": "آره، گوشیِ منه.",
+      "ru": "Да, это мой телефон.",
       "to": "omer",
       "tr": "Evet, benim telefonum.",
       "who": "nima"
@@ -89,6 +97,7 @@
     {
       "en": "I haven't got a phone… but I've got a cat!",
       "fa": "من گوشی ندارم… ولی گربه دارم!",
+      "ru": "У меня нет телефона… зато у меня есть кошка!",
       "to": "nima",
       "tr": "Benim telefonum yok… ama benim kedim var!",
       "who": "omer"
@@ -97,58 +106,72 @@
   "gl": {
     "ailen": {
       "fa": "خانواده‌ات",
+      "ru": "твоя семья",
       "en": "your family"
     },
     "ailesi": {
       "fa": "خانواده‌اش",
+      "ru": "его или её семья",
       "en": "their family"
     },
     "ağabeyim": {
       "fa": "داداشم (برادرِ بزرگ‌تر)",
+      "ru": "мой старший брат",
       "en": "my big brother"
     },
     "boğaz": {
       "fa": "بُسفر",
+      "ru": "Босфор",
       "en": "the Bosphorus"
     },
     "kitabım": {
       "fa": "کتابم",
+      "ru": "моя книга",
       "en": "my book"
     },
     "kitabın": {
       "fa": "کتابت",
+      "ru": "твоя книга",
       "en": "your book"
     },
     "komşu": {
       "fa": "همسایه",
+      "ru": "сосед",
       "en": "neighbour"
     },
     "mısın": {
       "fa": "هستی؟ (پرسشی)",
+      "ru": "ты…? (вопрос)",
       "en": "are you? (a question)"
     },
     "odam": {
       "fa": "اتاقم",
+      "ru": "моя комната",
       "en": "my room"
     },
     "odan": {
       "fa": "اتاقت",
+      "ru": "твоя комната",
       "en": "your room"
     },
     "resimde": {
       "fa": "توی عکس",
+      "ru": "на картинке, на фото",
       "en": "in the picture"
     },
     "tahran": {
       "fa": "تهران",
+      "ru": "Тегеран",
       "en": "Tehran"
     },
     "hepsi": {
       "fa": "همه‌شان",
+      "ru": "все они, всё",
       "en": "all of them"
     },
     "annesi": {
       "fa": "مادرش",
+      "ru": "его или её мама",
       "en": "his or her mother"
     }
   },
@@ -181,7 +204,8 @@
       "q": {
         "tr": "Nima'nın annesi ne istiyor?",
         "en": "What does Nima's mum want?",
-        "fa": "مامانِ نیما چی می‌خواد؟"
+        "fa": "مامانِ نیما چی می‌خواد؟",
+        "ru": "Чего хочет мама Нимы?"
       },
       "options": [
         "Bir kitap",
@@ -196,7 +220,8 @@
       "q": {
         "tr": "Nima: “Bu annem, bu babam. Bu da …”",
         "en": "Nima: “This is my mum, this is my dad. And this is my …”",
-        "fa": "نیما: «این مامانمه، این بابام. این هم …»"
+        "fa": "نیما: «این مامانمه، این بابام. این هم …»",
+        "ru": "Нима: «Это моя мама, это мой папа. А это …»"
       },
       "options": [
         "kardeşim",
@@ -223,6 +248,7 @@
     {
       "en": "Whose room is this? Nima's! But today… Ömer is here!",
       "fa": "این اتاق مال کیه؟ مال نیما! ولی امروز… عمر این‌جاست!",
+      "ru": "Чья это комната? Нимы! Но сегодня… здесь Омер!",
       "move": {
         "how": "enter",
         "to": "desk",
@@ -244,6 +270,7 @@
       "emo": "curious",
       "en": "This book… is it yours?",
       "fa": "این کتاب… مال توئه؟",
+      "ru": "Эта книга… твоя?",
       "link": {
         "kitap": "obj:book"
       },
@@ -267,6 +294,7 @@
             "emo": "happy",
             "en": "Yes, it's mine!",
             "fa": "آره، مال منه!",
+            "ru": "Да, моя!",
             "ok": true,
             "react": {
               "omer": {
@@ -278,6 +306,7 @@
                 "emo": "surprised",
                 "en": "Your book is really big!",
                 "fa": "کتابت خیلی بزرگه!",
+                "ru": "Твоя книга очень большая!",
                 "link": {
                   "kitabın": "obj:book"
                 },
@@ -293,6 +322,7 @@
             "emo": "happy",
             "en": "Yes, me!",
             "fa": "آره، من!",
+            "ru": "Да, я!",
             "react": {
               "omer": "laugh"
             },
@@ -301,6 +331,7 @@
                 "emo": "laugh",
                 "en": "Are you a book?! …It's your book!",
                 "fa": "تو کتابی؟! …کتابِ توئه!",
+                "ru": "Ты что, книга?! …Это твоя книга!",
                 "link": {
                   "kitap": "obj:book"
                 },
@@ -316,6 +347,7 @@
             "emo": "happy",
             "en": "No, it's yours!",
             "fa": "نه، مال توئه!",
+            "ru": "Нет, твоя!",
             "react": {
               "omer": {
                 "emo": "surprised"
@@ -327,6 +359,7 @@
                 "emo": "laugh",
                 "en": "Mine?! My book!",
                 "fa": "مال من؟! کتابِ من!",
+                "ru": "Моя?! Моя книга!",
                 "link": {
                   "kitabım": "obj:book"
                 },
@@ -338,6 +371,7 @@
                 "emo": "shy",
                 "en": "…But it's too big. It's your book.",
                 "fa": "…ولی خیلی بزرگه. کتابِ خودته.",
+                "ru": "…Но она слишком большая. Это твоя книга.",
                 "link": {
                   "kitabın": "obj:book"
                 },
@@ -359,6 +393,7 @@
       "emo": "curious",
       "en": "Is this your bag? And is this your notebook?",
       "fa": "این کیفِ توئه؟ این هم دفترِ توئه؟",
+      "ru": "Это твоя сумка? А это твоя тетрадь?",
       "link": {
         "defterin": "obj:notebook",
         "çantan": "obj:bag"
@@ -379,6 +414,7 @@
       "emo": "happy",
       "en": "Yes! My bag, my notebook… they're all mine!",
       "fa": "آره! کیفم، دفترم… همه‌ش مال منه!",
+      "ru": "Да! Моя сумка, моя тетрадь… всё моё!",
       "to": "omer",
       "tr": "Evet! Çantam, defterim… hepsi benim!",
       "who": "nima"
@@ -389,6 +425,7 @@
       "emo": "curious",
       "en": "Who's in this picture?",
       "fa": "تو این عکس کیه؟",
+      "ru": "Кто на этой фотографии?",
       "link": {
         "resimde": "obj:aile_fotografi"
       },
@@ -402,6 +439,7 @@
       "emo": "happy",
       "en": "This is my mum, this is my dad. And this is my sibling.",
       "fa": "این مامانمه، این بابامه. این هم خواهر یا برادرمه.",
+      "ru": "Это моя мама, это мой папа. А это — брат или сестра.",
       "to": "omer",
       "tr": "Bu annem, bu babam. Bu da kardeşim.",
       "who": "nima"
@@ -410,10 +448,11 @@
       "at": "mark:door",
       "do": "point",
       "emo": "happy",
-      "en": "I haven't got a big sister or a big brother… but there's a cat at the door! Where's your family?",
+      "en": "I haven't got a big sister, or a big brother either… but there's a cat at the door! Where's your family?",
       "fa": "من نه آبجی دارم، نه داداش… ولی دمِ در یه گربه هست! خانواده‌ات کجاست؟",
+      "ru": "У меня нет старшей сестры, и старшего брата нет… зато у двери кошка! А где твоя семья?",
       "to": "nima",
-      "tr": "Benim ablam yok, ağabeyim yok… ama kapıda bir kedi var! Ailen nerede?",
+      "tr": "Benim ablam yok, ağabeyim de yok… ama kapıda bir kedi var! Ailen nerede?",
       "who": "omer",
       "on": "kapıda"
     },
@@ -421,6 +460,7 @@
       "emo": "sad",
       "en": "In Tehran. Very far away… But Mum wants a photo: tea on the Bosphorus!",
       "fa": "تهران. خیلی دوره… ولی مامانم یه عکس می‌خواد: چای کنار بسفر!",
+      "ru": "В Тегеране. Очень далеко… Но мама хочет фото: чай на Босфоре!",
       "link": {
         "fotoğraf": "obj:aile_fotografi"
       },
@@ -434,6 +474,7 @@
       "emo": "happy",
       "en": "The Bosphorus! Lovely! …But we're here! Me and you!",
       "fa": "بسفر! خیلی قشنگه! …ولی ما این‌جاییم! من و تو!",
+      "ru": "Босфор! Как красиво! …Но мы-то здесь! Я и ты!",
       "on": "sen",
       "react": {
         "nima": {
@@ -449,6 +490,7 @@
         "en": "Whose is it? The ending tells you. senin çantan: your bag. benim çantam: my bag. kitap softens to kitab-: benim kitabım, senin kitabın. Today's room is full of them: annem, babam, kardeşim, defterim; senin ailen.",
         "ex": "Bu senin çantan mı?",
         "fa": "مال کیه؟ پسوند می‌گه. senin çantan یعنی کیفِ تو، benim çantam یعنی کیفِ من (kitap جلوی پسوند kitab-‎ می‌شه: benim kitabım، senin kitabın). درست مثل فارسی: کیفم، کیفت. امروز اتاق پر از این‌هاست: annem، babam، kardeşim، defterim؛ senin ailen.",
+        "ru": "Чьё это? Подскажет окончание. senin çantan — твоя сумка. benim çantam — моя сумка. kitap смягчается в kitab-: benim kitabım, senin kitabın. Сегодня комната полна таких слов: annem, babam, kardeşim, defterim; senin ailen.",
         "lesson": "g_a1_4_iyelik",
         "show": "owner"
       }
@@ -456,6 +498,7 @@
     {
       "en": "Ömer! Dinner!",
       "fa": "عمر! بیا شام!",
+      "ru": "Омер! Ужинать!",
       "move": {
         "how": "enter",
         "to": "door",
@@ -470,6 +513,7 @@
       "emo": "happy",
       "en": "Bye! Your room is really nice!",
       "fa": "خداحافظ! اتاقت خیلی قشنگه!",
+      "ru": "Пока! У тебя очень красивая комната!",
       "to": "nima",
       "tr": "Hoşça kal! Senin odan çok güzel!",
       "who": "omer"
@@ -479,6 +523,7 @@
       "emo": "happy",
       "en": "Bye bye!",
       "fa": "به سلامت!",
+      "ru": "Счастливо!",
       "to": "omer",
       "tr": "Güle güle!",
       "who": "nima",
@@ -518,6 +563,7 @@
     {
       "en": "Hello, Nima! How's your new home?",
       "fa": "الو، نیما! خونه‌ی جدیدت چطوره؟",
+      "ru": "Алло, Нима! Как новый дом?",
       "to": "nima",
       "tr": "Alo, Nima! Yeni evin nasıl?",
       "via": "phone",
@@ -527,6 +573,7 @@
       "emo": "happy",
       "en": "Really nice! My neighbours are very kind.",
       "fa": "خیلی خوبه! همسایه‌هام خیلی خوبن.",
+      "ru": "Очень хорошо! Соседи у меня очень добрые.",
       "to": "farzad",
       "tr": "Çok güzel! Komşularım çok iyi.",
       "who": "nima"
@@ -534,6 +581,7 @@
     {
       "en": "Come over to mine on Sunday! I'm cooking.",
       "fa": "یکشنبه بیا خونه‌ام! غذا درست می‌کنم.",
+      "ru": "В воскресенье приходи ко мне! Я готовлю.",
       "to": "nima",
       "tr": "Pazar günü bana gel! Yemek yapıyorum.",
       "via": "phone",
@@ -543,6 +591,7 @@
       "emo": "happy",
       "en": "OK! Thanks!",
       "fa": "باشه! مرسی!",
+      "ru": "Хорошо! Спасибо!",
       "to": "farzad",
       "tr": "Tamam! Teşekkürler!",
       "who": "nima"
@@ -550,6 +599,7 @@
     {
       "en": "Nima's family is far away… but the neighbours are here. And Farzad.",
       "fa": "خانواده‌اش دوره… ولی همسایه‌ها این‌جان. و فرزاد.",
+      "ru": "Семья далеко… но соседи здесь. И Фарзад.",
       "narr": true,
       "tr": "Ailesi uzakta… ama komşular burada. Ve Farzad.",
       "who": "kerim"
@@ -557,12 +607,14 @@
   ],
   "summary": {
     "en": "After school Ömer from downstairs explores Nima's room, asking who everything belongs to. The family photo on the desk brings out Nima's promise: a photo of tea on the Bosphorus for Mum. Then Farzad calls.",
-    "fa": "بعد از مدرسه، عمر از طبقه‌ی پایین می‌آید، در اتاقِ نیما سرک می‌کشد و می‌پرسد هر چیزی مالِ کیست. عکسِ خانوادگیِ روی میز قولِ نیما را پیش می‌کشد: عکسی از چای کنارِ بسفر برای مادرش. بعد فرزاد زنگ می‌زند."
+    "fa": "بعد از مدرسه، عمر از طبقه‌ی پایین می‌آید، در اتاقِ نیما سرک می‌کشد و می‌پرسد هر چیزی مالِ کیست. عکسِ خانوادگیِ روی میز قولِ نیما را پیش می‌کشد: عکسی از چای کنارِ بسفر برای مادرش. بعد فرزاد زنگ می‌زند.",
+    "ru": "После школы Омер с нижнего этажа разглядывает комнату Нимы и спрашивает, чьё здесь всё. Семейное фото на столе напоминает об обещании Нимы: фото чая на Босфоре для мамы. А потом звонит Фарзад."
   },
   "title": {
     "tr": "Bu senin mi?",
     "en": "Is this yours?",
-    "fa": "این مال توئه؟"
+    "fa": "این مال توئه؟",
+    "ru": "Это твоё?"
   },
   "words": [
     "a1-w-anne",

@@ -8,7 +8,7 @@ import { idxUnit } from "../../lib/units.ts";
 import { treeSecs } from "../path/index.ts";
 import { confOf } from "../progress/index.ts";
 import { pickOptions } from "./model/placement.ts";
-import { meaningLang } from "../../core/lang.ts";
+import { meaningLang, ruOr } from "../../core/lang.ts";
 
 /** A word card as the probes need it. */
 /** A card as the page keeps it. */
@@ -21,8 +21,8 @@ export type Item = WordItem | DrillItem;
 export interface Probe { idx: number; ref: string; label?: string; lv?: string; u?: number; items: Item[] }
 
 /** A word's meaning in the language the learner picked (Persian or English). */
-export const meaningText = (c: PlCard): string => (meaningLang() === "en" ? (c.en || c.fa) : (c.fa || c.en)) as string;
-export const meaningIsFa = (c: PlCard): boolean => (meaningLang() === "en" ? !c.en : !!c.fa);
+export const meaningText = (c: PlCard): string => { const m = meaningLang(); return (m === "ru" ? ruOr(c as PlCard & { ru?: string }) || c.fa : m === "en" ? (c.en || c.fa) : (c.fa || c.en)) as string; };
+export const meaningIsFa = (c: PlCard): boolean => { const m = meaningLang(); return m === "en" || m === "ru" ? !c.en && !(c as PlCard & { ru?: string }).ru : !!c.fa; };
 
 const lessonRefMap = (): Record<string, string> => Object.fromEntries(S.grammar.map((g: { id: string; ref?: string }) => [g.id, g.ref || ""]));
 

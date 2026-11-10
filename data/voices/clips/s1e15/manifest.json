@@ -1,0 +1,82 @@
+{
+ "story": "s1e15",
+ "lines": {
+  "zafer": {
+   "İstanbul'da ne yapmak istiyorsunuz?": {
+    "f": "2235ecfb059de7.m4a",
+    "ms": 2204,
+    "sig": "196328ab4318e3"
+   },
+   "Alex uyumak istiyor!": {
+    "f": "4ed12dd9a1f3ec.m4a",
+    "ms": 2969,
+    "sig": "e9aef7190bca83"
+   },
+   "Bir tane, Parvane! …Nima, siz?": {
+    "f": "26442f49751b5b.m4a",
+    "ms": 4292,
+    "sig": "03b6ea00005e80",
+    "doubt": "heard \"Bir tane parvane nimasiz...\""
+   },
+   "Çok güzel, Dilnoza. Şimdi konuşuyorsunuz!": {
+    "f": "fcbbd15a9f22e7.m4a",
+    "ms": 6427,
+    "sig": "9fbbadb1093684"
+   }
+  },
+  "parvaneh": {
+   "Galata'ya çıkmak istiyorum! Boğaz'a gitmek istiyorum! Adalar'da gezmek…": {
+    "f": "c1e17cd0103c94.m4a",
+    "ms": 5241,
+    "sig": "22e73b6540574c"
+   }
+  },
+  "dilnoza": {
+   "Ben… Türkçe konuşmak istiyorum.": {
+    "f": "faf51c82110974.m4a",
+    "ms": 4643,
+    "sig": "42b6161a2aeb06"
+   },
+   "Gel, gel!": {
+    "f": "55cb034a49a165.m4a",
+    "ms": 1069,
+    "sig": "c22fda58208572"
+   },
+   "İstiyor musun… şimdi?": {
+    "f": "56a0bcd1141fcc.m4a",
+    "ms": 1922,
+    "sig": "9283f6869a0748"
+   },
+   "Sen Feriköy'e gidiyorsun, değil mi?": {
+    "f": "d6d068cc9c73ae.m4a",
+    "ms": 2897,
+    "sig": "bb980b577dbb08"
+   },
+   "Aa, yağmur yağıyor! …Şemsiye istiyor musun?": {
+    "f": "72189877c138d2.m4a",
+    "ms": 3481,
+    "sig": "1ac20f7f98f4fd"
+   },
+   "Ben Osmanbey'e! Hadi, beraber gidiyoruz!": {
+    "f": "c60f1822d25bc4.m4a",
+    "ms": 4551,
+    "sig": "f5f591c983f083"
+   }
+  },
+  "kerim": {
+   "Hava güzel değil. Bulut var, çok bulut! Güneş… yok.": {
+    "f": "344e1696789799.m4a",
+    "ms": 4320,
+    "sig": "1942196fc1a6a7"
+   },
+   "Kerim de şemsiye istiyor…": {
+    "f": "5653537bbe3264.m4a",
+    "ms": 2120,
+    "sig": "3f06c86f0206d3"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

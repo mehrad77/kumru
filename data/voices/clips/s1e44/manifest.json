@@ -1,0 +1,74 @@
+{
+ "story": "s1e44",
+ "lines": {
+  "ismail": {
+   "Buyurun, hocam! Sınav ne zaman?": {
+    "f": "d6acdbbb846b45.m4a",
+    "ms": 3388,
+    "sig": "ae72f99cc8d0c4"
+   },
+   "Nima'nın da sınavı var, değil mi? Bal öğrencisi! Bu paket Nima için.": {
+    "f": "a66138d309850d.m4a",
+    "ms": 4890,
+    "sig": "bf1a0cf24f13b9"
+   }
+  },
+  "zafer": {
+   "Cuma. Saat dokuzda başlıyor.": {
+    "f": "14e80e498abd0e.m4a",
+    "ms": 3861,
+    "sig": "949b544f550070"
+   },
+   "Altı ünite… yedi hafta. Siz çok çalıştınız.": {
+    "f": "53cfd5bad21854.m4a",
+    "ms": 4536,
+    "sig": "374d072fb500a7"
+   },
+   "Cuma sınav var: okuma, yazma, dinleme, konuşma. …Nima, buyurun: bu İsmail Bey'den. Sizin için.": {
+    "f": "f00a84d7c020eb.m4a",
+    "ms": 6957,
+    "sig": "7da2e32310ea6b"
+   },
+   "Görüşürüz.": {
+    "f": "c1d6dea388bdf6.m4a",
+    "ms": 2018,
+    "sig": "2392ba17e8d335"
+   },
+   "Ben de sizden öğrendim. Cuma görüşürüz!": {
+    "f": "4f7881b9ef27c2.m4a",
+    "ms": 3883,
+    "sig": "5134ee80c40043"
+   }
+  },
+  "kerim": {
+   "Herkes çalışıyor. Herkes yorgun. Kerim ne yapıyor? Kerim… yardım ediyor!": {
+    "f": "dcea28c7f5c2e2.m4a",
+    "ms": 6836,
+    "sig": "e01c31bba56745"
+   },
+   "İsmail… Nima'yı hatırlıyor!": {
+    "f": "4f69fe3723f20b.m4a",
+    "ms": 3259,
+    "sig": "eb50c1f2e8e13b"
+   },
+   "Kerim gördü… ama söylemedi. Kerim dürüst bir kuş!": {
+    "f": "05733a3bf0f35c.m4a",
+    "ms": 4851,
+    "sig": "9171175e95fdf8"
+   },
+   "Son bir kart… ve yeni bir kelime: kumru.": {
+    "f": "4024d9251a378c.m4a",
+    "ms": 4465,
+    "sig": "60ee4ee7c0e702"
+   },
+   "Uzun bir gün. Ama Nima yalnız değil. İyi geceler… Ku-kuu!": {
+    "f": "481847af36319a.m4a",
+    "ms": 3982,
+    "sig": "e1fc41281b3bab"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

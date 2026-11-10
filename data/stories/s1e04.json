@@ -2,6 +2,7 @@
   "arc": {
     "en": "Welcome!",
     "fa": "خوش آمدی!",
+    "ru": "Добро пожаловать!",
     "id": "s1w01",
     "mechanics": [
       "say",
@@ -18,6 +19,7 @@
     {
       "en": "Where's this?",
       "fa": "این‌جا کجاست؟",
+      "ru": "Где это?",
       "narr": true,
       "tr": "Burası neresi?",
       "who": "kerim"
@@ -25,12 +27,14 @@
     {
       "en": "This is Taksim.",
       "fa": "این‌جا تقسیمه.",
+      "ru": "Это Таксим.",
       "tr": "Burası Taksim.",
       "who": "nima"
     },
     {
       "en": "And that place there?",
       "fa": "اون‌جا چی؟",
+      "ru": "А вон там?",
       "narr": true,
       "tr": "Ya şurası?",
       "who": "kerim"
@@ -43,6 +47,7 @@
           {
             "en": "That's İstiklal there.",
             "fa": "اون‌جا استقلاله.",
+            "ru": "Вон там — Истикляль.",
             "ok": true,
             "react": {
               "kerim": "happy"
@@ -51,6 +56,7 @@
               {
                 "en": "Yes! And that place far away?",
                 "fa": "آره! اون‌جای دور چی؟",
+                "ru": "Да! А там, вдали?",
                 "narr": true,
                 "tr": "Evet! Ya orası?",
                 "who": "kerim"
@@ -62,6 +68,7 @@
           {
             "en": "This is İstiklal here.",
             "fa": "این‌جا استقلاله.",
+            "ru": "Здесь Истикляль.",
             "react": {
               "kerim": "curious"
             },
@@ -69,6 +76,7 @@
               {
                 "en": "No… İstiklal is there. And that place far away?",
                 "fa": "نه… استقلال اون‌جاست. اون‌جای دور چی؟",
+                "ru": "Нет… Истикляль — вон там. А там, вдали?",
                 "narr": true,
                 "tr": "Hayır… şurası İstiklal. Ya orası?",
                 "who": "kerim"
@@ -83,52 +91,68 @@
     {
       "en": "That's Galata over there.",
       "fa": "اون‌جا گالاتاست.",
+      "ru": "Там, вдали, — Галата.",
       "tr": "Orası Galata.",
       "who": "nima"
     },
     {
       "en": "Yes! Very good.",
       "fa": "آره! خیلی خوبه.",
+      "ru": "Да! Очень хорошо.",
       "narr": true,
       "tr": "Evet! Çok güzel.",
       "who": "kerim"
     }
   ],
   "gl": {
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "ru": "а! (удивление)",
+      "en": "oh! (surprise)"
+    },
     "galata": {
       "fa": "گالاتا (محله و برجی قدیمی در بی‌اوغلو)",
+      "ru": "Галата (старый квартал и башня в Бейоглу)",
       "en": "Galata (an old quarter and tower in Beyoğlu)"
     },
     "kalın": {
       "fa": "(در «hoşça kalın») خداحافظ، به چند نفر",
+      "ru": "(в «hoşça kalın») пока — нескольким людям",
       "en": "(in “hoşça kalın”) bye, to more than one person"
     },
     "mağazalar": {
       "fa": "مغازه‌ها",
+      "ru": "магазины",
       "en": "shops"
     },
     "orası": {
       "fa": "آن‌جا (دور)",
+      "ru": "то место, вон там (далеко)",
       "en": "that place over there (far away)"
     },
     "paris": {
       "fa": "پاریس",
+      "ru": "Париж",
       "en": "Paris"
     },
     "şurası": {
       "fa": "آن‌جا (کمی دورتر)",
+      "ru": "то место, там (неподалёку)",
       "en": "that place there (a little way off)"
     },
     "şişhane": {
       "fa": "شیشانه (ایستگاهِ مترو در بی‌اوغلو)",
+      "ru": "Шишхане (станция метро в Бейоглу)",
       "en": "Şişhane (a metro stop in Beyoğlu)"
     },
     "istanbul": {
       "fa": "استانبول",
+      "ru": "Стамбул",
       "en": "Istanbul"
     },
     "istiklal": {
       "fa": "استقلال (خیابانی معروف در بی‌اوغلو)",
+      "ru": "Истикляль (знаменитая улица в Бейоглу)",
       "en": "İstiklal (a famous street in Beyoğlu)"
     }
   },
@@ -153,7 +177,8 @@
       "q": {
         "tr": "Kerim: “Burası Taksim. Çok …!”",
         "en": "Lots of people everywhere. Kerim: “This is Taksim. So …!”",
-        "fa": "همه‌جا پر از آدم است. کریم: «این‌جا تقسیم است. خیلی …!»"
+        "fa": "همه‌جا پر از آدم است. کریم: «این‌جا تقسیم است. خیلی …!»",
+        "ru": "Повсюду толпы людей. Керим: «Это Таксим. Как …!»"
       },
       "why": "Kerim: “Burası Taksim. Çok kalabalık!”"
     },
@@ -168,7 +193,8 @@
       "q": {
         "tr": "Nima metro, Parvane mağazalar. Nima: “…”",
         "en": "Nima goes home on the metro, Parvaneh stays for the shops. Nima says: “…”",
-        "fa": "نیما با مترو می‌رود و پروانه برای مغازه‌ها می‌ماند. نیما می‌گوید: «…»"
+        "fa": "نیما با مترو می‌رود و پروانه برای مغازه‌ها می‌ماند. نیما می‌گوید: «…»",
+        "ru": "Нима едет домой на метро, а Парване остаётся ради магазинов. Нима говорит: «…»"
       },
       "why": "Nima: “Hoşça kal!” Parvane: “Güle güle!”"
     }
@@ -191,6 +217,7 @@
       "cam": "wide",
       "en": "This is Taksim. It's so crowded!",
       "fa": "این‌جا تقسیمه. خیلی شلوغه!",
+      "ru": "Это Таксим. Как многолюдно!",
       "narr": true,
       "tr": "Burası Taksim. Çok kalabalık!",
       "who": "kerim"
@@ -200,6 +227,7 @@
       "tr": "Şurası neresi?",
       "en": "And where's that?",
       "fa": "اون‌جا کجاست؟",
+      "ru": "А там что?",
       "to": "nima",
       "emo": "curious",
       "do": "point",
@@ -210,6 +238,7 @@
       "tr": "İstiklal!",
       "en": "İstiklal!",
       "fa": "استقلال!",
+      "ru": "Истикляль!",
       "to": "parvaneh",
       "emo": "proud",
       "do": "read",
@@ -233,6 +262,7 @@
       "tr": "Mağazalar! Kafeler!",
       "en": "Shops! Cafés!",
       "fa": "مغازه‌ها! کافه‌ها!",
+      "ru": "Магазины! Кафе!",
       "to": "all",
       "emo": "happy"
     },
@@ -241,6 +271,7 @@
       "tr": "Çok güzel bir sokak!",
       "en": "What a beautiful street!",
       "fa": "چه خیابونِ قشنگی!",
+      "ru": "Какая красивая улица!",
       "to": "parvaneh",
       "emo": "happy"
     },
@@ -258,6 +289,7 @@
       "tr": "Şu ne?",
       "en": "What's that?",
       "fa": "اون چیه؟",
+      "ru": "А вон то что?",
       "to": "nima",
       "emo": "surprised",
       "do": "point",
@@ -268,17 +300,19 @@
       "tr": "Kırmızı bir tramvay!",
       "en": "A red tram!",
       "fa": "یه تراموای قرمز!",
+      "ru": "Красный трамвай!",
       "to": "parvaneh",
       "emo": "happy"
     },
     {
       "do": "wave",
       "emo": "surprised",
-      "en": "My bus! Bye, you two!",
-      "fa": "اتوبوسم! خداحافظ!",
+      "en": "Oh, my bus! Bye, you two!",
+      "fa": "عه، اتوبوسم! خداحافظ!",
+      "ru": "Ой, автобус! Всем пока!",
       "on": "hoşça",
       "to": "all",
-      "tr": "Otobüs! Hoşça kalın!",
+      "tr": "Aa, otobüs! Hoşça kalın!",
       "who": "dilnoza"
     },
     {
@@ -286,6 +320,7 @@
       "tr": "Güle güle, Dilnoza!",
       "en": "Bye, Dilnoza!",
       "fa": "به سلامت، دلنوزا!",
+      "ru": "Счастливо, Дилноза!",
       "to": "dilnoza",
       "emo": "happy",
       "do": "wave",
@@ -320,6 +355,7 @@
       "emo": "curious",
       "en": "What's that place over there? Paris?",
       "fa": "اون‌جا کجاست؟ پاریسه؟",
+      "ru": "А там, вдали, что? Париж?",
       "to": "nima",
       "tr": "Orası neresi? Paris mi?",
       "who": "parvaneh"
@@ -334,6 +370,7 @@
             "tr": "Hayır! Orası Galata.",
             "en": "No! That's Galata over there.",
             "fa": "نه! اون‌جا گالاتاست.",
+            "ru": "Нет! Там, вдали, — Галата.",
             "ok": true,
             "tone": "warm",
             "do": "point_far",
@@ -352,6 +389,7 @@
                 "tr": "Galata! Çok güzel!",
                 "en": "Galata! So beautiful!",
                 "fa": "گالاتا! چه قشنگه!",
+                "ru": "Галата! Как красиво!",
                 "to": "nima",
                 "emo": "happy"
               }
@@ -361,6 +399,7 @@
             "tr": "Burası Galata.",
             "en": "This is Galata.",
             "fa": "این‌جا گالاتاست.",
+            "ru": "Здесь Галата.",
             "tone": "casual",
             "emo": "happy",
             "react": {
@@ -374,6 +413,7 @@
                 "tr": "Burası mı? Hayır… burası Şişhane!",
                 "en": "Here? No… here is Şişhane!",
                 "fa": "این‌جا؟ نه… این‌جا شیشهانه‌ست!",
+                "ru": "Здесь? Нет… здесь Шишхане!",
                 "to": "nima",
                 "emo": "laugh",
                 "do": "shake_head"
@@ -384,6 +424,7 @@
             "tr": "Evet, Paris!",
             "en": "Yes, Paris!",
             "fa": "آره، پاریسه!",
+            "ru": "Да, Париж!",
             "tone": "casual",
             "emo": "laugh",
             "react": {
@@ -397,6 +438,7 @@
                 "tr": "Paris mi? Hayır, hayır! Burası İstanbul!",
                 "en": "Paris? No, no! This is Istanbul!",
                 "fa": "پاریس؟ نه بابا! این‌جا استانبوله!",
+                "ru": "Париж? Нет, нет! Это Стамбул!",
                 "to": "nima",
                 "emo": "laugh",
                 "do": "shake_head"
@@ -421,6 +463,7 @@
         "en": "Three words for a place: burası is here, where you stand (“Burası Taksim!”). şurası is there, a little way off, where you point (“Şurası neresi?”: the street sign). orası is over there, far away (“Orası Galata.”). To ask: “Burası neresi?”",
         "ex": "Orası Galata.",
         "fa": "سه کلمه برای «جا»: burası یعنی همین‌جا که ایستاده‌ای («Burası Taksim!»). şurası یعنی آن‌جا، کمی دورتر، جایی که نشانش می‌دهی («Şurası neresi?»: تابلوی خیابان). orası یعنی آن‌جا، دور («Orası Galata.»). برای پرسیدن: «Burası neresi?» فارسی دو کلمه دارد، این‌جا و آن‌جا؛ ترکی سه‌تا.",
+        "ru": "Три слова для места: burası — здесь, где ты стоишь («Burası Taksim!»). şurası — там, неподалёку, куда показываешь («Şurası neresi?»: табличка с названием улицы). orası — вон там, далеко («Orası Galata.»). Спросить: «Burası neresi?»",
         "lesson": "g_a1_1_burasi",
         "show": "deixis"
       }
@@ -431,6 +474,7 @@
       "emo": "happy",
       "en": "You: the metro. Me: the shops!",
       "fa": "تو می‌ری مترو، من می‌رم مغازه‌ها!",
+      "ru": "Ты — на метро, я — в магазины!",
       "to": "nima",
       "tr": "Sen metro, ben mağazalar!",
       "who": "parvaneh"
@@ -445,6 +489,7 @@
             "emo": "happy",
             "en": "Bye! (I'm leaving)",
             "fa": "خداحافظ!",
+            "ru": "Пока! (я ухожу)",
             "ok": true,
             "react": {
               "parvaneh": {
@@ -458,6 +503,7 @@
                 "emo": "happy",
                 "en": "Bye! Take care!",
                 "fa": "به سلامت!",
+                "ru": "Счастливо!",
                 "to": "nima",
                 "tr": "Güle güle!",
                 "who": "parvaneh"
@@ -471,6 +517,7 @@
             "emo": "happy",
             "en": "See you!",
             "fa": "می‌بینمت!",
+            "ru": "Увидимся!",
             "react": {
               "parvaneh": {
                 "emo": "happy"
@@ -482,6 +529,7 @@
                 "emo": "happy",
                 "en": "See you, Nima!",
                 "fa": "می‌بینمت، نیما!",
+                "ru": "Увидимся, Нима!",
                 "to": "nima",
                 "tr": "Görüşürüz, Nima!",
                 "who": "parvaneh"
@@ -495,6 +543,7 @@
             "emo": "happy",
             "en": "Bye! (said to the one leaving)",
             "fa": "به سلامت!",
+            "ru": "Счастливо! (тому, кто уходит)",
             "react": {
               "parvaneh": {
                 "emo": "laugh"
@@ -506,6 +555,7 @@
                 "emo": "laugh",
                 "en": "No, no! You say hoşça kal. I say güle güle!",
                 "fa": "نه، نه! تو می‌گی hoşça kal، من می‌گم güle güle!",
+                "ru": "Нет, нет! Ты говоришь: hoşça kal. А я: güle güle!",
                 "to": "nima",
                 "tr": "Hayır, hayır! Sen: hoşça kal. Ben: güle güle!",
                 "who": "parvaneh"
@@ -532,6 +582,7 @@
       "en": "This is Istanbul. Beautiful, and crowded.",
       "env": "time:dusk:4000",
       "fa": "این‌جا استانبوله. قشنگ و شلوغ.",
+      "ru": "Это Стамбул. Красивый и многолюдный.",
       "move": {
         "how": "fly",
         "to": "roof",
@@ -544,12 +595,14 @@
   ],
   "summary": {
     "en": "After class, Nima, Parvaneh and Dilnoza walk down İstiklal from Taksim to Şişhane: a red tram, the shops, Galata far away, and two goodbyes.",
-    "fa": "بعد از کلاس، نیما و پروانه و دلنوزا از تقسیم تا شیشهانه در خیابانِ استقلال قدم می‌زنند: یک تراموای قرمز، مغازه‌ها، گالاتا در دوردست و دو خداحافظی."
+    "fa": "بعد از کلاس، نیما و پروانه و دلنوزا از تقسیم تا شیشهانه در خیابانِ استقلال قدم می‌زنند: یک تراموای قرمز، مغازه‌ها، گالاتا در دوردست و دو خداحافظی.",
+    "ru": "После занятий Нима, Парване и Дилноза идут по Истикляль от Таксима до Шишхане: красный трамвай, магазины, далёкая Галата и два прощания."
   },
   "title": {
     "tr": "Burası neresi?",
     "en": "Where is this?",
-    "fa": "این‌جا کجاست؟"
+    "fa": "این‌جا کجاست؟",
+    "ru": "Где это?"
   },
   "words": [
     "a1-w-burasi",

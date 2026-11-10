@@ -1,0 +1,142 @@
+{
+ "story": "s1e06",
+ "lines": {
+  "kirlangic": {
+   "İyi akşamlar!": {
+    "f": "e93c0272895991.m4a",
+    "ms": 2618,
+    "sig": "1b2c6b9d54b611"
+   },
+   "Bir kutu! Bunlar ne?": {
+    "f": "89b334a35dc002.m4a",
+    "ms": 1594,
+    "sig": "317a4d8219f0a4"
+   },
+   "Narlar! Çok güzel!": {
+    "f": "29a47f191f0830.m4a",
+    "ms": 1590,
+    "sig": "49065fe45d3a5f"
+   },
+   "Elma mı? Hayır… nar!": {
+    "f": "ef87ab9821b37e.m4a",
+    "ms": 3270,
+    "sig": "39aead8e7c92e3"
+   },
+   "Bir, iki, üç… evet: narlar!": {
+    "f": "156d1651e916b1.m4a",
+    "ms": 3871,
+    "sig": "96902d2d7dea87"
+   },
+   "Safran! Teşekkür ederim!": {
+    "f": "418388888e7fa1.m4a",
+    "ms": 1931,
+    "sig": "dbfe335ad5013a"
+   },
+   "Nima, okul nasıl?": {
+    "f": "f486bc27354697.m4a",
+    "ms": 1482,
+    "sig": "bf45f66c5d957b"
+   },
+   "Ya arkadaşlar?": {
+    "f": "4b3f90d4edec1a.m4a",
+    "ms": 2600,
+    "sig": "9bff2b271d1d74"
+   },
+   "Hayır! Sen: ellerine sağlık. Farzad: afiyet olsun.": {
+    "f": "6396592f90dd98.m4a",
+    "ms": 3536,
+    "sig": "f0e519c28b953e"
+   },
+   "Evet! Ellerine sağlık, Farzad!": {
+    "f": "9d6fc6760837ad.m4a",
+    "ms": 2300,
+    "sig": "c2a44c6e1180ff"
+   },
+   "Hoşça kalın!": {
+    "f": "65650ab256ab60.m4a",
+    "ms": 2727,
+    "sig": "076fd6cbd2c1a7"
+   },
+   "Hoş bulduk! Nima, buyur… çiçekler!": {
+    "f": "235032755a532b.m4a",
+    "ms": 3398,
+    "sig": "c1dd5cd417b926"
+   }
+  },
+  "farzad": {
+   "Hoş geldiniz!": {
+    "f": "be684cc4614b3e.m4a",
+    "ms": 1139,
+    "sig": "578ff2d76b38c1"
+   },
+   "Bavullar! Çok bavul!": {
+    "f": "fb28567d377526.m4a",
+    "ms": 1679,
+    "sig": "fb6b6c2c190067"
+   },
+   "Bu pilav! Tavuk, salata… afiyet olsun!": {
+    "f": "bcdc9704ab744b.m4a",
+    "ms": 4007,
+    "sig": "ddda9a760482b1"
+   },
+   "Afiyet olsun!": {
+    "f": "fd11ca7ef10a72.m4a",
+    "ms": 2935,
+    "sig": "864c80e3ddb0a3"
+   },
+   "Yemek nasıl?": {
+    "f": "3e77bfa94740df.m4a",
+    "ms": 1724,
+    "sig": "af95e2cea9580c",
+    "doubt": "heard \"Yemek Masalı\""
+   },
+   "Çay! Dört bardak.": {
+    "f": "06e1f77267556f.m4a",
+    "ms": 3259,
+    "sig": "9c479f20338a22"
+   },
+   "Hafız! Çok güzel, teşekkür ederim!": {
+    "f": "e61eab8ea17f31.m4a",
+    "ms": 3237,
+    "sig": "1097a13e7d992f"
+   }
+  },
+  "rayan": {
+   "Bu ne?": {
+    "f": "f27e3f8f5ee335.m4a",
+    "ms": 761,
+    "sig": "fb942574526e46"
+   },
+   "Top! Kırmızı top!": {
+    "f": "0224d6dfcefed5.m4a",
+    "ms": 1721,
+    "sig": "d6d597af8c4c75"
+   },
+   "Pilav!": {
+    "f": "a75dbefc22c8df.m4a",
+    "ms": 810,
+    "sig": "84fb9f1d139caf"
+   },
+   "Bir, iki, üç, dört!": {
+    "f": "557359e30a4a02.m4a",
+    "ms": 2310,
+    "sig": "c376bcea036e0c"
+   }
+  },
+  "kerim": {
+   "Bir hafta. Yeni bir ev… yeni arkadaşlar.": {
+    "f": "b22fc36ca58d9c.m4a",
+    "ms": 4003,
+    "sig": "decfbb15757bc1"
+   },
+   "İyi akşamlar! Bu ev… Farzad ve Nima. Bu akşam: yemek!": {
+    "f": "94dee1ae902a96.m4a",
+    "ms": 4741,
+    "sig": "6e4061b03b9d22"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

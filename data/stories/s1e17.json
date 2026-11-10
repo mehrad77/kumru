@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new home, a new way",
     "fa": "خانه‌ی نو، راهِ نو",
+    "ru": "Новый дом, новый путь",
     "id": "s1w03",
     "mechanics": [
       "say",
@@ -22,6 +23,7 @@
     {
       "en": "Look! What are the cats doing?",
       "fa": "نگاه کن! گربه‌ها چی‌کار می‌کنن؟",
+      "ru": "Смотри! Что делают кошки?",
       "narr": true,
       "tr": "Bak! Kediler ne yapıyor?",
       "who": "kerim"
@@ -34,11 +36,13 @@
           {
             "en": "The cats are sleeping.",
             "fa": "گربه‌ها خوابن.",
+            "ru": "Кошки спят.",
             "ok": true,
             "reply": [
               {
                 "en": "Yes! The cats are sleeping.",
                 "fa": "آره! گربه‌ها خوابن.",
+                "ru": "Да! Кошки спят.",
                 "narr": true,
                 "tr": "Evet! Kediler uyuyor.",
                 "who": "kerim"
@@ -50,10 +54,12 @@
           {
             "en": "The cats to sleep.",
             "fa": "گربه‌ها «خوابیدن».",
+            "ru": "Кошки спать.",
             "reply": [
               {
                 "en": "“To sleep”? No… the cats are sleeping!",
                 "fa": "«خوابیدن»؟ نه… گربه‌ها خوابن!",
+                "ru": "«Спать»? Нет… кошки спят!",
                 "narr": true,
                 "tr": "Uyumak mı? Hayır… kediler uyuyor!",
                 "who": "kerim"
@@ -68,6 +74,7 @@
     {
       "en": "And Dilnoza? What's she doing?",
       "fa": "دلنوزا چی؟ داره چی‌کار می‌کنه؟",
+      "ru": "А Дилноза? Что она делает?",
       "narr": true,
       "tr": "Peki Dilnoza? Ne yapıyor?",
       "who": "kerim"
@@ -75,12 +82,14 @@
     {
       "en": "Dilnoza's walking!",
       "fa": "دلنوزا داره راه می‌ره!",
+      "ru": "Дилноза идёт!",
       "tr": "Dilnoza yürüyor!",
       "who": "nima"
     },
     {
       "en": "Yes! Coo-coo!",
       "fa": "آره! کو-کو!",
+      "ru": "Да! Ку-ку!",
       "narr": true,
       "tr": "Evet! Ku-ku!",
       "who": "kerim"
@@ -89,34 +98,42 @@
   "gl": {
     "ağaca": {
       "fa": "به درخت",
+      "ru": "к дереву",
       "en": "to the tree"
     },
     "boğaz": {
       "fa": "بسفر",
+      "ru": "Босфор",
       "en": "the Bosphorus"
     },
     "kilise": {
       "fa": "کلیسا",
+      "ru": "церковь",
       "en": "church"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "maria": {
       "fa": "ماریا (همسایه‌ی طبقه‌ی پنجم)",
+      "ru": "Мария (соседка с пятого этажа)",
       "en": "Maria (the neighbour on the fifth floor)"
     },
     "musun": {
       "fa": "(نشانه‌ی سؤال) …ی؟",
+      "ru": "(вопросительное слово) ты…?",
       "en": "(question word) are you…?"
     },
     "ses": {
       "fa": "صدا",
+      "ru": "звук",
       "en": "sound"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     }
   },
@@ -174,7 +191,8 @@
       "q": {
         "tr": "Dilnoza: “Pastane! … istiyor musun?”",
         "en": "Dilnoza: “A patisserie! Do you want to go in?” Which word fits?",
-        "fa": "دلنوزا: «شیرینی‌فروشی! می‌خوای بریم تو؟» کدام کلمه درست است؟"
+        "fa": "دلنوزا: «شیرینی‌فروشی! می‌خوای بریم تو؟» کدام کلمه درست است؟",
+        "ru": "Дилноза: «Кондитерская! Хочешь …?» Какое слово подходит?"
       },
       "why": "Dilnoza: “Girmek istiyor musun?”"
     },
@@ -189,7 +207,8 @@
       "q": {
         "tr": "Nima pasta veriyor. Dilnoza: “…”",
         "en": "Nima offers the cake. What does Dilnoza say first?",
-        "fa": "نیما کیک تعارف می‌کند. دلنوزا اول چه می‌گوید؟"
+        "fa": "نیما کیک تعارف می‌کند. دلنوزا اول چه می‌گوید؟",
+        "ru": "Нима предлагает торт. Что Дилноза говорит сначала?"
       },
       "why": "Dilnoza: “Yok, yok… istemiyorum, teşekkürler.”"
     }
@@ -213,6 +232,7 @@
       "cam": "wide",
       "en": "Friday! No school, lovely weather. What's Nima doing? Nima's out exploring!",
       "fa": "جمعه! مدرسه تعطیله، هوا خوبه. نیما چی‌کار می‌کنه؟ نیما داره گردش می‌کنه!",
+      "ru": "Пятница! Уроков нет, погода чудесная. Что делает Нима? Нима гуляет!",
       "narr": true,
       "tr": "Cuma! Okul yok, hava güzel. Nima ne yapıyor? Nima geziyor!",
       "who": "kerim"
@@ -221,6 +241,7 @@
       "emo": "curious",
       "en": "Where are we walking to?",
       "fa": "پیاده کجا می‌ریم؟",
+      "ru": "Куда мы идём?",
       "to": "nima",
       "tr": "Nereye yürüyoruz?",
       "who": "dilnoza"
@@ -229,6 +250,7 @@
       "emo": "happy",
       "en": "To the Bosphorus! I want to drink tea!",
       "fa": "بسفر! می‌خوام چای بخورم!",
+      "ru": "К Босфору! Хочу пить чай!",
       "to": "dilnoza",
       "tr": "Boğaz'a! Çay içmek istiyorum!",
       "who": "nima"
@@ -237,8 +259,9 @@
       "at": "ch:passenger_1",
       "do": "point",
       "emo": "happy",
-      "en": "The cats are asleep… And what are they doing?",
-      "fa": "گربه‌ها خوابن… اونا چی‌کار می‌کنن؟",
+      "en": "Look, the cats are asleep! And what are they doing?",
+      "fa": "ببین، گربه‌ها خوابن! اونا چی‌کار می‌کنن؟",
+      "ru": "Смотри, кошки спят! А те что делают?",
       "link": {
         "kediler": "obj:cats"
       },
@@ -249,7 +272,7 @@
       },
       "on": "onlar",
       "to": "nima",
-      "tr": "Kediler uyuyor… Peki onlar ne yapıyor?",
+      "tr": "Bak, kediler uyuyor! Peki onlar ne yapıyor?",
       "who": "dilnoza"
     },
     {
@@ -258,6 +281,7 @@
       "emo": "happy",
       "en": "They're playing!",
       "fa": "دارن بازی می‌کنن!",
+      "ru": "Играют!",
       "link": {
         "oynuyorlar": "obj:oyun"
       },
@@ -292,6 +316,7 @@
       "emo": "curious",
       "en": "What's that sound? Do you know?",
       "fa": "این صدا چیه؟ می‌دونی؟",
+      "ru": "Что это за звук? Знаешь?",
       "move": {
         "how": "walk",
         "to": "church_gate",
@@ -307,6 +332,7 @@
       "emo": "proud",
       "en": "A church!",
       "fa": "کلیسا!",
+      "ru": "Церковь!",
       "move": {
         "how": "walk",
         "to": "walk_l",
@@ -320,6 +346,7 @@
       "cam": "follow",
       "en": "Look at the tree! Kerim's here!",
       "fa": "درخت رو نگاه کن! کریم این‌جاست!",
+      "ru": "Посмотри на дерево! Керим здесь!",
       "move": {
         "how": "fly",
         "to": "tree",
@@ -335,6 +362,7 @@
       "emo": "happy",
       "en": "A patisserie! Do you like cake? Do you want to go in?",
       "fa": "شیرینی‌فروشی! کیک دوست داری؟ می‌خوای بریم تو؟",
+      "ru": "Кондитерская! Любишь торты? Хочешь зайти?",
       "to": "nima",
       "tr": "Pastane! Pasta seviyor musun? Girmek istiyor musun?",
       "who": "dilnoza"
@@ -344,6 +372,7 @@
       "emo": "happy",
       "en": "Yes! I love it!",
       "fa": "آره! خیلی دوست دارم!",
+      "ru": "Да! Очень люблю!",
       "to": "dilnoza",
       "tr": "Evet! Çok seviyorum!",
       "who": "nima"
@@ -403,6 +432,7 @@
       "emo": "shy",
       "en": "No, no… I don't want any, thanks.",
       "fa": "نه، نه… نمی‌خوام، مرسی.",
+      "ru": "Нет, нет… не хочу, спасибо.",
       "to": "nima",
       "tr": "Yok, yok… istemiyorum, teşekkürler.",
       "who": "dilnoza"
@@ -417,6 +447,7 @@
             "emo": "happy",
             "en": "Do you want a little? Please!",
             "fa": "یه کم می‌خوای؟ تو رو خدا!",
+            "ru": "Хочешь немножко? Ну пожалуйста!",
             "ok": true,
             "react": {
               "dilnoza": {
@@ -428,6 +459,7 @@
                 "emo": "happy",
                 "en": "…Okay, a little!",
                 "fa": "…باشه، یه کم!",
+                "ru": "…Ладно, немножко!",
                 "obj": [
                   {
                     "id": "dilim",
@@ -453,6 +485,7 @@
             "emo": "happy",
             "en": "Okay!",
             "fa": "باشه!",
+            "ru": "Ладно!",
             "react": {
               "dilnoza": {
                 "emo": "sad"
@@ -470,6 +503,7 @@
               {
                 "en": "Coo-coo… Dilnoza's looking at the cake…",
                 "fa": "کو-کو… دلنوزا داره به کیک نگاه می‌کنه…",
+                "ru": "Ку-ку… Дилноза смотрит на торт…",
                 "narr": true,
                 "tr": "Ku-kuu… Dilnoza pastaya bakıyor…",
                 "who": "kerim"
@@ -482,6 +516,7 @@
             "emo": "neutral",
             "en": "Eat!",
             "fa": "بخور!",
+            "ru": "Ешь!",
             "react": {
               "dilnoza": {
                 "emo": "nervous"
@@ -493,6 +528,7 @@
                 "emo": "shy",
                 "en": "…All right.",
                 "fa": "…باشه.",
+                "ru": "…Ну хорошо.",
                 "to": "nima",
                 "tr": "…Peki.",
                 "who": "dilnoza"
@@ -510,6 +546,7 @@
         "en": "The whole week in one line: Nima Feriköy'den pastaneye yürüyor. Pasta yemek istiyor. Dilnoza istemiyor… istiyor! And today's softening: a hard p, ç, t or k at the end turns soft before a vowel: ağaç → ağaca, gitmek → gidiyorum.",
         "ex": "Ağaca bak!",
         "fa": "همه‌ی این هفته در یک جمله: Nima Feriköy'den pastaneye yürüyor. Pasta yemek istiyor. Dilnoza istemiyor… istiyor! (نیما از فری‌کؤی تا شیرینی‌فروشی پیاده می‌رود. می‌خواهد کیک بخورد. دلنوزا نمی‌خواهد… می‌خواهد!) و نرم‌شدنِ امروز: اگر کلمه به p، ç، t یا k ختم شود، این حرف قبل از حرفِ صدادار نرم می‌شود: ağaç ← ağaca، gitmek ← gidiyorum.",
+        "ru": "Вся неделя в одной строке: Nima Feriköy'den pastaneye yürüyor. Pasta yemek istiyor. Dilnoza istemiyor… istiyor! И сегодняшнее смягчение: твёрдые p, ç, t или k на конце перед гласной становятся мягкими: ağaç → ağaca, gitmek → gidiyorum.",
         "lesson": "g_a1_3_unsuz"
       }
     },
@@ -526,6 +563,7 @@
       "emo": "laugh",
       "en": "The Bosphorus? It's so far!",
       "fa": "بسفر؟ خیلی دوره!",
+      "ru": "Босфор? Это так далеко!",
       "to": "nima",
       "tr": "Boğaz? Çok uzak!",
       "who": "dilnoza"
@@ -534,6 +572,7 @@
       "emo": "laugh",
       "en": "The Bosphorus… another day!",
       "fa": "بسفر… یه روزِ دیگه!",
+      "ru": "Босфор… в другой раз!",
       "to": "dilnoza",
       "tr": "Boğaz… başka bir gün!",
       "who": "nima"
@@ -543,6 +582,7 @@
       "emo": "happy",
       "en": "Bye!",
       "fa": "خداحافظ!",
+      "ru": "Пока!",
       "to": "nima",
       "tr": "Hoşça kal!",
       "who": "dilnoza"
@@ -552,6 +592,7 @@
       "emo": "happy",
       "en": "Bye-bye! Tomorrow… I'm going to Maria Teyze's!",
       "fa": "به سلامت! فردا… می‌رم پیشِ خاله ماریا!",
+      "ru": "Счастливо! Завтра… я иду к тёте Марии!",
       "to": "dilnoza",
       "tr": "Güle güle! Yarın… Maria Teyze'ye gidiyorum!",
       "who": "nima"
@@ -559,12 +600,14 @@
   ],
   "summary": {
     "en": "No class on Friday: Nima and Dilnoza set off for the Bosphorus on foot, but Feriköy keeps stopping them: sleeping cats, two men playing, a church bell, a Rum patisserie and one big cake.",
-    "fa": "جمعه کلاس نیست: نیما و دلنوزا پیاده راهِ بسفر را می‌گیرند، ولی فری‌کؤی مدام نگهشان می‌دارد: گربه‌های خواب، دو پیرمردِ سرگرمِ بازی، زنگِ یک کلیسا، یک شیرینی‌فروشیِ رومی و یک کیکِ بزرگ."
+    "fa": "جمعه کلاس نیست: نیما و دلنوزا پیاده راهِ بسفر را می‌گیرند، ولی فری‌کؤی مدام نگهشان می‌دارد: گربه‌های خواب، دو پیرمردِ سرگرمِ بازی، زنگِ یک کلیسا، یک شیرینی‌فروشیِ رومی و یک کیکِ بزرگ.",
+    "ru": "В пятницу уроков нет: Нима и Дилноза идут пешком к Босфору, но Ферикёй их всё время останавливает: спящие кошки, двое мужчин за игрой, церковный колокол, греческая кондитерская и один большой торт."
   },
   "title": {
     "tr": "Pasta istiyor musun?",
     "en": "Do you want some cake?",
-    "fa": "کیک می‌خواهی؟"
+    "fa": "کیک می‌خواهی؟",
+    "ru": "Хочешь торт?"
   },
   "words": [
     "a1-w-oynamak",

@@ -12,7 +12,7 @@ export function Explain({ fa, en, cls }: { fa?: string; en?: string; cls?: strin
   return (
     <div class={cls || "ai-expl"}>
       {(L === "fa" || L === "both") && fa ? <div class="fa" lang="fa" dir="rtl">{faTxt(fa)}</div> : null}
-      {(L === "en" || L === "both" || !fa) && en ? <div class="en">{bidiTxt(en)}</div> : null}
+      {(L === "en" || L === "ru" || L === "both" || !fa) && en ? <div class="en">{bidiTxt(en)}</div> : null}
     </div>
   );
 }

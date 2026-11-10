@@ -1,0 +1,108 @@
+{
+ "story": "s1e10",
+ "lines": {
+  "zafer": {
+   "Ben doktorum. Hasta var mı?": {
+    "f": "b7baa08c9ceb4f.m4a",
+    "ms": 2539,
+    "sig": "89897d76f69828"
+   },
+   "Ben aşçıyım!": {
+    "f": "8b0d96c5fcd46d.m4a",
+    "ms": 2233,
+    "sig": "1067f61feca904"
+   },
+   "Ben polisim!": {
+    "f": "f2532e81b0f4e1.m4a",
+    "ms": 2992,
+    "sig": "425daffed44d09"
+   },
+   "Ben şoförüm! Siz öğrenci misiniz?": {
+    "f": "b3c6a7de0f130a.m4a",
+    "ms": 2426,
+    "sig": "fab8daa9ff3a36"
+   },
+   "…Sen mi? Ben şoförüm.": {
+    "f": "60ec27bddd9397.m4a",
+    "ms": 4922,
+    "sig": "a4609f71b80cbb"
+   },
+   "Siz… öğrenci misiniz?": {
+    "f": "bd4327cdb85d4b.m4a",
+    "ms": 1761,
+    "sig": "34c652504808d0"
+   },
+   "Çok gençsiniz! Yorgun musunuz?": {
+    "f": "a6be5bb72b98cd.m4a",
+    "ms": 3031,
+    "sig": "22b4bb21a518fb"
+   },
+   "“Ne iş yapıyorsunuz?” …Ben şoförüm. Siz öğrenci misiniz?": {
+    "f": "dac20afd09cd8c.m4a",
+    "ms": 8220,
+    "sig": "95fc7ca82967f2"
+   },
+   "Evet: bir, iki, üç. Hayır: bir… Alex?": {
+    "f": "e8579c90b36e41.m4a",
+    "ms": 3681,
+    "sig": "ddcf65542f9ea2"
+   }
+  },
+  "parvaneh": {
+   "Siz!": {
+    "f": "08e1184ec4a194.m4a",
+    "ms": 566,
+    "sig": "75a2f334ca5658"
+   },
+   "Evet! Çok güzel!": {
+    "f": "404f1a2179af27.m4a",
+    "ms": 1962,
+    "sig": "507d48caa2feec"
+   },
+   "Asansör yok… yorgunsun, Alex!": {
+    "f": "fcdac6be536ac5.m4a",
+    "ms": 3136,
+    "sig": "aa3ba6f9d757fa"
+   }
+  },
+  "alex": {
+   "Dördüncü kat? Hayır!": {
+    "f": "9efee3521022aa.m4a",
+    "ms": 1447,
+    "sig": "552154ff7ec6c8"
+   }
+  },
+  "farzad": {
+   "Hmm. Mutlu musun?": {
+    "f": "a8f338270eba06.m4a",
+    "ms": 1637,
+    "sig": "9b399c01b49f6f"
+   },
+   "Yirmi bin lira? Ben mühendisim… ama pahalı! Sen öğrencisin, Nima.": {
+    "f": "de0c61916ac6aa.m4a",
+    "ms": 6309,
+    "sig": "ea89cf47df9955"
+   },
+   "Tamam! Cuma: evet!": {
+    "f": "52cc33a5769ace.m4a",
+    "ms": 1382,
+    "sig": "80ac16da4d706b"
+   }
+  },
+  "kerim": {
+   "Dördüncü kat… ve çatıda Kerim. Yeni bir komşu!": {
+    "f": "e0cf63a23f2d6a.m4a",
+    "ms": 3586,
+    "sig": "758f16bcb9607f"
+   },
+   "Ben bir kuşum. Sen öğrencisin. Biz… arkadaşız!": {
+    "f": "c3d9b1a19d3531.m4a",
+    "ms": 3663,
+    "sig": "24fe5609bd9cc1"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

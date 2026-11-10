@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new family",
     "fa": "یک خانواده‌ی تازه",
+    "ru": "Новая семья",
     "id": "s1w04",
     "mechanics": [
       "say",
@@ -25,6 +26,7 @@
     {
       "en": "Now you, Nima: library… go?",
       "fa": "حالا شما، نیما: کتابخانه… بروید؟",
+      "ru": "А теперь вы, Нима: библиотека… идите?",
       "to": "nima",
       "tr": "Şimdi siz, Nima: kütüphane… gidin?",
       "who": "zafer"
@@ -37,6 +39,7 @@
           {
             "en": "Go to the library!",
             "fa": "به کتابخانه بروید!",
+            "ru": "Идите в библиотеку!",
             "ok": true,
             "react": {
               "zafer": {
@@ -48,6 +51,7 @@
               {
                 "en": "Yes! To the library.",
                 "fa": "بله! به کتابخانه.",
+                "ru": "Да! В библиотеку.",
                 "to": "nima",
                 "tr": "Evet! Kütüphaneye.",
                 "who": "zafer"
@@ -59,6 +63,7 @@
           {
             "en": "Go in the library!",
             "fa": "در کتابخانه بروید!",
+            "ru": "Идите в библиотеке!",
             "react": {
               "zafer": "confused"
             },
@@ -66,6 +71,7 @@
               {
                 "en": "No, go to the library!",
                 "fa": "نه، به کتابخانه بروید!",
+                "ru": "Нет, идите в библиотеку!",
                 "to": "nima",
                 "tr": "Hayır, kütüphaneye gidin!",
                 "who": "zafer"
@@ -81,6 +87,7 @@
     {
       "en": "And “durak”? The stop… there's a blue box.",
       "fa": "و «durak»؟ ایستگاه… یه جعبه‌ی آبی هست.",
+      "ru": "А «durak»? Остановка… есть синяя коробка.",
       "to": "nima",
       "tr": "Ve “durak”? Durak… mavi bir kutu var.",
       "who": "zafer"
@@ -88,6 +95,7 @@
     {
       "en": "There's a blue box at the stop!",
       "fa": "توی ایستگاه یه جعبه‌ی آبی هست!",
+      "ru": "На остановке есть синяя коробка!",
       "to": "zafer",
       "tr": "Durakta mavi bir kutu var!",
       "who": "nima"
@@ -95,6 +103,7 @@
     {
       "en": "Very good, Nima!",
       "fa": "خیلی خوب، نیما!",
+      "ru": "Очень хорошо, Нима!",
       "to": "nima",
       "tr": "Çok güzel, Nima!",
       "who": "zafer"
@@ -103,126 +112,157 @@
   "gl": {
     "alın": {
       "fa": "بردارید",
+      "ru": "возьмите (указание)",
       "en": "take (an instruction)"
     },
     "avı": {
       "fa": "شکارِ… (hazine avı: گنج‌یابی)",
+      "ru": "охота (hazine avı: охота за сокровищами)",
       "en": "hunt (hazine avı: a treasure hunt)"
     },
     "bekleyelim": {
       "fa": "صبر کنیم",
+      "ru": "давайте подождём",
       "en": "let's wait"
     },
     "birincisiniz": {
       "fa": "اول هستید",
+      "ru": "вы первые",
       "en": "you're first"
     },
     "bulun": {
       "fa": "پیدا کنید",
+      "ru": "найдите (указание)",
       "en": "find (an instruction)"
     },
     "düşünme": {
       "fa": "فکر نکن",
+      "ru": "не думай",
       "en": "don't think"
     },
     "ederiz": {
       "fa": "…می‌کنیم (teşekkür ederiz: ممنونیم)",
+      "ru": "делаем (teşekkür ederiz: спасибо от нас)",
       "en": "we do (teşekkür ederiz: thank you, from us)"
     },
     "ediyor": {
       "fa": "می‌کند (با takip)",
+      "ru": "делает (с takip: следит, идёт следом)",
       "en": "does (with takip: is following)"
     },
     "gidin": {
       "fa": "بروید",
+      "ru": "идите (указание)",
       "en": "go (an instruction)"
     },
     "hadi": {
       "fa": "یالا؛ زود باش",
+      "ru": "давай!",
       "en": "come on!"
     },
     "hazine": {
       "fa": "گنج",
+      "ru": "сокровище",
       "en": "treasure"
     },
     "hepiniz": {
       "fa": "همه‌تان",
+      "ru": "вы все",
       "en": "all of you"
     },
     "herkese": {
       "fa": "به همه",
+      "ru": "всем",
       "en": "to everyone"
     },
     "hey": {
       "fa": "هی!",
+      "ru": "эй!",
       "en": "hey!"
     },
     "hocam": {
       "fa": "استاد (خطاب به معلم)",
+      "ru": "учитель (обращение к учителю)",
       "en": "teacher (addressing your teacher)"
     },
     "kazanın": {
       "fa": "ببرید (برنده شوید)",
+      "ru": "побеждайте (указание)",
       "en": "win (an instruction)"
     },
     "kitabı": {
       "fa": "کتاب را",
+      "ru": "книгу (как объект)",
       "en": "the book (as the object)"
     },
     "kitapta": {
       "fa": "توی کتاب",
+      "ru": "в книге",
       "en": "in the book"
     },
     "koşalım": {
       "fa": "بدوییم",
+      "ru": "давайте бежать, бежим!",
       "en": "let's run"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "kutunun": {
       "fa": "…ِ جعبه (kutunun içinde: توی جعبه)",
+      "ru": "коробки (kutunun içinde: внутри коробки)",
       "en": "of the box (kutunun içinde: inside the box)"
     },
     "lokum": {
       "fa": "راحت‌الحلقوم",
+      "ru": "лукум",
       "en": "Turkish delight"
     },
     "neredesiniz": {
       "fa": "کجایید؟",
+      "ru": "где вы? (siz)",
       "en": "where are you? (siz)"
     },
     "neredeyiz": {
       "fa": "کجاییم؟",
+      "ru": "где мы?",
       "en": "where are we?"
     },
     "peçete": {
       "fa": "دستمال‌کاغذی",
+      "ru": "бумажная салфетка",
       "en": "paper napkin"
     },
     "peçetede": {
       "fa": "روی دستمال‌کاغذی",
+      "ru": "на салфетке",
       "en": "on the napkin"
     },
     "takip": {
       "fa": "دنبال (takip ediyor: دنبال می‌کند)",
+      "ru": "следование (takip ediyor: идёт следом)",
       "en": "following (takip ediyor: is following)"
     },
     "takım": {
       "fa": "تیم",
+      "ru": "команда",
       "en": "team"
     },
     "yorgunum": {
       "fa": "خسته‌ام",
+      "ru": "я устал(а)",
       "en": "I'm tired"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя)",
       "en": "Zafer (a name)"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     }
   },
@@ -392,7 +432,8 @@
       "q": {
         "tr": "“Kütüphaneye gidin. Kırmızı kitabı …”",
         "en": "“Go to the library. … the red book.”",
-        "fa": "«برید کتابخونه. کتابِ قرمز رو …»"
+        "fa": "«برید کتابخونه. کتابِ قرمز رو …»",
+        "ru": "«Идите в библиотеку. … красную книгу.»"
       },
       "options": [
         "bulun",
@@ -407,7 +448,8 @@
       "q": {
         "tr": "Zafer Hoca herkese ne veriyor?",
         "en": "What does Zafer Hoca give everyone?",
-        "fa": "استاد ظفر به همه چی می‌ده؟"
+        "fa": "استاد ظفر به همه چی می‌ده؟",
+        "ru": "Что Зафер дарит всем?"
       },
       "options": [
         "Bir kitap ve çay",
@@ -454,6 +496,7 @@
     {
       "en": "It's Saturday… but there's school! A treasure hunt!",
       "fa": "امروز شنبه‌ست… ولی مدرسه داریم! گنج‌یابی!",
+      "ru": "Сегодня суббота… но занятия есть! Охота за сокровищами!",
       "narr": true,
       "tr": "Bugün cumartesi… ama okul var! Hazine avı!",
       "who": "kerim"
@@ -462,6 +505,7 @@
       "emo": "happy",
       "en": "Today there's a contest! Nima, Dilnoza and Yusuf are one team. Parvaneh and Alex… but Parvaneh counts as two!",
       "fa": "امروز یه مسابقه داریم! نیما، دلنوزا و یوسف یه تیمن. پروانه و الکس… ولی پروانه خودش دو نفره!",
+      "ru": "Сегодня соревнование! Нима, Дилноза и Юсуф — одна команда. Парване и Алекс… но Парване — за двоих!",
       "obj": [
         {
           "id": "zarf",
@@ -494,6 +538,7 @@
       "emo": "curious",
       "en": "“Go to the library. Find the red book.”",
       "fa": "«به کتابخانه بروید. کتابِ قرمز را پیدا کنید.»",
+      "ru": "«Идите в библиотеку. Найдите красную книгу.»",
       "to": "all",
       "tr": "“Kütüphaneye gidin. Kırmızı kitabı bulun.”",
       "who": "nima"
@@ -503,6 +548,7 @@
       "emo": "tired",
       "en": "One minute… I'm thinking.",
       "fa": "یه دقیقه… دارم فکر می‌کنم.",
+      "ru": "Минутку… я думаю.",
       "tempo": 0.8,
       "to": "parvaneh",
       "tr": "Bir dakika… düşünüyorum.",
@@ -513,6 +559,7 @@
       "emo": "laugh",
       "en": "Don't think, Alex! Come on, let's go!",
       "fa": "فکر نکن، الکس! یالا، بیا!",
+      "ru": "Не думай, Алекс! Давай, пошли!",
       "to": "alex",
       "tr": "Düşünme, Alex! Hadi, gel!",
       "who": "parvaneh"
@@ -534,6 +581,7 @@
       "emo": "happy",
       "en": "The red book… it's here! There's a message in the book!",
       "fa": "کتابِ قرمز… این‌جاست! توی کتاب یه پیغام هست!",
+      "ru": "Красная книга… вот она! В книге записка!",
       "link": {
         "kitap": "obj:kirmizi_kitap",
         "kitapta": "obj:kirmizi_kitap"
@@ -555,6 +603,7 @@
       "emo": "curious",
       "en": "“Take a napkin from the café. There's a word on the napkin.”",
       "fa": "«از کافه یک دستمال‌کاغذی بردارید. روی دستمال یک کلمه هست.»",
+      "ru": "«Возьмите салфетку в кафе. На салфетке есть слово.»",
       "obj": [
         {
           "id": "ipucu_2",
@@ -570,6 +619,7 @@
       "emo": "happy",
       "en": "A café… on İstiklal! Let's go!",
       "fa": "کافه… توی استقلال! بریم!",
+      "ru": "Кафе… на Истикляле! Идём!",
       "react": {
         "librarian_bu": "shush"
       },
@@ -592,10 +642,11 @@
       "at": "obj:pecete",
       "do": "hold_up",
       "emo": "proud",
-      "en": "The napkin: “STOP”!",
+      "en": "The napkin says “STOP”!",
       "fa": "روی دستمال نوشته: «ایستگاه»!",
+      "ru": "На салфетке написано «DURAK»!",
       "link": {
-        "peçete": "obj:pecete"
+        "peçetede": "obj:pecete"
       },
       "obj": [
         {
@@ -604,7 +655,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Peçete: “DURAK”!",
+      "tr": "Peçetede “DURAK” yazıyor!",
       "who": "dilnoza"
     },
     {
@@ -613,6 +664,7 @@
       "emo": "curious",
       "en": "Where's the stop? …Nima, you ask!",
       "fa": "ایستگاه کجاست؟ …نیما، تو بپرس!",
+      "ru": "Где остановка? …Нима, спроси ты!",
       "to": "nima",
       "tr": "Durak nerede? …Nima, sen sor!",
       "who": "yusuf"
@@ -631,6 +683,7 @@
       "emo": "nervous",
       "en": "…",
       "fa": "…",
+      "ru": "…",
       "to": "passerby_1",
       "tr": "…",
       "voice": "silent",
@@ -640,6 +693,7 @@
       "emo": "sad",
       "en": "Nima is thinking… thinking…",
       "fa": "نیما داره فکر می‌کنه… فکر می‌کنه…",
+      "ru": "Нима думает… думает…",
       "narr": true,
       "tr": "Nima düşünüyor… düşünüyor…",
       "who": "kerim"
@@ -648,6 +702,7 @@
       "emo": "shy",
       "en": "Excuse me…",
       "fa": "ببخشید…",
+      "ru": "Извините…",
       "move": {
         "how": "walk",
         "to": "corner",
@@ -669,6 +724,7 @@
             "emo": "shy",
             "en": "Excuse me, where's the stop?",
             "fa": "ببخشید، ایستگاه کجاست؟",
+            "ru": "Извините, где остановка?",
             "ok": true,
             "react": {
               "dilnoza": {
@@ -689,6 +745,7 @@
                 "emo": "happy",
                 "en": "Over there! Thank you!",
                 "fa": "اون‌جا! ممنونیم!",
+                "ru": "Вон там! Спасибо вам!",
                 "to": "nima",
                 "tr": "Orada! Teşekkür ederiz!",
                 "who": "dilnoza"
@@ -701,6 +758,7 @@
             "emo": "nervous",
             "en": "Where's the stop?",
             "fa": "ایستگاه کجاست؟",
+            "ru": "Где остановка?",
             "react": {
               "dilnoza": {
                 "emo": "shy"
@@ -719,6 +777,7 @@
                 "emo": "neutral",
                 "en": "Over there? Thanks!",
                 "fa": "اون‌جا؟ ممنون!",
+                "ru": "Там? Спасибо!",
                 "to": "passerby_1",
                 "tr": "Orada mı? Teşekkürler!",
                 "who": "yusuf"
@@ -731,6 +790,7 @@
             "emo": "nervous",
             "en": "Hey! The stop!",
             "fa": "هی! ایستگاه!",
+            "ru": "Эй! Остановка!",
             "react": {
               "dilnoza": {
                 "emo": "surprised"
@@ -748,6 +808,7 @@
                 "emo": "shy",
                 "en": "Excuse me… where's the stop?",
                 "fa": "ببخشید… ایستگاه کجاست؟",
+                "ru": "Извините… где остановка?",
                 "to": "passerby_1",
                 "tr": "Affedersiniz… durak nerede?",
                 "who": "dilnoza"
@@ -791,6 +852,7 @@
       "emo": "surprised",
       "en": "There's a blue box at the stop!",
       "fa": "توی ایستگاه یه جعبه‌ی آبی هست!",
+      "ru": "На остановке синяя коробка!",
       "link": {
         "kutu": "obj:mavi_kutu"
       },
@@ -805,6 +867,7 @@
       "emo": "happy",
       "en": "Inside the box… “Go to Şişhane. Find Zafer Hoca!”",
       "fa": "توی جعبه… «به شیشهانه بروید. استاد ظفر را پیدا کنید!»",
+      "ru": "В коробке… «Идите в Шишхане. Найдите Зафера!»",
       "obj": [
         {
           "id": "ipucu_3",
@@ -838,6 +901,7 @@
       "emo": "curious",
       "en": "That bird… is it following us?",
       "fa": "اون پرنده… داره ما رو دنبال می‌کنه؟",
+      "ru": "Эта птица… она летит за нами?",
       "link": {
         "kuş": "ch:kerim"
       },
@@ -849,6 +913,7 @@
       "emo": "happy",
       "en": "Me? No… coo-coo.",
       "fa": "من؟ نه… کو-کوو.",
+      "ru": "Я? Нет… ку-ку.",
       "move": {
         "how": "fly",
         "to": "ahead",
@@ -877,6 +942,7 @@
       "emo": "nervous",
       "en": "Nima! Where are you? Where… are we?!",
       "fa": "نیما! کجایید؟ ما… کجاییم؟!",
+      "ru": "Нима! Где вы? А мы… где мы?!",
       "to": "nima",
       "tr": "Nima! Neredesiniz? Biz… neredeyiz?!",
       "via": "phone",
@@ -891,6 +957,7 @@
             "emo": "happy",
             "en": "Let's wait! Together!",
             "fa": "صبر کنیم! با هم!",
+            "ru": "Подождём! Вместе!",
             "ok": true,
             "react": {
               "dilnoza": {
@@ -906,6 +973,7 @@
                 "emo": "happy",
                 "en": "Thanks, Nima! We're coming!",
                 "fa": "مرسی، نیما! داریم می‌آییم!",
+                "ru": "Спасибо, Нима! Мы идём!",
                 "to": "nima",
                 "tr": "Teşekkürler, Nima! Geliyoruz!",
                 "via": "phone",
@@ -919,6 +987,7 @@
             "emo": "happy",
             "en": "Let's run! We're first!",
             "fa": "بدوییم! ما اولیم!",
+            "ru": "Бежим! Мы первые!",
             "react": {
               "dilnoza": {
                 "emo": "confused"
@@ -932,6 +1001,7 @@
                 "emo": "laugh",
                 "en": "We're running!",
                 "fa": "داریم می‌دوییم!",
+                "ru": "Бежим!",
                 "to": "nima",
                 "tr": "Koşuyoruz!",
                 "who": "yusuf"
@@ -944,6 +1014,7 @@
             "emo": "happy",
             "en": "Go on, you win!",
             "fa": "باشه، شما ببرید!",
+            "ru": "Давайте, побеждайте вы!",
             "react": {
               "dilnoza": {
                 "emo": "surprised"
@@ -957,6 +1028,7 @@
                 "emo": "laugh",
                 "en": "What?! This is a contest, Nima!",
                 "fa": "چی؟! این یه مسابقه‌ست، نیما!",
+                "ru": "Что?! Это же соревнование, Нима!",
                 "to": "nima",
                 "tr": "Ne?! Bu bir yarışma, Nima!",
                 "via": "phone",
@@ -998,6 +1070,7 @@
       "emo": "tired",
       "en": "So… tired! But… we're here.",
       "fa": "خیلی… خسته‌ام! ولی… این‌جاییم.",
+      "ru": "Я так… устал! Но… мы здесь.",
       "tempo": 0.8,
       "to": "all",
       "tr": "Çok… yorgunum! Ama… buradayız.",
@@ -1009,6 +1082,7 @@
       "emo": "proud",
       "en": "A present! A dictionary and Turkish delight for everyone. You're all first… together!",
       "fa": "هدیه! برای همه یه فرهنگ لغت و راحت‌الحلقوم. همه‌تون اولید… با هم!",
+      "ru": "Подарок! Всем по словарю и лукуму. Вы все первые… вместе!",
       "link": {
         "sözlük": "obj:sozlukler"
       },
@@ -1027,6 +1101,7 @@
       "emo": "happy",
       "en": "Thank you, teacher!",
       "fa": "ممنونیم، استاد!",
+      "ru": "Спасибо вам, учитель!",
       "to": "zafer",
       "tr": "Teşekkür ederiz, hocam!",
       "who": "nima",
@@ -1037,6 +1112,7 @@
         "en": "Every clue was a case ending. kütüphaneye: to the library (-(y)A). kitabı: the book, as the object (-(y)I; kitap softens). kafeden: from the café (-DAn). durakta: at the stop (-DA, -ta after k).",
         "ex": "Kütüphaneye gidin. Kırmızı kitabı bulun.",
         "fa": "هر سرنخ یک پسوندِ حالت بود. kütüphaneye: به کتابخانه (‎-(y)A). kitabı: کتاب را (‎-(y)I؛ kitap می‌شود kitab-‎). kafeden: از کافه (‎-DAn). durakta: در ایستگاه (‎-DA، بعد از k می‌شود ‎-ta).",
+        "ru": "Каждая подсказка — падежное окончание. kütüphaneye: в библиотеку (-(y)A). kitabı: книгу, как объект (-(y)I; kitap смягчается). kafeden: из кафе (-DAn). durakta: на остановке (-DA, после k — -ta).",
         "lesson": "g_a1_4_ad_durumlari",
         "show": "case_path"
       }
@@ -1046,6 +1122,7 @@
       "emo": "happy",
       "en": "And first place… Kerim! Coo-coo!",
       "fa": "و نفرِ اول… کریم! کو-کوو!",
+      "ru": "А первое место… Керим! Ку-ку!",
       "narr": true,
       "tr": "Ve birinci… Kerim! Ku-kuu!",
       "who": "kerim"
@@ -1053,12 +1130,14 @@
   ],
   "summary": {
     "en": "A Saturday treasure hunt across Taksim and İstiklal: every clue is written with the case endings. In the street Nima freezes in front of a stranger and shy Dilnoza tries first; Kerim helps in secret, and the hunt ends at Şişhane with a treasure for everyone.",
-    "fa": "گنج‌یابیِ روزِ شنبه در تقسیم و خیابانِ استقلال: هر سرنخ با پسوندهای حالتِ اسم نوشته شده. در خیابان، نیما جلوی یک غریبه زبانش بند می‌آید و دلنوزای خجالتی اول خودش امتحان می‌کند؛ کریم پنهانی کمک می‌کند و گنج‌یابی در شیشهانه با جایزه‌ای برای همه تمام می‌شود."
+    "fa": "گنج‌یابیِ روزِ شنبه در تقسیم و خیابانِ استقلال: هر سرنخ با پسوندهای حالتِ اسم نوشته شده. در خیابان، نیما جلوی یک غریبه زبانش بند می‌آید و دلنوزای خجالتی اول خودش امتحان می‌کند؛ کریم پنهانی کمک می‌کند و گنج‌یابی در شیشهانه با جایزه‌ای برای همه تمام می‌شود.",
+    "ru": "Субботняя охота за сокровищами по Таксиму и Истиклялю: каждая подсказка написана с падежными окончаниями. На улице Нима теряется перед незнакомцем, и первой пробует застенчивая Дилноза; Керим тайком помогает, а охота заканчивается в Шишхане — с сокровищем для всех."
   },
   "title": {
     "tr": "Hazine avı",
     "en": "The treasure hunt",
-    "fa": "گنج‌یابی"
+    "fa": "گنج‌یابی",
+    "ru": "Охота за сокровищами"
   },
   "words": [
     "a1-w-bulmak",

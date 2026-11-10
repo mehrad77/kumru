@@ -1,0 +1,130 @@
+{
+ "story": "s1e48",
+ "lines": {
+  "kerim": {
+   "Merhaba! Burası İstanbul. Burası iskele. Bu ne? Bu bir vapur! Ve vapurda… kim var?": {
+    "f": "fdc873957325ef.m4a",
+    "ms": 5821,
+    "sig": "dca7b8df3e5f12"
+   },
+   "Bu kim? Yeni biri! Her şeye bakıyor.": {
+    "f": "4e191153d844bb.m4a",
+    "ms": 2634,
+    "sig": "1c99627d7ad77b"
+   },
+   "Evet… o Kerim!": {
+    "f": "7b1b82e9767da9.m4a",
+    "ms": 3701,
+    "sig": "7b2ae41cb1edb6"
+   },
+   "Deniz… çay… kuşlar… ve herkes beraber.": {
+    "f": "cde65003150e09.m4a",
+    "ms": 4043,
+    "sig": "53ecbc49e6f7c0"
+   },
+   "Bu kim? …Nima. Yeni biri değil.": {
+    "f": "6a5ee0605b8173.m4a",
+    "ms": 3856,
+    "sig": "4db7d83d7ea51f"
+   }
+  },
+  "parvaneh": {
+   "Sınav bitti! Ve kumbara… dolu! Çok para!": {
+    "f": "a5b218c3a97411.m4a",
+    "ms": 4798,
+    "sig": "e25b19c45ff182"
+   },
+   "Al! Kumbara senin! Sen polissin… sen bilirsin!": {
+    "f": "fd8a4d94b2a25c.m4a",
+    "ms": 4695,
+    "sig": "284a23a2432ef1"
+   },
+   "Evet! Hadi, Nima!": {
+    "f": "f6cc9ebacbf5da.m4a",
+    "ms": 2056,
+    "sig": "fa0150de685455"
+   },
+   "Hayır! Al! Bu bizim kumbaramız. Herkes için çay!": {
+    "f": "23832702c34b67.m4a",
+    "ms": 4177,
+    "sig": "9f99e5dcdaeb49"
+   },
+   "Herkes için, Nima! Herkes için!": {
+    "f": "33204ae96d82d0.m4a",
+    "ms": 3548,
+    "sig": "4d3026c82b4b59"
+   },
+   "Benim Farsçam… sizin çayınız!": {
+    "f": "6287c84c7b5b1c.m4a",
+    "ms": 3263,
+    "sig": "f74f3aa8f00497"
+   },
+   "Alex, çok yorgunsun!": {
+    "f": "86fc8fd7ba4d62.m4a",
+    "ms": 2615,
+    "sig": "1338301dbfda43"
+   }
+  },
+  "farzad": {
+   "Ya biz?!": {
+    "f": "1a54fb00fe6e4e.m4a",
+    "ms": 826,
+    "sig": "27e28dd94715ef"
+   },
+   "Nima… bavulun yok mu?": {
+    "f": "3ea65028353fba.m4a",
+    "ms": 3559,
+    "sig": "17bf2d9a3ac320"
+   }
+  },
+  "dilnoza": {
+   "Gelin, gelin! Vapura!": {
+    "f": "6787ad4d396fb1.m4a",
+    "ms": 2309,
+    "sig": "d60f78a3a3197a"
+   },
+   "Merhaba! Senin adın ne? Nerelisin?": {
+    "f": "75ca4dd9438d92.m4a",
+    "ms": 3132,
+    "sig": "371df138ccedcd"
+   },
+   "Memnun oldum!": {
+    "f": "448953167e912b.m4a",
+    "ms": 1704,
+    "sig": "12aecce0ff1ae4"
+   }
+  },
+  "kirlangic": {
+   "Nima, bak! Orada ne var?": {
+    "f": "ad0712fa4bc5f7.m4a",
+    "ms": 2592,
+    "sig": "51c3c1940207ef"
+   },
+   "Bu mu? Çok uzak… o!": {
+    "f": "baaa7c2be87cd9.m4a",
+    "ms": 1669,
+    "sig": "574172ac27ce33"
+   },
+   "Şu değil… çok uzak: o!": {
+    "f": "b0d9cabe4832c7.m4a",
+    "ms": 1459,
+    "sig": "e2dadf91d83b7a"
+   }
+  },
+  "alex": {
+   "Hoş geldiniz!": {
+    "f": "bb2316609c6674.m4a",
+    "ms": 892,
+    "sig": "3c017fe8228d0a"
+   },
+   "Gece çalıştım… Hostelim şurada. Ama önce… Kadıköy'ü gezelim!": {
+    "f": "bbe54034c47cc4.m4a",
+    "ms": 4543,
+    "sig": "87382e773ec467"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

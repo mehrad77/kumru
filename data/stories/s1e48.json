@@ -2,6 +2,7 @@
   "arc": {
     "en": "The exam and the holiday",
     "fa": "امتحان و جشن",
+    "ru": "Экзамен и праздник",
     "id": "s1w08",
     "mechanics": [
       "say",
@@ -28,6 +29,7 @@
     {
       "en": "Now you! Where are you from? Where do you live?",
       "fa": "حالا تو! اهلِ کجایی؟ کجا زندگی می‌کنی؟",
+      "ru": "Теперь ты! Откуда ты? Где ты живёшь?",
       "to": "nima",
       "tr": "Şimdi sen! Nerelisin? Nerede oturuyorsun?",
       "who": "dilnoza"
@@ -35,6 +37,7 @@
     {
       "en": "I'm from Tehran. But I live in Istanbul!",
       "fa": "تهرانی‌ام. ولی توی استانبول زندگی می‌کنم!",
+      "ru": "Я из Тегерана. Но живу в Стамбуле!",
       "to": "dilnoza",
       "tr": "Tahranlıyım. Ama İstanbul'da oturuyorum!",
       "who": "nima"
@@ -43,6 +46,7 @@
       "emo": "happy",
       "en": "Nice to meet you!",
       "fa": "خوشبختم!",
+      "ru": "Очень приятно!",
       "to": "nima",
       "tr": "Memnun oldum!",
       "who": "dilnoza"
@@ -51,54 +55,67 @@
   "gl": {
     "bilirsin": {
       "fa": "می‌دانی (sen bilirsin: خودت می‌دانی، تصمیم با توست)",
+      "ru": "знаешь (sen bilirsin: тебе решать)",
       "en": "you know (sen bilirsin: it's up to you)"
     },
     "farsçam": {
       "fa": "فارسیِ من (Farsça: فارسی)",
+      "ru": "мой персидский (Farsça: персидский)",
       "en": "my Persian (Farsça: Persian)"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ی نیما در شیشلی)",
+      "ru": "Ферикёй (район Нимы в Шишли)",
       "en": "Feriköy (Nima's neighbourhood in Şişli)"
     },
     "gezelim": {
       "fa": "بگردیم (gezmek: گشتن)",
+      "ru": "давайте погуляем (gezmek: гулять, осматривать)",
       "en": "let's go round (gezmek: to tour)"
     },
     "herkese": {
       "fa": "به همه، برای همه",
+      "ru": "всем, для всех",
       "en": "to everyone, for everyone"
     },
     "hostelim": {
       "fa": "هاستلِ من",
+      "ru": "мой хостел",
       "en": "my hostel"
     },
     "kadıköy": {
       "fa": "کادیکوی (آن سوی آب، در بخشِ آسیایی)",
+      "ru": "Кадыкёй (на том берегу, в азиатской части)",
       "en": "Kadıköy (across the water, on the Asian side)"
     },
     "kumbara": {
       "fa": "قلک",
+      "ru": "копилка",
       "en": "money jar, piggy bank"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means swallow)"
     },
     "kız kulesi": {
       "fa": "برجِ دختر (برجی کوچک روی جزیره‌ای در بسفر)",
+      "ru": "Девичья башня (маленькая башня на островке в Босфоре)",
       "en": "the Maiden's Tower (a small tower on an islet in the Bosphorus)"
     },
     "polissin": {
       "fa": "پلیسی (polis: پلیس)",
+      "ru": "ты — полиция (polis: полиция, полицейский)",
       "en": "you're the police (polis)"
     },
     "çaycı": {
       "fa": "چای‌فروش (کسی که روی کشتی چای می‌گرداند)",
+      "ru": "çaycı (тот, кто разносит чай)",
       "en": "çaycı (the man who brings tea round)"
     },
     "hadi": {
       "fa": "یالا، زود باش",
+      "ru": "давай, ну же",
       "en": "come on, go on"
     }
   },
@@ -154,7 +171,8 @@
       "q": {
         "tr": "Kerim: “Bu ne? Bu bir …!”",
         "en": "Kerim: “What's this? It's a …!”",
-        "fa": "کریم: «این چیه؟ این یه …!»"
+        "fa": "کریم: «این چیه؟ این یه …!»",
+        "ru": "Керим: «Что это? Это …!»"
       },
       "why": "“Bu ne? Bu bir vapur!”"
     },
@@ -169,7 +187,8 @@
       "q": {
         "tr": "Kumbaradaki para ne için?",
         "en": "What is the money in the jar for?",
-        "fa": "پولِ توی قلک برای چیست؟"
+        "fa": "پولِ توی قلک برای چیست؟",
+        "ru": "Для чего деньги в копилке?"
       },
       "why": "“Çaycı! Herkese çay, lütfen! Çaylar bizden!”"
     }
@@ -203,6 +222,7 @@
     {
       "en": "Hello! This is Istanbul. This is the pier. What's this? It's a ferry! And on the ferry… who's there?",
       "fa": "سلام! این‌جا استانبوله. این‌جا اسکله‌ست. این چیه؟ این یه کشتیه! و توی کشتی… کی هست؟",
+      "ru": "Привет! Это Стамбул. Это пристань. Что это? Это паром! А на пароме… кто там?",
       "narr": true,
       "sfx": {
         "id": "ferry_horn",
@@ -217,6 +237,7 @@
       "emo": "happy",
       "en": "The exam's over! And the jar… is full! Lots of money!",
       "fa": "امتحان تموم شد! و قلک… پُره! کلی پول!",
+      "ru": "Экзамен позади! А копилка… полная! Много денег!",
       "sfx": {
         "id": "coin_clink",
         "word": "şıngır"
@@ -229,10 +250,11 @@
       "at": "ch:nima",
       "do": "look",
       "emo": "laugh",
-      "en": "Nima… no suitcases?",
+      "en": "Nima… no suitcase?",
       "fa": "نیما… چمدون نداری؟",
+      "ru": "Нима… без чемодана?",
       "to": "nima",
-      "tr": "Nima… bavul yok mu?",
+      "tr": "Nima… bavulun yok mu?",
       "who": "farzad"
     },
     {
@@ -240,6 +262,7 @@
       "emo": "laugh",
       "en": "No suitcases! Just tea!",
       "fa": "چمدون نه! فقط چای!",
+      "ru": "Никаких чемоданов! Только чай!",
       "react": {
         "farzad": "laugh"
       },
@@ -252,6 +275,7 @@
       "emo": "happy",
       "en": "Come on, come on! Onto the ferry!",
       "fa": "بیاین، بیاین! بریم توی کشتی!",
+      "ru": "Давайте, давайте! На паром!",
       "to": "all",
       "tr": "Gelin, gelin! Vapura!",
       "who": "dilnoza",
@@ -291,6 +315,7 @@
       "do": "look",
       "en": "Who's this? Someone new! Looking at everything.",
       "fa": "این کیه؟ یه تازه‌وارد! به همه‌چی نگاه می‌کنه.",
+      "ru": "Кто это? Кто-то новый! Смотрит на всё.",
       "narr": true,
       "react": {
         "newcomer": {
@@ -308,6 +333,7 @@
       "emo": "happy",
       "en": "This is a tea glass. That… is the Maiden's Tower!",
       "fa": "این یه استکانِ چاییه. اون… برجِ دختره!",
+      "ru": "Это стаканчик для чая. А вон то… Девичья башня!",
       "link": {
         "bardağı": "obj:tea_glass"
       },
@@ -344,6 +370,7 @@
       "emo": "curious",
       "en": "Nima, look! What's over there?",
       "fa": "نیما، ببین! اون‌جا چیه؟",
+      "ru": "Нима, смотри! Что там?",
       "to": "nima",
       "tr": "Nima, bak! Orada ne var?",
       "who": "kirlangic"
@@ -359,6 +386,7 @@
             "emo": "happy",
             "en": "That's a bird… That's Kerim!",
             "fa": "اون یه پرنده‌ست… اون کریمه!",
+            "ru": "Там — птица… Там — Керим!",
             "link": {
               "kerim": "ch:kerim"
             },
@@ -374,6 +402,7 @@
               {
                 "en": "Yes… that's Kerim!",
                 "fa": "آره… اون کریمه!",
+                "ru": "Да… там Керим!",
                 "narr": true,
                 "tr": "Evet… o Kerim!",
                 "who": "kerim"
@@ -386,6 +415,7 @@
             "emo": "happy",
             "en": "This is Kerim!",
             "fa": "این کریمه!",
+            "ru": "Это Керим!",
             "react": {
               "kirlangic": "laugh"
             },
@@ -394,6 +424,7 @@
                 "emo": "laugh",
                 "en": "This? It's so far away… so it's o!",
                 "fa": "این؟ خیلی دوره… پس «o»!",
+                "ru": "Это? Так далеко… значит, «o»!",
                 "to": "nima",
                 "tr": "Bu mu? Çok uzak… o!",
                 "who": "kirlangic"
@@ -406,6 +437,7 @@
             "emo": "happy",
             "en": "That one there is Kerim!",
             "fa": "اونی که اون‌جاست کریمه!",
+            "ru": "Вон та — Керим!",
             "react": {
               "kirlangic": {
                 "emo": "happy"
@@ -416,6 +448,7 @@
                 "emo": "happy",
                 "en": "Not şu… it's very far away: o!",
                 "fa": "«şu» نه… خیلی دوره: «o»!",
+                "ru": "Не «şu»… она очень далеко: «o»!",
                 "to": "nima",
                 "tr": "Şu değil… çok uzak: o!",
                 "who": "kirlangic"
@@ -447,6 +480,7 @@
       "emo": "laugh",
       "en": "Hello! What's your name? Where are you from?",
       "fa": "سلام! اسمت چیه؟ اهلِ کجایی؟",
+      "ru": "Привет! Как тебя зовут? Откуда ты?",
       "to": "nima",
       "tr": "Merhaba! Senin adın ne? Nerelisin?",
       "who": "dilnoza"
@@ -456,6 +490,7 @@
       "emo": "happy",
       "en": "My name is Nima. I'm from Tehran. But… I live in Feriköy.",
       "fa": "اسمِ من نیماست. تهرانی‌ام. ولی… توی فری‌کؤی زندگی می‌کنم.",
+      "ru": "Меня зовут Нима. Я из Тегерана. Но… живу в Ферикёе.",
       "to": "dilnoza",
       "tr": "Benim adım Nima. Tahranlıyım. Ama… Feriköy'de oturuyorum.",
       "who": "nima"
@@ -465,6 +500,7 @@
       "emo": "happy",
       "en": "Nice to meet you!",
       "fa": "خوشبختم!",
+      "ru": "Очень приятно!",
       "to": "nima",
       "tr": "Memnun oldum!",
       "who": "dilnoza"
@@ -475,6 +511,7 @@
       "emo": "happy",
       "en": "Here! The jar's yours! You're the police… you decide!",
       "fa": "بگیر! قلک مالِ تو! تو پلیسی… خودت می‌دونی!",
+      "ru": "Держи! Копилка твоя! Ты у нас полиция… тебе решать!",
       "obj": [
         {
           "id": "kumbara",
@@ -495,6 +532,7 @@
             "emo": "happy",
             "en": "Tea for everyone!",
             "fa": "برای همه چای!",
+            "ru": "Всем чаю!",
             "ok": true,
             "react": {
               "farzad": "happy",
@@ -508,6 +546,7 @@
                 "emo": "happy",
                 "en": "Yes! Go on, Nima!",
                 "fa": "آره! یالا، نیما!",
+                "ru": "Да! Давай, Нима!",
                 "to": "nima",
                 "tr": "Evet! Hadi, Nima!",
                 "who": "parvaneh"
@@ -522,6 +561,7 @@
             "emo": "happy",
             "en": "Parvaneh, this is your money. Take it!",
             "fa": "پروانه، این پولِ خودته. بگیرش!",
+            "ru": "Парване, это твои деньги. Бери!",
             "obj": [
               {
                 "id": "kumbara",
@@ -541,6 +581,7 @@
                 "emo": "happy",
                 "en": "No! Take it! It's our jar. Tea for everyone!",
                 "fa": "نه! بگیر! این قلکِ ماست. برای همه چای!",
+                "ru": "Нет! Бери! Это наша копилка. Всем чаю!",
                 "obj": [
                   {
                     "id": "kumbara",
@@ -561,6 +602,7 @@
             "emo": "happy",
             "en": "Two teas: you and me.",
             "fa": "دو تا چای: تو و من.",
+            "ru": "Два чая: тебе и мне.",
             "n": 2,
             "react": {
               "farzad": "laugh"
@@ -570,6 +612,7 @@
                 "emo": "laugh",
                 "en": "And us?!",
                 "fa": "پس ما چی؟!",
+                "ru": "А мы?!",
                 "to": "nima",
                 "tr": "Ya biz?!",
                 "who": "farzad"
@@ -578,6 +621,7 @@
                 "emo": "laugh",
                 "en": "For everyone, Nima! For everyone!",
                 "fa": "برای همه، نیما! برای همه!",
+                "ru": "Всем, Нима! Всем!",
                 "to": "nima",
                 "tr": "Herkes için, Nima! Herkes için!",
                 "who": "parvaneh"
@@ -595,6 +639,7 @@
       "emo": "happy",
       "en": "Tea seller! Tea for everyone, please! It's on us!",
       "fa": "آقا! برای همه چای، لطفاً! چای مهمونِ ما!",
+      "ru": "Чайщик! Всем чаю, пожалуйста! Чай — от нас!",
       "to": "cayci_vapur",
       "tr": "Çaycı! Herkese çay, lütfen! Çaylar bizden!",
       "who": "nima"
@@ -619,6 +664,7 @@
       "emo": "proud",
       "en": "My Persian… your tea!",
       "fa": "فارسیِ من… چایِ شما!",
+      "ru": "Мой персидский… ваш чай!",
       "react": {
         "farzad": "laugh",
         "kirlangic": "laugh"
@@ -630,6 +676,7 @@
     {
       "en": "The sea… tea… birds… and everyone together.",
       "fa": "دریا… چای… پرنده‌ها… و همه با هم.",
+      "ru": "Море… чай… птицы… и все вместе.",
       "narr": true,
       "sfx": {
         "id": "gull",
@@ -643,6 +690,7 @@
         "en": "Day one's lesson, and now Nima teaches it: bu for what is near (“Bu bir çay bardağı.”), şu for what you point at (“Şu… Kız Kulesi!”), and o for what is far away (“O Kerim!”).",
         "ex": "Bu bir çay bardağı. Şu… Kız Kulesi!",
         "fa": "درسِ روزِ اول، که حالا نیما یادش می‌دهد: bu برای چیزِ نزدیک («Bu bir çay bardağı.»)، şu برای چیزی که با انگشت نشانش می‌دهی («Şu… Kız Kulesi!»)، و o برای چیزِ دور («O Kerim!»).",
+        "ru": "Урок первого дня, и теперь его ведёт Нима: bu — для того, что рядом («Bu bir çay bardağı.»), şu — для того, на что показываешь («Şu… Kız Kulesi!»), и o — для того, что далеко («O Kerim!»).",
         "lesson": "g_a1_1_bu_su_o",
         "show": "deixis"
       }
@@ -652,6 +700,7 @@
         "en": "And ben becomes biz. In week one it was “Benim adım…”, all about me. Today it's “Çaylar bizden!”: the tea is from us. Benim Farsçam… sizin çayınız: -(I)m is “my”, -(I)nIz is “your”.",
         "ex": "Benim Farsçam… sizin çayınız!",
         "fa": "و «من» می‌شود «ما». هفته‌ی اول «Benim adım…» بود، همه‌اش درباره‌ی خودم. امروز «Çaylar bizden!» است: چای از طرفِ ماست. Benim Farsçam… sizin çayınız: -(I)m یعنی «ـَم»، -(I)nIz یعنی «ـِتان».",
+        "ru": "А ben превращается в biz. В первую неделю было «Benim adım…» — всё про меня. Сегодня — «Çaylar bizden!»: чай от нас. Benim Farsçam… sizin çayınız: -(I)m — «мой», -(I)nIz — «ваш».",
         "lesson": "g_a1_4_iyelik"
       }
     },
@@ -683,6 +732,7 @@
       "emo": "tired",
       "en": "Welcome!",
       "fa": "خوش اومدین!",
+      "ru": "Добро пожаловать!",
       "to": "all",
       "tr": "Hoş geldiniz!",
       "who": "alex"
@@ -691,6 +741,7 @@
       "emo": "happy",
       "en": "Glad to be here!",
       "fa": "ممنون، خوشحالیم که اومدیم!",
+      "ru": "Спасибо!",
       "react": {
         "alex": {
           "emo": "happy"
@@ -704,6 +755,7 @@
       "emo": "laugh",
       "en": "Alex, you're so tired!",
       "fa": "الکس، خیلی خسته‌ای!",
+      "ru": "Алекс, ты такой уставший!",
       "to": "alex",
       "tr": "Alex, çok yorgunsun!",
       "who": "parvaneh"
@@ -714,6 +766,7 @@
       "emo": "happy",
       "en": "I worked all night… My hostel's over there. But first… let's look around Kadıköy!",
       "fa": "دیشب کار کردم… هاستلم اون‌جاست. ولی اول… بیاین کادیکوی رو بگردیم!",
+      "ru": "Всю ночь работал… Мой хостел вон там. Но сначала… погуляем по Кадыкёю!",
       "to": "all",
       "tr": "Gece çalıştım… Hostelim şurada. Ama önce… Kadıköy'ü gezelim!",
       "who": "alex"
@@ -721,6 +774,7 @@
     {
       "en": "Who's this? …Nima. Not someone new.",
       "fa": "این کیه؟ …نیما. دیگه تازه‌وارد نیست.",
+      "ru": "Кто это? …Нима. Уже не «кто-то новый».",
       "move": [
         {
           "how": "exit",
@@ -755,12 +809,14 @@
   ],
   "summary": {
     "en": "The day after the exam, the class and old friends take the ferry from Beşiktaş to Kadıköy, where Alex waits with a sign. On the deck Nima teaches a newcomer bu, şu and o, answers Dilnoza's day-two questions, and spends Parvaneh's jar on tea for everyone.",
-    "fa": "روزِ بعد از امتحان، بچه‌های کلاس و دوستانِ قدیمی با کشتی از بشیکتاش به کادیکوی می‌روند، جایی که الکس با یک تابلو منتظرشان است. روی عرشه، نیما به یک تازه‌وارد bu، şu و o یاد می‌دهد، به سؤال‌های روزِ دومِ دلنوزا جواب می‌دهد و پولِ قلکِ پروانه را خرجِ چای برای همه می‌کند."
+    "fa": "روزِ بعد از امتحان، بچه‌های کلاس و دوستانِ قدیمی با کشتی از بشیکتاش به کادیکوی می‌روند، جایی که الکس با یک تابلو منتظرشان است. روی عرشه، نیما به یک تازه‌وارد bu، şu و o یاد می‌دهد، به سؤال‌های روزِ دومِ دلنوزا جواب می‌دهد و پولِ قلکِ پروانه را خرجِ چای برای همه می‌کند.",
+    "ru": "На следующий день после экзамена класс и старые друзья плывут на пароме из Бешикташа в Кадыкёй, где их ждёт Алекс с табличкой. На палубе Нима учит новичка bu, şu и o, отвечает на вопросы Дилнозы из второго дня и тратит копилку Парване на чай для всех."
   },
   "title": {
     "tr": "Vapurda çay",
     "en": "Tea on the ferry",
-    "fa": "چای روی کشتی"
+    "fa": "چای روی کشتی",
+    "ru": "Чай на пароме"
   },
   "words": [
     "a1-w-vapur",

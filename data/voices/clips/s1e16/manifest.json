@@ -1,0 +1,92 @@
+{
+ "story": "s1e16",
+ "lines": {
+  "parvaneh": {
+   "Şişli'den!": {
+    "f": "e28e98a7e38449.m4a",
+    "ms": 1312,
+    "sig": "973af31c3d9859"
+   },
+   "کادیکوی؟ خیلی دوره!": {
+    "f": "9c381969f662e9.m4a",
+    "ms": 3470,
+    "sig": "d8f09a50028655",
+    "doubt": "heard \"Tadi, kui, kili, doora.\""
+   },
+   "…Çok uzak! Farsça kelime… bir lira! Nima, sen polissin!": {
+    "f": "4b45b938304222.m4a",
+    "ms": 5563,
+    "sig": "44f8a0ad56353c"
+   }
+  },
+  "zafer": {
+   "Günaydın! Nereden geliyorsunuz?": {
+    "f": "17a4476569e03c.m4a",
+    "ms": 3063,
+    "sig": "6eda80863c902f"
+   },
+   "Yusuf Beşiktaş'tan geliyor. Alex Kadıköy'den, vapurla! Dilnoza Osmanbey'den: çok yakın.": {
+    "f": "c4635dddc0c460.m4a",
+    "ms": 9125,
+    "sig": "b34ef10c2dd8d1"
+   },
+   "Türkçe, lütfen!": {
+    "f": "8c2268bc10d79d.m4a",
+    "ms": 2252,
+    "sig": "29522a90648ff1"
+   }
+  },
+  "maria": {
+   "Bu defter… Nima? Siz misiniz?": {
+    "f": "27ff876b4c3cce.m4a",
+    "ms": 2722,
+    "sig": "c0748b0d58b782"
+   },
+   "Evet! Çok naziksiniz, teşekkürler! Ben Maria, beşinci kattayım. Nereden geliyorsunuz?": {
+    "f": "4edb382b2489d2.m4a",
+    "ms": 6200,
+    "sig": "f5e8289ea82472"
+   },
+   "Evet, metroda! Ben Maria, beşinci kattayım. Nereden geliyorsunuz?": {
+    "f": "5cdd6db92d1b77.m4a",
+    "ms": 4704,
+    "sig": "2ae129750973d7"
+   },
+   "Ben teşekkür ederim! Cumartesi… çay saati!": {
+    "f": "28fc25ddbae4d0.m4a",
+    "ms": 5053,
+    "sig": "fc47b25b81e959"
+   },
+   "Ben buradanım. Bu sokaktan! …Cumartesi çaya gelin!": {
+    "f": "caf7cbd1aebac4.m4a",
+    "ms": 5252,
+    "sig": "cb63bcfd3f29e1"
+   },
+   "…Tamam. Cumartesi.": {
+    "f": "15b2209df1310c.m4a",
+    "ms": 3709,
+    "sig": "35109d962b9283"
+   },
+   "Peki… ama cumartesi çay var. Gelin, gelin!": {
+    "f": "d5d0e8f7598cf1.m4a",
+    "ms": 3608,
+    "sig": "b7816e0a686784"
+   },
+   "Kolay değil… ama damlaya damlaya göl olur.": {
+    "f": "a012fac185c97a.m4a",
+    "ms": 3889,
+    "sig": "a5fef6e55525a9"
+   }
+  },
+  "kerim": {
+   "Hayır mı?! Ku-kuu…": {
+    "f": "4e9ef3bc6601fe.m4a",
+    "ms": 1904,
+    "sig": "68ee89b65b0151"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

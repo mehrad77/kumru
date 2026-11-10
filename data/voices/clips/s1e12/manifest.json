@@ -1,0 +1,130 @@
+{
+ "story": "s1e12",
+ "lines": {
+  "kirlangic": {
+   "Evde ne var, ne yok?": {
+    "f": "f3fe4db0c803b2.m4a",
+    "ms": 1448,
+    "sig": "ba899a18085ffe"
+   },
+   "Çok teşekkürler!": {
+    "f": "7a9006329468b6.m4a",
+    "ms": 1673,
+    "sig": "c2a0368bd27f7c"
+   },
+   "Bu anahtar ne? …Çatı mı?! Hadi!": {
+    "f": "b11e0e9caf4a6b.m4a",
+    "ms": 2393,
+    "sig": "80099d72429ac4"
+   }
+  },
+  "farzad": {
+   "Buzdolabı yok!": {
+    "f": "0e8ea473a413ec.m4a",
+    "ms": 2180,
+    "sig": "e0035766cef204"
+   },
+   "Tamam! Liste, Alex: sandalye, tabak… Hadi!": {
+    "f": "da539746f697c6.m4a",
+    "ms": 3398,
+    "sig": "e6acf9470be564"
+   },
+   "Pazar, Nima… pazar!": {
+    "f": "541d7d56521765.m4a",
+    "ms": 3458,
+    "sig": "d82b9be12bcff5"
+   },
+   "Rica ederim!": {
+    "f": "b0f4550554b4c5.m4a",
+    "ms": 1382,
+    "sig": "34985fbcb564af"
+   },
+   "Hayır! Çay var… çatı var!": {
+    "f": "3489b70212633d.m4a",
+    "ms": 2555,
+    "sig": "62c31fab5ef747"
+   }
+  },
+  "yusuf": {
+   "Masa var mı?": {
+    "f": "c437666cd51c69.m4a",
+    "ms": 2310,
+    "sig": "621fe38e7c8871"
+   },
+   "Peynir: yarım kilo. Süt, yumurta… ve ekmek!": {
+    "f": "fab49b56301092.m4a",
+    "ms": 4011,
+    "sig": "a3426be7bde930"
+   },
+   "Çatı mı?! Bir kat… daha. Tamam!": {
+    "f": "b6f8704905b63b.m4a",
+    "ms": 3229,
+    "sig": "f53618c0887fbc"
+   }
+  },
+  "parvaneh": {
+   "Domates kaç lira?": {
+    "f": "9a8ddae3c651e1.m4a",
+    "ms": 3796,
+    "sig": "6b648900d7fc50"
+   },
+   "Birinci… ikinci… üçüncü… dördüncü!": {
+    "f": "5f56878fa83995.m4a",
+    "ms": 5135,
+    "sig": "ed0d7edbbbf2c0"
+   },
+   "Bu kuş kim?": {
+    "f": "963cb8cfc3a914.m4a",
+    "ms": 1373,
+    "sig": "5377da8d6bf66d"
+   },
+   "Of, çok yorgunum! Çay var mı?": {
+    "f": "fa6ec94ef457ba.m4a",
+    "ms": 2664,
+    "sig": "84209e168f6984"
+   }
+  },
+  "hatice": {
+   "Kilosu seksen lira! Taze, taze! Gel abla gel!": {
+    "f": "06fd9005fa86e9.m4a",
+    "ms": 6212,
+    "sig": "09984178cd96d5"
+   },
+   "Domates, canım? İki kilo… yüz altmış lira!": {
+    "f": "281ef064b66a96.m4a",
+    "ms": 3619,
+    "sig": "4c6a6e68f7cef0"
+   },
+   "Pahalı mı? Organik!": {
+    "f": "587e88dcf79bd7.m4a",
+    "ms": 2165,
+    "sig": "1c5236d0531d27"
+   },
+   "Tamam canım, yüz elli lira!": {
+    "f": "b3f4638674ad4c.m4a",
+    "ms": 3770,
+    "sig": "675ff25b6a1620"
+   }
+  },
+  "kerim": {
+   "Benim adım Kerim! Ama Nima bilmiyor.": {
+    "f": "79f5198daec10d.m4a",
+    "ms": 2463,
+    "sig": "6dd5cf8086b534"
+   },
+   "Bugün cumartesi. Feriköy'de pazar var! Pazar? Ama bugün cumartesi! Evet… pazar!": {
+    "f": "05478e23531ba4.m4a",
+    "ms": 8328,
+    "sig": "ba70e512bd9271"
+   },
+   "Pazar, cumartesi… ve yedi arkadaş.": {
+    "f": "e8a4b2578c22eb.m4a",
+    "ms": 5516,
+    "sig": "0044a23b46a888"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

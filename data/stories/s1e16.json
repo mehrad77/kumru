@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new home, a new way",
     "fa": "خانه‌ی نو، راهِ نو",
+    "ru": "Новый дом, новый путь",
     "id": "s1w03",
     "mechanics": [
       "say",
@@ -25,6 +26,7 @@
     {
       "en": "Nima, where are you coming from now?",
       "fa": "نیما، الان از کجا میایید؟",
+      "ru": "Нима, откуда вы сейчас едете?",
       "to": "nima",
       "tr": "Nima, şimdi nereden geliyorsunuz?",
       "who": "zafer"
@@ -37,6 +39,7 @@
           {
             "en": "From Feriköy.",
             "fa": "از فری‌کؤی.",
+            "ru": "Из Ферикёя.",
             "ok": true,
             "react": {
               "zafer": {
@@ -48,6 +51,7 @@
               {
                 "en": "Very good!",
                 "fa": "خیلی خوب!",
+                "ru": "Очень хорошо!",
                 "tr": "Çok güzel!",
                 "who": "zafer"
               }
@@ -58,6 +62,7 @@
           {
             "en": "To Feriköy.",
             "fa": "به فری‌کؤی.",
+            "ru": "В Ферикёй.",
             "react": {
               "zafer": {
                 "emo": "confused"
@@ -67,6 +72,7 @@
               {
                 "en": "To Feriköy? No… from Feriköy!",
                 "fa": "به فری‌کؤی؟ نه… از فری‌کؤی!",
+                "ru": "В Ферикёй? Нет… из Ферикёя!",
                 "tr": "Feriköy'e mi? Hayır… Feriköy'den!",
                 "who": "zafer"
               }
@@ -81,6 +87,7 @@
     {
       "en": "And where are you coming to Istanbul from?",
       "fa": "خب، از کجا به استانبول اومدید؟",
+      "ru": "А в Стамбул вы откуда приехали?",
       "to": "nima",
       "tr": "Peki, İstanbul'a nereden geliyorsunuz?",
       "who": "zafer"
@@ -88,6 +95,7 @@
     {
       "en": "From Tehran!",
       "fa": "از تهران!",
+      "ru": "Из Тегерана!",
       "to": "zafer",
       "tr": "Tahran'dan!",
       "who": "nima"
@@ -95,6 +103,7 @@
     {
       "en": "From Tehran to Istanbul. Very good!",
       "fa": "از تهران به استانبول. خیلی خوب!",
+      "ru": "Из Тегерана в Стамбул. Очень хорошо!",
       "to": "nima",
       "tr": "Tahran'dan İstanbul'a. Çok güzel!",
       "who": "zafer"
@@ -103,103 +112,133 @@
   "gl": {
     "beşiktaş": {
       "fa": "بشیکتاش (محله‌ای در استانبول)",
+      "ru": "Бешикташ (район Стамбула)",
       "en": "Beşiktaş (a district of Istanbul)"
     },
     "beşinci": {
       "fa": "پنجم",
+      "ru": "пятый",
       "en": "fifth"
     },
     "buradanım": {
       "fa": "اهلِ همین‌جام",
+      "ru": "я отсюда",
       "en": "I'm from here"
     },
     "damlaya": {
       "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "ru": "капля за каплей (Damlaya damlaya göl olur: капля за каплей — и будет озеро)",
       "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
     },
     "farsça": {
       "fa": "فارسی (زبان)",
+      "ru": "персидский (язык)",
       "en": "Persian (the language)"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a district of Şişli)"
     },
     "göl": {
       "fa": "دریاچه",
+      "ru": "озеро",
       "en": "lake"
     },
     "kadıköy": {
       "fa": "کادیکوی (محله‌ای در سمتِ آسیاییِ استانبول)",
+      "ru": "Кадыкёй (район на азиатском берегу)",
       "en": "Kadıköy (a district on the Asian side)"
     },
     "kattayım": {
       "fa": "طبقه‌ی … هستم",
+      "ru": "я на … этаже",
       "en": "I'm on the … floor"
     },
     "komşular": {
       "fa": "همسایه‌ها",
+      "ru": "соседи",
       "en": "neighbours"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "metroda": {
       "fa": "در مترو",
+      "ru": "в метро",
       "en": "on the metro"
     },
     "naziksiniz": {
       "fa": "لطف دارید؛ مهربانید",
+      "ru": "вы любезны",
       "en": "you're kind"
     },
     "olur": {
       "fa": "می‌شود",
+      "ru": "становится",
       "en": "becomes"
     },
     "osmanbey": {
       "fa": "عثمان‌بی (محله‌ای در شیشلی)",
+      "ru": "Османбей (район Шишли)",
       "en": "Osmanbey (a district of Şişli)"
     },
     "polissin": {
       "fa": "پلیسی (تو پلیس هستی)",
+      "ru": "ты — полиция",
       "en": "you're the police"
     },
     "sokaktan": {
       "fa": "از کوچه؛ اهلِ این کوچه",
+      "ru": "с улицы",
       "en": "from the street"
     },
     "vapurla": {
       "fa": "با کشتی",
+      "ru": "на пароме",
       "en": "by ferry"
     },
     "zafer": {
       "fa": "ظفر (اسم؛ به معنیِ پیروزی)",
+      "ru": "Зафер (имя; также слово «победа»)",
       "en": "Zafer (a name; also the word for victory)"
     },
     "şişli": {
       "fa": "شیشلی (محله‌ای در استانبول)",
+      "ru": "Шишли (район Стамбула)",
       "en": "Şişli (a district of Istanbul)"
     },
     "خیلی": {
       "fa": "خیلی (فارسی: çok)",
+      "ru": "очень (по-персидски çok)",
       "en": "very (Persian for çok)"
     },
     "دوره": {
       "fa": "دور است (فارسی: uzak)",
+      "ru": "далеко (по-персидски uzak)",
       "en": "it's far (Persian for uzak)"
     },
     "کادیکوی": {
       "fa": "کادیکوی (فارسی: Kadıköy)",
+      "ru": "Кадыкёй (по-персидски)",
       "en": "Kadıköy (in Persian)"
     },
     "kelime": {
       "fa": "کلمه",
+      "ru": "слово",
       "en": "word"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
+    },
+    "aa": {
+      "fa": "آهان! (وقتی کسی را می‌شناسی)",
+      "ru": "а! (узнавая кого-то)",
+      "en": "oh! (recognising someone)"
     }
   },
   "id": "s1e16",
@@ -251,7 +290,8 @@
       "q": {
         "tr": "Alex nereden geliyor?",
         "en": "Where does Alex come from?",
-        "fa": "الکس از کجا می‌آید؟"
+        "fa": "الکس از کجا می‌آید؟",
+        "ru": "Откуда едет Алекс?"
       },
       "why": "Zafer Hoca: “Alex Kadıköy'den, vapurla!”"
     },
@@ -266,7 +306,8 @@
       "q": {
         "tr": "Maria: “… geliyorsunuz?”",
         "en": "Maria asks where Nima comes from. Which question word does she use?",
-        "fa": "ماریا می‌پرسد نیما از کجا می‌آید. کدام کلمه‌ی پرسشی را به کار می‌برد؟"
+        "fa": "ماریا می‌پرسد نیما از کجا می‌آید. کدام کلمه‌ی پرسشی را به کار می‌برد؟",
+        "ru": "Мария спрашивает, откуда Нима. Какое вопросительное слово она говорит?"
       },
       "why": "Maria: “Nereden geliyorsunuz?”"
     }
@@ -293,6 +334,7 @@
       "emo": "happy",
       "en": "Good morning! Where are you coming from?",
       "fa": "صبح بخیر! از کجا می‌آین؟",
+      "ru": "Доброе утро! Откуда вы едете?",
       "to": "all",
       "tr": "Günaydın! Nereden geliyorsunuz?",
       "who": "zafer"
@@ -301,6 +343,7 @@
       "emo": "happy",
       "en": "From Şişli!",
       "fa": "از شیشلی!",
+      "ru": "Из Шишли!",
       "to": "zafer",
       "tr": "Şişli'den!",
       "who": "parvaneh"
@@ -309,6 +352,7 @@
       "emo": "happy",
       "en": "From Feriköy!",
       "fa": "از فری‌کؤی!",
+      "ru": "Из Ферикёя!",
       "to": "zafer",
       "tr": "Feriköy'den!",
       "who": "nima"
@@ -316,6 +360,7 @@
     {
       "en": "Yusuf comes from Beşiktaş. Alex from Kadıköy, by ferry! Dilnoza from Osmanbey: very close.",
       "fa": "یوسف از بشیکتاش میاد. الکس از کادیکوی، با کشتی! دلنوزا از عثمان‌بی: خیلی نزدیک.",
+      "ru": "Юсуф едет из Бешикташа. Алекс — из Кадыкёя, на пароме! Дилноза — из Османбея: совсем близко.",
       "obj": [
         {
           "id": "pins",
@@ -347,6 +392,7 @@
       "emo": "surprised",
       "en": "(in Persian, to herself) Kadıköy? That's so far!",
       "fa": "کادیکوی؟ خیلی دوره!",
+      "ru": "(по-персидски, себе под нос) Кадыкёй? Это же так далеко!",
       "tr": "کادیکوی؟ خیلی دوره!",
       "voice": "whisper",
       "who": "parvaneh"
@@ -355,6 +401,7 @@
       "emo": "happy",
       "en": "In Turkish, please!",
       "fa": "ترکی، لطفاً!",
+      "ru": "По-турецки, пожалуйста!",
       "react": {
         "parvaneh": "shy"
       },
@@ -369,6 +416,7 @@
       "emo": "laugh",
       "en": "…Very far! Every Persian word… one lira! Nima, you're the police!",
       "fa": "…خیلی دوره! هر کلمه‌ی فارسی… یه لیر! نیما، تو پلیسی!",
+      "ru": "…Очень далеко! Персидское слово… одна лира! Нима, ты — полиция!",
       "link": {
         "lira": "obj:farsca_jar"
       },
@@ -387,6 +435,7 @@
       "emo": "laugh",
       "en": "Okay! One lira, Parvaneh!",
       "fa": "باشه! یه لیر، پروانه!",
+      "ru": "Ладно! Одна лира, Парване!",
       "link": {
         "lira": "obj:farsca_jar"
       },
@@ -418,6 +467,7 @@
         "en": "-DAn means “from”, at the end of the word. Its vowel follows the word: Şişli'den, Feriköy'den, Kadıköy'den. After a hard sound (p, ç, t, k, s, ş, h, f) the d becomes t: Beşiktaş'tan. The question is Nereden? From where?",
         "ex": "Feriköy'den!",
         "fa": "‏-DAn یعنی «از»، ولی آخرِ کلمه می‌آید. حرفِ صدادارش از خودِ کلمه پیروی می‌کند: Şişli'den، Feriköy'den، Kadıköy'den. بعد از صداهای سخت (p, ç, t, k, s, ş, h, f) حرفِ d به t تبدیل می‌شود: Beşiktaş'tan. سؤالش Nereden? است: از کجا؟",
+        "ru": "-DAn значит «из, от» и стоит в конце слова. Гласная подстраивается под слово: Şişli'den, Feriköy'den, Kadıköy'den. После глухого звука (p, ç, t, k, s, ş, h, f) d становится t: Beşiktaş'tan. Вопрос — Nereden? Откуда?",
         "lesson": "g_a1_3_uzaklasma",
         "show": "case_path"
       }
@@ -437,6 +487,7 @@
       "emo": "curious",
       "en": "This notebook… Nima? Is that you?",
       "fa": "این دفتر… نیما؟ شمایید؟",
+      "ru": "Эта тетрадь… Нима? Это вы?",
       "link": {
         "defter": "obj:defter"
       },
@@ -454,10 +505,11 @@
       "at": "ch:maria",
       "do": "you",
       "emo": "surprised",
-      "en": "Yes! You… on the metro!",
-      "fa": "بله! شما… تو مترو!",
+      "en": "Oh, yes! You… on the metro!",
+      "fa": "آهان، بله! شما… تو مترو!",
+      "ru": "А, да! Вы… в метро!",
       "to": "maria",
-      "tr": "Evet! Siz… metroda!",
+      "tr": "Aa, evet! Siz… metroda!",
       "who": "nima"
     },
     {
@@ -465,6 +517,7 @@
       "emo": "moved",
       "en": "Yes! You were very kind, thank you! I'm Maria, from the fifth floor. Where are you from?",
       "fa": "بله! خیلی لطف داشتین، ممنونم! من ماریام، طبقه‌ی پنجم. اهلِ کجایین؟",
+      "ru": "Да! Вы были очень любезны, спасибо! Я Мария, с пятого этажа. Откуда вы?",
       "if": "s1e14_seat",
       "obj": [
         {
@@ -482,6 +535,7 @@
       "emo": "happy",
       "en": "Yes, on the metro! I'm Maria, from the fifth floor. Where are you from?",
       "fa": "بله، تو مترو! من ماریام، طبقه‌ی پنجم. اهلِ کجایین؟",
+      "ru": "Да, в метро! Я Мария, с пятого этажа. Откуда вы?",
       "obj": [
         {
           "id": "defter",
@@ -498,6 +552,7 @@
       "emo": "happy",
       "en": "From Tehran. And you?",
       "fa": "از تهران. شما چی؟",
+      "ru": "Из Тегерана. А вы?",
       "to": "maria",
       "tr": "Tahran'dan. Siz?",
       "who": "nima"
@@ -507,6 +562,7 @@
       "emo": "happy",
       "en": "I'm from here. This very street! …Come for tea on Saturday!",
       "fa": "من اهلِ همین‌جام. از همین کوچه! …شنبه برای چای تشریف بیارین!",
+      "ru": "А я здешняя. С этой самой улицы! …Приходите в субботу на чай!",
       "to": "nima",
       "tr": "Ben buradanım. Bu sokaktan! …Cumartesi çaya gelin!",
       "who": "maria"
@@ -521,6 +577,7 @@
             "emo": "happy",
             "en": "Thank you so much, Maria Teyze!",
             "fa": "خیلی ممنونم، خاله ماریا!",
+            "ru": "Большое спасибо, тётя Мария!",
             "ok": true,
             "react": {
               "maria": {
@@ -533,6 +590,7 @@
                 "emo": "happy",
                 "en": "No, thank you! Saturday… teatime!",
                 "fa": "من از شما ممنونم! شنبه… وقتِ چای!",
+                "ru": "Это вам спасибо! Суббота… время чая!",
                 "to": "nima",
                 "tr": "Ben teşekkür ederim! Cumartesi… çay saati!",
                 "who": "maria"
@@ -544,6 +602,7 @@
           {
             "en": "Okay.",
             "fa": "باشه.",
+            "ru": "Хорошо.",
             "react": {
               "maria": {
                 "emo": "neutral"
@@ -560,6 +619,7 @@
                 "emo": "happy",
                 "en": "…Okay. Saturday.",
                 "fa": "…باشه. شنبه.",
+                "ru": "…Хорошо. В субботу.",
                 "to": "nima",
                 "tr": "…Tamam. Cumartesi.",
                 "who": "maria"
@@ -572,6 +632,7 @@
             "emo": "neutral",
             "en": "No, I don't want to.",
             "fa": "نه، نمی‌خوام.",
+            "ru": "Нет, не хочу.",
             "react": {
               "kerim": {
                 "emo": "nervous"
@@ -584,6 +645,7 @@
               {
                 "en": "No?! Coo-coo…",
                 "fa": "نه؟! کو-کو…",
+                "ru": "«Нет»?! Ку-ку…",
                 "narr": true,
                 "tr": "Hayır mı?! Ku-kuu…",
                 "who": "kerim"
@@ -593,6 +655,7 @@
                 "emo": "happy",
                 "en": "Very well… but there's tea on Saturday. Do come, do come!",
                 "fa": "باشه… ولی شنبه چای داریم. تشریف بیارین، حتماً!",
+                "ru": "Ну что ж… но в субботу будет чай. Приходите, приходите!",
                 "to": "nima",
                 "tr": "Peki… ama cumartesi çay var. Gelin, gelin!",
                 "who": "maria"
@@ -609,6 +672,7 @@
       "emo": "sad",
       "en": "But… Turkish is hard!",
       "fa": "ولی… ترکی سخته!",
+      "ru": "Но… турецкий такой трудный!",
       "to": "maria",
       "tr": "Ama… Türkçe zor!",
       "who": "nima",
@@ -620,6 +684,7 @@
       "emo": "happy",
       "en": "It isn't easy… but drop by drop, a lake forms.",
       "fa": "آسون نیست… ولی قطره قطره جمع گردد، وانگهی دریا شود.",
+      "ru": "Нелегко… но капля за каплей — и будет озеро.",
       "to": "nima",
       "tr": "Kolay değil… ama damlaya damlaya göl olur.",
       "who": "maria"
@@ -627,12 +692,14 @@
   ],
   "summary": {
     "en": "At the class map everyone says where they come from, and Parvaneh's Persian slip starts the Farsça jar, with Nima as its keeper. That night the lady from the metro is waiting upstairs with Nima's lost notebook: she is Maria, from the fifth floor.",
-    "fa": "کنارِ نقشه‌ی کلاس هر کس می‌گوید از کجا می‌آید. یک کلمه‌ی فارسی از دهانِ پروانه می‌پرد و قلکِ «فارسی» راه می‌افتد، و نیما نگهبانش می‌شود. آن شب خانمِ مترو با دفترِ گم‌شده‌ی نیما در راه‌پله منتظر است: او ماریاست، از طبقه‌ی پنجم."
+    "fa": "کنارِ نقشه‌ی کلاس هر کس می‌گوید از کجا می‌آید. یک کلمه‌ی فارسی از دهانِ پروانه می‌پرد و قلکِ «فارسی» راه می‌افتد، و نیما نگهبانش می‌شود. آن شب خانمِ مترو با دفترِ گم‌شده‌ی نیما در راه‌پله منتظر است: او ماریاست، از طبقه‌ی پنجم.",
+    "ru": "У карты в классе все говорят, откуда едут, и персидская оговорка Парване заводит копилку «Farsça», а следит за ней Нима. Вечером наверху Ниму ждёт дама из метро с потерянной тетрадью: это Мария с пятого этажа."
   },
   "title": {
     "tr": "Nereden geliyorsunuz?",
     "en": "Where are you coming from?",
-    "fa": "از کجا می‌آیید؟"
+    "fa": "از کجا می‌آیید؟",
+    "ru": "Откуда вы едете?"
   },
   "words": [
     "a1-w-nereden",

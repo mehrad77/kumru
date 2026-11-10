@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new home, a new way",
     "fa": "خانه‌ی نو، راهِ نو",
+    "ru": "Новый дом, новый путь",
     "id": "s1w03",
     "mechanics": [
       "say",
@@ -24,6 +25,7 @@
     {
       "en": "Nima, what do you want to do in Istanbul?",
       "fa": "نیما، تو استانبول می‌خواید چی‌کار کنید؟",
+      "ru": "Нима, что вы хотите делать в Стамбуле?",
       "to": "nima",
       "tr": "Nima, İstanbul'da ne yapmak istiyorsunuz?",
       "who": "zafer"
@@ -36,6 +38,7 @@
           {
             "en": "I want to drink tea on the Bosphorus.",
             "fa": "می‌خوام کنار بسفر چای بخورم.",
+            "ru": "Я хочу пить чай на Босфоре.",
             "ok": true,
             "react": {
               "zafer": {
@@ -47,6 +50,7 @@
               {
                 "en": "Very nice!",
                 "fa": "خیلی خوب!",
+                "ru": "Очень хорошо!",
                 "tr": "Çok güzel!",
                 "who": "zafer"
               }
@@ -57,6 +61,7 @@
           {
             "en": "I'm drinking tea on the Bosphorus.",
             "fa": "دارم کنار بسفر چای می‌خورم.",
+            "ru": "Я пью чай на Босфоре.",
             "react": {
               "zafer": {
                 "emo": "confused"
@@ -66,6 +71,7 @@
               {
                 "en": "Right now? No… you want to drink it!",
                 "fa": "همین الان؟ نه… می‌خواید بخورید!",
+                "ru": "Прямо сейчас? Нет… вы хотите его пить!",
                 "tr": "Şimdi mi? Hayır… içmek istiyorsunuz!",
                 "who": "zafer"
               }
@@ -80,6 +86,7 @@
     {
       "en": "And now? It's raining!",
       "fa": "حالا چی؟ داره بارون میاد!",
+      "ru": "А сейчас? Идёт дождь!",
       "to": "nima",
       "tr": "Peki şimdi? Yağmur yağıyor!",
       "who": "zafer"
@@ -87,6 +94,7 @@
     {
       "en": "Now… I want an umbrella!",
       "fa": "حالا… چتر می‌خوام!",
+      "ru": "Сейчас… я хочу зонтик!",
       "to": "zafer",
       "tr": "Şimdi… şemsiye istiyorum!",
       "who": "nima"
@@ -94,6 +102,7 @@
     {
       "en": "Me too!",
       "fa": "منم!",
+      "ru": "Я тоже!",
       "to": "nima",
       "tr": "Ben de!",
       "who": "zafer"
@@ -102,43 +111,63 @@
   "gl": {
     "adalar": {
       "fa": "جزیره‌ها (جزایرِ پرنس، نزدیکِ استانبول)",
+      "ru": "Острова (Принцевы острова у Стамбула)",
       "en": "the Islands (the Princes' Islands off Istanbul)"
     },
     "boğaz": {
       "fa": "بسفر",
+      "ru": "Босфор",
       "en": "the Bosphorus"
     },
     "bulut": {
       "fa": "ابر",
+      "ru": "облако",
       "en": "cloud"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a district of Şişli)"
     },
     "galata": {
       "fa": "گالاتا (برجِ گالاتا)",
+      "ru": "Галата (Галатская башня)",
       "en": "Galata (the Galata Tower)"
     },
     "musun": {
       "fa": "(نشانه‌ی سؤال) …ی؟",
+      "ru": "(вопросительное слово) ты…?",
       "en": "(question word) are you…?"
     },
     "osmanbey": {
       "fa": "عثمان‌بی (محله و ایستگاهِ مترو در شیشلی)",
+      "ru": "Османбей (район и станция метро в Шишли)",
       "en": "Osmanbey (a district and metro stop in Şişli)"
     },
     "tane": {
       "fa": "دانه؛ تا (bir tane: یکی)",
+      "ru": "штука (bir tane: что-то одно)",
       "en": "piece (bir tane: just one)"
     },
     "zafer": {
       "fa": "ظفر (اسم؛ به معنیِ پیروزی)",
+      "ru": "Зафер (имя; также слово «победа»)",
       "en": "Zafer (a name; also the word for victory)"
     },
     "güneş": {
       "fa": "خورشید؛ آفتاب",
+      "ru": "солнце",
       "en": "sun"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "ru": "а! (удивление)",
+      "en": "oh! (surprise)"
+    },
+    "hadi": {
+      "fa": "بیا، بریم!",
+      "ru": "давай!; пошли!",
+      "en": "come on!; let's go!"
     }
   },
   "id": "s1e15",
@@ -180,7 +209,8 @@
       "q": {
         "tr": "Dilnoza ne yapmak istiyor?",
         "en": "What does Dilnoza want to do?",
-        "fa": "دلنوزا می‌خواهد چه کار کند؟"
+        "fa": "دلنوزا می‌خواهد چه کار کند؟",
+        "ru": "Что хочет делать Дилноза?"
       },
       "why": "Dilnoza: “Ben… Türkçe konuşmak istiyorum.”"
     },
@@ -189,7 +219,8 @@
       "q": {
         "tr": "Nima: “Ben Boğaz'da çay içmek …”",
         "en": "Nima: “I … to drink tea on the Bosphorus.” Which word fits?",
-        "fa": "نیما: «من … کنار بسفر چای بخورم.» کدام کلمه درست است؟"
+        "fa": "نیما: «من … کنار بسفر چای بخورم.» کدام کلمه درست است؟",
+        "ru": "Нима: «Я … пить чай на Босфоре». Какое слово подходит?"
       },
       "options": [
         "konuşuyorum",
@@ -219,6 +250,7 @@
     {
       "en": "The weather's not nice. Clouds, lots of clouds! The sun… is gone.",
       "fa": "هوا خوب نیست. ابره، کلی ابر! آفتاب… نیست.",
+      "ru": "Погода не очень. Облака, много облаков! Солнца… нет.",
       "narr": true,
       "tr": "Hava güzel değil. Bulut var, çok bulut! Güneş… yok.",
       "who": "kerim"
@@ -228,6 +260,7 @@
       "emo": "happy",
       "en": "What do you want to do in Istanbul?",
       "fa": "تو استانبول می‌خواین چی‌کار کنین؟",
+      "ru": "Что вы хотите делать в Стамбуле?",
       "to": "all",
       "tr": "İstanbul'da ne yapmak istiyorsunuz?",
       "who": "zafer"
@@ -237,6 +270,7 @@
       "emo": "happy",
       "en": "I want to go up Galata! I want to go to the Bosphorus! Wander around the Islands…",
       "fa": "می‌خوام برم بالای گالاتا! می‌خوام برم کنار بسفر! تو جزیره‌ها بگردم…",
+      "ru": "Я хочу подняться на Галату! Хочу поехать на Босфор! Погулять по Островам…",
       "to": "zafer",
       "tr": "Galata'ya çıkmak istiyorum! Boğaz'a gitmek istiyorum! Adalar'da gezmek…",
       "who": "parvaneh"
@@ -246,6 +280,7 @@
       "emo": "laugh",
       "en": "Just one, Parvaneh! …Nima, you?",
       "fa": "فقط یکی، پروانه! …نیما، شما؟",
+      "ru": "Что-то одно, Парване! …Нима, а вы?",
       "n": 1,
       "react": {
         "parvaneh": "laugh"
@@ -259,6 +294,7 @@
       "emo": "happy",
       "en": "I want to drink tea on the Bosphorus.",
       "fa": "من می‌خوام کنار بسفر چای بخورم.",
+      "ru": "Я хочу пить чай на Босфоре.",
       "to": "zafer",
       "tr": "Ben Boğaz'da çay içmek istiyorum.",
       "who": "nima"
@@ -277,6 +313,7 @@
       "emo": "laugh",
       "en": "Alex wants to sleep!",
       "fa": "الکس می‌خواد بخوابه!",
+      "ru": "Алекс хочет спать!",
       "react": {
         "nima": "laugh",
         "parvaneh": "laugh"
@@ -289,6 +326,7 @@
       "emo": "shy",
       "en": "I… want to speak Turkish.",
       "fa": "من… می‌خوام ترکی حرف بزنم.",
+      "ru": "Я… хочу говорить по-турецки.",
       "to": "zafer",
       "tr": "Ben… Türkçe konuşmak istiyorum.",
       "who": "dilnoza"
@@ -298,6 +336,7 @@
       "emo": "proud",
       "en": "Very good, Dilnoza. You're speaking now!",
       "fa": "خیلی خوب، دلنوزا. الان دارین حرف می‌زنین!",
+      "ru": "Очень хорошо, Дилноза. Вот вы и говорите!",
       "react": {
         "dilnoza": "shy"
       },
@@ -316,13 +355,14 @@
     },
     {
       "emo": "shy",
-      "en": "It's raining! …Do you want the umbrella?",
+      "en": "Oh, it's raining! …Do you want the umbrella?",
       "env": [
         "thunder",
         "state:rain",
         "weather:rain"
       ],
-      "fa": "داره بارون میاد! …چتر می‌خوای؟",
+      "fa": "عه، داره بارون میاد! …چتر می‌خوای؟",
+      "ru": "А, дождь идёт! …Хочешь зонтик?",
       "link": {
         "şemsiye": "obj:buyuk_semsiye"
       },
@@ -352,7 +392,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Yağmur yağıyor! …Şemsiye istiyor musun?",
+      "tr": "Aa, yağmur yağıyor! …Şemsiye istiyor musun?",
       "who": "dilnoza"
     },
     {
@@ -365,6 +405,7 @@
             "emo": "happy",
             "en": "Yes, please! Thanks so much.",
             "fa": "آره، لطفاً! خیلی ممنون.",
+            "ru": "Да, пожалуйста! Огромное спасибо.",
             "ok": true,
             "react": {
               "dilnoza": {
@@ -378,6 +419,7 @@
                 "emo": "happy",
                 "en": "Come, come!",
                 "fa": "بیا، بیا!",
+                "ru": "Иди сюда, иди!",
                 "move": {
                   "how": "walk",
                   "to": "walk_l",
@@ -396,6 +438,7 @@
             "emo": "proud",
             "en": "No, I don't want it.",
             "fa": "نه، نمی‌خوام.",
+            "ru": "Нет, не хочу.",
             "move": {
               "how": "walk",
               "to": "walk_l",
@@ -423,6 +466,7 @@
                 "emo": "laugh",
                 "en": "Do you want it… now?",
                 "fa": "حالا… می‌خوای؟",
+                "ru": "Хочешь… теперь?",
                 "react": {
                   "nima": "shy"
                 },
@@ -438,6 +482,7 @@
             "emo": "neutral",
             "en": "Give it here!",
             "fa": "بده!",
+            "ru": "Давай сюда!",
             "react": {
               "dilnoza": {
                 "emo": "confused"
@@ -450,6 +495,7 @@
                 "emo": "sad",
                 "en": "…Here.",
                 "fa": "…بگیر.",
+                "ru": "…На.",
                 "obj": [
                   {
                     "id": "buyuk_semsiye",
@@ -486,6 +532,7 @@
       "emo": "curious",
       "en": "You're going to Feriköy, aren't you?",
       "fa": "تو می‌ری فری‌کؤی، نه؟",
+      "ru": "Ты ведь едешь в Ферикёй, да?",
       "move": {
         "how": "walk",
         "to": "walk_r",
@@ -499,6 +546,7 @@
       "emo": "happy",
       "en": "Yes. And you?",
       "fa": "آره. تو چی؟",
+      "ru": "Да. А ты?",
       "move": {
         "how": "walk",
         "to": "walk_c",
@@ -511,8 +559,9 @@
     {
       "do": "me",
       "emo": "happy",
-      "en": "I'm going to Osmanbey! Let's go together!",
-      "fa": "من می‌رم عثمان‌بی! با هم می‌ریم!",
+      "en": "I'm going to Osmanbey! Come on, let's go together!",
+      "fa": "من می‌رم عثمان‌بی! بیا، با هم می‌ریم!",
+      "ru": "Я — в Османбей! Давай, поедем вместе!",
       "react": {
         "nima": {
           "do": "nod",
@@ -520,7 +569,7 @@
         }
       },
       "to": "nima",
-      "tr": "Ben Osmanbey'e! Beraber gidiyoruz!",
+      "tr": "Ben Osmanbey'e! Hadi, beraber gidiyoruz!",
       "who": "dilnoza"
     },
     {
@@ -528,6 +577,7 @@
         "en": "-mAk is a verb's dictionary form: içmek, çıkmak, konuşmak. Put it before istiyorum and it's a wish: çay içmek istiyorum, I want to drink tea. Without a verb, istemek wants a thing: Şemsiye istiyor musun? The negative is istemiyorum. And a hard t softens before a vowel: gitmek → gidiyorum.",
         "ex": "Ben Boğaz'da çay içmek istiyorum.",
         "fa": "‏-mAk شکلِ مصدرِ فعل است: içmek، çıkmak، konuşmak. اگر قبل از istiyorum بیاید، آرزو می‌شود: çay içmek istiyorum یعنی «می‌خواهم چای بنوشم». بدونِ فعل، istemek یک چیز را می‌خواهد: Şemsiye istiyor musun? (چتر می‌خواهی؟). منفی‌اش istemiyorum است. و t سخت قبل از حرفِ صدادار نرم می‌شود و d می‌شود: gitmek ← gidiyorum.",
+        "ru": "-mAk — словарная форма глагола, как русский инфинитив: içmek, çıkmak, konuşmak. Поставь её перед istiyorum — и это желание: çay içmek istiyorum, я хочу пить чай. Без глагола istemek хочет вещь: Şemsiye istiyor musun? Отрицание — istemiyorum. А твёрдый t перед гласной смягчается: gitmek → gidiyorum.",
         "lesson": "g_a1_3_mak_istemek"
       }
     },
@@ -535,6 +585,7 @@
       "emo": "sad",
       "en": "Kerim wants an umbrella too…",
       "fa": "کریم هم چتر می‌خواد…",
+      "ru": "Керим тоже хочет зонтик…",
       "narr": true,
       "tr": "Kerim de şemsiye istiyor…",
       "who": "kerim"
@@ -542,12 +593,14 @@
   ],
   "summary": {
     "en": "In class everyone says what they want to do in Istanbul: Nima wants tea on the Bosphorus. Then the first autumn rain comes, and shy Dilnoza has a huge umbrella.",
-    "fa": "سرِ کلاس هر کس می‌گوید در استانبول چه می‌خواهد بکند: نیما می‌خواهد کنار بسفر چای بنوشد. بعد اولین بارانِ پاییزی می‌بارد و دلنوزای خجالتی چترِ بزرگی دارد."
+    "fa": "سرِ کلاس هر کس می‌گوید در استانبول چه می‌خواهد بکند: نیما می‌خواهد کنار بسفر چای بنوشد. بعد اولین بارانِ پاییزی می‌بارد و دلنوزای خجالتی چترِ بزرگی دارد.",
+    "ru": "На уроке все говорят, что хотят делать в Стамбуле: Нима хочет пить чай на Босфоре. Потом идёт первый осенний дождь, а у застенчивой Дилнозы огромный зонтик."
   },
   "title": {
     "tr": "Yağmur yağıyor!",
     "en": "It's raining!",
-    "fa": "باران می‌بارد!"
+    "fa": "باران می‌بارد!",
+    "ru": "Идёт дождь!"
   },
   "words": [
     "a1-w-istemek",

@@ -1,8 +1,8 @@
+import { isDeepStrictEqual } from "node:util";
 import { type Page, expect, test } from "@playwright/test";
 import { signIn, signUp } from "./helpers.ts";
 
 // docs/SPECS.md section 11.5: sign up, practise, sign in from a second context, answer on both, both end on one document.
-const user = `smoke${Date.now().toString(36).slice(-6)}`;
 const password = "smoke-password";
 
 async function answerOne(page: Page) {
@@ -23,6 +23,7 @@ const localDoc = (page: Page) => page.evaluate(() => {
 const settled = (page: Page) => page.evaluate(() => !localStorage.getItem("kumru:dirty"));
 
 test("two devices on one account end on one document", async ({ browser }) => {
+  const user = `smoke${(Date.now() + Math.random()).toString(36).replace(".", "").slice(-8)}`;
   const a = await (await browser.newContext()).newPage();
   await a.goto("/profile?learner");
   await signUp(a, user, password);
@@ -47,11 +48,12 @@ test("two devices on one account end on one document", async ({ browser }) => {
     return JSON.stringify((await localDoc(a))?.conf);
   }, { timeout: 30_000, intervals: [1000] }).toBe(target);
   await expect.poll(() => settled(a), { timeout: 15_000 }).toBe(true);
-  const server = (await serverDoc(a)).body;
+  // B pulls too, and all three end equal. Read the server each time: a device may save once more after its merge, so a
+  // snapshot of the server taken earlier can go stale (CI saw both copies off by one save)
   await expect.poll(async () => {
-    await b.evaluate(() => document.dispatchEvent(new Event("visibilitychange")));
-    return (await localDoc(b)).conf;
-  }, { timeout: 30_000, intervals: [1000] }).toEqual(server.conf);
-  expect((await localDoc(a)).conf).toEqual(server.conf);
-  expect(Object.keys(server.conf).length).toBeGreaterThan(0);
+    for (const p of [a, b]) await p.evaluate(() => document.dispatchEvent(new Event("visibilitychange")));
+    const [server, la, lb] = [(await serverDoc(a)).body.conf, (await localDoc(a))?.conf, (await localDoc(b))?.conf];
+    const diff = (x: Record<string, unknown> | undefined) => Object.keys({ ...x, ...server }).filter((k) => !isDeepStrictEqual(x?.[k], server[k])).map((k) => `${k}: ${JSON.stringify(x?.[k])} vs server ${JSON.stringify(server[k])}`);
+    return { a: diff(la), b: diff(lb), empty: Object.keys(server).length === 0 };
+  }, { timeout: 45_000, intervals: [1000] }).toEqual({ a: [], b: [], empty: false });
 });

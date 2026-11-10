@@ -1,0 +1,79 @@
+{
+ "story": "s1e35",
+ "lines": {
+  "reza": {
+   "Sözleşmenin… noter onayı yok.": {
+    "f": "e122b7b6e12add.m4a",
+    "ms": 2450,
+    "sig": "c2b207eec47fe7"
+   },
+   "Günaydın! Belgeleriniz hazır mı?": {
+    "f": "c96f306e1c58a7.m4a",
+    "ms": 3719,
+    "sig": "cb081df33f613c"
+   },
+   "Sorun değil. İstanbul'da herkesin bir noter hikâyesi var!": {
+    "f": "ec5670e714fb91.m4a",
+    "ms": 3914,
+    "sig": "c59a4a6ef6fd17"
+   },
+   "Bir imza, bir mühür: Tolga Bey'in işi. Maalesef… yeni bir randevu. On gün sonra, pazartesi.": {
+    "f": "7d3c9475b664ae.m4a",
+    "ms": 7846,
+    "sig": "772d570d2b99eb"
+   }
+  },
+  "dilnoza": {
+   "Vay! Bu manzara… nerede? Rehberin son sayfası boş!": {
+    "f": "c0c25491321907.m4a",
+    "ms": 4161,
+    "sig": "851f96db88accb"
+   },
+   "Herkes mi? Bence… sadece arkadaşlar. Bir sır!": {
+    "f": "c6ad9d7e18b437.m4a",
+    "ms": 4489,
+    "sig": "69a76a71ab0ef2"
+   },
+   "…Bu senin çatın, değil mi?": {
+    "f": "df2d2b69c14c3a.m4a",
+    "ms": 3179,
+    "sig": "ef16e22b163338"
+   },
+   "Tamam. Sır. Son sayfa: “Bir sır: Feriköy'ün en güzel manzarası.”": {
+    "f": "51db96c9741917.m4a",
+    "ms": 5449,
+    "sig": "a82af5ad441987"
+   },
+   "Alo, Nima! Neredesin? Randevu nasıl geçti?": {
+    "f": "ca01ee73fffdef.m4a",
+    "ms": 4068,
+    "sig": "16bca2f338b5b0"
+   }
+  },
+  "kerim": {
+   "Cuma. Saat on. Nima'nın ikamet randevusu!": {
+    "f": "8cc6b50edeff13.m4a",
+    "ms": 4693,
+    "sig": "431f4e3119de4d"
+   },
+   "Solda güneş, Haliç'in üstünde. Sağda, binaların arasında: Boğaz ve köprü! Aşağıda… Feriköy'ün sokakları.": {
+    "f": "36c49eaa51419f.m4a",
+    "ms": 8887,
+    "sig": "d306e3659ff2c1"
+   },
+   "Herkes?! Tankta… turistler?!": {
+    "f": "222f988e3206e6.m4a",
+    "ms": 2534,
+    "sig": "800db36b7c4e90"
+   },
+   "Tankın üstündeki kuş… Kerim. Kerim'in yeri, Kerim'in sırrı. Ve şimdi… Nima'nın da sırrı.": {
+    "f": "2708b7f3da7e37.m4a",
+    "ms": 8255,
+    "sig": "f5c51b0bab058b"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

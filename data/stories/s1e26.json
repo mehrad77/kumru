@@ -2,6 +2,7 @@
   "arc": {
     "en": "What time is it?",
     "fa": "ساعت چند است؟",
+    "ru": "Который час?",
     "id": "s1w05",
     "mechanics": [
       "say",
@@ -24,6 +25,7 @@
     {
       "en": "Now you tell me: what time do you get up?",
       "fa": "حالا شما بگید: ساعتِ چند بیدار می‌شید؟",
+      "ru": "А теперь скажите вы: во сколько вы встаёте?",
       "to": "nima",
       "tr": "Şimdi siz söyleyin: saat kaçta kalkıyorsunuz?",
       "who": "zafer"
@@ -36,6 +38,7 @@
           {
             "en": "I get up at seven.",
             "fa": "ساعتِ هفت بیدار می‌شم.",
+            "ru": "Я встаю в семь.",
             "ok": true,
             "react": {
               "zafer": {
@@ -47,6 +50,7 @@
               {
                 "en": "Very good! And what time do you go to bed?",
                 "fa": "خیلی خوب! ساعتِ چند می‌خوابید؟",
+                "ru": "Очень хорошо! А во сколько вы ложитесь спать?",
                 "tr": "Çok güzel! Saat kaçta yatıyorsunuz?",
                 "who": "zafer"
               }
@@ -57,6 +61,7 @@
           {
             "en": "I get up seven o'clock.",
             "fa": "ساعت هفت بیدار می‌شم.",
+            "ru": "Я встаю семь часов.",
             "react": {
               "zafer": "curious"
             },
@@ -64,6 +69,7 @@
               {
                 "en": "Not yedi: yedide (at seven)! And what time do you go to bed?",
                 "fa": "yedi نه: yedide (ساعتِ هفت)! ساعتِ چند می‌خوابید؟",
+                "ru": "Не «yedi», а «yedide» (в семь)! А во сколько вы ложитесь спать?",
                 "tr": "Yedi değil: yedide! Saat kaçta yatıyorsunuz?",
                 "who": "zafer"
               }
@@ -78,6 +84,7 @@
     {
       "en": "I go to bed at eleven. Sometimes I study until midnight!",
       "fa": "ساعتِ یازده می‌خوابم. بعضی وقت‌ها تا نصفه‌شب درس می‌خونم!",
+      "ru": "Ложусь в одиннадцать. Иногда занимаюсь до полуночи!",
       "to": "zafer",
       "tr": "On birde yatıyorum. Bazen gece yarısına kadar ders çalışıyorum!",
       "who": "nima"
@@ -85,6 +92,7 @@
     {
       "en": "Me too! But go to bed early, please.",
       "fa": "من هم همین‌طور! ولی لطفاً زود بخوابید.",
+      "ru": "Я тоже! Но ложитесь пораньше, пожалуйста.",
       "to": "nima",
       "tr": "Ben de! Ama erken yatın, lütfen.",
       "who": "zafer"
@@ -93,54 +101,67 @@
   "gl": {
     "ediyorum": {
       "fa": "می‌کنم (از etmek)؛ «kahvaltı ediyorum» یعنی صبحانه می‌خورم",
+      "ru": "делаю (от etmek); «kahvaltı ediyorum»: я завтракаю",
       "en": "I do (from etmek); “kahvaltı ediyorum”: I have breakfast"
     },
     "hocam": {
       "fa": "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
+      "ru": "учитель (так ученики обращаются к учителю)",
       "en": "my teacher (how students address a teacher)"
     },
     "hostelde": {
       "fa": "در یک هاستل (مسافرخانه‌ی ارزان)",
+      "ru": "в хостеле",
       "en": "at a hostel"
     },
     "ikide": {
       "fa": "در دو؛ «saat on ikide» یعنی ساعتِ دوازده",
+      "ru": "в два; «saat on ikide»: в двенадцать",
       "en": "at two; “saat on ikide”: at twelve"
     },
     "ikiye": {
       "fa": "به دو؛ «on ikiye kadar» یعنی تا دوازده",
+      "ru": "к двум; «on ikiye kadar»: до двенадцати",
       "en": "to two; “on ikiye kadar”: until twelve"
     },
     "kadıköy": {
       "fa": "کادیکوی (محله‌ای در بخشِ آسیاییِ استانبول)",
+      "ru": "Кадыкёй (район на азиатском берегу)",
       "en": "Kadıköy (a district on the Asian side)"
     },
     "musunuz": {
       "fa": "آیا (شما)…؟ (پرسش)",
+      "ru": "вопросительная частица (вы, вежливо)",
       "en": "question word (you, polite)"
     },
     "pratiği": {
       "fa": "تمرین؛ «konuşma pratiği» یعنی تمرینِ مکالمه",
+      "ru": "практика; «konuşma pratiği»: разговорная практика",
       "en": "practice; “konuşma pratiği”: speaking practice"
     },
     "saatiyle": {
       "fa": "با ساعتِ …؛ «Tahran saatiyle» یعنی به وقتِ تهران",
+      "ru": "по … времени; «Tahran saatiyle»: по тегеранскому времени",
       "en": "by … time; “Tahran saatiyle”: by Tehran time"
     },
     "tahran": {
       "fa": "تهران",
+      "ru": "Тегеран",
       "en": "Tehran"
     },
     "uykulu": {
       "fa": "خواب‌آلود",
+      "ru": "сонный",
       "en": "sleepy"
     },
     "yarısı": {
       "fa": "نیمه؛ «gece yarısına kadar» یعنی تا نیمه‌شب",
+      "ru": "половина; «gece yarısına kadar»: до полуночи",
       "en": "half; “gece yarısına kadar”: until midnight"
     },
     "zafer": {
       "fa": "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
+      "ru": "Зафер (имя; слово значит «победа»)",
       "en": "Zafer (a name; the word means victory)"
     }
   },
@@ -224,7 +245,8 @@
       "q": {
         "tr": "“Ama bazen ödevleri okuyorum.” Bazen: …",
         "en": "“But sometimes I read the homework.” Bazen means…",
-        "fa": "«Ama bazen ödevleri okuyorum.» Bazen یعنی…"
+        "fa": "«Ama bazen ödevleri okuyorum.» Bazen یعنی…",
+        "ru": "«Но иногда я читаю домашние работы.» «Bazen» значит…"
       },
       "why": "Zafer Hoca: “Ama bazen ödevleri okuyorum… gece yarısına kadar!”"
     },
@@ -239,7 +261,8 @@
       "q": {
         "tr": "Alex ne zaman çalışıyor?",
         "en": "When does Alex work?",
-        "fa": "الکس کِی کار می‌کند؟"
+        "fa": "الکس کِی کار می‌کند؟",
+        "ru": "Когда работает Алекс?"
       },
       "why": "Alex: “Saat on birden yediye kadar.”"
     }
@@ -262,6 +285,7 @@
       "cam": "wide",
       "en": "Half past eight. The classroom is empty… but Nima is here!",
       "fa": "ساعت هشت و نیمه. کلاس خالیه… ولی نیما این‌جاست!",
+      "ru": "Половина девятого. Класс пустой… а Нима уже здесь!",
       "move": {
         "how": "walk",
         "to": "front_desk",
@@ -277,7 +301,8 @@
     {
       "emo": "surprised",
       "en": "Good morning! You're very early!",
-      "fa": "صبح بخیر! چه زود!",
+      "fa": "صبح بخیر! چقدر زود اومدید!",
+      "ru": "Доброе утро! Вы очень рано!",
       "obj": [
         {
           "id": "odevler",
@@ -285,7 +310,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Günaydın! Çok erken!",
+      "tr": "Günaydın! Çok erkensiniz!",
       "who": "zafer"
     },
     {
@@ -294,6 +319,7 @@
       "emo": "shy",
       "en": "My watch… it's on Tehran time!",
       "fa": "ساعتم… به وقتِ تهرانه!",
+      "ru": "Мои часы… по тегеранскому времени!",
       "link": {
         "saatim": "obj:kol_saati"
       },
@@ -311,6 +337,7 @@
       "emo": "laugh",
       "en": "So… what time do you get up?",
       "fa": "خب… شما ساعتِ چند بیدار می‌شید؟",
+      "ru": "Что ж… во сколько вы встаёте?",
       "to": "nima",
       "tr": "Peki… saat kaçta kalkıyorsunuz?",
       "who": "zafer"
@@ -319,6 +346,7 @@
       "emo": "happy",
       "en": "At seven. And you?",
       "fa": "ساعتِ هفت. شما چی؟",
+      "ru": "В семь. А вы?",
       "to": "zafer",
       "tr": "Yedide. Siz?",
       "who": "nima"
@@ -328,16 +356,18 @@
       "emo": "happy",
       "en": "I usually get up at six. I have breakfast at seven. At eight I'm at school.",
       "fa": "من معمولاً ساعتِ شش بیدار می‌شم. هفت صبحونه می‌خورم. هشت دیگه مدرسه‌ام.",
+      "ru": "Я обычно встаю в шесть. В семь завтракаю. В восемь я в школе.",
       "to": "nima",
       "tr": "Ben genellikle saat altıda kalkıyorum. Yedide kahvaltı ediyorum. Sekizde okuldayım.",
       "who": "zafer"
     },
     {
       "emo": "curious",
-      "en": "And you? What time do you go to bed?",
-      "fa": "شما چی؟ ساعتِ چند می‌خوابید؟",
+      "en": "And in the evening? What time do you go to bed?",
+      "fa": "شب‌ها چی؟ ساعتِ چند می‌خوابید؟",
+      "ru": "А вечером? Во сколько вы ложитесь спать?",
       "to": "zafer",
-      "tr": "Ya siz? Saat kaçta yatıyorsunuz?",
+      "tr": "Ya akşam? Saat kaçta yatıyorsunuz?",
       "who": "nima"
     },
     {
@@ -346,6 +376,7 @@
       "emo": "tired",
       "en": "At eleven. But sometimes I read the homework… until midnight!",
       "fa": "یازده. ولی بعضی وقت‌ها تکلیف‌ها رو می‌خونم… تا نصفه‌شب!",
+      "ru": "В одиннадцать. Но иногда читаю домашние работы… до полуночи!",
       "link": {
         "ödevleri": "obj:odevler"
       },
@@ -358,6 +389,7 @@
         "en": "Saat kaç? asks the time now: “Saat sekiz buçuk.” Saat kaçta? asks when something happens, and the answer takes -DA: saat yedide, altıda, sekizde, on birde (at seven, at six, at eight, at eleven). Kaç → kaçta, yedi → yedide: one small ending.",
         "ex": "Peki… saat kaçta kalkıyorsunuz?",
         "fa": "«Saat kaç?» ساعتِ همین الان را می‌پرسد: «Saat sekiz buçuk.» «Saat kaçta?» می‌پرسد کاری چه ساعتی انجام می‌شود، و جواب پسوندِ -DA می‌گیرد: saat yedide، altıda، sekizde، on birde (ساعتِ هفت، شش، هشت، یازده). در فارسی هر دو «ساعت چند؟» است؛ در ترکی فقط یک پسوندِ کوچک فرق می‌گذارد: kaç → kaçta، yedi → yedide.",
+        "ru": "«Saat kaç?» спрашивает, который час сейчас: «Saat sekiz buçuk». «Saat kaçta?» спрашивает, во сколько что-то происходит, и ответ берёт -DA: saat yedide, altıda, sekizde, on birde (в семь, в шесть, в восемь, в одиннадцать). Kaç → kaçta, yedi → yedide: одно маленькое окончание.",
         "lesson": "g_a1_5_saatler",
         "show": "clock"
       }
@@ -366,6 +398,7 @@
       "emo": "happy",
       "en": "Would you like some speaking practice? This week, on Thursday, the classroom is empty at lunchtime.",
       "fa": "تمرینِ مکالمه می‌خواید؟ این هفته پنجشنبه، موقعِ ناهار کلاس خالیه.",
+      "ru": "Хотите разговорную практику? На этой неделе, в четверг, в обед класс свободен.",
       "obj": [
         {
           "id": "ajanda",
@@ -385,6 +418,7 @@
             "emo": "happy",
             "en": "Thursday, at twelve. Is that all right, teacher?",
             "fa": "پنجشنبه، ساعتِ دوازده. خوبه، استاد؟",
+            "ru": "В четверг, в двенадцать. Хорошо, учитель?",
             "ok": true,
             "react": {
               "zafer": {
@@ -398,6 +432,7 @@
                 "emo": "happy",
                 "en": "All right: Thursday, at twelve!",
                 "fa": "باشه: پنجشنبه، ساعتِ دوازده!",
+                "ru": "Хорошо: в четверг, в двенадцать!",
                 "tr": "Tamam: perşembe, saat on ikide!",
                 "who": "zafer"
               }
@@ -410,6 +445,7 @@
             "emo": "nervous",
             "en": "Thursday? I don't know…",
             "fa": "پنجشنبه؟ نمی‌دونم…",
+            "ru": "В четверг? Не знаю…",
             "react": {
               "zafer": "curious"
             },
@@ -419,6 +455,7 @@
                 "emo": "curious",
                 "en": "Is twelve good? At lunchtime.",
                 "fa": "ساعتِ دوازده خوبه؟ موقعِ ناهار.",
+                "ru": "В двенадцать удобно? В обед.",
                 "tr": "Saat on iki iyi mi? Öğle yemeğinde.",
                 "who": "zafer"
               }
@@ -431,6 +468,7 @@
             "emo": "happy",
             "en": "OK!",
             "fa": "باشه!",
+            "ru": "Ладно!",
             "react": {
               "zafer": "happy"
             },
@@ -439,6 +477,7 @@
                 "emo": "curious",
                 "en": "…At what time? At twelve, all right?",
                 "fa": "…ساعتِ چند؟ ساعتِ دوازده، باشه؟",
+                "ru": "…А во сколько? В двенадцать, хорошо?",
                 "tr": "…Saat kaçta? On ikide, tamam mı?",
                 "who": "zafer"
               }
@@ -454,6 +493,7 @@
       "emo": "happy",
       "en": "Thank you, teacher!",
       "fa": "ممنونم، استاد!",
+      "ru": "Спасибо, учитель!",
       "to": "zafer",
       "tr": "Teşekkür ederim, hocam!",
       "who": "nima"
@@ -512,6 +552,7 @@
       "emo": "surprised",
       "en": "Nima?! You… came early?! Late yesterday, early today!",
       "fa": "نیما؟! تو… زود اومدی؟! دیروز دیر، امروز زود!",
+      "ru": "Нима?! Ты… сегодня рано?! Вчера поздно, сегодня рано!",
       "move": {
         "how": "walk",
         "to": "board",
@@ -542,6 +583,7 @@
       "emo": "laugh",
       "en": "Alex! Sleepy again!",
       "fa": "الکس! باز خواب‌آلودی!",
+      "ru": "Алекс! Опять сонный!",
       "to": "alex",
       "tr": "Alex! Yine uykulusun!",
       "who": "parvaneh"
@@ -550,6 +592,7 @@
       "emo": "tired",
       "en": "I work nights. In Kadıköy, at a hostel. From eleven to seven.",
       "fa": "شب‌ها کار می‌کنم. توی کادیکوی، تو یه هاستل. از ساعتِ یازده تا هفت.",
+      "ru": "Я работаю по ночам. В Кадыкёе, в хостеле. С одиннадцати до семи.",
       "react": {
         "nima": "surprised",
         "parvaneh": "surprised"
@@ -560,16 +603,18 @@
     },
     {
       "emo": "curious",
-      "en": "When do you sleep?",
+      "en": "So when do you sleep?",
       "fa": "پس کِی می‌خوابی؟",
+      "ru": "А когда же ты спишь?",
       "to": "alex",
-      "tr": "Ne zaman uyuyorsun?",
+      "tr": "Peki, ne zaman uyuyorsun?",
       "who": "nima"
     },
     {
       "emo": "tired",
       "en": "…In class!",
       "fa": "…سرِ کلاس!",
+      "ru": "…На уроке!",
       "react": {
         "parvaneh": "laugh",
         "zafer": "happy"
@@ -582,6 +627,7 @@
       "cam": "wide",
       "en": "Nine o'clock. Everyone is here. Alex is here too… a little.",
       "fa": "ساعت نهه. همه این‌جان. الکس هم این‌جاست… یه کمی.",
+      "ru": "Девять часов. Все здесь. Алекс тоже здесь… немножко.",
       "narr": true,
       "tr": "Saat dokuz. Herkes burada. Alex de burada… biraz.",
       "who": "kerim"
@@ -589,12 +635,14 @@
   ],
   "summary": {
     "en": "The Tehran-time watch strikes again: Nima walks into class 504 at half past eight and finds only Zafer Hoca. They talk about their days, fix a time for speaking practice, and at nine Alex says why he is always so sleepy.",
-    "fa": "ساعتِ تهرانی باز کار دستِ نیما می‌دهد: نیما ساعتِ هشت و نیم به کلاسِ ۵۰۴ می‌رسد و فقط استاد ظفر آن‌جاست. از روزشان حرف می‌زنند، برای تمرینِ مکالمه قرار می‌گذارند، و ساعتِ نه الکس می‌گوید چرا همیشه خواب‌آلود است."
+    "fa": "ساعتِ تهرانی باز کار دستِ نیما می‌دهد: نیما ساعتِ هشت و نیم به کلاسِ ۵۰۴ می‌رسد و فقط استاد ظفر آن‌جاست. از روزشان حرف می‌زنند، برای تمرینِ مکالمه قرار می‌گذارند، و ساعتِ نه الکس می‌گوید چرا همیشه خواب‌آلود است.",
+    "ru": "Часы с тегеранским временем снова подводят: Нима входит в класс 504 в половине девятого и застаёт там только Зафера. Они говорят о своём дне, назначают время для разговорной практики, а в девять Алекс объясняет, почему он всегда такой сонный."
   },
   "title": {
     "tr": "Saat kaçta?",
     "en": "At what time?",
-    "fa": "ساعتِ چند؟"
+    "fa": "ساعتِ چند؟",
+    "ru": "Во сколько?"
   },
   "words": [
     "a1-w-kahvalti-etmek",

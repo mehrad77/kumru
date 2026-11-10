@@ -2,6 +2,7 @@
   "arc": {
     "en": "Where's home?",
     "fa": "خانه کجاست؟",
+    "ru": "Где дом?",
     "id": "s1w02",
     "mechanics": [
       "say",
@@ -20,6 +21,7 @@
     {
       "en": "A new form! Name?",
       "fa": "یه فرمِ جدید! اسم؟",
+      "ru": "Новая анкета! Имя?",
       "to": "nima",
       "tr": "Yeni bir form! Ad?",
       "who": "tolga"
@@ -27,6 +29,7 @@
     {
       "en": "Nima.",
       "fa": "نیما.",
+      "ru": "Нима.",
       "to": "tolga",
       "tr": "Nima.",
       "who": "nima"
@@ -34,6 +37,7 @@
     {
       "en": "Are you a student?",
       "fa": "دانشجویید؟",
+      "ru": "Вы учитесь?",
       "to": "nima",
       "tr": "Öğrenci misiniz?",
       "who": "tolga"
@@ -46,6 +50,7 @@
           {
             "en": "Yes, I'm a student.",
             "fa": "بله، دانشجوام.",
+            "ru": "Да, учусь.",
             "ok": true,
             "react": {
               "tolga": {
@@ -57,6 +62,7 @@
               {
                 "en": "All right! Where are you from?",
                 "fa": "باشه! اهلِ کجایید؟",
+                "ru": "Хорошо! Откуда вы?",
                 "tr": "Tamam! Nerelisiniz?",
                 "who": "tolga"
               }
@@ -67,6 +73,7 @@
           {
             "en": "Yes, you are a student.",
             "fa": "بله، دانشجویی.",
+            "ru": "Да, ты учишься.",
             "react": {
               "tolga": "confused"
             },
@@ -74,6 +81,7 @@
               {
                 "en": "Me? No: “öğrenciyim”, I am a student! Where are you from?",
                 "fa": "من؟ نه: «öğrenciyim»، من دانشجوام! اهلِ کجایید؟",
+                "ru": "Я? Нет: «öğrenciyim», я учусь! Откуда вы?",
                 "tr": "Ben mi? Hayır: “öğrenciyim”! Nerelisiniz?",
                 "who": "tolga"
               }
@@ -88,6 +96,7 @@
     {
       "en": "I'm from Tehran.",
       "fa": "اهلِ تهرانم.",
+      "ru": "Я из Тегерана.",
       "to": "tolga",
       "tr": "Tahranlıyım.",
       "who": "nima"
@@ -95,6 +104,7 @@
     {
       "en": "All right. Very good!",
       "fa": "باشه. خیلی خوب!",
+      "ru": "Хорошо. Очень хорошо!",
       "to": "nima",
       "tr": "Tamam. Çok güzel!",
       "who": "tolga"
@@ -103,42 +113,52 @@
   "gl": {
     "ah": {
       "fa": "آهان، اوه (تعجب)",
+      "ru": "ах, ой (удивление)",
       "en": "ah, oh (surprise)"
     },
     "anahtarlar": {
       "fa": "کلیدها",
+      "ru": "ключи",
       "en": "keys"
     },
     "anahtarı": {
       "fa": "کلیدِ… («çatı anahtarı»: کلیدِ پشت‌بام)",
+      "ru": "ключ от… («çatı anahtarı»: ключ от крыши)",
       "en": "key of… (“çatı anahtarı”: the roof key)"
     },
     "dakika": {
       "fa": "دقیقه («bir dakika»: یک لحظه)",
+      "ru": "минута («bir dakika»: минуточку)",
       "en": "minute (“bir dakika”: just a moment)"
     },
     "depozito": {
       "fa": "ودیعه، پیش‌پرداخت",
+      "ru": "залог",
       "en": "deposit"
     },
     "emlak": {
       "fa": "املاک، بنگاه",
+      "ru": "недвижимость",
       "en": "real estate"
     },
     "ikamet": {
       "fa": "اقامت (مجوزِ اقامت)",
+      "ru": "проживание (вид на жительство)",
       "en": "residence (the residence permit)"
     },
     "için": {
       "fa": "برای",
+      "ru": "для",
       "en": "for"
     },
     "sözleşme": {
       "fa": "قرارداد",
+      "ru": "договор",
       "en": "contract"
     },
     "çatı": {
       "fa": "پشت‌بام",
+      "ru": "крыша",
       "en": "roof"
     }
   },
@@ -215,7 +235,8 @@
       "q": {
         "tr": "Kira kaç lira?",
         "en": "How much is the rent?",
-        "fa": "اجاره چند لیر است؟"
+        "fa": "اجاره چند لیر است؟",
+        "ru": "Сколько стоит аренда?"
       },
       "why": "Farzad: “Kira yirmi bin, adres tamam.”"
     },
@@ -230,7 +251,8 @@
       "q": {
         "tr": "Kapı, ev ve çatı: Nima'da ne var?",
         "en": "The street door, the flat and the roof: what does Nima have for them?",
-        "fa": "درِ ساختمان، خانه و پشت‌بام: نیما چه دارد؟"
+        "fa": "درِ ساختمان، خانه و پشت‌بام: نیما چه دارد؟",
+        "ru": "Подъезд, квартира и крыша: что от них есть у Нимы?"
       },
       "why": "Tolga Bey: “Ve… anahtarlar! Buyurun!” … “Evet! Kapı, ev… ve çatı!”"
     }
@@ -253,6 +275,7 @@
       "cam": "wide",
       "en": "Tolga Bey is very fast. But today Farzad's here too!",
       "fa": "آقای تولگا خیلی تنده. ولی امروز فرزاد هم این‌جاست!",
+      "ru": "Господин Толга говорит очень быстро. Но сегодня здесь и Фарзад!",
       "narr": true,
       "tr": "Tolga Bey çok hızlı. Ama bugün Farzad da burada!",
       "who": "kerim"
@@ -262,6 +285,7 @@
       "emo": "happy",
       "en": "Welcome! Is it a yes?",
       "fa": "خوش اومدید! جوابتون مثبته؟",
+      "ru": "Добро пожаловать! Ну что, да?",
       "tempo": 1.3,
       "to": "nima",
       "tr": "Hoş geldiniz! Evet mi?",
@@ -270,10 +294,11 @@
     {
       "do": "nod",
       "emo": "happy",
-      "en": "Yes!",
-      "fa": "بله!",
+      "en": "Glad to be here! Yes!",
+      "fa": "ممنون، خوشحالم که اومدم! بله!",
+      "ru": "Спасибо! Да!",
       "to": "tolga",
-      "tr": "Evet!",
+      "tr": "Hoş bulduk! Evet!",
       "who": "nima"
     },
     {
@@ -282,6 +307,7 @@
       "emo": "happy",
       "en": "Lovely! This is the form. Name?",
       "fa": "عالیه! این فرمه. اسم؟",
+      "ru": "Прекрасно! Вот анкета. Имя?",
       "obj": [
         {
           "id": "form",
@@ -296,6 +322,7 @@
       "emo": "neutral",
       "en": "Nima.",
       "fa": "نیما.",
+      "ru": "Нима.",
       "to": "tolga",
       "tr": "Nima.",
       "who": "nima"
@@ -305,6 +332,7 @@
       "emo": "happy",
       "en": "Are you a student? Phone?",
       "fa": "دانشجویید؟ تلفن؟",
+      "ru": "Вы учитесь? Телефон?",
       "obj": [
         {
           "id": "form",
@@ -325,6 +353,7 @@
       "emo": "neutral",
       "en": "Yes, I'm a student. Phone: zero, five, three, two…",
       "fa": "بله، دانشجوام. تلفن: صفر، پنج، سه، دو…",
+      "ru": "Да, учусь. Телефон: ноль, пять, три, два…",
       "to": "tolga",
       "tr": "Evet, öğrenciyim. Telefon: sıfır, beş, üç, iki…",
       "who": "nima"
@@ -334,6 +363,7 @@
       "emo": "happy",
       "en": "The rent… twenty-one thousand lira. The deposit: one month's rent.",
       "fa": "اجاره… بیست و یک هزار لیر. ودیعه: یه ماه اجاره.",
+      "ru": "Аренда… двадцать одна тысяча лир. Залог: одна месячная плата.",
       "obj": [
         {
           "id": "form",
@@ -362,6 +392,7 @@
             "emo": "curious",
             "en": "It's twenty thousand, isn't it?",
             "fa": "بیست هزاره، نه؟",
+            "ru": "Двадцать тысяч, не так ли?",
             "ok": true,
             "react": {
               "farzad": {
@@ -376,6 +407,7 @@
                 "emo": "happy",
                 "en": "Oh! Yes, yes… twenty thousand!",
                 "fa": "آهان! بله، بله… بیست هزار!",
+                "ru": "Ах! Да, да… двадцать тысяч!",
                 "obj": [
                   {
                     "id": "form",
@@ -404,6 +436,7 @@
             "emo": "annoyed",
             "en": "No! Twenty thousand!",
             "fa": "نه! بیست هزار!",
+            "ru": "Нет! Двадцать тысяч!",
             "react": {
               "farzad": {
                 "emo": "nervous"
@@ -417,6 +450,7 @@
                 "emo": "neutral",
                 "en": "…All right. Twenty thousand.",
                 "fa": "…باشه. بیست هزار.",
+                "ru": "…Ладно. Двадцать тысяч.",
                 "obj": [
                   {
                     "id": "form",
@@ -443,6 +477,7 @@
             "emo": "neutral",
             "en": "… (sign without a word)",
             "fa": "… (بی‌هیچ حرفی امضا کن)",
+            "ru": "… (подписать молча)",
             "react": {
               "farzad": {
                 "emo": "surprised"
@@ -453,6 +488,7 @@
                 "emo": "surprised",
                 "en": "Wait a minute… twenty-one thousand?!",
                 "fa": "یه لحظه… بیست و یک هزار؟!",
+                "ru": "Минуточку… двадцать одна тысяча?!",
                 "to": "tolga",
                 "tr": "Bir dakika… yirmi bir bin mi?!",
                 "who": "farzad"
@@ -461,6 +497,7 @@
                 "emo": "sorry",
                 "en": "Oh… no, no! Twenty thousand!",
                 "fa": "اوه… نه، نه! بیست هزار!",
+                "ru": "Ах… нет, нет! Двадцать тысяч!",
                 "obj": [
                   {
                     "id": "form",
@@ -494,6 +531,7 @@
       "emo": "neutral",
       "en": "The rent's twenty thousand, the address is right. This contract… matters for your residence permit!",
       "fa": "اجاره بیست هزاره، آدرس هم درسته. این قرارداد… برای اقامت مهمه!",
+      "ru": "Аренда двадцать тысяч, адрес верный. Этот договор… важен для вида на жительство!",
       "to": "nima",
       "tr": "Kira yirmi bin, adres tamam. Bu sözleşme… ikamet için önemli!",
       "who": "farzad"
@@ -504,6 +542,7 @@
       "emo": "happy",
       "en": "Here, please.",
       "fa": "این‌جا، لطفاً.",
+      "ru": "Вот здесь, пожалуйста.",
       "to": "nima",
       "tr": "Burada, lütfen.",
       "who": "tolga"
@@ -534,6 +573,7 @@
       "emo": "happy",
       "en": "And… the keys! Here you are!",
       "fa": "و… کلیدها! بفرمایید!",
+      "ru": "И… ключи! Пожалуйста, держите!",
       "link": {
         "anahtarlar": "obj:anahtarlar"
       },
@@ -555,6 +595,7 @@
       "emo": "curious",
       "en": "How many keys? One, two… three?",
       "fa": "چند تا کلید؟ یک، دو… سه تا؟",
+      "ru": "Сколько ключей? Один, два… три?",
       "to": "tolga",
       "tr": "Kaç anahtar? Bir, iki… üç?",
       "who": "farzad",
@@ -566,6 +607,7 @@
       "emo": "happy",
       "en": "Yes! The street door, the flat… and the roof!",
       "fa": "بله! درِ ساختمون، خونه… و پشت‌بوم!",
+      "ru": "Да! Подъезд, квартира… и крыша!",
       "obj": [
         {
           "id": "anahtarlar",
@@ -582,6 +624,7 @@
         "en": "“değil mi?” at the end checks something you think is true: Yirmi bin, değil mi? It's twenty thousand, isn't it? It stays the same after any sentence: Siz Tolga Bey'siniz, değil mi? Ev güzel, değil mi?",
         "ex": "Yirmi bin, değil mi?",
         "fa": "«değil mi?» آخرِ جمله، چیزی را که فکر می‌کنی درست است می‌پرسد، مثلِ «…، نه؟» یا «مگه نه؟» در فارسی: Yirmi bin, değil mi? بیست هزار است، نه؟ بعد از هر جمله‌ای همین است و عوض نمی‌شود: Siz Tolga Bey'siniz, değil mi? Ev güzel, değil mi?",
+        "ru": "«değil mi?» в конце проверяет то, что кажется верным: Yirmi bin, değil mi? Двадцать тысяч, не так ли? После любого предложения оно не меняется: Siz Tolga Bey'siniz, değil mi? Ev güzel, değil mi? Как русское «не так ли?» или «правда?».",
         "lesson": "g_a1_2_degil"
       }
     },
@@ -599,6 +642,7 @@
       "emo": "happy",
       "en": "Monday: a new home!",
       "fa": "دوشنبه: خونه‌ی جدید!",
+      "ru": "В понедельник: новый дом!",
       "to": "nima",
       "tr": "Pazartesi: yeni ev!",
       "who": "farzad"
@@ -609,6 +653,7 @@
       "emo": "happy",
       "en": "The roof key? On the roof… there's Kerim!",
       "fa": "کلیدِ پشت‌بوم؟ روی پشت‌بوم… کریم هست!",
+      "ru": "Ключ от крыши? На крыше… Керим!",
       "link": {
         "anahtarı": "obj:anahtarlar"
       },
@@ -624,12 +669,14 @@
   ],
   "summary": {
     "en": "Friday at Tolga Bey's agency: Nima fills in the form, spots the wrong rent on it, and signs with Farzad checking the small print. Three keys: the street door, the flat, and the roof.",
-    "fa": "جمعه در بنگاهِ آقای تولگا: نیما فرم را پر می‌کند، اجاره‌ی اشتباه را رویش می‌بیند و در حالی که فرزاد ریزِ قرارداد را می‌خواند امضا می‌کند. سه کلید: درِ ساختمان، خانه، و پشت‌بام."
+    "fa": "جمعه در بنگاهِ آقای تولگا: نیما فرم را پر می‌کند، اجاره‌ی اشتباه را رویش می‌بیند و در حالی که فرزاد ریزِ قرارداد را می‌خواند امضا می‌کند. سه کلید: درِ ساختمان، خانه، و پشت‌بام.",
+    "ru": "Пятница, агентство господина Толги: Нима заполняет анкету, замечает в ней неверную аренду и подписывает договор, а Фарзад проверяет мелкий шрифт. Три ключа: от подъезда, от квартиры и от крыши."
   },
   "title": {
     "tr": "Anahtarlar",
     "en": "The keys",
-    "fa": "کلیدها"
+    "fa": "کلیدها",
+    "ru": "Ключи"
   },
   "words": [
     "a1-w-anahtar",

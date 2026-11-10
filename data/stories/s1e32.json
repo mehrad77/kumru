@@ -2,6 +2,7 @@
   "arc": {
     "en": "The best of Feriköy",
     "fa": "بهترین جاهای فری‌کؤی",
+    "ru": "Лучшие места Ферикёя",
     "id": "s1w06",
     "mechanics": [
       "say",
@@ -26,6 +27,7 @@
     {
       "en": "Medium height, bearded, glasses… and always “Once more, please!” Who?",
       "fa": "قدِ متوسط، ریش‌دار، عینکی… و همیشه «یه بار دیگه، لطفاً!» کیه؟",
+      "ru": "Среднего роста, с бородой, в очках… и всегда «Ещё раз, пожалуйста!» Кто?",
       "narr": true,
       "tr": "Orta boylu, sakallı, gözlüklü… ve hep “Bir daha, lütfen!” Kim?",
       "who": "kerim"
@@ -38,6 +40,7 @@
           {
             "en": "Zafer Hoca!",
             "fa": "استاد ظفر!",
+            "ru": "Зафер!",
             "ok": true,
             "react": {
               "kerim": "happy"
@@ -46,6 +49,7 @@
               {
                 "en": "Yes! Smiling Zafer Hoca.",
                 "fa": "آره! استاد ظفرِ خوش‌رو.",
+                "ru": "Да! Улыбчивый Зафер.",
                 "narr": true,
                 "tr": "Evet! Güler yüzlü Zafer Hoca.",
                 "who": "kerim"
@@ -57,6 +61,7 @@
           {
             "en": "Alex!",
             "fa": "الکس!",
+            "ru": "Алекс!",
             "react": {
               "kerim": "curious"
             },
@@ -64,6 +69,7 @@
               {
                 "en": "No! Alex is tall and always sleepy.",
                 "fa": "نه! الکس قدبلنده و همیشه خواب‌آلوده.",
+                "ru": "Нет! Алекс высокий и всегда сонный.",
                 "narr": true,
                 "tr": "Hayır! Alex uzun boylu ve hep uykulu.",
                 "who": "kerim"
@@ -79,6 +85,7 @@
     {
       "en": "White hair, a smiling face, eighty years old… Who?",
       "fa": "موسفید، خوش‌رو، هشتاد ساله… کیه؟",
+      "ru": "Седые волосы, улыбчивое лицо, восемьдесят лет… Кто?",
       "narr": true,
       "tr": "Beyaz saçlı, güler yüzlü, seksen yaşında… Kim?",
       "who": "kerim"
@@ -86,6 +93,7 @@
     {
       "en": "Maria Teyze!",
       "fa": "خاله ماریا!",
+      "ru": "Тётя Мария!",
       "tr": "Maria Teyze!",
       "who": "nima"
     }
@@ -93,47 +101,63 @@
   "gl": {
     "edin": {
       "fa": "(امری، مؤدبانه) کنید",
+      "ru": "сделайте (вежл.: tarif edin — опишите)",
       "en": "do (polite: tarif edin = describe)"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a neighbourhood of Şişli)"
     },
     "köşede": {
       "fa": "سرِ نبش، در گوشه",
+      "ru": "на углу",
       "en": "on the corner"
     },
     "maria": {
       "fa": "ماریا (همسایهٔ طبقهٔ پنجم)",
+      "ru": "Мария (соседка с пятого этажа)",
       "en": "Maria (the neighbour on the fifth floor)"
     },
     "sakallı": {
       "fa": "ریش‌دار",
+      "ru": "бородатый, с бородой",
       "en": "bearded"
     },
     "sardunya": {
       "fa": "شمعدانی",
+      "ru": "герань",
       "en": "geranium"
     },
     "sardunyalar": {
       "fa": "شمعدانی‌ها",
+      "ru": "герани",
       "en": "geraniums"
     },
     "tarif": {
       "fa": "توصیف",
+      "ru": "описание (tarif etmek — описывать)",
       "en": "describe (tarif etmek)"
     },
     "tüylü": {
       "fa": "پَردار، با پَرِ…",
+      "ru": "с … перьями",
       "en": "with … feathers"
     },
     "uykulu": {
       "fa": "خواب‌آلود",
+      "ru": "сонный",
       "en": "sleepy"
     },
     "şallı": {
       "fa": "با شالِ…",
+      "ru": "в … шали",
       "en": "with a … shawl"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "ru": "а! (удивление)",
+      "en": "oh! (surprise)"
     }
   },
   "id": "s1e32",
@@ -189,7 +213,8 @@
       "q": {
         "tr": "Maria Teyze Gülten Hanım'dan hep ne alıyor?",
         "en": "What does Maria Teyze always buy from Gülten Hanım?",
-        "fa": "خاله ماریا همیشه از گولتن خانم چه می‌خرد؟"
+        "fa": "خاله ماریا همیشه از گولتن خانم چه می‌خرد؟",
+        "ru": "Что тётя Мария всегда покупает у госпожи Гюльтен?"
       },
       "why": "Gülten Hanım: “Kırk yıldır çiçeklerini benden alıyor. Hep sardunya.”"
     },
@@ -204,9 +229,10 @@
       "q": {
         "tr": "Gülten Hanım: “Mor şallı, beyaz … hanım.”",
         "en": "Gülten Hanım: “The lady with the purple shawl and white …”",
-        "fa": "گولتن خانم: «خانمِ شال‌بنفش و … سفید.»"
+        "fa": "گولتن خانم: «خانمِ شال‌بنفش و … سفید.»",
+        "ru": "Госпожа Гюльтен: «Дама в фиолетовой шали, с белыми …»"
       },
-      "why": "Gülten Hanım: “Siz… sardunyalar! Ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?”"
+      "why": "Gülten Hanım: “Aa, siz! Sardunyalar… ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?”"
     }
   ],
   "ref": "A1_6",
@@ -239,6 +265,7 @@
     {
       "en": "Class 504. Tall, short, blue-eyed, blond… who's who?",
       "fa": "کلاسِ ۵۰۴. قدبلند، قدکوتاه، چشم‌آبی، موطلایی… کی کیه؟",
+      "ru": "Класс 504. Высокий, невысокий, голубоглазый, светловолосый… кто есть кто?",
       "narr": true,
       "tr": "Sınıf 504. Uzun boylu, kısa boylu, mavi gözlü, sarı saçlı… kim kim?",
       "who": "kerim"
@@ -248,6 +275,7 @@
       "emo": "happy",
       "en": "Today we've got a game: “Who's that?” Dilnoza, you start!",
       "fa": "امروز یه بازی داریم: «اون کیه؟» دلنوزا، شما شروع کنین!",
+      "ru": "Сегодня у нас игра: «Кто это?» Дилноза, начинайте вы!",
       "to": "all",
       "tr": "Bugün bir oyun var: “Kim o?” Dilnoza, siz başlayın!",
       "who": "zafer"
@@ -257,6 +285,7 @@
       "emo": "proud",
       "en": "The tallest student in the class! Brown-haired… and always sleepy!",
       "fa": "قدبلندترین شاگردِ کلاس! موقهوه‌ای… و همیشه خواب‌آلود!",
+      "ru": "Самый высокий студент в классе! Шатен… и всегда сонный!",
       "obj": [
         {
           "id": "rehber",
@@ -278,6 +307,7 @@
       "emo": "laugh",
       "en": "Alex!",
       "fa": "الکس!",
+      "ru": "Алекс!",
       "react": {
         "alex": {
           "do": "shrug",
@@ -293,6 +323,7 @@
       "emo": "happy",
       "en": "Right! Nima, now you. Describe me!",
       "fa": "درسته! نیما، حالا شما. منو توصیف کنین!",
+      "ru": "Верно! Нима, теперь вы. Опишите меня!",
       "to": "nima",
       "tr": "Doğru! Nima, şimdi siz. Beni tarif edin!",
       "who": "zafer"
@@ -308,6 +339,7 @@
             "emo": "happy",
             "en": "Bearded, with glasses, smiling.",
             "fa": "ریش‌دار، عینکی، خوش‌رو.",
+            "ru": "С бородой, в очках, улыбчивый.",
             "ok": true,
             "react": {
               "zafer": {
@@ -321,6 +353,7 @@
                 "emo": "happy",
                 "en": "Thank you!",
                 "fa": "ممنونم!",
+                "ru": "Спасибо!",
                 "to": "nima",
                 "tr": "Teşekkür ederim!",
                 "who": "zafer"
@@ -334,6 +367,7 @@
             "do": "look",
             "en": "With glasses, bearded… and old.",
             "fa": "عینکی، ریش‌دار… و پیر.",
+            "ru": "В очках, с бородой… и старый.",
             "react": {
               "parvaneh": "laugh",
               "zafer": {
@@ -345,6 +379,7 @@
                 "emo": "annoyed",
                 "en": "Old?! I'm thirty-five!",
                 "fa": "پیر؟! سی و پنج سالمه!",
+                "ru": "Старый?! Мне тридцать пять!",
                 "react": {
                   "alex": "laugh",
                   "yusuf": "laugh"
@@ -362,6 +397,7 @@
             "do": "look",
             "en": "Tall…",
             "fa": "قدبلند…",
+            "ru": "Высокий…",
             "react": {
               "zafer": {
                 "emo": "confused"
@@ -373,6 +409,7 @@
                 "emo": "laugh",
                 "en": "No! Medium height!",
                 "fa": "نه! قدش متوسطه!",
+                "ru": "Нет! Среднего роста!",
                 "to": "nima",
                 "tr": "Hayır! Orta boylu!",
                 "who": "dilnoza"
@@ -381,6 +418,7 @@
                 "emo": "neutral",
                 "en": "Thank you, Dilnoza.",
                 "fa": "ممنونم، دلنوزا.",
+                "ru": "Спасибо, Дилноза.",
                 "to": "dilnoza",
                 "tr": "Teşekkür ederim, Dilnoza.",
                 "who": "zafer"
@@ -423,6 +461,7 @@
       "emo": "neutral",
       "en": "Welcome.",
       "fa": "خوش اومدین.",
+      "ru": "Добро пожаловать.",
       "move": {
         "how": "walk",
         "to": "front",
@@ -436,10 +475,11 @@
       "at": "ch:nima",
       "do": "you",
       "emo": "surprised",
-      "en": "You… the geraniums! And at the party too! For the lady with the purple shawl and white hair, right?",
-      "fa": "شما… شمعدونی‌ها! مهمونی هم بودین! برای اون خانمِ موسفید با شالِ بنفش، نه؟",
+      "en": "Oh, it's you! The geraniums… and at the party too! For the lady with the purple shawl and white hair, right?",
+      "fa": "عه، شمایین! شمعدونی‌ها… مهمونی هم بودین! برای اون خانمِ موسفید با شالِ بنفش، نه؟",
+      "ru": "А, это вы! Герань… и на празднике тоже! Для дамы в фиолетовой шали, с седыми волосами, верно?",
       "to": "nima",
-      "tr": "Siz… sardunyalar! Ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?",
+      "tr": "Aa, siz! Sardunyalar… ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?",
       "who": "gulten"
     },
     {
@@ -447,6 +487,7 @@
       "emo": "happy",
       "en": "Yes! Maria Teyze. She's eighty!",
       "fa": "آره! خاله ماریا. هشتاد سالشه!",
+      "ru": "Да! Тётя Мария. Ей восемьдесят!",
       "to": "gulten",
       "tr": "Evet! Maria Teyze. Seksen yaşında!",
       "who": "nima"
@@ -457,6 +498,7 @@
       "emo": "proud",
       "en": "I know. She's bought her flowers from me for forty years. Always geraniums.",
       "fa": "می‌دونم. چهل ساله که گل‌هاشو از من می‌خره. همیشه شمعدونی.",
+      "ru": "Знаю. Она уже сорок лет покупает у меня цветы. Всегда герань.",
       "link": {
         "sardunya": "obj:geraniums"
       },
@@ -470,6 +512,7 @@
       "emo": "happy",
       "en": "Gülten Hanım's flower shop: on the corner. The freshest flowers in Feriköy!",
       "fa": "گل‌فروشیِ گولتن خانم: سرِ نبش. تازه‌ترین گل‌های فری‌کؤی!",
+      "ru": "Цветочный магазин госпожи Гюльтен: на углу. Самые свежие цветы в Ферикёе!",
       "obj": [
         {
           "id": "rehber",
@@ -492,6 +535,7 @@
       "emo": "proud",
       "en": "Not Feriköy's… Istanbul's freshest flowers!",
       "fa": "فری‌کؤی نه… تازه‌ترین گل‌های استانبول!",
+      "ru": "Не в Ферикёе… самые свежие цветы в Стамбуле!",
       "obj": [
         {
           "id": "rehber",
@@ -515,6 +559,7 @@
         "en": "-lI makes a describing word from a noun: göz (eye) → mavi gözlü (blue-eyed), saç (hair) → kahverengi saçlı, boy (height) → uzun boylu, yüz (face) → güler yüzlü, gözlük → gözlüklü, sakal → sakallı. Put en in front for “the most”: sınıfın en uzun boylu öğrencisi. Gülten Hanım's picture of Maria Teyze is two of them: mor şallı, beyaz saçlı bir hanım.",
         "ex": "Sınıfın en uzun boylu öğrencisi!",
         "fa": "‎-lI از اسم صفت می‌سازد، مثل ترکیب‌های فارسی: göz (چشم) ← mavi gözlü (چشم‌آبی)، saç (مو) ← kahverengi saçlı (موقهوه‌ای)، boy (قد) ← uzun boylu (قدبلند)، yüz (صورت) ← güler yüzlü (خوش‌رو)، gözlük ← gözlüklü (عینکی)، sakal ← sakallı (ریش‌دار). برای «ـترین» en را جلویش بگذار: sınıfın en uzun boylu öğrencisi (قدبلندترین شاگردِ کلاس). توصیفِ گولتن خانم از خاله ماریا هم دو تا از همین‌هاست: mor şallı, beyaz saçlı bir hanım.",
+        "ru": "-lI делает из существительного описательное слово: göz (глаз) → mavi gözlü (голубоглазый), saç (волосы) → kahverengi saçlı, boy (рост) → uzun boylu, yüz (лицо) → güler yüzlü, gözlük → gözlüklü, sakal → sakallı. Для «самый» поставь впереди en: sınıfın en uzun boylu öğrencisi. Портрет тёти Марии от госпожи Гюльтен — два таких слова: mor şallı, beyaz saçlı bir hanım.",
         "lesson": "g_a1_6_en",
         "show": "compare"
       }
@@ -522,6 +567,7 @@
     {
       "en": "Grey feathers, red eyes, a very clever bird… who? Kerim!",
       "fa": "پرهای خاکستری، چشم‌های قرمز، یه پرندهٔ خیلی باهوش… کیه؟ کریم!",
+      "ru": "Серые перья, красные глаза, очень умная птица… кто? Керим!",
       "move": {
         "how": "fly",
         "to": "tulip_bucket",
@@ -534,12 +580,14 @@
   ],
   "summary": {
     "en": "In class, everyone describes someone and the others guess, and Nima has to describe Zafer Hoca. After class the guide's second page is the corner flower shop, where Gülten Hanım remembers Nima and every customer.",
-    "fa": "سرِ کلاس هر کس یک نفر را توصیف می‌کند و بقیه حدس می‌زنند، و نیما باید استاد ظفر را توصیف کند. بعد از کلاس، صفحهٔ دومِ راهنما گل‌فروشیِ سرِ نبش است؛ گولتن خانم نیما را و همهٔ مشتری‌هایش را به یاد دارد."
+    "fa": "سرِ کلاس هر کس یک نفر را توصیف می‌کند و بقیه حدس می‌زنند، و نیما باید استاد ظفر را توصیف کند. بعد از کلاس، صفحهٔ دومِ راهنما گل‌فروشیِ سرِ نبش است؛ گولتن خانم نیما را و همهٔ مشتری‌هایش را به یاد دارد.",
+    "ru": "На уроке каждый описывает кого-нибудь, а остальные угадывают, и Ниме приходится описать Зафера. После урока вторая страница путеводителя — цветочный магазин на углу, где госпожа Гюльтен помнит Ниму и каждого покупателя."
   },
   "title": {
     "tr": "Mavi gözlü, güler yüzlü",
     "en": "Blue-eyed, smiling",
-    "fa": "چشم‌آبی، خوش‌رو"
+    "fa": "چشم‌آبی، خوش‌رو",
+    "ru": "Голубоглазый, улыбчивый"
   },
   "words": [
     "a1-w-uzun-boylu",

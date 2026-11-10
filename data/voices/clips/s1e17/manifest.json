@@ -1,0 +1,72 @@
+{
+ "story": "s1e17",
+ "lines": {
+  "dilnoza": {
+   "Nereye yürüyoruz?": {
+    "f": "85eb8a4f44e6b4.m4a",
+    "ms": 1296,
+    "sig": "edf669f7043564"
+   },
+   "Bu ses ne? Biliyor musun?": {
+    "f": "fcc89f6edb55c9.m4a",
+    "ms": 2089,
+    "sig": "0c03671498cead"
+   },
+   "Yok, yok… istemiyorum, teşekkürler.": {
+    "f": "4f6ebd7d042920.m4a",
+    "ms": 5351,
+    "sig": "7a32cf5d42ed84"
+   },
+   "Pastane! Pasta seviyor musun? Girmek istiyor musun?": {
+    "f": "d9c1659ba0ad07.m4a",
+    "ms": 4877,
+    "sig": "08bdd7bcf62e64"
+   },
+   "…Tamam, biraz!": {
+    "f": "3b54d62be1f83c.m4a",
+    "ms": 948,
+    "sig": "dcbe542c1fd468"
+   },
+   "…Peki.": {
+    "f": "a13863b7f8a8c4.m4a",
+    "ms": 1863,
+    "sig": "b85fc9940d53bb"
+   },
+   "Boğaz? Çok uzak!": {
+    "f": "e4875dee33146d.m4a",
+    "ms": 1571,
+    "sig": "57c84da360e67c"
+   },
+   "Hoşça kal!": {
+    "f": "d47f21466e0906.m4a",
+    "ms": 981,
+    "sig": "09a030dbf22fa2"
+   },
+   "Bak, kediler uyuyor! Peki onlar ne yapıyor?": {
+    "f": "dfe57ae7999c78.m4a",
+    "ms": 3822,
+    "sig": "a3283adaf97b35"
+   }
+  },
+  "kerim": {
+   "Cuma! Okul yok, hava güzel. Nima ne yapıyor? Nima geziyor!": {
+    "f": "6df5b49df0eafc.m4a",
+    "ms": 4786,
+    "sig": "ef605057e8334c"
+   },
+   "Ağaca bak! Kerim burada!": {
+    "f": "d45b0a9b51a4a4.m4a",
+    "ms": 4113,
+    "sig": "d1e8f5358fe931"
+   },
+   "Ku-kuu… Dilnoza pastaya bakıyor…": {
+    "f": "cbc83e67a1c312.m4a",
+    "ms": 2617,
+    "sig": "e89ac468938992"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

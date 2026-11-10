@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new family",
     "fa": "یک خانواده‌ی تازه",
+    "ru": "Новая семья",
     "id": "s1w04",
     "mechanics": [
       "say",
@@ -23,6 +24,7 @@
     {
       "en": "Nima, “harita”… Do you know this word?",
       "fa": "نیما، «harita»… این کلمه رو بلدید؟",
+      "ru": "Нима, «harita»… Вы знаете это слово?",
       "to": "nima",
       "tr": "Nima, “harita”… Bu kelimeyi biliyor musunuz?",
       "who": "zafer"
@@ -35,6 +37,7 @@
           {
             "en": "Yes, I know it!",
             "fa": "بله، بلدم!",
+            "ru": "Да, знаю!",
             "ok": true,
             "react": {
               "zafer": {
@@ -46,6 +49,7 @@
               {
                 "en": "Very good!",
                 "fa": "خیلی خوب!",
+                "ru": "Очень хорошо!",
                 "to": "nima",
                 "tr": "Çok güzel!",
                 "who": "zafer"
@@ -57,6 +61,7 @@
           {
             "en": "No, I don't know it.",
             "fa": "نه، بلد نیستم.",
+            "ru": "Нет, не знаю.",
             "react": {
               "zafer": {
                 "emo": "happy"
@@ -66,6 +71,7 @@
               {
                 "en": "Harita… this! Now you know it.",
                 "fa": "harita… این! حالا بلدید.",
+                "ru": "«Harita»… вот это! Теперь вы знаете.",
                 "to": "nima",
                 "tr": "Harita… bu! Şimdi biliyorsunuz.",
                 "who": "zafer"
@@ -81,6 +87,7 @@
     {
       "en": "And “yeğen”?",
       "fa": "و «yeğen»؟",
+      "ru": "А «yeğen»?",
       "to": "nima",
       "tr": "Ve “yeğen”?",
       "who": "zafer"
@@ -88,6 +95,7 @@
     {
       "en": "Yes! I know this word!",
       "fa": "بله! این کلمه رو بلدم!",
+      "ru": "Да! Это слово я знаю!",
       "to": "zafer",
       "tr": "Evet! Bu kelimeyi biliyorum!",
       "who": "nima"
@@ -95,6 +103,7 @@
     {
       "en": "Very good, Nima!",
       "fa": "خیلی خوب، نیما!",
+      "ru": "Очень хорошо, Нима!",
       "to": "nima",
       "tr": "Çok güzel, Nima!",
       "who": "zafer"
@@ -103,82 +112,102 @@
   "gl": {
     "farsçayı": {
       "fa": "فارسی را",
+      "ru": "персидский (как объект)",
       "en": "Persian (as the object)"
     },
     "gaziantep": {
       "fa": "غازی‌عینتاب (شهری در جنوبِ ترکیه)",
+      "ru": "Газиантеп (город на юге Турции)",
       "en": "Gaziantep (a city in southern Turkey)"
     },
     "gibi": {
       "fa": "مثلِ",
+      "ru": "как, похоже на",
       "en": "like"
     },
     "halep": {
       "fa": "حلب",
+      "ru": "Алеппо",
       "en": "Aleppo"
     },
     "haritayı": {
       "fa": "نقشه را",
+      "ru": "карту (как объект)",
       "en": "the map (as the object)"
     },
     "hocam": {
       "fa": "استاد (خطاب به معلم)",
+      "ru": "учитель (обращение к учителю)",
       "en": "teacher (addressing your teacher)"
     },
     "musunuz": {
       "fa": "…ید؟ (پرسشی، شما)",
+      "ru": "вы…? (вопрос, siz)",
       "en": "do you…? (a question, siz)"
     },
     "tacikçe": {
       "fa": "تاجیکی (زبان)",
+      "ru": "таджикский (язык)",
       "en": "Tajik (the language)"
     },
     "türkçesi": {
       "fa": "ترکی‌اش",
+      "ru": "его турецкое название; как это по-турецки",
       "en": "its Turkish; the Turkish for it"
     },
     "yeğen": {
       "fa": "خواهرزاده یا برادرزاده",
+      "ru": "племянник или племянница",
       "en": "niece or nephew"
     },
     "yeğenim": {
       "fa": "خواهرزاده یا برادرزاده‌ام",
+      "ru": "мой племянник или моя племянница",
       "en": "my niece or nephew"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя)",
       "en": "Zafer (a name)"
     },
     "özbekçe": {
       "fa": "ازبکی (زبان)",
+      "ru": "узбекский (язык)",
       "en": "Uzbek (the language)"
     },
     "ülkem": {
       "fa": "کشورم",
+      "ru": "моя страна",
       "en": "my country"
     },
     "çocuğu": {
       "fa": "بچه‌اش",
+      "ru": "его или её ребёнок",
       "en": "his or her child"
     },
     "sözlüğünüz": {
       "fa": "فرهنگ‌لغتِ شما",
+      "ru": "ваш словарь (siz)",
       "en": "your dictionary (siz)"
     },
     "kardeşin": {
       "fa": "خواهر یا برادرت",
+      "ru": "твой брат или сестра",
       "en": "your sibling"
     },
     "sözlükte": {
       "fa": "توی فرهنگ‌لغت",
+      "ru": "в словаре",
       "en": "in the dictionary"
     },
     "aa": {
       "fa": "اِ (تعجب)",
+      "ru": "а! (удивление)",
       "en": "oh! (surprise)"
     },
     "semerkant": {
       "fa": "سمرقند (شهری در ازبکستان)",
+      "ru": "Самарканд (город в Узбекистане)",
       "en": "Samarkand (a city in Uzbekistan)"
     }
   },
@@ -298,7 +327,8 @@
       "q": {
         "tr": "Dilnoza: “Babaannem … konuşuyor.”",
         "en": "Dilnoza: “My grandmother speaks …”",
-        "fa": "دلنوزا: «مادربزرگم … حرف می‌زنه.»"
+        "fa": "دلنوزا: «مادربزرگم … حرف می‌زنه.»",
+        "ru": "Дилноза: «Моя бабушка говорит …»"
       },
       "options": [
         "Tacikçe",
@@ -313,7 +343,8 @@
       "q": {
         "tr": "Dilnoza: “Farsça gibi! Babaannem Farsçayı …!”",
         "en": "Dilnoza: “It's like Persian! My grandmother … Persian!”",
-        "fa": "دلنوزا: «مثلِ فارسیه! مادربزرگم فارسی رو …!»"
+        "fa": "دلنوزا: «مثلِ فارسیه! مادربزرگم فارسی رو …!»",
+        "ru": "Дилноза: «Это как персидский! Моя бабушка … персидский!»"
       },
       "options": [
         "yazıyor",
@@ -356,6 +387,7 @@
     {
       "en": "Three trees today. But one tree… is missing a word!",
       "fa": "امروز سه تا درخت. ولی توی یکی از درخت‌ها… یه کلمه نیست!",
+      "ru": "Сегодня три дерева. Но на одном дереве… не хватает слова!",
       "narr": true,
       "tr": "Bugün üç ağaç. Ama bir ağaçta… bir kelime yok!",
       "who": "kerim"
@@ -382,6 +414,7 @@
       "emo": "shy",
       "en": "This is my country! Can you see the map? This is Samarkand.",
       "fa": "این کشورمه! نقشه رو می‌بینید؟ این سمرقنده.",
+      "ru": "Это моя страна! Видите карту? Это Самарканд.",
       "link": {
         "haritayı": "obj:harita_ozbekistan"
       },
@@ -394,6 +427,7 @@
       "tr": "Aa, Semerkant!",
       "en": "Oh, Samarkand!",
       "fa": "اِ، سمرقند!",
+      "ru": "О, Самарканд!",
       "to": "dilnoza",
       "emo": "happy"
     },
@@ -402,6 +436,7 @@
       "tr": "Annem Özbekçe konuşuyor. Babaannem Tacikçe konuşuyor.",
       "en": "My mum speaks Uzbek. My grandmother speaks Tajik.",
       "fa": "مامانم ازبکی حرف می‌زنه. مادربزرگم تاجیکی حرف می‌زنه.",
+      "ru": "Моя мама говорит по-узбекски. А бабушка — по-таджикски.",
       "to": "all",
       "emo": "shy"
     },
@@ -409,6 +444,7 @@
       "emo": "curious",
       "en": "What's Tajik?",
       "fa": "تاجیکی چیه؟",
+      "ru": "А что такое таджикский?",
       "to": "dilnoza",
       "tr": "Tacikçe ne?",
       "who": "nima"
@@ -417,6 +453,7 @@
       "emo": "laugh",
       "en": "It's like Persian! My grandmother understands Persian!",
       "fa": "مثلِ فارسیه! مادربزرگم فارسی رو می‌فهمه!",
+      "ru": "Он как персидский! Бабушка понимает персидский!",
       "to": "nima",
       "tr": "Farsça gibi! Babaannem Farsçayı anlıyor!",
       "who": "dilnoza"
@@ -447,6 +484,7 @@
       "emo": "confused",
       "en": "Yusuf! This small child… what's it called in Turkish?",
       "fa": "یوسف! این بچه‌ی کوچیک… به ترکی چی می‌شه؟",
+      "ru": "Юсуф! Этот маленький ребёнок… как это по-турецки?",
       "to": "yusuf",
       "tr": "Yusuf! Bu küçük çocuk… Türkçesi ne?",
       "who": "nima",
@@ -457,6 +495,7 @@
       "tr": "Bir dakika… sözlükte… Yeğen!",
       "en": "One minute… in the dictionary… Yeğen!",
       "fa": "یه دقیقه… توی فرهنگ‌لغت… Yeğen!",
+      "ru": "Минутку… в словаре… «Yeğen»!",
       "to": "nima",
       "voice": "whisper",
       "do": "read",
@@ -467,6 +506,7 @@
       "tr": "Yeğen? Bu kelimeyi bilmiyorum!",
       "en": "Yeğen? I don't know this word!",
       "fa": "Yeğen؟ این کلمه رو بلد نیستم!",
+      "ru": "«Yeğen»? Я не знаю этого слова!",
       "to": "yusuf",
       "emo": "confused"
     },
@@ -475,6 +515,7 @@
       "tr": "Kardeşin var, değil mi? Onun çocuğu: yeğen!",
       "en": "You've got a sibling, right? Their child: yeğen!",
       "fa": "خواهر یا برادر داری، نه؟ بچه‌اش می‌شه yeğen!",
+      "ru": "У тебя ведь есть брат или сестра? Его или её ребёнок — «yeğen»!",
       "to": "nima",
       "do": "explain",
       "emo": "happy",
@@ -500,6 +541,7 @@
       "tr": "Bu benim yeğenim!",
       "en": "This is my niece or nephew!",
       "fa": "این خواهرزاده یا برادرزاده‌مه!",
+      "ru": "Это мой племянник или племянница!",
       "to": "yusuf",
       "emo": "proud",
       "do": "hold_up",
@@ -510,6 +552,7 @@
       "tr": "Evet: yeğen! Çok güzel, Nima!",
       "en": "Yes: yeğen! Very good, Nima!",
       "fa": "آره: yeğen! خیلی خوبه، نیما!",
+      "ru": "Да: «yeğen»! Очень хорошо, Нима!",
       "to": "nima",
       "do": "thumb_up",
       "emo": "happy"
@@ -524,6 +567,7 @@
             "emo": "happy",
             "en": "Thank you, teacher.",
             "fa": "ممنونم، استاد.",
+            "ru": "Спасибо, учитель.",
             "ok": true,
             "react": {
               "zafer": {
@@ -536,6 +580,7 @@
                 "emo": "happy",
                 "en": "You're welcome.",
                 "fa": "خواهش می‌کنم.",
+                "ru": "Не за что.",
                 "to": "nima",
                 "tr": "Rica ederim.",
                 "who": "zafer"
@@ -549,6 +594,7 @@
             "emo": "shy",
             "en": "No, no… it's bad!",
             "fa": "نه، نه… بده!",
+            "ru": "Нет, нет… плохо!",
             "react": {
               "zafer": "confused"
             },
@@ -557,6 +603,7 @@
                 "emo": "confused",
                 "en": "Bad? But it's very good!",
                 "fa": "بد؟ ولی خیلی خوبه!",
+                "ru": "Плохо? Но ведь очень хорошо!",
                 "react": {
                   "dilnoza": "laugh"
                 },
@@ -572,6 +619,7 @@
             "emo": "shy",
             "en": "…",
             "fa": "…",
+            "ru": "…",
             "react": {
               "zafer": {
                 "emo": "happy"
@@ -587,6 +635,7 @@
                 "emo": "happy",
                 "en": "Yes… very good. Thank you, Nima.",
                 "fa": "بله… خیلی خوبه. ممنون، نیما.",
+                "ru": "Да… очень хорошо. Спасибо, Нима.",
                 "to": "nima",
                 "tr": "Evet… çok güzel. Teşekkürler, Nima.",
                 "who": "zafer"
@@ -622,6 +671,7 @@
       "emo": "happy",
       "en": "My family is in Aleppo and in Gaziantep.",
       "fa": "خانواده‌م توی حلب و غازی‌عینتابن.",
+      "ru": "Моя семья в Алеппо и в Газиантепе.",
       "link": {
         "halep'te": "obj:harita_suriye"
       },
@@ -631,10 +681,11 @@
     },
     {
       "emo": "curious",
-      "en": "And your dictionary… is it Arabic?",
-      "fa": "و فرهنگ‌لغتتون… عربیه؟",
+      "en": "So, your dictionary… is it Arabic?",
+      "fa": "خب، فرهنگ‌لغتتون… عربیه؟",
+      "ru": "А ваш словарь… арабский?",
       "to": "yusuf",
-      "tr": "Ve sözlüğünüz… Arapça mı?",
+      "tr": "Peki, sözlüğünüz… Arapça mı?",
       "who": "zafer"
     },
     {
@@ -643,6 +694,7 @@
       "emo": "laugh",
       "en": "Yes! Kitap, kalem, saat… they're in Arabic too!",
       "fa": "آره! kitap، kalem، saat… توی عربی هم هستن!",
+      "ru": "Да! «Kitap», «kalem», «saat»… они есть и в арабском!",
       "obj": [
         {
           "id": "kelime_notu",
@@ -678,12 +730,14 @@
         "en": "Which one? -(y)I says: that one, the one we mean. “Bu kelimeyi bilmiyorum”: I don't know this word. “Kelime bilmiyorum”: I don't know (any) words. Today: haritayı, Farsçayı, kelimeyi. After a vowel a y comes in: kelime-y-i.",
         "ex": "Bu kelimeyi bilmiyorum!",
         "fa": "کدام یکی؟ ‎-(y)I می‌گوید: همان که منظورمان است، مثلِ «را» در فارسی. «Bu kelimeyi bilmiyorum» یعنی این کلمه را بلد نیستم؛ «Kelime bilmiyorum» یعنی کلمه بلد نیستم. امروز: haritayı، Farsçayı، kelimeyi. بعد از حرفِ صدادار یک y می‌آید: kelime-y-i.",
+        "ru": "Какой именно? -(y)I говорит: вот этот, тот, о котором речь. «Bu kelimeyi bilmiyorum»: я не знаю этого слова. «Kelime bilmiyorum»: я не знаю (никаких) слов. Сегодня: haritayı, Farsçayı, kelimeyi. После гласной появляется y: kelime-y-i.",
         "lesson": "g_a1_4_belirtme"
       }
     },
     {
       "en": "Uzbek, Persian, Arabic, Russian… and Turkish. Three trees, one class!",
       "fa": "ازبکی، فارسی، عربی، روسی… و ترکی. سه تا درخت، یه کلاس!",
+      "ru": "Узбекский, персидский, арабский, русский… и турецкий. Три дерева — один класс!",
       "narr": true,
       "tr": "Özbekçe, Farsça, Arapça, Rusça… ve Türkçe. Üç ağaç, bir sınıf!",
       "who": "kerim"
@@ -691,12 +745,14 @@
   ],
   "summary": {
     "en": "Three more family trees. Dilnoza's grandmother speaks Tajik, a kind of Persian; Nima's tree has a gap for a word Nima doesn't know yet; and Yusuf shows that kitap, kalem and saat are Arabic words too.",
-    "fa": "سه شجره‌نامه‌ی دیگر. مادربزرگِ دلنوزا تاجیکی حرف می‌زند که نوعی فارسی است؛ در شجره‌نامه‌ی نیما جای کلمه‌ای خالی است که نیما هنوز بلد نیست؛ و یوسف نشان می‌دهد که kitap و kalem و saat در عربی هم هستند."
+    "fa": "سه شجره‌نامه‌ی دیگر. مادربزرگِ دلنوزا تاجیکی حرف می‌زند که نوعی فارسی است؛ در شجره‌نامه‌ی نیما جای کلمه‌ای خالی است که نیما هنوز بلد نیست؛ و یوسف نشان می‌دهد که kitap و kalem و saat در عربی هم هستند.",
+    "ru": "Ещё три семейных дерева. Бабушка Дилнозы говорит по-таджикски, а это почти персидский; на дереве Нимы пробел — слово, которого Нима пока не знает; а Юсуф показывает, что kitap, kalem и saat — ещё и арабские слова."
   },
   "title": {
     "tr": "Bu kelimeyi bilmiyorum",
     "en": "I don't know this word",
-    "fa": "این کلمه را بلد نیستم"
+    "fa": "این کلمه را بلد نیستم",
+    "ru": "Я не знаю этого слова"
   },
   "words": [
     "a1-w-arapca",

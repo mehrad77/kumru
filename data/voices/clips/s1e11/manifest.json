@@ -1,0 +1,94 @@
+{
+ "story": "s1e11",
+ "lines": {
+  "tolga": {
+   "Hoş geldiniz! Evet mi?": {
+    "f": "ca009a0bca48b2.m4a",
+    "ms": 2610,
+    "sig": "6a4afdab8aee9c"
+   },
+   "Çok güzel! Bu form. Ad?": {
+    "f": "45a107561acfba.m4a",
+    "ms": 2814,
+    "sig": "cd5d07c4249ce1"
+   },
+   "Öğrenci misiniz? Telefon?": {
+    "f": "0d89c1570c77f9.m4a",
+    "ms": 1848,
+    "sig": "707e4b3a79f979"
+   },
+   "Kira… yirmi bir bin lira. Depozito: bir kira.": {
+    "f": "759763766c8149.m4a",
+    "ms": 5466,
+    "sig": "6dcc2cc8ad52b9"
+   },
+   "Ah! Evet, evet… yirmi bin!": {
+    "f": "fa88a69637293e.m4a",
+    "ms": 1999,
+    "sig": "b93539a92610d9"
+   },
+   "…Tamam. Yirmi bin.": {
+    "f": "0ab0739a7c99fd.m4a",
+    "ms": 3426,
+    "sig": "a1db725c96ba76"
+   },
+   "Ah… hayır, hayır! Yirmi bin!": {
+    "f": "06495e71955e44.m4a",
+    "ms": 3169,
+    "sig": "aff6aac0aa4240"
+   },
+   "Burada, lütfen.": {
+    "f": "69bcee4aa98d88.m4a",
+    "ms": 1074,
+    "sig": "8dcd4cc7358cd0"
+   },
+   "Ve… anahtarlar! Buyurun!": {
+    "f": "80df58a116aded.m4a",
+    "ms": 1736,
+    "sig": "13c36734eec74e"
+   },
+   "Evet! Kapı, ev… ve çatı!": {
+    "f": "1576cbad259393.m4a",
+    "ms": 4794,
+    "sig": "527956b1825343"
+   }
+  },
+  "farzad": {
+   "Bir dakika… yirmi bir bin mi?!": {
+    "f": "fa8e4ed28e1f23.m4a",
+    "ms": 3509,
+    "sig": "1a8bb1a9aeda10"
+   },
+   "Kira yirmi bin, adres tamam. Bu sözleşme… ikamet için önemli!": {
+    "f": "06d145ba73f861.m4a",
+    "ms": 5197,
+    "sig": "96d7eeedb195bd"
+   },
+   "Kaç anahtar? Bir, iki… üç?": {
+    "f": "d3d3cdcb7bc59f.m4a",
+    "ms": 3167,
+    "sig": "b67df83f21c8cc"
+   },
+   "Pazartesi: yeni ev!": {
+    "f": "22971ea4a94b21.m4a",
+    "ms": 1746,
+    "sig": "de0c0cceb77064"
+   }
+  },
+  "kerim": {
+   "Tolga Bey çok hızlı. Ama bugün Farzad da burada!": {
+    "f": "9f4d7a071e607d.m4a",
+    "ms": 4165,
+    "sig": "78025552c60169"
+   },
+   "Çatı anahtarı? Çatıda… Kerim var!": {
+    "f": "26509c024e1a57.m4a",
+    "ms": 3213,
+    "sig": "e63a0782cc1ae9"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

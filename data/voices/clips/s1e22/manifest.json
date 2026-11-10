@@ -1,0 +1,81 @@
+{
+ "story": "s1e22",
+ "lines": {
+  "zafer": {
+   "Hangi ağaçta yeğen var?": {
+    "f": "d945aca8f7b60d.m4a",
+    "ms": 1448,
+    "sig": "c33aba0028c485"
+   },
+   "Peki… bu kelimeyi kim biliyor? Yeğen?": {
+    "f": "79393f81ebac39.m4a",
+    "ms": 2437,
+    "sig": "5b4b7c13ad95e9"
+   },
+   "Teşekkür ederim!": {
+    "f": "f71092120848f4.m4a",
+    "ms": 905,
+    "sig": "96c9fc412660dd"
+   }
+  },
+  "yusuf": {
+   "Biz biliyoruz!": {
+    "f": "d8dc6155da8f05.m4a",
+    "ms": 1700,
+    "sig": "d2979ab0a7bf32"
+   },
+   "Fotoğraf! Herkes buraya!": {
+    "f": "47e5f949a1b091.m4a",
+    "ms": 2105,
+    "sig": "c41f2e8527d30f"
+   },
+   "Bakın! Kuş da var!": {
+    "f": "94a52e406ba4e5.m4a",
+    "ms": 1356,
+    "sig": "37ea4187089b6e"
+   }
+  },
+  "reza": {
+   "Nima! Bir dakika, lütfen. Bu sizin ikamet randevunuz.": {
+    "f": "cbf8c991e12c26.m4a",
+    "ms": 5528,
+    "sig": "b43731c04f7dcc"
+   },
+   "Belgeleriniz: pasaportunuz, fotoğraflarınız… ve kira sözleşmeniz.": {
+    "f": "dc1370bf44fbdb.m4a",
+    "ms": 5168,
+    "sig": "0df732520b4956"
+   },
+   "Farzad Bey değil… siz! Pasaportunuz var mı?": {
+    "f": "dae67524592fcb.m4a",
+    "ms": 3057,
+    "sig": "0496534c4d0132"
+   },
+   "Tamam. Sözleşmeyi unutmayın! Ve… bir numara alın! …Şaka!": {
+    "f": "5e3a71d1648bf3.m4a",
+    "ms": 4155,
+    "sig": "8cb646adcaf481"
+   }
+  },
+  "kerim": {
+   "Ayın biri: kira günü! Ve ağaçlar… duvarda.": {
+    "f": "878eb618c382bf.m4a",
+    "ms": 4215,
+    "sig": "001afa69ababf7"
+   },
+   "Zafer Hoca… fotoğrafta yok.": {
+    "f": "1bf501e82481cb.m4a",
+    "ms": 2085,
+    "sig": "0241c902c8f81c"
+   },
+   "Altı kişi, altı ağaç… bir fotoğraf… ve bir randevu. On altı Ekim!": {
+    "f": "c40882360f128c.m4a",
+    "ms": 6824,
+    "sig": "3401cbc1c58d43"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

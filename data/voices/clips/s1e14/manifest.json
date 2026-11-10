@@ -1,0 +1,79 @@
+{
+ "story": "s1e14",
+ "lines": {
+  "elif": {
+   "Günaydın! Sen yeni komşusun, değil mi?": {
+    "f": "5996a9211cf8ff.m4a",
+    "ms": 3464,
+    "sig": "5d5b4fe6b50e15"
+   },
+   "Ben Elif. Hemşireyim. İkinci kat: Serkan, Ömer… ve ben!": {
+    "f": "11e29bba3fac97.m4a",
+    "ms": 4055,
+    "sig": "eed7094dfbc613"
+   },
+   "Osmanbey'e yürüyoruz! Okula mı gidiyorsun?": {
+    "f": "fce849ed352d94.m4a",
+    "ms": 2600,
+    "sig": "36fe72e80f4619"
+   },
+   "Hastaneye gidiyorum. Otobüse binmiyor musun?": {
+    "f": "df19f42aefff38.m4a",
+    "ms": 4161,
+    "sig": "628d5f5c4ad7cf"
+   },
+   "Geliyor! Sen Taksim'e, ben Şişli'ye! Hoşça kal!": {
+    "f": "5dc3e915a5ed12.m4a",
+    "ms": 4041,
+    "sig": "0bbdc8f293e42b"
+   },
+   "Metro geliyor mu? Gelmiyor… gelmiyor… Of, geç kalıyorum!": {
+    "f": "39f86bc1b37350.m4a",
+    "ms": 4788,
+    "sig": "544cb82c1c9317"
+   }
+  },
+  "maria": {
+   "Pardon… pardon…": {
+    "f": "50fa6f27bbbb14.m4a",
+    "ms": 1595,
+    "sig": "b25efabbae11ad"
+   },
+   "Teşekkür ederim!": {
+    "f": "6a0086ed2ec572.m4a",
+    "ms": 1025,
+    "sig": "f5171f97addb6e"
+   },
+   "Çok teşekkür ederim, çok naziksiniz.": {
+    "f": "3bb01f122c82bf.m4a",
+    "ms": 4312,
+    "sig": "955081b0071ee7"
+   },
+   "…Teşekkürler?": {
+    "f": "fddbe387de47e5.m4a",
+    "ms": 792,
+    "sig": "99f50cc55df229"
+   },
+   "Siz de Taksim'de mi iniyorsunuz?": {
+    "f": "d52fe9417decca.m4a",
+    "ms": 2139,
+    "sig": "438995d71affea"
+   }
+  },
+  "kerim": {
+   "Çok erken. Nima uyuyor mu? Uyumuyor! Nima kalkıyor… ve koşuyor!": {
+    "f": "d9bba566b5711b.m4a",
+    "ms": 5526,
+    "sig": "d5d79247eda9fc"
+   },
+   "Bu teyze kim? Ku-kuu…": {
+    "f": "b004cd93b023ba.m4a",
+    "ms": 1826,
+    "sig": "33befa11162a4e"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

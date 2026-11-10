@@ -1,0 +1,76 @@
+{
+ "story": "s1e39",
+ "lines": {
+  "zafer": {
+   "Nereden geliyorsunuz?": {
+    "f": "f3d110c4effac3.m4a",
+    "ms": 1372,
+    "sig": "b9ca4d3fcab93e"
+   },
+   "Her gün okula nasıl geliyorsunuz?": {
+    "f": "c6a416c82af573.m4a",
+    "ms": 1699,
+    "sig": "0dba37046b9b24"
+   },
+   "Hafta sonu İstanbul'da ne yapmak istiyorsunuz, nereye gitmek istiyorsunuz ve neden?": {
+    "f": "ee51effd448d7a.m4a",
+    "ms": 4946,
+    "sig": "25a352fc7cfb45"
+   },
+   "Tabii. Hafta sonu… nereye gitmek istiyorsunuz? Ve neden?": {
+    "f": "3deb2a27cf98cc.m4a",
+    "ms": 4604,
+    "sig": "67d0563e60f1ae"
+   },
+   "Hmm… hayır. Hafta sonu… nereye gitmek istiyorsunuz? Ve neden?": {
+    "f": "d53908eeb27f77.m4a",
+    "ms": 7535,
+    "sig": "b85e3170bdba00"
+   },
+   "Hafta sonu… nereye… gitmek… istiyorsunuz? Ve… neden?": {
+    "f": "161ab97b8038af.m4a",
+    "ms": 4732,
+    "sig": "034c913105b8fb"
+   },
+   "Tamam, teşekkürler. Konuşmanız… biraz zayıf. Ama korkmayın: bir haftanız var.": {
+    "f": "eecbda56709352.m4a",
+    "ms": 4815,
+    "sig": "3538ae7e72e351"
+   }
+  },
+  "yusuf": {
+   "İyi geçti… ama bana B2 lazım. Tıp için. Bu sadece A1.": {
+    "f": "02f7959a2ced1f.m4a",
+    "ms": 4180,
+    "sig": "3200e0477236cf"
+   }
+  },
+  "dilnoza": {
+   "Bitti! İyi geçti! Seninki nasıl?": {
+    "f": "1e8c08c6edb3d5.m4a",
+    "ms": 2286,
+    "sig": "7ebdd015cb0d2e"
+   },
+   "Yavaş yavaş! Beraber çalışıyoruz. Her gün konuşuyoruz: ben, sen, Ömer, Maria Teyze… herkes!": {
+    "f": "ae74500d7177fe.m4a",
+    "ms": 7830,
+    "sig": "4b21a969dbe6a6"
+   }
+  },
+  "kerim": {
+   "Deneme sınavı! Herkes kapıda bekliyor… ve biraz korkuyor.": {
+    "f": "5f0bf722f9f26c.m4a",
+    "ms": 4268,
+    "sig": "29ff92b0263212"
+   },
+   "Sınav: Cuma, otuz Ekim. Daha dokuz gün var!": {
+    "f": "4966f74bb19b2b.m4a",
+    "ms": 3826,
+    "sig": "1dd034fb8f8cfd"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

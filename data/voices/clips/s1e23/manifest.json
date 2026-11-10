@@ -1,0 +1,86 @@
+{
+ "story": "s1e23",
+ "lines": {
+  "maria": {
+   "Kiki'yi arıyorum… Ah, Kiki! Gel, gel!": {
+    "f": "dd3bd1d12099a4.m4a",
+    "ms": 3154,
+    "sig": "cc54e6c9fd57c6"
+   },
+   "Bu Kiki. Benim kedim.": {
+    "f": "2acabfe3ac0710.m4a",
+    "ms": 3524,
+    "sig": "8cfc42b34f7289"
+   },
+   "Evet… bizim.": {
+    "f": "9ca033a5c8aef4.m4a",
+    "ms": 1596,
+    "sig": "c3d1688b0edb3f"
+   },
+   "…Kedi gidiyor.": {
+    "f": "3b5af87621104d.m4a",
+    "ms": 807,
+    "sig": "d1d60352d9d1a8"
+   },
+   "Hayır, yavrum… sizin de!": {
+    "f": "2c76f3189ee94e.m4a",
+    "ms": 2054,
+    "sig": "dc9f04d39aa119"
+   },
+   "Kiki… Pamuk… Pişi… Kartal! Bir kedi, dört ad!": {
+    "f": "9d071380f9b4fd.m4a",
+    "ms": 5109,
+    "sig": "bb8d1351e5bda3"
+   },
+   "Şimdi… burada da bir kediniz var. Hep burada, kapıda!": {
+    "f": "44a814fa9ed8a4.m4a",
+    "ms": 5407,
+    "sig": "16a37d15aa728a"
+   }
+  },
+  "omer": {
+   "Pamuk! O benim kedim!": {
+    "f": "d1cdbd188b9c0d.m4a",
+    "ms": 2171,
+    "sig": "c7c277d00e0e66"
+   },
+   "Bizim kedimiz! Adı ne?": {
+    "f": "d71323029e8535.m4a",
+    "ms": 1971,
+    "sig": "fd3340985f2790"
+   }
+  },
+  "serkan": {
+   "Kara Kartal! Gel oğlum! Balık veriyorum!": {
+    "f": "5f3dc4510860da.m4a",
+    "ms": 2461,
+    "sig": "97d54579da34c1"
+   },
+   "Şu kedi kimin? Benim!": {
+    "f": "4eafd3488998fe.m4a",
+    "ms": 2269,
+    "sig": "10743a3a29b5c9"
+   },
+   "Hayır! Benim!": {
+    "f": "e6dcf1cbba0b26.m4a",
+    "ms": 1956,
+    "sig": "c4a06cfeb9c2d1"
+   }
+  },
+  "kerim": {
+   "Ay! Kedi! Kedi burada! Kerim kediyi sevmiyor… Kerim korkuyor!": {
+    "f": "84c266b203de93.m4a",
+    "ms": 5363,
+    "sig": "fea57cbf7e9150"
+   },
+   "Kerim kediyi seviyor mu? …Biraz. Ve Boğaz? …Başka bir gün.": {
+    "f": "eb8356750bb7e2.m4a",
+    "ms": 5495,
+    "sig": "d3f479c629b988"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

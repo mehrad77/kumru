@@ -1,0 +1,76 @@
+{
+ "story": "s1e40",
+ "lines": {
+  "tolga": {
+   "Hoş geldiniz! Bir dakika bekleyin…": {
+    "f": "9e0f654905834d.m4a",
+    "ms": 2632,
+    "sig": "aae8de126a4e32"
+   },
+   "Kombi mi? Noter mi? Tamam, tamam… yarın!": {
+    "f": "324b38b61a4ab6.m4a",
+    "ms": 4406,
+    "sig": "2565f1ee639abf"
+   },
+   "Yarın değil mi? Peki… ne zaman?!": {
+    "f": "ec320999fd135b.m4a",
+    "ms": 4836,
+    "sig": "41cf16f0d1b5a2"
+   },
+   "…Pazartesi mi? Ah, sözleşme… unuttum! Ama bugün noter çok kalabalık…": {
+    "f": "f60485094b48bb.m4a",
+    "ms": 5767,
+    "sig": "88c9f93e6657bb"
+   },
+   "Tamam! Söz! Bu “yarın” gerçek!": {
+    "f": "c1502e6cb3da5b.m4a",
+    "ms": 2606,
+    "sig": "a2ec94ed125c72"
+   },
+   "Peki, peki… bugün! Alo? Sözleşmeyi bugün notere götürüyorum! …Usta? Yarın sabah, saat dokuzda!": {
+    "f": "7f3a784dd6158a.m4a",
+    "ms": 7697,
+    "sig": "e6aeabf0e19574"
+   }
+  },
+  "farzad": {
+   "Nima? Sen konuş! Türkçen çok iyi!": {
+    "f": "7853e7f8228cbc.m4a",
+    "ms": 4558,
+    "sig": "db72d8c11525ba"
+   }
+  },
+  "elif": {
+   "Nima! Evin soğuk, değil mi? Gel! Bizim ev sıcak.": {
+    "f": "7882094f14f3d5.m4a",
+    "ms": 3608,
+    "sig": "efbb4803b5ed31"
+   },
+   "Tolga Bey'le mi? Gerçekten mi?! Aferin!": {
+    "f": "1703ca7bcc2faf.m4a",
+    "ms": 3994,
+    "sig": "b02790a9679f58"
+   }
+  },
+  "kerim": {
+   "Ders bitti. Nima nereye gidiyor? Eve değil… Tolga Bey'e!": {
+    "f": "99c001ed0b461e.m4a",
+    "ms": 5369,
+    "sig": "4572ba5c5286df"
+   },
+   "Yarın? Hep yarın!": {
+    "f": "1ed7cf5888c3e9.m4a",
+    "ms": 3426,
+    "sig": "75dbd4b49880f4"
+   },
+   "Yarın değil… bugün. Ku-kuu!": {
+    "f": "8478e1f1dbcf93.m4a",
+    "ms": 2209,
+    "sig": "2540cc1498e026"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

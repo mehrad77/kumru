@@ -1,0 +1,160 @@
+{
+ "story": "s1e42",
+ "lines": {
+  "berfin": {
+   "Doğru! İkinci soru: Nima'nın evi kaçıncı katta?": {
+    "f": "7aca4c4af2cda2.m4a",
+    "ms": 3884,
+    "sig": "3e1b9a077f50ed"
+   },
+   "Sınıf binaya karşı! Ödül: bir hafta bedava çay! Birinci soru: bunlar ne?": {
+    "f": "7179044a994069.m4a",
+    "ms": 6220,
+    "sig": "6a1f6b97bac842"
+   },
+   "Doğru! Şu atkı kimin?": {
+    "f": "c712a1255d0323.m4a",
+    "ms": 2604,
+    "sig": "02c84bc6e7d672"
+   },
+   "Doğru! Şimdi Ömer… Ömer ne yapıyor?": {
+    "f": "8c01c6958c435e.m4a",
+    "ms": 3408,
+    "sig": "c477e5c5b6b614"
+   },
+   "Saat kaç?": {
+    "f": "1f62296609c338.m4a",
+    "ms": 935,
+    "sig": "01d22cb8d50190"
+   },
+   "Hayır, Serkan! Dokuzu çeyrek geçiyor. Son tur… köşedeki fırın nerede?": {
+    "f": "d7963b9e80fe75.m4a",
+    "ms": 5081,
+    "sig": "b68f55cbd3fe3a"
+   },
+   "Doğru! Sınıfa bir puan!": {
+    "f": "595c2e6dc41907.m4a",
+    "ms": 3671,
+    "sig": "c7d98f10f8b428"
+   },
+   "Doğru… Sınıfa bir puan, binaya da bir puan!": {
+    "f": "8f992309ade53b.m4a",
+    "ms": 4574,
+    "sig": "206b1db509adbf"
+   },
+   "Kopya mı? Peki… Yusuf?": {
+    "f": "ccf86bc49fa8c9.m4a",
+    "ms": 2297,
+    "sig": "6a5252070eee3e"
+   },
+   "Hangisi daha büyük: Boğaz mı, Haliç mi?": {
+    "f": "71fd3414d019fb.m4a",
+    "ms": 4250,
+    "sig": "d6722af6d5188e"
+   },
+   "Ve… Feriköy'ün en eski komşusu kim?": {
+    "f": "f4d2e9a6884b17.m4a",
+    "ms": 4257,
+    "sig": "09846ec8b82766"
+   },
+   "Sır mı? Peki, peki…": {
+    "f": "53a49901880df1.m4a",
+    "ms": 2332,
+    "sig": "0ff3ba387f77e2"
+   },
+   "Puanlar berabere! Son soru, Nima için: Feriköy'ün en güzel manzarası nerede?": {
+    "f": "5d9cdd12a6f63b.m4a",
+    "ms": 5593,
+    "sig": "e82f5078acfdb0"
+   },
+   "Tankın üstünde mi? Rehberde yok… puan da yok!": {
+    "f": "2692fbbdfe4e5f.m4a",
+    "ms": 3933,
+    "sig": "99531ace102a92"
+   },
+   "Bilmiyorsun… Peki!": {
+    "f": "04fa014d843d6c.m4a",
+    "ms": 2500,
+    "sig": "540e628878040c"
+   },
+   "O zaman… berabere! Bedava çay herkese!": {
+    "f": "d2501394d21bb0.m4a",
+    "ms": 2901,
+    "sig": "066c1f459bd99f"
+   },
+   "Sağ ol, Nima! Bir çay daha?": {
+    "f": "f93c51cdaf06c5.m4a",
+    "ms": 3721,
+    "sig": "dee2ef444d3a17"
+   }
+  },
+  "parvaneh": {
+   "Dördüncü katta! Ve asansör yok!": {
+    "f": "b77a732bb31068.m4a",
+    "ms": 2561,
+    "sig": "8ef7bba0741e02"
+   }
+  },
+  "yusuf": {
+   "Uyuyor! …Alex gibi!": {
+    "f": "ba9b5d2b85d3ce.m4a",
+    "ms": 1298,
+    "sig": "fd887c6f1733b2"
+   },
+   "Eczanenin yanında!": {
+    "f": "f98bf2052baaa0.m4a",
+    "ms": 1099,
+    "sig": "865a7f63b5619f"
+   }
+  },
+  "serkan": {
+   "Benim! En büyük Beşiktaş!": {
+    "f": "f686c25602fa66.m4a",
+    "ms": 3040,
+    "sig": "c29d506a779330"
+   },
+   "Maç saati!": {
+    "f": "86a6aa1b111c3c.m4a",
+    "ms": 2497,
+    "sig": "b4e2f877feee56"
+   },
+   "Ömer! Sen hangi takımdasın?!": {
+    "f": "4fdd9597be7520.m4a",
+    "ms": 2815,
+    "sig": "897d80a305ad60"
+   },
+   "Boğaz, tabii! Haliç'ten daha büyük!": {
+    "f": "e57b7139dd4229.m4a",
+    "ms": 4801,
+    "sig": "ff1c80539d0527"
+   }
+  },
+  "omer": {
+   "Uyumuyorum! Nima! Cevap: eczanenin yanında!": {
+    "f": "0ee36b2842ec5d.m4a",
+    "ms": 4656,
+    "sig": "f85633d824bcf7"
+   },
+   "Maria Teyze!": {
+    "f": "24a286cf06c8b6.m4a",
+    "ms": 2054,
+    "sig": "a39c5e659cfbd1"
+   }
+  },
+  "kerim": {
+   "Cumartesi akşamı. Berfin'in kafesinde… bilgi yarışması!": {
+    "f": "7ac3c078d5c3e6.m4a",
+    "ms": 5709,
+    "sig": "20bd4bafd9ee8a"
+   },
+   "Bir hafta bedava çay… ve bir hafta sonra, sınav!": {
+    "f": "af9ff4bafba7ae.m4a",
+    "ms": 5587,
+    "sig": "5bd5293ddddb22"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

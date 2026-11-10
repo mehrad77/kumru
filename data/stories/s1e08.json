@@ -2,6 +2,7 @@
   "arc": {
     "en": "Where's home?",
     "fa": "خانه کجاست؟",
+    "ru": "Где дом?",
     "id": "s1w02",
     "mechanics": [
       "say",
@@ -27,6 +28,7 @@
       "do": "phone",
       "en": "I'm the estate agent! Hello, how can I help?",
       "fa": "من بنگاهی‌ام! الو، بفرمایید!",
+      "ru": "Я агент по недвижимости! Алло, слушаю вас!",
       "to": "nima",
       "tr": "Ben emlakçıyım! Alo, buyurun!",
       "who": "yusuf"
@@ -39,6 +41,7 @@
           {
             "en": "How much is the rent?",
             "fa": "اجاره چند لیره؟",
+            "ru": "Сколько стоит аренда?",
             "ok": true,
             "react": {
               "yusuf": {
@@ -50,6 +53,7 @@
               {
                 "en": "Twenty thousand lira!",
                 "fa": "بیست هزار لیر!",
+                "ru": "Двадцать тысяч лир!",
                 "tr": "Yirmi bin lira!",
                 "who": "yusuf"
               }
@@ -60,6 +64,7 @@
           {
             "en": "The rent is which in the row?",
             "fa": "اجاره چندمه؟",
+            "ru": "Аренда — какая по счёту?",
             "react": {
               "yusuf": "confused"
             },
@@ -67,6 +72,7 @@
               {
                 "en": "Which in the row? No: how much? Twenty thousand!",
                 "fa": "چندم؟ نه: چند لیر؟ بیست هزار!",
+                "ru": "Какая по счёту? Нет: сколько лир? Двадцать тысяч!",
                 "tr": "Kaçıncı? Hayır: kaç lira? Yirmi bin!",
                 "who": "yusuf"
               }
@@ -81,6 +87,7 @@
     {
       "en": "Which floor?",
       "fa": "طبقه‌ی چندم؟",
+      "ru": "Какой этаж?",
       "to": "yusuf",
       "tr": "Kaçıncı kat?",
       "who": "nima"
@@ -88,6 +95,7 @@
     {
       "en": "The fourth floor!",
       "fa": "طبقه‌ی چهارم!",
+      "ru": "Четвёртый этаж!",
       "to": "nima",
       "tr": "Dördüncü kat!",
       "who": "yusuf"
@@ -95,6 +103,7 @@
     {
       "en": "Is there a kitchen?",
       "fa": "آشپزخونه داره؟",
+      "ru": "Кухня есть?",
       "to": "yusuf",
       "tr": "Mutfak var mı?",
       "who": "nima"
@@ -102,6 +111,7 @@
     {
       "en": "There is! A lift… no!",
       "fa": "داره! آسانسور… نداره!",
+      "ru": "Есть! Лифта… нет!",
       "to": "nima",
       "tr": "Var! Asansör… yok!",
       "who": "yusuf"
@@ -110,50 +120,62 @@
   "gl": {
     "akşam": {
       "fa": "عصر، شب",
+      "ru": "вечер",
       "en": "evening"
     },
     "alo": {
       "fa": "الو",
+      "ru": "алло (по телефону)",
       "en": "hello (on the phone)"
     },
     "asansör": {
       "fa": "آسانسور",
+      "ru": "лифт",
       "en": "lift, elevator"
     },
     "beşinci": {
       "fa": "پنجم",
+      "ru": "пятый",
       "en": "fifth"
     },
     "depozito": {
       "fa": "ودیعه، پیش‌پرداخت",
+      "ru": "залог",
       "en": "deposit"
     },
     "emlakçı": {
       "fa": "بنگاهی، مشاورِ املاک",
+      "ru": "агент по недвижимости",
       "en": "estate agent"
     },
     "emlakçıyım": {
       "fa": "من بنگاهی‌ام",
+      "ru": "я агент по недвижимости",
       "en": "I'm the estate agent"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a neighbourhood of Şişli)"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "sayıları": {
       "fa": "عددهای…",
+      "ru": "числа… (İstanbul sayıları: стамбульские числа)",
       "en": "the numbers of… (İstanbul sayıları: Istanbul numbers)"
     },
     "very": {
       "fa": "خیلی (انگلیسی)",
+      "ru": "очень (по-английски)",
       "en": "very (in English)"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     }
   },
@@ -211,7 +233,8 @@
       "q": {
         "tr": "Tolga Bey: Feriköy'de kira kaç lira?",
         "en": "Tolga Bey: how much is the rent in Feriköy?",
-        "fa": "آقای تولگا: اجاره در فری‌کؤی چند لیر است؟"
+        "fa": "آقای تولگا: اجاره در فری‌کؤی چند لیر است؟",
+        "ru": "Господин Толга: сколько стоит аренда в Ферикёе?"
       },
       "why": "Tolga Bey: “Var, var! Feriköy'de, dördüncü kat, yirmi bin lira, depozito bir kira, çok güzel, çok temiz…”"
     },
@@ -226,7 +249,8 @@
       "q": {
         "tr": "Asansör var mı?",
         "en": "Is there a lift?",
-        "fa": "آسانسور هست؟"
+        "fa": "آسانسور هست؟",
+        "ru": "Лифт есть?"
       },
       "why": "Tolga Bey: “Asansör? …Yok.”"
     }
@@ -252,6 +276,7 @@
       "cam": "wide",
       "en": "Twenty thousand? Twenty-five thousand? Coo-coo… big numbers!",
       "fa": "بیست هزار؟ بیست و پنج هزار؟ کو-کوو… عددهای گنده!",
+      "ru": "Двадцать тысяч? Двадцать пять тысяч? Ку-ку… большие числа!",
       "narr": true,
       "tr": "Yirmi bin? Yirmi beş bin? Ku-kuu… büyük sayılar!",
       "who": "kerim"
@@ -262,6 +287,7 @@
       "emo": "neutral",
       "en": "Twenty thousand, twenty-five thousand… Istanbul numbers! Which floor is this classroom on?",
       "fa": "بیست هزار، بیست و پنج هزار… عددهای استانبول! این کلاس طبقه‌ی چندمه؟",
+      "ru": "Двадцать тысяч, двадцать пять тысяч… стамбульские числа! На каком этаже этот класс?",
       "to": "all",
       "tr": "Yirmi bin, yirmi beş bin… İstanbul sayıları! Bu sınıf kaçıncı katta?",
       "who": "zafer"
@@ -270,6 +296,7 @@
       "emo": "proud",
       "en": "The fifth floor!",
       "fa": "طبقه‌ی پنجم!",
+      "ru": "На пятом этаже!",
       "to": "zafer",
       "tr": "Beşinci kat!",
       "who": "nima"
@@ -303,6 +330,7 @@
       "emo": "happy",
       "en": "Hello? How can I help?",
       "fa": "الو؟ بفرمایید!",
+      "ru": "Алло? Слушаю!",
       "to": "nima",
       "tr": "Alo? Buyurun!",
       "who": "yusuf"
@@ -311,6 +339,7 @@
       "emo": "nervous",
       "en": "…",
       "fa": "…",
+      "ru": "…",
       "to": "yusuf",
       "tr": "…",
       "voice": "silent",
@@ -331,6 +360,7 @@
       "emo": "happy",
       "en": "Okay, okay… once more!",
       "fa": "باشه، باشه… یه بار دیگه!",
+      "ru": "Ладно, ладно… ещё раз!",
       "to": "nima",
       "tr": "Tamam, tamam… bir daha!",
       "who": "yusuf"
@@ -350,6 +380,7 @@
       "emo": "happy",
       "en": "Hello, how can I help?",
       "fa": "الو، بفرمایید!",
+      "ru": "Алло, слушаю вас!",
       "tempo": 1.4,
       "tr": "Alo, buyurun!",
       "via": "phone",
@@ -359,6 +390,7 @@
       "emo": "nervous",
       "en": "Hello, good afternoon! A flat in Feriköy… is there one?",
       "fa": "الو، روزتون بخیر! توی فری‌کؤی خونه… هست؟",
+      "ru": "Алло, добрый день! Квартира в Ферикёе… есть?",
       "to": "tolga",
       "tr": "Alo, iyi günler! Feriköy'de ev… var mı?",
       "who": "nima"
@@ -368,6 +400,7 @@
       "emo": "happy",
       "en": "Yes, yes! In Feriköy, fourth floor, twenty thousand lira, deposit one month's rent, very nice, very clean…",
       "fa": "هست، هست! توی فری‌کؤی، طبقه‌ی چهارم، بیست هزار لیر، ودیعه یه ماه اجاره، خیلی قشنگ، خیلی تمیز…",
+      "ru": "Есть, есть! В Ферикёе, четвёртый этаж, двадцать тысяч лир, залог — месячная плата, очень красивая, очень чистая…",
       "react": {
         "nima": {
           "emo": "confused"
@@ -387,6 +420,7 @@
             "do": "hand_heart",
             "en": "Slowly, please!",
             "fa": "آروم‌تر، لطفاً!",
+            "ru": "Помедленнее, пожалуйста!",
             "ok": true,
             "react": {
               "tolga": {
@@ -399,6 +433,7 @@
                 "emo": "happy",
                 "en": "Of course, of course! Slowly… Twenty. Thousand. Lira.",
                 "fa": "البته، البته! آروم… بیست. هزار. لیر.",
+                "ru": "Конечно, конечно! Медленно… Двадцать. Тысяч. Лир.",
                 "tempo": 0.7,
                 "tr": "Tabii, tabii! Yavaş… Yirmi. Bin. Lira.",
                 "via": "phone",
@@ -412,6 +447,7 @@
             "do": "nod",
             "en": "Yes, yes!",
             "fa": "بله، بله!",
+            "ru": "Да, да!",
             "react": {
               "tolga": {
                 "emo": "happy"
@@ -423,6 +459,7 @@
                 "emo": "happy",
                 "en": "Great! Wednesday! See you!",
                 "fa": "عالیه! چهارشنبه! می‌بینمتون!",
+                "ru": "Отлично! Среда! До встречи!",
                 "tempo": 1.5,
                 "tr": "Tamam! Çarşamba! Görüşürüz!",
                 "via": "phone",
@@ -442,6 +479,7 @@
                 "emo": "surprised",
                 "en": "Nima! How much? Which floor?",
                 "fa": "نیما! چند لیر؟ طبقه‌ی چندم؟",
+                "ru": "Нима! Сколько лир? Какой этаж?",
                 "to": "nima",
                 "tr": "Nima! Kaç lira? Kaçıncı kat?",
                 "who": "yusuf"
@@ -466,6 +504,7 @@
                 "emo": "happy",
                 "en": "Hello, good day! Slowly, please!",
                 "fa": "الو، روزتون بخیر! آروم‌تر، لطفاً!",
+                "ru": "Алло, добрый день! Помедленнее, пожалуйста!",
                 "to": "tolga",
                 "tr": "Alo, iyi günler! Yavaş, lütfen!",
                 "who": "yusuf"
@@ -486,6 +525,7 @@
                 "cam": "split",
                 "en": "All right… Twenty. Thousand. Lira.",
                 "fa": "باشه… بیست. هزار. لیر.",
+                "ru": "Хорошо… Двадцать. Тысяч. Лир.",
                 "tempo": 0.7,
                 "tr": "Tamam… Yirmi. Bin. Lira.",
                 "via": "phone",
@@ -500,6 +540,7 @@
             "emo": "sad",
             "en": "Turkish… none.",
             "fa": "ترکی… نه.",
+            "ru": "Турецкий… нет.",
             "react": {
               "tolga": {
                 "emo": "surprised"
@@ -511,6 +552,7 @@
                 "emo": "nervous",
                 "en": "Very… nice! Very… house!",
                 "fa": "وِری… قشنگ! وِری… خونه!",
+                "ru": "Very… красивая! Very… квартира!",
                 "tr": "Very… güzel! Very… ev!",
                 "via": "phone",
                 "who": "tolga"
@@ -520,6 +562,7 @@
                 "emo": "happy",
                 "en": "All right, Turkish! Slowly… Twenty. Thousand. Lira.",
                 "fa": "باشه، ترکی! آروم… بیست. هزار. لیر.",
+                "ru": "Ладно, по-турецки! Медленно… Двадцать. Тысяч. Лир.",
                 "tempo": 0.7,
                 "tr": "Tamam, Türkçe! Yavaş… Yirmi. Bin. Lira.",
                 "via": "phone",
@@ -537,6 +580,7 @@
       "emo": "curious",
       "en": "Which floor?",
       "fa": "طبقه‌ی چندم؟",
+      "ru": "Какой этаж?",
       "to": "tolga",
       "tr": "Kaçıncı kat?",
       "who": "nima"
@@ -546,6 +590,7 @@
       "emo": "sorry",
       "en": "The fourth! A lift? …No.",
       "fa": "چهارم! آسانسور؟ …نداره.",
+      "ru": "Четвёртый! Лифт? …Нет.",
       "tempo": 1.2,
       "tr": "Dördüncü! Asansör? …Yok.",
       "via": "phone",
@@ -555,6 +600,7 @@
       "emo": "curious",
       "en": "Is there a kitchen?",
       "fa": "آشپزخونه داره؟",
+      "ru": "Кухня есть?",
       "to": "tolga",
       "tr": "Mutfak var mı?",
       "who": "nima"
@@ -564,6 +610,7 @@
       "emo": "happy",
       "en": "There is! The address: Feriköy, number twelve. Today? No, no… Wednesday evening?",
       "fa": "داره! آدرس: فری‌کؤی، پلاکِ دوازده. امروز؟ نه، نه… چهارشنبه عصر؟",
+      "ru": "Есть! Адрес: Ферикёй, номер двенадцать. Сегодня? Нет, нет… в среду вечером?",
       "tempo": 1.4,
       "tr": "Var! Adres: Feriköy, numara on iki. Bugün? Hayır, hayır… çarşamba akşam?",
       "via": "phone",
@@ -572,10 +619,11 @@
     {
       "do": "nod",
       "emo": "happy",
-      "en": "All right!",
-      "fa": "باشه!",
+      "en": "All right, thanks!",
+      "fa": "باشه، مرسی!",
+      "ru": "Хорошо, спасибо!",
       "to": "tolga",
-      "tr": "Tamam!",
+      "tr": "Tamam, teşekkürler!",
       "who": "nima"
     },
     {
@@ -614,6 +662,7 @@
         "en": "Kaçıncı? asks about order: “which one in the row?” The answer takes -(I)ncI: bir → birinci, iki → ikinci, üç → üçüncü, dört → dördüncü (t becomes d), beş → beşinci. After a vowel it is only -ncI: iki → ikinci, altı → altıncı. The class is on the beşinci kat; the flat is on the dördüncü kat.",
         "ex": "Beşinci kat!",
         "fa": "«kaçıncı?» ترتیب را می‌پرسد: «چندمی؟». جواب پسوندِ -(I)ncI می‌گیرد، مثلِ «ـُم» در فارسی: bir → birinci (اول)، iki → ikinci (دوم)، üç → üçüncü (سوم)، dört → dördüncü (چهارم؛ t می‌شود d)، beş → beşinci (پنجم). بعد از واکه فقط -ncI می‌آید: iki → ikinci، altı → altıncı. کلاس در beşinci kat است؛ خانه در dördüncü kat.",
+        "ru": "Kaçıncı? спрашивает о порядке: «какой по счёту?». Ответ берёт -(I)ncI: bir → birinci, iki → ikinci, üç → üçüncü, dört → dördüncü (t становится d), beş → beşinci. После гласной — только -ncI: iki → ikinci, altı → altıncı. Класс — на beşinci kat, квартира — на dördüncü kat.",
         "lesson": "g_a1_2_kacinci"
       }
     },
@@ -628,6 +677,7 @@
       "do": "count",
       "en": "How many floors? One, two, three, four… the fourth floor. And no lift. Coo-coo!",
       "fa": "چند طبقه؟ یک، دو، سه، چهار… طبقه‌ی چهارم. آسانسورم نداره. کو-کوو!",
+      "ru": "Сколько этажей? Один, два, три, четыре… четвёртый этаж. И лифта нет. Ку-ку!",
       "move": {
         "how": "fly",
         "to": "landing_4",
@@ -646,12 +696,14 @@
   ],
   "summary": {
     "en": "Big numbers in class, then Nima calls about the Feriköy ad. The rehearsal with Yusuf ends in a freeze; the real estate agent, Tolga Bey, talks far too fast, but a viewing is booked for Wednesday evening.",
-    "fa": "سرِ کلاس عددهای بزرگ را یاد می‌گیرند، بعد نیما برای آگهیِ فری‌کؤی زنگ می‌زند. تمرینِ تلفن با یوسف به سکوت می‌کشد؛ بنگاهی، آقای تولگا، خیلی تند حرف می‌زند، ولی قرارِ دیدنِ خانه برای چهارشنبه عصر گذاشته می‌شود."
+    "fa": "سرِ کلاس عددهای بزرگ را یاد می‌گیرند، بعد نیما برای آگهیِ فری‌کؤی زنگ می‌زند. تمرینِ تلفن با یوسف به سکوت می‌کشد؛ بنگاهی، آقای تولگا، خیلی تند حرف می‌زند، ولی قرارِ دیدنِ خانه برای چهارشنبه عصر گذاشته می‌شود.",
+    "ru": "На уроке — большие числа, а потом Нима звонит по объявлению из Ферикёя. Репетиция с Юсуфом кончается молчанием; настоящий агент, господин Толга, говорит слишком быстро, но просмотр назначен на вечер среды."
   },
   "title": {
     "tr": "Alo?",
     "en": "Hello?",
-    "fa": "الو؟"
+    "fa": "الو؟",
+    "ru": "Алло?"
   },
   "words": [
     "a1-w-kacinci",

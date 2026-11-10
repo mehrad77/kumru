@@ -1,0 +1,97 @@
+{
+ "story": "s1e20",
+ "lines": {
+  "zafer": {
+   "Evet, kızım. Üç yaşında. Şimdi… sizin aileniz!": {
+    "f": "ac281213c980a4.m4a",
+    "ms": 2828,
+    "sig": "6845a9d19b9190"
+   },
+   "Ya bu kim?": {
+    "f": "1edbd6c4f0b482.m4a",
+    "ms": 978,
+    "sig": "a6da9958ce9a6b"
+   },
+   "Dayı, teyze… Farsçada da var mı?": {
+    "f": "55304551026362.m4a",
+    "ms": 3708,
+    "sig": "5d2119a58f22b4"
+   },
+   "Nima, Olga kim?": {
+    "f": "f93edf5cc460c9.m4a",
+    "ms": 1048,
+    "sig": "1f07efb1f97d59"
+   },
+   "Yarın sizin ağacınız, Nima! Anne, baba, abla, ağabey, dede… Buyurun.": {
+    "f": "0927ae2f87b009.m4a",
+    "ms": 5752,
+    "sig": "00f62fdf8a96af"
+   },
+   "Bu annem, bu babam, bu da eşim. Peki, bu kim?": {
+    "f": "26a5c54da8e546.m4a",
+    "ms": 4964,
+    "sig": "b1d4aeb984f51f"
+   }
+  },
+  "parvaneh": {
+   "Bu babam, adı Behzad. Mühendis!": {
+    "f": "5c745d83b6e457.m4a",
+    "ms": 2582,
+    "sig": "78e7320ae44594"
+   },
+   "Annem! O öğretmen. Bu dayım… bu da teyzem!": {
+    "f": "2b70273b3055c1.m4a",
+    "ms": 4668,
+    "sig": "4426dce00cd828"
+   },
+   "Senin ablan mı?! Hayır… onun ablası!": {
+    "f": "59c53b2ed508a2.m4a",
+    "ms": 4087,
+    "sig": "078d234182c273"
+   },
+   "Evet! Dayı: دایی. Teyze: خاله. Amca, hala… hepsi var!": {
+    "f": "e13cb598f70130.m4a",
+    "ms": 7972,
+    "sig": "605d553dead9ce",
+    "doubt": "heard \"Evet, dayı, dayı, teyze, hale, amca hala hepsi var.\""
+   },
+   "Benim ağacım çok büyük!": {
+    "f": "acb80a0b0e2dc9.m4a",
+    "ms": 1658,
+    "sig": "195b097bda6610"
+   }
+  },
+  "alex": {
+   "Bir ablam var. Onun adı Olga. O doktor… Moskova'da.": {
+    "f": "4cf45696baa49e.m4a",
+    "ms": 3510,
+    "sig": "cf1e7c89606cf9"
+   },
+   "Evet! Benim ablam!": {
+    "f": "ec6247fb868b36.m4a",
+    "ms": 1730,
+    "sig": "917e9e68376868"
+   },
+   "Annem değil! Ablam!": {
+    "f": "9017814be55fec.m4a",
+    "ms": 1549,
+    "sig": "59f81879835b92"
+   }
+  },
+  "kerim": {
+   "Nima yazıyor: annesi, babası, kardeşi… ve küçük bir çocuk. Ama Türkçe adı ne?": {
+    "f": "aeae39d6ce6085.m4a",
+    "ms": 6586,
+    "sig": "20e9e3620a51c0"
+   },
+   "Ağaçlar! Ama hangi ağaçlar? Aile ağaçları!": {
+    "f": "148430d3c58be5.m4a",
+    "ms": 4982,
+    "sig": "ab0069e553d2f2"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

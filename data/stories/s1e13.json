@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new home, a new way",
     "fa": "خانه‌ی نو، راهِ نو",
+    "ru": "Новый дом, новый путь",
     "id": "s1w03",
     "mechanics": [
       "say",
@@ -20,6 +21,7 @@
     {
       "en": "Neighbour! Where are we going?",
       "fa": "همسایه! کجا بریم؟",
+      "ru": "Эй, привет! Куда едем?",
       "to": "nima",
       "tr": "Komşu! Nereye gidiyoruz?",
       "who": "serkan"
@@ -32,6 +34,7 @@
           {
             "en": "To school, please.",
             "fa": "مدرسه، لطفاً.",
+            "ru": "В школу, пожалуйста.",
             "ok": true,
             "react": {
               "serkan": {
@@ -43,6 +46,7 @@
               {
                 "en": "To school! Right.",
                 "fa": "مدرسه! باشه.",
+                "ru": "В школу! Хорошо.",
                 "tr": "Okula! Tamam.",
                 "who": "serkan"
               }
@@ -53,6 +57,7 @@
           {
             "en": "From school.",
             "fa": "از مدرسه.",
+            "ru": "Из школы.",
             "react": {
               "serkan": {
                 "emo": "laugh"
@@ -62,6 +67,7 @@
               {
                 "en": "Not from school… to school! Right.",
                 "fa": "از مدرسه نه… به مدرسه! باشه.",
+                "ru": "Не «из школы»… а «в школу»! Хорошо.",
                 "tr": "Okuldan değil… okula! Tamam.",
                 "who": "serkan"
               }
@@ -76,6 +82,7 @@
     {
       "en": "And where are you coming from now?",
       "fa": "حالا از کجا میای؟",
+      "ru": "А сейчас ты откуда едешь?",
       "to": "nima",
       "tr": "Şimdi nereden geliyorsun?",
       "who": "serkan"
@@ -83,6 +90,7 @@
     {
       "en": "From home!",
       "fa": "از خونه!",
+      "ru": "Из дома!",
       "to": "serkan",
       "tr": "Evden!",
       "who": "nima"
@@ -90,6 +98,7 @@
     {
       "en": "From home to school. Right, off we go!",
       "fa": "از خونه به مدرسه. باشه، بریم!",
+      "ru": "Из дома в школу. Ладно, поехали!",
       "to": "nima",
       "tr": "Evden okula. Tamam, gidiyoruz!",
       "who": "serkan"
@@ -98,43 +107,58 @@
   "gl": {
     "asansör": {
       "fa": "آسانسور",
+      "ru": "лифт",
       "en": "lift, elevator"
     },
     "beşiktaş": {
       "fa": "بشیکتاش (محله و تیمِ فوتبال)",
+      "ru": "Бешикташ (район и футбольный клуб)",
       "en": "Beşiktaş (a district and its football club)"
     },
     "ediyorum": {
       "fa": "می‌کنم (yardım ediyorum: کمک می‌کنم)",
+      "ru": "делаю (yardım ediyorum: помогаю)",
       "en": "I do (yardım ediyorum: I'm helping)"
     },
     "evden": {
       "fa": "از خانه",
+      "ru": "из дома",
       "en": "from home"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a district of Şişli)"
     },
     "kazanıyor": {
       "fa": "دارد می‌بَرَد",
+      "ru": "выигрывает",
       "en": "is winning"
     },
     "kimsin": {
       "fa": "کی هستی؟",
+      "ru": "кто ты?",
       "en": "who are you?"
     },
     "komşu": {
       "fa": "همسایه",
+      "ru": "сосед",
       "en": "neighbour"
     },
     "mecidiyeköy": {
       "fa": "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Меджидиекёй (район Шишли)",
       "en": "Mecidiyeköy (a district of Şişli)"
     },
     "çatı": {
       "fa": "پشت‌بام",
+      "ru": "крыша",
       "en": "roof"
+    },
+    "vay": {
+      "fa": "وای!",
+      "ru": "ого!",
+      "en": "wow!"
     }
   },
   "id": "s1e13",
@@ -202,7 +226,8 @@
       "q": {
         "tr": "Şoför kim?",
         "en": "Who is the taxi driver?",
-        "fa": "راننده‌ی تاکسی کیست؟"
+        "fa": "راننده‌ی تاکسی کیست؟",
+        "ru": "Кто таксист?"
       },
       "why": "Serkan: “Nereye gidiyoruz?”"
     },
@@ -217,7 +242,8 @@
       "q": {
         "tr": "Serkan: “Nereden geliyorsunuz?” Nima: “…”",
         "en": "Serkan asks “Nereden geliyorsunuz?” (Where are you coming from?) What does Nima answer?",
-        "fa": "سرکان می‌پرسد «Nereden geliyorsunuz?» (از کجا می‌آیید؟). نیما چه جواب می‌دهد؟"
+        "fa": "سرکان می‌پرسد «Nereden geliyorsunuz?» (از کجا می‌آیید؟). نیما چه جواب می‌دهد؟",
+        "ru": "Серкан спрашивает: «Nereden geliyorsunuz?» (Откуда вы едете?) Что отвечает Нима?"
       },
       "why": "Nima: “Mecidiyeköy'den!”"
     }
@@ -238,6 +264,7 @@
       "cam": "wide",
       "en": "Boxes, boxes, boxes! Nima's moving house today. Farzad's running, Nima's running…",
       "fa": "جعبه، جعبه، جعبه! امروز نیما داره اسباب‌کشی می‌کنه. فرزاد می‌دوه، نیما می‌دوه…",
+      "ru": "Коробки, коробки, коробки! Сегодня Нима переезжает. Фарзад бегает, Нима бегает…",
       "narr": true,
       "tr": "Kutular, kutular, kutular! Bugün Nima taşınıyor. Farzad koşuyor, Nima koşuyor…",
       "who": "kerim"
@@ -248,6 +275,7 @@
       "emo": "curious",
       "en": "Where does this box go?",
       "fa": "این جعبه کجا بره؟",
+      "ru": "Куда эту коробку?",
       "link": {
         "kutu": "obj:kutu"
       },
@@ -259,6 +287,7 @@
       "emo": "happy",
       "en": "Into the taxi!",
       "fa": "تو تاکسی!",
+      "ru": "В такси!",
       "to": "farzad",
       "tr": "Taksiye!",
       "who": "nima"
@@ -285,6 +314,7 @@
       "emo": "happy",
       "en": "Where are we going?",
       "fa": "کجا بریم؟",
+      "ru": "Куда едем?",
       "to": "nima",
       "tr": "Nereye gidiyoruz?",
       "who": "serkan"
@@ -297,6 +327,7 @@
           {
             "en": "To Feriköy, please.",
             "fa": "فری‌کؤی، لطفاً.",
+            "ru": "В Ферикёй, пожалуйста.",
             "ok": true,
             "react": {
               "serkan": {
@@ -310,6 +341,7 @@
                 "emo": "happy",
                 "en": "Right! What are you up to?",
                 "fa": "باشه! چی‌کار می‌کنین؟",
+                "ru": "Хорошо! А что вы делаете?",
                 "tr": "Tamam! Ne yapıyorsunuz?",
                 "who": "serkan"
               },
@@ -317,6 +349,7 @@
                 "emo": "happy",
                 "en": "We're moving house!",
                 "fa": "داریم اسباب‌کشی می‌کنیم!",
+                "ru": "Переезжаем!",
                 "tr": "Taşınıyoruz!",
                 "who": "farzad"
               }
@@ -327,6 +360,7 @@
           {
             "en": "From Mecidiyeköy.",
             "fa": "از مجیدیه‌کؤی.",
+            "ru": "Из Меджидиекёя.",
             "react": {
               "serkan": {
                 "emo": "laugh"
@@ -337,6 +371,7 @@
                 "emo": "laugh",
                 "en": "Not where from… where to?",
                 "fa": "از کجا نه… به کجا؟",
+                "ru": "Не «откуда»… а «куда»?",
                 "tr": "Nereden değil… nereye?",
                 "who": "serkan"
               },
@@ -344,6 +379,7 @@
                 "emo": "happy",
                 "en": "To Feriköy! We're moving house!",
                 "fa": "به فری‌کؤی! داریم اسباب‌کشی می‌کنیم!",
+                "ru": "В Ферикёй! Переезжаем!",
                 "tr": "Feriköy'e! Taşınıyoruz!",
                 "who": "farzad"
               }
@@ -354,6 +390,7 @@
           {
             "en": "In Feriköy.",
             "fa": "تو فری‌کؤی.",
+            "ru": "В Ферикёе.",
             "react": {
               "serkan": {
                 "emo": "confused"
@@ -364,6 +401,7 @@
                 "emo": "confused",
                 "en": "In Feriköy? We're in Mecidiyeköy! Where to?",
                 "fa": "تو فری‌کؤی؟ ما که تو مجیدیه‌کؤی‌ایم! کجا بریم؟",
+                "ru": "В Ферикёе? Мы сейчас в Меджидиекёе! Куда едем?",
                 "tr": "Feriköy'de mi? Biz Mecidiyeköy'deyiz! Nereye?",
                 "who": "serkan"
               },
@@ -371,6 +409,7 @@
                 "emo": "happy",
                 "en": "To Feriköy! We're moving house!",
                 "fa": "به فری‌کؤی! داریم اسباب‌کشی می‌کنیم!",
+                "ru": "В Ферикёй! Переезжаем!",
                 "tr": "Feriköy'e! Taşınıyoruz!",
                 "who": "farzad"
               }
@@ -386,6 +425,7 @@
       "emo": "curious",
       "en": "So… where are you coming from?",
       "fa": "خب… از کجا میاین؟",
+      "ru": "Так… а откуда вы едете?",
       "to": "nima",
       "tr": "Peki… nereden geliyorsunuz?",
       "who": "serkan"
@@ -393,6 +433,7 @@
     {
       "en": "From Mecidiyeköy!",
       "fa": "از مجیدیه‌کؤی!",
+      "ru": "Из Меджидиекёя!",
       "to": "serkan",
       "tr": "Mecidiyeköy'den!",
       "who": "nima",
@@ -413,8 +454,9 @@
     {
       "do": "cheer",
       "emo": "happy",
-      "en": "The match! Beşiktaş… are winning!",
-      "fa": "بازی! بشیکتاش… داره می‌بره!",
+      "en": "Wow! Beşiktaş are winning! Great match!",
+      "fa": "وای! بشیکتاش داره می‌بره! چه بازی‌ای!",
+      "ru": "Ого! «Бешикташ» выигрывает! Классный матч!",
       "link": {
         "maç": "obj:radio"
       },
@@ -423,7 +465,7 @@
         "nima": "laugh"
       },
       "to": "nima",
-      "tr": "Maç! Beşiktaş… kazanıyor!",
+      "tr": "Vay! Beşiktaş kazanıyor! Güzel maç!",
       "who": "serkan"
     },
     {
@@ -440,6 +482,7 @@
       "emo": "surprised",
       "en": "This street?! I live here too! Second floor… I'm Serkan!",
       "fa": "این کوچه؟! منم همین‌جا زندگی می‌کنم! طبقه‌ی دوم… من سرکانم!",
+      "ru": "Эта улица?! Я тоже здесь живу! Второй этаж… Я Серкан!",
       "react": {
         "farzad": "laugh",
         "nima": "surprised"
@@ -454,6 +497,7 @@
       "emo": "curious",
       "en": "Dad! …Who are you? What are you doing?",
       "fa": "بابا! …تو کی هستی؟ داری چی‌کار می‌کنی؟",
+      "ru": "Папа! …А ты кто? Что ты делаешь?",
       "move": [
         {
           "how": "enter",
@@ -476,6 +520,7 @@
       "emo": "happy",
       "en": "Hello! I'm Nima. I'm moving in! Fourth floor.",
       "fa": "سلام! من نیمام. دارم اسباب‌کشی می‌کنم! طبقه‌ی چهارم.",
+      "ru": "Привет! Я Нима. Я переезжаю! Четвёртый этаж.",
       "to": "omer",
       "tr": "Merhaba! Ben Nima. Taşınıyorum! Dördüncü kat.",
       "who": "nima",
@@ -518,6 +563,7 @@
       "emo": "proud",
       "en": "Fourth floor? There's no lift! But I'm helping too!",
       "fa": "طبقه‌ی چهارم؟ آسانسور نداره! ولی منم کمک می‌کنم!",
+      "ru": "Четвёртый этаж? Лифта нет! Но я тоже помогаю!",
       "link": {
         "asansör": "obj:asansor_yok"
       },
@@ -535,6 +581,7 @@
       "emo": "happy",
       "en": "Thank you, Serkan Bey!",
       "fa": "ممنونم، آقای سرکان!",
+      "ru": "Спасибо, господин Серкан!",
       "move": {
         "how": "walk",
         "to": "landing_1",
@@ -549,9 +596,11 @@
       "emo": "laugh",
       "en": "Not Serkan Bey… just Serkan! Welcome, neighbour! Call me “sen”!",
       "fa": "آقای سرکان نه… سرکان! خوش اومدی، همسایه! به من «تو» بگو!",
+      "ru": "Не «господин Серкан»… просто Серкан! Добро пожаловать к нам! Давай на «ты»!",
       "note": {
         "en": "Serkan switches on purpose: from here on, Nima and Serkan say “sen” to each other.",
-        "fa": "سرکان عمداً «sen» (تو) را پیشنهاد می‌کند: از این‌جا به بعد نیما و سرکان به هم «sen» می‌گویند."
+        "fa": "سرکان عمداً «sen» (تو) را پیشنهاد می‌کند: از این‌جا به بعد نیما و سرکان به هم «sen» می‌گویند.",
+        "ru": "Серкан нарочно переходит на «sen»: дальше Нима и Серкан говорят друг другу «ты»."
       },
       "react": {
         "nima": "happy"
@@ -565,6 +614,7 @@
         "en": "-(y)A means “to”: Feriköy'e, taksiye. After a vowel a y comes in: taksi → taksiye. Its partner -DAn means “from”: Mecidiyeköy'den. Nereye? To where? Nereden? From where? Today Nima goes Mecidiyeköy'den Feriköy'e.",
         "ex": "Taksiye!",
         "fa": "‏-(y)A یعنی «به»: Feriköy'e، taksiye. بعد از حرفِ صدادار یک y اضافه می‌شود: taksi ← taksiye. جفتش ‎-DAn یعنی «از»: Mecidiyeköy'den. Nereye? به کجا؟ Nereden? از کجا؟ فارسی «به» و «از» را قبل از اسم می‌گذارد؛ ترکی آخرِ اسم. امروز نیما Mecidiyeköy'den Feriköy'e می‌رود: از مجیدیه‌کؤی به فری‌کؤی.",
+        "ru": "-(y)A значит «в, к» (куда?): Feriköy'e, taksiye. После гласной появляется y: taksi → taksiye. Его пара -DAn значит «из, от» (откуда?): Mecidiyeköy'den. Nereye? Куда? Nereden? Откуда? В русском предлог стоит перед словом, а в турецком окончание стоит в конце. Сегодня Нима едет Mecidiyeköy'den Feriköy'e: из Меджидиекёя в Ферикёй.",
         "lesson": "g_a1_3_yonelme",
         "show": "case_path"
       }
@@ -584,6 +634,7 @@
       "emo": "happy",
       "en": "Bye!",
       "fa": "خداحافظ!",
+      "ru": "Пока!",
       "move": {
         "how": "walk",
         "to": "walk_l",
@@ -608,6 +659,7 @@
       "emo": "moved",
       "en": "Bye-bye! Thank you so much!",
       "fa": "به سلامت! خیلی ممنون!",
+      "ru": "Счастливо! Огромное спасибо!",
       "to": "farzad",
       "tr": "Güle güle! Çok teşekkür ederim!",
       "who": "nima"
@@ -616,6 +668,7 @@
       "cam": "wide",
       "en": "Nima… in Feriköy. And on the roof… Kerim.",
       "fa": "نیما… تو فری‌کؤی. و روی پشت‌بوم… کریم.",
+      "ru": "Нима… в Ферикёе. А на крыше… Керим.",
       "narr": true,
       "tr": "Nima… Feriköy'de. Ve çatıda… Kerim.",
       "who": "kerim"
@@ -623,12 +676,14 @@
   ],
   "summary": {
     "en": "Moving day: Nima and Farzad take the boxes to Feriköy by taxi. The driver, Serkan, a Beşiktaş fan, turns out to live in the same building, with his son Ömer.",
-    "fa": "روزِ اسباب‌کشی: نیما و فرزاد جعبه‌ها را با تاکسی به فری‌کؤی می‌برند. راننده، سرکان، طرفدارِ بشیکتاش است و معلوم می‌شود با پسرش عمر در همان ساختمان زندگی می‌کند."
+    "fa": "روزِ اسباب‌کشی: نیما و فرزاد جعبه‌ها را با تاکسی به فری‌کؤی می‌برند. راننده، سرکان، طرفدارِ بشیکتاش است و معلوم می‌شود با پسرش عمر در همان ساختمان زندگی می‌کند.",
+    "ru": "День переезда: Нима и Фарзад везут коробки в Ферикёй на такси. Водитель Серкан, болельщик «Бешикташа», оказывается, живёт в том же доме вместе с сыном Омером."
   },
   "title": {
     "tr": "Feriköy'e!",
     "en": "To Feriköy!",
-    "fa": "به فری‌کؤی!"
+    "fa": "به فری‌کؤی!",
+    "ru": "В Ферикёй!"
   },
   "words": [
     "seed-w24",

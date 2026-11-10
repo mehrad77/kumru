@@ -1,0 +1,135 @@
+{
+ "story": "s1e24",
+ "lines": {
+  "alex": {
+   "Bir dakika… düşünüyorum.": {
+    "f": "27403137bb5310.m4a",
+    "ms": 1932,
+    "sig": "e318a9356eec7f"
+   },
+   "Çok… yorgunum! Ama… buradayız.": {
+    "f": "9e4dae7bee480b.m4a",
+    "ms": 2001,
+    "sig": "0b352bdbdd5562"
+   }
+  },
+  "zafer": {
+   "Bugün bir yarışma var! Nima, Dilnoza ve Yusuf bir takım. Parvane ve Alex… ama Parvane iki kişi!": {
+    "f": "f4b3870f3898ef.m4a",
+    "ms": 6813,
+    "sig": "478f6afcb227e5"
+   },
+   "Hediye! Herkese bir sözlük ve lokum. Hepiniz birincisiniz… beraber!": {
+    "f": "bd69719534e8d5.m4a",
+    "ms": 6723,
+    "sig": "d3f791aabf7536"
+   }
+  },
+  "parvaneh": {
+   "Düşünme, Alex! Hadi, gel!": {
+    "f": "23fa1946844622.m4a",
+    "ms": 3199,
+    "sig": "799678b5eb6428"
+   },
+   "Teşekkürler, Nima! Geliyoruz!": {
+    "f": "73c49128eeea6b.m4a",
+    "ms": 3319,
+    "sig": "4726392e63de42"
+   },
+   "Nima! Neredesiniz? Biz… neredeyiz?!": {
+    "f": "63b1342559a626.m4a",
+    "ms": 3307,
+    "sig": "a701293ae8118e"
+   },
+   "Ne?! Bu bir yarışma, Nima!": {
+    "f": "76dc5ad068aff7.m4a",
+    "ms": 3197,
+    "sig": "0125e56569e918"
+   }
+  },
+  "dilnoza": {
+   "Kırmızı kitap… burada! Kitapta bir mesaj var!": {
+    "f": "bd09ad4d55991c.m4a",
+    "ms": 3937,
+    "sig": "92e22466bb36bb"
+   },
+   "Affedersiniz…": {
+    "f": "1dfb5af965ea4f.m4a",
+    "ms": 2576,
+    "sig": "56dc5d96314f99"
+   },
+   "Orada! Teşekkür ederiz!": {
+    "f": "ede2830123a7f8.m4a",
+    "ms": 1737,
+    "sig": "1efaed2e8e6e73"
+   },
+   "Affedersiniz… durak nerede?": {
+    "f": "67e2170664d405.m4a",
+    "ms": 3908,
+    "sig": "0d58a314986c64"
+   },
+   "Peçetede “DURAK” yazıyor!": {
+    "f": "f00072cc32972e.m4a",
+    "ms": 3141,
+    "sig": "67a71f98700cb4"
+   }
+  },
+  "yusuf": {
+   "Kafe… İstiklal'de! Gidiyoruz!": {
+    "f": "11b6b75bbda073.m4a",
+    "ms": 3150,
+    "sig": "03f6df8f1aa13c"
+   },
+   "Durak nerede? …Nima, sen sor!": {
+    "f": "891a3baa24838d.m4a",
+    "ms": 2326,
+    "sig": "c8c30b9416f933"
+   },
+   "Orada mı? Teşekkürler!": {
+    "f": "968b62f331ccbf.m4a",
+    "ms": 3989,
+    "sig": "a84c7d3a104969"
+   },
+   "Şu kuş… bizi takip ediyor mu?": {
+    "f": "3ef0c67952439f.m4a",
+    "ms": 1757,
+    "sig": "ba20a9dbad0021"
+   },
+   "Durakta mavi bir kutu var!": {
+    "f": "f692ea884bfb59.m4a",
+    "ms": 3228,
+    "sig": "346d6b2caa9407"
+   },
+   "Koşuyoruz!": {
+    "f": "0ff399f224ce76.m4a",
+    "ms": 705,
+    "sig": "ad83444adc9d20"
+   }
+  },
+  "kerim": {
+   "Bugün cumartesi… ama okul var! Hazine avı!": {
+    "f": "1401819b2c3db6.m4a",
+    "ms": 3681,
+    "sig": "eceea980d06c25"
+   },
+   "Ben? Hayır… ku-kuu.": {
+    "f": "02b502266af2d4.m4a",
+    "ms": 1425,
+    "sig": "4856baee331ee2"
+   },
+   "Ve birinci… Kerim! Ku-kuu!": {
+    "f": "f7b4d63b870e7d.m4a",
+    "ms": 2610,
+    "sig": "6203c799f3c3a7"
+   },
+   "Nima düşünüyor… düşünüyor…": {
+    "f": "efc66577daa15c.m4a",
+    "ms": 2828,
+    "sig": "bfa2e3f002c2ba"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

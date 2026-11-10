@@ -2,6 +2,7 @@
   "arc": {
     "en": "Welcome!",
     "fa": "خوش آمدی!",
+    "ru": "Добро пожаловать!",
     "id": "s1w01",
     "mechanics": [
       "say",
@@ -19,6 +20,7 @@
     {
       "en": "What's this?",
       "fa": "این چیه؟",
+      "ru": "Что это?",
       "to": "nima",
       "tr": "Bu ne?",
       "who": "kirlangic"
@@ -26,6 +28,7 @@
     {
       "en": "It's a book.",
       "fa": "این یه کتابه.",
+      "ru": "Это книга.",
       "to": "kirlangic",
       "tr": "Bu bir kitap.",
       "who": "nima"
@@ -33,6 +36,7 @@
     {
       "en": "And what are these?",
       "fa": "اینا چیه؟",
+      "ru": "А это что?",
       "to": "nima",
       "tr": "Bunlar ne?",
       "who": "kirlangic"
@@ -45,6 +49,7 @@
           {
             "en": "Balls.",
             "fa": "توپ‌ها.",
+            "ru": "Мячи.",
             "ok": true,
             "react": {
               "kirlangic": "happy"
@@ -53,6 +58,7 @@
               {
                 "en": "Yes! Very good!",
                 "fa": "آره! خیلی خوبه!",
+                "ru": "Да! Очень хорошо!",
                 "to": "nima",
                 "tr": "Evet! Çok güzel!",
                 "who": "kirlangic"
@@ -64,6 +70,7 @@
           {
             "en": "Ball.",
             "fa": "توپ.",
+            "ru": "Мяч.",
             "react": {
               "kirlangic": "curious"
             },
@@ -71,6 +78,7 @@
               {
                 "en": "One, two… balls!",
                 "fa": "یک، دو… توپ‌ها!",
+                "ru": "Раз, два… мячи!",
                 "to": "nima",
                 "tr": "Bir, iki… toplar!",
                 "who": "kirlangic"
@@ -82,6 +90,7 @@
           {
             "en": "Balls. (with -ler)",
             "fa": "توپ‌ها. (با -ler)",
+            "ru": "Мячи. (с -ler)",
             "react": {
               "kirlangic": "laugh"
             },
@@ -89,6 +98,7 @@
               {
                 "en": "No… toplar!",
                 "fa": "نه… toplar!",
+                "ru": "Нет… toplar!",
                 "to": "nima",
                 "tr": "Hayır… toplar!",
                 "who": "kirlangic"
@@ -105,50 +115,62 @@
   "gl": {
     "ellerine": {
       "fa": "(در «ellerine sağlık») دستت درد نکنه، به آشپز",
+      "ru": "(в «ellerine sağlık») здоровья твоим рукам: говорят тому, кто готовил",
       "en": "(in “ellerine sağlık”) bless your hands: said to the cook"
     },
     "elmalar": {
       "fa": "سیب‌ها",
+      "ru": "яблоки",
       "en": "apples"
     },
     "hafız": {
       "fa": "حافظ (شاعر)",
+      "ru": "Хафиз (поэт)",
       "en": "Hafez (the poet)"
     },
     "hoca": {
       "fa": "استاد، معلم",
+      "ru": "учитель (Zafer Hoca: учитель Зафер)",
       "en": "teacher (Zafer Hoca: the teacher, Zafer)"
     },
     "kalın": {
       "fa": "(در «hoşça kalın») خداحافظ، به چند نفر",
+      "ru": "(в «hoşça kalın») пока — нескольким людям",
       "en": "(in “hoşça kalın”) bye, to more than one person"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means “swallow”)"
     },
     "narlar": {
       "fa": "انارها",
+      "ru": "гранаты",
       "en": "pomegranates"
     },
     "parvane": {
       "fa": "پروانه (اسم)",
+      "ru": "Парване (имя)",
       "en": "Parvaneh (a name)"
     },
     "safran": {
       "fa": "زعفران",
+      "ru": "шафран",
       "en": "saffron"
     },
     "topler": {
       "fa": "اشتباه؛ درستش: toplar",
+      "ru": "ошибка; правильно — toplar",
       "en": "a slip; the right form is toplar"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя; слово значит «победа»)",
       "en": "Zafer (a name; the word means “victory”)"
     },
     "buyur": {
       "fa": "بفرما (به دوست)",
+      "ru": "держи, пожалуйста (другу)",
       "en": "here you go (to a friend)"
     }
   },
@@ -318,7 +340,8 @@
       "q": {
         "tr": "Bu akşam yemek ne?",
         "en": "What's for dinner tonight?",
-        "fa": "امشب شام چیست؟"
+        "fa": "امشب شام چیست؟",
+        "ru": "Что сегодня на ужин?"
       },
       "why": "Farzad: “Bu pilav! Tavuk, salata… afiyet olsun!”"
     },
@@ -333,7 +356,8 @@
       "q": {
         "tr": "Kırlangıç: “Bir kutu! Bunlar ne?”",
         "en": "A box of red fruit from home. Kırlangıç: “A box! What are these?”",
-        "fa": "یک جعبه میوه‌ی قرمز. پرستو: «یه جعبه! اینا چیه؟»"
+        "fa": "یک جعبه میوه‌ی قرمز. پرستو: «یه جعبه! اینا چیه؟»",
+        "ru": "Коробка красных фруктов из дома. Кырлангыч: «Коробка! Что это?»"
       },
       "why": "Nima: “Narlar!”"
     }
@@ -355,6 +379,7 @@
       "cam": "wide",
       "en": "Good evening! This home… Farzad and Nima. Tonight: dinner!",
       "fa": "عصر بخیر! این خونه… فرزاد و نیما. امشب: شام!",
+      "ru": "Добрый вечер! Здесь живут Фарзад и Нима. Сегодня вечером — ужин!",
       "narr": true,
       "tr": "İyi akşamlar! Bu ev… Farzad ve Nima. Bu akşam: yemek!",
       "who": "kerim"
@@ -363,6 +388,7 @@
       "emo": "happy",
       "en": "Good evening!",
       "fa": "عصر بخیر!",
+      "ru": "Добрый вечер!",
       "move": [
         {
           "from": "door",
@@ -399,14 +425,16 @@
       "emo": "happy",
       "en": "Welcome, both of you!",
       "fa": "خوش اومدید!",
+      "ru": "Добро пожаловать!",
       "to": "kirlangic",
       "tr": "Hoş geldiniz!",
       "who": "farzad"
     },
     {
       "emo": "happy",
-      "en": "Glad to be here! Nima… flowers!",
-      "fa": "ممنون، خوشحالیم که اومدیم! نیما… گل!",
+      "en": "Glad to be here! Nima, here you go… flowers!",
+      "fa": "ممنون، خوشحالیم که اومدیم! نیما، بفرما… گل!",
+      "ru": "Спасибо! Нима, держи… цветы!",
       "link": {
         "çiçekler": "obj:cicekler"
       },
@@ -418,7 +446,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Hoş bulduk! Nima… çiçekler!",
+      "tr": "Hoş bulduk! Nima, buyur… çiçekler!",
       "who": "kirlangic"
     },
     {
@@ -426,6 +454,7 @@
       "emo": "moved",
       "en": "Thank you!",
       "fa": "ممنون!",
+      "ru": "Спасибо!",
       "to": "kirlangic",
       "tr": "Teşekkür ederim!",
       "who": "nima"
@@ -453,6 +482,7 @@
       "emo": "curious",
       "en": "What's this?",
       "fa": "این چیه؟",
+      "ru": "Что это?",
       "to": "nima",
       "tr": "Bu ne?",
       "who": "rayan"
@@ -461,19 +491,21 @@
       "at": "obj:bavul",
       "do": "point",
       "emo": "happy",
-      "en": "This is a suitcase.",
-      "fa": "این یه چمدونه.",
+      "en": "A suitcase!",
+      "fa": "چمدون!",
+      "ru": "Чемодан!",
       "link": {
         "bavul": "obj:bavul"
       },
       "to": "rayan",
-      "tr": "Bu bir bavul.",
+      "tr": "Bavul!",
       "who": "nima"
     },
     {
       "emo": "laugh",
       "en": "Suitcases! So many suitcases!",
       "fa": "چمدون‌ها! چقدر چمدون!",
+      "ru": "Чемоданы! Сколько чемоданов!",
       "link": {
         "bavul": "obj:bavul",
         "bavullar": "obj:bavul"
@@ -538,6 +570,7 @@
       "emo": "curious",
       "en": "A box! What are these?",
       "fa": "یه جعبه! اینا چیه؟",
+      "ru": "Коробка! Что это?",
       "link": {
         "kutu": "obj:nar_kutusu"
       },
@@ -561,6 +594,7 @@
             "emo": "proud",
             "en": "Pomegranates!",
             "fa": "انارها!",
+            "ru": "Гранаты!",
             "link": {
               "narlar": "obj:nar_kutusu"
             },
@@ -575,6 +609,7 @@
                 "emo": "happy",
                 "en": "Pomegranates! Lovely!",
                 "fa": "انار! چه خوشگل!",
+                "ru": "Гранаты! Чудесно!",
                 "link": {
                   "narlar": "obj:nar_kutusu"
                 },
@@ -590,6 +625,7 @@
             "emo": "happy",
             "en": "Pomegranate! (singular)",
             "fa": "انار! (مفرد)",
+            "ru": "Гранат! (один)",
             "link": {
               "nar": "obj:nar_kutusu"
             },
@@ -609,6 +645,7 @@
                 "emo": "laugh",
                 "en": "One, two, three… yes: pomegranates!",
                 "fa": "یک، دو، سه… آره: انارها!",
+                "ru": "Раз, два, три… да: гранаты!",
                 "n": 3,
                 "to": "nima",
                 "tr": "Bir, iki, üç… evet: narlar!",
@@ -622,6 +659,7 @@
             "emo": "happy",
             "en": "Apples!",
             "fa": "سیب‌ها!",
+            "ru": "Яблоки!",
             "react": {
               "kirlangic": {
                 "emo": "surprised"
@@ -633,6 +671,7 @@
                 "emo": "laugh",
                 "en": "Apples? No… pomegranates!",
                 "fa": "سیب؟ نه… انار!",
+                "ru": "Яблоки? Нет… гранаты!",
                 "link": {
                   "nar": "obj:nar_kutusu"
                 },
@@ -654,6 +693,7 @@
       "emo": "happy",
       "en": "Farzad, here you go! A book.",
       "fa": "فرزاد، بفرما! یه کتاب.",
+      "ru": "Фарзад, держи! Книга.",
       "link": {
         "kitap": "obj:hafiz"
       },
@@ -676,13 +716,14 @@
       "at": "obj:hafiz",
       "do": "hold_up",
       "emo": "happy",
-      "en": "Hafez! How beautiful!",
-      "fa": "حافظ! چه قشنگ!",
+      "en": "Hafez! It's beautiful, thank you!",
+      "fa": "حافظ! چه قشنگ، مرسی!",
+      "ru": "Хафиз! Какая красота, спасибо!",
       "link": {
         "hafız": "obj:hafiz"
       },
       "to": "nima",
-      "tr": "Hafız! Çok güzel!",
+      "tr": "Hafız! Çok güzel, teşekkür ederim!",
       "who": "farzad"
     },
     {
@@ -691,6 +732,7 @@
       "emo": "happy",
       "en": "Kırlangıç, and this is saffron!",
       "fa": "پرستو، اینم زعفرونه!",
+      "ru": "Кырлангыч, а это — шафран!",
       "link": {
         "safran": "obj:safran"
       },
@@ -716,6 +758,7 @@
       "emo": "happy",
       "en": "Saffron! Thank you!",
       "fa": "زعفرون! ممنون!",
+      "ru": "Шафран! Спасибо!",
       "link": {
         "safran": "obj:safran"
       },
@@ -740,6 +783,7 @@
       "emo": "happy",
       "en": "Rayan, what's this?",
       "fa": "رایان، این چیه؟",
+      "ru": "Райан, что это?",
       "to": "rayan",
       "tr": "Rayan, bu ne?",
       "who": "nima"
@@ -748,6 +792,7 @@
       "emo": "happy",
       "en": "Ball! A red ball!",
       "fa": "توپ! توپِ قرمز!",
+      "ru": "Мяч! Красный мяч!",
       "link": {
         "top": "obj:top"
       },
@@ -766,6 +811,7 @@
         "en": "Tonight's plurals: nar → narlar, kitap → kitaplar, top → toplar (last vowel a, ı, o or u: -lar), and çiçek → çiçekler (last vowel e, i, ö or ü: -ler). One suitcase is bavul; Nima's five are bavullar!",
         "ex": "çiçekler",
         "fa": "جمع‌های امشب: nar ← narlar، kitap ← kitaplar، top ← toplar (آخرین حرفِ صدادار a یا ı یا o یا u: -lar)، و çiçek ← çiçekler (آخرین حرفِ صدادار e یا i یا ö یا ü: -ler). یک چمدان bavul است؛ پنج چمدانِ نیما bavullar!",
+        "ru": "Множественное число за ужином: nar → narlar, kitap → kitaplar, top → toplar (последняя гласная a, ı, o или u: -lar), и çiçek → çiçekler (последняя гласная e, i, ö или ü: -ler). Один чемодан — bavul; пять чемоданов Нимы — bavullar!",
         "lesson": "g_a1_1_cogul"
       }
     },
@@ -775,6 +821,7 @@
       "emo": "proud",
       "en": "This is pilaf! Chicken, salad… enjoy your meal!",
       "fa": "این پلوئه! مرغ، سالاد… نوش جون!",
+      "ru": "Это плов! Курица, салат… приятного аппетита!",
       "link": {
         "pilav": "obj:pilav",
         "salata": "obj:salata",
@@ -804,6 +851,7 @@
       "emo": "happy",
       "en": "Pilaf!",
       "fa": "پلو!",
+      "ru": "Плов!",
       "link": {
         "pilav": "obj:pilav"
       },
@@ -815,6 +863,7 @@
       "emo": "happy",
       "en": "Enjoy your meal!",
       "fa": "نوش جون!",
+      "ru": "Приятного аппетита!",
       "to": "all",
       "tr": "Afiyet olsun!",
       "who": "nima"
@@ -823,6 +872,7 @@
       "emo": "curious",
       "en": "Nima, how's school?",
       "fa": "نیما، کلاس چطوره؟",
+      "ru": "Нима, как в школе?",
       "to": "nima",
       "tr": "Nima, okul nasıl?",
       "who": "kirlangic"
@@ -831,6 +881,7 @@
       "emo": "happy",
       "en": "Zafer Hoca… he's very good!",
       "fa": "استاد ظفر… خیلی خوبه!",
+      "ru": "Зафер… он очень хороший!",
       "to": "kirlangic",
       "tr": "Zafer Hoca… çok iyi!",
       "who": "nima"
@@ -839,6 +890,7 @@
       "emo": "curious",
       "en": "And your friends?",
       "fa": "دوستات چی؟",
+      "ru": "А друзья?",
       "to": "nima",
       "tr": "Ya arkadaşlar?",
       "who": "kirlangic"
@@ -847,6 +899,7 @@
       "emo": "happy",
       "en": "Parvaneh, Dilnoza… really good friends!",
       "fa": "پروانه، دلنوزا… دوستای خیلی خوبی‌ان!",
+      "ru": "Парване, Дилноза… очень хорошие подруги!",
       "to": "kirlangic",
       "tr": "Parvane, Dilnoza… çok iyi arkadaşlar!",
       "who": "nima"
@@ -883,6 +936,7 @@
       "emo": "curious",
       "en": "How was the food?",
       "fa": "غذا چطور بود؟",
+      "ru": "Ну как еда?",
       "to": "nima",
       "tr": "Yemek nasıl?",
       "who": "farzad"
@@ -897,6 +951,7 @@
             "emo": "happy",
             "en": "Bless your hands! (said to the cook)",
             "fa": "دستت درد نکنه!",
+            "ru": "Спасибо, очень вкусно! (повару)",
             "ok": true,
             "react": {
               "farzad": {
@@ -909,6 +964,7 @@
                 "emo": "happy",
                 "en": "Enjoy! (the cook's answer)",
                 "fa": "نوش جون!",
+                "ru": "На здоровье!",
                 "to": "nima",
                 "tr": "Afiyet olsun!",
                 "who": "farzad"
@@ -921,6 +977,7 @@
             "emo": "happy",
             "en": "Enjoy your meal!",
             "fa": "نوش جون!",
+            "ru": "Приятного аппетита!",
             "react": {
               "farzad": {
                 "emo": "laugh"
@@ -935,6 +992,7 @@
                 "emo": "laugh",
                 "en": "No! You say: ellerine sağlık. Farzad says: afiyet olsun.",
                 "fa": "نه! تو می‌گی «ellerine sağlık»، فرزاد می‌گه «afiyet olsun».",
+                "ru": "Нет! Ты говоришь: ellerine sağlık. Фарзад: afiyet olsun.",
                 "to": "nima",
                 "tr": "Hayır! Sen: ellerine sağlık. Farzad: afiyet olsun.",
                 "who": "kirlangic"
@@ -947,6 +1005,7 @@
             "emo": "happy",
             "en": "Thanks, it was lovely!",
             "fa": "مرسی، خیلی خوب بود!",
+            "ru": "Спасибо, было чудесно!",
             "react": {
               "farzad": {
                 "emo": "happy"
@@ -958,6 +1017,7 @@
                 "tr": "Evet! Ellerine sağlık, Farzad!",
                 "en": "Yes! Bless your hands, Farzad!",
                 "fa": "آره! دستت درد نکنه، فرزاد!",
+                "ru": "Да! Спасибо, очень вкусно, Фарзад!",
                 "to": "farzad",
                 "emo": "happy",
                 "do": "hand_heart"
@@ -967,6 +1027,7 @@
                 "tr": "Afiyet olsun!",
                 "en": "Enjoy! (the cook's answer)",
                 "fa": "نوش جون!",
+                "ru": "На здоровье!",
                 "to": "all",
                 "emo": "happy"
               }
@@ -982,6 +1043,7 @@
       "emo": "happy",
       "en": "Tea! Four glasses.",
       "fa": "چای! چهار تا استکان.",
+      "ru": "Чай! Четыре стакана.",
       "link": {
         "bardak": "obj:bardaklar",
         "çay": "obj:bardaklar"
@@ -1004,6 +1066,7 @@
       "tr": "Bir, iki, üç, dört!",
       "en": "One, two, three, four!",
       "fa": "یک، دو، سه، چهار!",
+      "ru": "Раз, два, три, четыре!",
       "to": "farzad",
       "emo": "happy",
       "do": "count",
@@ -1027,6 +1090,7 @@
       "emo": "happy",
       "en": "Bye, both of you!",
       "fa": "خداحافظ!",
+      "ru": "Всем пока!",
       "to": "all",
       "tr": "Hoşça kalın!",
       "who": "kirlangic"
@@ -1036,6 +1100,7 @@
       "emo": "happy",
       "en": "Bye! Take care!",
       "fa": "به سلامت!",
+      "ru": "Счастливо!",
       "to": "kirlangic",
       "tr": "Güle güle!",
       "who": "nima"
@@ -1045,6 +1110,7 @@
       "en": "One week. A new home… new friends.",
       "env": "time:night:5000",
       "fa": "یه هفته. یه خونه‌ی تازه… دوستای تازه.",
+      "ru": "Одна неделя. Новый дом… новые друзья.",
       "move": [
         {
           "how": "exit",
@@ -1064,12 +1130,14 @@
   ],
   "summary": {
     "en": "Nima's first week ends with a small dinner at Farzad's. Kırlangıç and Rayan bring flowers, Nima hands out the gifts from home at last, and Farzad serves pilav and chicken.",
-    "fa": "هفته‌ی اولِ نیما با یک شامِ کوچک در خانه‌ی فرزاد تمام می‌شود. پرستو و رایان گل می‌آورند، نیما بالاخره سوغاتی‌ها را می‌دهد و فرزاد پلو و مرغ می‌کشد."
+    "fa": "هفته‌ی اولِ نیما با یک شامِ کوچک در خانه‌ی فرزاد تمام می‌شود. پرستو و رایان گل می‌آورند، نیما بالاخره سوغاتی‌ها را می‌دهد و فرزاد پلو و مرغ می‌کشد.",
+    "ru": "Первая неделя Нимы заканчивается небольшим ужином у Фарзада. Кырлангыч и Райан приносят цветы, Нима наконец раздаёт подарки из дома, а Фарзад подаёт плов и курицу."
   },
   "title": {
     "tr": "Hoş geldin yemeği",
     "en": "The welcome dinner",
-    "fa": "شامِ خوش‌آمدگویی"
+    "fa": "شامِ خوش‌آمدگویی",
+    "ru": "Приветственный ужин"
   },
   "words": [
     "a1-w-nar",

@@ -2,6 +2,7 @@
   "arc": {
     "en": "Where's home?",
     "fa": "خانه کجاست؟",
+    "ru": "Где дом?",
     "id": "s1w02",
     "mechanics": [
       "say",
@@ -19,6 +20,7 @@
     {
       "en": "This is a bedroom. It's small, but clean!",
       "fa": "این‌جا اتاقه. کوچیکه، ولی تمیزه!",
+      "ru": "Это спальня. Маленькая, но чистая!",
       "to": "nima",
       "tr": "Burası oda. Küçük, ama temiz!",
       "who": "tolga"
@@ -31,6 +33,7 @@
           {
             "en": "What's in here?",
             "fa": "این‌جا چی هست؟",
+            "ru": "Что здесь есть?",
             "ok": true,
             "react": {
               "tolga": {
@@ -40,9 +43,10 @@
             },
             "reply": [
               {
-                "en": "There's a window here. No wardrobe.",
-                "fa": "این‌جا پنجره هست. کمد نیست.",
-                "tr": "Burada pencere var. Dolap yok.",
+                "en": "There's a window. No wardrobe.",
+                "fa": "پنجره هست. کمد نیست.",
+                "ru": "Есть окно. Шкафа нет.",
+                "tr": "Pencere var. Dolap yok.",
                 "who": "tolga"
               }
             ],
@@ -52,6 +56,7 @@
           {
             "en": "What's there… this place?",
             "fa": "این‌جا… چی هست؟",
+            "ru": "Это место… что есть?",
             "react": {
               "tolga": "confused"
             },
@@ -59,6 +64,7 @@
               {
                 "en": "Burada: “in here”! What's in here? There's a window.",
                 "fa": "«burada»، یعنی «توی این‌جا»! این‌جا چی هست؟ پنجره هست.",
+                "ru": "Burada: «здесь»! Что здесь есть? Есть окно.",
                 "tr": "Burada! Burada ne var? Pencere var.",
                 "who": "tolga"
               }
@@ -73,6 +79,7 @@
     {
       "en": "Is there a table?",
       "fa": "میز هست؟",
+      "ru": "Стол есть?",
       "to": "tolga",
       "tr": "Masa var mı?",
       "who": "nima"
@@ -80,6 +87,7 @@
     {
       "en": "No table… but there's a window!",
       "fa": "میز نیست… ولی پنجره هست!",
+      "ru": "Стола нет… зато есть окно!",
       "to": "nima",
       "tr": "Masa yok… ama pencere var!",
       "who": "tolga"
@@ -88,47 +96,63 @@
   "gl": {
     "asansör": {
       "fa": "آسانسور",
+      "ru": "лифт",
       "en": "lift, elevator"
     },
     "beşinci": {
       "fa": "پنجم",
+      "ru": "пятый",
       "en": "fifth"
     },
     "buzdolabı": {
       "fa": "یخچال",
+      "ru": "холодильник",
       "en": "fridge"
     },
     "de": {
       "fa": "بگو («evet de»: بگو بله)",
+      "ru": "скажи («evet de»: скажи «да»)",
       "en": "say (“evet de”: say yes)"
     },
     "depozito": {
       "fa": "ودیعه، پیش‌پرداخت",
+      "ru": "залог",
       "en": "deposit"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a neighbourhood of Şişli)"
     },
     "feriköy'de": {
       "fa": "در فری‌کؤی",
+      "ru": "в Ферикёе",
       "en": "in Feriköy"
     },
     "mutfakta": {
       "fa": "در آشپزخانه",
+      "ru": "на кухне",
       "en": "in the kitchen"
     },
     "salonda": {
       "fa": "در پذیرایی",
+      "ru": "в гостиной",
       "en": "in the living room"
     },
     "çatıda": {
       "fa": "روی پشت‌بام",
+      "ru": "на крыше",
       "en": "on the roof"
     },
     "üçüncü": {
       "fa": "سوم",
+      "ru": "третий",
       "en": "third"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "ru": "ой! (удивление)",
+      "en": "oh! (surprise)"
     }
   },
   "id": "s1e09",
@@ -152,7 +176,8 @@
       "q": {
         "tr": "Tolga Bey: “Pahalı değil! Feriköy'de …!”",
         "en": "Tolga Bey: “That's not expensive! For Feriköy, that's …!”",
-        "fa": "آقای تولگا: «گران نیست! برای فری‌کؤی … است!»"
+        "fa": "آقای تولگا: «گران نیست! برای فری‌کؤی … است!»",
+        "ru": "Господин Толга: «Это не дорого! Для Ферикёя это …!»"
       },
       "why": "Tolga Bey: “Pahalı değil! Feriköy'de ucuz!”"
     },
@@ -167,9 +192,10 @@
       "q": {
         "tr": "Pencerede ne var?",
         "en": "What is at the window?",
-        "fa": "پشتِ پنجره چه چیزی هست؟"
+        "fa": "پشتِ پنجره چه چیزی هست؟",
+        "ru": "Что у окна?"
       },
-      "why": "Nima: “Bu ne? Bir kuş!”"
+      "why": "Nima: “Aa! Bir kuş!”"
     }
   ],
   "ref": "A1_2",
@@ -189,6 +215,7 @@
       "cam": "wide",
       "en": "Good evening! This is Feriköy. This building is old. Who's on the roof? Kerim is!",
       "fa": "عصر بخیر! این‌جا فری‌کؤیه. این ساختمون قدیمیه. روی پشت‌بوم کی هست؟ کریم!",
+      "ru": "Добрый вечер! Это Ферикёй. Этот дом старый. Кто на крыше? Керим!",
       "narr": true,
       "tr": "İyi akşamlar! Burası Feriköy. Bu bina eski. Çatıda kim var? Kerim var!",
       "who": "kerim"
@@ -198,6 +225,7 @@
       "emo": "happy",
       "en": "Good evening! Welcome!",
       "fa": "عصر بخیر! خوش اومدید!",
+      "ru": "Добрый вечер! Добро пожаловать!",
       "move": {
         "how": "walk",
         "to": "kerb",
@@ -211,6 +239,7 @@
       "emo": "happy",
       "en": "Glad to be here!",
       "fa": "ممنون، خوشحالم که اومدم!",
+      "ru": "Спасибо!",
       "to": "tolga",
       "tr": "Hoş bulduk.",
       "who": "nima"
@@ -229,6 +258,7 @@
       "emo": "happy",
       "en": "First… second… third… fourth floor! There's no lift, but… there are stairs!",
       "fa": "اول… دوم… سوم… طبقه‌ی چهارم! آسانسور نداره، ولی… پله داره!",
+      "ru": "Первый… второй… третий… четвёртый этаж! Лифта нет, зато… есть лестница!",
       "move": [
         {
           "how": "walk",
@@ -276,6 +306,7 @@
       "emo": "happy",
       "en": "This is the living room. There's a balcony in the living room… and the city!",
       "fa": "این‌جا پذیراییه. توی پذیرایی بالکن هست… و شهر!",
+      "ru": "Это гостиная. В гостиной есть балкон… и вид на город!",
       "to": "nima",
       "tr": "Burası salon. Salonda balkon var… ve şehir!",
       "who": "tolga"
@@ -286,6 +317,7 @@
       "emo": "curious",
       "en": "Where's the kitchen?",
       "fa": "آشپزخونه کجاست؟",
+      "ru": "Где кухня?",
       "to": "tolga",
       "tr": "Mutfak nerede?",
       "who": "nima"
@@ -296,6 +328,7 @@
       "emo": "happy",
       "en": "The kitchen's over there. There's an oven, a table… no fridge! But it's a lovely flat, isn't it?",
       "fa": "آشپزخونه اون‌جاست. توی آشپزخونه فِر هست، میز هست… یخچال نه! ولی خونه‌ی خیلی خوبیه، نه؟",
+      "ru": "Кухня вон там. На кухне есть духовка, стол… холодильника нет! Но квартира чудесная, правда?",
       "to": "nima",
       "tr": "Mutfak şurada. Mutfakta fırın var, masa var… buzdolabı yok! Ama çok güzel bir ev, değil mi?",
       "who": "tolga"
@@ -309,6 +342,7 @@
             "emo": "neutral",
             "en": "It's nice, but small.",
             "fa": "قشنگه، ولی کوچیکه.",
+            "ru": "Хорошая, но маленькая.",
             "ok": true,
             "react": {
               "tolga": {
@@ -320,6 +354,7 @@
                 "emo": "happy",
                 "en": "Small… but cheap!",
                 "fa": "کوچیک… ولی ارزون!",
+                "ru": "Маленькая… зато дешёвая!",
                 "to": "nima",
                 "tr": "Küçük… ama ucuz!",
                 "who": "tolga"
@@ -332,6 +367,7 @@
             "do": "shake_head",
             "en": "No, it's ugly!",
             "fa": "نه، زشته!",
+            "ru": "Нет, уродливая!",
             "react": {
               "tolga": {
                 "emo": "nervous"
@@ -350,6 +386,7 @@
                 "emo": "nervous",
                 "en": "It's not ugly! It's… old.",
                 "fa": "زشت… نیست! قدیمیه.",
+                "ru": "Не уродливая! Она… старая.",
                 "to": "nima",
                 "tr": "Çirkin… değil! Eski.",
                 "who": "tolga"
@@ -362,6 +399,7 @@
             "do": "nod",
             "en": "Yes, yes! Very nice!",
             "fa": "آره، آره! خیلی قشنگه!",
+            "ru": "Да, да! Очень красивая!",
             "react": {
               "tolga": {
                 "emo": "happy"
@@ -372,6 +410,7 @@
                 "emo": "happy",
                 "en": "Great! Very nice! The deposit is one month's rent…",
                 "fa": "عالیه! خیلی قشنگه! ودیعه یه ماه اجاره…",
+                "ru": "Отлично! Очень красивая! Залог — месячная плата…",
                 "tempo": 1.5,
                 "to": "nima",
                 "tr": "Tamam! Çok güzel! Depozito bir kira…",
@@ -389,6 +428,7 @@
       "emo": "curious",
       "en": "But… twenty thousand lira. Is it expensive?",
       "fa": "ولی… بیست هزار لیر. گرونه؟",
+      "ru": "Но… двадцать тысяч лир. Это дорого?",
       "to": "tolga",
       "tr": "Ama… yirmi bin lira. Pahalı mı?",
       "who": "nima"
@@ -398,6 +438,7 @@
       "emo": "happy",
       "en": "That's not expensive! For Feriköy, that's cheap!",
       "fa": "گرون نیست! برای فری‌کؤی ارزونه!",
+      "ru": "Это не дорого! Для Ферикёя это дёшево!",
       "on": "değil",
       "to": "nima",
       "tr": "Pahalı değil! Feriköy'de ucuz!",
@@ -415,6 +456,7 @@
       "emo": "curious",
       "en": "Cheap… is it?",
       "fa": "ارزون… واقعاً؟",
+      "ru": "Дёшево… правда?",
       "narr": true,
       "tr": "Ucuz… mu?",
       "who": "kerim"
@@ -424,8 +466,9 @@
       "cam": "two",
       "do": "point",
       "emo": "surprised",
-      "en": "What's this? A bird!",
-      "fa": "این چیه؟ یه پرنده!",
+      "en": "Oh! A bird!",
+      "fa": "عه! یه پرنده!",
+      "ru": "Ой! Птица!",
       "link": {
         "kuş": "ch:kerim"
       },
@@ -442,7 +485,7 @@
         "word": "gıcırt"
       },
       "to": "kerim",
-      "tr": "Bu ne? Bir kuş!",
+      "tr": "Aa! Bir kuş!",
       "who": "nima"
     },
     {
@@ -450,6 +493,7 @@
       "emo": "happy",
       "en": "Not “a bird”… Kerim!",
       "fa": "یه پرنده… نه. کریم!",
+      "ru": "Не «птица»… Керим!",
       "narr": true,
       "tr": "Bir kuş… değil. Kerim!",
       "who": "kerim"
@@ -458,6 +502,7 @@
       "emo": "happy",
       "en": "Yes? Or no?",
       "fa": "آره یا نه؟",
+      "ru": "Да? Или нет?",
       "tempo": 1.2,
       "to": "nima",
       "tr": "Evet mi? Hayır mı?",
@@ -467,6 +512,7 @@
       "emo": "shy",
       "en": "The flat… is nice. But… Friday, please.",
       "fa": "خونه… قشنگه. ولی… جمعه، لطفاً.",
+      "ru": "Квартира… хорошая. Но… в пятницу, пожалуйста.",
       "to": "tolga",
       "tr": "Ev… güzel. Ama… cuma, lütfen.",
       "who": "nima"
@@ -484,6 +530,7 @@
         "en": "-DA with var / yok says “there is … in …”: Salonda balkon var, there's a balcony in the living room. Mutfakta buzdolabı yok, there's no fridge in the kitchen. For an adjective, the “not” is değil: Pahalı değil, it isn't expensive.",
         "ex": "Salonda balkon var",
         "fa": "‏-DA همراهِ var / yok یعنی «در … هست / نیست»: Salonda balkon var، توی پذیرایی بالکن هست. Mutfakta buzdolabı yok، توی آشپزخانه یخچال نیست. برای صفت، «نیست» می‌شود değil: Pahalı değil، گران نیست. فارسی برای هر دو «نیست» می‌گوید؛ ترکی دو کلمه دارد.",
+        "ru": "-DA с var / yok говорит «в … есть …»: Salonda balkon var — в гостиной есть балкон. Mutfakta buzdolabı yok — на кухне нет холодильника. С прилагательным «не» — это değil: Pahalı değil — это не дорого.",
         "lesson": "g_a1_2_var_yok",
         "show": "var_yok"
       }
@@ -492,6 +539,7 @@
       "emo": "happy",
       "en": "Yes… say yes, Nima!",
       "fa": "آره… بگو آره، نیما!",
+      "ru": "Да… скажи «да», Нима!",
       "narr": true,
       "sfx": {
         "id": "door_close",
@@ -504,12 +552,14 @@
   ],
   "summary": {
     "en": "On Wednesday evening Nima views the Feriköy flat with Tolga Bey: four floors up, no lift, no fridge, and a rent he calls cheap. At the kitchen window, a bird looks Nima in the eye.",
-    "fa": "چهارشنبه عصر، نیما با آقای تولگا خانه‌ی فری‌کؤی را می‌بیند: چهار طبقه بالا، بی‌آسانسور، بی‌یخچال، با اجاره‌ای که به گفته‌ی او ارزان است. پشتِ پنجره‌ی آشپزخانه، پرنده‌ای مستقیم به چشم‌های نیما نگاه می‌کند."
+    "fa": "چهارشنبه عصر، نیما با آقای تولگا خانه‌ی فری‌کؤی را می‌بیند: چهار طبقه بالا، بی‌آسانسور، بی‌یخچال، با اجاره‌ای که به گفته‌ی او ارزان است. پشتِ پنجره‌ی آشپزخانه، پرنده‌ای مستقیم به چشم‌های نیما نگاه می‌کند.",
+    "ru": "В среду вечером Нима смотрит квартиру в Ферикёе с господином Толгой: четвёртый этаж, без лифта, без холодильника, и аренда, которую он называет дешёвой. У кухонного окна птица смотрит Ниме прямо в глаза."
   },
   "title": {
     "tr": "Dördüncü kat",
     "en": "The fourth floor",
-    "fa": "طبقه‌ی چهارم"
+    "fa": "طبقه‌ی چهارم",
+    "ru": "Четвёртый этаж"
   },
   "words": [
     "a1-w-kucuk",

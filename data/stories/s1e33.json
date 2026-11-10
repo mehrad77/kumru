@@ -2,6 +2,7 @@
   "arc": {
     "en": "The best of Feriköy",
     "fa": "بهترین جاهای فری‌کؤی",
+    "ru": "Лучшие места Ферикёя",
     "id": "s1w06",
     "mechanics": [
       "say",
@@ -23,6 +24,7 @@
     {
       "en": "Look: the pen on the table, the pen in the bag. Which one is longer?",
       "fa": "ببین: خودکارِ روی میز، خودکارِ توی کیف. کدوم بلندتره؟",
+      "ru": "Смотри: ручка на столе, ручка в сумке. Какая длиннее?",
       "narr": true,
       "tr": "Bak: masadaki kalem, çantadaki kalem. Hangisi daha uzun?",
       "who": "kerim"
@@ -35,6 +37,7 @@
           {
             "en": "The pen on the table is longer.",
             "fa": "خودکارِ روی میز بلندتره.",
+            "ru": "Ручка на столе длиннее.",
             "ok": true,
             "react": {
               "kerim": "happy"
@@ -43,6 +46,7 @@
               {
                 "en": "Yes! The one on the table is longer.",
                 "fa": "آره! مالِ روی میز بلندتره.",
+                "ru": "Да! Та, что на столе, длиннее.",
                 "narr": true,
                 "tr": "Evet! Masadaki daha uzun.",
                 "who": "kerim"
@@ -54,6 +58,7 @@
           {
             "en": "The pen in the bag is longer.",
             "fa": "خودکارِ توی کیف بلندتره.",
+            "ru": "Ручка в сумке длиннее.",
             "react": {
               "kerim": "curious"
             },
@@ -61,6 +66,7 @@
               {
                 "en": "No… the one in the bag is shorter!",
                 "fa": "نه… مالِ توی کیف کوتاه‌تره!",
+                "ru": "Нет… та, что в сумке, короче!",
                 "narr": true,
                 "tr": "Hayır… çantadaki daha kısa!",
                 "who": "kerim"
@@ -76,6 +82,7 @@
     {
       "en": "And which bread is warmer?",
       "fa": "و کدوم نون داغ‌تره؟",
+      "ru": "А какой хлеб теплее?",
       "narr": true,
       "tr": "Ve hangi ekmek daha sıcak?",
       "who": "kerim"
@@ -83,6 +90,7 @@
     {
       "en": "The bread from the bakery on the corner is warmer!",
       "fa": "نونِ نونواییِ سرِ نبش داغ‌تره!",
+      "ru": "Хлеб из пекарни на углу теплее!",
       "tr": "Köşedeki fırının ekmeği daha sıcak!",
       "who": "nima"
     }
@@ -90,39 +98,53 @@
   "gl": {
     "berfin": {
       "fa": "برفین (صاحبِ کافهٔ کوچک)",
+      "ru": "Берфин (хозяйка крошечного кафе)",
       "en": "Berfin (who runs the tiny café)"
     },
     "fırından": {
       "fa": "از نانوایی",
+      "ru": "из пекарни",
       "en": "from the bakery"
     },
     "fırının": {
       "fa": "ـِ نانوایی",
+      "ru": "пекарни (чей?)",
       "en": "the bakery's; of the bakery"
     },
     "hangisi": {
       "fa": "کدام‌یک",
+      "ru": "который (из них)",
       "en": "which one"
     },
     "ikisini": {
       "fa": "هر دو را",
+      "ru": "оба (их)",
       "en": "both (of them)"
     },
     "masadaki": {
       "fa": "(آنِ) روی میز",
+      "ru": "тот, что на столе",
       "en": "the one on the table"
     },
     "üstünde": {
       "fa": "بالای…، روی…",
+      "ru": "на…; сверху",
       "en": "on top of…"
     },
     "önünde": {
       "fa": "جلوی…",
+      "ru": "перед…",
       "en": "in front of…"
     },
     "deniyoruz": {
       "en": "we're trying (denemek: to try, to taste)",
-      "fa": "امتحان می‌کنیم (denemek: امتحان کردن، چشیدن)"
+      "fa": "امتحان می‌کنیم (denemek: امتحان کردن، چشیدن)",
+      "ru": "пробуем (denemek — пробовать)"
+    },
+    "hmm": {
+      "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "ru": "хм (раздумье)",
+      "en": "hmm (thinking)"
     }
   },
   "id": "s1e33",
@@ -213,9 +235,10 @@
       "q": {
         "tr": "Hangi fırın daha ucuz?",
         "en": "Which bakery is cheaper?",
-        "fa": "کدام نانوایی ارزان‌تر است؟"
+        "fa": "کدام نانوایی ارزان‌تر است؟",
+        "ru": "Какая пекарня дешевле?"
       },
-      "why": "Dilnoza: “Parktaki fırın da var. O daha ucuz.”"
+      "why": "Dilnoza: “Ama parktaki fırın da var. O daha ucuz.”"
     },
     {
       "a": 1,
@@ -228,7 +251,8 @@
       "q": {
         "tr": "Nima: “Bu ekmek daha …”",
         "en": "Nima: “This bread is more …”",
-        "fa": "نیما: «این نان …تر است.»"
+        "fa": "نیما: «این نان …تر است.»",
+        "ru": "Нима: «Этот хлеб более …»"
       },
       "why": "Nima: “Bu ekmek daha yumuşak.”"
     }
@@ -251,6 +275,7 @@
     {
       "en": "Warm bread! Kerim's on top of the bakery, Serkan's in front of it.",
       "fa": "نونِ داغ! کریم بالای نونوایی، سرکان جلوی نونوایی.",
+      "ru": "Тёплый хлеб! Керим на крыше пекарни, Серкан перед пекарней.",
       "narr": true,
       "sfx": {
         "id": "oven_door",
@@ -276,6 +301,7 @@
       "emo": "proud",
       "en": "The bread from the bakery on the corner… the best bread in Feriköy!",
       "fa": "نونِ نونواییِ سرِ نبش… بهترین نونِ فری‌کؤی!",
+      "ru": "Хлеб из пекарни на углу… лучший хлеб в Ферикёе!",
       "link": {
         "ekmeği": "obj:kosedeki"
       },
@@ -287,8 +313,9 @@
       "at": "obj:rehber",
       "do": "write",
       "emo": "curious",
-      "en": "There's the bakery by the park too. It's cheaper.",
-      "fa": "نونواییِ کنارِ پارک هم هست. اون ارزون‌تره.",
+      "en": "But there's the bakery by the park too. It's cheaper.",
+      "fa": "ولی نونواییِ کنارِ پارک هم هست. اون ارزون‌تره.",
+      "ru": "Но есть ещё пекарня у парка. Там дешевле.",
       "obj": [
         {
           "id": "rehber",
@@ -300,17 +327,18 @@
         }
       ],
       "to": "serkan",
-      "tr": "Parktaki fırın da var. O daha ucuz.",
+      "tr": "Ama parktaki fırın da var. O daha ucuz.",
       "who": "dilnoza",
       "cam": "single"
     },
     {
       "do": "think",
       "emo": "curious",
-      "en": "Which one is better? We're trying both!",
-      "fa": "کدومش بهتره؟ هر دوتاشو امتحان می‌کنیم!",
+      "en": "Hmm… which one's better? We're trying both!",
+      "fa": "هوم… کدومش بهتره؟ هر دوتاشو امتحان می‌کنیم!",
+      "ru": "Хм… какая лучше? Попробуем обе!",
       "to": "dilnoza",
-      "tr": "Hangisi daha iyi? İkisini de deniyoruz!",
+      "tr": "Hmm… hangisi daha iyi? İkisini de deniyoruz!",
       "who": "nima"
     },
     {
@@ -319,6 +347,7 @@
       "emo": "proud",
       "en": "Cheap, but this one's warmer! This one's fresher!",
       "fa": "ارزونه، ولی این داغ‌تره! این تازه‌تره!",
+      "ru": "Дешёвый, но этот теплее! Этот свежее!",
       "obj": [
         {
           "id": "kosedeki",
@@ -345,6 +374,7 @@
       "emo": "happy",
       "en": "Two bakeries, two loaves. You first!",
       "fa": "دو تا نونوایی، دو تا نون. اول تو!",
+      "ru": "Две пекарни, две буханки. Начинай ты!",
       "link": {
         "ekmek": "obj:parktaki"
       },
@@ -359,6 +389,7 @@
       "emo": "happy",
       "en": "This bread is softer.",
       "fa": "این نون نرم‌تره.",
+      "ru": "Этот хлеб мягче.",
       "link": {
         "ekmek": "obj:kosedeki"
       },
@@ -372,6 +403,7 @@
       "emo": "curious",
       "en": "OK, soft. And that one? Is it hard?",
       "fa": "باشه، نرم. اون یکی چی؟ سفته؟",
+      "ru": "Ладно, мягкий. А тот? Жёсткий?",
       "to": "nima",
       "tr": "Tamam, yumuşak. Ya şu? Sert mi?",
       "who": "dilnoza"
@@ -382,6 +414,7 @@
       "emo": "happy",
       "en": "That one's a bit hard… but tastier!",
       "fa": "اون یه کم سفته… ولی خوشمزه‌تره!",
+      "ru": "Тот чуть жёстче… но вкуснее!",
       "to": "dilnoza",
       "tr": "Şu biraz sert… ama daha lezzetli!",
       "who": "nima"
@@ -390,6 +423,7 @@
       "emo": "proud",
       "en": "The corner one is the best, right?!",
       "fa": "مالِ سرِ نبش از همه بهتره، نه؟!",
+      "ru": "Тот, что с угла, лучший, правда?!",
       "to": "nima",
       "tr": "Köşedeki en iyi, değil mi?!",
       "who": "serkan"
@@ -405,6 +439,7 @@
             "emo": "shy",
             "en": "I think the park one is tastier.",
             "fa": "به نظرم مالِ پارک خوشمزه‌تره.",
+            "ru": "По-моему, тот, что у парка, вкуснее.",
             "ok": true,
             "react": {
               "serkan": {
@@ -422,6 +457,7 @@
                 "emo": "laugh",
                 "en": "OK, OK… but the corner one is warmer!",
                 "fa": "باشه، باشه… ولی مالِ سرِ نبش داغ‌تره!",
+                "ru": "Ладно, ладно… зато угловой теплее!",
                 "to": "nima",
                 "tr": "Tamam, tamam… ama köşedeki daha sıcak!",
                 "who": "serkan"
@@ -434,6 +470,7 @@
             "do": "shake_head",
             "en": "No, wrong!",
             "fa": "نه، اشتباهه!",
+            "ru": "Нет, неправда!",
             "react": {
               "dilnoza": {
                 "emo": "shy"
@@ -447,6 +484,7 @@
                 "emo": "sad",
                 "en": "Wrong?!",
                 "fa": "اشتباه؟!",
+                "ru": "Неправда?!",
                 "to": "nima",
                 "tr": "Yanlış mı?!",
                 "who": "serkan"
@@ -459,6 +497,7 @@
             "do": "nod",
             "en": "Yes, yes, the best!",
             "fa": "آره، آره، از همه بهتره!",
+            "ru": "Да, да, лучший!",
             "react": {
               "dilnoza": {
                 "emo": "confused"
@@ -474,6 +513,7 @@
                 "emo": "confused",
                 "en": "But you… liked that one, didn't you?",
                 "fa": "ولی تو… اون یکی رو دوست داشتی، نه؟",
+                "ru": "Но тебе же… тот понравился, да?",
                 "to": "nima",
                 "tr": "Ama sen… şunu sevdin, değil mi?",
                 "who": "dilnoza"
@@ -492,6 +532,7 @@
       "emo": "happy",
       "en": "The bakery on the corner: the warmest bread. The bakery by the park: the tastiest bread.",
       "fa": "نونواییِ سرِ نبش: داغ‌ترین نون. نونواییِ کنارِ پارک: خوشمزه‌ترین نون.",
+      "ru": "Пекарня на углу: самый тёплый хлеб. Пекарня у парка: самый вкусный хлеб.",
       "obj": [
         {
           "id": "rehber",
@@ -515,6 +556,7 @@
         "en": "-ki after -DA says which one: köşede (on the corner) → köşedeki fırın (the bakery on the corner), parkta → parktaki fırın, yerde → yerdeki ekmek. To compare two, use daha: bu daha yumuşak, şu daha lezzetli. Name the other with -DAn: bu ekmek şundan daha sıcak (this bread is warmer than that one). For one out of many: en sıcak.",
         "ex": "Köşedeki fırın: en sıcak ekmek.",
         "fa": "‎-ki بعد از ‎-DA می‌گوید «کدام»: köşede (سرِ نبش) ← köşedeki fırın (نانواییِ سرِ نبش)، parkta ← parktaki fırın، yerde ← yerdeki ekmek (نانِ روی زمین). برای مقایسهٔ دو چیز daha: bu daha yumuşak (این نرم‌تر است)، şu daha lezzetli. طرفِ مقایسه با ‎-DAn می‌آید، مثل «از» در فارسی: bu ekmek şundan daha sıcak (این نان از آن داغ‌تر است). برای «ـترین»: en sıcak.",
+        "ru": "-ki после -DA говорит, который именно: köşede (на углу) → köşedeki fırın (пекарня на углу), parkta → parktaki fırın, yerde → yerdeki ekmek. Чтобы сравнить два, используй daha: bu daha yumuşak, şu daha lezzetli. Второе назови с -DAn: bu ekmek şundan daha sıcak (этот хлеб теплее того). Один из многих: en sıcak.",
         "lesson": "g_a1_6_ki",
         "show": "compare"
       }
@@ -522,6 +564,7 @@
     {
       "en": "For Kerim, the best bread… is the bread on the ground!",
       "fa": "برای کریم بهترین نون… نونِ روی زمینه!",
+      "ru": "Для Керим лучший хлеб… это хлеб на земле!",
       "link": {
         "ekmek": "obj:kirinti"
       },
@@ -543,12 +586,14 @@
   ],
   "summary": {
     "en": "The guide's third page is bread, and Serkan has opinions. On a bench between the two bakeries Nima tastes a loaf from each, and has to tell Serkan which one is better.",
-    "fa": "صفحهٔ سومِ راهنما دربارهٔ نان است و سرکان نظرِ خودش را دارد. نیما روی نیمکتی بینِ دو نانوایی از هر کدام یک نان می‌چشد و باید به سرکان بگوید کدام بهتر است."
+    "fa": "صفحهٔ سومِ راهنما دربارهٔ نان است و سرکان نظرِ خودش را دارد. نیما روی نیمکتی بینِ دو نانوایی از هر کدام یک نان می‌چشد و باید به سرکان بگوید کدام بهتر است.",
+    "ru": "Третья страница путеводителя — хлеб, и у Серкана на этот счёт своё мнение. На скамейке между двумя пекарнями Нима пробует по буханке из каждой, и приходится сказать Серкану, какая лучше."
   },
   "title": {
     "tr": "Köşedeki fırın",
     "en": "The bakery on the corner",
-    "fa": "نانواییِ سرِ نبش"
+    "fa": "نانواییِ سرِ نبش",
+    "ru": "Пекарня на углу"
   },
   "words": [
     "a1-w-lezzetli",

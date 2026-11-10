@@ -2,6 +2,7 @@
   "arc": {
     "en": "Welcome!",
     "fa": "خوش آمدی!",
+    "ru": "Добро пожаловать!",
     "id": "s1w01",
     "mechanics": [
       "say",
@@ -23,6 +24,7 @@
     {
       "en": "Nima, what's this?",
       "fa": "نیما، این چیه؟",
+      "ru": "Нима, что это?",
       "to": "nima",
       "tr": "Nima, bu ne?",
       "who": "zafer"
@@ -30,6 +32,7 @@
     {
       "en": "This is a dictionary.",
       "fa": "این فرهنگ لغته.",
+      "ru": "Это словарь.",
       "to": "zafer",
       "tr": "Bu sözlük.",
       "who": "nima"
@@ -37,6 +40,7 @@
     {
       "en": "Yes! And what are these?",
       "fa": "آره! اینا چیه؟",
+      "ru": "Да! А это что?",
       "to": "nima",
       "tr": "Evet! Bunlar ne?",
       "who": "zafer"
@@ -49,6 +53,7 @@
           {
             "en": "Desks.",
             "fa": "میزها.",
+            "ru": "Парты.",
             "ok": true,
             "react": {
               "zafer": {
@@ -60,6 +65,7 @@
               {
                 "en": "Very good! Desks, doors, boards.",
                 "fa": "خیلی خوبه! میزها، درها، تخته‌ها.",
+                "ru": "Очень хорошо! Парты, двери, доски.",
                 "to": "nima",
                 "tr": "Çok güzel! Masalar, kapılar, tahtalar.",
                 "who": "zafer"
@@ -71,6 +77,7 @@
           {
             "en": "Desk.",
             "fa": "میز.",
+            "ru": "Парта.",
             "react": {
               "zafer": "curious"
             },
@@ -78,6 +85,7 @@
               {
                 "en": "One, two, three… desks!",
                 "fa": "یک، دو، سه… میزها!",
+                "ru": "Раз, два, три… парты!",
                 "to": "nima",
                 "tr": "Bir, iki, üç… masalar!",
                 "who": "zafer"
@@ -89,6 +97,7 @@
           {
             "en": "Desks. (with -ler)",
             "fa": "میزها. (با -ler)",
+            "ru": "Парты. (с -ler)",
             "react": {
               "zafer": "surprised"
             },
@@ -96,6 +105,7 @@
               {
                 "en": "With a, a! Masalar.",
                 "fa": "با a، a! Masalar.",
+                "ru": "Через «a»! Masalar.",
                 "to": "nima",
                 "tr": "A, a! Masalar.",
                 "who": "zafer"
@@ -112,62 +122,77 @@
   "gl": {
     "a": {
       "fa": "حرفِ a",
+      "ru": "буква a",
       "en": "the letter a"
     },
     "e": {
       "fa": "حرفِ e",
+      "ru": "буква e",
       "en": "the letter e"
     },
     "hocam": {
       "fa": "استاد (خطاب به معلم)",
+      "ru": "(к учителю) учитель; дословно «мой учитель»",
       "en": "(to a teacher) sir, miss; literally “my teacher”"
     },
     "isfahanlıyım": {
       "fa": "اهلِ اصفهانم",
+      "ru": "я из Исфахана",
       "en": "I'm from Isfahan"
     },
     "kalemlar": {
       "fa": "اشتباهِ دلنوزا؛ درستش: kalemler",
+      "ru": "оговорка Дилнозы; правильно — kalemler",
       "en": "Dilnoza's slip; the right form is kalemler"
     },
     "kapılar": {
       "fa": "درها",
+      "ru": "двери",
       "en": "doors"
     },
     "masalar": {
       "fa": "میزها",
+      "ru": "столы, парты",
       "en": "tables, desks"
     },
     "masaler": {
       "fa": "اشتباه؛ درستش: masalar",
+      "ru": "ошибка; правильно — masalar",
       "en": "a slip; the right form is masalar"
     },
     "pencerelar": {
       "fa": "اشتباه؛ درستش: pencereler",
+      "ru": "ошибка; правильно — pencereler",
       "en": "a slip; the right form is pencereler"
     },
     "pencereler": {
       "fa": "پنجره‌ها",
+      "ru": "окна",
       "en": "windows"
     },
     "tahtalar": {
       "fa": "تخته‌ها",
+      "ru": "доски",
       "en": "boards"
     },
     "kolay": {
       "fa": "آسان",
+      "ru": "легко",
       "en": "easy"
     },
     "isfahanlı": {
       "fa": "اهلِ اصفهان",
+      "ru": "из Исфахана",
       "en": "from Isfahan"
     },
     "özbekistanlı": {
       "fa": "اهلِ ازبکستان",
+      "ru": "из Узбекистана",
       "en": "from Uzbekistan"
     },
     "istanbullu": {
       "fa": "استانبولی، اهلِ استانبول",
+      "ru": "из Стамбула",
       "en": "from Istanbul"
     }
   },
@@ -219,7 +244,8 @@
       "q": {
         "tr": "Parvane nereli?",
         "en": "Where is Parvaneh from?",
-        "fa": "پروانه اهلِ کجاست؟"
+        "fa": "پروانه اهلِ کجاست؟",
+        "ru": "Откуда Парване?"
       },
       "why": "Parvane: “Merhaba! Benim adım Parvane. İsfahanlıyım!”"
     },
@@ -234,7 +260,8 @@
       "q": {
         "tr": "Zafer Hoca: “Nima, bunlar ne?” Nima: “…”",
         "en": "Zafer Hoca points at the windows: “Nima, what are these?” Nima: “…”",
-        "fa": "استاد ظفر پنجره‌ها را نشان می‌دهد: «Nima, bunlar ne?» نیما: «…»"
+        "fa": "استاد ظفر پنجره‌ها را نشان می‌دهد: «Nima, bunlar ne?» نیما: «…»",
+        "ru": "Зафер показывает на окна: «Nima, bunlar ne?» Нима: «…»"
       },
       "why": "Zafer Hoca: “Nima, bunlar ne?” Nima: “Pencereler.”"
     }
@@ -258,6 +285,7 @@
     {
       "en": "Nine o'clock. Who's this? It's Nima!",
       "fa": "ساعت نُه. این کیه؟ نیماست!",
+      "ru": "Девять часов. Кто это? Это Нима!",
       "move": {
         "how": "enter",
         "to": "door",
@@ -276,6 +304,7 @@
       "emo": "nervous",
       "en": "Good morning, sir. I'm sorry!",
       "fa": "صبح بخیر استاد، ببخشید!",
+      "ru": "Доброе утро, учитель, извините!",
       "on": "özür",
       "to": "zafer",
       "tr": "Günaydın hocam, özür dilerim!",
@@ -287,6 +316,7 @@
       "emo": "happy",
       "en": "Good morning! Come in… that desk, that chair.",
       "fa": "صبح بخیر! بفرمایید… اون میز، اون صندلی.",
+      "ru": "Доброе утро! Проходите… вон та парта, вон тот стул.",
       "move": {
         "how": "walk",
         "to": "seat_1",
@@ -302,6 +332,7 @@
       "emo": "happy",
       "en": "Hi! My name is Parvaneh. I'm from Isfahan!",
       "fa": "سلام! اسمم پروانه‌ست. اهلِ اصفهانم!",
+      "ru": "Привет! Меня зовут Парване. Я из Исфахана!",
       "react": {
         "dilnoza": {
           "at": "ch:nima",
@@ -330,6 +361,7 @@
       "emo": "curious",
       "en": "What's this?",
       "fa": "این چیه؟",
+      "ru": "Что это?",
       "to": "all",
       "tr": "Bu ne?",
       "who": "zafer"
@@ -338,6 +370,7 @@
       "emo": "proud",
       "en": "A pen!",
       "fa": "خودکار!",
+      "ru": "Ручка!",
       "link": {
         "kalem": "obj:kalem"
       },
@@ -351,6 +384,7 @@
       "emo": "curious",
       "en": "And what are these?",
       "fa": "اینا چیه؟",
+      "ru": "А это что?",
       "obj": [
         {
           "id": "kalem",
@@ -366,6 +400,7 @@
       "emo": "proud",
       "en": "Pens! (Dilnoza says “kalemlar”)",
       "fa": "خودکارها! (دلنوزا می‌گوید «kalemlar»)",
+      "ru": "Ручки! («kalemlar»)",
       "mistake": {
         "fix": "Kalemler"
       },
@@ -378,6 +413,7 @@
       "emo": "happy",
       "en": "Kalemler. With e, e! Once more, please.",
       "fa": "Kalemler. با e، e! یه بار دیگه، لطفاً.",
+      "ru": "Kalemler. Через «e»! Ещё раз, пожалуйста.",
       "link": {
         "kalemler": "obj:kalem"
       },
@@ -391,6 +427,7 @@
       "emo": "proud",
       "en": "Kalemler! And these… notebooks, desks!",
       "fa": "Kalemler! اینا هم… دفترها، میزها!",
+      "ru": "Kalemler! А это… тетради, парты!",
       "link": {
         "defterler": "obj:defterler"
       },
@@ -403,7 +440,7 @@
         }
       },
       "to": "zafer",
-      "tr": "Kalemler! Ve bunlar… defterler, masalar!",
+      "tr": "Kalemler! Bunlar da… defterler, masalar!",
       "who": "dilnoza"
     },
     {
@@ -425,6 +462,7 @@
       "tr": "Sözlük! Kolay!",
       "en": "A dictionary! Easy!",
       "fa": "دیکشنری! آسونه!",
+      "ru": "Словарь! Легко!",
       "to": "zafer",
       "emo": "proud",
       "link": {
@@ -443,6 +481,7 @@
       "emo": "curious",
       "en": "Nima, what are these?",
       "fa": "نیما، اینا چیه؟",
+      "ru": "Нима, а это что?",
       "move": {
         "how": "walk",
         "to": "desk_alex",
@@ -462,6 +501,7 @@
             "emo": "proud",
             "en": "Windows.",
             "fa": "پنجره‌ها.",
+            "ru": "Окна.",
             "ok": true,
             "react": {
               "zafer": {
@@ -475,6 +515,7 @@
                 "emo": "happy",
                 "en": "Yes! Very good.",
                 "fa": "آره! خیلی خوبه.",
+                "ru": "Да! Очень хорошо.",
                 "to": "nima",
                 "tr": "Evet! Çok güzel.",
                 "who": "zafer"
@@ -487,6 +528,7 @@
             "emo": "neutral",
             "en": "Window.",
             "fa": "پنجره.",
+            "ru": "Окно.",
             "react": {
               "zafer": {
                 "emo": "curious"
@@ -499,6 +541,7 @@
                 "emo": "happy",
                 "en": "One, two, three… windows!",
                 "fa": "یک، دو، سه… پنجره‌ها!",
+                "ru": "Раз, два, три… окна!",
                 "n": 3,
                 "to": "nima",
                 "tr": "Bir, iki, üç… pencereler!",
@@ -512,6 +555,7 @@
             "emo": "proud",
             "en": "Windows. (with -lar)",
             "fa": "پنجره‌ها. (با -lar)",
+            "ru": "Окна. (с -lar)",
             "react": {
               "dilnoza": {
                 "at": "ch:nima",
@@ -528,6 +572,7 @@
                 "emo": "happy",
                 "en": "With e, e! Pencereler.",
                 "fa": "با e، e! Pencereler.",
+                "ru": "Через «e»! Pencereler.",
                 "to": "nima",
                 "tr": "E, e! Pencereler.",
                 "who": "zafer"
@@ -545,6 +590,7 @@
         "en": "More than one: add -ler or -lar. If the last vowel of the word is e, i, ö or ü, it is -ler: kalem → kalemler, defter → defterler, pencere → pencereler. If it is a, ı, o or u, it is -lar: masa → masalar, kapı → kapılar. “Kalemlar”? No: kalemler!",
         "ex": "Kalemler.",
         "fa": "برای جمع، به آخرِ کلمه -ler یا -lar اضافه می‌کنیم، مثلِ «ها» در فارسی. اگر آخرین حرفِ صدادارِ کلمه e یا i یا ö یا ü باشد، -ler می‌آید: kalem ← kalemler، defter ← defterler، pencere ← pencereler. اگر a یا ı یا o یا u باشد، -lar می‌آید: masa ← masalar، kapı ← kapılar. «Kalemlar»؟ نه: kalemler!",
+        "ru": "Больше одного — добавь -ler или -lar. Если последняя гласная слова e, i, ö или ü, то -ler: kalem → kalemler, defter → defterler, pencere → pencereler. Если a, ı, o или u, то -lar: masa → masalar, kapı → kapılar. «Kalemlar»? Нет: kalemler!",
         "lesson": "g_a1_1_cogul"
       }
     },
@@ -554,6 +600,7 @@
       "emo": "curious",
       "en": "And what's that?",
       "fa": "اون چیه؟",
+      "ru": "А вон то что?",
       "move": [
         {
           "how": "walk",
@@ -586,6 +633,7 @@
       "emo": "happy",
       "en": "A bird!",
       "fa": "یه پرنده!",
+      "ru": "Птица!",
       "link": {
         "kuş": "ch:kerim"
       },
@@ -598,6 +646,7 @@
       "emo": "happy",
       "en": "A bird… yes!",
       "fa": "پرنده… آره!",
+      "ru": "Птица… да!",
       "narr": true,
       "tr": "Kuş… evet!",
       "who": "kerim"
@@ -605,12 +654,14 @@
   ],
   "summary": {
     "en": "Nima is late for the first real lesson. Zafer Hoca plays a game with the things on his desk, Dilnoza says “kalemlar”, and Nima names the windows.",
-    "fa": "نیما برای اولین درسِ واقعی دیر می‌رسد. استاد ظفر با وسایلِ روی میزش یک بازی راه می‌اندازد، دلنوزا می‌گوید «kalemlar» و نیما اسمِ پنجره‌ها را می‌گوید."
+    "fa": "نیما برای اولین درسِ واقعی دیر می‌رسد. استاد ظفر با وسایلِ روی میزش یک بازی راه می‌اندازد، دلنوزا می‌گوید «kalemlar» و نیما اسمِ پنجره‌ها را می‌گوید.",
+    "ru": "Нима опаздывает на первый настоящий урок. Зафер устраивает игру с вещами на своём столе, Дилноза говорит «kalemlar», а Нима называет окна."
   },
   "title": {
     "tr": "Bunlar ne?",
     "en": "What are these?",
-    "fa": "این‌ها چیست؟"
+    "fa": "این‌ها چیست؟",
+    "ru": "Что это?"
   },
   "words": [
     "a1-w-kalem",

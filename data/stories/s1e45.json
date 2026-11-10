@@ -2,6 +2,7 @@
   "arc": {
     "en": "The exam and the holiday",
     "fa": "امتحان و جشن",
+    "ru": "Экзамен и праздник",
     "id": "s1w08",
     "mechanics": [
       "say",
@@ -23,6 +24,7 @@
     {
       "en": "And you? What do you want to do after A1?",
       "fa": "تو چی؟ بعد از A1 می‌خوای چی‌کار کنی؟",
+      "ru": "А ты? Что ты хочешь делать после A1?",
       "to": "nima",
       "tr": "Ya sen? A1'den sonra ne yapmak istiyorsun?",
       "who": "berfin"
@@ -35,6 +37,7 @@
           {
             "en": "I want to study Turkish! One more course!",
             "fa": "می‌خوام ترکی بخونم! یه دوره‌ی دیگه!",
+            "ru": "Хочу учить турецкий! Ещё один курс!",
             "ok": true,
             "react": {
               "berfin": "happy"
@@ -44,6 +47,7 @@
                 "emo": "happy",
                 "en": "Great! One more tea?",
                 "fa": "عالیه! یه چای دیگه؟",
+                "ru": "Супер! Ещё чаю?",
                 "tr": "Süper! Bir çay daha?",
                 "who": "berfin"
               }
@@ -54,6 +58,7 @@
           {
             "en": "First a holiday… then school!",
             "fa": "اول تعطیلات… بعد مدرسه!",
+            "ru": "Сначала отдых… потом школа!",
             "react": {
               "berfin": "laugh"
             },
@@ -62,6 +67,7 @@
                 "emo": "happy",
                 "en": "Good plan! One more tea?",
                 "fa": "برنامه‌ی خوبیه! یه چای دیگه؟",
+                "ru": "Хороший план! Ещё чаю?",
                 "tr": "Güzel plan! Bir çay daha?",
                 "who": "berfin"
               }
@@ -77,54 +83,67 @@
   "gl": {
     "a1": {
       "fa": "A1 (سطحِ اول)",
+      "ru": "A1 (первый уровень)",
       "en": "A1 (the first level)"
     },
     "a2": {
       "fa": "A2 (سطحِ دوم)",
+      "ru": "A2 (следующий уровень)",
       "en": "A2 (the next level)"
     },
     "b2": {
       "fa": "B2 (سطحِ چهارم؛ سطحی که دانشگاه می‌خواهد)",
+      "ru": "B2 (четвёртый уровень, нужный для университета)",
       "en": "B2 (the fourth level, the one university needs)"
     },
     "belki": {
       "fa": "شاید",
+      "ru": "может быть",
       "en": "maybe"
     },
     "damlaya": {
       "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "ru": "капля за каплей (Damlaya damlaya göl olur: капля за каплей — и будет озеро)",
       "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
     },
     "hostelde": {
       "fa": "در هاستل",
+      "ru": "в хостеле",
       "en": "at the hostel"
     },
     "hostelim": {
       "fa": "هاستلِ من",
+      "ru": "мой хостел",
       "en": "my hostel"
     },
     "maria": {
       "fa": "ماریا (همسایه‌ی طبقه‌ی پنجم)",
+      "ru": "Мария (соседка с пятого этажа)",
       "en": "Maria (the neighbour on the fifth floor)"
     },
     "musun": {
       "fa": "آیا… تو؟ (mu + -sun، سؤال)",
+      "ru": "вопросительная частица mu + -sun (ты)",
       "en": "question particle mu + -sun (you)"
     },
     "rehberi": {
       "fa": "راهنما را (rehber: راهنما)",
+      "ru": "путеводитель (вин. п.; rehber: путеводитель)",
       "en": "the guide (rehber: guide)"
     },
     "tıp": {
       "fa": "پزشکی",
+      "ru": "медицина (наука)",
       "en": "medicine (the field)"
     },
     "من": {
       "fa": "من (به فارسی)",
+      "ru": "я (по-персидски)",
       "en": "I (Persian)"
     },
     "می‌ترسم": {
       "fa": "می‌ترسم (به فارسی)",
+      "ru": "я боюсь (по-персидски)",
       "en": "I'm scared (Persian)"
     }
   },
@@ -181,7 +200,8 @@
       "q": {
         "tr": "Yusuf ne istiyor?",
         "en": "What does Yusuf want?",
-        "fa": "یوسف چه می‌خواهد؟"
+        "fa": "یوسف چه می‌خواهد؟",
+        "ru": "Чего хочет Юсуф?"
       },
       "why": "“Ben B2 istiyorum. Tıp için.”"
     },
@@ -196,7 +216,8 @@
       "q": {
         "tr": "Parvane cuma için ne diyor?",
         "en": "What does Parvaneh say about Friday?",
-        "fa": "پروانه درباره‌ی جمعه چه می‌گوید؟"
+        "fa": "پروانه درباره‌ی جمعه چه می‌گوید؟",
+        "ru": "Что Парване говорит о пятнице?"
       },
       "why": "“…Ben korkuyorum. Cuma.”"
     }
@@ -236,6 +257,7 @@
     {
       "en": "A half day! Tomorrow's the holiday, Friday's the exam.",
       "fa": "نصفه‌روز! فردا جشنه، جمعه امتحان.",
+      "ru": "Короткий день! Завтра праздник, в пятницу экзамен.",
       "narr": true,
       "tr": "Yarım gün! Yarın bayram, cuma sınav.",
       "who": "kerim"
@@ -246,6 +268,7 @@
       "emo": "happy",
       "en": "Here's your tea! What are you studying today?",
       "fa": "بفرمایید، چای! امروز چی می‌خونین؟",
+      "ru": "Угощайтесь, чай! Что вы сегодня учите?",
       "move": {
         "how": "walk",
         "to": "seat_6",
@@ -265,6 +288,7 @@
       "emo": "proud",
       "en": "Speaking! We wrote the guide together… now we're speaking together!",
       "fa": "مکالمه! راهنما رو با هم نوشتیم… حالا با هم حرف می‌زنیم!",
+      "ru": "Говорение! Путеводитель мы писали вместе… теперь вместе говорим!",
       "if": "s1e36_credit",
       "react": {
         "nima": "happy"
@@ -277,6 +301,7 @@
       "emo": "happy",
       "en": "Speaking!",
       "fa": "مکالمه!",
+      "ru": "Говорение!",
       "to": "berfin",
       "tr": "Konuşma!",
       "unless": "s1e36_credit",
@@ -286,6 +311,7 @@
       "emo": "happy",
       "en": "Dilnoza's rule: one question each… and only Turkish!",
       "fa": "قانونِ دلنوزا: هر کی یه سؤال… و فقط ترکی!",
+      "ru": "Правило Дилнозы: каждый задаёт один вопрос… и только по-турецки!",
       "react": {
         "parvaneh": {
           "at": "obj:kumbara",
@@ -307,6 +333,7 @@
       "emo": "curious",
       "en": "Alex, are you coming to A2?",
       "fa": "الکس، A2 میای؟",
+      "ru": "Алекс, ты пойдёшь на A2?",
       "to": "alex",
       "tr": "Alex, A2'ye geliyor musun?",
       "who": "dilnoza"
@@ -316,6 +343,7 @@
       "emo": "tired",
       "en": "I don't know. I work nights at the hostel… I'm so tired. Maybe I'm going back to Russia. …And you, Yusuf?",
       "fa": "نمی‌دونم. شب‌ها توی هاستل کار می‌کنم… خیلی خسته‌م. شاید برگردم روسیه. …تو چی، یوسف؟",
+      "ru": "Не знаю. По ночам работаю в хостеле… очень устаю. Может, вернусь в Россию. …А ты, Юсуф?",
       "to": "yusuf",
       "tr": "Bilmiyorum. Gece hostelde çalışıyorum… çok yorgunum. Belki Rusya'ya dönüyorum. …Ya sen, Yusuf?",
       "who": "alex"
@@ -324,6 +352,7 @@
       "emo": "sad",
       "en": "I want B2. For medicine. But B2… is so far away.",
       "fa": "من B2 می‌خوام. برای پزشکی. ولی B2… خیلی دوره.",
+      "ru": "Мне нужен B2. Для медицинского. Но B2… так далеко.",
       "to": "alex",
       "tr": "Ben B2 istiyorum. Tıp için. Ama B2… çok uzak.",
       "who": "yusuf"
@@ -332,22 +361,25 @@
       "emo": "happy",
       "en": "Drop by drop, a lake forms!",
       "fa": "قطره‌قطره جمع گردد، وانگهی دریا شود!",
+      "ru": "Капля за каплей — и будет озеро!",
       "to": "yusuf",
       "tr": "Damlaya damlaya göl olur!",
       "who": "nima"
     },
     {
       "emo": "happy",
-      "en": "Nice! Who is that from?",
-      "fa": "قشنگه! مالِ کیه؟",
+      "en": "Nice! Who did you learn that from?",
+      "fa": "قشنگه! از کی یاد گرفتی؟",
+      "ru": "Красиво! Откуда это у тебя?",
       "to": "nima",
-      "tr": "Güzel! Kimden?",
+      "tr": "Güzel! Kimden öğrendin?",
       "who": "yusuf"
     },
     {
       "emo": "happy",
       "en": "From Maria Teyze!",
       "fa": "از خاله ماریا!",
+      "ru": "От тёти Марии!",
       "react": {
         "yusuf": "laugh"
       },
@@ -361,6 +393,7 @@
       "emo": "curious",
       "en": "And you, Parvaneh?",
       "fa": "تو چی، پروانه؟",
+      "ru": "А ты, Парване?",
       "to": "parvaneh",
       "tr": "Ya sen, Parvane?",
       "who": "yusuf"
@@ -369,6 +402,7 @@
       "emo": "nervous",
       "en": "Man mitarsam… (in Persian) …I'm scared. Friday.",
       "fa": "من می‌ترسم… …(به ترکی) می‌ترسم. جمعه.",
+      "ru": "Ман митарсам… (по-персидски) …Я боюсь. Пятница.",
       "obj": [
         {
           "id": "kumbara",
@@ -395,6 +429,7 @@
             "emo": "happy",
             "en": "Don't be scared! You're a really good student. We're studying together.",
             "fa": "نترس! تو خیلی شاگردِ خوبی هستی. با هم درس می‌خونیم.",
+            "ru": "Не бойся! Ты очень хорошая ученица. Мы занимаемся вместе.",
             "ok": true,
             "react": {
               "parvaneh": {
@@ -406,6 +441,7 @@
                 "emo": "happy",
                 "en": "OK! Easy! …And you, Nima? What are you doing on Saturday?",
                 "fa": "باشه! آسونه! …تو چی، نیما؟ شنبه چی‌کار می‌کنی؟",
+                "ru": "Ладно! Это легко! …А ты, Нима? Что ты делаешь в субботу?",
                 "to": "nima",
                 "tr": "Tamam! Kolay! …Ya sen, Nima? Cumartesi ne yapıyorsun?",
                 "who": "parvaneh"
@@ -419,6 +455,7 @@
             "emo": "laugh",
             "en": "I'm scared too!",
             "fa": "منم می‌ترسم!",
+            "ru": "Я тоже боюсь!",
             "react": {
               "dilnoza": "laugh",
               "parvaneh": "laugh"
@@ -428,6 +465,7 @@
                 "emo": "laugh",
                 "en": "We're all scared!",
                 "fa": "همه‌مون می‌ترسیم!",
+                "ru": "Мы все боимся!",
                 "to": "all",
                 "tr": "Hepimiz korkuyoruz!",
                 "who": "dilnoza"
@@ -436,6 +474,7 @@
                 "emo": "happy",
                 "en": "…And you, Nima? What are you doing on Saturday?",
                 "fa": "…تو چی، نیما؟ شنبه چی‌کار می‌کنی؟",
+                "ru": "…А ты, Нима? Что ты делаешь в субботу?",
                 "to": "nima",
                 "tr": "…Ya sen, Nima? Cumartesi ne yapıyorsun?",
                 "who": "parvaneh"
@@ -451,6 +490,7 @@
             "emo": "happy",
             "en": "Easy!",
             "fa": "آسونه!",
+            "ru": "Легко!",
             "react": {
               "parvaneh": {
                 "emo": "sad"
@@ -461,6 +501,7 @@
                 "emo": "nervous",
                 "en": "Um… Nima, what are you doing on Saturday?",
                 "fa": "اِم… نیما، شنبه چی‌کار می‌کنی؟",
+                "ru": "Э-э… Нима, что ты делаешь в субботу?",
                 "to": "nima",
                 "tr": "Şey… Nima, cumartesi ne yapıyorsun?",
                 "who": "yusuf"
@@ -477,6 +518,7 @@
       "emo": "sad",
       "en": "I don't know… I want to drink tea on the Bosphorus!",
       "fa": "نمی‌دونم… می‌خوام کنارِ بسفر چای بخورم!",
+      "ru": "Не знаю… Хочу пить чай на Босфоре!",
       "tr": "Bilmiyorum… Boğaz'da çay içmek istiyorum!",
       "who": "nima",
       "to": "all"
@@ -486,6 +528,7 @@
       "emo": "surprised",
       "en": "Come to Kadıköy on Saturday! My hostel, the ferry, tea on the ferry!",
       "fa": "شنبه بیاین کادیکوی! هاستلِ من، کشتی، چای توی کشتی!",
+      "ru": "Приезжайте в субботу в Кадыкёй! Мой хостел, паром, чай на пароме!",
       "to": "all",
       "tr": "Cumartesi Kadıköy'e gelin! Benim hostelim, vapur, vapurda çay!",
       "who": "alex"
@@ -493,10 +536,11 @@
     {
       "do": "nod",
       "emo": "happy",
-      "en": "Tea on the ferry! Yes!",
-      "fa": "چای توی کشتی! آره!",
+      "en": "Tea on the ferry! Yes, I'm in!",
+      "fa": "چای توی کشتی! آره، منم میام!",
+      "ru": "Чай на пароме! Да, я с вами!",
       "to": "alex",
-      "tr": "Vapurda çay! Evet!",
+      "tr": "Vapurda çay! Evet, geliyorum!",
       "who": "nima"
     },
     {
@@ -504,12 +548,14 @@
         "en": "A1 has no future tense yet, so plans are said with -(I)yor: “A2'ye geliyor musun?” (Are you coming to A2?), “Belki Rusya'ya dönüyorum.” (Maybe I'm going back to Russia). A wish takes istemek: “Ben B2 istiyorum.”, “Boğaz'da çay içmek istiyorum!”. The title is -DAn sonra: A1'den sonra, after A1.",
         "ex": "A2'ye geliyor musun?",
         "fa": "A1 هنوز زمانِ آینده ندارد، برای همین برنامه‌ها را با -(I)yor می‌گوییم: «A2'ye geliyor musun?» (A2 می‌آیی؟)، «Belki Rusya'ya dönüyorum.» (شاید برگردم روسیه). خواستن با istemek است: «Ben B2 istiyorum.»، «Boğaz'da çay içmek istiyorum!» (می‌خواهم کنارِ بسفر چای بخورم!). عنوانِ داستان -DAn sonra است: A1'den sonra، یعنی بعد از A1.",
+        "ru": "В A1 ещё нет будущего времени, поэтому о планах говорят через -(I)yor: «A2'ye geliyor musun?» (Ты пойдёшь на A2?), «Belki Rusya'ya dönüyorum.» (Может, вернусь в Россию). Желание — через istemek: «Ben B2 istiyorum.», «Boğaz'da çay içmek istiyorum!». В названии — -DAn sonra: A1'den sonra, «после A1».",
         "lesson": "g_a1_3_simdiki"
       }
     },
     {
       "en": "Five students, one table… and on Saturday: the ferry!",
       "fa": "پنج تا شاگرد، یه میز… و شنبه: کشتی!",
+      "ru": "Пять учеников, один стол… а в субботу — паром!",
       "narr": true,
       "tr": "Beş öğrenci, bir masa… ve cumartesi: vapur!",
       "who": "kerim"
@@ -517,12 +563,14 @@
   ],
   "summary": {
     "en": "On the half day before the holiday, the class meets at Berfin's café for one last speaking session. Every question is about after A1, and Alex invites everyone to Kadıköy on Saturday.",
-    "fa": "روزِ نیمه‌تعطیلِ پیش از جشن، بچه‌های کلاس برای آخرین تمرینِ مکالمه در کافه‌ی برفین جمع می‌شوند. همه‌ی سؤال‌ها درباره‌ی بعد از A1 است و الکس همه را برای شنبه به کادیکوی دعوت می‌کند."
+    "fa": "روزِ نیمه‌تعطیلِ پیش از جشن، بچه‌های کلاس برای آخرین تمرینِ مکالمه در کافه‌ی برفین جمع می‌شوند. همه‌ی سؤال‌ها درباره‌ی بعد از A1 است و الکس همه را برای شنبه به کادیکوی دعوت می‌کند.",
+    "ru": "В короткий день перед праздником класс собирается в кафе Берфин на последнее занятие по разговору. Все вопросы — о том, что будет после A1, а Алекс зовёт всех в субботу в Кадыкёй."
   },
   "title": {
     "tr": "A1'den sonra",
     "en": "After A1",
-    "fa": "بعد از A1"
+    "fa": "بعد از A1",
+    "ru": "После A1"
   },
   "words": [
     "a1-w-korkmak",

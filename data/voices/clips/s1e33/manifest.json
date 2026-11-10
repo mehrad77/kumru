@@ -1,0 +1,69 @@
+{
+ "story": "s1e33",
+ "lines": {
+  "serkan": {
+   "Köşedeki fırının ekmeği… Feriköy'ün en iyi ekmeği!": {
+    "f": "5f6df0932c1a27.m4a",
+    "ms": 3593,
+    "sig": "a9dd09ea940b15"
+   },
+   "Ucuz, ama bu daha sıcak! Bu daha taze!": {
+    "f": "539b45b357be1d.m4a",
+    "ms": 5249,
+    "sig": "321e7af11612aa"
+   },
+   "Köşedeki en iyi, değil mi?!": {
+    "f": "ef383afef8cdbb.m4a",
+    "ms": 2163,
+    "sig": "1d4dffb7d486e7"
+   },
+   "Tamam, tamam… ama köşedeki daha sıcak!": {
+    "f": "be18d6b0329694.m4a",
+    "ms": 3596,
+    "sig": "34dbcb229bcecf"
+   },
+   "Yanlış mı?!": {
+    "f": "9534e5bd758eb1.m4a",
+    "ms": 1273,
+    "sig": "c8565af521bfff"
+   }
+  },
+  "dilnoza": {
+   "İki fırın, iki ekmek. Önce sen!": {
+    "f": "e15ce7ade2a76e.m4a",
+    "ms": 2880,
+    "sig": "058ff7ed21191d"
+   },
+   "Tamam, yumuşak. Ya şu? Sert mi?": {
+    "f": "a98b9fb5f7e33f.m4a",
+    "ms": 3049,
+    "sig": "af6e4a7a67b9f0"
+   },
+   "Ama sen… şunu sevdin, değil mi?": {
+    "f": "44de29c284ee00.m4a",
+    "ms": 3508,
+    "sig": "88fb225c481aca"
+   },
+   "Ama parktaki fırın da var. O daha ucuz.": {
+    "f": "bb447b74ca17f9.m4a",
+    "ms": 3858,
+    "sig": "3a866a8a2c1753"
+   }
+  },
+  "kerim": {
+   "Sıcak ekmek! Kerim fırının üstünde, Serkan fırının önünde.": {
+    "f": "35833366ba657f.m4a",
+    "ms": 5226,
+    "sig": "57e2fd76e29546"
+   },
+   "Kerim için en iyi ekmek… yerdeki ekmek!": {
+    "f": "7ec1439b760af3.m4a",
+    "ms": 3305,
+    "sig": "50955f5e85370b"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

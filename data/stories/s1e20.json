@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new family",
     "fa": "یک خانواده‌ی تازه",
+    "ru": "Новая семья",
     "id": "s1w04",
     "mechanics": [
       "say",
@@ -23,6 +24,7 @@
     {
       "en": "Nima, who's this? Is this your mother?",
       "fa": "نیما، این کیه؟ مادرتونه؟",
+      "ru": "Нима, кто это? Это ваша мама?",
       "to": "nima",
       "tr": "Nima, bu kim? Bu sizin anneniz mi?",
       "who": "zafer"
@@ -35,6 +37,7 @@
           {
             "en": "Yes, my mother.",
             "fa": "بله، مادرمه.",
+            "ru": "Да, моя мама.",
             "ok": true,
             "react": {
               "zafer": {
@@ -46,6 +49,7 @@
               {
                 "en": "Very good!",
                 "fa": "خیلی خوب!",
+                "ru": "Очень хорошо!",
                 "to": "nima",
                 "tr": "Çok güzel!",
                 "who": "zafer"
@@ -57,6 +61,7 @@
           {
             "en": "Yes, your mother.",
             "fa": "بله، مادرِ شما.",
+            "ru": "Да, ваша мама.",
             "react": {
               "zafer": "laugh"
             },
@@ -64,6 +69,7 @@
               {
                 "en": "Not my mother! Your mother!",
                 "fa": "مادرِ من نه! مادرِ شما!",
+                "ru": "Не моя мама! Ваша мама!",
                 "to": "nima",
                 "tr": "Benim annem değil! Sizin anneniz!",
                 "who": "zafer"
@@ -79,6 +85,7 @@
     {
       "en": "And this? Is this your father?",
       "fa": "و این؟ پدرتونه؟",
+      "ru": "А это? Это ваш папа?",
       "to": "nima",
       "tr": "Ve bu? Sizin babanız mı?",
       "who": "zafer"
@@ -86,6 +93,7 @@
     {
       "en": "Yes, my father.",
       "fa": "بله، پدرمه.",
+      "ru": "Да, мой папа.",
       "to": "zafer",
       "tr": "Evet, benim babam.",
       "who": "nima"
@@ -93,6 +101,7 @@
     {
       "en": "Very good, Nima!",
       "fa": "خیلی خوب، نیما!",
+      "ru": "Очень хорошо, Нима!",
       "to": "nima",
       "tr": "Çok güzel, Nima!",
       "who": "zafer"
@@ -101,94 +110,117 @@
   "gl": {
     "ablan": {
       "fa": "خواهرِ بزرگ‌ترت",
+      "ru": "твоя старшая сестра",
       "en": "your big sister"
     },
     "ablası": {
       "fa": "خواهرِ بزرگ‌ترش",
+      "ru": "его или её старшая сестра",
       "en": "his or her big sister"
     },
     "aileniz": {
       "fa": "خانواده‌ی شما",
+      "ru": "ваша семья (siz)",
       "en": "your family (siz)"
     },
     "ailesi": {
       "fa": "خانواده‌اش",
+      "ru": "его или её семья",
       "en": "their family"
     },
     "anneniz": {
       "fa": "مادرِ شما",
+      "ru": "ваша мама (siz)",
       "en": "your mother (siz)"
     },
     "annesi": {
       "fa": "مادرش",
+      "ru": "его или её мама",
       "en": "his or her mother"
     },
     "ağacım": {
       "fa": "درختم",
+      "ru": "моё дерево",
       "en": "my tree"
     },
     "ağacınız": {
       "fa": "درختِ شما",
+      "ru": "ваше дерево (siz)",
       "en": "your tree (siz)"
     },
     "ağaçlar": {
       "fa": "درخت‌ها",
+      "ru": "деревья",
       "en": "trees"
     },
     "ağaçları": {
       "fa": "درخت‌های… (aile ağaçları: شجره‌نامه‌ها)",
+      "ru": "деревья (aile ağaçları: семейные деревья)",
       "en": "trees (aile ağaçları: family trees)"
     },
     "behzad": {
       "fa": "بهزاد (اسم)",
+      "ru": "Бехзад (имя)",
       "en": "Behzad (a name)"
     },
     "farsçada": {
       "fa": "در فارسی",
+      "ru": "в персидском",
       "en": "in Persian"
     },
     "hepsi": {
       "fa": "همه‌شان",
+      "ru": "все они",
       "en": "all of them"
     },
     "herkesin": {
       "fa": "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
+      "ru": "каждого, у всех",
       "en": "everyone's"
     },
     "moskova": {
       "fa": "مسکو",
+      "ru": "Москва",
       "en": "Moscow"
     },
     "olga": {
       "fa": "اولگا (اسم)",
+      "ru": "Ольга (имя)",
       "en": "Olga (a name)"
     },
     "onun": {
       "fa": "…ِ او (onun adı: اسمِ او)",
+      "ru": "его, её (onun adı: его или её имя)",
       "en": "his, her (onun adı: his or her name)"
     },
     "teyzem": {
       "fa": "خاله‌ام",
+      "ru": "моя тётя (сестра мамы)",
       "en": "my aunt (mother's sister)"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя)",
       "en": "Zafer (a name)"
     },
     "خاله": {
       "fa": "خاله",
+      "ru": "«teyze» по-персидски",
       "en": "teyze in Persian"
     },
     "دایی": {
       "fa": "دایی",
+      "ru": "«dayı» по-персидски",
       "en": "dayı in Persian"
     },
     "babası": {
       "fa": "پدرش",
+      "ru": "его или её папа",
       "en": "his or her father"
     },
     "kardeşi": {
       "fa": "خواهر یا برادرش",
+      "ru": "его или её брат или сестра",
       "en": "his or her sibling"
     }
   },
@@ -294,7 +326,8 @@
       "q": {
         "tr": "Olga ne iş yapıyor?",
         "en": "What does Olga do?",
-        "fa": "اولگا چه‌کاره‌ست؟"
+        "fa": "اولگا چه‌کاره‌ست؟",
+        "ru": "Кем работает Ольга?"
       },
       "options": [
         "Mühendis",
@@ -309,7 +342,8 @@
       "q": {
         "tr": "Parvane: “Bu …, bu da teyzem!”",
         "en": "Parvaneh: “This is my …, and this is my aunt!”",
-        "fa": "پروانه: «این … منه، این هم خاله‌م!»"
+        "fa": "پروانه: «این … منه، این هم خاله‌م!»",
+        "ru": "Парване: «Это …, а это моя тётя!»"
       },
       "options": [
         "eşim",
@@ -351,6 +385,7 @@
     {
       "en": "Trees! But which trees? Family trees!",
       "fa": "درخت! ولی چه درختی؟ درختِ خانوادگی!",
+      "ru": "Деревья! Но какие деревья? Семейные!",
       "narr": true,
       "tr": "Ağaçlar! Ama hangi ağaçlar? Aile ağaçları!",
       "who": "kerim"
@@ -375,16 +410,18 @@
       "at": "obj:zafer_agaci",
       "do": "point",
       "emo": "happy",
-      "en": "This is my mother, this is my father, and this is my wife. And who's this?",
-      "fa": "این مادرمه، این پدرمه، این هم همسرمه. این کیه؟",
+      "en": "This is my mother, this is my father, and this is my wife. So who's this?",
+      "fa": "این مادرمه، این پدرمه، این هم همسرمه. خب، این کیه؟",
+      "ru": "Это моя мама, это мой папа, а это моя жена. Ну а это кто?",
       "to": "nima",
-      "tr": "Bu annem, bu babam, bu da eşim. Ve bu kim?",
+      "tr": "Bu annem, bu babam, bu da eşim. Peki, bu kim?",
       "who": "zafer"
     },
     {
       "emo": "curious",
       "en": "Is it your daughter, teacher?",
       "fa": "دخترتونه، استاد؟",
+      "ru": "Ваша дочь, учитель?",
       "to": "zafer",
       "tr": "Kızınız mı, hocam?",
       "who": "nima"
@@ -394,6 +431,7 @@
       "emo": "proud",
       "en": "Yes, my daughter. She's three. Now… your families!",
       "fa": "آره، دخترمه. سه سالشه. حالا… نوبتِ خانواده‌های شما!",
+      "ru": "Да, моя дочь. Ей три года. А теперь… ваши семьи!",
       "to": "all",
       "tr": "Evet, kızım. Üç yaşında. Şimdi… sizin aileniz!",
       "who": "zafer"
@@ -415,6 +453,7 @@
       "emo": "proud",
       "en": "This is my dad, Behzad. He's an engineer!",
       "fa": "این بابامه، اسمش بهزاده. مهندسه!",
+      "ru": "Это мой папа, его зовут Бехзад. Инженер!",
       "move": {
         "how": "walk",
         "to": "board",
@@ -429,6 +468,7 @@
       "tr": "Ya bu kim?",
       "en": "And who's this?",
       "fa": "این یکی کیه؟",
+      "ru": "А это кто?",
       "to": "parvaneh",
       "emo": "curious",
       "do": "point",
@@ -439,6 +479,7 @@
       "tr": "Annem! O öğretmen. Bu dayım… bu da teyzem!",
       "en": "My mum! She's a teacher. This is my uncle… and this is my aunt!",
       "fa": "مامانمه! معلمه. این دایی‌مه… این هم خاله‌م!",
+      "ru": "Моя мама! Она учительница. Это мой дядя… а это моя тётя!",
       "to": "zafer",
       "emo": "happy",
       "do": "point",
@@ -448,6 +489,7 @@
       "emo": "curious",
       "en": "Dayı, teyze… do you have those in Persian too?",
       "fa": "dayı، teyze… توی فارسی هم هست؟",
+      "ru": "«Dayı», «teyze»… А в персидском такие есть?",
       "to": "parvaneh",
       "tr": "Dayı, teyze… Farsçada da var mı?",
       "who": "zafer"
@@ -457,6 +499,7 @@
       "emo": "laugh",
       "en": "Yes! Dayı is دایی. Teyze is خاله. Amca, hala… we have them all!",
       "fa": "بله! dayı یعنی دایی، teyze یعنی خاله. amca، hala… همه‌شون رو داریم!",
+      "ru": "Да! «Dayı» — دایی. «Teyze» — خاله. «Amca», «hala»… все есть!",
       "to": "zafer",
       "tr": "Evet! Dayı: دایی. Teyze: خاله. Amca, hala… hepsi var!",
       "who": "parvaneh"
@@ -466,6 +509,7 @@
       "tr": "İki lira, Parvane!",
       "en": "Two lira, Parvaneh!",
       "fa": "دو لیر، پروانه!",
+      "ru": "Две лиры, Парване!",
       "to": "parvaneh",
       "emo": "laugh",
       "do": "point",
@@ -513,6 +557,7 @@
       "emo": "shy",
       "en": "I have a big sister. Her name is Olga. She's a doctor… in Moscow.",
       "fa": "من یه خواهرِ بزرگ‌تر دارم. اسمش اولگاست. دکتره… توی مسکو.",
+      "ru": "У меня есть старшая сестра. Её зовут Ольга. Она врач… в Москве.",
       "move": {
         "how": "walk",
         "to": "board",
@@ -526,6 +571,7 @@
     {
       "en": "Nima, who is Olga?",
       "fa": "نیما، اولگا کیه؟",
+      "ru": "Нима, кто такая Ольга?",
       "to": "nima",
       "tr": "Nima, Olga kim?",
       "who": "zafer"
@@ -539,6 +585,7 @@
             "emo": "happy",
             "en": "His big sister.",
             "fa": "خواهرِ بزرگ‌ترش.",
+            "ru": "Его старшая сестра.",
             "ok": true,
             "react": {
               "alex": {
@@ -551,6 +598,7 @@
                 "emo": "happy",
                 "en": "Yes! My big sister!",
                 "fa": "آره! خواهرِ بزرگمه!",
+                "ru": "Да! Моя старшая сестра!",
                 "to": "nima",
                 "tr": "Evet! Benim ablam!",
                 "who": "alex"
@@ -563,6 +611,7 @@
             "emo": "curious",
             "en": "His mother.",
             "fa": "مادرش.",
+            "ru": "Его мама.",
             "react": {
               "alex": "laugh"
             },
@@ -572,6 +621,7 @@
                 "emo": "laugh",
                 "en": "Not my mum! My big sister!",
                 "fa": "مادرم نه! خواهرِ بزرگم!",
+                "ru": "Не мама! Сестра!",
                 "to": "nima",
                 "tr": "Annem değil! Ablam!",
                 "who": "alex"
@@ -584,6 +634,7 @@
             "emo": "curious",
             "en": "My big sister.",
             "fa": "خواهرِ بزرگِ من.",
+            "ru": "Моя старшая сестра.",
             "react": {
               "parvaneh": {
                 "emo": "surprised"
@@ -595,6 +646,7 @@
                 "emo": "laugh",
                 "en": "Your big sister?! No… his big sister!",
                 "fa": "خواهرِ تو؟! نه… خواهرِ اون!",
+                "ru": "Твоя старшая сестра?! Нет… его старшая сестра!",
                 "to": "nima",
                 "tr": "Senin ablan mı?! Hayır… onun ablası!",
                 "who": "parvaneh"
@@ -627,6 +679,7 @@
       "emo": "happy",
       "en": "Tomorrow it's your tree, Nima! Mother, father, big sister, big brother, grandfather… Here you are.",
       "fa": "فردا نوبتِ درختِ شماست، نیما! مادر، پدر، خواهر، برادر، پدربزرگ… بفرمایید.",
+      "ru": "Завтра — ваше дерево, Нима! Мама, папа, старшая сестра, старший брат, дедушка… Держите.",
       "move": {
         "how": "walk",
         "to": "desk_nima",
@@ -647,6 +700,7 @@
       "emo": "shy",
       "en": "My tree is small!",
       "fa": "درختِ من کوچیکه!",
+      "ru": "Моё дерево маленькое!",
       "to": "zafer",
       "tr": "Benim ağacım küçük!",
       "who": "nima"
@@ -657,6 +711,7 @@
       "emo": "laugh",
       "en": "My tree is huge!",
       "fa": "درختِ من خیلی بزرگه!",
+      "ru": "А моё дерево огромное!",
       "link": {
         "ağacım": "obj:parvane_agaci"
       },
@@ -679,6 +734,7 @@
         "en": "One word, three owners. ablam: my big sister. ablan: your big sister. ablası: his or her big sister, and you can say onun first: onun ablası, onun adı. The same with anne: annem, annen, annesi.",
         "ex": "Onun adı Olga.",
         "fa": "یک کلمه، سه صاحب. ablam یعنی خواهرِ بزرگِ من، ablan یعنی مالِ تو، ablası یعنی مالِ او؛ و می‌شود قبلش onun را هم گفت: onun ablası، onun adı. با anne هم همین‌طور: annem، annen، annesi. درست مثلِ فارسی: خواهرم، خواهرت، خواهرش.",
+        "ru": "Одно слово — три хозяина. ablam: моя старшая сестра. ablan: твоя старшая сестра. ablası: его или её старшая сестра, и перед ним можно сказать onun: onun ablası, onun adı. С anne так же: annem, annen, annesi.",
         "lesson": "g_a1_4_iyelik",
         "show": "owner"
       }
@@ -694,6 +750,7 @@
     {
       "en": "Nima writes: mum, dad, sibling… and a small child. But what's it called in Turkish?",
       "fa": "نیما می‌نویسه: مامانش، باباش، خواهر یا برادرش… و یه بچه‌ی کوچیک. ولی اسمش به ترکی چیه؟",
+      "ru": "Нима пишет: мама, папа, брат или сестра… и маленький ребёнок. Но как это по-турецки?",
       "narr": true,
       "tr": "Nima yazıyor: annesi, babası, kardeşi… ve küçük bir çocuk. Ama Türkçe adı ne?",
       "who": "kerim"
@@ -701,12 +758,14 @@
   ],
   "summary": {
     "en": "Zafer Hoca starts the week's project: everyone draws a family tree. He shows his own; Parvaneh shows her huge one and says Persian also has a separate word for each kind of uncle and aunt; and Alex introduces his big sister Olga.",
-    "fa": "استاد ظفر پروژه‌ی این هفته را شروع می‌کند: هر کس شجره‌نامه‌ی خانواده‌اش را می‌کشد. اول شجره‌نامه‌ی خودش را نشان می‌دهد، بعد پروانه شجره‌نامه‌ی بزرگش را، و پروانه می‌گوید فارسی هم برای دایی، خاله، عمو و عمه کلمه‌ی جدا دارد. الکس هم خواهرِ بزرگش اولگا را معرفی می‌کند."
+    "fa": "استاد ظفر پروژه‌ی این هفته را شروع می‌کند: هر کس شجره‌نامه‌ی خانواده‌اش را می‌کشد. اول شجره‌نامه‌ی خودش را نشان می‌دهد، بعد پروانه شجره‌نامه‌ی بزرگش را، و پروانه می‌گوید فارسی هم برای دایی، خاله، عمو و عمه کلمه‌ی جدا دارد. الکس هم خواهرِ بزرگش اولگا را معرفی می‌کند.",
+    "ru": "Зафер начинает проект недели: каждый рисует семейное дерево. Он показывает своё; Парване — своё огромное и рассказывает, что в персидском тоже есть отдельное слово для каждого дяди и каждой тёти; а Алекс представляет свою старшую сестру Ольгу."
   },
   "title": {
     "tr": "Aile ağacı",
     "en": "The family tree",
-    "fa": "شجره‌نامه"
+    "fa": "شجره‌نامه",
+    "ru": "Семейное дерево"
   },
   "words": [
     "a1-w-aile",

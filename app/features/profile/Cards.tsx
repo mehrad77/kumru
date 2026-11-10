@@ -33,7 +33,7 @@ export function LanguageCard() {
   return (
     <SetCard title="Language">
       <SetRow title="Help language" sub="The translations beside the Turkish: in stories, practice, tips and AI explanations.">
-        <Seg cur={helpLang()} opts={[["fa", "فارسی"], ["en", "English"], ["both", "Both"], ["none", "None"]]} onPick={(v) => setPref("lang", v)} />
+        <Seg cur={helpLang()} opts={[["fa", "فارسی"], ["en", "English"], ["ru", "Русский"], ["both", "Both"], ["none", "None"]]} onPick={(v) => setPref("lang", v)} />
       </SetRow>
       <p class="hint">None keeps stories Turkish only: tap any word for its meaning. Practice still shows meanings, in English.</p>
     </SetCard>

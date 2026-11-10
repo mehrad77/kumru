@@ -1,0 +1,78 @@
+{
+ "story": "s1e05",
+ "lines": {
+  "ismail": {
+   "Günaydın! Hoş geldiniz!": {
+    "f": "7aed0673abac25.m4a",
+    "ms": 1656,
+    "sig": "9351f2b94ef3f1"
+   },
+   "…Selam. Günaydın!": {
+    "f": "b76c728d5041e0.m4a",
+    "ms": 2951,
+    "sig": "c947cfaf8e4672"
+   },
+   "Sağ olun!": {
+    "f": "ed8d753ca2a890.m4a",
+    "ms": 554,
+    "sig": "c4efcb9c4965d4"
+   },
+   "…Günaydın?": {
+    "f": "7bf113fadd5f3f.m4a",
+    "ms": 641,
+    "sig": "5b20641ac14a58"
+   },
+   "Nerelisiniz?": {
+    "f": "423c019dfc3a95.m4a",
+    "ms": 765,
+    "sig": "171072d61a4e4e"
+   },
+   "Tahran! Çok güzel.": {
+    "f": "afd9b530f39789.m4a",
+    "ms": 1427,
+    "sig": "12dd3027333e93"
+   },
+   "Rizeliyim! Çay!": {
+    "f": "247adeb4d3a382.m4a",
+    "ms": 1713,
+    "sig": "7afdda9d0023d7",
+    "doubt": "heard \"Rize edeyim. Çay.\""
+   },
+   "Ekmek… bir ekmek. Yumurta… on yumurta. Zeytin? Siyah mı, yeşil mi?": {
+    "f": "af47f760e9ebe7.m4a",
+    "ms": 7026,
+    "sig": "0bc3d9b02158ba"
+   },
+   "Su… iki su. Tamam!": {
+    "f": "671d5a806483b3.m4a",
+    "ms": 2333,
+    "sig": "48182a07eabc57"
+   },
+   "Bu… çay! Rize! Okul? Öğrenci mi?": {
+    "f": "fe92e88701e0bb.m4a",
+    "ms": 3255,
+    "sig": "77627743452751"
+   },
+   "Güle güle! Her gün çay… burada!": {
+    "f": "e91fcce114cc1c.m4a",
+    "ms": 4287,
+    "sig": "7b3c197aa05b3a"
+   }
+  },
+  "kerim": {
+   "Burası Taksim. Bu bir bakkal.": {
+    "f": "a6dcaf8a20ef0a.m4a",
+    "ms": 2618,
+    "sig": "4be8d7a672d9ff"
+   },
+   "Ekmek, yumurta, zeytin… ve çay. Ve İsmail.": {
+    "f": "e05c5c7a6d8d88.m4a",
+    "ms": 4352,
+    "sig": "c0933cebb7f1e8"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

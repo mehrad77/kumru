@@ -1,0 +1,86 @@
+{
+ "story": "s1e26",
+ "lines": {
+  "zafer": {
+   "Peki… saat kaçta kalkıyorsunuz?": {
+    "f": "73a23d756402f2.m4a",
+    "ms": 1727,
+    "sig": "be2beb3e01284f"
+   },
+   "Ben genellikle saat altıda kalkıyorum. Yedide kahvaltı ediyorum. Sekizde okuldayım.": {
+    "f": "bcef2a849cde0e.m4a",
+    "ms": 8034,
+    "sig": "1eff6ee5a23a63"
+   },
+   "On birde. Ama bazen ödevleri okuyorum… gece yarısına kadar!": {
+    "f": "35c2fba0786852.m4a",
+    "ms": 5070,
+    "sig": "5a2e12e832fbe6"
+   },
+   "Tamam: perşembe, saat on ikide!": {
+    "f": "8a9edbeb442ca5.m4a",
+    "ms": 2323,
+    "sig": "7e8f64cde00041"
+   },
+   "Konuşma pratiği istiyor musunuz? Bu hafta perşembe, öğle yemeğinde sınıf boş.": {
+    "f": "76feabb1fb55de.m4a",
+    "ms": 4847,
+    "sig": "4194d4292eb287"
+   },
+   "Saat on iki iyi mi? Öğle yemeğinde.": {
+    "f": "5beb78c1247b66.m4a",
+    "ms": 3729,
+    "sig": "2a5e7c55473323"
+   },
+   "…Saat kaçta? On ikide, tamam mı?": {
+    "f": "95d23bfd7fc03b.m4a",
+    "ms": 2762,
+    "sig": "f402f06a40a6a1"
+   },
+   "Günaydın! Çok erkensiniz!": {
+    "f": "5088746a2d33f4.m4a",
+    "ms": 2246,
+    "sig": "a2b9570d845a27"
+   }
+  },
+  "parvaneh": {
+   "Alex! Yine uykulusun!": {
+    "f": "93fbae73e79573.m4a",
+    "ms": 2356,
+    "sig": "1b77f0482eabfd"
+   },
+   "Nima?! Sen… erken mi geldin?! Dün geç, bugün erken!": {
+    "f": "a595457262ade1.m4a",
+    "ms": 8585,
+    "sig": "9b40b17de6d978"
+   }
+  },
+  "alex": {
+   "Gece çalışıyorum. Kadıköy'de, bir hostelde. Saat on birden yediye kadar.": {
+    "f": "bcbc1238ce5931.m4a",
+    "ms": 6703,
+    "sig": "7323465dbca1bc"
+   },
+   "…Derste!": {
+    "f": "f8626523152e76.m4a",
+    "ms": 523,
+    "sig": "63762a543896d7"
+   }
+  },
+  "kerim": {
+   "Saat sekiz buçuk. Sınıf boş… ama Nima burada!": {
+    "f": "b7b5949adfc700.m4a",
+    "ms": 5627,
+    "sig": "305f1824e25abe"
+   },
+   "Saat dokuz. Herkes burada. Alex de burada… biraz.": {
+    "f": "2ffdbfac18078b.m4a",
+    "ms": 4781,
+    "sig": "4b7d707c3416b0"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

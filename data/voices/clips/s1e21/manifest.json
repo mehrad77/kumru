@@ -1,0 +1,91 @@
+{
+ "story": "s1e21",
+ "lines": {
+  "dilnoza": {
+   "Bu ülkem! Haritayı görüyor musunuz? Bu Semerkant.": {
+    "f": "1da5d54e1be393.m4a",
+    "ms": 4278,
+    "sig": "b06eb187817123"
+   },
+   "Farsça gibi! Babaannem Farsçayı anlıyor!": {
+    "f": "4332f25f959d46.m4a",
+    "ms": 3463,
+    "sig": "090212e46e0f80"
+   },
+   "Annem Özbekçe konuşuyor. Babaannem Tacikçe konuşuyor.": {
+    "f": "08827dc05ca877.m4a",
+    "ms": 5506,
+    "sig": "4735cb7a1b5d1c"
+   }
+  },
+  "zafer": {
+   "Aa, Semerkant!": {
+    "f": "f06dad3557576e.m4a",
+    "ms": 1581,
+    "sig": "1f863ba041162f"
+   },
+   "Evet: yeğen! Çok güzel, Nima!": {
+    "f": "04faef5e555790.m4a",
+    "ms": 2037,
+    "sig": "006c24b966440f"
+   },
+   "Rica ederim.": {
+    "f": "ebffea6fe1b1ef.m4a",
+    "ms": 3303,
+    "sig": "bcc0f7abb17b00"
+   },
+   "Kötü mü? Ama çok güzel!": {
+    "f": "b70545bc6e7527.m4a",
+    "ms": 3272,
+    "sig": "f9dacbdcdc40a2"
+   },
+   "Evet… çok güzel. Teşekkürler, Nima.": {
+    "f": "151f5f5498048f.m4a",
+    "ms": 3273,
+    "sig": "1e6393ddfc831f"
+   },
+   "Peki, sözlüğünüz… Arapça mı?": {
+    "f": "754ddea86e1e54.m4a",
+    "ms": 3911,
+    "sig": "c5cc9f5c7dd58f"
+   }
+  },
+  "yusuf": {
+   "Bir dakika… sözlükte… Yeğen!": {
+    "f": "24439aac566d3e.m4a",
+    "ms": 2789,
+    "sig": "6b9a9992e0bed1"
+   },
+   "Kardeşin var, değil mi? Onun çocuğu: yeğen!": {
+    "f": "eb61f24246f922.m4a",
+    "ms": 2331,
+    "sig": "7fab20e6ed7b7d"
+   },
+   "Ailem Halep'te ve Gaziantep'te.": {
+    "f": "1924517ead09c8.m4a",
+    "ms": 3658,
+    "sig": "6f4f3cad0b4977"
+   },
+   "Evet! Kitap, kalem, saat… Arapçada da var!": {
+    "f": "7f69c3fd5659cb.m4a",
+    "ms": 4387,
+    "sig": "06653a6a1d4b50"
+   }
+  },
+  "kerim": {
+   "Bugün üç ağaç. Ama bir ağaçta… bir kelime yok!": {
+    "f": "59da581e6f73b0.m4a",
+    "ms": 3635,
+    "sig": "7ac7a50744757a"
+   },
+   "Özbekçe, Farsça, Arapça, Rusça… ve Türkçe. Üç ağaç, bir sınıf!": {
+    "f": "b7bd49c6055e20.m4a",
+    "ms": 9503,
+    "sig": "6564eef41e9b56"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

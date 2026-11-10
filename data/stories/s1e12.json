@@ -2,6 +2,7 @@
   "arc": {
     "en": "Where's home?",
     "fa": "خانه کجاست؟",
+    "ru": "Где дом?",
     "id": "s1w02",
     "mechanics": [
       "say",
@@ -28,6 +29,7 @@
     {
       "en": "Come, dear, come! Fresh cheese!",
       "fa": "بیا عزیزم، بیا! پنیرِ تازه!",
+      "ru": "Подходи, душа моя, подходи! Свежий сыр!",
       "to": "nima",
       "tr": "Gel canım, gel! Taze peynir!",
       "who": "hatice"
@@ -40,6 +42,7 @@
           {
             "en": "How much is the cheese?",
             "fa": "پنیر چنده؟",
+            "ru": "Сколько стоит сыр?",
             "ok": true,
             "react": {
               "hatice": {
@@ -51,6 +54,7 @@
               {
                 "en": "Four hundred lira a kilo! How many kilos?",
                 "fa": "کیلویی چهارصد لیر! چند کیلو؟",
+                "ru": "Четыреста лир кило! Сколько кило?",
                 "tr": "Kilo dört yüz lira! Kaç kilo?",
                 "who": "hatice"
               }
@@ -61,6 +65,7 @@
           {
             "en": "The cheese is which in the row?",
             "fa": "پنیر چندمه؟",
+            "ru": "Сыр — какой по счёту?",
             "react": {
               "hatice": "confused"
             },
@@ -68,6 +73,7 @@
               {
                 "en": "Which in the row? No, dear: how much! Four hundred a kilo. How many kilos?",
                 "fa": "چندم؟ نه عزیزم: چند لیر! کیلویی چهارصد. چند کیلو؟",
+                "ru": "Какой по счёту? Нет, душа моя: сколько лир! Кило — четыреста. Сколько кило?",
                 "tr": "Kaçıncı mı? Hayır canım: kaç lira! Kilo dört yüz. Kaç kilo?",
                 "who": "hatice"
               }
@@ -82,6 +88,7 @@
     {
       "en": "Half a kilo, please.",
       "fa": "نیم کیلو، لطفاً.",
+      "ru": "Полкило, пожалуйста.",
       "to": "hatice",
       "tr": "Yarım kilo, lütfen.",
       "who": "nima"
@@ -89,6 +96,7 @@
     {
       "en": "Half a kilo… two hundred lira. Enjoy!",
       "fa": "نیم کیلو… دویست لیر. نوشِ جان!",
+      "ru": "Полкило… двести лир. Приятного аппетита!",
       "to": "nima",
       "tr": "Yarım kilo… iki yüz lira. Afiyet olsun!",
       "who": "hatice"
@@ -97,75 +105,98 @@
   "gl": {
     "abla": {
       "fa": "خواهر بزرگ‌تر؛ خطابِ دوستانه به یک زن («Gel abla gel!»: صدای فروشنده‌ها)",
+      "ru": "старшая сестра; дружеское обращение к женщине («Gel abla gel!»: зазывание на базаре)",
       "en": "elder sister; a friendly way to call a woman (“Gel abla gel!”: the market call)"
     },
     "adım": {
       "fa": "اسمم («Benim adım…»: اسمِ من…)",
+      "ru": "моё имя («Benim adım…»: меня зовут…)",
       "en": "my name (“Benim adım…”: my name is…)"
     },
     "bende": {
       "fa": "پیشِ من، با من («Çantalar bende»: کیسه‌ها با من)",
+      "ru": "у меня («Çantalar bende»: сумки у меня)",
       "en": "with me (“Çantalar bende”: I've got the bags)"
     },
     "bilmiyor": {
       "fa": "نمی‌داند",
+      "ru": "не знает",
       "en": "doesn't know"
     },
     "bilmiyorum": {
       "fa": "نمی‌دانم",
+      "ru": "я не знаю",
       "en": "I don't know"
     },
     "buzdolabı": {
       "fa": "یخچال",
+      "ru": "холодильник",
       "en": "fridge"
     },
     "canım": {
       "fa": "عزیزم",
+      "ru": "душа моя, дорогой (дорогая)",
       "en": "my dear"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a neighbourhood of Şişli)"
     },
     "hadi": {
       "fa": "بریم! زود باش!",
+      "ru": "давай! пошли!",
       "en": "come on! let's go!"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means “swallow”)"
     },
     "organik": {
       "fa": "ارگانیک",
+      "ru": "органический",
       "en": "organic"
     },
     "yardım": {
       "fa": "کمک",
+      "ru": "помощь",
       "en": "help"
     },
     "yerde": {
       "fa": "روی زمین",
+      "ru": "на полу",
       "en": "on the floor"
     },
     "çatı": {
       "fa": "پشت‌بام",
+      "ru": "крыша",
       "en": "roof"
     },
     "çatıda": {
       "fa": "روی پشت‌بام",
+      "ru": "на крыше",
       "en": "on the roof"
     },
     "üçüncü": {
       "fa": "سوم",
+      "ru": "третий",
       "en": "third"
     },
     "kilosu": {
       "fa": "هر کیلویش (کیلویی)",
+      "ru": "его килограмм, за кило",
       "en": "a kilo of it, per kilo"
     },
     "herkes": {
       "fa": "همه",
+      "ru": "все",
       "en": "everyone"
+    },
+    "of": {
+      "fa": "اوف! (خستگی، کلافگی)",
+      "ru": "ох! уф! (усталость, досада)",
+      "en": "ugh!, phew! (tired, fed up)"
     }
   },
   "id": "s1e12",
@@ -244,7 +275,8 @@
       "q": {
         "tr": "Evde ne yok?",
         "en": "What is missing in the flat?",
-        "fa": "در خانه چه چیزی نیست؟"
+        "fa": "در خانه چه چیزی نیست؟",
+        "ru": "Чего нет в квартире?"
       },
       "why": "Farzad: “Buzdolabı yok!”"
     },
@@ -259,7 +291,8 @@
       "q": {
         "tr": "Hatice Abla domatesler için ne diyor?",
         "en": "What does Hatice Abla say about her tomatoes?",
-        "fa": "خدیجه خانم درباره‌ی گوجه‌هایش چه می‌گوید؟"
+        "fa": "خدیجه خانم درباره‌ی گوجه‌هایش چه می‌گوید؟",
+        "ru": "Что Хатидже говорит о своих помидорах?"
       },
       "why": "Hatice Abla: “Kilosu seksen lira! Taze, taze! Gel abla gel!”"
     }
@@ -315,6 +348,7 @@
       "emo": "happy",
       "en": "Today is Saturday. There's a pazar in Feriköy, a market! Pazar? But pazar is Sunday, and today is Saturday! Yes… a pazar!",
       "fa": "امروز شنبه‌ست. توی فری‌کؤی «پازار» هست! پازار؟ «پازار» که یعنی یکشنبه؛ امروز شنبه‌ست! آره… «پازار» یعنی بازار هم!",
+      "ru": "Сегодня суббота. В Ферикёе базар — «pazar»! «Pazar»? Но «pazar» — это воскресенье, а сегодня суббота! Да… базар!",
       "narr": true,
       "tr": "Bugün cumartesi. Feriköy'de pazar var! Pazar? Ama bugün cumartesi! Evet… pazar!",
       "who": "kerim"
@@ -323,6 +357,7 @@
       "emo": "happy",
       "en": "Good morning! Everyone's here!",
       "fa": "صبح بخیر! همه اومدن!",
+      "ru": "Доброе утро! Все здесь!",
       "to": "all",
       "tr": "Günaydın! Herkes burada!",
       "who": "nima"
@@ -331,6 +366,7 @@
       "emo": "curious",
       "en": "So what is there in the flat, and what isn't?",
       "fa": "توی خونه چی هست، چی نیست؟",
+      "ru": "Ну, что в квартире есть, а чего нет?",
       "to": "nima",
       "tr": "Evde ne var, ne yok?",
       "who": "kirlangic"
@@ -340,6 +376,7 @@
       "emo": "neutral",
       "en": "There's no fridge!",
       "fa": "یخچال نداره!",
+      "ru": "Холодильника нет!",
       "on": "yok",
       "to": "kirlangic",
       "tr": "Buzdolabı yok!",
@@ -349,22 +386,25 @@
       "emo": "curious",
       "en": "Is there a table?",
       "fa": "میز داره؟",
+      "ru": "Стол есть?",
       "to": "nima",
       "tr": "Masa var mı?",
       "who": "yusuf"
     },
     {
       "emo": "neutral",
-      "en": "There's a table. There are no chairs.",
-      "fa": "میز داره. صندلی نداره.",
+      "en": "There is! But no chairs.",
+      "fa": "داره! ولی صندلی نداره.",
+      "ru": "Есть! Но стульев нет.",
       "to": "yusuf",
-      "tr": "Masa var. Sandalye yok.",
+      "tr": "Var! Ama sandalye yok.",
       "who": "nima"
     },
     {
       "emo": "happy",
       "en": "Right! The list, Alex: chairs, plates… Come on!",
       "fa": "خب! فهرست، الکس: صندلی، بشقاب… بریم!",
+      "ru": "Так! Список, Алекс: стулья, тарелки… Давай!",
       "obj": [
         {
           "id": "liste",
@@ -396,6 +436,7 @@
       "emo": "happy",
       "en": "The bags… I've got them!",
       "fa": "کیسه‌ها… با من!",
+      "ru": "Сумки… у меня!",
       "obj": [
         {
           "id": "cantalar",
@@ -411,6 +452,7 @@
       "emo": "happy",
       "en": "Thanks a lot!",
       "fa": "خیلی ممنون!",
+      "ru": "Большое спасибо!",
       "to": "nima",
       "tr": "Çok teşekkürler!",
       "who": "kirlangic"
@@ -421,6 +463,7 @@
       "emo": "curious",
       "en": "How much are the tomatoes?",
       "fa": "گوجه چنده؟",
+      "ru": "Сколько стоят помидоры?",
       "move": [
         {
           "how": "walk",
@@ -442,6 +485,7 @@
       "emo": "happy",
       "en": "Eighty lira a kilo! Fresh, fresh! Come on, love, come and see!",
       "fa": "کیلویی هشتاد لیر! تازه، تازه! بیا آبجی، بیا!",
+      "ru": "Восемьдесят лир кило! Свежие, свежие! Подходи, сестрица, подходи!",
       "obj": [
         {
           "id": "fiyat_etiketi",
@@ -468,6 +512,7 @@
       "emo": "happy",
       "en": "Cheese: half a kilo. Milk, eggs… and bread!",
       "fa": "پنیر: نیم کیلو. شیر، تخم‌مرغ… و نون!",
+      "ru": "Сыр: полкило. Молоко, яйца… и хлеб!",
       "obj": [
         {
           "id": "liste",
@@ -493,6 +538,7 @@
       "emo": "happy",
       "en": "Tomatoes, dear? Two kilos… a hundred and sixty lira!",
       "fa": "گوجه، عزیزم؟ دو کیلو… صد و شصت لیر!",
+      "ru": "Помидоры, душа моя? Два кило… сто шестьдесят лир!",
       "n": 2,
       "to": "nima",
       "tr": "Domates, canım? İki kilo… yüz altmış lira!",
@@ -507,6 +553,7 @@
             "emo": "shy",
             "en": "A bit expensive, isn't it?",
             "fa": "یه کم گرونه، نه؟",
+            "ru": "Дороговато, правда?",
             "ok": true,
             "react": {
               "hatice": {
@@ -518,6 +565,7 @@
                 "emo": "happy",
                 "en": "All right, dear, a hundred and fifty lira!",
                 "fa": "باشه عزیزم، صد و پنجاه لیر!",
+                "ru": "Ладно, душа моя, сто пятьдесят лир!",
                 "to": "nima",
                 "tr": "Tamam canım, yüz elli lira!",
                 "who": "hatice"
@@ -530,6 +578,7 @@
             "emo": "annoyed",
             "en": "Far too expensive!",
             "fa": "خیلی گرونه!",
+            "ru": "Очень дорого!",
             "react": {
               "hatice": {
                 "emo": "annoyed"
@@ -540,6 +589,7 @@
                 "emo": "annoyed",
                 "en": "Expensive? They're organic!",
                 "fa": "گرون؟ ارگانیکه!",
+                "ru": "Дорого? Они органические!",
                 "to": "nima",
                 "tr": "Pahalı mı? Organik!",
                 "who": "hatice"
@@ -553,6 +603,7 @@
             "emo": "happy",
             "en": "Fine, here you are!",
             "fa": "باشه، بفرمایید!",
+            "ru": "Ладно, пожалуйста!",
             "react": {
               "farzad": {
                 "emo": "tired"
@@ -566,6 +617,7 @@
                 "emo": "tired",
                 "en": "It's a market, Nima… a market!",
                 "fa": "بازاره دیگه، نیما… بازار!",
+                "ru": "Это базар, Нима… базар!",
                 "to": "nima",
                 "tr": "Pazar, Nima… pazar!",
                 "who": "farzad"
@@ -584,6 +636,7 @@
         "en": "Kaç asks how many or how much, and the noun after a number stays singular: Kaç lira? Seksen. Kaç kilo? İki kilo, not “iki kilolar”. Kaç kişi? Yedi! Persian does the same: دو کیلو، هفت نفر.",
         "ex": "Domates kaç lira?",
         "fa": "«kaç» یعنی چند، و اسمِ بعد از عدد مفرد می‌ماند: Kaç lira? Seksen (چند لیر؟ هشتاد). Kaç kilo? İki kilo، نه «iki kilolar». Kaç kişi? Yedi! (چند نفر؟ هفت!) فارسی هم همین‌طور است: دو کیلو، هفت نفر.",
+        "ru": "Kaç спрашивает «сколько», и существительное после числа остаётся в единственном числе: Kaç lira? Seksen. Kaç kilo? İki kilo, а не «iki kilolar». Kaç kişi? Yedi! Похоже на русское «семь человек», а не «семь людей».",
         "lesson": "g_a1_2_sayilar",
         "n": 7
       }
@@ -604,6 +657,7 @@
       "emo": "tired",
       "en": "First… second… third… fourth!",
       "fa": "اول… دوم… سوم… چهارم!",
+      "ru": "Первый… второй… третий… четвёртый!",
       "move": [
         {
           "how": "walk",
@@ -655,6 +709,7 @@
       "emo": "happy",
       "en": "Thank you so much!",
       "fa": "خیلی ممنونم!",
+      "ru": "Огромное спасибо!",
       "obj": [
         {
           "at": "kitchen",
@@ -671,6 +726,7 @@
       "emo": "happy",
       "en": "You're welcome!",
       "fa": "خواهش می‌کنم!",
+      "ru": "Не за что!",
       "react": {
         "kirlangic": "hand_heart",
         "yusuf": "nod"
@@ -681,10 +737,11 @@
     },
     {
       "emo": "tired",
-      "en": "I'm so tired! Is there any tea?",
-      "fa": "من خیلی خسته‌ام! چای هست؟",
+      "en": "Ugh, I'm so tired! Is there any tea?",
+      "fa": "اوف، خیلی خسته‌ام! چای هست؟",
+      "ru": "Ох, как я устала! Чай есть?",
       "to": "nima",
-      "tr": "Ben çok yorgunum! Çay var mı?",
+      "tr": "Of, çok yorgunum! Çay var mı?",
       "who": "parvaneh"
     },
     {
@@ -698,6 +755,7 @@
             "emo": "happy",
             "en": "The roof! I have the key. Tea on the roof!",
             "fa": "پشت‌بوم! کلید دارم. چای روی پشت‌بوم!",
+            "ru": "Крыша! У меня есть ключ. Чай на крыше!",
             "obj": [
               {
                 "id": "anahtarlar",
@@ -716,6 +774,7 @@
                 "emo": "tired",
                 "en": "The roof?! One more floor. All right!",
                 "fa": "پشت‌بوم؟! یه طبقه‌ی دیگه. باشه!",
+                "ru": "На крышу?! Ещё… один этаж. Ладно!",
                 "to": "nima",
                 "tr": "Çatı mı?! Bir kat… daha. Tamam!",
                 "who": "yusuf"
@@ -728,6 +787,7 @@
             "emo": "neutral",
             "en": "Here… tea on the floor?",
             "fa": "همین‌جا… چای روی زمین؟",
+            "ru": "Здесь… чай на полу?",
             "react": {
               "kirlangic": {
                 "emo": "curious"
@@ -740,6 +800,7 @@
                 "emo": "curious",
                 "en": "What's this key? …The roof?! Come on!",
                 "fa": "این کلید چیه؟ …پشت‌بوم؟! بریم!",
+                "ru": "А это что за ключ? …От крыши?! Пошли!",
                 "to": "nima",
                 "tr": "Bu anahtar ne? …Çatı mı?! Hadi!",
                 "who": "kirlangic"
@@ -753,6 +814,7 @@
             "emo": "tired",
             "en": "I'm tired… bye-bye!",
             "fa": "من خسته‌ام… خداحافظ!",
+            "ru": "Сил нет… пока-пока!",
             "react": {
               "farzad": {
                 "emo": "surprised"
@@ -763,6 +825,7 @@
                 "emo": "happy",
                 "en": "No way! There's tea… there's a roof!",
                 "fa": "نه بابا! چای هست… پشت‌بوم هست!",
+                "ru": "Ну уж нет! Есть чай… есть крыша!",
                 "to": "nima",
                 "tr": "Hayır! Çay var… çatı var!",
                 "who": "farzad"
@@ -814,6 +877,7 @@
       "emo": "curious",
       "en": "Who's this bird?",
       "fa": "این پرنده کیه؟",
+      "ru": "Кто эта птица?",
       "link": {
         "kuş": "ch:kerim"
       },
@@ -826,6 +890,7 @@
       "emo": "happy",
       "en": "I don't know! But… it's a beautiful bird!",
       "fa": "نمی‌دونم! ولی… پرنده‌ی خیلی قشنگیه!",
+      "ru": "Не знаю! Но… очень красивая птица!",
       "to": "parvaneh",
       "tr": "Bilmiyorum! Ama… çok güzel bir kuş!",
       "who": "nima"
@@ -835,6 +900,7 @@
       "emo": "happy",
       "en": "My name is Kerim! But Nima doesn't know it.",
       "fa": "اسمِ من کریمه! ولی نیما نمی‌دونه.",
+      "ru": "Меня зовут Керим! Но Нима этого не знает.",
       "narr": true,
       "tr": "Benim adım Kerim! Ama Nima bilmiyor.",
       "who": "kerim"
@@ -844,6 +910,7 @@
       "emo": "happy",
       "en": "A market on a Saturday… and seven friends.",
       "fa": "بازار، شنبه… و هفت تا دوست.",
+      "ru": "Базар в субботу… и семеро друзей.",
       "narr": true,
       "tr": "Pazar, cumartesi… ve yedi arkadaş.",
       "who": "kerim"
@@ -851,12 +918,14 @@
   ],
   "summary": {
     "en": "The flat hunt ends at the Saturday market in Feriköy: a list for the empty kitchen, a polite bargain with Hatice Abla, four floors of stairs with the bags, and the first tea with friends on the roof, under the eyes of a bird nobody can name yet.",
-    "fa": "جست‌وجوی خانه در بازارِ شنبه‌ی فری‌کؤی تمام می‌شود: یک فهرست برای آشپزخانه‌ی خالی، چانه‌زدنی مؤدبانه با خدیجه خانم، چهار طبقه پله با کیسه‌های خرید، و اولین چای با دوستان روی پشت‌بام، زیرِ نگاهِ پرنده‌ای که هنوز کسی اسمش را نمی‌داند."
+    "fa": "جست‌وجوی خانه در بازارِ شنبه‌ی فری‌کؤی تمام می‌شود: یک فهرست برای آشپزخانه‌ی خالی، چانه‌زدنی مؤدبانه با خدیجه خانم، چهار طبقه پله با کیسه‌های خرید، و اولین چای با دوستان روی پشت‌بام، زیرِ نگاهِ پرنده‌ای که هنوز کسی اسمش را نمی‌داند.",
+    "ru": "Поиски квартиры заканчиваются на субботнем базаре в Ферикёе: список для пустой кухни, вежливый торг с Хатидже, четыре этажа по лестнице с сумками и первый чай с друзьями на крыше — под взглядом птицы, имени которой никто пока не знает."
   },
   "title": {
     "tr": "Feriköy pazarı",
     "en": "The Feriköy market",
-    "fa": "بازارِ فری‌کؤی"
+    "fa": "بازارِ فری‌کؤی",
+    "ru": "Базар в Ферикёе"
   },
   "words": [
     "a1-w-domates",

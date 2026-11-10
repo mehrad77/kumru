@@ -438,7 +438,7 @@ premise      Nima's first week ends with a small dinner at Farzad's.
                 "Hoş geldiniz!" "Hoş bulduk!" Kırlangıç hands Nima the flowers:
                 "Çiçekler!"
              3. Rayan points at day 1's suitcases, still in the hall: "Bu ne?" Nima's reply
-                card: "Bu bir bavul." Farzad: "Bavullar! Çok bavul!" (the day-1 joke)
+                card: "Bavul!" Farzad: "Bavullar! Çok bavul!" (the day-1 joke)
              4. The gifts from Tehran, at last ("Bunlar ne?"):
                 for everyone, a kutu of pomegranates: Kırlangıç holds them up, "Bunlar
                 ne?", and Choice 1 (below);
@@ -631,7 +631,7 @@ premise      Wednesday evening: Nima views the Feriköy flat alone. It is right 
                 "Pahalı mı?" Tolga Bey, with a straight face: "Pahalı değil! Feriköy'de
                 ucuz!" Kerim, to the reader: "Ucuz… mu?"
              6. Nima opens the balcony window: Kerim is right there on the ledge, eye to
-                eye. Nima: "Bu ne? Bir kuş!" Kerim, to the reader: "Bir kuş… değil.
+                eye. Nima: "Aa! Bir kuş!" Kerim, to the reader: "Bir kuş… değil.
                 Kerim!" Nima, quietly, for the first time: "Ev… güzel."
              7. Tolga Bey: "Evet mi? Hayır mı?" Nima's card: "Cuma, lütfen." "Tamam,
                 cuma!" Kerim, as the door closes: "Evet… evet de, Nima!"
@@ -654,7 +654,7 @@ choices      1 [action]. Tolga Bey: "Çok güzel ev, değil mi?" Nima isn't sure
                  Kira yirmi bin lira! Depozito…" Nima has to back-pedal in the next
                  line.
 stand-in     Reply cards: "Hoş bulduk", "Mutfak nerede?", the choice, "Kira kaç lira?",
-             "Pahalı mı?", "Bu ne? Bir kuş!", "Cuma, lütfen."
+             "Pahalı mı?", "Aa! Bir kuş!", "Cuma, lütfen."
 quiz         comp: Which floor is the flat on? (Dördüncü) · word: "ucuz" means… ·
              comp: What is on the balcony ledge? (Bir kuş: Kerim)
 follow-up    Tolga Bey shows another room; the learner asks "Burada ne var? … var mı?"
@@ -1714,7 +1714,7 @@ premise      The watch strikes again: Nima arrives at 8:30 for a 9:00 class and 
              room empty, except for Zafer Hoca.
              1. Kerim on the ledge: "Saat sekiz buçuk. Sınıf boş. Ama… Nima burada! Kerim
                 de burada!"
-             2. Zafer Hoca, surprised, papers in hand: "Günaydın! Çok erken!" Nima looks at
+             2. Zafer Hoca, surprised, papers in hand: "Günaydın! Çok erkensiniz!" Nima looks at
                 the watch, then at the wall clock: card: "Ah… Tahran saati!"
              3. A rare one-to-one (saat kaçta? as points in a day). Zafer Hoca: "Saat
                 kaçta kalkıyorsunuz?" Card: "Saat yedide… Tahran saatiyle!" He laughs.
@@ -3040,7 +3040,7 @@ premise      29 Ekim. Shown, never explained. Schools are closed on the day, so 
              4. After the show, Ömer runs to them: "Nasıldı? Nasıldı?" Nima's card: "Sen
                 en güzel şarkıyı söyledin!" Ömer, glowing: "Biliyorum!"
              5. Nima proposes it (Season arc: the desire, pursued at last). Nima's card:
-                "Bu akşam Boğaz'a gidiyor muyuz? Hepimiz!" Serkan, jingling his keys:
+                "Bu akşam hepimiz Boğaz'a gidiyoruz! Tamam mı?" Serkan, jingling his keys:
                 "Taksi benim!" Night. Ortaköy: crowds, flags, the bridge lit red and
                 white. A çaycı with a tray of tulip glasses. Serkan: "Kaç çay, Nima? Sen
                 söyle!" The choice (below).

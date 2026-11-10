@@ -2,6 +2,7 @@
   "arc": {
     "en": "What time is it?",
     "fa": "ساعت چند است؟",
+    "ru": "Который час?",
     "id": "s1w05",
     "mechanics": [
       "say",
@@ -25,6 +26,7 @@
     {
       "en": "Look: 10:15. What time is it? In Turkish, please!",
       "fa": "ببینید: ۱۰:۱۵. ساعت چنده؟ به ترکی، لطفاً!",
+      "ru": "Смотрите: 10:15. Который час? По-турецки, пожалуйста!",
       "to": "nima",
       "tr": "Bakın: 10:15. Saat kaç? Türkçe, lütfen!",
       "who": "zafer"
@@ -37,6 +39,7 @@
           {
             "en": "It's a quarter past ten.",
             "fa": "ساعت ده و ربعه.",
+            "ru": "Четверть одиннадцатого.",
             "ok": true,
             "react": {
               "zafer": {
@@ -48,6 +51,7 @@
               {
                 "en": "Very good! So, what time is it in Tehran?",
                 "fa": "خیلی خوب! خب، توی تهران ساعت چنده؟",
+                "ru": "Очень хорошо! А который час в Тегеране?",
                 "tr": "Çok güzel! Peki, Tahran'da saat kaç?",
                 "who": "zafer"
               }
@@ -58,6 +62,7 @@
           {
             "en": "It's half past ten.",
             "fa": "ساعت ده و نیمه.",
+            "ru": "Половина одиннадцатого.",
             "react": {
               "zafer": "confused"
             },
@@ -65,6 +70,7 @@
               {
                 "en": "Not half past: a quarter past ten. So, what time is it in Tehran?",
                 "fa": "نیم نیست: ده و ربعه. خب، توی تهران ساعت چنده؟",
+                "ru": "Не половина: четверть одиннадцатого. А который час в Тегеране?",
                 "tr": "Buçuk değil: onu çeyrek geçiyor. Peki, Tahran'da saat kaç?",
                 "who": "zafer"
               }
@@ -79,6 +85,7 @@
     {
       "en": "In Tehran… it's a quarter to eleven!",
       "fa": "توی تهران… یه ربع به یازده!",
+      "ru": "В Тегеране… без четверти одиннадцать!",
       "to": "zafer",
       "tr": "Tahran'da… saat on bire çeyrek var!",
       "who": "nima"
@@ -86,6 +93,7 @@
     {
       "en": "Yes! The time difference: thirty minutes.",
       "fa": "آره! اختلافِ ساعت: سی دقیقه.",
+      "ru": "Да! Разница во времени: тридцать минут.",
       "to": "nima",
       "tr": "Evet! Saat farkı: otuz dakika.",
       "who": "zafer"
@@ -94,46 +102,57 @@
   "gl": {
     "hocam": {
       "fa": "استادم (دانشجوها معلم را این‌طور صدا می‌زنند)",
+      "ru": "учитель (так ученики обращаются к учителю)",
       "en": "my teacher (how students address a teacher)"
     },
     "ikiye": {
       "fa": "به دو؛ «on ikiye kadar» یعنی تا دوازده",
+      "ru": "к двум; «on ikiye kadar»: до двенадцати",
       "en": "to two; “on ikiye kadar”: until twelve"
     },
     "kaldım": {
       "fa": "ماندم؛ «geç kaldım» یعنی دیر کردم",
+      "ru": "я остался (осталась); «geç kaldım»: я опаздываю",
       "en": "I stayed; “geç kaldım”: I'm late"
     },
     "kırlangıç": {
       "fa": "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means swallow)"
     },
     "onu": {
       "fa": "ده را (در گفتنِ ساعت: onu çeyrek geçiyor)؛ همچنین: او را",
+      "ru": "десять, с -u (о времени: onu çeyrek geçiyor); ещё: его, её",
       "en": "ten, with -u (telling the time: onu çeyrek geçiyor); also: him, her, it"
     },
     "programı": {
       "fa": "برنامه‌اش",
+      "ru": "его/её расписание, программа",
       "en": "his/her/its programme, schedule"
     },
     "tahran": {
       "fa": "تهران",
+      "ru": "Тегеран",
       "en": "Tehran"
     },
     "tam": {
       "fa": "درست، دقیقاً",
+      "ru": "ровно",
       "en": "exactly, sharp"
     },
     "zafer": {
       "fa": "ظفر (اسمِ یک نفر؛ zafer یعنی پیروزی)",
+      "ru": "Зафер (имя; слово значит «победа»)",
       "en": "Zafer (a name; the word means victory)"
     },
     "hadi": {
       "fa": "یالا؛ زود باش",
+      "ru": "давай!",
       "en": "come on!"
     },
     "aa": {
       "fa": "عه! (تعجب)",
+      "ru": "о! (удивление)",
       "en": "oh! (surprise)"
     }
   },
@@ -233,7 +252,8 @@
       "q": {
         "tr": "Nima'nın saati: hangi saat?",
         "en": "Nima's watch: which time is it on?",
-        "fa": "ساعتِ نیما: به وقتِ کجاست؟"
+        "fa": "ساعتِ نیما: به وقتِ کجاست؟",
+        "ru": "Часы Нимы: какое на них время?"
       },
       "why": "Kırlangıç: “Senin saatin… Tahran saati!”"
     },
@@ -248,7 +268,8 @@
       "q": {
         "tr": "“Saat dokuzu çeyrek geçiyor.” Çeyrek kaç dakika?",
         "en": "“Saat dokuzu çeyrek geçiyor.” How many minutes is a çeyrek?",
-        "fa": "«Saat dokuzu çeyrek geçiyor.» یک çeyrek چند دقیقه است؟"
+        "fa": "«Saat dokuzu çeyrek geçiyor.» یک çeyrek چند دقیقه است؟",
+        "ru": "«Saat dokuzu çeyrek geçiyor.» Сколько минут в «çeyrek»?"
       },
       "why": "Kerim: “Saat dokuzu çeyrek geçiyor.”: 9:15. Bir çeyrek: on beş dakika."
     }
@@ -270,6 +291,7 @@
       "cam": "obj",
       "en": "Good morning! It's eight o'clock. But Nima's watch says… half past eight!",
       "fa": "صبح بخیر! ساعت هشته. ولی ساعتِ نیما… هشت و نیمه!",
+      "ru": "Доброе утро! Восемь часов. Но на часах Нимы… половина девятого!",
       "link": {
         "saati": "obj:kol_saati"
       },
@@ -287,6 +309,7 @@
       "emo": "nervous",
       "en": "Half past eight?! Quick, to school!",
       "fa": "هشت و نیم؟! زود، برم مدرسه!",
+      "ru": "Половина девятого?! Скорей, в школу!",
       "link": {
         "buçuk": "obj:kol_saati"
       },
@@ -370,6 +393,7 @@
       "emo": "happy",
       "en": "Good morning, Nima! Where are you off to?",
       "fa": "صبح بخیر، نیما! کجا می‌ری؟",
+      "ru": "Доброе утро, Нима! Куда спешишь?",
       "move": {
         "how": "walk",
         "to": "seat_l",
@@ -393,6 +417,7 @@
       "emo": "nervous",
       "en": "To school! I'm late!",
       "fa": "مدرسه! دیرم شده!",
+      "ru": "В школу! Опаздываю!",
       "to": "kirlangic",
       "tr": "Okula! Geç kaldım!",
       "who": "nima",
@@ -404,6 +429,7 @@
       "emo": "curious",
       "en": "Late? Look, what time is it?",
       "fa": "دیر؟ ببین، ساعت چنده؟",
+      "ru": "Опаздываешь? Смотри, который час?",
       "link": {
         "saat": "obj:telefon"
       },
@@ -427,6 +453,7 @@
             "do": "look",
             "en": "It's nine o'clock.",
             "fa": "ساعت نهه.",
+            "ru": "Девять часов.",
             "ok": true,
             "react": {
               "kirlangic": {
@@ -440,6 +467,7 @@
                 "emo": "happy",
                 "en": "Yes, nine!",
                 "fa": "آره، ساعت نه!",
+                "ru": "Да, девять!",
                 "tr": "Evet, dokuz!",
                 "who": "kirlangic"
               }
@@ -452,6 +480,7 @@
             "do": "look",
             "en": "Half past nine.",
             "fa": "نه و نیم.",
+            "ru": "Половина десятого.",
             "link": {
               "buçuk": "obj:kol_saati"
             },
@@ -464,6 +493,7 @@
                 "emo": "confused",
                 "en": "No, look: nine!",
                 "fa": "نه، ببین: ساعت نهه!",
+                "ru": "Нет, смотри: девять!",
                 "tr": "Hayır, bak: dokuz!",
                 "who": "kirlangic"
               }
@@ -475,6 +505,7 @@
             "emo": "curious",
             "en": "It's a quarter to nine.",
             "fa": "یه ربع به نه.",
+            "ru": "Без четверти девять.",
             "react": {
               "kirlangic": "laugh"
             },
@@ -484,6 +515,7 @@
                 "emo": "laugh",
                 "en": "No quarter… nine on the dot!",
                 "fa": "ربع نداره… درست ساعت نهه!",
+                "ru": "Никакой четверти… ровно девять!",
                 "tr": "Çeyrek yok… tam dokuz!",
                 "who": "kirlangic"
               }
@@ -501,6 +533,7 @@
       "emo": "laugh",
       "en": "Oh! Your watch… it's on Tehran time! The time difference: thirty minutes.",
       "fa": "عه! ساعتِ تو… به وقتِ تهرانه! اختلافِ ساعت: سی دقیقه.",
+      "ru": "О! Твои часы… по тегеранскому времени! Разница: тридцать минут.",
       "link": {
         "saatin": "obj:kol_saati"
       },
@@ -519,6 +552,7 @@
         "state:stuck"
       ],
       "fa": "ساعت نه و ربعه. برنامه‌ی نیما: کلاس، از نه تا دوازده. ولی اتوبوس… تکون نمی‌خوره!",
+      "ru": "Четверть десятого. Расписание Нимы: урок с девяти до двенадцати. А автобус… стоит!",
       "narr": true,
       "obj": [
         {
@@ -578,6 +612,7 @@
       "emo": "shy",
       "en": "I'm sorry, teacher, I'm late.",
       "fa": "ببخشید استاد، دیر کردم.",
+      "ru": "Простите за опоздание, учитель.",
       "to": "zafer",
       "tr": "Özür dilerim, hocam, geç kaldım.",
       "who": "nima"
@@ -588,6 +623,7 @@
       "emo": "happy",
       "en": "It's twenty-five past nine. Come in!",
       "fa": "ساعت نه و بیست و پنج دقیقه‌ست. بفرمایید!",
+      "ru": "Двадцать пять минут десятого. Проходите!",
       "move": {
         "how": "walk",
         "to": "seat_1",
@@ -604,6 +640,7 @@
       "emo": "curious",
       "en": "And now… what time is it, Nima?",
       "fa": "حالا… ساعت چنده، نیما؟",
+      "ru": "А теперь… который час, Нима?",
       "to": "nima",
       "tr": "Şimdi… saat kaç, Nima?",
       "who": "zafer",
@@ -624,6 +661,7 @@
       "emo": "confused",
       "en": "It's… ten?",
       "fa": "ساعت… ده؟",
+      "ru": "Десять… часов?",
       "link": {
         "saat": "obj:kol_saati"
       },
@@ -647,6 +685,7 @@
       "emo": "laugh",
       "en": "Tehran time!",
       "fa": "وقتِ تهران!",
+      "ru": "Тегеранское время!",
       "react": {
         "nima": "shy"
       },
@@ -660,6 +699,7 @@
       "emo": "happy",
       "en": "No: it's half past nine.",
       "fa": "نخیر: ساعت نه و نیمه.",
+      "ru": "Нет: половина десятого.",
       "link": {
         "saat": "obj:saat_kagidi"
       },
@@ -673,6 +713,7 @@
       "emo": "moved",
       "en": "This watch… is on Tehran time. I don't want to change it.",
       "fa": "این ساعت… وقتِ تهرانه. نمی‌خوام عوضش کنم.",
+      "ru": "Эти часы… идут по тегеранскому времени. Не хочу их переводить.",
       "link": {
         "saat": "obj:kol_saati"
       },
@@ -692,6 +733,7 @@
         "en": "Telling the time. Saat sekiz: 8:00. Sekiz buçuk: 8:30 (buçuk = half). Dokuzu çeyrek geçiyor: 9:15, a quarter past nine (the hour takes -(y)I). Dokuza çeyrek var: 8:45, a quarter to nine (the hour takes -(y)A). So Zafer Hoca's “Saat dokuzu yirmi beş geçiyor” is 9:25. And Nima's watch? İstanbul'da dokuz buçuk, Tahran'da on: saat farkı otuz dakika.",
         "ex": "Saat dokuzu yirmi beş geçiyor.",
         "fa": "گفتنِ ساعت. Saat sekiz یعنی ساعت هشت. Sekiz buçuk یعنی هشت و نیم (buçuk = نیم). Dokuzu çeyrek geçiyor یعنی نه و ربع: ساعت پسوندِ -(y)I می‌گیرد. Dokuza çeyrek var یعنی یک ربع به نه: ساعت پسوندِ -(y)A می‌گیرد، درست مثلِ «به» در فارسی. پس «Saat dokuzu yirmi beş geçiyor» یعنی نه و بیست و پنج دقیقه. ساعتِ نیما چه؟ در استانبول نه و نیم است، در تهران ده: اختلافِ ساعت سی دقیقه است.",
+        "ru": "Время. Saat sekiz: 8:00. Sekiz buçuk: 8:30 (buçuk = половина). Dokuzu çeyrek geçiyor: 9:15, четверть десятого (час берёт -(y)I). Dokuza çeyrek var: 8:45, без четверти девять (час берёт -(y)A). Значит, «Saat dokuzu yirmi beş geçiyor» у Зафера — это 9:25. А часы Нимы? İstanbul'da dokuz buçuk, Tahran'da on: разница во времени тридцать минут.",
         "lesson": "g_a1_5_saatler",
         "show": "clock"
       }
@@ -699,12 +741,14 @@
   ],
   "summary": {
     "en": "Nima's old watch still runs on Tehran time, half an hour ahead. The metro is closed, Nima and Kırlangıç get stuck in traffic on the bus, and in class the clock game gets a laugh.",
-    "fa": "ساعتِ قدیمیِ نیما هنوز به وقتِ تهران است، نیم ساعت جلوتر. مترو بسته است، نیما و پرستو با اتوبوس در ترافیک گیر می‌کنند و در کلاس، بازیِ ساعت همه را می‌خنداند."
+    "fa": "ساعتِ قدیمیِ نیما هنوز به وقتِ تهران است، نیم ساعت جلوتر. مترو بسته است، نیما و پرستو با اتوبوس در ترافیک گیر می‌کنند و در کلاس، بازیِ ساعت همه را می‌خنداند.",
+    "ru": "Старые часы Нимы всё ещё идут по тегеранскому времени, на полчаса вперёд. Метро закрыто, Нима и Кырлангыч застревают в пробке на автобусе, а на уроке игра с часами всех смешит."
   },
   "title": {
     "tr": "Tahran saati",
     "en": "Tehran time",
-    "fa": "ساعتِ تهران"
+    "fa": "ساعتِ تهران",
+    "ru": "Тегеранское время"
   },
   "words": [
     "a1-w-bucuk",
