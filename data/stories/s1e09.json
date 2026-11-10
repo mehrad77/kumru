@@ -40,9 +40,9 @@
             },
             "reply": [
               {
-                "en": "There's a window here. No wardrobe.",
-                "fa": "این‌جا پنجره هست. کمد نیست.",
-                "tr": "Burada pencere var. Dolap yok.",
+                "en": "There's a window. No wardrobe.",
+                "fa": "پنجره هست. کمد نیست.",
+                "tr": "Pencere var. Dolap yok.",
                 "who": "tolga"
               }
             ],
@@ -129,6 +129,10 @@
     "üçüncü": {
       "fa": "سوم",
       "en": "third"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "en": "oh! (surprise)"
     }
   },
   "id": "s1e09",
@@ -169,7 +173,7 @@
         "en": "What is at the window?",
         "fa": "پشتِ پنجره چه چیزی هست؟"
       },
-      "why": "Nima: “Bu ne? Bir kuş!”"
+      "why": "Nima: “Aa! Bir kuş!”"
     }
   ],
   "ref": "A1_2",
@@ -424,8 +428,8 @@
       "cam": "two",
       "do": "point",
       "emo": "surprised",
-      "en": "What's this? A bird!",
-      "fa": "این چیه؟ یه پرنده!",
+      "en": "Oh! A bird!",
+      "fa": "عه! یه پرنده!",
       "link": {
         "kuş": "ch:kerim"
       },
@@ -442,7 +446,7 @@
         "word": "gıcırt"
       },
       "to": "kerim",
-      "tr": "Bu ne? Bir kuş!",
+      "tr": "Aa! Bir kuş!",
       "who": "nima"
     },
     {

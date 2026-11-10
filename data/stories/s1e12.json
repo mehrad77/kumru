@@ -166,6 +166,10 @@
     "herkes": {
       "fa": "همه",
       "en": "everyone"
+    },
+    "of": {
+      "fa": "اوف! (خستگی، کلافگی)",
+      "en": "ugh!, phew! (tired, fed up)"
     }
   },
   "id": "s1e12",
@@ -355,10 +359,10 @@
     },
     {
       "emo": "neutral",
-      "en": "There's a table. There are no chairs.",
-      "fa": "میز داره. صندلی نداره.",
+      "en": "There is! But no chairs.",
+      "fa": "داره! ولی صندلی نداره.",
       "to": "yusuf",
-      "tr": "Masa var. Sandalye yok.",
+      "tr": "Var! Ama sandalye yok.",
       "who": "nima"
     },
     {
@@ -681,10 +685,10 @@
     },
     {
       "emo": "tired",
-      "en": "I'm so tired! Is there any tea?",
-      "fa": "من خیلی خسته‌ام! چای هست؟",
+      "en": "Ugh, I'm so tired! Is there any tea?",
+      "fa": "اوف، خیلی خسته‌ام! چای هست؟",
       "to": "nima",
-      "tr": "Ben çok yorgunum! Çay var mı?",
+      "tr": "Of, çok yorgunum! Çay var mı?",
       "who": "parvaneh"
     },
     {

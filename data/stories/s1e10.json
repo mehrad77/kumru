@@ -496,9 +496,9 @@
     },
     {
       "who": "parvaneh",
-      "tr": "Asansör yok… Alex yorgun!",
-      "en": "No lift… Alex is tired!",
-      "fa": "آسانسور نداره… الکس خسته‌ست!",
+      "tr": "Asansör yok… yorgunsun, Alex!",
+      "en": "No lift… you're tired, Alex!",
+      "fa": "آسانسور نداره… خسته‌ای، الکس!",
       "to": "alex",
       "emo": "laugh",
       "do": "point",
