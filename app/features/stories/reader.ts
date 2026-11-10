@@ -35,7 +35,8 @@ import { noteListen, voiceOk } from "./voice.ts";
 
 type Player = typeof import("../../lib/player.ts");
 let G: Awaited<ReturnType<typeof loadGlossModel>>;
-type Text3 = { tr?: string; en?: string; fa?: string };
+/** A text by language; a cue or card option also carries it whole as `text`, with every language of the series (Russian too). */
+type Text3 = { tr?: string; en?: string; fa?: string; ru?: string; text?: Record<string, string | undefined> };
 
 const btn = (cls: string, text: string, onclick: () => void, extra: Record<string, unknown> = {}) => el("button", { class: cls, type: "button", text, onclick, ...extra });
 /** The translations a story can show: the help language's, or with "none" the meaning language (English). */
@@ -167,7 +168,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const adapted = P.adaptStory(story as never, { places: storyPlaces, characters: chars, learner: S.char ? P.learnerAvatar(S.char) : null, personalise: (t: string, lang?: string) => personalizeStr(t, lang ?? "tr"), flags });
     let lost = false;
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const placeName = (pid: string) => { const p = places.value[pid] as { name?: Text3 } | undefined; return p?.name?.tr ?? pid; };
+    const placeName = (pid: string) => { const p = places.value[pid] as { name?: Record<string, string> } | undefined; return p?.name?.tr ?? pid; };
     const showStill = (on: boolean) => { lost = on; still.hidden = !on; still.textContent = on ? placeName(story.place) : ""; };
     void (async () => {
       const kit = await P.kitFor(Object.values(adapted.load.places ?? {}) as never[]);
@@ -213,8 +214,8 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     }
 
     // ---- the log ----
-    const who = (id?: string) => (id === "nima" ? name : (story as { names?: Record<string, string> }).names?.[id ?? ""] ?? (textIn((characters.value[id ?? ""] as { name?: Text3 } | undefined)?.name, "tr") || id || ""));
-    function addLog(i: { kind: string; who?: string; tr?: string; en?: string; fa?: string; step: number }) {
+    const who = (id?: string) => (id === "nima" ? name : (story as { names?: Record<string, string> }).names?.[id ?? ""] ?? (textIn((characters.value[id ?? ""] as { name?: Record<string, string> } | undefined)?.name, "tr") || id || ""));
+    function addLog(i: Text3 & { kind: string; who?: string; step: number }) {
       if (i.kind === "spot") {
         const st = story.steps[i.step] as { spot?: { lesson?: string } }, lesson = st?.spot?.lesson;
         log.append(el("div", { class: "st-spot" }, pup("think", 40, { pose: "head", enter: false }),
