@@ -8,8 +8,8 @@
 // - Translations are in the help language (app/core/lang.ts): Persian, English or both; with "none", English. A button beside the
 //   speaker shows or hides them for the whole dialogue (`kumru:story:tl`; off by default only with "none"); a tapped word always
 //   has its meaning.
-// - Every line of the newcomer is the learner's to say: a card with Söyle (and the microphone where the week turns `aloud` on and
-//   the microphone really works here: voice.ts).
+// - Every line of the newcomer is the learner's to say: a card with Söyle (and the microphone, in every story, unless the learner turned it off
+//   or it does not really work here: voice.ts).
 // - A speaker button (top right) turns the stage's sound on or off: the lines in the device's Turkish voice, the place's
 //   recordings and Kerim's coo. Off until the learner turns it on (STORIES_STAGE.md §3), then remembered (`kumru:story:sound`). A choice is the same card with 2–3 options, shown shuffled and stored by their authored index.
 // - Kerim's grammar spot is a card in the log with the lesson's link (the stage does not act spots out yet).
@@ -286,7 +286,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       return c;
     }
     function aloudBtn(expected: string[], said: () => void) {
-      if (!mech.includes("aloud") || !pref("aloud", true) || !voiceOk(P.canListen())) return null;
+      if (!pref("aloud", true) || !voiceOk(P.canListen())) return null;
       const status = el("small", { class: "st-heard", "aria-live": "polite" });
       let ctl: AbortController | null = null;
       const mic = btn("btn sm", "🎤 Say it", async () => {

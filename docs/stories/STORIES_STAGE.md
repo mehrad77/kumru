@@ -151,7 +151,7 @@ The engine supports every mechanic (`DESIGN.md` §9). Each weekly arc names the 
 | `say` (the reply card) | every stand-in turn | always on |
 | `explore` (tap a person or thing for its word) | concrete nouns, places | from week 1 |
 | `act` (tap, drag, go, choose on stage) | *bu/şu/o*, *var/yok*, *ver/al*, *-(y)A* and *-DAn*, numbers | from week 2, at most 2 per story |
-| `aloud` (say it aloud) | short fixed phrases | from week 2, only where the learner turned it on |
+| `aloud` (say it aloud) | every reply card | in every story, unless the learner turned it off |
 | `unlocks` (avatar items) | the album and the season's end | from week 4 |
 
 An act turn's result counts like a choice: characters react, the warmth may move, and the plot never branches.
@@ -173,7 +173,7 @@ An act turn's result counts like a choice: characters react, the warmth may move
   - its translation, following the level's translation fade;
   - a *Söyle* (say) button.
 - **Söyle.** Tapping it says the line: the learner's character speaks and gestures, the voice plays if sound is on, and the line enters the log.
-- **Say it aloud.** When the week and the learner turn `aloud` on, the card also has a microphone. Speaking the line counts like tapping *Söyle*, and a tap always works too.
+- **Say it aloud.** Unless the learner turned it off, the card also has a microphone, in every story (the arc's `aloud` no longer gates it). Speaking the line counts like tapping *Söyle*, and a tap always works too.
 - **The "…" card** (`voice: "silent"`) has no words, and its button reads *…* rather than *Söyle*. The character freezes: no voice, no mouth, the `nervous` face.
 - **A real choice** uses the **same card in the same place** with 2–3 options. Only the number of options differs.
 
