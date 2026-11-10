@@ -268,24 +268,28 @@ export function kumruPage(opts: { mode: string; serve: boolean }): Plugin {
     },
     configureServer(server) {
       // the dev server answers what the build would write: the hashed data files, the manifest, the brand files
-      let cache: { files: Map<string, Out> } | null = null;
+      let cache: { files: Map<string, Out>; voices: string } | null = null;
       const served = () => {
         if (!cache) {
           const { extra, filesMap, counts, sounds, thumbs, voices } = dataFiles();
           const files = new Map<string, Out>(Object.entries(extra).map(([rel, v]) => ["/" + rel, v]));
           files.set("/data/manifest.json", JSON.stringify(sortKeys({ counts, files: filesMap, sounds, thumbs, voices, v: 1, version: "dev" }), null, 1) + "\n");
           for (const f of BRAND_FILES) if (existsSync(src("brand", f))) files.set("/" + f, readFileSync(src("brand", f)));
-          cache = { files };
+          cache = { files, voices };
         }
-        return cache.files;
+        return cache;
       };
       const watched = ["data", "brand", path.join("app", "host", "sw.ts")].map((d) => src(d));
       server.watcher.add(watched);
       const changed = (file: string) => {
         if (!watched.some((w) => file === w || file.startsWith(w + path.sep))) return;
         // the developer's own files the app never reads (backstage's notes, sahne-voice's candidates and auditions): no reload
-        if (path.relative(src("data"), file).split(path.sep).some((seg) => seg.startsWith("."))) return;
+        const rel = path.relative(src("data"), file).split(path.sep);
+        if (rel.some((seg) => seg.startsWith("."))) return;
         cache = null;
+        // a clip the generator just wrote is served from now on, without a reload: a run writes hundreds, one every few
+        // seconds, and a story being played must keep playing (its old voices base is mapped to the new one below)
+        if (rel[0] === "voices") return;
         server.ws.send({ type: "full-reload" });
       };
       for (const ev of ["add", "change", "unlink"] as const) server.watcher.on(ev, changed);
@@ -301,7 +305,11 @@ export function kumruPage(opts: { mode: string; serve: boolean }): Plugin {
           return send(withBuild(code, { version: "dev", files: ["/"], lazy: [] }), MIME[".js"]);
         }
         let body: Out | undefined;
-        try { body = served().get(url); } catch (e) { return next(e as Error); }
+        try {
+          const { files, voices } = served();
+          // a page loaded before the latest clips asks under its own voices base: answer from the current one
+          body = files.get(/^\/voices\/[0-9a-f]{8}\//.test(url) ? voices + url.slice(voices.length) : url);
+        } catch (e) { return next(e as Error); }
         if (body === undefined) return next();
         send(body, MIME[path.extname(url)] ?? "application/octet-stream");
       });
