@@ -3,6 +3,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import * as F from "./friends.ts";
+import { frStoryLabel } from "./story.ts";
 import * as P from "../../../lib/progress.ts";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any -- the assertions call the helpers with loose literals
@@ -81,7 +82,7 @@ test("friends helpers", () => {
   const nd={A1_1_cp:{at:10},A1_1_w1:{at:99},A1_2_cp:{at:30},A1_3_cp:{at:20},A1_4_cp:{at:50},A1_5_cp:{at:40},A1_6_cp:{at:60},A2_1_w2:{at:70}};
   const doc=A.frBuildDoc({nick:"  Mehrad  ",char:{skin:1},code:"MEME22",following:["sara","sara","nina"],
     cheers:{sara:{kind:"great",at:NOW-DAY},ali:{kind:"go",at:NOW-15*DAY},bob:{kind:"x",at:NOW}},xp:144,xpDays,days:{[old]:3},streak:2,pos:{lv:"A1",u:"4"},nd,st:{s1e01:{done:true},s1e02:{done:false},s1e03:{done:1},s01:{done:true}}},NOW);
-  eq(Object.keys(doc).sort(),["char","cheers","code","following","lastDay","nick","pos","storiesDone","streak","unitsDone","updatedAt","v","xp","xpWeek"].sort(),"doc keys");
+  eq(Object.keys(doc).sort(),["char","cheers","code","following","lastDay","nick","pos","storiesDone","storyAt","streak","unitsDone","updatedAt","v","xp","xpWeek"].sort(),"doc keys");
   eq(doc.xpWeek,{[WK]:35,[LW]:9},"xpWeek has this week and last week only");
   eq(doc.cheers,{sara:{kind:"great",at:NOW-DAY}},"cheers pruned to 14 days and known kinds");
   eq(doc.unitsDone.map(u=>u.ref),["A1_6","A1_4","A1_5","A1_2","A1_3"],"last five finished units, newest first");
@@ -97,4 +98,14 @@ test("friends helpers", () => {
     ["just now","5 min ago","3 h ago","yesterday","3 days ago","3 weeks ago",""],"relative time");
   eq([new Date(2026,9,5).getTime(),NOW,new Date(2026,9,11,23).getTime()].map(A.frWeekDaysLeft),[7,5,1],"days left in week");
 
+});
+
+test("where a learner is in the main story line", () => {
+  const st = { s1e01: { done: true }, s1e12: { done: true }, s1e13: { done: false }, s05: { done: true }, s1e09: { done: true } };
+  assert.equal(F.frStoryAt(st), "s1e12");
+  assert.equal(F.frStoryAt({}), "");
+  assert.equal(frStoryLabel("s1e12"), "On episode 13");
+  assert.equal(frStoryLabel("s1e48"), "Season 1 finished");
+  assert.equal(frStoryLabel("s2e03"), "On season 2, episode 4");
+  assert.equal(frStoryLabel(undefined), "");
 });

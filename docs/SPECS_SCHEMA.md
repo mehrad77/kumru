@@ -323,6 +323,7 @@ The page's `frBuildDoc` output ([app/features/friends](../app/features/friends))
 | `pos` | `{ lv, u }` or `null` | |
 | `unitsDone` | `[{ ref, at }]` ≤ 5 | newest finished checkpoints, `ref` like `A1_3` |
 | `storiesDone` | integer | |
+| `storyAt` | string, optional | the furthest Sahne story finished (`s1e12`): Friends shows "On episode 13" |
 | `cheers` | `{ [toUserId]: { kind: 'great'\|'go', at } }` ≤ 200 | cheers I sent, kept 14 days by the page |
 | `updatedAt` | ms | client clock; the server's `profiles.updated` is authoritative |
 

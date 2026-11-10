@@ -24,6 +24,8 @@ export interface Profile {
   pos?: { lv: string; u: number } | null;
   unitsDone?: { ref: string; at: number }[];
   storiesDone?: number;
+  /** The furthest Sahne story finished (s1e12): the main story line's place, shown as "On episode 13". */
+  storyAt?: string;
   following?: string[];
   xp?: number;
   xpWeek?: Record<string, number>;
@@ -160,10 +162,18 @@ export function frBuildDoc(inp: DocInputs, now: number) {
     streak: +(inp.streak as number) || 0, lastDay: days.length ? days[days.length - 1] : "",
     pos: inp.pos ? { lv: inp.pos.lv, u: +inp.pos.u } : null, unitsDone: units.slice(0, 5),
     // only the Sahne stories (s1e01…) count: the retired s01–s16 stay in old progress documents
-    storiesDone: Object.entries(inp.st || {}).filter(([id, s]) => STORY_ID.test(id) && s && s.done).length, cheers, updatedAt: now, v: 1,
+    storiesDone: Object.entries(inp.st || {}).filter(([id, s]) => STORY_ID.test(id) && s && s.done).length,
+    ...(frStoryAt(inp.st) ? { storyAt: frStoryAt(inp.st) } : {}), cheers, updatedAt: now, v: 1,
   };
 }
 
+const storyNum = (id: string) => { const m = /^s(\d+)e(\d{2})$/.exec(id); return m ? +m[1] * 1000 + +m[2] : -1; };
+/** The furthest Sahne story finished in a progress document's `st` (by season, then episode), or "". */
+export function frStoryAt(st: Record<string, { done?: unknown } | null | undefined> | undefined): string {
+  let best = "";
+  for (const [id, s] of Object.entries(st || {})) if (STORY_ID.test(id) && s && s.done && storyNum(id) > storyNum(best)) best = id;
+  return best;
+}
 /** JSON with sorted keys and without updatedAt: equal content gives an equal string whatever the key order. */
 export function frKey(d: unknown): string {
   const norm = (v: unknown): unknown => Array.isArray(v) ? v.map(norm)

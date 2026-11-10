@@ -9,10 +9,17 @@ import { classBoard, classList, loadBoardList, openClassMember } from "../classe
 import { rev } from "../progress/index.ts";
 import { openFriendSheet } from "./sheet.ts";
 import { frFriendIds, frLeaderboard, frStreak, frWeekDaysLeft } from "./model/friends.ts";
+import { frStoryLabel } from "./model/story.ts";
 import { Avatar, Flame } from "./parts.tsx";
-import { boardMode, boardScope, classBoardCache, nameOf, setBoardMode, setBoardScope, view } from "./state.ts";
+import { boardMode, boardScope, classBoardCache, nameOf, profiles, setBoardMode, setBoardScope, view } from "./state.ts";
 
 const ord = (n: number): string => n + (n % 10 === 1 && n % 100 !== 11 ? "st" : n % 10 === 2 && n % 100 !== 12 ? "nd" : n % 10 === 3 && n % 100 !== 13 ? "rd" : "th");
+
+/** Where a learner is in the main story line ("On episode 13"), when their profile says. */
+function Ep({ uid }: { uid: string }) {
+  const t = frStoryLabel(profiles.value.get(uid)?.storyAt);
+  return t ? <small class="hint fr-ep">{t}</small> : null;
+}
 
 export function Board() {
   void rev.value;   // my XP and streak come from the progress document
@@ -68,8 +75,8 @@ export function Board() {
               <li class={"fr-lb" + (r.me ? " me" : "") + (r.rank <= 3 ? " top r" + r.rank : "")}>
                 <span class="fr-rank" aria-label={ord(r.rank) + " place"}>{String(r.rank)}</span>
                 {r.me
-                  ? <span class="fr-who"><Avatar uid={r.uid} size={40} /><span class="fr-nm"><b>{bidiTxt(nameOf(r.uid))}</b><span class="pill fr-pill you">You</span></span></span>
-                  : <button class="fr-who" type="button" aria-label={"Open " + nameOf(r.uid)} onClick={() => openFriendSheet(r.uid)}><Avatar uid={r.uid} size={40} /><span class="fr-nm"><b>{bidiTxt(nameOf(r.uid))}</b></span></button>}
+                  ? <span class="fr-who"><Avatar uid={r.uid} size={40} /><span class="fr-nm"><b>{bidiTxt(nameOf(r.uid))}</b><span class="pill fr-pill you">You</span><Ep uid={r.uid} /></span></span>
+                  : <button class="fr-who" type="button" aria-label={"Open " + nameOf(r.uid)} onClick={() => openFriendSheet(r.uid)}><Avatar uid={r.uid} size={40} /><span class="fr-nm"><b>{bidiTxt(nameOf(r.uid))}</b><Ep uid={r.uid} /></span></button>}
                 <span class="fr-xp"><b>{String(r.xp)}</b>{" XP"}</span>
                 <Flame n={r.streak} />
               </li>

@@ -10,5 +10,5 @@ export interface Names { names: Record<string, string> }
 // Document shapes (docs/SPECS_SCHEMA.md §3)
 export interface ProfileDoc { v: 1; nick: string; char: unknown | null; charPublic?: boolean; code: string; following: string[]; xp: number;
   xpWeek: Record<string, number>; streak: number; lastDay: string; pos: { lv: string; u: number } | null;
-  unitsDone: { ref: string; at: number }[]; storiesDone: number;
+  unitsDone: { ref: string; at: number }[]; storiesDone: number; storyAt?: string;
   cheers: Record<string, { kind: "great" | "go"; at: number }>; updatedAt: number }
