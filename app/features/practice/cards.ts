@@ -9,7 +9,7 @@ import { buildGlossIndex, type GlossIndex, meaningClash } from "./model/gloss.ts
 import { normT } from "./model/answers.ts";
 import { buildable, pickWeighted, plainFa, weightOf } from "./model/deck.ts";
 import type { Card } from "./types.ts";
-import { meaningLang } from "../../core/lang.ts";
+import { meaningLang, ruOr } from "../../core/lang.ts";
 
 export { CONF_KNOWN, CONF_SURE };
 /** Capitalise the Turkish way. */
@@ -56,8 +56,8 @@ export function sentencePool(): BuildSentence[] {
 }
 
 /** The meaning in the learner's language (Persian or English; a card with only one shows that one). */
-export const meaningText = (c: Card): string => ((meaningLang() === "en" ? c.en || c.fa : c.fa || c.en) as string);
-export const meaningIsFa = (c: Card): boolean => (meaningLang() === "en" ? !c.en : !!c.fa);
+export const meaningText = (c: Card): string => { const m = meaningLang(); return (m === "ru" ? ruOr(c as Card & { ru?: string }) || c.fa : m === "en" ? c.en || c.fa : c.fa || c.en) as string; };
+export const meaningIsFa = (c: Card): boolean => { const m = meaningLang(); return m === "en" || m === "ru" ? !c.en && !(c as Card & { ru?: string }).ru : !!c.fa; };
 /** A word the learner doesn't know yet shows both meanings, whatever the language setting says. */
 export const bothFor = (c: Card): boolean => meaningLang() === "both" || confOf(c.id) < CONF_KNOWN;
 

@@ -16,7 +16,7 @@
 // - Without WebGL2 (or when the GPU takes the context away) the story reads in the log with the place's name over a still.
 import { el } from "../../core/dom.ts";
 import { faTxt } from "../../core/i18n.ts";
-import { helpLang, helpLangs, meaningLang } from "../../core/lang.ts";
+import { helpLang, helpLangs, meaningLang, ruOr } from "../../core/lang.ts";
 import { S } from "../../core/store.ts";
 import { loadLib } from "../../host/lib.ts";
 import { castPortrait, myPortrait } from "../../ui/avatar/portrait.ts";
@@ -39,17 +39,24 @@ type Text3 = { tr?: string; en?: string; fa?: string };
 
 const btn = (cls: string, text: string, onclick: () => void, extra: Record<string, unknown> = {}) => el("button", { class: cls, type: "button", text, onclick, ...extra });
 /** The translations a story can show: the help language's, or with "none" the meaning language (English). */
-function tlLangs(): { fa: boolean; en: boolean } {
+function tlLangs(): { fa: boolean; en: boolean; ru: boolean } {
   if (helpLang() !== "none") return helpLangs();
   const m = meaningLang();
-  return { fa: m === "fa" || m === "both", en: m === "en" || m === "both" };
+  return { fa: m === "fa" || m === "both", en: m === "en" || m === "both", ru: m === "ru" };
 }
 /** Whether the translations show: the reader's toggle, on by default unless the help language is "none". */
 const tlOn = () => pref("tl", helpLang() !== "none");
-/** A line's translations, always in the page, shown or hidden by the reader's toggle (`st-notl` on the page). */
-function tl(en?: string, fa?: string): (HTMLElement | null)[] {
-  const H = tlLangs();
-  return [H.en && en ? el("small", { class: "tl", text: en }) : null, H.fa && fa ? el("small", { class: "fa", lang: "fa", dir: "rtl", text: faTxt(fa) }) : null];
+/**
+ * A line's translations, always in the page, shown or hidden by the reader's toggle (`st-notl` on the page). `t` is the line in
+ * every language of the series (a cue's `text`); Russian falls back to English where a line has none yet.
+ */
+function tl(t?: { en?: string; fa?: string; ru?: string }): (HTMLElement | null)[] {
+  const H = tlLangs(), ru = H.ru && t ? ruOr(t) : undefined;
+  return [
+    H.en && t?.en ? el("small", { class: "tl", text: t.en }) : null,
+    ru ? el("small", { class: "tl", lang: t?.ru ? "ru" : "en", text: ru }) : null,
+    H.fa && t?.fa ? el("small", { class: "fa", lang: "fa", dir: "rtl", text: faTxt(t.fa) }) : null,
+  ];
 }
 
 const SOUND_ON = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
@@ -88,7 +95,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
   const trans = el("button", { class: "st-back st-tlbtn", type: "button" });
   const drawTl = () => {
     const on = tlOn(), H = tlLangs();
-    trans.textContent = H.en && H.fa ? "EN·FA" : H.fa ? "FA" : "EN";
+    trans.textContent = H.en && H.fa ? "EN·FA" : H.fa ? "FA" : H.ru ? "RU" : "EN";
     trans.setAttribute("aria-label", on ? "Translations shown: tap to hide them" : "Translations hidden: tap to show them");
     trans.setAttribute("aria-pressed", String(on));
     page.classList.toggle("st-notl", !on);
@@ -120,7 +127,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     const lookup = (word: string) => {
       const w = word.toLocaleLowerCase("tr").replace(/[’]/g, "'");
       const own = story.gl?.[w];
-      if (own) return { lines: [{ text: own.en ?? "" }, ...(own.fa ? [{ text: own.fa, lang: "fa", dir: "rtl" as const }] : [])] };
+      if (own) return { lines: [{ text: own.en ?? "" }, ...(own.ru ? [{ text: own.ru, lang: "ru" }] : []), ...(own.fa ? [{ text: own.fa, lang: "fa", dir: "rtl" as const }] : [])] };
       const hit = G.glossSegments(word, idx, null).find((s) => s.hit)?.hit;
       if (!hit) return null;
       const c = hit.card as { id?: string; tr?: string; en?: string; fa?: string } | undefined;
@@ -130,8 +137,10 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       lookup: (word: string) => lookup(word),
       open: (word: string, g: { head?: string; lines: { text: string; lang?: string }[]; note?: string }, anchor: HTMLElement) => {
         // the meaning in the help language (English when it is "none"); the other one only when that one is missing
-        const en = g.lines.find((l) => l.lang !== "fa")?.text, fa = g.lines.find((l) => l.lang === "fa")?.text, ml = meaningLang();
-        showGloss(anchor, word, { en: ml !== "fa" || !fa ? en : undefined, fa: ml !== "en" || !en ? fa : undefined, note: g.head ? `form of «${g.head}»` : g.note });
+        // (Russian where the story's glossary has it, else English)
+        const pick = (lang?: string) => g.lines.find((l) => l.lang === lang)?.text, ml = meaningLang();
+        const en = ml === "ru" ? pick("ru") || pick(undefined) : pick(undefined), fa = pick("fa");
+        showGloss(anchor, word, { en: ml !== "fa" || !fa ? en : undefined, fa: (ml !== "en" && ml !== "ru") || !en ? fa : undefined, note: g.head ? `form of «${g.head}»` : g.note });
       },
       speak: (word: string) => speak(word),
     };
@@ -209,7 +218,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       if (i.kind === "spot") {
         const st = story.steps[i.step] as { spot?: { lesson?: string } }, lesson = st?.spot?.lesson;
         log.append(el("div", { class: "st-spot" }, pup("think", 40, { pose: "head", enter: false }),
-          el("div", null, i.tr ? glossed(i.tr) : null, ...tl(i.en, i.fa),
+          el("div", null, i.tr ? glossed(i.tr) : null, ...tl(i.text ?? i),
             lesson ? btn("linkish", "Open the lesson", () => openLesson(lesson)) : null)));
       } else if (i.tr) {
         // a chat line: the speaker's head in a small circle (named for screen readers), and the line in a bubble out of it;
@@ -220,7 +229,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
           : i.who === "kerim" ? pup("idle", 32, { pose: "head", enter: false, label: name })
           : castPortrait(i.who!, (characters.value[i.who!] as { avatar?: unknown } | undefined)?.avatar, 32, "st-av", name);
         if (av) { av.title = name; av.classList.add("st-av"); }
-        const line = el("div", { class: "st-line" + (me ? " me" : "") + (beat ? " beat" : "") }, av, el("div", { class: "st-bub" }, text, ...tl(i.en, i.fa)));
+        const line = el("div", { class: "st-line" + (me ? " me" : "") + (beat ? " beat" : "") }, av, el("div", { class: "st-bub" }, text, ...tl(i.text ?? i)));
         log.append(line);
       }
       line2view();
@@ -259,18 +268,18 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     /** The head of the learner's card: their own face and "your turn" (the Turkish, and the gloss under it). */
     const turnHead = (en: string) => el("div", { class: "st-turn-h" }, myPortrait(26, "st-av"), el("b", { lang: "tr", text: "Senin sıran" }), el("small", { text: en }));
     /** The reply card: the learner's line as a bubble of theirs, about to be said, with Söyle as its send button beside it. */
-    function replyCard(line: HTMLElement, en: string | undefined, fa: string | undefined, onSay: () => void, extra: HTMLElement | null = null) {
+    function replyCard(line: HTMLElement, t: { en?: string; fa?: string; ru?: string } | undefined, onSay: () => void, extra: HTMLElement | null = null) {
       const send = el("button", { class: "btn primary st-send", type: "button", onclick: onSay }, el("span", { text: "Söyle" }),
         el("span", { class: "st-send-i", "aria-hidden": "true", text: "➤" }));
       return el("div", { class: "card st-card st-reply" }, turnHead("your line"),
-        el("div", { class: "st-reply-b" }, el("div", { class: "st-bub st-mine" }, line, ...tl(en, fa)), send), extra);
+        el("div", { class: "st-reply-b" }, el("div", { class: "st-bub st-mine" }, line, ...tl(t)), send), extra);
     }
     function card(label: string, opts: Text3[], order: number[], onPick: (authored: number) => void, silent = false) {
       const c = el("div", { class: "card st-card st-choose" }, turnHead(label));
       for (const k of order) {
         const o = opts[k];
         const b = el("button", { class: "st-opt", type: "button", onclick: () => onPick(k) }, el("span", { lang: "tr", text: silent ? "…" : o.tr ?? "" }),
-          ...(silent ? [] : tl(o.en, o.fa)));
+          ...(silent ? [] : tl(o.text ?? o)));
         c.append(b);
       }
       return c;
@@ -311,8 +320,8 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       if (t.kind === "say") {
         const o = t.options[0];
         foot.append(t.silent
-          ? replyCard(el("span", { text: "…" }), undefined, undefined, () => cur!.player.say())
-          : replyCard(glossed(o.tr ?? ""), o.en, o.fa, () => cur!.player.say(), aloudBtn([o.tr ?? ""], () => cur!.player.say())));
+          ? replyCard(el("span", { text: "…" }), undefined, () => cur!.player.say())
+          : replyCard(glossed(o.tr ?? ""), o.text ?? o, () => cur!.player.say(), aloudBtn([o.tr ?? ""], () => cur!.player.say())));
       } else if (t.kind === "choice") {
         const order = shuffled(t.options.length, `${story.id}:${t.id}:${record(story.id).reads ?? 0}`);
         const c = card("choose what to say", t.options, order, (k) => cur!.player.choose(k));
@@ -338,7 +347,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
         const q = items[n], order = shuffled(q.options.length, `${story.id}:quiz${n}:${record(story.id).reads ?? 0}`);
         let tries = 0;
         const box = el("div", { class: "card st-quiz" }, el("small", { text: `Question ${n + 1} of ${items.length}` }), el("p", { lang: "tr", class: "st-q", text: textIn(q.q, "tr") }),
-          ...tl(q.q.en, q.q.fa));
+          ...tl(q.q));
         const why = el("p", { class: "hint st-why", "aria-live": "polite" });
         // the learner's pick stays marked: a wrong one crossed out (and closed), the right one ticked once found
         for (const k of order) {

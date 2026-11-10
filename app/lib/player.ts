@@ -24,7 +24,9 @@ export async function kitFor(places: StoryPlace[]) {
 }
 
 /** The story adapted for the stage with Kumru's series plugins (data/series.json `plugins`: the lesson plugin, for the spots). */
-export const adaptStory = (story: StoryDoc, o: Omit<Parameters<typeof adapt>[1], "plugins">) => adapt(story, { ...o, plugins: [lesson] });
+/** The series' languages, as `data/series.json` names them: Turkish on stage, and every translation the reader can show. */
+const LANGUAGES = { main: "tr", translations: ["en", "fa", "ru"] };
+export const adaptStory = (story: StoryDoc, o: Omit<Parameters<typeof adapt>[1], "plugins" | "languages">) => adapt(story, { ...o, languages: LANGUAGES, plugins: [lesson] });
 
 /** The learner's character as Nima's, untrusted: no cast parts, palette colours only (the stage trusts its cast). */
 export const learnerAvatar = (char: unknown) => normalize(char, baseKit, { trusted: false });

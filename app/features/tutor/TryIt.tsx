@@ -20,7 +20,7 @@ type Out = { k: "wait" } | { k: "res"; r: CheckResult; text: string } | { k: "er
 /** The task in the learner's language(s). */
 const taskText = (p: { task_fa?: string; task_en?: string }): string => {
   const L = meaningLang();
-  return (L === "en" ? p.task_en : L === "both" ? p.task_fa + " · " + p.task_en : p.task_fa) || "";
+  return (L === "en" || L === "ru" ? p.task_en : L === "both" ? p.task_fa + " · " + p.task_en : p.task_fa) || "";
 };
 
 export function TryIt({ lesson }: { lesson: Lesson }) {
@@ -49,7 +49,7 @@ export function TryIt({ lesson }: { lesson: Lesson }) {
       setBusy(null);
     }
   };
-  const en = meaningLang() === "en";
+  const en = meaningLang() === "en" || meaningLang() === "ru";
   return (
     <section class="try-box">
       <div class="try-top"><span class="lbl">Try it yourself</span><span class="pill ai-pill">AI</span></div>
