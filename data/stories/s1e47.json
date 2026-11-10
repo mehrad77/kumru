@@ -55,8 +55,8 @@
             "tr": "Benim adım Nima. Öğrenciyim. En çok… çayı seviyorum!"
           },
           {
-            "en": "Once more, please. Slowly, please.",
-            "fa": "یه بار دیگه، لطفاً. آروم، لطفاً.",
+            "en": "Once more, please. Slower, please.",
+            "fa": "یه بار دیگه، لطفاً. آروم‌تر، لطفاً.",
             "react": {
               "zafer": {
                 "do": "nod",
@@ -74,7 +74,7 @@
               }
             ],
             "tone": "polite",
-            "tr": "Bir daha, lütfen. Yavaş, lütfen."
+            "tr": "Bir daha, lütfen. Daha yavaş, lütfen."
           }
         ],
         "to": "zafer"
@@ -165,6 +165,14 @@
     "şşş": {
       "fa": "هیس!",
       "en": "shh!"
+    },
+    "aa": {
+      "fa": "عه! (تعجب)",
+      "en": "oh! (surprise)"
+    },
+    "vay": {
+      "fa": "وای!",
+      "en": "wow!"
     }
   },
   "id": "s1e47",
@@ -576,10 +584,10 @@
     {
       "do": "hand_heart",
       "emo": "shy",
-      "en": "Once more, please. Slowly, please.",
+      "en": "Once more, please. Slower, please.",
       "fa": "یه بار دیگه، لطفاً. آروم‌تر، لطفاً.",
       "to": "zafer",
-      "tr": "Bir daha, lütfen. Yavaş, lütfen.",
+      "tr": "Bir daha, lütfen. Daha yavaş, lütfen.",
       "who": "nima"
     },
     {
@@ -680,10 +688,10 @@
     },
     {
       "emo": "happy",
-      "en": "I wrote ‘My first day’. You?",
-      "fa": "من «روزِ اولم». تو؟",
+      "en": "‘My first day’. And you?",
+      "fa": "«روزِ اولم». تو چی؟",
       "to": "dilnoza",
-      "tr": "Ben ‘İlk günüm’. Sen?",
+      "tr": "‘İlk günüm’. Ya sen?",
       "who": "nima"
     },
     {
@@ -737,21 +745,21 @@
     {
       "do": "cheer",
       "emo": "happy",
-      "en": "My residence permit came through!",
-      "fa": "اقامتم درست شد!",
+      "en": "Oh! My residence permit came through!",
+      "fa": "عه! اقامتم درست شد!",
       "to": "all",
-      "tr": "İkametim tamam!",
+      "tr": "Aa! İkametim tamam!",
       "who": "nima"
     },
     {
       "emo": "laugh",
-      "en": "Two exams over in one day!",
-      "fa": "توی یه روز دو تا امتحان تموم شد!",
+      "en": "Wow! Two exams over in one day!",
+      "fa": "وای! توی یه روز دو تا امتحان تموم شد!",
       "react": {
         "dilnoza": "laugh"
       },
       "to": "nima",
-      "tr": "Bir günde iki sınav bitti!",
+      "tr": "Vay! Bir günde iki sınav bitti!",
       "who": "parvaneh"
     },
     {

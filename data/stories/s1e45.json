@@ -338,10 +338,10 @@
     },
     {
       "emo": "happy",
-      "en": "Nice! Who is that from?",
-      "fa": "قشنگه! مالِ کیه؟",
+      "en": "Nice! Who did you learn that from?",
+      "fa": "قشنگه! از کی یاد گرفتی؟",
       "to": "nima",
-      "tr": "Güzel! Kimden?",
+      "tr": "Güzel! Kimden öğrendin?",
       "who": "yusuf"
     },
     {
@@ -493,10 +493,10 @@
     {
       "do": "nod",
       "emo": "happy",
-      "en": "Tea on the ferry! Yes!",
-      "fa": "چای توی کشتی! آره!",
+      "en": "Tea on the ferry! Yes, I'm in!",
+      "fa": "چای توی کشتی! آره، منم میام!",
       "to": "alex",
-      "tr": "Vapurda çay! Evet!",
+      "tr": "Vapurda çay! Evet, geliyorum!",
       "who": "nima"
     },
     {

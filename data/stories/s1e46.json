@@ -102,10 +102,6 @@
       "fa": "مبارک (Bayramınız kutlu olsun: جشنتان مبارک)",
       "en": "happy, blessed (Bayramınız kutlu olsun: happy holiday)"
     },
-    "muyuz": {
-      "fa": "آیا… ما؟ (mu + -yuz، سؤال)",
-      "en": "question particle mu + -yuz (we)"
-    },
     "nihayet": {
       "fa": "بالاخره",
       "en": "at last"
@@ -307,8 +303,8 @@
       "at": "ch:omer",
       "do": "point",
       "emo": "proud",
-      "en": "Ömer's third in the row!",
-      "fa": "عمر نفرِ سومِ ردیفه!",
+      "en": "Look! Ömer's third in the row!",
+      "fa": "ببین! عمر نفرِ سومِ ردیفه!",
       "react": {
         "nima": {
           "at": "ch:omer",
@@ -316,7 +312,7 @@
         }
       },
       "to": "nima",
-      "tr": "Ömer üçüncü sırada!",
+      "tr": "Bak! Ömer üçüncü sırada!",
       "voice": "whisper",
       "who": "serkan"
     },
@@ -466,8 +462,8 @@
     },
     {
       "emo": "happy",
-      "en": "Shall we go to the Bosphorus this evening? All of us!",
-      "fa": "امشب بریم بسفر؟ همه‌مون!",
+      "en": "Tonight we're all going to the Bosphorus! OK?",
+      "fa": "امشب همه‌مون می‌ریم بسفر! باشه؟",
       "react": {
         "maria": {
           "emo": "moved"
@@ -477,7 +473,7 @@
         }
       },
       "to": "all",
-      "tr": "Bu akşam Boğaz'a gidiyor muyuz? Hepimiz!",
+      "tr": "Bu akşam hepimiz Boğaz'a gidiyoruz! Tamam mı?",
       "who": "nima"
     },
     {
