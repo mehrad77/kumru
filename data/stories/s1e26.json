@@ -277,7 +277,7 @@
     {
       "emo": "surprised",
       "en": "Good morning! You're very early!",
-      "fa": "صبح بخیر! چه زود!",
+      "fa": "صبح بخیر! چقدر زود اومدید!",
       "obj": [
         {
           "id": "odevler",
@@ -285,7 +285,7 @@
         }
       ],
       "to": "nima",
-      "tr": "Günaydın! Çok erken!",
+      "tr": "Günaydın! Çok erkensiniz!",
       "who": "zafer"
     },
     {
@@ -334,10 +334,10 @@
     },
     {
       "emo": "curious",
-      "en": "And you? What time do you go to bed?",
-      "fa": "شما چی؟ ساعتِ چند می‌خوابید؟",
+      "en": "And in the evening? What time do you go to bed?",
+      "fa": "شب‌ها چی؟ ساعتِ چند می‌خوابید؟",
       "to": "zafer",
-      "tr": "Ya siz? Saat kaçta yatıyorsunuz?",
+      "tr": "Ya akşam? Saat kaçta yatıyorsunuz?",
       "who": "nima"
     },
     {
@@ -560,10 +560,10 @@
     },
     {
       "emo": "curious",
-      "en": "When do you sleep?",
+      "en": "So when do you sleep?",
       "fa": "پس کِی می‌خوابی؟",
       "to": "alex",
-      "tr": "Ne zaman uyuyorsun?",
+      "tr": "Peki, ne zaman uyuyorsun?",
       "who": "nima"
     },
     {

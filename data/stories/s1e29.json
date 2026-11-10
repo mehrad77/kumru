@@ -459,14 +459,14 @@
       "at": "obj:sardunya",
       "do": "point",
       "emo": "happy",
-      "en": "Your present: flowers and a card. Write the card in Turkish!",
-      "fa": "کادوی تو: گل و یه کارت. کارت رو ترکی بنویس!",
+      "en": "Flowers and a card… a lovely present! Write the card in Turkish!",
+      "fa": "گل و کارت… چه کادوی قشنگی! کارت رو ترکی بنویس!",
       "link": {
         "kartı": "obj:kart",
         "çiçek": "obj:sardunya"
       },
       "to": "nima",
-      "tr": "Senin hediyen: çiçek ve bir kart. Kartı Türkçe yaz!",
+      "tr": "Çiçek ve kart… güzel bir hediye! Kartı Türkçe yaz!",
       "who": "kirlangic"
     },
     {

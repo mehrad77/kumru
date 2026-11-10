@@ -179,6 +179,10 @@
     "şşş": {
       "fa": "هیس!",
       "en": "shh!"
+    },
+    "eee": {
+      "fa": "خب؟ (منتظرِ ادامه)",
+      "en": "so…? (waiting for more)"
     }
   },
   "id": "s1e30",
@@ -550,8 +554,8 @@
       "at": "ch:maria",
       "do": "give",
       "emo": "happy",
-      "en": "Here you are, Maria Teyze: this shawl is for you. A present!",
-      "fa": "بفرمایید، خاله ماریا: این شال مالِ شماست. یه هدیه!",
+      "en": "Here you are, Maria Teyze: a little present. This shawl is for you!",
+      "fa": "بفرمایید، خاله ماریا: یه هدیه‌ی کوچیک. این شال مالِ شماست!",
       "looks": {
         "maria": {
           "wear": {
@@ -566,7 +570,7 @@
         }
       },
       "to": "maria",
-      "tr": "Buyurun, Maria Teyze: bu şal sizin için. Bir hediye!",
+      "tr": "Buyurun, Maria Teyze: küçük bir hediye. Bu şal sizin için!",
       "who": "kirlangic"
     },
     {
@@ -806,10 +810,10 @@
     {
       "do": "beckon",
       "emo": "happy",
-      "en": "Come on, Nima! Two celebrations today: Maria Teyze is eighty, you're one month! A speech!",
-      "fa": "بیا، نیما! امروز دو تا جشن: خاله ماریا هشتاد، تو یه ماه! یه سخنرانی!",
+      "en": "Come on, Nima! Two celebrations today: Maria Teyze is eighty, you're one month! Make a speech!",
+      "fa": "بیا، نیما! امروز دو تا جشن: خاله ماریا هشتاد، تو یه ماه! یه سخنرانی کن!",
       "to": "nima",
-      "tr": "Gel, Nima! Bugün iki kutlama: Maria Teyze seksen, sen bir ay! Bir konuşma!",
+      "tr": "Gel, Nima! Bugün iki kutlama: Maria Teyze seksen, sen bir ay! Bir konuşma yap!",
       "who": "serkan"
     },
     {
@@ -868,9 +872,9 @@
             "reply": [
               {
                 "emo": "curious",
-                "en": "…And?",
-                "fa": "…خب؟",
-                "tr": "…Ve?",
+                "en": "So…?",
+                "fa": "خب؟",
+                "tr": "Eee?",
                 "who": "farzad"
               }
             ],

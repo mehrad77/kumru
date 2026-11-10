@@ -79,10 +79,10 @@
       "who": "nima"
     },
     {
-      "en": "First homework, then tea! Very good.",
-      "fa": "اول تکلیف، بعد چای! خیلی خوبه.",
+      "en": "First homework, then tea! Well done!",
+      "fa": "اول تکلیف، بعد چای! آفرین!",
       "to": "nima",
-      "tr": "Önce ödev, sonra çay! Çok güzel.",
+      "tr": "Önce ödev, sonra çay! Aferin!",
       "who": "elif"
     }
   ],
@@ -142,6 +142,10 @@
     "öğlen": {
       "fa": "ظهر",
       "en": "at noon"
+    },
+    "aferin": {
+      "fa": "آفرین",
+      "en": "well done!"
     }
   },
   "id": "s1e28",
