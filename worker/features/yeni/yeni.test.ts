@@ -276,7 +276,7 @@ describe("the reader's document", () => {
     const r = await getDoc(s.yeni);
     expect(r.status).toBe(429);
     expect(r.json.error).toBe("rate_limited");
-  });
+  }, 20_000); // 121 requests in a row: more than the default 5 s on a slow CI runner
 
   it("is separate from progress and from other learners", async () => {
     const a = await reader(), b = await reader();
