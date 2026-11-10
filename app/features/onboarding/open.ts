@@ -10,6 +10,8 @@ import { flushLater } from "../../ui/later.ts";
 import { saveProgress } from "../progress/index.ts";
 import { ONB_V, type Mode } from "./model/flow.ts";
 
+const RETRIED = "kumru:onb-retried";
+
 /** Opens the flow. Modes: full (new learner), update (existing learner, once), edit (name, character, about), place (retake the placement). */
 export function openOnboarding(mode: Mode = "full"): void {
   if (document.querySelector(".onb-back")) return;
@@ -35,19 +37,23 @@ export function openOnboarding(mode: Mode = "full"): void {
   };
   // a flow that cannot load (offline, a browser that cannot parse the chunk) says so instead of leaving an empty screen; closing it
   // here does not mark the onboarding seen, so it is offered again on the next visit
+  // A page from before a deploy asks for its own build's chunk, which the server no longer has (app/host/swcache.ts): the first
+  // failure in a tab loads the current version (activating a waiting worker), once, before the screen below is shown.
   const failed = (e: unknown) => {
     console.warn("onboarding", e);
     if (closed) return;
+    try { if (!sessionStorage.getItem(RETRIED)) { sessionStorage.setItem(RETRIED, "1"); window.kumru!.host.update(); return; } } catch { /* storage is off */ }
     loadFailed = true;
     back.replaceChildren(el("div", { class: "onb-scroll" }, el("div", { class: "onb" },
       el("h1", { text: "Couldn't load this" }),
       el("p", { text: "Check your connection and try again." }))),
     el("div", { class: "onb-foot" },
-      el("button", { class: "btn primary", type: "button", text: "Try again", onclick: () => location.reload() }),
+      el("button", { class: "btn primary", type: "button", text: "Try again", onclick: () => window.kumru!.host.update() }),
       el("button", { class: "linkish", type: "button", text: "Go to the app", onclick: () => finish() })));
   };
   void import("./Onboarding.tsx").then(async (m) => {
     const un = await mountIsland(back, m.Onboarding, { mode, finish });
+    try { sessionStorage.removeItem(RETRIED); } catch { /* storage is off */ }
     if (closed) un(); else unmount = un;
   }).catch(failed);
 }
