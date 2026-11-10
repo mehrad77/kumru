@@ -198,10 +198,11 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     cleanups.push(() => theatreQ.removeEventListener("change", applyView));
 
     let cur: { stage: ReturnType<Player["stageFor"]>; player: ReturnType<Player["storyPlayer"]> } | null = null;
-    // Devam only where there is a line to read: after the opening, a scene change, a stage beat or a sound, the next cue plays
-    // by itself after a short hold. `lastCue` is the cue played last (null: the opening scene, shown at load).
+    // Devam only where there is a line to read: after the opening, a scene change, a stage beat or a sound, and after the
+    // learner's own line (one they said or picked: they have just read it), the next cue plays by itself after a short hold.
+    // `lastCue` is the cue played last (null: the opening scene, shown at load).
     let lastCue: { kind: string; tr?: string } | null = null, onwardFor = -1, onwardTimer = 0;
-    const wordless = (c: { kind: string; tr?: string } | null) => !c || c.kind === "scene" || c.kind === "beat" || c.kind === "react" || !c.tr?.trim();
+    const wordless = (c: { kind: string; tr?: string } | null) => !c || c.kind === "scene" || c.kind === "beat" || c.kind === "react" || c.kind === "say" || !c.tr?.trim();
     cleanups.push(() => clearTimeout(onwardTimer));
     function start(stage: ReturnType<Player["stageFor"]>) {
       const player = P.storyPlayer(stage as never, adapted, {
@@ -285,7 +286,8 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       }
       return c;
     }
-    function aloudBtn(expected: string[], said: () => void) {
+    /** The microphone for a card: `said` gets which of the `expected` lines was heard (a choice picks that option). */
+    function aloudBtn(expected: string[], said: (best: number) => void) {
       if (!pref("aloud", true) || !voiceOk(P.canListen())) return null;
       const status = el("small", { class: "st-heard", "aria-live": "polite" });
       let ctl: AbortController | null = null;
@@ -296,7 +298,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
         ctl = null; mic.setAttribute("aria-pressed", "false");
         noteListen(r);
         if (!r.matched && !voiceOk(P.canListen())) { wrap.remove(); return; }
-        if (r.matched) { status.textContent = "✓"; said(); } else status.textContent = r.heard ? `I heard “${r.heard}”. Try again, or tap Söyle.` : "I didn't hear you. Try again, or tap Söyle.";
+        if (r.matched) { status.textContent = "✓"; said(r.best); } else status.textContent = r.heard ? `I heard “${r.heard}”. Try again, or tap Söyle.` : "I didn't hear you. Try again, or tap Söyle.";
       }, { "aria-pressed": "false" });
       const wrap = el("div", { class: "st-aloud" }, mic, status);
       return wrap;
@@ -326,7 +328,7 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       } else if (t.kind === "choice") {
         const order = shuffled(t.options.length, `${story.id}:${t.id}:${record(story.id).reads ?? 0}`);
         const c = card("choose what to say", t.options, order, (k) => cur!.player.choose(k));
-        const al = aloudBtn(t.options.map((o) => o.tr ?? ""), () => undefined);
+        const al = aloudBtn(t.options.map((o) => o.tr ?? ""), (k) => cur!.player.choose(k));
         if (al) c.append(al);
         foot.append(c);
       } else {
