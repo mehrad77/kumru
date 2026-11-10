@@ -1,0 +1,77 @@
+{
+ "story": "s1e09",
+ "lines": {
+  "tolga": {
+   "İyi akşamlar! Hoş geldiniz!": {
+    "f": "d73cc0910a9d68.m4a",
+    "ms": 1955,
+    "sig": "9ec3fcf87ddeec"
+   },
+   "Birinci… ikinci… üçüncü… dördüncü kat! Asansör yok, ama… merdiven var!": {
+    "f": "ba47cb9c3cdc8f.m4a",
+    "ms": 6271,
+    "sig": "3b7093b2eb20da"
+   },
+   "Burası salon. Salonda balkon var… ve şehir!": {
+    "f": "def9cf9cb16ca9.m4a",
+    "ms": 3280,
+    "sig": "b05fb774f34acb"
+   },
+   "Küçük… ama ucuz!": {
+    "f": "e5b2d63605f960.m4a",
+    "ms": 1314,
+    "sig": "f36cee3752ce91"
+   },
+   "Mutfak şurada. Mutfakta fırın var, masa var… buzdolabı yok! Ama çok güzel bir ev, değil mi?": {
+    "f": "8fd1881f3f9385.m4a",
+    "ms": 8005,
+    "sig": "e9526372dc228a"
+   },
+   "Çirkin… değil! Eski.": {
+    "f": "bbf10ee780b663.m4a",
+    "ms": 5338,
+    "sig": "d2c14014167fcd"
+   },
+   "Tamam! Çok güzel! Depozito bir kira…": {
+    "f": "1499c2ed8c60b5.m4a",
+    "ms": 5246,
+    "sig": "5ff75beda96a05"
+   },
+   "Pahalı değil! Feriköy'de ucuz!": {
+    "f": "edd66a48586c58.m4a",
+    "ms": 2396,
+    "sig": "02bc4949bc12e5"
+   },
+   "Evet mi? Hayır mı?": {
+    "f": "2e7a60513c48bf.m4a",
+    "ms": 1338,
+    "sig": "2ceb71329d87d9"
+   }
+  },
+  "kerim": {
+   "İyi akşamlar! Burası Feriköy. Bu bina eski. Çatıda kim var? Kerim var!": {
+    "f": "21f2ded43bc7ae.m4a",
+    "ms": 5062,
+    "sig": "fe6ccf590bd261"
+   },
+   "Ucuz… mu?": {
+    "f": "60d4072815c3ba.m4a",
+    "ms": 1360,
+    "sig": "a4c0494b858dc9"
+   },
+   "Bir kuş… değil. Kerim!": {
+    "f": "85bb7d2cf5a6ad.m4a",
+    "ms": 1604,
+    "sig": "23866fdc9927ba"
+   },
+   "Evet… evet de, Nima!": {
+    "f": "8e5691dd3c2e67.m4a",
+    "ms": 2174,
+    "sig": "b3bfbb8de5aaef"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

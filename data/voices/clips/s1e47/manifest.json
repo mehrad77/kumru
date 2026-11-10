@@ -1,0 +1,106 @@
+{
+ "story": "s1e47",
+ "lines": {
+  "zafer": {
+   "Okuma. Kafe kaçıncı katta? Saat kaçta açılıyor?": {
+    "f": "3055fd0786e0ca.m4a",
+    "ms": 5640,
+    "sig": "e39405bd3c376d"
+   },
+   "Lütfen… sessiz!": {
+    "f": "cb2c499d7936e9.m4a",
+    "ms": 2104,
+    "sig": "d11e5a24a65377"
+   },
+   "Yazma: ‘İlk günüm.’": {
+    "f": "50ee1289cfcd53.m4a",
+    "ms": 3089,
+    "sig": "7980f9b341c0f9"
+   },
+   "Parvane… Nima…": {
+    "f": "68f0f8faf114cc.m4a",
+    "ms": 1456,
+    "sig": "9ae85196c2947b"
+   },
+   "İstanbul'da en çok neyi seviyorsunuz?": {
+    "f": "10d6fe451aadf2.m4a",
+    "ms": 3325,
+    "sig": "9b77138d895a4e"
+   },
+   "Dün ne yaptınız, nereye gittiniz?": {
+    "f": "8b81e797a23e4e.m4a",
+    "ms": 2177,
+    "sig": "186875da3e616d"
+   },
+   "Dün… ne yaptınız?": {
+    "f": "a89c0b36ec8469.m4a",
+    "ms": 2465,
+    "sig": "b91328e5032ce9"
+   },
+   "Dinleme. ‘Saat kaçta?’ ‘Üçte.’ ‘Nerede?’ ‘Kafenin önünde.’ …Nerede?": {
+    "f": "f0bb917617f550.m4a",
+    "ms": 5131,
+    "sig": "5fc1d731b6996b"
+   },
+   "Konuşma. Yedi numara: Nima. Kendinizi tanıtın, lütfen.": {
+    "f": "05dc33240ddb93.m4a",
+    "ms": 8176,
+    "sig": "1f158aa5f57a0b"
+   },
+   "A1 bitti. Sonuçlar… gelecek hafta. Ama ben sizinle çok gurur duyuyorum.": {
+    "f": "d6058ff241843a.m4a",
+    "ms": 8082,
+    "sig": "5fb5ddf9e29a39"
+   }
+  },
+  "parvaneh": {
+   "Nima! ‘Gittik’ mi, ‘gittim’ mi?": {
+    "f": "13c8cccf07a232.m4a",
+    "ms": 5091,
+    "sig": "3a5da8f0ccab39"
+   },
+   "Ben… gittim. Gittim! Tamam.": {
+    "f": "58d4972e9d1016.m4a",
+    "ms": 4680,
+    "sig": "3d7608c235a42e"
+   },
+   "Ben her şeyi yazdım! …Belki çok fazla!": {
+    "f": "7799d73550b534.m4a",
+    "ms": 3538,
+    "sig": "1ad4848b4e037b"
+   },
+   "Vay! Bir günde iki sınav bitti!": {
+    "f": "160d81ab8d7caf.m4a",
+    "ms": 4743,
+    "sig": "d15bd6c2d8e2c9"
+   }
+  },
+  "kerim": {
+   "Saat dokuz. Sınav başlıyor. Kerim… sessiz.": {
+    "f": "0cacc725cea582.m4a",
+    "ms": 4083,
+    "sig": "861aa08db2a407"
+   },
+   "Sınav bitti. A1 bitti. Ama… hikâye bitmedi.": {
+    "f": "dde1edc6b65c30.m4a",
+    "ms": 5481,
+    "sig": "2576dc7b002b58"
+   }
+  },
+  "dilnoza": {
+   "Köşe bakkalı çay getirdi! …Ne yazdın, Nima?": {
+    "f": "b8889406cc9f81.m4a",
+    "ms": 3916,
+    "sig": "2f6b05cbf3161f"
+   },
+   "Ben… ‘Benim ailem’.": {
+    "f": "d8d313971595bf.m4a",
+    "ms": 3598,
+    "sig": "86931d575e82be"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

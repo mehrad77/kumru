@@ -1,0 +1,86 @@
+{
+ "story": "s1e34",
+ "lines": {
+  "parvaneh": {
+   "Yemek yok! Geçmiş olsun!": {
+    "f": "792fd37ebd9a27.m4a",
+    "ms": 2429,
+    "sig": "3f36cac2b4a9ec"
+   },
+   "Doktor Yusuf!": {
+    "f": "28e64907a7970a.m4a",
+    "ms": 1044,
+    "sig": "7f05a9d073de17"
+   },
+   "Tamam… bugün öğretmen benim! Bu ne?": {
+    "f": "b558b38c6802d5.m4a",
+    "ms": 3301,
+    "sig": "beb4d0f39af013"
+   },
+   "Ve bu? …Uyku!": {
+    "f": "024f3453a93b42.m4a",
+    "ms": 2773,
+    "sig": "b93a7f00ec2001"
+   },
+   "En iyi ilaç: İsmail'in ballı çayı!": {
+    "f": "fc782fd1344fa4.m4a",
+    "ms": 3365,
+    "sig": "a969d0dc4351b0"
+   }
+  },
+  "yusuf": {
+   "Şikâyetiniz nedir?": {
+    "f": "d25c6980883f73.m4a",
+    "ms": 1292,
+    "sig": "e1c40014fd19b8"
+   },
+   "Hasta! Geçmiş olsun!": {
+    "f": "afe0c77967e2ae.m4a",
+    "ms": 1754,
+    "sig": "aa143aa425b2ff"
+   },
+   "Evet! Doktor olmak istiyorum… ama önce B2!": {
+    "f": "3f4e3ae4258e2b.m4a",
+    "ms": 3078,
+    "sig": "d3568be1bc5840"
+   },
+   "Baş! Kulak! Kol! Bacak!": {
+    "f": "1bf6e602baa2b4.m4a",
+    "ms": 2006,
+    "sig": "1b2ade14c0b43e"
+   },
+   "Hmm… başınız ağrıyor. Boğazınız ağrıyor. İlaç: çay, bal… ve sessizlik!": {
+    "f": "1abdf663c9a651.m4a",
+    "ms": 5319,
+    "sig": "bda7a8e0903b1e"
+   }
+  },
+  "ismail": {
+   "Hoş geldiniz! Ne lazım?": {
+    "f": "37a21844b837a6.m4a",
+    "ms": 3124,
+    "sig": "761a8f1f8da89b"
+   },
+   "Geçmiş olsun! Buyurun: bal ve Rize çayı. Hocaya benden!": {
+    "f": "6df1ca56392af0.m4a",
+    "ms": 5124,
+    "sig": "a64d08dca28417"
+   }
+  },
+  "kerim": {
+   "Zafer Hoca geliyor… ama bugün sesi yok!": {
+    "f": "9b8ea9562d25b1.m4a",
+    "ms": 3306,
+    "sig": "94fcc377d275c0"
+   },
+   "Öğretmen: Parvane. Doktor: Yusuf. Ve bal? Nima'dan!": {
+    "f": "2795a9830434a7.m4a",
+    "ms": 4174,
+    "sig": "33d84bdc49c466"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

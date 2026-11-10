@@ -1,0 +1,101 @@
+{
+ "story": "s1e45",
+ "lines": {
+  "berfin": {
+   "Buyurun, çaylar! Bugün ne çalışıyorsunuz?": {
+    "f": "476343039f0712.m4a",
+    "ms": 3610,
+    "sig": "60ca4bb6aeeed4"
+   }
+  },
+  "dilnoza": {
+   "Konuşma!": {
+    "f": "3a78192453edf4.m4a",
+    "ms": 2194,
+    "sig": "8858c26e4e5d5d"
+   },
+   "Konuşma! Rehberi beraber yazdık… şimdi beraber konuşuyoruz!": {
+    "f": "c0fa3b102ab58f.m4a",
+    "ms": 5542,
+    "sig": "32c31ec98ad419"
+   },
+   "Alex, A2'ye geliyor musun?": {
+    "f": "d398811d9c1499.m4a",
+    "ms": 2757,
+    "sig": "0d755307ef8c0c"
+   },
+   "Hepimiz korkuyoruz!": {
+    "f": "58fdfbf161b327.m4a",
+    "ms": 2338,
+    "sig": "ff1eda77b4986b"
+   }
+  },
+  "yusuf": {
+   "Ben B2 istiyorum. Tıp için. Ama B2… çok uzak.": {
+    "f": "cf0d59cc6b78e1.m4a",
+    "ms": 3888,
+    "sig": "e7716bc7c9f21b"
+   },
+   "Ya sen, Parvane?": {
+    "f": "8c47fe2b7f74a9.m4a",
+    "ms": 2412,
+    "sig": "470e7dba4f6dce"
+   },
+   "Şey… Nima, cumartesi ne yapıyorsun?": {
+    "f": "7d6a8992ade516.m4a",
+    "ms": 2664,
+    "sig": "2fe8c3e24857b8"
+   },
+   "Güzel! Kimden öğrendin?": {
+    "f": "fbd4c6dec4123d.m4a",
+    "ms": 1948,
+    "sig": "c61442bbea220b"
+   }
+  },
+  "alex": {
+   "Bilmiyorum. Gece hostelde çalışıyorum… çok yorgunum. Belki Rusya'ya dönüyorum. …Ya sen, Yusuf?": {
+    "f": "133b693ce4c1d2.m4a",
+    "ms": 5528,
+    "sig": "8bda5b519ec011"
+   },
+   "Cumartesi Kadıköy'e gelin! Benim hostelim, vapur, vapurda çay!": {
+    "f": "bbbe10551c32e5.m4a",
+    "ms": 4146,
+    "sig": "b6e0279a0d2cb0"
+   }
+  },
+  "parvaneh": {
+   "Tamam! Kolay! …Ya sen, Nima? Cumartesi ne yapıyorsun?": {
+    "f": "627f1d5485368f.m4a",
+    "ms": 6002,
+    "sig": "3de15a581a7a04"
+   },
+   "…Ya sen, Nima? Cumartesi ne yapıyorsun?": {
+    "f": "7eb704dbf43f3e.m4a",
+    "ms": 3723,
+    "sig": "a39a43dfe455db"
+   },
+   "من می‌ترسم… …Ben korkuyorum. Cuma.": {
+    "f": "52ddeb31e8da60.m4a",
+    "ms": 4732,
+    "sig": "a1d1b78216b8cf",
+    "doubt": "heard \"Men mi tirsim? Ben korkuyorum. Cuma\""
+   }
+  },
+  "kerim": {
+   "Yarım gün! Yarın bayram, cuma sınav.": {
+    "f": "4fb43dcc21e8ab.m4a",
+    "ms": 3041,
+    "sig": "c9d83c686461c5"
+   },
+   "Beş öğrenci, bir masa… ve cumartesi: vapur!": {
+    "f": "d1f0348f5c5861.m4a",
+    "ms": 4176,
+    "sig": "121f3fa451fe0c"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

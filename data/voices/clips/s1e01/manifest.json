@@ -4,48 +4,69 @@
   "farzad": {
    "Hoş geldin, Nima!": {
     "f": "069474d49211c8.m4a",
-    "ms": 1378,
-    "sig": "33eed664a4f155"
+    "ms": 1848,
+    "sig": "c9de36c7bb315d"
    },
    "Merhaba! Ama “Hoş bulduk!” diyoruz.": {
     "f": "daf43b9d878566.m4a",
-    "ms": 2620,
-    "sig": "1f8d21247a5fee"
+    "ms": 2585,
+    "sig": "7b16d5c3a00e28"
    },
    "“Hoş bulduk!” diyoruz.": {
     "f": "fe613e12999162.m4a",
-    "ms": 1738,
-    "sig": "6572f455eedba9"
+    "ms": 1939,
+    "sig": "9ee00f422c4315"
    },
    "Bir, iki, üç… Bunlar ne?": {
     "f": "f9523b3ce13400.m4a",
-    "ms": 3339,
-    "sig": "69f05991f40eb6"
+    "ms": 2807,
+    "sig": "6aecca8eb0cb94"
    },
    "Bunlar bavul mu?!": {
     "f": "0ee0588edd24fc.m4a",
-    "ms": 1270,
-    "sig": "0022d1b8773913"
+    "ms": 1155,
+    "sig": "ac4d92d5031a5d"
    },
    "Burası metro.": {
     "f": "bfcf449f6d3a25.m4a",
-    "ms": 1210,
-    "sig": "4131d3a712dba1"
+    "ms": 1720,
+    "sig": "4e103e09d3157d"
    },
    "Kuş! O uçak!": {
     "f": "d1df2655f80aa1.m4a",
-    "ms": 1573,
-    "sig": "6778ebecfaf738"
+    "ms": 1603,
+    "sig": "923fd42c9dd49b"
    },
    "Burası Mecidiyeköy. İşte ev!": {
     "f": "c9f93fa845a86a.m4a",
-    "ms": 2321,
-    "sig": "471f6be78dc898"
+    "ms": 3325,
+    "sig": "f739acf6c09d63"
+   }
+  },
+  "kerim": {
+   "Bu kim? Yeni biri!": {
+    "f": "5fb544c530fa63.m4a",
+    "ms": 1248,
+    "sig": "03583ca0c425dc"
+   },
+   "Merhaba! Benim adım Kerim. Burası İstanbul. Bu ne? Bu bir uçak!": {
+    "f": "10287c5875c63b.m4a",
+    "ms": 5264,
+    "sig": "68c963804a8e40"
+   },
+   "Çok bavul!": {
+    "f": "b6b252e96ebffb.m4a",
+    "ms": 1786,
+    "sig": "ec0d4f524f26b9"
+   },
+   "Yeni bir ev!": {
+    "f": "236d1ce93b460e.m4a",
+    "ms": 749,
+    "sig": "6808a746dcb2de"
    }
   }
  },
  "unvoiced": [
-  "kerim",
   "nima"
  ]
 }

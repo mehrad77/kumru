@@ -1,0 +1,103 @@
+{
+ "story": "s1e03",
+ "lines": {
+  "zafer": {
+   "Günaydın! Buyurun… şu masa, şu sandalye.": {
+    "f": "6bfc6779ea9fd1.m4a",
+    "ms": 4259,
+    "sig": "771519ce96740c"
+   },
+   "Bu ne?": {
+    "f": "70c6514307f89c.m4a",
+    "ms": 1234,
+    "sig": "d0723d56efd56b"
+   },
+   "Bunlar ne?": {
+    "f": "54f85376827266.m4a",
+    "ms": 718,
+    "sig": "8f637d93f91c40"
+   },
+   "Kalemler. E, e! Bir daha, lütfen.": {
+    "f": "5ba9656eba4384.m4a",
+    "ms": 4955,
+    "sig": "8d8fb5b6305380"
+   },
+   "Nima, bunlar ne?": {
+    "f": "35cc36168fcdeb.m4a",
+    "ms": 1976,
+    "sig": "b6aaa83f38a71b"
+   },
+   "Evet! Çok güzel.": {
+    "f": "e419c4e907b0b6.m4a",
+    "ms": 3797,
+    "sig": "c9e68ff19d2bab"
+   },
+   "E, e! Pencereler.": {
+    "f": "5457b0cee8cd5d.m4a",
+    "ms": 1974,
+    "sig": "711f17952f547d"
+   },
+   "Bir, iki, üç… pencereler!": {
+    "f": "52be4cb0bebf81.m4a",
+    "ms": 6540,
+    "sig": "f897974c1c8618"
+   },
+   "O ne?": {
+    "f": "334691f850ac2f.m4a",
+    "ms": 1421,
+    "sig": "f30fb1cf930113"
+   }
+  },
+  "parvaneh": {
+   "Merhaba! Benim adım Parvane. İsfahanlıyım!": {
+    "f": "998cab38a0e5d8.m4a",
+    "ms": 4401,
+    "sig": "d918363198366c"
+   },
+   "Kalem!": {
+    "f": "8e51037ca44e4a.m4a",
+    "ms": 446,
+    "sig": "6623c42089bae0"
+   },
+   "Sözlük! Kolay!": {
+    "f": "21ec45daf35ca8.m4a",
+    "ms": 3055,
+    "sig": "3d3810176c2d66"
+   },
+   "Bir kuş!": {
+    "f": "d68714fe5d5b0b.m4a",
+    "ms": 875,
+    "sig": "5ac8ca0186c426"
+   }
+  },
+  "dilnoza": {
+   "Kalemlar!": {
+    "f": "c7ba9fb05114f8.m4a",
+    "ms": 2878,
+    "sig": "055d4f72ce6d6d",
+    "doubt": "heard \"Kalemnaş.\""
+   },
+   "Kalemler! Bunlar da… defterler, masalar!": {
+    "f": "edbd07e45cdc9c.m4a",
+    "ms": 5585,
+    "sig": "a6769b07b857af"
+   }
+  },
+  "kerim": {
+   "Saat dokuz. Bu kim? Bu Nima!": {
+    "f": "82d59665ff29fd.m4a",
+    "ms": 2708,
+    "sig": "8078dd16d7c0df"
+   },
+   "Kuş… evet!": {
+    "f": "510b4973300efb.m4a",
+    "ms": 953,
+    "sig": "e1e8ec9a95cadc",
+    "doubt": "heard \"Evet.\""
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

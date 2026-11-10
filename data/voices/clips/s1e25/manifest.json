@@ -1,0 +1,77 @@
+{
+ "story": "s1e25",
+ "lines": {
+  "kirlangic": {
+   "Günaydın, Nima! Nereye?": {
+    "f": "59e0c0dd330b81.m4a",
+    "ms": 2024,
+    "sig": "8ca9d8c5151be1"
+   },
+   "Geç mi? Bak, saat kaç?": {
+    "f": "4e519767669654.m4a",
+    "ms": 1782,
+    "sig": "8e6c3c13b9c062"
+   },
+   "Evet, dokuz!": {
+    "f": "008153ec57c3ec.m4a",
+    "ms": 984,
+    "sig": "6e925017adff8b"
+   },
+   "Hayır, bak: dokuz!": {
+    "f": "66fdc493e9e218.m4a",
+    "ms": 2299,
+    "sig": "7c68479ad3fced"
+   },
+   "Çeyrek yok… tam dokuz!": {
+    "f": "88e46834a5dbe3.m4a",
+    "ms": 4415,
+    "sig": "ee8b4680568575"
+   },
+   "Aa! Senin saatin… Tahran saati! Saat farkı: otuz dakika.": {
+    "f": "0c9a7858858dd0.m4a",
+    "ms": 6111,
+    "sig": "721bc9a188dad2"
+   }
+  },
+  "zafer": {
+   "Saat dokuzu yirmi beş geçiyor. Buyurun!": {
+    "f": "c86b98cc74e5a7.m4a",
+    "ms": 2772,
+    "sig": "4a3c2d204fab1f"
+   },
+   "Şimdi… saat kaç, Nima?": {
+    "f": "06f0f1148a3abd.m4a",
+    "ms": 1819,
+    "sig": "aedcfa12f4ef89"
+   },
+   "Hayır: saat dokuz buçuk.": {
+    "f": "a37f357a0552cc.m4a",
+    "ms": 2459,
+    "sig": "d07acb2b46637f",
+    "doubt": "heard \"Hayır, saat 9.30.\""
+   }
+  },
+  "parvaneh": {
+   "Tahran saati!": {
+    "f": "84ba127aaab009.m4a",
+    "ms": 1469,
+    "sig": "0f46437867a3b4"
+   }
+  },
+  "kerim": {
+   "Günaydın! Saat sekiz. Ama Nima'nın saati… sekiz buçuk!": {
+    "f": "9a4b36781a3f2f.m4a",
+    "ms": 4857,
+    "sig": "1c9d6fe9951726"
+   },
+   "Saat dokuzu çeyrek geçiyor. Nima'nın programı: ders, dokuzdan on ikiye kadar. Ama otobüs… gitmiyor!": {
+    "f": "ac3aab3079efdc.m4a",
+    "ms": 7274,
+    "sig": "1fa718e16f2842"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

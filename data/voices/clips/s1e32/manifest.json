@@ -1,0 +1,81 @@
+{
+ "story": "s1e32",
+ "lines": {
+  "zafer": {
+   "Bugün bir oyun var: “Kim o?” Dilnoza, siz başlayın!": {
+    "f": "ec39dab7347d41.m4a",
+    "ms": 4161,
+    "sig": "12cae7d19a8ad5"
+   },
+   "Doğru! Nima, şimdi siz. Beni tarif edin!": {
+    "f": "7888a754acf024.m4a",
+    "ms": 4304,
+    "sig": "80c860c466afc9"
+   },
+   "Teşekkür ederim!": {
+    "f": "f71092120848f4.m4a",
+    "ms": 905,
+    "sig": "96c9fc412660dd"
+   },
+   "Yaşlı mı?! Otuz beş yaşındayım!": {
+    "f": "65e8211dd0d4ae.m4a",
+    "ms": 4375,
+    "sig": "87452bd2be05a6"
+   },
+   "Teşekkür ederim, Dilnoza.": {
+    "f": "0616758beb89cc.m4a",
+    "ms": 2869,
+    "sig": "dc845a3ff6e067"
+   }
+  },
+  "dilnoza": {
+   "Sınıfın en uzun boylu öğrencisi! Kahverengi saçlı… ve hep uykulu!": {
+    "f": "216bbf822e7e2b.m4a",
+    "ms": 6580,
+    "sig": "ebfc1b0c713e02"
+   },
+   "Hayır! Orta boylu!": {
+    "f": "89a924bd12d6ac.m4a",
+    "ms": 2437,
+    "sig": "a26993556e7fa3"
+   }
+  },
+  "gulten": {
+   "Hoş geldiniz.": {
+    "f": "071374dadcfc10.m4a",
+    "ms": 2150,
+    "sig": "9d02d58111bb9f"
+   },
+   "Biliyorum. Kırk yıldır çiçeklerini benden alıyor. Hep sardunya.": {
+    "f": "2bf0bb25f644f8.m4a",
+    "ms": 4618,
+    "sig": "ad1f23d0597443"
+   },
+   "Feriköy'ün değil… İstanbul'un en taze çiçekleri!": {
+    "f": "27727092d750cc.m4a",
+    "ms": 4437,
+    "sig": "06f907549c77f3"
+   },
+   "Aa, siz! Sardunyalar… ve partide de! Mor şallı, beyaz saçlı hanım için, değil mi?": {
+    "f": "c26ea988494ad9.m4a",
+    "ms": 7953,
+    "sig": "ae68804ac4b051"
+   }
+  },
+  "kerim": {
+   "Sınıf 504. Uzun boylu, kısa boylu, mavi gözlü, sarı saçlı… kim kim?": {
+    "f": "af797222fc793a.m4a",
+    "ms": 6238,
+    "sig": "4bfffdc0909afa"
+   },
+   "Gri tüylü, kırmızı gözlü, çok akıllı bir kuş… kim? Kerim!": {
+    "f": "999c6fdd32795b.m4a",
+    "ms": 6902,
+    "sig": "18930d7246a8aa"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

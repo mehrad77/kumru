@@ -1,0 +1,96 @@
+{
+ "story": "s1e13",
+ "lines": {
+  "farzad": {
+   "Bu kutu nereye?": {
+    "f": "8867dbd3403b2c.m4a",
+    "ms": 1934,
+    "sig": "854d3cbcf2cac7"
+   },
+   "Taşınıyoruz!": {
+    "f": "8e01315a33d242.m4a",
+    "ms": 1194,
+    "sig": "0eec33dc26c751"
+   },
+   "Feriköy'e! Taşınıyoruz!": {
+    "f": "18a8463c8f68f7.m4a",
+    "ms": 3016,
+    "sig": "8a05949f6e24d8"
+   },
+   "Hoşça kal!": {
+    "f": "ba2c07a2299587.m4a",
+    "ms": 1535,
+    "sig": "1f20f2789da6cf"
+   }
+  },
+  "serkan": {
+   "Nereye gidiyoruz?": {
+    "f": "e10f27f0a2726c.m4a",
+    "ms": 1018,
+    "sig": "cb645dc1cddae7"
+   },
+   "Tamam! Ne yapıyorsunuz?": {
+    "f": "549a6443e59ae7.m4a",
+    "ms": 3196,
+    "sig": "690711b6b0dcba"
+   },
+   "Nereden değil… nereye?": {
+    "f": "ac0a3156250839.m4a",
+    "ms": 1647,
+    "sig": "07adac8faf25f5"
+   },
+   "Feriköy'de mi? Biz Mecidiyeköy'deyiz! Nereye?": {
+    "f": "ff26fcc9f55495.m4a",
+    "ms": 3075,
+    "sig": "d2ee4a28a72ed6"
+   },
+   "Peki… nereden geliyorsunuz?": {
+    "f": "587165da6ed734.m4a",
+    "ms": 3273,
+    "sig": "ce5a6de1824ae0"
+   },
+   "Bu sokak mı?! Ben de burada oturuyorum! İkinci kat… Ben Serkan!": {
+    "f": "e6a9e0c2b1d02b.m4a",
+    "ms": 7015,
+    "sig": "35cc7548148482"
+   },
+   "Serkan Bey değil… Serkan! Hoş geldin, komşu! Bana “sen” de!": {
+    "f": "33135f596f0629.m4a",
+    "ms": 5005,
+    "sig": "b61062f652263a"
+   },
+   "Vay! Beşiktaş kazanıyor! Güzel maç!": {
+    "f": "5899f37dd5e6bd.m4a",
+    "ms": 4590,
+    "sig": "10ee6d689b39d8"
+   }
+  },
+  "omer": {
+   "Baba! …Sen kimsin? Ne yapıyorsun?": {
+    "f": "16c471674c04dc.m4a",
+    "ms": 3153,
+    "sig": "44558646933bfe"
+   },
+   "Dördüncü kat? Asansör yok! Ama ben de yardım ediyorum!": {
+    "f": "dd40a0808e467a.m4a",
+    "ms": 4812,
+    "sig": "291b16b7decf16"
+   }
+  },
+  "kerim": {
+   "Kutular, kutular, kutular! Bugün Nima taşınıyor. Farzad koşuyor, Nima koşuyor…": {
+    "f": "d078005eec4991.m4a",
+    "ms": 6418,
+    "sig": "02477fd668a3eb"
+   },
+   "Nima… Feriköy'de. Ve çatıda… Kerim.": {
+    "f": "e602070b0db438.m4a",
+    "ms": 3643,
+    "sig": "a0ea03ebf395e4"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

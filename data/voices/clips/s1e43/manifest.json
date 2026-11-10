@@ -1,0 +1,79 @@
+{
+ "story": "s1e43",
+ "lines": {
+  "omer": {
+   "Kırmızı, beyaz… bugün bayram, bugün bayram!": {
+    "f": "cbf35f2c90ccab.m4a",
+    "ms": 4178,
+    "sig": "1e1a591a969bb1"
+   },
+   "Dinliyor musun? Güzel mi?": {
+    "f": "5593737806f671.m4a",
+    "ms": 1820,
+    "sig": "214c5ce2b4f604"
+   },
+   "Benim şarkım…": {
+    "f": "8206fb20ddd60b.m4a",
+    "ms": 1613,
+    "sig": "8f0e6aee23851a"
+   },
+   "Kırmızı, beyaz… bayraklar her yerde!": {
+    "f": "d9aabfa7c4e69a.m4a",
+    "ms": 4527,
+    "sig": "19ea4b890afafb"
+   },
+   "Gülme!": {
+    "f": "7a27ba2529d358.m4a",
+    "ms": 702,
+    "sig": "eb5c3b2acb0ac1"
+   },
+   "Bir daha!": {
+    "f": "93debdec7c4da9.m4a",
+    "ms": 941,
+    "sig": "73ba84fd744021"
+   },
+   "Sen de mi geliyorsun?! Bir bayrak getir!": {
+    "f": "2dba54812cf8ac.m4a",
+    "ms": 3121,
+    "sig": "f6e30ddd414ea7"
+   },
+   "Sonra… sonra… unuttum!": {
+    "f": "5e4e15b45c8e6b.m4a",
+    "ms": 3401,
+    "sig": "e0cc3c4ba436ed"
+   }
+  },
+  "elif": {
+   "Nima! Randevu nasıl geçti?": {
+    "f": "c2a87f9c43d524.m4a",
+    "ms": 2208,
+    "sig": "f84653e562f218"
+   },
+   "Ne güzel! …Ömer, gel! Saat sekiz! Yatma saati!": {
+    "f": "2a5e1dba6c675a.m4a",
+    "ms": 3689,
+    "sig": "09d88968a4f045"
+   },
+   "Ay… her akşam on kere söylüyor!": {
+    "f": "ccec2a85185599.m4a",
+    "ms": 4068,
+    "sig": "69dc08975e9cc9"
+   }
+  },
+  "kerim": {
+   "Nima'nın sınavı cuma. Ama bu binada… Ömer'in gösterisi perşembe!": {
+    "f": "a0fe56dd853abc.m4a",
+    "ms": 7135,
+    "sig": "260286f715f361"
+   },
+   "Kırmızı, beyaz… bugün bayram! Kerim de öğrendi!": {
+    "f": "8fc820d90f29e4.m4a",
+    "ms": 5773,
+    "sig": "38766d7a5d436f"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

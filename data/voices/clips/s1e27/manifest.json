@@ -1,0 +1,73 @@
+{
+ "story": "s1e27",
+ "lines": {
+  "maria": {
+   "Evet. Okula bu sokaktan yürüdüm. Bu çocuk… ben!": {
+    "f": "2b9579b460f521.m4a",
+    "ms": 3847,
+    "sig": "a0c27354707cfc"
+   },
+   "Bu sokakta doğdum. O günden beri bu evdeyim: seksen yıl!": {
+    "f": "4b943002f9b039.m4a",
+    "ms": 4400,
+    "sig": "5c6c8c683f05d2"
+   },
+   "Bir bayramda komşular baklava getirdi. Paskalyada da biz kırmızı yumurta verdik. Herkes geldi, herkes yedi!": {
+    "f": "404ce3636f2022.m4a",
+    "ms": 8723,
+    "sig": "352bc77e5c0ba8"
+   },
+   "Sonra? Yıllar geçti. Ama hatırlıyorum… dün gibi!": {
+    "f": "a5de09fdcf2a46.m4a",
+    "ms": 4793,
+    "sig": "a4f679d30ae9fa"
+   },
+   "Hiç! Hiç…": {
+    "f": "d7b0c51e9836cd.m4a",
+    "ms": 1128,
+    "sig": "acc4413f1eddc7",
+    "doubt": "heard \"Hit, hit.\""
+   },
+   "Teşekkür ederim, yavrum!": {
+    "f": "ff747edf85854a.m4a",
+    "ms": 1324,
+    "sig": "694d05192601cb"
+   },
+   "Doğum günüm. Cumartesi… seksen yaş! Ama… kimse bilmiyor.": {
+    "f": "814bd16fe36fe4.m4a",
+    "ms": 5900,
+    "sig": "821c639baf311a"
+   },
+   "Bayram değil, doğum günü!": {
+    "f": "aed104146a6d7c.m4a",
+    "ms": 3295,
+    "sig": "74d049aa0d8513"
+   },
+   "…Tebrikler mi? Seksen yaş için?": {
+    "f": "2df669ad8799f1.m4a",
+    "ms": 3471,
+    "sig": "8b591bdf4f09c4"
+   },
+   "Şşş! Pasta yok, mum yok. Geçen yıl da kimseye söylemedim. Tamam mı?": {
+    "f": "f3fc74178be78f.m4a",
+    "ms": 5922,
+    "sig": "f69d3401dbb57d"
+   }
+  },
+  "kerim": {
+   "Tamam? Hmm… Ku-kuu.": {
+    "f": "29d34980645828.m4a",
+    "ms": 2049,
+    "sig": "53e653d44d9e85"
+   },
+   "Maria Teyze'nin evi… çok eski. Ve çok, çok güzel.": {
+    "f": "54bc57729962e8.m4a",
+    "ms": 5044,
+    "sig": "3c4766bb84e6d6"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

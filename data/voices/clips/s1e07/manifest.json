@@ -1,0 +1,91 @@
+{
+ "story": "s1e07",
+ "lines": {
+  "zafer": {
+   "Kalem nerede? Sözlük nerede?": {
+    "f": "8dc868d0b91b0d.m4a",
+    "ms": 2490,
+    "sig": "bf0a2fb1f9753b"
+   },
+   "Evet! Saat nerede? Alex?": {
+    "f": "ee2af0637e51d3.m4a",
+    "ms": 2483,
+    "sig": "d84b1831658b3f"
+   },
+   "Duvarda. Saat duvarda! Sınıfta ne var?": {
+    "f": "14d1e42aa8ce2a.m4a",
+    "ms": 4388,
+    "sig": "795ff4080af8e9"
+   },
+   "Tamam. Yusuf, sözlük var mı?": {
+    "f": "fdbdfe9f22540e.m4a",
+    "ms": 2251,
+    "sig": "7940245ce8631d"
+   },
+   "“Değil”? Hayır: sözlük yok. “Değil”… “Ben öğretmen değilim!”": {
+    "f": "0faf8e6ca179ed.m4a",
+    "ms": 6354,
+    "sig": "5e01787851a3ef"
+   },
+   "Evet! Tahta var, bilgisayar var… televizyon yok! Nima, sözlük var mı?": {
+    "f": "d21ac341003c31.m4a",
+    "ms": 11995,
+    "sig": "4b3f181d692166"
+   },
+   "“Yok”? …“Yok, hocam!” Tamam. Yusuf?": {
+    "f": "48e67175dc05f8.m4a",
+    "ms": 4173,
+    "sig": "dc930f0d776d79"
+   }
+  },
+  "alex": {
+   "Saat… duvar.": {
+    "f": "3789b625add3f9.m4a",
+    "ms": 1083,
+    "sig": "f853206ea25cd1"
+   },
+   "Şişli'de ev var. Kira… yirmi beş bin lira.": {
+    "f": "594df8af445407.m4a",
+    "ms": 6373,
+    "sig": "0b8fedf6dff80b"
+   },
+   "Bu ev… Feriköy'de. Yirmi bin! Ama eşya yok.": {
+    "f": "bc08aa0a1db954.m4a",
+    "ms": 3548,
+    "sig": "9be3e3cee44e4e"
+   }
+  },
+  "yusuf": {
+   "Çantada!": {
+    "f": "cc7095f5b88b57.m4a",
+    "ms": 703,
+    "sig": "168d3e6fbd1f33"
+   },
+   "Var, var!": {
+    "f": "64276a5b5a12f6.m4a",
+    "ms": 2057,
+    "sig": "6c1a47c857653a"
+   },
+   "İstanbul bu! Kantin ucuz… ev pahalı.": {
+    "f": "57470f5066bcd2.m4a",
+    "ms": 4045,
+    "sig": "781a308bdd9272"
+   }
+  },
+  "kerim": {
+   "Günaydın! Pazartesi… okul var! Sınıf beş yüz dört.": {
+    "f": "4340261a1f169a.m4a",
+    "ms": 5331,
+    "sig": "cf3f6185bddf63"
+   },
+   "Nima… yeni bir ev? Nerede? Ku-kuu… yavaş yavaş.": {
+    "f": "cd4f18231cda8e.m4a",
+    "ms": 4875,
+    "sig": "bcc306f7a695dc"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

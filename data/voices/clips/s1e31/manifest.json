@@ -1,0 +1,86 @@
+{
+ "story": "s1e31",
+ "lines": {
+  "dilnoza": {
+   "Sıcak ekmek… al, bugün benden! Şimdi bir test: fırın nerede?": {
+    "f": "429ec76c84cdab.m4a",
+    "ms": 7108,
+    "sig": "bb641140445169"
+   },
+   "Doğru! Peki park nerede?": {
+    "f": "d12d0df8a4543d.m4a",
+    "ms": 3043,
+    "sig": "1af69ed2458a35"
+   },
+   "Sıcak ekmek! Biraz istiyor musun? Şimdi bir test: fırın nerede?": {
+    "f": "2c0ca1d60deb29.m4a",
+    "ms": 6385,
+    "sig": "f569bba9b91d4b"
+   },
+   "Sen Feriköy'ü çok iyi biliyorsun! Yeni öğrenciler için… bir rehber!": {
+    "f": "28117b384fc385.m4a",
+    "ms": 5572,
+    "sig": "006dbdf8e7f1d4"
+   },
+   "Yanında! Fırının yanında!": {
+    "f": "40a4148cbe042b.m4a",
+    "ms": 2148,
+    "sig": "09d033afedc838"
+   },
+   "Hayır! Fırının yanında!": {
+    "f": "46f6be3fb63da5.m4a",
+    "ms": 1795,
+    "sig": "1f5fcde70995fc"
+   }
+  },
+  "hatice": {
+   "Affedersiniz, eczane nerede?": {
+    "f": "e9a38a3dfb9294.m4a",
+    "ms": 4129,
+    "sig": "06e2e96982cf6d"
+   },
+   "Burası park! Eczane nerede?!": {
+    "f": "7386afea297f41.m4a",
+    "ms": 4698,
+    "sig": "9a0fffabb87d09"
+   },
+   "Orada mı? Okulun arkasında mı?": {
+    "f": "9e60379a506e7b.m4a",
+    "ms": 3128,
+    "sig": "681cf6e267e716"
+   },
+   "Sağ ol, canım! …Aa! Sen… domates!": {
+    "f": "8c9dd82b111650.m4a",
+    "ms": 2453,
+    "sig": "9655a1759520c0"
+   }
+  },
+  "berfin": {
+   "Hoş geldiniz! Çay mı, kahve mi?": {
+    "f": "6e5d873c4b9f19.m4a",
+    "ms": 3878,
+    "sig": "eefb1311717883"
+   },
+   "Buyurun! Ben Berfin. Burası Feriköy'ün en küçük kafesi… ama en iyi çay burada!": {
+    "f": "cbfdd351d0d81e.m4a",
+    "ms": 6255,
+    "sig": "8d043bb6c94b28"
+   },
+   "Benim kafem… rehberde mi?! Bugün çaylar benden!": {
+    "f": "d7cb744d6ddc94.m4a",
+    "ms": 5305,
+    "sig": "d799f93e4a993e"
+   }
+  },
+  "kerim": {
+   "Günaydın! Feriköy… Kerim'in mahallesi. Her köşesi güzel!": {
+    "f": "bf255dc973cbc8.m4a",
+    "ms": 5894,
+    "sig": "5a85339de753f7"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

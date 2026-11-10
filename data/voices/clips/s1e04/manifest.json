@@ -1,0 +1,89 @@
+{
+ "story": "s1e04",
+ "lines": {
+  "parvaneh": {
+   "Şurası neresi?": {
+    "f": "e7ded23ab5ff08.m4a",
+    "ms": 2737,
+    "sig": "e3597afa116eaa"
+   },
+   "Mağazalar! Kafeler!": {
+    "f": "431c635fa14ff5.m4a",
+    "ms": 2725,
+    "sig": "c1e641c46491c6"
+   },
+   "Şu ne?": {
+    "f": "326d3e9230280d.m4a",
+    "ms": 753,
+    "sig": "02e8e2ba0f437f"
+   },
+   "Orası neresi? Paris mi?": {
+    "f": "27ac3fde07a843.m4a",
+    "ms": 2953,
+    "sig": "68401834f4f5c5"
+   },
+   "Galata! Çok güzel!": {
+    "f": "ead48fbdb7f5bb.m4a",
+    "ms": 2197,
+    "sig": "53255d74b4b438"
+   },
+   "Burası mı? Hayır… burası Şişhane!": {
+    "f": "aeaaa8c0a6c2dd.m4a",
+    "ms": 3976,
+    "sig": "be1a1ae0efd7bf"
+   },
+   "Sen metro, ben mağazalar!": {
+    "f": "44bf1a0dfbe725.m4a",
+    "ms": 3257,
+    "sig": "3c32c72bb06728"
+   },
+   "Paris mi? Hayır, hayır! Burası İstanbul!": {
+    "f": "c0216fa6f9eee0.m4a",
+    "ms": 4436,
+    "sig": "d18e4a22781b10"
+   },
+   "Güle güle!": {
+    "f": "d166439f0aca9e.m4a",
+    "ms": 1392,
+    "sig": "daafe1e99f1756"
+   },
+   "Görüşürüz, Nima!": {
+    "f": "18fa7de8c64842.m4a",
+    "ms": 1878,
+    "sig": "fb1a3a423f8453"
+   },
+   "Hayır, hayır! Sen: hoşça kal. Ben: güle güle!": {
+    "f": "ee4e6b597f97cb.m4a",
+    "ms": 3637,
+    "sig": "9b58a0fcb757c4"
+   }
+  },
+  "dilnoza": {
+   "Çok güzel bir sokak!": {
+    "f": "ad6ec1b95a7735.m4a",
+    "ms": 1527,
+    "sig": "89cf464c8e70bb"
+   },
+   "Aa, otobüs! Hoşça kalın!": {
+    "f": "220550f3a8657f.m4a",
+    "ms": 2329,
+    "sig": "7553721a93e865"
+   }
+  },
+  "kerim": {
+   "Burası Taksim. Çok kalabalık!": {
+    "f": "02050b36ca9322.m4a",
+    "ms": 3927,
+    "sig": "be50153c1f141b"
+   },
+   "Burası İstanbul. Güzel ve kalabalık.": {
+    "f": "c419007b6fd790.m4a",
+    "ms": 2670,
+    "sig": "e71190444c74dc"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

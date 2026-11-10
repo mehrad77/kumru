@@ -1,7 +1,121 @@
 {
  "farzad": {
+  "sample": "fa_m03",
+  "source": "FLEURS fa_ir test 16382684728645118600.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "serkan": {
+  "sample": "tr_m03",
+  "source": "FLEURS tr_tr dev 17869408681478961537.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "yusuf": {
+  "sample": "ar_m04",
+  "source": "FLEURS ar_eg train 11044871963841774836.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "tolga": {
+  "sample": "tr_m04",
+  "source": "FLEURS tr_tr dev 3127571050549003755.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "kirlangic": {
+  "sample": "fa_own1",
+  "source": "the owner's own sample (parastoo2.ogg, the first 9 s)",
+  "license": "the speaker's own voice, given by the owner",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "omer": {
+  "sample": "tr_f07",
+  "source": "FLEURS tr_tr train 11137712264254917450.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "parvaneh": {
+  "sample": "fa_f05",
+  "source": "FLEURS fa_ir train 13691792851000501809.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "dilnoza": {
+  "sample": "uz_f02",
+  "source": "FLEURS uz_uz dev 18107313623611026809.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "maria": {
+  "sample": "tr_f02",
+  "source": "FLEURS tr_tr train 16080170146670700564.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "zafer": {
+  "sample": "tr_m01",
+  "source": "FLEURS tr_tr dev 16389947041128799155.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "berfin": {
+  "sample": "tr_f05",
+  "source": "FLEURS tr_tr train 15623328997720184649.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "reza": {
   "sample": "fa_m02",
   "source": "FLEURS fa_ir dev 3929967413099840103.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "ismail": {
+  "sample": "tr_m04",
+  "source": "FLEURS tr_tr dev 3127571050549003755.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "elif": {
+  "sample": "tr_f05",
+  "source": "FLEURS tr_tr train 15623328997720184649.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "alex": {
+  "sample": "ru_m02",
+  "source": "FLEURS ru_ru dev 322147539783399261.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "hatice": {
+  "sample": "tr_f03",
+  "source": "FLEURS tr_tr train 2234071659088959868.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "rayan": {
+  "sample": "tr_f07",
+  "source": "FLEURS tr_tr train 11137712264254917450.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "newcomer": {
+  "sample": "tr_m06",
+  "source": "FLEURS tr_tr train 5459050825414144546.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "gulten": {
+  "sample": "tr_f06",
+  "source": "FLEURS tr_tr train 12861888297283946354.wav",
+  "license": "CC BY 4.0",
+  "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
+ },
+ "kerim": {
+  "sample": "tr_f04",
+  "source": "FLEURS tr_tr train 2271793330025870357.wav",
   "license": "CC BY 4.0",
   "note": "The sample the voice is cloned from; the clips are made with Chatterbox Multilingual (MIT)."
  }

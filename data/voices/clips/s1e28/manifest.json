@@ -1,0 +1,92 @@
+{
+ "story": "s1e28",
+ "lines": {
+  "elif": {
+   "Tam saat yedi! Çok güzel! Bugün nasıldı?": {
+    "f": "7f02d1fbd58c6a.m4a",
+    "ms": 3330,
+    "sig": "dfca619f38b94e"
+   },
+   "Gerçekten mi? Kaç yaşında?": {
+    "f": "454b61e56ea56b.m4a",
+    "ms": 2044,
+    "sig": "7e88919845e5ac"
+   },
+   "Bir ay! O zaman iki kutlama! İki sürpriz!": {
+    "f": "359f3acfb042b1.m4a",
+    "ms": 3995,
+    "sig": "e46cc8d8dd3746"
+   },
+   "Seksen! Maşallah! Peki sen? Ne zamandan beri İstanbul'dasın?": {
+    "f": "b92adedf23b179.m4a",
+    "ms": 5281,
+    "sig": "2e5d353e988ebb"
+   },
+   "Yemekten sonra pasta! Serkan pasta alıyor.": {
+    "f": "da07fb2e140037.m4a",
+    "ms": 3857,
+    "sig": "860e69a31648b0"
+   }
+  },
+  "omer": {
+   "Ben Maria Teyze'ye söylüyorum!": {
+    "f": "7ea405bbcd9a6c.m4a",
+    "ms": 2042,
+    "sig": "4b4e325275a730"
+   },
+   "Pastadan önce… pasta!": {
+    "f": "e826a63834733b.m4a",
+    "ms": 1818,
+    "sig": "40afd7d394b065"
+   },
+   "Hayır! Cumartesi okul yok… pasta var!": {
+    "f": "609cbbc27bb65b.m4a",
+    "ms": 3294,
+    "sig": "07a410856a279c"
+   },
+   "Sır!": {
+    "f": "f2b689f4229739.m4a",
+    "ms": 850,
+    "sig": "bdf9eeb14ce5d8",
+    "doubt": "heard \"Sırh.\""
+   }
+  },
+  "maria": {
+   "Çay… tamam.": {
+    "f": "fc9745bb24a746.m4a",
+    "ms": 2089,
+    "sig": "3943a80ad5ff6d"
+   },
+   "Ne var? Neden fısıldıyorsunuz? Cumartesi ne var?": {
+    "f": "34953b195f470a.m4a",
+    "ms": 3743,
+    "sig": "6b7b326c7354a2"
+   },
+   "Kime söyledin?!": {
+    "f": "50cf87f3ac1040.m4a",
+    "ms": 1652,
+    "sig": "65dd2f19889a99"
+   },
+   "Pasta mı?! …Peki.": {
+    "f": "95a624a1cd1015.m4a",
+    "ms": 1519,
+    "sig": "0e394ed2b281eb"
+   }
+  },
+  "kerim": {
+   "Cumartesi… sır! Şşş!": {
+    "f": "e8d6b7e96ed322.m4a",
+    "ms": 2505,
+    "sig": "a5e88b290b8d17"
+   },
+   "Saat yedi. Nima'nın saati: yedi buçuk. Ama Nima burada… tam yedide!": {
+    "f": "37229123ca16ea.m4a",
+    "ms": 7145,
+    "sig": "eaee1a474a61ea"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "story": "s1e37",
+ "lines": {
+  "tolga": {
+   "Alo? Buyurun!": {
+    "f": "a13b2b1b2a7d35.m4a",
+    "ms": 2353,
+    "sig": "81c972a20eec85"
+   },
+   "Kombi mi? Tamam, tamam! Yarın usta geliyor!": {
+    "f": "9d1333b258fa07.m4a",
+    "ms": 3552,
+    "sig": "0a8b6ab2dae696"
+   },
+   "Noter… evet, evet. O da yarın!": {
+    "f": "00b482f05ac8d1.m4a",
+    "ms": 3439,
+    "sig": "65430c15ef35b5"
+   }
+  },
+  "serkan": {
+   "Kombi mi? Ben bakıyorum! Ama önce Tolga Bey'i ara!": {
+    "f": "3b69a9f6b72b10.m4a",
+    "ms": 3576,
+    "sig": "64f85875aede3b"
+   },
+   "Bu ne? E… sıfır… bir? Hmm… Bu kombi çok eski!": {
+    "f": "f23e97bcef8f9d.m4a",
+    "ms": 7037,
+    "sig": "a4dd2263f413db"
+   },
+   "Evet, lütfen! Çay sıcak… kombi soğuk!": {
+    "f": "4f94eb8dd954ff.m4a",
+    "ms": 4588,
+    "sig": "ffaeeaa192148e"
+   }
+  },
+  "kirlangic": {
+   "Günaydın! Sınava çalışıyor musun?": {
+    "f": "5c34e7d0948e8f.m4a",
+    "ms": 2981,
+    "sig": "9e3629c5ad3771"
+   },
+   "Ha ha! Yarın İBB kütüphanesinde çalışıyoruz. Orası sıcak. Sen de gel!": {
+    "f": "0545df9c1ce04c.m4a",
+    "ms": 4456,
+    "sig": "ef0494a984ff61"
+   }
+  },
+  "kerim": {
+   "Brr! Hava çok soğuk! Ve iki hafta sonra… sınav!": {
+    "f": "3d837ed7cfff41.m4a",
+    "ms": 5227,
+    "sig": "3f0909901d785a"
+   },
+   "Su soğuk… kalorifer soğuk… Kombi çalışmıyor! Nima ne yapıyor?": {
+    "f": "688ff42e4e0334.m4a",
+    "ms": 5522,
+    "sig": "848c8272d4862f"
+   },
+   "Çay sıcak… ama ev çok soğuk! Telefon, Nima!": {
+    "f": "178ff55296c61b.m4a",
+    "ms": 4283,
+    "sig": "4c4e326aebcda9"
+   },
+   "Yarın… yarın… Hmm. Tolga Bey hep “yarın” diyor.": {
+    "f": "2aa0fbed5d4a5a.m4a",
+    "ms": 3509,
+    "sig": "bf0546e6ed33b0"
+   },
+   "Kombi soğuk… ama komşular sıcak.": {
+    "f": "9fe46f4968f810.m4a",
+    "ms": 2874,
+    "sig": "07714e54146ec7"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

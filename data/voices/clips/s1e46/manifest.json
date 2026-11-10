@@ -1,0 +1,106 @@
+{
+ "story": "s1e46",
+ "lines": {
+  "serkan": {
+   "Taksi benden!": {
+    "f": "89a14761fa9be1.m4a",
+    "ms": 1827,
+    "sig": "b00ad1e2882972"
+   },
+   "Kaç çay, Nima? Sen söyle!": {
+    "f": "307d0cde6f4123.m4a",
+    "ms": 4094,
+    "sig": "3974de45da2419"
+   },
+   "Hayır, hayır! Beş çay!": {
+    "f": "c160b89599e291.m4a",
+    "ms": 2846,
+    "sig": "c14c0b545215d4"
+   },
+   "Bak! Ömer üçüncü sırada!": {
+    "f": "0d3ae925f98969.m4a",
+    "ms": 2570,
+    "sig": "6ee4705c05f0bf"
+   }
+  },
+  "omer": {
+   "Kırmızı, beyaz… bugün bayram, bugün bayram!": {
+    "f": "cbf35f2c90ccab.m4a",
+    "ms": 4178,
+    "sig": "1e1a591a969bb1"
+   },
+   "Nasıldı? Nasıldı?": {
+    "f": "94ceb7031abc02.m4a",
+    "ms": 1620,
+    "sig": "efc797b4bd07a0"
+   },
+   "Kırmızı, beyaz… bayraklar her yerde!": {
+    "f": "d9aabfa7c4e69a.m4a",
+    "ms": 4527,
+    "sig": "19ea4b890afafb"
+   },
+   "Biliyorum!": {
+    "f": "b27609ef1c1f26.m4a",
+    "ms": 1941,
+    "sig": "f70856de4fb10e"
+   },
+   "Beş! Ben de çay içiyorum!": {
+    "f": "8bbb526bcb4a93.m4a",
+    "ms": 4790,
+    "sig": "4e922def705f5f"
+   },
+   "Ben?!": {
+    "f": "f8fc1015a668e1.m4a",
+    "ms": 1275,
+    "sig": "062a478181b4d4"
+   },
+   "…göl olur!": {
+    "f": "6a6a5341e3662f.m4a",
+    "ms": 699,
+    "sig": "7eaf7cf5b7b350"
+   },
+   "Bak! Bak! Köprü de kırmızı beyaz!": {
+    "f": "092a1643746be1.m4a",
+    "ms": 2982,
+    "sig": "e71b3a98e85b4c"
+   }
+  },
+  "maria": {
+   "Bayramınız kutlu olsun!": {
+    "f": "86aa13cc333ad8.m4a",
+    "ms": 2623,
+    "sig": "58620b208b7feb"
+   },
+   "Damlaya damlaya…": {
+    "f": "4d16de1bfe1348.m4a",
+    "ms": 1622,
+    "sig": "84564df992bea6"
+   },
+   "Seksen yıl… her 29 Ekim'de buradayım.": {
+    "f": "1f4282148cbc6c.m4a",
+    "ms": 5623,
+    "sig": "d23d8817447df3"
+   },
+   "Bir, iki, üç, dört… ve siz? Beş!": {
+    "f": "084c1b246d1ac4.m4a",
+    "ms": 2973,
+    "sig": "00405e25ced6f7"
+   }
+  },
+  "kerim": {
+   "Bugün 29 Ekim. Cumhuriyet Bayramı. Bütün şehir kırmızı ve beyaz!": {
+    "f": "82294b55173c14.m4a",
+    "ms": 5009,
+    "sig": "894f627dd8cafa"
+   },
+   "Yarın… sınav! Ama bu akşam… Boğaz'da çay. Nihayet.": {
+    "f": "0e9e998aee9808.m4a",
+    "ms": 5068,
+    "sig": "465cb6c063f6d2"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

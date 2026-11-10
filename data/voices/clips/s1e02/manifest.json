@@ -1,0 +1,106 @@
+{
+ "story": "s1e02",
+ "lines": {
+  "kirlangic": {
+   "Merhaba! Yeni öğrenci mi?": {
+    "f": "3b9c03eb20f8ff.m4a",
+    "ms": 2628,
+    "sig": "14df1fc158746b"
+   },
+   "Tahran! Ben İranlıyım. Bak… o Reza Bey. Hadi!": {
+    "f": "70a456ff1c7e07.m4a",
+    "ms": 5318,
+    "sig": "0b289961ebf50f"
+   },
+   "Siz!": {
+    "f": "d593b9255c1c1c.m4a",
+    "ms": 659,
+    "sig": "eef15736f0e5b6"
+   },
+   "Evet! Ben Kırlangıç. Hoş geldin! Nerelisin?": {
+    "f": "ba123cb80119ac.m4a",
+    "ms": 4200,
+    "sig": "c802174b1b3ea4"
+   }
+  },
+  "reza": {
+   "Altı! Adınız ne?": {
+    "f": "eeb1c8af0552a4.m4a",
+    "ms": 1595,
+    "sig": "8555b028720fff"
+   },
+   "Bir numara alın, lütfen.": {
+    "f": "2dea5f89328562.m4a",
+    "ms": 4353,
+    "sig": "f3e6f55deeda91"
+   },
+   "Yedi!": {
+    "f": "e0dc04a28c5042.m4a",
+    "ms": 714,
+    "sig": "e13f8da161501f"
+   },
+   "Dilnaza? A mı, O mu?": {
+    "f": "6417d121cb27e0.m4a",
+    "ms": 2046,
+    "sig": "65484bd27f74e9"
+   },
+   "İyiyim, teşekkür ederim. Buyurun.": {
+    "f": "38d9698a0bd937.m4a",
+    "ms": 2077,
+    "sig": "c3d59278e42323"
+   },
+   "…İyiyim, teşekkür ederim. Buyurun.": {
+    "f": "cdd9f29a457074.m4a",
+    "ms": 1987,
+    "sig": "dacc23d2dab26c"
+   },
+   "Bu pasaport mu?": {
+    "f": "b92c675864a984.m4a",
+    "ms": 1142,
+    "sig": "4b909d7243fb42"
+   },
+   "Bir, iki, üç, dört. Tamam!": {
+    "f": "30234c208ba005.m4a",
+    "ms": 2357,
+    "sig": "70e253f663f717"
+   },
+   "…İyilik. Buyurun.": {
+    "f": "972abfb168726a.m4a",
+    "ms": 1502,
+    "sig": "54965cc4501ebc"
+   }
+  },
+  "dilnoza": {
+   "Benim adım Dilnoza. Özbekistanlıyım. Memnun oldum!": {
+    "f": "427094272446d2.m4a",
+    "ms": 3910,
+    "sig": "81ba63d001934e"
+   },
+   "Dilnoza.": {
+    "f": "214020737bf324.m4a",
+    "ms": 820,
+    "sig": "2f382fbb36c1c7"
+   },
+   "Hayır, hayır! O!": {
+    "f": "afc846464e2b81.m4a",
+    "ms": 1743,
+    "sig": "966359832fdb70"
+   }
+  },
+  "kerim": {
+   "Burası Taksim. Burası Beykent Üniversitesi.": {
+    "f": "22e3268f45453e.m4a",
+    "ms": 5239,
+    "sig": "8cfa6b7969107c"
+   },
+   "İki yeni öğrenci.": {
+    "f": "dd2f4a259e12ca.m4a",
+    "ms": 3014,
+    "sig": "8bef7d5acedda9"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}

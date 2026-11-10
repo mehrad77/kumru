@@ -1,0 +1,91 @@
+{
+ "story": "s1e19",
+ "lines": {
+  "omer": {
+   "Bu kitap… senin mi?": {
+    "f": "351635fc8f0c55.m4a",
+    "ms": 1342,
+    "sig": "ecbd44e279b8e6"
+   },
+   "Senin kitabın çok büyük!": {
+    "f": "8e27d239a7ddb1.m4a",
+    "ms": 1548,
+    "sig": "728e6a61939a6f"
+   },
+   "Sen kitap mısın?! …Senin kitabın!": {
+    "f": "4dbcd756880d68.m4a",
+    "ms": 3244,
+    "sig": "082436390e0e1c"
+   },
+   "Benim mi?! Benim kitabım!": {
+    "f": "8ecabc0c653d49.m4a",
+    "ms": 2654,
+    "sig": "b816eb8f706e40"
+   },
+   "…Ama çok büyük. Senin kitabın.": {
+    "f": "764ef95d02bbd5.m4a",
+    "ms": 1915,
+    "sig": "d4ee0f76810d9e"
+   },
+   "Bu senin çantan mı? Bu da senin defterin mi?": {
+    "f": "bad7e9d7644143.m4a",
+    "ms": 3819,
+    "sig": "fdf938cc28fddc"
+   },
+   "Bu resimde kim var?": {
+    "f": "3982635a74b711.m4a",
+    "ms": 1167,
+    "sig": "da09a4dc0dce06"
+   },
+   "Boğaz! Çok güzel! …Ama biz buradayız! Ben ve sen!": {
+    "f": "c3cf79af71b18c.m4a",
+    "ms": 3909,
+    "sig": "d0548e0506cdaa"
+   },
+   "Hoşça kal! Senin odan çok güzel!": {
+    "f": "2d6f8e9cb769ff.m4a",
+    "ms": 2410,
+    "sig": "d8a39958d48cb4"
+   },
+   "Benim ablam yok, ağabeyim de yok… ama kapıda bir kedi var! Ailen nerede?": {
+    "f": "a7a9b46783995e.m4a",
+    "ms": 4619,
+    "sig": "019cefd8af03ff"
+   }
+  },
+  "elif": {
+   "Ömer! Yemek!": {
+    "f": "8c9ce0b3e6fb14.m4a",
+    "ms": 1488,
+    "sig": "313903c3f1f92b"
+   }
+  },
+  "farzad": {
+   "Alo, Nima! Yeni evin nasıl?": {
+    "f": "21da506f38e3a2.m4a",
+    "ms": 2829,
+    "sig": "139f00db092547"
+   },
+   "Pazar günü bana gel! Yemek yapıyorum.": {
+    "f": "b338e16a87b6ae.m4a",
+    "ms": 2445,
+    "sig": "fe550fd4dc5e92"
+   }
+  },
+  "kerim": {
+   "Bu oda kimin? Nima'nın! Ama bugün… Ömer burada!": {
+    "f": "1ea293b6572976.m4a",
+    "ms": 5033,
+    "sig": "42a900438de8d8"
+   },
+   "Ailesi uzakta… ama komşular burada. Ve Farzad.": {
+    "f": "66fe790b8f3b26.m4a",
+    "ms": 4783,
+    "sig": "cd40a0a50a98d8"
+   }
+  }
+ },
+ "unvoiced": [
+  "nima"
+ ]
+}
