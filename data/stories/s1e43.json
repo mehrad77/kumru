@@ -2,6 +2,7 @@
   "arc": {
     "en": "The exam and the holiday",
     "fa": "امتحان و جشن",
+    "ru": "Экзамен и праздник",
     "id": "s1w08",
     "mechanics": [
       "say",
@@ -24,6 +25,7 @@
     {
       "en": "Now you! Sing a song!",
       "fa": "حالا تو! یه آهنگ بخون!",
+      "ru": "Теперь ты! Спой песню!",
       "to": "nima",
       "tr": "Şimdi sen! Bir şarkı söyle!",
       "who": "omer"
@@ -36,6 +38,7 @@
           {
             "en": "Red and white… today's a holiday!",
             "fa": "قرمز و سفید… امروز جشنه!",
+            "ru": "Красный, белый… сегодня праздник!",
             "ok": true,
             "react": {
               "omer": {
@@ -47,6 +50,7 @@
                 "emo": "proud",
                 "en": "My song! Let's sing it together!",
                 "fa": "آهنگِ من! با هم می‌خونیم!",
+                "ru": "Моя песня! Поём вместе!",
                 "tr": "Benim şarkım! Beraber söylüyoruz!",
                 "who": "omer"
               }
@@ -57,6 +61,7 @@
           {
             "en": "My mum sings a song every evening!",
             "fa": "مامانم هر شب یه آهنگ می‌خونه!",
+            "ru": "Моя мама каждый вечер поёт песню!",
             "react": {
               "omer": {
                 "emo": "curious"
@@ -67,6 +72,7 @@
                 "emo": "laugh",
                 "en": "Me too! Every evening… ten times!",
                 "fa": "منم! هر شب… ده بار!",
+                "ru": "Я тоже! Каждый вечер… десять раз!",
                 "tr": "Ben de! Her akşam… on kere!",
                 "who": "omer"
               }
@@ -82,26 +88,32 @@
   "gl": {
     "gülme": {
       "fa": "نخند",
+      "ru": "не смейся (gülmek: смеяться)",
       "en": "don't laugh (gülmek: to laugh)"
     },
     "ha": {
       "fa": "ها (صدای خنده)",
+      "ru": "ха (смех)",
       "en": "ha (laughter)"
     },
     "kere": {
       "fa": "بار، دفعه",
+      "ru": "раз (on kere: десять раз)",
       "en": "times (on kere: ten times)"
     },
     "musun": {
       "fa": "آیا… تو؟ (mu + -sun، سؤال)",
+      "ru": "вопросительная частица mu + -sun (ты)",
       "en": "question particle mu + -sun (you)"
     },
     "yatma": {
       "fa": "خوابیدن (yatma saati: وقتِ خواب)",
+      "ru": "отход ко сну (yatma saati: время спать)",
       "en": "going to bed (yatma saati: bedtime)"
     },
     "şarkım": {
       "fa": "آهنگِ من",
+      "ru": "моя песня",
       "en": "my song"
     }
   },
@@ -176,7 +188,8 @@
       "q": {
         "tr": "Ömer'in gösterisi ne zaman?",
         "en": "When is Ömer's show?",
-        "fa": "نمایشِ عمر کِی است؟"
+        "fa": "نمایشِ عمر کِی است؟",
+        "ru": "Когда выступление Омера?"
       },
       "why": "“Ama bu binada… Ömer'in gösterisi perşembe!”"
     },
@@ -191,7 +204,8 @@
       "q": {
         "tr": "Ömer: “Sen de mi geliyorsun?! … getir!” Ömer ne istiyor?",
         "en": "Ömer: “You're coming too?! Bring …!” What does Ömer want?",
-        "fa": "عمر: «تو هم میای؟! … بیار!» عمر چی می‌خواد؟"
+        "fa": "عمر: «تو هم میای؟! … بیار!» عمر چی می‌خواد؟",
+        "ru": "Омер: «Ты тоже придёшь?! Принеси …!» Чего хочет Омер?"
       },
       "why": "“Sen de mi geliyorsun?! Bir bayrak getir!”"
     }
@@ -246,6 +260,7 @@
       "en": "Nima's exam is on Friday. But in this building… Ömer's show is on Thursday!",
       "env": "state:flags:fade",
       "fa": "امتحانِ نیما جمعه‌ست. ولی توی این ساختمون… نمایشِ عمر پنج‌شنبه‌ست!",
+      "ru": "Экзамен у Нимы в пятницу. Но в этом доме… выступление Омера в четверг!",
       "narr": true,
       "tr": "Nima'nın sınavı cuma. Ama bu binada… Ömer'in gösterisi perşembe!",
       "who": "kerim"
@@ -255,6 +270,7 @@
       "emo": "happy",
       "en": "Red and white… today's a holiday, today's a holiday!",
       "fa": "قرمز و سفید… امروز جشنه، امروز جشنه!",
+      "ru": "Красный, белый… сегодня праздник, сегодня праздник!",
       "move": {
         "how": "walk",
         "to": "flight_up",
@@ -277,6 +293,7 @@
       "emo": "curious",
       "en": "Are you listening? Is it good?",
       "fa": "گوش می‌دی؟ قشنگه؟",
+      "ru": "Ты слушаешь? Красиво?",
       "to": "nima",
       "tr": "Dinliyor musun? Güzel mi?",
       "who": "omer"
@@ -286,6 +303,7 @@
       "emo": "happy",
       "en": "It's really good! Once more!",
       "fa": "خیلی قشنگه! یه بار دیگه!",
+      "ru": "Очень красиво! Ещё раз!",
       "tr": "Çok güzel! Bir daha!",
       "who": "nima",
       "to": "omer"
@@ -295,6 +313,7 @@
       "emo": "proud",
       "en": "Red and white… today's a holiday, today's a holiday!",
       "fa": "قرمز و سفید… امروز جشنه، امروز جشنه!",
+      "ru": "Красный, белый… сегодня праздник, сегодня праздник!",
       "move": {
         "from": "door_maria",
         "how": "enter",
@@ -315,6 +334,7 @@
       "emo": "nervous",
       "en": "And then… then… I forgot!",
       "fa": "بعدش… بعدش… یادم رفت!",
+      "ru": "А потом… потом… забыл!",
       "tr": "Sonra… sonra… unuttum!",
       "who": "omer"
     },
@@ -327,6 +347,7 @@
             "emo": "happy",
             "en": "Red… white…",
             "fa": "قرمز… سفید…",
+            "ru": "Красный… белый…",
             "ok": true,
             "react": {
               "omer": {
@@ -339,6 +360,7 @@
                 "emo": "proud",
                 "en": "Red and white… flags everywhere!",
                 "fa": "قرمز و سفید… همه‌جا پرچمه!",
+                "ru": "Красный, белый… всюду флаги!",
                 "tr": "Kırmızı, beyaz… bayraklar her yerde!",
                 "who": "omer"
               }
@@ -352,6 +374,7 @@
             "emo": "happy",
             "en": "Red and white… flags everywhere!",
             "fa": "قرمز و سفید… همه‌جا پرچمه!",
+            "ru": "Красный, белый… всюду флаги!",
             "react": {
               "omer": {
                 "emo": "sad"
@@ -362,6 +385,7 @@
                 "emo": "sad",
                 "en": "My song…",
                 "fa": "آهنگِ من…",
+                "ru": "Моя песня…",
                 "tr": "Benim şarkım…",
                 "who": "omer"
               }
@@ -373,6 +397,7 @@
             "emo": "laugh",
             "en": "Ha ha ha! You forgot!",
             "fa": "ها ها ها! یادت رفت!",
+            "ru": "Ха-ха-ха! Ты забыл!",
             "react": {
               "omer": {
                 "emo": "shy"
@@ -383,6 +408,7 @@
                 "emo": "sad",
                 "en": "Don't laugh!",
                 "fa": "نخند!",
+                "ru": "Не смейся!",
                 "tr": "Gülme!",
                 "who": "omer"
               }
@@ -399,6 +425,7 @@
       "en": "Nima! How did the appointment go?",
       "env": "state:elif_door_open",
       "fa": "نیما! نوبتت چطور بود؟",
+      "ru": "Нима! Как всё прошло на приёме?",
       "move": {
         "from": "door_elif",
         "how": "enter",
@@ -416,6 +443,7 @@
       "emo": "happy",
       "en": "My file is complete! Now… we wait.",
       "fa": "پرونده‌م کامله! حالا… منتظریم.",
+      "ru": "Мои документы в порядке! Теперь… ждём.",
       "tr": "Dosyam tamam! Şimdi… bekliyoruz.",
       "who": "nima",
       "to": "elif"
@@ -425,6 +453,7 @@
       "emo": "happy",
       "en": "How lovely! …Ömer, come here! It's eight o'clock! Bedtime!",
       "fa": "چه خوب! …عمر، بیا! ساعت هشته! وقتِ خوابه!",
+      "ru": "Как хорошо! …Омер, иди сюда! Уже восемь! Пора спать!",
       "to": "omer",
       "tr": "Ne güzel! …Ömer, gel! Saat sekiz! Yatma saati!",
       "who": "elif"
@@ -434,6 +463,7 @@
       "emo": "happy",
       "en": "Once more!",
       "fa": "یه بار دیگه!",
+      "ru": "Ещё раз!",
       "to": "elif",
       "tr": "Bir daha!",
       "who": "omer"
@@ -442,6 +472,7 @@
       "emo": "tired",
       "en": "Oh… he sings it ten times every evening!",
       "fa": "وای… هر شب ده بار می‌خونه!",
+      "ru": "Ой… он поёт её каждый вечер по десять раз!",
       "to": "nima",
       "tr": "Ay… her akşam on kere söylüyor!",
       "who": "elif"
@@ -451,6 +482,7 @@
       "emo": "happy",
       "en": "Thursday… I'm coming too!",
       "fa": "پنج‌شنبه… منم میام!",
+      "ru": "В четверг… я тоже приду!",
       "to": "omer",
       "tr": "Perşembe… ben de geliyorum!",
       "who": "nima"
@@ -461,6 +493,7 @@
       "emo": "surprised",
       "en": "You're coming too?! Bring a flag!",
       "fa": "تو هم میای؟! یه پرچم بیار!",
+      "ru": "Ты тоже придёшь?! Принеси флаг!",
       "link": {
         "bayrak": "obj:bayrak"
       },
@@ -476,12 +509,14 @@
         "en": "Tonight's Turkish has a little of all of A1. Questions with mI: “Güzel mi?”, “Dinliyor musun?”, “Sen de mi geliyorsun?”. The mi follows the vowels (mi, mı, mu, mü) and comes after the word you ask about: “Sen de mi…?” asks about you. And the rest: bu binada (in this building, -DA), saat sekiz (eight o'clock), and Ömer'in gösterisi (Ömer's show, -(n)In … -(s)I).",
         "ex": "Dinliyor musun? Güzel mi?",
         "fa": "ترکیِ امشب از همه‌ی A1 کمی دارد. سؤال با mI: «Güzel mi?»، «Dinliyor musun?»، «Sen de mi geliyorsun?». این mi با حرف‌های صدادار هماهنگ می‌شود (mi، mı، mu، mü) و بعد از کلمه‌ای می‌آید که درباره‌اش می‌پرسی: «Sen de mi…?» یعنی «تو هم…؟». بقیه‌اش هم: bu binada («در این ساختمان»، با -DA)، saat sekiz («ساعت هشت»)، و Ömer'in gösterisi («نمایشِ عمر»، با -(n)In … -(s)I).",
+        "ru": "Сегодняшний турецкий — понемногу из всего A1. Вопросы с mI: «Güzel mi?», «Dinliyor musun?», «Sen de mi geliyorsun?». mi подстраивается под гласные (mi, mı, mu, mü) и стоит после слова, о котором спрашивают: «Sen de mi…?» спрашивает про тебя. И остальное: bu binada (в этом доме, -DA), saat sekiz (восемь часов) и Ömer'in gösterisi (выступление Омера, -(n)In … -(s)I).",
         "lesson": "g_a1_1_soru"
       }
     },
     {
       "en": "Red and white… today's a holiday! Kerim's learned it too!",
       "fa": "قرمز و سفید… امروز جشنه! کریم هم یاد گرفت!",
+      "ru": "Красный, белый… сегодня праздник! Керим тоже выучила!",
       "narr": true,
       "tr": "Kırmızı, beyaz… bugün bayram! Kerim de öğrendi!",
       "who": "kerim"
@@ -489,12 +524,14 @@
   ],
   "summary": {
     "en": "Exam week begins, but the big event in the building is Ömer's song for Republic Day, 29 October. He rehearses it on the stairs, forgets the second verse, and looks at Nima.",
-    "fa": "هفته‌ی امتحان شروع شده، ولی اتفاقِ بزرگِ ساختمان آهنگِ عمر برای جشنِ ۲۹ اکتبر است. او روی پله‌ها تمرین می‌کند، بندِ دوم یادش می‌رود و به نیما نگاه می‌کند."
+    "fa": "هفته‌ی امتحان شروع شده، ولی اتفاقِ بزرگِ ساختمان آهنگِ عمر برای جشنِ ۲۹ اکتبر است. او روی پله‌ها تمرین می‌کند، بندِ دوم یادش می‌رود و به نیما نگاه می‌کند.",
+    "ru": "Начинается неделя экзаменов, но главное событие в доме — песня Омера ко Дню Республики, 29 октября. Он репетирует на лестнице, забывает второй куплет и смотрит на Ниму."
   },
   "title": {
     "tr": "Prova",
     "en": "Rehearsal",
-    "fa": "تمرین"
+    "fa": "تمرین",
+    "ru": "Репетиция"
   },
   "words": [
     "a1-w-sarki",

@@ -2,6 +2,7 @@
   "arc": {
     "en": "Welcome!",
     "fa": "خوش آمدی!",
+    "ru": "Добро пожаловать!",
     "id": "s1w01",
     "mechanics": [
       "say",
@@ -17,6 +18,7 @@
     {
       "en": "Nima, where is this?",
       "fa": "نیما، این‌جا کجاست؟",
+      "ru": "Нима, где это мы?",
       "to": "nima",
       "tr": "Nima, burası neresi?",
       "who": "farzad"
@@ -29,6 +31,7 @@
           {
             "en": "This is Mecidiyeköy.",
             "fa": "این‌جا مجیدیه‌کؤیه.",
+            "ru": "Это Меджидиекёй.",
             "ok": true,
             "react": {
               "farzad": {
@@ -40,6 +43,7 @@
               {
                 "en": "Yes! This is Mecidiyeköy.",
                 "fa": "آره! این‌جا مجیدیه‌کؤیه.",
+                "ru": "Да! Это Меджидиекёй.",
                 "tr": "Evet! Burası Mecidiyeköy.",
                 "who": "farzad"
               }
@@ -50,6 +54,7 @@
           {
             "en": "This is the airport.",
             "fa": "این‌جا فرودگاهه.",
+            "ru": "Это аэропорт.",
             "react": {
               "farzad": "happy"
             },
@@ -57,6 +62,7 @@
               {
                 "en": "No, not the airport! This is Mecidiyeköy.",
                 "fa": "نه، فرودگاه نیست! این‌جا مجیدیه‌کؤیه.",
+                "ru": "Нет, не аэропорт! Это Меджидиекёй.",
                 "tr": "Hayır, havalimanı değil! Burası Mecidiyeköy.",
                 "who": "farzad"
               }
@@ -71,6 +77,7 @@
     {
       "en": "What's this?",
       "fa": "این چیه؟",
+      "ru": "Что это?",
       "to": "nima",
       "tr": "Bu ne?",
       "who": "farzad"
@@ -78,6 +85,7 @@
     {
       "en": "This is a suitcase.",
       "fa": "این چمدونه.",
+      "ru": "Это чемодан.",
       "to": "farzad",
       "tr": "Bu bavul.",
       "who": "nima"
@@ -85,6 +93,7 @@
     {
       "en": "Yes! And these are suitcases too!",
       "fa": "آره! اینا هم چمدونن!",
+      "ru": "Да! И это тоже чемоданы!",
       "to": "nima",
       "tr": "Evet! Bunlar da bavul!",
       "who": "farzad"
@@ -93,38 +102,47 @@
   "gl": {
     "bavul": {
       "fa": "چمدان",
+      "ru": "чемодан",
       "en": "suitcase"
     },
     "biri": {
       "fa": "یک نفر",
+      "ru": "кто-то",
       "en": "someone"
     },
     "da": {
       "fa": "هم",
+      "ru": "тоже, и",
       "en": "too, also"
     },
     "diyoruz": {
       "fa": "می‌گوییم",
+      "ru": "мы говорим (в устойчивой фразе)",
       "en": "we say (in a set phrase)"
     },
     "gayrettepe": {
       "fa": "گایرت‌تپه (ایستگاه مترو)",
+      "ru": "Гайреттепе (станция метро)",
       "en": "Gayrettepe (a metro stop)"
     },
     "havalimanı": {
       "fa": "فرودگاه",
+      "ru": "аэропорт",
       "en": "airport"
     },
     "istanbul": {
       "fa": "استانبول",
+      "ru": "Стамбул",
       "en": "Istanbul"
     },
     "işte": {
       "fa": "این هم…؛ بفرما",
+      "ru": "вот…; вот, пожалуйста",
       "en": "here is…; there you go"
     },
     "mecidiyeköy": {
       "fa": "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Меджидиекёй (район Шишли)",
       "en": "Mecidiyeköy (a district of Şişli)"
     }
   },
@@ -183,7 +201,8 @@
       "q": {
         "tr": "Farzad: “Bunlar ne?” Nima: “…!”",
         "en": "Farzad asks “Bunlar ne?” What are they?",
-        "fa": "فرزاد می‌پرسد «Bunlar ne?» این‌ها چه هستند؟"
+        "fa": "فرزاد می‌پرسد «Bunlar ne?» این‌ها چه هستند؟",
+        "ru": "Фарзад спрашивает: «Bunlar ne?» Что это?"
       },
       "why": "Nima: “Bavullar!”"
     }
@@ -203,6 +222,7 @@
       "cam": "obj",
       "en": "Hello! My name is Kerim. This is Istanbul. What's this? It's a plane!",
       "fa": "سلام! اسم من کریمه. این‌جا استانبوله. این چیه؟ این یه هواپیماست!",
+      "ru": "Привет! Меня зовут Керим. Это Стамбул. Что это? Это самолёт!",
       "link": {
         "uçak": "obj:ucak"
       },
@@ -237,6 +257,7 @@
     {
       "en": "Who's this? Someone new!",
       "fa": "این کیه؟ یه تازه‌وارد!",
+      "ru": "Кто это? Кто-то новый!",
       "move": {
         "how": "enter",
         "to": "arrive",
@@ -264,6 +285,7 @@
       "emo": "happy",
       "en": "Welcome, Nima!",
       "fa": "خوش اومدی، نیما!",
+      "ru": "Добро пожаловать, Нима!",
       "to": "nima",
       "tr": "Hoş geldin, Nima!",
       "who": "farzad"
@@ -277,6 +299,7 @@
             "emo": "happy",
             "en": "Glad to be here!",
             "fa": "ممنون، خوشحالم که اومدم!",
+            "ru": "Спасибо за тёплую встречу!",
             "ok": true,
             "react": {
               "farzad": {
@@ -292,6 +315,7 @@
             "emo": "happy",
             "en": "Hello!",
             "fa": "سلام!",
+            "ru": "Привет!",
             "react": {
               "farzad": {
                 "emo": "laugh"
@@ -303,6 +327,7 @@
                 "emo": "happy",
                 "en": "Hello! But we say “Hoş bulduk!”",
                 "fa": "سلام! ولی این‌جا می‌گیم «Hoş bulduk!»",
+                "ru": "Привет! Но мы говорим «Hoş bulduk!»",
                 "to": "nima",
                 "tr": "Merhaba! Ama “Hoş bulduk!” diyoruz.",
                 "who": "farzad"
@@ -316,6 +341,7 @@
             "emo": "happy",
             "en": "Thanks!",
             "fa": "مرسی!",
+            "ru": "Спасибо!",
             "react": {
               "farzad": {
                 "do": "nod",
@@ -328,6 +354,7 @@
                 "emo": "happy",
                 "en": "We say “Hoş bulduk!”",
                 "fa": "این‌جا می‌گیم «Hoş bulduk!»",
+                "ru": "Мы говорим «Hoş bulduk!»",
                 "to": "nima",
                 "tr": "“Hoş bulduk!” diyoruz.",
                 "who": "farzad"
@@ -347,6 +374,7 @@
       "emo": "surprised",
       "en": "One, two, three… What are these?",
       "fa": "یک، دو، سه… اینا چیه؟",
+      "ru": "Раз, два, три… Что это?",
       "n": 3,
       "obj": [
         {
@@ -363,6 +391,7 @@
       "emo": "proud",
       "en": "Suitcases!",
       "fa": "چمدونا!",
+      "ru": "Чемоданы!",
       "link": {
         "bavullar": "obj:bavul"
       },
@@ -376,6 +405,7 @@
       "emo": "surprised",
       "en": "These are all suitcases?!",
       "fa": "اینا همه‌ش چمدونه؟!",
+      "ru": "Это всё чемоданы?!",
       "link": {
         "bavul": "obj:bavul"
       },
@@ -395,6 +425,7 @@
       "emo": "happy",
       "en": "Yes!",
       "fa": "آره!",
+      "ru": "Да!",
       "react": {
         "farzad": "laugh"
       },
@@ -406,6 +437,7 @@
       "cam": "obj",
       "en": "So many suitcases!",
       "fa": "چقدر چمدون!",
+      "ru": "Сколько чемоданов!",
       "link": {
         "bavul": "obj:bavul"
       },
@@ -447,6 +479,7 @@
       "emo": "happy",
       "en": "This is the metro.",
       "fa": "این‌جا متروئه.",
+      "ru": "Это метро.",
       "to": "nima",
       "tr": "Burası metro.",
       "who": "farzad"
@@ -458,6 +491,7 @@
       "emo": "curious",
       "en": "What's that?",
       "fa": "اون چیه؟",
+      "ru": "А вон то что?",
       "react": {
         "farzad": {
           "at": "ch:kerim",
@@ -474,6 +508,7 @@
       "do": "point_far",
       "en": "A bird! And that's a plane!",
       "fa": "پرنده! اونی که دوره، هواپیماست!",
+      "ru": "Птица! А вон там — самолёт!",
       "link": {
         "kuş": "ch:kerim",
         "uçak": "obj:ucak"
@@ -495,6 +530,7 @@
       "emo": "laugh",
       "en": "And this is a suitcase!",
       "fa": "اینم چمدونه!",
+      "ru": "А это — чемодан!",
       "link": {
         "bavul": "obj:bavul"
       },
@@ -510,6 +546,7 @@
         "en": "bu: near, you can touch it (“Bu da bavul!”). şu: a little further, where you point (“Şu ne?”: the bird outside the window). o: far away (“O uçak!”).",
         "ex": "Bu da bavul!",
         "fa": "bu برای چیزِ نزدیک است، که دستت به آن می‌رسد («Bu da bavul!»). şu کمی دورتر است و با انگشت نشانش می‌دهی («Şu ne?»: پرنده‌ی بیرونِ پنجره). o برای چیزِ دور است («O uçak!»). فارسی فقط «این» و «آن» دارد؛ ترکی سه‌تا.",
+        "ru": "bu — близко, можно потрогать («Bu da bavul!»). şu — чуть дальше, куда показываешь («Şu ne?»: птица за окном). o — далеко («O uçak!»).",
         "lesson": "g_a1_1_bu_su_o",
         "show": "deixis"
       }
@@ -539,6 +576,7 @@
       "emo": "happy",
       "en": "This is Mecidiyeköy. And here's home!",
       "fa": "این‌جا مجیدیه‌کؤیه. اینم خونه!",
+      "ru": "Это Меджидиекёй. А вот и дом!",
       "link": {
         "ev": "obj:ev"
       },
@@ -563,6 +601,7 @@
       "emo": "surprised",
       "en": "This is home?",
       "fa": "خونه اینه؟",
+      "ru": "Это и есть дом?",
       "link": {
         "ev": "obj:ev"
       },
@@ -573,6 +612,7 @@
     {
       "en": "A new home!",
       "fa": "یه خونه‌ی جدید!",
+      "ru": "Новый дом!",
       "link": {
         "ev": "obj:ev"
       },
@@ -583,12 +623,14 @@
   ],
   "summary": {
     "en": "Nima lands at IST with far too many suitcases. Farzad is waiting with a sign, and they take the metro to Farzad's home in Mecidiyeköy.",
-    "fa": "نیما با چمدان‌های بسیار در فرودگاه استانبول از هواپیما پیاده می‌شود. فرزاد با یک تابلو منتظر اوست و با هم با مترو به خانه‌ی فرزاد در مجیدیه‌کؤی می‌روند."
+    "fa": "نیما با چمدان‌های بسیار در فرودگاه استانبول از هواپیما پیاده می‌شود. فرزاد با یک تابلو منتظر اوست و با هم با مترو به خانه‌ی فرزاد در مجیدیه‌کؤی می‌روند.",
+    "ru": "Нима прилетает в аэропорт Стамбула с огромной горой чемоданов. Фарзад ждёт с табличкой, и они едут на метро к нему домой, в Меджидиекёй."
   },
   "title": {
     "tr": "Merhaba, İstanbul!",
     "en": "Hello, Istanbul!",
-    "fa": "سلام، استانبول!"
+    "fa": "سلام، استانبول!",
+    "ru": "Привет, Стамбул!"
   },
   "words": [
     "a1-w-bu",

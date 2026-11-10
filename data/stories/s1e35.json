@@ -2,6 +2,7 @@
   "arc": {
     "en": "The best of Feriköy",
     "fa": "بهترین جاهای فری‌کؤی",
+    "ru": "Лучшие места Ферикёя",
     "id": "s1w06",
     "mechanics": [
       "say",
@@ -23,6 +24,7 @@
     {
       "en": "Tell me! What's on the left?",
       "fa": "تعریف کن! سمتِ چپ چی هست؟",
+      "ru": "Расскажи! Что слева?",
       "to": "nima",
       "tr": "Anlat! Solda ne var?",
       "via": "video",
@@ -36,6 +38,7 @@
           {
             "en": "On the left there's the sun.",
             "fa": "سمتِ چپ خورشید هست.",
+            "ru": "Слева солнце.",
             "ok": true,
             "react": {
               "dilnoza": "happy"
@@ -44,6 +47,7 @@
               {
                 "en": "And on the right?",
                 "fa": "سمتِ راست چی؟",
+                "ru": "А справа?",
                 "tr": "Ve sağda?",
                 "via": "video",
                 "who": "dilnoza"
@@ -55,6 +59,7 @@
           {
             "en": "On the left there's the bridge.",
             "fa": "سمتِ چپ پل هست.",
+            "ru": "Слева мост.",
             "react": {
               "dilnoza": "confused"
             },
@@ -62,6 +67,7 @@
               {
                 "en": "The bridge on the left? No, on the right!",
                 "fa": "پل سمتِ چپه؟ نه، سمتِ راسته!",
+                "ru": "Мост слева? Нет, справа!",
                 "tr": "Köprü solda mı? Hayır, sağda!",
                 "via": "video",
                 "who": "dilnoza"
@@ -77,6 +83,7 @@
     {
       "en": "On the right there's the bridge. Down below are the streets, the bakery and our building.",
       "fa": "سمتِ راست پل هست. اون پایین کوچه‌ها، نونوایی و ساختمونِ ما هست.",
+      "ru": "Справа мост. Внизу улицы, пекарня и наш дом.",
       "tr": "Sağda köprü var. Aşağıda sokaklar, fırın ve bizim bina var.",
       "who": "nima"
     }
@@ -84,134 +91,167 @@
   "gl": {
     "belgeleriniz": {
       "fa": "مدارکتان",
+      "ru": "ваши документы",
       "en": "your documents"
     },
     "belgem": {
       "fa": "مدرکم، گواهی‌ام",
+      "ru": "моя справка (документ)",
       "en": "my certificate (document)"
     },
     "belki": {
       "fa": "شاید",
+      "ru": "может быть",
       "en": "maybe"
     },
     "boğaz": {
       "fa": "بسفر",
+      "ru": "Босфор",
       "en": "the Bosphorus"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a neighbourhood of Şişli)"
     },
     "feriköy'ün": {
       "fa": "ـِ فری‌کؤی",
+      "ru": "Ферикёя",
       "en": "Feriköy's"
     },
     "fotoğraflarım": {
       "fa": "عکس‌هایم",
+      "ru": "мои фотографии",
       "en": "my photos"
     },
     "haliç": {
       "fa": "شاخ طلایی (خلیجِ استانبول)",
+      "ru": "Золотой Рог",
       "en": "the Golden Horn"
     },
     "herkesin": {
       "fa": "همه (… دارند)",
+      "ru": "у каждого; всех",
       "en": "everyone's; everyone (has)"
     },
     "hikâyesi": {
       "fa": "داستانِ…",
+      "ru": "история (о …)",
       "en": "a story (of …)"
     },
     "ikamet": {
       "fa": "اقامت",
+      "ru": "проживание (вид на жительство)",
       "en": "residence (permit)"
     },
     "imza": {
       "fa": "امضا",
+      "ru": "подпись",
       "en": "signature"
     },
     "manzarası": {
       "fa": "منظرهٔ…",
+      "ru": "вид (на …)",
       "en": "the view (of …)"
     },
     "mühür": {
       "fa": "مهر",
+      "ru": "печать",
       "en": "stamp, seal"
     },
     "noter": {
       "fa": "محضر، دفترخانهٔ اسناد رسمی",
+      "ru": "нотариус",
       "en": "notary"
     },
     "onayı": {
       "fa": "تأییدِ…",
+      "ru": "заверение (чего-то)",
       "en": "the approval (of …)"
     },
     "randevusu": {
       "fa": "نوبتِ…، وقتِ…",
+      "ru": "запись (на …)",
       "en": "the appointment (for …)"
     },
     "rehbere": {
       "fa": "به راهنما، در راهنما",
+      "ru": "в путеводитель",
       "en": "into the guide"
     },
     "rehberin": {
       "fa": "ـِ راهنما",
+      "ru": "путеводителя",
       "en": "the guide's"
     },
     "sorun": {
       "fa": "مشکل",
+      "ru": "проблема",
       "en": "problem"
     },
     "sözleşmede": {
       "fa": "در قرارداد",
+      "ru": "в договоре",
       "en": "on the contract"
     },
     "sözleşmem": {
       "fa": "قراردادم",
+      "ru": "мой договор",
       "en": "my contract"
     },
     "sır": {
       "fa": "راز",
+      "ru": "секрет",
       "en": "secret"
     },
     "sırrı": {
       "fa": "رازِ…",
+      "ru": "секрет (чей-то)",
       "en": "the secret (of …)"
     },
     "tank": {
       "fa": "منبعِ آب",
+      "ru": "бак (для воды)",
       "en": "(water) tank"
     },
     "tanka": {
       "fa": "به منبعِ آب",
+      "ru": "на бак",
       "en": "to the (water) tank"
     },
     "tankın": {
       "fa": "ـِ منبعِ آب",
+      "ru": "бака",
       "en": "of the (water) tank"
     },
     "tolga": {
       "fa": "تولگا (مشاورِ املاک)",
+      "ru": "Толга (агент по недвижимости)",
       "en": "Tolga (the estate agent)"
     },
     "vay": {
       "fa": "وای!",
+      "ru": "ого!",
       "en": "wow!"
     },
     "üstünde": {
       "fa": "بالای…، روی…",
+      "ru": "на…; над…",
       "en": "on top of…; over…"
     },
     "üstündeki": {
       "fa": "(آنِ) روی…",
+      "ru": "тот, что на…",
       "en": "the one on top of…"
     },
     "sözleşmenin": {
       "fa": "ـِ قرارداد",
+      "ru": "договора",
       "en": "the contract's; of the contract"
     },
     "of": {
       "fa": "اوف (آه از خستگی یا ناراحتی)",
+      "ru": "ох (вздох)",
       "en": "ugh (a sigh)"
     }
   },
@@ -371,7 +411,8 @@
       "q": {
         "tr": "Sözleşmede ne yok?",
         "en": "What is missing on the contract?",
-        "fa": "قرارداد چه چیزی ندارد؟"
+        "fa": "قرارداد چه چیزی ندارد؟",
+        "ru": "Чего нет в договоре?"
       },
       "why": "Reza Bey: “Sözleşmenin… noter onayı yok.”"
     },
@@ -386,7 +427,8 @@
       "q": {
         "tr": "Dilnoza: “Vay! Bu … nerede?”",
         "en": "Dilnoza: “Wow! This … where is it?”",
-        "fa": "دلنوزا: «وای! این … کجاست؟»"
+        "fa": "دلنوزا: «وای! این … کجاست؟»",
+        "ru": "Дилноза: «Ого! Этот … где это?»"
       },
       "why": "Dilnoza: “Vay! Bu manzara… nerede?”"
     }
@@ -406,6 +448,7 @@
     {
       "en": "Friday. Ten o'clock. Nima's residence-permit appointment!",
       "fa": "جمعه. ساعت ده. نوبتِ اقامتِ نیما!",
+      "ru": "Пятница. Десять часов. У Нимы запись на вид на жительство!",
       "move": {
         "how": "walk",
         "to": "steps",
@@ -446,6 +489,7 @@
       "emo": "neutral",
       "en": "Good morning! Are your documents ready?",
       "fa": "صبح بخیر! مدارکتون آماده‌ست؟",
+      "ru": "Доброе утро! Ваши документы готовы?",
       "link": {
         "belgeleriniz": "obj:dosya"
       },
@@ -458,6 +502,7 @@
       "emo": "proud",
       "en": "Yes! My passport, my photos, my student certificate, my rental contract.",
       "fa": "بله! پاسپورتم، عکس‌هام، گواهیِ دانشجوییم، قراردادِ اجاره‌م.",
+      "ru": "Да! Паспорт, фотографии, студенческая справка, договор аренды.",
       "link": {
         "belgem": "obj:belge",
         "fotoğraflarım": "obj:fotograflar",
@@ -506,6 +551,7 @@
       "emo": "sorry",
       "en": "The contract… it has no notary stamp.",
       "fa": "قرارداد… تأییدِ محضر نداره.",
+      "ru": "Договор… на нём нет нотариального заверения.",
       "link": {
         "sözleşmenin": "obj:sozlesme"
       },
@@ -517,6 +563,7 @@
       "emo": "confused",
       "en": "Notary… what does that mean?",
       "fa": "نوتر… یعنی چی؟",
+      "ru": "Нотариус… что это значит?",
       "to": "reza",
       "tr": "Noter… ne demek?",
       "who": "nima"
@@ -525,6 +572,7 @@
       "emo": "sorry",
       "en": "A signature, a stamp: that's Tolga Bey's job. I'm sorry… a new appointment. In ten days, on Monday.",
       "fa": "یه امضا، یه مهر: کارِ آقای تولگاست. متأسفانه… یه نوبتِ جدید. ده روز دیگه، دوشنبه.",
+      "ru": "Подпись, печать: это дело господина Толги. Мне жаль… новая запись. Через десять дней, в понедельник.",
       "link": {
         "randevu": "obj:randevu_kagidi"
       },
@@ -547,6 +595,7 @@
       "emo": "sad",
       "en": "OK… thank you, Reza Bey.",
       "fa": "باشه… ممنونم، آقای رضا.",
+      "ru": "Хорошо… спасибо, господин Реза.",
       "to": "reza",
       "tr": "Tamam… teşekkür ederim, Reza Bey.",
       "who": "nima"
@@ -555,6 +604,7 @@
       "emo": "happy",
       "en": "No problem. In Istanbul everyone has a notary story!",
       "fa": "اشکالی نداره. توی استانبول همه با محضر یه ماجرایی دارن!",
+      "ru": "Ничего страшного. В Стамбуле у каждого есть своя история с нотариусом!",
       "to": "nima",
       "tr": "Sorun değil. İstanbul'da herkesin bir noter hikâyesi var!",
       "who": "reza"
@@ -655,6 +705,7 @@
       "cam": "wide",
       "en": "On the left, the sun, over the Golden Horn. On the right, between the buildings: the Bosphorus and the bridge! Down below… the streets of Feriköy.",
       "fa": "سمتِ چپ، خورشید، بالای شاخ طلایی. سمتِ راست، لای ساختمون‌ها: بسفر و پل! اون پایین… کوچه‌های فری‌کؤی.",
+      "ru": "Слева солнце, над Золотым Рогом. Справа, между домами: Босфор и мост! А внизу… улицы Ферикёя.",
       "narr": true,
       "tr": "Solda güneş, Haliç'in üstünde. Sağda, binaların arasında: Boğaz ve köprü! Aşağıda… Feriköy'ün sokakları.",
       "who": "kerim"
@@ -665,6 +716,7 @@
       "emo": "moved",
       "en": "The Bosphorus… it's there! Very far… but there.",
       "fa": "بسفر… اون‌جاست! خیلی دوره… ولی اون‌جاست.",
+      "ru": "Босфор… вон он! Очень далеко… но он там.",
       "to": "kerim",
       "tr": "Boğaz… orada! Çok uzak… ama orada.",
       "who": "nima"
@@ -693,6 +745,7 @@
       "emo": "curious",
       "en": "Hi, Nima! Where are you? How did the appointment go?",
       "fa": "الو، نیما! کجایی؟ نوبتِ اقامت چطور بود؟",
+      "ru": "Алло, Нима! Ты где? Как прошла запись?",
       "to": "nima",
       "tr": "Alo, Nima! Neredesin? Randevu nasıl geçti?",
       "via": "video",
@@ -702,6 +755,7 @@
       "emo": "shy",
       "en": "Ugh… it went badly. But now I'm here. This is the most beautiful place in Feriköy!",
       "fa": "اوف… بد بود. ولی الان این‌جام. این‌جا قشنگ‌ترین جای فری‌کؤیه!",
+      "ru": "Ох… плохо прошла. Но сейчас я здесь. Это самое красивое место в Ферикёе!",
       "to": "dilnoza",
       "tr": "Of… kötü geçti. Ama şimdi buradayım. Burası Feriköy'ün en güzel yeri!",
       "who": "nima"
@@ -720,6 +774,7 @@
       "emo": "surprised",
       "en": "Wow! This view… where is it? The guide's last page is empty!",
       "fa": "وای! این منظره… کجاست؟ صفحهٔ آخرِ راهنما خالیه!",
+      "ru": "Ого! Этот вид… где это? Последняя страница путеводителя пустая!",
       "to": "nima",
       "tr": "Vay! Bu manzara… nerede? Rehberin son sayfası boş!",
       "via": "video",
@@ -734,6 +789,7 @@
             "emo": "shy",
             "en": "It's a secret… but I'll tell you: our roof!",
             "fa": "این یه رازه… ولی به تو می‌گم: پشت‌بومِ خودمون!",
+            "ru": "Это секрет… но тебе скажу: наша крыша!",
             "ok": true,
             "react": {
               "kerim": {
@@ -746,6 +802,7 @@
                 "emo": "happy",
                 "en": "OK. A secret. The last page: “A secret: the most beautiful view in Feriköy.”",
                 "fa": "باشه. راز. صفحهٔ آخر: «یه راز: قشنگ‌ترین منظرهٔ فری‌کؤی.»",
+                "ru": "Ладно. Секрет. Последняя страница: «Секрет: самый красивый вид в Ферикёе».",
                 "to": "nima",
                 "tr": "Tamam. Sır. Son sayfa: “Bir sır: Feriköy'ün en güzel manzarası.”",
                 "via": "video",
@@ -759,6 +816,7 @@
             "emo": "happy",
             "en": "I'm putting it in the guide: everyone should come!",
             "fa": "تو راهنما می‌نویسمش: همه بیان!",
+            "ru": "Напишу в путеводитель: пусть приходят все!",
             "react": {
               "kerim": {
                 "emo": "nervous"
@@ -768,6 +826,7 @@
               {
                 "en": "Everyone?! Tourists… on the tank?!",
                 "fa": "همه؟! روی منبع… توریست؟!",
+                "ru": "Все?! Туристы… на баке?!",
                 "narr": true,
                 "tr": "Herkes?! Tankta… turistler?!",
                 "who": "kerim"
@@ -777,6 +836,7 @@
                 "emo": "laugh",
                 "en": "Everyone? I think… just friends. A secret!",
                 "fa": "همه؟ به نظرم… فقط دوستا. یه راز!",
+                "ru": "Все? По-моему… только друзья. Секрет!",
                 "to": "nima",
                 "tr": "Herkes mi? Bence… sadece arkadaşlar. Bir sır!",
                 "via": "video",
@@ -793,6 +853,7 @@
             "emo": "nervous",
             "en": "I don't know.",
             "fa": "نمی‌دونم.",
+            "ru": "Не знаю.",
             "react": {
               "kerim": {
                 "emo": "curious"
@@ -804,6 +865,7 @@
                 "emo": "curious",
                 "en": "…That's your roof, isn't it?",
                 "fa": "…این پشت‌بومِ خودته، نه؟",
+                "ru": "…Это ведь твоя крыша, да?",
                 "to": "nima",
                 "tr": "…Bu senin çatın, değil mi?",
                 "via": "video",
@@ -822,6 +884,7 @@
         "en": "The whole of Ünite 6 in one view. Where: solda (on the left), sağda (on the right), aşağıda (down below), Haliç'in üstünde (over the Golden Horn), binaların arasında (between the buildings). Two nouns as one name: ikamet randevusu, öğrenci belgesi, kira sözleşmesi, noter onayı. Whose: Feriköy'ün sokakları, Tolga Bey'in işi. Which one: tankın üstündeki kuş. The most: Feriköy'ün en güzel yeri.",
         "ex": "Solda güneş, Haliç'in üstünde.",
         "fa": "همهٔ درسِ ۶ در یک منظره. کجا: solda (سمتِ چپ)، sağda (سمتِ راست)، aşağıda (آن پایین)، Haliç'in üstünde (بالای شاخ طلایی)، binaların arasında (لای ساختمان‌ها). دو اسم با هم یک اسم: ikamet randevusu (نوبتِ اقامت)، öğrenci belgesi (گواهیِ دانشجویی)، kira sözleşmesi (قراردادِ اجاره)، noter onayı (تأییدِ محضر). مالِ کی: Feriköy'ün sokakları، Tolga Bey'in işi. کدام: tankın üstündeki kuş (پرندهٔ روی منبع). ـترین: Feriköy'ün en güzel yeri.",
+        "ru": "Весь шестой раздел (Ünite 6) в одном виде. Где: solda (слева), sağda (справа), aşağıda (внизу), Haliç'in üstünde (над Золотым Рогом), binaların arasında (между домами). Два существительных как одно название: ikamet randevusu, öğrenci belgesi, kira sözleşmesi, noter onayı. Чьё: Feriköy'ün sokakları, Tolga Bey'in işi. Который: tankın üstündeki kuş. Самый: Feriköy'ün en güzel yeri.",
         "lesson": "g_a1_6_yer_yon",
         "show": "case_path"
       }
@@ -831,6 +894,7 @@
       "en": "The bird on the tank… Kerim. Kerim's place, Kerim's secret. And now… Nima's secret too.",
       "env": "time:dusk:20000",
       "fa": "پرندهٔ روی منبع… کریم. جای کریم، رازِ کریم. و حالا… رازِ نیما هم هست.",
+      "ru": "Птица на баке… Керим. Место Керим, секрет Керим. А теперь… и секрет Нимы.",
       "narr": true,
       "tr": "Tankın üstündeki kuş… Kerim. Kerim'in yeri, Kerim'in sırrı. Ve şimdi… Nima'nın da sırrı.",
       "who": "kerim"
@@ -838,12 +902,14 @@
   ],
   "summary": {
     "en": "At the residence-permit appointment the rental contract has no notary stamp, and Nima gets a new date. That evening Kerim leads Nima up to the old water tank on the roof, Kerim's secret place, where the Bosphorus shows between the buildings.",
-    "fa": "سرِ نوبتِ اقامت معلوم می‌شود قراردادِ اجاره مهرِ محضر ندارد و نیما نوبتِ تازه‌ای می‌گیرد. عصر، کریم نیما را تا منبعِ آبِ قدیمیِ پشت‌بام می‌برد، جای مخفیِ خودش، جایی که بسفر از لای ساختمان‌ها پیداست."
+    "fa": "سرِ نوبتِ اقامت معلوم می‌شود قراردادِ اجاره مهرِ محضر ندارد و نیما نوبتِ تازه‌ای می‌گیرد. عصر، کریم نیما را تا منبعِ آبِ قدیمیِ پشت‌بام می‌برد، جای مخفیِ خودش، جایی که بسفر از لای ساختمان‌ها پیداست.",
+    "ru": "На приёме по виду на жительство выясняется, что договор аренды не заверен у нотариуса, и Ниме назначают новую дату. Вечером Керим ведёт Ниму на крышу, к старому баку для воды — своему тайному месту, откуда между домами виден Босфор."
   },
   "title": {
     "tr": "En güzel manzara",
     "en": "The most beautiful view",
-    "fa": "زیباترین منظره"
+    "fa": "زیباترین منظره",
+    "ru": "Самый красивый вид"
   },
   "words": [
     "a1-w-manzara",

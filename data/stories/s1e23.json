@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new family",
     "fa": "یک خانواده‌ی تازه",
+    "ru": "Новая семья",
     "id": "s1w04",
     "mechanics": [
       "say",
@@ -19,6 +20,7 @@
     {
       "en": "Whose milk is this?",
       "fa": "این شیر مالِ کیه؟",
+      "ru": "Чьё это молоко?",
       "to": "nima",
       "tr": "Bu süt kimin?",
       "who": "omer"
@@ -31,6 +33,7 @@
           {
             "en": "It's your milk!",
             "fa": "شیرِ توئه!",
+            "ru": "Твоё молоко!",
             "ok": true,
             "react": {
               "omer": {
@@ -42,6 +45,7 @@
               {
                 "en": "Yes! My milk! Pamuk loves milk.",
                 "fa": "آره! شیرِ من! پاموک شیر دوست داره.",
+                "ru": "Да! Моё молоко! Памук любит молоко.",
                 "to": "nima",
                 "tr": "Evet! Benim sütüm! Pamuk süt seviyor.",
                 "who": "omer"
@@ -53,6 +57,7 @@
           {
             "en": "It's my milk!",
             "fa": "شیرِ منه!",
+            "ru": "Моё молоко!",
             "react": {
               "omer": "confused"
             },
@@ -60,6 +65,7 @@
               {
                 "en": "No! It's my milk!",
                 "fa": "نه! شیرِ منه!",
+                "ru": "Нет! Это моё молоко!",
                 "to": "nima",
                 "tr": "Hayır! Benim sütüm!",
                 "who": "omer"
@@ -75,6 +81,7 @@
     {
       "en": "And whose cat is this?",
       "fa": "و این گربه مالِ کیه؟",
+      "ru": "А чья это кошка?",
       "to": "nima",
       "tr": "Ve bu kedi kimin?",
       "who": "omer"
@@ -82,6 +89,7 @@
     {
       "en": "Our cat!",
       "fa": "گربه‌ی ما!",
+      "ru": "Наша кошка!",
       "to": "omer",
       "tr": "Bizim kedimiz!",
       "who": "nima"
@@ -89,6 +97,7 @@
     {
       "en": "Yes! Ours!",
       "fa": "آره! مالِ ما!",
+      "ru": "Да! Наша!",
       "to": "nima",
       "tr": "Evet! Bizim!",
       "who": "omer"
@@ -97,66 +106,82 @@
   "gl": {
     "adını": {
       "fa": "اسمش را",
+      "ru": "его или её имя (как объект)",
       "en": "its name (as the object)"
     },
     "boğaz": {
       "fa": "بُسفر",
+      "ru": "Босфор",
       "en": "the Bosphorus"
     },
     "kara": {
       "fa": "سیاه",
+      "ru": "чёрный",
       "en": "black"
     },
     "kartal": {
       "fa": "عقاب",
+      "ru": "орёл (Kara Kartal, Чёрный орёл: прозвище «Бешикташа»)",
       "en": "eagle (Kara Kartal, the Black Eagle: Beşiktaş's nickname)"
     },
     "kedimiz": {
       "fa": "گربه‌مان",
+      "ru": "наша кошка",
       "en": "our cat"
     },
     "kediniz": {
       "fa": "گربه‌تان",
+      "ru": "ваша кошка (siz)",
       "en": "your cat (siz)"
     },
     "kiki": {
       "fa": "کیکی (اسمِ گربه)",
+      "ru": "Кики (кошачья кличка)",
       "en": "Kiki (a cat's name)"
     },
     "kiki'yi": {
       "fa": "کیکی را",
+      "ru": "Кики (как объект)",
       "en": "Kiki (as the object)"
     },
     "onu": {
       "fa": "او را؛ آن را",
+      "ru": "его, её (как объект)",
       "en": "him, her or it (as the object)"
     },
     "oğlum": {
       "fa": "پسرم (با محبت)",
+      "ru": "сынок (ласково)",
       "en": "my boy (said fondly)"
     },
     "pamuk": {
       "fa": "پاموک: «پنبه» (اسمِ گربه)",
+      "ru": "Памук: «хлопок» (кошачья кличка)",
       "en": "Pamuk: “cotton” (a cat's name)"
     },
     "pişi": {
       "fa": "پیشی (گربه را این‌طور صدا می‌کنند)",
+      "ru": "Писи: так подзывают кошку, как «кис-кис» (по-персидски پیشی)",
       "en": "Pişi: a way to call a cat (Persian پیشی)"
     },
     "tahran": {
       "fa": "تهران",
+      "ru": "Тегеран",
       "en": "Tehran"
     },
     "yavrum": {
       "fa": "عزیزم",
+      "ru": "дитя моё (младшему, ласково)",
       "en": "my dear (to someone younger)"
     },
     "hep": {
       "fa": "همیشه",
+      "ru": "всегда",
       "en": "always"
     },
     "ah": {
       "fa": "آ، آه",
+      "ru": "ах, ох",
       "en": "ah, oh"
     }
   },
@@ -230,7 +255,8 @@
       "q": {
         "tr": "Nima: “Tahran'da da bir kedim var. Onu çok …”",
         "en": "Nima: “I have a cat in Tehran too. I … it a lot.”",
-        "fa": "نیما: «توی تهران هم یه گربه دارم. خیلی … »"
+        "fa": "نیما: «توی تهران هم یه گربه دارم. خیلی … »",
+        "ru": "Нима: «В Тегеране у меня тоже есть кошка. Я очень по ней …»"
       },
       "options": [
         "veriyorum",
@@ -245,7 +271,8 @@
       "q": {
         "tr": "Sonunda kedi kimin?",
         "en": "In the end, whose cat is it?",
-        "fa": "آخرش گربه مالِ کیه؟"
+        "fa": "آخرش گربه مالِ کیه؟",
+        "ru": "Чья кошка в итоге?"
       },
       "options": [
         "Benim",
@@ -289,6 +316,7 @@
       "emo": "nervous",
       "en": "Oh no! A cat! There's a cat here! Kerim doesn't like the cat… Kerim is scared!",
       "fa": "وای! گربه! گربه این‌جاست! کریم گربه رو دوست نداره… کریم می‌ترسه!",
+      "ru": "Ой! Кошка! Тут кошка! Керим не любит кошек… Керим боится!",
       "link": {
         "kedi": "obj:cat"
       },
@@ -305,6 +333,7 @@
       "emo": "happy",
       "en": "Kerim! Today… the Bosphorus! I've got tea!",
       "fa": "کریم! امروز… بسفر! چای دارم!",
+      "ru": "Керим! Сегодня… Босфор! У меня чай!",
       "link": {
         "çay": "obj:termos"
       },
@@ -332,6 +361,7 @@
       "emo": "happy",
       "en": "I'm looking for Kiki… Ah, Kiki! Come, come!",
       "fa": "دنبالِ کیکی می‌گردم… آ، کیکی! بیا، بیا!",
+      "ru": "Я ищу Кики… Ах, Кики! Иди сюда, иди!",
       "move": {
         "how": "enter",
         "to": "walk_l",
@@ -364,6 +394,7 @@
       "emo": "happy",
       "en": "Pişi, pişi! …I love you, Pişi.",
       "fa": "پیشی، پیشی! …دوستت دارم، پیشی.",
+      "ru": "Писи, писи! …Я тебя люблю, Писи.",
       "obj": [
         {
           "at": "step",
@@ -395,6 +426,7 @@
       "emo": "proud",
       "en": "This is Kiki. My cat.",
       "fa": "این کیکیه. گربه‌ی منه.",
+      "ru": "Это Кики. Моя кошка.",
       "link": {
         "kedim": "obj:cat"
       },
@@ -408,6 +440,7 @@
       "emo": "surprised",
       "en": "No… this is Pişi! My cat!",
       "fa": "نه… این پیشیه! گربه‌ی منه!",
+      "ru": "Нет… это Писи! Моя кошка!",
       "link": {
         "kedim": "obj:cat"
       },
@@ -419,6 +452,7 @@
       "emo": "happy",
       "en": "Pamuk! That's my cat!",
       "fa": "پاموک! اون گربه‌ی منه!",
+      "ru": "Памук! Это моя кошка!",
       "move": [
         {
           "how": "enter",
@@ -461,6 +495,7 @@
       "emo": "happy",
       "en": "Kara Kartal! Come here, boy! I've got fish for you!",
       "fa": "کارا کارتال! بیا پسرم! بهت ماهی می‌دم!",
+      "ru": "Кара Картал! Иди сюда, сынок! У меня рыба!",
       "link": {
         "balık": "obj:balik"
       },
@@ -495,6 +530,7 @@
       "emo": "proud",
       "en": "Whose cat is that? Mine!",
       "fa": "اون گربه مالِ کیه؟ مالِ من!",
+      "ru": "Чья это кошка? Моя!",
       "link": {
         "kedi": "obj:cat"
       },
@@ -519,6 +555,7 @@
             "emo": "happy",
             "en": "Ours!",
             "fa": "مالِ ما!",
+            "ru": "Наша!",
             "ok": true,
             "react": {
               "maria": {
@@ -534,6 +571,7 @@
                 "emo": "moved",
                 "en": "Yes… ours.",
                 "fa": "آره… مالِ ما.",
+                "ru": "Да… наша.",
                 "to": "nima",
                 "tr": "Evet… bizim.",
                 "who": "maria"
@@ -546,6 +584,7 @@
             "emo": "annoyed",
             "en": "Mine! My cat!",
             "fa": "مالِ من! گربه‌ی منه!",
+            "ru": "Моя! Моя кошка!",
             "react": {
               "omer": {
                 "emo": "sad"
@@ -560,6 +599,7 @@
                 "emo": "proud",
                 "en": "No! Mine!",
                 "fa": "نه! مالِ من!",
+                "ru": "Нет! Моя!",
                 "to": "nima",
                 "tr": "Hayır! Benim!",
                 "who": "serkan"
@@ -587,6 +627,7 @@
                 "emo": "sad",
                 "en": "…The cat is leaving.",
                 "fa": "…گربه داره می‌ره.",
+                "ru": "…Кошка уходит.",
                 "obj": [
                   {
                     "id": "cat",
@@ -608,6 +649,7 @@
             "emo": "shy",
             "en": "Yours.",
             "fa": "مالِ شما.",
+            "ru": "Ваша.",
             "react": {
               "maria": {
                 "emo": "moved"
@@ -618,6 +660,7 @@
                 "emo": "moved",
                 "en": "No, dear… yours too!",
                 "fa": "نه، عزیزم… مالِ شما هم هست!",
+                "ru": "Нет, дитя моё… и ваша тоже!",
                 "to": "nima",
                 "tr": "Hayır, yavrum… sizin de!",
                 "who": "maria"
@@ -634,6 +677,7 @@
       "emo": "happy",
       "en": "Our cat! What's its name?",
       "fa": "گربه‌ی ما! اسمش چیه؟",
+      "ru": "Наша кошка! Как её зовут?",
       "to": "all",
       "tr": "Bizim kedimiz! Adı ne?",
       "who": "omer",
@@ -648,6 +692,7 @@
       "emo": "laugh",
       "en": "Kiki… Pamuk… Pişi… Kartal! One cat, four names!",
       "fa": "کیکی… پاموک… پیشی… کارتال! یه گربه، چهار تا اسم!",
+      "ru": "Кики… Памук… Писи… Картал! Одна кошка — четыре имени!",
       "obj": [
         {
           "id": "cat",
@@ -669,6 +714,7 @@
       "emo": "sad",
       "en": "I have a cat in Tehran too. I miss it a lot.",
       "fa": "توی تهران هم یه گربه دارم. خیلی دلم براش تنگ شده.",
+      "ru": "В Тегеране у меня тоже есть кошка. Я очень по ней скучаю.",
       "to": "maria",
       "tr": "Tahran'da da bir kedim var. Onu çok özlüyorum.",
       "who": "nima"
@@ -677,6 +723,7 @@
       "emo": "moved",
       "en": "Now… you have a cat here too. It's always here, at the door!",
       "fa": "حالا… این‌جا هم یه گربه دارین. همیشه این‌جاست، دمِ در!",
+      "ru": "Теперь… у вас и здесь есть кошка. Она всегда здесь, у двери!",
       "to": "nima",
       "tr": "Şimdi… burada da bir kediniz var. Hep burada, kapıda!",
       "who": "maria"
@@ -686,6 +733,7 @@
         "en": "With sevmek, özlemek and aramak, the one you mean takes -(y)I: kediyi sevmiyor (doesn't like the cat), seni seviyorum (I love you), onu özlüyorum (I miss it), Kiki'yi arıyorum (I'm looking for Kiki). And one cat for everyone: bizim kedimiz, our cat.",
         "ex": "Onu çok özlüyorum.",
         "fa": "با sevmek، özlemek و aramak، کسی یا چیزی که منظورمان است ‎-(y)I می‌گیرد، مثلِ «را» در فارسی: kediyi sevmiyor (گربه را دوست ندارد)، seni seviyorum (دوستت دارم)، onu özlüyorum (دلم برایش تنگ شده)، Kiki'yi arıyorum (دنبالِ کیکی می‌گردم). و یک گربه برای همه: bizim kedimiz، گربه‌ی ما.",
+        "ru": "С sevmek, özlemek и aramak тот, о ком речь, получает -(y)I: kediyi sevmiyor (не любит кошку), seni seviyorum (я тебя люблю), onu özlüyorum (я по ней скучаю), Kiki'yi arıyorum (я ищу Кики). И одна кошка на всех: bizim kedimiz, наша кошка.",
         "lesson": "g_a1_4_belirtme",
         "show": "owner"
       }
@@ -700,6 +748,7 @@
       "emo": "annoyed",
       "en": "Does Kerim like the cat? …A little. And the Bosphorus? …Another day.",
       "fa": "کریم گربه رو دوست داره؟ …یه کم. و بسفر؟ …یه روزِ دیگه.",
+      "ru": "Любит ли Керим кошку? …Немножко. А Босфор? …В другой раз.",
       "link": {
         "kediyi": "obj:cat"
       },
@@ -710,12 +759,14 @@
   ],
   "summary": {
     "en": "Friday, no class: Nima comes down with a thermos for the Bosphorus and finds the street cat at the door. Maria Teyze calls it Kiki, Ömer Pamuk, Serkan Kara Kartal and Nima Pişi: one cat, four names, everyone's cat.",
-    "fa": "جمعه است و کلاس نیست. نیما با فلاسکِ چای پایین می‌آید که برود کنارِ بسفر، اما دمِ در گربه‌ی کوچه را می‌بیند. خاله ماریا صدایش می‌کند کیکی، عمر پاموک، سرکان کارا کارتال و نیما پیشی: یک گربه، چهار اسم، گربه‌ی همه."
+    "fa": "جمعه است و کلاس نیست. نیما با فلاسکِ چای پایین می‌آید که برود کنارِ بسفر، اما دمِ در گربه‌ی کوچه را می‌بیند. خاله ماریا صدایش می‌کند کیکی، عمر پاموک، سرکان کارا کارتال و نیما پیشی: یک گربه، چهار اسم، گربه‌ی همه.",
+    "ru": "Пятница, занятий нет: Нима спускается с термосом, чтобы ехать на Босфор, и находит у двери уличную кошку. Тётя Мария зовёт её Кики, Омер — Памук, Серкан — Кара Картал, а Нима — Писи: одна кошка, четыре имени, общая кошка."
   },
   "title": {
     "tr": "Bizim kedimiz",
     "en": "Our cat",
-    "fa": "گربه‌ی ما"
+    "fa": "گربه‌ی ما",
+    "ru": "Наша кошка"
   },
   "words": [
     "a1-w-ozlemek",

@@ -2,6 +2,7 @@
   "arc": {
     "en": "What time is it?",
     "fa": "ساعت چند است؟",
+    "ru": "Который час?",
     "id": "s1w05",
     "mechanics": [
       "say",
@@ -20,6 +21,7 @@
     {
       "en": "How long have you been learning Turkish?",
       "fa": "از کِی ترکی یاد می‌گیری؟",
+      "ru": "С каких пор ты учишь турецкий?",
       "to": "nima",
       "tr": "Sen ne zamandan beri Türkçe öğreniyorsun?",
       "who": "elif"
@@ -32,6 +34,7 @@
           {
             "en": "I've been learning for a month.",
             "fa": "یه ماهه یاد می‌گیرم.",
+            "ru": "Учу уже месяц.",
             "ok": true,
             "react": {
               "elif": {
@@ -43,6 +46,7 @@
               {
                 "en": "A month! Very good. What do you do after class?",
                 "fa": "یه ماه! خیلی خوبه. بعد از کلاس چی کار می‌کنی؟",
+                "ru": "Месяц! Очень хорошо. А что ты делаешь после урока?",
                 "tr": "Bir ay! Çok güzel. Dersten sonra ne yapıyorsun?",
                 "who": "elif"
               }
@@ -53,6 +57,7 @@
           {
             "en": "I'm learning it in a month.",
             "fa": "توی یه ماه یاد می‌گیرم.",
+            "ru": "Учу за месяц.",
             "react": {
               "elif": "laugh"
             },
@@ -60,6 +65,7 @@
               {
                 "en": "In a month? No: for a month! What do you do after class?",
                 "fa": "توی یه ماه؟ نه: یه ماهه! بعد از کلاس چی کار می‌کنی؟",
+                "ru": "За месяц? Нет: уже месяц! А что ты делаешь после урока?",
                 "tr": "Bir ayda mı? Hayır: bir aydan beri! Dersten sonra ne yapıyorsun?",
                 "who": "elif"
               }
@@ -74,6 +80,7 @@
     {
       "en": "After class I do my homework. Then I drink tea!",
       "fa": "بعد از کلاس تکلیف‌هامو انجام می‌دم. بعد چای می‌خورم!",
+      "ru": "После урока делаю домашнее задание. Потом пью чай!",
       "to": "elif",
       "tr": "Dersten sonra ödev yapıyorum. Sonra çay içiyorum!",
       "who": "nima"
@@ -81,6 +88,7 @@
     {
       "en": "First homework, then tea! Well done!",
       "fa": "اول تکلیف، بعد چای! آفرین!",
+      "ru": "Сначала уроки, потом чай! Молодец!",
       "to": "nima",
       "tr": "Önce ödev, sonra çay! Aferin!",
       "who": "elif"
@@ -89,62 +97,77 @@
   "gl": {
     "beri": {
       "fa": "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "ru": "с (с каких пор); «-DAn beri»: с …",
       "en": "since; “-DAn beri”: since"
     },
     "fısıldıyorsunuz": {
       "fa": "پچ‌پچ می‌کنید (از fısıldamak)",
+      "ru": "вы шепчетесь (от fısıldamak)",
       "en": "you are whispering (from fısıldamak)"
     },
     "gerçekten": {
       "fa": "واقعاً",
+      "ru": "правда, действительно",
       "en": "really"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "pastadan": {
       "fa": "از کیک؛ «pastadan önce» یعنی قبل از کیک",
+      "ru": "от торта; «pastadan önce»: до торта",
       "en": "from the cake; “pastadan önce”: before the cake"
     },
     "tam": {
       "fa": "درست، دقیقاً",
+      "ru": "ровно",
       "en": "exactly, sharp"
     },
     "zamandan": {
       "fa": "از وقتِ…؛ «ne zamandan beri» یعنی از کِی",
+      "ru": "от времени; «ne zamandan beri»: с каких пор",
       "en": "from the time; “ne zamandan beri”: since when"
     },
     "çatı": {
       "fa": "پشت‌بام",
+      "ru": "крыша",
       "en": "roof"
     },
     "maşallah": {
       "fa": "ماشالله (برای تعریف و آرزوی خیر)",
+      "ru": "машаллах (говорят с восхищением, например о возрасте)",
       "en": "bless (said in admiration, e.g. of an age)"
     },
     "şşş": {
       "fa": "هیس!",
+      "ru": "тсс!",
       "en": "shh!"
     },
     "kutlama": {
       "fa": "جشن",
+      "ru": "праздник, торжество",
       "en": "a celebration"
     },
     "eylül'den": {
       "fa": "از سپتامبر؛ «Yedi Eylül'den beri» یعنی از هفتم سپتامبر",
+      "ru": "с сентября; «Yedi Eylül'den beri»: с 7 сентября",
       "en": "from September; “Yedi Eylül'den beri”: since 7 September"
     },
     "pratiği": {
       "fa": "تمرین؛ «konuşma pratiği» یعنی تمرینِ مکالمه",
+      "ru": "практика; «konuşma pratiği»: разговорная практика",
       "en": "practice; “konuşma pratiği”: speaking practice"
     },
     "öğlen": {
       "fa": "ظهر",
+      "ru": "в обед, в полдень",
       "en": "at noon"
     },
     "aferin": {
       "fa": "آفرین",
+      "ru": "молодец!",
       "en": "well done!"
     }
   },
@@ -188,7 +211,8 @@
       "q": {
         "tr": "Nima ne zamandan beri İstanbul'da?",
         "en": "Since when has Nima been in Istanbul?",
-        "fa": "نیما از کِی در استانبول است؟"
+        "fa": "نیما از کِی در استانبول است؟",
+        "ru": "С каких пор Нима в Стамбуле?"
       },
       "why": "Nima: “Yedi Eylül'den beri! Dün tam bir ay oldu!”"
     },
@@ -203,7 +227,8 @@
       "q": {
         "tr": "“Yemekten önce çatıyı hazırlıyoruz.” Önce ne?",
         "en": "“Yemekten önce çatıyı hazırlıyoruz.” What comes first?",
-        "fa": "«Yemekten önce çatıyı hazırlıyoruz.» اول چه؟"
+        "fa": "«Yemekten önce çatıyı hazırlıyoruz.» اول چه؟",
+        "ru": "«Yemekten önce çatıyı hazırlıyoruz.» Что сначала?"
       },
       "why": "Nima: “Yemekten önce çatıyı hazırlıyoruz!”"
     }
@@ -223,6 +248,7 @@
     {
       "en": "Seven o'clock. Nima's watch says half past seven. But Nima is here… at seven sharp!",
       "fa": "ساعت هفته. ساعتِ نیما: هفت و نیم. ولی نیما این‌جاست… درست ساعتِ هفت!",
+      "ru": "Семь часов. На часах Нимы: половина восьмого. Но Нима здесь… ровно в семь!",
       "move": {
         "how": "enter",
         "to": "door",
@@ -256,6 +282,7 @@
       "emo": "happy",
       "en": "Seven on the dot! Well done! How was today?",
       "fa": "درست ساعتِ هفت! آفرین! امروز چطور بود؟",
+      "ru": "Ровно в семь! Молодец! Как прошёл день?",
       "to": "nima",
       "tr": "Tam saat yedi! Çok güzel! Bugün nasıldı?",
       "who": "elif"
@@ -264,6 +291,7 @@
       "emo": "happy",
       "en": "At noon I had speaking practice! And… there's a secret! Saturday is Maria Teyze's birthday.",
       "fa": "ظهر تمرینِ مکالمه داشتم! و… یه رازی هست! شنبه تولدِ خاله ماریاست.",
+      "ru": "В обед была разговорная практика! И… есть секрет! В субботу у тёти Марии день рождения.",
       "react": {
         "elif": "surprised"
       },
@@ -276,6 +304,7 @@
       "emo": "surprised",
       "en": "Really? How old is she?",
       "fa": "واقعاً؟ چند سالش می‌شه؟",
+      "ru": "Правда? Сколько ей лет?",
       "to": "nima",
       "tr": "Gerçekten mi? Kaç yaşında?",
       "voice": "whisper",
@@ -285,6 +314,7 @@
       "emo": "proud",
       "en": "Eighty!",
       "fa": "هشتاد!",
+      "ru": "Восемьдесят!",
       "to": "elif",
       "tr": "Seksen!",
       "voice": "whisper",
@@ -294,6 +324,7 @@
       "emo": "curious",
       "en": "Eighty! Bless her! And you? Since when have you been in Istanbul?",
       "fa": "هشتاد! ماشالله! تو چی؟ از کِی استانبولی؟",
+      "ru": "Восемьдесят! Машаллах! А ты? С каких пор ты в Стамбуле?",
       "to": "nima",
       "tr": "Seksen! Maşallah! Peki sen? Ne zamandan beri İstanbul'dasın?",
       "voice": "whisper",
@@ -303,6 +334,7 @@
       "emo": "happy",
       "en": "Since the seventh of September! Yesterday was exactly one month!",
       "fa": "از هفتم سپتامبر! دیروز درست یه ماه شد!",
+      "ru": "С седьмого сентября! Вчера исполнился ровно месяц!",
       "to": "elif",
       "tr": "Yedi Eylül'den beri! Dün tam bir ay oldu!",
       "voice": "whisper",
@@ -312,6 +344,7 @@
       "emo": "laugh",
       "en": "A month! Then two celebrations! Two surprises!",
       "fa": "یه ماه! پس دو تا جشن! دو تا سورپرایز!",
+      "ru": "Месяц! Тогда два праздника! Два сюрприза!",
       "to": "nima",
       "tr": "Bir ay! O zaman iki kutlama! İki sürpriz!",
       "voice": "whisper",
@@ -321,6 +354,7 @@
       "emo": "happy",
       "en": "Before dinner we get the roof ready!",
       "fa": "قبل از شام پشت‌بوم رو آماده می‌کنیم!",
+      "ru": "До ужина готовим крышу!",
       "to": "elif",
       "tr": "Yemekten önce çatıyı hazırlıyoruz!",
       "voice": "whisper",
@@ -330,6 +364,7 @@
       "emo": "happy",
       "en": "After dinner, cake! Serkan is buying the cake.",
       "fa": "بعد از شام کیک! کیک رو سرکان می‌خره.",
+      "ru": "После ужина — торт! Серкан покупает торт.",
       "react": {
         "omer": "surprised"
       },
@@ -342,6 +377,7 @@
       "emo": "happy",
       "en": "Before the cake… cake!",
       "fa": "قبل از کیک… کیک!",
+      "ru": "До торта… торт!",
       "react": {
         "elif": "laugh",
         "nima": "laugh"
@@ -355,6 +391,7 @@
       "emo": "happy",
       "en": "I'm going to tell Maria Teyze!",
       "fa": "من به خاله ماریا می‌گم!",
+      "ru": "А я скажу тёте Марии!",
       "react": {
         "elif": {
           "do": "stop",
@@ -406,6 +443,7 @@
       "emo": "curious",
       "en": "What is it? Why are you whispering? What's on Saturday?",
       "fa": "چی شده؟ چرا پچ‌پچ می‌کنید؟ شنبه چه خبره؟",
+      "ru": "Что такое? Почему вы шепчетесь? Что в субботу?",
       "react": {
         "omer": {
           "emo": "nervous"
@@ -424,6 +462,7 @@
             "emo": "happy",
             "en": "Nothing! On Saturday… we're having tea on the roof!",
             "fa": "هیچی! شنبه… روی پشت‌بوم چای می‌خوریم!",
+            "ru": "Ничего! В субботу… пьём чай на крыше!",
             "ok": true,
             "react": {
               "maria": "curious",
@@ -435,6 +474,7 @@
                 "emo": "happy",
                 "en": "Tea… all right.",
                 "fa": "چای… باشه.",
+                "ru": "Чай… хорошо.",
                 "tr": "Çay… tamam.",
                 "who": "maria"
               }
@@ -447,6 +487,7 @@
             "emo": "surprised",
             "en": "A birthday! Eighty years!",
             "fa": "تولد! هشتاد سالگی!",
+            "ru": "День рождения! Восемьдесят лет!",
             "react": {
               "maria": "laugh",
               "omer": "sad"
@@ -456,6 +497,7 @@
                 "emo": "sad",
                 "en": "It was a secret!",
                 "fa": "راز بود!",
+                "ru": "Это секрет!",
                 "tr": "Sır!",
                 "who": "omer"
               },
@@ -463,6 +505,7 @@
                 "emo": "laugh",
                 "en": "Who did you tell?!",
                 "fa": "به کی گفتی؟!",
+                "ru": "Кто ещё знает?!",
                 "tr": "Kime söyledin?!",
                 "who": "maria"
               }
@@ -474,6 +517,7 @@
             "emo": "nervous",
             "en": "On Saturday I'm going to school!",
             "fa": "شنبه می‌رم کلاس!",
+            "ru": "В субботу я иду в школу!",
             "react": {
               "maria": "confused",
               "omer": "surprised"
@@ -484,6 +528,7 @@
                 "emo": "annoyed",
                 "en": "No! There's no school on Saturday… there's cake!",
                 "fa": "نه! شنبه مدرسه نیست… کیک هست!",
+                "ru": "Нет! В субботу школы нет… есть торт!",
                 "tr": "Hayır! Cumartesi okul yok… pasta var!",
                 "who": "omer"
               },
@@ -491,6 +536,7 @@
                 "emo": "curious",
                 "en": "Cake?! …All right.",
                 "fa": "کیک؟! …باشه.",
+                "ru": "Торт?! …Ну-ну.",
                 "tr": "Pasta mı?! …Peki.",
                 "who": "maria"
               }
@@ -507,6 +553,7 @@
         "en": "Two tools with -DAn. -DAn beri says since when something has been going on, and it still is: “Yedi Eylül'den beri (buradayım)”: since 7 September, and I'm still here. So Elif asks “Ne zamandan beri?”: since when? -DAn önce / -DAn sonra put things in order: “Yemekten önce çatıyı hazırlıyoruz”, “Yemekten sonra pasta!”. Same ending, different jobs.",
         "ex": "Yedi Eylül'den beri!",
         "fa": "دو ابزار با -DAn. -DAn beri می‌گوید کاری از کِی شروع شده و هنوز ادامه دارد: «Yedi Eylül'den beri (buradayım)» یعنی از هفتم سپتامبر این‌جا هستم و هنوز هم هستم. برای همین الیف می‌پرسد «Ne zamandan beri?»: از کِی؟ -DAn önce و -DAn sonra ترتیب را می‌گویند، مثلِ «قبل از» و «بعد از» در فارسی: «Yemekten önce çatıyı hazırlıyoruz»، «Yemekten sonra pasta!». یک پسوند، دو کار.",
+        "ru": "Два инструмента с -DAn. -DAn beri говорит, с каких пор что-то длится, и оно длится до сих пор: «Yedi Eylül'den beri (buradayım)»: с 7 сентября, и я всё ещё здесь. Поэтому Элиф спрашивает «Ne zamandan beri?»: с каких пор? -DAn önce / -DAn sonra ставят события по порядку: «Yemekten önce çatıyı hazırlıyoruz», «Yemekten sonra pasta!». Окончание одно, а работа разная.",
         "lesson": "g_a1_5_dan_beri"
       }
     },
@@ -514,6 +561,7 @@
       "emo": "happy",
       "en": "Saturday… it's a secret! Shh!",
       "fa": "شنبه… رازه! هیس!",
+      "ru": "Суббота… секрет! Тсс!",
       "narr": true,
       "tr": "Cumartesi… sır! Şşş!",
       "who": "kerim"
@@ -521,12 +569,14 @@
   ],
   "summary": {
     "en": "A month and a day after landing, Nima is on time at last and tells Elif the secret: Saturday is Maria Teyze's 80th. They plan a surprise on the roof, but Ömer can't keep quiet, and Maria Teyze comes down the stairs asking what is going on.",
-    "fa": "یک ماه و یک روز بعد از رسیدن، نیما بالاخره سرِ وقت می‌رسد و رازی را به الیف می‌گوید: شنبه تولدِ هشتاد سالگیِ خاله ماریاست. یک جشنِ غافلگیری روی پشت‌بام برنامه‌ریزی می‌کنند، اما عمر نمی‌تواند ساکت بماند و خاله ماریا از پله‌ها پایین می‌آید و می‌پرسد چه خبر است."
+    "fa": "یک ماه و یک روز بعد از رسیدن، نیما بالاخره سرِ وقت می‌رسد و رازی را به الیف می‌گوید: شنبه تولدِ هشتاد سالگیِ خاله ماریاست. یک جشنِ غافلگیری روی پشت‌بام برنامه‌ریزی می‌کنند، اما عمر نمی‌تواند ساکت بماند و خاله ماریا از پله‌ها پایین می‌آید و می‌پرسد چه خبر است.",
+    "ru": "Через месяц и день после прилёта Нима наконец приходит вовремя и рассказывает Элиф секрет: в субботу тёте Марии исполняется восемьдесят. Они готовят сюрприз на крыше, но Омер не может молчать, и тётя Мария спускается по лестнице: что тут происходит?"
   },
   "title": {
     "tr": "Sır!",
     "en": "It's a secret!",
-    "fa": "راز!"
+    "fa": "راز!",
+    "ru": "Секрет!"
   },
   "words": [
     "a1-w-once",

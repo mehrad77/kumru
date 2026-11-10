@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new home, a new way",
     "fa": "خانه‌ی نو، راهِ نو",
+    "ru": "Новый дом, новый путь",
     "id": "s1w03",
     "mechanics": [
       "say",
@@ -22,6 +23,7 @@
     {
       "en": "Nima! Is the metro coming?",
       "fa": "نیما! مترو میاد؟",
+      "ru": "Нима! Метро идёт?",
       "narr": true,
       "tr": "Nima! Metro geliyor mu?",
       "who": "kerim"
@@ -34,11 +36,13 @@
           {
             "en": "Yes, it's coming!",
             "fa": "آره، داره میاد!",
+            "ru": "Да, идёт!",
             "ok": true,
             "reply": [
               {
                 "en": "Yes! The metro is coming.",
                 "fa": "آره! مترو داره میاد.",
+                "ru": "Да! Метро идёт.",
                 "narr": true,
                 "tr": "Evet! Metro geliyor.",
                 "who": "kerim"
@@ -50,10 +54,12 @@
           {
             "en": "I'm coming!",
             "fa": "دارم میام!",
+            "ru": "Иду!",
             "reply": [
               {
                 "en": "Not you… the metro! The metro is coming.",
                 "fa": "تو نه… مترو! مترو داره میاد.",
+                "ru": "Не ты… метро! Метро идёт.",
                 "narr": true,
                 "tr": "Sen değil… metro! Metro geliyor.",
                 "who": "kerim"
@@ -68,6 +74,7 @@
     {
       "en": "Are you sleeping?",
       "fa": "خوابی؟",
+      "ru": "Ты спишь?",
       "narr": true,
       "tr": "Sen uyuyor musun?",
       "who": "kerim"
@@ -75,12 +82,14 @@
     {
       "en": "No, I'm not sleeping!",
       "fa": "نه، خواب نیستم!",
+      "ru": "Нет, не сплю!",
       "tr": "Hayır, uyumuyorum!",
       "who": "nima"
     },
     {
       "en": "Good! I'm not sleeping either. Coo-coo!",
       "fa": "خوبه! منم خواب نیستم. کو-کو!",
+      "ru": "Отлично! Я тоже не сплю. Ку-ку!",
       "narr": true,
       "tr": "Güzel! Ben de uyumuyorum. Ku-ku!",
       "who": "kerim"
@@ -89,58 +98,72 @@
   "gl": {
     "buyurun": {
       "fa": "بفرمایید",
+      "ru": "пожалуйста, вот (предлагая)",
       "en": "here you are; please (offering)"
     },
     "hastaneye": {
       "fa": "به بیمارستان",
+      "ru": "в больницу",
       "en": "to the hospital"
     },
     "hemşireyim": {
       "fa": "پرستارم",
+      "ru": "я медсестра",
       "en": "I'm a nurse"
     },
     "komşusun": {
       "fa": "همسایه‌ای (تو همسایه هستی)",
+      "ru": "ты — сосед (соседка)",
       "en": "you're the neighbour"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "metroya": {
       "fa": "به مترو؛ (سوارِ) مترو",
+      "ru": "в метро; (сесть) на метро",
       "en": "to the metro; (onto) the metro"
     },
     "musun": {
       "fa": "(نشانه‌ی سؤال) …ی؟",
+      "ru": "(вопросительное слово) ты…?",
       "en": "(question word) are you…?"
     },
     "naziksiniz": {
       "fa": "لطف دارید؛ مهربانید",
+      "ru": "вы любезны",
       "en": "you're kind"
     },
     "otobüse": {
       "fa": "به اتوبوس؛ (سوارِ) اتوبوس",
+      "ru": "в автобус; (сесть) на автобус",
       "en": "to the bus; (onto) the bus"
     },
     "teyze": {
       "fa": "خاله؛ (برای خانمِ مسن) مادرجان",
+      "ru": "тётя (так зовут любую женщину постарше)",
       "en": "auntie (said to any older woman)"
     },
     "ömer": {
       "fa": "عمر (پسرِ الیف)",
+      "ru": "Омер (сын Элиф)",
       "en": "Ömer (Elif's son)"
     },
     "şişli": {
       "fa": "شیشلی (محله‌ای در استانبول)",
+      "ru": "Шишли (район Стамбула)",
       "en": "Şişli (a district of Istanbul)"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "of": {
       "fa": "اَه! (کلافگی)",
+      "ru": "ох!, ну вот! (досада)",
       "en": "ugh!, oh no! (annoyance)"
     }
   },
@@ -188,7 +211,8 @@
       "q": {
         "tr": "Elif nereye gidiyor?",
         "en": "Where is Elif going?",
-        "fa": "الیف کجا می‌رود؟"
+        "fa": "الیف کجا می‌رود؟",
+        "ru": "Куда идёт Элиф?"
       },
       "why": "Elif: “Hastaneye gidiyorum.”"
     },
@@ -203,7 +227,8 @@
       "q": {
         "tr": "Elif: “Otobüse binmiyor musun?” Nima: “…”",
         "en": "“Binmek” means to get on (a bus, the metro). Elif asks “Otobüse binmiyor musun?” What does Nima say?",
-        "fa": "‏«binmek» یعنی سوار شدن. الیف می‌پرسد «Otobüse binmiyor musun?» نیما چه می‌گوید؟"
+        "fa": "‏«binmek» یعنی سوار شدن. الیف می‌پرسد «Otobüse binmiyor musun?» نیما چه می‌گوید؟",
+        "ru": "«Binmek» значит садиться (в автобус, в метро). Элиф спрашивает: «Otobüse binmiyor musun?» Что говорит Нима?"
       },
       "why": "Nima: “Hayır, binmiyorum.”"
     }
@@ -223,6 +248,7 @@
     {
       "en": "It's very early. Is Nima asleep? No! Nima's up… and running!",
       "fa": "خیلی زوده. نیما خوابه؟ نه! نیما پا می‌شه… و می‌دوه!",
+      "ru": "Очень рано. Нима спит? Не спит! Нима встаёт… и бежит!",
       "move": {
         "how": "run",
         "to": "landing_3",
@@ -237,6 +263,7 @@
       "emo": "happy",
       "en": "Good morning! You're the new neighbour, aren't you?",
       "fa": "صبح بخیر! تو همسایه‌ی جدیدی، نه؟",
+      "ru": "Доброе утро! Ты ведь теперь живёшь по соседству, да?",
       "move": {
         "from": "door_elif",
         "how": "enter",
@@ -253,6 +280,7 @@
       "emo": "happy",
       "en": "Yes! I'm Nima.",
       "fa": "آره! من نیمام.",
+      "ru": "Да! Я Нима.",
       "to": "elif",
       "tr": "Evet! Ben Nima.",
       "who": "nima"
@@ -263,6 +291,7 @@
       "emo": "happy",
       "en": "I'm Elif. I'm a nurse. Second floor: Serkan, Ömer… and me!",
       "fa": "من الیفم. پرستارم. طبقه‌ی دوم: سرکان، عمر… و من!",
+      "ru": "Я Элиф. Я медсестра. Второй этаж: Серкан, Омер… и я!",
       "to": "nima",
       "tr": "Ben Elif. Hemşireyim. İkinci kat: Serkan, Ömer… ve ben!",
       "who": "elif"
@@ -279,6 +308,7 @@
       "emo": "curious",
       "en": "We're walking to Osmanbey! Are you going to school?",
       "fa": "داریم تا عثمان‌بی پیاده می‌ریم! داری می‌ری مدرسه؟",
+      "ru": "Мы идём пешком до Османбея! Ты в школу?",
       "move": {
         "how": "walk",
         "to": "walk_r",
@@ -292,6 +322,7 @@
       "emo": "happy",
       "en": "Yes, I'm going to Taksim. And you?",
       "fa": "آره، دارم می‌رم تقسیم. شما چی؟",
+      "ru": "Да, еду в Таксим. А вы?",
       "to": "elif",
       "tr": "Evet, Taksim'e gidiyorum. Siz?",
       "who": "nima"
@@ -301,6 +332,7 @@
       "do": "point",
       "en": "I'm going to the hospital. Aren't you taking the bus?",
       "fa": "می‌رم بیمارستان. سوارِ اتوبوس نمی‌شی؟",
+      "ru": "Я — в больницу. Ты не на автобусе?",
       "link": {
         "otobüse": "obj:otobus_duragi"
       },
@@ -313,6 +345,7 @@
       "emo": "happy",
       "en": "No, I'm not. I'm taking the metro!",
       "fa": "نه، سوار نمی‌شم. با مترو می‌رم!",
+      "ru": "Нет, не на автобусе. Я на метро!",
       "move": {
         "how": "walk",
         "to": "entrance",
@@ -337,6 +370,7 @@
       "emo": "nervous",
       "en": "Is the metro coming? No… no… Oh no, I'm going to be late!",
       "fa": "مترو میاد؟ نمیاد… نمیاد… اَه، دیرم می‌شه!",
+      "ru": "Метро идёт? Не идёт… не идёт… Ох, я опаздываю!",
       "link": {
         "metro": "obj:departure_board"
       },
@@ -380,6 +414,7 @@
       "emo": "happy",
       "en": "It's coming! You to Taksim, me to Şişli! Bye!",
       "fa": "داره میاد! تو می‌ری تقسیم، من می‌رم شیشلی! خداحافظ!",
+      "ru": "Идёт! Ты — в Таксим, я — в Шишли! Пока!",
       "move": {
         "how": "walk",
         "to": "stairs",
@@ -394,6 +429,7 @@
       "emo": "happy",
       "en": "Bye!",
       "fa": "به سلامت!",
+      "ru": "Счастливо!",
       "to": "elif",
       "tr": "Güle güle!",
       "who": "nima"
@@ -411,6 +447,7 @@
       "emo": "tired",
       "en": "Excuse me… excuse me…",
       "fa": "ببخشید… ببخشید…",
+      "ru": "Простите… простите…",
       "move": {
         "how": "enter",
         "to": "stand_l",
@@ -443,6 +480,7 @@
             "emo": "happy",
             "en": "Here, please sit down.",
             "fa": "بفرمایین، بشینین.",
+            "ru": "Пожалуйста, садитесь.",
             "move": {
               "how": "walk",
               "to": "stand_r",
@@ -461,6 +499,7 @@
                 "emo": "happy",
                 "en": "Thank you very much, you're very kind.",
                 "fa": "خیلی ممنونم، خیلی لطف دارین.",
+                "ru": "Большое спасибо, вы очень любезны.",
                 "move": {
                   "how": "walk",
                   "to": "seat",
@@ -481,6 +520,7 @@
             "emo": "neutral",
             "en": "…",
             "fa": "…",
+            "ru": "…",
             "obj": [
               {
                 "id": "telefon",
@@ -512,6 +552,7 @@
                 "emo": "happy",
                 "en": "Thank you!",
                 "fa": "ممنونم!",
+                "ru": "Спасибо!",
                 "move": {
                   "how": "walk",
                   "to": "seat_2",
@@ -533,6 +574,7 @@
             "emo": "nervous",
             "en": "Sit down!",
             "fa": "بشینین!",
+            "ru": "Сядьте!",
             "move": {
               "how": "hop",
               "to": "stand_r",
@@ -548,6 +590,7 @@
                 "emo": "surprised",
                 "en": "…Thanks?",
                 "fa": "…ممنون؟",
+                "ru": "…Спасибо?",
                 "move": {
                   "how": "walk",
                   "to": "seat",
@@ -579,6 +622,7 @@
         "en": "-(I)yor says what is happening now: biniyor. The negative puts -mI- before it: binmiyor (not getting on). The question adds mI as its own word: biniyor musun? And both together: binmiyor musun? From the story: Uyuyor mu? Uyumuyor. Geliyor mu? Gelmiyor. Binmiyor musun? Binmiyorum.",
         "ex": "Otobüse binmiyor musun?",
         "fa": "‏-(I)yor می‌گوید الان چه اتفاقی می‌افتد: biniyor (سوار می‌شود). منفی‌اش ‎-mI- را قبل از آن می‌گذارد: binmiyor (سوار نمی‌شود). سؤالی‌اش mI را جدا می‌نویسد: biniyor musun? (سوار می‌شوی؟) و هر دو با هم: binmiyor musun? (سوار نمی‌شوی؟). از داستان: Uyuyor mu? Uyumuyor. Geliyor mu? Gelmiyor. Binmiyor musun? Binmiyorum.",
+        "ru": "-(I)yor говорит о том, что происходит сейчас: biniyor. В отрицании перед ним встаёт -mI-: binmiyor (не садится). Вопрос добавляет mI отдельным словом: biniyor musun? А вместе: binmiyor musun? Из истории: Uyuyor mu? Uyumuyor. Geliyor mu? Gelmiyor. Binmiyor musun? Binmiyorum.",
         "lesson": "g_a1_3_simdiki_olumsuz"
       }
     },
@@ -588,6 +632,7 @@
       "emo": "happy",
       "en": "Are you getting off at Taksim too?",
       "fa": "شما هم تقسیم پیاده می‌شین؟",
+      "ru": "Вы тоже выходите на Таксиме?",
       "to": "nima",
       "tr": "Siz de Taksim'de mi iniyorsunuz?",
       "who": "maria"
@@ -597,6 +642,7 @@
       "emo": "happy",
       "en": "Yes, me too!",
       "fa": "بله، منم!",
+      "ru": "Да, я тоже!",
       "react": {
         "maria": {
           "emo": "happy"
@@ -618,6 +664,7 @@
     {
       "en": "Who is this lady? Coo-coo…",
       "fa": "این خانم کیه؟ کو-کوو…",
+      "ru": "Кто эта тётя? Ку-ку…",
       "move": {
         "how": "walk",
         "to": "walk_l",
@@ -640,12 +687,14 @@
   ],
   "summary": {
     "en": "Nima's first commute from Feriköy: Elif from downstairs walks with Nima to Osmanbey, and on the packed M2 an older lady with a shopping trolley needs a seat.",
-    "fa": "اولین رفت‌وآمدِ نیما از فری‌کؤی: الیف، همسایه‌ی طبقه‌ی پایین، با نیما تا عثمان‌بی پیاده می‌رود، و در متروی شلوغِ M2 یک خانمِ مسن با چرخ‌دستیِ خرید به یک صندلی نیاز دارد."
+    "fa": "اولین رفت‌وآمدِ نیما از فری‌کؤی: الیف، همسایه‌ی طبقه‌ی پایین، با نیما تا عثمان‌بی پیاده می‌رود، و در متروی شلوغِ M2 یک خانمِ مسن با چرخ‌دستیِ خرید به یک صندلی نیاز دارد.",
+    "ru": "Первая дорога Нимы из Ферикёя: Элиф с нижнего этажа идёт с Нимой до Османбея, а в переполненном M2 пожилой даме с сумкой-тележкой нужно место."
   },
   "title": {
     "tr": "Metro geliyor mu?",
     "en": "Is the metro coming?",
-    "fa": "مترو می‌آید؟"
+    "fa": "مترو می‌آید؟",
+    "ru": "Метро идёт?"
   },
   "words": [
     "a1-w-uyumak",

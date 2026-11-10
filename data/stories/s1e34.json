@@ -2,6 +2,7 @@
   "arc": {
     "en": "The best of Feriköy",
     "fa": "بهترین جاهای فری‌کؤی",
+    "ru": "Лучшие места Ферикёя",
     "id": "s1w06",
     "mechanics": [
       "say",
@@ -26,6 +27,7 @@
     {
       "en": "What's this? Kerim's head or Kerim's foot?",
       "fa": "این چیه؟ سرِ کریم یا پای کریم؟",
+      "ru": "Что это? Голова Керим или нога Керим?",
       "narr": true,
       "tr": "Bu ne? Kerim'in başı mı, ayağı mı?",
       "who": "kerim"
@@ -38,6 +40,7 @@
           {
             "en": "Kerim's head!",
             "fa": "سرِ کریم!",
+            "ru": "Голова Керим!",
             "ok": true,
             "react": {
               "kerim": "happy"
@@ -46,6 +49,7 @@
               {
                 "en": "Yes! The head. And two eyes!",
                 "fa": "آره! سر. و دو تا چشم!",
+                "ru": "Да! Голова. И два глаза!",
                 "narr": true,
                 "tr": "Evet! Baş. Ve iki göz!",
                 "who": "kerim"
@@ -57,6 +61,7 @@
           {
             "en": "Kerim's foot!",
             "fa": "پای کریم!",
+            "ru": "Нога Керим!",
             "react": {
               "kerim": "curious"
             },
@@ -64,6 +69,7 @@
               {
                 "en": "No, the foot is down there! This is the head.",
                 "fa": "نه، پا پایینه! این سره.",
+                "ru": "Нет, нога внизу! Это голова.",
                 "narr": true,
                 "tr": "Hayır, ayak aşağıda! Bu baş.",
                 "who": "kerim"
@@ -79,6 +85,7 @@
     {
       "en": "Kerim is ill… What hurts?",
       "fa": "کریم مریضه… چی درد می‌کنه؟",
+      "ru": "Керим болеет… Что болит?",
       "narr": true,
       "tr": "Kerim hasta… Ne ağrıyor?",
       "who": "kerim"
@@ -86,6 +93,7 @@
     {
       "en": "Kerim's head hurts. Get well soon, Kerim!",
       "fa": "سرِ کریم درد می‌کنه. خدا بد نده، کریم!",
+      "ru": "У Керим болит голова. Выздоравливай, Керим!",
       "tr": "Kerim'in başı ağrıyor. Geçmiş olsun, Kerim!",
       "who": "nima"
     }
@@ -93,62 +101,77 @@
   "gl": {
     "ayağı": {
       "fa": "پایش",
+      "ru": "его/её нога (ступня)",
       "en": "its/his/her foot"
     },
     "b2": {
       "fa": "سطحِ B2 (متوسطِ بالا)",
+      "ru": "B2 (уровень выше среднего)",
       "en": "B2 (upper-intermediate level)"
     },
     "ballı": {
       "fa": "عسل‌دار، با عسل",
+      "ru": "с мёдом",
       "en": "with honey"
     },
     "boğazınız": {
       "fa": "گلویتان",
+      "ru": "ваше горло",
       "en": "your throat"
     },
     "eczaneden": {
       "fa": "از داروخانه",
+      "ru": "из аптеки",
       "en": "from the pharmacy"
     },
     "fırından": {
       "fa": "از نانوایی",
+      "ru": "из пекарни",
       "en": "from the bakery"
     },
     "hocamın": {
       "fa": "ـِ استادم",
+      "ru": "моего учителя",
       "en": "my teacher's"
     },
     "nedir": {
       "fa": "چیست",
+      "ru": "что такое; что (это)",
       "en": "what is (it)"
     },
     "rize": {
       "fa": "ریزه (شهری در دریای سیاه، معروف به چای)",
+      "ru": "Ризе (город на Чёрном море, славится чаем)",
       "en": "Rize (a Black Sea town famous for its tea)"
     },
     "ses": {
       "fa": "صدا",
+      "ru": "голос; звук",
       "en": "voice; sound"
     },
     "sesi": {
       "fa": "صدایش",
+      "ru": "его/её голос",
       "en": "his/her voice"
     },
     "sessizlik": {
       "fa": "سکوت",
+      "ru": "тишина",
       "en": "silence"
     },
     "lazım": {
       "fa": "لازم",
+      "ru": "нужно (ne lazım? — что нужно?)",
       "en": "needed (ne lazım? = what do you need?)"
     },
     "benden": {
       "fa": "از طرفِ من، مهمانِ من",
+      "ru": "от меня; я угощаю",
       "en": "from me; my treat"
     },
     "hmm": {
       "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "ru": "хм (раздумье)",
       "en": "hmm (thinking)"
     }
   },
@@ -246,7 +269,8 @@
       "q": {
         "tr": "Zafer Hoca hasta. Boğazı …",
         "en": "Zafer Hoca is ill. His throat …",
-        "fa": "استاد ظفر مریض است. گلویش …"
+        "fa": "استاد ظفر مریض است. گلویش …",
+        "ru": "Зафер болеет. Горло у него …"
       },
       "why": "Yusuf: “Boğazınız ağrıyor.”"
     },
@@ -261,7 +285,8 @@
       "q": {
         "tr": "Nima balı nereden alıyor?",
         "en": "Where does Nima buy the honey?",
-        "fa": "نیما عسل را از کجا می‌خرد؟"
+        "fa": "نیما عسل را از کجا می‌خرد؟",
+        "ru": "Где Нима покупает мёд?"
       },
       "why": "İsmail: “Geçmiş olsun! Buyurun: bal ve Rize çayı. Hocaya benden!”"
     }
@@ -295,6 +320,7 @@
     {
       "en": "Here comes Zafer Hoca… but today he has no voice!",
       "fa": "استاد ظفر داره میاد… ولی امروز صداش درنمیاد!",
+      "ru": "Вот идёт Зафер… но сегодня у него нет голоса!",
       "move": {
         "how": "enter",
         "to": "teacher",
@@ -343,6 +369,7 @@
             "emo": "sorry",
             "en": "Get well soon, teacher!",
             "fa": "خدا بد نده، استاد!",
+            "ru": "Выздоравливайте, учитель!",
             "ok": true,
             "react": {
               "zafer": {
@@ -366,6 +393,7 @@
             "emo": "happy",
             "en": "Enjoy your meal!",
             "fa": "نوش جان!",
+            "ru": "Приятного аппетита!",
             "react": {
               "parvaneh": "laugh",
               "zafer": {
@@ -378,6 +406,7 @@
                 "emo": "laugh",
                 "en": "There's no food! Get well soon!",
                 "fa": "غذا که نیست! خدا بد نده!",
+                "ru": "Тут нет еды! Скажи: «Выздоравливайте!»",
                 "to": "nima",
                 "tr": "Yemek yok! Geçmiş olsun!",
                 "who": "parvaneh"
@@ -390,6 +419,7 @@
             "emo": "happy",
             "en": "Hope the work goes easy!",
             "fa": "خسته نباشین!",
+            "ru": "Бог в помощь!",
             "react": {
               "yusuf": {
                 "emo": "curious"
@@ -403,6 +433,7 @@
                 "emo": "neutral",
                 "en": "He's ill! Get well soon!",
                 "fa": "مریضه! خدا بد نده!",
+                "ru": "Он же болеет! Скажи: «Выздоравливайте!»",
                 "to": "nima",
                 "tr": "Hasta! Geçmiş olsun!",
                 "who": "yusuf"
@@ -420,6 +451,7 @@
       "emo": "neutral",
       "en": "What seems to be the problem?",
       "fa": "چه مشکلی دارین؟",
+      "ru": "На что жалуетесь?",
       "move": {
         "how": "walk",
         "to": "teacher_desk",
@@ -440,6 +472,7 @@
       "emo": "proud",
       "en": "Hmm… your head hurts. Your throat hurts. The medicine: tea, honey… and silence!",
       "fa": "هوم… سرتون درد می‌کنه. گلوتون درد می‌کنه. دارو: چای، عسل… و سکوت!",
+      "ru": "Хм… у вас болит голова. Болит горло. Лекарство: чай, мёд… и тишина!",
       "react": {
         "zafer": {
           "do": "nod"
@@ -456,12 +489,14 @@
       "emo": "laugh",
       "tr": "Doktor Yusuf!",
       "en": "Doctor Yusuf!",
-      "fa": "دکتر یوسف!"
+      "fa": "دکتر یوسف!",
+      "ru": "Доктор Юсуф!"
     },
     {
       "emo": "shy",
       "en": "Yes! I want to be a doctor… but first, B2!",
       "fa": "آره! می‌خوام دکتر بشم… ولی اول B2!",
+      "ru": "Да! Я хочу стать врачом… но сначала B2!",
       "to": "parvaneh",
       "tr": "Evet! Doktor olmak istiyorum… ama önce B2!",
       "who": "yusuf",
@@ -502,6 +537,7 @@
       "emo": "proud",
       "en": "OK… today I'm the teacher! What's this?",
       "fa": "باشه… امروز معلم منم! این چیه؟",
+      "ru": "Ладно… сегодня учитель — я! Что это?",
       "react": {
         "zafer": {
           "at": "ch:zafer.head",
@@ -518,6 +554,7 @@
       "emo": "happy",
       "en": "Nose!",
       "fa": "دماغ!",
+      "ru": "Нос!",
       "link": {
         "burun": "ch:zafer.head"
       },
@@ -529,6 +566,7 @@
       "emo": "happy",
       "en": "Head! Ear! Arm! Leg!",
       "fa": "سر! گوش! دست! پا!",
+      "ru": "Голова! Ухо! Рука! Нога!",
       "link": {
         "bacak": "ch:zafer.leg",
         "baş": "ch:zafer.head",
@@ -551,6 +589,7 @@
       "emo": "proud",
       "en": "Eye!",
       "fa": "چشم!",
+      "ru": "Глаз!",
       "link": {
         "göz": "ch:zafer.head"
       },
@@ -562,6 +601,7 @@
       "emo": "laugh",
       "en": "And this? …Sleep!",
       "fa": "و این؟ …خواب!",
+      "ru": "А это? …Сон!",
       "react": {
         "alex": "tired",
         "zafer": {
@@ -611,6 +651,7 @@
       "emo": "happy",
       "en": "Welcome! What do you need?",
       "fa": "خوش اومدین! چی لازم دارین؟",
+      "ru": "Добро пожаловать! Что вам нужно?",
       "sfx": {
         "id": "doorbell",
         "word": "dın dın"
@@ -623,6 +664,7 @@
       "emo": "nervous",
       "en": "Thanks! Honey, please. My teacher has no voice!",
       "fa": "ممنون، خوشحالم که اومدم! عسل، لطفاً. صدای استادم درنمیاد!",
+      "ru": "Спасибо! Мёд, пожалуйста. У моего учителя пропал голос!",
       "link": {
         "bal": "obj:paket"
       },
@@ -636,6 +678,7 @@
       "emo": "sorry",
       "en": "I hope he feels better soon! Here you are: honey and Rize tea. For the teacher, from me!",
       "fa": "خدا بد نده! بفرمایین: عسل و چای ریزه. برای استاد، از طرفِ من!",
+      "ru": "Пусть скорее выздоравливает! Пожалуйста: мёд и чай из Ризе. Учителю — от меня!",
       "link": {
         "bal": "obj:paket"
       },
@@ -703,6 +746,7 @@
       "emo": "proud",
       "en": "The best medicine: İsmail's tea with honey!",
       "fa": "بهترین دارو: چای و عسلِ اسماعیل!",
+      "ru": "Лучшее лекарство: чай с мёдом от Исмаила!",
       "link": {
         "çayı": "obj:balli_cay"
       },
@@ -742,6 +786,7 @@
         "en": "Whose head, whose throat? The possessive ending on the body part says who it hurts for: başım ağrıyor (my head hurts), başınız ağrıyor (your head hurts), boğazım / boğazınız (my / your throat), hocamın sesi (my teacher's voice). The same ending asks: Ateşiniz var mı? (Do you have a fever?)",
         "ex": "Boğazınız ağrıyor.",
         "fa": "سرِ کی، گلوی کی؟ پسوندِ ملکی روی عضوِ بدن می‌گوید درد مالِ کیست: başım ağrıyor (سرم درد می‌کند)، başınız ağrıyor (سرتان درد می‌کند)، boğazım / boğazınız (گلویم / گلویتان)، hocamın sesi (صدای استادم). مثل «سرم درد می‌کند» در فارسی، فعل همان ağrıyor می‌ماند. سؤال هم همین‌طور: Ateşiniz var mı? (تب دارید؟)",
+        "ru": "Чья голова, чьё горло? Притяжательное окончание на части тела показывает, у кого болит: başım ağrıyor (у меня болит голова), başınız ağrıyor (у вас болит голова), boğazım / boğazınız (моё / ваше горло), hocamın sesi (голос моего учителя). То же окончание и в вопросе: Ateşiniz var mı? (У вас есть температура?)",
         "lesson": "g_a1_4_iyelik",
         "show": "owner"
       }
@@ -749,6 +794,7 @@
     {
       "en": "The teacher: Parvaneh. The doctor: Yusuf. And the honey? From Nima!",
       "fa": "معلم: پروانه. دکتر: یوسف. عسل چی؟ از طرفِ نیما!",
+      "ru": "Учитель — Парване. Доктор — Юсуф. А мёд? От Нимы!",
       "narr": true,
       "tr": "Öğretmen: Parvane. Doktor: Yusuf. Ve bal? Nima'dan!",
       "who": "kerim"
@@ -756,12 +802,14 @@
   ],
   "summary": {
     "en": "Zafer Hoca comes to class with no voice, so the class runs the lesson: Yusuf plays the doctor, Parvaneh takes the marker for the body game, and at the break Nima runs to İsmail's bakkal for honey and Rize tea.",
-    "fa": "استاد ظفر بی‌صدا به کلاس می‌آید و بچه‌ها خودشان کلاس را اداره می‌کنند: یوسف دکتر می‌شود، پروانه ماژیک را برمی‌دارد و بازیِ اعضای بدن را راه می‌اندازد، و نیما در زنگِ تفریح به بقالیِ اسماعیل می‌دود تا عسل و چای ریزه بخرد."
+    "fa": "استاد ظفر بی‌صدا به کلاس می‌آید و بچه‌ها خودشان کلاس را اداره می‌کنند: یوسف دکتر می‌شود، پروانه ماژیک را برمی‌دارد و بازیِ اعضای بدن را راه می‌اندازد، و نیما در زنگِ تفریح به بقالیِ اسماعیل می‌دود تا عسل و چای ریزه بخرد.",
+    "ru": "Зафер приходит на урок без голоса, и урок ведёт сам класс: Юсуф играет врача, Парване берёт маркер для игры про части тела, а на перемене Нима бежит в лавку Исмаила за мёдом и чаем из Ризе."
   },
   "title": {
     "tr": "Hocanın sesi yok!",
     "en": "The teacher has no voice!",
-    "fa": "صدای استاد درنمی‌آید!"
+    "fa": "صدای استاد درنمی‌آید!",
+    "ru": "У учителя нет голоса!"
   },
   "words": [
     "a1-w-bas",

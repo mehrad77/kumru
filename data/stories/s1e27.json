@@ -2,6 +2,7 @@
   "arc": {
     "en": "What time is it?",
     "fa": "ساعت چند است؟",
+    "ru": "Который час?",
     "id": "s1w05",
     "mechanics": [
       "say",
@@ -18,6 +19,7 @@
     {
       "en": "This photo is old too. What did this child do?",
       "fa": "این عکس هم قدیمیه. این بچه چی کار کرد؟",
+      "ru": "Эта фотография тоже старая. Что делала эта девочка?",
       "to": "nima",
       "tr": "Bu fotoğraf da eski. Bu çocuk ne yaptı?",
       "who": "maria"
@@ -30,6 +32,7 @@
           {
             "en": "She walked to school.",
             "fa": "پیاده رفت مدرسه.",
+            "ru": "Она ходила в школу пешком.",
             "ok": true,
             "react": {
               "maria": {
@@ -41,6 +44,7 @@
               {
                 "en": "Yes! She walked every day. And then?",
                 "fa": "آره! هر روز پیاده رفت. بعد؟",
+                "ru": "Да! Каждый день ходила. А потом?",
                 "tr": "Evet! Her gün yürüdü. Sonra?",
                 "who": "maria"
               }
@@ -51,6 +55,7 @@
           {
             "en": "She is walking to school.",
             "fa": "داره پیاده می‌ره مدرسه.",
+            "ru": "Она идёт в школу.",
             "react": {
               "maria": "curious"
             },
@@ -58,6 +63,7 @@
               {
                 "en": "Not now: she walked! And then?",
                 "fa": "الان نه: پیاده رفت! بعد؟",
+                "ru": "Не сейчас: ходила! А потом?",
                 "tr": "Şimdi değil: yürüdü! Sonra?",
                 "who": "maria"
               }
@@ -72,6 +78,7 @@
     {
       "en": "Then she ate baklava!",
       "fa": "بعد باقلوا خورد!",
+      "ru": "Потом она ела пахлаву!",
       "to": "maria",
       "tr": "Sonra baklava yedi!",
       "who": "nima"
@@ -79,6 +86,7 @@
     {
       "en": "Yes! Everyone ate! And what's in this photo?",
       "fa": "آره! همه خوردن! خب، توی این عکس چی هست؟",
+      "ru": "Да! Все ели! А что на этой фотографии?",
       "to": "nima",
       "tr": "Evet! Herkes yedi! Peki bu fotoğrafta ne var?",
       "who": "maria"
@@ -86,6 +94,7 @@
     {
       "en": "A street, a school… and a child!",
       "fa": "یه کوچه، یه مدرسه… و یه بچه!",
+      "ru": "Улица, школа… и ребёнок!",
       "to": "maria",
       "tr": "Bir sokak, bir okul… ve bir çocuk!",
       "who": "nima"
@@ -93,6 +102,7 @@
     {
       "en": "Yes! And that child is now… eighty years old!",
       "fa": "آره! و اون بچه حالا… هشتاد سالشه!",
+      "ru": "Да! И этому ребёнку сейчас… восемьдесят лет!",
       "to": "nima",
       "tr": "Evet! Ve o çocuk şimdi… seksen yaşında!",
       "who": "maria"
@@ -101,78 +111,97 @@
   "gl": {
     "bayramda": {
       "fa": "در عید (روزهای عید)",
+      "ru": "в байрам (праздник)",
       "en": "at the bayram (a holiday)"
     },
     "bayramlar": {
       "fa": "عیدها؛ «İyi bayramlar!» یعنی عید مبارک",
+      "ru": "праздники; «İyi bayramlar!»: с праздником",
       "en": "holidays; “İyi bayramlar!”: happy holidays"
     },
     "beri": {
       "fa": "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "ru": "с (с каких пор); «-DAn beri»: с …",
       "en": "since; “-DAn beri”: since"
     },
     "evdeyim": {
       "fa": "در خانه هستم؛ «bu evdeyim» یعنی در این خانه هستم",
+      "ru": "я в доме; «bu evdeyim»: я в этом доме",
       "en": "I am in the house; “bu evdeyim”: I am in this house"
     },
     "fotoğrafta": {
       "fa": "در عکس؛ «bu fotoğrafta» یعنی در این عکس",
+      "ru": "на фото; «bu fotoğrafta»: на этом фото",
       "en": "in the photo; “bu fotoğrafta”: in this photo"
     },
     "günden": {
       "fa": "از روزِ…؛ «o günden beri» یعنی از آن روز تا حالا",
+      "ru": "с дня; «o günden beri»: с того самого дня",
       "en": "from the day; “o günden beri”: ever since that day"
     },
     "günüm": {
       "fa": "روزم؛ «doğum günüm» یعنی تولدم",
+      "ru": "мой день; «doğum günüm»: мой день рождения",
       "en": "my day; “doğum günüm”: my birthday"
     },
     "gününüz": {
       "fa": "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "ru": "ваш день; «doğum gününüz»: ваш день рождения",
       "en": "your day; “doğum gününüz”: your birthday"
     },
     "kimse": {
       "fa": "هیچ‌کس",
+      "ru": "никто",
       "en": "nobody"
     },
     "komşular": {
       "fa": "همسایه‌ها",
+      "ru": "соседи",
       "en": "the neighbours"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "kutlu": {
       "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "ru": "благословенный; «Doğum gününüz kutlu olsun!»: с днём рождения",
       "en": "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
     },
     "mum": {
       "fa": "شمع",
+      "ru": "свеча",
       "en": "candle"
     },
     "paskalyada": {
       "fa": "در عیدِ پاک (عیدِ مسیحیان)",
+      "ru": "на Пасху",
       "en": "at Easter"
     },
     "yavrum": {
       "fa": "عزیزم، بچه‌جان (برای کوچک‌ترها)",
+      "ru": "дитя моё (так говорят младшему)",
       "en": "my dear (to someone younger)"
     },
     "şşş": {
       "fa": "هیس!",
+      "ru": "тсс!",
       "en": "shh!"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "hmm": {
       "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "ru": "хм (раздумье)",
       "en": "hmm (thinking)"
     },
     "kimseye": {
       "fa": "به هیچ‌کس",
+      "ru": "никому; «kimseye söylemedim»: я никому не сказала",
       "en": "(to) anybody; “kimseye söylemedim”: I didn't tell anybody"
     }
   },
@@ -197,7 +226,8 @@
       "q": {
         "tr": "Maria Teyze nerede doğdu?",
         "en": "Where was Maria Teyze born?",
-        "fa": "خاله ماریا کجا به دنیا آمد؟"
+        "fa": "خاله ماریا کجا به دنیا آمد؟",
+        "ru": "Где родилась тётя Мария?"
       },
       "why": "Maria Teyze: “Bu sokakta doğdum.”"
     },
@@ -212,7 +242,8 @@
       "q": {
         "tr": "Maria Teyze: “Yıllar geçti. Ama … dün gibi!” Hangisi?",
         "en": "Maria Teyze: “The years went by. But I … like yesterday!” Which word?",
-        "fa": "خاله ماریا: «Yıllar geçti. Ama … dün gibi!» کدام کلمه؟"
+        "fa": "خاله ماریا: «Yıllar geçti. Ama … dün gibi!» کدام کلمه؟",
+        "ru": "Тётя Мария: «Годы прошли. Но я … как вчера!» Какое слово?"
       },
       "why": "Maria Teyze: “Sonra? Yıllar geçti. Ama hatırlıyorum… dün gibi!”"
     }
@@ -234,6 +265,7 @@
       "cam": "wide",
       "en": "Maria Teyze's home… very old. And very, very beautiful.",
       "fa": "خونه‌ی خاله ماریا… خیلی قدیمیه. و خیلی، خیلی قشنگ.",
+      "ru": "Дом тёти Марии… очень старый. И очень, очень красивый.",
       "narr": true,
       "tr": "Maria Teyze'nin evi… çok eski. Ve çok, çok güzel.",
       "who": "kerim"
@@ -244,6 +276,7 @@
       "emo": "moved",
       "en": "I was born on this street. I've been in this house ever since: eighty years!",
       "fa": "من توی همین کوچه به دنیا اومدم. از اون روز تا حالا توی همین خونه‌ام: هشتاد سال!",
+      "ru": "Я родилась на этой улице. И с того дня живу в этом доме: восемьдесят лет!",
       "to": "nima",
       "tr": "Bu sokakta doğdum. O günden beri bu evdeyim: seksen yıl!",
       "who": "maria"
@@ -252,6 +285,7 @@
       "emo": "surprised",
       "en": "Eighty years?!",
       "fa": "هشتاد سال؟!",
+      "ru": "Восемьдесят лет?!",
       "to": "maria",
       "tr": "Seksen yıl mı?!",
       "who": "nima"
@@ -262,6 +296,7 @@
       "emo": "happy",
       "en": "Yes. I walked to school along this street. This child… is me.",
       "fa": "آره. از همین کوچه پیاده می‌رفتم مدرسه. این بچه… منم.",
+      "ru": "Да. По этой улице я ходила в школу. Эта девочка… я!",
       "link": {
         "çocuk": "obj:eski_fotograflar"
       },
@@ -285,6 +320,7 @@
       "emo": "happy",
       "en": "One bayram the neighbours brought baklava. And at Easter we gave red eggs. Everyone came, everyone ate!",
       "fa": "یه عید، همسایه‌ها باقلوا آوردن. عیدِ پاک هم ما تخم‌مرغِ قرمز دادیم. همه اومدن، همه خوردن!",
+      "ru": "Однажды в байрам соседи принесли пахлаву. А на Пасху мы дарили красные яйца. Все приходили, все ели!",
       "frame": "past",
       "to": "nima",
       "tr": "Bir bayramda komşular baklava getirdi. Paskalyada da biz kırmızı yumurta verdik. Herkes geldi, herkes yedi!",
@@ -294,6 +330,7 @@
       "emo": "curious",
       "en": "How lovely! And then what happened?",
       "fa": "چه قشنگ! بعد چی شد؟",
+      "ru": "Как красиво! А что было потом?",
       "to": "maria",
       "tr": "Çok güzel! Sonra ne oldu?",
       "who": "nima"
@@ -302,6 +339,7 @@
       "emo": "moved",
       "en": "Then? The years went by. But I remember it… like yesterday!",
       "fa": "بعد؟ سال‌ها گذشت. ولی یادمه… انگار همین دیروز بود!",
+      "ru": "Потом? Годы прошли. Но я помню… как вчера!",
       "to": "nima",
       "tr": "Sonra? Yıllar geçti. Ama hatırlıyorum… dün gibi!",
       "who": "maria"
@@ -311,6 +349,7 @@
         "en": "-DI tells what happened and is over: doğdum (I was born), yürüdüm (I walked), getirdi (they brought), verdik (we gave), geldi (came), yedi (ate: not the number seven!). The vowel follows the word: -dı, -di, -du, -dü. After a hard consonant (ç, f, h, k, p, s, ş, t) the d becomes t: kaçtı, gitti. Then the person: -m (I), -n (you), nothing (he, she), -k (we).",
         "ex": "Bu sokakta doğdum.",
         "fa": "-DI کاری را می‌گوید که انجام شده و تمام شده: doğdum (به دنیا آمدم)، yürüdüm (راه رفتم)، getirdi (آوردند)، verdik (دادیم)، geldi (آمد)، yedi (خورد؛ نه عددِ هفت!). درست مثلِ گذشته‌ی ساده‌ی فارسی: آمدم، دادیم. مصوتِ پسوند با کلمه هماهنگ می‌شود: -dı، -di، -du، -dü. بعد از صامت‌های سخت (ç, f, h, k, p, s, ş, t) حرفِ d می‌شود t: kaçtı، gitti. بعد شخص می‌آید: -m (من)، -n (تو)، بی‌پسوند (او)، -k (ما).",
+        "ru": "-DI рассказывает о том, что случилось и закончилось: doğdum (я родилась), yürüdüm (я ходила), getirdi (принесли), verdik (мы дали), geldi (пришли), yedi (ели: не число семь!). Гласная следует за словом: -dı, -di, -du, -dü. После глухой согласной (ç, f, h, k, p, s, ş, t) d становится t: kaçtı, gitti. Потом лицо: -m (я), -n (ты), ничего (он, она), -k (мы).",
         "lesson": "g_a1_5_gecmis"
       }
     },
@@ -321,6 +360,7 @@
       "emo": "curious",
       "en": "What's this? 10 October… eighty?",
       "fa": "این چیه؟ ده اکتبر… هشتاد؟",
+      "ru": "А это что? 10 октября… восемьдесят?",
       "move": {
         "how": "walk",
         "to": "calendar",
@@ -337,6 +377,7 @@
       "emo": "nervous",
       "en": "Nothing! Nothing…",
       "fa": "هیچی! هیچی…",
+      "ru": "Ничего! Ничего…",
       "tempo": 1.3,
       "to": "nima",
       "tr": "Hiç! Hiç…",
@@ -346,6 +387,7 @@
       "emo": "sad",
       "en": "It's my birthday. On Saturday… eighty! But… nobody knows.",
       "fa": "تولدمه. شنبه… هشتاد سالگی! ولی… هیچ‌کس نمی‌دونه.",
+      "ru": "Мой день рождения. В субботу… восемьдесят! Но… никто не знает.",
       "to": "nima",
       "tr": "Doğum günüm. Cumartesi… seksen yaş! Ama… kimse bilmiyor.",
       "who": "maria"
@@ -359,6 +401,7 @@
             "emo": "happy",
             "en": "Happy birthday!",
             "fa": "تولدتون مبارک!",
+            "ru": "С днём рождения!",
             "ok": true,
             "react": {
               "maria": {
@@ -372,6 +415,7 @@
                 "emo": "moved",
                 "en": "Thank you, my dear!",
                 "fa": "ممنونم، عزیزم!",
+                "ru": "Спасибо, дитя моё!",
                 "tr": "Teşekkür ederim, yavrum!",
                 "who": "maria"
               }
@@ -383,6 +427,7 @@
             "emo": "happy",
             "en": "Happy holidays!",
             "fa": "عید مبارک!",
+            "ru": "С праздником!",
             "react": {
               "maria": "laugh"
             },
@@ -392,6 +437,7 @@
                 "emo": "laugh",
                 "en": "It's not a bayram, it's a birthday!",
                 "fa": "عید نیست، تولده!",
+                "ru": "Это не байрам, это день рождения!",
                 "tr": "Bayram değil, doğum günü!",
                 "who": "maria"
               }
@@ -403,6 +449,7 @@
             "emo": "happy",
             "en": "Congratulations!",
             "fa": "تبریک می‌گم!",
+            "ru": "Поздравляю!",
             "react": {
               "maria": "confused"
             },
@@ -411,6 +458,7 @@
                 "emo": "laugh",
                 "en": "…Congratulations? For being eighty?",
                 "fa": "…تبریک؟ برای هشتاد سالگی؟",
+                "ru": "…Поздравляю? С восемьюдесятью годами?",
                 "tr": "…Tebrikler mi? Seksen yaş için?",
                 "who": "maria"
               }
@@ -427,6 +475,7 @@
       "emo": "shy",
       "en": "Shh! No cake, no candles. I didn't tell anyone last year either. All right?",
       "fa": "هیس! نه کیک، نه شمع. پارسال هم به کسی نگفتم. باشه؟",
+      "ru": "Тсс! Ни торта, ни свечей. В прошлом году я тоже никому не сказала. Хорошо?",
       "to": "nima",
       "tr": "Şşş! Pasta yok, mum yok. Geçen yıl da kimseye söylemedim. Tamam mı?",
       "who": "maria"
@@ -436,6 +485,7 @@
       "emo": "shy",
       "en": "All right…",
       "fa": "باشه…",
+      "ru": "Хорошо…",
       "to": "maria",
       "tr": "Tamam…",
       "who": "nima"
@@ -445,6 +495,7 @@
       "emo": "curious",
       "en": "All right? Hmm… coo-coo.",
       "fa": "باشه؟ هوم… کو-کوو.",
+      "ru": "Хорошо? Хм… Ку-ку.",
       "narr": true,
       "tr": "Tamam? Hmm… Ku-kuu.",
       "who": "kerim"
@@ -452,12 +503,14 @@
   ],
   "summary": {
     "en": "Tea after class at Maria Teyze's: old photos of Feriköy and her childhood in the past tense. Then Nima sees a date circled in red on her calendar, and Maria Teyze's secret comes out.",
-    "fa": "چای بعد از کلاس در خانه‌ی خاله ماریا: عکس‌های قدیمیِ فری‌کؤی و بچگیِ او، با زمانِ گذشته. بعد نیما روی تقویمِ دیواری تاریخی را می‌بیند که با قرمز دورش خط کشیده‌اند، و رازِ خاله ماریا فاش می‌شود."
+    "fa": "چای بعد از کلاس در خانه‌ی خاله ماریا: عکس‌های قدیمیِ فری‌کؤی و بچگیِ او، با زمانِ گذشته. بعد نیما روی تقویمِ دیواری تاریخی را می‌بیند که با قرمز دورش خط کشیده‌اند، و رازِ خاله ماریا فاش می‌شود.",
+    "ru": "Чай после урока у тёти Марии: старые фотографии Ферикёя и её детство в прошедшем времени. Потом Нима видит в её календаре дату, обведённую красным, и тайна тёти Марии раскрывается."
   },
   "title": {
     "tr": "Bu sokakta doğdum",
     "en": "I was born on this street",
-    "fa": "در همین کوچه به دنیا آمدم"
+    "fa": "در همین کوچه به دنیا آمدم",
+    "ru": "Я родилась на этой улице"
   },
   "words": [
     "a1-w-dogmak",

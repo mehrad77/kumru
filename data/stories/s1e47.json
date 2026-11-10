@@ -2,6 +2,7 @@
   "arc": {
     "en": "The exam and the holiday",
     "fa": "امتحان و جشن",
+    "ru": "Экзамен и праздник",
     "id": "s1w08",
     "mechanics": [
       "say",
@@ -26,6 +27,7 @@
     {
       "en": "Now you: introduce yourself, please.",
       "fa": "حالا شما: لطفاً خودتون رو معرفی کنید.",
+      "ru": "Теперь вы: представьтесь, пожалуйста.",
       "to": "nima",
       "tr": "Şimdi siz: kendinizi tanıtın, lütfen.",
       "who": "zafer"
@@ -38,6 +40,7 @@
           {
             "en": "My name is Nima. I'm a student. What I love most… is the tea!",
             "fa": "اسمِ من نیماست. دانشجوام. از همه بیشتر… چای رو دوست دارم!",
+            "ru": "Меня зовут Нима. Я учусь. Больше всего… я люблю чай!",
             "ok": true,
             "react": {
               "zafer": "happy"
@@ -47,6 +50,7 @@
                 "emo": "happy",
                 "en": "Very good. Thank you!",
                 "fa": "خیلی خوب. ممنون!",
+                "ru": "Очень хорошо. Спасибо!",
                 "tr": "Çok güzel. Teşekkürler!",
                 "who": "zafer"
               }
@@ -57,6 +61,7 @@
           {
             "en": "Once more, please. Slower, please.",
             "fa": "یه بار دیگه، لطفاً. آروم‌تر، لطفاً.",
+            "ru": "Ещё раз, пожалуйста. Помедленнее, пожалуйста.",
             "react": {
               "zafer": {
                 "do": "nod",
@@ -68,6 +73,7 @@
                 "emo": "happy",
                 "en": "Of course. Introduce… yourself.",
                 "fa": "حتماً. خودتون رو… معرفی کنید.",
+                "ru": "Конечно. Расскажите… о себе.",
                 "tempo": 0.7,
                 "tr": "Tabii. Kendinizi… tanıtın.",
                 "who": "zafer"
@@ -84,94 +90,117 @@
   "gl": {
     "a1": {
       "fa": "A1 (سطحِ اول)",
+      "ru": "A1 (первый уровень)",
       "en": "A1 (the first level)"
     },
     "belki": {
       "fa": "شاید",
+      "ru": "может быть",
       "en": "maybe"
     },
     "duyuyorum": {
       "fa": "حس می‌کنم (gurur duyuyorum: افتخار می‌کنم)",
+      "ru": "чувствую (gurur duyuyorum: я горжусь)",
       "en": "I feel (gurur duyuyorum: I'm proud)"
     },
     "elinde": {
       "fa": "در دستش",
+      "ru": "у него в руке",
       "en": "in his hand"
     },
     "farzad": {
       "fa": "فرزاد (دوستِ قدیمیِ نیما)",
+      "ru": "Фарзад (старый друг Нимы)",
       "en": "Farzad (Nima's old friend)"
     },
     "fazla": {
       "fa": "زیاد (çok fazla: خیلی زیاد)",
+      "ru": "слишком много (çok fazla)",
       "en": "too much (çok fazla)"
     },
     "gurur": {
       "fa": "افتخار (gurur duymak: افتخار کردن)",
+      "ru": "гордость (gurur duymak: гордиться)",
       "en": "pride (gurur duymak: to be proud)"
     },
     "havalimanında": {
       "fa": "در فرودگاه",
+      "ru": "в аэропорту",
       "en": "at the airport"
     },
     "hikâye": {
       "fa": "قصه",
+      "ru": "история",
       "en": "story"
     },
     "hocam": {
       "fa": "استاد (خطاب به معلم)",
+      "ru": "Учитель (обращение к преподавателю)",
       "en": "Hocam (how you address a teacher)"
     },
     "ikametim": {
       "fa": "اقامتم (اجازه‌ی اقامت)",
+      "ru": "мой вид на жительство",
       "en": "my residence permit"
     },
     "mecidiyeköy": {
       "fa": "مجیدیه‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Меджидиекёй (район в Шишли)",
       "en": "Mecidiyeköy (a district of Şişli)"
     },
     "metroyla": {
       "fa": "با مترو",
+      "ru": "на метро",
       "en": "by metro"
     },
     "ortaköy": {
       "fa": "اورتاکوی (ساحلِ بسفر در بشیکتاش)",
+      "ru": "Ортакёй (на Босфоре, в Бешикташе)",
       "en": "Ortaköy (on the Bosphorus, in Beşiktaş)"
     },
     "sonuçlar": {
       "fa": "نتیجه‌ها",
+      "ru": "результаты",
       "en": "the results"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя; слово значит «победа»)",
       "en": "Zafer (a name; the word means victory)"
     },
     "çatı": {
       "fa": "پشت‌بام",
+      "ru": "крыша",
       "en": "roof"
     },
     "önünde": {
       "fa": "جلوی…",
+      "ru": "перед…",
       "en": "in front of"
     },
     "üçte": {
       "fa": "ساعتِ سه",
+      "ru": "в три (часа)",
       "en": "at three"
     },
     "şeyi": {
       "fa": "چیز را (her şeyi: همه‌چیز را)",
+      "ru": "вещь (her şeyi: всё)",
       "en": "thing (her şeyi: everything)"
     },
     "şşş": {
       "fa": "هیس!",
+      "ru": "тсс!",
       "en": "shh!"
     },
     "aa": {
       "fa": "عه! (تعجب)",
+      "ru": "о! (удивление)",
       "en": "oh! (surprise)"
     },
     "vay": {
       "fa": "وای!",
+      "ru": "ого!",
       "en": "wow!"
     }
   },
@@ -260,7 +289,8 @@
       "q": {
         "tr": "Sonuçlar ne zaman?",
         "en": "When do the results come?",
-        "fa": "نتیجه‌ها کِی می‌آیند؟"
+        "fa": "نتیجه‌ها کِی می‌آیند؟",
+        "ru": "Когда будут результаты?"
       },
       "why": "“Sonuçlar… gelecek hafta.”"
     },
@@ -275,7 +305,8 @@
       "q": {
         "tr": "Nima'nın yazısı: “Çok … vardı!”",
         "en": "Nima's text: “I had so many …!”",
-        "fa": "متنِ نیما: «کلی … داشتم!»"
+        "fa": "متنِ نیما: «کلی … داشتم!»",
+        "ru": "Текст Нимы: «У меня было так много …!»"
       },
       "why": "“Çok bavulum vardı!”"
     }
@@ -315,6 +346,7 @@
     {
       "en": "Nine o'clock. The exam is starting. Kerim… is quiet.",
       "fa": "ساعت نه. امتحان داره شروع می‌شه. کریم… ساکته.",
+      "ru": "Девять часов. Экзамен начинается. Керим… молчит.",
       "narr": true,
       "tr": "Saat dokuz. Sınav başlıyor. Kerim… sessiz.",
       "voice": "whisper",
@@ -324,6 +356,7 @@
       "emo": "neutral",
       "en": "Reading. Which floor is the café on? What time does it open?",
       "fa": "خوندن. کافه طبقه‌ی چندمه؟ ساعت چند باز می‌شه؟",
+      "ru": "Чтение. На каком этаже кафе? Во сколько оно открывается?",
       "to": "all",
       "tr": "Okuma. Kafe kaçıncı katta? Saat kaçta açılıyor?",
       "who": "zafer"
@@ -340,12 +373,14 @@
       "emo": "curious",
       "en": "On the first floor. At eight.",
       "fa": "طبقه‌ی اول. ساعت هشت.",
+      "ru": "На первом этаже. В восемь.",
       "tr": "Birinci katta. Saat sekizde.",
       "who": "nima"
     },
     {
       "en": "Writing: ‘My first day.’",
       "fa": "نوشتن: «روزِ اولم.»",
+      "ru": "Письмо: ‘Мой первый день’.",
       "to": "all",
       "tr": "Yazma: ‘İlk günüm.’",
       "who": "zafer"
@@ -356,6 +391,7 @@
       "emo": "happy",
       "en": "I came to Istanbul on the seventh of September. Farzad waited for me at the airport.",
       "fa": "هفتِ سپتامبر اومدم استانبول. فرزاد توی فرودگاه منتظرم بود.",
+      "ru": "Седьмое сентября — мой первый день в Стамбуле. В аэропорту меня ждал Фарзад.",
       "obj": [
         {
           "id": "kagit",
@@ -374,6 +410,7 @@
       "emo": "nervous",
       "en": "Nima! Is it ‘gittik’ (we went) or ‘gittim’ (I went)?",
       "fa": "نیما! «gittik» (رفتیم) یا «gittim» (رفتم)؟",
+      "ru": "Нима! ‘Gittik’ — «мы», или ‘gittim’ — «я»?",
       "to": "nima",
       "tr": "Nima! ‘Gittik’ mi, ‘gittim’ mi?",
       "voice": "whisper",
@@ -389,6 +426,7 @@
             "emo": "shy",
             "en": "Shh! Later!",
             "fa": "هیس! بعداً!",
+            "ru": "Тсс! Потом!",
             "ok": true,
             "react": {
               "parvaneh": {
@@ -402,6 +440,7 @@
                 "emo": "happy",
                 "en": "I… went. Gittim! OK.",
                 "fa": "من… رفتم. gittim! باشه.",
+                "ru": "Я… пошла. Gittim! Ладно.",
                 "tr": "Ben… gittim. Gittim! Tamam.",
                 "voice": "whisper",
                 "who": "parvaneh"
@@ -415,6 +454,7 @@
             "emo": "nervous",
             "en": "‘Gittim.’ (whispering the answer)",
             "fa": "«gittim». (جواب را آهسته می‌گوید)",
+            "ru": "‘Gittim.’ (шёпотом подсказывает)",
             "react": {
               "zafer": {
                 "at": "ch:nima",
@@ -427,6 +467,7 @@
                 "emo": "annoyed",
                 "en": "Parvaneh… Nima…",
                 "fa": "پروانه… نیما…",
+                "ru": "Парване… Нима…",
                 "react": {
                   "nima": "shy",
                   "parvaneh": "shy"
@@ -444,6 +485,7 @@
             "emo": "annoyed",
             "en": "Teacher! Parvaneh is talking!",
             "fa": "استاد! پروانه داره حرف می‌زنه!",
+            "ru": "Учитель! Парване разговаривает!",
             "react": {
               "parvaneh": {
                 "emo": "sad"
@@ -458,6 +500,7 @@
                 "emo": "annoyed",
                 "en": "Quiet… please!",
                 "fa": "لطفاً… ساکت!",
+                "ru": "Тише… пожалуйста!",
                 "to": "all",
                 "tr": "Lütfen… sessiz!",
                 "who": "zafer"
@@ -476,6 +519,7 @@
       "emo": "happy",
       "en": "He had a sign in his hand: ‘Welcome, Nima!’ I had so many suitcases! Then we went to Mecidiyeköy by metro.",
       "fa": "توی دستش یه نوشته بود: «خوش اومدی، نیما!» کلی چمدون داشتم! بعد با مترو رفتیم مجیدیه‌کؤی.",
+      "ru": "У него в руке была табличка: ‘Добро пожаловать, Нима!’ У меня было так много чемоданов! Потом мы поехали на метро в Меджидиекёй.",
       "obj": [
         {
           "id": "kagit",
@@ -494,6 +538,7 @@
     {
       "en": "Listening. ‘What time?’ ‘At three.’ ‘Where?’ ‘In front of the café.’ …Where?",
       "fa": "شنیدن. «ساعت چند؟» «ساعت سه.» «کجا؟» «جلوی کافه.» …کجا؟",
+      "ru": "Аудирование. ‘Во сколько?’ ‘В три.’ ‘Где?’ ‘Перед кафе.’ …Где?",
       "tempo": 0.9,
       "to": "all",
       "tr": "Dinleme. ‘Saat kaçta?’ ‘Üçte.’ ‘Nerede?’ ‘Kafenin önünde.’ …Nerede?",
@@ -528,6 +573,7 @@
       "emo": "neutral",
       "en": "Speaking. Number seven: Nima. Introduce yourself, please.",
       "fa": "صحبت کردن. شماره‌ی هفت: نیما. لطفاً خودتون رو معرفی کنید.",
+      "ru": "Говорение. Номер семь: Нима. Представьтесь, пожалуйста.",
       "to": "nima",
       "tr": "Konuşma. Yedi numara: Nima. Kendinizi tanıtın, lütfen.",
       "who": "zafer"
@@ -537,6 +583,7 @@
       "emo": "happy",
       "en": "My name is Nima. I'm a student. I'm learning Turkish.",
       "fa": "اسمِ من نیماست. دانشجوام. دارم ترکی یاد می‌گیرم.",
+      "ru": "Меня зовут Нима. Я учусь. Изучаю турецкий.",
       "to": "zafer",
       "tr": "Benim adım Nima. Öğrenciyim. Türkçe öğreniyorum.",
       "who": "nima"
@@ -544,6 +591,7 @@
     {
       "en": "What do you love most in Istanbul?",
       "fa": "توی استانبول چی رو از همه بیشتر دوست دارید؟",
+      "ru": "Что вы больше всего любите в Стамбуле?",
       "to": "nima",
       "tr": "İstanbul'da en çok neyi seviyorsunuz?",
       "who": "zafer"
@@ -552,6 +600,7 @@
       "emo": "shy",
       "en": "My neighbours… and the bird on the roof!",
       "fa": "همسایه‌هام رو… و پرنده‌ی روی پشت‌بوم رو!",
+      "ru": "Моих соседей… и птицу на крыше!",
       "react": {
         "kerim": "happy",
         "zafer": "laugh"
@@ -564,6 +613,7 @@
       "do": "write",
       "en": "What did you do yesterday, and where did you go?",
       "fa": "دیروز چی‌کار کردید، کجا رفتید؟",
+      "ru": "Что вы делали вчера, куда ходили?",
       "tempo": 1.4,
       "to": "nima",
       "tr": "Dün ne yaptınız, nereye gittiniz?",
@@ -586,6 +636,7 @@
       "emo": "shy",
       "en": "Once more, please. Slower, please.",
       "fa": "یه بار دیگه، لطفاً. آروم‌تر، لطفاً.",
+      "ru": "Ещё раз, пожалуйста. Помедленнее, пожалуйста.",
       "to": "zafer",
       "tr": "Bir daha, lütfen. Daha yavaş, lütfen.",
       "who": "nima"
@@ -594,6 +645,7 @@
       "emo": "happy",
       "en": "Yesterday… what did you do?",
       "fa": "دیروز… چی‌کار کردید؟",
+      "ru": "Вчера… что вы делали?",
       "tempo": 0.7,
       "to": "nima",
       "tr": "Dün… ne yaptınız?",
@@ -603,6 +655,7 @@
       "emo": "proud",
       "en": "Yesterday we went to Ortaköy. We drank tea on the Bosphorus!",
       "fa": "دیروز رفتیم اورتاکوی. کنارِ بسفر چای خوردیم!",
+      "ru": "Вчера мы ездили в Ортакёй. Пили чай на Босфоре!",
       "to": "zafer",
       "tr": "Dün Ortaköy'e gittik. Boğaz'da çay içtik!",
       "who": "nima"
@@ -611,6 +664,7 @@
       "emo": "moved",
       "en": "A1 is over. The results… next week. But I'm very proud of you all.",
       "fa": "A1 تموم شد. نتیجه‌ها… هفته‌ی بعد. ولی من به همه‌تون خیلی افتخار می‌کنم.",
+      "ru": "A1 позади. Результаты… на следующей неделе. Но я очень горжусь вами всеми.",
       "to": "all",
       "tr": "A1 bitti. Sonuçlar… gelecek hafta. Ama ben sizinle çok gurur duyuyorum.",
       "who": "zafer"
@@ -620,6 +674,7 @@
       "emo": "happy",
       "en": "Thank you, teacher!",
       "fa": "ممنون، استاد!",
+      "ru": "Спасибо, учитель!",
       "react": {
         "dilnoza": "happy",
         "parvaneh": "happy"
@@ -682,6 +737,7 @@
       "emo": "happy",
       "en": "The corner shop brought tea! …What did you write, Nima?",
       "fa": "بقالِ سرِ کوچه چای آورد! …تو چی نوشتی، نیما؟",
+      "ru": "Магазинчик на углу принёс чай! …А у тебя какая тема, Нима?",
       "to": "nima",
       "tr": "Köşe bakkalı çay getirdi! …Ne yazdın, Nima?",
       "who": "dilnoza"
@@ -690,6 +746,7 @@
       "emo": "happy",
       "en": "‘My first day’. And you?",
       "fa": "«روزِ اولم». تو چی؟",
+      "ru": "‘Мой первый день’. А у тебя?",
       "to": "dilnoza",
       "tr": "‘İlk günüm’. Ya sen?",
       "who": "nima"
@@ -698,6 +755,7 @@
       "emo": "shy",
       "en": "Me… ‘My family’.",
       "fa": "من… «خانواده‌ام».",
+      "ru": "У меня… ‘Моя семья’.",
       "to": "nima",
       "tr": "Ben… ‘Benim ailem’.",
       "who": "dilnoza"
@@ -706,6 +764,7 @@
       "emo": "laugh",
       "en": "I wrote everything! …Maybe too much!",
       "fa": "من همه‌چی رو نوشتم! …شاید زیادی!",
+      "ru": "Я написала всё! …Может, даже слишком много!",
       "react": {
         "nima": "laugh"
       },
@@ -747,6 +806,7 @@
       "emo": "happy",
       "en": "Oh! My residence permit came through!",
       "fa": "عه! اقامتم درست شد!",
+      "ru": "О! Мой вид на жительство готов!",
       "to": "all",
       "tr": "Aa! İkametim tamam!",
       "who": "nima"
@@ -755,6 +815,7 @@
       "emo": "laugh",
       "en": "Wow! Two exams over in one day!",
       "fa": "وای! توی یه روز دو تا امتحان تموم شد!",
+      "ru": "Ого! За один день — два экзамена позади!",
       "react": {
         "dilnoza": "laugh"
       },
@@ -767,12 +828,14 @@
         "en": "Kerim was quiet in the exam. Now, Nima's text: -DI tells what happened (geldim, bekledi, gittik). vardı is var + -DI: “there was”, “I had” (Çok bavulum vardı!). -(y)A goes to a place (İstanbul'a, Mecidiyeköy'e). And a language takes -ce / -ça: Türkçe öğreniyorum.",
         "ex": "Yedi Eylül'de İstanbul'a geldim.",
         "fa": "کریم در امتحان ساکت بود. حالا متنِ نیما: -DI می‌گوید چه اتفاقی افتاد (geldim، bekledi، gittik). vardı همان var + -DI است: «بود»، «داشتم» (Çok bavulum vardı!). -(y)A به سمتِ جایی می‌رود (İstanbul'a، Mecidiyeköy'e). و اسمِ زبان با -ce / -ça می‌آید: Türkçe öğreniyorum.",
+        "ru": "На экзамене Керим молчала. Теперь текст Нимы: -DI рассказывает, что произошло (geldim, bekledi, gittik). vardı — это var + -DI: «было», «у меня было» (Çok bavulum vardı!). -(y)A — движение куда-то (İstanbul'a, Mecidiyeköy'e). А название языка получает -ce / -ça: Türkçe öğreniyorum.",
         "lesson": "g_a1_5_gecmis"
       }
     },
     {
       "en": "The exam is over. A1 is over. But… the story isn't.",
       "fa": "امتحان تموم شد. A1 تموم شد. ولی… قصه تموم نشد.",
+      "ru": "Экзамен позади. A1 позади. Но… история не закончилась.",
       "narr": true,
       "tr": "Sınav bitti. A1 bitti. Ama… hikâye bitmedi.",
       "who": "kerim",
@@ -781,12 +844,14 @@
   ],
   "summary": {
     "en": "The A1 exam in four parts: reading, writing, listening and speaking. Nima freezes for a moment, asks for the question again, slowly, and gets through. On the steps after, the residence permit is approved.",
-    "fa": "امتحانِ A1 در چهار بخش: خواندن، نوشتن، شنیدن و صحبت کردن. نیما یک لحظه خشکش می‌زند، می‌خواهد سؤال را دوباره و آهسته بپرسند، و از پسش برمی‌آید. بعد، روی پله‌ها، اقامتش تأیید می‌شود."
+    "fa": "امتحانِ A1 در چهار بخش: خواندن، نوشتن، شنیدن و صحبت کردن. نیما یک لحظه خشکش می‌زند، می‌خواهد سؤال را دوباره و آهسته بپرسند، و از پسش برمی‌آید. بعد، روی پله‌ها، اقامتش تأیید می‌شود.",
+    "ru": "Экзамен A1 из четырёх частей: чтение, письмо, аудирование и говорение. Нима на миг замирает, просит повторить вопрос медленно — и справляется. А потом, на ступеньках, приходит одобрение вида на жительство."
   },
   "title": {
     "tr": "Sınav günü",
     "en": "Exam day",
-    "fa": "روزِ امتحان"
+    "fa": "روزِ امتحان",
+    "ru": "День экзамена"
   },
   "words": [
     "a1-w-bavul",

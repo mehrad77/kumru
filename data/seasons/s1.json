@@ -5,12 +5,14 @@
   "title": {
     "tr": "1. sezon",
     "en": "Season 1",
-    "fa": "فصل 1"
+    "fa": "فصل 1",
+    "ru": "Сезон 1"
   },
   "arcs": {
     "s1w01": {
       "en": "Welcome!",
       "fa": "خوش آمدی!",
+      "ru": "Добро пожаловать!",
       "mechanics": [
         "say",
         "explore"
@@ -20,6 +22,7 @@
     "s1w02": {
       "en": "Where's home?",
       "fa": "خانه کجاست؟",
+      "ru": "Где дом?",
       "mechanics": [
         "say",
         "explore",
@@ -31,6 +34,7 @@
     "s1w03": {
       "en": "A new home, a new way",
       "fa": "خانه‌ی نو، راهِ نو",
+      "ru": "Новый дом, новый путь",
       "mechanics": [
         "say",
         "explore",
@@ -41,6 +45,7 @@
     "s1w04": {
       "en": "A new family",
       "fa": "یک خانواده‌ی تازه",
+      "ru": "Новая семья",
       "mechanics": [
         "say",
         "explore"
@@ -50,6 +55,7 @@
     "s1w05": {
       "en": "What time is it?",
       "fa": "ساعت چند است؟",
+      "ru": "Который час?",
       "mechanics": [
         "say",
         "explore",
@@ -60,6 +66,7 @@
     "s1w06": {
       "en": "The best of Feriköy",
       "fa": "بهترین جاهای فری‌کؤی",
+      "ru": "Лучшие места Ферикёя",
       "mechanics": [
         "say",
         "explore",
@@ -71,6 +78,7 @@
     "s1w07": {
       "en": "Before the exam",
       "fa": "پیش از امتحان",
+      "ru": "Перед экзаменом",
       "mechanics": [
         "say",
         "explore",
@@ -81,6 +89,7 @@
     "s1w08": {
       "en": "The exam and the holiday",
       "fa": "امتحان و جشن",
+      "ru": "Экзамен и праздник",
       "mechanics": [
         "say",
         "explore",

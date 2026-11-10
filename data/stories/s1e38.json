@@ -2,6 +2,7 @@
   "arc": {
     "en": "Before the exam",
     "fa": "پیش از امتحان",
+    "ru": "Перед экзаменом",
     "id": "s1w07",
     "mechanics": [
       "say",
@@ -25,6 +26,7 @@
     {
       "en": "Nima, which floor is the library on?",
       "fa": "نیما، کتابخونه طبقهٔ چندمه؟",
+      "ru": "Нима, на каком этаже библиотека?",
       "to": "nima",
       "tr": "Nima, kütüphane kaçıncı katta?",
       "who": "newcomer"
@@ -32,6 +34,7 @@
     {
       "en": "On the second floor.",
       "fa": "طبقهٔ دوم.",
+      "ru": "На втором этаже.",
       "to": "newcomer",
       "tr": "İkinci katta.",
       "who": "nima"
@@ -39,6 +42,7 @@
     {
       "en": "Is there tea here?",
       "fa": "این‌جا چای هست؟",
+      "ru": "Здесь есть чай?",
       "to": "nima",
       "tr": "Burada çay var mı?",
       "who": "newcomer"
@@ -51,6 +55,7 @@
           {
             "en": "No, there's no tea here.",
             "fa": "نه، این‌جا چای نیست.",
+            "ru": "Нет, чая здесь нет.",
             "ok": true,
             "react": {
               "newcomer": "happy"
@@ -59,6 +64,7 @@
               {
                 "en": "No tea… but there are books!",
                 "fa": "چای نیست… ولی کتاب هست!",
+                "ru": "Чая нет… зато есть книги!",
                 "tr": "Çay yok… ama kitap var!",
                 "who": "newcomer"
               }
@@ -69,6 +75,7 @@
           {
             "en": "Yes, there's tea.",
             "fa": "آره، چای هست.",
+            "ru": "Да, чай есть.",
             "react": {
               "newcomer": "confused"
             },
@@ -76,6 +83,7 @@
               {
                 "en": "There is? Where? This is a library… there's no tea!",
                 "fa": "هست؟ کجا؟ این‌جا کتابخونه‌ست… چای نیست!",
+                "ru": "Есть? Где? Это же библиотека… чая нет!",
                 "tr": "Var mı? Nerede? Burası kütüphane… çay yok!",
                 "who": "newcomer"
               }
@@ -90,6 +98,7 @@
     {
       "en": "So… “Ben öğretmen değil.” Is that right?",
       "fa": "خب… «Ben öğretmen değil.» درسته؟",
+      "ru": "А… «Ben öğretmen değil.» Так правильно?",
       "to": "nima",
       "tr": "Peki… “Ben öğretmen değil.” Doğru mu?",
       "who": "newcomer"
@@ -97,6 +106,7 @@
     {
       "en": "I think… “Ben öğretmen değilim.”",
       "fa": "به نظرم… «Ben öğretmen değilim.»",
+      "ru": "По-моему… «Ben öğretmen değilim.»",
       "to": "newcomer",
       "tr": "Bence… “Ben öğretmen değilim.”",
       "who": "nima"
@@ -104,6 +114,7 @@
     {
       "en": "Değilim! OK. Thanks, my friend!",
       "fa": "Değilim! باشه. مرسی، رفیق!",
+      "ru": "«Değilim»! Понятно. Спасибо, друг!",
       "to": "nima",
       "tr": "Değilim! Tamam. Teşekkürler, arkadaşım!",
       "who": "newcomer"
@@ -112,46 +123,57 @@
   "gl": {
     "bak": {
       "fa": "ببین!",
+      "ru": "смотри!",
       "en": "look!"
     },
     "hocam": {
       "fa": "استادم (خطاب به معلم)",
+      "ru": "учитель (обращение к учителю)",
       "en": "teacher, sir/miss (said to a teacher)"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means swallow)"
     },
     "masada": {
       "fa": "روی میز",
+      "ru": "на столе (masa + -da)",
       "en": "on the table (masa + -da)"
     },
     "usta": {
       "fa": "تعمیرکار، اوستا",
+      "ru": "мастер",
       "en": "repairman"
     },
     "şşş": {
       "fa": "هیس!",
+      "ru": "тсс!",
       "en": "shh!"
     },
     "hadi": {
       "fa": "یالا؛ زود باش",
+      "ru": "давай!",
       "en": "come on!"
     },
     "aa": {
       "fa": "آهان! (وقتی چیزی را می‌فهمی)",
+      "ru": "а! (дошло)",
       "en": "oh! (getting it)"
     },
     "deneme": {
       "fa": "آزمایشی",
+      "ru": "пробный",
       "en": "trial, mock"
     },
     "az kaldı": {
       "fa": "چیزی نمونده بود",
+      "ru": "почти, чуть-чуть не хватило",
       "en": "nearly, almost"
     }
   },
@@ -220,7 +242,8 @@
       "q": {
         "tr": "“Kitap masa.” Bu … mu? Hayır: “Kitap masada.”",
         "en": "“Kitap masa.” Is this …? No: “Kitap masada.”",
-        "fa": "«Kitap masa.» این … است؟ نه: «Kitap masada.»"
+        "fa": "«Kitap masa.» این … است؟ نه: «Kitap masada.»",
+        "ru": "«Kitap masa.» Это … ? Нет: «Kitap masada.»"
       },
       "why": "Yeni öğrenci: “Affedersin… bu doğru mu?”"
     },
@@ -235,7 +258,8 @@
       "q": {
         "tr": "Yeni öğrenci Nima'ya ne diyor?",
         "en": "What does the new student call Nima?",
-        "fa": "دانشجوی تازه نیما را چه صدا می‌زند؟"
+        "fa": "دانشجوی تازه نیما را چه صدا می‌زند؟",
+        "ru": "Как новый студент называет Ниму?"
       },
       "why": "Yeni öğrenci: “Teşekkürler, hocam!”"
     }
@@ -262,6 +286,7 @@
       "emo": "happy",
       "en": "Shh! In the library everyone's quiet. Everyone?",
       "fa": "هیس! توی کتابخونه همه ساکتن. همه؟",
+      "ru": "Тсс! В библиотеке все молчат. Все ли?",
       "link": {
         "sessiz": "obj:quiet_sign"
       },
@@ -307,6 +332,7 @@
       "emo": "curious",
       "en": "Did the repairman come?",
       "fa": "تعمیرکار اومد؟",
+      "ru": "Мастер приходил?",
       "loop": true,
       "to": "nima",
       "tr": "Usta geldi mi?",
@@ -318,6 +344,7 @@
       "emo": "happy",
       "en": "He didn't! But it's warm here!",
       "fa": "نیومد! ولی این‌جا گرمه!",
+      "ru": "Нет! Зато здесь тепло!",
       "to": "kirlangic",
       "tr": "Gelmedi! Ama burası sıcak!",
       "voice": "whisper",
@@ -327,6 +354,7 @@
       "emo": "happy",
       "en": "Tomorrow is the mock exam. Come on, we're studying! Question: what's on the table?",
       "fa": "فردا امتحانِ آزمایشیه. یالا، درس می‌خونیم! سؤال: روی میز چی هست؟",
+      "ru": "Завтра пробный экзамен. Давай, занимаемся! Вопрос: что есть на столе?",
       "to": "nima",
       "tr": "Yarın deneme sınavı var. Hadi, çalışıyoruz! Soru: masada ne var?",
       "voice": "whisper",
@@ -338,6 +366,7 @@
       "emo": "laugh",
       "en": "There are books, there are pens… no tea!",
       "fa": "کتاب هست، خودکار هست… چای نیست!",
+      "ru": "Есть книги, есть ручки… чая нет!",
       "link": {
         "kalem": "obj:pens",
         "kitap": "obj:books"
@@ -351,6 +380,7 @@
       "emo": "laugh",
       "en": "Right! No tea…",
       "fa": "درسته! چای نیست…",
+      "ru": "Точно! Чая нет…",
       "to": "nima",
       "tr": "Doğru! Çay yok…",
       "voice": "whisper",
@@ -362,6 +392,7 @@
       "emo": "nervous",
       "en": "Excuse me… is this right? “Kitap masa.”",
       "fa": "ببخشید… این درسته؟ «Kitap masa.»",
+      "ru": "Извини… так правильно? «Kitap masa.»",
       "link": {
         "kitap": "obj:workbook"
       },
@@ -382,6 +413,7 @@
             "emo": "happy",
             "en": "I think… “masada”. The book is on the table.",
             "fa": "به نظرم… «masada». کتاب روی میزه.",
+            "ru": "По-моему… «masada». Книга на столе.",
             "ok": true,
             "react": {
               "newcomer": {
@@ -394,6 +426,7 @@
                 "emo": "happy",
                 "en": "On the table! Oh, OK!",
                 "fa": "روی میز! آهان، باشه!",
+                "ru": "«Masada»! А, понятно!",
                 "tr": "Masada! Aa, tamam!",
                 "voice": "whisper",
                 "who": "newcomer"
@@ -407,6 +440,7 @@
             "emo": "neutral",
             "en": "Wrong! On the table!",
             "fa": "غلطه! روی میز!",
+            "ru": "Неправильно! «Masada»!",
             "react": {
               "dilnoza": "sorry",
               "newcomer": "shy"
@@ -416,6 +450,7 @@
                 "emo": "happy",
                 "en": "But nearly!",
                 "fa": "ولی نزدیک بود!",
+                "ru": "Но почти!",
                 "to": "newcomer",
                 "tr": "Ama az kaldı!",
                 "voice": "whisper",
@@ -430,6 +465,7 @@
             "emo": "neutral",
             "en": "…",
             "fa": "…",
+            "ru": "…",
             "react": {
               "kirlangic": {
                 "at": "ch:nima",
@@ -461,6 +497,7 @@
                 "emo": "curious",
                 "en": "Nima? “Masada”… isn't it?",
                 "fa": "نیما؟ «masada»… مگه نه؟",
+                "ru": "Нима? «Masada»… разве нет?",
                 "to": "nima",
                 "tr": "Nima? “Masada”… değil mi?",
                 "voice": "whisper",
@@ -481,6 +518,7 @@
       "emo": "happy",
       "en": "The book is on the table… And which page is “var, yok” on?",
       "fa": "کتاب روی میزه… راستی، «var, yok» صفحهٔ چندمه؟",
+      "ru": "Книга на столе… А «var, yok» на какой странице?",
       "link": {
         "sayfa": "obj:workbook"
       },
@@ -502,6 +540,7 @@
       "emo": "proud",
       "en": "On page thirty-one!",
       "fa": "صفحهٔ سی و یکم!",
+      "ru": "На тридцать первой странице!",
       "to": "newcomer",
       "tr": "Otuz birinci sayfada!",
       "voice": "whisper",
@@ -513,6 +552,7 @@
       "emo": "proud",
       "en": "Look! Nima's become a teacher!",
       "fa": "ببین! نیما معلم شده!",
+      "ru": "Смотри! Нима теперь учитель!",
       "react": {
         "dilnoza": "happy"
       },
@@ -526,6 +566,7 @@
       "emo": "happy",
       "en": "Thank you, teacher!",
       "fa": "مرسی، استاد!",
+      "ru": "Спасибо, учитель!",
       "to": "nima",
       "tr": "Teşekkürler, hocam!",
       "voice": "whisper",
@@ -536,6 +577,7 @@
       "emo": "laugh",
       "en": "Not “teacher”… “my friend”!",
       "fa": "«استاد» نه… «رفیق»!",
+      "ru": "Не «учитель»… «друг»!",
       "to": "newcomer",
       "tr": "Hocam değil… arkadaşım!",
       "voice": "whisper",
@@ -546,6 +588,7 @@
         "en": "-DA says where: “Kitap masada.” (the book is on the table), “Kütüphanede herkes sessiz.” (in the library everyone's quiet), “Otuz birinci sayfada!” The vowel follows harmony: masada, kütüphanede, sayfada. After a hard consonant d turns into t: kitap → kitapta. var / yok say what is there: “Kitap var, kalem var… çay yok!” And değil makes a noun negative: “Hocam değil… arkadaşım!”",
         "ex": "Kitap masada.",
         "fa": "‎-DA‎ جای چیزی را می‌گوید: «Kitap masada.» (کتاب روی میز است)، «Kütüphanede herkes sessiz.» (توی کتابخانه همه ساکت‌اند)، «Otuz birinci sayfada!» (در صفحهٔ سی و یکم). واکه‌اش از هماهنگی پیروی می‌کند: masada، kütüphanede، sayfada. بعد از صامت‌های سخت، d به t تبدیل می‌شود: kitap ← kitapta. ‏var / yok می‌گویند چه چیزی هست یا نیست: «Kitap var, kalem var… çay yok!». و değil اسم را منفی می‌کند: «Hocam değil… arkadaşım!» («استاد» نه… «رفیق»!).",
+        "ru": "-DA говорит, где: «Kitap masada.» (книга на столе), «Kütüphanede herkes sessiz.» (в библиотеке все молчат), «Otuz birinci sayfada!» Гласная следует гармонии: masada, kütüphanede, sayfada. После глухой согласной d становится t: kitap → kitapta. «var / yok» говорят, что есть и чего нет: «Kitap var, kalem var… çay yok!» А «değil» отрицает существительное: «Hocam değil… arkadaşım!»",
         "lesson": "g_a1_2_bulunma",
         "show": "case_path"
       }
@@ -554,6 +597,7 @@
       "emo": "moved",
       "en": "Nima isn't a teacher… But today? A bit of a teacher!",
       "fa": "نیما معلم نیست… ولی امروز؟ یه کم معلم!",
+      "ru": "Нима не учитель… А сегодня? Немножко учитель!",
       "narr": true,
       "tr": "Nima öğretmen değil… Ama bugün? Biraz öğretmen!",
       "voice": "whisper",
@@ -562,12 +606,14 @@
   ],
   "summary": {
     "en": "The study group meets at a warm İBB library and drills for tomorrow's mock exam. The new student from Berfin's café asks Nima for help, and the student becomes, a little, a teacher.",
-    "fa": "گروهِ درس‌خوانی در یک کتابخانهٔ گرمِ شهرداری جمع می‌شود و برای امتحانِ آزمایشیِ فردا تمرین می‌کند. همان دانشجوی تازه‌واردی که در کافهٔ برفین بود از نیما کمک می‌خواهد، و شاگرد کمی معلم می‌شود."
+    "fa": "گروهِ درس‌خوانی در یک کتابخانهٔ گرمِ شهرداری جمع می‌شود و برای امتحانِ آزمایشیِ فردا تمرین می‌کند. همان دانشجوی تازه‌واردی که در کافهٔ برفین بود از نیما کمک می‌خواهد، و شاگرد کمی معلم می‌شود.",
+    "ru": "Учебная группа собирается в тёплой библиотеке İBB и готовится к завтрашнему пробному экзамену. Новый студент из кафе Берфин просит Ниму помочь — и сегодня Нима немножко учитель."
   },
   "title": {
     "tr": "Kütüphanede",
     "en": "At the library",
-    "fa": "در کتابخانه"
+    "fa": "در کتابخانه",
+    "ru": "В библиотеке"
   },
   "words": [
     "a1-w-kacinci",

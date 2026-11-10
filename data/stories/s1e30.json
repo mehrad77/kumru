@@ -2,6 +2,7 @@
   "arc": {
     "en": "What time is it?",
     "fa": "ساعت چند است؟",
+    "ru": "Который час?",
     "id": "s1w05",
     "mechanics": [
       "say",
@@ -27,6 +28,7 @@
     {
       "en": "And you? Last year, on your birthday, what did you do?",
       "fa": "شما چی؟ پارسال، روزِ تولدتون چی کار کردید؟",
+      "ru": "А вы? В прошлом году, на свой день рождения, что вы делали?",
       "to": "nima",
       "tr": "Ya siz? Geçen yıl, doğum gününüzde ne yaptınız?",
       "who": "maria"
@@ -39,6 +41,7 @@
           {
             "en": "I ate cake and drank tea!",
             "fa": "کیک خوردم، چای هم خوردم!",
+            "ru": "Был торт, был чай!",
             "ok": true,
             "react": {
               "maria": {
@@ -50,6 +53,7 @@
               {
                 "en": "How lovely! This year… here, with us!",
                 "fa": "چه قشنگ! امسال… این‌جا، با ما!",
+                "ru": "Как хорошо! А в этом году… здесь, с нами!",
                 "tr": "Çok güzel! Bu yıl… burada, bizimle!",
                 "who": "maria"
               }
@@ -60,6 +64,7 @@
           {
             "en": "I'm eating cake, I'm drinking tea!",
             "fa": "دارم کیک می‌خورم، چای می‌خورم!",
+            "ru": "Ем торт, пью чай!",
             "react": {
               "maria": "curious"
             },
@@ -67,6 +72,7 @@
               {
                 "en": "Last year: yedim, içtim (I ate, I drank)! This year… here, with us!",
                 "fa": "پارسال: yedim، içtim (خوردم، نوشیدم)! امسال… این‌جا، با ما!",
+                "ru": "В прошлом году: «yedim, içtim» (ели, пили)! А в этом году… здесь, с нами!",
                 "tr": "Geçen yıl: yedim, içtim! Bu yıl… burada, bizimle!",
                 "who": "maria"
               }
@@ -82,106 +88,132 @@
   "gl": {
     "ailesi": {
       "fa": "خانواده‌اش",
+      "ru": "его/её семья",
       "en": "his/her family"
     },
     "atina": {
       "fa": "آتن (پایتختِ یونان)",
+      "ru": "Афины",
       "en": "Athens"
     },
     "balon": {
       "fa": "بادکنک",
+      "ru": "воздушный шарик",
       "en": "balloon"
     },
     "beri": {
       "fa": "از … تا حالا؛ «-DAn beri» یعنی از زمانِ…",
+      "ru": "с (с каких пор); «-DAn beri»: с …",
       "en": "since; “-DAn beri”: since"
     },
     "eleni": {
       "fa": "النی (اسم)",
+      "ru": "Элени (имя)",
       "en": "Eleni (a name)"
     },
     "gününüz": {
       "fa": "روزِ شما؛ «doğum gününüz» یعنی تولدِ شما",
+      "ru": "ваш день; «doğum gününüz»: ваш день рождения",
       "en": "your day; “doğum gününüz”: your birthday"
     },
     "gününüzde": {
       "fa": "در روزِ شما؛ «doğum gününüzde» یعنی در تولدتان",
+      "ru": "в ваш день; «doğum gününüzde»: в ваш день рождения",
       "en": "on your day; “doğum gününüzde”: on your birthday"
     },
     "komşularımız": {
       "fa": "همسایه‌هایمان",
+      "ru": "наши соседи",
       "en": "our neighbours"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "kutlu": {
       "fa": "مبارک؛ «Doğum gününüz kutlu olsun!» یعنی تولدتان مبارک",
+      "ru": "благословенный; «Doğum gününüz kutlu olsun!»: с днём рождения",
       "en": "blessed; “Doğum gününüz kutlu olsun!”: happy birthday"
     },
     "kırlangıç": {
       "fa": "پرستو (اسمِ یک نفر؛ kırlangıç یعنی پرستو)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means swallow)"
     },
     "metroda": {
       "fa": "در مترو",
+      "ru": "в метро",
       "en": "on the metro"
     },
     "mum": {
       "fa": "شمع",
+      "ru": "свеча",
       "en": "candle"
     },
     "mutlu yıllar sana": {
       "fa": "تولدت مبارک (آوازِ تولد)",
+      "ru": "с днём рожденья тебя (песня)",
       "en": "happy birthday to you (the birthday song)"
     },
     "perşembeden": {
       "fa": "از پنجشنبه؛ «perşembeden beri» یعنی از پنجشنبه تا حالا",
+      "ru": "с четверга; «perşembeden beri»: с четверга",
       "en": "from Thursday; “perşembeden beri”: since Thursday"
     },
     "yakaladım": {
       "fa": "گرفتمش! (از yakalamak)",
+      "ru": "поймала! (от yakalamak)",
       "en": "I caught it! (from yakalamak)"
     },
     "yavrum": {
       "fa": "عزیزم، بچه‌جان (برای کوچک‌ترها)",
+      "ru": "дитя моё (так говорят младшему)",
       "en": "my dear (to someone younger)"
     },
     "yiyorum": {
       "fa": "می‌خورم (از yemek)",
+      "ru": "я ем (от yemek)",
       "en": "I'm eating (from yemek)"
     },
     "yıllar": {
       "fa": "سال‌ها؛ «Mutlu yıllar sana» یعنی تولدت مبارک (آواز)",
+      "ru": "годы; «Mutlu yıllar sana»: с днём рожденья тебя (песня)",
       "en": "years; “Mutlu yıllar sana”: happy birthday to you (the song)"
     },
     "çayla": {
       "fa": "با چای",
+      "ru": "с чаем",
       "en": "with tea"
     },
     "şal": {
       "fa": "شال",
+      "ru": "шаль",
       "en": "shawl"
     },
     "şerefe": {
       "fa": "به سلامتی! (موقعِ بالا بردنِ لیوان)",
+      "ru": "за здоровье! (тост)",
       "en": "cheers! (raising a glass)"
     },
     "kuu": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "dilim": {
       "fa": "برش، تیکه (کیک)",
+      "ru": "кусок",
       "en": "slice"
     },
     "şşş": {
       "fa": "هیس!",
+      "ru": "тсс!",
       "en": "shh!"
     },
     "eee": {
       "fa": "خب؟ (منتظرِ ادامه)",
+      "ru": "и…? (ждут продолжения)",
       "en": "so…? (waiting for more)"
     }
   },
@@ -355,7 +387,8 @@
       "q": {
         "tr": "Kaç mum var?",
         "en": "How many candles are there?",
-        "fa": "چند شمع هست؟"
+        "fa": "چند شمع هست؟",
+        "ru": "Сколько свечей?"
       },
       "why": "Ömer: “Sekiz mum! Her mum on yıl!”"
     },
@@ -370,7 +403,8 @@
       "q": {
         "tr": "Maria Teyze: “Yetmiş yıl … bu çatıda bir doğum günü oldu.” Hangisi?",
         "en": "Maria Teyze: “Seventy years … there was a birthday on this roof.” Which word?",
-        "fa": "خاله ماریا: «Yetmiş yıl … bu çatıda bir doğum günü oldu.» کدام کلمه؟"
+        "fa": "خاله ماریا: «Yetmiş yıl … bu çatıda bir doğum günü oldu.» کدام کلمه؟",
+        "ru": "Тётя Мария: «Семьдесят лет … на этой крыше был день рождения.» Какое слово?"
       },
       "why": "Maria Teyze: “Yetmiş yıl önce… bu çatıda bir doğum günü oldu. Benim! On yaş!”"
     }
@@ -397,6 +431,7 @@
       "cam": "wide",
       "en": "On the roof: balloons, cake, tea… Shh! A surprise!",
       "fa": "روی پشت‌بوم: بادکنک، کیک، چای… هیس! یه سورپرایز!",
+      "ru": "На крыше шарики, торт, чай… Тсс! Сюрприз!",
       "narr": true,
       "react": {
         "omer": {
@@ -421,6 +456,7 @@
       "emo": "happy",
       "en": "Come, Maria Teyze! We're having tea on the roof…",
       "fa": "بفرمایید، خاله ماریا! روی پشت‌بوم چای می‌خوریم…",
+      "ru": "Идёмте, тётя Мария! Мы пьём чай на крыше…",
       "to": "maria",
       "tr": "Gelin, Maria Teyze! Çatıda çay içiyoruz…",
       "who": "nima"
@@ -429,6 +465,7 @@
       "emo": "happy",
       "en": "Tea? How lovely!",
       "fa": "چای؟ چه خوب!",
+      "ru": "Чай? Как хорошо!",
       "if": "s1e28_secret",
       "move": {
         "how": "walk",
@@ -443,6 +480,7 @@
       "emo": "curious",
       "en": "Tea… of course. Tea!",
       "fa": "چای… البته. چای!",
+      "ru": "Чай… ну конечно. Чай!",
       "move": {
         "how": "walk",
         "to": "landing_5",
@@ -505,6 +543,7 @@
       "emo": "happy",
       "en": "Surprise! Today we celebrate!",
       "fa": "سورپرایز! امروز جشن می‌گیریم!",
+      "ru": "Сюрприз! Сегодня мы празднуем!",
       "move": {
         "how": "enter",
         "to": "door",
@@ -526,6 +565,7 @@
       "emo": "happy",
       "en": "No more secret! Since Thursday… it was so hard!",
       "fa": "راز تموم شد! از پنجشنبه تا حالا… خیلی سخت بود!",
+      "ru": "Секрету конец! С четверга… было так трудно!",
       "to": "all",
       "tr": "Sır bitti! Perşembeden beri… çok zordu!",
       "who": "omer"
@@ -535,6 +575,7 @@
       "emo": "moved",
       "en": "For me?! Thank you!",
       "fa": "برای من؟! ممنونم!",
+      "ru": "Это для меня?! Спасибо!",
       "if": "s1e28_secret",
       "on": "benim",
       "to": "all",
@@ -545,6 +586,7 @@
       "emo": "moved",
       "en": "I knew… but it's still a surprise!",
       "fa": "می‌دونستم… ولی باز هم سورپرایزه!",
+      "ru": "Я знала… но всё равно сюрприз!",
       "to": "all",
       "tr": "Biliyorum… ama yine sürpriz!",
       "unless": "s1e28_secret",
@@ -556,6 +598,7 @@
       "emo": "happy",
       "en": "Here you are, Maria Teyze: a little present. This shawl is for you!",
       "fa": "بفرمایید، خاله ماریا: یه هدیه‌ی کوچیک. این شال مالِ شماست!",
+      "ru": "Пожалуйста, тётя Мария: маленький подарок. Эта шаль для вас!",
       "looks": {
         "maria": {
           "wear": {
@@ -579,6 +622,7 @@
       "emo": "happy",
       "en": "And I bought balloons!",
       "fa": "من هم بادکنک خریدم!",
+      "ru": "А я купил шарики!",
       "link": {
         "balon": "obj:balonlar"
       },
@@ -591,6 +635,7 @@
       "emo": "proud",
       "en": "Me… I bought the cake!",
       "fa": "من… کیک خریدم!",
+      "ru": "А я… купил торт!",
       "to": "maria",
       "tr": "Ben… pasta aldım!",
       "who": "serkan"
@@ -625,6 +670,7 @@
       "emo": "happy",
       "en": "Eight candles! Each candle is ten years! Now we sing!",
       "fa": "هشت تا شمع! هر شمع ده سال! حالا آواز می‌خونیم!",
+      "ru": "Восемь свечей! Каждая свеча — десять лет! Теперь поём!",
       "link": {
         "mum": "obj:mumlar"
       },
@@ -637,6 +683,7 @@
       "emo": "happy",
       "en": "Happy birthday to you…",
       "fa": "تولدت مبارک…",
+      "ru": "С днём рожденья тебя…",
       "react": {
         "maria": "moved",
         "omer": "happy"
@@ -689,6 +736,7 @@
       "emo": "curious",
       "en": "Whose is the first slice?",
       "fa": "اولین تیکه مالِ کیه؟",
+      "ru": "Чей первый кусок?",
       "to": "nima",
       "tr": "İlk dilim kimin?",
       "who": "omer"
@@ -702,6 +750,7 @@
             "emo": "happy",
             "en": "Maria Teyze first!",
             "fa": "اول خاله ماریا!",
+            "ru": "Сначала тётя Мария!",
             "obj": [
               {
                 "id": "dilim",
@@ -727,6 +776,7 @@
                 "emo": "moved",
                 "en": "Thank you, my dear.",
                 "fa": "ممنونم، عزیزم.",
+                "ru": "Спасибо, дитя моё.",
                 "tr": "Teşekkür ederim, yavrum.",
                 "who": "maria"
               }
@@ -738,6 +788,7 @@
             "emo": "happy",
             "en": "Me!",
             "fa": "من!",
+            "ru": "Я!",
             "obj": [
               {
                 "id": "dilim",
@@ -758,6 +809,7 @@
                 "emo": "annoyed",
                 "en": "No! Maria Teyze first!",
                 "fa": "نه! اول خاله ماریا!",
+                "ru": "Нет! Первая — тётя Мария!",
                 "tr": "Hayır! İlk Maria Teyze!",
                 "who": "omer"
               }
@@ -771,6 +823,7 @@
             "emo": "happy",
             "en": "Ömer first!",
             "fa": "اول عمر!",
+            "ru": "Сначала Омер!",
             "obj": [
               {
                 "id": "dilim",
@@ -785,6 +838,7 @@
                 "emo": "happy",
                 "en": "Maria Teyze first, Ömer.",
                 "fa": "اول خاله ماریا، عمر.",
+                "ru": "Сначала тётя Мария, Омер.",
                 "obj": [
                   {
                     "id": "dilim",
@@ -812,6 +866,7 @@
       "emo": "happy",
       "en": "Come on, Nima! Two celebrations today: Maria Teyze is eighty, you're one month! Make a speech!",
       "fa": "بیا، نیما! امروز دو تا جشن: خاله ماریا هشتاد، تو یه ماه! یه سخنرانی کن!",
+      "ru": "Иди сюда, Нима! Сегодня два праздника: тёте Марии восемьдесят, тебе — месяц! Произнеси речь!",
       "to": "nima",
       "tr": "Gel, Nima! Bugün iki kutlama: Maria Teyze seksen, sen bir ay! Bir konuşma yap!",
       "who": "serkan"
@@ -825,6 +880,7 @@
             "emo": "moved",
             "en": "A month ago I came to Istanbul. I saw you on the metro. Then we became neighbours. Happy birthday!",
             "fa": "یه ماه پیش اومدم استانبول. شما رو توی مترو دیدم. بعد همسایه شدیم. تولدتون مبارک!",
+            "ru": "Вот уже месяц, как я в Стамбуле. Мы встретились в метро. Потом стали соседями. С днём рождения!",
             "obj": [
               {
                 "id": "kart",
@@ -865,6 +921,7 @@
             "emo": "happy",
             "en": "A month ago I came. The bus was late. It rained. Then the cat came. Then…",
             "fa": "یه ماه پیش اومدم. اتوبوس دیر کرد. بارون اومد. بعد گربه اومد. بعد…",
+            "ru": "Месяц назад — приезд. Автобус опоздал. Шёл дождь. Потом пришла кошка. Потом…",
             "react": {
               "farzad": "curious",
               "omer": "tired"
@@ -874,6 +931,7 @@
                 "emo": "curious",
                 "en": "So…?",
                 "fa": "خب؟",
+                "ru": "И…?",
                 "tr": "Eee?",
                 "who": "farzad"
               }
@@ -886,6 +944,7 @@
             "emo": "happy",
             "en": "Cheers!",
             "fa": "به سلامتی!",
+            "ru": "За здоровье!",
             "obj": [
               {
                 "id": "cay_bardaklari",
@@ -902,6 +961,7 @@
                 "emo": "laugh",
                 "en": "Cheers… with tea?!",
                 "fa": "با چای به سلامتی؟!",
+                "ru": "За здоровье — чаем?!",
                 "tr": "Çayla şerefe mi?!",
                 "who": "serkan"
               }
@@ -919,6 +979,7 @@
       "en": "Seventy years ago… there was a birthday on this roof. Mine! I turned ten!",
       "env": "state:past",
       "fa": "هفتاد سال پیش… روی همین پشت‌بوم یه تولد بود. تولدِ من! ده سالگی!",
+      "ru": "Семьдесят лет назад… на этой крыше был день рождения. Мой! Мне исполнилось десять!",
       "frame": "past",
       "to": "all",
       "tr": "Yetmiş yıl önce… bu çatıda bir doğum günü oldu. Benim! On yaş!",
@@ -928,6 +989,7 @@
       "emo": "happy",
       "en": "My mother made a cake. Our neighbours came: Eleni and her family.",
       "fa": "مادرم کیک پخت. همسایه‌هامون اومدن: النی و خانواده‌اش.",
+      "ru": "Мама испекла торт. Пришли наши соседи: Элени и её семья.",
       "frame": "past",
       "to": "all",
       "tr": "Annem pasta yaptı. Komşularımız geldi: Eleni ve ailesi.",
@@ -944,6 +1006,7 @@
       "emo": "sad",
       "en": "Then… they left. For Athens.",
       "fa": "بعد… رفتن. به آتن.",
+      "ru": "Потом… они уехали. В Афины.",
       "frame": "past",
       "react": {
         "nima": "sad",
@@ -962,6 +1025,7 @@
         "time:dusk:8000"
       ],
       "fa": "امروز… باز روی همین پشت‌بوم. همسایه‌های تازه. یه خانواده‌ی تازه.",
+      "ru": "Сегодня… снова на этой крыше. Новые соседи. Новая семья.",
       "react": {
         "kirlangic": "moved",
         "nima": "moved"
@@ -975,6 +1039,7 @@
         "en": "Then and now. Seventy years ago, in -DI: “bir doğum günü oldu”, “annem pasta yaptı”, “onlar gittiler”. Today, in the present: “bugün kutluyoruz”, “bugün bir doğum günü var”. And Serkan's “pasta aldım” is -DI again: he bought it before the party. Önce after a stretch of time means ago: yetmiş yıl önce, bir ay önce.",
         "ex": "Yetmiş yıl önce… bu çatıda bir doğum günü oldu.",
         "fa": "آن موقع و حالا. هفتاد سال پیش، با -DI: «bir doğum günü oldu» (یک تولد بود)، «annem pasta yaptı» (مادرم کیک پخت)، «onlar gittiler» (آن‌ها رفتند). امروز، با زمانِ حال: «bugün kutluyoruz» (امروز جشن می‌گیریم)، «bugün bir doğum günü var». جمله‌ی سرکان، «pasta aldım»، هم -DI است: او کیک را قبل از جشن خریده. önce بعد از یک مدت یعنی «پیش»: yetmiş yıl önce (هفتاد سال پیش)، bir ay önce (یک ماه پیش).",
+        "ru": "Тогда и сейчас. Семьдесят лет назад, с -DI: «bir doğum günü oldu», «annem pasta yaptı», «onlar gittiler». Сегодня, в настоящем времени: «bugün kutluyoruz», «bugün bir doğum günü var». И «pasta aldım» Серкана — снова -DI: он купил торт до праздника. Önce после отрезка времени значит «назад»: yetmiş yıl önce, bir ay önce.",
         "lesson": "g_a1_5_gecmis"
       }
     },
@@ -1007,6 +1072,7 @@
       "emo": "surprised",
       "en": "The balloons are flying away!",
       "fa": "بادکنک‌ها دارن می‌رن!",
+      "ru": "Шарики улетают!",
       "link": {
         "balonlar": "obj:balonlar"
       },
@@ -1033,6 +1099,7 @@
       "emo": "laugh",
       "en": "Kerim! Come back! Let them go!",
       "fa": "کریم! بیا! ولشون کن!",
+      "ru": "Керим! Вернись! Отпусти!",
       "to": "kerim",
       "tr": "Kerim! Gel! Bırak!",
       "who": "maria"
@@ -1041,6 +1108,7 @@
       "emo": "happy",
       "en": "Coo-coo… one! I caught one!",
       "fa": "کو-کوو… یکی! یکی رو گرفتم!",
+      "ru": "Ку-ку… один! Один я поймала!",
       "narr": true,
       "tr": "Ku-kuu… bir tane! Bir tane yakaladım!",
       "who": "kerim"
@@ -1048,12 +1116,14 @@
   ],
   "summary": {
     "en": "Maria Teyze's surprise 80th on the roof: a shawl, flowers, a card, a cake with eight candles and a speech. Then she tells of her tenth birthday on the same roof, seventy years ago, and the first lodos of the autumn carries the balloons away.",
-    "fa": "جشنِ غافلگیریِ هشتاد سالگیِ خاله ماریا روی پشت‌بام: یک شال، گل، یک کارت، کیکی با هشت شمع و یک سخنرانی. بعد او از تولدِ ده سالگی‌اش روی همین پشت‌بام، هفتاد سال پیش، می‌گوید، و اولین بادِ لودوسِ پاییز بادکنک‌ها را با خود می‌برد."
+    "fa": "جشنِ غافلگیریِ هشتاد سالگیِ خاله ماریا روی پشت‌بام: یک شال، گل، یک کارت، کیکی با هشت شمع و یک سخنرانی. بعد او از تولدِ ده سالگی‌اش روی همین پشت‌بام، هفتاد سال پیش، می‌گوید، و اولین بادِ لودوسِ پاییز بادکنک‌ها را با خود می‌برد.",
+    "ru": "Восьмидесятилетие тёти Марии — сюрприз на крыше: шаль, цветы, открытка, торт с восемью свечами и речь. Потом она рассказывает о своём десятом дне рождения на этой же крыше, семьдесят лет назад, а первый осенний лодос уносит шарики."
   },
   "title": {
     "tr": "Seksen mum",
     "en": "Eighty candles",
-    "fa": "هشتاد شمع"
+    "fa": "هشتاد شمع",
+    "ru": "Восемьдесят свечей"
   },
   "words": [
     "a1-w-dogum-gunu",

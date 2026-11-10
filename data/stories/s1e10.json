@@ -2,6 +2,7 @@
   "arc": {
     "en": "Where's home?",
     "fa": "خانه کجاست؟",
+    "ru": "Где дом?",
     "id": "s1w02",
     "mechanics": [
       "say",
@@ -28,6 +29,7 @@
       "do": "hold_up",
       "en": "Hello! I'm… ?",
       "fa": "سلام! من… ؟",
+      "ru": "Здравствуйте! Я… ?",
       "to": "nima",
       "tr": "Merhaba! Ben… ?",
       "who": "zafer"
@@ -40,6 +42,7 @@
           {
             "en": "What do you do?",
             "fa": "شغلتون چیه؟",
+            "ru": "Чем вы занимаетесь?",
             "ok": true,
             "react": {
               "zafer": {
@@ -51,6 +54,7 @@
               {
                 "en": "I'm a cook! And you?",
                 "fa": "من آشپزم! شما چی؟",
+                "ru": "Я повар! А вы?",
                 "tr": "Ben aşçıyım! Ya siz?",
                 "who": "zafer"
               }
@@ -61,6 +65,7 @@
           {
             "en": "What do you do? (to a friend)",
             "fa": "شغلت چیه؟",
+            "ru": "Чем ты занимаешься?",
             "react": {
               "zafer": "surprised"
             },
@@ -68,6 +73,7 @@
               {
                 "en": "“Siz”, please! …I'm a cook. And you?",
                 "fa": "«شما»، لطفاً! …من آشپزم. شما چی؟",
+                "ru": "На «вы», пожалуйста! …Я повар. А вы?",
                 "tr": "Siz, lütfen! …Ben aşçıyım. Ya siz?",
                 "who": "zafer"
               }
@@ -82,6 +88,7 @@
     {
       "en": "I'm a student.",
       "fa": "من دانشجوام.",
+      "ru": "Я учусь.",
       "to": "zafer",
       "tr": "Ben öğrenciyim.",
       "who": "nima"
@@ -89,6 +96,7 @@
     {
       "en": "A young and happy student!",
       "fa": "یه دانشجوی جوون و خوشحال!",
+      "ru": "Вы молоды, счастливы и учитесь!",
       "to": "nima",
       "tr": "Genç ve mutlu bir öğrenci!",
       "who": "zafer"
@@ -97,38 +105,47 @@
   "gl": {
     "gençsiniz": {
       "fa": "جوانید",
+      "ru": "вы молоды (siz)",
       "en": "you are young (siz)"
     },
     "hocam": {
       "fa": "استاد (خطابِ شاگرد به معلم)",
+      "ru": "Hocam: «мой учитель», так ученики обращаются к преподавателю",
       "en": "Hocam: “my teacher”, how students address a teacher"
     },
     "komşu": {
       "fa": "همسایه",
+      "ru": "сосед",
       "en": "neighbour"
     },
     "musun": {
       "fa": "…ی؟ (پرسش، تو)",
+      "ru": "…ли ты? (вопрос, sen)",
       "en": "are you…? (the question, sen)"
     },
     "musunuz": {
       "fa": "…ید؟ (پرسش، شما)",
+      "ru": "…ли вы? (вопрос, siz)",
       "en": "are you…? (the question, siz)"
     },
     "polisim": {
       "fa": "پلیسم",
+      "ru": "я полицейский",
       "en": "I'm a police officer"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя; слово значит «победа»)",
       "en": "Zafer (a name; the word means “victory”)"
     },
     "şoförüm": {
       "fa": "راننده‌ام",
+      "ru": "я водитель",
       "en": "I'm a driver"
     },
     "hmm": {
       "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "ru": "хм (раздумье)",
       "en": "hmm (thinking)"
     }
   },
@@ -192,7 +209,8 @@
       "q": {
         "tr": "Ev güzel mi? “Evet”: kaç kişi?",
         "en": "Is the flat nice? How many say “yes”?",
-        "fa": "خانه قشنگ است؟ چند نفر می‌گویند «بله»؟"
+        "fa": "خانه قشنگ است؟ چند نفر می‌گویند «بله»؟",
+        "ru": "Квартира хорошая? Сколько человек говорят «да»?"
       },
       "why": "Zafer Hoca: “Evet: bir, iki, üç. Hayır: bir… Alex?”"
     },
@@ -207,7 +225,8 @@
       "q": {
         "tr": "Zafer Hoca: “Yorgun musunuz?” Nima: “Hayır, … değilim!”",
         "en": "Zafer Hoca: “Are you tired?” Nima: “No, I'm not …!”",
-        "fa": "استاد ظفر: «خسته‌اید؟» نیما: «نه، … نیستم!»"
+        "fa": "استاد ظفر: «خسته‌اید؟» نیما: «نه، … نیستم!»",
+        "ru": "Зафер: «Вы устали?» Нима: «Нет, я не …!»"
       },
       "why": "Nima: “Hayır, yorgun değilim!”"
     }
@@ -234,6 +253,7 @@
       "emo": "happy",
       "en": "I'm a bird. You're a student. We're… friends!",
       "fa": "من یه پرنده‌ام. تو دانشجویی. ما… دوستیم!",
+      "ru": "Я птица. Ты учишься. Мы… друзья!",
       "narr": true,
       "tr": "Ben bir kuşum. Sen öğrencisin. Biz… arkadaşız!",
       "who": "kerim"
@@ -244,6 +264,7 @@
       "emo": "happy",
       "en": "I'm a doctor. Is anyone ill?",
       "fa": "من دکترم. مریض داریم؟",
+      "ru": "Я врач. Есть больные?",
       "obj": [
         {
           "id": "sapka",
@@ -265,6 +286,7 @@
       "emo": "proud",
       "en": "I'm a cook!",
       "fa": "من آشپزم!",
+      "ru": "Я повар!",
       "obj": [
         {
           "id": "sapka",
@@ -286,6 +308,7 @@
       "emo": "neutral",
       "en": "I'm a police officer!",
       "fa": "من پلیسم!",
+      "ru": "Я полицейский!",
       "obj": [
         {
           "id": "sapka",
@@ -331,6 +354,7 @@
             "emo": "curious",
             "en": "What do you do?",
             "fa": "شغلتون چیه؟",
+            "ru": "Чем вы занимаетесь?",
             "ok": true,
             "react": {
               "zafer": {
@@ -344,6 +368,7 @@
                 "emo": "happy",
                 "en": "I'm a driver! Are you a student?",
                 "fa": "من راننده‌ام! شما دانشجویید؟",
+                "ru": "Я водитель! А вы учитесь?",
                 "to": "nima",
                 "tr": "Ben şoförüm! Siz öğrenci misiniz?",
                 "who": "zafer"
@@ -356,6 +381,7 @@
             "emo": "curious",
             "en": "What do you do? (to a friend)",
             "fa": "شغلت چیه؟",
+            "ru": "Чем ты занимаешься?",
             "react": {
               "zafer": {
                 "emo": "surprised"
@@ -366,6 +392,7 @@
                 "emo": "surprised",
                 "en": "…“You”, to me? I'm a driver.",
                 "fa": "…«تو»؟ من راننده‌ام.",
+                "ru": "…«Ты» — мне? Я водитель.",
                 "to": "nima",
                 "tr": "…Sen mi? Ben şoförüm.",
                 "who": "zafer"
@@ -374,6 +401,7 @@
                 "do": "you",
                 "en": "“Siz”!",
                 "fa": "«شما»!",
+                "ru": "На «вы»!",
                 "to": "nima",
                 "tr": "Siz!",
                 "voice": "whisper",
@@ -383,6 +411,7 @@
                 "emo": "happy",
                 "en": "Are you… a student?",
                 "fa": "شما… دانشجویید؟",
+                "ru": "Вы… учитесь?",
                 "to": "nima",
                 "tr": "Siz… öğrenci misiniz?",
                 "who": "zafer"
@@ -395,6 +424,7 @@
             "emo": "neutral",
             "en": "Job?",
             "fa": "شغل؟",
+            "ru": "Работа?",
             "react": {
               "zafer": {
                 "emo": "annoyed"
@@ -412,6 +442,7 @@
                 "emo": "neutral",
                 "en": "“What do you do?” …I'm a driver. Are you a student?",
                 "fa": "«شغلتون چیه؟» …من راننده‌ام. شما دانشجویید؟",
+                "ru": "«Чем вы занимаетесь?» …Я водитель. А вы учитесь?",
                 "to": "nima",
                 "tr": "“Ne iş yapıyorsunuz?” …Ben şoförüm. Siz öğrenci misiniz?",
                 "who": "zafer"
@@ -429,6 +460,7 @@
       "emo": "happy",
       "en": "Yes, I'm a student.",
       "fa": "بله، دانشجوام.",
+      "ru": "Да, учусь.",
       "to": "zafer",
       "tr": "Evet, öğrenciyim.",
       "who": "nima"
@@ -437,6 +469,7 @@
       "emo": "curious",
       "en": "You're very young! Are you tired?",
       "fa": "خیلی جوونید! خسته‌اید؟",
+      "ru": "Вы очень молоды! Вы устали?",
       "to": "nima",
       "tr": "Çok gençsiniz! Yorgun musunuz?",
       "who": "zafer"
@@ -447,6 +480,7 @@
       "emo": "happy",
       "en": "No, I'm not tired! But Hocam, a question… is this flat nice?",
       "fa": "نه، خسته نیستم! ولی استاد، یه سؤال… این خونه خوبه؟",
+      "ru": "Нет, сил ещё полно! Но, учитель, один вопрос… эта квартира хорошая?",
       "obj": [
         {
           "id": "telefon",
@@ -462,6 +496,7 @@
       "emo": "happy",
       "en": "Yes! Very nice!",
       "fa": "آره! خیلی قشنگه!",
+      "ru": "Да! Очень хорошая!",
       "to": "nima",
       "tr": "Evet! Çok güzel!",
       "who": "parvaneh"
@@ -471,6 +506,7 @@
       "emo": "happy",
       "en": "Yes: one, two, three. No: one… Alex?",
       "fa": "بله: یک، دو، سه. نه: یکی… الکس؟",
+      "ru": "Да: раз, два, три. Нет: один… Алекс?",
       "n": 3,
       "react": {
         "dilnoza": "hold_up",
@@ -485,6 +521,7 @@
       "tr": "Dördüncü kat? Hayır!",
       "en": "The fourth floor? No!",
       "fa": "طبقه‌ی چهارم؟ نه!",
+      "ru": "Четвёртый этаж? Нет!",
       "to": "zafer",
       "emo": "tired",
       "do": "shake_head",
@@ -499,6 +536,7 @@
       "tr": "Asansör yok… yorgunsun, Alex!",
       "en": "No lift… you're tired, Alex!",
       "fa": "آسانسور نداره… خسته‌ای، الکس!",
+      "ru": "Лифта нет… ты же устал, Алекс!",
       "to": "alex",
       "emo": "laugh",
       "do": "point",
@@ -510,6 +548,7 @@
         "en": "The endings say who: -(y)Im “I am”, -sIn “you are”, -(y)Iz “we are”, -sInIz “you are” (siz). Ben bir kuşum, sen öğrencisin, biz arkadaşız. In a question they go on mi: Öğrenci misiniz? With değil: Yorgun değilim. They work like Persian -am, -i, -im, -id: “I'm a student” is دانشجوام, öğrenciyim.",
         "ex": "Ben bir kuşum. Sen öğrencisin.",
         "fa": "این پسوندها می‌گویند «چه کسی»: -(y)Im یعنی «ـَم»، -sIn یعنی «ـی»، -(y)Iz یعنی «ـیم»، -sInIz یعنی «ـید» (برای siz). Ben bir kuşum (من پرنده‌ام)، sen öğrencisin (تو دانشجویی)، biz arkadaşız (ما دوستیم). در سؤال به mi می‌چسبند: Öğrenci misiniz? (دانشجویید؟). با değil: Yorgun değilim (خسته نیستم). درست مثلِ فارسی: دانشجوام ≈ öğrenciyim.",
+        "ru": "Окончания говорят, кто: -(y)Im «я», -sIn «ты», -(y)Iz «мы», -sInIz «вы» (siz). Ben bir kuşum, sen öğrencisin, biz arkadaşız. В вопросе они садятся на mi: Öğrenci misiniz? С değil: Yorgun değilim. Русский просто опускает «есть»: «я студент»; турецкий добавляет окончание: öğrenciyim.",
         "lesson": "g_a1_2_isim_cumleleri"
       }
     },
@@ -529,6 +568,7 @@
       "emo": "curious",
       "en": "Twenty thousand lira? I'm an engineer… and even for me that's expensive! You're a student, Nima.",
       "fa": "بیست هزار لیر؟ من مهندسم… ولی بازم گرونه! تو دانشجویی، نیما.",
+      "ru": "Двадцать тысяч лир? Я инженер… и даже мне это дорого! А ты ещё учишься, Нима.",
       "to": "nima",
       "tr": "Yirmi bin lira? Ben mühendisim… ama pahalı! Sen öğrencisin, Nima.",
       "who": "farzad"
@@ -537,6 +577,7 @@
       "emo": "neutral",
       "en": "A bit expensive… but the flat is nice. It has a balcony!",
       "fa": "یه کم گرونه… ولی خونه قشنگه. بالکن داره!",
+      "ru": "Дороговато… но квартира хорошая. Есть балкон!",
       "to": "farzad",
       "tr": "Biraz pahalı… ama ev güzel. Balkon var!",
       "who": "nima"
@@ -545,6 +586,7 @@
       "emo": "happy",
       "en": "Hmm. Are you happy?",
       "fa": "هوم. خوشحالی؟",
+      "ru": "Хм. Это тебя радует?",
       "to": "nima",
       "tr": "Hmm. Mutlu musun?",
       "who": "farzad"
@@ -554,6 +596,7 @@
       "emo": "happy",
       "en": "Yes… really happy!",
       "fa": "آره… خیلی خوشحالم!",
+      "ru": "Да… очень радует!",
       "to": "farzad",
       "tr": "Evet… çok mutluyum!",
       "who": "nima"
@@ -563,6 +606,7 @@
       "emo": "happy",
       "en": "All right! Friday: yes!",
       "fa": "باشه! جمعه: آره!",
+      "ru": "Ладно! Пятница: да!",
       "to": "nima",
       "tr": "Tamam! Cuma: evet!",
       "who": "farzad"
@@ -578,6 +622,7 @@
       "emo": "happy",
       "en": "The fourth floor… and Kerim on the roof. A new neighbour!",
       "fa": "طبقه‌ی چهارم… و روی پشت‌بوم، کریم. یه همسایه‌ی جدید!",
+      "ru": "Четвёртый этаж… и Керим на крыше. Будем соседями!",
       "narr": true,
       "tr": "Dördüncü kat… ve çatıda Kerim. Yeni bir komşu!",
       "who": "kerim"
@@ -585,12 +630,14 @@
   ],
   "summary": {
     "en": "Zafer Hoca puts on job hats to teach the personal endings, and Nima has to ask him, playing a stranger, politely what he does. The class votes on the Feriköy flat, and that evening, at Farzad's, Nima says yes.",
-    "fa": "استاد ظفر با کلاه‌های شغل‌های مختلف شناسه‌ها را یاد می‌دهد، و نیما باید مؤدبانه از او، که نقشِ یک غریبه را بازی می‌کند، بپرسد چه‌کاره است. کلاس به خانه‌ی فری‌کؤی رأی می‌دهد، و آن شب، خانه‌ی فرزاد، نیما «بله» می‌گوید."
+    "fa": "استاد ظفر با کلاه‌های شغل‌های مختلف شناسه‌ها را یاد می‌دهد، و نیما باید مؤدبانه از او، که نقشِ یک غریبه را بازی می‌کند، بپرسد چه‌کاره است. کلاس به خانه‌ی فری‌کؤی رأی می‌دهد، و آن شب، خانه‌ی فرزاد، نیما «بله» می‌گوید.",
+    "ru": "Зафер надевает шапки разных профессий, чтобы объяснить личные окончания, и Ниме приходится вежливо спросить его — он играет незнакомца, — чем он занимается. Класс голосует за квартиру в Ферикёе, а вечером, у Фарзада, Нима говорит «да»."
   },
   "title": {
     "tr": "Ben öğrenciyim",
     "en": "I'm a student",
-    "fa": "من دانشجوام"
+    "fa": "من دانشجوام",
+    "ru": "Я учусь"
   },
   "words": [
     "a1-w-asci",

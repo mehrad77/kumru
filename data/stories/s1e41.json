@@ -2,6 +2,7 @@
   "arc": {
     "en": "Before the exam",
     "fa": "پیش از امتحان",
+    "ru": "Перед экзаменом",
     "id": "s1w07",
     "mechanics": [
       "say",
@@ -21,6 +22,7 @@
     {
       "en": "Now you tell me: what did you do on the first day?",
       "fa": "حالا شما تعریف کنید: روزِ اول چی‌کار کردید؟",
+      "ru": "А теперь расскажите вы: что вы делали в первый день?",
       "to": "nima",
       "tr": "Şimdi siz anlatın: ilk gün ne yaptınız?",
       "who": "maria"
@@ -33,6 +35,7 @@
           {
             "en": "I came to Istanbul. Then I walked a lot.",
             "fa": "اومدم استانبول. بعد خیلی پیاده‌روی کردم.",
+            "ru": "Приезд в Стамбул. А потом — долгая прогулка.",
             "ok": true,
             "react": {
               "maria": "happy"
@@ -41,6 +44,7 @@
               {
                 "en": "You told that very well! First you came, then you walked.",
                 "fa": "خیلی خوب تعریف کردید! اول اومدید، بعد پیاده‌روی کردید.",
+                "ru": "Прекрасно рассказали! Сначала вы приехали, потом гуляли.",
                 "to": "nima",
                 "tr": "Çok güzel anlattınız! Önce geldiniz, sonra yürüdünüz.",
                 "who": "maria"
@@ -52,6 +56,7 @@
           {
             "en": "The first day… I slept a lot!",
             "fa": "روزِ اول… خیلی خوابیدم!",
+            "ru": "Первый день… сплошной сон!",
             "react": {
               "maria": "laugh"
             },
@@ -59,6 +64,7 @@
               {
                 "en": "You slept? Me too!",
                 "fa": "خوابیدید؟ من هم همین‌طور!",
+                "ru": "Вы спали? Я тоже!",
                 "to": "nima",
                 "tr": "Uyudunuz mu? Ben de!",
                 "who": "maria"
@@ -74,6 +80,7 @@
     {
       "en": "Who did you see on the first day?",
       "fa": "روزِ اول کی رو دیدید؟",
+      "ru": "Кого вы видели в первый день?",
       "to": "nima",
       "tr": "İlk gün kimi gördünüz?",
       "who": "maria"
@@ -81,6 +88,7 @@
     {
       "en": "I saw a bird… Kerim!",
       "fa": "یه پرنده دیدم… کریم رو!",
+      "ru": "Мне встретилась птица… Керим!",
       "to": "maria",
       "tr": "Bir kuş gördüm… Kerim'i!",
       "who": "nima"
@@ -88,6 +96,7 @@
     {
       "en": "Kerim? I see her every morning too!",
       "fa": "کریم رو؟ من هم هر صبح می‌بینمش!",
+      "ru": "Керим? Я тоже вижу её каждое утро!",
       "to": "nima",
       "tr": "Kerim'i mi? Ben de her sabah görüyorum!",
       "who": "maria"
@@ -96,74 +105,92 @@
   "gl": {
     "afiyet": {
       "fa": "نوشِ جان",
+      "ru": "afiyet olsun: приятного аппетита, на здоровье",
       "en": "afiyet olsun: enjoy (your food or drink)"
     },
     "belki": {
       "fa": "شاید",
+      "ru": "может быть",
       "en": "maybe"
     },
     "beri": {
       "fa": "تا حالا، از… به این طرف",
+      "ru": "с (-dan beri: с каких-то пор)",
       "en": "since (-dan beri: for, since)"
     },
     "damlaya": {
       "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "ru": "капля за каплей (Damlaya damlaya göl olur: капля за каплей — и будет озеро)",
       "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
     },
     "feriköy": {
       "fa": "فری‌کؤی (محله‌ای در شیشلی)",
+      "ru": "Ферикёй (район Шишли)",
       "en": "Feriköy (a district of Şişli)"
     },
     "hangisiydi": {
       "fa": "کدام بود؟",
+      "ru": "который это был?",
       "en": "which one was it?"
     },
     "hikâye": {
       "fa": "قصه، داستان",
+      "ru": "история, рассказ",
       "en": "story"
     },
     "metroda": {
       "fa": "توی مترو",
+      "ru": "в метро",
       "en": "on the metro"
     },
     "nihayet": {
       "fa": "بالاخره",
+      "ru": "наконец",
       "en": "at last"
     },
     "rehber": {
       "fa": "راهنما",
+      "ru": "путеводитель",
       "en": "guide"
     },
     "tolga": {
       "fa": "تولگا (اسم)",
+      "ru": "Толга (имя)",
       "en": "Tolga (a name)"
     },
     "usta": {
       "fa": "تعمیرکار، اوستا",
+      "ru": "мастер",
       "en": "repairman"
     },
     "zordu": {
       "fa": "سخت بود",
+      "ru": "было трудно",
       "en": "was hard"
     },
     "eylül'den": {
       "fa": "از سپتامبر",
+      "ru": "с сентября",
       "en": "from/since September"
     },
     "noter": {
       "fa": "محضر، دفترخانه",
+      "ru": "нотариус",
       "en": "notary"
     },
     "onaylı": {
       "fa": "تأییدشده، با مهر؛ «noter onaylı» یعنی با مهرِ محضر",
+      "ru": "заверенный; «noter onaylı»: заверенный нотариусом",
       "en": "approved, stamped; “noter onaylı”: stamped by the notary"
     },
     "kombi": {
       "fa": "پکیج (آبگرم‌کنِ دیواری)",
+      "ru": "газовый котёл (комби)",
       "en": "combi boiler"
     },
     "sözleşmeyi": {
       "fa": "قرارداد را",
+      "ru": "договор (как дополнение)",
       "en": "the contract (as object)"
     }
   },
@@ -216,7 +243,8 @@
       "q": {
         "tr": "Bu sabah kim geldi?",
         "en": "Who came this morning?",
-        "fa": "امروز صبح چه کسی آمد؟"
+        "fa": "امروز صبح چه کسی آمد؟",
+        "ru": "Кто пришёл сегодня утром?"
       },
       "why": "Nima: “Ve bu sabah usta geldi…”"
     },
@@ -231,7 +259,8 @@
       "q": {
         "tr": "Nima önce bir ev buldu, … taşındı.",
         "en": "Nima first found a flat, … moved in.",
-        "fa": "نیما اول یک خانه پیدا کرد، … اسباب‌کشی کرد."
+        "fa": "نیما اول یک خانه پیدا کرد، … اسباب‌کشی کرد.",
+        "ru": "У Нимы сначала нашлась квартира, … — переезд."
       },
       "why": "Maria Teyze: “Sonra?” Nima: “Taşındım…”"
     }
@@ -270,6 +299,7 @@
       "emo": "happy",
       "en": "The repairman came… the boiler works! And on the fifth floor? Tea, and a story.",
       "fa": "تعمیرکار اومد… پکیج کار می‌کنه! و طبقهٔ پنجم؟ چای و یه قصه.",
+      "ru": "Мастер пришёл… котёл работает! А на пятом этаже? Чай и история.",
       "move": {
         "how": "walk",
         "to": "walk_r",
@@ -293,6 +323,7 @@
       "emo": "happy",
       "en": "Go on, tell me! First… what happened on the first day?",
       "fa": "خب، تعریف کنید ببینم! اول… روزِ اول چی شد؟",
+      "ru": "Ну-ка, рассказывайте! Сначала… что было в первый день?",
       "to": "nima",
       "tr": "Anlatın bakalım! Önce… ilk gün ne oldu?",
       "who": "maria"
@@ -301,6 +332,7 @@
       "emo": "happy",
       "en": "I came to Istanbul on the seventh of September. I looked for a flat and found one in Feriköy.",
       "fa": "هفتمِ سپتامبر اومدم استانبول. دنبالِ خونه گشتم، توی فری‌کؤی پیدا کردم.",
+      "ru": "Седьмого сентября — Стамбул! Потом поиски квартиры, и вот она нашлась — в Ферикёе.",
       "frame": "past_inset",
       "of": {
         "step": 5,
@@ -314,6 +346,7 @@
       "emo": "curious",
       "en": "And then?",
       "fa": "بعد؟",
+      "ru": "А потом?",
       "to": "nima",
       "tr": "Sonra?",
       "who": "maria"
@@ -323,6 +356,7 @@
       "emo": "laugh",
       "en": "I moved in… and I saw you on the metro!",
       "fa": "اسباب‌کشی کردم… و توی مترو شما رو دیدم!",
+      "ru": "Потом переезд… и в метро — вы!",
       "frame": "past_inset",
       "of": {
         "step": 16,
@@ -336,6 +370,7 @@
       "emo": "laugh",
       "en": "I remember! And after that?",
       "fa": "یادمه! بعدش؟",
+      "ru": "Помню! А дальше?",
       "to": "nima",
       "tr": "Hatırlıyorum! Ve sonra?",
       "who": "maria"
@@ -344,6 +379,7 @@
       "emo": "proud",
       "en": "Last week we wrote a guide. And this morning the repairman came!",
       "fa": "هفتهٔ پیش یه راهنما نوشتیم. امروز صبح هم تعمیرکار اومد!",
+      "ru": "На прошлой неделе мы написали путеводитель. А сегодня утром пришёл мастер!",
       "frame": "past_inset",
       "of": {
         "step": 3,
@@ -357,6 +393,7 @@
       "emo": "curious",
       "en": "And the contract?",
       "fa": "قرارداد چی؟",
+      "ru": "А договор?",
       "to": "nima",
       "tr": "Ya sözleşme?",
       "who": "maria"
@@ -365,6 +402,7 @@
       "emo": "proud",
       "en": "Tolga Bey brought it. Stamped by the notary!",
       "fa": "آقای تولگا آوردش. مهرِ محضر خورده!",
+      "ru": "Господин Толга принёс. Заверен у нотариуса!",
       "to": "maria",
       "tr": "Tolga Bey getirdi. Noter onaylı!",
       "who": "nima"
@@ -374,6 +412,7 @@
       "emo": "happy",
       "en": "At last! So… have you had tea on the Bosphorus?",
       "fa": "بالاخره! خب… کنارِ بسفر چای خوردید؟",
+      "ru": "Наконец-то! А… вы уже пили чай на Босфоре?",
       "link": {
         "çay": "obj:tea_glass"
       },
@@ -386,6 +425,7 @@
       "emo": "sad",
       "en": "No… not yet. It's always another day!",
       "fa": "نه… هنوز نخوردم. همیشه یه روزِ دیگه!",
+      "ru": "Нет… ещё нет. Всё время — в другой день!",
       "to": "maria",
       "tr": "Hayır… daha içmedim. Hep başka bir gün!",
       "who": "nima"
@@ -395,6 +435,7 @@
       "emo": "happy",
       "en": "Thursday is a holiday. Maybe…",
       "fa": "پنجشنبه تعطیله. شاید…",
+      "ru": "В четверг праздник. Может быть…",
       "to": "nima",
       "tr": "Perşembe bayram. Belki…",
       "who": "maria"
@@ -432,6 +473,7 @@
       "emo": "moved",
       "en": "Istanbul time! I've been here since the seventh of September. Seven weeks!",
       "fa": "وقتِ استانبول! از هفتمِ سپتامبر این‌جام. هفت هفته!",
+      "ru": "Стамбульское время! Я здесь с седьмого сентября. Семь недель!",
       "to": "maria",
       "tr": "İstanbul saati! Yedi Eylül'den beri buradayım. Yedi hafta!",
       "who": "nima"
@@ -441,6 +483,7 @@
       "emo": "moved",
       "en": "Drop by drop, a lake forms. So… which day was the hardest?",
       "fa": "قطره قطره جمع گردد، وانگهی دریا شود. خب… سخت‌ترین روز کدوم بود؟",
+      "ru": "Капля за каплей — и будет озеро. А… какой день был самым трудным?",
       "to": "nima",
       "tr": "Damlaya damlaya göl olur. Peki… en zor gün hangisiydi?",
       "who": "maria"
@@ -454,6 +497,7 @@
             "emo": "moved",
             "en": "The first week was hard. But then friends came.",
             "fa": "هفتهٔ اول سخت بود. ولی بعدش دوست‌ها پیدا شدن.",
+            "ru": "Первая неделя была трудной. Но потом появились друзья.",
             "ok": true,
             "react": {
               "maria": {
@@ -469,6 +513,7 @@
             "emo": "proud",
             "en": "It wasn't hard at all!",
             "fa": "اصلاً سخت نبود!",
+            "ru": "Совсем не было трудно!",
             "react": {
               "maria": "surprised"
             },
@@ -477,6 +522,7 @@
                 "emo": "happy",
                 "en": "Not at all? But on the metro… it was a bit hard, wasn't it?",
                 "fa": "اصلاً؟ ولی توی مترو… یه کم سخت بود، نه؟",
+                "ru": "Совсем? А в метро… было немножко трудно, правда?",
                 "to": "nima",
                 "tr": "Hiç mi? Ama metroda… biraz zordu, değil mi?",
                 "who": "maria"
@@ -489,6 +535,7 @@
             "emo": "shy",
             "en": "The tea's lovely!",
             "fa": "چای خیلی خوبه!",
+            "ru": "Чай очень вкусный!",
             "link": {
               "çay": "obj:tea_glass"
             },
@@ -500,6 +547,7 @@
                 "emo": "happy",
                 "en": "Enjoy it!",
                 "fa": "نوشِ جان!",
+                "ru": "Пейте на здоровье!",
                 "to": "nima",
                 "tr": "Afiyet olsun!",
                 "who": "maria"
@@ -517,6 +565,7 @@
         "en": "The season in three tools. -DI tells what happened: geldim, aradım, buldum, taşındım, yazdık. önce / sonra put it in order: “Önce… ilk gün ne oldu?”, “Sonra?”. And -DAn beri says since when, up to now: “Yedi Eylül'den beri buradayım.”",
         "ex": "İstanbul'a geldim",
         "fa": "این هفت هفته در سه ابزار: ‎-DI‎ می‌گوید چه شد: geldim (آمدم)، aradım (گشتم)، buldum (پیدا کردم)، taşındım (اسباب‌کشی کردم)، yazdık (نوشتیم). önce / sonra ترتیب را می‌گویند: «Önce… ilk gün ne oldu?»، «Sonra?». و ‎-DAn beri‎ می‌گوید از کی تا حالا: «Yedi Eylül'den beri buradayım.» (از هفتمِ سپتامبر این‌جا هستم).",
+        "ru": "Весь сезон — в трёх инструментах. -DI рассказывает, что произошло: geldim, aradım, buldum, taşındım, yazdık. «önce / sonra» выстраивают порядок: «Önce… ilk gün ne oldu?», «Sonra?». А -DAn beri говорит, с каких пор и до сих пор: «Yedi Eylül'den beri buradayım.»",
         "lesson": "g_a1_5_gecmis",
         "show": "aspect"
       }
@@ -525,6 +574,7 @@
       "emo": "moved",
       "en": "Seven weeks… have become a lake.",
       "fa": "هفت هفته… قطره‌قطره دریا شد.",
+      "ru": "Семь недель… и вот уже озеро.",
       "narr": true,
       "tr": "Yedi hafta… bir göl oldu.",
       "who": "kerim"
@@ -532,12 +582,14 @@
   ],
   "summary": {
     "en": "No class on Friday. Over tea, Maria Teyze makes Nima tell the story so far, in order, as speaking practice. This morning the repairman came, and the contract is stamped at last; Nima sets the watch to Istanbul time.",
-    "fa": "جمعه کلاس نیست. خاله ماریا سرِ چای از نیما می‌خواهد ماجرای این هفت هفته را به ترتیب تعریف کند، برای تمرینِ مکالمه. امروز صبح تعمیرکار آمد و قرارداد بالاخره مهر خورد؛ نیما ساعتش را با وقتِ استانبول تنظیم می‌کند."
+    "fa": "جمعه کلاس نیست. خاله ماریا سرِ چای از نیما می‌خواهد ماجرای این هفت هفته را به ترتیب تعریف کند، برای تمرینِ مکالمه. امروز صبح تعمیرکار آمد و قرارداد بالاخره مهر خورد؛ نیما ساعتش را با وقتِ استانبول تنظیم می‌کند.",
+    "ru": "В пятницу уроков нет. За чаем тётя Мария просит Ниму рассказать всю историю по порядку — для разговорной практики. Сегодня утром пришёл мастер, и договор наконец заверен; Нима переводит часы на стамбульское время."
   },
   "title": {
     "tr": "Yedi hafta",
     "en": "Seven weeks",
-    "fa": "هفت هفته"
+    "fa": "هفت هفته",
+    "ru": "Семь недель"
   },
   "words": [
     "seed-w09",

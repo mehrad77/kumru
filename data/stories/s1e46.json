@@ -2,6 +2,7 @@
   "arc": {
     "en": "The exam and the holiday",
     "fa": "امتحان و جشن",
+    "ru": "Экзамен и праздник",
     "id": "s1w08",
     "mechanics": [
       "say",
@@ -30,6 +31,7 @@
     {
       "en": "What holidays are there in Tehran?",
       "fa": "توی تهران چه جشن‌هایی هست؟",
+      "ru": "А какие праздники есть в Тегеране?",
       "to": "nima",
       "tr": "Tahran'da hangi bayramlar var?",
       "who": "omer"
@@ -42,6 +44,7 @@
           {
             "en": "We have holidays too. The new year… it's lovely!",
             "fa": "ما هم جشن داریم. سالِ نو… خیلی قشنگه!",
+            "ru": "У нас тоже есть праздники. Новый год… это так красиво!",
             "ok": true,
             "react": {
               "omer": "happy"
@@ -51,6 +54,7 @@
                 "emo": "happy",
                 "en": "The new year! I love it too!",
                 "fa": "سالِ نو! منم دوستش دارم!",
+                "ru": "Новый год! Я тоже его люблю!",
                 "tr": "Yeni yıl! Ben de seviyorum!",
                 "who": "omer"
               }
@@ -61,6 +65,7 @@
           {
             "en": "Lots of holidays! And every holiday… food!",
             "fa": "کلی جشن هست! و توی هر جشن… غذا!",
+            "ru": "Много праздников! И на каждом… еда!",
             "react": {
               "omer": "laugh"
             },
@@ -69,6 +74,7 @@
                 "emo": "laugh",
                 "en": "Food! Great!",
                 "fa": "غذا! خیلی خوبه!",
+                "ru": "Еда! Здорово!",
                 "tr": "Yemek! Çok güzel!",
                 "who": "omer"
               }
@@ -84,34 +90,42 @@
   "gl": {
     "boğaz": {
       "fa": "بسفر (تنگه‌ی استانبول)",
+      "ru": "Босфор",
       "en": "the Bosphorus"
     },
     "buraya": {
       "fa": "به این‌جا",
+      "ru": "сюда",
       "en": "(to) here"
     },
     "cumhuriyet": {
       "fa": "جمهوری (Cumhuriyet Bayramı: جشنِ جمهوری، ۲۹ اکتبر)",
+      "ru": "республика (Cumhuriyet Bayramı: День Республики, 29 октября)",
       "en": "republic (Cumhuriyet Bayramı: Republic Day, 29 October)"
     },
     "damlaya": {
       "fa": "قطره‌قطره (Damlaya damlaya göl olur: قطره‌قطره جمع گردد، وانگهی دریا شود)",
+      "ru": "капля за каплей (Damlaya damlaya göl olur: капля за каплей — и будет озеро)",
       "en": "drop by drop (Damlaya damlaya göl olur: drop by drop a lake forms)"
     },
     "kutlu": {
       "fa": "مبارک (Bayramınız kutlu olsun: جشنتان مبارک)",
+      "ru": "праздничный, благословенный (Bayramınız kutlu olsun: с праздником)",
       "en": "happy, blessed (Bayramınız kutlu olsun: happy holiday)"
     },
     "nihayet": {
       "fa": "بالاخره",
+      "ru": "наконец",
       "en": "at last"
     },
     "üçüncü": {
       "fa": "سوم",
+      "ru": "третий",
       "en": "third"
     },
     "şarkıyı": {
       "fa": "آهنگ را",
+      "ru": "песню (вин. п.)",
       "en": "the song (object)"
     }
   },
@@ -199,7 +213,8 @@
       "q": {
         "tr": "Ömer: “Kırmızı, beyaz… … her yerde!”",
         "en": "Ömer: “Red and white… … everywhere!”",
-        "fa": "عمر: «قرمز و سفید… همه‌جا …!»"
+        "fa": "عمر: «قرمز و سفید… همه‌جا …!»",
+        "ru": "Омер: «Красный, белый… … везде!»"
       },
       "why": "“Kırmızı, beyaz… bayraklar her yerde!”"
     },
@@ -214,7 +229,8 @@
       "q": {
         "tr": "Nima nihayet nerede çay içiyor?",
         "en": "Where does Nima drink tea at last?",
-        "fa": "نیما بالاخره کجا چای می‌خورد؟"
+        "fa": "نیما بالاخره کجا چای می‌خورد؟",
+        "ru": "Где Нима наконец пьёт чай?"
       },
       "why": "“Boğaz'da çay içiyoruz!”"
     }
@@ -234,6 +250,7 @@
       "cam": "follow",
       "en": "Today is the 29th of October. Republic Day. The whole city is red and white!",
       "fa": "امروز ۲۹ اکتبره. جشنِ جمهوری. کلِ شهر قرمز و سفیده!",
+      "ru": "Сегодня 29 октября. День Республики. Весь город — красно-белый!",
       "move": {
         "how": "fly",
         "to": "rooftops",
@@ -287,6 +304,7 @@
       "emo": "happy",
       "en": "Happy holiday to you!",
       "fa": "جشنتون مبارک!",
+      "ru": "С праздником вас!",
       "to": "nima",
       "tr": "Bayramınız kutlu olsun!",
       "who": "maria"
@@ -295,6 +313,7 @@
       "emo": "happy",
       "en": "Happy holiday to you too!",
       "fa": "جشنِ شما هم مبارک!",
+      "ru": "И вас с праздником!",
       "to": "maria",
       "tr": "Sizin de bayramınız kutlu olsun!",
       "who": "nima"
@@ -305,6 +324,7 @@
       "emo": "proud",
       "en": "Look! Ömer's third in the row!",
       "fa": "ببین! عمر نفرِ سومِ ردیفه!",
+      "ru": "Смотри! Омер третий в ряду!",
       "react": {
         "nima": {
           "at": "ch:omer",
@@ -321,6 +341,7 @@
       "emo": "happy",
       "en": "Red and white… today's a holiday, today's a holiday!",
       "fa": "قرمز و سفید… امروز جشنه، امروز جشنه!",
+      "ru": "Красный, белый… сегодня праздник, сегодня праздник!",
       "react": {
         "elif": {
           "at": "ch:omer",
@@ -371,6 +392,7 @@
       "emo": "happy",
       "en": "Red… white…",
       "fa": "قرمز… سفید…",
+      "ru": "Красный… белый…",
       "react": {
         "omer": {
           "at": "ch:nima",
@@ -388,6 +410,7 @@
       "emo": "proud",
       "en": "Red and white… flags everywhere!",
       "fa": "قرمز و سفید… همه‌جا پرچمه!",
+      "ru": "Красный, белый… всюду флаги!",
       "sfx": {
         "id": "children_singing",
         "word": "la la la"
@@ -431,6 +454,7 @@
       "emo": "happy",
       "en": "How was it? How was it?",
       "fa": "چطور بود؟ چطور بود؟",
+      "ru": "Ну как? Ну как?",
       "move": {
         "how": "run",
         "to": "stage_side",
@@ -445,6 +469,7 @@
       "emo": "happy",
       "en": "You sang the best song!",
       "fa": "تو قشنگ‌ترین آهنگو خوندی!",
+      "ru": "Ты спел самую красивую песню!",
       "to": "omer",
       "tr": "Sen en güzel şarkıyı söyledin!",
       "who": "nima"
@@ -453,6 +478,7 @@
       "emo": "proud",
       "en": "I know!",
       "fa": "می‌دونم!",
+      "ru": "Я знаю!",
       "react": {
         "serkan": "laugh"
       },
@@ -464,6 +490,7 @@
       "emo": "happy",
       "en": "Tonight we're all going to the Bosphorus! OK?",
       "fa": "امشب همه‌مون می‌ریم بسفر! باشه؟",
+      "ru": "Сегодня вечером мы все едем на Босфор! Хорошо?",
       "react": {
         "maria": {
           "emo": "moved"
@@ -481,6 +508,7 @@
       "emo": "happy",
       "en": "The taxi's on me!",
       "fa": "تاکسی با من!",
+      "ru": "Такси — с меня!",
       "sfx": {
         "id": "keys_jingle",
         "word": "şıngır şıngır"
@@ -534,6 +562,7 @@
       "emo": "happy",
       "en": "How many teas, Nima? You tell him!",
       "fa": "چند تا چای، نیما؟ تو بگو!",
+      "ru": "Сколько чаю, Нима? Ты скажи!",
       "to": "nima",
       "tr": "Kaç çay, Nima? Sen söyle!",
       "who": "serkan"
@@ -548,6 +577,7 @@
             "emo": "happy",
             "en": "Five teas, please!",
             "fa": "پنج تا چای، لطفاً!",
+            "ru": "Пять чаёв, пожалуйста!",
             "n": 5,
             "ok": true,
             "react": {
@@ -571,6 +601,7 @@
                 "emo": "happy",
                 "en": "Five! I'm having tea too!",
                 "fa": "پنج تا! منم چای می‌خورم!",
+                "ru": "Пять! Я тоже пью чай!",
                 "to": "nima",
                 "tr": "Beş! Ben de çay içiyorum!",
                 "who": "omer"
@@ -585,6 +616,7 @@
             "emo": "happy",
             "en": "One tea, please.",
             "fa": "یه چای، لطفاً.",
+            "ru": "Один чай, пожалуйста.",
             "n": 1,
             "react": {
               "omer": {
@@ -596,6 +628,7 @@
                 "emo": "sad",
                 "en": "What about me?!",
                 "fa": "پس من چی؟!",
+                "ru": "А я?!",
                 "to": "nima",
                 "tr": "Ben?!",
                 "who": "omer"
@@ -605,6 +638,7 @@
                 "emo": "laugh",
                 "en": "No, no! Five teas!",
                 "fa": "نه، نه! پنج تا چای!",
+                "ru": "Нет-нет! Пять чаёв!",
                 "n": 5,
                 "to": "cayci_ortakoy",
                 "tr": "Hayır, hayır! Beş çay!",
@@ -620,6 +654,7 @@
             "emo": "happy",
             "en": "Four teas.",
             "fa": "چهار تا چای.",
+            "ru": "Четыре чая.",
             "n": 4,
             "react": {
               "maria": {
@@ -632,6 +667,7 @@
                 "emo": "happy",
                 "en": "One, two, three, four… and you? Five!",
                 "fa": "یک، دو، سه، چهار… پس خودتون چی؟ پنج تا!",
+                "ru": "Раз, два, три, четыре… а вы? Пять!",
                 "n": 5,
                 "to": "nima",
                 "tr": "Bir, iki, üç, dört… ve siz? Beş!",
@@ -668,6 +704,7 @@
       "emo": "moved",
       "en": "We're drinking tea on the Bosphorus!",
       "fa": "داریم کنارِ بسفر چای می‌خوریم!",
+      "ru": "Мы пьём чай на Босфоре!",
       "link": {
         "çay": "obj:bardak"
       },
@@ -679,6 +716,7 @@
       "emo": "moved",
       "en": "Drop by drop…",
       "fa": "قطره‌قطره جمع گردد…",
+      "ru": "Капля за каплей…",
       "to": "nima",
       "tr": "Damlaya damlaya…",
       "who": "maria",
@@ -688,6 +726,7 @@
       "emo": "proud",
       "en": "…a lake forms!",
       "fa": "…وانگهی دریا شود!",
+      "ru": "…и будет озеро!",
       "react": {
         "maria": "laugh"
       },
@@ -715,6 +754,7 @@
       "emo": "happy",
       "en": "A photo! For my mum. Everyone over here!",
       "fa": "یه عکس! برای مامانم. همه بیاین این‌جا!",
+      "ru": "Фото! Для мамы. Все сюда!",
       "to": "all",
       "tr": "Bir fotoğraf! Annem için. Herkes buraya!",
       "who": "nima"
@@ -768,12 +808,14 @@
       "do": "point_far",
       "tr": "Bak! Bak! Köprü de kırmızı beyaz!",
       "en": "Look! Look! The bridge is red and white too!",
-      "fa": "ببین! ببین! پل هم قرمز و سفیده!"
+      "fa": "ببین! ببین! پل هم قرمز و سفیده!",
+      "ru": "Смотри! Смотри! И мост красно-белый!"
     },
     {
       "emo": "moved",
       "en": "Eighty years… I'm here every 29th of October.",
       "fa": "هشتاد سال… هر ۲۹ اکتبر این‌جام.",
+      "ru": "Восемьдесят лет… каждое 29 октября я здесь.",
       "to": "nima",
       "tr": "Seksen yıl… her 29 Ekim'de buradayım.",
       "who": "maria",
@@ -784,6 +826,7 @@
         "en": "Kerim compares the day and the night: “Gündüz bayraklar, gece ışıklar. Gece daha güzel mi?” daha is “more”. en is “the most”: “Sen en güzel şarkıyı söyledin!” (You sang the most beautiful song!). “Ömer'in şarkısı… en güzel! Ve Nima'nın çayı… en sıcak!”",
         "ex": "Sen en güzel şarkıyı söyledin!",
         "fa": "کریم روز و شب را مقایسه می‌کند: «Gündüz bayraklar, gece ışıklar. Gece daha güzel mi?» یعنی «روز پرچم‌ها، شب چراغ‌ها. شب قشنگ‌تر است؟» daha یعنی «بیشتر، ‌تر». en یعنی «از همه، ‌ترین»: «Sen en güzel şarkıyı söyledin!» (تو قشنگ‌ترین آهنگ را خواندی!). «Ömer'in şarkısı… en güzel! Ve Nima'nın çayı… en sıcak!»: آهنگِ عمر قشنگ‌ترین است، و چایِ نیما داغ‌ترین!",
+        "ru": "Керим сравнивает день и ночь: «Gündüz bayraklar, gece ışıklar. Gece daha güzel mi?» (Днём флаги, ночью огни. Ночью красивее?) daha — «более, ещё». en — «самый»: «Sen en güzel şarkıyı söyledin!» (Ты спел самую красивую песню!). «Ömer'in şarkısı… en güzel! Ve Nima'nın çayı… en sıcak!» (Песня Омера… самая красивая! А чай Нимы… самый горячий!)",
         "lesson": "g_a1_6_en",
         "show": "compare"
       }
@@ -792,6 +835,7 @@
       "cam": "follow",
       "en": "Tomorrow… the exam! But tonight… tea on the Bosphorus. At last.",
       "fa": "فردا… امتحان! ولی امشب… چای کنارِ بسفر. بالاخره.",
+      "ru": "Завтра… экзамен! Но сегодня вечером… чай на Босфоре. Наконец-то.",
       "move": {
         "how": "fly",
         "to": "high",
@@ -804,12 +848,14 @@
   ],
   "summary": {
     "en": "29 October. Ömer's kindergarten sings at the celebration in Feriköy Park, and Ömer gets stuck on the second verse. At night Serkan drives everyone to Ortaköy, where Nima drinks tea by the Bosphorus at last.",
-    "fa": "۲۹ اکتبر. مهدکودکِ عمر در جشنِ پارکِ فری‌کؤی آواز می‌خواند و عمر در بندِ دوم گیر می‌کند. شب، سرکان همه را با تاکسی به اورتاکوی می‌برد و نیما بالاخره کنارِ بسفر چای می‌خورد."
+    "fa": "۲۹ اکتبر. مهدکودکِ عمر در جشنِ پارکِ فری‌کؤی آواز می‌خواند و عمر در بندِ دوم گیر می‌کند. شب، سرکان همه را با تاکسی به اورتاکوی می‌برد و نیما بالاخره کنارِ بسفر چای می‌خورد.",
+    "ru": "29 октября. Детский сад Омера поёт на празднике в парке Ферикёй, и Омер застревает на втором куплете. Вечером Серкан везёт всех в Ортакёй, где Нима наконец пьёт чай у Босфора."
   },
   "title": {
     "tr": "Cumhuriyet Bayramı",
     "en": "Republic Day",
-    "fa": "جشنِ جمهوری"
+    "fa": "جشنِ جمهوری",
+    "ru": "День Республики"
   },
   "words": [
     "a1-w-bayram",

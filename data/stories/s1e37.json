@@ -2,6 +2,7 @@
   "arc": {
     "en": "Before the exam",
     "fa": "پیش از امتحان",
+    "ru": "Перед экзаменом",
     "id": "s1w07",
     "mechanics": [
       "say",
@@ -20,6 +21,7 @@
     {
       "en": "Nima, what's this?",
       "fa": "نیما، این چیه؟",
+      "ru": "Нима, что это?",
       "narr": true,
       "tr": "Nima, bu ne?",
       "who": "kerim"
@@ -27,12 +29,14 @@
     {
       "en": "This is the boiler.",
       "fa": "این پکیجه.",
+      "ru": "Это котёл.",
       "tr": "Bu kombi.",
       "who": "nima"
     },
     {
       "en": "Is the boiler hot or cold?",
       "fa": "پکیج گرمه یا سرد؟",
+      "ru": "Котёл горячий или холодный?",
       "narr": true,
       "tr": "Kombi sıcak mı, soğuk mu?",
       "who": "kerim"
@@ -45,6 +49,7 @@
           {
             "en": "Cold! The boiler isn't working.",
             "fa": "سرده! پکیج کار نمی‌کنه.",
+            "ru": "Холодный! Котёл не работает.",
             "ok": true,
             "react": {
               "kerim": "happy"
@@ -53,6 +58,7 @@
               {
                 "en": "Yes… very cold!",
                 "fa": "آره… خیلی سرده!",
+                "ru": "Да… очень холодный!",
                 "narr": true,
                 "tr": "Evet… çok soğuk!",
                 "who": "kerim"
@@ -64,6 +70,7 @@
           {
             "en": "Hot.",
             "fa": "گرمه.",
+            "ru": "Горячий.",
             "react": {
               "kerim": "confused"
             },
@@ -71,6 +78,7 @@
               {
                 "en": "Hot? No… cold!",
                 "fa": "گرمه؟ نه… سرده!",
+                "ru": "Горячий? Нет… холодный!",
                 "narr": true,
                 "tr": "Sıcak mı? Hayır… soğuk!",
                 "who": "kerim"
@@ -86,6 +94,7 @@
     {
       "en": "And what are these?",
       "fa": "خب، این‌ها چی‌اند؟",
+      "ru": "А это что?",
       "narr": true,
       "tr": "Peki bunlar ne?",
       "who": "kerim"
@@ -93,12 +102,14 @@
     {
       "en": "These are glasses. Tea glasses!",
       "fa": "این‌ها لیوانن. استکانِ چای!",
+      "ru": "Это стаканчики. Стаканчики для чая!",
       "tr": "Bunlar bardak. Çay bardakları!",
       "who": "nima"
     },
     {
       "en": "The tea's hot! Coo-coo!",
       "fa": "چای گرمه! کو-کو!",
+      "ru": "Чай горячий! Ку-ку!",
       "narr": true,
       "tr": "Çay sıcak! Ku-ku!",
       "who": "kerim"
@@ -107,66 +118,82 @@
   "gl": {
     "alo": {
       "fa": "الو",
+      "ru": "алло",
       "en": "hello (on the phone)"
     },
     "e": {
       "fa": "اِ… (حرفِ E روی صفحه)",
+      "ru": "Е… (буква на панели)",
       "en": "E… (the letter on the panel)"
     },
     "ibb": {
       "fa": "شهرداریِ استانبول",
+      "ru": "İBB, мэрия Стамбула",
       "en": "İBB, Istanbul's city council"
     },
     "kalorifer": {
       "fa": "شوفاژ",
+      "ru": "батарея, отопление",
       "en": "radiator, central heating"
     },
     "kombi": {
       "fa": "پکیج (آبگرم‌کنِ دیواری)",
+      "ru": "газовый котёл (комби)",
       "en": "combi boiler"
     },
     "ku": {
       "fa": "صدای قمری",
+      "ru": "воркование голубя",
       "en": "a dove's coo"
     },
     "kütüphanesinde": {
       "fa": "در کتابخانهٔ…",
+      "ru": "в … библиотеке",
       "en": "in the … library"
     },
     "kırlangıç": {
       "fa": "پرستو (اسم)",
+      "ru": "Кырлангыч (имя; слово значит «ласточка»)",
       "en": "Kırlangıç (a name; the word means swallow)"
     },
     "musun": {
       "fa": "…ی؟ (نشانهٔ پرسش، برای «تو»)",
+      "ru": "вопросительная частица mu + -sun (ты)",
       "en": "question word mu + -sun (you)"
     },
     "noter": {
       "fa": "دفترخانه، محضر",
+      "ru": "нотариус",
       "en": "notary"
     },
     "orası": {
       "fa": "آن‌جا",
+      "ru": "там, то место",
       "en": "there, that place"
     },
     "sözleşme": {
       "fa": "قرارداد",
+      "ru": "договор",
       "en": "contract"
     },
     "usta": {
       "fa": "تعمیرکار، اوستا",
+      "ru": "мастер",
       "en": "repairman"
     },
     "brr": {
       "fa": "بررر (از سرما)",
+      "ru": "брр (от холода)",
       "en": "brr (from the cold)"
     },
     "hmm": {
       "fa": "هوم (وقتی کسی فکر می‌کند)",
+      "ru": "хм (раздумье)",
       "en": "hmm (thinking)"
     },
     "ha": {
       "fa": "ها (خنده)",
+      "ru": "ха (смех)",
       "en": "ha (a laugh)"
     }
   },
@@ -211,7 +238,8 @@
       "q": {
         "tr": "Ne çalışmıyor?",
         "en": "What isn't working?",
-        "fa": "چه چیزی کار نمی‌کند؟"
+        "fa": "چه چیزی کار نمی‌کند؟",
+        "ru": "Что не работает?"
       },
       "why": "Nima: “Kombi çalışmıyor!”"
     },
@@ -226,7 +254,8 @@
       "q": {
         "tr": "Nima'nın evi soğuk. Kütüphane nasıl?",
         "en": "Nima's flat is cold. What's the library like?",
-        "fa": "خانهٔ نیما سرد است. کتابخانه چطور است؟"
+        "fa": "خانهٔ نیما سرد است. کتابخانه چطور است؟",
+        "ru": "У Нимы дома холодно. А в библиотеке как?"
       },
       "why": "Kırlangıç: “Orası sıcak. Sen de gel!”"
     }
@@ -248,6 +277,7 @@
       "emo": "nervous",
       "en": "Brr! It's freezing! And in two weeks… the exam!",
       "fa": "بررر! هوا خیلی سرده! و دو هفتهٔ دیگه… امتحان!",
+      "ru": "Брр! Как холодно! А через две недели… экзамен!",
       "narr": true,
       "tr": "Brr! Hava çok soğuk! Ve iki hafta sonra… sınav!",
       "who": "kerim"
@@ -285,6 +315,7 @@
       "emo": "nervous",
       "en": "The water's cold… the radiator's cold… The boiler's not working! What will Nima do?",
       "fa": "آب سرده… شوفاژ سرده… پکیج کار نمی‌کنه! نیما چی‌کار می‌کنه؟",
+      "ru": "Вода холодная… батарея холодная… Котёл не работает! Что же Нима будет делать?",
       "narr": true,
       "react": {
         "nima": {
@@ -309,6 +340,7 @@
             "emo": "proud",
             "en": "I'm calling Tolga Bey.",
             "fa": "به آقای تولگا زنگ می‌زنم.",
+            "ru": "Звоню господину Толге.",
             "ok": true,
             "react": {
               "kerim": {
@@ -321,6 +353,7 @@
                 "emo": "happy",
                 "en": "Hello? Yes, go ahead!",
                 "fa": "الو؟ بفرمایید!",
+                "ru": "Алло? Слушаю!",
                 "tempo": 1.3,
                 "tr": "Alo? Buyurun!",
                 "via": "phone",
@@ -334,6 +367,7 @@
             "emo": "curious",
             "en": "I'm calling Serkan.",
             "fa": "سرکان رو صدا می‌کنم.",
+            "ru": "Зову Серкана.",
             "react": {
               "kerim": "curious"
             },
@@ -342,6 +376,7 @@
                 "emo": "happy",
                 "en": "The boiler? I'll have a look! But call Tolga Bey first!",
                 "fa": "پکیج؟ خودم یه نگاهی می‌ندازم! ولی اول به آقای تولگا زنگ بزن!",
+                "ru": "Котёл? Сейчас посмотрю! Но сначала позвони господину Толге!",
                 "tr": "Kombi mi? Ben bakıyorum! Ama önce Tolga Bey'i ara!",
                 "via": "phone",
                 "who": "serkan"
@@ -350,6 +385,7 @@
                 "emo": "happy",
                 "en": "Hello? Yes, go ahead!",
                 "fa": "الو؟ بفرمایید!",
+                "ru": "Алло? Слушаю!",
                 "tempo": 1.3,
                 "tr": "Alo? Buyurun!",
                 "via": "phone",
@@ -364,6 +400,7 @@
             "emo": "tired",
             "en": "A blanket… and tea. Later.",
             "fa": "پتو… و چای. بعداً.",
+            "ru": "Плед… и чай. Потом.",
             "link": {
               "battaniye": "obj:battaniye",
               "çay": "obj:tea_glass"
@@ -379,6 +416,7 @@
                 "emo": "nervous",
                 "en": "The tea's hot… but the flat is very cold! The phone, Nima!",
                 "fa": "چای گرمه… ولی خونه خیلی سرده! تلفن، نیما!",
+                "ru": "Чай горячий… но дома очень холодно! Телефон, Нима!",
                 "link": {
                   "çay": "obj:tea_glass"
                 },
@@ -390,6 +428,7 @@
                 "emo": "happy",
                 "en": "Hello? Yes, go ahead!",
                 "fa": "الو؟ بفرمایید!",
+                "ru": "Алло? Слушаю!",
                 "tempo": 1.3,
                 "tr": "Alo? Buyurun!",
                 "via": "phone",
@@ -408,6 +447,7 @@
       "emo": "sad",
       "en": "Hello, good morning, Tolga Bey. The boiler's not working!",
       "fa": "الو، صبح بخیر آقای تولگا. پکیج کار نمی‌کنه!",
+      "ru": "Алло, доброе утро, господин Толга. Котёл не работает!",
       "to": "tolga",
       "tr": "Alo, günaydın, Tolga Bey. Kombi çalışmıyor!",
       "who": "nima"
@@ -416,6 +456,7 @@
       "emo": "happy",
       "en": "The boiler? Fine, fine! The repairman's coming tomorrow!",
       "fa": "پکیج؟ باشه، باشه! فردا تعمیرکار میاد!",
+      "ru": "Котёл? Ладно, ладно! Завтра придёт мастер!",
       "tempo": 1.3,
       "to": "nima",
       "tr": "Kombi mi? Tamam, tamam! Yarın usta geliyor!",
@@ -426,6 +467,7 @@
       "emo": "curious",
       "en": "What about the contract? The notary?",
       "fa": "قرارداد چی؟ محضر؟",
+      "ru": "А договор? Нотариус?",
       "to": "tolga",
       "tr": "Peki sözleşme? Noter?",
       "who": "nima"
@@ -434,6 +476,7 @@
       "emo": "happy",
       "en": "The notary… yes, yes. That's tomorrow too!",
       "fa": "محضر… آره، آره. اونم فردا!",
+      "ru": "Нотариус… да, да. Тоже завтра!",
       "tempo": 1.3,
       "to": "nima",
       "tr": "Noter… evet, evet. O da yarın!",
@@ -444,6 +487,7 @@
       "emo": "confused",
       "en": "Tomorrow… tomorrow… Hmm. Tolga Bey always says “tomorrow”.",
       "fa": "فردا… فردا… هوم. آقای تولگا همیشه می‌گه «فردا».",
+      "ru": "Завтра… завтра… Хм. Господин Толга всё время говорит «завтра».",
       "narr": true,
       "sfx": {
         "id": "knock",
@@ -499,6 +543,7 @@
       "emo": "confused",
       "en": "What's this? E… zero… one? Hmm… This boiler is really old!",
       "fa": "این چیه؟ اِ… صفر… یک؟ هوم… این پکیج خیلی قدیمیه!",
+      "ru": "Что это? Е… ноль… один? Хм… Этот котёл совсем старый!",
       "to": "nima",
       "tr": "Bu ne? E… sıfır… bir? Hmm… Bu kombi çok eski!",
       "who": "serkan"
@@ -507,6 +552,7 @@
       "emo": "happy",
       "en": "Do you want some tea?",
       "fa": "چای می‌خوای؟",
+      "ru": "Хочешь чаю?",
       "to": "serkan",
       "tr": "Çay istiyor musun?",
       "who": "nima"
@@ -515,6 +561,7 @@
       "emo": "laugh",
       "en": "Yes, please! The tea's hot… the boiler's cold!",
       "fa": "آره، لطفاً! چای گرمه… پکیج سرده!",
+      "ru": "Да, пожалуйста! Чай горячий… а котёл холодный!",
       "to": "nima",
       "tr": "Evet, lütfen! Çay sıcak… kombi soğuk!",
       "who": "serkan"
@@ -531,6 +578,7 @@
       "emo": "happy",
       "en": "Morning! Are you studying for the exam?",
       "fa": "صبح بخیر! برای امتحان درس می‌خونی؟",
+      "ru": "Доброе утро! Готовишься к экзамену?",
       "to": "nima",
       "tr": "Günaydın! Sınava çalışıyor musun?",
       "via": "phone",
@@ -540,6 +588,7 @@
       "emo": "sad",
       "en": "I'm working… but the boiler isn't! The flat's freezing!",
       "fa": "من دارم درس می‌خونم… ولی پکیج کار نمی‌کنه! خونه خیلی سرده!",
+      "ru": "Я-то занимаюсь… а вот котёл не работает! Дома холодина!",
       "to": "kirlangic",
       "tr": "Ben çalışıyorum… ama kombi çalışmıyor! Ev çok soğuk!",
       "who": "nima"
@@ -548,6 +597,7 @@
       "emo": "laugh",
       "en": "Ha ha! Tomorrow we're studying at the İBB library. It's warm there. Come with us!",
       "fa": "هاها! فردا توی کتابخونهٔ شهرداری درس می‌خونیم. اون‌جا گرمه. تو هم بیا!",
+      "ru": "Ха-ха! Завтра мы занимаемся в библиотеке «İBB». Там тепло. Приходи и ты!",
       "to": "nima",
       "tr": "Ha ha! Yarın İBB kütüphanesinde çalışıyoruz. Orası sıcak. Sen de gel!",
       "via": "phone",
@@ -558,6 +608,7 @@
       "emo": "happy",
       "en": "OK, I'm coming!",
       "fa": "باشه، میام!",
+      "ru": "Хорошо, иду!",
       "to": "kirlangic",
       "tr": "Tamam, geliyorum!",
       "who": "nima"
@@ -569,6 +620,7 @@
         "en": "bu is for the thing right here. Serkan stands at the boiler and asks “Bu ne?” (What's this?); the answer is “Bu kombi.” For more than one thing: bunlar, and -lar/-ler on the noun, by vowel harmony: “Bunlar ne? Bardaklar!” A yes/no question takes mı/mi/mu/mü: “Çay istiyor musun?”, “Sınava çalışıyor musun?”, “Su sıcak mı? Hayır… soğuk.”",
         "ex": "Bu ne?",
         "fa": "bu یعنی چیزی که همین‌جاست. سرکان کنارِ پکیج می‌ایستد و می‌پرسد «Bu ne?» (این چیه؟)؛ جواب «Bu kombi.» است. برای بیش از یک چیز: bunlar، و پسوندِ ‎-lar/-ler‎ روی اسم، طبقِ هماهنگیِ واکه‌ها: «Bunlar ne? Bardaklar!» (این‌ها چی‌اند؟ لیوان‌ها!). سؤالِ بله/نه با mı/mi/mu/mü ساخته می‌شود: «Çay istiyor musun?»، «Sınava çalışıyor musun?»، «Su sıcak mı? Hayır… soğuk.»",
+        "ru": "«bu» — это то, что прямо здесь. Серкан стоит у котла и спрашивает «Bu ne?» (Что это?); ответ — «Bu kombi.» Если предметов больше одного — «bunlar», а у существительного -lar/-ler по гармонии гласных: «Bunlar ne? Bardaklar!» Вопрос «да или нет» получает mı/mi/mu/mü: «Çay istiyor musun?», «Sınava çalışıyor musun?», «Su sıcak mı? Hayır… soğuk.»",
         "lesson": "g_a1_1_bu_su_o",
         "show": "deixis"
       }
@@ -577,6 +629,7 @@
       "emo": "happy",
       "en": "The boiler's cold… but the neighbours are warm.",
       "fa": "پکیج سرده… ولی همسایه‌ها خونگرمن.",
+      "ru": "Котёл холодный… зато соседи тёплые.",
       "narr": true,
       "tr": "Kombi soğuk… ama komşular sıcak.",
       "who": "kerim"
@@ -584,12 +637,14 @@
   ],
   "summary": {
     "en": "The first cold Monday, two weeks before the exam, and the boiler won't start. Tolga Bey promises “tomorrow” on the phone, Serkan comes up with his toolbox and only finds the boiler is old, and Kırlangıç invites Nima to study somewhere warm.",
-    "fa": "اولین دوشنبهٔ سرد، دو هفته مانده به امتحان، پکیجِ خانه روشن نمی‌شود. آقای تولگا پشتِ تلفن قولِ «فردا» می‌دهد، سرکان با جعبه‌ابزارش بالا می‌آید و فقط می‌فهمد پکیج قدیمی است، و پرستو نیما را دعوت می‌کند که با هم جایی گرم درس بخوانند."
+    "fa": "اولین دوشنبهٔ سرد، دو هفته مانده به امتحان، پکیجِ خانه روشن نمی‌شود. آقای تولگا پشتِ تلفن قولِ «فردا» می‌دهد، سرکان با جعبه‌ابزارش بالا می‌آید و فقط می‌فهمد پکیج قدیمی است، و پرستو نیما را دعوت می‌کند که با هم جایی گرم درس بخوانند.",
+    "ru": "Первый холодный понедельник, до экзамена две недели, а котёл не включается. Господин Толга по телефону обещает «завтра», Серкан поднимается с ящиком инструментов и выясняет только, что котёл старый, а Кырлангыч зовёт Ниму заниматься туда, где тепло."
   },
   "title": {
     "tr": "Kombi çalışmıyor!",
     "en": "The boiler's not working!",
-    "fa": "پکیج کار نمی‌کند!"
+    "fa": "پکیج کار نمی‌کند!",
+    "ru": "Котёл не работает!"
   },
   "words": [
     "a1-w-soguk",

@@ -2,6 +2,7 @@
   "arc": {
     "en": "A new family",
     "fa": "یک خانواده‌ی تازه",
+    "ru": "Новая семья",
     "id": "s1w04",
     "mechanics": [
       "say",
@@ -24,6 +25,7 @@
     {
       "en": "Do you have your photos?",
       "fa": "عکس‌هاتون هست؟",
+      "ru": "Фотографии у вас есть?",
       "to": "nima",
       "tr": "Fotoğraflarınız var mı?",
       "who": "reza"
@@ -36,6 +38,7 @@
           {
             "en": "Yes, I have my photos.",
             "fa": "بله، عکس‌هام هست.",
+            "ru": "Да, мои фотографии у меня.",
             "ok": true,
             "react": {
               "reza": {
@@ -47,6 +50,7 @@
               {
                 "en": "Very good.",
                 "fa": "خیلی خوب.",
+                "ru": "Очень хорошо.",
                 "to": "nima",
                 "tr": "Çok güzel.",
                 "who": "reza"
@@ -58,6 +62,7 @@
           {
             "en": "Yes, you have your photos.",
             "fa": "بله، عکس‌هاتون هست.",
+            "ru": "Да, ваши фотографии у вас.",
             "react": {
               "reza": "confused"
             },
@@ -65,6 +70,7 @@
               {
                 "en": "Not mine, yours! “I have my photos.”",
                 "fa": "مالِ من نه، مالِ شما! «عکس‌هام هست.»",
+                "ru": "Не у меня, а у вас! «Мои фотографии у меня».",
                 "to": "nima",
                 "tr": "Benim değil, sizin! “Fotoğraflarım var.”",
                 "who": "reza"
@@ -80,6 +86,7 @@
     {
       "en": "And your rental contract?",
       "fa": "و قراردادِ اجاره‌تون؟",
+      "ru": "А ваш договор аренды?",
       "to": "nima",
       "tr": "Ve kira sözleşmeniz?",
       "who": "reza"
@@ -87,6 +94,7 @@
     {
       "en": "At home! I'll bring it tomorrow.",
       "fa": "خونه‌ست! فردا می‌آرمش.",
+      "ru": "Дома! Завтра принесу.",
       "to": "reza",
       "tr": "Evde! Yarın getiriyorum.",
       "who": "nima"
@@ -94,6 +102,7 @@
     {
       "en": "All right. Don't forget!",
       "fa": "باشه. فراموش نکنید!",
+      "ru": "Хорошо. Не забудьте!",
       "to": "nima",
       "tr": "Tamam. Unutmayın!",
       "who": "reza"
@@ -102,110 +111,137 @@
   "gl": {
     "ayın": {
       "fa": "ماه (ayın biri: اولِ ماه)",
+      "ru": "месяца (ayın biri: первое число месяца)",
       "en": "of the month (ayın biri: the first of the month)"
     },
     "ağacımda": {
       "fa": "در درختم",
+      "ru": "на моём дереве",
       "en": "on my tree"
     },
     "ağaçlar": {
       "fa": "درخت‌ها",
+      "ru": "деревья",
       "en": "trees"
     },
     "ağaçta": {
       "fa": "در درخت",
+      "ru": "на дереве",
       "en": "on the tree"
     },
     "belgeleriniz": {
       "fa": "مدارکِ شما",
+      "ru": "ваши документы",
       "en": "your documents"
     },
     "buraya": {
       "fa": "به این‌جا",
+      "ru": "сюда",
       "en": "(to) here"
     },
     "fotoğraflarım": {
       "fa": "عکس‌هایم",
+      "ru": "мои фотографии",
       "en": "my photos"
     },
     "fotoğraflarınız": {
       "fa": "عکس‌هایِ شما",
+      "ru": "ваши фотографии",
       "en": "your photos"
     },
     "fotoğrafta": {
       "fa": "توی عکس",
+      "ru": "на фото",
       "en": "in the photo"
     },
     "gönderildi": {
       "fa": "فرستاده شد",
+      "ru": "отправлено",
       "en": "sent"
     },
     "herkesin": {
       "fa": "…ِ همه (herkesin ailesi: خانواده‌ی همه)",
+      "ru": "каждого, у всех",
       "en": "everyone's"
     },
     "hocam": {
       "fa": "استاد (خطاب به معلم)",
+      "ru": "учитель (обращение к учителю)",
       "en": "teacher (addressing your teacher)"
     },
     "ikamet": {
       "fa": "اقامت",
+      "ru": "вид на жительство",
       "en": "residence (permit)"
     },
     "kirayı": {
       "fa": "اجاره را",
+      "ru": "плату за жильё (как объект)",
       "en": "the rent (as the object)"
     },
     "pasaportum": {
       "fa": "پاسپورتم",
+      "ru": "мой паспорт",
       "en": "my passport"
     },
     "pasaportunuz": {
       "fa": "پاسپورتِ شما",
+      "ru": "ваш паспорт",
       "en": "your passport"
     },
     "randevu": {
       "fa": "نوبت؛ وقتِ ملاقات",
+      "ru": "запись (на приём)",
       "en": "appointment"
     },
     "randevunuz": {
       "fa": "نوبتِ شما",
+      "ru": "ваша запись",
       "en": "your appointment"
     },
     "sözleşmem": {
       "fa": "قراردادم",
+      "ru": "мой договор",
       "en": "my contract"
     },
     "sözleşmeniz": {
       "fa": "قراردادِ شما",
+      "ru": "ваш договор",
       "en": "your contract"
     },
     "unutmayın": {
       "fa": "فراموش نکنید",
+      "ru": "не забудьте",
       "en": "don't forget"
     },
     "zafer": {
       "fa": "ظفر (اسم)",
+      "ru": "Зафер (имя)",
       "en": "Zafer (a name)"
     },
     "şaka": {
       "fa": "شوخی",
+      "ru": "шутка; шучу",
       "en": "joke; just kidding"
     },
     "günü": {
       "fa": "روزِ… (kira günü: روزِ اجاره)",
+      "ru": "день (kira günü: день оплаты жилья)",
       "en": "day of (kira günü: rent day)"
     },
     "farzad'ı": {
       "fa": "فرزاد را (به فرزاد زنگ می‌زنم)",
+      "ru": "Фарзада (как объект)",
       "en": "Farzad (as the object)"
     },
     "belge": {
       "fa": "مدرک",
+      "ru": "документ",
       "en": "document"
     },
     "sözleşmeyi": {
       "fa": "قرارداد را",
+      "ru": "договор (как объект)",
       "en": "the contract (as the object)"
     }
   },
@@ -283,7 +319,8 @@
       "q": {
         "tr": "Ayın biri. Nima kirayı ne yapıyor?",
         "en": "It's the first of the month. What does Nima do with the rent?",
-        "fa": "اولِ ماهه. نیما با اجاره چی کار می‌کنه؟"
+        "fa": "اولِ ماهه. نیما با اجاره چی کار می‌کنه؟",
+        "ru": "Первое число месяца. Что Нима делает с платой за жильё?"
       },
       "options": [
         "Unutuyor",
@@ -298,7 +335,8 @@
       "q": {
         "tr": "Hangi belge evde?",
         "en": "Which document is at home?",
-        "fa": "کدوم مدرک خونه‌ست؟"
+        "fa": "کدوم مدرک خونه‌ست؟",
+        "ru": "Какой документ дома?"
       },
       "options": [
         "Kira sözleşmesi",
@@ -341,6 +379,7 @@
     {
       "en": "The first of the month: rent day! And the trees… are on the wall.",
       "fa": "اولِ ماه: روزِ اجاره! و درخت‌ها… روی دیوارن.",
+      "ru": "Первое число: день оплаты жилья! А деревья… на стене.",
       "narr": true,
       "tr": "Ayın biri: kira günü! Ve ağaçlar… duvarda.",
       "who": "kerim"
@@ -349,6 +388,7 @@
       "emo": "curious",
       "en": "Which tree has a niece or nephew on it?",
       "fa": "توی کدوم درخت خواهرزاده یا برادرزاده هست؟",
+      "ru": "На каком дереве есть «yeğen»?",
       "to": "all",
       "tr": "Hangi ağaçta yeğen var?",
       "who": "zafer"
@@ -359,6 +399,7 @@
       "emo": "proud",
       "en": "On my tree!",
       "fa": "توی درختِ من!",
+      "ru": "На моём дереве!",
       "link": {
         "ağacımda": "obj:agac"
       },
@@ -372,6 +413,7 @@
       "emo": "curious",
       "en": "So… who knows this word? Yeğen?",
       "fa": "خب… کی این کلمه رو بلده؟ yeğen؟",
+      "ru": "Так… кто знает это слово? «Yeğen»?",
       "to": "all",
       "tr": "Peki… bu kelimeyi kim biliyor? Yeğen?",
       "who": "zafer"
@@ -381,6 +423,7 @@
       "emo": "laugh",
       "en": "We do!",
       "fa": "ما بلدیم!",
+      "ru": "Мы знаем!",
       "react": {
         "nima": "laugh",
         "parvaneh": "laugh"
@@ -429,6 +472,7 @@
       "emo": "proud",
       "en": "I'm sending the rent… done!",
       "fa": "دارم اجاره رو می‌فرستم… تموم!",
+      "ru": "Отправляю плату за жильё… готово!",
       "obj": [
         {
           "id": "telefon",
@@ -471,6 +515,7 @@
       "emo": "neutral",
       "en": "Nima! One moment, please. This is your residence-permit appointment.",
       "fa": "نیما! یک لحظه، لطفاً. این نوبتِ اقامتِ شماست.",
+      "ru": "Нима! Минутку, пожалуйста. Вот ваша запись на ВНЖ.",
       "move": {
         "how": "walk",
         "to": "corridor_r",
@@ -491,6 +536,7 @@
       "do": "explain",
       "en": "Your documents: your passport, your photos… and your rental contract.",
       "fa": "مدارکتون: پاسپورتتون، عکس‌هاتون… و قراردادِ اجاره‌تون.",
+      "ru": "Ваши документы: паспорт, фотографии… и договор аренды.",
       "to": "nima",
       "tr": "Belgeleriniz: pasaportunuz, fotoğraflarınız… ve kira sözleşmeniz.",
       "who": "reza"
@@ -499,6 +545,7 @@
       "emo": "nervous",
       "en": "One minute… I'll call Farzad!",
       "fa": "یه لحظه… به فرزاد زنگ می‌زنم!",
+      "ru": "Минутку… я позвоню Фарзаду!",
       "to": "reza",
       "tr": "Bir dakika… Farzad'ı arıyorum!",
       "who": "nima",
@@ -508,6 +555,7 @@
       "emo": "neutral",
       "en": "Not Farzad Bey… you! Do you have your passport?",
       "fa": "آقا فرزاد نه… خودتون! پاسپورتتون هست؟",
+      "ru": "Не господин Фарзад… вы! Паспорт у вас есть?",
       "to": "nima",
       "tr": "Farzad Bey değil… siz! Pasaportunuz var mı?",
       "who": "reza"
@@ -517,6 +565,7 @@
       "tr": "Var. Fotoğraflarım da var. Ama sözleşmem… evde.",
       "en": "Yes. I have my photos too. But my contract… is at home.",
       "fa": "هست. عکس‌هام هم هست. ولی قراردادم… خونه‌ست.",
+      "ru": "Есть. Фотографии тоже есть. Но договор… дома.",
       "to": "reza",
       "emo": "nervous"
     },
@@ -525,6 +574,7 @@
       "tr": "Tamam. Sözleşmeyi unutmayın! Ve… bir numara alın! …Şaka!",
       "en": "All right. Don't forget the contract! And… take a number! …Just kidding!",
       "fa": "باشه. قرارداد رو فراموش نکنید! و… یک شماره بگیرید! …شوخی کردم!",
+      "ru": "Хорошо. Не забудьте договор! И… возьмите талончик! …Шучу!",
       "emo": "happy",
       "react": {
         "nima": "laugh"
@@ -565,6 +615,7 @@
       "emo": "happy",
       "en": "Photo! Everyone over here!",
       "fa": "عکس! همه بیاین این‌جا!",
+      "ru": "Фото! Все сюда!",
       "to": "all",
       "tr": "Fotoğraf! Herkes buraya!",
       "who": "yusuf"
@@ -615,6 +666,7 @@
             "emo": "happy",
             "en": "You too, teacher! Everyone over here!",
             "fa": "استاد، شما هم! همه بیاین این‌جا!",
+            "ru": "Учитель, и вы тоже! Все сюда!",
             "ok": true,
             "react": {
               "zafer": {
@@ -639,6 +691,7 @@
                 "emo": "happy",
                 "en": "Thank you!",
                 "fa": "ممنونم!",
+                "ru": "Спасибо!",
                 "to": "nima",
                 "tr": "Teşekkür ederim!",
                 "who": "zafer"
@@ -664,6 +717,7 @@
                 "emo": "laugh",
                 "en": "Look! The bird's in it too!",
                 "fa": "ببینین! پرنده هم هست!",
+                "ru": "Смотрите! И птица тут!",
                 "to": "all",
                 "tr": "Bakın! Kuş da var!",
                 "who": "yusuf",
@@ -677,6 +731,7 @@
             "emo": "happy",
             "en": "OK, take it!",
             "fa": "باشه، عکس بگیرید!",
+            "ru": "Ладно, снимайте!",
             "react": {
               "zafer": {
                 "emo": "happy"
@@ -701,6 +756,7 @@
               {
                 "en": "Zafer Hoca… isn't in the photo.",
                 "fa": "استاد ظفر… توی عکس نیست.",
+                "ru": "А Зафера… на фото нет.",
                 "narr": true,
                 "tr": "Zafer Hoca… fotoğrafta yok.",
                 "who": "kerim"
@@ -711,6 +767,7 @@
                 "emo": "laugh",
                 "en": "Look! The bird's in it too!",
                 "fa": "ببینین! پرنده هم هست!",
+                "ru": "Смотрите! И птица тут!",
                 "to": "all",
                 "tr": "Bakın! Kuş da var!",
                 "who": "yusuf",
@@ -726,6 +783,7 @@
             "emo": "happy",
             "en": "Alex, you take it!",
             "fa": "الکس، تو عکس بگیر!",
+            "ru": "Алекс, сними ты!",
             "react": {
               "alex": "shrug"
             },
@@ -787,6 +845,7 @@
                 "emo": "laugh",
                 "en": "Look! The bird's in it too!",
                 "fa": "ببینین! پرنده هم هست!",
+                "ru": "Смотрите! И птица тут!",
                 "to": "all",
                 "tr": "Bakın! Kuş da var!",
                 "who": "yusuf",
@@ -808,6 +867,7 @@
         "en": "One noun, four endings: ağaçta (on the tree, -DA), ağaçtan (from the tree, -DAn), ağaca (to the tree, -(y)A), ağacı (the tree, as the object: -(y)I). Today: ağacımda, buraya, kelimeyi, kirayı and Farzad'ı. And Reza Bey's list: pasaportunuz, fotoğraflarınız for siz; fotoğraflarım, sözleşmem for me.",
         "ex": "Benim ağacımda!",
         "fa": "یک اسم، چهار پسوند: ağaçta (روی درخت، ‎-DA)، ağaçtan (از درخت، ‎-DAn)، ağaca (به درخت، ‎-(y)A)، ağacı (درخت را، ‎-(y)I). امروز: ağacımda، buraya، kelimeyi، kirayı و Farzad'ı. و فهرستِ آقای رضا: pasaportunuz و fotoğraflarınız برای «شما»؛ fotoğraflarım و sözleşmem برای «من».",
+        "ru": "Одно существительное — четыре окончания: ağaçta (на дереве, -DA), ağaçtan (с дерева, -DAn), ağaca (к дереву, -(y)A), ağacı (дерево как объект: -(y)I). Сегодня: ağacımda, buraya, kelimeyi, kirayı и Farzad'ı. А в списке господина Резы: pasaportunuz, fotoğraflarınız — на «вы»; fotoğraflarım, sözleşmem — про себя.",
         "lesson": "g_a1_4_ad_durumlari",
         "show": "case_path"
       }
@@ -815,6 +875,7 @@
     {
       "en": "Six people, six trees… one photo… and one appointment. The sixteenth of October!",
       "fa": "شش نفر، شش تا درخت… یه عکس… و یه نوبت. شونزدهمِ اکتبر!",
+      "ru": "Шесть человек, шесть деревьев… одно фото… и одна запись. Шестнадцатое октября!",
       "narr": true,
       "tr": "Altı kişi, altı ağaç… bir fotoğraf… ve bir randevu. On altı Ekim!",
       "who": "kerim"
@@ -822,12 +883,14 @@
   ],
   "summary": {
     "en": "The family trees are all on the wall, and Zafer Hoca plays a case game with them. At the break Nima pays the first rent, and Reza Bey brings the residence-permit appointment and the list of documents. Then a class photo under the trees.",
-    "fa": "همه‌ی شجره‌نامه‌ها روی دیوارند و استاد ظفر با آن‌ها بازیِ حالت‌های اسم راه می‌اندازد. سرِ زنگِ تفریح نیما اولین اجاره را می‌فرستد و آقای رضا نوبتِ اقامت و فهرستِ مدارک را می‌آورد. بعد هم عکسِ دسته‌جمعیِ کلاس زیرِ درخت‌ها."
+    "fa": "همه‌ی شجره‌نامه‌ها روی دیوارند و استاد ظفر با آن‌ها بازیِ حالت‌های اسم راه می‌اندازد. سرِ زنگِ تفریح نیما اولین اجاره را می‌فرستد و آقای رضا نوبتِ اقامت و فهرستِ مدارک را می‌آورد. بعد هم عکسِ دسته‌جمعیِ کلاس زیرِ درخت‌ها.",
+    "ru": "Все семейные деревья уже на стене, и Зафер устраивает с ними игру на падежи. На перемене Нима впервые платит за жильё, а господин Реза приносит запись на ВНЖ и список документов. Потом — фото класса под деревьями."
   },
   "title": {
     "tr": "Herkes buraya!",
     "en": "Everyone over here!",
-    "fa": "همه بیایید این‌جا!"
+    "fa": "همه بیایید این‌جا!",
+    "ru": "Все сюда!"
   },
   "words": [
     "a1-w-gondermek",

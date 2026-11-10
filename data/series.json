@@ -4,7 +4,16 @@
   "title": {
     "tr": "Kumru",
     "en": "Kumru",
-    "fa": "کومرو"
+    "fa": "کومرو",
+    "ru": "Кумру"
+  },
+  "languages": {
+    "main": "tr",
+    "translations": [
+      "en",
+      "fa",
+      "ru"
+    ]
   },
   "narrator": "kerim",
   "standin": "nima",

@@ -2,6 +2,7 @@
   "arc": {
     "en": "The best of Feriköy",
     "fa": "بهترین جاهای فری‌کؤی",
+    "ru": "Лучшие места Ферикёя",
     "id": "s1w06",
     "mechanics": [
       "say",
@@ -21,6 +22,7 @@
     {
       "en": "A map! Where's the cat?",
       "fa": "یه نقشه! گربه کجاست؟",
+      "ru": "Карта! Где кошка?",
       "narr": true,
       "tr": "Bir harita! Kedi nerede?",
       "who": "kerim"
@@ -33,6 +35,7 @@
           {
             "en": "In front of the café.",
             "fa": "جلوی کافه.",
+            "ru": "Перед кафе.",
             "ok": true,
             "react": {
               "kerim": "happy"
@@ -41,6 +44,7 @@
               {
                 "en": "Yes! In front of the café.",
                 "fa": "آره! جلوی کافه.",
+                "ru": "Да! Перед кафе.",
                 "narr": true,
                 "tr": "Evet! Kafenin önünde.",
                 "who": "kerim"
@@ -52,6 +56,7 @@
           {
             "en": "Inside the café.",
             "fa": "داخلِ کافه.",
+            "ru": "Внутри кафе.",
             "react": {
               "kerim": "curious"
             },
@@ -59,6 +64,7 @@
               {
                 "en": "Not inside… in front!",
                 "fa": "داخلش نه… جلوش!",
+                "ru": "Не внутри… перед!",
                 "narr": true,
                 "tr": "İçinde değil… önünde!",
                 "who": "kerim"
@@ -74,6 +80,7 @@
     {
       "en": "And where's Berfin?",
       "fa": "و برفین کجاست؟",
+      "ru": "А где Берфин?",
       "narr": true,
       "tr": "Ve Berfin nerede?",
       "who": "kerim"
@@ -81,12 +88,14 @@
     {
       "en": "Inside the café!",
       "fa": "داخلِ کافه!",
+      "ru": "Внутри кафе!",
       "tr": "Kafenin içinde!",
       "who": "nima"
     },
     {
       "en": "Right! What's on the corner?",
       "fa": "درسته! سرِ نبش چی هست؟",
+      "ru": "Верно! А что на углу?",
       "narr": true,
       "tr": "Doğru! Köşede ne var?",
       "who": "kerim"
@@ -94,6 +103,7 @@
     {
       "en": "There's a florist on the corner.",
       "fa": "سرِ نبش یه گل‌فروشی هست.",
+      "ru": "На углу цветочный магазин.",
       "tr": "Köşede bir çiçekçi var.",
       "who": "nima"
     }
@@ -101,50 +111,62 @@
   "gl": {
     "canım": {
       "fa": "عزیزم",
+      "ru": "душа моя, дорогой (дорогая)",
       "en": "my dear"
     },
     "eczanenin": {
       "fa": "ـِ داروخانه",
+      "ru": "аптеки (чей?)",
       "en": "the pharmacy's; of the pharmacy"
     },
     "fırının": {
       "fa": "ـِ نانوایی",
+      "ru": "пекарни (чей?)",
       "en": "the bakery's; of the bakery"
     },
     "köşede": {
       "fa": "سرِ نبش، در گوشه",
+      "ru": "на углу",
       "en": "on the corner"
     },
     "mahallesi": {
       "fa": "محلهٔ…",
+      "ru": "район (чей-то)…",
       "en": "the neighbourhood of…"
     },
     "musun": {
       "fa": "(پرسشی) …ی؟",
+      "ru": "(вопрос) ты…?",
       "en": "(question) do you…?"
     },
     "rehber": {
       "fa": "راهنما",
+      "ru": "путеводитель",
       "en": "guide (a guidebook)"
     },
     "önünde": {
       "fa": "جلوی…",
+      "ru": "перед…",
       "en": "in front of…"
     },
     "benden": {
       "fa": "از طرفِ من، مهمانِ من",
+      "ru": "от меня; я угощаю",
       "en": "on me; my treat"
     },
     "köşesi": {
       "fa": "گوشه‌اش",
+      "ru": "его уголок",
       "en": "its corner"
     },
     "test": {
       "fa": "امتحان، آزمون",
+      "ru": "тест",
       "en": "test"
     },
     "aa": {
       "fa": "عه! (تعجب)",
+      "ru": "а! (удивление)",
       "en": "oh! (surprise)"
     }
   },
@@ -217,7 +239,8 @@
       "q": {
         "tr": "Hatice Abla: “Eczane nerede?”",
         "en": "Hatice Abla: “Where's the pharmacy?”",
-        "fa": "خدیجه خانم: «داروخانه کجاست؟»"
+        "fa": "خدیجه خانم: «داروخانه کجاست؟»",
+        "ru": "Хатидже: «Где аптека?»"
       },
       "why": "Nima: “Fırının yanında. Şurada!”"
     },
@@ -232,7 +255,8 @@
       "q": {
         "tr": "Park nerede? Okulun …",
         "en": "Where's the park? … the school.",
-        "fa": "پارک کجاست؟ … مدرسه."
+        "fa": "پارک کجاست؟ … مدرسه.",
+        "ru": "Где парк? … школы."
       },
       "why": "Nima: “Okulun karşısında.”"
     }
@@ -264,6 +288,7 @@
     {
       "en": "Good morning! Feriköy… Kerim's neighbourhood. Every corner of it is lovely!",
       "fa": "صبح بخیر! فری‌کؤی… محلهٔ کریم. هر گوشه‌ش قشنگه!",
+      "ru": "Доброе утро! Ферикёй… район Керим. Здесь каждый уголок красивый!",
       "move": {
         "how": "walk",
         "to": "cafe_front",
@@ -279,6 +304,7 @@
       "emo": "happy",
       "en": "Warm bread… here, it's on me today! Now, a test: where's the bakery?",
       "fa": "نونِ داغ… بگیر، امروز مهمونِ من! حالا یه امتحان: نونوایی کجاست؟",
+      "ru": "Тёплый хлеб… держи, сегодня я угощаю! А теперь тест: где пекарня?",
       "if": "s1e17_cake",
       "obj": [
         {
@@ -297,6 +323,7 @@
       "emo": "happy",
       "en": "Warm bread! Want some? Now, a test: where's the bakery?",
       "fa": "نونِ داغ! یه کم می‌خوای؟ حالا یه امتحان: نونوایی کجاست؟",
+      "ru": "Тёплый хлеб! Хочешь немножко? А теперь тест: где пекарня?",
       "to": "nima",
       "tr": "Sıcak ekmek! Biraz istiyor musun? Şimdi bir test: fırın nerede?",
       "unless": "s1e17_cake",
@@ -308,6 +335,7 @@
       "emo": "laugh",
       "en": "Right here! …Next to the pharmacy.",
       "fa": "همین‌جا! …کنارِ داروخونه.",
+      "ru": "Вот здесь! …Рядом с аптекой.",
       "to": "dilnoza",
       "tr": "Burada! …Eczanenin yanında.",
       "who": "nima"
@@ -317,6 +345,7 @@
       "emo": "happy",
       "en": "Right! OK, and where's the park?",
       "fa": "درسته! خب، پارک کجاست؟",
+      "ru": "Верно! А где парк?",
       "to": "nima",
       "tr": "Doğru! Peki park nerede?",
       "who": "dilnoza"
@@ -326,6 +355,7 @@
       "do": "point_far",
       "en": "Opposite the school.",
       "fa": "روبه‌روی مدرسه.",
+      "ru": "Напротив школы.",
       "to": "dilnoza",
       "tr": "Okulun karşısında.",
       "who": "nima"
@@ -336,6 +366,7 @@
       "emo": "surprised",
       "en": "You know Feriköy really well! For new students… a guide!",
       "fa": "تو فری‌کؤی رو خیلی خوب می‌شناسی! برای دانشجوهای تازه‌وارد… یه راهنما!",
+      "ru": "Ты так хорошо знаешь Ферикёй! Для новых студентов… путеводитель!",
       "obj": [
         {
           "id": "rehber",
@@ -355,6 +386,7 @@
       "emo": "happy",
       "en": "Yes! “The best places in Feriköy”!",
       "fa": "آره! «بهترین جاهای فری‌کؤی»!",
+      "ru": "Да! «Лучшие места Ферикёя»!",
       "obj": [
         {
           "id": "rehber",
@@ -372,6 +404,7 @@
       "emo": "confused",
       "en": "Excuse me, where's the pharmacy?",
       "fa": "ببخشید، داروخونه کجاست؟",
+      "ru": "Извините, где аптека?",
       "move": {
         "from": "patisserie_door",
         "how": "enter",
@@ -403,6 +436,7 @@
             "do": "point",
             "en": "Next to the bakery. Over there!",
             "fa": "کنارِ نونوایی. اون‌جا!",
+            "ru": "Рядом с пекарней. Вон там!",
             "ok": true,
             "react": {
               "hatice": {
@@ -418,6 +452,7 @@
                 "emo": "surprised",
                 "en": "Thanks, dear! …Oh! You… the tomatoes!",
                 "fa": "مرسی عزیزم! …عه! تو… گوجه!",
+                "ru": "Спасибо, душа моя! …А! Это ты… помидоры!",
                 "to": "nima",
                 "tr": "Sağ ol, canım! …Aa! Sen… domates!",
                 "who": "hatice"
@@ -431,6 +466,7 @@
             "do": "point",
             "en": "Opposite the bakery.",
             "fa": "روبه‌روی نونوایی.",
+            "ru": "Напротив пекарни.",
             "react": {
               "hatice": {
                 "do": "nod",
@@ -442,6 +478,7 @@
                 "emo": "confused",
                 "en": "This is a park! Where's the pharmacy?!",
                 "fa": "این‌جا که پارکه! داروخونه کجاست؟!",
+                "ru": "Тут же парк! Где аптека?!",
                 "move": {
                   "how": "walk",
                   "to": "park_side",
@@ -456,6 +493,7 @@
                 "do": "point",
                 "en": "Next to it! Next to the bakery!",
                 "fa": "کنارش! کنارِ نونوایی!",
+                "ru": "Рядом! Рядом с пекарней!",
                 "to": "hatice",
                 "tr": "Yanında! Fırının yanında!",
                 "who": "dilnoza"
@@ -469,6 +507,7 @@
             "do": "point_far",
             "en": "Over there!",
             "fa": "اون‌جا!",
+            "ru": "Там!",
             "react": {
               "hatice": {
                 "at": "mark:school",
@@ -481,6 +520,7 @@
                 "emo": "confused",
                 "en": "Over there? Behind the school?",
                 "fa": "اون‌جا؟ پشتِ مدرسه؟",
+                "ru": "Там? За школой?",
                 "to": "nima",
                 "tr": "Orada mı? Okulun arkasında mı?",
                 "who": "hatice"
@@ -489,6 +529,7 @@
                 "do": "shake_head",
                 "en": "No! Next to the bakery!",
                 "fa": "نه! کنارِ نونوایی!",
+                "ru": "Нет! Рядом с пекарней!",
                 "to": "hatice",
                 "tr": "Hayır! Fırının yanında!",
                 "who": "dilnoza"
@@ -526,6 +567,7 @@
       "emo": "happy",
       "en": "Welcome! Tea or coffee?",
       "fa": "خوش اومدین! چای یا قهوه؟",
+      "ru": "Добро пожаловать! Чай или кофе?",
       "move": {
         "how": "walk",
         "to": "team_building",
@@ -543,6 +585,7 @@
       "do": "count",
       "en": "Thanks! Two teas, please!",
       "fa": "ممنون، خوشحالیم که اومدیم! دو تا چای، لطفاً!",
+      "ru": "Спасибо! Два чая, пожалуйста!",
       "n": 2,
       "to": "berfin",
       "tr": "Hoş bulduk! İki çay, lütfen!",
@@ -552,6 +595,7 @@
       "emo": "proud",
       "en": "Here you are! I'm Berfin. This is the smallest café in Feriköy… but the best tea is right here!",
       "fa": "بفرمایین! من برفینم. این‌جا کوچیک‌ترین کافهٔ فری‌کؤیه… ولی بهترین چای همین‌جاست!",
+      "ru": "Пожалуйста! Я Берфин. Это самое маленькое кафе в Ферикёе… но лучший чай — здесь!",
       "obj": [
         {
           "id": "tea_glass",
@@ -569,6 +613,7 @@
       "emo": "happy",
       "en": "Berfin's café: next to the bakery. The best tea in Feriköy!",
       "fa": "کافهٔ برفین: کنارِ نونوایی. بهترین چایِ فری‌کؤی!",
+      "ru": "Кафе Берфин: рядом с пекарней. Лучший чай в Ферикёе!",
       "move": {
         "how": "walk",
         "to": "seat_3",
@@ -601,6 +646,7 @@
         "en": "Where is it? Say the landmark with -(n)In, then the place word with -(s)I and -DA: eczane → eczanenin yanında (next to the pharmacy), okul → okulun karşısında (opposite the school), fırınla eczanenin arasında (between the bakery and the pharmacy), kafenin içinde (inside the café), kafenin önünde (in front of the café).",
         "ex": "Eczanenin yanında.",
         "fa": "کجاست؟ اول نشانه را با ‎-(n)In بگو، بعد کلمهٔ مکان را با ‎-(s)I و ‎-DA: eczane ← eczanenin yanında (کنارِ داروخانه)، okul ← okulun karşısında (روبه‌روی مدرسه)، fırınla eczanenin arasında (بینِ نانوایی و داروخانه)، kafenin içinde (داخلِ کافه)، kafenin önünde (جلوی کافه). مثل «کنارِ داروخانه» در فارسی، فقط ترتیبش برعکس است.",
+        "ru": "Где это? Ориентир получает -(n)In, а слово места — -(s)I и -DA: eczane → eczanenin yanında (рядом с аптекой), okul → okulun karşısında (напротив школы), fırınla eczanenin arasında (между пекарней и аптекой), kafenin içinde (внутри кафе), kafenin önünde (перед кафе).",
         "lesson": "g_a1_6_yer_yon",
         "show": "case_path"
       }
@@ -610,18 +656,21 @@
       "tr": "Benim kafem… rehberde mi?! Bugün çaylar benden!",
       "en": "My café… in the guide?! The teas are on me today!",
       "fa": "کافهٔ من… توی راهنما؟! امروز چای‌ها مهمونِ من!",
+      "ru": "Моё кафе… в путеводителе?! Сегодня чай за мой счёт!",
       "to": "all",
       "emo": "laugh"
     }
   ],
   "summary": {
     "en": "On the morning walk through Feriköy, Nima and Dilnoza decide to write a guide for new students. Hatice Abla asks the way, and between the bakery and the pharmacy they find Berfin's tiny café.",
-    "fa": "در پیاده‌رویِ صبح در فری‌کؤی، نیما و دلنوزا تصمیم می‌گیرند برای دانشجوهای تازه‌وارد یک راهنما بنویسند. خدیجه خانم نشانی می‌پرسد، و بینِ نانوایی و داروخانه کافهٔ کوچکِ برفین را پیدا می‌کنند."
+    "fa": "در پیاده‌رویِ صبح در فری‌کؤی، نیما و دلنوزا تصمیم می‌گیرند برای دانشجوهای تازه‌وارد یک راهنما بنویسند. خدیجه خانم نشانی می‌پرسد، و بینِ نانوایی و داروخانه کافهٔ کوچکِ برفین را پیدا می‌کنند.",
+    "ru": "На утренней прогулке по Ферикёю Нима и Дилноза решают написать путеводитель для новых студентов. Хатидже спрашивает дорогу, а между пекарней и аптекой они находят крошечное кафе Берфин."
   },
   "title": {
     "tr": "Fırının yanında",
     "en": "Next to the bakery",
-    "fa": "کنار نانوایی"
+    "fa": "کنار نانوایی",
+    "ru": "Рядом с пекарней"
   },
   "words": [
     "a1-w-karsi",
