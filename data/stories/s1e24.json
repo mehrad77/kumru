@@ -892,7 +892,8 @@
           "to": "lamp",
           "who": "kerim"
         },
-        "who": "kerim"
+        "who": "kerim",
+        "cam": "wide"
       }
     },
     {
@@ -1105,7 +1106,7 @@
       "to": "zafer",
       "tr": "Teşekkür ederiz, hocam!",
       "who": "nima",
-      "cam": "single"
+      "cam": "wide"
     },
     {
       "spot": {

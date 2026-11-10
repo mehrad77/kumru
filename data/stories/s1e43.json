@@ -287,7 +287,8 @@
         }
       },
       "tr": "Kırmızı, beyaz… bugün bayram, bugün bayram!",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "emo": "curious",
@@ -296,7 +297,8 @@
       "ru": "Ты слушаешь? Красиво?",
       "to": "nima",
       "tr": "Dinliyor musun? Güzel mi?",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "do": "thumb_up",
@@ -306,7 +308,8 @@
       "ru": "Очень красиво! Ещё раз!",
       "tr": "Çok güzel! Bir daha!",
       "who": "nima",
-      "to": "omer"
+      "to": "omer",
+      "cam": "two"
     },
     {
       "do": "cheer",
@@ -336,7 +339,8 @@
       "fa": "بعدش… بعدش… یادم رفت!",
       "ru": "А потом… потом… забыл!",
       "tr": "Sonra… sonra… unuttum!",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "choice": {
@@ -446,7 +450,8 @@
       "ru": "Мои документы в порядке! Теперь… ждём.",
       "tr": "Dosyam tamam! Şimdi… bekliyoruz.",
       "who": "nima",
-      "to": "elif"
+      "to": "elif",
+      "cam": "two"
     },
     {
       "do": "beckon",
@@ -456,7 +461,8 @@
       "ru": "Как хорошо! …Омер, иди сюда! Уже восемь! Пора спать!",
       "to": "omer",
       "tr": "Ne güzel! …Ömer, gel! Saat sekiz! Yatma saati!",
-      "who": "elif"
+      "who": "elif",
+      "cam": "two"
     },
     {
       "do": "cheer",
@@ -466,7 +472,8 @@
       "ru": "Ещё раз!",
       "to": "elif",
       "tr": "Bir daha!",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "emo": "tired",
@@ -475,7 +482,8 @@
       "ru": "Ой… он поёт её каждый вечер по десять раз!",
       "to": "nima",
       "tr": "Ay… her akşam on kere söylüyor!",
-      "who": "elif"
+      "who": "elif",
+      "cam": "two"
     },
     {
       "do": "me",
@@ -485,7 +493,8 @@
       "ru": "В четверг… я тоже приду!",
       "to": "omer",
       "tr": "Perşembe… ben de geliyorum!",
-      "who": "nima"
+      "who": "nima",
+      "cam": "two"
     },
     {
       "at": "obj:bayrak",
@@ -502,7 +511,8 @@
       },
       "to": "nima",
       "tr": "Sen de mi geliyorsun?! Bir bayrak getir!",
-      "who": "omer"
+      "who": "omer",
+      "cam": "two"
     },
     {
       "spot": {

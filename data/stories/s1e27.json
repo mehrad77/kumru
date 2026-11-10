@@ -355,7 +355,7 @@
     },
     {
       "at": "mark:calendar",
-      "cam": "obj",
+      "cam": "two",
       "do": "point",
       "emo": "curious",
       "en": "What's this? 10 October… eighty?",
@@ -491,7 +491,7 @@
       "who": "nima"
     },
     {
-      "cam": "close",
+      "cam": "wide",
       "emo": "curious",
       "en": "All right? Hmm… coo-coo.",
       "fa": "باشه؟ هوم… کو-کوو.",

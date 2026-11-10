@@ -517,7 +517,7 @@
         "kirlangic": "table",
         "omer": "guests_l",
         "rayan": "seat_3",
-        "serkan": "run"
+        "serkan": "ladder"
       },
       "kerim": "railing",
       "scene": "rooftop",
@@ -713,7 +713,7 @@
           "id": "applause"
         },
         "who": "maria",
-        "cam": "two",
+        "cam": "wide",
         "at": "ch:maria"
       }
     },
@@ -729,7 +729,7 @@
           }
         ],
         "who": "elif",
-        "cam": "two"
+        "cam": "wide"
       }
     },
     {

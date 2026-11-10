@@ -381,7 +381,7 @@
       "to": "all",
       "tr": "Yusuf Beşiktaş'tan geliyor. Alex Kadıköy'den, vapurla! Dilnoza Osmanbey'den: çok yakın.",
       "who": "zafer",
-      "cam": "single",
+      "cam": "wide",
       "move": {
         "how": "walk",
         "to": "board",

@@ -547,11 +547,6 @@
       "en": "Yes. And you?",
       "fa": "آره. تو چی؟",
       "ru": "Да. А ты?",
-      "move": {
-        "how": "walk",
-        "to": "walk_c",
-        "who": "nima"
-      },
       "to": "dilnoza",
       "tr": "Evet. Sen?",
       "who": "nima"
