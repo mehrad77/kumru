@@ -40,10 +40,10 @@ export function storyVoice(story: string, voicesBase?: string): Promise<VoicePro
 }
 
 /**
- * The place's ambience, half the stage's default (0.3): the recorded voices (−18 LUFS) are quieter than the device's, and a
- * learner must hear every word over the wind and the street.
+ * The place's ambience, a quarter of the stage's default (0.3), about 12 dB down: the recorded voices (−18 LUFS) are quieter
+ * than the device's, and a learner must hear every word over the wind and the street.
  */
-const VOLUMES = { ambience: 0.15 };
+const VOLUMES = { ambience: 0.075 };
 
 /** A mounted stage for a story, in log mode or theatre mode. */
 export function stageFor(host: HTMLElement, kit: Awaited<ReturnType<typeof kitFor>>, o: { theatre: boolean; gloss: GlossOptions; motion?: "full" | "calm" | "still"; sounds?: string; onContext?: (lost: boolean) => void; voice?: VoiceProvider }): Stage {
