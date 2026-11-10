@@ -345,6 +345,14 @@ Tests: one case per row of the table, plus "stale overnight tab", "offline answe
 - `app/host/sw.ts`: precaches `index.html`, the data files named in `data/manifest.json`, icons and fonts; network-first for `/api`, cache-first for everything else. On a new version it installs in the background and the page shows "Update ready — reload" from the existing toast.
 - Progress already lives in `localStorage`; with §6's dirty flag, answers given offline are saved on the next connection. The Friends tab shows its last payload with an "offline" chip.
 - `?fresh` clears the caches too.
+- **Installing it.** `index.html`'s first script keeps Chrome's and Edge's `beforeinstallprompt` (`window.__kInstall`), so the app shows the browser's prompt from its own Install button (`app/ui/install.ts`, `InstallCard.tsx`); an iPhone or iPad gets the two Safari steps instead. The offer is a card atop the Stories tab once the learner has finished a story ("Not now" hides it for two weeks), and the Profile's *App* card always has it. Neither shows once installed (`display-mode: standalone`, or `kumru:installed` after `appinstalled`).
+
+### 10.1a Two addresses (2026-11-11)
+
+- The Worker answers on `kumru.shab.boo` (the address) and `turk.shab.boo` (the old one), with one API, database and set of accounts (`wrangler.jsonc` routes).
+- A learner signed in on turk.shab.boo keeps using it: their device's storage, session and reminders live on that origin. Someone with no session there is sent to kumru.shab.boo, path and query kept, by `index.html`'s first script, before the app loads.
+- Links people share (a profile, a class invite, pairing a device) name kumru.shab.boo on either address (`app/host/site.ts` `shareOrigin`); on localhost they keep the page's origin.
+- Reminder pushes still open turk.shab.boo (`worker/features/reminders/cron.ts` `SITE`): a learner there lands signed in, and a kumru.shab.boo learner has no session there, so the redirect brings them home.
 
 ### 10.2 Friends on D1 (phase 3)
 
@@ -381,8 +389,8 @@ The report links each card to its file under `data/cards/` and each lesson to `d
 
 ### 10.6 Streak reminders (phase 4)
 
-- Onboarding ends with a **Remind me once a day at <hour>** step that asks for notification permission (default 20:00; "Not now" skips). Profile has the same control, "Remind me at <hour>", with the browser's permission prompt. The subscription (endpoint, keys), the learner's IANA time zone and the chosen hour are stored in `push_subs`.
-- The hourly cron selects subscriptions whose local hour is now, whose learner has not studied today (`profiles.last_day` is before today in that zone), and sends one push with the streak count. Payloads are encrypted with a small Web Push implementation for Workers and the `VAPID_*` keys.
+- Onboarding has a **daily reminder** step ("Kerim can tell you once a day when a new story is waiting") that asks for notification permission (default 20:00; "Not now" skips). Profile has the same control, "Remind me at <hour>", with the browser's permission prompt. The subscription (endpoint, keys), the learner's IANA time zone and the chosen hour are stored in `push_subs`.
+- The hourly cron selects subscriptions whose local hour is now, whose learner has not studied today (`profiles.last_day` is before today in that zone), and sends one push about the day's story, with the streak count. Payloads are encrypted with a small Web Push implementation for Workers and the `VAPID_*` keys.
 - A subscription that returns 404 or 410 is deleted.
 - On iPhone this works only after the app is added to the home screen; the Profile copy says so.
 

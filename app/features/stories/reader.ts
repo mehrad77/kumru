@@ -8,8 +8,8 @@
 // - Translations are in the help language (app/core/lang.ts): Persian, English or both; with "none", English. A button beside the
 //   speaker shows or hides them for the whole dialogue (`kumru:story:tl`; off by default only with "none"); a tapped word always
 //   has its meaning.
-// - Every line of the newcomer is the learner's to say: a card with Söyle (and the microphone, in every story, unless the learner turned it off
-//   or it does not really work here: voice.ts).
+// - Every line of the newcomer is the learner's to say: a card with a round microphone and "Say it for me" (in every story, unless the
+//   learner turned it off or it does not really work here: voice.ts), or with Söyle where there is no microphone.
 // - A speaker button (top right) turns the stage's sound on or off: the lines in the device's Turkish voice, the place's
 //   recordings and Kerim's coo. Off until the learner turns it on (STORIES_STAGE.md §3), then remembered (`kumru:story:sound`). A choice is the same card with 2–3 options, shown shuffled and stored by their authored index.
 // - Kerim's grammar spot is a card in the log with the lesson's link (the stage does not act spots out yet).
@@ -38,12 +38,14 @@ let G: Awaited<ReturnType<typeof loadGlossModel>>;
 /** A text by language; a cue or card option also carries it whole as `text`, with every language of the series (Russian too). */
 type Text3 = { tr?: string; en?: string; fa?: string; ru?: string; text?: Record<string, string | undefined> };
 
+/** A card's microphone: the round button and the line under it that hints, listens and says what it heard. */
+type Aloud = { mic: HTMLElement; status: HTMLElement; stop: () => void };
 const btn = (cls: string, text: string, onclick: () => void, extra: Record<string, unknown> = {}) => el("button", { class: cls, type: "button", text, onclick, ...extra });
 /** The translations a story can show: the help language's, or with "none" the meaning language (English). */
 function tlLangs(): { fa: boolean; en: boolean; ru: boolean } {
   if (helpLang() !== "none") return helpLangs();
   const m = meaningLang();
-  return { fa: m === "fa" || m === "both", en: m === "en" || m === "both", ru: m === "ru" };
+  return { fa: m === "fa", en: m === "en", ru: m === "ru" };
 }
 /** Whether the translations show: the reader's toggle, on by default unless the help language is "none". */
 const tlOn = () => pref("tl", helpLang() !== "none");
@@ -227,15 +229,18 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
           el("div", null, i.tr ? glossed(i.tr) : null, ...tl(i.text ?? i),
             lesson ? btn("linkish", "Open the lesson", () => openLesson(lesson)) : null)));
       } else if (i.tr) {
-        // a chat line: the speaker's head in a small circle (named for screen readers), and the line in a bubble out of it;
-        // the learner's own lines from the other side. A beat (a sound word) has no speaker: a plain line in the middle.
+        // a chat line: the speaker's head in a small circle, and the line in a bubble out of it, with the speaker's name atop it
+        // whenever the speaker changes (as in a group chat); the learner's own lines from the other side, unnamed. A beat (a sound
+        // word) has no speaker: a plain line in the middle.
         const text = i.tr.trim() === "…" ? el("span", { text: "…" }) : glossed(i.tr);
         const beat = i.kind === "beat" || !i.who, me = i.who === "nima", name = beat ? "" : who(i.who);
         const av = beat ? null : me ? myPortrait(32, "st-av")
           : i.who === "kerim" ? pup("idle", 32, { pose: "head", enter: false, label: name })
           : castPortrait(i.who!, (characters.value[i.who!] as { avatar?: unknown } | undefined)?.avatar, 32, "st-av", name);
         if (av) { av.title = name; av.classList.add("st-av"); }
-        const line = el("div", { class: "st-line" + (me ? " me" : "") + (beat ? " beat" : "") }, av, el("div", { class: "st-bub" }, text, ...tl(i.text ?? i)));
+        const prev = (log.lastElementChild as HTMLElement | null)?.dataset.who;
+        const tag = !beat && !me && prev !== i.who ? el("b", { class: "st-who", text: name }) : null;
+        const line = el("div", { class: "st-line" + (me ? " me" : "") + (beat ? " beat" : ""), "data-who": beat ? "" : i.who }, av, el("div", { class: "st-bub" }, tag, text, ...tl(i.text ?? i)));
         log.append(line);
       }
       line2view();
@@ -273,12 +278,16 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
     // ---- the footer ----
     /** The head of the learner's card: their own face and "your turn" (the Turkish, and the gloss under it). */
     const turnHead = (en: string) => el("div", { class: "st-turn-h" }, myPortrait(26, "st-av"), el("b", { lang: "tr", text: "Senin sıran" }), el("small", { text: en }));
-    /** The reply card: the learner's line as a bubble of theirs, about to be said, with Söyle as its send button beside it. */
-    function replyCard(line: HTMLElement, t: { en?: string; fa?: string; ru?: string } | undefined, onSay: () => void, extra: HTMLElement | null = null) {
-      const send = el("button", { class: "btn primary st-send", type: "button", onclick: onSay }, el("span", { text: "Söyle" }),
+    /**
+     * The reply card: the learner's line as a bubble of theirs, about to be said. With a microphone, saying it aloud is the main
+     * action (the round mic beside the bubble) and "Say it for me" is the quiet way on; without one, Söyle sends it.
+     */
+    function replyCard(line: HTMLElement, t: { en?: string; fa?: string; ru?: string } | undefined, onSay: () => void, aloud: Aloud | null = null) {
+      const send = aloud ? aloud.mic : el("button", { class: "btn primary st-send", type: "button", onclick: onSay }, el("span", { text: "Söyle" }),
         el("span", { class: "st-send-i", "aria-hidden": "true", text: "➤" }));
-      return el("div", { class: "card st-card st-reply" }, turnHead("your line"),
-        el("div", { class: "st-reply-b" }, el("div", { class: "st-bub st-mine" }, line, ...tl(t)), send), extra);
+      return el("div", { class: "card st-card st-reply" }, turnHead(aloud ? "say your line aloud" : "your line"),
+        el("div", { class: "st-reply-b" }, el("div", { class: "st-bub st-mine" }, line, ...tl(t)), send),
+        aloud ? el("div", { class: "st-aloud" }, aloud.status, btn("linkish st-skip", "Say it for me", () => { aloud.stop(); onSay(); })) : null);
     }
     function card(label: string, opts: Text3[], order: number[], onPick: (authored: number) => void, silent = false) {
       const c = el("div", { class: "card st-card st-choose" }, turnHead(label));
@@ -290,22 +299,30 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
       }
       return c;
     }
-    /** The microphone for a card: `said` gets which of the `expected` lines was heard (a choice picks that option). */
-    function aloudBtn(expected: string[], said: (best: number) => void) {
+    /**
+     * The microphone for a card: `said` gets which of the `expected` lines was heard (a choice picks that option). A round button
+     * with its hint under it ("Tap 🎤 and say it"); it glows until the learner has used it once, so a newcomer sees they can talk.
+     */
+    function aloudFor(expected: string[], said: (best: number) => void, hint: string): Aloud | null {
       if (!pref("aloud", true) || !voiceOk(P.canListen())) return null;
-      const status = el("small", { class: "st-heard", "aria-live": "polite" });
+      const status = el("small", { class: "st-heard", "aria-live": "polite", text: hint });
       let ctl: AbortController | null = null;
-      const mic = btn("btn sm", "🎤 Say it", async () => {
+      const mic = el("button", { class: "btn primary st-mic" + (pref("micUsed", false) ? "" : " st-mic-new"), type: "button", "aria-label": "Say it aloud", title: "Say it aloud", "aria-pressed": "false" },
+        el("span", { "aria-hidden": "true", text: "🎤" }));
+      const again = expected.length > 1 ? "Tap 🎤 to try again, or tap your answer." : "Tap 🎤 to try again, or “Say it for me”.";
+      mic.onclick = async () => {
         if (ctl) { ctl.abort(); return; }
-        ctl = new AbortController(); mic.setAttribute("aria-pressed", "true"); status.textContent = "Listening…";
-        const r = await P.listenFor(expected, P.tr, { signal: ctl.signal, onInterim: (t: string) => { status.textContent = t; }, match: { names: [name] } });
+        const mine = ctl = new AbortController(); mic.setAttribute("aria-pressed", "true"); status.textContent = "Listening… say it in Turkish";
+        const r = await P.listenFor(expected, P.tr, { signal: mine.signal, onInterim: (t: string) => { if (!mine.signal.aborted) status.textContent = t; }, match: { names: [name] } });
+        // a tap (an option, "Say it for me") or a new card ended this try: what it heard no longer picks anything
+        if (mine.signal.aborted || !mic.isConnected) { if (ctl === mine) { ctl = null; mic.setAttribute("aria-pressed", "false"); status.textContent = hint; } return; }
         ctl = null; mic.setAttribute("aria-pressed", "false");
         noteListen(r);
-        if (!r.matched && !voiceOk(P.canListen())) { wrap.remove(); return; }
-        if (r.matched) { status.textContent = "✓"; said(r.best); } else status.textContent = r.heard ? `I heard “${r.heard}”. Try again, or tap Söyle.` : "I didn't hear you. Try again, or tap Söyle.";
-      }, { "aria-pressed": "false" });
-      const wrap = el("div", { class: "st-aloud" }, mic, status);
-      return wrap;
+        if (r.heard) { setPref("micUsed", true); mic.classList.remove("st-mic-new"); }
+        if (!r.matched && !voiceOk(P.canListen())) { status.textContent = expected.length > 1 ? "The microphone isn't working here. Tap your answer." : "The microphone isn't working here."; mic.remove(); return; }
+        if (r.matched) { status.textContent = "✓"; said(r.best); } else status.textContent = (r.heard ? `I heard “${r.heard}”. ` : "I didn't hear you. ") + again;
+      };
+      return { mic, status, stop: () => { ctl?.abort(); } };
     }
     function draw() {
       if (!cur) return;
@@ -328,12 +345,13 @@ export function mountReader(page: HTMLElement, id: string, close: () => void): (
         const o = t.options[0];
         foot.append(t.silent
           ? replyCard(el("span", { text: "…" }), undefined, () => cur!.player.say())
-          : replyCard(glossed(o.tr ?? ""), o.text ?? o, () => cur!.player.say(), aloudBtn([o.tr ?? ""], () => cur!.player.say())));
+          : replyCard(glossed(o.tr ?? ""), o.text ?? o, () => cur!.player.say(), aloudFor([o.tr ?? ""], () => cur!.player.say(), "Tap 🎤 and say it in Turkish")));
       } else if (t.kind === "choice") {
         const order = shuffled(t.options.length, `${story.id}:${t.id}:${record(story.id).reads ?? 0}`);
-        const c = card("choose what to say", t.options, order, (k) => cur!.player.choose(k));
-        const al = aloudBtn(t.options.map((o) => o.tr ?? ""), (k) => cur!.player.choose(k));
-        if (al) c.append(al);
+        const al = aloudFor(t.options.map((o) => o.tr ?? ""), (k) => cur!.player.choose(k), "Tap 🎤 and say one, or tap it");
+        // a tap always picks, even mid-listening: it stops the microphone first, so a late result cannot pick again
+        const c = card("choose what to say", t.options, order, (k) => { al?.stop(); cur!.player.choose(k); });
+        if (al) c.append(el("div", { class: "st-aloud" }, al.mic, al.status));
         foot.append(c);
       } else {
         // an act: no Season 1 story has one yet; it plays on stage, with the interaction layer's own list for keyboards

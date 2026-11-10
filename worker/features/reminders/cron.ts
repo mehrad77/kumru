@@ -12,7 +12,7 @@ export const SITE = "https://turk.shab.boo";
 
 /** The push message of one reminder. */
 export const reminderPayload = (streak: number) => ({
-  title: "Kerim is waiting", body: streak ? `${streak} day streak — one lesson keeps it.` : "One short lesson keeps Kerim happy.", url: SITE + "/",
+  title: "A story is waiting", body: streak ? `${streak} day streak — read today's story with Kerim to keep it.` : "Kerim has a story for you today.", url: SITE + "/",
 });
 
 /** {hour, day} of `time` in the IANA zone `tz` (day as YYYY-MM-DD). */

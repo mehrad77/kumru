@@ -58,8 +58,8 @@ export function sentencePool(): BuildSentence[] {
 /** The meaning in the learner's language (Persian or English; a card with only one shows that one). */
 export const meaningText = (c: Card): string => { const m = meaningLang(); return (m === "ru" ? ruOr(c as Card & { ru?: string }) || c.fa : m === "en" ? c.en || c.fa : c.fa || c.en) as string; };
 export const meaningIsFa = (c: Card): boolean => { const m = meaningLang(); return m === "en" || m === "ru" ? !c.en && !(c as Card & { ru?: string }).ru : !!c.fa; };
-/** A word the learner doesn't know yet shows both meanings, whatever the language setting says. */
-export const bothFor = (c: Card): boolean => meaningLang() === "both" || confOf(c.id) < CONF_KNOWN;
+/** A word the learner doesn't know yet shows both meanings, Persian and English, whatever the language setting says. */
+export const bothFor = (c: Card): boolean => confOf(c.id) < CONF_KNOWN;
 
 let glossIdx: GlossIndex | null = null, glossIdxN = -1;
 /** The word → card index behind the hints (rebuilt when the cards change). */

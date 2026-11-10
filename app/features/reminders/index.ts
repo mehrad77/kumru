@@ -5,7 +5,7 @@ import type { WebFeature } from "../../core/feature.ts";
 
 export { remindStep } from "./step.ts";
 /** The body of onboarding's "Daily reminder" step, for the onboarding feature to draw (this index carries no Preact). */
-export const loadRemindBody = () => import("./StepBody.tsx").then((m) => m.StepBody as ComponentType);
+export const loadRemindBody = () => import("./StepBody.tsx").then((m) => m.StepBody as ComponentType<{ text: string; none: string; hour: string }>);
 
 export const feature: WebFeature = {
   id: "reminders",

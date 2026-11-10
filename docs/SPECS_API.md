@@ -532,7 +532,7 @@ The Worker's `scheduled` handler runs hourly (`0 * * * *`) and dispatches on the
 ### 12.2 Reminders — every hour, phase 4
 
 - Selects `push_subs` whose `hour` equals the current hour in their `tz`, joins `profiles.last_day`, and sends one push to each learner whose `last_day` is before today in that zone.
-- Payload: `{ title: "Kerim is waiting", body: "<streak> day streak — one lesson keeps it.", url: "/" }`, encrypted per RFC 8291 with the `VAPID_*` keys.
+- Payload: `{ title: "A story is waiting", body: "<streak> day streak — read today's story with Kerim to keep it.", url: "/" }` (no streak: "Kerim has a story for you today."), encrypted per RFC 8291 with the `VAPID_*` keys.
 - A push service answer of 404 or 410 deletes the subscription.
 - Rows: `push_subs` by the `hour` index, `profiles` one per candidate. Sends: one fetch per candidate; a few dozen an hour at most.
 

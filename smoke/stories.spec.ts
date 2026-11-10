@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { signUp, uid } from "./helpers.ts";
+import { signUp, uid, walkOnboarding } from "./helpers.ts";
 
 // ROADMAP.md M8's exit: a new learner builds a character in onboarding, sees it in the app bar, and plays s1e01 to the end
 // (the dev server builds with drafts, and ?stories opens the stories before the launch); s1e02 stays shut until then; the reading
@@ -8,25 +8,11 @@ test("a new account builds a character and plays s1e01 to the end", async ({ pag
   test.setTimeout(300_000);           // CI draws the stage in software, several times slower than a laptop
   await page.goto("/?fresh&stories");
   await signUp(page, `st${uid()}`);
-  const primary = page.locator(".onb-foot .btn.primary");
-  const step = async (heading: string) => { await expect(page.locator(".onb h1")).toHaveText(heading); };
-  await step("Hoş geldin!"); await primary.click();
-  await step("Sen nasılsın?");
-  await expect(page.locator(".av-builder .sahne-bld")).toBeVisible({ timeout: 20_000 });
-  await primary.click();                                  // "Looks like me!": the builder's character is saved
-  await step("Biraz anlat!"); await primary.click();
-  await step("Ne kadar Türkçe biliyorsun?");
-  await page.getByText("Brand new", { exact: true }).click();
-  await primary.click();
-  await step("Başlangıç noktan"); await primary.click();
-  await expect(page.getByRole("heading", { name: "Join a class?" })).toBeVisible();
-  await page.getByRole("button", { name: "Class 504" }).click();
-  await expect(page.getByRole("heading", { name: "Daily reminder" })).toBeVisible();
-  await page.locator(".onb-foot").getByRole("button", { name: /Not now|Continue/ }).click();
-  await page.getByRole("button", { name: "Look around first" }).click();
-  await expect(page.getByRole("dialog", { name: "Welcome" })).toHaveCount(0);
+  await walkOnboarding(page, { klass: "504" });
   // the character is a Sahne document, drawn in the app bar
-  expect(await page.evaluate(() => JSON.parse(localStorage.getItem(Object.keys(localStorage).find((k) => k.startsWith("kumru:progress:"))!)!).char?.v)).toBe(1);
+  const char = await page.evaluate(() => JSON.parse(localStorage.getItem(Object.keys(localStorage).find((k) => k.startsWith("kumru:progress:"))!)!).char);
+  expect(char?.v).toBe(1);
+  expect(char?.body?.build).toBe("adult");                // learners make adults only
   await expect(page.locator("#userchip .chr.sahne")).toBeVisible({ timeout: 20_000 });
 
   // the stories open in order: s1e02 waits for s1e01, and says so

@@ -17,6 +17,8 @@ import { warmStory } from "./warm.ts";
 import { launched, loadStories, loaded, nextStory, openStories, preview, readable, record, textIn, thumbBase, today, upcoming, type Story } from "./state.ts";
 import { Thumb } from "./Thumb.tsx";
 import { SEASON_LAUNCH } from "../../../shared/stories.ts";
+import { InstallOffer } from "../../ui/InstallCard.tsx";
+import { installOfferDue } from "../../ui/install.ts";
 
 const kerim = (mood: "happy" | "idle") => () => pup(mood, 88, { pose: "flying", enter: false, label: "Kerim" });
 
@@ -137,6 +139,7 @@ export function StoriesTab() {
     <div class="st-tab">
       <h1>Hikâyeler <small>Stories · {done}/{list.length}</small></h1>
       {!launched() ? <p class="hint">Preview: learners see these from {SEASON_LAUNCH[1]}.</p> : null}
+      {done >= 1 && installOfferDue() ? <InstallOffer /> : null}
       {!next && list.length ? <div class="empty"><BuiltNode render={kerim("happy")} /><p>You've read every story. Aferin!</p></div> : null}
       <ol class="st-tl">
         {weeks.map((w) => (

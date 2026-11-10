@@ -5,6 +5,8 @@
 .fr-card h2{margin:0;font:500 20px/1.2 var(--sans)}
 .fr-av{flex:none;border-radius:50%;background:var(--sunken);overflow:hidden;display:inline-block}
 .fr-av svg{width:100%;height:100%;display:block}
+/* a portrait the server held back (not mutual follows): the name's first letter */
+.fr-init{display:inline-grid;place-items:center;font-weight:700;line-height:1;color:var(--muted);background:var(--sunken);box-shadow:inset 0 0 0 1.5px var(--line)}
 .fr-in{width:100%;min-height:48px;border:0;border-radius:999px;background:var(--sunken);color:var(--ink);padding:0 18px;font:inherit;font-size:16px}
 .fr-in:focus{outline:none;box-shadow:var(--focus-ring)}
 .fr-row{display:flex;align-items:center;gap:10px;min-height:56px}

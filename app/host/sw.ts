@@ -4,11 +4,13 @@
    - install: precache the page, data/manifest.json, the hashed data files, the icons and the page's script chunks
      into `kumru-<version>`; the new version then waits until the page asks it to take over ("Reload"). The heavy lazy
      chunks (Sahne's builder and story player, the set families: BUILD.lazy), the recordings (/sounds/) and the characters' recorded lines (/voices/) are not
-     precached: they go into `kumru-lazy` the first time they are fetched, and stay there across versions.
+     precached: they go into `kumru-lazy` the first time they are fetched, and stay there across versions. Only real files are
+     kept (swcache.ts): the page that the Worker answers for an older build's file is a 404 here, never a cached chunk.
    - activate: delete the other `kumru-<version>` caches, and the lazy chunks this build no longer has.
    - fetch: /api goes to the network; same-origin GETs are cache-first (a navigation gets the cached
      page, so /f/… and /c/… links open offline too); Google Fonts are cached on first use. */
 import { clickTarget } from "./notify.ts";
+import { isFile, missing } from "./swcache.ts";
 
 const sw = self as unknown as ServiceWorkerGlobalScope;
 
@@ -18,7 +20,16 @@ const FONTS = "kumru-fonts";
 const LAZY = "kumru-lazy";
 
 sw.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE).then((c) => c.addAll(BUILD.files)));
+  // each file is checked, not `addAll`ed: a deploy during the install answers this build's files with the page (swcache.ts), and
+  // an install that fails leaves the version before it in charge until the next try
+  event.waitUntil((async () => {
+    const c = await caches.open(CACHE);
+    await Promise.all(BUILD.files.map(async (f) => {
+      const res = await fetch(f, { cache: "no-cache" });
+      if (!isFile(f, res)) throw new Error("not this build's " + f);
+      await c.put(f, res);
+    }));
+  })());
 });
 
 sw.addEventListener("activate", (event) => {
@@ -49,9 +60,13 @@ sw.addEventListener("fetch", (event) => {
       if (url.pathname.startsWith("/assets/") || url.pathname.startsWith("/sounds/") || url.pathname.startsWith("/thumbs/") || url.pathname.startsWith("/voices/")) {
         const lazy = await caches.open(LAZY);
         const old = await lazy.match(req, { ignoreSearch: true });
-        if (old) return old;
+        // an older worker may have kept the page as this file: dropped, and asked for again
+        if (old && isFile(url.pathname, old)) return old;
+        if (old) await lazy.delete(req, { ignoreSearch: true });
         const res = await fetch(req);
-        if (res.ok) await lazy.put(req, res.clone());
+        // the page standing in for a file this build does not have: a 404, never kept
+        if (!isFile(url.pathname, res)) return res.ok ? missing() : res;
+        await lazy.put(req, res.clone());
         return res;
       }
       return fetch(req);
@@ -72,7 +87,7 @@ sw.addEventListener("fetch", (event) => {
 
 /* Streak reminders (app/features/reminders/api.ts, worker/features/reminders/cron.ts): show the pushed message, open the app on tap. */
 sw.addEventListener("push", (event) => {
-  let d = { title: "Kerim is waiting", body: "One short lesson keeps your streak.", url: "/" };
+  let d = { title: "A story is waiting", body: "Kerim has a story for you today.", url: "/" };
   try { d = { ...d, ...event.data?.json() }; } catch { /* keep the default */ }
   event.waitUntil(sw.registration.showNotification(d.title, { body: d.body, icon: "/icon-192.png", badge: "/icon-192.png", data: { url: d.url }, tag: "kumru-streak" }));
 });

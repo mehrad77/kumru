@@ -53,6 +53,7 @@ export function FriendSheet({ uid, extra }: { uid: string; extra: SheetExtra | n
         <Avatar uid={uid} size={96} />
         <h2>{bidiTxt(name)}</h2>
         {un ? <p class="fr-un" dir="ltr">{"@" + un}</p> : null}
+        {!p.char && st !== "friends" ? <p class="hint fr-hidden">Their character shows once you follow each other.</p> : null}
         <div class="fr-meta">
           {p.pos && p.pos.lv ? <span class="pill fr-lv">{p.pos.lv}</span> : null}
           <span class="hint">{p.pos && p.pos.lv ? unitLabel(p.pos.lv, p.pos.u) : "Just started"}</span>

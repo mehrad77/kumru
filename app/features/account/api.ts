@@ -4,6 +4,7 @@
 import type { User } from "../../../shared/api.ts";
 import { lsSet } from "../../host/storage.ts";
 import { api, forgetSession, setToken, type ApiFailure } from "../../host/transport.ts";
+import { shareOrigin } from "../../host/site.ts";
 
 function signedIn(r: { token: string; user: User }) {
   setToken(r.token);
@@ -105,7 +106,7 @@ export const account = {
   /** A one-time code for adding a phone, as text, link and QR (SVG markup). */
   async pairStart() {
     const r = await api("POST", "/api/pair/start");
-    const url = `${location.origin}/pair/${r.json.code}`;
+    const url = `${shareOrigin()}/pair/${r.json.code}`;
     return { code: r.json.code as string, expires: r.json.expires as number, url, svg: await qrSvg(url) };
   },
   async pairClaim(code: string) {

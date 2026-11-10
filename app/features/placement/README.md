@@ -1,6 +1,6 @@
 # placement
 
-The adaptive check of words and suffixes that finds where a learner starts (onboarding's quiz step) or whether they may skip ahead (the Path's **Jump here** and **Test out**). The climb is a binary search over units (or tree sections): each probe asks about six words of one place (distractors from the same place, then the same level, then any) and up to four suffix items of its lessons; a probe passes with 5/6 of its words and 3/4 of its suffix items. No tab, no slots, no server half. The rules (scores, cautious learning marks, jumps) are in `docs/PROGRESS.md`.
+The adaptive check of words and suffixes that finds where a learner starts (Profile's *Retake*, onboarding's `place` mode) or whether they may skip ahead (the Path's **Jump here** and **Test out**). The climb is a binary search over units (or tree sections): each probe asks about six words of one place (distractors from the same place, then the same level, then any) and up to four suffix items of its lessons; a probe passes with 5/6 of its words and 3/4 of its suffix items. No tab, no slots, no server half. The rules (scores, cautious learning marks, jumps) are in `docs/PROGRESS.md`.
 
 | | |
 |---|---|
@@ -10,7 +10,7 @@ The adaptive check of words and suffixes that finds where a learner starts (onbo
 | CSS | `placement.css` (`.pl-head`, `.pl-body`); the prompt and option classes (`.q-title`, `.choices`, `.choice`, ...) are the practice screen's, in `app/styles/components.css` |
 | Storage | none of its own: `S.stats`, `S.drill`, `S.conf`, `S.learned`, `S.pos`, `S.placed` (progress document) |
 
-`index.ts` exports `loadClimb()` (the component, for onboarding's quiz step and the Path's Jump here and Test out sheets, through `ui/Lazy`), `PL_SELF`, `plNudge`, `applyPlacement`, `plSectionItems`, `scoreRecs`.
+`index.ts` exports `loadClimb()` (the component, for the `place` mode's quiz step and the Path's Jump here and Test out sheets, through `ui/Lazy`), `PL_SELF`, `plNudge`, `applyPlacement`, `plSectionItems`, `scoreRecs`.
 
 ## What this feature calls in the path feature
 

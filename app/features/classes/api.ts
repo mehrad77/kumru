@@ -3,6 +3,7 @@
 import type { Class, ClassBoard, ClassMember, ClassShare, ClassStyle } from "../../../shared/api.ts";
 import { weekKey } from "../../lib/progress.ts";
 import { api } from "../../host/transport.ts";
+import { shareOrigin } from "../../host/site.ts";
 
 export const classesApi = {
   list: (): Promise<Class[]> => api("GET", "/api/classes").then((r) => r.json.classes),
@@ -16,7 +17,7 @@ export const classesApi = {
   removeMember: (id: string, uid: string) => api("DELETE", `/api/classes/${id}/members/${uid}`),
   board: (id: string): Promise<ClassBoard> => api("GET", `/api/classes/${id}/board?week=${weekKey(Date.now())}`).then((r) => r.json as ClassBoard),
   members: (id: string): Promise<ClassMember[]> => api("GET", `/api/classes/${id}/members`).then((r) => r.json.members as ClassMember[]),
-  link: (code: string): string => `${location.origin}/c/${code}`,
+  link: (code: string): string => `${shareOrigin()}/c/${code}`,
 };
 
 /** How a failed request reads to a learner. */

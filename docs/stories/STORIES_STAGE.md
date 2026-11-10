@@ -160,6 +160,7 @@ An act turn's result counts like a choice: characters react, the warmth may move
 
 - **Log mode** (phones held upright):
   - The stage is on top at 16:10, sticky and collapsible. The log is below it, and the footer holds *Devam* or the reply card.
+  - The log reads like a group chat: each line in a bubble beside its speaker's head, with the speaker's name atop the bubble whenever the speaker changes (so a learner meets Farzad by name, not just by face). The learner's own lines come from the other side, unnamed.
   - On screens under 700 px tall, during a choice with three options, the stage shrinks to 16:6 and the line being answered shows as a bubble on stage, so the learner can always see what they are answering.
 - **Theatre mode** (phones held sideways, tablets, or a toggle): the stage fills the screen, lines show as bubbles, the reply card floats over the stage, and the log is a drawer.
 - **Taps on the stage** explore when the week turns `explore` on. Otherwise a tap does nothing; only *Devam* advances.
@@ -171,9 +172,10 @@ An act turn's result counts like a choice: characters react, the warmth may move
 - **The card.** When it is the learner's turn, the footer's *Devam* button is replaced by a reply card, in thumb reach. It shows:
   - the Turkish line, with every word tappable for its gloss, as in the log;
   - its translation, following the level's translation fade;
-  - a *Söyle* (say) button.
-- **Söyle.** Tapping it says the line: the learner's character speaks and gestures, the voice plays if sound is on, and the line enters the log.
-- **Say it aloud.** Unless the learner turned it off, the card also has a microphone, in every story (the arc's `aloud` no longer gates it). Speaking the line counts like tapping *Söyle*, and a tap always works too.
+  - one way to say it: the microphone where it works, *Söyle* where it does not (never both, which read as the same thing).
+- **The microphone.** Unless the learner turned it off, or speech recognition does not really work on the device (`voice.ts`), the card's main action is a round 🎤 button beside the line, in every story (the arc's `aloud` no longer gates it). A hint under the line says "Tap 🎤 and say it in Turkish", and the button glows until the learner has used it once (`kumru:story:micUsed`). Speaking the line says it. A quiet *Say it for me* link under the line says it without speaking: the tap always works too.
+- **Söyle.** Without a microphone, the card has a *Söyle* (say) button. Tapping it says the line: the learner's character speaks and gestures, the voice plays if sound is on, and the line enters the log.
+- **A choice, aloud.** Under a choice's options, the same 🎤 hears whichever option the learner says ("Tap 🎤 and say one, or tap it"), and tapping an option still picks it.
 - **The "…" card** (`voice: "silent"`) has no words, and its button reads *…* rather than *Söyle*. The character freezes: no voice, no mouth, the `nervous` face.
 - **A real choice** uses the **same card in the same place** with 2–3 options. Only the number of options differs.
 

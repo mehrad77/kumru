@@ -70,6 +70,8 @@
   .st-line{display:flex;align-items:flex-end;gap:8px;margin:0;max-width:100%}
   .st-line .st-av{flex:none;width:32px;height:32px;border-radius:50%;overflow:hidden;background:var(--sunken);box-shadow:0 0 0 1.5px var(--line)}
   .st-line .st-av>svg{width:100%;height:100%;display:block}
+  /* the speaker's name atop their bubble, when the speaker changes */
+  .st-who{display:block;font-size:13px;font-weight:700;color:var(--accent);margin-bottom:1px;line-height:1.3}
   .st-bub{position:relative;min-width:0;max-width:min(560px,100% - 40px);padding:8px 12px;border-radius:16px 16px 16px 4px;background:var(--surface);border:1px solid var(--line)}
   .st-bub::before{content:"";position:absolute;bottom:-1px;inset-inline-start:-6px;width:10px;height:10px;background:inherit;border-bottom:1px solid var(--line);border-inline-start:1px solid var(--line);clip-path:polygon(0 100%,100% 0,100% 100%);border-radius:0 0 0 3px}
   .st-line.me{flex-direction:row-reverse}
@@ -104,7 +106,15 @@
   .st-reply .st-mine::before{display:none}
   .st-send{flex:none;display:inline-flex;align-items:center;gap:8px;min-height:48px;padding-inline:18px 16px;border-radius:999px}
   .st-send-i{font-size:14px;line-height:1}
-  .st-reply .st-aloud{padding-inline-start:2px}
+  .st-reply .st-aloud{padding-inline-start:2px;justify-content:space-between}
+  /* the microphone: a round button where Söyle was (or under a choice), glowing until the learner has used it once */
+  .st-mic{flex:none;width:56px;height:56px;min-height:56px;padding:0;border-radius:50%;display:inline-grid;place-items:center;font-size:24px}
+  .st-mic[aria-pressed="true"]{animation:st-listen 1.1s ease-in-out infinite}
+  .st-mic-new{animation:st-glow 1.8s ease-in-out infinite}
+  @keyframes st-glow{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 45%,transparent)}50%{box-shadow:0 0 0 10px transparent}}
+  @keyframes st-listen{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+  @media (prefers-reduced-motion:reduce){.st-mic-new,.st-mic[aria-pressed="true"]{animation:none}}
+  .st-skip{padding:0;font-size:14px}
   .st-choose .st-opt{border-radius:16px 16px 4px 16px;background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 35%,transparent)}
   .st-choose .st-opt:hover:not(:disabled){border-color:var(--accent)}
   .st-opt{display:grid;gap:2px;text-align:start;border:1.5px solid var(--line);border-bottom-width:3px;background:var(--surface);border-radius:12px;padding:10px 14px;color:var(--ink);font-size:17px;min-height:44px}
@@ -122,4 +132,10 @@
   .st-end{justify-items:center;text-align:center}
   .st-stars-big{font-size:32px;margin:0;color:var(--accent);letter-spacing:4px}
   .st-theatre .st-log{max-height:var(--st-logh);overflow:auto}
+  /* the install offer (app/ui/InstallCard.tsx), atop the timeline */
+  .install-card{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;margin:0 0 14px}
+  .install-card img{flex:none;border-radius:10px}
+  .install-card b{display:block;font-size:16px}
+  .install-card .hint{margin:2px 0 8px}
+  .install-acts{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.install-acts .linkish{padding:0}
 }
