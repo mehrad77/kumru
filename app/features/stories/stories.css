@@ -132,4 +132,10 @@
   .st-end{justify-items:center;text-align:center}
   .st-stars-big{font-size:32px;margin:0;color:var(--accent);letter-spacing:4px}
   .st-theatre .st-log{max-height:var(--st-logh);overflow:auto}
+  /* the install offer (app/ui/InstallCard.tsx), atop the timeline */
+  .install-card{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;margin:0 0 14px}
+  .install-card img{flex:none;border-radius:10px}
+  .install-card b{display:block;font-size:16px}
+  .install-card .hint{margin:2px 0 8px}
+  .install-acts{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.install-acts .linkish{padding:0}
 }

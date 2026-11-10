@@ -24,6 +24,7 @@ export const feature: WebFeature = {
       { order: 60, load: card("VoiceCard") },
       { order: 70, load: card("AiCard") },
       { order: 80, load: card("AppearanceCard") },
+      { order: 85, load: card("InstallCard") },
       { order: 90, load: card("PrivacyCard") },
       { order: 95, load: card("EditorCard") },
     ],

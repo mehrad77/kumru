@@ -1,11 +1,13 @@
 // The Profile's own cards, each a fill of the `profileCards` slot (index.ts): Study, Language, Voice & audio, AI tutor,
-// Appearance, Privacy and (for editors) Editor tools. They write preferences with `setPref`, which the progress document syncs.
+// Appearance, App (installing it), Privacy and (for editors) Editor tools. They write preferences with `setPref`, which the progress document syncs.
 import { helpLang } from "../../core/lang.ts";
 import { local } from "../../core/local.ts";
 import { rerender } from "../../core/router.ts";
 import { S, redrawTick, signals } from "../../core/store.ts";
 import { Seg } from "../../ui/Seg.tsx";
 import { SetCard, SetRow, Switch } from "../../ui/settings.tsx";
+import { INSTALL_WHY, InstallAction } from "../../ui/InstallCard.tsx";
+import { installWay } from "../../ui/install.ts";
 import { hasMic, loadVoices, pickVoice, speak, trVoices } from "../../ui/speech.ts";
 import { openOnboarding } from "../onboarding/index.ts";
 import { rev } from "../progress/index.ts";
@@ -104,6 +106,18 @@ export function AppearanceCard() {
     <SetCard title="Appearance">
       <SetRow title="Theme" sub="On this device.">
         <Seg cur={theme.value} opts={[["system", "System"], ["light", "Light"], ["dark", "Dark"]]} onPick={chooseTheme} />
+      </SetRow>
+    </SetCard>
+  );
+}
+
+/** Installing Kumru on this device: the browser's prompt or the iPhone's steps (app/ui/InstallCard.tsx). Hidden where it cannot. */
+export function InstallCard() {
+  if (installWay() === "none") return null;
+  return (
+    <SetCard title="App">
+      <SetRow title="Kumru on your home screen" sub={INSTALL_WHY}>
+        <InstallAction />
       </SetRow>
     </SetCard>
   );

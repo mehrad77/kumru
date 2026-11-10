@@ -6,7 +6,7 @@ import type { IconName } from "../core/dom.ts";
 import { Icon } from "./Icon.tsx";
 
 /** The icon in front of each settings card's title. */
-const SET_ICON: Record<string, IconName> = { Account: "user", Classes: "users", Reminders: "bell", Study: "target", Language: "globe", "Voice & audio": "listen", Appearance: "sun", Privacy: "shield", "Editor tools": "sliders" };
+const SET_ICON: Record<string, IconName> = { Account: "user", Classes: "users", Reminders: "bell", Study: "target", Language: "globe", "Voice & audio": "listen", Appearance: "sun", App: "spark", Privacy: "shield", "Editor tools": "sliders" };
 
 export function SetCard({ title, children }: { title: string; children?: ComponentChildren }) {
   const icon = SET_ICON[title];
